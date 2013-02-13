@@ -1,0 +1,13 @@
+
+La compilació i generació dels fitxers EAR de les aplicacions es realitza
+mitjançant Apache Ant (http://ant.apache.org/) i l'script "build.xml" que
+hi ha a l'arrel de directoris. Un cop instal·lat Apache Ant només cal
+situar-se al directori arrel de l'aplicació i llençar la comanda "ant".
+
+Els fitxers queden generats a la carpeta "dist". El mateix EAR serveix per
+als entorns d'integració, acceptació i producció, excepte amb l'aplicació
+JNLPServlet que té tres fitxers EAR diferents, un per a cada entorn.
+
+Al directori "docs" hi ha les instruccions per posar a punt la base de dades
+Oracle, l'entorn de desenvolupament Netbeans i el backoffice MSAccess.
+

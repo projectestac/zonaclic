@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context allowLinking="true">
+<Resource name="jdbc/ClicConnectionPoolDS" auth="Container" type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver" url="jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=on)(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=XE)))" username="clic" password="clic" maxActive="20" maxIdle="10" maxWait="-1"/>
+</Context>

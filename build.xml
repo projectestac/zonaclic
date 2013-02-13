@@ -1,0 +1,358 @@
+<?xml version="1.0"?>
+
+<project name="WebClic" basedir="." default="all">
+
+  <!-- =================================================================== -->
+  <!-- INIT                                                                -->
+  <!-- =================================================================== -->
+  <target name="init" 
+          description="Initialize variables and define patterns and filters.">  
+
+    <!-- Variables -->
+    <property name="name"           value="WebClic" />    
+    <property name="year"           value="2004-10" />
+    
+    <property name="src.dir"        location="src" />
+    <property name="lib.dir"        location="lib" />
+    <property name="app.dir"        location="app" />
+    <property name="ear.dir"        location="ear" />
+    
+    <property name="build.dir"      location="build" />
+    <property name="build.int.dir"  location="${build.dir}/int" />
+    <property name="build.acc.dir"  location="${build.dir}/acc" />
+    <property name="build.prod.dir" location="${build.dir}/prod" />
+    
+    <property name="dist.dir"       location="dist" />
+    <property name="dist.int.dir"   location="${dist.dir}/int" />
+    <property name="dist.acc.dir"   location="${dist.dir}/acc" />
+    <property name="dist.prod.dir"  location="${dist.dir}/prod" />
+    
+    <property name="int.base"       value="http://clic-int.educacio.intranet:7778" />
+    <property name="acc.base"       value="http://clic-acc.xtec.cat" />
+    <property name="prod.base"      value="http://clic.xtec.cat" />
+    
+    <property name="deploy.dir"     location="deploy" />
+    <property name="apidoc.dir"     location="apidoc" />
+    <property name="resource.path"  value="edu/xtec/resources" />
+    
+    
+    <!-- JClic is currently targeted to JVM 1.4 -->
+    <property name="ant.build.javac.source" value="1.4"/>
+    <property name="ant.build.javac.target" value="1.4"/>
+    
+    <!-- Compiler options -->
+    <property name="debug"          value="off" />    
+    <property name="deprecation"    value="off" />    
+    <property name="optimize"       value="on" />    
+    
+    <!-- Patterns -->
+    <patternset id="images" >
+        <include name="**/*.gif"/>
+        <include name="**/*.jpg"/>
+        <include name="**/*.png"/>
+        <include name="**/*.ttf"/>
+    </patternset>
+    <patternset id="sounds" >
+        <include name="**/*.wav"/>
+        <include name="**/*.mp3"/>
+        <include name="**/*.au"/>
+        <include name="**/*.aif"/>
+        <include name="**/*.ogg"/>
+    </patternset>    
+    <patternset id="docs" >
+        <include name="**/*.html"/>
+        <include name="**/*.xml"/>
+        <include name="**/*.css"/>
+    </patternset>    
+    <patternset id="xmls" >
+        <include name="**/*.xml"/>
+    </patternset>    
+    <patternset id="props" >
+        <include name="**/*.properties"/>
+    </patternset>
+    <patternset id="serialized" >
+        <include name="**/*.ser"/>
+    </patternset>
+    <patternset id="jnlp" >
+        <include name="**/*.jnlp"/>
+    </patternset>
+    <patternset id="spi.services" >
+        <include name="META-INF/services/javax.sound.sampled.spi.*"/>
+        <include name="META-INF/services/javax.sound.midi.spi.*"/>
+    </patternset>    
+
+    <!-- Filters -->
+    <filterset id="versionFilterSet">
+        <filtersfile file="project.properties"/>
+    </filterset>
+
+    <!-- Display info -->
+    <echo message="---------------------"/>
+    <echo message="WebClic build"/>
+    <echo message="---------------------"/>        
+    <echo message="Using ${ant.version}, in ${ant.home}"/>
+    <echo message="Using Java ${java.version} by ${java.vendor} in ${java.home}"/>
+    <echo message="Generating code for Java ${ant.build.javac.target}"/>
+        
+    <!-- Create dirs -->
+    <mkdir dir="${build.int.dir}"/>
+    <mkdir dir="${build.acc.dir}"/>
+    <mkdir dir="${build.prod.dir}"/>
+    <mkdir dir="${dist.int.dir}"/>
+    <mkdir dir="${dist.acc.dir}"/>
+    <mkdir dir="${dist.prod.dir}"/>
+
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- MAIN                                                                -->
+  <!-- =================================================================== -->
+  <target name="all" 
+          depends="clicDB.ear,gali.ear,JNLPServlet.ear"
+          description="Builds everything.">
+    <echo message="*** WebClic successfully compiled!"/>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- CLEAN                                                               -->
+  <!-- =================================================================== -->
+  <target name="clean" 
+          depends="init" 
+          description="Clean build dir">
+    <delete dir="${build.dir}" />
+    <echo message="*** Build dir cleared!"/>
+  </target>
+  
+    
+  <!-- =================================================================== -->
+  <!-- clicDB -->
+  <!-- =================================================================== -->
+  <target name="clicDB" 
+          depends="init"
+          description="Builds the WAR of the clicZone main module">
+    <mkdir dir="${build.prod.dir}/clicDB.war-base"/>    
+    <copy todir="${build.prod.dir}/clicDB.war-base">
+      <fileset dir="${app.dir}/clicDB/web">    
+        <exclude name="WEB-INF/*" />
+        <exclude name="META-INF/*" />
+      </fileset>
+    </copy>
+    <mkdir dir="${build.prod.dir}/clicDB.war-base/WEB-INF/classes"/>
+    <copy todir="${build.prod.dir}/clicDB.war-base/WEB-INF/classes">
+        <fileset dir="${app.dir}/clicDB/src/java">
+            <patternset refid="props" />
+        </fileset>            
+    </copy>        
+    
+    <javac destdir="${build.prod.dir}/clicDB.war-base/WEB-INF/classes" 
+           debug="${debug}"
+           deprecation="${deprecation}"
+           optimize="${optimize}"
+           source="${ant.build.javac.source}"
+           target="${ant.build.javac.target}" >
+        <src path="${app.dir}/clicDB/src/java"/>
+        <classpath>
+            <pathelement location="${lib.dir}/jclicreports.jar"/>
+            <pathelement location="${lib.dir}/jclic.jar"/>
+            <pathelement location="${lib.dir}/servlet-api.jar"/>
+        </classpath>        
+    </javac>
+    
+    <!-- workaround to avoid the 2-seconds granularity value set by the "war" ant task (see ant's manual)-->
+    <sleep seconds="3" />
+    <war destfile="${build.prod.dir}/clicDB.war"
+         basedir="${build.prod.dir}/clicDB.war-base"
+         webxml="${app.dir}/clicDB/web/WEB-INF/web.xml" >
+    </war>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- clicDB.ear: ClicZone main module                                            -->
+  <!-- =================================================================== -->
+  <target name="clicDB.ear" 
+          depends="clicDB"
+          description="Builds the EAR of the clicZone main module">              
+          
+    <sleep seconds="3" />    
+    <ear destfile="${dist.prod.dir}/e13_jclic.ear" 
+         appxml="${ear.dir}/e13_jclic/src/conf/application.xml">
+        <fileset dir="${build.prod.dir}" includes="clicDB.war"/>
+    </ear>
+  </target>
+  
+  <!-- =================================================================== -->
+  <!-- jnlp: JNLPServlet                                                   -->
+  <!-- =================================================================== -->
+  <target name="JNLPServlet" 
+          depends="init"
+          description="Builds the WAR and EAR versions of the clicZone jnlp module">
+          
+    <mkdir dir="${build.prod.dir}/JNLPServlet.war-base"/>    
+    <copy todir="${build.prod.dir}/JNLPServlet.war-base">
+      <fileset dir="${app.dir}/JNLPServlet/web">    
+        <exclude name="WEB-INF/*" />
+        <exclude name="META-INF/*" />
+      </fileset>
+    </copy>
+    <mkdir dir="${build.prod.dir}/JNLPServlet.war-base/WEB-INF/classes"/>
+    <copy todir="${build.prod.dir}/JNLPServlet.war-base/WEB-INF/classes">
+        <fileset dir="${app.dir}/JNLPServlet/src/java">
+            <patternset refid="props" />
+        </fileset>            
+    </copy>        
+    <javac destdir="${build.prod.dir}/JNLPServlet.war-base/WEB-INF/classes" 
+           debug="${debug}"
+           deprecation="${deprecation}"
+           optimize="${optimize}"
+           source="${ant.build.javac.source}"
+           target="${ant.build.javac.target}" >
+        <src path="${app.dir}/JNLPServlet/src/java"/>
+        <classpath>
+            <pathelement location="${lib.dir}/servlet-api.jar"/>
+        </classpath>        
+    </javac>
+    
+    <!-- Prepara integració -->
+    <mkdir dir="${build.int.dir}/JNLPServlet.war-base"/>
+    <copy todir="${build.int.dir}/JNLPServlet.war-base">
+        <fileset dir="${build.prod.dir}/JNLPServlet.war-base"/>
+    </copy>
+    <replace dir="${build.int.dir}/JNLPServlet.war-base/jclic" 
+             token="${prod.base}/jnlp"
+             value="${int.base}/jnlp">
+      <patternset refid="jnlp" />
+    </replace>
+    
+    <!-- Prepara acceptació -->
+    <mkdir dir="${build.acc.dir}/JNLPServlet.war-base"/>
+    <copy todir="${build.acc.dir}/JNLPServlet.war-base">
+        <fileset dir="${build.prod.dir}/JNLPServlet.war-base"/>
+    </copy>
+    <replace dir="${build.acc.dir}/JNLPServlet.war-base/jclic" 
+             token="${prod.base}/jnlp"
+             value="${acc.base}/jnlp">
+      <patternset refid="jnlp" />
+    </replace>
+    
+    <!-- Genera fitxers war -->
+    <sleep seconds="3" />    
+    <war destfile="${build.prod.dir}/JNLPServlet.war" 
+         basedir="${build.prod.dir}/JNLPServlet.war-base"
+         webxml="${app.dir}/JNLPServlet/web/WEB-INF/web.xml" >
+    </war>    
+    <war destfile="${build.int.dir}/JNLPServlet.war" 
+         basedir="${build.int.dir}/JNLPServlet.war-base"
+         webxml="${app.dir}/JNLPServlet/web/WEB-INF/web.xml" >
+    </war>
+    <war destfile="${build.acc.dir}/JNLPServlet.war" 
+         basedir="${build.acc.dir}/JNLPServlet.war-base"
+         webxml="${app.dir}/JNLPServlet/web/WEB-INF/web.xml" >
+    </war>
+    
+  </target>                              
+
+  <!-- =================================================================== -->
+  <!-- jnlp.ear: JNLPServlet EAR file -->
+  <!-- =================================================================== -->
+  <target name="JNLPServlet.ear" 
+          depends="JNLPServlet"
+          description="Builds the EAR of the clicZone jnlp module">          
+    <sleep seconds="3" />    
+    <ear destfile="${dist.prod.dir}/e13_jclic_jnlp.ear" 
+         appxml="${ear.dir}/e13_jclic_jnlp/src/conf/application.xml">
+        <fileset dir="${build.prod.dir}" includes="JNLPServlet.war"/>
+    </ear>
+    <ear destfile="${dist.int.dir}/e13_jclic_jnlp.ear" 
+         appxml="${ear.dir}/e13_jclic_jnlp/src/conf/application.xml">
+        <fileset dir="${build.int.dir}" includes="JNLPServlet.war"/>
+    </ear>
+    <ear destfile="${dist.acc.dir}/e13_jclic_jnlp.ear" 
+         appxml="${ear.dir}/e13_jclic_jnlp/src/conf/application.xml">
+        <fileset dir="${build.acc.dir}" includes="JNLPServlet.war"/>
+    </ear>    
+  </target>                              
+  
+  <!-- =================================================================== -->
+  <!-- gali -->
+  <!-- =================================================================== -->
+  <target name="gali" 
+          depends="init"
+          description="Builds the WAR of Gali">
+    <mkdir dir="${build.prod.dir}/gali.war-base"/>    
+    <copy todir="${build.prod.dir}/gali.war-base">
+      <fileset dir="${app.dir}/gali/web">    
+        <exclude name="WEB-INF/*" />
+        <exclude name="META-INF/*" />
+      </fileset>
+    </copy>
+    <mkdir dir="${build.prod.dir}/gali.war-base/WEB-INF/classes"/>
+    <copy todir="${build.prod.dir}/gali.war-base/WEB-INF/classes">
+        <fileset dir="${app.dir}/gali/src/java">
+            <patternset refid="props" />
+        </fileset>            
+    </copy>        
+    
+    <javac destdir="${build.prod.dir}/gali.war-base/WEB-INF/classes" 
+           debug="${debug}"
+           deprecation="${deprecation}"
+           optimize="${optimize}"
+           source="${ant.build.javac.source}"
+           target="${ant.build.javac.target}" >
+        <src path="${app.dir}/gali/src/java"/>
+        <classpath>
+            <pathelement location="${lib.dir}/servlet-api.jar"/>
+        </classpath>        
+    </javac>
+    
+    <!-- workaround to avoid the 2-seconds granularity value set by the "war" ant task (see ant's manual)-->
+    <sleep seconds="3" />    
+    <war destfile="${build.prod.dir}/gali.war" 
+         basedir="${build.prod.dir}/gali.war-base"
+         webxml="${app.dir}/gali/web/WEB-INF/web.xml" >
+    </war>
+  </target>
+  
+  <!-- =================================================================== -->
+  <!-- reportsWebApp -->
+  <!-- =================================================================== -->
+  <target name="reportsWebApp" 
+          depends="init"
+          description="Builds the reportsWebApp WAR of Gali">
+    <mkdir dir="${build.prod.dir}/reportsWebApp.war-base"/>    
+    
+    <unwar src="${lib.dir}/jclicreports.war"
+           dest="${build.prod.dir}/reportsWebApp.war-base"/>
+           
+    <delete file="${build.prod.dir}/reportsWebApp.war-base/WEB-INF/web.xml"/>
+    <delete dir="${build.prod.dir}/reportsWebApp.war-base/META-INF"/>
+    
+    <!-- workaround to avoid the 2-seconds granularity value set by the "war" ant task (see ant's manual)-->
+    <sleep seconds="3" />    
+    <war destfile="${build.prod.dir}/reportsWebApp.war" 
+         basedir="${build.prod.dir}/reportsWebApp.war-base"
+         webxml="${app.dir}/reportsWebApp/web/WEB-INF/web.xml" >
+        <lib dir="${lib.dir}">
+            <include name="jclic.jar" />
+            <include name="jclicreports.jar" />
+        </lib>
+    </war>
+    
+    <delete dir="${build.prod.dir}/reportsWebApp.war-base"/>
+    
+  </target>
+  
+  <!-- =================================================================== -->
+  <!-- gali.ear: Gali EAR file -->
+  <!-- =================================================================== -->
+  <target name="gali.ear" 
+          depends="gali,reportsWebApp"
+          description="Builds the EAR of gali">          
+    <sleep seconds="3" />    
+    <ear destfile="${dist.prod.dir}/e13_gali.ear" 
+         appxml="${ear.dir}/e13_gali/src/conf/application.xml">
+        <fileset dir="${build.prod.dir}" includes="gali.war"/>
+        <fileset dir="${build.prod.dir}" includes="reportsWebApp.war"/>
+    </ear>
+  </target>                              
+
+</project>

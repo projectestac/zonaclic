@@ -1,0 +1,44 @@
+.pregunta  {
+	font-size : 15px;
+	color : #333300;
+	font-weight: bold;
+	padding-top: 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+	vertical-align: bottom;
+	font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+
+
+
+
+
+}
+
+.resposta  {
+	padding-bottom: 30px;
+	font-size: 10pt;
+
+
+
+}
+
+.itemPregunta  {
+	font-size : 10pt;
+}
+
+.itemPregunta LI {
+	margin-top: 6px;
+	margin-bottom: 6px;
+	list-style-image: url(../img/questionitem.gif);
+
+
+
+
+
+
+}

@@ -1,0 +1,79 @@
+
+* docs/desplegament: Instruccions per a la creació dels entorns i el desplegament de les aplicacions
+* oracle:            Bolcat de la base de dades, drivers JDBC, client Oracle i fitxer MDB emprats per al backoffice
+
+ -------- lib --------
+ 
+ * lib:   Directori on cal situar els fitxers JAR i WAR generats pel projecte JClic. Algunes de les
+          aplicacions en fan ús directa o indirectament.
+          
+ -------- Fitxers estàtics --------
+
+ * web:   Directori arrel del portal web "clic.xtec.cat", amb fitxers
+          estàtics necessaris per a la seva correcta visualització i
+          alguns fitxers de projectes JClic per fer proves.
+
+ * web/ca: Fitxers estàtics de la versió catalana del portal
+ * web/es: Fitxers estàtics de la versió castellana del portal
+ * web/en: Fitxers estàtics de la versió anglesa del portal    
+ * web/css: Fulls d'estils
+ * web/scripts: Fitxers JavaScript emprats a la web
+ * web/img: Imatges i altres objectes (Flash...) emprats a la web
+ 
+ * web/projects: Magatzem de projectes Clic 3.0 i JClic. Hi ha un diretori
+                   per a cada projecte, amb subdirectoris "jclic" i/o "clic3".
+                   El directori a producció té més de 1.800 projectes. Aquí 
+                   s'hi inclou només una petita mostra
+ * web/gifs:     Imatges de cada un dels projectes JClic (aquí hi ha només
+                   una mostra) en format GIF, JPG o PNG
+ * web/thumbs:   Versions reduïdes de les imatges del directori arrel/gifs,
+                   emprades al servei RSS. S'inclou també només una mostra.
+                   
+
+ -------- ClicDB --------
+
+ * app/clicDB:          Aplicació WAR principal de la biblioteca de projectes JClic, que es munta
+                        al directori "/db" del portal zonaClic.
+            
+ * app/clicDB/srv/java: Fitxers .java i .properties
+ * app/clicDB/web:      Fitxers .jsp i de definició de context (web.xml...)
+ 
+ * ear/e13_jclic:       Fitxer application.xml necessari per a muntar el fitxer EAR
+
+ -------- JNLPServlet --------
+ 
+ * app/JNLPServlet: Aplicació que serveix els fitxers JNLP i les seves dependències (fitxers
+                    JAR, fitxers JARDIFF, imatges splash, etc. Es munta al directori "/jnlp"
+                    del portal zonaClic.
+                
+ * app/JNLPServlet/src/java: Codi font basat en el servlet proveït per Sun al "JNLP Developers
+                             Pack", amb algunes modificacions comentades amb l'etiqueta
+                             ">>> MODIFIED"
+ * app/JNLPServlet/web/jclic: Aquí es on es situen els fitxers binaris que subministra
+                              el servlet, a partir dels quals es generen els fitxers JARDIFF.
+                              Aquí és on s'han d'ubicar els fitxers JAR del JClic quan hi ha
+                              noves versions.
+ * ear/e13_jclic_jnlp:        Fitxer application.xml necessari per a muntar el fitxer EAR
+ 
+ -------- Galí --------
+ 
+ * app/reportsWebApp: El WAR amb els servlets del sistema d'informes JClic és idèntic al que genera 
+                      el build de JClic (http://projectes.lafarga.cat/projects/jclic), amb la única
+                      diferència d'una línia al fitxer web/WEB-INF/web.xml, que es troba en aquest directori.
+                  
+ * app/gali:       Codi font de l'aplicació Galí.
+ 
+ * ear/e13_gali:   Fitxer application.xml denessari per a muntar el fitxer EAR
+
+ * web/fgali:      Fitxers d'exercicis Galí, versió català oriental. S'inclou
+                   només una mostra (des de g0101a fins a g0202b) i només de la
+                   versió compacta.
+                   
+ * web/fgalino:    Fitxers d'exercicis Galí, versió català nord-occidental. S'inclou
+                   només una mostra (des de g0101a fins a g0202b) i només de la
+                   versió compacta.
+                   
+ * web/fgalial:    Fitxers d'exercicis Galí, versió català alguerès. S'inclou
+                   només una mostra (des de g0101a fins a g0202b) i només de la
+                   versió compacta.
+

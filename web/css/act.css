@@ -1,0 +1,107 @@
+.area  {
+	font-size : 14pt;
+	color : Green;
+	margin-top : 10;
+	margin-bottom : 10;
+}
+
+.titol  {
+	font-size : 15pt;
+	color : #FF6600;
+	font-weight : bold;
+	margin-bottom : 10;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+
+
+}
+
+.autors  {
+	font-size : 10pt;
+	color : Blue;
+	margin-bottom : 6;
+}
+
+.centre  {
+	color : Green;
+	font-size : 10pt;
+	margin-bottom : 6;
+}
+
+.desc  {
+	margin-top : 6;
+	font-size : 10pt;
+	margin-bottom : 10;
+}
+
+.info  {
+	font-size : 10pt;
+	color : Purple;
+	margin-top : 10;
+	margin-bottom : 10;
+}
+
+.botons  {
+	font-size : 8pt;
+	color : Black;
+	padding-top : 5;
+	padding-bottom : 5;
+	cursor : hand;
+}
+
+.out  {
+	filter : Gray;
+	color : Black;
+	cursor : hand;
+	font-size : 10;
+}
+
+.over  {
+	filter : None;
+	color : Red;
+	cursor : hand;
+	font-size : 10;
+}
+
+.blocIdioma  {
+	font-weight : bold;
+	color : Blue;
+	font-size : 12;
+	margin-top : 12;
+}
+
+.capBotons  {
+	font-size : 8pt;
+	color : White;
+	background-color : #FF6D01;
+	padding-top : 3;
+	padding-bottom : 3;
+	font-weight : bold;
+}
+
+.taulaInfoRow  {
+	font-size : 8pt;
+	background-color : #AFD0E0;
+	color : Black;
+	padding-right : 10;
+}
+
+.taulaInfoCol  {
+	font-size : 8pt;
+	background-color : #EFEFEF;
+	margin : 5;
+	padding : 2;
+}
+
+.novetat  {
+	color : Red;
+}
+.url {
+	color: #FF9900;
+	vertical-align: bottom;
+	height: 100%;
+	font-size: 8pt;
+
+
+
+
+}

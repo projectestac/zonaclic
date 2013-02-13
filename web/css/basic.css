@@ -1,0 +1,266 @@
+BODY {
+	background-color: #CCFF99;
+	scrollbar-face-color: #A5CD7D;
+	scrollbar-highlight-color: #D9EFC3;
+	scrollbar-shadow-color: #A5CD7D;
+	scrollbar-3dlight-color: #D9EFC3;
+	scrollbar-arrow-color: #264A02;
+	scrollbar-track-color: #D9EFC3;
+	scrollbar-darkshadow-color: #264A02;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+
+
+}
+
+A {
+	color: #043698;
+	text-decoration: none
+}
+
+A:hover {
+	color: #a00000; 
+	text-decoration: underline
+}
+
+H1 {
+	font-weight: bold; 
+	font-size: 20px; 
+	color: #000000; 
+	line-height: 120%; 
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none
+}
+
+H2 {
+	font-weight: bold; 
+	font-size: 20px; 
+	color: #000000; 
+	line-height: 120%; 
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none
+}
+.peu {
+	background-color: #CCFF99;
+
+}
+.topMenu {
+	font-size: 10px;
+	margin-bottom: 30px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+	padding-bottom: 4px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+
+
+
+
+
+
+
+}
+.main {
+	background-color: #FFFFFF;
+}
+.t1 {
+	font-size: 18pt;
+	font-weight: bold;
+	color: #003300;
+	font-family: "Trebuchet MS", "Lucida Grande", Verdana, Lucida, Geneva, Helvetica, Arial, sans-serif;
+
+}
+.fBox {
+	font-size: 9pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #336666;
+
+}
+.f1 {
+	background-color: #fff6dd;
+}
+.f1 a {
+	color: #ff9900;
+}
+.f1 a:hover {
+	color: #a00000; 
+}
+.f1 .fBox {
+	background-color: #ff9900;
+}
+.f2 {
+	background-color: #ffcccc;
+}
+.f2 a {
+	color: #993333;
+}
+.f2 a:hover {
+	color: #a00000; 
+}
+.f2 .fBox {
+	background-color: #993333;
+}
+.f3 {
+	background-color: #B0D0E0;
+}
+.f3 a {
+	color: #336666;
+}
+.f3 a:hover {
+	color: #a00000; 
+}
+.f3 .fBox {
+	background-color: #336666;
+}
+.f4 {
+	background-color: #DDF0FF;
+}
+.f4 a {
+	color: #336699;
+}
+.f4 a:hover {
+	color: #a00000; 
+}
+.f4 .fBox {
+	background-color: #336699;
+}
+.t2 {
+	font-size: 13pt;
+	font-weight: bold;
+	color: #003366;
+	font-family: "Trebuchet MS", "Lucida Grande", Verdana, Lucida, Geneva, Helvetica, Arial, sans-serif;
+
+}
+.codi {
+	font-family: "Courier New", Courier, mono;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #006699;
+}
+.t3 {
+	font-size: 11pt;
+	font-weight: bold;
+	color: #990000;
+	border: thin none;
+	font-style: normal;
+	margin-bottom: -8pt;
+
+
+
+
+
+}
+.peuDeFoto {
+	font-size: xx-small;
+	text-align: center;
+
+}
+.liniaFina {
+	color: #990000;
+	font-size: xx-small;
+
+
+}
+.taulaMenu {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	vertical-align: top;
+	font-size: 9pt;
+
+
+
+
+
+
+}
+.blocLateralMenu {
+	padding-left: 10px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+	color: #000066;
+	text-align: left;
+	vertical-align: top;
+	font-family: "Trebuchet MS", "Lucida Grande", Verdana, Lucida, Geneva, Helvetica, Arial, sans-serif;
+	font-style: oblique;
+	font-size: 10pt;
+
+
+
+
+
+
+
+
+
+}
+table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+.taulaCap {
+	background-color: #B0CAE3;
+
+}
+LI {
+	padding-bottom: 10px;
+}
+.identat {
+	padding-left: 50px;
+
+}
+.taulaSenar {
+	background-color: #E0E0E0;
+}
+.taulaParell {
+	background-color: #FFFFFF;
+}
+.invisible {
+	visibility: hidden;
+}
+.llistalletres {
+	list-style-type: lower-alpha;
+}
+.nou {
+	color: #FF0000;
+	text-decoration: blink;
+}
+.extern {
+	background: url(../img/external.png) center right no-repeat;
+	padding-right: 13px;
+}
+.avis{
+	background-color:#FFFFCC;
+	border:thin solid #FFCC00;
+	padding: 7px;
+	visibility: hidden;
+	display:none;
+}
+.avislpi{
+	color:#8F8F8F;
+	font-size:0.85em;
+	padding-bottom:10px;
+	padding-left:40px;
+	padding-right:10px;
+	padding-top:10px;
+}
+.fonsgris {
+	font: Verdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-style:italic;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="g0102b_intro" version="0.1.3">
+ <settings>
+  <title>g0102b intro</title>
+  <revision description="created" date="5/14/03" />
+  <descriptors />
+  <skin file="gali.xml" />
+ </settings>
+ <sequence>
+  <item id="presenta" name="Presentació" navButtons="none" delay="1">
+   <jump project="g0102b.jclic.zip" id="forward" />
+   <jump action="STOP" id="back" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.InformationScreen" name="Presentació" code="">
+   <description>
+    <p>Pantalla d'espera mentre es carrega el paquet d'activitats</p>
+   </description>
+   <messages />
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="img/textura.gif" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="521.0" cellHeight="347.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell image="img/intro.gif" />
+   </cells>
+  </activity>
+ </activities>
+ <mediaBag>
+  <media file="img/textura.gif" name="img/textura.gif" />
+  <media file="img/intro.gif" name="img/intro.gif" />
+ </mediaBag>
+</JClicProject>
+

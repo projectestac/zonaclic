@@ -1,0 +1,63 @@
+BODY{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+	background-color : White;
+}
+
+P{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+}
+
+H1{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 14pt;
+	color : #00008B;
+	font-weight : bold;
+}
+
+H2 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 13pt;
+	font-weight : bold;
+}
+
+H3 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11pt;
+	font-weight : bold;
+}
+
+H4{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	font-weight : bold;
+}
+
+TD {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+}
+
+UL {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+}
+
+A{
+	text-decoration : none;
+	color : Blue;
+}
+
+A:HOVER{
+	text-decoration : underline;
+	color : Red;
+}
+
+.BG1{
+	background : #E6E6FA;
+}
+
+.BG2{
+	background : #FAFAD2;
+}

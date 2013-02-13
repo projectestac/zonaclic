@@ -1,0 +1,126 @@
+BODY  {
+	font-family : Verdana, Arial, Helvetica;
+	background-color : #CCCCCC;
+	font-size : 9pt;
+	background-image: url(../img/fons_doc.gif);
+
+}
+
+TD{
+	font-family : Verdana, Arial, Helvetica;
+	font-size : 9pt;
+}
+
+P  {
+	font-family : Verdana, Arial, Helvetica;
+	font-size : 9pt;
+}
+
+H1  {
+	font-size : 16pt;
+	color : #FF6D01;
+	font-weight : bold;
+}
+
+H2  {
+	font-size : 14pt;
+	color : #FF6D01;
+	font-weight : bold;
+}
+
+H3  {
+	font-size : 13pt;
+	color : #FF6D01;
+	font-weight : bold;
+}
+
+A  {
+	color : Purple;
+	text-decoration : none;
+}
+
+A:Visited  {}
+
+A:Active  {}
+
+A:Hover  {
+	color : Red;
+}
+.idioma {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #6666FF;
+}
+.idioma A {
+	color: #FFFFFF;
+}
+.idioma A:Hover {
+	color: #FF6600;
+}
+.idioma A:Visited {
+	color: #FFFFFF;
+}
+.menu1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #0066CC;
+}
+.menu1 A {
+	color: #FFFFFF;
+}
+.menu1 A:Hover {
+	color: #FFFF00;
+	text-decoration: underline;
+
+}
+.menu1 A:Visited {
+	color: #FFFFFF;
+}
+
+.menu2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	background-color: #6699FF;
+}
+.menu2 A {
+	color: #FFFFFF;
+}
+.menu2 A:Hover {
+	color: #FF6600;
+	text-decoration: underline;
+
+}
+.menu2 A:Visited {
+	color: #003300;
+}
+.menu3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #0000CC;
+	background-color: #FFFFCC;
+	text-indent: 10px;
+}
+.menu3 A {
+	color: #0000CC;
+}
+.menu3 A:Hover {
+	color: #FF6600;
+	text-decoration: underline;
+
+}
+.menu3 A:Visited {
+	color: #0000CC;
+}
+.titol2 {
+	font-family: "Arial narrow", Arial, Verdana, Helvetica, sans-serif;
+	font-size: 20pt;
+	color: #FFFFFF;
+	background-color: #6666FF;
+	font-weight: normal;
+	text-indent: 10px;
+}
