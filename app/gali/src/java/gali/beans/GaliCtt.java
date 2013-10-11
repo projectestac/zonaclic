@@ -26,8 +26,8 @@ public abstract class GaliCtt {
     public static final int UNDEFINED=0, NO=1, YES=2;
     public static final String EQ="=", SI="si", NULL="null";
     // Variants Oriental i Nord-occidental
-    public static final String OR="or", NOC="noc", ALG="alg";
-    public static final int VAR_OR=0, VAR_NOC=1, VAR_ALG=2;
+    public static final String OR="or", NOC="noc", ALG="alg", OC="oc";
+    public static final int VAR_OR=0, VAR_NOC=1, VAR_ALG=2, VAR_OC=3;
     
     public static final String PASSED_ICON_INI_URL="led_verd_ok.gif";
     public static final String NORMAL_ICON_INI_URL="led_verd.gif";
@@ -52,7 +52,7 @@ public abstract class GaliCtt {
     //private static Properties settings;
     //public static final String SETTINGS_PATH="/gali/settings.properties";
     
-    public static final String USER_KEY="usuari-edu365";
+    public static final String USER_KEY="usuari-xtec";
 
     HttpServletRequest request;
     HttpServletResponse response;
@@ -167,6 +167,8 @@ public abstract class GaliCtt {
                 result=VAR_NOC;
             else if(s!=null && s.equals(ALG))
                 result=VAR_ALG;
+            else if(s!=null && s.equals(OC))
+                result=VAR_OC;
             var=new Integer(result);
             
         }

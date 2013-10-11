@@ -1,6 +1,7 @@
 <%@page contentType="text/html; charset=ISO-8859-1"%>
 <jsp:useBean id="bm" class="gali.beans.GaliMainBean" scope="request" /><%
 if(!bm.init(request, session, response)){%><jsp:forward page="error.html"/><%}
+String enrere = (bm.getVar() == gali.beans.GaliCtt.VAR_OC) ? "endarr&egrave;r" : "enrere";
 %><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
@@ -32,11 +33,17 @@ if(!bm.init(request, session, response)){%><jsp:forward page="error.html"/><%}
           <td height="120"><a href="gali.jsp"><img src="../descripcio/logo_petit.gif" width="132" height="120" border="0"></a></td>
           <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
           <td valign="bottom" class="titoltema">
-<% if(bm.getVar()!=bm.VAR_ALG){ %> 
-            <p>Fes un clic sobre el grup d'activitats pel qual vulguis comen&ccedil;ar:</p>
-<% } else { %>
-            <p>Fes un clic a damunt del grup d'activitats pel qual vulguis comen&ccedil;ar:</p>
-<% } %>
+          <% switch(bm.getVar()) {
+                case gali.beans.GaliCtt.VAR_ALG:%>
+          <p>Fes un clic a damunt del grup d'activitats pel qual vulguis comen&ccedil;ar:</p>
+                <%break;
+                case gali.beans.GaliCtt.VAR_OC:%>
+          <p>H&egrave; un clic sus eth grop d'activitats peth que volgues començar:</p>
+                <%break;
+                default:%>
+          <p>Fes un clic sobre el grup d'activitats pel qual vulguis comen&ccedil;ar:</p>      
+                <%break;
+          }%>                  
           </td>
         </tr>
         <tr> 
@@ -44,13 +51,23 @@ if(!bm.init(request, session, response)){%><jsp:forward page="error.html"/><%}
             <p>&nbsp;</p>
             <table width="560" border="0" align="left" cellpadding="0" cellspacing="2">
               <tr align="left"> 
-<% if(bm.getVar()!=bm.VAR_ALG){ %> 
-                <td width="60%" class="titoltemab">BLOCS TEM&Agrave;TICS DE CONTINGUT</td>
-<% } else { %>
+          <% switch(bm.getVar()) {
+                case gali.beans.GaliCtt.VAR_ALG:%>
                 <td width="60%" class="titoltemab">BLOCS TEM&Agrave;TICS DE CONTENGUT</td>
-<% } %>
                 <td width="20%" class="titoltemab" align="center">INICIACI&Oacute;</td>
                 <td width="20%" class="titoltemab" align="center">APROFUNDIMENT</td>
+                <%break;
+                case gali.beans.GaliCtt.VAR_OC:%>
+                <td width="60%" class="titoltemab">BLOCS TEMATICS DE CONTENGUT</td>
+                <td width="20%" class="titoltemab" align="center">INICIACION</td>
+                <td width="20%" class="titoltemab" align="center">APREGONDIMENT</td>
+                <%break;
+                default:%>
+                <td width="60%" class="titoltemab">BLOCS TEM&Agrave;TICS DE CONTINGUT</td>
+                <td width="20%" class="titoltemab" align="center">INICIACI&Oacute;</td>
+                <td width="20%" class="titoltemab" align="center">APROFUNDIMENT</td>
+                <%break;
+          }%>                  
               </tr>
               <tr align="left"> 
                 <td height="10" colspan="3"><img src="../descripcio/pixel.gif" width="560" height="2"></td>
@@ -82,13 +99,13 @@ if(!bm.init(request, session, response)){%><jsp:forward page="error.html"/><%}
             <table border="0" cellpadding="0" cellspacing="0" width="100%">
 			<tr>
 			    <td align="left" class="cos" valign="top"> 
-                  <p><b><a href="gali.jsp">[enrere]</a><br>
+                  <p><b><a href="gali.jsp">[<%= enrere %>]</a><br>
                     </b></p>
                 </td>
 			    <td align="right" class="cos" valign="top"> 
                   <p> 
                     <% if(!bm.isCons() && bm.getUserId()!=null){%>
-                    <b><a href="promptClear.jsp">[esborrar dades]</a></b> 
+                    <b><a href="promptClear.jsp">[<%if(bm.getVar()==gali.beans.GaliCtt.VAR_OC) {%>esfa&ccedil;ar es dades<% } else { %>esborrar dades<% }%>]</a></b> 
                     <% } %>
                   </p>
             </td>

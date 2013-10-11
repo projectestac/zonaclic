@@ -43,7 +43,7 @@ if(!b.init(request, session, response)){%><jsp:forward page="error.html"/><%}
               <tr> 
                 <td valign="top" align="left" width="45%" class="cos"> 
                   <p><span class="titoltema">Aprendiment guiat</span><br>
-                    Exclusivament per utents registrats de l'edu365.cat. Lo 
+                    Exclusivament per utents registrats de d'XTEC i XTECBlocs. Lo 
                     sistema recorda el resultat dels exercicis. L'objectiu &eacute;s 
                     superar tots los m&ograve;duls.</p>
                   <p class="cospetit">&nbsp;</p>

@@ -41,21 +41,58 @@ if(!br.init(request, session, response)){%><jsp:forward page="error.html"/><%}
                 <td width="7" align="left"><img src="../home/pixel.gif" width="1" height="198"></td>
                 <td width="119"> 
                   <p align="center"><font color="#05508a" size="2" face="Arial, Helvetica, sans-serif"><img src="imatges/nenplorab.gif" width="77" height="154"></font></p></td>
-                <td width="441"><p align="center" class="titoltema">Ep!<br>
-<%if(!br.incomplete){%>
-                    Has <%if(br.getVar()!=br.VAR_ALG){%>obtingut<%}else{%>obtengut<%}%> una puntuaci&oacute; del <%=br.getQualification()%>%,<br>
-                    i el m&iacute;nim per superar la prova era del <%=br.getMinimumPassedQualification()%>%.
-<%} else {
-    if(br.isOk){%>
-                    Anaves bé! Portaves una puntuaci&oacute; del <%=br.getQualification()%>%, però...<br>
-<%}%>
-                    <%if(br.getVar()!=br.VAR_ALG){%>No has arribat al final de la sessió! Cal fer totes les activitats d'una sessió per donar-la per bona.
-					<%}else{%>
-					No s&eacute;s arribat a la fi de la sessi&oacute;! Se deuen de fer totes les activitats d'una sessi&oacute; per donar-la per bona.<%}%>					
-<%}%>
-                  </p>
-                  <p align="center" class="be"><%if(br.getVar()!=br.VAR_ALG){%>Torna a intentar-ho!!!<%}else{%>Torna a provar!!!<%}%></p>
-                  <p align="center" class="be"><a href="<%=br.getContinueURL()%>">[continuar]</a></p>
+                <td width="441">
+                <% switch(br.getVar()){
+                    case gali.beans.GaliCtt.VAR_ALG: %>
+                        <p align="center" class="titoltema">Ep!<br>
+                        <%if(!br.incomplete){%>
+                            Has obtengut una puntuaci&oacute; del <%=br.getQualification()%>%,<br>
+                            i el m&iacute;nim per superar la prova era del <%=br.getMinimumPassedQualification()%>%.
+                        <%}
+                        else {
+                            if(br.isOk){%>
+                                Anaves bé! Portaves una puntuaci&oacute; del <%=br.getQualification()%>%, però...<br>
+                            <%}%>
+                            No s&eacute;s arribat a la fi de la sessi&oacute;! Se deuen de fer totes les activitats d'una sessi&oacute; per donar-la per bona.					
+                        <%}%>
+                        </p>
+                        <p align="center" class="be">Torna a provar!</p>
+                        <p align="center" class="be"><a href="<%=br.getContinueURL()%>">[continuar]</a></p>                                
+                    <% break;
+                    case gali.beans.GaliCtt.VAR_OC:%>
+                        <p align="center" class="titoltema">Ep!<br>
+                        <%if(!br.incomplete){%>
+                            Portaues ua puntuacion deth <%=br.getQualification()%>%,<br>
+                            e eth minim a superar era pr&ograve;va &egrave;re deth <%=br.getMinimumPassedQualification()%>%.
+                        <%}
+                        else {
+                            if(br.isOk){%>
+                              Anaues ben! Portaues ua puntuacion deth <%=br.getQualification()%>%, m&egrave;s...<br>
+                            <%}%>
+                            Non as arribat ath finau dera session! Cau h&egrave;r totes es activitats d'ua session ent&agrave; dar-la per bona.
+                        <%}%>
+                        </p>
+                        <p align="center" class="be">Torna'c a sajar!</p>
+                        <p align="center" class="be"><a href="<%=br.getContinueURL()%>">[contunhar]</a></p>                                
+                    <% break;
+                    default:%>
+                        <p align="center" class="titoltema">Ep!<br>
+                        <%if(!br.incomplete){%>
+                            Has obtingut una puntuaci&oacute; del <%=br.getQualification()%>%,<br>
+                            i el m&iacute;nim per superar la prova era del <%=br.getMinimumPassedQualification()%>%.
+                        <%}
+                        else {
+                            if(br.isOk){%>
+                                Anaves bé! Portaves una puntuaci&oacute; del <%=br.getQualification()%>%, però...<br>
+                            <%}%>
+                            No has arribat al final de la sessió! Cal fer totes les activitats d'una sessió per donar-la per bona.					
+                        <%}%>
+                        </p>
+                        <p align="center" class="be">Torna a intentar-ho!</p>
+                        <p align="center" class="be"><a href="<%=br.getContinueURL()%>">[continuar]</a></p>                
+                    <% break;
+                }
+                %>                        
                 </td>
                 <td width="7" align="right"><img src="../home/pixel.gif" width="1" height="198"></td>
               </tr>

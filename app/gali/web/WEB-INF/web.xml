@@ -4,12 +4,12 @@
     <context-param>
         <param-name>serverDomain</param-name>
         <param-value>READ_FROM_DATABASE</param-value>
-        <description>clic.edu365.cat</description>
+        <description>clic.xtec.cat</description>
         </context-param>
     <context-param>
         <param-name>servletBaseUrl</param-name>
         <param-value>READ_FROM_DATABASE</param-value>
-        <description>http://clic.edu365.cat/gali/gali</description>
+        <description>http://clic.xtec.cat/gali/gali</description>
         </context-param>
     <context-param>
         <param-name>dbLogFile</param-name>
@@ -57,7 +57,7 @@
     </context-param>
     <context-param>
         <param-name>checkIdentUrl</param-name>
-        <param-value>http://aplitic.edu365.cat/e13_colex/validate.jsp</param-value>
+        <param-value>http://aplitic.xtec.cat/e13_colex/validate.jsp</param-value>
     </context-param>
     <context-param>
         <param-name>reporterName</param-name>
@@ -66,22 +66,27 @@
     <context-param>
         <param-name>reporterPath</param-name>
         <param-value>READ_FROM_DATABASE</param-value>
-        <description>clic.edu365.cat/jclicReports</description>
+        <description>clic.xtec.cat/jclicReports</description>
         </context-param>
     <context-param>
         <param-name>packageUrl</param-name>
         <param-value>READ_FROM_DATABASE</param-value>
-        <description>http://clic.edu365.cat/fgali/</description>
+        <description>http://clic.xtec.cat/fgali/</description>
         </context-param>
     <context-param>
         <param-name>packageNOCUrl</param-name>
         <param-value>READ_FROM_DATABASE</param-value>
-        <description>http://clic.edu365.cat/fgalino/</description>
+        <description>http://clic.xtec.cat/fgalino/</description>
         </context-param>
     <context-param>
         <param-name>packageALGUrl</param-name>
         <param-value>READ_FROM_DATABASE</param-value>
-        <description>http://clic.edu365.cat/fgalial/</description>
+        <description>http://clic.xtec.cat/fgalial/</description>
+        </context-param>
+    <context-param>
+        <param-name>packageOCUrl</param-name>
+        <param-value>READ_FROM_DATABASE</param-value>
+        <description>http://clic.xtec.cat/fgalioc/</description>
         </context-param>
     <context-param>
         <param-name>SETTINGS_TABLE</param-name>

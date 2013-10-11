@@ -5,7 +5,9 @@ session.setAttribute("cons", "no");
 if(!bg.isValidated()) {//No està validat 
   bg.redirectToValidation(bg.JSP_GUIDED);
 } else{ //Està validat 
-      if (!bg.hasDoneGaliActivity()){ //No ha fet cap activitat Gali 
+      if (!bg.hasDoneGaliActivity()
+              && bg.getVar()!=gali.beans.GaliCtt.VAR_OC  //Excloem l'aranes del test de diagnosi
+              ){ //No ha fet cap activitat Gali 
         %><jsp:forward page="galiIndexNewUser.jsp"/><%
       } else{
         %><jsp:forward page="<%=bg.getBaseUrl(false)%>"/><%

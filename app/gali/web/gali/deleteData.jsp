@@ -30,8 +30,17 @@ if(!bdd.init(request, session, response)){%><jsp:forward page="error.html"/><%}
         <tr> 
           <td class="cos"> 
             <p>&nbsp;</p>
-            <p>La informaci&oacute; corresponent a <b><%=bdd.getUserId()%></b> 
-              <%if(bdd.getVar()!=bdd.VAR_ALG){%>ha estat eliminada de la base de dades<%}else{%>és estada eliminada de la base de dats<%}%>.</p>
+            <%switch(bdd.getVar()){
+                 case(gali.beans.GaliCtt.VAR_ALG):
+                     %><p>La informaci&oacute; corresponent a <b><%=bdd.getUserId()%></b> és estada eliminada de la base de dats.</p>
+                     <% break;
+                 case(gali.beans.GaliCtt.VAR_OC):
+                     %><p>Era informaci&oacute;n corresponenta a <b><%=bdd.getUserId()%></b> a estat esfaçada dera basa de dades.</p>
+                     <% break;
+                 default:
+                     %><p>La informaci&oacute; corresponent a <b><%=bdd.getUserId()%></b> ha estat eliminada de la base de dades.</p>
+                     <%                
+            }%>
             <p>&nbsp;</p>
             <p><b>[<a href="gali.jsp">continuar</a>]</b></p>
             <!--p>&nbsp;</p-->

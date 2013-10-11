@@ -20,8 +20,8 @@
     <all-permissions/>
   </security>
   <resources>
-    <j2se version="1.4+"/>
-    <jar href="jclic.jar" main="true" version="1.2.1.0"/>
+    <j2se version="1.5+"/>
+    <jar href="jclic.jar" main="true" version="1.2.3.2"/>
   </resources>
   <application-desc/>
 </jnlp>

@@ -10,7 +10,7 @@
 
     <!-- Variables -->
     <property name="name"           value="WebClic" />    
-    <property name="year"           value="2004-10" />
+    <property name="year"           value="2004-13" />
     
     <property name="src.dir"        location="src" />
     <property name="lib.dir"        location="lib" />
@@ -148,6 +148,7 @@
            debug="${debug}"
            deprecation="${deprecation}"
            optimize="${optimize}"
+           includeantruntime="false"
            source="${ant.build.javac.source}"
            target="${ant.build.javac.target}" >
         <src path="${app.dir}/clicDB/src/java"/>
@@ -204,6 +205,7 @@
            debug="${debug}"
            deprecation="${deprecation}"
            optimize="${optimize}"
+           includeantruntime="false"
            source="${ant.build.javac.source}"
            target="${ant.build.javac.target}" >
         <src path="${app.dir}/JNLPServlet/src/java"/>
@@ -296,6 +298,7 @@
            debug="${debug}"
            deprecation="${deprecation}"
            optimize="${optimize}"
+           includeantruntime="false"
            source="${ant.build.javac.source}"
            target="${ant.build.javac.target}" >
         <src path="${app.dir}/gali/src/java"/>

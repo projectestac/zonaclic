@@ -59,7 +59,7 @@ public abstract class GaliDataManage {
     //String[][][] iniPackInfo;
     //String[][][] profPackInfo;
     
-    private static java.util.Properties pPackageDesc, pPackageDescNOC, pPackageDescALG;
+    private static java.util.Properties pPackageDesc, pPackageDescNOC, pPackageDescALG, pPackageDescOC;
         
     static{
         //java.util.Properties pDatabase = new java.util.Properties();
@@ -85,6 +85,10 @@ public abstract class GaliDataManage {
             pPackageDescALG=new java.util.Properties(); 
             pPackageDescALG.load(GaliDataManage.class.getResourceAsStream("/gali/resources/package_descriptions.properties"));
             pPackageDescALG.load(GaliDataManage.class.getResourceAsStream("/gali/resources/package_descriptions_alg.properties"));
+            
+            pPackageDescOC=new java.util.Properties(); 
+            pPackageDescOC.load(GaliDataManage.class.getResourceAsStream("/gali/resources/package_descriptions.properties"));
+            pPackageDescOC.load(GaliDataManage.class.getResourceAsStream("/gali/resources/package_descriptions_oc.properties"));
             
             hmDiagnosi=createMapPackActivities(TD,false); //La clau és l'activitat
             hmActs=createMapPackActivities(PACS,true); //La clau és el paquet
@@ -162,7 +166,8 @@ public abstract class GaliDataManage {
         return id==null ? null : 
             (var==gali.beans.GaliCtt.VAR_NOC ? pPackageDescNOC.getProperty(id) : 
                 var==gali.beans.GaliCtt.VAR_ALG ? pPackageDescALG.getProperty(id) : 
-                    pPackageDesc.getProperty(id));
+                   var==gali.beans.GaliCtt.VAR_OC ? pPackageDescOC.getProperty(id) :
+                       pPackageDesc.getProperty(id));
     }
     
     public static String getPageIconURL(String id){

@@ -1,0 +1,33 @@
+*.class
+
+# Package Files and binary distributables #
+*.jar
+!app/JNLPServlet/web/jclic/*.jar
+*.war
+*.ear
+*.exe
+*.zip
+*.gz
+
+# Back and log files #
+*.bak
+*~
+*.log
+
+# Build and doc directories #
+build/
+dist/
+apidoc/
+javadoc/
+private/
+**/build/
+**/apidoc/
+**/javadoc/
+**/private/
+
+# Directories with intermediate files #
+netbeans/
+
+# Directories with non redistribuable files #
+lib/bootstrap/
+

@@ -9,7 +9,7 @@
         Cookie c = new Cookie(sPropertyName, sValue);
         c.setMaxAge(-1);
         c.setPath("/");
-        c.setDomain("edu365.cat");
+        c.setDomain("xtec.cat");
     	return c;
     }
 %>
@@ -20,10 +20,10 @@ String logo = request.getParameter("logo");
 int ALLOWED_PORT=8084;
 
 if (user!=null && !"".equals(user) && url!=null && !"".equals(url)){
-  response.addCookie(createCookie("usuari-edu365", user));
-  response.addCookie(createCookie("email-edu365", user+"@test"));
+  response.addCookie(createCookie("usuari-xtec", user));
+  response.addCookie(createCookie("email-xtec", user+"@test"));
   String sPortal = (new java.util.Date()).getTime()+"AP";
-  response.addCookie(createCookie("edu365", sPortal));
+  response.addCookie(createCookie("xtec", sPortal));
   try{
     response.sendRedirect(url);
   }catch (Exception ioe) {
@@ -37,10 +37,10 @@ if (user!=null && !"".equals(user) && url!=null && !"".equals(url)){
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Simulació de validació per cookie edu365.cat</title>
+        <title>Simulació de validació per cookie xtec.cat</title>
     </head>
     <body onload="document.login.user.focus()">
-        <h2>Simulació de validació per cookie edu365.cat</h2>
+        <h2>Simulació de validació per cookie xtec.cat</h2>
         <hr>
 <% if(request.getRemotePort()!=ALLOWED_PORT) {%>
 <form action="dummyValidate.jsp" method="post" name="login" id="login" autocomplete="off">

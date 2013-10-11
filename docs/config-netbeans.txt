@@ -1,7 +1,9 @@
 
------------------------------------------------------------.----------------------
-=== Preparació de l'entorn de desenvolupament amb NetBeans i Apache Tomcat 6.0 ===
-----------------------------------------------------------------------------------
+-----------------------------------------------------------.------------------
+=== Preparació de l'entorn de desenvolupament amb NetBeans i Apache Tomcat ===
+------------------------------------------------------------------------------
+
+ACTUALITZAT OCT2012: Provat amb NetBeans 7.2 i Apache Tomcat 7.0
 
 IMPORTANT: En tot aquest document cal substituir l'expressió "$HOME" pel directori d'inici de l'usuari que estigui
 implementant l'entorn de desenvolupament. A tot arreu on aparegui l'expressió $HOME s'ha de substituir pel
@@ -17,15 +19,15 @@ fitxers amb el codi font i la documentació. Normalment aquest directori corresp
 
 3 - Copiar tots els fitxers ".properties" del directori $ROOT/home al directori $HOME de l'usuari
 
-4 - Definir els hosts "localhost.edu365.cat" i "localhost.xtec.cat" com a sinònims de "localhost" a 127.0.0.1.
+4 - Definir el host "localhost.xtec.cat" com a sinònim de "localhost" a 127.0.0.1.
     A la Linkat això es fa afegint aquesta línia a /etc/hosts:
 
-    127.0.0.1       localhost.edu365.cat localhost.xtec.cat
+    127.0.0.1       localhost.xtec.cat
 
-5 - Instal·lar una versió de NetBeans 6.x que inclogui "Java web" i "Apache Tomcat". Es pot descarregar des de:
+5 - Instal·lar una versió de NetBeans 6.x o superior que inclogui "Java web" i "Apache Tomcat". Es pot descarregar des de:
     http://netbeans.org/downloads/index.html
 
-6 - Engegar Netbeans i configurar-lo per tal que faci servir el servidor Apache Tomcat 6.x.
+6 - Engegar Netbeans i configurar-lo per tal que faci servir el servidor Apache Tomcat.
     Configurar Tomcat per treballar pel port 8084 (el 8080 està ocupat per Oracle XE)
 
 7 - Posar en marxa per primera vegada Apache Tomcat des de Netbeans:
@@ -66,7 +68,7 @@ ATENCIÓ: Potser caldrà substituir "localhost" per la IP del servidor on estigu
 10 - Copiar el fitxer:
      $ROOT/lib/jclicreports.war
      a:
-     $HOME/.nebeans/6.x/apache-tomcat-xxx_base/webapps
+     $HOME/.nebeans/xxx/apache-tomcat-xxx_base/webapps
 
 11 - Tornar a Netbeans (pestanya "Services" - "Servers") i fer un "restart" del servidor Apache.
      Comprovar que en obrir l'URL http://localhost:8084/index.htm es pugui navegar per la primera pàgina
@@ -94,8 +96,8 @@ ATENCIÓ: Potser caldrà substituir "localhost" per la IP del servidor on estigu
      - WebClic dinàmic: http://localhost:8084/db/
      - Galí: http://localhost:8084/gali/
      - JNLP:
-       http://localhost:8084/jnlp/player.jnlp (engega el JClic amb Java WebStart)
-       http://localhost:8084/jnlp/author.jnlp (engega el JClic Author amb Java WebStart)
+       http://localhost:8084/jnlp/jclic/player.jnlp (engega el JClic amb Java WebStart)
+       http://localhost:8084/jnlp/jclic/author.jnlp (engega el JClic Author amb Java WebStart)
      - Provar l'instal·lador d'algun dels primers projectes de la llista mostrada al portal
 
 ATENCIÓ: La compilacó de les versions que s'envien als entorns d'integració, acceptació i producció s'ha de fer

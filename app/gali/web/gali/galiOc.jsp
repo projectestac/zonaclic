@@ -10,7 +10,7 @@ if(!b.init(request, session, response)){%><jsp:forward page="error.html"/><%}
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
   <tr>
-    <td height="21"> 
+    <td height="21">         
       <table width="100%" height="21" border="0" cellpadding="0" cellspacing="0" bgcolor="#05508A">
         <tr> 
           <td width="102" height="21"><a href="http://www.edu365.cat/"><img src="../home/edu-365.gif" width="102" height="21" border="0" alt="edu365.cat"></a></td>
@@ -33,35 +33,34 @@ if(!b.init(request, session, response)){%><jsp:forward page="error.html"/><%}
               <tr> 
                 <td colspan="3" valign="top" class="cos"> 
                   <p class="cospetit"><a href="../index.html"><img src="../descripcio/logo_petit.gif" width="132" height="120" border="0"></a></p>
-                  <p>El Gal&iacute; ofereix dues modalitats de treball: guiat 
-                    o lliure. A la <a href="../descripcio/descripcio.html#mode">descripci&oacute;</a> 
-                    del programa s'expliquen amb m&eacute;s detall les caracter&iacute;stiques 
-                    de cada modalitat.</p>
+                  <p>Gal&iacute; aufer&iacute;s dues modalitats de trabalh: amiat o liure. Ena <a href="../descripcio/descripcio.html#mode">descripcion</a>
+                      deth programa s'expliquen damb m&egrave;s detall 
+                      es caracteristiques de cada modalitat.</p>
                   <p class="cospetit">&nbsp;</p>
                   </td>
               </tr>
               <tr> 
                 <td valign="top" align="left" width="45%" class="cos"> 
-                  <p><span class="titoltema">Aprenentatge guiat</span><br>
-                    Nom&eacute;s per a usuaris registrats d'XTEC i XTECBlocs. El 
-                    sistema recorda el resultat dels exercicis. L'objectiu &eacute;s 
-                    superar tots els m&ograve;duls.</p>
+                  <p><span class="titoltema">Aprenentatge amiat</span><br>
+                    Sonque ent&agrave; usuaris registradi der XTEC o XTECBlocs. 
+                    Eth sist&egrave;ma rebrembe eth resultat des exercicis. Er objectiu 
+                    ei superar toti es moduls.</p>
                   <p class="cospetit">&nbsp;</p>
                   </td>
                 <td width="10%">&nbsp;</td>
                 <td valign="top" align="right" width="45%" class="cos"> 
-                  <p><span class="titoltema">Aprenentatge lliure</span><br>
-                    Per practicar i navegar pels exercicis.<br>
-                    El sistema no enregistra els resultats obtinguts<span class="cos">.</span></p>
+                  <p><span class="titoltema">Aprenentatge liure</span><br>
+                    Ent&agrave; practicar e navegar pes exercicis.<br>
+                    Eth sist&egrave;ma non enregistre es resultats obtengudi.</p>
                   <p class="cospetit">&nbsp;</p>
                   </td>
               </tr>
               <tr> 
                 <td align="left" valign="top"> 
-                  <p><a href="<%=b.getServerBaseUrl()%>/galiGuided.jsp"><img src="imatges/guiat.gif" width="190" height="98" border="0" alt="Aprenentatge guiat"></a></p>
+                  <p><a href="<%=b.getServerBaseUrl()%>/galiGuided.jsp"><img src="imatges/guiat-oc.gif" width="190" height="98" border="0" alt="Aprenentatge amiat"></a></p>
                 </td>
                 <td>&nbsp;</td>
-                <td align="right" valign="top"> <a href="<%=b.getServerBaseUrl()%>/galiMain.jsp?cons=si"><img src="imatges/lliure.gif" width="190" height="98" border="0" alt="Aprenentatge lliure"></a></td>
+                <td align="right" valign="top"> <a href="<%=b.getServerBaseUrl()%>/galiMain.jsp?cons=si"><img src="imatges/lliure-oc.gif" width="190" height="98" border="0" alt="Aprenentatge liure"></a></td>
               </tr>
             </table>            
           </td>

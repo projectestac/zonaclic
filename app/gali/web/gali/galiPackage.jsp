@@ -3,6 +3,7 @@
 if(!bpk.init(request, session, response)){%><jsp:forward page="error.html"/><%}
 if(bpk.getLight()==bpk.UNDEFINED){
   if(bpk.getVar()==bpk.VAR_ALG) {%><jsp:forward page="preGaliPackageAlg.jsp"/><%}
+  else if(bpk.getVar()==bpk.VAR_OC) {%><jsp:forward page="preGaliPackageOc.jsp"/><%}
   else {%><jsp:forward page="preGaliPackage.jsp"/><%}
 }%><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>

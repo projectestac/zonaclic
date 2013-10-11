@@ -33,16 +33,61 @@ if(!b.init(request, session, response)){%><jsp:forward page="error.html"/><%}
           </td>
         </tr>
         <tr> 
-          <td valign="top" class="cos"> 
+          <td valign="top" class="cos">
+            <% switch(b.getVar()){
+                case gali.beans.GaliCtt.VAR_ALG: %>
+
             <p class="titoltema">Atenci&oacute;!</p>
-            <p>Aquesta opci&oacute; eliminar&agrave; de la base de <%if(b.getVar()!=b.VAR_ALG){%>dades<%}else{%>dats<%}%> de resultats 
+            <p>Aquesta opci&oacute; eliminar&agrave; de la base de dats de resultats 
               del Gal&iacute; tota la informaci&oacute; corresponent a <b><%=b.getUserId()%></b>. 
-              <%if(b.getVar()!=b.VAR_ALG){%>Ser&agrave;<%}else{%>Siguer&agrave;<%}%> com si comencessis des de zero.</p>
+              Siguer&agrave; com si comencessis des de zero.</p>
             <p></p>
-            <p class="titoltema">Vols esborrar <%if(b.getVar()!=b.VAR_ALG){%>les dades<%}else{%>els dats<%}%>?</p>
+            <p class="titoltema">Vols esborrar els dats?</p>
             <table width="300" border="0" cellspacing="0" cellpadding="0">
               <tr> 
-                <td width="150"><a href="deleteData.jsp"><img src="imatges/vols_si.gif" width="84" height="50" border="0" alt="Si, vull esborrar <%if(b.getVar()!=b.VAR_ALG){%>les dades<%}else{%>els dats<%}%>."></a></td>
+                <td width="150"><a href="deleteData.jsp"><img src="imatges/vols_si.gif" width="84" height="50" border="0" alt="Si, vull esborrar els dats."></a></td>
+                <td width="150"><a href="galiMain.jsp"><img src="imatges/vols_no.gif" width="84" height="50" border="0" alt="No, no!"></a></td>
+              </tr>
+            </table>
+            <p>&nbsp;</p>
+            <p><b><strong><font size="2" face="Arial, Helvetica, sans-serif"> 
+              <img src="../descripcio/imatges/pixel.gif" width="1" height="1"></font></strong><a href="galiMain.jsp">[enrere]</a><strong><font size="2" face="Arial, Helvetica, sans-serif"><br>
+              <img src="../descripcio/imatges/pixel.gif" width="1" height="1"> 
+              </font></strong></b></p>                
+                
+                <% break;                                   
+                case gali.beans.GaliCtt.VAR_OC: %>
+
+            <p class="titoltema">Atencion!</p>
+            <p>Aguesta opcion esfaçar&agrave; dera basa de donades de resultats de Gal&iacute; 
+                tota era informaci&oacute;n corresponenta a <b><%=b.getUserId()%></b>. 
+                Ser&agrave; coma se comenc&egrave;sses de z&egrave;ro.</p>
+            <p></p>
+            <p class="titoltema">V&ograve;s esfa&ccedil;ar es dades?</p>
+            <table width="300" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                  <td width="150"><a href="deleteData.jsp"><img src="imatges/vols_si-oc.gif" width="84" height="50" border="0" alt="&Ograve;c, voi esfaçar es dades"></a></td>
+                <td width="150"><a href="galiMain.jsp"><img src="imatges/vols_no-oc.gif" width="84" height="50" border="0" alt="E non pas!"></a></td>
+              </tr>
+            </table>
+            <p>&nbsp;</p>
+            <p><b><strong><font size="2" face="Arial, Helvetica, sans-serif"> 
+                            <img src="../descripcio/imatges/pixel.gif" width="1" height="1"></font></strong><a href="galiMain.jsp">[endarr&egrave;r]</a><strong><font size="2" face="Arial, Helvetica, sans-serif"><br>
+              <img src="../descripcio/imatges/pixel.gif" width="1" height="1"> 
+              </font></strong></b></p>
+                
+                <% break;                                   
+                default: %>
+
+            <p class="titoltema">Atenci&oacute;!</p>
+            <p>Aquesta opci&oacute; eliminar&agrave; de la base de dades de resultats 
+              del Gal&iacute; tota la informaci&oacute; corresponent a <b><%=b.getUserId()%></b>. 
+              Ser&agrave; com si comencessis des de zero.</p>
+            <p></p>
+            <p class="titoltema">Vols esborrar les dades?</p>
+            <table width="300" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="150"><a href="deleteData.jsp"><img src="imatges/vols_si.gif" width="84" height="50" border="0" alt="Si, vull esborrar les dades."></a></td>
                 <td width="150"><a href="galiMain.jsp"><img src="imatges/vols_no.gif" width="84" height="50" border="0" alt="No, no!"></a></td>
               </tr>
             </table>
@@ -51,6 +96,9 @@ if(!b.init(request, session, response)){%><jsp:forward page="error.html"/><%}
               <img src="../descripcio/imatges/pixel.gif" width="1" height="1"></font></strong><a href="galiMain.jsp">[enrere]</a><strong><font size="2" face="Arial, Helvetica, sans-serif"><br>
               <img src="../descripcio/imatges/pixel.gif" width="1" height="1"> 
               </font></strong></b></p>
+                                
+                <% break;                
+            }%>                
           </td>
         </tr>
       </table> 

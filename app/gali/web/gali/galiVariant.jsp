@@ -4,7 +4,7 @@ if(!b.init(request, session, response)){%><jsp:forward page="error.html"/><%}
 %><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<title>Gal&iacute; - Selecci&oacute; de variant dialectal</title>
+<title>Gal&iacute; - Selecci&oacute; d'idioma i de variant dialectal</title>
 <link href="../estils.css" rel="stylesheet" type="text/css">
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
@@ -33,36 +33,43 @@ if(!b.init(request, session, response)){%><jsp:forward page="error.html"/><%}
               <tr> 
                 <td colspan="2" valign="top" class="cos"> 
                   <p class="cospetit"><a href="../index.html"><img src="../descripcio/logo_petit.gif" width="132" height="120" border="0"></a></p>
-                  <p>El catal&agrave;, com moltes altres lleng&uuml;es, t&eacute; diverses
-                    variants dialectals que presenten algunes difer&egrave;ncies<br>
-                    fon&egrave;tiques
+                  <p>El catal&agrave; i l'occit&agrave;, com moltes altres lleng&uuml;es, tenen diverses
+                    variants dialectals que presenten algunes difer&egrave;ncies fon&egrave;tiques
                     i ortogr&agrave;fiques. Els exercicis del
                   Gal&iacute; es poden fer en aquestes variants:</p>
                   <p>&nbsp;</p></td>
               </tr>
               <tr> 
-			    <td width="12%" align="left" valign="middle"><p><a href="<%=b.getServerBaseUrl()%>/gali.jsp?var=or"><img src="imatges/selecciona.gif" alt="Variant central" width="68" height="45" vspace="5" border="0"></a></p>
+                  <td width="12%" align="left" valign="middle"><p><a href="<%=b.getServerBaseUrl()%>/gali.jsp?var=or"><img src="imatges/selecciona.gif" alt="catal&agrave; central" width="68" height="45" vspace="5" border="0"></a></p>
 		        </td>
                 <td valign="middle" align="left" class="cos"> 
-                  <p><span class="titoltema">Central</span><br>
-&Eacute;s la variant parlada a les comarques de Girona, Barcelona i Tarragona.</p>
+                    <p><span class="titoltema">Catal&agrave; central</span><br>
+                        &Eacute;s la variant del catal&agrave; parlada a les comarques de Girona, Barcelona i Tarragona.</p>
                 </td>
 			 </tr>
 			 <tr>
-			    <td align="left" valign="middle"><p><a href="<%=b.getServerBaseUrl()%>/gali.jsp?var=noc"><img src="imatges/selecciona.gif" alt="Variant nord-occidental" width="68" height="45" vspace="5" border="0"></a></p>
+                             <td align="left" valign="middle"><p><a href="<%=b.getServerBaseUrl()%>/gali.jsp?var=noc"><img src="imatges/selecciona.gif" alt="catal&agrave; nord-occidental" width="68" height="45" vspace="5" border="0"></a></p>
 		        </td>
                 <td valign="middle" width="88%" class="cos"> 
-                  <p><span class="titoltema">Nord-occidental</span><br>
-&Eacute;s la variant parlada a les comarques de Lleida, a les Terres de l'Ebre<span class="cos"> i
-a la Franja Oriental d'Arag&oacute;.</span></p>
+                  <p><span class="titoltema">Catal&agrave; nord-occidental</span><br>
+                      &Eacute;s la variant del catal&agrave; parlada a les comarques de Lleida, a les Terres de l'Ebre i
+a la Franja Oriental d'Arag&oacute;.</p>
                 </td>
               </tr>
 			 <tr>
-			    <td align="left" valign="middle"><p><a href="<%=b.getServerBaseUrl()%>/galiAlg.jsp?var=alg"><img src="imatges/selecciona.gif" alt="Variant algueresa" width="68" height="45" vspace="5" border="0"></a></p>
+			    <td align="left" valign="middle"><p><a href="<%=b.getServerBaseUrl()%>/galiAlg.jsp?var=alg"><img src="imatges/selecciona.gif" alt="Variant algueresa del català" width="68" height="45" vspace="5" border="0"></a></p>
 		        </td>
                 <td valign="middle" width="88%" class="cos"> 
                   <p><span class="titoltema">Alguer&egrave;s</span><br>
-&Eacute;s la variant parlada a la ciutat de l'Alguer, a l'illa de Sardenya<span class="cos">.</span></p>
+                      &Eacute;s la variant del catal&agrave; parlada a la ciutat de l'Alguer, a l'illa de Sardenya<span class="cos">.</span></p>
+                </td>
+              </tr>
+			 <tr>
+			    <td align="left" valign="middle"><p><a href="<%=b.getServerBaseUrl()%>/galiOc.jsp?var=oc"><img src="imatges/selecciona-oc.gif" alt="aranès" width="68" height="45" vspace="5" border="0"></a></p>
+		        </td>
+                <td valign="middle" width="88%" class="cos"> 
+                    <p><span class="titoltema">Occitan d'Aran</span><br>
+                        &Eacute;s la variant de l'occit&agrave; que es parla a la Vall d'Aran.</p>
                 </td>
               </tr>
             </table>            

@@ -1,6 +1,6 @@
 <%@page contentType="text/html; charset=ISO-8859-1"%>
-<jsp:useBean id="b" class="gali.beans.GaliDummyBean" scope="request" /><%
-if(!b.init(request, session, response)){%><jsp:forward page="error.html"/><%}
+<jsp:useBean id="bpk" class="gali.beans.GaliPackageBean" scope="request" /><%
+if(!bpk.init(request, session, response)){%><jsp:forward page="error.html"/><%}
 %><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
@@ -14,7 +14,7 @@ if(!b.init(request, session, response)){%><jsp:forward page="error.html"/><%}
       <table width="100%" height="21" border="0" cellpadding="0" cellspacing="0" bgcolor="#05508A">
         <tr> 
           <td width="102" height="21"><a href="http://www.edu365.cat/"><img src="../home/edu-365.gif" width="102" height="21" border="0" alt="edu365.cat"></a></td>
-          <td class="cos"><div align="center"><font color="#FFFFFF"><%=b.getLiteralUserId()%></font></div></td>
+          <td class="cos"><div align="center"><font color="#FFFFFF"><%=bpk.getLiteralUserId()%></font></div></td>
           <td width="68" height="21"> 
             <div align="right"><a href="../index.html"><img src="../home/gali.gif" width="68" height="21" border="0" alt="Inici"></a></div>
           </td>
@@ -32,36 +32,40 @@ if(!b.init(request, session, response)){%><jsp:forward page="error.html"/><%}
               </tr>
               <tr> 
                 <td colspan="3" valign="top" class="cos"> 
-                  <p class="cospetit"><a href="../index.html"><img src="../descripcio/logo_petit.gif" width="132" height="120" border="0"></a></p>
-                  <p>El Gal&iacute; ofereix dues modalitats de treball: guiat 
-                    o lliure. A la <a href="../descripcio/descripcio.html#mode">descripci&oacute;</a> 
-                    del programa s'expliquen amb m&eacute;s detall les caracter&iacute;stiques 
-                    de cada modalitat.</p>
+                  <p class="cospetit"><a href="../index.html"><img src="../descripcio/logo_petit.gif" width="132" height="120" border="0"></a><br>
+                  </p>
+                  <p>Gal&iacute; aufer&iacute;s dues man&egrave;res despari&egrave;res 
+                      de descargar es contenguts multim&egrave;dia des activitats. 
+                      Ena <a href="../descripcio/descripcio.html#download">descripcion</a> deth programa s'expliquen damb detalh es 
+                      caracteristiques de cada modalitat.
                   <p class="cospetit">&nbsp;</p>
-                  </td>
+                </td>
               </tr>
               <tr> 
-                <td valign="top" align="left" width="45%" class="cos"> 
-                  <p><span class="titoltema">Aprenentatge guiat</span><br>
-                    Nom&eacute;s per a usuaris registrats d'XTEC i XTECBlocs. El 
-                    sistema recorda el resultat dels exercicis. L'objectiu &eacute;s 
-                    superar tots els m&ograve;duls.</p>
+                <td valign="top" align="left" width="45%"> 
+                  <p class="cos"><span class="titoltema">Descargar es imatges e 
+                          es sons quan s'agen de besonh</span><br>
+                          Opcion recomanada se vos connectatz en Internet 
+                          mejan&ccedil;ant un m&ograve;dem.</p>
                   <p class="cospetit">&nbsp;</p>
                   </td>
                 <td width="10%">&nbsp;</td>
-                <td valign="top" align="right" width="45%" class="cos"> 
-                  <p><span class="titoltema">Aprenentatge lliure</span><br>
-                    Per practicar i navegar pels exercicis.<br>
-                    El sistema no enregistra els resultats obtinguts<span class="cos">.</span></p>
+                <td valign="top" align="right" width="45%"> 
+                  <p class="cos"><span class="titoltema">Descargar toti<bR>
+                          es fitch&egrave;r ar inici</span><br>
+                          Opcion recomanada ent&agrave;s connexions<br>
+                          de tipus ADSL e cable</p>
                   <p class="cospetit">&nbsp;</p>
                   </td>
               </tr>
               <tr> 
                 <td align="left" valign="top"> 
-                  <p><a href="<%=b.getServerBaseUrl()%>/galiGuided.jsp"><img src="imatges/guiat.gif" width="190" height="98" border="0" alt="Aprenentatge guiat"></a></p>
+                  <p><a href="<%=bpk.getUrl("galiPackage.jsp")%>&light=2"><img src="imatges/guiat.gif" width="190" height="98" border="0" alt="Descargar es imatges e es sons quan s'agen de besonh"></a></p>
                 </td>
                 <td>&nbsp;</td>
-                <td align="right" valign="top"> <a href="<%=b.getServerBaseUrl()%>/galiMain.jsp?cons=si"><img src="imatges/lliure.gif" width="190" height="98" border="0" alt="Aprenentatge lliure"></a></td>
+                <td align="right" valign="top"> 
+                    <p><a href="<%=bpk.getUrl("galiPackage.jsp")%>&light=1"><img src="imatges/lliure.gif" width="190" height="98" border="0" alt="Descargar toti es fitch&egrave;r ar inici"></a></p>
+                </td>
               </tr>
             </table>            
           </td>

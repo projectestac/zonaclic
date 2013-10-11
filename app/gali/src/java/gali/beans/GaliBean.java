@@ -77,7 +77,9 @@ public abstract class GaliBean extends GaliCtt{
     public String getPackageURL(){
         int var=getVar();
         return getSetting(var==VAR_NOC ? "packageNOCUrl" :
-            var==VAR_ALG ? "packageALGUrl" : "packageUrl");
+            var==VAR_ALG ? "packageALGUrl" : 
+                 var==VAR_OC ? "packageOCUrl" : 
+                      "packageUrl");
     }
     
     private String getValidateURL(String redirectPage){

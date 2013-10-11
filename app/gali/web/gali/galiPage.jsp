@@ -1,6 +1,7 @@
 <%@page contentType="text/html; charset=ISO-8859-1"%>
 <jsp:useBean id="bpg" class="gali.beans.GaliPageBean" scope="request" /><%
 if(!bpg.init(request, session, response)){%><jsp:forward page="error.html"/><%}
+String enrere = (bpg.getVar() == gali.beans.GaliCtt.VAR_OC) ? "endarr&egrave;r" : "enrere";
 %><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
@@ -73,7 +74,7 @@ if(!bpg.init(request, session, response)){%><jsp:forward page="error.html"/><%}
 <td height="2" colspan="2" valign="middle"><img src="../descripcio/pixel.gif" width="600" height="2"></td>
 </tr>
 </table>
-            <p class="cos"><a href="galiMain.jsp"><b>[enrere]</b></a></p>
+            <p class="cos"><a href="galiMain.jsp"><b>[<%= enrere %>]</b></a></p>
           </td>
         </tr>
       </table> 

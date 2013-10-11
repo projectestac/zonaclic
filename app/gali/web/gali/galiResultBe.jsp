@@ -42,10 +42,27 @@ if(!br.init(request, session, response)){%><jsp:forward page="error.html"/><%}
                 <td width="7" align="left"><img src="../home/pixel.gif" width="1" height="198"></td>
                 <td width="119"> 
                   <p align="center"><font color="#05508a" size="2" face="Arial, Helvetica, sans-serif"><strong><img src="imatges/nenriuB.gif" width="77" height="154"></strong></font></p></td>
-                <td width="441"><p align="center" class="titoltema">Felicitats!<br>
-                    Has <%if(br.getVar()!=br.VAR_ALG){%>obtingut<%}else{%>obtengut<%}%> una puntuaci&oacute; del <%=br.getQualification()%>%</p>
-                  <p align="center" class="be">Prova Superada!!!</p>
-                  <p align="center" class="be"><a href="<%=br.getContinueURL()%>">[continuar]</a></p>
+                <td width="441">
+                    <% switch(br.getVar()){
+                        case gali.beans.GaliCtt.VAR_ALG:%>
+                    <p align="center" class="titoltema">Felicitats!<br>
+                    Has obtengut una puntuaci&oacute; del <%=br.getQualification()%>%</p>
+                    <p align="center" class="be">Prova superada!</p>
+                    <p align="center" class="be"><a href="<%=br.getContinueURL()%>">[continuar]</a></p>                                                
+                        <%break;
+                        case gali.beans.GaliCtt.VAR_OC:%>
+                    <p align="center" class="titoltema">Felicitats!<br>
+                        As obtengut ua puntuaci&oacute;n deth <%=br.getQualification()%>%</p>
+                    <p align="center" class="be">Pr&ograve;va superada!</p>
+                    <p align="center" class="be"><a href="<%=br.getContinueURL()%>">[contunhar]</a></p>
+                        <%break;
+                        default:%>
+                    <p align="center" class="titoltema">Felicitats!<br>
+                    Has obtingut una puntuaci&oacute; del <%=br.getQualification()%>%</p>
+                    <p align="center" class="be">Prova superada!!!</p>
+                    <p align="center" class="be"><a href="<%=br.getContinueURL()%>">[continuar]</a></p>                        
+                        <%break;                                               
+                    }%>
                 </td>
                 <td width="7" align="right"><img src="../home/pixel.gif" width="1" height="198"></td>
               </tr>
