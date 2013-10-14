@@ -12,7 +12,7 @@ package gali.beans;
  */
 public class GaliDeleteDataBean extends GaliBean {
     
-    @Override
+    //@Override
     protected boolean start(){
         boolean result=super.start() && (getUserId()!=null);
         if(result){

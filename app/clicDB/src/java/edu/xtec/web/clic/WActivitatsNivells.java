@@ -103,7 +103,7 @@ public class WActivitatsNivells extends TableWrapper {
         return (WActivitatsNivells[]) v.toArray(new WActivitatsNivells[v.size()]);
     }
 
-    @Override
+    //@Override
     public String getMainText() {
         return textNivell != null ? textNivell : nivell;
     }

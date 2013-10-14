@@ -153,7 +153,7 @@ public abstract class GaliCtt {
     
     public boolean isCons(){
         if(cons==null){
-            cons = getUserId()==null || getBooleanParameter(CONS, false);
+            cons = new Boolean(getUserId()==null || getBooleanParameter(CONS, false));
         }
         return cons.booleanValue();
     }

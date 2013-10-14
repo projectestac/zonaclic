@@ -14,7 +14,7 @@ public class GaliDiagnosiBean extends GaliBean{
     
     public static final String PACKAGE_NAME="td";
     
-    @Override
+    //@Override
     protected boolean start(){
         boolean result=super.start();
         if(result && getUserId()!=null)

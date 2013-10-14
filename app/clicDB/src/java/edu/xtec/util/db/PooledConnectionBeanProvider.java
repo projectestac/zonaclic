@@ -111,7 +111,7 @@ public class PooledConnectionBeanProvider extends ConnectionBeanProvider impleme
      * @throws Exception Throwed if dbDriver does not contain a valid driver
      * name, or if it can't be instantiated.
      */
-    @Override
+    //@Override
     protected void setUp(Map map) throws Exception {
 
         super.setUp(map);
@@ -749,7 +749,7 @@ public class PooledConnectionBeanProvider extends ConnectionBeanProvider impleme
      *
      * @return Information string, formatted in HTML.
      */
-    @Override
+    //@Override
     public String getInfo() {
         int totalUsageCount = globalUsageCount;
         StringBuilder sb = new StringBuilder();

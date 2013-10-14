@@ -23,7 +23,7 @@ public class GaliPackageBean extends GaliBean{
     } 
      */   
     
-    @Override
+    //@Override
     protected boolean start() {
         boolean result=super.start();
         if(result){
@@ -59,7 +59,7 @@ public class GaliPackageBean extends GaliBean{
     }
      */
     
-    @Override
+    //@Override
     public String getUrl(String url){
         //if(!init) init();
         return getUrl(url, iPage, iPackage, iLevel, isCons());

@@ -338,7 +338,7 @@ public abstract class GaliDataManage {
                 String sPackName=packInfo[iPackage][1];
                 boolean b=hasPassedPackage(sUserId,sPackName);
                 //System.out.println("db hasPassedPackage("+sUserId+","+iPage+","+iPackage+","+iLevel+")?"+b);
-                setPassedPackage(sUserId,iPage,iPackage,iLevel, b, session);
+                setPassedPackage(sUserId,iPage,iPackage,iLevel, new Boolean(b), session);
                 return b;
             }
         }

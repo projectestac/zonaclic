@@ -19,7 +19,7 @@ public class GaliGuidedBean extends GaliBean{
     } 
      */   
     
-    @Override
+    //@Override
     protected boolean start() {
         return super.start();
     }

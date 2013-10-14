@@ -106,7 +106,7 @@ public class WActivitatsArees extends TableWrapper {
         return (WActivitatsArees[]) v.toArray(new WActivitatsArees[v.size()]);
     }
 
-    @Override
+    //@Override
     public String getMainText() {
         return textArea != null ? textArea : area;
     }

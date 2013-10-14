@@ -59,7 +59,7 @@ public class ListBean extends PageBean {
         return "edu.xtec.resources.messages.listMessages";
     }
 
-    @Override
+    //@Override
     protected void getRequestParams(HttpServletRequest request) throws Exception {
         super.getRequestParams(request);
         area = getParam(request, AREA, WILD);

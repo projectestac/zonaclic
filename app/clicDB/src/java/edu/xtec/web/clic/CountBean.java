@@ -39,7 +39,7 @@ public class CountBean extends PageBean {
         return "edu.xtec.resources.messages.countMessages";
     }
 
-    @Override
+    //@Override
     protected void getRequestParams(HttpServletRequest request) throws Exception {
         super.getRequestParams(request);
         by = getParam(request, BY, ListBean.WILD);

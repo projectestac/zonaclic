@@ -18,7 +18,7 @@ public class GaliDummyBean extends GaliBean{
     } 
      */   
     
-    @Override
+    //@Override
     protected boolean start() {
         super.start();
         getVar();

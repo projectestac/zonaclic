@@ -40,7 +40,7 @@ public class ActBean extends PageBean {
         return "edu.xtec.resources.messages.activityMessages";
     }
     
-    @Override
+    //@Override
     protected void getRequestParams(HttpServletRequest request) throws Exception {
         super.getRequestParams(request);
         String s = getParam(request, ID, null);

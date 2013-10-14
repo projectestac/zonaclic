@@ -29,7 +29,7 @@ public class GaliResultBean extends GaliBean{
     }
      */
     
-    @Override
+    //@Override
     protected boolean start(){
         boolean result=super.start();
         if(result){
