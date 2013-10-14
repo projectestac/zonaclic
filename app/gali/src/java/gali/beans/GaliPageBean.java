@@ -21,6 +21,7 @@ public class GaliPageBean extends GaliBean{
     } 
      */   
     
+    @Override
     protected boolean start(){
         boolean result=super.start();
         if(result){

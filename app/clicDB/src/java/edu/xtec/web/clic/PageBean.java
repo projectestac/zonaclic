@@ -174,7 +174,7 @@ public abstract class PageBean {
 
     public String enumItems(String[] text) {
         String result = "";
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         for (int i = 0; i < text.length; i++) {
             sb.append(text[i]).append(", ");
         }
@@ -186,7 +186,7 @@ public abstract class PageBean {
 
     public String enumItems(TableWrapper[] tw) {
         String result = "";
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         for (int i = 0; i < tw.length; i++) {
             sb.append(tw[i].getMainText()).append(", ");
         }
@@ -197,7 +197,7 @@ public abstract class PageBean {
     }
 
     public String em(String m) {
-        StringBuffer result = new StringBuffer();
+        StringBuilder result = new StringBuilder();
         if (m != null) {
             for (int i = m.length() - 1; i >= 0; i--) {
                 char ch = m.charAt(i);

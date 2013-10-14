@@ -40,6 +40,7 @@ public class ActBean extends PageBean {
         return "edu.xtec.resources.messages.activityMessages";
     }
     
+    @Override
     protected void getRequestParams(HttpServletRequest request) throws Exception {
         super.getRequestParams(request);
         String s = getParam(request, ID, null);
@@ -99,7 +100,7 @@ public class ActBean extends PageBean {
     
     public String getVerTitle(WVersions v) {
         
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         String d = v.descripcio;
         if (d != null && d.length() > 0) {
             sb.append(Utilities.xmlEncode(d)).append(" - ");
@@ -120,7 +121,7 @@ public class ActBean extends PageBean {
     }
     
     public String getAppletExtraParams(WVersions v) {
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         if (v.idiomes.length > 0) {
             sb.append("&lang=").append(v.idiomes[0].codiIdioma);
         }
@@ -140,7 +141,7 @@ public class ActBean extends PageBean {
             v.add(new String[]{getMsg("last_revision"), dateFormat.format(act.data_revisio)});
         }
         
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         if (act.flag1) {
             sb.append(getMsg("ctm"));
         }
@@ -178,15 +179,15 @@ public class ActBean extends PageBean {
     }
     
     public String getAutors() {
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         if (act.autors != null) {
             ArrayList v = new ArrayList(Arrays.asList(act.autors));                        
             
             for (int i = 0; i < act.versions.length; i++) {
                 WVersions wv = act.versions[i];
-                for (int j = 0; j < wv.autors.length; j++) {
-                    v.add(wv.autors[j]);
-                }
+//                for (int j = 0; j < wv.autors.length; j++) {
+//                    v.add(wv.autors[j]);
+                v.addAll(Arrays.asList(wv.autors));
             }
             int l = v.size();
             if (l > 0) {

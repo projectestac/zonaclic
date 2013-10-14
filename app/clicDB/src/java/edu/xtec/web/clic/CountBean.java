@@ -39,6 +39,7 @@ public class CountBean extends PageBean {
         return "edu.xtec.resources.messages.countMessages";
     }
 
+    @Override
     protected void getRequestParams(HttpServletRequest request) throws Exception {
         super.getRequestParams(request);
         by = getParam(request, BY, ListBean.WILD);
@@ -102,7 +103,7 @@ public class CountBean extends PageBean {
         boolean bNivell = ListBean.NIVELL.equals(by);
 
         // ACTIVITATS_DESC
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
 
         // Modificat: fem servir el camo TXIDIOMES en comptes del procediment emmagatzemat
         // sb.append("SELECT DISTINCT A.ID, A.DATA_CREACIO, A.FLAG_NOU, AD.TITOL, ACT_IDIOMES(A.ID) AS IDIOMES, D.TEXT AS TEXT");

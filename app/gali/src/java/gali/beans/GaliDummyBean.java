@@ -6,10 +6,6 @@
 
 package gali.beans;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-import javax.servlet.http.HttpServletResponse;
-
 /**
  *
  * @author  allastar
@@ -22,6 +18,7 @@ public class GaliDummyBean extends GaliBean{
     } 
      */   
     
+    @Override
     protected boolean start() {
         super.start();
         getVar();

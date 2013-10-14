@@ -58,7 +58,7 @@ public class VersionID implements Comparable {
       _usePrefixMatch = false;
       _useGreaterThan = false;
       _isCompound = false;
-      if (str == null && str.length() == 0) {
+      if (str == null || str.length() == 0) {
          _tuple = new String[0];
          return;
       }

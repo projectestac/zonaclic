@@ -6,10 +6,6 @@
 
 package gali.beans;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-import javax.servlet.http.HttpServletResponse;
-
 /**
  *
  * @author  allastar
@@ -33,6 +29,7 @@ public class GaliResultBean extends GaliBean{
     }
      */
     
+    @Override
     protected boolean start(){
         boolean result=super.start();
         if(result){

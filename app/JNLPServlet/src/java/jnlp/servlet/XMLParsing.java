@@ -62,7 +62,6 @@ public class XMLParsing {
 
          // Convert childern
          XMLNode thisNode = new XMLNode(en.getNodeName(), xmlatts, null, null);
-         ;
          XMLNode last = null;
          Node nn = en.getFirstChild();
          while (nn != null) {
@@ -110,7 +109,7 @@ public class XMLParsing {
             }
          }
       });
-      if (list.size() == 0) {
+      if (list.isEmpty()) {
          return null;
       }
       return (String[]) list.toArray(new String[list.size()]);

@@ -36,11 +36,11 @@
 package jnlp.servlet;
 
 import java.io.*;
-import java.util.*;
-import jnlp.jardiff.*;
-import javax.servlet.*;
-import jnlp.util.VersionString;
 import java.net.URL;
+import java.util.*;
+import javax.servlet.*;
+import jnlp.jardiff.*;
+import jnlp.util.VersionString;
 /*
  * A class that generates and caches information about JarDiff files
  *
@@ -261,7 +261,7 @@ public class JarDiffHandler {
       try {
          in = new BufferedInputStream(target.openStream());
          out = new BufferedOutputStream(new FileOutputStream(file));
-         int read = 0;
+         int read;
          int totalRead = 0;
          byte[] buf = new byte[BUF_SIZE];
          while ((read = in.read(buf)) != -1) {
@@ -288,22 +288,22 @@ public class JarDiffHandler {
       } finally {
 
          try {
-            in.close();
-            in = null;
+            if(in!=null)
+                in.close();
          } catch (IOException ioe) {
             if(_log.isDebugLevel())
                _log.addDebug("Got exception while downloading resource: " + ioe);
          }
 
          try {
-            out.close();
-            out = null;
+             if(out!=null)
+                out.close();
          } catch (IOException ioe) {
             if(_log.isDebugLevel())
                _log.addDebug("Got exception while downloading resource: " + ioe);
          }
 
-         if (delete) {
+         if (delete && file!=null) {
             file.delete();
          }
 

@@ -35,9 +35,9 @@
  */
 package jnlp.servlet;
 
+import java.io.*;
 import java.text.MessageFormat;
 import java.util.*;
-import java.io.*;
 import javax.servlet.*;
 
 /* A loging object used by the servlets */
@@ -192,7 +192,7 @@ public class Logger {
    private String applyPattern(String key, Object[] messageArguments) {
       String message = getString(key);
       MessageFormat formatter = new MessageFormat(message);
-      String output = formatter.format(message, messageArguments);
+      String output = MessageFormat.format(message, messageArguments);
       return output;
    }
 
@@ -205,7 +205,7 @@ public class Logger {
 
       if (_logFile != null) {
          // No logfile specified, log using servlet context
-         PrintWriter pw = null;
+         PrintWriter pw;
          try {
             pw = new PrintWriter(new FileWriter(_logFile, true));
             pw.println(_servletName + "(" + level + "): " + string);

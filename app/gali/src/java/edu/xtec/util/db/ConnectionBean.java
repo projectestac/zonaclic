@@ -66,7 +66,7 @@ public class ConnectionBean {
      * @return Information string, formatted in HTML.
      */
     public String getInfo(){
-        StringBuffer sb=new StringBuffer();
+        StringBuilder sb=new StringBuilder();
         sb.append("ConnectionBean ").append(hashCode());
         if(statements!=null){
             sb.append(" (").append(statements.size()).append(" statements)");        

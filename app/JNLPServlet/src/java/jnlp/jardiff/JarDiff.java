@@ -38,7 +38,6 @@ package jnlp.jardiff;
 import java.io.*;
 import java.util.*;
 import java.util.jar.*;
-import java.util.zip.*;
 
 /**
  * JarDiff is able to create a jar file containing the delta between two
@@ -309,7 +308,7 @@ public class JarDiff implements JarDiffConstants {
          index++;
          writer.write('\\');
       }
-      if (last != 0) {
+      if (chars!=null && last != 0) {
          writer.write(chars, last, chars.length - last);
       } else {
          // no spaces

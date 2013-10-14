@@ -111,6 +111,7 @@ public class PooledConnectionBeanProvider extends ConnectionBeanProvider impleme
      * @throws Exception Throwed if dbDriver does not contain a valid driver
      * name, or if it can't be instantiated.
      */
+    @Override
     protected void setUp(Map map) throws Exception {
 
         super.setUp(map);
@@ -214,7 +215,7 @@ public class PooledConnectionBeanProvider extends ConnectionBeanProvider impleme
                 } catch (SQLException e) {
                     sqlEx = e;
                     if (log != null && debugLevel > 0) {
-                        StringBuffer sb = new StringBuffer();
+                        StringBuilder sb = new StringBuilder();
                         sb.append(new Date()).append(" ->Attempt (").append(i);
                         sb.append(" of ").append(dbLoop).append(") failed to create new connections set at startup:\n");
                         sb.append(e).append("\n");
@@ -548,7 +549,7 @@ public class PooledConnectionBeanProvider extends ConnectionBeanProvider impleme
      * @return A String useful only for debug purposes.
      */
     public String freeConnectionBean(ConnectionBean conn) {
-        StringBuffer res = new StringBuffer();
+        StringBuilder res = new StringBuilder();
 
         int thisconn = idOfConnection(conn);
         if (thisconn >= 0) {
@@ -748,9 +749,10 @@ public class PooledConnectionBeanProvider extends ConnectionBeanProvider impleme
      *
      * @return Information string, formatted in HTML.
      */
+    @Override
     public String getInfo() {
         int totalUsageCount = globalUsageCount;
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         sb.append("<b>PooledConnectionBeanProvider ").append(hashCode()).append("</b><br>\n");
         sb.append(super.getInfo());
         sb.append("PID: ").append(pid).append("<br>\n");
@@ -769,10 +771,10 @@ public class PooledConnectionBeanProvider extends ConnectionBeanProvider impleme
             if (cb == null) {
                 sb.append("Empty ConnectionBean<br>\n");
             } else {
-                sb.append("Id: " + connID[i] + "<br>\n");
-                sb.append("Status: " + connStatus[i] + "<br>\n");
-                sb.append("LockTime: " + connLockTime[i] + "<br>\n");
-                sb.append("CreateDate: " + new Date(connCreateDate[i]) + "<br>\n");
+                sb.append("Id: ").append(connID[i]).append("<br>\n");
+                sb.append("Status: ").append(connStatus[i]).append("<br>\n");
+                sb.append("LockTime: ").append(connLockTime[i]).append("<br>\n");
+                sb.append("CreateDate: ").append(new Date(connCreateDate[i])).append("<br>\n");
                 sb.append("------------\n");
                 sb.append(cb.getInfo());
                 totalUsageCount += cb.usageCount;

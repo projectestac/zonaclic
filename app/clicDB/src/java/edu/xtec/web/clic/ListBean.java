@@ -59,6 +59,7 @@ public class ListBean extends PageBean {
         return "edu.xtec.resources.messages.listMessages";
     }
 
+    @Override
     protected void getRequestParams(HttpServletRequest request) throws Exception {
         super.getRequestParams(request);
         area = getParam(request, AREA, WILD);
@@ -128,7 +129,7 @@ public class ListBean extends PageBean {
         boolean bNivell = !WILD.equals(nivell);
 
         // ACTIVITATS_DESC
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
 
         // Modificat: Traiem "DISTINCT" per alleugerir la consulta
         //sb.append("SELECT DISTINCT A.ID, A.VALID, A.DATA_CREACIO, A.FLAG_NOU, AD.TITOL, AD.TITOL_MAJ, ACT_IDIOMES(A.ID) AS IDIOMES, ACT_NIVELLS(A.ID,?) AS NIVELLS, ACT_AREES(A.ID,?) AS AREES");
@@ -381,11 +382,11 @@ public class ListBean extends PageBean {
             stmt = con.getPreparedStatement("SELECT TEXT FROM DICCIONARI WHERE IDIOMA=? AND CODI=?");
             Iterator it=v.iterator();
             while(it.hasNext()){
-                String[] area=(String [])it.next();
+                String[] ar=(String [])it.next();
                 stmt.setString(1, lang);
-                stmt.setString(2, area[2]);
+                stmt.setString(2, ar[2]);
                 rs=stmt.executeQuery();
-                area[2] = rs.next() ? rs.getString("TEXT") : area[0];
+                ar[2] = rs.next() ? rs.getString("TEXT") : ar[0];
                 rs.close();
             }
             con.closeStatement(stmt);
@@ -422,11 +423,11 @@ public class ListBean extends PageBean {
             stmt = con.getPreparedStatement("SELECT TEXT FROM DICCIONARI WHERE IDIOMA=? AND CODI=?");
             Iterator it=v.iterator();
             while(it.hasNext()){
-                String[] nivell=(String [])it.next();
+                String[] nv=(String [])it.next();
                 stmt.setString(1, lang);
-                stmt.setString(2, nivell[2]);
+                stmt.setString(2, nv[2]);
                 rs=stmt.executeQuery();
-                nivell[2] = rs.next() ? rs.getString("TEXT") : nivell[0];
+                nv[2] = rs.next() ? rs.getString("TEXT") : nv[0];
                 rs.close();
             }
             con.closeStatement(stmt);

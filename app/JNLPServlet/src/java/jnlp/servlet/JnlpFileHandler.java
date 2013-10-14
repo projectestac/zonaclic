@@ -41,9 +41,9 @@
 
 package jnlp.servlet;
 
-import java.util.*;
-import java.net.*;
 import java.io.*;
+import java.net.*;
+import java.util.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.xml.parsers.*;
@@ -405,12 +405,7 @@ public class JnlpFileHandler {
     *  the number of milliseconds size sometime in 1969.
     */
    private long parseTimeStamp(String timestamp) {
-      int YYYY = 0;
-      int MM = 0;
-      int DD = 0;
-      int hh = 0;
-      int mm = 0;
-      int ss = 0;
+      int YYYY, MM, DD, hh, mm, ss=0;
 
       timestamp = timestamp.trim();
       try {

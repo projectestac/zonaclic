@@ -235,7 +235,7 @@ public abstract class GaliDataManage {
         }
         else{
             boolean[][][] passed=new boolean[6][7][2];
-            java.util.Vector vActs=null;
+            java.util.Vector vActs;
             try{
                 vActs=getGaliActivities(sUserId);
             } catch(Exception ex){
@@ -338,7 +338,7 @@ public abstract class GaliDataManage {
                 String sPackName=packInfo[iPackage][1];
                 boolean b=hasPassedPackage(sUserId,sPackName);
                 //System.out.println("db hasPassedPackage("+sUserId+","+iPage+","+iPackage+","+iLevel+")?"+b);
-                setPassedPackage(sUserId,iPage,iPackage,iLevel,new Boolean(b), session);
+                setPassedPackage(sUserId,iPage,iPackage,iLevel, b, session);
                 return b;
             }
         }
@@ -694,7 +694,7 @@ public abstract class GaliDataManage {
         /* Crea una taula de hash amb el mapeig entre paquets i activitats al
          fitxer 'sFileName'. KeyIsPac indica si la clau de la taula serà el paquet.*/
         
-        java.util.Map result=null;
+        java.util.Map result;
         
         java.util.Properties prop=new java.util.Properties();
         prop.load(GaliDataManage.class.getResourceAsStream(sFileName));
@@ -720,10 +720,10 @@ public abstract class GaliDataManage {
         ConnectionBean cb=getDB().getConnectionBean();
         try{
             PreparedStatement pstmt;
-            StringBuffer query=new StringBuffer();
+            StringBuilder query=new StringBuilder();
             query.setLength(0);
-            query.append("DELETE FROM "+prefix+"actions WHERE session_id IN");
-            query.append(" (SELECT session_id FROM "+prefix+"sessions");
+            query.append("DELETE FROM ").append(prefix).append("actions WHERE session_id IN");
+            query.append(" (SELECT session_id FROM ").append(prefix).append("sessions");
             query.append(" WHERE user_id=?");
             query.append(" AND session_code=?");
             query.append(")");
@@ -734,8 +734,8 @@ public abstract class GaliDataManage {
             cb.closeStatement(pstmt);
             
             query.setLength(0);
-            query.append("DELETE FROM "+prefix+"activities WHERE session_id IN");
-            query.append(" (SELECT session_id FROM "+prefix+"sessions");
+            query.append("DELETE FROM ").append(prefix).append("activities WHERE session_id IN");
+            query.append(" (SELECT session_id FROM ").append(prefix).append("sessions");
             query.append(" WHERE user_id=?");
             query.append(" AND session_code=?");
             query.append(")");
@@ -746,7 +746,7 @@ public abstract class GaliDataManage {
             cb.closeStatement(pstmt);
             
             query.setLength(0);
-            query.append("DELETE FROM "+prefix+"sessions");
+            query.append("DELETE FROM ").append(prefix).append("sessions");
             query.append(" WHERE user_id=?");
             query.append(" AND session_code=?");
             pstmt=cb.getPreparedStatement(query.toString());
@@ -756,7 +756,7 @@ public abstract class GaliDataManage {
             cb.closeStatement(pstmt);
             
             query.setLength(0);
-            query.append("DELETE FROM "+prefix+"consolidated_info");
+            query.append("DELETE FROM ").append(prefix).append("consolidated_info");
             query.append(" WHERE user_id=?");
             pstmt=cb.getPreparedStatement(query.toString());
             pstmt.setString(1,sUserId);

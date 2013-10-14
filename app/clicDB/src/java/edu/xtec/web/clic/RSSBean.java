@@ -33,6 +33,7 @@ public class RSSBean extends PageBean {
         return "edu.xtec.resources.messages.rssMessages";
     }
 
+    @Override
     protected void getRequestParams(HttpServletRequest request) throws Exception {
         if (lang == null) {
             String uri = request.getRequestURI();

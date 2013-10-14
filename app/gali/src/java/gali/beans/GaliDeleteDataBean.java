@@ -6,16 +6,13 @@
 
 package gali.beans;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-import javax.servlet.http.HttpServletResponse;
-
 /**
  *
  * @author  fbusquet
  */
 public class GaliDeleteDataBean extends GaliBean {
     
+    @Override
     protected boolean start(){
         boolean result=super.start() && (getUserId()!=null);
         if(result){

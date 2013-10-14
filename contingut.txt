@@ -58,7 +58,7 @@
  -------- Galí --------
  
  * app/reportsWebApp: El WAR amb els servlets del sistema d'informes JClic és idèntic al que genera 
-                      el build de JClic (http://projectes.lafarga.cat/projects/jclic), amb la única
+                      el build de JClic (http://github.com/projectestac/jclic), amb l'única
                       diferència d'una línia al fitxer web/WEB-INF/web.xml, que es troba en aquest directori.
                   
  * app/gali:       Codi font de l'aplicació Galí.

@@ -6,8 +6,6 @@
 
 package gali.beans;
 
-import javax.servlet.http.*;
-
 /**
  *
  * @author  allastar

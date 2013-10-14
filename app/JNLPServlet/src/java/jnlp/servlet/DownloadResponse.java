@@ -36,8 +36,8 @@
 package jnlp.servlet;
 
 import java.io.*;
-import java.util.*;
 import java.net.URL;
+import java.util.*;
 import javax.servlet.http.HttpServletResponse;
 
 /**

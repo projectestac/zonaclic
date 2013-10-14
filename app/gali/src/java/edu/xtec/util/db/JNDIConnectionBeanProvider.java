@@ -86,6 +86,7 @@ public class JNDIConnectionBeanProvider extends ConnectionBeanProvider{
      * @throws Exception Throwed if the DataSource can't be
      * instantiated.
      */
+    @Override
     protected void setUp(Map map) throws Exception{
         
         super.setUp(map);
@@ -106,7 +107,7 @@ public class JNDIConnectionBeanProvider extends ConnectionBeanProvider{
                         f=new File(f, logFileString);
                         logFileString=f.getAbsolutePath();
                     }
-                    boolean logAppend = new Boolean(getValue(map, "dbLogAppend", "true")).booleanValue();
+                    boolean logAppend = Boolean.valueOf(getValue(map, "dbLogAppend", "true")).booleanValue();
                     log = new PrintWriter(new FileOutputStream(logFileString, logAppend),true);
                 }
             } catch(IOException ioex){
@@ -135,8 +136,9 @@ public class JNDIConnectionBeanProvider extends ConnectionBeanProvider{
     /** Provides information about the current state of this ConnectionBeanProvider.
      * @return Information string, formatted in HTML.
      */
+    @Override
     public String getInfo(){
-        StringBuffer sb=new StringBuffer();
+        StringBuilder sb=new StringBuilder();
         sb.append("<b>JNDIConnectionBeanProvider ").append(hashCode()).append("</b><br>\n");
         sb.append(super.getInfo());
         sb.append("started: ").append(started).append("<br>\n");

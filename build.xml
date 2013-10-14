@@ -36,9 +36,9 @@
     <property name="resource.path"  value="edu/xtec/resources" />
     
     
-    <!-- JClic is currently targeted to JVM 1.4 -->
-    <property name="ant.build.javac.source" value="1.4"/>
-    <property name="ant.build.javac.target" value="1.4"/>
+    <!-- JClic is currently targeted to JVM 1.5 -->
+    <property name="ant.build.javac.source" value="1.5"/>
+    <property name="ant.build.javac.target" value="1.5"/>
     
     <!-- Compiler options -->
     <property name="debug"          value="off" />    

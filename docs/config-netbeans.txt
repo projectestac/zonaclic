@@ -10,12 +10,12 @@ implementant l'entorn de desenvolupament. A tot arreu on aparegui l'expressió $
 path corresponent. EN CAP CAS S'HA D'ESCRIURE "$HOME"!!!
 
 IMPORTANT: També fem servir l'expressió "$ROOT" per referir-nos al directori arrel des d'on pengen tots els
-fitxers amb el codi font i la documentació. Normalment aquest directori correspondrà a la branca
-"projectestac/zonaClic/branches/devel" del contingut del subversion de projectes.lafarga.cat
+fitxers amb el codi font i la documentació. Normalment aquest directori correspondrà a la branca master de
+"projectestac/jclic" a github.com
 
 1 - Preparar la base de dades Oracle tal com s'explica a config-oracle.txt
 
-2 - Fer un checkout a svn.projectes.lafarga.cat per obtenir els fitxers del directori $ROOT
+2 - Fer un "git clone" a https//github.com/projectestac/jclic.git per obtenir els fitxers del directori $ROOT
 
 3 - Copiar tots els fitxers ".properties" del directori $ROOT/home al directori $HOME de l'usuari
 

@@ -44,6 +44,7 @@ public class SingleConnectionBeanProvider extends ConnectionBeanProvider {
      * @throws Exception Throwed if dbDriver does not contain a valid driver
      * name, or if it can't be instantiated.
      */
+    @Override
     protected void setUp(Map map) throws Exception {
         super.setUp(map);
         if (dbDriver == null || dbDriver.length() == 0) {
@@ -83,8 +84,9 @@ public class SingleConnectionBeanProvider extends ConnectionBeanProvider {
      *
      * @return Information string, formatted in HTML.
      */
+    @Override
     public String getInfo() {
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         sb.append("<b>SingleConnectionBeanProvider ").append(hashCode()).append("</b><br>\n");
         sb.append(super.getInfo());
         sb.append(conBean.getInfo());

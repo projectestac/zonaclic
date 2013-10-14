@@ -35,13 +35,12 @@
  */
 package jnlp.servlet;
 
-import java.util.HashSet;
-import javax.servlet.ServletContext;
-import java.net.URL;
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 import java.net.URLConnection;
 import java.util.*;
+import javax.servlet.ServletContext;
 
 /**
  *  A JnlpResource encapsulate the information about a resource that is
@@ -135,7 +134,7 @@ public class JnlpResource {
       /* Check for existance and get last modified timestamp */
       try {
          String orig_path = path.trim();
-         String search_path = orig_path;
+         String search_path;
          _resource = context.getResource(orig_path);
          _mimeType = getMimeType(context, orig_path);
          if (_resource != null) {

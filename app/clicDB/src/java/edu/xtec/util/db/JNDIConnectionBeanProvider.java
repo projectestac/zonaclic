@@ -91,6 +91,7 @@ public class JNDIConnectionBeanProvider extends ConnectionBeanProvider {
      * Datasource name and context params.
      * @throws Exception Throwed if the DataSource can't be instantiated.
      */
+    @Override
     protected void setUp(Map map) throws Exception {
 
         super.setUp(map);
@@ -145,8 +146,9 @@ public class JNDIConnectionBeanProvider extends ConnectionBeanProvider {
      *
      * @return Information string, formatted in HTML.
      */
+    @Override
     public String getInfo() {
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         sb.append("<b>JNDIConnectionBeanProvider ").append(hashCode()).append("</b><br>\n");
         sb.append(super.getInfo());
         sb.append("started: ").append(started).append("<br>\n");

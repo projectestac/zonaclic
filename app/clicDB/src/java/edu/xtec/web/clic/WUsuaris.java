@@ -138,7 +138,7 @@ public class WUsuaris extends TableWrapper {
         login = rs.getString(fn[LOGIN]);
         pwd = rs.getString(fn[PWD]);
         nom = rs.getString(fn[NOM]);
-        privacitat = rs.getLong(fn[PRIVACITAT]);;
+        privacitat = rs.getLong(fn[PRIVACITAT]);
         sexe = rs.getString(fn[SEXE]);
         data_alta = rs.getDate(fn[DATA_ALTA]);
         organitzacio = rs.getString(fn[ORGANITZACIO]);

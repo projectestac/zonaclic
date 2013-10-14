@@ -7,7 +7,6 @@
 package gali.beans;
 
 import javax.servlet.http.*;
-import java.util.Properties;
 
 /**
  *
@@ -104,7 +103,7 @@ public abstract class GaliCtt {
     public String getUrl(String sPage, int iPage, int iPackage, int iLevel, boolean bCons){
         /* Retorna la url que apunta a sPage amb els paràmetres adients. Només 
          contindrà els paràmetres no nuls i no negatius. */
-        StringBuffer sb=new StringBuffer(sPage);
+        StringBuilder sb=new StringBuilder(sPage);
         int iParams=0;
         if (iPage>=0){
             sb.append(iParams++==0 ? '?' : '&');
@@ -154,7 +153,7 @@ public abstract class GaliCtt {
     
     public boolean isCons(){
         if(cons==null){
-            cons=new Boolean(getUserId()==null || getBooleanParameter(CONS, false));
+            cons = getUserId()==null || getBooleanParameter(CONS, false);
         }
         return cons.booleanValue();
     }

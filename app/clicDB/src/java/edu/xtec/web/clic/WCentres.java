@@ -151,7 +151,7 @@ public class WCentres extends TableWrapper {
     }
 
     public String getLinkedName() {
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         boolean w = (web != null && web.length() > 0);
         if (w) {
             sb.append("<a href=\"");
@@ -169,7 +169,7 @@ public class WCentres extends TableWrapper {
     private static final String[] NO_COMARCA = {"Barcelona", "Tarragona", "Lleida", "Girona"};
 
     public String getLocalitat() {
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         boolean flag = false;
         String[] llocs = {municipi, comarca, comunitat, pais};
         for (int i = 0; i < llocs.length; i++) {

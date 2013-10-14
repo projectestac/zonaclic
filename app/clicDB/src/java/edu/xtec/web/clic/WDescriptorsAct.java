@@ -103,6 +103,7 @@ public class WDescriptorsAct extends TableWrapper {
         return (WDescriptorsAct[]) v.toArray(new WDescriptorsAct[v.size()]);
     }
 
+    @Override
     public String getMainText() {
         return textDescriptor != null ? textDescriptor : ("DESC" + descriptor);
     }

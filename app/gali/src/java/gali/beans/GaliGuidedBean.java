@@ -6,10 +6,6 @@
 
 package gali.beans;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-import javax.servlet.http.HttpServletResponse;
-
 /**
  *
  * @author  allastar
@@ -23,6 +19,7 @@ public class GaliGuidedBean extends GaliBean{
     } 
      */   
     
+    @Override
     protected boolean start() {
         return super.start();
     }

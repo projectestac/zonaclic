@@ -35,17 +35,17 @@
  */
 package jnlp.servlet;
 
+import java.io.BufferedInputStream;
+import java.io.File;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.ArrayList;
-import java.io.File;
-import java.io.BufferedInputStream;
 import javax.servlet.ServletContext;
 import javax.xml.parsers.*;
-import org.xml.sax.*;
-import org.w3c.dom.*;
-import jnlp.util.VersionString;
 import jnlp.util.VersionID;
+import jnlp.util.VersionString;
+import org.w3c.dom.*;
+import org.xml.sax.*;
 
 public class ResourceCatalog {
 
@@ -103,7 +103,7 @@ public class ResourceCatalog {
    public JnlpResource lookupResource(DownloadRequest dreq) throws ErrorResponseException {
       // Split request up into path and name
       String path = dreq.getPath();
-      String name = null;
+      String name;
       String dir = null;
       int idx = path.lastIndexOf('/');
       if (idx == -1) {
@@ -391,7 +391,7 @@ public class ResourceCatalog {
          // Get option and argument
          char option = rest.charAt(0);
          idx = rest.indexOf("__");
-         String arg = null;
+         String arg;
          if (idx == -1) {
             arg = rest.substring(1);
             rest = "";
@@ -428,7 +428,7 @@ public class ResourceCatalog {
    }
 
    private String[] listToStrings(List list) {
-      if (list.size() == 0) {
+      if (list.isEmpty()) {
          return null;
       }
       return (String[]) list.toArray(new String[list.size()]);
@@ -442,7 +442,7 @@ public class ResourceCatalog {
       }
 
       // Parse XML into a more understandable format
-      XMLNode root = null;
+      XMLNode root;
       try {
          DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
          DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();

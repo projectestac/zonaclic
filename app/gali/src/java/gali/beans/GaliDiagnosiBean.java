@@ -6,10 +6,6 @@
 
 package gali.beans;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-import javax.servlet.http.HttpServletResponse;
-
 /**
  *
  * @author  allastar
@@ -18,6 +14,7 @@ public class GaliDiagnosiBean extends GaliBean{
     
     public static final String PACKAGE_NAME="td";
     
+    @Override
     protected boolean start(){
         boolean result=super.start();
         if(result && getUserId()!=null)
@@ -34,7 +31,7 @@ public class GaliDiagnosiBean extends GaliBean{
     }
         
     public String getReporterParams(){
-        StringBuffer sb=new StringBuffer("path=");
+        StringBuilder sb=new StringBuilder("path=");
         sb.append(getSetting("reporterPath"));
         sb.append(";user=").append(getUserId());
         sb.append(";key=").append(getKey());

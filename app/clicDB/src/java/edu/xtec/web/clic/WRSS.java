@@ -124,7 +124,7 @@ public class WRSS extends TableWrapper {
         if (wactdesc != null) {
             descripcions = new WRSSDesc[1];
             descripcions[0] = new WRSSDesc();
-            StringBuffer sb = new StringBuffer(wactdesc.descripcio);
+            StringBuilder sb = new StringBuilder(wactdesc.descripcio);
 
             sb.append("<p>");
             String autors = actBean.getAutors();

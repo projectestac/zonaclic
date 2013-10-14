@@ -105,6 +105,7 @@ public class WVersionsIdiomes extends TableWrapper {
         return (WVersionsIdiomes[]) v.toArray(new WVersionsIdiomes[v.size()]);
     }
 
+    @Override
     public String getMainText() {
         return textIdioma != null ? textIdioma : codiIdioma;
     }

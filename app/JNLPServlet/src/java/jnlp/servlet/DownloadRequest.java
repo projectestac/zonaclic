@@ -197,7 +197,7 @@ public class DownloadRequest {
       if (sb != null) {
          list.add(sb.toString());
       }
-      if (list.size() == 0) {
+      if (list.isEmpty()) {
          return null;
       }
       String[] results = new String[list.size()];

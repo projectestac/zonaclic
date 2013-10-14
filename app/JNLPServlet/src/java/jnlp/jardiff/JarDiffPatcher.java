@@ -154,13 +154,15 @@ public class JarDiffPatcher implements JarDiffConstants, Patcher {
 
          // Create dest JarEntry
          JarEntry newEntry = new JarEntry(newName);
-         newEntry.setTime(oldEntry.getTime());
-         newEntry.setSize(oldEntry.getSize());
-         newEntry.setCompressedSize(oldEntry.getCompressedSize());
-         newEntry.setCrc(oldEntry.getCrc());
-         newEntry.setMethod(oldEntry.getMethod());
-         newEntry.setExtra(oldEntry.getExtra());
-         newEntry.setComment(oldEntry.getComment());
+          if (oldEntry != null) {
+              newEntry.setTime(oldEntry.getTime());
+              newEntry.setSize(oldEntry.getSize());
+              newEntry.setCompressedSize(oldEntry.getCompressedSize());
+              newEntry.setCrc(oldEntry.getCrc());
+              newEntry.setMethod(oldEntry.getMethod());
+              newEntry.setExtra(oldEntry.getExtra());
+              newEntry.setComment(oldEntry.getComment());
+          }
 
 
          updateDelegate(delegate, currentEntry, size);

@@ -145,7 +145,7 @@ public class JnlpDownloadServlet extends HttpServlet {
          if (_log.isInformationalLevel())
             _log.addInformational("servlet.log.info.goodrequest", jnlpres.getPath());
 
-         DownloadResponse dres = null;
+         DownloadResponse dres;
 
          if (isHead) {
 
