@@ -138,7 +138,7 @@ public class JNDIConnectionBeanProvider extends ConnectionBeanProvider{
      */
     //@Override
     public String getInfo(){
-        StringBuilder sb=new StringBuilder();
+        StringBuffer sb=new StringBuffer();
         sb.append("<b>JNDIConnectionBeanProvider ").append(hashCode()).append("</b><br>\n");
         sb.append(super.getInfo());
         sb.append("started: ").append(started).append("<br>\n");

@@ -215,7 +215,7 @@ public class PooledConnectionBeanProvider extends ConnectionBeanProvider impleme
                 } catch (SQLException e) {
                     sqlEx = e;
                     if (log != null && debugLevel > 0) {
-                        StringBuilder sb = new StringBuilder();
+                        StringBuffer sb = new StringBuffer();
                         sb.append(new Date()).append(" ->Attempt (").append(i);
                         sb.append(" of ").append(dbLoop).append(") failed to create new connections set at startup:\n");
                         sb.append(e).append("\n");
@@ -549,7 +549,7 @@ public class PooledConnectionBeanProvider extends ConnectionBeanProvider impleme
      * @return A String useful only for debug purposes.
      */
     public String freeConnectionBean(ConnectionBean conn) {
-        StringBuilder res = new StringBuilder();
+        StringBuffer res = new StringBuffer();
 
         int thisconn = idOfConnection(conn);
         if (thisconn >= 0) {
@@ -752,7 +752,7 @@ public class PooledConnectionBeanProvider extends ConnectionBeanProvider impleme
     //@Override
     public String getInfo() {
         int totalUsageCount = globalUsageCount;
-        StringBuilder sb = new StringBuilder();
+        StringBuffer sb = new StringBuffer();
         sb.append("<b>PooledConnectionBeanProvider ").append(hashCode()).append("</b><br>\n");
         sb.append(super.getInfo());
         sb.append("PID: ").append(pid).append("<br>\n");

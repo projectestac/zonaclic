@@ -129,7 +129,7 @@ public class ListBean extends PageBean {
         boolean bNivell = !WILD.equals(nivell);
 
         // ACTIVITATS_DESC
-        StringBuilder sb = new StringBuilder();
+        StringBuffer sb = new StringBuffer();
 
         // Modificat: Traiem "DISTINCT" per alleugerir la consulta
         //sb.append("SELECT DISTINCT A.ID, A.VALID, A.DATA_CREACIO, A.FLAG_NOU, AD.TITOL, AD.TITOL_MAJ, ACT_IDIOMES(A.ID) AS IDIOMES, ACT_NIVELLS(A.ID,?) AS NIVELLS, ACT_AREES(A.ID,?) AS AREES");

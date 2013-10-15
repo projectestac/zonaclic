@@ -100,7 +100,7 @@ public class ActBean extends PageBean {
     
     public String getVerTitle(WVersions v) {
         
-        StringBuilder sb = new StringBuilder();
+        StringBuffer sb = new StringBuffer();
         String d = v.descripcio;
         if (d != null && d.length() > 0) {
             sb.append(Utilities.xmlEncode(d)).append(" - ");
@@ -121,7 +121,7 @@ public class ActBean extends PageBean {
     }
     
     public String getAppletExtraParams(WVersions v) {
-        StringBuilder sb = new StringBuilder();
+        StringBuffer sb = new StringBuffer();
         if (v.idiomes.length > 0) {
             sb.append("&lang=").append(v.idiomes[0].codiIdioma);
         }
@@ -141,7 +141,7 @@ public class ActBean extends PageBean {
             v.add(new String[]{getMsg("last_revision"), dateFormat.format(act.data_revisio)});
         }
         
-        StringBuilder sb = new StringBuilder();
+        StringBuffer sb = new StringBuffer();
         if (act.flag1) {
             sb.append(getMsg("ctm"));
         }
@@ -179,7 +179,7 @@ public class ActBean extends PageBean {
     }
     
     public String getAutors() {
-        StringBuilder sb = new StringBuilder();
+        StringBuffer sb = new StringBuffer();
         if (act.autors != null) {
             ArrayList v = new ArrayList(Arrays.asList(act.autors));                        
             

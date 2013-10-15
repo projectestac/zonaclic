@@ -36,14 +36,9 @@
     <property name="resource.path"  value="edu/xtec/resources" />
     
     
-    <!-- JClic is currently targeted to JVM 1.4 -->
-    <property name="ant.build.javac.source" value="1.4"/>
-    <property name="ant.build.javac.target" value="1.4"/>
-    
-    <!-- Compiler options -->
-    <property name="debug"          value="off" />    
-    <property name="deprecation"    value="off" />    
-    <property name="optimize"       value="on" />    
+    <!-- zonaClic is currently targeted to JVM 1.4 -->
+    <property name="javac.source" value="1.4"/>
+    <property name="javac.target" value="1.4"/>
     
     <!-- Patterns -->
     <patternset id="images" >
@@ -86,13 +81,32 @@
         <filtersfile file="project.properties"/>
     </filterset>
 
+    <!-- Compiler options -->
+    <property name="debug"          value="on" />    
+    <property name="deprecation"    value="off" />    
+    <property name="optimize"       value="on" />    
+    <property name="bootclasspath"  value="${lib.dir}/bootstrap/${javac.target}/rt.jar" />    
+    
+    <!-- Custom javac definition -->
+    <presetdef name="ext.javac">
+        <javac debug="${debug}"
+               deprecation="${deprecation}" 
+               optimize="${optimize}"
+               source="${javac.source}"
+               target="${javac.target}"
+               bootclasspath="${bootclasspath}"
+               includeAntRuntime="false" >
+               <compilerarg value="-Xbootclasspath:${bootclasspath}" />
+        </javac>
+    </presetdef>
+
     <!-- Display info -->
     <echo message="---------------------"/>
     <echo message="WebClic build"/>
     <echo message="---------------------"/>        
     <echo message="Using ${ant.version}, in ${ant.home}"/>
     <echo message="Using Java ${java.version} by ${java.vendor} in ${java.home}"/>
-    <echo message="Generating code for Java ${ant.build.javac.target}"/>
+    <echo message="Generating code for Java ${javac.target}"/>
         
     <!-- Create dirs -->
     <mkdir dir="${build.int.dir}"/>
@@ -144,20 +158,14 @@
         </fileset>            
     </copy>        
     
-    <javac destdir="${build.prod.dir}/clicDB.war-base/WEB-INF/classes" 
-           debug="${debug}"
-           deprecation="${deprecation}"
-           optimize="${optimize}"
-           includeantruntime="false"
-           source="${ant.build.javac.source}"
-           target="${ant.build.javac.target}" >
+    <ext.javac destdir="${build.prod.dir}/clicDB.war-base/WEB-INF/classes">
         <src path="${app.dir}/clicDB/src/java"/>
         <classpath>
             <pathelement location="${lib.dir}/jclicreports.jar"/>
             <pathelement location="${lib.dir}/jclic.jar"/>
             <pathelement location="${lib.dir}/servlet-api.jar"/>
         </classpath>        
-    </javac>
+    </ext.javac>
     
     <!-- workaround to avoid the 2-seconds granularity value set by the "war" ant task (see ant's manual)-->
     <sleep seconds="3" />
@@ -201,18 +209,12 @@
             <patternset refid="props" />
         </fileset>            
     </copy>        
-    <javac destdir="${build.prod.dir}/JNLPServlet.war-base/WEB-INF/classes" 
-           debug="${debug}"
-           deprecation="${deprecation}"
-           optimize="${optimize}"
-           includeantruntime="false"
-           source="${ant.build.javac.source}"
-           target="${ant.build.javac.target}" >
+    <ext.javac destdir="${build.prod.dir}/JNLPServlet.war-base/WEB-INF/classes">
         <src path="${app.dir}/JNLPServlet/src/java"/>
         <classpath>
             <pathelement location="${lib.dir}/servlet-api.jar"/>
         </classpath>        
-    </javac>
+    </ext.javac>
     
     <!-- Prepara integració -->
     <mkdir dir="${build.int.dir}/JNLPServlet.war-base"/>
@@ -294,18 +296,12 @@
         </fileset>            
     </copy>        
     
-    <javac destdir="${build.prod.dir}/gali.war-base/WEB-INF/classes" 
-           debug="${debug}"
-           deprecation="${deprecation}"
-           optimize="${optimize}"
-           includeantruntime="false"
-           source="${ant.build.javac.source}"
-           target="${ant.build.javac.target}" >
+    <ext.javac destdir="${build.prod.dir}/gali.war-base/WEB-INF/classes">
         <src path="${app.dir}/gali/src/java"/>
         <classpath>
             <pathelement location="${lib.dir}/servlet-api.jar"/>
         </classpath>        
-    </javac>
+    </ext.javac>
     
     <!-- workaround to avoid the 2-seconds granularity value set by the "war" ant task (see ant's manual)-->
     <sleep seconds="3" />    

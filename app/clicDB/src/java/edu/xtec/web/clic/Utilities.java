@@ -69,7 +69,7 @@ public abstract class Utilities {
     }
 
     public static String toNbsp(String src) {
-        StringBuilder sb = new StringBuilder();
+        StringBuffer sb = new StringBuffer();
         if (src != null) {
             StringTokenizer st = new StringTokenizer(src);
             if (st.hasMoreTokens()) {
@@ -96,7 +96,7 @@ public abstract class Utilities {
         } catch (java.io.UnsupportedEncodingException e) {
             urlBytes = url.getBytes();
         }
-        StringBuilder out = new StringBuilder(urlBytes.length);
+        StringBuffer out = new StringBuffer(urlBytes.length);
         for (int i = 0; i < urlBytes.length; i++) {
             int c = (int) urlBytes[i];
             if (VALID_CHARS.indexOf(c) != -1) {
@@ -119,7 +119,7 @@ public abstract class Utilities {
     public static String xmlEncode(String txt) {
         String result = null;
         if (txt != null) {
-            StringBuilder sb = new StringBuilder(txt.length() * 2);
+            StringBuffer sb = new StringBuffer(txt.length() * 2);
             StringTokenizer st = new StringTokenizer(txt, FORBIDDEN_XML_CHARS, true);
             while (st.hasMoreTokens()) {
                 String s = st.nextToken();

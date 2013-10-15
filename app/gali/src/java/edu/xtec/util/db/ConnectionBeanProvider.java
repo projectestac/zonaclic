@@ -151,7 +151,7 @@ public abstract class ConnectionBeanProvider {
      * @return Information string, formatted in HTML.
      */
     public String getInfo(){
-        StringBuilder sb=new StringBuilder();
+        StringBuffer sb=new StringBuffer();
         sb.append(DB_DRIVER).append(": ").append(dbDriver).append("<br>\n");
         sb.append(DB_SERVER).append(": ").append(dbServer).append("<br>\n");
         sb.append(DB_LOGIN).append(": ").append(dbLogin).append("<br>\n");
@@ -166,7 +166,7 @@ public abstract class ConnectionBeanProvider {
      * @return Information string, formatted in HTML.
      */
     public static String getGlobalInfo(){
-        StringBuilder sb=new StringBuilder();
+        StringBuffer sb=new StringBuffer();
         if(cbProviders==null)
             cbProviders=new HashMap(2);
         sb.append("<b>").append(cbProviders.size()).append(" ConnectionBeanProviders created</b><br>\n");
@@ -222,7 +222,7 @@ public abstract class ConnectionBeanProvider {
         String staticDbDriver=(String)map.get(DB_DRIVER);
         String staticDbServer=(String)map.get(DB_SERVER);
         String staticDbLogin=(String)map.get(DB_LOGIN);        
-        StringBuilder kb=new StringBuilder();
+        StringBuffer kb=new StringBuffer();
         kb.append(staticDbDriver).append("@");
         kb.append(staticDbServer).append("@");
         kb.append(staticDbLogin).append("@");

@@ -179,7 +179,7 @@ public class WActivitats extends TableWrapper {
             String myUrl = Context.cntx.getProperty("appBase") + "/act.jsp?id=" + id;
             Calendar cal = Calendar.getInstance();
             cal.setTime(data_creacio);
-            StringBuilder sb = new StringBuilder(3000);
+            StringBuffer sb = new StringBuffer(3000);
             sb.append("<!--\n");
             sb.append("<rdf:RDF xmlns=\"http://web.resource.org/cc/\"\n");
             sb.append("  xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n");
@@ -195,7 +195,7 @@ public class WActivitats extends TableWrapper {
                 sb.append("   <dc:description>").append(Utilities.xmlEncode(descripcio)).append("</dc:description>\n");
             }
             if (autors != null) {
-                StringBuilder sb2 = new StringBuilder();
+                StringBuffer sb2 = new StringBuffer();
                 for (int i = 0; i < autors.length; i++) {
                     if (autors[i] != null && autors[i].autor != null) {
                         sb2.append("<Agent><dc:title>");

@@ -23,7 +23,7 @@ public abstract class TableWrapper {
         //String[] fn=FIELD_NAMES;
         //String[] prFn=getPrefixedFieldNames();
         //String pr=PREFIX;
-        StringBuilder sb = new StringBuilder();
+        StringBuffer sb = new StringBuffer();
         for (int i = 0; i < fn.length; i++) {
             sb.append(pr).append(".").append(fn[i]).append(" as ");
             sb.append(prFn[i]).append(", ");
@@ -41,7 +41,7 @@ public abstract class TableWrapper {
         //String[] fn=FIELD_NAMES;
         //String pr=getPrefix();
         String[] result = new String[fn.length];
-        StringBuilder sb = new StringBuilder();
+        StringBuffer sb = new StringBuffer();
         for (int i = 0; i < fn.length; i++) {
             sb.setLength(0);
             sb.append(pr).append(SEP).append(fn[i]);

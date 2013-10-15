@@ -100,7 +100,7 @@ public class GaliPackageBean extends GaliBean{
     }
     
     public String getReporterParams(){
-        StringBuilder sb=new StringBuilder("path=");
+        StringBuffer sb=new StringBuffer("path=");
         sb.append(getSetting("reporterPath"));
         sb.append(";user=").append(getUserId());
         sb.append(";key=").append(getKey());

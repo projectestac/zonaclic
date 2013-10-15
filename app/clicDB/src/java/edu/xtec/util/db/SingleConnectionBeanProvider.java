@@ -86,7 +86,7 @@ public class SingleConnectionBeanProvider extends ConnectionBeanProvider {
      */
     //@Override
     public String getInfo() {
-        StringBuilder sb = new StringBuilder();
+        StringBuffer sb = new StringBuffer();
         sb.append("<b>SingleConnectionBeanProvider ").append(hashCode()).append("</b><br>\n");
         sb.append(super.getInfo());
         sb.append(conBean.getInfo());

@@ -103,7 +103,7 @@ public abstract class GaliCtt {
     public String getUrl(String sPage, int iPage, int iPackage, int iLevel, boolean bCons){
         /* Retorna la url que apunta a sPage amb els paràmetres adients. Només 
          contindrà els paràmetres no nuls i no negatius. */
-        StringBuilder sb=new StringBuilder(sPage);
+        StringBuffer sb=new StringBuffer(sPage);
         int iParams=0;
         if (iPage>=0){
             sb.append(iParams++==0 ? '?' : '&');

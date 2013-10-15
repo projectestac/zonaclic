@@ -720,7 +720,7 @@ public abstract class GaliDataManage {
         ConnectionBean cb=getDB().getConnectionBean();
         try{
             PreparedStatement pstmt;
-            StringBuilder query=new StringBuilder();
+            StringBuffer query=new StringBuffer();
             query.setLength(0);
             query.append("DELETE FROM ").append(prefix).append("actions WHERE session_id IN");
             query.append(" (SELECT session_id FROM ").append(prefix).append("sessions");
