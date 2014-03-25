@@ -65,6 +65,8 @@ ATENCIÓ: Potser caldrà substituir "localhost" per la IP del servidor on estigu
     classpath de Tomcat. Això es pot aconseguir copiant-lo a $JAVA_HOME/lib/ext o a la carpeta "lib" de 
     la instal·lació de Tomcat (que en el cas de la Linkat és /usr/local/apache-tomcat-xxx/lib)
 
+    ACTUALITZACIÓ: En Ubuntu, el fitxer es pot deixar (o millor enllaçar) a /usr/java/packages/lib/ext
+
 10 - Copiar el fitxer:
      $ROOT/lib/jclicreports.war
      a:
