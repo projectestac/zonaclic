@@ -27,7 +27,7 @@
     <property name="dist.acc.dir"   location="${dist.dir}/acc" />
     <property name="dist.prod.dir"  location="${dist.dir}/prod" />
     
-    <property name="int.base"       value="http://clic-int.educacio.intranet:7778" />
+    <property name="int.base"       value="http://clic-int.educacio.intranet:7792" />
     <property name="acc.base"       value="http://clic-acc.xtec.cat" />
     <property name="prod.base"      value="http://clic.xtec.cat" />
     
