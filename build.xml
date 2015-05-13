@@ -10,7 +10,7 @@
 
     <!-- Variables -->
     <property name="name"           value="WebClic" />    
-    <property name="year"           value="2004-13" />
+    <property name="year"           value="2004-15" />
     
     <property name="src.dir"        location="src" />
     <property name="lib.dir"        location="lib" />
@@ -37,8 +37,8 @@
     
     
     <!-- zonaClic is currently targeted to JVM 1.4 -->
-    <property name="javac.source" value="1.4"/>
-    <property name="javac.target" value="1.4"/>
+    <property name="javac.source" value="1.5"/>
+    <property name="javac.target" value="1.5"/>
     
     <!-- Patterns -->
     <patternset id="images" >
@@ -89,14 +89,20 @@
     
     <!-- Custom javac definition -->
     <presetdef name="ext.javac">
-        <javac debug="${debug}"
+        <!-- javac debug="${debug}"
                deprecation="${deprecation}" 
                optimize="${optimize}"
                source="${javac.source}"
                target="${javac.target}"
                bootclasspath="${bootclasspath}"
+               includeAntRuntime="false" -->
+        <javac debug="${debug}"
+               deprecation="${deprecation}" 
+               optimize="${optimize}"
+               source="${javac.source}"
+               target="${javac.target}"
                includeAntRuntime="false" >
-               <compilerarg value="-Xbootclasspath:${bootclasspath}" />
+               <!-- compilerarg value="-Xbootclasspath:${bootclasspath}" / -->
         </javac>
     </presetdef>
 
