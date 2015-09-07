@@ -27,7 +27,11 @@ private/
 
 # Directories with intermediate files #
 netbeans/
+.nbattrs
 
 # Directories with non redistribuable files #
 lib/bootstrap/
 
+app/JNLPServlet/web/WEB-INF/classes/
+app/clicDB/web/WEB-INF/classes/
+app/gali/web/WEB-INF/classes/
