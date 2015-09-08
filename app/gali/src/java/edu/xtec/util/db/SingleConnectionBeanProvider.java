@@ -18,86 +18,100 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details (see the LICENSE file).
  */
-
 package edu.xtec.util.db;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.util.Map;
 
-/** A single ConnectionBeanProvider, that uses only one single connection to the
+/**
+ * A single ConnectionBeanProvider, that uses only one single connection to the
  * database, in a single ConnectionBean.
+ *
  * @author fbusquet
  */
-public class SingleConnectionBeanProvider extends ConnectionBeanProvider{
-    
+public class SingleConnectionBeanProvider extends ConnectionBeanProvider {
+
     private Connection con;
     private ConnectionBean conBean;
-    
-    /** Main initialization function, called immediatelly after constructor by
+
+    /**
+     * Main initialization function, called immediatelly after constructor by
      * getConnectionBeanProvider functions.
-     * @param map Collection of key - value pairs that must specify the driver, url, login and
-     * password of the just created ConnectionBeanProvider.
-     * @throws Exception Throwed if dbDriver does not contain a valid driver name, or if it can't be
-     * instantiated.
-     */    
+     *
+     * @param map Collection of key - value pairs that must specify the driver,
+     * url, login and password of the just created ConnectionBeanProvider.
+     * @throws Exception Throwed if dbDriver does not contain a valid driver
+     * name, or if it can't be instantiated.
+     */
     //@Override
-    protected void setUp(Map map) throws Exception{
+    protected void setUp(Map map) throws Exception {
         super.setUp(map);
-        if(dbDriver==null || dbDriver.length()==0)
+        if (dbDriver == null || dbDriver.length() == 0) {
             throw new Exception("Parameter dbDriver is null!");
-        Class.forName(dbDriver);        
-        if(dbServer==null || dbServer.length()==0)
+        }
+        Class.forName(dbDriver);
+        if (dbServer == null || dbServer.length() == 0) {
             throw new Exception("Parameter dbServer is null!");
-        if(dbLogin!=null && dbLogin.length()>0){
-            con=DriverManager.getConnection(dbServer, dbLogin, dbPassword==null ? "":dbPassword);
-        } else{
-            con=DriverManager.getConnection(dbServer);
-        }        
-        conBean=new ConnectionBean(con, mapStatements);        
+        }
+        if (dbLogin != null && dbLogin.length() > 0) {
+            con = DriverManager.getConnection(dbServer, dbLogin, dbPassword == null ? "" : dbPassword);
+        } else {
+            con = DriverManager.getConnection(dbServer);
+        }
+        conBean = new ConnectionBean(con, mapStatements);
     }
-    
-    /** Closes the jdbc connection and frees the unique ConnectionBean. */    
+
+    /**
+     * Closes the jdbc connection and frees the unique ConnectionBean.
+     */
     protected void destroy() {
-        if(conBean!=null)
-            conBean=null;
-        if(con!=null){
-            try{
+        if (conBean != null) {
+            conBean = null;
+        }
+        if (con != null) {
+            try {
                 con.close();
-            } catch(Exception ex){
+            } catch (Exception ex) {
             }
-            con=null;
+            con = null;
         }
     }
-    
-    /** Provides information about the current state of this ConnectionBeanProvider.
+
+    /**
+     * Provides information about the current state of this
+     * ConnectionBeanProvider.
+     *
      * @return Information string, formatted in HTML.
-    */
+     */
     //@Override
-    public String getInfo(){
-        StringBuffer sb=new StringBuffer();
+    public String getInfo() {
+        StringBuffer sb = new StringBuffer();
         sb.append("<b>SingleConnectionBeanProvider ").append(hashCode()).append("</b><br>\n");
         sb.append(super.getInfo());
         sb.append(conBean.getInfo());
         return sb.toString();
     }
-    
-    /** This method does nothing in this implementation of ConnectionBeanProvider,
-     * because only one ConnectionBean is reused for all getConnectionBean
-     * calls.
+
+    /**
+     * This method does nothing in this implementation of
+     * ConnectionBeanProvider, because only one ConnectionBean is reused for all
+     * getConnectionBean calls.
+     *
      * @param conn The Connectionbean to be released.
      * @return A zero-length string.
-     */    
+     */
     public String freeConnectionBean(ConnectionBean conn) {
         // Do nothing
         return "";
     }
-    
-    /** Returns the ConnectionBean object.
+
+    /**
+     * Returns the ConnectionBean object.
+     *
      * @return The ConnectionBean object.
-     */    
+     */
     public ConnectionBean getConnectionBean() {
         return conBean;
     }
-    
 }

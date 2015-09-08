@@ -18,8 +18,6 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details (see the LICENSE file).
  */
-
-
 package edu.xtec.util.db;
 
 import java.io.File;
@@ -34,27 +32,32 @@ import javax.naming.InitialContext;
 import javax.sql.DataSource;
 
 /**
- * This class is a special {@link edu.xtec.util.db.ConnectionBeanProvider} that obtains
- * the {@link java.sql.Connection} objects from a JNDI datasource. In order to
- * obtain objects of this class, the static method <CODE>getConnectionBeanProvider</CODE> of
- * <CODE>ConnectionBeanProvider</CODE> must be called, passing the text <CODE>JNDI</CODE> as
- * value of the <CODE>dbDriver</CODE> parameter, and the JNDI name of the datasource
- * as the value of <CODE>dbServer</CODE> param.
+ * This class is a special {@link edu.xtec.util.db.ConnectionBeanProvider} that
+ * obtains the {@link java.sql.Connection} objects from a JNDI datasource. In
+ * order to obtain objects of this class, the static method
+ * <CODE>getConnectionBeanProvider</CODE> of
+ * <CODE>ConnectionBeanProvider</CODE> must be called, passing the text
+ * <CODE>JNDI</CODE> as value of the
+ * <CODE>dbDriver</CODE> parameter, and the JNDI name of the datasource as the
+ * value of
+ * <CODE>dbServer</CODE> param.
+ *
  * @author fbusquet
  * @version 1.0
  */
-public class JNDIConnectionBeanProvider extends ConnectionBeanProvider{
-    
+public class JNDIConnectionBeanProvider extends ConnectionBeanProvider {
+
     /**
-     * Key used for the <CODE>dbContext</CODE> property
+     * Key used for the
+     * <CODE>dbContext</CODE> property
      */
-    public static final String DB_CONTEXT="dbContext";
+    public static final String DB_CONTEXT = "dbContext";
     /**
-     * String "JNDI", used to indicate <CODE>ConnectionBeanProvider</CODE> that an
-     * object of this class is required.
+     * String "JNDI", used to indicate
+     * <CODE>ConnectionBeanProvider</CODE> that an object of this class is
+     * required.
      */
-    public static final String JNDI="JNDI";
-    
+    public static final String JNDI = "JNDI";
     /**
      * Object used to obtain valid {@link java.sql.Connection} objects.
      */
@@ -73,55 +76,59 @@ public class JNDIConnectionBeanProvider extends ConnectionBeanProvider{
     private int debugLevel;
     private int totalStatements;
     private String lastRequest;
-    
-    /** Creates a new instance of JNDIConnectionBeanProvider */
+
+    /**
+     * Creates a new instance of JNDIConnectionBeanProvider
+     */
     public JNDIConnectionBeanProvider() {
     }
-    
+
     /**
      * Main initialization function, called immediatelly after constructor by
      * getConnectionBeanProvider functions.
-     * @param map Collection of key - value pairs that must specify the JNDI Datasource name and
-     * context params.
-     * @throws Exception Throwed if the DataSource can't be
-     * instantiated.
+     *
+     * @param map Collection of key - value pairs that must specify the JNDI
+     * Datasource name and context params.
+     * @throws Exception Throwed if the DataSource can't be instantiated.
      */
     //@Override
-    protected void setUp(Map map) throws Exception{
-        
+    protected void setUp(Map map) throws Exception {
+
         super.setUp(map);
-        started=new Date();
-        dbDriver=JNDI;
-        if(dbServer==null)
+        started = new Date();
+        dbDriver = JNDI;
+        if (dbServer == null) {
             throw new Exception("JNDI datasource name not specified!");
+        }
         dbContext = getValue(map, DB_CONTEXT, null);
         debugLevel = Integer.parseInt(getValue(map, "dbDebugLevel", "2"));
-        
-        if(debugLevel>0){
-            try{
+
+        if (debugLevel > 0) {
+            try {
                 logFileString = getValue(map, "dbLogFile", null);
-                if(logFileString!=null){
-                    File f=new File(logFileString);
-                    if(!f.isAbsolute()){
-                        f=new File(System.getProperty("user.home"));
-                        f=new File(f, logFileString);
-                        logFileString=f.getAbsolutePath();
+                if (logFileString != null) {
+                    File f = new File(logFileString);
+                    if (!f.isAbsolute()) {
+                        f = new File(System.getProperty("user.home"));
+                        f = new File(f, logFileString);
+                        logFileString = f.getAbsolutePath();
                     }
                     boolean logAppend = Boolean.valueOf(getValue(map, "dbLogAppend", "true")).booleanValue();
-                    log = new PrintWriter(new FileOutputStream(logFileString, logAppend),true);
+                    log = new PrintWriter(new FileOutputStream(logFileString, logAppend), true);
                 }
-            } catch(IOException ioex){
-                System.err.println(new Date().toString()+" - Error creating log file for JNDIConnectionProvider - "+ioex);
+            } catch (IOException ioex) {
+                System.err.println(new Date().toString() + " - Error creating log file for JNDIConnectionProvider - " + ioex);
             }
         }
-        
-        Context ctx=new InitialContext();
-        if(dbContext!=null && dbContext.trim().length()>0)
-            ctx=(Context)ctx.lookup(dbContext);
-        
-        ds=(DataSource)ctx.lookup(dbServer);
-        
-        if(log!=null){
+
+        Context ctx = new InitialContext();
+        if (dbContext != null && dbContext.trim().length() > 0) {
+            ctx = (Context) ctx.lookup(dbContext);
+        }
+
+        ds = (DataSource) ctx.lookup(dbServer);
+
+        if (log != null) {
             log.println("-----------------------------------------");
             log.println(started);
             log.println("Starting JNDIConnectionBeanProvider");
@@ -132,13 +139,16 @@ public class JNDIConnectionBeanProvider extends ConnectionBeanProvider{
             log.println("-----------------------------------------");
         }
     }
-    
-    /** Provides information about the current state of this ConnectionBeanProvider.
+
+    /**
+     * Provides information about the current state of this
+     * ConnectionBeanProvider.
+     *
      * @return Information string, formatted in HTML.
      */
     //@Override
-    public String getInfo(){
-        StringBuffer sb=new StringBuffer();
+    public String getInfo() {
+        StringBuffer sb = new StringBuffer();
         sb.append("<b>JNDIConnectionBeanProvider ").append(hashCode()).append("</b><br>\n");
         sb.append(super.getInfo());
         sb.append("started: ").append(started).append("<br>\n");
@@ -149,38 +159,42 @@ public class JNDIConnectionBeanProvider extends ConnectionBeanProvider{
         sb.append("Last request: ").append(lastRequest).append("<br>\n");
         return sb.toString();
     }
-    
+
     /**
      * Performs cleanup
      */
     protected void destroy() {
     }
-    
-    /** This method must be called when the obtained ConnectionBean is no longer needed,
-     * usualy inside the <I>finally</I> block of a <I>try - catch</I> statement.
+
+    /**
+     * This method must be called when the obtained ConnectionBean is no longer
+     * needed, usualy inside the <I>finally</I> block of a <I>try - catch</I>
+     * statement.
+     *
      * @param conn The ConnectionBean object to be disposed
      * @return A descriptive String, useful only for debug purposes.
      */
     public String freeConnectionBean(ConnectionBean conn) {
-        if(conn!=null){
-            try{
-                lastRequest=conn.getLastStatement();
-                totalStatements+=conn.getNumStatements();
+        if (conn != null) {
+            try {
+                lastRequest = conn.getLastStatement();
+                totalStatements += conn.getNumStatements();
                 conn.closeConnection();
-            } catch(Exception ex){
-                if(log!=null)
-                    log.println(new Date().toString() + " Unable to close DB connection: "+ex);
+            } catch (Exception ex) {
+                if (log != null) {
+                    log.println(new Date().toString() + " Unable to close DB connection: " + ex);
+                }
             }
         }
         return "";
     }
-    
-    /** This is the main function that all ConnectionbeanProvider objects must
-     * implement.<P>
-     * <B>Important:</B> You must ever call FreeConnectionBean after the use of the ConnectionBean
-     * object. Typical inmplementation use a try - catch - finally statement block in
-     * order to ensure that all ConnectionBean objects will be properly disposed after
-     * use.<P>
+
+    /**
+     * This is the main function that all ConnectionbeanProvider objects must
+     * implement.<P> <B>Important:</B> You must ever call FreeConnectionBean
+     * after the use of the ConnectionBean object. Typical inmplementation use a
+     * try - catch - finally statement block in order to ensure that all
+     * ConnectionBean objects will be properly disposed after use.<P>
      * Example:<P>
      * <PRE>
      * ConectionBeanProvider cbp;
@@ -199,23 +213,26 @@ public class JNDIConnectionBeanProvider extends ConnectionBeanProvider{
      *  cbp.freeConnectionBean(cb);
      * }
      * </PRE>
+     *
      * @return A ready-to-use ConnectionBean. Remember to return it by calling
      * FreeConnectionBean.
      */
     public ConnectionBean getConnectionBean() {
-        ConnectionBean result=null;
-        try{
-            if(ds!=null){
-                Connection con=ds.getConnection();
-                result=new ConnectionBean(con, mapStatements);
+        ConnectionBean result = null;
+        try {
+            if (ds != null) {
+                Connection con = ds.getConnection();
+                result = new ConnectionBean(con, mapStatements);
                 totalCBRequests++;
-                lastUse=new Date();
+                lastUse = new Date();
             }
-            if(log!=null && debugLevel>2)
-                log.println(new Date().toString()+" - connection request");
-        } catch(Exception ex){
-            if(log!=null)
-                log.println(new Date().toString() + " Unable to get DB connection: "+ex.getMessage());
+            if (log != null && debugLevel > 2) {
+                log.println(new Date().toString() + " - connection request");
+            }
+        } catch (Exception ex) {
+            if (log != null) {
+                log.println(new Date().toString() + " Unable to get DB connection: " + ex.getMessage());
+            }
         }
         return result;
     }

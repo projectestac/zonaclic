@@ -19,35 +19,38 @@ import javax.servlet.ServletContextListener;
 public class Context extends java.util.Properties implements ServletContextListener {
 
     /*
-     * public static int DB_MAX_CONNS=3; // dbMaxConns public static boolean
-     * DB_LOG_APPEND=true; // dbLogAppend public static int
-     * DB_MAX_CHECKOUT_SECONDS=60; // dbMaxCheckoutSeconds public static String
-     * DB_LOG_FILE="webClicDBConnection.log"; // dbLogFile public static int
-     * DB_DEBUG_LEVEL=2; // dbDebugLevel public static double
-     * DB_MAX_CONN_DAYS=1.0; // dbMaxConnDays public static int DB_MIN_CONNS=1;
-     * // dbMinConns public static String DB_DRIVER="JNDI"; // dbDriver public
-     * static String DB_SERVER="jdbc/pool/ClicConnectionPoolDS"; // dbServer
-     * public static String DB_CONTEXT=""; // dbContext public static boolean
-     * DB_MAP_STATEMENTS=false; // dbMapStatements public static String
-     * SERVER_BASE="http://clic.xtec.cat"; // serverBase public static String
-     * APP_BASE="http://clic.xtec.cat/db"; // appBase public static final
-     * Properties PROPERTIES=new Properties();
-     */
+    * public static int DB_MAX_CONNS=3; // dbMaxConns public static boolean
+    * DB_LOG_APPEND=true; // dbLogAppend public static int
+    * DB_MAX_CHECKOUT_SECONDS=60; // dbMaxCheckoutSeconds public static String
+    * DB_LOG_FILE="webClicDBConnection.log"; // dbLogFile public static int
+    * DB_DEBUG_LEVEL=2; // dbDebugLevel public static double
+    * DB_MAX_CONN_DAYS=1.0; // dbMaxConnDays public static int DB_MIN_CONNS=1;
+    * // dbMinConns public static String DB_DRIVER="JNDI"; // dbDriver public
+    * static String DB_SERVER="jdbc/pool/ClicConnectionPoolDS"; // dbServer
+    * public static String DB_CONTEXT=""; // dbContext public static boolean
+    * DB_MAP_STATEMENTS=false; // dbMapStatements public static String
+    * SERVER_BASE="http://clic.xtec.cat"; // serverBase public static String
+    * APP_BASE="http://clic.xtec.cat/db"; // appBase public static final
+    * Properties PROPERTIES=new Properties();
+    */
+
     private static final String DBCONF = "webClic.properties";
-    public static final String DEFAULT_SERVER_BASE = "http://clic.xtec.cat";
-    public static final String DEFAULT_APP_BASE = "http://clic.xtec.cat/db";
     public static edu.xtec.web.clic.Context cntx = null;
     private ConnectionBeanProvider db = null;
 
+    public static final String DEFAULT_SERVER_BASE = "http://clic.xtec.cat";
+    public static final String DEFAULT_APP_BASE = "http://clic.xtec.cat/db";
+
+
     public void contextInitialized(ServletContextEvent sce) {
 
-        //System.out.println("=========Initializing context db");
+      System.out.println("=========Initializing context db");
 
         if (cntx == null) {
             cntx = this;
         }
 
-        //clear();
+      //clear();
 
         javax.servlet.ServletContext sc = sce.getServletContext();
         Enumeration en = sc.getInitParameterNames();
@@ -77,75 +80,6 @@ public class Context extends java.util.Properties implements ServletContextListe
             System.err.println("Error creating ConnectionBeanProvider");
             //ex.printStackTrace();
         }
-
-
-        /*
-         * String k="dbMaxConns"; String s=(String)PROPERTIES.get(k);
-         * if(s==null) s=sc.getInitParameter(k); if(s!=null && s.length()>0)
-         * DB_MAX_CONNS=Integer.parseInt(s); PROPERTIES.put(k,
-         * Integer.toString(DB_MAX_CONNS));
-         *
-         * k="dbLogAppend"; s=(String)PROPERTIES.get(k); if(s==null)
-         * s=sc.getInitParameter(k); if(s!=null && s.length()>0)
-         * DB_LOG_APPEND="true".equalsIgnoreCase(s); PROPERTIES.put(k,
-         * Boolean.toString(DB_LOG_APPEND));
-         *
-         * k="dbMaxCheckoutSeconds"; s=(String)PROPERTIES.get(k); if(s==null)
-         * s=sc.getInitParameter(k); if(s!=null && s.length()>0)
-         * DB_MAX_CHECKOUT_SECONDS=Integer.parseInt(s); PROPERTIES.put(k,
-         * Integer.toString(DB_MAX_CHECKOUT_SECONDS));
-         *
-         * k="dbLogFile"; s=(String)PROPERTIES.get(k); if(s==null)
-         * s=sc.getInitParameter(k); if(s!=null && s.length()>0) DB_LOG_FILE=s;
-         * PROPERTIES.put(k, DB_LOG_FILE);
-         *
-         * k="dbDebugLevel"; s=(String)PROPERTIES.get(k); if(s==null)
-         * s=sc.getInitParameter(k); if(s!=null && s.length()>0)
-         * DB_DEBUG_LEVEL=Integer.parseInt(s); PROPERTIES.put(k,
-         * Integer.toString(DB_DEBUG_LEVEL));
-         *
-         * k="dbMaxConnDays"; s=(String)PROPERTIES.get(k); if(s==null)
-         * s=sc.getInitParameter(k); if(s!=null && s.length()>0)
-         * DB_MAX_CONN_DAYS=Double.parseDouble(s); PROPERTIES.put(k,
-         * Double.toString(DB_MAX_CONN_DAYS));
-         *
-         * k="dbMinConns"; s=(String)PROPERTIES.get(k); if(s==null)
-         * s=sc.getInitParameter(k); if(s!=null && s.length()>0)
-         * DB_MIN_CONNS=Integer.parseInt(s); PROPERTIES.put(k,
-         * Integer.toString(DB_MIN_CONNS));
-         *
-         * k="dbDriver"; s=(String)PROPERTIES.get(k); if(s==null)
-         * s=sc.getInitParameter(k); if(s!=null && s.length()>0) DB_DRIVER=s;
-         * PROPERTIES.put(k, DB_DRIVER);
-         *
-         * k="dbServer"; s=(String)PROPERTIES.get(k); if(s==null)
-         * s=sc.getInitParameter(k); if(s!=null && s.length()>0) DB_SERVER=s;
-         * PROPERTIES.put(k, DB_SERVER);
-         *
-         * k="dbContext"; s=(String)PROPERTIES.get(k); if(s==null)
-         * s=sc.getInitParameter(k); if(s!=null && s.length()>0) DB_CONTEXT=s;
-         * PROPERTIES.put(k, DB_CONTEXT);
-         *
-         * k="dbMapStatements"; s=(String)PROPERTIES.get(k); if(s==null)
-         * s=sc.getInitParameter(k); if(s!=null && s.length()>0)
-         * DB_MAP_STATEMENTS="true".equalsIgnoreCase(s); PROPERTIES.put(k,
-         * Boolean.toString(DB_MAP_STATEMENTS));
-         *
-         * k="serverBase"; s=(String)PROPERTIES.get(k); if(s==null)
-         * s=sc.getInitParameter(k); if(s!=null && s.length()>0) SERVER_BASE=s;
-         * PROPERTIES.put(k, SERVER_BASE);
-         *
-         * k="appBase"; s=(String)PROPERTIES.get(k); if(s==null)
-         * s=sc.getInitParameter(k); if(s!=null && s.length()>0) APP_BASE=s;
-         * PROPERTIES.put(k, APP_BASE);
-         */
-
-        /*
-         * java.util.Iterator it=PROPERTIES.keySet().iterator();
-         * while(it.hasNext()){ k=it.next().toString(); System.out.println(k+":
-         * "+PROPERTIES.getProperty(k)); }
-         */
-
     }
 
     public void contextDestroyed(ServletContextEvent sce) {
