@@ -167,9 +167,7 @@
   <!-- =================================================================== -->
   <!-- clicDB -->
   <!-- =================================================================== -->
-  <target name="clicDB"
-          depends="init"
-          description="Builds the WAR of the clicZone main module">
+  <target name="clicDB" depends="init" description="Compiles ClicDB">
     <mkdir dir="${build.prod.dir}/clicDB.war-base"/>
     <copy todir="${build.prod.dir}/clicDB.war-base">
       <fileset dir="${app.dir}/clicDB/web">
@@ -192,7 +190,9 @@
             <pathelement location="${lib.dir}/servlet-api.jar"/>
         </classpath>
     </ext.javac>
+  </target>
 
+   <target name="clicDB.war" depends="clicDB" description="Builds the WAR of the clicZone main module">
     <!-- workaround to avoid the 2-seconds granularity value set by the "war" ant task (see ant's manual)-->
     <sleep seconds="3" />
     <war destfile="${build.prod.dir}/clicDB.war"
@@ -204,9 +204,7 @@
   <!-- =================================================================== -->
   <!-- clicDB.ear: ClicZone main module                                            -->
   <!-- =================================================================== -->
-  <target name="clicDB.ear"
-          depends="clicDB"
-          description="Builds the EAR of the clicZone main module">
+  <target name="clicDB.ear" depends="clicDB.war" description="Builds the EAR of the clicZone main module">
 
     <sleep seconds="3" />
     <ear destfile="${dist.prod.dir}/e13_jclic.ear"
@@ -218,10 +216,7 @@
   <!-- =================================================================== -->
   <!-- jnlp: JNLPServlet                                                   -->
   <!-- =================================================================== -->
-  <target name="JNLPServlet"
-          depends="init"
-          description="Builds the WAR and EAR versions of the clicZone jnlp module">
-
+  <target name="JNLPServlet" depends="init" description="Builds the WAR and EAR versions of the clicZone jnlp module">
     <mkdir dir="${build.prod.dir}/JNLPServlet.war-base"/>
     <copy todir="${build.prod.dir}/JNLPServlet.war-base">
       <fileset dir="${app.dir}/JNLPServlet/web">
@@ -241,7 +236,9 @@
             <pathelement location="${lib.dir}/servlet-api.jar"/>
         </classpath>
     </ext.javac>
+  </target>
 
+  <target name="JNLPServlet.war" depends="JNLPServlet" description="Builds the WAR and EAR versions of the clicZone jnlp module">
     <!-- Prepara integració -->
     <mkdir dir="${build.int.dir}/JNLPServlet.war-base"/>
     <copy todir="${build.int.dir}/JNLPServlet.war-base">
@@ -278,15 +275,12 @@
          basedir="${build.acc.dir}/JNLPServlet.war-base"
          webxml="${app.dir}/JNLPServlet/web/WEB-INF/web.xml" >
     </war>
-
   </target>
 
   <!-- =================================================================== -->
   <!-- jnlp.ear: JNLPServlet EAR file -->
   <!-- =================================================================== -->
-  <target name="JNLPServlet.ear"
-          depends="JNLPServlet"
-          description="Builds the EAR of the clicZone jnlp module">
+  <target name="JNLPServlet.ear" depends="JNLPServlet.war" description="Builds the EAR of the clicZone jnlp module">
     <sleep seconds="3" />
     <ear destfile="${dist.prod.dir}/e13_jclic_jnlp.ear"
          appxml="${ear.dir}/e13_jclic_jnlp/src/conf/application.xml">
@@ -305,9 +299,7 @@
   <!-- =================================================================== -->
   <!-- gali -->
   <!-- =================================================================== -->
-  <target name="gali"
-          depends="init"
-          description="Builds the WAR of Gali">
+  <target name="gali" depends="init" description="Builds the WAR of Gali">
     <mkdir dir="${build.prod.dir}/gali.war-base"/>
     <copy todir="${build.prod.dir}/gali.war-base">
       <fileset dir="${app.dir}/gali/web">
@@ -328,7 +320,9 @@
             <pathelement location="${lib.dir}/servlet-api.jar"/>
         </classpath>
     </ext.javac>
+  </target>
 
+  <target name="gali.war" depends="gali" description="Builds the WAR of Gali">
     <!-- workaround to avoid the 2-seconds granularity value set by the "war" ant task (see ant's manual)-->
     <sleep seconds="3" />
     <war destfile="${build.prod.dir}/gali.war"
@@ -340,9 +334,7 @@
   <!-- =================================================================== -->
   <!-- reportsWebApp -->
   <!-- =================================================================== -->
-  <target name="reportsWebApp"
-          depends="init"
-          description="Builds the reportsWebApp WAR of Gali">
+  <target name="reportsWebApp" depends="init" description="Builds the reportsWebApp WAR of Gali">
     <mkdir dir="${build.prod.dir}/reportsWebApp.war-base"/>
 
     <unwar src="${lib.dir}/jclicreports.war"
@@ -350,7 +342,9 @@
 
     <delete file="${build.prod.dir}/reportsWebApp.war-base/WEB-INF/web.xml"/>
     <delete dir="${build.prod.dir}/reportsWebApp.war-base/META-INF"/>
+  </target>
 
+  <target name="reportsWebApp.war" depends="reportsWebApp" description="Builds the reportsWebApp WAR of Gali">
     <!-- workaround to avoid the 2-seconds granularity value set by the "war" ant task (see ant's manual)-->
     <sleep seconds="3" />
     <war destfile="${build.prod.dir}/reportsWebApp.war"
@@ -366,9 +360,7 @@
   <!-- =================================================================== -->
   <!-- gali.ear: Gali EAR file -->
   <!-- =================================================================== -->
-  <target name="gali.ear"
-          depends="gali,reportsWebApp"
-          description="Builds the EAR of gali">
+  <target name="gali.ear" depends="gali.war,reportsWebApp" description="Builds the EAR of gali">
     <delete dir="${build.prod.dir}/reportsWebApp.war-base"/>
     <sleep seconds="3" />
     <ear destfile="${dist.prod.dir}/e13_gali.ear"
