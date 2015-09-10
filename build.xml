@@ -18,18 +18,8 @@
     <property name="ear.dir"        location="ear" />
 
     <property name="build.dir"      location="build" />
-    <property name="build.int.dir"  location="${build.dir}/int" />
-    <property name="build.acc.dir"  location="${build.dir}/acc" />
-    <property name="build.prod.dir" location="${build.dir}/prod" />
 
     <property name="dist.dir"       location="dist" />
-    <property name="dist.int.dir"   location="${dist.dir}/int" />
-    <property name="dist.acc.dir"   location="${dist.dir}/acc" />
-    <property name="dist.prod.dir"  location="${dist.dir}/prod" />
-
-    <property name="int.base"       value="http://clic-int.educacio.intranet:7792" />
-    <property name="acc.base"       value="http://clic-acc.xtec.cat" />
-    <property name="prod.base"      value="http://clic.xtec.cat" />
 
     <property name="deploy.dir"     location="deploy" />
     <property name="apidoc.dir"     location="apidoc" />
@@ -113,52 +103,48 @@
     <echo message="Using ${ant.version}, in ${ant.home}"/>
     <echo message="Using Java ${java.version} by ${java.vendor} in ${java.home}"/>
     <echo message="Generating code for Java ${javac.target}"/>
+  </target>
 
-    <!-- Create dirs -->
-    <mkdir dir="${build.int.dir}"/>
-    <mkdir dir="${build.acc.dir}"/>
-    <mkdir dir="${build.prod.dir}"/>
-    <mkdir dir="${dist.int.dir}"/>
-    <mkdir dir="${dist.acc.dir}"/>
-    <mkdir dir="${dist.prod.dir}"/>
+  <target name="init_pro" depends="init">
 
+      <property name="dist.int.dir"   location="${dist.dir}/int" />
+      <property name="dist.acc.dir"   location="${dist.dir}/acc" />
+      <property name="dist.prod.dir"  location="${dist.dir}/prod" />
+
+      <property name="build.int.dir"  location="${build.dir}/int" />
+      <property name="build.acc.dir"  location="${build.dir}/acc" />
+      <property name="build.prod.dir" location="${build.dir}/prod" />
+
+      <property name="int.base"       value="http://clic-int.educacio.intranet:7792" />
+      <property name="acc.base"       value="http://clic-acc.xtec.cat" />
+      <property name="prod.base"      value="http://clic.xtec.cat" />
+
+      <!-- Create dirs -->
+      <mkdir dir="${build.int.dir}"/>
+      <mkdir dir="${build.acc.dir}"/>
+      <mkdir dir="${build.prod.dir}"/>
+
+      <mkdir dir="${dist.int.dir}"/>
+      <mkdir dir="${dist.acc.dir}"/>
+      <mkdir dir="${dist.prod.dir}"/>
   </target>
 
   <!-- =================================================================== -->
   <!-- MAIN                                                                -->
   <!-- =================================================================== -->
-  <target name="all"
-          depends="clicDB.ear,gali.ear,JNLPServlet.ear"
+  <target name="all" depends="init_pro,clicDB.ear,gali.ear,JNLPServlet.ear"
           description="Builds everything.">
     <echo message="*** WebClic successfully compiled!"/>
   </target>
 
   <target name="dev" depends="clicDB,gali,reportsWebApp,JNLPServlet">
-    <mkdir dir="${app.dir}/clicDB/web/WEB-INF/classes"/>
-    <copy todir="${app.dir}/clicDB/web/WEB-INF/classes" >
-      <fileset dir="${build.prod.dir}/clicDB.war-base/WEB-INF/classes"/>
-    </copy>
-    <mkdir dir="${app.dir}/gali/web/WEB-INF/classes"/>
-    <copy todir="${app.dir}/gali/web/WEB-INF/classes" >
-      <fileset dir="${build.prod.dir}/gali.war-base/WEB-INF/classes"/>
-    </copy>
-    <mkdir dir="${app.dir}/reportsWebApp/web/WEB-INF/classes"/>
-    <copy todir="${app.dir}/reportsWebApp/web/WEB-INF/classes" >
-      <fileset dir="${build.prod.dir}/reportsWebApp.war-base/WEB-INF/classes"/>
-    </copy>
-    <mkdir dir="${app.dir}/JNLPServlet/web/WEB-INF/classes"/>
-    <copy todir="${app.dir}/JNLPServlet/web/WEB-INF/classes" >
-      <fileset dir="${build.prod.dir}/JNLPServlet.war-base/WEB-INF/classes"/>
-    </copy>
     <echo message="*** WebClic successfully compiled for dev!"/>
   </target>
 
   <!-- =================================================================== -->
   <!-- CLEAN                                                               -->
   <!-- =================================================================== -->
-  <target name="clean"
-          depends="init"
-          description="Clean build dir">
+  <target name="clean" depends="init" description="Clean build dir">
     <delete dir="${build.dir}" />
     <echo message="*** Build dir cleared!"/>
   </target>
@@ -168,21 +154,8 @@
   <!-- clicDB -->
   <!-- =================================================================== -->
   <target name="clicDB" depends="init" description="Compiles ClicDB">
-    <mkdir dir="${build.prod.dir}/clicDB.war-base"/>
-    <copy todir="${build.prod.dir}/clicDB.war-base">
-      <fileset dir="${app.dir}/clicDB/web">
-        <exclude name="WEB-INF/*" />
-        <exclude name="META-INF/*" />
-      </fileset>
-    </copy>
-    <mkdir dir="${build.prod.dir}/clicDB.war-base/WEB-INF/classes"/>
-    <copy todir="${build.prod.dir}/clicDB.war-base/WEB-INF/classes">
-        <fileset dir="${app.dir}/clicDB/src/java">
-            <patternset refid="props" />
-        </fileset>
-    </copy>
-
-    <ext.javac destdir="${build.prod.dir}/clicDB.war-base/WEB-INF/classes">
+    <mkdir dir="${app.dir}/clicDB/web/WEB-INF/classes"/>
+    <ext.javac destdir="${app.dir}/clicDB/web/WEB-INF/classes">
         <src path="${app.dir}/clicDB/src/java"/>
         <classpath>
             <pathelement location="${lib.dir}/jclicreports.jar"/>
@@ -190,9 +163,21 @@
             <pathelement location="${lib.dir}/servlet-api.jar"/>
         </classpath>
     </ext.javac>
+    <copy todir="${app.dir}/clicDB/web/WEB-INF/classes/${resource.path}">
+        <fileset dir="${app.dir}/clicDB/src/java/${resource.path}" />
+    </copy>
   </target>
 
    <target name="clicDB.war" depends="clicDB" description="Builds the WAR of the clicZone main module">
+
+    <mkdir dir="${build.prod.dir}/clicDB.war-base"/>
+    <copy todir="${build.prod.dir}/clicDB.war-base">
+      <fileset dir="${app.dir}/clicDB/web">
+        <exclude name="WEB-INF/web.xml" />
+        <exclude name="META-INF/*" />
+      </fileset>
+    </copy>
+
     <!-- workaround to avoid the 2-seconds granularity value set by the "war" ant task (see ant's manual)-->
     <sleep seconds="3" />
     <war destfile="${build.prod.dir}/clicDB.war"
@@ -217,20 +202,9 @@
   <!-- jnlp: JNLPServlet                                                   -->
   <!-- =================================================================== -->
   <target name="JNLPServlet" depends="init" description="Builds the WAR and EAR versions of the clicZone jnlp module">
-    <mkdir dir="${build.prod.dir}/JNLPServlet.war-base"/>
-    <copy todir="${build.prod.dir}/JNLPServlet.war-base">
-      <fileset dir="${app.dir}/JNLPServlet/web">
-        <exclude name="WEB-INF/*" />
-        <exclude name="META-INF/*" />
-      </fileset>
-    </copy>
-    <mkdir dir="${build.prod.dir}/JNLPServlet.war-base/WEB-INF/classes"/>
-    <copy todir="${build.prod.dir}/JNLPServlet.war-base/WEB-INF/classes">
-        <fileset dir="${app.dir}/JNLPServlet/src/java">
-            <patternset refid="props" />
-        </fileset>
-    </copy>
-    <ext.javac destdir="${build.prod.dir}/JNLPServlet.war-base/WEB-INF/classes">
+    <mkdir dir="${app.dir}/JNLPServlet/web/WEB-INF/classes"/>
+
+    <ext.javac destdir="${app.dir}/JNLPServlet/web/WEB-INF/classes">
         <src path="${app.dir}/JNLPServlet/src/java"/>
         <classpath>
             <pathelement location="${lib.dir}/servlet-api.jar"/>
@@ -239,6 +213,15 @@
   </target>
 
   <target name="JNLPServlet.war" depends="JNLPServlet" description="Builds the WAR and EAR versions of the clicZone jnlp module">
+
+    <mkdir dir="${build.prod.dir}/JNLPServlet.war-base"/>
+    <copy todir="${build.prod.dir}/JNLPServlet.war-base">
+      <fileset dir="${app.dir}/JNLPServlet/web">
+        <exclude name="WEB-INF/web.xml" />
+        <exclude name="META-INF/*" />
+      </fileset>
+    </copy>
+
     <!-- Prepara integració -->
     <mkdir dir="${build.int.dir}/JNLPServlet.war-base"/>
     <copy todir="${build.int.dir}/JNLPServlet.war-base">
@@ -300,29 +283,28 @@
   <!-- gali -->
   <!-- =================================================================== -->
   <target name="gali" depends="init" description="Builds the WAR of Gali">
-    <mkdir dir="${build.prod.dir}/gali.war-base"/>
-    <copy todir="${build.prod.dir}/gali.war-base">
-      <fileset dir="${app.dir}/gali/web">
-        <exclude name="WEB-INF/*" />
-        <exclude name="META-INF/*" />
-      </fileset>
-    </copy>
-    <mkdir dir="${build.prod.dir}/gali.war-base/WEB-INF/classes"/>
-    <copy todir="${build.prod.dir}/gali.war-base/WEB-INF/classes">
-        <fileset dir="${app.dir}/gali/src/java">
-            <patternset refid="props" />
-        </fileset>
-    </copy>
-
-    <ext.javac destdir="${build.prod.dir}/gali.war-base/WEB-INF/classes">
+    <mkdir dir="${app.dir}/gali/web/WEB-INF/classes"/>
+    <ext.javac destdir="${app.dir}/gali/web/WEB-INF/classes">
         <src path="${app.dir}/gali/src/java"/>
         <classpath>
             <pathelement location="${lib.dir}/servlet-api.jar"/>
         </classpath>
     </ext.javac>
+
+    <copy todir="${app.dir}/gali/web/WEB-INF/classes/gali/resources">
+        <fileset dir="${app.dir}/gali/src/java/gali/resources" />
+    </copy>
   </target>
 
   <target name="gali.war" depends="gali" description="Builds the WAR of Gali">
+    <mkdir dir="${build.prod.dir}/gali.war-base"/>
+    <copy todir="${build.prod.dir}/gali.war-base">
+      <fileset dir="${app.dir}/gali/web">
+        <exclude name="WEB-INF/web.xml" />
+        <exclude name="META-INF/*" />
+      </fileset>
+    </copy>
+
     <!-- workaround to avoid the 2-seconds granularity value set by the "war" ant task (see ant's manual)-->
     <sleep seconds="3" />
     <war destfile="${build.prod.dir}/gali.war"
@@ -335,16 +317,20 @@
   <!-- reportsWebApp -->
   <!-- =================================================================== -->
   <target name="reportsWebApp" depends="init" description="Builds the reportsWebApp WAR of Gali">
-    <mkdir dir="${build.prod.dir}/reportsWebApp.war-base"/>
+    <mkdir dir="${app.dir}/reportsWebApp/web"/>
+    <unwar src="${lib.dir}/jclicreports.war" dest="${app.dir}/reportsWebApp/web"/>
 
-    <unwar src="${lib.dir}/jclicreports.war"
-           dest="${build.prod.dir}/reportsWebApp.war-base"/>
-
-    <delete file="${build.prod.dir}/reportsWebApp.war-base/WEB-INF/web.xml"/>
-    <delete dir="${build.prod.dir}/reportsWebApp.war-base/META-INF"/>
   </target>
 
   <target name="reportsWebApp.war" depends="reportsWebApp" description="Builds the reportsWebApp WAR of Gali">
+    <mkdir dir="${build.prod.dir}/reportsWebApp.war-base"/>
+    <copy todir="${build.prod.dir}/reportsWebApp.war-base" >
+      <fileset dir="${app.dir}/reportsWebApp/web">
+        <exclude name="WEB-INF/web.xml" />
+        <exclude name="META-INF/*" />
+      </fileset>
+    </copy>
+
     <!-- workaround to avoid the 2-seconds granularity value set by the "war" ant task (see ant's manual)-->
     <sleep seconds="3" />
     <war destfile="${build.prod.dir}/reportsWebApp.war"
