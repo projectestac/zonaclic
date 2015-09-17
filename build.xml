@@ -204,6 +204,14 @@
   <target name="JNLPServlet" depends="init" description="Builds the WAR and EAR versions of the clicZone jnlp module">
     <mkdir dir="${app.dir}/JNLPServlet/web/WEB-INF/classes"/>
 
+    <copy todir="${app.dir}/JNLPServlet/web/WEB-INF/classes/jnlp/jardiff/resources">
+        <fileset dir="${app.dir}/JNLPServlet/src/java/jnlp/jardiff/resources" />
+    </copy>
+
+    <copy todir="${app.dir}/JNLPServlet/web/WEB-INF/classes/jnlp/servlet/resources">
+        <fileset dir="${app.dir}/JNLPServlet/src/java/jnlp/servlet/resources" />
+    </copy>
+
     <ext.javac destdir="${app.dir}/JNLPServlet/web/WEB-INF/classes">
         <src path="${app.dir}/JNLPServlet/src/java"/>
         <classpath>
