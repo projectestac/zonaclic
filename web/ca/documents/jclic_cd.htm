@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/basic_ca.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" --> 
+<title>zonaClic - JClic Cd-Rom</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../../css/basic.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="../../scripts/mm.js" type="text/JavaScript"></script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Language" content="ca">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<meta name="keywords" content="clic jclic education educational software educació educación programari educatiu software educativo">
+</head>
+<body>
+<div align="center"> 
+ <table border="0" width="758" cellpadding="0" cellspacing="0">
+  <tr>
+   <td><img src="../../img/spacer.gif" width="20" height="1" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="718" height="1" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="20" height="1" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="4"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="758" height="80">
+          <param name="movie" value="../../img/nav_ca.swf">
+          <param name="quality" value="high">
+          <param name="BGCOLOR" value="#CCFF99">
+          <param name="BASE" value="/img">
+          <embed src="../../img/nav_ca.swf" width="758" height="80" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" bgcolor="#CCFF99" base="/img"></embed></object></td>
+  </tr>
+  <tr>
+   <td><img name="f0_r2_c2" src="../../img/f0_r2_c2.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img name="f0_r2_c3" src="../../img/f0_r2_c3.gif" width="718" height="20" border="0" alt=""></td>
+   <td><img name="f0_r2_c4" src="../../img/f0_r2_c4.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+      <td width="20" height="200" background="../../img/f0_r3_c2.gif">&nbsp;</td>
+   <td class="main" width="718" valign="top"><script language="JavaScript" src="../../scripts/av_ca.js" type="text/JavaScript"></script><!-- InstanceBeginEditable name="zona0" --> 
+        <p class="topMenu"><a href="../index.htm">inici</a> | <a href="index.htm">documents</a><strong> 
+          | </strong>JClic Cd-Rom </p>
+        <p class="t1">Crear un CD-Rom amb activitats JClic </p>
+        <p>Per poder emprar les activitats JClic en mode local o dins un CD Rom &eacute;s necessari utilitzar les activitats dins un <a href="../jclic/howto.htm"><strong>applet</strong></a>. En aquest document expliquem les passes a seguir per a fer-ho:</p>
+          <ol>
+            <LI>Crear un projecte, per exemple <strong>activity1.jclic.zip</strong> i la p&agrave;gina web per obrir-lo en un applet. Per fer aix&ograve; s'ha d'anar a <strong>EINES | CREA UNA P&Agrave;GINA WEB</strong>, all&agrave; es poden configurar diferents opcions: mida de l'applet, color de fons, etc. Aix&ograve; s'explica al curs de <a href="http://www.xtec.cat/formaciotic/dvdformacio/materials/td73/index.html"><strong>Creaci&oacute; d'activitats educatives amb JClic</strong></a>, al <a href="http://www.xtec.cat/formaciotic/dvdformacio/materials/td73/modul_8/practica_1.html"><strong>m&ograve;dul 8 </strong></a>. Amb aquest procediment es crea un arxiu <strong>index.htm</strong> que carregar&agrave; l'activitat JClic que hem creat. A aquest arxiu <strong>index</strong> &eacute;s recomenable canviar-li el nom i donar-li el mateix que t&eacute; l'activitat, en aquest cas l'anomenar&iacute;em <strong>activity1.htm</strong>.          
+            <LI>Descarregar l'&uacute;ltim <a href="../jclic/download.htm#offline"><strong>fitxer de JClic</strong></a> disponible a la p&agrave;gina d'instal&middot;laci&oacute; i extreure els fitxers que cont&eacute; l'arxiu <strong>zip</strong> a una carpeta que haurem creat, juntament amb la resta de carpetes de les activitats, amb el nom de <strong>Jclic</strong>. L'estructura hauria de quedar de la seg&uuml;ent manera:
+              <p align="center"><img src="../../img/carpetes.gif" width="66" height="50"></p>          
+          
+        <p>I el contingut de cadascuna de les carpetes d'activitats hauria de ser similar a aquest: </p>
+            <blockquote>
+              <p align="center"><img src="../../img/activities.gif" width="105" height="38"> </p>
+            </blockquote>
+          <LI>Un cop estan els arxius del programa a la carpeta <strong>jclic</strong> i l'activitat i la p&agrave;gina que l'executa a la carpeta <strong>activity1</strong> s'ha de modificar el document <strong>activity1.htm</strong> i canviar les seg&uuml;ents l&iacute;nies de text:
+            <blockquote>
+		    <blockquote>
+		      <p align="left">Aquesta l&iacute;nia:<br>
+                <span class="codi">&lt;script language=&quot;JavaScript&quot; src=&quot;http://clic.xtec.cat/dist/jclic/jclicplugin.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</span></p>
+	        <p align="left">          per aquesta altra:<br>
+                <span class="codi">&lt;script language=&quot;JavaScript&quot; src=&quot;../jclic/jclicplugin.js &quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</span></p>
+		    <p>i aquesta:<br>
+                <span class="codi">setJarBase('http://clic.xtec.cat/dist/jclic');</span> <br>
+                <br>
+                per aquesta altra:<br>
+                <span class="codi">setJarBase('../jclic'); </span></p>
+		    </blockquote>
+          </ol>
+
+          <blockquote>
+            <p>d'aquesta manera quan s'obri l'arxiu activity1.htm es carregar&agrave;  l'activitat en forma d'applet agafant els arxius que necessita de la carpeta que hem creat en local i no d'internet.</p>
+          </blockquote>        
+          <p>El document <strong>html</strong> tindr&agrave;  per tant la seg&uuml;ent aparen&ccedil;a:</p>
+
+          <blockquote>
+            <p>          <span class="codi">&lt;!doctype html public &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot;&gt; <br>
+&lt;html&gt; <br>
+&lt;head&gt; <br>
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt; <br>
+&lt;title&gt;*****tÃ­tol activitat******&lt;/title&gt; <br>
+&lt;script language=&quot;JavaScript&quot; src=&quot;../jclic/jclicplugin.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt; <br>
+&lt;/head&gt; <br>
+&lt;body leftmargin=&quot;0&quot; topmargin=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; onLoad=&quot;window.focus();&quot;&gt; <br>
+&lt;script language=&quot;JavaScript&quot;&gt; <br>
+              setJarBase('../jclic'); <br>
+              writePlugin('*****.jclic.zip', '100%', '100%'); <br>
+&lt;/script&gt; <br>
+&lt;/body&gt; <br>
+&lt;/html&gt; </span></p>
+          </blockquote>
+                  <p>&nbsp;</p>
+        <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="addThis" --><hr style="margin-top: 40px;"><!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&username=clic" class="addthis_button_compact">Comparteix-ho</a>
+<span class="addthis_separator">|</span>
+<a title="Envia a Facebook" class="addthis_button_facebook"></a>
+<a title="Envia a Twitter" class="addthis_button_twitter"></a>
+<a title="Envia a Delicious" class="addthis_button_delicious"></a>
+<a title="Afegeix als favorits" class="addthis_button_favorites"></a>
+<a title="Envia per correu mitjançant Gmail" class="addthis_button_gmail"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=clic"></script>
+<!-- AddThis Button END --><!-- InstanceEndEditable --></td>
+   <td width="20" background="../../img/f0_r3_c4.gif">&nbsp;</td>
+   <td width="1" background="../../img/spacer.gif"><img src="../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img name="f0_r4_c2" src="../../img/f0_r4_c2.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img name="f0_r4_c3" src="../../img/f0_r4_c3.gif" width="718" height="20" border="0" alt=""></td>
+   <td><img name="f0_r4_c4" src="../../img/f0_r4_c4.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <!-- InstanceBeginEditable name="zonaExtra" --><!-- InstanceEndEditable -->
+  <tr>
+   <td colspan="4" bgcolor="#99CCCC" class="peu">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+	<td align="left"><!-- InstanceBeginEditable name="postPeuEsquerre" --><!-- InstanceEndEditable --></td>
+	<td align="center">
+	<a href="http://www.gencat.cat/educacio/"><img src="../../img/depeducacio.gif" alt="Generalitat de Catalunya - Departament d'Educaci&oacute;" width="130" height="23" border="0"></a>
+	<img src="../../img/spacer.gif" width="100" height="1" border="0" alt="">
+    <a href="http://www.xtec.cat/"><img src="../../img/xtec.gif" alt="Xarxa Telem&agrave;tica Educativa de Catalunya" width="178" height="23" border="0"></a> 
+          <!-- InstanceBeginEditable name="postPeu" --><!-- InstanceEndEditable -->
+    </td>
+	<td align="right"><!-- InstanceBeginEditable name="postPeuDret" --><!-- InstanceEndEditable --></td>
+     </tr>
+     </table>
+   </td>
+  </tr>
+ </table>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2006596-1");
+pageTracker._trackPageview();
+</script></body>
+<!-- InstanceEnd --></html>

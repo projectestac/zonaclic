@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Simple and complex associations</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul1.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Simple and complex associations</H1>
+The associations are one of Clic's most versatile activity types. In an association, there are always two sets of information, named <B>A</B> and <B>B</B>, between whose elements certain pairings are determined. The only exception to this rule are those of the <B>Information screen</B> mode, these are not really associations although they are included in this group.<P>
+The content of the <B>A</B> and <B>B</B> grids can be a graphic or a text file and, as with all Clic activities, the text files can be used to call up multimedia elements by writing between brackets.<P>
+In the <B>written answer</B> associations the content of <B>B</B> must always be a text, and in the <B>indicate</B> mode it is always the set made up of <B>Yes</B> and <B>No</B> expressions.<P>
+In the <B>normal</B> and <B>complex</B> modes the whole content of both grids is always shown and the user has to make the relations with mouse clicks. In the other modes the content of grid <B>B</B> is never completely shown, but the programme uses it to check the answers (in <B>written answer</B> and <B>indicate</B>) or decide which type of message should be shown (in <B>explore mode</B>).<P>
+The number of cells is the same for both grids in <B>normal</B> and <B>written answer </B>modes. The number can be different in the other modes.<P>
+In the <B>normal</B>, <B>complex</B>, <B>indicate</B> and <B>written answer</B> modes it is also possible to bring in a third set of information, called <B>Solved grid A</B>. The purpose of this third component is to appear when each of the cells in Grid <B>A</B> is solved.<P>
+For example, suppose that we have an association where mathematical operations have to be matched to their results and that in this association there is a cell in grid <B>A</B> with the text "2+2"and another in grid <B>B</B> with the text "4": when the user solves the pairing, Clic initially makes the "2+2" cell disappear, showing a grey rectangle in its place which indicates that it has been solved. Another possibility would be to show something other than the grey rectangle when the cell is solved and this is where the third set of information, called <B>Solved grid A</B>, would come into use. In this information set we could include a cell with the text "2+2=4", and the result would be that once the "2+2" cell is solved, the operation and its result would appear together.<P>
+<H2>Normal association</H2>
+Normal associations always have the same number of cells in both grids and they also have the same layout of rows and columns. The elements of <B>A</B> and <B>B</B> are matched <B>one by one</B> according to the order in which they have been written or drawn in the content files. For example if the content of <B>A</B> is a text with the following words:
+<P CLASS="LiteralL">
+France<BR>
+Greece<BR>
+Italy<BR>Portugal
+<P>
+The content of <B>B</B> could be:
+<P CLASS="LiteralL">
+Paris<BR>
+Athens<BR>
+Rome<BR>
+Lisbon
+<P>
+Clic automatically assumes that the first word in <B>A</B> is related to the first in <B>B</B>, the second in <B>A</B> with the second in <B>B</B>, and so on. If graphics are used the relation is also made cell by cell starting at the top left.<P>
+When a pair has been matched the two related cells <B>disappear</B>, unless a content for <B>Solved grid A</B> has been assigned, in this case the alternative content appears in <B>A</B> and the cell in <B>B</B> disappears.<P>
+<H2>Complex association</H2>
+In the complex associations, the number of elements in <B>A</B> (rows and columns) is selected in the edit activity window, and the distribution of <B>B</B> is done in the <B>relationship assignment</B> window, which is explained later. As A and B can have a different number of elements, Clic cannot automatically decide on the correct pairs of cells and so we have to go to the relationship assignment to define the relationships.<P>
+When a pair has been matched the content of grid <B>A</B> disappears(or the alternative content appears if <B>Solved grid A</B> is used), but the content in <B>B</B> stays as it was as there may be another element in <B>A</B> which needs it. For example, imagine an association with the set "2+2", "3+2", "2x2", "4+1" in grid <B>A</B> and the expressions "4" and "5" in grid <B>B</B>. If, when solving the match between "3+2" and "5", the cells from <B>A</B> and <B>B</B> disappear, it would be impossible to solve the "4+1" afterwards, as the "5" would have disappeared in the previous go.<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t13.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="t11.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

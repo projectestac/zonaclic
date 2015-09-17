@@ -1,0 +1,347 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/basic_ca.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" --> 
+<title>ZonaClic - JClic reports - Configuració avançada amb mySQL i Tomcat en Suse</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../../../css/basic.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="../../../scripts/mm.js" type="text/JavaScript"></script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Language" content="ca">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<meta name="keywords" content="clic jclic education educational software educació educación programari educatiu software educativo">
+</head>
+<body>
+<div align="center"> 
+ <table border="0" width="758" cellpadding="0" cellspacing="0">
+  <tr>
+   <td><img src="../../../img/spacer.gif" width="20" height="1" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="718" height="1" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="20" height="1" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="4"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="758" height="80">
+          <param name="movie" value="../../../img/nav_ca.swf">
+          <param name="quality" value="high">
+          <param name="BGCOLOR" value="#CCFF99">
+          <param name="BASE" value="/img">
+          <embed src="../../../img/nav_ca.swf" width="758" height="80" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" bgcolor="#CCFF99" base="/img"></embed></object></td>
+  </tr>
+  <tr>
+   <td><img name="f0_r2_c2" src="../../../img/f0_r2_c2.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img name="f0_r2_c3" src="../../../img/f0_r2_c3.gif" width="718" height="20" border="0" alt=""></td>
+   <td><img name="f0_r2_c4" src="../../../img/f0_r2_c4.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+      <td width="20" height="200" background="../../../img/f0_r3_c2.gif">&nbsp;</td>
+   <td class="main" width="718" valign="top"><script language="JavaScript" src="../../../scripts/av_ca.js" type="text/JavaScript"></script><!-- InstanceBeginEditable name="zona0" --> 
+<p class="topMenu"><a href="../../index.htm">inici</a> | <a href="../index.htm">JClic</a><strong> 
+          </strong>| <a href="index.htm">JClic reports</a> | Configuraci&oacute; Tomcat
+          + mySQL en Suse </p>
+        <p class="t1">Servidor d'informes JClic<br>
+        Configuraci&oacute; avan&ccedil;ada amb Tomcat i mySQL en Suse Linux </p>
+        <p>El <strong>Tomcat</strong> (<a href="http://jakarta.apache.org/tomcat" class="extern">http://jakarta.apache.org/tomcat</a>)
+          és un servidor lliure d'aplicacions Java que permet desplegar i posar
+          en explotació aplicacions basades en servlets i JSP.</p>
+        <p>El <strong>mySQL</strong> (<a href="http://www.mysql.com" class="extern">http://www.mysql.com</a>) &eacute;s
+          un sistema de bases de dades professional, amb llic&egrave;ncia de
+          codi obert i disponible per a diversos tipus d'ordinadors i entorns
+          operatius.</p>
+        <p>La modalitat avan&ccedil;ada de funcionament del servidor d'informes
+          del JClic &eacute;s m&eacute;s vers&agrave;til i potent, per&ograve; requereix
+          uns coneixements b&agrave;sics d'administraci&oacute; del
+          sistema (editar amb vi, moure fitxers, etc.) i de funcionament de la
+          base de dades mySQL i del servidor d'aplicacions Tomcat. La <a href="stdmysqldeb.htm">modalitat
+          est&agrave;ndard</a>,
+          basada en Java WebStart i entorn gr&agrave;fic, &eacute;s
+          m&eacute;s
+          senzilla d'instal&middot;lar i administrar.</p>
+        <p class="t2">1. Creaci&oacute; de la base de dades i instal&middot;laci&oacute; del
+        Tomcat  </p>
+        <p>Dividirem aquesta operaci&oacute; en tres fases: instal&middot;lar
+          el mySQL, instal&middot;lar el Tomcat i crear una base de dades i un
+          usuari per al sistema d'informes del JClic. Si el vostre sistema ja
+          t&eacute; el
+          mySQL instal&middot;lat
+          podeu passar directament al <a href="#tomcat">pas 1.2</a>.</p>
+        <p class="t3">1.1. Instal&middot;laci&oacute; del mySQL   </p>
+        <p>Engegueu el <strong>YasT</strong> i aneu a <strong>Install
+            and remove software</strong>. Escriviu al
+        camp <strong>search</strong>:</p>
+        <p class="codi">mysql</p>
+        <p>... i seleccioneu els paquets:</p>
+        <p class="codi">mysql<br>
+          mysql-shared<br>
+          mysql-client<br>
+        mysql-connector-java</p>
+        <p>Feu clic a <strong>Accept</strong> i completeu el procés.</p>
+        <p>Per engegar el servidor mySQL heu d'anar des de la finestra principal
+          del <strong>YasT</strong> al grup <strong>System</strong>, i d'aquí a <strong>System
+          services (runlevel)</strong>.</p>
+        <p>Seleccioneu la línia <strong>mysql</strong>, on segurament hi haurà el valor "no".
+          Feu clic a <strong>Enable</strong> i després a <strong>Finish</strong>. Us demanar&agrave; permís per desar
+          els canvis. Respongueu afirmativament.</p>
+        <p>Ara caldrà efectuar dues operacions per millorar la seguretat del
+          mySQL: impedir que els usuaris anònims (sense identificador ni contrasenya)
+          puguin accedir al sistema, i fixar una contrasenya per a l'usuari "root"
+          del mySQL, que inicialment la té en blanc. Per fer-ho obriu una consola
+          i escriviu:</p>
+        <p class="codi">%&gt; mysql -u root<br>
+          mysql&gt; USE mysql; <br>
+  mysql&gt; DELETE FROM user WHERE User='';<br>
+  mysql&gt; SET PASSWORD FOR 'root'@'localhost' = PASSWORD('<em>xxxx</em>');<br>
+  mysql&gt; FLUSH PRIVILEGES;<br>
+  mysql&gt; exit;</p>
+        <p>... on "<em>xxxx</em>" serà la contrasenya a emprar per l'usuari administrador
+          de la base de dades. No cal que sigui la mateixa que per a l'administrador
+        del sistema.</p>
+        <p class="t3"><a name="tomcat"></a>1.2 Instal&middot;lació del Tomcat</p>
+        <p>Torneu al <strong>YasT</strong> i aneu novament a <strong>Install
+            and remove software</strong>. Escriviu
+        al camp <strong>search</strong>:</p>
+        <p class="codi">tomcat</p>
+        <p>... i seleccioneu els paquets:</p>
+        <p class="codi">tomcat5<br>
+          tomcat5-webapps<br>
+          tomcat5-admin-webapps</p>
+        <p>Feu clic a <strong>Accept</strong> i completeu el procés.</p>
+        <p>Per engegar el servidor Tomcat heu d'anar novament des de la finestra
+          principal del <strong>YasT</strong> al grup <strong>System</strong>, i d'aquí a <strong>System
+          services (runlevel)</strong>.</p>
+        <p>Seleccioneu la línia <strong>tomcat5</strong>, on segurament hi haurà el valor "no".
+          Feu clic a <strong>Enable</strong> i després a <strong>Finish</strong>. Us demanar&agrave; permís per desar
+          els canvis. Respongueu afirmativament.</p>
+        <p>Per provar si funciona, engegueu un navegador a qualsevol ordinador
+          de la xarxa i escriviu-hi l'URL:</p>
+        <p class="codi">http://<em>xxxx</em>:8080</p>
+        <p>... on "<em>xxxx</em>" és el nom o la IP del servidor on acabeu d'nstal·lar
+        el Tomcat5, i <em>8080</em> el port per defecte (es pot canviar). Des de la mateixa màquina podeu fer http://localhost:8080.</p>
+        <p class="t3"><a name="tomcat"></a>1.3
+          Creaci&oacute; de la base de dades del JClic reports </p>
+        <p>Tot seguit crearem la base de dades d'informes del JClic així com
+          un nou usuari del MySQL que hi tingui accés. També carregarem les dades
+        de prova, que ens permetran comprovar el funcionament del sistema.</p>
+        <p>Situeu-vos en
+          qualsevol directori on tingueu drets d'escriptura (per exemple, al
+          vostre "home") i feu:</p>
+        <p class="codi">%&gt; mysql -u root -p</p>
+        <p>El sistema us demanar&agrave; la contrasenya
+            de l'usuari <em>root</em> del mySQL </p>
+        <p class="codi">mysql&gt; CREATE DATABASE JClicReports;</p>
+        <p>Amb això es crarà la base de dades. Per comprovar que hagi anat bé,
+          feu:</p>
+        <p class="codi">mysql&gt; SHOW DATABASES;</p>
+        <p>... i hauria d'aparèixer a la llista.</p>
+        <p>Ara crearem un usuari (<em>jclic_user</em>) amb una contrasenya (la que vulgueu:
+          aquí es proposa <em>jclic_pwd</em>) i li donarem plens drets sobre la base de
+          dades que acabem de crear:</p>
+        <p class="codi">mysql&gt; GRANT ALL PRIVILEGES ON JClicReports.*<br>
+  -&gt; TO jclic_user<br>
+  -&gt; IDENTIFIED BY '<em>jclic_pwd</em>'<br>
+  -&gt; WITH GRANT OPTION;</p>
+        <p>Tanquem la consola del mySQL amb:</p>
+        <p class="codi">mysql&gt; exit</p>
+        <p>A continuació descarreguem i descomprimim el paquet de dades de prova:</p>
+        <p class="codi">%&gt; wget http://clic.xtec.cat/pub/reports/jclic_test_mysql.zip<br>
+  %&gt; unzip jclic_test_mysql.zip</p>
+        <p>Amb això obtindrem el fitxer <strong>jclic_test_mysql.sql</strong></p>
+        <p>Per carregar les dades, entrem al mySQL amb l'usuari <em>jclic_user</em>:</p>
+        <p class="codi">%&gt; mysql -u jclic_user -p</p>
+        <p>Ens demanarà la contrasenya de l'usuari <em>jclic_user</em>, que hem creat
+          fa un moment.</p>
+        <p>Per carregar les dades podem fer servir l'ordre "\.":</p>
+        <p class="codi">mysql&gt; use JClicReports;<br>
+        mysql&gt; \. jclic_test_mysql.sql</p>
+        <p>Atenció a l'espai entre el "\." i el nom del fitxer, i atenció també
+          a l'extensió (".sql") del fitxer.</p>
+        <p>Per comprovar que les dades s'hagin carregat b&eacute;, feu:</p>
+        <p class="codi">mysql&gt; SELECT * FROM JCLIC_USERS;</p>
+        <p>.. i haurien d'aparèixer els usuaris.</p>
+        <p>Per acabar, sortiu del MySQL amb:</p>
+        <p class="codi">mysql&gt; exit<br>
+        </p>
+        <p class="t2">2. Configuraci&oacute; del Tomcat </p>
+        <p>Haurem de realitzar dues operacions amb el Tomcat per tal que el
+          servidor d'informes del JClic funcioni correctament:</p>
+        <ol>
+          <li><strong>Instal·lar
+                  el connector JDBC per al mySQL</strong><br>
+            Això permetrà que les aplicacions Java es puguin comunicar amb
+          la base de dades mySQL que hem creat anteriorment.</li>
+          <li><strong>Desplegar l'aplicació
+                  JClicReports</strong><br>
+            Haurem de copiar els fitxers del programa dins de la carpeta
+            d'aplicacions de Tomcat, i ajustar la configuració.</li>
+        </ol>
+        <p>Per fer aquestes operacions haureu de ser root:</p>
+        <p class="codi">%&gt; su</p>
+        <p>Per instal·lar la biblioteca JDBC haurem de crear un enllaç simbòlic
+          del connector (que el YasT ha instal·lat abans a <strong>/usr/share/java</strong>) des de
+        la biblioteca del Tomcat:</p>
+        <p class="codi">%&gt; cd /usr/share/tomcat5/common/lib<br>
+  %&gt; ln -s /usr/share/java/mysql-connector-java.jar</p>
+        <p>Ara ens caldrà col·locar el fitxer <strong>reports.war</strong> a la carpeta d'aplicacions
+          del Tomcat, per tal que desplegui i prepari l'aplicaci&oacute;. Ho podem fer també
+          amb un wget:</p>
+        <p class="codi">%&gt; cd /usr/share/tomcat5/webapps<br>
+  %&gt; wget http://clic.xtec.cat/pub/reports/reports.war</p>
+        <p>Descarreguem tamb&eacute; el fitxer de configuració a la carpeta d'usuari
+          del tomcat:</p>
+        <p class="codi">%&gt; cd /usr/share/tomcat5<br>
+  %&gt; wget http://clic.xtec.cat/pub/reports/jclicReports.properties</p>
+        <p>Editem el fitxer <strong>/usr/share/tomcat5/jclicReports.properties</strong> canviant
+        el que calgui per tal que hi apareguin els següents valors:</p>
+        <p class="codi">dbDriver=com.mysql.jdbc.Driver<br>
+          dbServer=jdbc:mysql://localhost/JClicReports<br>
+          dbLogin=jclic_user<br>
+          dbPassword=<em>xxxx</em><br>
+          createTables=true<br>
+          tablePrefix=JCLIC_<br>
+          dbLogFile=logs/jclicReportsDBConnection.log</p>
+        <p>... on <em>xxxx</em> és la contrasenya assignada anteriorment a l'usuari <em>jclic_user</em>          del
+          mySQL.<br>
+          Pareu atenció al valor de <em>dbLogFile</em>: el prefix "logs/" no apareix
+          a la versió per defecte.</p>
+        <p>El JClic reports necessita invocar el servei de gràfics "X" per generar les imatges estadístiques. El Suse Linux 9.3 porta activat
+          per defecte el controlador <strong>xhost</strong>, que restrigeix l'ús
+          dels serveis "X" als usuaris que hi hagin iniciat una sessió. Com que
+          l'usuari <em>tomcat5</em>          (que és qui fa córrer el Tomcat)
+          no té cap sessió gràfica iniciada caldrà flexibilitzar els permisos
+          de <strong>xhost</strong> permetent l'ús de les "X" a totes les connexions locals.
+          Per fer-ho, escriviu:</p>
+        <p class="codi">%&gt; xhost local:</p>
+        <p>Ja gairebé ho tenim tot a punt. Només ens caldrà reiniciar el Tomcat:</p>
+        <p class="codi">%&gt; /etc/init.d/tomcat5 restart</p>
+        <p>Per provar si funciona, aneu a qualsevol ordinador de la xarxa i obriu
+          en un navegador web l'URL:</p>
+        <p class="codi">http://<em>xxxx</em>:8080/reports</p>
+        <p>... on <em>xxxx</em> és el nom o la IP del servidor on hem fet la instal·lació.</p>
+        <p>Si tot va b&eacute; es mostrar&agrave; una
+     primera p&agrave;gina
+     on es demana una contrasenya, que inicialment es pot deixar en blanc.
+     Si heu carregat les dades de demostraci&oacute; podreu entrar
+     als informes de grup i als informes d'usuari, i visualitzar els diversos
+     tipus de taules i gr&agrave;fiques
+     que ofereix el programa.</p>
+        <p>En aquest moment pot ser convenient navegar cap a la secci&oacute; <strong>Administraci&oacute; de la base de dades</strong> i realitzar dues operacions:</p>
+   <ul>
+          <li>Establir una <strong>contrasenya</strong>, que impedir&agrave; que persones no autoritzades tinguin acc&eacute;s a les p&agrave;giens d'informaci&oacute;.</li>
+          <li>Decidir la <strong>pol&iacute;tica d'altes</strong> dels nous usuaris. Hi ha tres opcions:<br>
+              <ol>
+                <li>Deixar que qualsevol usuari pugui crear grups i donar-se d'alta amb el nom que vulgui.</li>
+                <li>Entrar manualment els grups i deixar que els alumnes en seleccionin un i es donin d'alta ells mateixos la primera vegada que facin servir el JClic.</li>
+                <li>Entrar manualment tots els grups i usuaris, o importar-los d'alguna altra base de dades. Per efectuar importacions us resultar&agrave; &uacute;til consultar l'<a href="../../../pub/reports/JClicReports_tables_ca.pdf">esquema de taules</a> del <strong>JClic reports</strong>.</li>
+              </ol>
+              En la majoria de casos el m&eacute;s recomanable &eacute;s comen&ccedil;ar per la segona opci&oacute;, impedint m&eacute;s endavant la creaci&oacute; de nous usuaris, quan tots els alumnes s'hagin donat d'alta.</li>
+        </ul>
+        <p class="t2">3. Configuraci&oacute; dels clients JClic</p>
+   <p>Cal configurar els clients JClic per tal que connectin amb el servidor
+     JClic reports i li enviïn informació sobre les activitats realitzades pels
+     alumnes.</p>
+   <p>Els passos a seguir són:</p>
+   <ol>
+     <li>Poseu en marxa
+           el <strong>JClic</strong> des de qualsevol ordinador de la xarxa. Podeu fer-ho fent
+     clic al botó que apareix a la <a href="../download.htm">pàgina de descàrrega
+     del JClic</a>, o des de les
+           icones que es crearan a l'escriptori i al menú inici quan l'hagueu
+     engegat un parell de vegades. A la secció de <a href="../faqjclic.htm#faq0">preguntes
+     freqüents</a> hi trobareu
+          més informació sobre la creació de dreceres per engegar el JClic.</li>
+   <li>En el JClic, aneu
+       al menú <strong>Eines</strong> - <strong>Configuració</strong> i seleccioneu
+       la pestanya <strong>Informes</strong>.</li>
+   <li>Marqueu la casella <strong>Enregistra els
+         resultats de les activitats en una base de dades</strong>.</li>
+   <li>Seleccioneu
+           l'opció <strong>Connecta't a un servidor d'informes
+           JClic</strong>, i escriviu al camp
+           <strong>Servidor</strong> l'expressi&oacute;:<br>
+           <br>
+           <span class="codi"><em>xxxx</em>:8080/reports</span><br>
+           <br>
+           ... on <em>xxxx</em> ser&agrave; el nom o la IP del servidor on hem instal&middot;lat
+          el Tomcat.</li>
+   <li>     Confirmeu els canvis, sortiu del JClic i torneu-lo
+                  a engegar. Si tot va bé hauria d'aparèixer la pantalla d'identificació,
+                  i el JClic reports hauria d'enregistrar els resultats de totes
+          les activitats que s'hi facin.</li>
+   </ol>
+   <p>Repetiu els passos 2, 3, 4 i 5
+          en tots els ordinadors on vulgueu activar el sistema d'informes del
+     JClic. Recordeu que l'adreça per consultar les dades sempre serà:</p>
+   <p class="codi">http://<em>xxxx</em>:8080/reports</p>
+   <p>(on, no cal dir-ho, <em>xxxx</em> és el nom o la IP del servidor)<br>
+   </p>
+   <p class="t2">Consells</p>
+   <ul>
+     <li>Recordeu fer regularment còpies de seguretat de la base de dades. A
+       <a href="http://dev.mysql.com" class="extern">http://dev.mysql.com</a> hi trobareu explicades diverses maneres de realitzar
+       les còpies de seguretat, com ara <strong>mysqldump</strong> o <strong>mysqlhotcopy</strong>. També podeu
+       optar per periòdicament còpies del directori <strong>/var/lib/mysql/JClicReports</strong>.</li>
+   <li>La contrasenya d'acc&eacute;s a la base de dades permet efectuar tot tipus
+     d'operacions, des de consultar resultats fins a esborrar usuaris
+     i grups. En futures versions millorarem aquest sistema creant diversos
+     perfils d'administraci&oacute; i acc&eacute;s, per&ograve; ara per ara hi
+     ha una &uacute;nica clau. Mantingueu-la en lloc segur i canvieu-la
+     de tant en tant.</li>
+   <li>Convindria crear un usuari d'administració del Tomcat. Ho podeu fer editant
+     el fitxer <strong>/usr/share/tomcat5/conf/tomcat-users.xml</strong>, afegint-hi
+     una línia amb els atributs <em>admin</em> i <em>manager</em>.</li>
+   </ul>
+   <p>Tant el Tomcat com el
+         MySQL són aplicacions professionals que requereixen un cert manteniment.
+         A internet trobareu molta documentació sobre com administrar aquests serveis.<br>
+     </p>
+   <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="addThis" --><hr style="margin-top: 40px;"><!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&username=clic" class="addthis_button_compact">Comparteix-ho</a>
+<span class="addthis_separator">|</span>
+<a title="Envia a Facebook" class="addthis_button_facebook"></a>
+<a title="Envia a Twitter" class="addthis_button_twitter"></a>
+<a title="Envia a Delicious" class="addthis_button_delicious"></a>
+<a title="Afegeix als favorits" class="addthis_button_favorites"></a>
+<a title="Envia per correu mitjançant Gmail" class="addthis_button_gmail"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=clic"></script>
+<!-- AddThis Button END --><!-- InstanceEndEditable --></td>
+   <td width="20" background="../../../img/f0_r3_c4.gif">&nbsp;</td>
+   <td width="1" background="../../../img/spacer.gif"><img src="../../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img name="f0_r4_c2" src="../../../img/f0_r4_c2.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img name="f0_r4_c3" src="../../../img/f0_r4_c3.gif" width="718" height="20" border="0" alt=""></td>
+   <td><img name="f0_r4_c4" src="../../../img/f0_r4_c4.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <!-- InstanceBeginEditable name="zonaExtra" --><!-- InstanceEndEditable -->
+  <tr>
+   <td colspan="4" bgcolor="#99CCCC" class="peu">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+	<td align="left"><!-- InstanceBeginEditable name="postPeuEsquerre" --><!-- InstanceEndEditable --></td>
+	<td align="center">
+	<a href="http://www.gencat.cat/educacio/"><img src="../../../img/depeducacio.gif" alt="Generalitat de Catalunya - Departament d'Educaci&oacute;" width="130" height="23" border="0"></a>
+	<img src="../../../img/spacer.gif" width="100" height="1" border="0" alt="">
+    <a href="http://www.xtec.cat/"><img src="../../../img/xtec.gif" alt="Xarxa Telem&agrave;tica Educativa de Catalunya" width="178" height="23" border="0"></a> 
+          <!-- InstanceBeginEditable name="postPeu" --><!-- InstanceEndEditable -->
+    </td>
+	<td align="right"><!-- InstanceBeginEditable name="postPeuDret" --><!-- InstanceEndEditable --></td>
+     </tr>
+     </table>
+   </td>
+  </tr>
+ </table>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2006596-1");
+pageTracker._trackPageview();
+</script></body>
+<!-- InstanceEnd --></html>

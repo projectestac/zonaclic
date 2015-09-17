@@ -1,0 +1,268 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/basic_ca.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" --> 
+<title>zonaClic - webstart i glibc 2.3.3</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../../css/basic.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="../../scripts/mm.js" type="text/JavaScript"></script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Language" content="ca">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<meta name="keywords" content="clic jclic education educational software educació educación programari educatiu software educativo">
+</head>
+<body>
+<div align="center"> 
+ <table border="0" width="758" cellpadding="0" cellspacing="0">
+  <tr>
+   <td><img src="../../img/spacer.gif" width="20" height="1" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="718" height="1" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="20" height="1" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="4"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="758" height="80">
+          <param name="movie" value="../../img/nav_ca.swf">
+          <param name="quality" value="high">
+          <param name="BGCOLOR" value="#CCFF99">
+          <param name="BASE" value="/img">
+          <embed src="../../img/nav_ca.swf" width="758" height="80" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" bgcolor="#CCFF99" base="/img"></embed></object></td>
+  </tr>
+  <tr>
+   <td><img name="f0_r2_c2" src="../../img/f0_r2_c2.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img name="f0_r2_c3" src="../../img/f0_r2_c3.gif" width="718" height="20" border="0" alt=""></td>
+   <td><img name="f0_r2_c4" src="../../img/f0_r2_c4.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+      <td width="20" height="200" background="../../img/f0_r3_c2.gif">&nbsp;</td>
+   <td class="main" width="718" valign="top"><script language="JavaScript" src="../../scripts/av_ca.js" type="text/JavaScript"></script><!-- InstanceBeginEditable name="zona0" --> 
+        <p class="topMenu"><a href="../index.htm">inici</a> | <a href="index.htm">jclic</a><strong> 
+          | </strong><a href="faqjclic.htm">PMF</a> | webstart en Linux </p>
+        <p class="t1">Java WebStart i Linux amb glibc
+          2.3.3+</p>
+        <p class="main">Sun Microsystems reconeix una incompatibilitat
+          entre les seves versions de <strong>Java WebStart</strong> i
+          el component <strong>glibc
+          </strong>de GNU/Linux, versions 2.3.3 i posteriors. El problema s'explica
+        en aquesta p&agrave;gina:</p>
+        <p><a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6188963" class="extern">http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6188963</a></p>
+        <p>Aquest error afecta greument el funcionament del JClic en
+          les versions m&eacute;s recents de Linux, com ara Suse&nbsp;9.2 o Fedora
+          Core 3. <strong>TOTES</strong> les aplicacions basades en Java
+          WebStart
+          <strong>DEIXEN DE FUNCIONAR</strong> en aquests
+          sistemes si es fa servir la plataforma Java de Sun,
+          tant en la versi&oacute; 1.4 com en la 5.0.</p>
+        <p>Per comprovar si esteu afectats per aquest problema obriu una
+          c&ograve;nsola i escriviu:</p>
+        <p class="codi"> &gt; /lib/libc.so.6</p>
+        <p>Si la versi&oacute; de la <em>GNU
+          C Library</em>          que es mostra &eacute;s 2.3.3 o superior, us
+          aconsellem llegir la resta del document. </p>
+        <p>Tal com es pot veure a la p&agrave;gina indicada,
+          Sun ha etiquetat el problema com a &quot;closed - fixed&quot;. Aix&ograve; significa
+          que es considera tancat i solucionat.
+          La soluci&oacute;, diu el document, vindr&agrave; amb la segona revisi&oacute; del
+          nou Java 5.0, que encara no est&agrave; disponible. En tot cas, caldr&agrave;
+          reinstal&middot;lar totalment la
+          plataforma Java amb un canvi de versi&oacute; principal que
+          pot provocar algun problema de compatibilitat. No s'ofereix
+          cap alternativa als usuaris actuals de Java 1.4 (com no sigui tornar
+          a una versi&oacute; anterior de GNU/Linux). </p>
+        <p>En les intervencions dels usuaris que han participat en la discussi&oacute; provocada
+          per aquest <em>bug</em> s'apunten dues solucions:</p>
+        <ol class="llistalletres">
+          <li>Prescindir de la plataforma Java de Sun i instal&middot;lar la
+            distribuci&oacute; alternativa de 
+            <strong>Blackdown</strong>, que va corregir aquest problema immediatament
+            en ser detectat. Aquesta versi&oacute; es
+            pot descarregar des de:<br>
+            <a href="http://www.blackdown.org" class="extern">http://www.blackdown.org</a></li>
+          <li>Instal&middot;lar una <strong>versi&oacute; anterior</strong> de
+            Java WebStart i fer-la servir en comptes de l'actual.
+            Sun ja no ofereix desc&agrave;rregues d'aquest producte, en considerar
+            que ve totalment integrat en les versions m&eacute;s modernes
+            de Java, per&ograve; afortunadament
+          alg&uacute; en guardava una c&ograve;pia. Els passos a seguir s&oacute;n
+          aquests:
+          <br>          
+          <ol>
+            <li>Localitzeu on teniu instal&middot;lada la m&agrave;quina virtual
+                Java. Podeu obrir una consola i escriure:<br>
+                <br>
+                <span class="codi">&gt; whereis javaws</span><br>
+                <br>
+                Si no disposem de &quot;whereis&quot; caldr&agrave; cercar als
+                directoris on el nostre sistema acostuma a emmagatzemar els programes. Busqueu
+                un fitxer anomenat &quot;javaws&quot; que es troba dins d'una carpeta del
+                mateix nom. <br>
+                <br>
+                La instal&middot;laci&oacute; per defecte es realitza a:<br>
+        <br>
+        <table width="498" border="0">
+          <tr>
+            <td width="219">Versi&oacute; d'usuari (JRE):</td>
+            <td width="224" class="codi">/usr/java/javaws</td>
+          </tr>
+          <tr>
+            <td>Paquet de desenvolupament (JDK): </td>
+            <td class="codi">/usr/java/jre/javaws</td>
+          </tr>
+          <tr>
+            <td>Suse Linux: </td>
+            <td class="codi">/usr/lib/jvm/java/jre/javaws</td>
+          </tr>
+        </table>
+        <br>
+La m&agrave;quina virtual Java es troba just un pas per sota, a:<br>
+        <br>
+        <table width="493" border="0">
+          <tr>
+            <td width="250">Versi&oacute; d'usuari (JRE):</td>
+            <td width="233" class="codi">/usr/java</td>
+          </tr>
+          <tr>
+            <td>Paquet de desenvolupament (JDK): </td>
+            <td class="codi">/usr/java/jre</td>
+          </tr>
+          <tr>
+            <td>Suse Linux: </td>
+            <td class="codi">/usr/lib/jvm/java/jre</td>
+          </tr>
+        </table>
+        <br>
+En aquest document farem servir l'expressi&oacute; <em>$JRE_HOME</em> per referir-nos
+a aquest directori. Podeu optar entre crear una variable d'entorn amb el nom
+JRE_HOME o simplement substituir totes les aparicions de <em>$JRE_HOME</em> que
+trobeu pel nom complet del directori. A Suse Linux aquesta variable ve ja definida
+pel sistema.</li>
+            <li>Descarregar
+                en aquesta carpeta aquest fitxer: <a href="http://clic.xtec.cat/dist/java/javaws-1_2_0_06-linux-i586-i.zip"><strong>javaws-1_2_0_06-linux-i586-i.zip</strong></a> (801
+              Kb).</li>
+            <li>Obrir una consola i accedir al compte de root escrivint <span class="codi">su</span> i
+            la contrasenya.</li>
+            <li>Despla&ccedil;ar-nos a la carpeta on haguem descarregat
+              el fitxer indicat al punt 2 i crear una carpeta nova, que podr&iacute;em
+              anomenar <span class="codi">instal_javaws</span>:<br>
+              <br>
+              <span class="codi">&gt; cd <em>xxxx</em><br>
+              &gt; mkdir instal_javaws<br>
+              </span>              </li>
+            <li>Entrar a aquesta nova carpeta i descomprimir el contingut del
+              fitxer, amb:<br>
+              <br>
+              <span class="codi">&gt; cd instal_javaws<br>
+          &gt; unzip ../javaws-1_2_0_06-linux-i586-i.zip</span></li>
+            <li>Executar el programa &ldquo;install.sh&rdquo;:<br>
+              <br>
+              <span class="codi">&gt; ./install.sh</span><br>
+              <br>
+              Apareixer&agrave; una informaci&oacute; de llic&egrave;ncia,
+          a la que cal respondre &quot;yes&quot;, i tot seguit ens preguntar&agrave; la
+          ubicaci&oacute; de la m&agrave;quina virtual Java, que ja hem esbrinat
+          al pas 1.<br>
+          <br>
+          En acabar pot ser que es posi en
+            marxa la finestra de control de Java WebStart, o que aparegui un
+              error (degut a que l'usuari root no pugui iniciar sessions gr&agrave;fiques). No
+            passa res. Si ha aparegut la finestra, tanqueu-la.</li>
+            <li>Veureu que s'ha
+              creat un directori anomenat <span class="codi">javaws</span>.
+              Caldr&agrave; moure
+            aquesta carpeta al directori de la m&agrave;quina virtual Java, reempla&ccedil;ant
+            l'existent:<br>
+            <span class="codi"><br>
+            &gt; mv
+            $JRE_HOME/javaws $JRE_HOME/javaws.bak<br>
+            &gt; mv javaws $JRE_HOME<br>
+            </span><br>
+            En la primera l&iacute;nia canviem el nom de la carpeta &ldquo;javaws&rdquo; a &ldquo;javaws.bak&rdquo;,
+          per si m&eacute;s endavant haguessim de recuperar el seu contingut.<br>
+          <br>
+          En
+          la segona l&iacute;nia movem la carpeta &ldquo;javaws&rdquo; (acabada
+          de crear) a la seva ubicaci&oacute; normal.</li>
+            <li>Sortim de la carpeta
+            d'instal&middot;laci&oacute; i esborrem el
+            seu contingut:<br>
+            <br>
+            <span class="codi">&gt; cd ..<br>
+            &gt; rm -r instal_javaws</span></li>
+            <li>Tanquem la sessi&oacute; de root amb &quot;<span class="codi">exit</span>&quot;.
+              Ara ja podem provar el funcionament del Java WebStart, escrivint:<br>
+              <br>
+              <span class="codi">&gt; 
+              $JRE_HOME/javaws/javaws</span><br>
+              <br>
+              Si tot va b&eacute;, s'hauria de posar en marxa
+              la finestra de control.</li>
+            <li>Com a darrer pas, configurem el navegador
+                per tal que assigni l'extensi&oacute; JNLP
+            al Java WebStart. En el cas del <strong>Mozilla Firefox</strong>, anem a <strong>Edit &ndash; Preferences</strong>,
+            activem la icona <strong>Downloads</strong> i, a la part inferior,
+            afegim una entrada per als fitxers amb extensi&oacute; <strong>JNLP</strong> (o
+            editem l'existent, si e&#347; que
+            ja hi &eacute;s). La l&iacute;nia d'ordres hauria d'apuntar a:<br>
+            <br> 
+            <span class="codi">$JRE_HOME/javaws/javaws</span><br>
+            <br>
+            (<strong>Nota:</strong> probablement aqu&iacute; no podreu fer
+            servir la variable d'entorn. Substitu&iuml;u-la pel nom complet del
+            directori) </li>
+            <li>Comproveu si podeu posar en marxa el JClic des de la <a href="download.htm">p&agrave;gina
+              de desc&agrave;rrega</a>.</li>
+            </ol>
+          </li>
+        </ol>
+        <p>&nbsp;</p>
+   <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="addThis" --><hr style="margin-top: 40px;"><!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&username=clic" class="addthis_button_compact">Comparteix-ho</a>
+<span class="addthis_separator">|</span>
+<a title="Envia a Facebook" class="addthis_button_facebook"></a>
+<a title="Envia a Twitter" class="addthis_button_twitter"></a>
+<a title="Envia a Delicious" class="addthis_button_delicious"></a>
+<a title="Afegeix als favorits" class="addthis_button_favorites"></a>
+<a title="Envia per correu mitjançant Gmail" class="addthis_button_gmail"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=clic"></script>
+<!-- AddThis Button END --><!-- InstanceEndEditable --></td>
+   <td width="20" background="../../img/f0_r3_c4.gif">&nbsp;</td>
+   <td width="1" background="../../img/spacer.gif"><img src="../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img name="f0_r4_c2" src="../../img/f0_r4_c2.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img name="f0_r4_c3" src="../../img/f0_r4_c3.gif" width="718" height="20" border="0" alt=""></td>
+   <td><img name="f0_r4_c4" src="../../img/f0_r4_c4.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <!-- InstanceBeginEditable name="zonaExtra" --><!-- InstanceEndEditable -->
+  <tr>
+   <td colspan="4" bgcolor="#99CCCC" class="peu">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+	<td align="left"><!-- InstanceBeginEditable name="postPeuEsquerre" --><!-- InstanceEndEditable --></td>
+	<td align="center">
+	<a href="http://www.gencat.cat/educacio/"><img src="../../img/depeducacio.gif" alt="Generalitat de Catalunya - Departament d'Educaci&oacute;" width="130" height="23" border="0"></a>
+	<img src="../../img/spacer.gif" width="100" height="1" border="0" alt="">
+    <a href="http://www.xtec.cat/"><img src="../../img/xtec.gif" alt="Xarxa Telem&agrave;tica Educativa de Catalunya" width="178" height="23" border="0"></a> 
+          <!-- InstanceBeginEditable name="postPeu" --><!-- InstanceEndEditable -->
+    </td>
+	<td align="right"><!-- InstanceBeginEditable name="postPeuDret" --><!-- InstanceEndEditable --></td>
+     </tr>
+     </table>
+   </td>
+  </tr>
+ </table>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2006596-1");
+pageTracker._trackPageview();
+</script></body>
+<!-- InstanceEnd --></html>

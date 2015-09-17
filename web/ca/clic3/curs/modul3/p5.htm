@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Pràctica 5</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY BGCOLOR="White" TEXT="Black" LINK="Blue" VLINK="Purple" ALINK="Red">
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul3.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Pràctica 5<BR>Creació d'un dictat</H1>
+Aquesta activitat serà similar a la que podeu trobar a la "demo" del Clic (TXA06.TXA). Enregistrarem un fitxer wav amb la lectura d'un text i prepararem una activitat del tipus "omplir forats" on les incògnites seran les frases del document que hem enregistrat, precedides d'una casella que activarà el fragment de so corresponent.<P>
+En les activitats que hem fet fins ara s'ha utilitzant sovint la crida a un fitxer WAV escrivint el seu nom entre claus. En aquest cas ens interessarà la reproducció d'un determinat <B>fragment</B> de so per a cada frase, que obtindrem afegint les expressions "from" (<I>des de</I>) i "to" (<I>fins a</I>) darrere del nom del fitxer. Aquestes paraules han d'anar seguides d'una xifra que indica una posició dins del fitxer de so, expressada en mil·lisegons. A la pàgina 26 del manual del Clic 3.0 s'expliquen els detalls d'aquesta tècnica.<P>
+Per a enregistrar el so es pot utilitzar qualsevol programa especialitzat, com ara el CoolEdit 96 shareware (que podeu descarregar des de la secció de recursos del "racó del Clic".<P>
+<P CLASS="L">- Poseu en marxa el programa d'edició de sons i prepareu un nou enregistrament. Amb el CoolEdit 96 això es fa mitjançant el menú <B>File - New</B>. Per tal d'obtenir una qualitat suficient sense que el fitxer acabi ocupant un espai excessiu al disc us recomanem fixar les propietats de l'enregistrament a <B>11.025, mono i 16 bits</B>.<P>
+<P CLASS="L">- Ajusteu el volum del micròfon amb el mesclador del Windows i enregistreu la lectura d'aquest text:<P>
+<P CLASS="LiteralL">
+El 1990 comença l'actual moviment del Comerç Just, que compta amb més de 3.000 botigues a Europa.¶<BR>
+El seu principi fonamental és garantir als productors del sud una compensació justa pel seu treball. Per aconseguir-ho compren els productes directament als camperols i als artesans.¶<BR>
+Els articles en venda respecten les garanties socials: han estat elaborats sense treball esclavitzant ni abús del medi ambient.¶<BR>
+</P>
+<P CLASS="L">- Comproveu que el volum de l'enregistrament estigui a un nivell correcte (amb el CoolEdit us recomanem normalitzar-ho a un 90% del volum màxim mitjançant el menú <B>Transform - Amplitude - Normalize</B>), retalleu les cues de silenci que puguin haver quedat davant i darrere i enregistreu el fitxer amb el nom <B>DICTAT.WAV</B> en la carpeta de pràctiques del mòdul 3.<P>
+<P CLASS="L">- Ara hauríeu d'anotar en un full els intervals de temps corresponents a cada frase, expressats en mil·lisegons. Amb el CoolEdit 96 es poden observar fàcilment aquests valors seguint aquest mètode:<P>
+<P CLASS="L2">- Feu clic al principi d'on penseu que comença la frase i arrossegueu el cursor del ratolí fins al final.<P>
+<P CLASS="L2">- Premeu la tecla <B>Espai</B> per escoltar el bloc seleccionat. Si cal, ajusteu l'inici i/o el final del bloc arrossegant-lo amb el <B>botó dret</B> del ratolí. Quan el bloc seleccionat coincideixi amb la frase que es busca fixeu-vos en els valors <B>BEG</B> i <B>END</B> que apareixen a baix a la dreta:<BR>
+&nbsp;<BR>
+<IMG SRC="cooledit1.gif" WIDTH=618 HEIGHT=386 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L2">&nbsp; En aquest exemple el fragment seleccionat comença a 15.396 mil·lisegons i acaba a 20.830.<P>
+<P CLASS="L">- Aquestes són les frases els intervals de les quals cal anotar:<BR>
+&nbsp;<BR>
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="5" BORDERCOLOR="#800080">
+<TR CLASS="CTaula">
+	<TD CLASS="CTaula">Frase</TD>
+	<TD CLASS="CTaula" ALIGN="right">Inici</TD>
+	<TD CLASS="CTaula" ALIGN="right">Final</TD>
+</TR>
+<TR>
+	<TD>El 1990 comença l'actual moviment del Comerç Just</TD>
+	<TD ALIGN="right">0</TD>
+	<TD ALIGN="right">3942</TD>
+</TR>
+<TR>
+	<TD>que compta amb més de 3.000 botigues a Europa</TD>
+	<TD ALIGN="right">3942</TD>
+	<TD ALIGN="right">7458</TD>
+</TR>
+<TR>
+	<TD>El seu principi fonamental és garantir als productors del sud una compensació justa pel seu treball</TD>
+	<TD ALIGN="right">8204</TD>
+	<TD ALIGN="right">14544</TD>
+</TR>
+<TR>
+	<TD>Per aconseguir-ho compren els productes directament als camperols i als artesans</TD>
+	<TD ALIGN="right">15396</TD>
+	<TD ALIGN="right">20883</TD>
+</TR>
+<TR>
+	<TD>Els articles en venda respecten les garanties socials</TD>
+	<TD>21256</TD>
+	<TD>24932</TD>
+</TR>
+<TR>
+	<TD>han estat elaborats sense treball esclavitzant ni abús del medi ambient</TD>
+	<TD>25039</TD>
+	<TD>29940</TD>
+</TR>
+</TABLE>
+<P CLASS="L">
+&nbsp;<BR>
+<B>ATENCIÓ:</B> Els valors que apareixen a la taula hi són només a tall d'exemple. S'han obtingut en un enregistrament de prova, i no tenen perquè coincidir amb els vostres.<P>
+&nbsp;<P>
+<P CLASS="L">- Un cop anotades aquestes posicions ja podeu tancar l'editor de sons i posar en marxa el Clic.<P>
+<P CLASS="L">- Creeu una <B>nova activitat de text</B> en la carpeta de pràctiques del mòdul 3 i fixeu la modalitat al tipus <B>Omplir forats</B>.<P>
+<P CLASS="L">- Feu clic al botó <B>Opcions</B> i copieu l'estil de l'activitat <B>COMJUST1.TXA</B>. Abans de tancar la finestra d'opcions activeu la casella <B>Imatge</B> de la zona <B>Finestra principal</B>.<P>
+<P CLASS="L">- Inseriu una casella al principi del document amb unes dimensions de <B>400x50</B>, sense <B>Marc</B> ni <B>Text centrat</B> i amb el text:<P>
+<P CLASS="LiteralL">COMERÇ JUST</P>
+<P CLASS="L">- Inseriu un <B>retorn</B> darrera la casella i escriviu el text del dictat, tal com es mostra a l'inici de la pràctica.<P>
+<P CLASS="L">- Enregistreu-la amb el nom <B>COMJUST2.TXA</B>.<P>
+<P CLASS="L">- Situeu el cursor davant de la primera "E" del text i inseriu una <B>casella</B> amb unes dimensions de <B>60 x 40</B>, sense <B>marc</B> i amb aquest text:<P>
+<P CLASS="LiteralL">{dictat.wav from 0 to XXX}</P>
+<P CLASS="L">&nbsp; ...substituint "XXX" pel valor que heu anotat anteriorment com a final de la primera frase. Els valors s'han d'escriure sense els punts separadors de milers: "3.942" seria una expressió incorrecta que caldria canviar per "3942".<P>
+<P CLASS="L">- Confirmeu-ho tot i comproveu el funcionament de la casella en l'activitat. Haureu observat que el Clic hi fa aparèixer un dibuix d'un altaveu, que és la icona predeterminada per a les caselles on només hi ha un fitxer de so:<BR>
+&nbsp;<BR>
+<IMG SRC="icowave.gif" WIDTH=63 HEIGHT=39 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+Aquesta icona resulta una mica massa gran per a les activitats de text. En lloc seu podríem fer servir un altre dibuix més petit, que es troba en el fitxer <B>minialt.gif</B> (inclòs entre els materials del ZIP d'aquesta pràctica):<BR>
+&nbsp;<BR>
+<IMG SRC="minialt.gif" WIDTH=16 HEIGHT=16 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L">- Editeu l'activitat i feu clic damunt la casella que conté l'altaveu. Canvieu les dimensions a <B>30</B> punts d'amplada per <B>30</B> d'alçada i modifiqueu el text afegint la referència al fitxer GIF:<P>
+<P CLASS="LiteralL">{minialt.gif}{dictat.wav from 0 to XXX}</P>
+<P CLASS="L">- Confirmeu el canvi i comproveu l'aspecte que pren ara la casella.<P>
+<P CLASS="L">- Editeu de nou l'activitat i marqueu tota la frase, des de la "E" inicial fins a la "t" de "Just", procurant que la casella i la coma final quedin fora del bloc seleccionat. Quan ho hagueu fet cliqueu a la casella de <B>creació d'incògnites</B> (llapis), augmenteu el <B>nombre màxim de caràcters</B> a <B>60</B> (convé augmentar-lo per no bloquejar la incògnita si l'usuari comet alguna errada) i reduïu l'<B>espai inicial de resposta</B> a <B>1</B>.<P>
+<P CLASS="L">- Comproveu el funcionament de l'activitat tal com la tenim fins ara, i quan ho hagueu fet torneu a la finestra d'edició.<P>
+<P CLASS="L">- Ara hauríem de crear la segona incògnita, però abans farem una modificació que ens simplificarà la feina: feu clic al botó d'<B>Opcions</B> i modifiqueu les dimensions de la <B>Graella B</B> per tal que siguin de <B>30 x 20</B>. En les activitats de text no hi ha "graella B", però el Clic utilitza les dimensions que s'hi indiquin com a valors per defecte en la creació de noves caselles.<P>
+<P CLASS="L">- Confirmeu la finestra d'opcions i situeu el cursor davant la "q" que ve després de la coma i l'espai. Creeu una nova <B>casella</B>, desmarqueu-li el <B>marc</B> i escriviu-hi aquest text:<P>
+<P CLASS="LiteralL">{minialt.gif}{dictat.wav from XXX to YYY}</P>
+<P CLASS="L">&nbsp; ...substituint "XXX" i "YYY" per les posicions inicial i final de la segona frase en el fitxer WAV.<P>
+<P CLASS="L">- Marqueu la frase des de la "q" de "que" fins a la "a" final d'"Europa", deixant el punt fora del bloc seleccionat. Creeu una nova <B>incògnita</B> augmentant el <B>nombre màxim de caràcters</B> i reduint l'<B>espai inicial de resposta</B> a <B>1</B>.<P>
+<P CLASS="L">- Confirmeu i continueu creant caselles i incògnites per a la resta de frases. Recordeu deixar fora dels blocs d'incògnita els signes de puntuació: això ajudarà els alumnes a contextualitzar cada frase.<P>
+<P CLASS="L">- Escriviu a <B>Missatge inicial</B> aquest text:<P>
+<P CLASS="LiteralL">Fes aquest dictat. Per escoltar els fragments de text has de clicar damunt els altaveus.</P>
+<P CLASS="L">&nbsp; ... i afegiu un <B>Missatge final</B> de felicitació.<P>
+<P CLASS="L">- Comproveu el funcionament de l'activitat. Observeu que el Clic és capaç de detectar la majoria d'errades que es puguin produir dins de les respostes, indicant a l'alumne on es troba l'expressió que provoca l'error. Això és degut que en les <B>Opcions d'avaluació</B> (boto "dit") hi tenim marcada la funció d'<B>indicar els errors lletra a lletra</B>.<P>
+Per acabar la pràctica podríem fer que l'alumne escolti el text sencer abans de començar l'exercici:<P>
+<P CLASS="L">- Editeu l'activitat i entreu dins de les <B>opcions d'avaluació</B> (botó "dit").<P>
+<P CLASS="L">- Marqueu les caselles <B>Mostrar abans de començar</B> i <B>Mostrar el text original</B>.<P>
+<P CLASS="L">- A la caixa <B>Missatge inicial</B> escriviu-hi:<P>
+<P CLASS="LiteralL">Ara farem un dictat. Escolta el text i quan acabi fes clic per començar l'exercici.</P>
+<P CLASS="L">- Canvieu el <B>temps màxim</B> a zero i confirmeu-ho tot.<P>
+<P CLASS="L">- Comproveu el funcionament de l'activitat i enregistreu-la de nou amb el mateix nom: <B>COMJUST2.TXA</B><P>
+Si encara teniu temps i ganes, aquests serien alguns suggeriments complementaris per a millorar el funcionament de l'activitat:<P>
+En la segona frase també es podria considerar correcte escriure el número "3.000" en lletres ("tres-mil"). Podríem editar la incògnita i assignar-li una solució alternativa, separant-la de la original per una barra vertical. El text de la <B>resposta correcta</B> quedaria així: "que compta amb més de 3.000 botigues a Europa|que compta amb més de tres-mil botigues a Europa". Caldria assegurar-se també que el nombre màxim de caràcters d'aquesta incògnita permeti escriure-hi la segona resposta.<P>
+Es podria fer que els fragments de so s'engeguessin automàticament en entrar a cada incògnita, sense que fos necessari fer clic a les caselles dels altaveus. Per aconseguir això podríem editar les incògnites, activar la casella <B>Finestra d'informació</B>, escriure-hi el text <B>{dictat.wav from XXX to YYY}</B> i marcar la casella <B>Només interpretar</B>, que farà que s'escolti el WAV sense que es mostri visualment cap finestra addicional.<P>
+<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="p6.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT" ALT=""></A>
+<A HREF="p4.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

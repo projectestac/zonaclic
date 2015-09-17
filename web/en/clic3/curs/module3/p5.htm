@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Practice 5</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY BGCOLOR="White" TEXT="Black" LINK="Blue" VLINK="Purple" ALINK="Red">
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul3.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Practice 5<BR>Creating a dictation</H1>
+</B>This activity will be similar to TXA06.TXA in the Clic "demo". We will record a wav file with a spoken text and prepare a "fill in blanks" activity. The targets will be the phrases from the recorded document preceded by boxes that activate the corresponding sound fragment.<P>
+In the activities we have done so far, we have often called a wav file by writing its name between curved brackets. In this case we need to hear a particular <B>fragment</B> of sound for each phrase. We will do this by using "from" and "to" after the file name. These words have to be followed by a number that indicate a point, expressed in milliseconds, in the sound file. This technique is explained in detail on page 26 of the Clic manual.<P>
+Any specialised programme can be used to make the recording, such as CoolEdit 96 shareware (which can be downloaded from the resource section of the "Clic Corner).<P>
+<P CLASS="L">- Start up the sound edition programme and prepare a new recording. In CoolEdit 96 this is done through the <B>File - New</B> menu. To get good enough quality without having too big a file, we recommend setting the recording properties to <B>11.025, mono and 16 bits</B>.<P>
+<P CLASS="L">- Adjust the microphone volume with the Windows mixer and record the following text:
+<P CLASS="LiteralL">
+The current Fair Commerce movement started in 1990 and involves more than 3,000 shops in Europe.&para;<BR>
+Its basic principal is to guarantee a fair return for their work to the producers in the South. To achieve this they buy the products directly from the farmers and craftspeople.&para;<BR>
+The items on sale respect social guarantees; they have been made without the use of slave labour or damaging the environment.<BR>
+</P>
+<P CLASS="L">- Check that the recording level is at an appropriate level (with CoolEdit we recommend normalising it at 90% of the maximum volume through the <B>Transform - Amplitude - Normalize</B> menu), cut out any silences at the beginning and the end of the recording and save the file as <B>DICTAT.WAV</B> in the practice folder for module 3.<P>
+<P CLASS="L">- Now you should jot down the time intervals for each phrase, in milliseconds, on a piece of paper. It is easy to see the values in CoolEdit 96. This is done as follows:<P>
+<P CLASS="L2">- Click where you think the start of the sentence is and drag the cursor to the end.<P>
+<P CLASS="L2">- Press the <B>Spacebar</B> to listen to the selected block. If necessary, adjust the beginning and/ or end of the block by dragging it with the <B>right mouse button</B>. When the selected block coincides with the phrase, note down the <B>BEG</B> and <B>END</B> values that appear at the bottom on the right:<BR>
+&nbsp;<BR>
+<IMG SRC="cooledit1.gif" WIDTH=618 HEIGHT=386 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L2">&nbsp; In this example, the fragment selected starts at 15,396 milliseconds and finishes at 20,830.<P>
+<P CLASS="L">- Here are the phrases that you need to note down the intervals for:<BR>
+&nbsp;<BR>
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="5" BORDERCOLOR="#800080">
+<TR CLASS="CTaula">
+	<TD CLASS="CTaula">Phrase</TD>
+	<TD CLASS="CTaula" ALIGN="right">Start</TD>
+	<TD CLASS="CTaula" ALIGN="right">Finish</TD>
+</TR>
+<TR>
+	<TD>The current Fair Commerce movement started in 1990</TD>
+	<TD ALIGN="right">0</TD>
+	<TD ALIGN="right">3942</TD>
+</TR>
+<TR>
+	<TD>and involves more than 3,000 shops in Europe</TD>
+	<TD ALIGN="right">3942</TD>
+	<TD ALIGN="right">7458</TD>
+</TR>
+<TR>
+	<TD>Its basic principal is to guarantee a fair return for their work to the producers in the South</TD>
+	<TD ALIGN="right">8204</TD>
+	<TD ALIGN="right">14544</TD>
+</TR>
+<TR>
+	<TD>To achieve this they buy the products directly from the farmers and craftspeople</TD>
+	<TD ALIGN="right">15396</TD>
+	<TD ALIGN="right">20883</TD>
+</TR>
+<TR>
+	<TD>The items on sale respect social guarantees</TD>
+	<TD>21256</TD>
+	<TD>24932</TD>
+</TR>
+<TR>
+	<TD>they have been made without the use of slave labour or damaging the environment</TD>
+	<TD>25039</TD>
+	<TD>29940</TD>
+</TR>
+</TABLE>
+<P CLASS="L">
+&nbsp;<BR>
+<B>NOTE:</B> The values that appear in the table are only an example. They were obtained from a test recording and do not have to coincide with your values.<P>
+&nbsp;<P>
+<P CLASS="L">- Once you have noted down the fragment values, you can close the sound editor and open Clic.<P>
+<P CLASS="L">- Create a <B>new text activity</B> in the practise exercise folder for module 3 set the kind to <B>Fill in blanks</B>.<P>
+<P CLASS="L">- Click on the <B>Options</B> button and copy the style from <B>FAIRCOM1.TXA</B>. Before closing the options window, activate the <B>Image</B> box in the <B>Main window</B> area.<P>
+<P CLASS="L">- Insert a box at the start of the document with a size of <B>400x50</B>, without a <B>Frame</B> or <B>Centred text</B> and with the text:
+<P CLASS="LiteralL">FAIR COMMERCE</P>
+<P CLASS="L">- Insert a <B>return</B> after the box and write the dictation text, as shown at the beginning of the exercise.<P>
+<P CLASS="L">- Save the activity as <B>FAIRCOM2.TXA</B>.<P>
+<P CLASS="L">- Place the cursor before the first "T" in the text and insert a <B>box</B> with a size of <B>60 x 40</B>, without a <B>frame</B> and with the following text:
+<P CLASS="LiteralL">{dictat.wav from 0 to XXX}</P>
+<P CLASS="L">&nbsp; ...replacing "XXX" for the value you have for the end of the first phrase. The values must be written without commas for the thousands, "3,942" would be an incorrect expression and would have to be replaced with "3942".<P>
+<P CLASS="L">- Confirm everything and test the box. You will see that Clic inserts a drawing of a speaker, this is the predetermined icon for boxes containing only a sound file:<BR>
+&nbsp;<BR>
+<IMG SRC="icowave.gif" WIDTH=63 HEIGHT=39 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+This icon is a bit on the large side for text activities. We could use the smaller drawing below in its place, which can be found the <B>speaksma.gif</B> file (included in the ZIP file materials for this module):<BR>
+&nbsp;<BR>
+<IMG SRC="minialt.gif" WIDTH=16 HEIGHT=16 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L">- Edit the activity and click on the box containing the speaker. Change the size to <B>30</B> points width, <B>20</B> points height and change the text, adding the reference to the GIF file:
+<P CLASS="LiteralL">{speaksma.gif}{dictat.wav from 0 to XXX}</P>
+<P CLASS="L">- Accept the change and see what the box looks like now.<P>
+<P CLASS="L">- Edit the activity again and select the whole phrase from the first "T" to "1990", making sure that the box and the last comma are not included in the selected block. Click on the <B>target creation</B> box (pencil), increase the <B>maximum amount of characters</B> to <B>60</B> (this should be increased so as not to block the target if the user commits an error) and reduce the <B>initial answer space</B> to <B>1</B>.<P>
+<P CLASS="L">- Check what we have done so far and then go back to the edit window.<P>
+<P CLASS="L">- Before creating the second target, we will make a change that will make our work easier. Click on the <B>Options</B> button and change the size of  <B>Grid B</B> to <B>30 x 20</B>. There are no "grid Bs" in text activities, but Clic uses this size as the default value when creating new boxes.<P>
+<P CLASS="L">- Accept the changes and place the cursor in front of the "a" in "and". Create a new <B>box</B>, unmark <B>frame</B> and write the following text:
+<P CLASS="LiteralL">{speaksma.gif}{dictat.wav from XXX to YYY}</P>
+<P CLASS="L">&nbsp; ...replacing "XXX" and "YYY" for the start and end positions of the second phrase in the  WAV file.<P>
+<P CLASS="L">- Select the phrase from the "a" in "and" to "e" in "Europe", without including the full stop in the selected block. Create a new <B>target</B> increasing the <B>maximum amount of characters</B> and reducing the<B> initial answer space</B> to <B>1</B>.<P>
+<P CLASS="L">- Accept and continue creating boxes and targets for the rest of the phrases. Remember to leave out the punctuation signs from the target blocks; this will help the students contextualize each phrase.<P>
+<P CLASS="L">- Write the following text in <B>Welcome message</B>:<P>
+<P CLASS="LiteralL">Do this dictation. Click on the speakers to listen to the phrases.</P>
+<P CLASS="L">&nbsp; ... and add a <B>Good bye message</B> of congratulations.<P>
+<P CLASS="L">- Check the activity. Note that Clic is able to detect most of the errors that might be made in the answers, showing the student where the mistakes are. This is due to the <B>indicate mistakes letter by letter</B> function in<B> Correction options</B> ("finger" button) being active.<P>
+To finish the practise exercise we could let the student read the whole text before starting the exercise:<P>
+<P CLASS="L">- Edit the activity and go to <B>correction options</B> ("finger" button).<P>
+<P CLASS="L">- Mark the <B>Display before starting</B> and <B>Display original text</B> boxes.<P>
+<P CLASS="L">- Write the following in the <B>Welcome message</B> box:<P>
+<P CLASS="LiteralL">Now we will do a dictation. Read the text and when you have finished, click on the mouse to start the exercise.</P>
+<P CLASS="L">- Change the <B>maximum time</B> to zero and confirm everything.<P>
+<P CLASS="L">- Check the activity and save it with the same name: <B>FAIRCOM2.TXA</B><P>
+If you still have time and want to, here are some extra suggestions to improve the working of the activity:<P>
+In the second phrase we could also accept "3,000" written in letters "three thousand". To do this we need to edit the target and assign an alternative answer, separating it from the original answer with a vertical bar. The <B>correct answer</B> text would change to: "and involves more than 3,000 shops in Europe|and involves more than three thousand shops in Europe". Make sure that the maximum amount of characters for this target is large enough for the second answer.<P>
+We could make the sound fragments start up automatically on entering each target without having to click on the speaker boxes. To do this we need to edit the targets, activate the <B>Pop-up information window</B> box, write <B>{dictat.wav from XXX to YYY}</B> and mark the <B>Only interpret</B> box, which stops the window with the text from appearing.<P>
+<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="p6.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT" ALT=""></A>
+<A HREF="p4.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

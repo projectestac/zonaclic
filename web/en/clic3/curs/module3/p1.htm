@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Practice 1</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul3.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<P>&nbsp;<P>
+<A HREF="prac3.zip"><IMG SRC="../disquet.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="LEFT"></A>You will need to download the <A HREF="prac3.zip">prac3.zip</A> file to do the guided practices for this module. Decompress its contents in the <B>C:\Clic\Course\Module3\practice</B> folder.<P>
+&nbsp;<P>
+The materials used in the guided practices for this module come from the NGO <A HREF="http://www.intermon.org">Intermón</A> web page.<P>
+<H1>Practice 1<BR>Creating a fill in blanks activity</H1>
+In this exercise we will make a reading comprehension activity: the student will be shown a text and will then be asked to complete the text with the missing words.<P>
+<P CLASS="L">- Start up Clic and activate the <B>File - New... - Text activity</B> menu. The working directory will be the one corresponding to module 3: <B>C:\Clic\Course\Module3\practice</B><P>
+<P CLASS="L">- Write the following text in the edit window, remembering to only press the<B> Return</B> key at the end of each paragraph (the  <B> </B>symbol will appear in Clic):
+<P CLASS="LiteralL">
+World education is in crisis. Apart from the millions of children that do not go to school, one in four adults are illiterate.&para;<BR>
+It is women who are in the worst situation; they make up 70% of the people who do not know how to read or write.&para;<BR>
+The situation is very serious. Education is a basic way overcoming poverty. Those with access to education have more possibilities of getting a decent wage, knowing and demanding their rights, building their own future. Without education, the children of today are the illiterates of tomorrow. They will have to survive with unstable wages and they will not be able to send their children to school.&para;<BR>
+The circle of poverty is perpetual.<BR>
+</P>
+<P CLASS="L">- When you have finished writing the text, click <B>OK</B> and save the activity as <B>EDUCA1.TXA</B>.<P>
+<P CLASS="L">- Go back to the edit window and place the cursor and the start of the document. Insert a <B>return</B> to leave an empty line. Go to the start of this empty line and click on the <B>create boxes</B> button:<BR>
+&nbsp;<BR>
+<IMG SRC="botocasella.gif" WIDTH=30 HEIGHT=30 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L">- In the <B>create boxes</B> window write the following text:
+<P CLASS="LiteralL">{logo.gif}</P>
+<P CLASS="L">&nbsp; Set the width at <B>500</B> the height at <B>90</B>  (to reach 500 quickly, hold down the counter arrow with the mouse), deselect the <B>With frame</B> box and confirm. If everything goes well the  "Education now" campaign logo should appear.<P>
+<P CLASS="L">- Select the word "illiterate" in the first paragraph. To select a word you can use either of the two techniques explained earlier (click and drag, or move with the arrow keys while holding down the shift button). When you have selected the word click on the <B>create and edit targets</B> button:<BR>
+&nbsp;<BR>
+<IMG SRC="botoincognita.gif" WIDTH=30 HEIGHT=30 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L">&nbsp; In the window that appears the behaviour of the space that we have just selected is controlled. Initially, it will show 10 dashes, it will allow a maximum of 10 characters to be written and the correct answer will be "illiterate". Confirm these options by clicking on the <B>OK</B> button.<P>
+<P CLASS="L">- Select the word "Women" that appears in the second paragraph and click again on the <B>target creation</B> button. In this case we will set the target as a drop list: click on the <B>Present options in a list</B> box and write:
+<P CLASS="LiteralL">
+Men<BR>
+Women<BR>
+Boys<BR>
+Girls<BR>
+</P>
+<P CLASS="L">&nbsp; When you have completed the list confirm the target creation.<P>
+<P CLASS="L">- Select the word "poverty" and click again on the target creation button. In this case we will allow some synonyms of the original word. Go to the <B>Correct answer</B> box and write the following:
+<P CLASS="LiteralL">poverty|misery|indigence</P>
+<P CLASS="L">&nbsp; The vertical bars that separate the words are obtained by the combination of the ALTGR+1 keys. No blank spaces should be written.<P>
+<P CLASS="L">- As the word "indigence" has more than 7 characters we have to make Clic let the expression be written in the space. Change the <B>Maximum amount of characters</B> to <B>9</B>.<P>
+<P CLASS="L">- Create a new target for the word "wage", where the answer "salary" is also allowed.<P>
+<P CLASS="L">- Select the word "survive" as a target as well, allowing the synonyms "subsist" and "live".<P>
+<P CLASS="L">- To finish, convert the word "circle" into a target, presenting it in a drop list along with the options "square" and "triangle".<P>
+<P CLASS="L">- In <B>Welcome message</B> write the following sentence:
+<P CLASS="LiteralL">Write the words that are missing in this text</P>
+<P CLASS="L">- And add a goodbye message of congratulations.<P>
+Check the activity. Remember to press <B>Return</B> after writing each answer so that Clic can check them.<P>
+As this is a reading comprehension activity it would be useful to let the student read the original text thoroughly before starting to answer:<P>
+<P CLASS="L">- Edit the activity (CTRL+E) and click on the <B>correction options</B> button:<BR>
+&nbsp;<BR>
+<IMG SRC="botoavalua.gif" WIDTH=30 HEIGHT=30 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L">- Mark the <B>Display before starting</B> box and keep the <B>Display original text</B> option. Set the <B>maximum time</B> counter to zero (this will give an undefined time, until the student clicks the mouse or presses a key) and write the following text in <B>Welcome message</B>:
+<P CLASS="LiteralL">Read this text carefully and when you finish, click on the mouse to start the exercise</P>
+<P CLASS="L">- Check the activity. Now it looks more like we wanted, but there is still a problem. As the text is quite long a vertical scroll bar appears that stops us from being able to read it in one go. There are two ways of fixing this: make the font size a bit smaller or increase the size of the game window. The second option would be the most appropriate if the activity only had to work on screens with a 800x600 resolution, but this will cause problems at 640x480 as the current window size is almost the maximum available in this resolution. We shall opt, so, for a smaller font size:<P>
+<P CLASS="L">- Edit the activity (CTRL+E) and click on the <B>Fonts</B> button.<P>
+<P CLASS="L">- Make sure that, at the top, the area marked is <B>Main text</B> and change the size of the <B>Arial</B> font to <B>7 x 18</B>. Once that is done select the <B>Help windows</B> area and change the font size to<B>7 x 18</B> as well and accept.<P>
+<P CLASS="L">- Check the activity. If the vertical scroll bar is still there, this could be because you added a <B>return</B> to the end of the document: If this is the case, delete it.<P>
+<P CLASS="L">- Save the activity again with the same name: <B>EDUCA1.TXA</B><P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="p2.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="index.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

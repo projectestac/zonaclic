@@ -1,0 +1,1 @@
+carrega({"nomcentre":"iesmollet"});

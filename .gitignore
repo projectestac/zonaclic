@@ -11,8 +11,10 @@
 
 # Back and log files #
 *.bak
+*.LCK
 *~
 *.log
+Thumbs.db
 
 # Build and doc directories #
 build/

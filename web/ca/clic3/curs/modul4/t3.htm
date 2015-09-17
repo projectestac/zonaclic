@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>La utilitat ClicPac</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>La utilitat ClicPac</H1>
+Tal com vam veure a l'inici del curs, els paquets Clic es poden presentar en dos formats diferents: els paquets <B>oberts</B> (extensió PAC) i els <B>compactes</B> (extensió PCC). La diferència fonamental entre els dos tipus de paquets es dóna en el tipus d'informació que resideix dins dels fitxers: els PAC contenen només referències a les activitats (podríem dir que són com la "llista de la compra"), mentre que els PCC contenen dintre seu la major part dels ingredients necessaris per a fer-les funcionar (seguint l'analogia anterior, serien l'equivalent al "cistell amb la compra"). Els fitxers multimèdia no es poden posar mai dins del "cistell" i han de quedar com a elements independents a la carpeta de treball.<P>
+Quan s'utilitza un paquet compacte (PCC) queden inhabilitades totes les funcions d'edició de les activitats. Per repassar la "llista de la compra" i examinar o modificar el que conté cal obrir el "cistell" i desplegar els ingredients damunt la taula.<P>
+El format compacte (PCC) és l'idoni per a distribuir les aplicacions Clic un cop acabades. Presenta dos avantatges clars respecte al format obert:<P>
+<P CLASS="L">- Protegeix els materials de modificacions accidentals o volgudes per part dels alumnes.<P>
+<P CLASS="L">- Facilita el transport del material d'un ordinador a un altre, ja que la majoria d'ingredients es troben integrats en un únic fitxer.<P>
+La utilitat ClicPac, que s'instal·la amb el Clic, serveix tant per a <B>empaquetar</B> paquets oberts com per a <B>desempaquetar</B> paquets compactes. <P>
+&nbsp;<BR>
+<IMG SRC="esquema.gif" WIDTH=507 HEIGHT=484 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<H2>Compactació de paquets</H2>
+Aquests són els passos a seguir per a <B>compactar un paquet</B>:<P>
+<P CLASS="L">- Posar en marxa el <B>ClicPac</B>. Es mostrarà una pantalla com aquesta:<BR>
+&nbsp;<BR>
+<IMG SRC="scrclicpac1.gif" WIDTH=500 HEIGHT=376 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L">- Seleccionar a la part superior de la pantalla el tipus <B>Paquets Clic normals (*.PAC)</B><P>
+<P CLASS="L">- Buscar en les llistes d'unitats i carpetes i la ubicació de l'aplicació que es desitja compactar.<P>
+<P CLASS="L">- Seleccionar el fitxer corresponent al paquet principal. El programa analitzarà les dependències entre els diferents ingredients de l'aplicació i si detecta algun error (per exemple, una crida a un fitxer inexistent) us ho farà saber. Si hi ha errors cal tancar el ClicPac, revisar l'activitat que l'ha provocat, solucionar-lo i tornar a començar.<P>
+<P CLASS="L">- Fer clic damunt el botó <B>Compactar</B>.<P>
+<P CLASS="L">- En la pantalla que apareix a continuació es mostra a l'esquerra la llista de tots els fitxers que passaran a formar part del paquet compacte, i a la dreta la dels que en quedaran exclosos (fitxers WAV, MID, AVI, DLL...):<BR>
+&nbsp;<BR>
+<IMG SRC="scrclicpac2.gif" WIDTH=500 HEIGHT=262 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L">- Fer clic damunt el botó <B>Crear el paquet compacte</B>.<P>
+<P CLASS="L">- Quan acaba el procés de creació del fitxer PCC el programa demana si voleu esborrar els ingredients que han passat a formar-ne part. És recomanable dir-li que <B>sí</B>, ja que així s'evita malbaratar espai de disc amb fitxers duplicats que ja no es fan servir.<P>
+<H2>Descompactació de paquets</H2>
+Per a <B>descompactar un paquet</B> cal seguir un camí semblant:<P>
+<P CLASS="L">- Posar en marxa el <B>ClicPac</B>.<P>
+<P CLASS="L">- Marcar a la part superior esquerra de la finestra l'opció <B>Paquets Clic compactes (*.PCC)</B><P>
+<P CLASS="L">- Buscar a les llistes d'unitats i carpetes la ubicació de l'aplicació que es desitja descompactar.<P>
+<P CLASS="L">- Seleccionar el fitxer PCC corresponent.<P>
+<P CLASS="L">- Fer clic al botó <B>Descompactar</B>. Apareixerà una finestra amb la llista dels fitxers que hi ha dins del fitxer PCC. En principi cal deixar-los tots marcats.<BR>
+&nbsp;<BR>
+<IMG SRC="scrclicpac3.gif" WIDTH=300 HEIGHT=208 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L">- Fer clic damunt el botó <B>Extreure</B>. El ClicPac s'encarregarà de crear els fitxers com a unitats independents dins de la carpeta de treball.<P>
+Com a pas final es recomana <B>esborrar</B> el fitxer PCC, ja que un cop convertida l'aplicació a PAC ja no és necessari tenir-lo al disc dur. Per esborrar el fitxer podeu utilitzar l'explorador del Windows.<P>
+Algunes observacions sobre el procés de compactar i descompactar paquets:<P>
+<P CLASS="L">- Si es descompacta un paquet directament des d'un <B>CD-ROM</B> o una unitat de xarxa amb drets "Només de lectura" caldrà seleccionar una ubicació alternativa per als fitxers dins del disc dur, on el ClicPac pugui escriure sense restriccions.<P>
+<P CLASS="L">- Les <B>icones</B> que creen els instal·ladors de les activitats Clic al "Menú inici" o a l'"Administrador de programes" del Windows acostumen a apuntar a un fitxer PCC. Si esborreu el PCC després d'haver-lo descompactat (tal com es suggereix a les instruccions) la icona deixarà de funcionar. Per continuar utilitzant-la caldrà modificar les propietats de la drecera per tal que apunti directament al fitxer PAC. En el W95 les dreceres acostumen a trobar-se dins de la carpeta <B>C:\Windows\Menú Inici\Programes\Clic</B><P>
+Durant el procés de creació d'activitats és normal que es vagin fent proves i creant diferents fitxers que potser al final no s'utilitzaran. El ClicPac ofereix la possibilitat de "fer neteja" <B>copiant</B> el contingut íntegre d'un paquet obert d'una carpeta a una altra. El procés seria:<P>
+<P CLASS="L">- <B>Crear</B> una carpeta nova i donar-li un nom diferent a la que s'ha utilitzat per a crear les activitats.<P>
+<P CLASS="L">- <B>Copiar</B> el paquet de la carpeta de treball antiga a la nova mitjançant el ClicPac.<P>
+<P CLASS="L">- <B>Esborrar</B> la carpeta original de l'aplicació.<P>
+A partir d'ara la carpeta "bona" serà la nova, que contindrà només els ingredients necessaris per al paquet d'activitats. En esborrar la carpeta original de treball s'hauran eliminat aquells fitxers que ja no es feien servir.<P>
+<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t4.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="t2.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

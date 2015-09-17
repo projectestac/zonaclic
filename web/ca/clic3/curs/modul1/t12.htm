@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Les associacions simples i complexes</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul1.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Les associacions simples i complexes</H1>
+Les associacions són un dels tipus d'activitats més versàtils del Clic. En una associació sempre hi intervenen dos conjunts d'informació, anomenats <B>A</B> i <B>B</B>, entre els elements dels quals es defineixen uns determinats aparellaments. L'única excepció a aquesta regla són les de la modalitat <B>Pantalla d'informació</B>, que no és ben bé una associació tot i estar inclosa en aquest grup.<P>
+El contingut de les graelles <B>A</B> i <B>B</B> pot ser un gràfic o un fitxer de text i, com en totes les activitats Clic, els fitxers de text es poden utilitzar per a realitzar crides a elements multimèdia escrivint-los entre claus.<P>
+En les associacions de <B>resposta escrita</B> el contingut de <B>B</B> sempre ha de ser un text, i en les de la modalitat <B>identificació</B> sempre és el conjunt format per les expressions <B>Sí</B> i <B>No</B>.<P>
+En les modalitats <B>normal</B> i <B>complexa</B> sempre es mostra el contingut complet d'ambdues graelles, que l'usuari ha d'anar relacionant amb clics de ratolí. En les altres modalitats el contingut de la graella <B>B</B> no s'arriba a mostrar mai complet a l'usuari, però el programa l'utilitza per a validar les respostes (a <B>resposta escrita</B> i <B>identificació</B>) o decidir quin tipus de missatge s'ha de mostrar (a les d'<B>exploració</B>).<P>
+El nombre de caselles és el mateix per a ambdues graelles en les modalitats <B>normal</B> i <B>resposta escrita</B>. En les altres modalitats pot ser diferent.<P>
+En les modalitats <B>normal</B>, <B>complexa</B>, <B>identificació</B> i <B>resposta escrita</B> és possible també fer entrar en joc un tercer conjunt d'informació, anomenat <B>Solució a la graella A</B>. La funció d'aquest tercer component és aparèixer en el moment en que es resol cada una de les caselles de la graella <B>A</B>. Per exemple, suposem que tenim una associació on cal relacionar operacions matemàtiques amb el seu resultat, i que en aquesta associació hi ha una casella de la graella <B>A</B> amb el text "2+2" i una altra a la graella <B>B</B> amb el text "4": en una situació inicial, quan l'usuari resolgui l'aparellament el Clic farà que la casella "2+2" desaparegui, mostrant un rectangle de color gris que indica que ja ha estat resolta. Una altra possibilitat seria que quan es resolgui la casella aparegui alguna altra cosa diferent al rectangle gris, i aquí és on entraria en joc el tercer conjunt d'informació anomenat <B>Solució a la graella A</B>: podríem incloure en aquest conjunt una casella amb el text "2+2=4", i l'efecte obtingut seria que un cop resolta la casella "2+2" apareixeria l'expressió de l'operació completa amb el seu resultat.<P>
+<H2>Associació normal</H2>
+En les associacions normals sempre hi ha el mateix nombre de caselles en ambdues graelles, i tenen la mateixa disposició de files i columnes. Els elements d'<B>A</B> i <B>B</B> es relacionen <B>un a un</B> a partir de l'ordre en que han estat escrits o dibuixats en els fitxers de contingut. Per exemple, si el contingut d'<B>A</B> és un text amb les paraules:<P>
+<P class="literal">
+França<BR>
+Grècia<BR>
+Itàlia<BR>
+Portugal<BR>
+<P>El de <B>B</B> podria ser:<P>
+<P class="literal">
+París<BR>
+Atenes<BR>
+Roma<BR>
+Lisboa<BR>
+<P>
+El Clic assumirà automàticament que la primera paraula d'<B>A</B> es relaciona amb la primera de <B>B</B>, la segona d'<B>A</B> amb la segona de <B>B</B>, etc. Si s'utilitzen gràfics la relació es fa també casella a casella, començant a comptar per la de dalt a l'esquerra.<P>
+Quan es resol un aparellament <B>desapareixen</B> les dues caselles que s'han relacionat, a no ser que s'hagi seleccionat un contingut per a la <B>Solució a la graella A</B>: en aquest cas apareix a <B>A</B> el contingut alternatiu i desapareix el de la casella <B>B</B>.<P>
+<H2>Associació complexa</H2>
+En les associacions complexes el nombre d'elements d'<B>A</B> (files i columnes) s'indica a la pantalla d'edició de l'activitat, i la distribució de <B>B</B> es fa en la finestra d'<B>assignació de relacions</B>, que s'explica més endavant. Com que A i B poden tenir un nombre diferent d'elements el Clic no pot decidir automàticament quins són els aparellaments correctes entre les caselles, i per això cal anar sempre a la finestra d'assignació de relacions per a definir-los.<P>
+Quan es resol un aparellament desapareix el contingut de la graella <B>A</B> (o apareix el contingut alternatiu si s'utilitza la <B>Solució a la graella A</B>), però el de <B>B</B> queda com estava ja que podria ser que hi hagués algun altre element d'<B>A</B> que el necessités. Per exemple, imaginem una associació on intervé el conjunt "2+2", "3+2", "2x2", "4+1" a la graella <B>A</B> i les expressions "4" i "5" a la graella <B>B</B>. Si en resoldre l'aparellament entre "3+2" i "5" desapareguessin les caselles d'<B>A</B> i <B>B</B> seria impossible resoldre després la casella "4+1", ja que el "5" s'hauria esfumat en la tirada anterior.<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t13.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="t11.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

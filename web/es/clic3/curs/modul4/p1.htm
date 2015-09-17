@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Práctica 1</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Práctica 1<BR>
+Creación de actividades con ARITH2</H1>
+En esta práctica se utiliza el módulo de generación automática de actividades <B>ARITH2</B> para crear algunas actividades de cálculo mental.<P>
+El primer paso será copiar a la carpeta de trabajo el archivo ARITH2.DLL que acompaña a la "demo" de Clic:<P>
+<P CLASS="L">- Ponga en marcha el Explorador de Windows (Botón Inicio - Programas - Explorador de Windows).<P>
+<P CLASS="L">- En el panel izquierdo busque la carpeta <B>C:\CLIC\ACT\DEMO</B> y selecciónela.<P>
+<P CLASS="L">- Haga clic con el botón derecho del ratón en el archivo <B>ARITH2.DLL</B>, que debería aparecer en el panel de la derecha. En el menú de contexto seleccione <B>Copiar</B>.<P>
+<P CLASS="L">- En el panel izquierdo busque y seleccione la carpeta de prácticas del módulo 4 del curso.<P>
+<P CLASS="L">- Haga clic con el botón derecho del ratón en el panel de la derecha y, en el menú de contexto, seleccione <B>Pegar</B>.<P>
+Con esta operación tendremos una copia del archivo ARITH2.DLL en la carpeta de trabajo.<P>
+<P CLASS="L">- Ponga en marcha Clic, active el menú <B>Archivos - Nueva actividad - Asociación</B> y seleccione la carpeta de trabajo del módulo 4.<P>
+<P CLASS="L">- Fije una distribución de <B>1</B> columna y <B>5</B> filas.<P>
+<P CLASS="L">- Seleccione para la <B>ventana A</B> el tipo <B>Texto</B>, asegúrese que en la lista desplegable se encuentra seleccionada la opción <B>NUEVO TEXTO</B> y haga clic en el botón <B>Editar contenido</B>. El nombre del archivo que crearemos es <B>VACIO.TXT</B><P>
+Este archivo de texto hará un papel puramente testimonial: servirá para crear un esqueleto de la actividad, pero el contenido que aparecerá en las casillas se controlará más adelante con el módulo ARITH2.<P>
+<P CLASS="L">- Cuando se active la libreta de Windows inserte un par de retornos dentro del texto y active los menús <B>Archivo - Guardar</B> y <B>Archivo - Salir</B>.<P>
+<P CLASS="L">- Despliegue la lista de la <B>ventana B</B> y seleccione también el archivo <B>VACIO.TXT</B>.<P>
+<P CLASS="L">- Marque la casilla <B>Solución a la ventana A</B> y seleccione nuevamente <B>VACIO.TXT</B>.<P>
+Confirme la edición de la actividad: obtendrá una asociación simple entre dos ventanas con casillas en blanco. El paso siguiente será activar el módulo <B>ARITH2</B> para que llene las casillas con contenido:<P>
+<P CLASS="L">- Vaya a las <B>Opciones de la actividad</B> (CTRL+O) y marque la casilla <B>Regeneración automática</B>.<P>
+<P CLASS="L">- En la lista desplegable que hay bajo esta casilla <A NAME="this"></A><A HREF="#this" onClick="javascript:window.open('nota2.htm','Nota','width=200,height=200,toolbar=0,location=0,status=0,menubar=0,alwaisRaised=1,dependent=1')">seleccione el archivo <B>ARITH2.DLL</B></A> y haga clic en el botón <B>Configuración</B>.<P>
+<P CLASS="L">- En la ventana de configuración de Arith2 deje los valores predeterminados (sumas de valores entre 0 y 10) y confirme la operación.<P>
+Compruebe el funcionamiento de la actividad. Observará que cada vez que se hace clic en la bandera verde se reinicia la actividad con operaciones distintas.<P>
+<P CLASS="L">- Edite la actividad para escribir en <B>Mensaje inicial el texto</B>:<P>
+<P CLASS="LiteralL">Resuelve estas operaciones</P>
+<P CLASS="L">&nbsp; ... y añada un mensaje final de felicitación.<P>
+<P CLASS="L">- Guarde la actividad con el nombre <B>SUMAS1.ASS</B>.<P>
+Ahora podríamos hacer algunas modificaciones que mejoren el aspecto visual de la actividad. Utilizaremos la técnica de mostrar la ventana de juego en un decorado de fondo, tal como se hace en la actividad TXA06.TXA de la "demo" de Clic:<P>
+<P CLASS="L">- Vaya a las <B>Opciones de la actividad</B> (CTRL+O) y haga clic en el botón <B>Color sólido</B> de la <B>ventana principal</B>. Seleccione el color blanco.<P>
+<P CLASS="L">- Seleccione también el color blanco como fondo de la <B>ventana de juego</B>.<P>
+<P CLASS="L">- Marque la casilla <B>Imagen</B> de la ventana principal, despliegue la lista y seleccione el archivo <B>FONDO.GIF</B><P>
+<P CLASS="L">- Marque la casilla <B>Centrada</B> y confirme los cambios.<P>
+Aparecerá una imagen de fondo, pero la ventana de juego tiene unas dimensiones demasiado grandes y no cabe en el marco que se había dibujado en el decorado de fondo. Deberíamos hacer todavía algunas modificaciones más:<P>
+<P CLASS="L">- Vuelva a las <B>opciones de la actividad</B> y desmarque la casilla <B>Centrada</B> de la ventana de juego. Bajo esta casilla aparecerán dos campos numéricos que sirven para especificar las coordenadas donde se situará la ventana de juego. Cambie los valores a <B>X: 270 Y: 10</B><P>
+<P CLASS="L">- Modifique los tamaños de las casillas para que sean de <B>164 x 64</B>, tanto en la ventana <B>A</B> como en la <B>B</B>.<P>
+<P CLASS="L">- Desmarque la casilla <B>Marcos sombreados</B> y confírmelo todo.<P>
+Ahora sí: La ventana de juego se ha situado exactamente dónde queríamos y tiene unas dimensiones que hacen que quepa en el rectángulo que se había dibujado en la imagen de fondo. Haremos sólo unos últimos cambios en el aspecto visual:<P>
+<P CLASS="L">- Edite la actividad (CTRL+E) y desmarque el botón <B>Delim. Casillas</B> tanto para la ventana <B>A</B> como para la <B>B</B>.<P>
+<P CLASS="L">- Haga clic en el botón <B>Fuentes</B>, seleccione la zona <B>Caja de mensajes</B> y escoja azul marino como color de fondo y blanco como color de texto. Después seleccione la zona <B>Ventana B</B> y cambie el color de la <B>sombra</B> a blanco (el color de la sombra se utiliza también para rellenar las casillas cuando se ha resuelto un emparejamiento).<P>
+<P CLASS="L">- Vuelva a guardar la actividad con el mismo nombre: <B>SUMAS1.ASS</B><P>
+Ahora aprovecharemos la actividad que acabamos de crear para hacer algunas variaciones aumentando el grado de dificultad de las operaciones de cálculo:<P>
+<P CLASS="L">- Vaya a las <B>Opciones de la actividad</B> y haga clic en el botón <B>Configuración</B> de la <B>regeneración automática</B>.<P>
+<P CLASS="L">- Modifique el <B>primer operando</B> para que esté en un rango entre 10 y 99, marque la casilla <B>Sin llevar</B> y confirme.<P>
+<P CLASS="L">- Pulse la tecla <B>F12</B> (que equivale a activar el menú <B>Archivos - Guardar como...</B>), cambie el nombre del archivo a <B>SUMAS2.ASS</B> y confirme.<P>
+<P CLASS="L">- Vuelva a modificar la configuración de Arith2 para desmarcar la casilla <B>Sin llevar</B>.<P>
+<P CLASS="L">- Con <B>F12</B> guarde la actividad dándole el nombre <B>SUMAS3.ASS</B><P>
+<P CLASS="L">- Continuamos el proceso de ir complicando las operaciones y guardando la actividad con nombres distintos mediante F12. Las actividades que hay que crear son:<BR>
+&nbsp;<BR>
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="5" BORDERCOLOR="#800080">
+<TR CLASS="CTaula">
+	<TD CLASS="CTaula">ACTIVIDAD</TD>
+	<TD CLASS="CTaula">CONFIGURACIÓN ARITH2</TD>
+</TR>
+<TR>
+	<TD>SUMAS4.ASS</TD>
+	<TD>Segundo operando entre 10 y 99, "sin llevar"</TD>
+</TR>
+<TR>
+	<TD>SUMAS5.ASS</TD>
+	<TD>Lo mismo que en el caso anterior, pero "llevando"</TD>
+</TR>
+<TR>
+	<TD>RESTAS1.ASS</TD>
+	<TD>Operación: resta. Ambos operandos entre 1 y 10</TD>
+</TR>
+<TR>
+	<TD>RESTAS2.ASS</TD>
+	<TD>Operación: resta. Primer operando entre 10 y 99</TD>
+</TR>
+<TR>
+	<TD>RESTAS3.ASS</TD>
+	<TD>Operación: suma. Incógnita: A @ ? = C (deje marcada sólo esta opción)</TD>
+</TR>
+</TABLE>
+&nbsp;<BR>
+<P>
+Si ha seguido todos estos pasos tendrá uno conjunto de actividades que le servirá para preparar una serie de paquetes encadenados en la práctica siguiente.<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="p2.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="index.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

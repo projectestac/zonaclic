@@ -1,0 +1,282 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/basic_ca.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" --> 
+<title>ZonaClic - JClic reports - Configuració estàndard amb MySQL en Suse</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../../../css/basic.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="../../../scripts/mm.js" type="text/JavaScript"></script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Language" content="ca">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<meta name="keywords" content="clic jclic education educational software educació educación programari educatiu software educativo">
+</head>
+<body>
+<div align="center"> 
+ <table border="0" width="758" cellpadding="0" cellspacing="0">
+  <tr>
+   <td><img src="../../../img/spacer.gif" width="20" height="1" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="718" height="1" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="20" height="1" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="4"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="758" height="80">
+          <param name="movie" value="../../../img/nav_ca.swf">
+          <param name="quality" value="high">
+          <param name="BGCOLOR" value="#CCFF99">
+          <param name="BASE" value="/img">
+          <embed src="../../../img/nav_ca.swf" width="758" height="80" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" bgcolor="#CCFF99" base="/img"></embed></object></td>
+  </tr>
+  <tr>
+   <td><img name="f0_r2_c2" src="../../../img/f0_r2_c2.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img name="f0_r2_c3" src="../../../img/f0_r2_c3.gif" width="718" height="20" border="0" alt=""></td>
+   <td><img name="f0_r2_c4" src="../../../img/f0_r2_c4.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+      <td width="20" height="200" background="../../../img/f0_r3_c2.gif">&nbsp;</td>
+   <td class="main" width="718" valign="top"><script language="JavaScript" src="../../../scripts/av_ca.js" type="text/JavaScript"></script><!-- InstanceBeginEditable name="zona0" --> 
+<p class="topMenu"><a href="../../index.htm">inici</a> | <a href="../index.htm">JClic</a><strong> 
+          </strong>| <a href="index.htm">JClic reports</a> | Configuraci&oacute; mySQL
+          - Suse </p>
+      <p class="t1">Servidor d'informes JClic<br>
+Configuraci&oacute; est&agrave;ndard amb mySQL en Suse Linux </p>
+      <p>El <strong>mySQL </strong>(<a href="http://www.mysql.com" class="extern">http://www.mysql.com</a>)
+&eacute;s un sistema de bases de dades professional, amb
+llic&egrave;ncia de codi obert i disponible per a diversos tipus
+d'ordinadors i entorns operatius.</p>
+      <p>La modalitat est&agrave;ndard de funcionament del servidor
+d'informes del JClic requereix un escritori gr&agrave;fic (Gnome o
+KDE), una m&agrave;quina virtual Java actualitzada i el sistema
+d'arrencada d'aplicacions Java WebStart. A la <a href="../instjava.htm">p&agrave;gina
+d'instal&middot;laci&oacute; del motor Java</a> s'explica com
+configurar aquests components en diversos entorns operatius.</p>
+      <p class="t2">1. Creaci&oacute; de la base de dades</p>
+      <p>Dividirem aquesta operaci&oacute; en dos fases:
+instal&middot;lar el mySQL i crear una base de dades i un usuari per al
+sistema d'informes del JClic. Si el vostre sistema ja t&eacute; el
+mySQL instal&middot;lat podeu passar directament al <a href="#conf">pas
+1.2</a>.</p>
+      <p class="t3">1.1. Instal&middot;laci&oacute; del mySQL </p>
+      <p>Engeguem el <strong>YasT</strong> i anem a <strong>Install
+and remove software</strong>. Escrivim al camp <strong>search</strong>:</p>
+      <p class="codi">mysql</p>
+      <p>... i seleccionem els paquets:</p>
+      <p class="codi">mysql<br>
+mysql-shared<br>
+mysql-client<br>
+mysql-connector-java</p>
+      <p>Fem clic a <strong>Accept</strong> i completem el
+proc&eacute;s.</p>
+      <p>Per engegar el servidor mySQL hem d'anar des de la finestra
+principal del <strong>YasT</strong> al grup <strong>System</strong>,
+i d'aqu&iacute; a <strong>System services (runlevel)</strong>.</p>
+      <p>Seleccioneu la l&iacute;nia <strong>mysql</strong>, on
+segurament hi haur&agrave; el valor &ldquo;no&rdquo;. Feu clic a <strong>Enable</strong>
+i despr&eacute;s a <strong>Finish</strong>. Ens demanaran
+perm&iacute;s per a desar els canvis. Responem afirmativament.</p>
+      <p>Ara caldr&agrave; efectuar dues operacions per millorar la
+seguretat del MySQL: impedir que usuaris an&ograve;nims (sense
+identificador ni contrasenya) puguin accedir al sistema, i fixar una
+contrasenya per a l'usuari &ldquo;root&rdquo; del mysql, que
+inicialment la t&eacute; en blanc. Per fer-ho obriu una consola i
+escriviu:</p>
+      <p class="codi">%&gt; mysql -u root<br>
+mysql&gt; USE mysql; <br>
+mysql&gt; DELETE FROM user WHERE User='';<br>
+mysql&gt; SET PASSWORD FOR 'root'@'localhost' = PASSWORD('<em>xxxx</em>');<br>
+mysql&gt; FLUSH PRIVILEGES;<br>
+mysql&gt; exit;</p>
+      <p>... on &ldquo;<em>xxxx</em>&rdquo; ser&agrave; la contrasenya a emprar
+per l'usuari administrador de la base de dades. No cal que sigui la
+mateixa que per a l'administrador del sistema.</p>
+      <p class="t3">1.2 Creaci&oacute; de la base de
+  dades del JClic reports </p>
+      <p>Tot seguit crearem la base de dades d'informes del JClic
+aix&iacute; com un nou usuari del MySQL que hi tingui acc&eacute;s.
+Tamb&eacute; carregarem les dades de prova, que ens permetran comprovar
+el funcionament del sistema.</p>
+      <p>Situeu-vos en qualsevol directori on tingueu drets
+d'escriptura (per exemple, al vostre &ldquo;home&rdquo;) i feu:</p>
+      <p class="codi">%&gt; mysql -u root -p</p>
+      <p>El sistema us demanar&agrave; la contrasenya de l'usuari <em>root</em>
+del mySQL.</p>
+      <p class="codi">mysql&gt; CREATE DATABASE JClicReports;</p>
+      <p>Amb aix&ograve; es crar&agrave; la base de dades. Per
+comprovar que hagi anat b&eacute;, feu:</p>
+      <p class="codi">mysql&gt; SHOW DATABASES;</p>
+      <p>... i hauria d'apar&egrave;ixer a la llista.</p>
+      <p>Ara crearem un usuari (<em>jclic_user</em>) amb una
+contrasenya (la que vulgueu: aqu&iacute; es proposa <em>jclic_pwd</em>)
+i li donarem plens drets sobre la base de dades que acabem de crear:</p>
+      <p class="codi">mysql&gt; GRANT ALL PRIVILEGES ON JClicReports.*<br>
+-&gt; TO jclic_user<br>
+-&gt; IDENTIFIED BY 'jclic_pwd'<br>
+-&gt; WITH GRANT OPTION;</p>
+      <p>Tanquem la consola del mySQL amb:</p>
+      <p class="codi">mysql&gt; exit</p>
+      <p>A continuaci&oacute; descarreguem i descomprimim el paquet de
+dades de prova:</p>
+      <p class="codi">%&gt; wget
+http://clic.xtec.cat/pub/reports/jclic_test_mysql.zip<br>
+%&gt; unzip jclic_test_mysql.zip</p>
+      <p>Amb aix&ograve; obtindrem el fitxer <strong>jclic_test_mysql.sql</strong></p>
+      <p>Per carregar les dades, entrem al mySQL amb l'usuari <em>jclic_user</em>:</p>
+      <p class="codi">%&gt; mysql -u jclic_user -p</p>
+      <p>Ens demanar&agrave; la contrasenya de l'usuari <em>jclic_user</em>,
+que hem creat fa un moment.</p>
+      <p>Per carregar les dades podem fer servir l'ordre
+&ldquo;\.&rdquo;:</p>
+      <p class="codi">mysql&gt; use JClicReports;<br>
+mysql&gt; \. jclic_test_mysql.sql</p>
+      <p>Atenci&oacute; a l'espai entre el &ldquo;\.&rdquo; i el nom
+del fitxer, i atenci&oacute; tamb&eacute; a l'extensi&oacute;
+(&ldquo;.sql&rdquo;) del fitxer.</p>
+      <p>Per comprovar que les dades s'hagin carregat b&eacute;, feu:</p>
+      <p class="codi">mysql&gt; SELECT * FROM JCLIC_USERS;</p>
+      <p>.. i haurien d'apar&egrave;ixer els usuaris.</p>
+      <p>Per acabar, sortiu del MySQL amb:</p>
+      <p class="codi">mysql&gt; exit<br>
+      </p>
+      <p class="t2">2. Configuraci&oacute; del connector JDBC </p>
+      <p>Per tal que el JClic reports pugui accedir a la base de dades
+mySQL caldr&agrave; un connector JDBC. Quan hem instal&middot;lat el
+mySQL ja hem indicat al <strong>YasT</strong> que vol&iacute;em el paquet <strong>mysql-connector-java</strong>.
+Ara caldr&agrave; fer-lo visible per al sistema Java:</p>
+      <p>Obriu una consola i feu-vos root:</p>
+      <p class="codi">%&gt; su</p>
+      <p>Per instal&middot;lar la biblioteca JDBC haurem de crear un
+enlla&ccedil; simb&ograve;lic al connector (que el YasT ha deixat a <strong>/usr/share/java</strong>)
+des de la carpeta d'extensions del Java:</p>
+      <p class="codi">%&gt; cd /usr/lib/jvm/jre/lib/ext<br>
+%&gt; ln -s /usr/share/java/mysql-connector-java.jar</p>
+      <p>Amb aix&ograve; ja queda el sistema Java preparat per fer
+servir la base de dades MySQL.</p>
+      <p class="t2">3. Configuraci&oacute; del JClic reports</p>
+      <p>Per posar en marxa el JClic reports podeu optar entre fer clic
+a la icona situada a la <a href="../download.htm">p&agrave;gina de
+desc&agrave;rrega del JClic</a> o alguna de les icones que
+es crearan a l'escriptori i al men&uacute; <em>Inicia </em>despr&eacute;s
+d'haver-lo fet servir un parell de vegades. Tamb&eacute; podeu
+descarregar i executar l'instal&middot;lador, que copiar&agrave; el
+programa al vostre ordinador i crear&agrave; una icona al men&uacute;
+<em>Inicia</em>. Aquesta segona opci&oacute; t&eacute; l'inconvenient que
+l'aplicaci&oacute; no s'actualitza autom&agrave;ticament quan hi ha
+noves versions, tal com fa el Java WebStart.</p>
+      <ul>
+        <li>Feu clic al bot&oacute; <strong>Configuraci&oacute;...</strong></li>
+        <li>Activeu la pestanya <strong>Base de dades</strong>.</li>
+        <li>Escriviu a <strong>Controlador</strong>
+l'expressi&oacute;: <span class="codi">com.mysql.jdbc.Driver</span></li>
+        <li>Escriviu a <strong>URL</strong> l'expressi&oacute;: <span
+ class="codi">jdbc:mysql://localhost/JClicReports</span><br>
+          <br>
+&Eacute;s important escriure-ho tal com d'indica, tenint en compte els
+punts, sense espais i distingint entre maj&uacute;scules i
+min&uacute;scules.</li>
+        <li>Escriviu el nom d'<strong>usuari de la base de dades </strong> i la <strong> contrasenya</strong>. A l'exemple s'han fet servir les seg&uuml;ents dades:
+          <ul>
+            <li>Usuari: jclic_user</li>
+            <li>Password: jclic_pwd </li>
+          </ul>
+        </li>
+        <li>Deixeu marcada la casella <strong>Crea taules si no
+  existeixen</strong>, i deixeu tamb&eacute; el prefix <strong>JCLIC_</strong>
+  per als noms de taules.</li>
+        <li>Confirmeu l'operaci&oacute; a <strong>D'acord</strong>.</li>
+      </ul>
+      <p>Amb aix&ograve; tindreu el JClic reports preparat per treballar amb la base de dades.</p>
+      <p>Per comprovar el funcionament feu clic al bot&oacute; <strong>Engega el navegador</strong>. Si tot va b&eacute; s'obrir&agrave; el Mozilla o el Firefox (podeu escollir-ho a <strong>Configuraci&oacute; - Opcions</strong>) i us presentar&agrave; una primera p&agrave;gina on es demana una contrasenya, que inicialment es pot deixar en blanc. Si heu carregat les dades de demostraci&oacute; podreu entrar als informes de grup i als informes d'usuari, i visualitzar els diversos tipus de taules i gr&agrave;fiques que ofereix el programa.</p>
+      <p>En aquest moment pot ser convenient navegar cap a la secci&oacute; <strong>Administraci&oacute; de la base de dades</strong> i realitzar dues operacions:</p>
+      <ul>
+        <li>Establir una <strong>contrasenya</strong>, que impedir&agrave; que persones no autoritzades tinguin acc&eacute;s a les p&agrave;giens d'informaci&oacute;.</li>
+        <li>Decidir la <strong>pol&iacute;tica d'altes</strong> dels nous usuaris. Hi ha tres opcions:<br>
+            <ol>
+              <li>Deixar que qualsevol usuari pugui crear grups i donar-se d'alta amb el nom que vulgui.</li>
+              <li>Entrar manualment els grups i deixar que els alumnes en seleccionin un i es donin d'alta ells mateixos la primera vegada que facin servir el JClic.</li>
+              <li>Entrar manualment tots els grups i usuaris, o importar-los d'alguna altra base de dades. Per efectuar importacions us resultar&agrave; &uacute;til consultar l'<a href="../../../pub/reports/JClicReports_tables_ca.pdf">esquema de taules</a> del <strong>JClic reports</strong>.</li>
+            </ol>
+            En la majoria de casos el m&eacute;s recomanable &eacute;s comen&ccedil;ar per la segona opci&oacute;, impedint m&eacute;s endavant la creaci&oacute; de nous usuaris, quan tots els alumnes s'hagin donat d'alta.</li>
+      </ul>
+      <p class="t2">4. Configuraci&oacute; dels clients JClic</p>
+      <p>Cal configurar els clients <strong>JClic</strong> per tal que connectin amb el servidor <strong>JClic reports</strong> i li enviïn informació sobre les activitats realitzades.</p>
+      <p>Els passos a seguir són:</p>
+      <ol>
+        <li>Assegureu-vos que teniu el <strong>JClic reports</strong> funcionant en un dels ordinadors de la xarxa. </li>
+        <li>Feu clic al bot&oacute; <strong>Configuraci&oacute;</strong> i aneu a la pestanya <strong>Servidor web</strong>. Apunteu-vos el valor del <strong>Port</strong> de comunicacions, que normalment &eacute;s 9000.</li>
+        <li>Esbrineu tamb&eacute; el <strong>nom</strong> o l'<strong>adre&ccedil;a IP</strong> de l'ordinador on es troba funcionant el JClic reports. Podeu fer servir el seu nom de xarxa (com ara "servidor") o la seva adreça IP (quatre n&uacute;meros separats per punts, com ara "192.168.0.10").</li>
+        <li>Poseu en marxa el JClic des de qualsevol ordinador de la xarxa. Podeu fer-ho clicant al botó que apareix a la <a href="../download.htm">pàgina de descàrrega del JClic</a>, o des de les icones que es crearan a l'escriptori i al menú inici quan l'hagueu engegat un parell de vegades. A la secció de <a href="../faqjclic.htm#faq0">preguntes freqüents</a> hi trobareu més informació sobre la creació de dreceres per engegar el JClic.</li>
+        <li>En el JClic, aneu al menú <strong>Eines</strong> - <strong>Configuració</strong> i seleccioneu la pestanya <strong>Informes</strong>.</li>
+        <li>Marqueu la casella <strong>Enregistra els resultats de les activitats en una base de dades</strong>.</li>
+        <li>Seleccioneu l'opció <strong>Connecta't a un servidor d'informes JClic</strong>, i escriviu al camp <strong>Servidor</strong> el nom o la IP de l'ordinador on estigui funcionant, seguit de dos punts i el número de port. Serà una expressió semblant a aquestes:
+            <p class="codi">192.168.0.10:9000<br>
+      servidor:9000</p>
+        </li>
+        <li> Confirmeu els canvis, sortiu del JClic i torneu-lo a engegar. Si tot va bé hauria d'aparèixer la pantalla d'identificació, i el JClic reports hauria d'enregistrar els resultats de totes les activitats que s'hi facin.</li>
+        <li>Repetiu els passos 4, 5, 6 i 7 en tots els ordinadors on vulgueu activar el sistema 'informes del JClic.</li>
+      </ol>
+      <p class="t2">Consells</p>
+      <ul>
+        <li>Recordeu fer c&ograve;pies de la base de dades amb
+regularitat. N'hi ha prou amb guardar en algun lloc segur un duplicat
+del directori <strong>/var/lib/mysql/JClicReports</strong>, o alguna
+utilitat com l'exportaci&oacute; de dades que ofereix el <strong>phpMyAdmin</strong>.</li>
+        <li>La contrasenya d'acc&eacute;s a la base de dades permet
+efectuar tot tipus d'operacions, des de consultar resultats fins a
+esborrar usuaris i grups. En futures versions millorarem aquest sistema
+creant diversos perfils d'administraci&oacute; i acc&eacute;s,
+per&ograve; ara per ara hi ha una &uacute;nica clau. Mantingueu-la en
+lloc segur i canvieu-la de tant en tant.</li>
+      </ul>
+   <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="addThis" -->
+   <hr style="margin-top: 40px;"><!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&username=clic" class="addthis_button_compact">Comparteix-ho</a>
+<span class="addthis_separator">|</span>
+<a title="Envia a Facebook" class="addthis_button_facebook"></a>
+<a title="Envia a Twitter" class="addthis_button_twitter"></a>
+<a title="Envia a Delicious" class="addthis_button_delicious"></a>
+<a title="Afegeix als favorits" class="addthis_button_favorites"></a>
+<a title="Envia per correu mitjançant Gmail" class="addthis_button_gmail"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=clic"></script>
+<!-- AddThis Button END --><!-- InstanceEndEditable --></td>
+   <td width="20" background="../../../img/f0_r3_c4.gif">&nbsp;</td>
+   <td width="1" background="../../../img/spacer.gif"><img src="../../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img name="f0_r4_c2" src="../../../img/f0_r4_c2.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img name="f0_r4_c3" src="../../../img/f0_r4_c3.gif" width="718" height="20" border="0" alt=""></td>
+   <td><img name="f0_r4_c4" src="../../../img/f0_r4_c4.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <!-- InstanceBeginEditable name="zonaExtra" --><!-- InstanceEndEditable -->
+  <tr>
+   <td colspan="4" bgcolor="#99CCCC" class="peu">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+	<td align="left"><!-- InstanceBeginEditable name="postPeuEsquerre" --><!-- InstanceEndEditable --></td>
+	<td align="center">
+	<a href="http://www.gencat.cat/educacio/"><img src="../../../img/depeducacio.gif" alt="Generalitat de Catalunya - Departament d'Educaci&oacute;" width="130" height="23" border="0"></a>
+	<img src="../../../img/spacer.gif" width="100" height="1" border="0" alt="">
+    <a href="http://www.xtec.cat/"><img src="../../../img/xtec.gif" alt="Xarxa Telem&agrave;tica Educativa de Catalunya" width="178" height="23" border="0"></a> 
+          <!-- InstanceBeginEditable name="postPeu" --><!-- InstanceEndEditable -->
+    </td>
+	<td align="right"><!-- InstanceBeginEditable name="postPeuDret" --><!-- InstanceEndEditable --></td>
+     </tr>
+     </table>
+   </td>
+  </tr>
+ </table>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2006596-1");
+pageTracker._trackPageview();
+</script></body>
+<!-- InstanceEnd --></html>

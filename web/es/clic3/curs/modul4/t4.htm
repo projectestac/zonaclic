@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>El sistema de informes de Clic</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>El sistema de informes de Clic</H1>
+La versión 3.0 de Clic permite hacer un seguimiento detallado de los resultados obtenidos por los alumnos en cada una de las actividades que realizan.<P>
+Los ítems evaluados son:<P>
+<P CLASS="L">- El <B>tiempo</B> utilizado<P>
+<P CLASS="L">- El número de <B>intentos</B> hechos<P>
+<P CLASS="L">- El número de <B>aciertos</B> obtenidos<P>
+<P CLASS="L">- Si finalmente se ha <B>resuelto</B> o no la actividad<P>
+<P CLASS="L">- La <B>precisión</B> obtenida. Este valor se computa de la siguiente manera:<P>
+<P CLASS="Enum2">a) Clic calcula el número mínimo de intentos necesarios para resolver la actividad, al que podríamos llamar "n".<P>
+<P CLASS="Enum2">b) Si se ha resuelto la actividad, divide "n" entre el número de intentos que ha hecho al usuario.<P>
+<P CLASS="Enum2">c) Si no se ha resuelto se divide el cuadrado de los aciertos por el producto de "n" y los intentos realizados.<P>
+<P CLASS="L">&nbsp; En ambos casos el resultado obtenido se multiplica por 100 con el fin de expresarlo en porcentaje.<P>
+Activando el menú <B>Informes - Informe de la sesión actual</B> se accede a una ventana en la que se muestra una lista con el valor de estos cinco ítems para cada una de las actividades realizadas. En la parte inferior hay un resumen de la sesión, con los totales y la media de la precisión.<P>
+Hay determinadas actividades que no se evalúan nunca ni se tienen en cuenta para los totales y las medias: Son las pantallas de información, las asociaciones de exploración y, en general, todas aquéllas en las que se haya desmarcado la casilla <B>Incluir en los informes de usuario</B> de las <B>Opciones de la actividad</B>. Es importante desmarcar esta casilla cuando se crean actividades que no tienen significado para el informe global: por ejemplo, una asociación que se utiliza como menú para seleccionar entre diferentes paquetes (como el archivo MENUACT.ASS de la demo del Clic), o una actividad de texto que se utiliza sólo como soporte para presentar una información (por ejemplo, el archivo NOU02.TXA de la demo).<P>
+Los informes se pueden guardar automáticamente en una <B>base de datos</B>. El sistema puede funcionar en red, de manera que los resultados se acumulen en una base común independientemente del ordenador utilizado por el alumno en cada sesión de trabajo. En el anexo del manual del Clic hay instrucciones detalladas para configurar el sistema de informes en una red local.<P>
+Para activar el registro de los resultados en la base de datos hay que acceder a las <B>Opciones globales</B> y marcar la casilla <B>Registrar informes de actividad</B>. También hay que indicar la ubicación del archivo en el que se almacenará la información, que normalmente tiene el nombre CLICDB.MDB y se encuentra en la carpeta de Clic o, si el ordenador trabaja en red, en una carpeta compartida con derechos de escritura.<P>
+<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t5.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="t3.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

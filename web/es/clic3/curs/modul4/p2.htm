@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Práctica 2</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Práctica 2<BR>
+Creación de paquetes encadenados</H1>
+Clic permite establecer encadenamientos inteligentes entre paquetes de actividades, saltando hacia una opción u otra según el grado de acierto del alumno. En esta práctica prepararemos unos paquetes de dificultad creciente a partir de las actividades elaboradas en la práctica anterior, y les encadenaremos entre sí.<P>
+Empezaremos preparando una pantalla de información que nos servirá para señalar el final de la secuencia de paquetes:<P>
+<P CLASS="L">- Active el menú <B>Archivos - Nueva actividad - Asociación</B>. Seleccione la carpeta de prácticas del módulo 4.<P>
+<P CLASS="L">- Cambie el tipo de actividad a <B>Pantalla de información</B>.<P>
+<P CLASS="L">- Haga clic en el botón <B>Editar contenido</B> de la ventana <B>A</B>. El nombre del archivo de texto será <B>FINAL.TXT</B><P>
+<P CLASS="L">- En la libreta de Windows escriba:<P>
+<P CLASS="LiteralL">
+¡Felicidades!<BR>
+Has llegado al final del paquete de sumas y restas<BR>
+{exit}<BR>
+</P>
+<P CLASS="L">- Guarde el archivo y cierre la libreta de Windows.<P>
+<P CLASS="L">- Desmarque la opción <B>delimitar casillas</B> y fije una distribución de <B>1 columna</B> y <B>3 filas</B>.<P>
+<P CLASS="L">- Haga clic en el botón <B>Opciones</B> e indique para los tamaños de las casillas de la ventana <B>A</B> los valores <B>400 x 60</B>. Desactive todos los marcadores y botones, así como los marcos sombreados. Seleccione para la <B>Ventana principal</B> la imagen <B>FONDO2.GIF</B> en <B>mosaico</B>, y fondo transparente para la <B>Ventana de juego</B>.<P>
+<P CLASS="L">- Confirme las opciones y haga clic en el botón <B>Fuentes</B>. Seleccione para la <B>Ventana A</B> un tipo Arial de 10 x 25 en negrita y de color rojo.<P>
+<P CLASS="L">- Guarde la actividad con el nombre <B>FINAL.ASS</B><P>
+Observe que la orden "{exit}" de la última línea del texto ha hecho aparecer el icono de la puerta de salida, que cerrará el programa cuando el alumno haga clic en ella.<P>
+El paso siguiente será crear los paquetes de actividades:<P>
+<P CLASS="L">- Active el menú <B>Archivos - Nueva actividad - Paquete de actividades</B>.<P>
+<P CLASS="L">- Sitúe en el paquete las actividades SUMAS1.ASS y SUMAS2.ASS<P>
+<P CLASS="L">- Confirme y guarde el paquete con el nombre CALCULO1.PAC<P>
+<P CLASS="L">- Cree un segundo paquete con las actividades SUMAS3.ASS y SUMAS4.ASS, y guárdelo con el nombre CALCULO2.PAC<P>
+<P CLASS="L">- Cree los paquetes CALCULO3.PAC, con las actividades SUMAS5.ASS y RESTAS1.ASS, y CALCULO4.PAC con RESTAS2.ASS y RESTAS3.ASS<P>
+<P CLASS="L">- Para acabar, cree un paquete que contenga sólo la actividad FINAL.ASS. Guárdelo con el nombre FINAL.PAC<P>
+A continuación enlazaremos los cinco paquetes que acabamos de crear:<P>
+<P CLASS="L">- Abra el paquete CALCULO1.PAC y edítelo con <B>CTRL+P</B><P>
+<P CLASS="L">- Haga clic en el botón <B>Encadenamiento</B>.<P>
+<P CLASS="L">- Marque el <B>Encadenamiento por defecto</B> y seleccione en la lista el mismo paquete: CALCULO1.PAC. Esto hará que el paquete entre en un proceso cíclico: Cuando acabe volverá a empezar.<P>
+<P CLASS="L">- Marque el <B>Encadenamiento superior</B>, seleccione el paquete CALCULO2.PAC y aumente la valoración global al <B>80%</B>. Esto hará que Clic pase al paquete 2 si se resuelven como mínimo 4 de las 5 operaciones que hay en cada actividad. En caso contrario prevalecerá el encadenamiento por defecto y el paquete volverá a empezar.<P>
+<P CLASS="L">- En este caso dejaremos desmarcado el <B>encadenamiento inferior</B> porque se trata del primer paquete de la serie y no es posible ir a buscar otro más fácil. Tampoco fijamos ningún límite de tiempo para obtener las puntuaciones mínimas y máximas.<P>
+<P CLASS="L">- Confírmelo todo y guarde los cambios.<P>
+<P CLASS="L">- Abra el paquete CALCULO2.PAC, edítelo con <B>CTRL+P</B> y fije un <B>encadenamiento por defecto</B> con sí mismo, un <B>encadenamiento superior</B> con CALCULO3.PAC si se supera el 80% y un <B>encadenamiento inferior</B> con CALCULO1.PAC si no se llega al 40%.<P>
+<P CLASS="L">- Haga lo mismo con los paquetes CALCULO3.PAC y CALCULO4.PAC, encadenándolos con los respectivos niveles inferior y superior. Para CALCULO4.PAC el nivel superior será el paquete FINAL.PAC.<P>
+Cuando acabe vuelva a cargar el paquete CALCULO1.PAC e intente llegar hasta la pantalla final resolviendo las operaciones.<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="p3.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="p1.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

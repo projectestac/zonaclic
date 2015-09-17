@@ -1,0 +1,114 @@
+P  {
+	margin-top : 4pt;
+	margin-bottom : 4pt;
+}
+
+H1  {
+	font-size : 18px;
+	font-weight : bold;
+	margin-top : 14pt;
+	margin-bottom : 3pt;
+}
+
+H2  {
+	font-size : 16px;
+	font-weight : bold;
+	margin-top : 12pt;
+	margin-bottom : 3pt;
+}
+
+H3  {}
+
+A  {
+	text-decoration : none;
+}
+
+A:Visited  {
+	color : Navy;
+	text-decoration : none;
+}
+
+A:Active  {
+	color : Red;
+	text-decoration : none;
+}
+
+A:Hover  {
+	color : Red;
+	text-decoration : none;
+	font-weight : bold;
+}
+
+BODY  {
+	font-size : 10pt;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color : Black;
+}
+
+TH, TD  {
+	font-size : 10pt;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color : Black;
+}
+
+A:Link  {
+	color : Red;
+	text-decoration : none;
+}
+
+.ENUM  {
+	margin-left : 12pt;
+	text-indent : -12pt;
+}
+
+.L  {
+	text-indent : -8pt;
+	margin-left : 8pt;
+}
+
+.literal  {
+	font-family : Courier New, Courier;
+	color : Purple;
+}
+
+.literalL  {
+	font-family : Courier New, Courier;
+	margin-left : 8pt;
+	color : Purple;
+}
+
+.Enum2  {
+	text-indent : -12pt;
+	margin-left : 24pt;
+}
+
+.L2  {
+	text-indent : -8pt;
+	margin-left : 16pt;
+}
+
+.CTaula  {
+	color : White;
+	background-color : Purple;
+	font-weight : bold;
+}
+
+HR.barraFinal  {
+	height : 2;
+	shade : none;
+	color : rgb(7,76,140);
+	margin-top : 20px;
+	margin-bottom : 10px;
+}
+
+.titolPrincipal  {
+	font-family : Tahoma, Verdana, Arial, helvetica;
+	font-size : 18pt;
+	font-weight : bold;
+	color : rgb(7, 76, 140);
+}
+
+.textPetit  {
+	font-size : 8pt;
+}
+
