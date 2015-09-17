@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Pràctica 1</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul3.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<P>&nbsp;<P>
+<A HREF="prac3.zip"><IMG SRC="../disquet.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="LEFT"></A>Per realitzar les pràctiques d'aquest mòdul cal descarregar el fitxer <A HREF="prac3.zip">prac3.zip</A> i descomprimir el seu contingut dins la carpeta<BR><B>C:\Clic\CursClic\Modul3\Practica</B><P>
+&nbsp;<P>
+Els materials utilitzats en les pràctiques d'aquest mòdul provenen de la web de l'ONG <A HREF="http://www.intermon.org">Intermón</A><P>
+<H1>Pràctica 1<BR>Creació d'una activitat d'omplir forats</H1>
+En aquesta pràctica farem una activitat de lectura comprensiva: es mostrarà un text a l'alumne i després se li demanarà que completi les paraules que hauran desaparegut.<P>
+<P CLASS="L">- Poseu en marxa el Clic i activeu el menú <B>Fitxers - Nova activitat - Activitat de text</B>. La carpeta de treball serà la corresponent al mòdul 3:<BR><B>C:\Clic\CursClic\Modul3\Practica</B><P>
+<P CLASS="L">- En la finestra d'edició escriviu-hi aquest text, tenint en compte que només heu de prémer la tecla <B>Retorn</B> al final de cada paràgraf (representat pel símbol <B>&para;</B>):<P>
+<P CLASS="LiteralL">
+L'educació mundial està en crisi. A part dels milions de nens i nenes que no van a l'escola, un de cada quatre adults és analfabet.&para;<BR>
+La pitjor part se l'emporten les dones: formen el 70% del col·lectiu que no sap llegir ni escriure.&para;<BR>
+La situació és molt greu. L'educació és un mitjà fonamental per a sortir de la pobresa. Les persones amb accés a l'educació tenen més possibilitats d'obtenir un salari digne, conèixer i reivindicar els seus drets, construir el seu propi futur. Sense educació, els nens i les nenes d'avui seran els analfabets de demà. Hauran de subsistir amb salaris precaris i no podran enviar els seus fills a l'escola.&para;<BR>
+El cercle de la pobresa es perpetuarà.<BR>
+</P>
+<P CLASS="L">- Quan acabeu d'escriure el text feu clic a <B>D'Acord</B> i enregistreu l'activitat amb el nom <B>EDUCA1.TXA</B>.<P>
+<P CLASS="L">- Torneu a la finestra d'edició i situeu el cursor al principi del document. Inseriu-hi un <B>retorn</B> per crear una línia en blanc. Situeu-vos a l'inici d'aquesta primera línia en blanc i feu clic al botó de <B>crear caselles</B>:<BR>
+&nbsp;<BR>
+<IMG SRC="botocasella.gif" WIDTH=30 HEIGHT=30 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L">- En la finestra de <B>creació de caselles</B> escriviu-hi aquest text:<P>
+<P CLASS="LiteralL">{logo.gif}</P>
+<P CLASS="L">&nbsp; Fixeu unes dimensions de <B>500</B> d'amplada per <B>90</B> d'alçada (per pujar ràpidament fins al 500 aguanteu una estona el clic de ratolí damunt la fletxa del comptador), desmarqueu la casella <B>Amb marc</B> i confirmeu. Si tot va bé hauria d'aparèixer el logotip de la campanya "Educació ara".<P>
+<P CLASS="L">- Marqueu la paraula "analfabet" del primer paràgraf. Per marcar una paraula podeu fer servir qualsevol de les dues tècniques que s'han explicat anteriorment (fer clic i arrossegar, o desplaçar-se amb el teclat mantenint premuda la tecla de majúscules). Quan l'hagueu marcat feu clic al botó de <B>creació i edició d'incògnites</B>:<BR>
+&nbsp;<BR>
+<IMG SRC="botoincognita.gif" WIDTH=30 HEIGHT=30 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L">&nbsp; En la finestra que us apareixerà es controla el comportament que tindrà el forat que acabem de marcar: mostrarà inicialment 9 guionets, permetrà escriure 9 caràcters com a màxim i la resposta correcta serà "analfabet". Confirmeu aquestes opcions fent clic al botó <B>D'Acord</B>.<P>
+<P CLASS="L">- Marqueu l'expressió "les dones" que apareix al segon paràgraf i cliqueu de nou al botó de <B>creació d'incògnites</B>. En aquest cas plantejarem la incògnita com una llista desplegable: feu clic a la casella <B>Presentar opcions en una llista</B> i escriviu-hi:<P>
+<P CLASS="LiteralL">
+els homes<BR>
+les dones<BR>
+els nens<BR>
+les nenes<BR>
+</P>
+<P CLASS="L">&nbsp; Quan hagueu omplert la llista confirmeu la creació de la incògnita.<P>
+<P CLASS="L">- Marqueu la paraula "pobresa" i cliqueu una altra vegada al botó de creació d'incògnites. En aquest cas considerarem com a vàlids alguns sinònims de l'expressió inicial: situeu-vos a la casella <B>Resposta correcta</B>, i escriviu-hi aquesta expressió:<P>
+<P CLASS="LiteralL">pobresa|misèria|indigència</P>
+<P CLASS="L">&nbsp; Les barres verticals que separen les paraules s'obtenen amb la combinació de tecles ALTGR+1. No s'ha d'escriure cap espai en blanc.<P>
+<P CLASS="L">- Com que la paraula "indigència" té més de 7 caràcters cal permetre que el Clic deixi escriure l'expressió dins del forat: modifiqueu el valor <B>Nombre màxim de caràcters</B> per tal que sigui <B>10</B>.<P>
+<P CLASS="L">- Creeu una nova incògnita per a la paraula "salari", on s'admeti també la resposta "sou".<P>
+<P CLASS="L">- Marqueu també com a incògnita la paraula "subsistir" admetent els sinònims "sobreviure" i "viure".<P>
+<P CLASS="L">- Per acabar, convertiu en incògnita la paraula "cercle", presentant-la en una llista desplegable on també hi apareguin les opcions "quadrat" i "triangle".<P>
+<P CLASS="L">- Escriviu a <B>Missatge inicial</B> aquesta frase:<P>
+<P CLASS="LiteralL">Escriu les paraules que falten en aquest text</P>
+<P CLASS="L">- I afegiu-hi un missatge final de felicitació.<P>
+Comproveu el funcionament de l'activitat. Recordeu que convé prémer <B>Retorn</B> després d'haver escrit cada resposta per tal que el Clic les validi.<P>
+Com que es tracta d'una activitat de lectura comprensiva seria convenient que l'alumne pogués llegir detingudament el text original abans de començar a respondre:<P>
+<P CLASS="L">- Editeu l'activitat (CTRL+E) i feu clic damunt el botó d'<B>opcions d'avaluació</B>:<BR>
+&nbsp;<BR>
+<IMG SRC="botoavalua.gif" WIDTH=30 HEIGHT=30 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L">- Marqueu la casella <B>Mostrar abans de començar</B> i deixeu-hi l'opció <B>Mostrar el text original</B>. Poseu el comptador de <B>temps màxim</B> a zero (així es dóna un temps indefinit, fins que l'alumne fa clic o prem una tecla) i escriviu a <B>Missatge inicial</B> aquest text:<P>
+<P CLASS="LiteralL">Llegeix atentament aquest text i quan acabis fes clic per començar l'exercici</P>
+<P>Comproveu el funcionament de l'activitat. Ara ja s'assembla més al que preteníem, però encara hi ha un problema: com que el text és bastant llarg apareix una barra de desplaçament vertical que impedeix que es pugui llegir d'un cop d'ull. Per arreglar-ho tenim dues opcions: fer la lletra una mica més petita o ampliar les dimensions de la finestra de joc. La segona opció seria la més adient si l'activitat només ha de funcionar en pantalles a 800x600, però donarà problemes a 640x480 ja que la mida actual de la finestra és gairebé la màxima disponible en aquesta resolució. Optem, doncs, per fer la lletra més petita:<P>
+<P CLASS="L">- Editeu l'activitat (CTRL+E) i feu clic al botó <B>Fonts</B>.<P>
+<P CLASS="L">- Assegureu-vos que a la part superior hi ha marcada la zona <B>Cos del text</B> i canvieu les mides de la lletra <B>Arial</B> a <B>7 x 18</B>. Un cop fet això seleccioneu la zona <B>Finestres d'ajuda</B>, canvieu també la mida a <B>7 x 18</B> i confirmeu.<P>
+<P CLASS="L">- Comproveu el funcionament de l'activitat. Si segueix apareixent la barra de desplaçament vertical potser és degut a que heu afegit un <B>retorn</B> al final del document: si hi és, esborreu-lo.<P>
+<P CLASS="L">- Enregistreu novament l'activitat amb el mateix nom: <B>EDUCA1.TXA</B><P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="p2.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="index.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

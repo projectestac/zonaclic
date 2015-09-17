@@ -1,0 +1,317 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/basic_ca.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" --> 
+<title>zonaClic - Instal&middot;laci&oacute; JClic en xarxa</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../../css/basic.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="../../scripts/mm.js" type="text/JavaScript"></script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Language" content="ca">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<meta name="keywords" content="clic jclic education educational software educació educación programari educatiu software educativo">
+</head>
+<body>
+<div align="center"> 
+ <table border="0" width="758" cellpadding="0" cellspacing="0">
+  <tr>
+   <td><img src="../../img/spacer.gif" width="20" height="1" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="718" height="1" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="20" height="1" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="4"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="758" height="80">
+          <param name="movie" value="../../img/nav_ca.swf">
+          <param name="quality" value="high">
+          <param name="BGCOLOR" value="#CCFF99">
+          <param name="BASE" value="/img">
+          <embed src="../../img/nav_ca.swf" width="758" height="80" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" bgcolor="#CCFF99" base="/img"></embed></object></td>
+  </tr>
+  <tr>
+   <td><img name="f0_r2_c2" src="../../img/f0_r2_c2.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img name="f0_r2_c3" src="../../img/f0_r2_c3.gif" width="718" height="20" border="0" alt=""></td>
+   <td><img name="f0_r2_c4" src="../../img/f0_r2_c4.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+      <td width="20" height="200" background="../../img/f0_r3_c2.gif">&nbsp;</td>
+   <td class="main" width="718" valign="top"><script language="JavaScript" src="../../scripts/av_ca.js" type="text/JavaScript"></script><!-- InstanceBeginEditable name="zona0" --> 
+        <p class="topMenu"><a href="../index.htm">inici</a> | <a href="index.htm">documents</a><strong> 
+          | </strong>JClic en xarxa</p>
+        <p class="t1">Instal&middot;laci&oacute; del JClic en xarxa</p>
+        <p align="justify">Hi ha
+          dues funcionalitats del JClic que ens permetran optimitzar el seu &uacute;s
+        a la xarxa de l'escola:</p>
+        <ul>
+          <li><strong>Configurar el sistema d'informes en xarxa</strong><br>
+          El JClic reports s'engega al servidor i fa dues funcions: recollir
+            informaci&oacute; sobre les activitats JClic realitzades pels alumnes i
+            presentar
+            informes estad&iacute;stics dels resultats obtinguts.</li>
+          <li><strong>Fer servir la mateixa biblioteca de projectes des de tots
+              els ordinadors</strong><br>
+  Aix&ograve; facilita la gesti&oacute; dels paquets d'activitats: s'instal&middot;len
+  una &uacute;nica vegada al servidor i es poden fer servir des de qualsevol
+  ordinador.</li>
+        </ul>
+        <p>La primera part s'explica detalladament
+          a les <a href="../jclic/reports/index.htm"><strong>instruccions de
+          configuraci&oacute; del <em>JClic
+          reports</em></strong></a>. Conv&eacute; seguir-les abans
+          de continuar.</p>
+        <p>Tal com haureu vist, hi
+          ha dues modalitats de funcionament del <em>JClic reports</em>: l'est&agrave;ndard
+          (aplicaci&oacute; Java independent) i l'avan&ccedil;ada (servidor
+          d'aplicacions <em>Tomcat</em>). Alguns dels passos a seguir a partir d'ara dependran
+          de la modalitat que hagueu escollit.</p>
+        <p class="t2">Configuraci&oacute; del servidor</p>
+        <p>S'han de realitzar dues operacions al servidor: oferir als clients
+          l'acc&eacute;s a una carpeta compartida en xarxa i crear en aquesta carpeta
+          una biblioteca de projectes JClic.</p>
+        <p class="t3">Creaci&oacute; de la carpeta compartida </p>
+        <p>Aqu&iacute; teniu alguns exemples de carpetes compartides en xarxa, en modalitat
+          est&agrave;ndard i avan&ccedil;ada:</p>
+        <blockquote>
+          <p><strong>Modalitat est&agrave;ndard:</strong></p>
+        </blockquote>
+        <ul>
+          <li>En Windows, si ja hi ha una carpeta o unitat compartida
+            al servidor (per exemple <span class="codi">S:</span> o <span class="codi">C:\S</span>),
+            haureu de crear una subcarpeta <span class="codi">S:\JClic</span> o <span class="codi">C:\S\JClic</span>.</li>
+          <li>Tamb&eacute; en Windows, si no hi ha cap recurs compartit
+            gen&egrave;ric,
+            haureu de crear una carpeta (per exemple, <span class="codi">C:\JClic</span>)
+            i compartir-la amb el nom &quot;JClic&quot;.</li>
+          <li>En Linux hi ha almenys dues maneres de compartir
+            carpetes: <strong>NFS</strong> (<em>Network File
+            System</em>) i <strong>SMB</strong> (<em>Samba</em>).
+            En qualsevol dels dos casos podeu aprofitar un recurs compartit
+            ja existent, creant-hi una subcarpeta anomenada &quot;JClic&quot;,
+            o crear una nova carpeta i declarar-la
+            com a recurs compartit.</li>
+          <li>Des de  Mac OS X tamb&eacute; podem compartir carpetes en una xarxa
+            AppleTalk mitjan&ccedil;ant l'<strong>AFP</strong> (<em>Apple
+            Filing Protocol</em>). En <a href="http://www.macosxhints.com/article.php?story=20011108161839416" class="extern">aquest
+            article</a> s'explica com compartir
+            qualsevol carpeta en mode de nom&eacute;s-lectura.</li>
+        </ul>
+        <blockquote>
+          <p><strong>Modalitat avan&ccedil;ada:</strong></p>
+        </blockquote>
+        <ul>
+          <li>Si a la primera part hav&iacute;eu configurat el <em>JClic
+                reports</em> en la <strong>modalitat avan&ccedil;ada</strong> (<em>Linux</em> + <em>Tomcat</em> + <em>MySQL</em>),
+              haureu de crear un directori &quot;JClic&quot; a l'arrel del Tomcat,
+              que acostuma a ser <span class="codi">/usr/share/tomcat<em>x</em>/webapps</span>.
+            (on la &quot;x&quot; &eacute;s la versi&oacute; del Tomcat que s'estigui
+            fent servir).</li>
+          <li>Si tamb&eacute; tenim instal&middot;lat el servidor web <em>Apache</em> 
+            podem crear la carpeta &quot;JClic&quot; a
+            la seva arrel, ja que l'<em>Apache</em> &eacute;s m&eacute;s eficient
+            i segur que el <em>Tomcat</em> servint fitxers est&agrave;tics.</li>
+        </ul>
+        <p class="t3">Creaci&oacute; de la biblioteca compartida de projectes</p>
+        <p>Per crear la
+          biblioteca de projectes seguiu aquests passos:</p>
+        <ul>
+          <li>Engegueu el <a href="../jclic/download.htm">JClic
+              player</a> al servidor.<br>
+              <em>Nota: Si el servidor no t&eacute; entorn gr&agrave;fic de finestres, engegueu
+              el JClic en algun altre ordinador que en tingui i que pugui
+              accedir a la carpeta compartida amb drets de lectura
+              i d'escriptura.</em></li>
+          <li>Aneu al men&uacute; <strong>Eines
+                  - Biblioteques</strong> i feu clic
+                al bot&oacute; <strong>Nova</strong>.</li>
+          <li>En el di&agrave;leg que apareixer&agrave;
+                  deixeu marcada l'opci&oacute; <strong>Crea una nova biblioteca
+                  de projectes</strong> i feu clic a <strong>D'acord</strong>.</li>
+          <li>Seleccioneu la carpeta compartida &quot;JClic&quot; que heu creat en el pas
+            anterior. El programa voldr&agrave; enregistrar-hi un fitxer anomenat <span class="codi">library.jclic</span>.
+            Feu clic al bot&oacute; <strong>Desa</strong>.</li>
+          <li>Tornareu al di&agrave;leg anterior. Observeu que s'ha creat una
+            nova entrada amb el nom &quot;Nova biblioteca de projectes&quot;.
+            Seleccioneu-la, feu clic al bot&oacute; <strong>Edita</strong> i
+            canvieu aquest nom pel de &quot;Biblioteca compartida&quot;.</li>
+        </ul>
+        <p class="t3">Descarregar projectes JClic al servidor </p>
+        <p>Des del servidor, engegueu un navegador web i aneu a la <a href="../../db/listact_ca.jsp">biblioteca
+            d'activitats</a> de
+          la <strong>zonaClic</strong>. Instal&middot;leu alguns
+          projectes a la biblioteca compartida que acabeu de crear.</p>
+        <p>Tamb&eacute; al servidor, poseu en marxa el JClic i aneu a <strong>Eines
+            - Biblioteques - Edita</strong>. A aquesta finestra es poden cerar
+            carpetes i subcarpetes (per &agrave;rees tem&agrave;tiques, per projectes de treball,
+            per grups...). Les icones dels projectes es poden retallar, copiar
+            i enganxar per situar-los a la carpeta que ens interessi.</p>
+        <p class="t3">Darrers detalls al servidor</p>
+        <p>Per evitar confusions pot ser convenient eliminar totes les biblioteques
+          excepte la &quot;Biblioteca compartida&quot;. Podeu fer-ho des del
+          di&agrave;leg <strong>Eines
+          - Biblioteques</strong> del JClic. </p>
+        <p>Tamb&eacute; &eacute;s recomanable assignar una contrasenya
+            al JClic, per tal d'evitar que persones no autoritzades puguin canviar
+          la configuraci&oacute; i tenir acc&eacute;s a la gesti&oacute; de la
+          biblioteca. Aix&ograve; &eacute;s fa
+          des del men&uacute; <strong>Eines</strong> - <strong>Configuraci&oacute;</strong>,
+          pestanya <strong>Seguretat</strong>.</p>
+        <p class="t2">Configuraci&oacute; dels clients</p>
+        <p>Els passos que s'expliquen a continuaci&oacute; s'han de fer en <strong>cada
+            un</strong> dels
+          ordinadors clients. La bona not&iacute;cia &eacute;s que nom&eacute;s us caldr&agrave; fer-ho una vegada.</p>
+        <p class="t3">Esbrinar la ruta a la biblioteca compartida </p>
+        <p>Comenceu per esbrinar com s'accedeix al fitxer <span class="codi">library.jclic</span> que hi
+          ha a la carpeta compartida del servidor. Alguns exemples:</p>
+        <blockquote>
+          <p><strong>Modalitat est&agrave;ndard: </strong></p>
+        </blockquote>
+        <ul>
+          <li>Des de clients Windows probablement la ruta d'acc&eacute;s ser&agrave; <span class="codi">\\nomdelservidor\S\JClic\library.jclic</span>
+            , o potser <span class="codi">\\nomdelservidor\JClic\library.jclic</span>.</li>
+          <li>En clients Windows s'acostuma a mapejar una lletra d'unitat MS-DOS
+            als recursos compartits. Si els clients de la vostra xarxa tenen
+            la unitat &quot;S:&quot; apuntant al recurs &quot;S&quot; del servidor,
+            la ruta ser&agrave; m&eacute;s
+            senzilla: <span class="codi">S:\JClic\library.jclic</span>.</li>
+          <li>En clients Linux s'aconsella muntar la unitat compartida, ja sigui
+            mitjan&ccedil;ant <em>mount</em> o <em>smbmount</em>. Un cop muntada,
+            el recurs es trobar&agrave; en una carpeta del tipus <span class="codi">/mnt/S/JClic/library.jclic</span>            (si
+            estem reaprofitant un recurs &quot;S&quot; ja muntat), o <span class="codi">/mnt/JClic/library.jclic</span>,
+            si hem hagut de crear un punt de muntatge espec&iacute;fic
+            per a la carpeta compartida.</li>
+          <li>En clients Mac OS X tamb&eacute; s'aconsella muntar el volum des del <em>Finder</em>            (men&uacute; <strong>Ves - Connecta't al servidor</strong>). Un cop muntat, la biblioteca
+            ser&agrave; accessible a <span class="codi">/Volumes/S/JClic/library.jclic</span>, o directament a
+            <span class="codi">/Volumes/JClic/library.jclic</span>. </li>
+        </ul>
+        <blockquote>
+          <p><strong>Modalitat avan&ccedil;ada:</strong></p>
+        </blockquote>
+        <ul>
+          <li>Si hav&iacute;eu configurat el servidor en modalitat avan&ccedil;ada
+            el Tomcat us permet accedir a la biblioetca mitjan&ccedil;ant el
+            protocol HTTP. La ruta ser&agrave; un URL del tipus:<br>
+            <br>
+            <span class="codi">http://nomdelservidor:XXXX/JClic/library.jclic</span><br>
+            <br>
+            on
+            <em>nomdelservidor</em> pot ser el nom del servidor o la seva adre&ccedil;a
+            IP, i el valor <em>XXXX</em> &eacute;s el port pel qual actua el
+            Tomcat. Per defecte &eacute;s <strong>8180</strong> (Tomcat 4) o            <strong>8080</strong> (Tomcat
+            5).</li>
+          <li>Si el vostre servidor ja tenia l'<em>Apache</em> instal&middot;lat i heu
+            decidit crear all&iacute; la carpeta JClic, ser&agrave; un URL similar
+            per&ograve; amb una altra
+            indicaci&oacute; de port (o sense cap indicaci&oacute; si l'<em>Apache</em>            actua pel port 80). </li>
+        </ul>
+        <p class="t3">Configurar el JClic</p>
+        <ul>
+          <li>Poseu en marxa el <em>JClic player</em>. Podeu fer-ho des de la <a href="../jclic/download.htm">p&agrave;gina
+            de desc&agrave;rrega i instal&middot;laci&oacute;</a>.</li>
+          <li>Aneu al men&uacute; <strong>Eines - Configuraci&oacute;</strong> , i activeu la pestanya <strong>Biblioteques</strong>.</li>
+          <li>Deixeu marcada la casella <strong>Mostra autom&agrave;ticament
+            la biblioteca a l'inici</strong>.</li>
+          <li> Feu clic al bot&oacute; <strong>Nova</strong> i seleccioneu l'opci&oacute; <strong>Afegeix
+            un enlla&ccedil; a una biblioteca ja existent</strong>.</li>
+          <li>Escriviu al camp <strong>Fitxer o URL</strong> la ruta al fitxer <span class="codi">library.jclic</span> que
+            heu esbrinat en el pas anterior.</li>
+          <li>Confirmeu fent clic a <strong>D'acord</strong>.</li>
+          <li>Tanqueu el JClic i comproveu que en tornar a arrencar es pugui
+            accedir a la biblioteca compartida. Observeu que hi apareixen tots
+            els projectes JClic que hi ha instal&middot;lats
+            al servidor.</li>
+        </ul>
+        <p class="t3">Darrers detalls als clients</p>
+        <ul>
+          <li>Pot ser convenient eliminar la &quot;Biblioteca principal&quot; (que es crea
+            sempre per defecte), i deixar nom&eacute;s la &quot;Biblioteca compartida&quot;. Aix&iacute;
+            ens estalviarem el di&agrave;leg on es demana quina biblioteca volem carregar
+            cada vegada que engeguem el JClic. Podeu suprimir-la des del men&uacute; <strong>Eines
+            - Biblioteques</strong>. </li>
+          <li>Tamb&eacute; pot ser convenient protegir els canvis de configuraci&oacute; amb
+            contrasenya. Podeu fer-ho des del men&uacute; <strong>Eines
+            - Configuraci&oacute;</strong>, pestanya
+            <strong>Seguretat</strong>.</li>
+        </ul>
+        <p class="t2">Manteniment del sistema</p>
+        <p>Si heu d'instal&middot;lar nous projectes o modificar l'estructura
+          de la biblioteca compartida, feu-ho sempre des del servidor, ja que
+          els clients hi tenen drets de nom&eacute;s-lectura.</p>
+        <p>Tingueu en compte que pel fet d'esborrar una icona de la biblioteca
+          (des del men&uacute; <strong>Eines - Biblioteques - Edita</strong>)
+          no s'esborren els fitxers del seu projecte. Aquests continuaran a la
+          carpeta
+          de la biblioteca. Per eliminar totalment
+          un projecte cal esborrar manualment la seva carpeta d'aquest directori.</p>
+        <p class="t2">Funcionalitats avan&ccedil;ades </p>
+        <p>En aquest document s'ha explicat com crear una &uacute;nica
+          biblioteca compartida, per&ograve; hi poden haver altres solucions,
+          com ara crear una biblioteca espec&iacute;fica per a cada cicle o curs. Tamb&eacute; hem
+          suposat que un &uacute;nic ordinador fa de servidor
+          d'informes i allotja la biblioteca de projectes, per&ograve; no cal
+          que sigui sempre aix&iacute;; aquestes tasques poden estar repartides
+          entre diversos ordinadors.</p>
+        <p>Si heu optat per la modalitat avan&ccedil;ada i heu col&middot;locat la biblioteca
+            al servidor <em>Apache</em>, i si aquest servidor t&eacute; sortida cap
+            a Internet, els vostres alumnes s'hi podran connectar tamb&eacute; des de
+            casa: nom&eacute;s caldr&agrave; que posin en marxa el JClic, vagin a <strong>Eines
+            - Biblioteques</strong> i
+            cre&iuml;n una nova biblioteca apuntant a l'URL corresponent (<em>http://nomdelescola.xtec.cat/JClic/library.jclic</em>).
+            Aix&iacute; podran treballar amb els mateixos projectes que a l'escola.</p>
+        <p>I un darrer truc: si teniu la biblioteca compartida al servidor <em>Apache</em>          amb
+          sortida a Internet tamb&eacute; podeu fer que els alumnes hi accedeixin
+          directament (sense engegar el JClic ni configurar-lo) descarregant
+          <a href="../../pub/index.zip">aquest fitxer zip</a> i extraient a
+          la carpeta de la biblioteca el document <span class="codi">index.html</span>.
+          La biblioteca ser&agrave; aleshores accessible des de <em>http://nomdelescola.xtec.cat/JClic/index.html</em>.</p>
+        <p>&nbsp;</p>
+   <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="addThis" --><hr style="margin-top: 40px;"><!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&username=clic" class="addthis_button_compact">Comparteix-ho</a>
+<span class="addthis_separator">|</span>
+<a title="Envia a Facebook" class="addthis_button_facebook"></a>
+<a title="Envia a Twitter" class="addthis_button_twitter"></a>
+<a title="Envia a Delicious" class="addthis_button_delicious"></a>
+<a title="Afegeix als favorits" class="addthis_button_favorites"></a>
+<a title="Envia per correu mitjançant Gmail" class="addthis_button_gmail"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=clic"></script>
+<!-- AddThis Button END --><!-- InstanceEndEditable --></td>
+   <td width="20" background="../../img/f0_r3_c4.gif">&nbsp;</td>
+   <td width="1" background="../../img/spacer.gif"><img src="../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img name="f0_r4_c2" src="../../img/f0_r4_c2.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img name="f0_r4_c3" src="../../img/f0_r4_c3.gif" width="718" height="20" border="0" alt=""></td>
+   <td><img name="f0_r4_c4" src="../../img/f0_r4_c4.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <!-- InstanceBeginEditable name="zonaExtra" --><!-- InstanceEndEditable -->
+  <tr>
+   <td colspan="4" bgcolor="#99CCCC" class="peu">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+	<td align="left"><!-- InstanceBeginEditable name="postPeuEsquerre" --><!-- InstanceEndEditable --></td>
+	<td align="center">
+	<a href="http://www.gencat.cat/educacio/"><img src="../../img/depeducacio.gif" alt="Generalitat de Catalunya - Departament d'Educaci&oacute;" width="130" height="23" border="0"></a>
+	<img src="../../img/spacer.gif" width="100" height="1" border="0" alt="">
+    <a href="http://www.xtec.cat/"><img src="../../img/xtec.gif" alt="Xarxa Telem&agrave;tica Educativa de Catalunya" width="178" height="23" border="0"></a> 
+          <!-- InstanceBeginEditable name="postPeu" --><!-- InstanceEndEditable -->
+    </td>
+	<td align="right"><!-- InstanceBeginEditable name="postPeuDret" --><!-- InstanceEndEditable --></td>
+     </tr>
+     </table>
+   </td>
+  </tr>
+ </table>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2006596-1");
+pageTracker._trackPageview();
+</script></body>
+<!-- InstanceEnd --></html>

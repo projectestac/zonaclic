@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>More associations</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul2.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>More associations</H1>
+In the last module we saw the two basic types of associations, normal and complex. Clic allows you to work with certain types of activities including a relationship assignment between the elements of two different groups.<P>
+<H2>Indicate</H2>
+In this type of activity you only have to select the content for <B>grid A</B> and then go to the relationship assignment window and assign the expression <B>Yes</B> or <B>No</B> for each of the elements in <B>A.</B><P>
+In the indicate activities it is very important to ask a question in the message box as the user's task is to click on the cells that answer the question in the affirmative. The correctly identified cells turn grey or, alternatively, show the content selected in the <B>solved grid A </B>field.<P>
+<H2>Explore mode</H2>
+In this type of activity all the content of grid <B>A</B> and just one <B>B</B> cell is shown. The user can click on the cells in <B>A</B> and the programme will show the associated content in the <B>B</B> cell.<P>
+The user does not have to answer a question; they only have to look for the information hidden behind each cell in <B>A</B>.<P>
+Even though only one cell is shown in <B>B</B>, the programme virtually divides its content in rows and columns. The number of elements in <B>B</B> and their distribution is set in the <B>relationship assignment</B> window.<P>
+<H2>Written answer</H2>
+These types of associations are similar in appearance to those in the explore mode. They show all of the content for grid <B>A</B> and only one cell in <B>B</B>, where the user has to write the appropriate text for the selected cell in <B>A</B>.<P>
+There has to be at least one answer for each of the cells in <B>A</B> and the answers have to be written in a text file assigned to grid <B>B</B>. The answers in these files have to be written in the same order as the questions in <B>A</B>.<P>
+The programme never shows the content for <B>B</B>; it is only used to check if the answers given by the user are correct.<P>
+If a cell allows more than one correct answer, all the possibilities have to be in the same line of text and separated by a vertical bar. For example, the line of text:<P>
+<P CLASS="LiteralL">Bike|Bicycle<P>
+... will make the programme accept either of the answers. The vertical bar is obtained by the combination of ALTGR+1.<P>
+The programme does not differentiate between capitals and lower case when checking the answers but accents and punctuation marks must be written correctly.<P>
+Most written answer associations can also be set as <B>Text activities</B>, which we will see in module 3.<P>
+<H2>Information screen</H2>
+This type of activity is not really an association, although<B> </B>it has been included in this group for practical reasons. They are used to show a certain piece of information that the user has to read, look at or listen to before continuing with the rest of the activities in a pack.<P>
+To create an information screen we only need to indicate the content for <B>grid A </B>the format in rows and columns that we want. If the content is a text, we can use it to insert active content in the cells. This is a technique that can be used to make "menus" that lead to certain activity packs. For example, suppose that we have prepared three activity packs about the human body called "digestiv.pac", "circula.pac" and "locomoto.pac" and we want to make a screen that lets the user select one. One way of doing this is by creating an <B>information screen</B> type association, then give it a format of 3 rows and 1 column and assign the following content to grid <B>A</B>:
+<P CLASS="LiteralL">
+Digestive system{digestiv.pac}<BR>
+Circulatory system{circula.pac}<BR>
+Locomotory system{locomoto.pac}<P>
+The result being that when the user clicks on the cells the programme will start up the corresponding activity pack.<P>
+<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t2.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="index.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Más asociaciones</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul2.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Más asociaciones</H1>
+En el módulo anterior hemos visto los dos tipos básicos de asociaciones: las normales y las complejas. Clic permite realizar algunos tipos más de actividades donde también interviene implícitamente una asignación de relaciones entre los elementos de dos conjuntos distintos.<P>
+<H2>Identificación</H2>
+En este tipo de actividad sólo hay que seleccionar un contenido para la ventana <B>A</B> y pasar a la ventana de <B>asignación de relaciones</B>, dónde se indicará para cada uno de los elementos de <B>A</B> sí se asignan a la expresión <B>Sí</B> o a la expresión <B>No</B>.<P>
+En las actividades de <B>identificación</B> es muy importante plantear una pregunta en la caja de mensajes, ya que la tarea del usuario será hacer clic encima de las casillas que respondan afirmativamente a la cuestión planteada. Las casillas correctamente identificadas se mostrarán en gris o, alternativamente, mostrarán el contenido que se haya seleccionado en el campo <B>solución a la ventana A</B>.<P>
+<H2>Modalidad de exploración</H2>
+En este tipo de actividad se muestra el contenido de la ventana <B>A</B> completo y una sola casilla de <B>B</B>. El usuario puede ir haciendo clic encima de las casillas de <B>A</B> y el programa mostrará el contenido que tienen asociado.<P>
+No es preciso que el usuario resuelva nada: Solo tiene que ir buscando por su cuenta la información que se esconde en cada casilla de <B>A</B>.<P>
+Aunque sólo se muestra una casilla de <B>B</B> el programa hace una división virtual en filas y columnas de su contenido. El número de elementos de <B>B</B> y su distribución se realizan en la ventana de <B>asignación de relaciones</B>.<P>
+<H2>Respuesta escrita</H2>
+Este tipo de asociaciones presenta un aspecto visual parecido a las de la modalidad de <B>exploración</B>: Muestran todo el contenido de la ventana <B>A</B> y sólo una casilla en <B>B</B>, dónde el usuario tendrá que escribir la respuesta que considere correcta para la casilla de <B>A</B> que se encuentre seleccionada en cada momento.<P>
+Debe existir como mínimo una respuesta para cada una de las casillas de <B>A</B>. Las respuestas correctas escriben en un archivo de texto que se asigna a la ventana <B>B</B>. En este archivo hay que escribir las respuestas en el mismo orden que se haya seguido para las preguntas de <B>A</B>.<P>
+El programa no llega a mostrar el contenido de <B>B</B> en ningún momento: Sólo lo utiliza para comprobar que las respuestas escritas por el usuario sean correctas.<P>
+Si una casilla admite más de una respuesta correcta hay que indicarlo separando todas las posibilidades con una barra vertical dentro de la misma línea de texto. Por ejemplo, la línea:<P>
+<P CLASS="literal">Bici|Bicicleta|Biciclo<P>
+... hará que el programa dé por buena cualquiera de las tres respuestas. La barra vertical se obtiene en los teclados españoles con la combinación de teclas <B>ALTGR+1</B>.<P>
+Para evaluar las respuestas el programa no tiene en cuenta si se han escrito en mayúsculas o en minúsculas. Los acentos y los signos de puntuación sí que se deben escribir correctamente.<P>
+La mayoría de asociaciones de respuesta escrita se pueden plantear también como <B>Actividades de texto</B>, que veremos en el módulo 3.<P>
+<H2>Pantalla de información</H2>
+Este tipo de actividad no es exactamente una asociación, aunque por cuestiones prácticas se incluyó en este grupo. Sirven para mostrar una determinada información que el usuario debe leer, mirar o escuchar antes de continuar con el resto de actividades de un paquete.<P>
+Para crear una pantalla de información sólo hay que indicar un contenido para la ventana <B>A</B> y el formato de filas y columnas en las que queremos que aparezca.<P>
+Se puede insertar contenido activo en las casillas escribiendo los nombres de los archivos vinculados entre claves: Ésta es una técnica que se puede utilizar para hacer menús que activen otros paquetes de actividades. Por ejemplo, suponga que ha preparado tres paquetes de actividades sobre el cuerpo humano llamados "digesti.pac", "circula.pac" y "locomoto.pac", y quiere hacer una pantalla-menú que permita al usuario elegir cual de ellos desea utilizar. Una posible manera de hacerlo sería creando una asociación del tipo <B>pantalla de información</B>, darle un formato de 3 filas y 1 columna y asignar a la ventana <B>A</B> el siguiente archivo de texto:<P>
+<P CLASS="literal">
+Aparato digestivo{digesti.pac}<BR>
+Aparato circulatorio{circula.pac}<BR>
+Aparato locomotor{locomoto.pac}<BR>
+<P>
+Cuando el usuario haga clic encima de las casillas el programa pondrá en marcha el paquete de actividades correspondiente.<P>
+<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t2.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="index.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

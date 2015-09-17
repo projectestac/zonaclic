@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Practice 1</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<P>&nbsp;<P>
+<A HREF="prac4.zip"><IMG SRC="../disquet.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="LEFT"></A>You will need to download the <A HREF="prac4.zip">prac4.zip</A> file to do the guided practices for this module. Decompress its contents in the <B>C:\Clic\Course\Module4\Practice</B> folder.<P>
+&nbsp;<P>
+<H1>Practice 1<BR>
+Creating activities with ARITH2</H1>
+The automatic generation of activities module ARITH2 is used in this guided practice to create some mental calculation activities.<P>
+First of all, copy the ARITH2.DLL file, which goes with the Clic "demo", to the working directory:<P>
+<P CLASS="L">- Open Windows <B>Explorer</B> (<B>Start - Programs - Explorer</B>).<P>
+<P CLASS="L">- Find the <B>C:\CLIC\ACT\DEMO</B> folder in the left panel and select it.<P>
+<P CLASS="L">- Click on the <B>ARITH2.DLL</B> file, which should appear in the right hand panel, with the<B> right mouse button</B>. Select <B>Copy</B> from the menu.<P>
+<P CLASS="L">- Find and select the <B>practice folder</B> for module 4 in the left-hand panel.<P>
+<P CLASS="L">- Click on the right hand panel with the <B>right mouse button</B> and select paste from the menu.<P>
+You should now have a copy of ARITH2.DLL in the working directory.<P>
+<P CLASS="L">- Start up Clic, go to the <B>File - New... - Association</B> menu and select the working directory for module 4.<P>
+<P CLASS="L">- Set a layout of <B>1 column</B> and <B>5 rows</B>.<P>
+<P CLASS="L">- Select <B>Text</B> for grid <B>A</B>, make sure that the <B>NEW TEXT</B> option is selected in the drop list and click on the <B>Edit contents</B> button. We will call the file <B>EMPTY.TXT</B><P>
+In fact this text file will have a purely testimonial role. It will be used to create a skeleton of the activity and we will set up the actual content for the activity with ARITH2.<P>
+<P CLASS="L">- When Notepad opens, insert a couple of <B>returns</B> and go directly to the <B>File - Save</B> and <B>File - Exit</B> options.<P>
+<P CLASS="L">- Open the list for grid <B>B</B> and select the <B>EMPTY.TXT</B> file again.<P>
+<P CLASS="L">- Mark the <B>Solved grid A</B> box and select <B>EMPTY.TXT</B> once more.<P>
+Accept the changes. We have a normal association between two empty grids. The next step is to use ARITH2 to fill the cells:<P>
+<P CLASS="L">- Go to <B>Activity options</B> (CTRL+O) and <A NAME="this"></A><A HREF="#this" onClick="javascript:window.open('nota2.htm','Nota','width=200,height=200,toolbar=0,location=0,status=0,menubar=0,alwaisRaised=1,dependent=1')">mark the <B>Activity automation</B> box</A>.<P>
+<P CLASS="L">- Select the <B>ARITH2.DLL</B> file from the drop list above this box and click on the <B>Configuration</B> button.<P>
+<P CLASS="L">- Leave the predetermined values (values of between 0 and 10) in the Arith2 configuration window and accept everything.<P>
+Test the activity. Each time the green flag is clicked, the activity is reloaded with different operations.<P>
+<P CLASS="L">- Edit the activity to write the following <B>Welcome message</B>:
+<P CLASS="LiteralL">Solve these calculations</P>
+<P CLASS="L">&nbsp; ... and add a congratulatory good bye message.<P>
+<P CLASS="L">- Save the activity as <B>ADD1.ASS</B>.<P>
+Now we can make a few changes to improve the activity's appearance. We will use the technique of showing the game window on a decorative background as in the TXA06.TXA activity in the Clic "demo":<P>
+<P CLASS="L">- Go to the <B>Activity options</B> (CTRL+O) and click on the <B>Solid colour</B> button for the <B>main window</B>. Select white.<P>
+<P CLASS="L">- Select white as the background colour for the <B>game window</B> as well.<P>
+<P CLASS="L">- Mark the <B>Image</B> box for the <B>main window</B>, open the list and select <B>BGROUND.GIF</B><P>
+<P CLASS="L">- Mark the <B>Centred</B> box and accept the changes.<P>
+<P CLASS="L">- Everything seems to be going well so far. A background image has appeared, but the game window is too large and does not appear in the frame in the background decoration. We will have to make a few more changes:<P>
+<P CLASS="L">- Go back to the activity options and unmark the <B>Centred</B> box for the game window. Just below this box there are two numerical fields that set the co-ordinates of the game window in relation to the top left corner of the background image. Change them to <B>X: 270</B> and <B>Y: 10</B><P>
+<P CLASS="L">- Change the <B>cell sizes</B> to <B>164 x 64</B> for both grid <B>A</B> and <B>B</B>.<P>
+<P CLASS="L">- Unmark the <B>Shaded frames</B> box and accept everything.<P>
+The game window is now placed exactly where we wanted it and fits in the rectangle in the background image. We will make a few last changes to the appearance:<P>
+<P CLASS="L">- Edit the activity (CTRL+E) and unmark the <B>Delimit cells</B> button for both grid <B>A</B> and <B>B</B>.<P>
+<P CLASS="L">- Click on the <B>Fonts</B> button, select the <B>Message box</B> area and choose <B>marine blue</B> as the <B>background</B> colour and <B>white </B>for the <B>text</B>. Once that is done select the <B>Grid B</B> area and change the <B>shadow</B> colour to <B>white</B> (the "shadow" colour is also used to fill the cells once a pair has been solved).<P>
+<P CLASS="L">- Save the activity again with the same name: <B>ADD1.ASS</B><P>
+Now we will make use of this activity to make a few variants with more difficult calculations:<P>
+<P CLASS="L">- Go to <B>Activity options</B> and click on the <B>Configuration</B> button in activity automation.<P>
+<P CLASS="L">- Change the first operator to a range of <B>10</B> to <B>99</B>, mark the <B>Do not carry</B> box and accept everything.<P>
+<P CLASS="L">- Press the <B>F12</B> key (which is the same as <B>File - Save as...</B>), change the name to <B>ADD2.ASS</B> and accept.<P>
+<P CLASS="L">- Unmark the <B>Do not carry</B> box in the Arith2 configuration.<P>
+<P CLASS="L">- Save the activity as <B>ADD3.ASS</B> with <B>F12</B>.<P>
+<P CLASS="L">- Continue the process of making the calculations more difficult and saving the activities with F12. You should make the following activities:<BR>
+&nbsp;<BR>
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="5" BORDERCOLOR="#800080">
+<TR CLASS="CTaula">
+	<TD CLASS="CTaula">ACTIVITY</TD>
+	<TD CLASS="CTaula">ARITH2 CONFIGURATION</TD>
+</TR>
+<TR>
+	<TD>ADD4.ASS</TD>
+	<TD>Second operator between <B>10</B> and <B>99</B>, "without carrying"</TD>
+</TR>
+<TR>
+	<TD>ADD5.ASS</TD>
+	<TD>The same as above, but "carrying"</TD>
+</TR>
+<TR>
+	<TD>SUB1.ASS</TD>
+	<TD>Operator: <B>minus</B>. Both operators between <B>1</B> and <B>10</TD>
+</TR>
+<TR>
+	<TD>SUB2.ASS</TD>
+	<TD>Operator: <B>minus</B>. First operator between <B>10 </B>and<B> 99</TD>
+</TR>
+<TR>
+	<TD>SUB3.ASS</TD>
+	<TD>Operator: <B>plus</B>. Unknown: <B>A @ ? = C</B> (only mark this option)</TD>
+</TR>
+</TABLE>
+&nbsp;<BR>
+<P>
+If you have followed all the steps, we will have a set of activities that we can use to make a series of threaded packs in the next exercise.<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="p2.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="index.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

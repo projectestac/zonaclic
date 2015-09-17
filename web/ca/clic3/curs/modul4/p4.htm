@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Pràctica 4</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Pràctica 4<BR>
+Creació d'un menú de paquets</H1>
+En aquesta pràctica final farem un paquet d'activitats que serveixi de menú d'accés a tots els paquets realitzats en les pràctiques del curs. Aquest menú el crearem en la carpeta arrel del curs, i des d'allí es faran les crides als paquets que hi ha en les carpetes de pràctiques de cada mòdul.<P>
+<P CLASS="L">- Activeu el menú <B>Fitxers - Nova activitat - Associació</B>. En aquest cas la carpeta de treball serà l'arrel dels mòduls del curs: <B>C:\Clic\CursClic</B><P>
+<P CLASS="L">- Canvieu la modalitat a <B>Pantalla d'informació</B>.<P>
+<P CLASS="L">- Assegureu-vos que en la graella <B>A</B> hi ha seleccionat el tipus <B>Text</B> i feu clic a <B>Editar contingut</B>. El programa demanarà un nom per al nou fitxer de text, que podria ser <B>MENU.TXT</B><P>
+<P CLASS="L">- En la llibreta del Windows escriviu aquest text:<P>
+<P CLASS="LiteralL">
+Planetes{modul1\practica\planetes.pac}<BR>
+Animals{modul2\practica\animals.pac}<BR>
+Solidaritat{modul3\practica\intermon.pac}<BR>
+Càlcul mental{modul4\practica\calcul1.pac}<BR>
+</P>
+Observeu que com els paquets es troben en carpetes diferents cal precedir el seu nom per la ubicació relativa al punt de partida (la carpeta arrel del curs), ja que altrament el Clic seria incapaç de trobar-los.<P>
+<P CLASS="L">- Tanqueu la llibreta del Windows responent que <B>Sí</B> que voleu enregistrar els canvis.<P>
+<P CLASS="L">- Fixeu una distribució d'<B>1 columna</B> i <B>4 files</B>.<P>
+<P CLASS="L">- Escriviu a <B>Missatge Inicial</B> el text:<P>
+<P CLASS="LiteralL">Pràctiques del curs de Clic</P>
+<P CLASS="L">- Feu clic al botó <B>Opcions</B> i fixeu per a la graella <B>A</B> unes dimensions de <B>400x80</B>. Desmarqueu els tres <B>comptadors</B> i els <B>Marcs ombrejats</B>, seleccioneu els <B>Botons petits 2</B> i canvieu el <B>color</B> de la finestra principal i la finestra de joc per tal que sigui <B>blau</B>.<P>
+<P CLASS="L">- Confirmeu les modificacions en les Opcions i feu clic al botó <B>Fonts</B>. Seleccioneu un tipus <B>Arial</B> d'<B>11 x 26</B>, marqueu les caselles <B>Negreta</B> i <B>Ombrejat</B> i canvieu els colors: <B>Text</B> blanc, <B>Fons</B> blau i <B>Ombra</B> negra. Quan hagueu fet aquests canvis cliqueu al botó <B>Aplicar-ho a les tres zones</B>.<P>
+<P CLASS="L">- Confirmeu-ho tot i, abans de fer clic en cap casella, enregistreu l'activitat amb el nom <B>MENU.ASS</B>.<P>
+<P CLASS="L">- Activeu el menú <B>Fitxers - Nova activitat - Paquet d'activitats</B>. La carpeta de treball torna a ser <B>C:\Clic\CursClic</B><P>
+<P CLASS="L">- Poseu l'activitat <B>MENU.ASS</B> com a únic component del paquet, confirmeu i enregistreu el paquet amb el nom <B>CURSCLIC.PAC</B><P>
+Ara podríem fer que cada paquet s'encadeni amb el menú, de manera que en acabar de veure'l es torni a la pantalla d'entrada:<P>
+<P CLASS="L">- Feu clic en la primera casella, on diu "Planetes". Si tot va bé s'hauria de posar en marxa el paquet que vam crear en la primera sessió.<P>
+<P CLASS="L">- Activeu l'edició del paquet d'activitats (CTRL+P) i cliqueu al botó <B>Encadenament</B>. Marqueu la casella <B>Encadenament per defecte</B> i, en la caixa que hi ha a sota escriviu-hi:<P>
+<P CLASS="LiteralL">..\..\cursclic.pac</P>
+<P CLASS="L">&nbsp; L'expressió "..\..\" indica que cal retrocedir dues carpetes per a trobar el paquet "cursclic.pac". Això és degut a que el paquet "planetes.pac" es troba dins de la carpeta <B>C:\Clic\CursClic\Modul1\Practica</B> i el menú és a <B>C:\Clic\CursClic</B>.<P>
+<P CLASS="L">- Confirmeu-ho tot i enregistreu el paquet amb el mateix nom i la mateixa ubicació.<P>
+<P CLASS="L">- Aneu avançant per les activitats del paquet "Planetes". Quan acabi hauria de tornar automàticament al menú d'entrada.<P>
+<P CLASS="L">- Repetiu els passos amb els paquets "Animals" i "Solidaritat". En ambdós casos l'encadenament per defecte serà també <B>..\..\cursclic.pac</B><P>
+El paquet de càlcul mental és una mica més complicat: com que ja té els seus propis encadenaments hauríem de buscar la manera d'enllaçar-lo amb el menú principal sense trencar la seva dinàmica d'enllaços:<P>
+<P CLASS="L">- Aneu a <B>Fitxers - Obrir</B> i busqueu el paquet <B>FINAL.PAC</B> que hi ha dins de la carpeta <B>Modul4\Practica</B>.<P>
+<P CLASS="L">- Editeu el paquet d'activitats i encadeneu-lo per defecte amb <B>..\..\cursclic.pac</B><P>
+<P CLASS="L">- Enregistreu el paquet, cliqueu a la fletxa d'avançar per saltar al menú i comproveu el resultat: per sortir de la branca "Càlcul mental" i tornar al menú caldrà fer correctament els exercicis, ja que en cas contrari s'activaran els encadenaments inferiors i s'aniran repetint les activitats de càlcul.<P>
+Per acabar, podríem crear una icona del Windows que posi en marxa el paquet d'activitats que acabem de fer:<P>
+<P CLASS="L">- Feu clic amb el <B>botó dret</B> del ratolí al <B>Botó Inici</B> del Windows.<P>
+<P CLASS="L">- En el menú de context seleccioneu <B>Explorar</B>. Això posarà en marxa l'explorador del Windows.<P>
+<P CLASS="L">- Busqueu dins de <B>Programes</B> la carpeta <B>Clic</B> i seleccioneu-la.<P>
+<P CLASS="L">- Feu clic amb el <B>botó dret</B> del ratolí a una zona buida del <B>pannell de la dreta</B> de l'explorador del Windows.<P>
+<P CLASS="L">- En el menú de context seleccioneu <B>Nou</B> i <B>Drecera</B> (o <I>Acceso directo</I>). Es posarà en marxa l'assistent per a crear dreceres del Windows.<P>
+<P CLASS="L">- A la <B>línia d'ordres</B> escriviu-hi <B>C:\Clic\CursClic\cursclic.pac</B> i passeu a la pantalla següent.<P>
+<P CLASS="L">- En el nom de la drecera escriviu-hi: <B>Pràctiques del curs de Clic</B><P>
+<P CLASS="L">- Confirmeu-ho tot, tanqueu l'explorador del Windows i comproveu el funcionament de la icona que hauria d'aparèixer al menú <B>Inici - Programes - Clic</B>.<P>
+<H2>Pràctica complementària</H2>
+El paquet de trencaclosques en anglès no s'ha inclòs en el menú perquè està en format compacte (PCC) i això no ens permetria entrar directament a modificar les seves propietats. Per fer-ho hauríeu de descompactar el paquet ANIPUZEN.PCC amb el ClicPac, modificar l'activitat MENU.ASS per augmentar el nombre de files a 4, afegir una línia més al fitxer MENU.TXT i definir l'encadenament de tornada des d'ANIPUZEN.PAC cap a CURSCLIC.PAC. Tingueu en compte que aquest paquet es troba en un nivell més de profunditat, dins de C:\Clic\CursClic\Modul4\Practica\Animals. Això vol dir que el camí de retorn haurà de ser "..\..\..\cursclic.pac".<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="index.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="p3.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

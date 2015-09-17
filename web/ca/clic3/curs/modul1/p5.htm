@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Pràctica 5</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul1.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Pràctica 5<BR>
+Creació d'una associació amb referències indirectes</H1>
+En aquesta pràctica construirem una associació entre fotografies dels planetes i els seus noms. Les fotografies són en uns fitxers GIF que s'haurien de trobar dins de la carpeta de treball si heu seguit correctament les instruccions que hem donat a l'inici.<P>
+En aquesta pràctica no ens servirà seleccionar el tipus <B>Imatge</B> per a la graella <B>B</B>, ja que no hi va un únic gràfic sinó 9 fotografies que es troben repartides en 9 fitxers diferents i a la llista desplegable només en podríem escollir una. Haurem d'utilitzar la tècnica de fer crides indirectes a gràfics escrivint el seu nom entre claus dins d'un fitxer de text.<P>
+<P CLASS="L">- Aneu al menú <B>Fitxers - Nova activitat - Associació.</B> La carpeta de treball serà la mateixa que hem fet servir fins ara.<P>
+<P CLASS="L">- Seleccioneu per a la <B>graella A</B> el fitxer <B>PLANETES.TXT</B>, que ja hem fet servir en les pràctiques anteriors.<P>
+<P CLASS="L">- Per a la <B>graella B</B> hauríeu de crear un <B>NOU TEXT</B>. Cliqueu al botó <B>Editar contingut</B> i, quan el Clic us ho demani, doneu-li el nom <B>IMGPLANE</B><P>
+<P CLASS="L">- En el bloc de notes escriviu aquestes línies de text:<P>
+<P CLASS="LiteralL">
+{mercuri.gif}<BR>
+{venus.gif}<BR>
+{terra.gif}<BR>
+{mart.gif}<BR>
+{jupiter.gif}<BR>
+{saturn.gif}<BR>
+{ura.gif}<BR>
+{neptu.gif}<BR>
+{pluto.gif}<BR>
+<P>
+És important escriure els noms dels fitxers entre claus, que no s'han de confondre amb els claudàtors "[" i "]" (recordeu que les claus s'obtenen amb les combinacions de tecles <B>AltGR</B> + <B>dièresi</B> i <B>AltGr</B> + <B>Ç</B>). També és important no deixar cap espai en blanc davant o darrere de cada línia, i escriure'ls sense accents.<P>
+El fet d'escriure en un fitxer de text noms de fitxers entre claus farà que el Clic mostri el seu contingut dins de les caselles en comptes de l'expressió literal de cada línia.<P>
+<P CLASS="L">- Enregistreu el fitxer i tanqueu el bloc de notes.<P>
+<P CLASS="L">- Fixeu una distribució de <B>3 files</B> i <B>3 columnes</B>.<P>
+<P CLASS="L">- Escriviu a <B>Missatge inicial</B> el text:<P>
+<P CLASS="LiteralL">Relaciona cada planeta amb la seva fotografia<P>
+<P CLASS="L">- ...i a <B>Missatge final</B>:<P>
+<P CLASS="LiteralL">Molt bé!<P>
+<P CLASS="L">- Cliqueu a <B>D'Acord</B> i comproveu el funcionament de l'activitat.<P>
+<P CLASS="L">- Enregistreu-la amb el nom <B>PLANETA3.ASS</B><P>
+Funciona bé... però algunes fotografies surten retallades. Per millorar l'aspecte de l'activitat podríem plantejar una distribució diferent de les caselles: posar en vertical la llista de noms en una única columna a l'esquerra i mantenir la graella de 3x3 per a les fotografies. Els passos a seguir serien aquests: <P>
+<P CLASS="L">- Utilitzeu la combinació de tecles <B>CTRL+E</B> per activar la finestra d'edició (equival a activar el menú <B>Edició - Editar l'activitat</B>).<P>
+<P CLASS="L">- Canvieu el <B>Tipus</B> a <B>Associació complexa</B>. Cal fer aquest canvi perquè en les associacions normals no és possible indicar una distribució diferent de caselles a les dues graelles.<P>
+<P CLASS="L">- Canvieu la distribució a <B>1 columna</B> i <B>9 files</B>. Això en principi afectarà a la graella <B>A</B>.<P>
+<P CLASS="L">- Feu clic damunt el botó d'<B>Assignació de relacions</B> <IMG SRC="miniassigna.gif" WIDTH=32 HEIGHT=20 BORDER=0 ALT=""> i canvieu els valors de <B>Files B</B> i <B>Columnes B</B> per tal que tots dos indiquin <B>3</B>.<P>
+<P CLASS="L">- Per comprovar que l'assignació de relacions encara és la correcta aneu fent clic en cadascuna de les línies de la llista de l'esquerra: a la dreta hauria de quedar seleccionada de manera automàtica la mateixa fila. Si no fos així, marqueu-la.<P>
+Cliqueu a <B>D'Acord</B> per tornar a l'edició de l'activitat, i novament <B>D'Acord</B> per provar el seu funcionament. Efectivament, la distribució ha canviat, però... les caselles de la graella A són massa grans i les de la B massa petites.<P>
+Abans de modificar les dimensions de les caselles fem uns quants càlculs senzills:<P>
+Les imatges dels planetes tenen unes dimensions màximes de 100x100 pícsels (podeu comprovar-ho amb el PaintShop Pro o qualsevol altre editor gràfic). Per deixar una mica de marge entre les fotografies podríem assignar a les caselles de <B>B</B> unes dimensions de 120x120. Això donarà un total de 360x360 per a la graella <B>B</B>.<P>
+A la graella <B>A</B> hi ha ara 9 files, mentre que <B>B</B> continua amb 3. Per tal que ambdues graelles tinguin la mateixa alçada les caselles d'<B>A</B> haurien de fer un terç de les de <B>B</B>. Un terç de 120 són 40 pícsels.<P>
+Per modificar les dimensions de les caselles seguiu aquests passos:<P>
+<P CLASS="L">- Editeu l'activitat (CTRL+E) i cliqueu al botó <B>Opcions</B>.<P>
+<P CLASS="L">- Canvieu els valors de les <B>amplades</B> per tal que siguin <B>120</B> a ambdues graelles. Per a les alçades indiqueu <B>40</B> a <B>A</B> i <B>120</B> a <B>B</B>.<P>
+<P CLASS="L">- Confirmeu-ho tot i comproveu l'aspecte de l'activitat. Ara si que hauria de tenir una distribució més adient.<P>
+La graella <B>B</B> quedaria millor si les caselles tinguessin el fons negre:<P>
+<P CLASS="L">- Editeu l'activitat (CTRL+E) i cliqueu al botó <B>Fonts</B>.<P>
+<P CLASS="L">- Marqueu la caixeta <B>Graella B</B> (és molt important seleccionar sempre la zona <B>abans</B> de fer modificacions de color o tipus de lletra).<P>
+<P CLASS="L">- Cliqueu al botó <B>Fons</B> i seleccioneu el color negre.<P>
+<P CLASS="L">- Cliqueu a <B>Text</B> i seleccioneu el blanc. Tot i que no hi ha text a la graella B, sempre és recomanable evitar deixar el mateix color de text i de fons per si més endavant modifiquéssim l'activitat.<P>
+<P CLASS="L">- Confirmeu-ho tot i comproveu l'aspecte que pren ara.<P>
+<P CLASS="L">- Per evitar que apareguin les línies divisòries entre les caselles de B editeu l'activitat i desmarqueu <B>Delim. caselles</B>.<P>
+<P CLASS="L">- Torneu a enregistrar l'activitat amb el mateix nom: <B>PLANETA3.ASS</B><P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="p6.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="p4.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

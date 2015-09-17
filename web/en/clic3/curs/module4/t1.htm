@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Automatic content generation</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Automatic content generation</H1>
+There is a file called <B>ARITH2.DLL</B> in the <B>C:\Clic\Act\Demo</B> folder. This is a special programme that acts as an external compliment to Clic, generating mental calculation operations at random based on certain criteria set when making an activity.<P>
+Open the Clic "demo" and go to the <B>ASS07.ASS</B> activity in the association examples. If you look at the edition window (CTRL+E), you will see something strange: the file ARITEXT.TXT is used as the content for both the <B>A</B> and <B>B</B> grids and if you click on <B>Edit contents</B>, you will see that there is no sign of any mathematical operation. How can the appearance of the activity be so different from what we seem to see in the content files?<P>
+The secret is in the <B>Activity options</B> window. Note that the <B>Activity automation</B> option is marked and that the file <B>ARITH2.DLL</B> has been selected in the list. In fact Clic does not use the ARITEXT.TXT file, it is only there because a content file is required for each grid in associations. It is the ARITH2 module that governs what appears on the screen.<P>
+The activity automation modules provide the activities with the contents to be displayed in the cells. At the moment there is only the ARITH2 mental calculation module, but the specifications are published in the Clic help and manual and any programmer that knows C++ and how to make a DLL file (which is not the aim of this course!) could create additional modules that randomly generate the content of other types of activities.<P>
+The <B>Configuration</B> button, which appears next to the module drop list, calls ARITH2 to show its control screen:<P>
+&nbsp;<BR>
+<IMG SRC="arith2.gif" WIDTH="500" HEIGHT="334" BORDER="0" ALT=""><BR>
+&nbsp;<BR>
+This is where we decide what kind of mental calculation operations can appear in the activity while it is being edited:<P>
+<P CLASS="L">- Which of the four basic arithmetical <B>operations</B> should appear.<P>
+<P CLASS="L">- Which of the four elements of an operation (first operator, operation, second operator and result) will be the <B>target</B>. The result is usually the target, e.g. "3 + 4 = ?", but the same operation could be set as: "3 + ? = 7", "? + 4 = 7" or "3 ? 4 = 7". Operations can also be written starting with the result: "7 = 3 + 4".<P>
+<P CLASS="L">- The <B>limits</B> of both operators and the result.<P>
+<P CLASS="L">- The <B>number of decimals</B> in the result (none, one or two).<P>
+<P CLASS="L">- The possibility of setting <B>"do not carry" </B>additions and subtractions i.e. the operation applied digit by digit is never more than 9 or less than 0.<P>
+<P CLASS="L">- The <B>ordering</B> of results is useful for setting puzzles such as PUZ05.PUZ in the Clic demo.<P>
+The Arith2 module tries to generate random operations based on the parameters set as long as they are reasonable. However if it finds non-solvable situations (e.g. a sum with operators between 10 and 20 that give a result less than 5) it finds itself forced to break one of the conditions.<P>
+To create activities that use the Arith2 module you have to copy the ARITH2.DLL file (which you will find with the Clic demo files) to the corresponding working directory.<P>
+<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t2.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="index.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

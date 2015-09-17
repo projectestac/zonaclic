@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/basic_es.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" --> 
+<title>ZonaClic - JClic reports</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../../../css/basic.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="../../../scripts/mm.js" type="text/JavaScript"></script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Language" content="es">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<meta name="keywords" content="clic jclic education educational software educació educación programari educatiu software educativo">
+</head>
+<body>
+<div align="center"> 
+ <table border="0" width="758" cellpadding="0" cellspacing="0">
+  <tr>
+   <td><img src="../../../img/spacer.gif" width="20" height="1" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="718" height="1" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="20" height="1" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="4"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="758" height="80">
+          <param name="movie" value="../../../img/nav_es.swf">
+          <param name="quality" value="high">
+          <param name="BGCOLOR" value="#CCFF99">
+          <param name="BASE" value="/img">
+          <embed src="../../../img/nav_es.swf" width="758" height="80" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" bgcolor="#CCFF99" base="/img"></embed></object></td>
+  </tr>
+  <tr>
+   <td><img name="f0_r2_c2" src="../../../img/f0_r2_c2.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img name="f0_r2_c3" src="../../../img/f0_r2_c3.gif" width="718" height="20" border="0" alt=""></td>
+   <td><img name="f0_r2_c4" src="../../../img/f0_r2_c4.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+      <td width="20" height="200" background="../../../img/f0_r3_c2.gif">&nbsp;</td>
+   <td class="main" width="718" valign="top"><script language="JavaScript" src="../../../scripts/av_es.js" type="text/JavaScript"></script><!-- InstanceBeginEditable name="zona0" --> 
+<p class="topMenu"><a href="../../index.htm">inicio</a> | <a href="../index.htm">JClic</a><strong> 
+          </strong>|<strong> </strong>JClic reports </p>
+        <p class="t1">Servidor de informes JClic</p>
+        <p>JClic dispone de un sistema de registro de los resultados de las actividades. <strong>JClic reports</strong> es el m&oacute;dulo encargado de recopilar los datos (tiempo empleado en cada actividad, intentos, aciertos, etc...) y presentarlos despu&eacute;s en informes estad&iacute;sticos de diversos tipos.</p>
+        <p class="t2">Funcionamiento</p>
+        <p>JClic reports se basa en un esquema <strong>cliente
+            - servidor</strong>. El servidor puede ser cualquier ordenador de la red, y los clientes son de dos tipos: las aplicaciones JClic (<em>applet</em>          i <em>player</em>),
+          que env&iacute;an al servidor las puntuaciones obtenidas por los usuarios al realizar las actividades, y los navegadores web (Firefox, Opera,
+          Explorer...) desde los que se pueden consultar los resultados y administrar la base de datos.</p>
+        <p>Para poner en funcionamiento al <strong>servidor</strong> necesitaremos tres elementos:</p>
+        <ul>
+          <li>Un <strong>sistema de bases
+              de datos</strong>, en el que se almacenar&aacute; la informaci&oacute;n. Debe soportar transacciones SQL y disponer de alg&uacute;n conector JDBC o ODBC. Hay muchos sistemas, tanto comerciales como libres, que cumplen estos requisitos: mySQL,
+          MS-Access, PostgreSQL, Oracle, etc.</li>
+          <li>Un <strong>conector</strong> que permita la
+                comunicaci&oacute;n entre la base de datos y el programa <strong>JClic
+          reports</strong>. Los conectores utilizados por las aplicaciones Java son del tipo JDBC, pero tambi&eacute;n se pueden utilizar conectores ODBC.</li>
+          <li>El programa <strong>JClic
+          reports</strong>, que realiza dos funciones:<br>
+		<ul>
+        <li>Por un lado ofrece a los clientes JClic la informaci&oacute;n necesaria para identificar
+                a los usuarios, iniciar las sesiones de trabajo y recibir los resultados: nombre de la actividad,
+                            n&uacute;mero de intentos y aciertos, tiempo empleado, etc.
+          JClic reports almacena esta informaci&oacute;n en la base de datos mediante el conector.</li>
+        <li>La segunda funci&oacute;n consiste en procesar los datos almacenados y mostrarlos en diversos formatos. Esta consulta se puede realizar desde cualquier navegador web: Firefox, Safari, Internet Explorer,
+          etc.</li>
+        </ul>
+		En este esquema se muestran los diversos elementos del sistema y sus interacciones:</li>
+        </ul>
+   <p align="center"><img src="configureJClicReportsGraf1_es.png" alt="Esquema de funcionamiento de JClic reports" width="505" height="254"></p>
+        <p class="t2"><a name="mod"></a>Modalidades</p>
+        <p>La comunicaci&oacute;n entre <strong>JClic reports</strong> y sus clientes (JClic applet, JClic player, navegador web, etc.) se puede establecer de dos maneras:</p>
+        <ul>
+          <li>Por <strong>conexi&oacute;n directa</strong> (modalidad est&aacute;ndar)<br>
+            En esta modalidad <strong>JClic reports</strong> abre una ventana en el servidor en la que se muestra
+            informaci&oacute;n de lo que va haciendo, y ofrece unos botones para pararlo, ponerlo en marcha y consultar los resultados desde un navegador.  
+          </li>
+          <li>Mediante un <strong>servidor de aplicaciones
+              Java</strong> (modalidad
+            avanzada)<br>
+            Esta modalitat no requiere ning&uacute;n entorno gr&aacute;fico. JClic reports act&uacute;a como un conjunto de <em>servlets</em> integrados
+          en un servidor de aplicaciones J2EE.</li>
+        </ul>
+        <p class="t2">Configuraci&oacute;n del sistema</p>
+        <p>Para configurar el sistema de informes de JClic
+            hay que seguir cuatro pasos, que afectan a los cuatro elementos que aparecen numerados en el esquema:</p>
+        <ol>
+          <li>Crear una base de datos.</li>
+          <li>Configurar el conector.</li>
+          <li>Configurar el servidor de informes <strong>JClic reports.</strong></li>
+          <li>Configurar los clientes <strong>JClic</strong> para que hagan uso del servidor de informes.</li>
+        </ol>
+        <p>Los pasos a seguir para realizar estas operaciones ser&aacute;n diferentes seg&uacute;n el tipo de base de datos y entorno operativo. En estas gu&iacute;as se explica detalladamente el proceso en diversas situaciones: </p>
+        <blockquote>
+          <p class="t3">Modalidad est&aacute;ndar</p>
+          <ul>
+            <li><a href="stdaccess.htm"><strong>MS-Access en Windows</strong></a> </li>
+            <li><a href="stdmysqlwin.htm"><strong>mySQL en Windows</strong></a></li>
+            <li><a href="stdmysqldeb.htm"><strong>mySQL en Linux (Debian, Ubuntu)</strong></a></li>
+            <li><a href="stdmysqlsuse.htm"><strong>MySQL en Linux (Suse)</strong></a></li>
+          </ul>
+          <p class="t3">Modalidad avanzada</p>
+          <ul>
+            <li><a href="advmysqldeb.htm"><strong>Tomcat + mySQL en Linux
+                  (Debian, Ubuntu)</strong></a></li>
+            <li><a href="advmysqlsuse.htm"><strong>Tomcat + mySQL en Linux (Suse) </strong></a></li>
+          </ul>
+        </blockquote>
+        <p class="t2">Documentaci&oacute;n adicional</p>
+        <p>Estos son algunos documents y archivos que os pueden resultar de inter&eacute;s para configurar la base de datos y realizar el mantenimiento del sistema:</p>
+        <ul>
+          <li>Esquema de tablas de la base de datos:<br>
+            <a href="../../../pub/reports/JClicReports_tables_es.pdf"><img src="../../../img/pdf_on.gif" width="20" height="20" border="0" align="absmiddle"> JClicReports_tables_es.pdf</a> (25
+            Kb) </li>
+          <li>Conjunto de datos de prueba para MS-Access:<br>
+            <a href="../../../pub/reports/jclic_test_access97.zip"><img src="../../../img/zip_on.gif" width="20" height="20" border="0" align="absmiddle"> jclic_test_access97.zip</a> (139
+            Kb)<br>
+            <a href="../../../pub/reports/jclic_test_access2000.zip"><img src="../../../img/zip_on.gif" width="20" height="20" border="0" align="absmiddle"> jclic_test_access2000.zip</a> (129
+            Kb) </li>
+          <li>Conjunto de datos de prueba para MySQL:<br>
+          <a href="../../../pub/reports/jclic_test_mysql.zip"><img src="../../../img/zip_on.gif" width="20" height="20" border="0" align="absmiddle"> jclic_test_mysql.zip </a>(65
+          Kb) </li>
+        <li>La aplicaci&oacute;n J2EE, que se utiliza en la modalidad
+          avanzada:<br>
+          <a href="../../../pub/reports/reports.war"><img src="../../../img/zip_on.gif" width="20" height="20" border="0" align="absmiddle"> reports.war </a>(Ver. 0.2.3.4 - 29/10/13 - 2.040 Kb)</li>
+        </ul>
+   <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="addThis" -->
+   <hr style="margin-top: 40px;"><!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&username=clic" class="addthis_button_compact">Compartir</a>
+<span class="addthis_separator">|</span>
+<a title="Enviar a Facebook" class="addthis_button_facebook"></a>
+<a title="Enviar a Twitter" class="addthis_button_twitter"></a>
+<a title="Enviar a Delicious" class="addthis_button_delicious"></a>
+<a title="Añadir a favoritos" class="addthis_button_favorites"></a>
+<a title="Enviar por correo mediante Gmail" class="addthis_button_gmail"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=clic"></script>
+<!-- AddThis Button END --><!-- InstanceEndEditable --></td>
+   <td width="20" background="../../../img/f0_r3_c4.gif">&nbsp;</td>
+   <td width="1" background="../../../img/spacer.gif"><img src="../../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img name="f0_r4_c2" src="../../../img/f0_r4_c2.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img name="f0_r4_c3" src="../../../img/f0_r4_c3.gif" width="718" height="20" border="0" alt=""></td>
+   <td><img name="f0_r4_c4" src="../../../img/f0_r4_c4.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <!-- InstanceBeginEditable name="zonaExtra" --><!-- InstanceEndEditable -->
+  <tr>
+   <td colspan="4" bgcolor="#99CCCC" class="peu">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+	<td align="left"><!-- InstanceBeginEditable name="postPeuEsquerre" --><!-- InstanceEndEditable --></td>
+	<td align="center">
+	<a href="http://www.gencat.cat/educacio/"><img src="../../../img/depeducacio.gif" alt="Generalitat de Catalunya - Departament d'Educaci&oacute;" width="130" height="23" border="0"></a>
+	<img src="../../../img/spacer.gif" width="100" height="1" border="0" alt="">
+    <a href="http://www.xtec.cat/"><img src="../../../img/xtec.gif" alt="Xarxa Telem&agrave;tica Educativa de Catalunya" width="178" height="23" border="0"></a> 
+          <!-- InstanceBeginEditable name="postPeu" --><!-- InstanceEndEditable -->
+    </td>
+	<td align="right"><!-- InstanceBeginEditable name="postDret" --><!-- InstanceEndEditable --></td>
+     </tr>
+     </table>
+   </td>
+  </tr>
+ </table>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2006596-1");
+pageTracker._trackPageview();
+</script></body>
+<!-- InstanceEnd --></html>

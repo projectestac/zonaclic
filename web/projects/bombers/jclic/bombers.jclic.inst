@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicInstall title="Els bombers" authors="Montserrat Casas Bul" folder="bombers">
+ <file src="bombers.jclic.zip" />
+ <file src="bombers.jclic.inst" />
+ <shortcut project="bombers.jclic.zip" text="bombers" description="" icon="" />
+</JClicInstall>
+

@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Los rompecabezas</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul1.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Los rompecabezas</H1>
+En los rompecabezas (o <I>puzzles</I>) se mezcla un conjunto de información que el usuario deberá volver a poner en orden. Este conjunto de información puede estar formado por zonas de una imagen, una frase desmontada, una grabación sonora fragmentada, una secuencia cronológica...<P>
+Tal como se ha visto en los ejemplos y en la tabla que apareció anteriormente, hay cuatro modalidades distintas de rompecabezas. Las más usuales son la de <B>intercambio</B> y la <B>doble</B>, que muestran en pantalla toda la información a ordenar.<P>
+La modalidad <B>agujero</B> permite desplazar solamente las piezas contiguas a la casilla vacía y eso hace que resulte la más complicada de todas, especialmente si el contenido no es gráfico o tiene un elevado número de piezas.<P>
+La modalidad <B>memoria</B> no es exactamente un rompecabezas, ya que aquí no hay que reordenar sino recordar el contenido de cada casilla para encontrar las parejas en el mínimo número de intentos.<P>
+Algunas consideraciones a tener en cuenta en el diseño de rompecabezas:<P>
+<P CLASS="L">- Si se utilizan archivos de texto se asignará <B>una línea a cada casilla</B>. Los cambios de línea sirven para separar el contenido de una casilla del de la siguiente. Eso es aplicable también a las asociaciones: Siempre una línea por casilla.
+<P CLASS="L">- Si la actividad tiene una cantidad de casillas superior a las líneas del archivo de texto aparecerán casillas en blanco.
+<P CLASS="L">- En algunas imágenes pueden aparecer <B>zonas de fondo</B> con un único color. Hay que procurar que en la división de filas y columnas elegida no aparezcan nunca dos casillas que tengan exactamente el mismo contenido, ya que podría darse el caso que el puzzle parezca resuelto cuando en realidad el programa detecta que todavía hay piezas fuera de lugar. Por ejemplo:<BR>
+<BR>
+<IMG SRC="peix.gif" WIDTH=157 HEIGHT=105 BORDER=0><BR>
+<BR>
+En este rompecabezas las casillas 1, 5, 6, 19 y 24 (empezando a contar desde arriba a la izquierda) tienen exactamente el mismo contenido: el color blanco de fondo. Si no modificamos la imagen o cambiamos el número de filas y columnas resultará muy difícil que el programa dé por buena la resolución del puzzle, ya que estas piezas pueden estar intercambiadas entre sí sin que visualmente se note ninguna diferencia.
+<P CLASS="L">- Cuando se crea un rompecabezas gráfico hay ajustar las <B>dimensiones</B> de la imagen utilizada para que quepa dentro de la ventana de juego de Clic. Si la imagen es demasiado grande (cosa que acostumbra a pasar cuando proviene de un escáner configurado a alta resolución) hay dos opciones: Dejar que Clic la <B>recorte</B>, dejando fuera la zona que no cabe en la pantalla, o <B>comprimirla</B> forzando un cambio de dimensiones que no siempre tendrá el aspecto deseado.
+<P>
+<P>En la modalidad "doble" se pueden seleccionar distintas posiciones iniciales para las dos ventanas: "A a la izquierda de B", "B a la izquierda de A", "A encima de B" y "B encima de A". En las del tipo memoria se puede optar por duplicar el número de casillas horizontales (modalidad "AB") o hacerlo con las verticales (modalidad "BA").<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t12.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="t10.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

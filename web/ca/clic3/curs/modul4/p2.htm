@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Pràctica 2</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Pràctica 2<BR>
+Creació de paquets encadenats</H1>
+El Clic permet establir encadenaments "intel·ligents" entre paquets d'activitats, saltant cap a una opció o una altra segons el grau d'encert demostrat per l'alumne. En aquesta pràctica prepararem uns paquets de dificultat creixent, a partir de les activitats elaborades en la pràctica anterior, i els encadenarem entre sí.<P>
+Començarem preparant una pantalla d'informació que ens servirà per assenyalar el final de la seqüència de paquets:<P>
+<P CLASS="L">- Activeu el menú <B>Fitxers - Nova activitat - Associació</B>. Seleccioneu la carpeta de pràctiques del mòdul 4.<P>
+<P CLASS="L">- Canvieu el tipus d'activitat a <B>Pantalla d'informació</B>.<P>
+<P CLASS="L">- Cliqueu al botó <B>Editar contingut</B> de la graella <B>A</B>. El nom del fitxer de text serà <B>FINAL.TXT</B><P>
+<P CLASS="L">- En la llibreta del Windows escriviu:<P>
+<P CLASS="LiteralL">
+Felicitats!!!<BR>
+Has arribat al final del paquet de sumes i restes<BR>
+{exit}<BR>
+</P>
+<P CLASS="L">- Enregistreu el fitxer i tanqueu la llibreta del Windows.<P>
+<P CLASS="L">- Desmarqueu l'opció <B>delimitar caselles</B> i fixeu una distribució d'<B>1 columna</B> i <B>3 files</B>.<P>
+<P CLASS="L">- Feu clic al botó <B>Opcions</B> i canvieu les mides de les caselles de la graella <B>A</B> a <B>400 x 60</B>. Desactiveu tots els <B>marcadors</B> i <B>botons</B>, així com els <B>marcs ombrejats</B>. Seleccioneu per a la <B>Finestra principal</B> la imatge <B>FONS2.GIF</B> en <B>mosaic</B>, i <B>fons transparent</B> per a la <B>Finestra de joc</B>.<P>
+<P CLASS="L">- Confirmeu les opcions i feu clic al botó <B>Fonts</B>. Seleccioneu per a la <B>Graella A</B> un tipus Arial de <B>10 x 25</B> en <B>negreta</B> i de color <B>vermell</B>.<P>
+<P CLASS="L">- Confirmeu-ho tot i enregistreu l'activitat amb el nom <B>FINAL.ASS</B><P>
+Observeu que l'ordre "{exit}" de la darrera línia del text ha fet aparèixer la icona de la porta de sortida, que farà que es tanqui el programa quan l'alumne faci clic damunt seu.<P>
+El pas següent serà crear els paquets d'activitats:<P>
+<P CLASS="L">- Activeu el menú <B>Fitxers - Nova activitat - Paquet d'activitats</B>.<P>
+<P CLASS="L">- Situeu en el paquet les activitats SUMES1.ASS i SUMES2.ASS<P>
+<P CLASS="L">- Confirmeu i enregistreu-lo amb el nom <B>CALCUL1.PAC</B><P>
+<P CLASS="L">- Creeu un segon paquet amb les activitats SUMES3.ASS i SUMES4.ASS, i enregistreu-lo amb el nom <B>CALCUL2.PAC</B><P>
+<P CLASS="L">- Creeu els paquets <B>CALCUL3.PAC</B>, amb les activitats SUMES5.ASS i RESTES1.ASS, i <B>CALCUL4.PAC</B> amb RESTES2.ASS i RESTES3.ASS<P>
+<P CLASS="L">- Per acabar, creeu un paquet que contingui només l'activitat FINAL.ASS. Enregistreu-lo amb el nom <B>FINAL.PAC</B><P>
+El pas següent serà enllaçar els cinc paquets que acabem de crear:<P>
+<P CLASS="L">- Obriu el paquet <B>CALCUL1.PAC</B> i editeu-lo amb CTRL+P<P>
+<P CLASS="L">- Feu clic al botó <B>Encadenament</B>.<P>
+<P CLASS="L">- Marqueu l'<B>Encadenament per defecte</B> i seleccioneu a la llista el mateix paquet: CALCUL1.PAC. Això farà que el paquet entri en un procés circular: quan acabi tornarà a començar.<P>
+<P CLASS="L">- Marqueu l'<B>Encadenament superior</B>, seleccioneu-hi el paquet CALCUL2.PAC i pugeu la valoració global al 80%. Això farà que el Clic passi al paquet 2  si es resolen com a mínim 4 de les 5 operacions que hi ha en cada activitat. En cas contrari prevaldrà l'encadenament per defecte i el paquet tornarà a començar.<P>
+<P CLASS="L">- En aquest cas deixarem desmarcat l'<B>encadenament inferior</B> perquè es tracta del primer paquet de la sèrie i no és possible anar a cercar-ne un altre de més fàcil. Tampoc fixem cap límit de temps per a obtenir les puntuacions mínimes i màximes.<P>
+<P CLASS="L">- Confirmeu-ho tot i enregistreu els canvis.<P>
+<P CLASS="L">- Obriu el paquet <B>CALCUL2.PAC</B>, editeu-lo amb CTRL+P i fixeu un <B>encadenament per defecte</B> amb ell mateix, un <B>encadenament superior</B> amb CALCUL3.PAC si se supera el <B>80%</B> i un <B>encadenament inferior</B> amb CALCUL1.PAC en cas que no s'arribi al <B>40%</B>.<P>
+<P CLASS="L">- Feu el mateix amb els paquets <B>CALCUL3.PAC</B> i <B>CALCUL4.PAC</B>, encadenant-los amb els respectius nivells inferior i superior. Per a CALCUL4.PAC el nivell superior serà el paquet FINAL.PAC.<P>
+Quan hagueu acabat torneu a carregar el paquet CALCUL1.PAC i intenteu arribar fins a la pantalla final resolent les operacions que apareixeran.<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="p3.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="p1.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

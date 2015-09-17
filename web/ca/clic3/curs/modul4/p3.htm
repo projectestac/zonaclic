@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Pràctica 3</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Pràctica 3<BR>
+Adaptació d'un paquet existent</H1>
+En aquesta pràctica descarregarem un paquet d'activitats del "racó del Clic", l'instal·larem, el descompactarem, li farem algunes modificacions i el tornarem a compactar.<P>
+<P CLASS="L">- Busqueu al <A HREF="http://www.xtec.es/recursos/clic">racó del Clic</A> el paquet <B>Trencaclosques d'animals</B>, de Pilar Codina. Per trobar-lo podeu fer servir el cercador per paraules del "racó" o anar directament a <B>Activitats - Àrees temàtiques - Diversos</B>.<P>
+<P CLASS="L">- Quan trobeu la pàgina corresponent a aquest paquet descarregueu el fitxer <B>ANIMALS.EXE</B> i enregistreu-lo a la carpeta de pràctiques de la sessió 4.<P>
+<P CLASS="L">- Executeu l'instal·lador i, quan ho demani, canvieu la carpeta de treball proposada (C:\CLIC\ANIMALS) per una altra carpeta anomenada també ANIMALS però que pengi de la de pràctiques de la sessió 4. El camí complet d'aquesta carpeta seria:<BR>
+<B>C:\Clic\CursClic\Modul4\Practica\Animals</B><P>
+<P CLASS="L">- Quan l'instal·lador demani en quin grup de l'<B>administrador de programes</B> voleu situar la icona canvieu el nom proposat ("Clic") per <B>CursClic</B>. Amb això no interferirem en altres instal·lacions d'aquest paquet que hi pogués haver en el mateix ordinador.<P>
+<P CLASS="L">- Proveu el funcionament de la icona que haurà aparegut en el grup <B>CursClic</B>.<P>
+Es tracta d'un paquet de trencaclosques on els missatges apareixen en lletra manuscrita. Suposem que a la nostra escola es treballa la lectoescriptura amb lletra d'impremta, i que volem modificar les activitats per tal que els alumnes treballin frases senzilles en anglès.<P>
+Per fer-ho més fàcil, en comptes de mantenir tres paquets diferents (amb 4, 6 i 12 peces) en farem un de sol amb 6 peces.<P>
+Tal com estan ara les activitats no es poden modificar perquè es troben dins d'un paquet compacte PCC i això fa que els menús d'edició estiguin desactivats. Caldrà fer servir el ClicPac per a descompactar-lo:<P>
+<P CLASS="L">- Sortiu del Clic.<P>
+<P CLASS="L">- Poseu en marxa el <B>ClicPac</B> i, a la part superior esquerra de la finestra, seleccioneu l'opció <B>Paquets Clic Compactes (*.PCC)</B><P>
+<P CLASS="L">- Busqueu la carpeta on acabem d'instal·lar el paquet i, a la llista, seleccioneu el fitxer <B>TRENCACL.PCC</B>. El ClicPac analitzarà el fitxer i mostrarà la llista d'ingredients que conté.<P>
+<P CLASS="L">- Feu clic en el botó <B>Descompactar</B> i, tot seguit, a <B>Extreure</B>. El ClicPac us informarà que s'han creat 76 fitxers nous. Cliqueu a <B>Acceptar</B> i després a <B>Sortir</B>.<P>
+En aquests moments tenim dues versions del paquet a la carpeta de treball: la <B>compactada</B> (en el fitxer TRENCACL.PCC) i l'<B>oberta</B>, que s'activa mitjançant el fitxer TRENCACL.PAC<P>
+<P CLASS="L">- Poseu en marxa el Clic, aneu a <B>Fitxers - Obrir</B> i busqueu el paquet <B>TRENCACL.PAC</B> dins de la carpeta on l'hem instal·lat. És important que seleccioneu la versió "PAC", perquè la PCC no ens deixaria fer les modificacions.<P>
+La primera activitat és una pantalla d'informació amb el títol del paquet i el nom de l'autora. Anem a modificar-la per tal que reflecteixi els canvis que hi farem:<P>
+<P CLASS="L">- Editeu l'activitat (CTRL+E) i feu clic al botó <B>Editar contingut</B>. Si tot va bé es <A NAME="this"></A><A HREF="#this" onClick="javascript:window.open('nota1.htm','nota','width=200,height=200,toolbar=0,location=0,status=0,menubar=0,alwaisraised=1,dependent=1')">posarà en marxa el PaintShop Pro</A> amb la imatge PORTADA.GIF.<P>
+<P CLASS="L">- Modifiqueu el gràfic per tal que el títol sigui PUZZLES WITH ANIMALS, i al subtítol, afegiu sota el nom de l'autora la frase "English version by " i el vostre nom. Més o menys hauria de quedar així:<BR>
+&nbsp;<BR>
+<IMG SRC="portadaanimals.gif" WIDTH=300 HEIGHT=300 BORDER=0 ALT="">
+&nbsp;<BR>
+<P CLASS="L">- Enregistreu el fitxer i tanqueu el PaintShop Pro.<P>
+<P CLASS="L">- Canvieu el missatge inicial per aquest:<P>
+<P CLASS="LiteralL">Go to next screen</P>
+<P CLASS="L">- Feu clic al botó <B>Fonts</B>, seleccioneu la zona <B>Missatges</B>, canvieu el tipus de lletra a <B>Arial</B> de <B>14 x 36</B> i feu clic al botó <B>Aplicar-ho a les tres zones</B>.<P>
+<P CLASS="L">- Activeu el menú <B>Fitxers - Desar</B> (o utilitzeu la combinació de tecles Majúscules+F12, que fa el mateix).<P>
+<P CLASS="L">- Editeu el paquet d'activitats (CTRL+P) i <B>elimineu</B> de la llista de la dreta el fitxer anomenat <B>PORTADA.ASS</B>, deixant només el <B>PORTADA1.ASS</B>. Això ho fem per tal que en l'adaptació del paquet no hi aparegui el menú d'opcions.<P>
+<P CLASS="L">- Afegiu al paquet les activitats <B>camel6.puz</B>, <B>cocodri6.puz</B>, <B>foca6.puz</B>, <B>mariet6.puz</B>, <B>misi6.puz</B>, i <B>tortug6.puz</B> (en podríem posar més però per simplificar la pràctica ens limitarem a aquests sis trencaclosques).<P>
+<P CLASS="L">- Confirmeu les modificacions fetes al paquet i enregistreu-lo canviant-li el nom per <B>ANIPUZEN.PAC</B>.<P>
+<P CLASS="L">- Feu clic a la fletxa d'avançar en el paquet per passar a la primera activitat: <B>CAMEL6.PUZ</B>. Editeu-la amb CTRL+E i modifiqueu el <B>missatge inicial</B> per tal que digui:<P>
+<P CLASS="LiteralL">The camel lives in the desert</P>
+<P CLASS="L">&nbsp; ... i al <B>missatge final</B>:<P>
+<P CLASS="LiteralL">How hot it is!</P>
+<P CLASS="L">- Feu clic al botó <B>Opcions</B> i després a <B>Copiar estil de</B>. Seleccioneu el fitxer <B>PORTADA1.ASS</B> i confirmeu. Això farà que l'activitat es mostri amb el tipus de lletra que havíem seleccionat per a la primera activitat.<P>
+<P CLASS="L">- Enregistreu l'activitat amb <B>Majúscules+F12</B> i passeu a la següent.<P>
+<P CLASS="L">- Ara es tractaria d'anar fent el mateix amb la resta d'activitats del paquet. Aquí hi teniu una proposta de traducció per als missatges:<BR>
+&nbsp;<BR>
+<TABLE WIDTH="90%" BORDER="1" CELLSPACING="0" CELLPADDING="5" BORDERCOLOR="#800080">
+<TR>
+	<TD>Un cocodril està nedant!</TD>
+	<TD>The crocodile takes a bath!</TD>
+</TR>
+<TR>
+	<TD>Aquest animal és polar<BR>Quin fred! Molt bé!</TD>
+	<TD>This animal lives near the pole<BR>How cold it is! Good!</TD>
+</TR>
+<TR>
+	<TD>Quin bitxo és aquest?<BR>Molt bé! És una marieta!</TD>
+	<TD>What kind of bug is it?<BR>Good! It's a ladybird!</TD>
+</TR>
+<TR>
+	<TD>Aquest animal no té son</TD>
+	<TD>This animal is not sleepy</TD>
+</TR>
+<TR>
+	<TD>Això és una tortuga!</TD>
+	<TD>This is a turtle!</TD>
+</TR>
+</TABLE>	
+&nbsp;<BR>
+<P>
+<P CLASS="L">- Quan hagueu modificat i enregistrat la darrera activitat tanqueu el Clic i poseu en marxa el <B>ClicPac</B>.<P>
+<P CLASS="L">- Busqueu la carpeta <B>ANIMALS</B> dins de la pràctica del mòdul 4.<P>
+<P CLASS="L">- Seleccioneu el fitxer <B>ANIPUZEN.PAC</B>. El ClicPac buscarà tots els elements que intervenen en aquest paquet.<P>
+<P CLASS="L">- Feu clic en el botó <B>Compactar</B> i després a <B>Crear el paquet compacte</B>.<P>
+<P CLASS="L">- Els fitxers independents (activitats, textos, imatges...) es troben ara duplicats dins del paquet PCC, per la qual cosa el ClicPac ens demana si els volem esborrar del disc dur. Responeu-li també que <B>Sí</B> i així estalviarem espai.<P>
+Tot i que el ClicPac ha esborrat els fitxers que han passat a formar part del paquet compacte, encara queden a la carpeta els materials que eren a TRENCACL.PCC i no han estat utilitzats. Per esborrar-los caldria obrir l'<B>Explorador del Windows</B>, buscar la carpeta ANIMALS dins de les pràctiques del mòdul 4 i esborrar <B>tots els fitxers</B> que hi hagi <B>excepte ANIPUZEN.PCC</B>.<P>
+Per completar la pràctica hauríeu de modificar la icona que l'instal·lador ha creat al <B>Menú Inici</B> del Windows per tal que la seva línia d'ordres apunti al fitxer ANIPUZEN.PCC.<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="p4.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="p2.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

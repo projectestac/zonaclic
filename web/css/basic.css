@@ -248,9 +248,13 @@ LI {
 	background-color:#FFFFCC;
 	border:thin solid #FFCC00;
 	padding: 7px;
-	visibility: hidden;
-	display:none;
 }
+
+.amagat {
+	visibility: hidden;
+	display: none;
+}
+
 .avislpi{
 	color:#8F8F8F;
 	font-size:0.85em;

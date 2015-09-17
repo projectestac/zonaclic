@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicInstall title="Demo JClic español" authors="Francesc Busquets" folder="demo_esp">
+ <file src="demo.jclic.zip" />
+ <file src="demo.jclic.inst" />
+ <file src="nuria.wav" />
+ <file src="scratch.png" />
+ <file src="scratch.xml" />
+ <file src="zebra.avi" />
+ <file src="muybien.wav" />
+ <shortcut project="demo.jclic.zip" text="Demo JClic español" description="Actividades de demostración de JClic" />
+</JClicInstall>
+

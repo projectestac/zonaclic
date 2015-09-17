@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Los paquetes de actividades</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Los paquetes de actividades</H1>
+Los paquetes son esencialmente una lista de actividades Clic que se irán presentando al usuario una detrás de la otra. El montaje de un paquete acostumbra a ser el último paso en la creación de una aplicación Clic, una vez elaboradas sus actividades.<P>
+&nbsp;<BR>
+<IMG SRC="paquet.gif" WIDTH=500 HEIGHT=370 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+El funcionamiento de un paquete de actividades se controla a partir de cuatro parámetros básicos:<P>
+<P CLASS="L">- La lista de actividades que se presentarán al usuario. Esta lista se construye a partir de las actividades existentes en la carpeta de trabajo mediante los botones <B>Añadir</B> y <B>Eliminar</B>.<P>
+<P CLASS="L">- El mecanismo utilizado para pasar de una actividad a otra: Normalmente el usuario puede hacer clic en los botones de paso de actividad (las flechas para avanzar o retroceder en el paquete), pero si se marca la casilla de <B>paso automático</B> el programa avanzará a la siguiente actividad al terminar, con la posibilidad de dejar un cierto retraso de tiempo entre una y otra. Si se activa el paso automático y se desmarca la casilla <B>Botones de paso de actividad</B> se obtiene un paquete cerrado donde el usuario tendrá que resolver obligatoriamente cada una de las actividades propuestas para llegar al final. Esta técnica sólo se debería utilizar en casos muy puntuales: Normalmente es preferible combinar el paso automático con los botones para no dar al alumno la sensación de callejón sin salida cuando se encuentre con alguna actividad que no sea capaz de resolver.<P>
+<P CLASS="L">- El aspecto visual del paquete: Si los botones de paso de actividad tienen que ir juntos o separados, si se tienen que mostrar o no los botones Disco y Puerta, o si hay que advertir al usuario de que el paquete necesita una pantalla de 800 x 600 o 256 colores cuando intente utilizarlo en condiciones inferiores.<P>
+<P CLASS="L">- El <B>encadenamiento</B> con otros paquetes de actividades permite definir circuitos que retornan a un menú de opciones o avanzan según el grado de acierto del alumno. Hay tres tipos de encadenamiento de paquetes:<P>
+<P CLASS="L2">- El encadenamiento <B>por defecto</B> indica el paquete que se pondrá en marcha de manera automática cuando acabe el actual.<P>
+<P CLASS="L2">- El encadenamiento <B>inferior</B> hace que se pase a un paquete distinto (se supone que más fácil que el actual) cuando no se alcance una precisión mínima, o si se supera un cierto margen de tiempo.<P>
+<P CLASS="L2">- El encadenamiento <B>superior</B> está pensado para ir a un paquete más complejo cuando el alumno supere un determinado umbral de puntuación en un tiempo razonable.<P>
+El mecanismo de cálculo de las puntuaciones que utiliza Clic para decidir los encadenamientos inferior y superior corresponde al concepto de <B>precisión</B> utilizado en los informes, que se explica más adelante.<P>
+<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t3.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="t1.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

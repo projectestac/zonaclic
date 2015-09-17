@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicInstall title="Attività dimostrative di JClic" authors="Roberto Marcolin" folder="demo_it">
+ <file src="demo_it.jclic.zip" />
+ <file src="demo_it.jclic.inst" />
+ <shortcut project="demo_it.jclic.zip" text="Attività dimostrative di JClic" description="" icon="" />
+</JClicInstall>
+

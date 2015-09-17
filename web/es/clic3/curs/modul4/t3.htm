@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>La utilidad ClicPac</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>La utilidad ClicPac</H1>
+Tal como se vio al principio del curso, los paquetes Clic se pueden presentar en dos formatos distintos: Los <B>paquetes abiertos</B> (extensión PAC) y los <B>paquetes compactos</B> (extensión PCC). La diferencia fundamental entre los dos tipos de paquetes se da en el tipo de información que reside en los archivos: Los PAC contienen sólo referencias a los nombres de las actividades (podríamos decir que son como la lista de la compra), mientras que los PCC contienen la mayor parte de los ingredientes necesarios para hacerlas funcionar (siguiendo la analogía anterior, serían el equivalente al cesto con la compra). Los archivos multimedia no se pueden poner nunca en el "cesto" y tienen que quedar como elementos independientes en la carpeta de trabajo.<P>
+Cuando se utiliza un paquete compacto (PCC) quedan inhabilitadas todas las funciones de edición de las actividades. Para repasar la "lista de la compra" y examinar o modificar lo que contiene hay que abrir el "cesto" y extraer su contenido.<P>
+El formato compacto (PCC) es idóneo para distribuir las aplicaciones Clic una vez acabadas. Presenta dos ventajas claras con respecto al formato abierto:<P>
+<P CLASS="L">- Protege a los materiales de modificaciones accidentales o voluntarias por parte de los alumnos.<P>
+<P CLASS="L">- Facilita el transporte del material de un ordenador a otro, ya que la mayoría de ingredientes se encuentran integrados en un único archivo.<P>
+La utilidad <B>ClicPac</B>, que se instala con Clic, sirve tanto para empaquetar paquetes abiertos como para desempaquetar paquetes compactos.<P>
+&nbsp;<BR>
+<IMG SRC="esquema.gif" WIDTH=507 HEIGHT=484 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<H2>Compactación de paquetes</H2>
+Éstos son los pasos a seguir para compactar un paquete:<P>
+<P CLASS="L">- Poner en marcha el programa <B>ClicPac</B>. Se mostrará una pantalla como ésta:<BR>
+&nbsp;<BR>
+<IMG SRC="scrclicpac1.gif" WIDTH=500 HEIGHT=376 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L">- Seleccionar en la parte superior de la pantalla el tipo <B>Paquetes Clic normales (*.PAC)</B><P>
+<P CLASS="L">- Buscar en las listas de unidades y carpetas la ubicación de la aplicación que se desea compactar.<P>
+<P CLASS="L">- Seleccionar el archivo correspondiente al paquete principal. El programa analizará las dependencias entre los diversos ingredientes de la aplicación, y si detecta algún error (por ejemplo, una llamada a un archivo inexistente) lo comunicará. Si hay errores hay que cerrar ClicPac, revisar la actividad que los ha provocado, solucionarlos y volver a empezar.<P>
+<P CLASS="L">- Hacer clic en el botón <B>Compactar</B>.<P>
+<P CLASS="L">- En la pantalla que aparece a continuación se muestra a la izquierda la lista de todos los archivos que pasarán a formar parte del paquete compacto, y a la derecha la de los que quedarán excluidos (archivos WAV, MID, AVI, DLL...):<BR>
+&nbsp;<BR>
+<IMG SRC="scrclicpac2.gif" WIDTH=500 HEIGHT=262 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L">- Hacer clic en el botón <B>Crear el paquete compacto</B>.<P>
+<P CLASS="L">- Al terminar el proceso el programa pide si se desea borrar los ingredientes que han pasado a formar parte del paquete compacto. Es recomendable responder que sí, ya que con ello evitamos ocupar espacio de disco con archivos duplicados que no se utilizan.<P>
+<H2>Descompactación de paquetes</H2>
+Para descompactar un paquete hay que seguir un proceso similar:<P>
+<P CLASS="L">- Poner en marcha <B>ClicPac</B>.<P>
+<P CLASS="L">- Seleccionar en la parte superior izquierda de la ventana la opción <B>Paquetes Clic compactos (*.PCC)</B><P>
+<P CLASS="L">- Buscar en las listas de unidades y carpetas la ubicación de la aplicación que se desea descompactar.<P>
+<P CLASS="L">- Seleccionar el archivo PCC.<P>
+<P CLASS="L">- Hacer clic en el botón <B>descompactar</B>. Aparecerá una ventana con la lista de los archivos contenidos en el archivo PCC.<BR>
+&nbsp;<BR>
+<IMG SRC="scrclicpac3.gif" WIDTH=300 HEIGHT=208 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L">- Hacer clic en el botón <B>Extraer</B>. ClicPac creará los archivos como unidades independientes en la carpeta de trabajo.<P>
+Como paso final se recomienda <B>borrar el archivo PCC</B>, ya que no es necesario conservarlo una vez convertida la aplicación al formato PAC. Para borrar el archivo hay que utilizar al explorador de Windows.<P>
+Algunas observaciones sobre el proceso de compactar y descompactar paquetes:<P>
+<P CLASS="L">- Si se descompacta un paquete directamente desde un CD-ROM o una unidad de red con derechos "Sólo de lectura" será necesario seleccionar una ubicación alternativa donde ClicPac pueda escribir sin restricciones.<P>
+<P CLASS="L">- Los iconos que crean los instaladores de las actividades Clic en el menú "Inicio" o en el Administrador de programas de Windows acostumbran a apuntar a un archivo PCC. Si una vez descompactado se elimina el PCC (tal como se sugiere en las instrucciones) el icono dejará de funcionar. Será preciso modificar las propiedades del acceso directo a fin de que apunte directamente al archivo PAC. En Windows 95/98 los accesos directos acostumbran a encontrarse en la carpeta C:\Windows\Menú Inicio\Programas\Clic<P>
+Durante el proceso de creación de actividades es normal que se vayan haciendo pruebas y creando diferentes archivos que puede que al final no se utilicen. ClicPac ofrece la posibilidad de hacer limpieza copiando a una carpeta vacía solamente los archivos que realmente utiliza un determinado paquete de actividades. El proceso a seguir es:<P>
+<P CLASS="L">- Crear una carpeta nueva y darle un nombre diferente a la que se ha utilizado para crear las actividades.<P>
+<P CLASS="L">- Activar la utilidad <B>ClicPac</B>, seleccionar el paquete de actividades y utilizar el botón <B>Copiar</B> para trasladar los archivos necesarios a la nueva carpeta.<P>
+<P CLASS="L">- Borrar la carpeta original de la aplicación.<P>
+A partir de ahora la carpeta "buena" será la nueva, que contendrá sólo los ingredientes realmente utilizados por el paquete de actividades.<P>
+<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t4.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="t2.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

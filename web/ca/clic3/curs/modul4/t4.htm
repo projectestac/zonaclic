@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>El sistema d'informes del Clic</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>El sistema d'informes del Clic</H1>
+La versió 3.0 del Clic permet fer un seguiment detallat dels resultats obtinguts pels alumnes en cadascuna de les activitats que realitzen.<P>
+Els ítems avaluats són:<P>
+<P CLASS="L">- El <B>temps</B> emprat<P>
+<P CLASS="L">- El nombre d'<B>intents</B> fets<P>
+<P CLASS="L">- El nombre d'<B>encerts</B> obtinguts<P>
+<P CLASS="L">- Si finalment s'ha <B>resolt</B> o no l'activitat<P>
+<P CLASS="L">- La <B>precisió</B> obtinguda. Aquest valor es calcula de la següent manera:<P>
+<P CLASS="Enum2">a)	Primer es calcula el nombre mínim d'intents necessaris per a resoldre l'activitat, que anomenem "n".<P>
+<P CLASS="Enum2">b)	Si s'ha resolt l'activitat es divideix "n" entre el nombre d'intents que ha fet l'usuari.<P>
+<P CLASS="Enum2">c)	Si no s'ha arribat a resoldre es divideix el quadrat dels encerts pel producte entre "n" i els intents fets.<P>
+<P CLASS="L">&nbsp; En ambdós casos el resultat obtingut es multiplica per 100 per tal d'expressar-lo en forma de percentatge.<P>
+Activant el menú <B>Informes - Informe de la sessió actual</B> s'accedeix a una finestra on es mostra una llista amb el valor d'aquests cinc ítems per a cadascuna de les activitats fetes. A la part inferior hi ha un resum de la sessió, amb els totals i la mitjana de precisió obtinguda.<P>
+Hi ha determinades activitats que no s'avaluen mai ni es tenen en compte per als totals i les mitjanes: són les pantalles d'informació, les associacions d'exploració i, en general, totes aquelles on s'hagi desmarcat la casella <B>Incloure als informes d'usuari</B> en les <B>Opcions de l'activitat</B>. És important desmarcar aquesta casella quan es creen activitats que no té sentit que comptin per a l'informe global: per exemple, una associació que s'utilitza com a menú per a seleccionar entre diferents paquets (com ara el fitxer MENUACT.ASS de la demo del Clic), o una activitat de text que es fa servir només de suport per a presentar una informació (per exemple, el fitxer NOU02.TXA de la demo).<P>
+Els informes es poden anar registrant en una <B>base de dades</B>. El sistema pot funcionar en xarxa, de manera que els resultats s'acumulin en una base comuna a tota l'aula independentment del lloc on s'hagi assegut l'alumne en cada sessió de treball. A l'annex del <B>manual del Clic</B> hi ha instruccions detallades per a configurar el sistema d'informes en una xarxa local.<P>
+Per activar l'enregistrament en la base de dades cal anar a les <B>Opcions globals</B> i marcar la casella <B>Registrar informes d'activitat</B>. També cal indicar la ubicació del fitxer on s'emmagatzemarà la informació, que normalment s'anomena <B>CLICDB.MDB</B> i es troba a la carpeta del Clic o, si l'ordinador treballa en xarxa, en una carpeta compartida amb drets d'escriptura.<P>
+<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t5.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="t3.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

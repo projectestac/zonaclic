@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Els paquets d'activitats</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Els paquets d'activitats</H1>
+Els paquets són, bàsicament, una llista d'activitats Clic que s'aniran presentant a l'usuari una darrera l'altra. El muntatge d'un paquet acostuma a ser el darrer pas en la creació d'una aplicació Clic, un cop s'han elaborat i emmagatzemat a la carpeta de treball les activitats que en formaran part.<P>
+&nbsp;<BR>
+<IMG SRC="paquet.gif" WIDTH=500 HEIGHT=370 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+El funcionament d'un paquet d'activitats es controla a partir de quatre paràmetres bàsics:<P>
+<P CLASS="L">- La <B>llista d'activitats</B> que s'hauran de presentar a l'usuari, que es construeix a partir de les activitats existents a la carpeta de treball mitjançant els botons <I>Afegir</I> i <I>Eliminar</I>.<P>
+<P CLASS="L">- El mecanisme emprat per a passar d'una activitat a l'altra: normalment l'usuari ha de fer clic en els botons de pas d'activitat (les <I>fletxes</I>) per avançar o retrocedir en el paquet, però si es marca la casella de <B>pas automàtic</B> el programa passa a la següent activitat un cop acabada la que s'estigui fent, amb la possibilitat de deixar un cert <B>retard</B> de temps entre una i l'altra. Si s'activa el pas automàtic i es desmarca la casella <B>Botons de pas d'activitat</B> s'obté un paquet tancat on l'usuari haurà de resoldre obligatòriament cadascuna de les activitats proposades per arribar al final. Aquesta tècnica només s'hauria d'emprar en casos molt puntuals: normalment és preferible combinar el pas automàtic amb els botons per no donar a l'alumne la sensació de carreró sense sortida quan es trobi amb alguna activitat que no sigui capaç de resoldre.<P>
+<P CLASS="L">- L'<B>aspecte visual</B> del paquet: si els botons de pas d'activitat han d'anar junts o separats a dreta i esquerra, si s'han de mostrar o no els botons <I>Disc</I> i <I>Porta</I>, o si cal advertir a l'usuari que el paquet necessita una pantalla de 800x600 o 256 colors en cas que intenti utilitzar-lo en condicions inferiors.<P>
+<P CLASS="L">- L'<B>encadenament</B> amb altres paquets d'activitats permet definir circuits que retornen a un menú d'opcions o avancen segons el grau d'encert de l'alumne. Hi ha tres tipus d'encadenament de paquets:<P>
+<P CLASS="L">- L'encadenament <B>per defecte</B> indica el paquet que s'engegarà de manera automàtica quan acabi el que s'està utilitzant.<P>
+<P CLASS="L">- L'encadenament <B>inferior</B> fa que es passi a un paquet diferent (se suposa que més fàcil que l'actual) quan no s'arribi a assolir una precisió mínima, o si se supera un cert marge de temps.<P>
+<P CLASS="L">- L'encadenament <B>superior</B> hauria de portar a un paquet més complex quan l'alumne superi un determinat llindar de puntuació en un temps raonable.<P>
+El mecanisme de càlcul de les puntuacions que utilitza el Clic per a decidir els encadenaments inferior i superior correspon al concepte de <B>precisió</B> emprat en els informes, que s'explica més endavant.<P>
+<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t3.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="t1.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

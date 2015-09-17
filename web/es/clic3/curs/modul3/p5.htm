@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Práctica 5</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY BGCOLOR="White" TEXT="Black" LINK="Blue" VLINK="Purple" ALINK="Red">
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul3.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Práctica 5<BR>Creación de un dictado</H1>
+Esta actividad será similar a la que se encuentra en el paquete de demostración de Clic (TXA06.TXA). Grabaremos un archivo de sonido con la lectura de un texto y prepararemos una actividad del tipo rellenar agujeros, donde las incógnitas serán las frases del documento que hemos grabado precedidas de una casilla que activará el fragmento de sonido correspondiente.<P>
+En las actividades realizadas hasta ahora se ha utilizando a menudo la activación de un archivo WAV escribiendo su nombre entre claves. En este caso nos interesará la reproducción de un determinado fragmento de sonido para cada frase, que obtendremos añadiendo las expresiones <B>from</B> (desde) y <B>to</B> (hasta) detrás del nombre del archivo. Estas palabras deben ir seguidas de una cifra que indica una posición en el archivo de sonido, expresada en milisegundos. En la página 26 del manual del Clic 3.0 se explican los detalles de esta técnica.<P>
+Para grabar el sonido se puede utilizar cualquier programa especializado, como CoolEdit 96 shareware (que se puede descargar desde la sección de recursos del "racó del Clic").<P>
+<P CLASS="L">- Ponga en marcha el programa de edición de sonidos y prepare una nueva grabación. Con CoolEdit 96 eso se hace mediante el menú <B>File - New</B>. Para obtener una calidad suficiente sin que el archivo acabe ocupando un espacio excesivo le recomendamos fijar las propiedades de la grabación a <B>11.025 Hz</B>, <B>mono</B> y <B>16 bits</B>.<P>
+<P CLASS="L">- Ajuste el volumen del micrófono con el mezclador de Windows y grabe la lectura de este texto:<P>
+<P CLASS="LiteralL">
+En 1990 empieza el actual movimiento del Comercio Justo, que cuenta con más de 3.000 tiendas en Europa.<BR>
+Su principio fundamental es garantizar a los productores del sur una compensación justa por su trabajo. Para conseguirlo compran los productos directamente a los campesinos y a los artesanos.<BR>
+Los artículos respetan así las garantías sociales: han sido elaborados sin trabajo esclavizado ni abuso del medio ambiente.<BR>
+</P>
+<P CLASS="L">- Compruebe que el volumen de la grabación esté a un nivel correcto (con CoolEdit le recomendamos normalizarlo a un 90% del volumen máximo mediante el menú <B>Transform - Amplitude - Normalize</B>) y recortar las colas de silencio que puedan haber quedado al principio y al final. Guarde el archivo con el nombre <B>DICTADO.WAV</B> en la carpeta de prácticas del módulo 3.<P>
+<P CLASS="L">- Ahora debería anotar en una hoja los intervalos de tiempos correspondientes a cada frase, expresados en milisegundos. Con CoolEdit 96 se pueden observar fácilmente estos valores siguiendo este método:<P>
+<P CLASS="L2">- Marque el bloque de sonido que contiene la frase haciendo clic al principio y arrastrando el puntero del ratón hasta el final.<P>
+<P CLASS="L2">- Pulse la tecla Espacio para escuchar el bloque seleccionado. Si fuera necesario ajuste el inicio y/o el final del bloque arrastrándolo con el botón derecho del ratón. Cuando el bloque seleccionado coincida con la frase que busca fíjese en los valores BEG y END que aparecen abajo a la derecha:<BR>
+&nbsp;<BR>
+<IMG SRC="cooledit1.gif" WIDTH=618 HEIGHT=386 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L2">&nbsp; En este ejemplo el fragmento seleccionado empieza a 15.396 milisegundos y acaba en 20.830.<P>
+<P CLASS="L">- Éstas son las frases cuyos intervalos hay que anotar:
+&nbsp;<BR>
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="5" BORDERCOLOR="#800080">
+<TR CLASS="CTaula">
+	<TD CLASS="CTaula">Frase</TD>
+	<TD CLASS="CTaula" ALIGN="right">Inicio</TD>
+	<TD CLASS="CTaula" ALIGN="right">Final</TD>
+</TR>
+<TR>
+	<TD>En 1990 empieza el actual movimiento del Comercio Justo</TD>
+	<TD ALIGN="right">0</TD>
+	<TD ALIGN="right">3942</TD>
+</TR>
+<TR>
+	<TD>Que cuenta con más de 3.000 tiendas en Europa</TD>
+	<TD ALIGN="right">3942</TD>
+	<TD ALIGN="right">7458</TD>
+</TR>
+<TR>
+	<TD>Su principio fundamental es garantizar a los productores del sur una compensación justa por su trabajo</TD>
+	<TD ALIGN="right">8204</TD>
+	<TD ALIGN="right">14544</TD>
+</TR>
+<TR>
+	<TD>Para conseguirlo compran los productos directamente a los campesinos y a los artesanos</TD>
+	<TD ALIGN="right">15396</TD>
+	<TD ALIGN="right">20883</TD>
+</TR>
+<TR>
+	<TD>Los artículos respetan así las garantías sociales</TD>
+	<TD>21256</TD>
+	<TD>24932</TD>
+</TR>
+<TR>
+	<TD>han sido elaborados sin trabajo esclavizado ni abuso del medio ambiente</TD>
+	<TD>25039</TD>
+	<TD>29940</TD>
+</TR>
+</TABLE>
+<P CLASS="L">
+&nbsp;<BR>
+<B>ATENCIÓN:</B> Los valores que aparecen en la tabla se muestran a título de ejemplo. Se han obtenido en una grabación de prueba y no tienen porqué coincidir con los suyos.<P>
+&nbsp;<P>
+<P CLASS="L">- Una vez anotadas estas posiciones ya puede cerrar al editor de sonidos y poner en marcha Clic.<P>
+<P CLASS="L">- Cree una nueva <B>actividad de texto</B> en la carpeta de prácticas del módulo 3 y cambie la modalidad al tipo <B>Rellenar agujeros</B>.<P>
+<P CLASS="L">- Haga clic en el botón <B>Opciones</B> y copie el estilo de la actividad COMJUST1.TXA. Antes de cerrar la ventana de opciones active la casilla <B>Imagen</B> de la zona <B>Ventana principal</B>.<P>
+<P CLASS="L">- Inserte una <B>casilla</B> al principio del documento con unas dimensiones de 400 x 50, sin Marco ni Texto centrado y con el texto:<P>
+<P CLASS="LiteralL">COMERCIO JUSTO</P>
+<P CLASS="L">- Inserte un salto de párrafo detrás de la casilla y escriba el texto del dictado, tal como se muestra al inicio de la práctica.<P>
+<P CLASS="L">- Guárdela con el nombre <B>COMJUST2.TXA</B>.<P>
+<P CLASS="L">- Sitúe el cursor delante de la primera "E" del texto e inserte una <B>casilla</B> con unas dimensiones de 60 x 40, sin marco y con este texto:<P>
+<P CLASS="LiteralL">{dictado.wav from 0 to XXX}</P>
+<P CLASS="L">&nbsp; ...substituyendo "XXX" por el valor que ha anotado anteriormente como final de la primera frase. Los valores se deben escribir sin puntos ni comas separadoras de millares: "3.942" sería una expresión incorrecta que deberíamos cambiar por "3942".<P>
+<P CLASS="L">- Confirme la operación y compruebe el funcionamiento de la casilla en la actividad. Habrá observado que Clic hace aparecer el dibujo de un altavoz, que es el icono predeterminado para las casillas dónde sólo hay un archivo de sonido:<BR>
+&nbsp;<BR>
+<IMG SRC="icowave.gif" WIDTH=63 HEIGHT=39 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+Este icono resulta demasiado grande para las actividades de texto. En su lugar podríamos utilizar otro dibujo más pequeño, que se encuentra en el archivo <B>minialt.gif</B> (incluido en los materiales del ZIP de esta práctica):<BR>
+&nbsp;<BR>
+<IMG SRC="minialt.gif" WIDTH=16 HEIGHT=16 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L">- Edite la actividad y haga clic en la casilla que contiene el altavoz. Cambie las dimensiones a <B>30</B> puntos de anchura por <B>20</B> de altura y modifique el texto añadiendo la referencia en el archivo GIF:<P>
+<P CLASS="LiteralL">{minialt.gif}{dictado.wav from 0 to XXX}</P>
+<P CLASS="L">- Confirme el cambio y compruebe el aspecto que tiene ahora la casilla.<P>
+<P CLASS="L">- Edite de nuevo la actividad y marque toda la frase, desde la "E" inicial hasta la "o" de Justo, procurando que la casilla y la coma final queden fuera del bloque seleccionado. Cuando lo tenga seleccionado haga clic en la casilla de <B>creación de incógnitas</B> (lápiz), aumente el <B>número máximo de caracteres</B> a 60 (conviene aumentarlo para no bloquear la incógnita si el usuario comete algún error) y reduzca el <B>espacio inicial de respuesta</B> a 1.<P>
+<P CLASS="L">- Compruebe el funcionamiento de la actividad tal como está ahora, y vuelva después a la ventana de edición.<P>
+<P CLASS="L">- Ahora deberíamos crear la segunda incógnita, pero antes haremos una modificación que nos simplificará el trabajo: haga clic en el botón <B>Opciones</B> y modifique las dimensiones de la <B>Ventana B</B> a <B>30 x 20</B>. En las actividades de texto no hay "ventana B", pero Clic utiliza sus dimensiones como valores por defecto al crear nuevas casillas.<P>
+<P CLASS="L">- Confirme el cambio en la ventana de opciones y sitúe el cursor frente a la "q" que está después de la coma y el espacio. Cree una nueva <B>casilla</B>, desactive la opción <B>con marco</B> y escriba este texto:<P>
+<P CLASS="LiteralL">{minialt.gif}{dictat.wav from XXX to YYY}<P>
+<P CLASS="L">&nbsp; ...substituyendo XXX e YYY por las posiciones inicial y final de la segunda frase en el archivo WAV.<P>
+<P CLASS="L">- Marque la frase desde la "q" de "que" hasta la "a" final de "Europa", dejando el punto fuera del bloque seleccionado. Cree una nueva incógnita aumentando el número máximo de caracteres y reduciendo el espacio inicial de respuesta a 1.<P>
+<P CLASS="L">- Confirme y continúe creando casillas e incógnitas para el resto de frases. Recuerde dejar fuera de los bloques de incógnita los signos de puntuación: eso ayudará a los alumnos a contextualizar cada frase.<P>
+<P CLASS="L">- Escriba en <B>Mensaje inicial</B> este texto:<P>
+<P CLASS="LiteralL">Escribe este dictado. Para escuchar los fragmentos de texto hay que hacer clic en los altavoces.</P>
+<P CLASS="L">&nbsp; ... Y añada un <B>Mensaje final</B> de felicitación.<P>
+<P CLASS="L">- Compruebe el funcionamiento de la actividad. Observe que Clic es capaz de detectar la mayoría de errores que se puedan producir dentro de las respuestas, indicando al alumno dónde se encuentra la expresión que provoca el error. Eso es debido que en las <B>Opciones de evaluación</B> (boto "dedo") tenemos marcada la función <B>Indicar los errores letra a letra</B>.<P>
+Para acabar la práctica podríamos hacer que el alumno lea el texto entero antes de empezar el ejercicio:<P>
+<P CLASS="L">- Edite la actividad y entre en las <B>opciones de evaluación</B> (botón "dedo").<P>
+<P CLASS="L">- Marque las casillas <B>Mostrar antes de empezar</B> y <B>Mostrar el texto original</B>.<P>
+<P CLASS="L">- En la caja <B>Mensaje inicial</B> escriba:<P>
+Ahora haremos un dictado. Lee el texto y cuando acabes haz clic para empezar el ejercicio.<P>
+<P CLASS="L">- Ponga el <B>tiempo máximo</B> a cero y confirme las modificaciones.<P>
+<P CLASS="L">- Compruebe el funcionamiento de la actividad y guárdela otra vez con el mismo nombre: <B>COMJUST2.TXA</B><P>
+Algunas sugerencias complementarias para mejorar el funcionamiento de la actividad:<P>
+En la segunda frase también se podría considerar correcto escribir el número 3.000 en letras ("tres mil"). Podríamos editar la incógnita y asignarle una solución alternativa, separándola de la original con una barra vertical. El texto de la respuesta correcta quedaría así:<P>
+<P CLASS="LiteralL">Que cuenta con más de 3.000 tiendas en Europa|que cuenta con más de tres mil tiendas en Europa</P>
+Hay que asegurarse de que el número máximo de caracteres de esta incógnita permite escribir la segunda respuesta.<P>
+Se podría hacer que los fragmentos de sonido se pusieran en marcha automáticamente al entrar en cada incógnita, sin que fuera necesario hacer clic en las casillas de los altavoces. Para conseguir eso habría que editar las incógnitas, activar la casilla <B>Ventana de información</B>, escribir el texto:<P>
+<P CLASS="LiteralL">{dictado.wav from XXX to YYY}</P>
+...y marcar la casilla <B>Sólo interpretar</B>, que hará que se escuche el WAV sin que se muestre visualmente ninguna ventana adicional.<P>
+<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="p6.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT" ALT=""></A>
+<A HREF="p4.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>
