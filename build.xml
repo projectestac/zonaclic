@@ -115,7 +115,7 @@
       <property name="build.acc.dir"  location="${build.dir}/acc" />
       <property name="build.prod.dir" location="${build.dir}/prod" />
 
-      <property name="int.base"       value="http://clic-int.educacio.intranet:7792" />
+      <property name="int.base"       value="http://integracio.clic.xtec.cat" />
       <property name="acc.base"       value="http://clic-acc.xtec.cat" />
       <property name="prod.base"      value="http://clic.xtec.cat" />
 
@@ -354,7 +354,7 @@
   <!-- =================================================================== -->
   <!-- gali.ear: Gali EAR file -->
   <!-- =================================================================== -->
-  <target name="gali.ear" depends="gali.war,reportsWebApp" description="Builds the EAR of gali">
+  <target name="gali.ear" depends="gali.war,reportsWebApp.war" description="Builds the EAR of gali">
     <delete dir="${build.prod.dir}/reportsWebApp.war-base"/>
     <sleep seconds="3" />
     <ear destfile="${dist.prod.dir}/e13_gali.ear"
