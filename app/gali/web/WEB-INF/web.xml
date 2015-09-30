@@ -57,7 +57,8 @@
     </context-param>
     <context-param>
         <param-name>checkIdentUrl</param-name>
-        <param-value>http://aplitic.xtec.cat/e13_colex/validate.jsp</param-value>
+        <param-value>READ_FROM_DATABASE</param-value>
+        <description>http://aplitic.xtec.cat/e13_colex/validate.jsp</description>
     </context-param>
     <context-param>
         <param-name>reporterName</param-name>

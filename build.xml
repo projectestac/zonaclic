@@ -302,6 +302,9 @@
     <copy todir="${app.dir}/gali/web/WEB-INF/classes/gali/resources">
         <fileset dir="${app.dir}/gali/src/java/gali/resources" />
     </copy>
+    <copy todir="${app.dir}/gali/web/WEB-INF/classes/gali">
+        <fileset dir="${app.dir}/gali/src/java/gali" includes="*.properties" />
+    </copy>
   </target>
 
   <target name="gali.war" depends="gali" description="Builds the WAR of Gali">
