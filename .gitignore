@@ -30,6 +30,8 @@ private/
 # Directories with intermediate files #
 netbeans/
 .nbattrs
+.classpath
+.project
 
 # Directories with non redistribuable files #
 lib/bootstrap/

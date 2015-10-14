@@ -6,10 +6,23 @@ if(!b.init(request, response, "ca")){
   if(msg==null || msg.length()==0){
     msg="ERROR DESCONEGUT";
   }
-}
-else {
-  java.io.File testFile=new java.io.File("/j2ee/e13_clic/web/index.htm");
+} else { 
+  String sPath = edu.xtec.web.clic.Context.cntx.getProperty("staticFilesPath"); 
+  String sEnv = edu.xtec.web.clic.Context.cntx.getProperty("environment");
+  if (request.getParameter("env") != null) {
+    sEnv = (String)request.getParameter("env");
+    sEnv = sEnv.toUpperCase();
+    if (sEnv.equals("INT")) {
+      sPath = "/serveis/dades/int/NAS01/1057-1072/";
+    } else if (sEnv.equals("ACC") || sEnv.equals("PRE")) {
+      sPath = "/serveis/dades/pre/NAS01/1057-1072/";
+    } else {
+      sPath = "/j2ee/e13_clic/web/";
+    }
+  } 
+
+  java.io.File testFile=new java.io.File(sPath+"index.htm");
   if(!testFile.exists())
-      msg="ERROR: No es pot accedir al sistema de fitxers. Reviseu el punt de muntatge '/j2ee/e13_clic/web'";
+      msg="ERROR: No es pot accedir al sistema de fitxers. Reviseu el punt de muntatge '"+sPath+"'";
 }
 %><%=msg%>
