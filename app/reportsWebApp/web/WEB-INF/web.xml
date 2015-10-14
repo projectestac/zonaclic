@@ -16,8 +16,7 @@
     <context-param>
         <param-name>dbLogFile</param-name>
         <param-value>jclicReportsDBConnection.log</param-value>
-        <description> </description>
-        </context-param>
+    </context-param>
     <context-param>
         <param-name>dbDebugLevel</param-name>
         <param-value>2</param-value>

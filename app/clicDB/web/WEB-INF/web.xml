@@ -60,6 +60,16 @@
         <param-name>testKey</param-name>
         <param-value>READ_FROM_DATABASE</param-value>
     </context-param>
+    <context-param>
+        <param-name>environment</param-name>
+        <param-value>READ_FROM_DATABASE</param-value>
+        <description>PRO</description>
+        </context-param>
+    <context-param>
+        <param-name>staticFilesPath</param-name>
+        <param-value>READ_FROM_DATABASE</param-value>
+        <description>/j2ee/e13_clic/web/</description>
+        </context-param>
     <listener>
         <listener-class>edu.xtec.web.clic.Context</listener-class>
     </listener>
