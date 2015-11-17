@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="quadres2" version="0.1.3">
+ <settings>
+  <title>El museu de la meva escola</title>
+  <revision description="created" date="2/16/11" />
+  <revision description="Publicació a la zonaClic (http://clic.xtec.cat)" date="3/16/15">
+   <author name="Equip Clic" mail="clic@xtec.cat" organization="Àrea TIC - Departament d'Educació" />
+  </revision>
+  <author name="Sara Velasco Mesa" mail="svelasc2@xtec.cat" />
+  <organization name="Escola Santa Susanna" mail="a8028515@xtec.cat" url="http://www.xtec.cat/centres/a8028515" city="Santa Susanna" state="Catalunya" />
+  <language>català</language>
+  <description>
+   <p>Els nens i nenes de segon de primària de l'escola Santa Susanna han creat uns quadres i els han dibuixat amb el Paint. A més a més, han posat imaginació i s'han inventat un nom per les seves obres. Aquest JClic conté activitats on s'han de relacionar els quadres amb els noms corresponents, puzles o activitats de memòria.</p>
+  </description>
+  <descriptors area="Visual i plàstica" level="Infantil (3-6)">creativitat, dibuix, composició</descriptors>
+  <eventSounds>
+   <sound id="finishedOk" file="aplausos.mp3" />
+  </eventSounds>
+ </settings>
+ <sequence>
+  <item id="start" name="portada">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="Activitat 1" />
+  <item name="activitat 2" />
+  <item name="activitat 3" />
+  <item name="activitat 4" />
+  <item name="Activitat 5" />
+  <item name="activitat 6" />
+  <item name="activitat 7" />
+  <item name="activitat8" />
+  <item name="Activitat 9" />
+  <item name="activitat 10" />
+  <item name="activitat 11" />
+  <item name="activitat 12" />
+  <item name="ACTIVITAT 13" />
+  <item name="act.14" />
+  <item name="final. crèdits">
+   <jump action="RETURN" id="forward" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@memory.MemoryGame" name="ACTIVITAT 13" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="17" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFF3300" />
+     </style>
+     <p>Fes aquest memory</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="17" bold="true" />
+      <color background="0xCCCCFF" />
+     </style>
+     <p>Molt bé!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCCCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCC99FF" border="true" />
+    <eventSounds>
+     <sound id="actionError" file="sim693.mp3" />
+     <sound id="finishedOk" file="aplausos2.mp3" />
+    </eventSounds>
+   </settings>
+   <cells rows="2" cols="7" cellWidth="400.0" cellHeight="400.0" border="true" id="primary">
+    <style transparent="true" borderStroke="0.7" markerStroke="5.0">
+     <color inactive="0x0033FF" />
+    </style>
+    <shaper class="@Rectangular" cols="7" rows="2" />
+    <cell image="sense cadira.bmp" />
+    <cell image="la casa nevada.bmp" />
+    <cell image="La casa màgica.bmp" />
+    <cell image="món mala sort.png" />
+    <cell image="sorts.bmp" />
+    <cell image="Monstre dia i nit.bmp" />
+    <cell image="La casa encantada.bmp" />
+    <cell image="La casa encantada.bmp" />
+    <cell image="Monstre dia i nit.bmp" />
+    <cell image="sense cadira.bmp" />
+    <cell image="La casa màgica.bmp" />
+    <cell image="la casa nevada.bmp" />
+    <cell image="món mala sort.png" />
+    <cell image="sorts.bmp" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="Activitat 1" code="" inverse="true">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color foreground="0xFF0033" background="0xFFCCCC" />
+     </style>
+     <p>Relaciona aquests quadres amb el seu nom.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0x009999" background="0x00FFCC" />
+     </style>
+     <p>Molt bé!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x9999FF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCFF" border="true" />
+    <eventSounds>
+     <sound id="actionError" file="sim693.mp3" />
+     <sound id="finishedOk" file="aplausos2.mp3" />
+    </eventSounds>
+   </settings>
+   <cells rows="2" cols="2" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style>
+     <color background="0xCC99FF" inactive="0x0033FF" alternative="0xCC99FF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell id="0" image="Carnestoltes.bmp" />
+    <cell id="3" image="Casa al bosc.jpg" />
+    <cell id="1" image="Eines per pintar.bmp" />
+    <cell id="2" image="El cargol que passeja.bmp" />
+   </cells>
+   <cells rows="2" cols="2" cellWidth="200.0" cellHeight="200.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color foreground="0xCC0000" background="0xFFCCCC" inactive="0xFFCCCC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell>
+     <p>Carnestoltes</p>
+    </cell>
+    <cell>
+     <p>Eines per pintar</p>
+    </cell>
+    <cell>
+     <p>El cargol que passeja</p>
+    </cell>
+    <cell border="true">
+     <p>Casa al bosc</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="Activitat 5" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0xCC00FF" background="0xFFCCFF" />
+     </style>
+     <p>Fes el puzle d'aquest quadre.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0x660066" background="0xFFCCCC" />
+     </style>
+     <p>Fantàstic!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xCCFFCC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x66FF66" border="true" />
+    <eventSounds>
+     <sound id="actionError" file="sim693.mp3" />
+     <sound id="finishedOk" file="aplausos2.mp3" />
+    </eventSounds>
+   </settings>
+   <cells rows="3" cols="4" border="true" image="El vaixell navegador.bmp">
+    <style />
+    <shaper class="@Rectangular" cols="4" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="Activitat 9" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="17" bold="true" />
+      <color foreground="0xCC0000" background="0xFFCCCC" />
+     </style>
+     <p>Fes el puzle</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="17" bold="true" />
+      <color foreground="0x006600" background="0xCCFFCC" />
+     </style>
+     <p>Genial!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+    <eventSounds>
+     <sound id="actionError" file="sim693.mp3" />
+     <sound id="finishedOk" file="aplausos2.mp3" />
+    </eventSounds>
+   </settings>
+   <cells rows="3" cols="4" border="true" image="El mag de la sort.png">
+    <style />
+    <shaper class="@Rectangular" cols="4" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="act.14" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xCCFFCC" background="0x006633" />
+     </style>
+     <p>FINAL</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xCCFFCC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x66FF99" border="true" />
+    <eventSounds enabled="false" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="700.0" cellHeight="700.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell image="pinceles.bmp">
+     <style>
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x0000CC" background="0x9999FF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="sim653.mp3" autoStart="true" />
+     <p>FELICITATS!</p>
+     <p>JA HAS ARRIBAT AL FINAL!</p>
+     <p>Esperem que t'hagi agradat el nostre museu.</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="activitat 10" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="17" bold="true" />
+      <color foreground="0x336600" background="0xCCFFCC" />
+     </style>
+     <p>Relaciona aquests quadres amb els seus noms</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="17" bold="true" />
+      <color foreground="0x990000" background="0xFFCCCC" />
+     </style>
+     <p>Perfecte!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCCCCC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x660066" border="true" />
+    <eventSounds>
+     <sound id="actionError" file="sim693.mp3" />
+     <sound id="finishedOk" file="aplausos2.mp3" />
+    </eventSounds>
+   </settings>
+   <cells rows="2" cols="2" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color inactive="0x0033FF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="sense cadira.bmp" />
+    <cell image="món mala sort.png" />
+    <cell image="Monstre dia i nit.bmp" />
+    <cell image="la casa nevada.bmp" />
+   </cells>
+   <cells rows="2" cols="2" cellWidth="200.0" cellHeight="200.0" border="true" id="secondary">
+    <style>
+     <color foreground="0xCC0000" background="0xFFCCCC" inactive="0xFFCCCC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell>
+     <p>Sense cadira</p>
+    </cell>
+    <cell>
+     <p>Món mala sort</p>
+    </cell>
+    <cell>
+     <p>Monstre dia i nit</p>
+    </cell>
+    <cell>
+     <p>La casa nevada</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="activitat 11" code="" inverse="true">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="17" bold="true" />
+      <color foreground="0x669900" background="0xCCFFCC" />
+     </style>
+     <p>I aquests quadres, com creus que es diuen?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xCC0000" background="0xFFCCCC" />
+     </style>
+     <p>Genial!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCCCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x9999FF" border="true" />
+    <eventSounds>
+     <sound id="actionError" file="sim693.mp3" />
+     <sound id="finishedOk" file="aplausos2.mp3" />
+    </eventSounds>
+   </settings>
+   <cells rows="1" cols="3" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style>
+     <color background="0xFF9A58" inactive="0x0033FF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell id="1" image="La casa encantada.bmp" />
+    <cell id="0" image="La casa màgica.bmp" />
+    <cell id="2" image="sorts.bmp" />
+   </cells>
+   <cells rows="3" cols="1" cellWidth="200.0" cellHeight="200.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color foreground="0xCC0000" background="0xFFCCCC" inactive="0xFFCCCC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <p>La casa màgica</p>
+    </cell>
+    <cell>
+     <p>La casa encantada</p>
+    </cell>
+    <cell>
+     <p>El vespre</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.HolePuzzle" name="activitat 12" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="17" />
+      <color foreground="0x339900" background="0xCCFFCC" />
+     </style>
+     <p>Fes aquest puzle</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="17" bold="true" />
+      <color foreground="0xCCCCFF" background="0x6666FF" />
+     </style>
+     <p>Molt bé!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCCCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6600FF" border="true" />
+    <eventSounds>
+     <sound id="actionError" file="sim693.mp3" />
+     <sound id="finishedOk" file="aplausos2.mp3" />
+    </eventSounds>
+   </settings>
+   <cells rows="3" cols="3" border="true" image="Monstre dia i nit.bmp">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="activitat 2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0x3333FF" background="0xCCCCFF" />
+     </style>
+     <p>Fes el mateix amb aquests altres quadres</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0x009966" background="0xCCFFCC" />
+     </style>
+     <p>Genial!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x33CCFF" border="true" />
+    <eventSounds>
+     <sound id="actionError" file="sim693.mp3" />
+     <sound id="finishedOk" file="aplausos2.mp3" />
+    </eventSounds>
+   </settings>
+   <cells rows="2" cols="2" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color foreground="0x009966" background="0xCCFFCC" inactive="0x0033FF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="El vaixell navegador.bmp" />
+    <cell image="L'alegria.jpg" />
+    <cell image="La casa.bmp" />
+    <cell image="La festa.bmp" />
+   </cells>
+   <cells rows="2" cols="2" cellWidth="200.0" cellHeight="200.0" border="true" id="secondary">
+    <style>
+     <color foreground="0x009966" background="0xCCFFCC" inactive="0xCCFFCC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell>
+     <p>El vaixell navegador</p>
+    </cell>
+    <cell>
+     <p>L'alegria</p>
+    </cell>
+    <cell>
+     <p>La casa</p>
+    </cell>
+    <cell>
+     <p>La festa</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="activitat 3" code="" inverse="true">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xFFCCCC" background="0xFF0000" />
+     </style>
+     <p>Com creus que es pot dir aquest quadre?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0x3333FF" background="0xCCCCFF" />
+     </style>
+     <p>Molt bé!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCFFCC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x33FF33" border="true" />
+    <eventSounds>
+     <sound id="actionError" file="sim693.mp3" />
+     <sound id="finishedOk" file="aplausos2.mp3" />
+    </eventSounds>
+   </settings>
+   <cells rows="1" cols="1" cellWidth="452.0" cellHeight="600.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color inactive="0x0033FF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell id="2" image="Sol en el món.bmp" />
+   </cells>
+   <cells rows="3" cols="1" cellWidth="300.0" cellHeight="70.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="20" bold="true" />
+     <color foreground="0x0033FF" background="0xCCCCFF" inactive="0xCCCCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <p>La pilota</p>
+    </cell>
+    <cell>
+     <p>Llums</p>
+    </cell>
+    <cell>
+     <p>Sol en el món</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="activitat 4" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color foreground="0x6666FF" background="0xCCFFCC" />
+     </style>
+     <p>Troba les parelles de quadres</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0xFF0033" background="0xFFCCCC" />
+     </style>
+     <p>Genial!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFCCCC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF6666" border="true" />
+    <eventSounds>
+     <sound id="actionError" file="sim693.mp3" />
+     <sound id="finishedOk" file="aplausos2.mp3" />
+    </eventSounds>
+   </settings>
+   <cells rows="3" cols="6" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style>
+     <color background="0x000000" inactive="0xFF0066" />
+    </style>
+    <shaper class="@Rectangular" cols="6" rows="3" />
+    <cell image="Carnestoltes.bmp" />
+    <cell image="Casa al bosc.jpg" />
+    <cell image="El cargol que passeja.bmp" />
+    <cell image="La festa.bmp" />
+    <cell image="Eines per pintar.bmp" />
+    <cell image="L'alegria.jpg" />
+    <cell image="La casa.bmp" />
+    <cell image="El vaixell navegador.bmp" />
+    <cell image="El cargol que passeja.bmp" />
+    <cell image="Sol en el món.bmp" />
+    <cell image="El vaixell navegador.bmp" />
+    <cell image="Casa al bosc.jpg" />
+    <cell image="Eines per pintar.bmp" />
+    <cell image="La festa.bmp" />
+    <cell image="L'alegria.jpg" />
+    <cell image="Carnestoltes.bmp" />
+    <cell image="Sol en el món.bmp" />
+    <cell image="La casa.bmp" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="activitat 6" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="17" bold="true" />
+      <color foreground="0xFF0033" background="0xFFCCCC" />
+     </style>
+     <p>Relaciona cada quadre amb el seu nom</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="17" bold="true" />
+      <color foreground="0x333300" background="0xFFFFCC" />
+     </style>
+     <p>Molt bé!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCCCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0000FF" border="true" />
+    <eventSounds>
+     <sound id="actionError" file="sim693.mp3" />
+     <sound id="finishedOk" file="aplausos2.mp3" />
+    </eventSounds>
+   </settings>
+   <cells rows="2" cols="2" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style>
+     <color background="0xFFFFCC" inactive="0x0033FF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="El mag de la sort.png" />
+    <cell image="EL quadre de les estrelles.png" />
+    <cell image="L'estrella ataca.bmp" />
+    <cell image="la calavera.bmp" />
+   </cells>
+   <cells rows="2" cols="2" cellWidth="200.0" cellHeight="200.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="20" />
+     <color foreground="0xCC0000" background="0xCCCCFF" inactive="0xCCCCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell>
+     <p>El mag de la sort</p>
+    </cell>
+    <cell>
+     <p>El quadre de les estrelles</p>
+    </cell>
+    <cell>
+     <p>L'estrella ataca</p>
+    </cell>
+    <cell>
+     <p>La calavera</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="activitat 7" code="" inverse="true">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="17" bold="true" />
+      <color foreground="0x339900" background="0xCCFFCC" />
+     </style>
+     <p>Quin creus que és el nom d'aquest quadre?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="17" bold="true" />
+      <color foreground="0x339900" background="0xCCFFCC" />
+     </style>
+     <p>Perfecte!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x00FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCFFCC" border="true" />
+    <eventSounds>
+     <sound id="actionError" file="sim693.mp3" />
+     <sound id="finishedOk" file="aplausos2.mp3" />
+    </eventSounds>
+   </settings>
+   <cells rows="1" cols="1" cellWidth="486.0" cellHeight="480.0" border="true" id="primary">
+    <style>
+     <color inactive="0xCCFFCC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell id="2" image="Dibujo 1.bmp" />
+   </cells>
+   <cells rows="3" cols="1" cellWidth="300.0" cellHeight="200.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="20" bold="true" />
+     <color foreground="0x009966" background="0xCCFFCC" inactive="0xCCFFCC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <p>Colors</p>
+    </cell>
+    <cell>
+     <p>El castell encantat</p>
+    </cell>
+    <cell>
+     <p>La casa decorada</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="activitat8" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="17" bold="true" />
+      <color foreground="0x009999" background="0xCCFFCC" />
+     </style>
+     <p>Fes aquest memory</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="17" bold="true" />
+      <color foreground="0x0000CC" background="0xCCCCFF" />
+     </style>
+     <p>Molt bé!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x3333FF" border="true" />
+    <eventSounds>
+     <sound id="actionError" file="sim693.mp3" />
+     <sound id="finishedOk" file="aplausos2.mp3" />
+    </eventSounds>
+   </settings>
+   <cells rows="2" cols="4" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style>
+     <color background="0xFFFFCC" inactive="0x9900CC" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="2" />
+    <cell image="L'estrella ataca.bmp" />
+    <cell image="EL quadre de les estrelles.png" />
+    <cell image="la calavera.bmp" />
+    <cell image="L'alegria.jpg" />
+    <cell image="Dibujo 1.bmp" />
+    <cell image="El mag de la sort.png" />
+    <cell image="Dibujo 1.bmp" />
+    <cell image="L'estrella ataca.bmp" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="final. crèdits" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="false">
+    <container bgColor="0xCCCCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x9999FF" border="true" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="505.0" cellHeight="470.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell imgAlign="left,middle">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="26" />
+      <color foreground="0x990099" background="0xCCCCFF" />
+     </style>
+     <p>CRÈDITS</p>
+     <p>Imatges: Nens i nenes de 2n de Primària de l'escola Santa Susanna.</p>
+     <p>Edició: Núria Vives i Sara Velasco</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="portada" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="false">
+    <container bgColor="0x99FF99">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="872.0" cellHeight="583.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell txtAlign="middle,top" image="pinzells.png">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990099" background="0xFFFFFF" />
+     </style>
+     <p>EL MUSEU DE L'ESCOLA SANTA SUSANNA</p>
+     <p>2n de Primària</p>
+    </cell>
+   </cells>
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="Carnestoltes.bmp" file="carnestoltes.bmp" />
+  <media name="Dibujo 1.bmp" file="dibujo_1.bmp" />
+  <media name="Eines per pintar.bmp" file="eines_per_pintar.bmp" />
+  <media name="El cargol que passeja.bmp" file="el_cargol_que_passeja.bmp" />
+  <media name="El vaixell navegador.bmp" file="el_vaixell_navegador.bmp" />
+  <media name="L'estrella ataca.bmp" file="l_estrella_ataca.bmp" />
+  <media name="la calavera.bmp" file="la_calavera.bmp" />
+  <media name="La casa encantada.bmp" file="la_casa_encantada.bmp" />
+  <media name="La casa màgica.bmp" file="la_casa_magica.bmp" />
+  <media name="la casa nevada.bmp" file="la_casa_nevada.bmp" />
+  <media name="La casa.bmp" file="la_casa.bmp" />
+  <media name="La festa.bmp" file="la_festa.bmp" />
+  <media name="Monstre dia i nit.bmp" file="monstre_dia_i_nit.bmp" />
+  <media name="pinceles.bmp" file="pinceles.bmp" />
+  <media name="sense cadira.bmp" file="sense_cadira.bmp" />
+  <media name="Sol en el món.bmp" file="sol_en_el_mon.bmp" />
+  <media name="sorts.bmp" file="sorts.bmp" />
+  <media name="Casa al bosc.jpg" file="casa_al_bosc.jpg" />
+  <media name="L'alegria.jpg" file="l_alegria.jpg" />
+  <media name="aplausos.mp3" file="aplausos.mp3" />
+  <media name="aplausos2.mp3" file="aplausos2.mp3" />
+  <media name="sim653.mp3" file="sim653.mp3" />
+  <media name="sim693.mp3" file="sim693.mp3" />
+  <media name="El mag de la sort.png" file="el_mag_de_la_sort.png" />
+  <media name="EL quadre de les estrelles.png" file="el_quadre_de_les_estrelles.png" />
+  <media name="món mala sort.png" file="mon_mala_sort.png" />
+  <media name="pinzells.png" file="pinzells.png" />
+ </mediaBag>
+</JClicProject>
+
