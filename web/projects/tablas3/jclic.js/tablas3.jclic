@@ -1,0 +1,4842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="tablas3" version="0.1.3">
+ <settings>
+  <title>Tablas de multiplicar</title>
+  <revision description="created" date="9/16/14" />
+  <revision description="Publicación en la zonaClic (http://clic.xtec.cat)" date="5/6/15">
+   <author name="Equip Clic" mail="clic@xtec.cat" organization="Àrea TIC - Departament d'Educació" />
+  </revision>
+  <author name="Noel Jesús León Rodríguez" mail="noeljesus18@gmail.com" />
+  <organization name="Humberto Ramos Lozano" url="http://www.enehrl.edu.mx/index.php?option=com_content&amp;view=article&amp;id=133&amp;Itemid=59&amp;lang=mx" city="Calle Porfirio Díaz Norte S/N, Centro," />
+  <language>español</language>
+  <description>
+   <p>Proyecto de actividades JClic para practicar las tablas de multiplicar del 2 al 9.</p>
+  </description>
+  <descriptors area="Matemáticas" level="Primaria (6-12)">aprendizaje de la matemática, tablas de multiplicar</descriptors>
+ </settings>
+ <sequence>
+  <item id="start" name="identi" delay="3">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item id="start" name="identifica">
+   <jump action="STOP" id="forward" />
+  </item>
+  <item id="dos" name="2">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="21" />
+  <item name="22" />
+  <item name="s2" />
+  <item name="m2">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item id="tres" name="3">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="31" />
+  <item name="32" />
+  <item name="s3" />
+  <item name="m3">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item id="cuatro" name="4">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="41" />
+  <item name="42" />
+  <item name="s4" />
+  <item name="m4">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item id="seis" name="6">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="61" />
+  <item name="62" />
+  <item name="s6" />
+  <item name="m6">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item id="siete" name="7">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="71" />
+  <item name="72" />
+  <item name="s7" />
+  <item name="m7">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item id="ocho" name="8">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="81" />
+  <item name="82" />
+  <item name="s8" />
+  <item name="m8">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item id="nueve" name="9">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="91" />
+  <item name="92" />
+  <item name="s9" />
+  <item name="m9">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item name="ac2">
+   <jump action="RETURN" id="forward" />
+   <jump action="RETURN" id="back" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.Explore" name="2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Conoce las tablas dale clic a una multiplicación</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell id="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x1=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x2=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x4=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x5=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x6=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x7=</p>
+    </cell>
+    <cell id="7">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x8=</p>
+    </cell>
+    <cell id="8">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x9=</p>
+    </cell>
+    <cell id="9">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>2</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>4</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>6</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>8</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>10</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>12</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>14</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>16</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>18</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>20</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="21" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Relaciona la multiplicación con su resultado</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡Vas muy bien!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell id="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x1=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x2=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x4=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x5=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x6=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x7=</p>
+    </cell>
+    <cell id="7">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x8=</p>
+    </cell>
+    <cell id="8">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x9=</p>
+    </cell>
+    <cell id="9">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>2</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>4</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>6</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>8</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>10</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>12</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>14</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>16</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>18</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>20</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="22" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Escribe el resultado de la multiplicación seleccionada</p>
+    </cell>
+    <cell imgAlign="right,middle" image="FELICIDADES.gif" type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡Así se hace!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell id="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x1=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x2=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x4=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x5=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x6=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x7=</p>
+    </cell>
+    <cell id="7">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x8=</p>
+    </cell>
+    <cell id="8">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x9=</p>
+    </cell>
+    <cell id="9">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>2x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="answers">
+    <style>
+     <color foreground="0xCCCC00" background="0x003333" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>2</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="48" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>4</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="48" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>6</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>8</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="48" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>10</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="48" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>12</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>14</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>16</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>18</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>20</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Explore" name="3">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Conoce las tablas dale clic a una multiplicación</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell id="0">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x1=</p>
+    </cell>
+    <cell id="1">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x2=</p>
+    </cell>
+    <cell id="2">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x3=</p>
+    </cell>
+    <cell id="3">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x4=</p>
+    </cell>
+    <cell id="4">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x5=</p>
+    </cell>
+    <cell id="5">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x6=</p>
+    </cell>
+    <cell id="6">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x7=</p>
+    </cell>
+    <cell id="7">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x8=</p>
+    </cell>
+    <cell id="8">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x9=</p>
+    </cell>
+    <cell id="9">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>3</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>6</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>9</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>12</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>15</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>18</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>21</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>24</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>27</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>30</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="31" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Relaciona la multiplicación con su resultado</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡CORRECTO!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell id="0">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x1=</p>
+    </cell>
+    <cell id="1">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x2=</p>
+    </cell>
+    <cell id="2">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x3=</p>
+    </cell>
+    <cell id="3">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x4=</p>
+    </cell>
+    <cell id="4">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x5=</p>
+    </cell>
+    <cell id="5">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x6=</p>
+    </cell>
+    <cell id="6">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x7=</p>
+    </cell>
+    <cell id="7">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x8=</p>
+    </cell>
+    <cell id="8">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x9=</p>
+    </cell>
+    <cell id="9">
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="120.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>3</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>6</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>9</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>12</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>15</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>18</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>21</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>24</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>27</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>30</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="32" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Escribe el resultado de la multiplicación seleccionada</p>
+    </cell>
+    <cell imgAlign="right,middle" image="STAR.gif" type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>TE GANASTE UNA ESTRELLA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell id="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x1=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x2=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x4=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x5=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x6=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x7=</p>
+    </cell>
+    <cell id="7">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x8=</p>
+    </cell>
+    <cell id="8">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x9=</p>
+    </cell>
+    <cell id="9">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>3x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="answers">
+    <style>
+     <color foreground="0xCCCC00" background="0x003333" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>3</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>6</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>9</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>12</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>15</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>18</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>21</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>24</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>27</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>30</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Explore" name="4">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Conoce las tablas dale clic a una multiplicación</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x1=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x2=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x4=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x5=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x6=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x7=</p>
+    </cell>
+    <cell id="7">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x8=</p>
+    </cell>
+    <cell id="8">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x9=</p>
+    </cell>
+    <cell id="9">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>4</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>8</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>12</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>16</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>20</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>24</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>28</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>32</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>36</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>40</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="41" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Relaciona la multiplicación con su resultado</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡GENIAL!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x1=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x2=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x4=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x5=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x6=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x7=</p>
+    </cell>
+    <cell id="7">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x8=</p>
+    </cell>
+    <cell id="8">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x9=</p>
+    </cell>
+    <cell id="9">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>4</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>8</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>12</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>16</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>20</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>24</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>28</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>32</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>36</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>40</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="42" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Escribe el resultado de la multiplicación seleccionada</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell id="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x1=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x2=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x4=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x5=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x6=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x7=</p>
+    </cell>
+    <cell id="7">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x8=</p>
+    </cell>
+    <cell id="8">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x9=</p>
+    </cell>
+    <cell id="9">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>4x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="answers">
+    <style>
+     <color foreground="0xCCCC00" background="0x003333" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>4</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>8</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>12</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>16</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>20</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>24</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>28</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>32</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>36</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>40</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Explore" name="6">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Conoce las tablas dale clic a una multiplicación</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡FELICIDADES!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell id="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x1=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x2=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x4=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x5=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x6=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x7=</p>
+    </cell>
+    <cell id="7">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x8=</p>
+    </cell>
+    <cell id="8">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x9=</p>
+    </cell>
+    <cell id="9">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>6</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>12</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>18</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>24</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>30</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>36</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>42</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>48</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>54</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>60</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="61" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Relaciona la multiplicación con su resultado</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡BIEN MUY BIEN!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x1=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x2=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x4=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x5=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x6=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x7=</p>
+    </cell>
+    <cell id="7">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x8=</p>
+    </cell>
+    <cell id="8">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x9=</p>
+    </cell>
+    <cell id="9">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>6</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>12</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>18</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>24</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>30</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>36</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>42</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>48</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>54</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>60</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="62" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Escribe el resultado de la multiplicación seleccionada</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡EXCELENTE!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell id="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x1=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x2=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x4=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x5=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x6=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x7=</p>
+    </cell>
+    <cell id="7">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x8=</p>
+    </cell>
+    <cell id="8">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x9=</p>
+    </cell>
+    <cell id="9">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>6x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="answers">
+    <style>
+     <color foreground="0xCCCC00" background="0x003333" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>6</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>12</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>18</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>24</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>30</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>36</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>42</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>48</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>54</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>60</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Explore" name="7">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Conoce las tablas dale clic a una multiplicación</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x1=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x2=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x4=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x5=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x6=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x7=</p>
+    </cell>
+    <cell id="7">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x8=</p>
+    </cell>
+    <cell id="8">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x9=</p>
+    </cell>
+    <cell id="9">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>7</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>14</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>21</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>28</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>35</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>42</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>49</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>56</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>63</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>70</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="71" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Relaciona la multiplicación con su resultado</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡Vas muy bien, SIGUE ASÍ!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x1=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x2=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x4=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x5=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x6=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x7=</p>
+    </cell>
+    <cell id="7">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x8=</p>
+    </cell>
+    <cell id="8">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x9=</p>
+    </cell>
+    <cell id="9">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>7</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>14</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>21</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>28</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>35</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>42</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>49</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>56</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>63</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>70</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="72" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Escribe el resultado de la multiplicación seleccionada</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡EXCELENTE!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell id="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x1=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x2=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x4=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x5=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x6=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x7=</p>
+    </cell>
+    <cell id="7">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x8=</p>
+    </cell>
+    <cell id="8">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x9=</p>
+    </cell>
+    <cell id="9">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>7x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="answers">
+    <style>
+     <color foreground="0xCCCC00" background="0x003333" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>7</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>14</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>21</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>28</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>35</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>42</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>49</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>56</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>63</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>70</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Explore" name="8">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Conoce las tablas dale clic a una multiplicación</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x1=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x2=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x4=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x5=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x6=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x7=</p>
+    </cell>
+    <cell id="7">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x8=</p>
+    </cell>
+    <cell id="8">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x9=</p>
+    </cell>
+    <cell id="9">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>8</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>16</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>24</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>32</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>40</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>48</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>56</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>64</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>72</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>80</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="81" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Relaciona la multiplicación con su resultado</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡ESTAS MUY BIEN!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x1=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x2=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x4=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x5=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x6=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x7=</p>
+    </cell>
+    <cell id="7">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x8=</p>
+    </cell>
+    <cell id="8">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x9=</p>
+    </cell>
+    <cell id="9">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>8</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>16</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>24</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>32</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>40</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>48</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>56</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>64</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>72</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>80</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="82" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Escribe el resultado de la multiplicación seleccionada</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡TE FELICITO!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style>
+     <color foreground="0xCCCC00" background="0x003333" />
+    </style>
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell id="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x1=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x2=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x4=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x5=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x6=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x7=</p>
+    </cell>
+    <cell id="7">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x8=</p>
+    </cell>
+    <cell id="8">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x9=</p>
+    </cell>
+    <cell id="9">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>8x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="answers">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>8</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>16</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>24</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>32</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>40</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>48</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>56</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>64</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>72</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>80</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Explore" name="9">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Conoce las tablas dale clic a una multiplicación</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell id="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x1=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x2=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x4=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x5=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x6=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x7=</p>
+    </cell>
+    <cell id="7">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x8=</p>
+    </cell>
+    <cell id="8">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x9=</p>
+    </cell>
+    <cell id="9">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>9</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>18</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>27</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>36</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>45</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>54</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>63</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>72</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>81</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>90</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="91" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Relaciona la multiplicación con su resultado</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡PERFECTO!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell id="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x1=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x2=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x4=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x5=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x6=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x7=</p>
+    </cell>
+    <cell id="7">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x8=</p>
+    </cell>
+    <cell id="8">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x9=</p>
+    </cell>
+    <cell id="9">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>9</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>18</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>27</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>36</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>45</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>54</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>63</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>72</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>81</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>90</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="92" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Escribe el resultado de la multiplicación seleccionada</p>
+    </cell>
+    <cell imgAlign="middle,bottom" image="greenstars.gif" type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>GANASTE MUCHAS ESTRELLAS</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="430.0" border="true" id="primary">
+    <style>
+     <color foreground="0xCCCC00" background="0x003333" />
+    </style>
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell id="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x1=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x2=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x4=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x5=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x6=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x7=</p>
+    </cell>
+    <cell id="7">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x8=</p>
+    </cell>
+    <cell id="8">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x9=</p>
+    </cell>
+    <cell id="9">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0x009900" background="0xCC9900" />
+     </style>
+     <p>9x10=</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="250.0" cellHeight="130.0" border="true" id="answers">
+    <style>
+     <font family="Arial" size="48" />
+     <color foreground="0xCCCC00" background="0x006633" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>9</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>18</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>27</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>36</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>45</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>54</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>63</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>72</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>81</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFF9900" background="0x006633" />
+     </style>
+     <p>90</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="ac2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Relaciona la multiplicación con su repuesta correcto</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡Vas muy bien!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="4" cols="4" cellWidth="150.0" cellHeight="100.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="4" rows="4" />
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>8x7=</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>7x8=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>9x6=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>5x8=</p>
+    </cell>
+    <cell id="4">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>5x8=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>4x8=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>6x7=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>3x9=</p>
+    </cell>
+    <cell id="6">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>9x3=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>4x8=</p>
+    </cell>
+    <cell id="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>7x9=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>6x7=</p>
+    </cell>
+    <cell id="3">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>8x4=</p>
+    </cell>
+    <cell id="5">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>7x6=</p>
+    </cell>
+    <cell id="2">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>6x9=</p>
+    </cell>
+    <cell id="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0xCC9900" background="0x006633" />
+     </style>
+     <p>9x7=</p>
+    </cell>
+   </cells>
+   <cells rows="7" cols="1" cellWidth="100.0" cellHeight="70.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="7" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0x006633" background="0xCC9900" />
+     </style>
+     <p>63</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0x006633" background="0xCC9900" />
+     </style>
+     <p>56</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0x006633" background="0xCC9900" />
+     </style>
+     <p>54</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0x006633" background="0xCC9900" />
+     </style>
+     <p>32</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0x006633" background="0xCC9900" />
+     </style>
+     <p>40</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0x006633" background="0xCC9900" />
+     </style>
+     <p>42</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="36" />
+      <color foreground="0x006633" background="0xCC9900" />
+     </style>
+     <p>27</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Identify" name="identi">
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="fondo-resized.jpg" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <ids>0</ids>
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="identifica" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Dale clic a la tabla de multiplicar que quieres practicar</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="4" border="true" image="X.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="4" rows="2" />
+    <cell>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="ac2" />
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="dos" />
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="tres" />
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="cuatro" />
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="seis" />
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="siete" />
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="ocho" />
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="nueve" />
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@memory.MemoryGame" name="m2">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>JUNTA LAS PAREJAS QUE SEAN IGUAL</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡VES QUE FÁCIL!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="11" cols="1" border="true" image="2-resized.jpg" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="11" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="m3">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>JUNTA LAS PAREJAS QUE SEAN IGUAL</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡TODO VA BIEN!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="11" cols="1" border="true" image="3-resized.jpg" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="11" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="m4">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>JUNTA LAS PAREJAS QUE SEAN IGUAL</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡ERES UN EJEMPLO!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="11" cols="1" border="true" image="4-resized.jpg" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="11" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="m6">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>JUNTA LAS PAREJAS QUE SEAN IGUAL</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡MUCHAS FELICIDADES!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="11" cols="1" border="true" image="6-resized.jpg" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="11" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="m7" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>JUNTA LAS PAREJAS QUE SEAN IGUAL</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>YA VES ¡SÍ PUEDES!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="11" cols="1" border="true" image="7-resized.jpg" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="11" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="m8">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>JUNTA LAS PAREJAS QUE SEAN IGUAL</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡MUY BIEN HECHO!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="9" cols="1" border="true" image="T8.jpg" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="9" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="m9">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>JUNTA LAS PAREJAS QUE SEAN IGUAL</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>ERES EXCELENTE</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="9" cols="1" border="true" image="9.jpg" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="9" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="s2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Ordena la serie de menor a mayor, empieza de arriba a la izquierda</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡QUE BIEN!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="230.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>2</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>4</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>6</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>8</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>10</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>12</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>14</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>16</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>18</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>20</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="s3" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Ordena la serie de menor a mayor, empieza de arriba a la izquierda</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>¡APLAUSOS PARA TÍ!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="10" cellWidth="450.0" cellHeight="230.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="10" rows="1" />
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>3</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>6</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>9</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>12</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>15</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>18</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>21</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>24</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>27</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="5.0">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>30</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="s4" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Ordena la serie de menor a mayor, empieza de arriba a la izquierda</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>NO CABE DUDA, VAS BIEN</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="230.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>4</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>8</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>12</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>16</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>20</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>24</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>28</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>32</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>36</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>40</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="s6" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Ordena la serie de menor a mayor, empieza de arriba a la izquierda</p>
+    </cell>
+    <cell image="aplausos.gif" type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="230.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>6</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>12</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>18</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>24</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>30</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>36</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>42</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>48</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>54</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>60</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="s7" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Ordena la serie de menor a mayor, empieza de arriba a la izquierda</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="230.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>7</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>14</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>21</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>28</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>35</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>42</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>49</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>56</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>63</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>70</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="s8" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Ordena la serie de menor a mayor, empieza de arriba a la izquierda</p>
+    </cell>
+    <cell imgAlign="left,middle" image="ojos.gif" type="final">
+     <style>
+      <font family="Arial" size="24" />
+     </style>
+     <p>BIEN,SÍ PUDISTE</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="504.0" cellHeight="230.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>8</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>16</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>24</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>32</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>40</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>48</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>56</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>64</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>72</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>80</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="s9" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+     </style>
+     <p>Ordena la serie de menor a mayor empeiza de arriba a la izquierda</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="450.0" cellHeight="230.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>9</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>18</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>27</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>36</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>45</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>54</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>63</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>72</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>81</p>
+    </cell>
+    <cell>
+     <style borderStroke="4.4" markerStroke="2.7">
+      <font family="Times New Roman" size="72" />
+      <color foreground="0xCC9900" background="0x006600" border="0xCC9900" />
+     </style>
+     <p>90</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="aplausos.gif" file="aplausos.gif" />
+  <media name="FELICIDADES.gif" file="felicidades.gif" />
+  <media name="greenstars.gif" file="greenstars.gif" />
+  <media name="ojos.gif" file="ojos.gif" />
+  <media name="STAR.gif" file="star.gif" />
+  <media name="2-resized.jpg" file="2_resized.jpg" />
+  <media name="3-resized.jpg" file="3_resized.jpg" />
+  <media name="4-resized.jpg" file="4_resized.jpg" />
+  <media name="6-resized.jpg" file="6_resized.jpg" />
+  <media name="7-resized.jpg" file="7_resized.jpg" />
+  <media name="9.jpg" file="9.jpg" />
+  <media name="fondo-resized.jpg" file="fondo_resized.jpg" />
+  <media name="T8.jpg" file="t8.jpg" />
+  <media name="X.jpg" file="x.jpg" />
+ </mediaBag>
+</JClicProject>
+

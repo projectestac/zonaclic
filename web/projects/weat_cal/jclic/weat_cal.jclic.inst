@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicInstall title="Weather and calendar" authors="Antonia Morelló Bahilo" folder="weat_cal">
+ <file src="weat_cal.jclic.zip" />
+ <file src="weat_cal.jclic.inst" />
+ <shortcut project="weat_cal.jclic.zip" text="Weather and calendar" description="" icon="" />
+</JClicInstall>
+

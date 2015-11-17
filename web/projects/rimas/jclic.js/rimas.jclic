@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="rimas" version="0.1.3">
+ <settings>
+  <title>Rimas </title>
+  <revision description="created" date="4/24/14" />
+  <revision description="Published in the clicZone (http://clic.xtec.cat)" date="4/8/15">
+   <author name="Equip Clic" mail="clic@xtec.cat" organization="Àrea TIC - Departament d'Educació" />
+  </revision>
+  <author name="Márcia Silva Madeira" mail="informatica@salesianoitajai.d12.br" />
+  <organization name="Colégio Salesiano Itajaí" mail="colegio@salesianoitajai.g12.br" url="http://www.salesianoitajai.g12.br/" city="Santa Catarina" country="Brasil" />
+  <language>Portuguese</language>
+  <description>
+   <p>JClic project activities in the Portuguese language addressed to primary education about the rhymes .</p>
+  </description>
+  <descriptors area="Languages" level="Kindergarten (3-6), Primary school (6-12)" />
+  <skin file="@green.xml" />
+ </settings>
+ <sequence>
+  <item id="start" name="Capa" />
+  <item id="start" name="Rima com desenhos" />
+  <item name="Rima com palavras" />
+  <item name="Jogo das rimas1" />
+  <item name="Jogo das rimas_2" />
+  <item name="Escrevendo com rimas" />
+  <item name="Sopa de letras" />
+  <item name="Sopa de letras_2" />
+  <item name="Sopa de letras_3" />
+  <item name="Poesia o que tem nessa feira" />
+  <item name="Quebra-cabeça" />
+ </sequence>
+ <activities>
+  <activity class="@panels.InformationScreen" name="Capa" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Olá! Vamos brincar com as rimas?</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFEFEFE">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="CAPA.png">
+    <style transparent="true">
+     <font family="Dialog" size="17" bold="true" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="start" />
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@text.FillInBlanks" name="Escrevendo com rimas" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Complete com palavras que rimem, utilizando as imagens que estão na tela.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Muito bem!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFEFEFE">
+     <image name="fundo escrevendo rimas.png" tiled="false" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <size width="450" height="300" />
+    </window>
+   </settings>
+   <checkButton>Verificação</checkButton>
+   <document>
+    <style name="default" background="0xFFFFFF" family="Dialog" size="24" italic="false" tabWidth="12" bold="true" />
+    <style name="target" base="default" target="true" foreground="0x0000FF" />
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <section>
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="24">Pé de moleque rima com </text>
+      <target>
+       <answer>leque</answer>
+       <response fill="_" length="5" maxLength="5" />
+       <text>leque</text>
+      </target>
+      <text size="24">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog" />
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="24">Chá mate rima com </text>
+      <target>
+       <answer>tomate</answer>
+       <response fill="_" length="6" maxLength="6" />
+       <text>tomate</text>
+      </target>
+      <text size="24">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog" />
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="24">Carambola rima com </text>
+      <target>
+       <answer>bola</answer>
+       <response fill="_" length="4" maxLength="4" />
+       <text>bola</text>
+      </target>
+      <text size="24">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog" />
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="24">Baralho rima com </text>
+      <target>
+       <answer>alho</answer>
+       <response fill="_" length="4" maxLength="4" />
+       <text>alho</text>
+      </target>
+      <text size="24">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog" />
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="24">Molho rima com </text>
+      <target>
+       <answer>repolho</answer>
+       <response fill="_" length="7" maxLength="7" />
+       <text>repolho</text>
+      </target>
+      <text size="24">.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="Jogo das rimas1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Ligue o desenho que rima com a palavra que se pede:</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Parabéns!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="false">
+     <p>Estas palavras não rimam... Tente outra.</p>
+    </helpWindow>
+    <container bgColor="0xFEFEFE">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="200.0" cellHeight="150.0" border="true" id="primary">
+    <style borderStroke="4.8" markerStroke="5.0">
+     <font family="Dialog" size="24" bold="true" />
+     <color background="0xF8EB77" border="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell id="7" border="true">
+     <p>Rima com OMELETE</p>
+    </cell>
+    <cell id="9">
+     <p>Rima com CAROÇO</p>
+    </cell>
+    <cell id="8">
+     <p>Rima com JOELHO</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="3" cellWidth="150.0" cellHeight="113.0" border="true" id="secondary">
+    <style>
+     <font family="Dialog" size="17" />
+     <color background="0xFEFEFE" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="4" />
+    <cell image="abelha.jpg" />
+    <cell image="alho.jpg" />
+    <cell image="anel.jpg" />
+    <cell image="anzol.jpg" />
+    <cell image="baralho.jpg" />
+    <cell image="bola.jpg" />
+    <cell image="caminhão.jpg" />
+    <cell image="chiclete.jpg" />
+    <cell image="coelho.jpg" />
+    <cell image="osso.jpg" />
+    <cell image="sol.jpg" />
+    <cell image="uva.jpg" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <p>Certo! OMELETE rima com CHICLETE!</p>
+    </cell>
+    <cell>
+     <p>Muito bem! CAROÇO rima com OSSO!</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Dialog" size="24" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Certo! JOELHO rima com COELHO!</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="Jogo das rimas_2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Ligue o desenho que rima com a palavra que se pede:</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Parabéns!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFEFEFE">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="200.0" cellHeight="150.0" border="true" id="primary">
+    <style borderStroke="4.8" markerStroke="5.0">
+     <font family="Dialog" size="24" bold="true" />
+     <color background="0xF8EB77" border="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell id="0" border="true">
+     <p>Rima com AVIÃO</p>
+    </cell>
+    <cell id="5">
+     <p>Rima com CARRAPATO</p>
+    </cell>
+    <cell id="11">
+     <p>Rima com SORVETE</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="3" cellWidth="150.0" cellHeight="113.0" border="true" id="secondary">
+    <style>
+     <font family="Dialog" size="17" />
+     <color background="0xFEFEFE" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="4" />
+    <cell image="mão.jpg" />
+    <cell image="caracol.jpg" />
+    <cell image="casa.jpg" />
+    <cell image="osso.jpg" />
+    <cell image="cofrinho.jpg" />
+    <cell image="sapato.jpg" />
+    <cell image="cola.jpg" />
+    <cell image="chiclete.jpg" />
+    <cell image="coelho.jpg" />
+    <cell image="estrela.jpg" />
+    <cell image="computador.jpg" />
+    <cell image="sabonete.jpg" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <p>Certo! AVIÃO rima com MÃO!</p>
+    </cell>
+    <cell>
+     <p>Muito bem! CARRAPATO rima com SAPATO!</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Dialog" size="24" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Certo! SORVETE rima com SABONETE!</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.Identify" name="Poesia o que tem nessa feira" code="" type="identifyWords">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Em cada linha da poesia, existe uma palavra que rima. Clique sobre elas.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Clicou em todas? Muito bem!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFEFEFE">
+     <image name="venda.png" tiled="false" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false">
+     <position x="324" y="135" />
+     <size width="432" height="342" />
+    </window>
+   </settings>
+   <checkButton>Verificar</checkButton>
+   <document>
+    <style name="default" background="0xFFFFFF" size="18" italic="false" family="Dialog" tabWidth="12" bold="true" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <section>
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="22" bold="true">O que tem nesta venda?</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog" />
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Fui à venda comprar </text>
+      <target>papel.</target>
+     </p>
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Como não tinha, comprei </text>
+      <target>pastel</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog" />
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Fui à venda comprar </text>
+      <target>sapato</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Como não tinha, comprei </text>
+      <target>pato</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog" />
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Fui à venda comprar </text>
+      <target>borracha</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Como não tinha, comprei </text>
+      <target>bolacha</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog" />
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Fui à venda comprar </text>
+      <target>marmelada</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Como não tinha, comprei </text>
+      <target>torrada</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog" />
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Fui à venda comprar </text>
+      <target>compasso</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Como não tinha, comprei </text>
+      <target>cadarço</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog" />
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Fui à venda comprar </text>
+      <target>pandeiro</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Como não tinha, comprei </text>
+      <target>dinheiro</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog" />
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Fui à venda comprar </text>
+      <target>apontador</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Como não tinha, comprei </text>
+      <target>grampeador</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog" />
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Fui à venda comprar </text>
+      <target>caqui</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Como tinha, comprei e </text>
+      <target>comi</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog" />
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Fui à venda comprar </text>
+      <target>repolho</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Como não tinha, comprei </text>
+      <target>molho</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog" />
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Fui à venda comprar </text>
+      <target>amendoim</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Já está na hora de por um </text>
+      <target>fim</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog" />
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Que a rima não o </text>
+      <target>prenda</target>
+      <text size="18">.</text>
+     </p>
+     <p background="0xFFFFFF" family="Dialog">
+      <text size="18">Ao falar das compras na </text>
+      <target>venda</target>
+      <text size="18">.</text>
+     </p>
+    </section>
+   </document>
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="Quebra-cabeça" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Monte o quebra cabeça e descubra algumas rimas.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Parabéns!  Você terminou todas as atividades!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="5" cols="5" border="true" image="quebracabeça.jpg">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <font family="Dialog" size="17" />
+     <color background="0xFEFEFE" />
+    </style>
+    <shaper class="@ClassicJigSaw" cols="5" rows="5" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="Rima com desenhos" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Ligue os desenhos que rimam:</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Muito bem!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFEFEFE">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="6" cols="1" cellWidth="180.0" cellHeight="150.0" border="true" id="primary">
+    <style margin="1" borderStroke="3.4" markerStroke="2.7">
+     <font family="Liberation Sans" size="24" bold="true" />
+     <color background="0xFEFEFE" inactive="0xFEFEFE" border="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell image="caminhão.jpg" />
+    <cell image="uva.jpg" />
+    <cell image="pastel.jpg" />
+    <cell image="caracol.jpg" />
+    <cell image="gato.jpg" />
+    <cell image="passarinho2.jpg" />
+   </cells>
+   <cells rows="6" cols="1" cellWidth="180.0" cellHeight="150.0" border="true" id="secondary">
+    <style margin="1" borderStroke="2.9" markerStroke="2.7">
+     <font family="Dialog" size="17" />
+     <color background="0xFEFEFE" inactive="0xFFF5F5" border="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell image="pão.jpg" />
+    <cell image="luva.jpg" />
+    <cell image="anel.jpg" />
+    <cell image="anzol.jpg" />
+    <cell image="sapato.jpg" />
+    <cell image="cofrinho.jpg" />
+   </cells>
+   <cells rows="6" cols="1" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell>
+     <style margin="0" borderStroke="3.3" markerStroke="2.7">
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" border="0xFF0000" />
+     </style>
+     <p>CAMINHÃO</p>
+     <p>PÃO</p>
+    </cell>
+    <cell>
+     <style margin="0" borderStroke="3.3" markerStroke="2.7">
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" border="0xFF0000" />
+     </style>
+     <p>UVA</p>
+     <p>LUVA</p>
+    </cell>
+    <cell>
+     <style margin="0" borderStroke="3.3" markerStroke="2.7">
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" border="0xFF0000" />
+     </style>
+     <p>PASTEL</p>
+     <p>ANEL</p>
+    </cell>
+    <cell>
+     <style margin="0" borderStroke="3.3" markerStroke="2.7">
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" border="0xFF0000" />
+     </style>
+     <p>CARACOL</p>
+     <p>ANZOL</p>
+    </cell>
+    <cell>
+     <style margin="0" borderStroke="3.3" markerStroke="2.7">
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" border="0xFF0000" />
+     </style>
+     <p>GATO</p>
+     <p>SAPATO</p>
+    </cell>
+    <cell>
+     <style margin="0" borderStroke="3.3" markerStroke="2.7">
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" border="0xFF0000" />
+     </style>
+     <p>PASSARINHO</p>
+     <p>COFRINHO</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="Rima com palavras" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Clique sobre as palavras que rimam.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Acertou todas! Parabéns!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFEFEFE">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="1" cols="9" cellWidth="120.0" cellHeight="100.0" border="true" id="primary">
+    <style borderStroke="5.3" markerStroke="5.0">
+     <font family="Dialog" size="24" bold="true" />
+     <color background="0xFDFBFB" inactive="0x00FF0B" border="0x08FF00" />
+    </style>
+    <shaper class="@Rectangular" cols="9" rows="1" />
+    <cell>
+     <p>Macarrão</p>
+    </cell>
+    <cell>
+     <p>Carretel</p>
+    </cell>
+    <cell>
+     <p>Escola</p>
+    </cell>
+    <cell>
+     <p>Escrever</p>
+    </cell>
+    <cell>
+     <p>Andar</p>
+    </cell>
+    <cell>
+     <p>Abacate</p>
+    </cell>
+    <cell>
+     <p>Amor</p>
+    </cell>
+    <cell>
+     <p>Abelha</p>
+    </cell>
+    <cell>
+     <p>Jardim</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="9" cellWidth="120.0" cellHeight="100.0" border="true" id="secondary">
+    <style>
+     <font family="Dialog" size="24" bold="true" />
+     <color background="0xFEFEFE" inactive="0xFEFEFE" />
+    </style>
+    <shaper class="@Rectangular" cols="9" rows="1" />
+    <cell>
+     <p>Feijão</p>
+    </cell>
+    <cell>
+     <p>Mel</p>
+    </cell>
+    <cell>
+     <p>Mola</p>
+    </cell>
+    <cell>
+     <p>Correr</p>
+    </cell>
+    <cell>
+     <p>Cantar</p>
+    </cell>
+    <cell>
+     <p>Alicate</p>
+    </cell>
+    <cell>
+     <p>Calor</p>
+    </cell>
+    <cell>
+     <p>Telha</p>
+    </cell>
+    <cell>
+     <p>Pudim</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="9" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="9" rows="1" />
+    <cell image="Índice.jpg" />
+    <cell image="Índice.jpg" />
+    <cell image="Índice.jpg" />
+    <cell image="Índice.jpg" />
+    <cell image="Índice.jpg" />
+    <cell image="Índice.jpg" />
+    <cell image="Índice.jpg" />
+    <cell image="Índice.jpg" />
+    <cell image="Índice.jpg" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="Sopa de letras" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Procure na sopa de letras as palavras que rimam com ESCOLA: COLA, CARAMBOLA e MOLA.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Parabéns! Achou todas!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFEF5BE">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <textGrid rows="10" columns="10" cellWidth="36.0" cellHeight="28.0" border="true">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <font family="Dialog" size="17" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>ABCOLA**C*</row>
+     <row>DEF*****A*</row>
+     <row>GHI*****R*</row>
+     <row>********A*</row>
+     <row>********M*</row>
+     <row>********B*</row>
+     <row>*MOLA***O*</row>
+     <row>********L*</row>
+     <row>********A*</row>
+     <row>**********</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">CARAMBOLA</clue>
+    <clue id="1">COLA</clue>
+    <clue id="2">MOLA</clue>
+   </clues>
+   <cells rows="3" cols="1" cellWidth="125.0" cellHeight="125.0" border="true" id="secondary">
+    <style>
+     <font family="Dialog" size="17" />
+     <color background="0xFEFEFE" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell avoidOverlapping="true" image="carambola.jpg" />
+    <cell avoidOverlapping="true" image="cola.jpg" />
+    <cell avoidOverlapping="true" image="mola.jpg" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="Sopa de letras_2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Procure na sopa de letras as palavras que rimam com CARRAPATO: SAPATO, GATO, PATO e RATO.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Parabéns! Achou todas!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFCFCC8">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <textGrid rows="10" columns="10" cellWidth="36.0" cellHeight="28.0" border="true">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <font family="Dialog" size="17" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>**RATO****</row>
+     <row>**********</row>
+     <row>*****S****</row>
+     <row>*****A****</row>
+     <row>*****P****</row>
+     <row>*****A****</row>
+     <row>*****T****</row>
+     <row>GATO*O****</row>
+     <row>**********</row>
+     <row>******PATO</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">SAPATO</clue>
+    <clue id="1">GATO</clue>
+    <clue id="2">PATO</clue>
+    <clue id="3">RATO</clue>
+   </clues>
+   <cells rows="2" cols="2" cellWidth="125.0" cellHeight="125.0" border="true" id="secondary">
+    <style>
+     <font family="Dialog" size="17" />
+     <color background="0xFEFEFE" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell avoidOverlapping="true" image="sapato.jpg" />
+    <cell avoidOverlapping="true" image="gato.jpg" />
+    <cell image="PATO.jpg" />
+    <cell image="RATO.jpg" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="Sopa de letras_3" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Procure na sopa de letras as palavras que rimam com DINHEIRO: BRIGADEIRO, CARTEIRO e CHUVEIRO.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Dialog" size="24" bold="true" />
+      <color background="0xFEFEFE" />
+     </style>
+     <p>Muito bem! Achou todas!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFEFAAD">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <textGrid rows="10" columns="10" cellWidth="36.0" cellHeight="28.0" border="true">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <font family="Dialog" size="17" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>******C***</row>
+     <row>******A***</row>
+     <row>******R***</row>
+     <row>******T***</row>
+     <row>BRIGADEIRO</row>
+     <row>******I***</row>
+     <row>CHUVEIRO**</row>
+     <row>******O***</row>
+     <row>**********</row>
+     <row>**********</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">CARTEIRO</clue>
+    <clue id="1">CHUVEIRO</clue>
+    <clue id="2">BRIGADEIRO</clue>
+   </clues>
+   <cells rows="3" cols="1" cellWidth="125.0" cellHeight="125.0" border="true" id="secondary">
+    <style>
+     <font family="Dialog" size="17" />
+     <color background="0xFEFEFE" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell avoidOverlapping="true" image="CARTEIRO.jpg" />
+    <cell image="chuveiro.jpg" />
+    <cell image="brigadeiro.jpg" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="abelha.jpg" file="abelha.jpg" />
+  <media name="alho.jpg" file="alho.jpg" />
+  <media name="anel.jpg" file="anel.jpg" />
+  <media name="anzol.jpg" file="anzol.jpg" />
+  <media name="baralho.jpg" file="baralho.jpg" />
+  <media name="bola.jpg" file="bola.jpg" />
+  <media name="brigadeiro.jpg" file="brigadeiro.jpg" />
+  <media name="caminhão.jpg" file="caminhao.jpg" />
+  <media name="caracol.jpg" file="caracol.jpg" />
+  <media name="carambola.jpg" file="carambola.jpg" />
+  <media name="CARTEIRO.jpg" file="carteiro.jpg" />
+  <media name="casa.jpg" file="casa.jpg" />
+  <media name="chiclete.jpg" file="chiclete.jpg" />
+  <media name="chuveiro.jpg" file="chuveiro.jpg" />
+  <media name="coelho.jpg" file="coelho.jpg" />
+  <media name="cofrinho.jpg" file="cofrinho.jpg" />
+  <media name="cola.jpg" file="cola.jpg" />
+  <media name="computador.jpg" file="computador.jpg" />
+  <media name="estrela.jpg" file="estrela.jpg" />
+  <media name="gato.jpg" file="gato.jpg" />
+  <media name="luva.jpg" file="luva.jpg" />
+  <media name="mola.jpg" file="mola.jpg" />
+  <media name="mão.jpg" file="mao.jpg" />
+  <media name="osso.jpg" file="osso.jpg" />
+  <media name="passarinho2.jpg" file="passarinho2.jpg" />
+  <media name="pastel.jpg" file="pastel.jpg" />
+  <media name="PATO.jpg" file="pato.jpg" />
+  <media name="pão.jpg" file="pao.jpg" />
+  <media name="quebracabeça.jpg" file="quebracabeca.jpg" />
+  <media name="RATO.jpg" file="rato.jpg" />
+  <media name="sabonete.jpg" file="sabonete.jpg" />
+  <media name="sapato.jpg" file="sapato.jpg" />
+  <media name="sol.jpg" file="sol.jpg" />
+  <media name="uva.jpg" file="uva.jpg" />
+  <media name="Índice.jpg" file="indice.jpg" />
+  <media name="CAPA.png" file="capa.png" />
+  <media name="fundo escrevendo rimas.png" file="fundo_escrevendo_rimas.png" />
+  <media name="venda.png" file="venda.png" />
+ </mediaBag>
+</JClicProject>
+

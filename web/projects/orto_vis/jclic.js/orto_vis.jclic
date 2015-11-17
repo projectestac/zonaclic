@@ -1,0 +1,2352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="orto_vis" version="0.1.3">
+ <settings>
+  <title>Ortografia i memòria visual</title>
+  <revision description="created" date="1/18/15" />
+  <revision description="Publicació a la zonaClic (http://clic.xtec.cat)" date="3/25/15">
+   <author name="Equip Clic" mail="clic@xtec.cat" organization="Àrea TIC - Departament d'Educació" />
+  </revision>
+  <author name="Oriol Bosch Fainé" mail="obosch5@xtec.cat" />
+  <organization name="Escola L'Esqueix - ZER El Moianès" mail="a8021934@xtec.cat" url="http://www.xtec.cat/centres/a8021934" city="Monistrol de Calders" state="Catalunya" />
+  <language>català</language>
+  <description>
+   <p>Aquest projecte recull diferents activitats relacionades, entre d'altres, amb les paraules d'ús comú que es proposen en el treball Ortografia sense esforç de Daniel Gabarró. Amb aquestes es vol afavorir el treball i millora de la memòria visual i per tant de l'ortografia.&lt;p&gt;</p>
+   <p>En un primer bloc hi ha una mostra de possibles activitats de paraules senzilles (no tenen accent). En el segon bloc la dificultat de les paraules és una mica més elevada. En el tercer bloc hi ha activitats d'aplicació d'aquestes paraules (i altres) en textos.</p>
+  </description>
+  <descriptors area="Llengües" level="Primària (6-12)">aprenentatge de la llengua, comprensió escrita, comprensió oral, didàctica de la llengua, fonètica, llengua, llengua catalana, semàntica</descriptors>
+  <skin file="@orange.xml" />
+ </settings>
+ <sequence>
+  <item id="inici" name="inici">
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="MENÚ INICIAL">
+   <jump action="STOP" id="forward" />
+  </item>
+  <item id="paquet 1" name="Puzzle1" />
+  <item name="puzzle d'intercanvi" />
+  <item name="puzzle intercanvi 2" />
+  <item name="puzzle intercanvi 3" />
+  <item name="puzzle intercanvi 4" />
+  <item name="puzle intercanvi 5" />
+  <item name="puzzle d'intercanvi 6" />
+  <item name="Memory1" />
+  <item name="Sopa de lletres 1">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item id="paquet2" name="act associació complexa">
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="memory 2" />
+  <item name="act d'identificació" />
+  <item name="act associació simple" />
+  <item name="act identificació 2 - paraules incorrectes" />
+  <item name="activitat d'identificació 3" />
+  <item name="act exploració" />
+  <item name="resposta escrita" />
+  <item name="sopa de lletres 2" />
+  <item name="mots encreuats">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item id="paquet 3 - textos" name="text: omplir forats">
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="text: omplir forats amb llista" />
+  <item name="text: omplir forats amb inicials" />
+  <item name="text: identificar paraules" />
+  <item name="text: ordenar paràgrafs" />
+  <item name="text: ordenar paraules" />
+  <item name="informació imatges" />
+  <item id="final" name="FINAL">
+   <jump action="RETURN" id="forward" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.InformationScreen" name="FINAL">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Espero que n'hagis tret profit!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="631.0" cellHeight="440.0" border="true">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell image="pantalla final-resized.jpg" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="MENÚ INICIAL">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Tria les activitats que vulguis fer!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="540.0" cellHeight="132.0" border="true">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <style>
+      <font family="Arial" size="22" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="paquet 1" />
+     <p>1r PAQUET</p>
+     <p>PARAULES BÀSIQUES</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="22" bold="true" />
+      <color background="0xFF0099" />
+     </style>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="paquet2" />
+     <p>2n PAQUET</p>
+     <p>VENCEM ELS ACCENTS!... I ALTRES PARAULES</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="22" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="paquet 3 - textos" />
+     <p>3r PAQUET</p>
+     <p>DE LA PARAULA AL TEXT!</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@memory.MemoryGame" name="Memory1">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Emparella els noms amb les imatges i fixa't bé com s'escriuen!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Magnífic!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="125.0" cellHeight="127.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell image="bitllet.png" />
+    <cell image="boat.png" />
+    <cell image="cheese.png" />
+    <cell image="cotxe.png" />
+    <cell image="paraigua.png" />
+    <cell image="rellotge.png" />
+   </cells>
+   <cells rows="2" cols="3" cellWidth="50.0" cellHeight="30.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x66CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell>
+     <p>BITLLET</p>
+    </cell>
+    <cell>
+     <p>VAIXELL</p>
+    </cell>
+    <cell>
+     <p>FORMATGE</p>
+    </cell>
+    <cell>
+     <p>COTXE</p>
+    </cell>
+    <cell>
+     <p>PARAIGÜES</p>
+    </cell>
+    <cell>
+     <p>RELLOTGE</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="Puzzle1">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Col·loca les peces al seu lloc per completar les paraules.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Fàcil, oi? Fixa't bé en les paraules abans de seguir.</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="i01-small.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="i01-puzle1.jpg">
+    <style borderStroke="2.3" markerStroke="2.7">
+     <color inactive="0xFFFFFF" />
+    </style>
+    <shaper class="@Holes" cols="3" rows="2">
+     <shape comment="0">rectangle:0.180597,0.634497,0.073134,0.117043</shape>
+     <shape comment="1">rectangle:0.713433,0.032854,0.044776,0.030801</shape>
+     <shape comment="2">rectangle:0.498507,0.743326,0.062687,0.11499</shape>
+     <shape comment="3">rectangle:0.697015,0.443532,0.156716,0.147844</shape>
+     <shape comment="4">rectangle:0.686567,0.593429,0.165672,0.147844</shape>
+     <shape comment="5">M:0.644776,0.396304|L:0.60597,0.281314|L:0.647761,0.168378|L:0.583582,0.168378|L:0.571642,0.211499|L:0.556716,0.172485|L:0.5,0.168378|L:0.544776,0.283368|L:0.498507,0.394251|L:0.559702,0.396304|L:0.571642,0.355236|L:0.592537,0.402464|L:0.644776,0.396304|L:0.644776,0.396304</shape>
+    </shaper>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="Sopa de lletres 1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Troba les paraules anteriors a la sopa de lletres. Només tens 90 segons per fer-ho!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Bona feina!</p>
+    </cell>
+    <cell type="finalError">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>No has tingut temps? Torna-hi!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="90" countDownTime="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <textGrid rows="14" columns="9" cellWidth="41.0" cellHeight="40.0" border="false">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color foreground="0x0099CC" background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>*PARAIGÜES*F**</row>
+     <row>***E*******O**</row>
+     <row>***L*******R**</row>
+     <row>BITLLET****M*C</row>
+     <row>***O*******A*O</row>
+     <row>***T*******T*T</row>
+     <row>***G*******G*X</row>
+     <row>***E*******E*E</row>
+     <row>**VAIXELL*****</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">PARAIGÜES</clue>
+    <clue id="1">COTXE</clue>
+    <clue id="2">VAIXELL</clue>
+    <clue id="3">RELLOTGE</clue>
+    <clue id="4">BITLLET</clue>
+    <clue id="5">FORMATGE</clue>
+   </clues>
+   <cells rows="3" cols="2" cellWidth="123.0" cellHeight="79.0" border="false" id="secondary">
+    <style transparent="true">
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell image="paraigua.png" />
+    <cell image="cotxe.png" />
+    <cell image="boat.png" />
+    <cell image="rellotge.png" />
+    <cell image="bitllet.png" />
+    <cell image="cheese.png" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="act associació complexa" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Relaciona les paraules segons portin accent a la E/O obert o tancat.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Bona feina!</p>
+    </cell>
+    <cell type="finalError">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Fixa't bé com sonen els models: cafÈ, tambÉ, camiÓ, aixÒ</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <cells rows="4" cols="3" cellWidth="157.0" cellHeight="96.0" border="true" id="primary">
+    <style borderStroke="0.7" markerStroke="2.7">
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" alternative="0x000000" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="4" />
+    <cell id="3">
+     <p>AVI___</p>
+    </cell>
+    <cell id="3">
+     <p>EXCEPCI___</p>
+    </cell>
+    <cell id="0">
+     <p>INTEL·LIG__NCIA</p>
+    </cell>
+    <cell id="3">
+     <p>BALC___</p>
+    </cell>
+    <cell id="3">
+     <p>EXCURSI___</p>
+    </cell>
+    <cell id="1">
+     <p>TAMB___</p>
+    </cell>
+    <cell id="0">
+     <p>D___BIL</p>
+    </cell>
+    <cell id="3">
+     <p>HABITACI___</p>
+    </cell>
+    <cell id="3">
+     <p>IL·LUSI___</p>
+    </cell>
+    <cell id="1">
+     <p>DESPR___S</p>
+    </cell>
+    <cell id="2">
+     <p>HIST___RIA</p>
+    </cell>
+    <cell id="3">
+     <p>MERAVELL__S</p>
+    </cell>
+   </cells>
+   <cells rows="2" cols="2" cellWidth="108.0" cellHeight="94.0" border="true" id="secondary">
+    <style borderStroke="5.7" markerStroke="2.7">
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x66CCFF" border="0xFF0099" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="È.jpg" />
+    <cell image="É.jpg" />
+    <cell image="Ò.jpg" />
+    <cell image="Ó.jpg" />
+   </cells>
+   <cells rows="4" cols="3" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <cell>
+     <p>AVIÓ</p>
+    </cell>
+    <cell>
+     <p>EXCEPCIÓ</p>
+    </cell>
+    <cell>
+     <p>INTEL·LIGÈNCIA</p>
+    </cell>
+    <cell>
+     <p>BALCÓ</p>
+    </cell>
+    <cell>
+     <p>EXCURSIÓ</p>
+    </cell>
+    <cell>
+     <p>TAMBÉ</p>
+    </cell>
+    <cell>
+     <p>DÈBIL</p>
+    </cell>
+    <cell>
+     <p>HABITACIÓ</p>
+    </cell>
+    <cell>
+     <p>IL·LUSIÓ</p>
+    </cell>
+    <cell>
+     <p>DESPRÉS</p>
+    </cell>
+    <cell>
+     <p>HISTÒRIA</p>
+    </cell>
+    <cell>
+     <p>MERAVELLÓS</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="act associació simple" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Uneix el principi i el final i forma paraules d'ús freqüent</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Esdrúixola, síl·laba, sovint... MOLT BÉ!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <cells rows="5" cols="2" cellWidth="150.0" cellHeight="80.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x66CCFF" alternative="0x000000" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="5" />
+    <cell>
+     <p>ESDRÚ</p>
+    </cell>
+    <cell>
+     <p>FINAL</p>
+    </cell>
+    <cell>
+     <p>SÍL·</p>
+    </cell>
+    <cell>
+     <p>A</p>
+    </cell>
+    <cell>
+     <p>PER</p>
+    </cell>
+    <cell>
+     <p>AI</p>
+    </cell>
+    <cell>
+     <p>PE</p>
+    </cell>
+    <cell>
+     <p>AL</p>
+    </cell>
+    <cell>
+     <p>SO</p>
+    </cell>
+    <cell>
+     <p>ALL</p>
+    </cell>
+   </cells>
+   <cells rows="5" cols="2" cellWidth="115.0" cellHeight="80.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x00CCCC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="5" />
+    <cell>
+     <p>IXOLA</p>
+    </cell>
+    <cell>
+     <p>MENT</p>
+    </cell>
+    <cell>
+     <p>LABA</p>
+    </cell>
+    <cell>
+     <p>HIR</p>
+    </cell>
+    <cell>
+     <p>QUÈ</p>
+    </cell>
+    <cell>
+     <p>GUA</p>
+    </cell>
+    <cell>
+     <p>RÒ</p>
+    </cell>
+    <cell>
+     <p>COHOL</p>
+    </cell>
+    <cell>
+     <p>VINT</p>
+    </cell>
+    <cell>
+     <p>À</p>
+    </cell>
+   </cells>
+   <cells rows="5" cols="2" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="5" />
+    <cell>
+     <p>ESDRÚIXOLA</p>
+    </cell>
+    <cell>
+     <p>FINALMENT</p>
+    </cell>
+    <cell>
+     <p>SÍL·LABA</p>
+    </cell>
+    <cell>
+     <p>AHIR</p>
+    </cell>
+    <cell>
+     <p>PERQUÈ</p>
+    </cell>
+    <cell>
+     <p>AIGUA</p>
+    </cell>
+    <cell>
+     <p>PERÒ</p>
+    </cell>
+    <cell>
+     <p>ALCOHOL</p>
+    </cell>
+    <cell>
+     <p>SOVINT</p>
+    </cell>
+    <cell>
+     <p>ALLÀ</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Identify" name="act d'identificació" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Quines 6 paraules han de portar accent? Només pots fer 2 errors!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Il·lusió, intel·ligència, matemàtiques, després, núvol i demà... MOLT BÉ!</p>
+    </cell>
+    <cell type="finalError">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Reinicia l'activitat i torna a provar-ho! Som-hi!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="8" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <cells rows="3" cols="4" cellWidth="169.0" cellHeight="88.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="3" />
+    <cell id="1">
+     <p>IL·LUSIO</p>
+    </cell>
+    <cell id="0">
+     <p>FINALMENT</p>
+    </cell>
+    <cell id="0">
+     <p>MARIA</p>
+    </cell>
+    <cell id="1">
+     <p>DESPRES</p>
+    </cell>
+    <cell id="1">
+     <p>NUVOL</p>
+    </cell>
+    <cell id="0">
+     <p>HAVIA</p>
+    </cell>
+    <cell id="1">
+     <p>INTEL·LIGENCIA</p>
+    </cell>
+    <cell id="0">
+     <p>HOSPITAL</p>
+    </cell>
+    <cell id="0">
+     <p>FORMATGE</p>
+    </cell>
+    <cell id="1">
+     <p>MATEMATIQUES</p>
+    </cell>
+    <cell id="0">
+     <p>DIA</p>
+    </cell>
+    <cell id="1">
+     <p>DEMA</p>
+    </cell>
+   </cells>
+   <cells rows="3" cols="4" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x66CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="3" />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="il·lusió.mp3" />
+     <p>IL·LUSIÓ</p>
+    </cell>
+    <cell />
+    <cell />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="després.mp3" />
+     <p>DESPRÉS</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="núvol.mp3" />
+     <p>NÚVOL</p>
+    </cell>
+    <cell />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="intel·ligència.mp3" />
+     <p>INTEL·LIGÈNCIA</p>
+    </cell>
+    <cell />
+    <cell />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="matemàtiques.mp3" />
+     <p>MATEMÀTIQUES</p>
+    </cell>
+    <cell />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="demà.mp3" />
+     <p>DEMÀ</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@panels.Explore" name="act exploració">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Escolta i fixa't com es lletregen al revés les paraules següents. Practica tu també!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <cells rows="3" cols="2" cellWidth="175.0" cellHeight="97.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell id="0">
+     <media type="PLAY_AUDIO" level="1" file="anglès.mp3" />
+     <p>ANGLÈS</p>
+    </cell>
+    <cell id="3">
+     <media type="PLAY_AUDIO" level="1" file="arribar.mp3" />
+     <p>ARRIBAR</p>
+    </cell>
+    <cell id="1">
+     <media type="PLAY_AUDIO" level="1" file="aprovar.mp3" />
+     <p>APROVAR</p>
+    </cell>
+    <cell id="4">
+     <media type="PLAY_AUDIO" level="1" file="assignatura.mp3" />
+     <p>ASSIGNATURA</p>
+    </cell>
+    <cell id="2">
+     <media type="PLAY_AUDIO" level="1" file="aquí.mp3" />
+     <p>AQUÍ</p>
+    </cell>
+    <cell id="5">
+     <media type="PLAY_AUDIO" level="1" file="arbre.mp3" />
+     <p>ARBRE</p>
+    </cell>
+   </cells>
+   <cells rows="8" cols="1" cellWidth="136.0" cellHeight="72.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x66CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="8" />
+    <cell image="anglès-resized.jpg">
+     <media type="PLAY_AUDIO" level="1" file="anglès lletrejat revés.mp3" />
+    </cell>
+    <cell image="aprobar.png">
+     <media type="PLAY_AUDIO" level="1" file="aprovar lletrejat revés.mp3" />
+    </cell>
+    <cell image="aquí-resized.jpg">
+     <media type="PLAY_AUDIO" level="1" file="aquí lletrejat revés.mp3" />
+    </cell>
+    <cell image="arribar-resized.jpg">
+     <media type="PLAY_AUDIO" level="1" file="arribar lletrejat revés.mp3" />
+    </cell>
+    <cell image="asignatura.png">
+     <media type="PLAY_AUDIO" level="1" file="assignatura lletrejat revés.mp3" />
+    </cell>
+    <cell image="arbre-resized.jpg">
+     <media type="PLAY_AUDIO" level="1" file="arbre lletrejat revés.mp3" />
+    </cell>
+    <cell />
+    <cell />
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Identify" name="act identificació 2 - paraules incorrectes" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Quines paraules estan mal escrites? Pensa-ho bé, ja que només pots fer 2 errors!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>T'ha costat? Bona feina!</p>
+    </cell>
+    <cell type="finalError">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Torna a intentar-ho!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="9" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <cells rows="3" cols="4" cellWidth="124.0" cellHeight="105.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="3" />
+    <cell id="0">
+     <p>EXCEPTE</p>
+    </cell>
+    <cell id="1">
+     <p>HI HABIA</p>
+    </cell>
+    <cell id="1">
+     <p>VACANSES</p>
+    </cell>
+    <cell id="1">
+     <p>TAMBE</p>
+    </cell>
+    <cell id="0">
+     <p>VÍDEO</p>
+    </cell>
+    <cell id="1">
+     <p>VIATJE</p>
+    </cell>
+    <cell id="0">
+     <p>GUERRA</p>
+    </cell>
+    <cell id="1">
+     <p>HAVITACIÓ</p>
+    </cell>
+    <cell id="1">
+     <p>AVURRIR</p>
+    </cell>
+    <cell id="1">
+     <p>ABRE</p>
+    </cell>
+    <cell id="0">
+     <p>DEMÀ</p>
+    </cell>
+    <cell id="0">
+     <p>ESCRIC</p>
+    </cell>
+   </cells>
+   <cells rows="3" cols="4" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x66CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="3" />
+    <cell />
+    <cell>
+     <p>HI HAVIA</p>
+    </cell>
+    <cell>
+     <p>VACANCES</p>
+    </cell>
+    <cell>
+     <p>TAMBÉ</p>
+    </cell>
+    <cell />
+    <cell>
+     <p>VIATGE</p>
+    </cell>
+    <cell />
+    <cell>
+     <p>HABITACIÓ</p>
+    </cell>
+    <cell>
+     <p>AVORRIR</p>
+    </cell>
+    <cell>
+     <p>ARBRE</p>
+    </cell>
+    <cell />
+    <cell />
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@panels.Identify" name="activitat d'identificació 3" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Quines paraules estan mal escrites? Pensa-ho bé, ja que només pots fer 2 errors!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Ben fet!</p>
+    </cell>
+    <cell type="finalError">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Torna a intentar-ho!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="9" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <cells rows="3" cols="4" cellWidth="130.0" cellHeight="115.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" alternative="0xFF0000" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="3" />
+    <cell id="1">
+     <p>ECIVOCAR</p>
+    </cell>
+    <cell id="1">
+     <p>DESPRES</p>
+    </cell>
+    <cell id="0">
+     <p>DIBUIX</p>
+    </cell>
+    <cell id="1">
+     <p>ALCOOL</p>
+    </cell>
+    <cell id="0">
+     <p>VERMELL</p>
+    </cell>
+    <cell id="1">
+     <p>AIR</p>
+    </cell>
+    <cell id="0">
+     <p>SEMPRE</p>
+    </cell>
+    <cell id="1">
+     <p>AVIA</p>
+    </cell>
+    <cell id="0">
+     <p>HOME</p>
+    </cell>
+    <cell id="1">
+     <p>LLABORS</p>
+    </cell>
+    <cell id="1">
+     <p>BOTIGUA</p>
+    </cell>
+    <cell id="0">
+     <p>JOVE</p>
+    </cell>
+   </cells>
+   <cells rows="3" cols="4" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x66CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="3" />
+    <cell>
+     <p>EQUIVOCAR</p>
+    </cell>
+    <cell>
+     <p>DESPRÉS</p>
+    </cell>
+    <cell />
+    <cell>
+     <p>ALCOHOL</p>
+    </cell>
+    <cell />
+    <cell>
+     <p>AHIR</p>
+    </cell>
+    <cell />
+    <cell>
+     <p>ÀVIA</p>
+    </cell>
+    <cell />
+    <cell>
+     <p>LLAVORS</p>
+    </cell>
+    <cell>
+     <p>BOTIGA</p>
+    </cell>
+    <cell />
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="informació imatges">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>I això ha estat possible gràcies a...</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="autoria imatges-resized.jpg">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="inici" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Escriure sense faltes d'ortografia és possible... comencem?</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="portada final bona.jpg">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@memory.MemoryGame" name="memory 2">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Emparella les paraules iguals</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Fàcil, oi?</p>
+    </cell>
+    <cell type="finalError">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="144.0" cellHeight="129.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell>
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>AVIÓ</p>
+    </cell>
+    <cell>
+     <p>ÀVIA</p>
+    </cell>
+    <cell>
+     <p>TAMBÉ</p>
+    </cell>
+    <cell>
+     <p>DESPRÉS</p>
+    </cell>
+    <cell>
+     <p>AIXÒ</p>
+    </cell>
+    <cell>
+     <p>AQUÍ</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.CrossWord" name="mots encreuats">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Completa aquests mots encreuats on surten paraules d'ús comú.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>No era gens fàcil... Felicitats!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <textGrid rows="15" columns="12" cellWidth="28.0" cellHeight="26.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>L**************</row>
+     <row>L*T********DEMÀ</row>
+     <row>ANAVA*******X**</row>
+     <row>V*M*******C*C**</row>
+     <row>O*BOTIGA**O*U**</row>
+     <row>R*É****HISTÒRIA</row>
+     <row>S***A**I**X*S*V</row>
+     <row>***HIVERN*E*I*I</row>
+     <row>****G*******Ó*Ó</row>
+     <row>****Ü**********</row>
+     <row>****E**********</row>
+     <row>****S**********</row>
+    </text>
+   </textGrid>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="60.0" border="true" id="acrossClues">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell id="10" item="1" />
+    <cell id="10" item="0" />
+    <cell id="11" item="1" />
+    <cell id="11" item="0" />
+    <cell id="7" item="4" />
+    <cell id="7" item="2" />
+    <cell id="7" item="1" />
+    <cell id="7" item="3" />
+    <cell id="7" item="0">
+     <p>Estació de l'any en què fa més fred.</p>
+    </cell>
+    <cell id="6" item="6" />
+    <cell id="6" item="4" />
+    <cell id="6" item="3" />
+    <cell id="6" item="1" />
+    <cell id="6" item="5" />
+    <cell id="6" item="2" />
+    <cell id="6" item="0" />
+    <cell id="8" item="2" />
+    <cell id="8" item="1" />
+    <cell id="8" item="0" />
+    <cell id="8" item="2" />
+    <cell id="9" item="1" />
+    <cell id="9" item="0" />
+    <cell id="5" item="3" />
+    <cell id="5" item="2">
+     <p>Narració inventada. EX: Vull que m'expliquis una...</p>
+    </cell>
+    <cell id="5" item="1" />
+    <cell id="5" item="0" />
+    <cell id="4" item="4" />
+    <cell id="4" item="3" />
+    <cell id="4" item="2" />
+    <cell id="4" item="1">
+     <p>Lloc on es poden comprar coses.</p>
+    </cell>
+    <cell id="4" item="0" />
+    <cell id="4" item="4" />
+    <cell id="2" item="2" />
+    <cell id="2" item="1" />
+    <cell id="2" item="0">
+     <p>1a persona del Pretèrit imperfet del verb anar</p>
+    </cell>
+    <cell id="3" item="4" />
+    <cell id="3" item="3" />
+    <cell id="3" item="2" />
+    <cell id="3" item="1" />
+    <cell id="3" item="0" />
+    <cell id="2" item="2" />
+    <cell id="1" item="3" />
+    <cell id="1" item="2">
+     <p>Després d'avui vindrà...</p>
+    </cell>
+    <cell id="1" item="1" />
+    <cell id="1" item="0" />
+    <cell id="0" item="1" />
+    <cell id="0" item="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="60.0" border="true" id="downClues">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x66CCFF" />
+    </style>
+    <cell id="14" item="1">
+     <p>Mitjà de transport aeri.</p>
+    </cell>
+    <cell id="14" item="0" />
+    <cell id="14" item="2" />
+    <cell id="13" item="2" />
+    <cell id="13" item="0" />
+    <cell id="13" item="1" />
+    <cell id="2" item="1" />
+    <cell id="2" item="0">
+     <p>Sinònim de "a més a més".</p>
+    </cell>
+    <cell id="9" item="1" />
+    <cell id="9" item="0" />
+    <cell id="10" item="0" image="i01-cotxe.png">
+     <style transparent="true">
+      <color foreground="0xFFFFFF" background="0x0099CC" />
+     </style>
+    </cell>
+    <cell id="10" item="0" />
+    <cell id="11" item="2" />
+    <cell id="11" item="0" />
+    <cell id="11" item="1" />
+    <cell id="12" item="1" />
+    <cell id="12" item="0">
+     <p>Sortida per l'entorn per anar a veure o descobrir una cosa. A l'escola en solem fer una per trimestre.</p>
+    </cell>
+    <cell id="6" item="2" />
+    <cell id="6" item="1" />
+    <cell id="6" item="0" />
+    <cell id="7" item="1" />
+    <cell id="7" item="0">
+     <p>Dia que va abans que avui.</p>
+    </cell>
+    <cell id="8" item="2" />
+    <cell id="8" item="1" />
+    <cell id="8" item="0" />
+    <cell id="5" item="2" />
+    <cell id="5" item="1" />
+    <cell id="5" item="0" />
+    <cell id="4" item="3" />
+    <cell id="4" item="2">
+     <p>Plural d'aigua</p>
+    </cell>
+    <cell id="4" item="1" />
+    <cell id="4" item="0" />
+    <cell id="3" item="3" />
+    <cell id="3" item="2" />
+    <cell id="3" item="1" />
+    <cell id="3" item="0" />
+    <cell id="1" item="1" />
+    <cell id="1" item="0" />
+    <cell id="0" item="1" />
+    <cell id="0" item="0">
+     <p>Connector sinònim de "després" (també és una cosa que es planta).</p>
+    </cell>
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="puzle intercanvi 5" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Ordena les peces per trobar la paraula que representa, però escrita al REVÉS!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Bona feina! --&gt; !anief anoB</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <cells rows="1" cols="7" border="false" image="bitllet.png">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="7" rows="1" />
+    <cell txtAlign="middle,top">
+     <p>T</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>E</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>L</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>L</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>T</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>I</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>B</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="puzzle d'intercanvi" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Ordena les peces per trobar la paraula que representa, però escrita al REVÉS!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>MOLT BÉ! --&gt; !ÉB TLOM</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <cells rows="1" cols="8" border="false" image="cheese.png">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="8" rows="1" />
+    <cell txtAlign="middle,top">
+     <p>E</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>G</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>T</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>A</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>M</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>R</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>O</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>F</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="puzzle d'intercanvi 6" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Ordena les peces per trobar la paraula que representa, però escrita al REVÉS!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Perfecte! --&gt; !etcefreP</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <cells rows="1" cols="8" border="false" image="rellotge.png">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="8" rows="1" />
+    <cell txtAlign="middle,top">
+     <p>E</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>G</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>T</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>O</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>L</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>L</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>E</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>R</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="puzzle intercanvi 2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Ordena les peces per trobar la paraula que representa, però escrita al REVÉS!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Som-hi! --&gt; !ih-moS</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <cells rows="1" cols="9" border="false" image="paraigua.png">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="9" rows="1" />
+    <cell txtAlign="middle,top">
+     <p>S</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>E</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>Ü</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>G</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>I</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>A</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>R</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>A</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+     </style>
+     <p>P</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="puzzle intercanvi 3" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Ordena les peces per trobar la paraula que representa, però escrita al REVÉS!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Molt bé! --&gt; !éB tloM</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <cells rows="1" cols="5" border="false" image="cotxe.png">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="5" rows="1" />
+    <cell txtAlign="middle,top">
+     <p>E</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>X</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>T</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>O</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>C</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="puzzle intercanvi 4" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Ordena les peces per trobar la paraula que representa, però escrita al REVÉS!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Fàcil, oi? --&gt; ?io, licàF</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <cells rows="1" cols="7" border="false" image="boat.png">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="7" rows="1" />
+    <cell txtAlign="middle,top">
+     <p>L</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>L</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>E</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>X</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>I</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>A</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <p>V</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="resposta escrita" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Escolta atentament i escriu la paraula al revés.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Díficil? Som-hi, que ho has fet molt bé!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <cells rows="5" cols="1" cellWidth="213.0" cellHeight="51.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell id="0">
+     <media type="PLAY_AUDIO" level="1" file="cavall.mp3" />
+     <p>Dictat de paraules</p>
+    </cell>
+    <cell id="1">
+     <media type="PLAY_AUDIO" level="1" file="equivocar.mp3" />
+     <p>Dictat de paraules</p>
+    </cell>
+    <cell id="2">
+     <media type="PLAY_AUDIO" level="1" file="excursió.mp3" />
+     <p>Dictat de paraules</p>
+    </cell>
+    <cell id="3">
+     <media type="PLAY_AUDIO" level="1" file="hi havia.mp3" />
+     <p>Dictat de paraules</p>
+    </cell>
+    <cell id="4">
+     <media type="PLAY_AUDIO" level="1" file="història.mp3" />
+     <p>Dictat de paraules</p>
+    </cell>
+   </cells>
+   <cells rows="5" cols="1" cellWidth="289.0" cellHeight="66.0" border="true" id="answers">
+    <style>
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x66CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell>
+     <p>llavac</p>
+    </cell>
+    <cell>
+     <p>racoviuqe|àcoviuqe</p>
+    </cell>
+    <cell>
+     <p>óisrucxe</p>
+    </cell>
+    <cell>
+     <p>aivah ih</p>
+    </cell>
+    <cell>
+     <p>airòtsih</p>
+    </cell>
+   </cells>
+   <cells rows="5" cols="1" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell>
+     <p>CAVALL</p>
+    </cell>
+    <cell>
+     <p>EQUIVOCAR</p>
+    </cell>
+    <cell>
+     <p>EXCURSIÓ</p>
+    </cell>
+    <cell>
+     <p>HI HAVIA</p>
+    </cell>
+    <cell>
+     <p>HISTÒRIA</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="sopa de lletres 2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>AVANA, NREVIH, ADUGEB, ÓISRUCXE, ARUTANGISSA i ÀPERTNE... les trobes escrites del dret?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Molt bé! Seguim!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0099" border="true" />
+   </settings>
+   <textGrid rows="11" columns="9" cellWidth="52.0" cellHeight="43.0" border="false">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color foreground="0x0099CC" background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>*****A**E**</row>
+     <row>HIVERN**N**</row>
+     <row>*****A**T**</row>
+     <row>B****V**R**</row>
+     <row>E****A**E**</row>
+     <row>G*******P**</row>
+     <row>U*******À**</row>
+     <row>D*EXCURSIÓ*</row>
+     <row>ASSIGNATURA</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">HIVERN</clue>
+    <clue id="1">ANAVA</clue>
+    <clue id="2">ASSIGNATURA</clue>
+    <clue id="3">BEGUDA</clue>
+    <clue id="4">ENTREPÀ</clue>
+    <clue id="5">EXCURSIÓ</clue>
+   </clues>
+   <cells rows="6" cols="1" cellWidth="190.0" cellHeight="65.0" border="false" id="secondary">
+    <style transparent="true">
+     <font family="Arial" size="19" bold="true" />
+     <color background="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell image="hivern.jpg" />
+    <cell image="anava.jpg" />
+    <cell image="assignatura imatge.jpg" />
+    <cell image="beguda imatge.jpg" />
+    <cell image="entrepà.jpg" />
+    <cell image="excursió imatge.jpg" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.Identify" name="text: identificar paraules" type="identifyWords">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Busca les 7 paraules de més d'una síl·laba d'aquest text que han perdut l'accent.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Bona feina! Seguim?</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="667" height="431" />
+    </window>
+   </settings>
+   <checkButton>Ho he fet bé?</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="17" bold="true" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" size="18" bold="false" italic="false" Alignment="1" />
+     <p family="Arial" background="0xFFFFFF" size="18" bold="false" italic="false" Alignment="1">
+      <text family="Arial" background="0xFFFFFF" bold="true" foreground="0x99CCFF" size="17">UN PAQUET DE GALETES (2A PART)</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" size="18" bold="false" italic="false" />
+     <p family="Arial" background="0xFFFFFF" size="18" bold="false" italic="false">
+      <text family="Arial" background="0xFFFFFF" bold="true" foreground="0x000000" size="17">Ah, no! </text>
+      <target>Allo</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" foreground="0x000000" size="17"> li va semblar massa! Es va posar a rebufar de </text>
+      <target>rabia.</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" foreground="0x000000" size="17"> Va tancar el seu llibre, va recollir les seves coses i va marxar cap al sector d'embarcament…</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" size="18" bold="false" italic="false" />
+     <p family="Arial" background="0xFFFFFF" size="18" bold="false" italic="false">
+      <text family="Arial" background="0xFFFFFF" bold="true" foreground="0x000000" size="17">Quan va asseure’s a l’interior de </text>
+      <target>l’avio,</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" foreground="0x000000" size="17"> va mirar dins la seva bossa i per la seva sorpresa, </text>
+      <target>alla</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" foreground="0x000000" size="17"> estava el seu paquet de galetes, intacte, tancat! Va sentir tanta vergonya!</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" size="18" bold="false" italic="false">
+      <target>Nomes</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" foreground="0x000000" size="17"> aleshores es va adonar de com n'havia estat d'equivocada. Havia oblidat que les seves galetes estaven guardades dins la seva bossa! </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" size="18" bold="false" italic="false">
+      <text family="Arial" background="0xFFFFFF" bold="true" foreground="0x000000" size="17">Ja no era a temps ni tenia possibilitats per a donar explicacions o demanar disculpes. </text>
+      <target>Pero</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" foreground="0x000000" size="17"> sí per a raonar:</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" size="18" bold="false" italic="false" />
+     <p family="Arial" background="0xFFFFFF" size="18" bold="false" italic="false">
+      <text family="Arial" background="0xFFFFFF" bold="true" foreground="0x000000" size="17">Quantes vegades a la nostra vida traiem conclusions, quan </text>
+      <target>hauriem</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" foreground="0x000000" size="17"> d’observar millor? Quantes coses no són exactament com pensem sobre les persones?</text>
+     </p>
+    </section>
+   </document>
+  </activity>
+  <activity class="@text.FillInBlanks" name="text: omplir forats" forceOkToAdvance="true">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Completa el text amb 4 paraules d'ús comú. Si necessites una pista clica F1.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Bona feina! Seguim?</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="621" height="394" />
+    </window>
+   </settings>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="19" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text family="Arial" background="0xFFFFFF" bold="true" foreground="0x6699FF">LA FAULA DE L'ERIÇÓ</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">Durant l'Edat de Gel, molts animals van morir a causa del fred. Els eriçons adonant-se de la situació, van decidir unir-se en grups. D'aquesta manera s'abrigarien i protegirien entre si, </text>
+      <target>
+       <answer>però</answer>
+       <response fill="*" length="4" maxLength="4" />
+       <info mode="onDemand">
+        <cell width="100" height="40">
+         <style borderStroke="0.7" markerStroke="5.0">
+          <font family="Arial" size="14" />
+          <color background="0xCCCCFF" />
+         </style>
+         <p>sinònim de "tot i que"</p>
+        </cell>
+       </info>
+       <text>però</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF"> les espines de cada un ferien als companys més propers, els que just oferien més calor. </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">Per tant van decidir allunyar-se els uns dels altres i van començar a morir congelats. Així que van haver de fer una elecció, o </text>
+      <target>
+       <answer>acceptaven</answer>
+       <response fill="*" length="10" maxLength="10" />
+       <info mode="onDemand">
+        <cell width="123" height="66">
+         <style borderStroke="0.7" markerStroke="5.0">
+          <font family="Arial" size="14" />
+          <color background="0xCCCCFF" />
+         </style>
+         <p>pretèrit imperfet del verb acceptar</p>
+        </cell>
+       </info>
+       <text>acceptaven</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF"> les espines dels seus companys o desapareixien de la Terra. </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">Amb saviesa, van decidir tornar a estar junts. D'aquesta manera van </text>
+      <target>
+       <answer>aprendre</answer>
+       <response fill="*" length="8" maxLength="8" />
+       <info mode="onDemand">
+        <cell width="128" height="58">
+         <style borderStroke="0.7" markerStroke="5.0">
+          <font family="Arial" size="14" />
+          <color background="0xCCCCFF" />
+         </style>
+         <p>def: adquirir el coneixement, la pràctica</p>
+        </cell>
+       </info>
+       <text>aprendre</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF"> a conviure amb les petites ferides que la relació amb els altres poden ocasionar, ja que el més important </text>
+      <target>
+       <answer>és</answer>
+       <response fill="*" length="2" maxLength="2" />
+       <info mode="onDemand">
+        <cell width="100" height="40">
+         <style borderStroke="0.7" markerStroke="5.0">
+          <font family="Arial" size="14" />
+          <color background="0xCCCCFF" />
+         </style>
+         <p>verb ser</p>
+        </cell>
+       </info>
+       <text>és</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF"> la calor de l'altre. I així van poder sobreviure. </text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="text: omplir forats amb inicials">
+   <messages>
+    <cell type="previous">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="19" bold="true" />
+      <color foreground="0xFFFFFF" background="0x25A3F8" />
+     </style>
+     <p>Llegeix el text amb atenció i quan hagis acabat clica sobre el text.</p>
+    </cell>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Completa les paraules incomplertes... tots són formes verbals del pretèrit imperfet d'indicatiu!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Molt bé!!! Efectivament... el pretèrit imperfet acaba en -AVA!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="694" height="378" />
+    </window>
+   </settings>
+   <checkButton>Ho he fet bé?</checkButton>
+   <prevScreen>
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <p>UN PAQUET DE GALETES (1A PART)&#xD;</p>
+    <p>&#xD;</p>
+    <p>Una noia estava esperant el seu vol en una sala d’espera d’un gran aeroport. Com que havia d’esperar molta estona, va decidir comprar un llibre i també un paquet de galetes.&#xD;</p>
+    <p>Va asseure’s en una sala de l’aeroport per a poder descansar i llegir en pau, i va deixar les seves coses al seient del costat. Deixant aquest seient entre mig, va asseure’s un home que va obrir una revista i va començar a llegir.&#xD;</p>
+    <p>Al cap d’una estona a la noia li va agafar gana, va obrir les galetes que tenia al seient del costat, i va començar a menjar.&#xD;</p>
+    <p>&#xD;</p>
+    <p>Quan ella va agafar la primera, l’home també en va agafar una. Ella es va sentir indignada, però no va dir res. Només va pensar: “Que descarat! Si jo fos més valenta, fins i tot li donaria una bufetada per a que no se n’oblidi mai”.&#xD;</p>
+    <p>Cada cop que ella agafava una galeta, l’home també n’agafava una. Allò la indignava tant que no aconseguia concentrar-se ni reaccionar.&#xD;</p>
+    <p>&#xD;</p>
+    <p>Quan quedava només una galeta, va pensar: “què farà ara aquest aprofitat?”</p>
+   </prevScreen>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="17" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text family="Arial" background="0xFFFFFF" bold="true" foreground="0x99CCFF">UN PAQUET DE GALETES (1A PART)</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">Una noia e</text>
+      <target>
+       <answer>stava</answer>
+       <response fill="*" length="5" maxLength="5" />
+       <text>stava</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF"> esperant el seu vol en una sala d’espera d’un gran aeroport. Com que havia d’esperar molta estona, va decidir comprar un llibre i també un paquet de galetes.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">Va asseure’s en una sala de l’aeroport per a poder descansar i llegir en pau, i va deixar les seves coses al seient del costat. Deixant aquest seient entre mig, va asseure’s un home que va obrir una revista i va començar a llegir.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">Al cap d’una estona a la noia li va agafar gana, va obrir les galetes que tenia al seient del costat, i va començar a menjar.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">Quan ella va agafar la primera, l’home també en va agafar una. Ella es va sentir indignada, però no va dir res. Només va pensar: “Que descarat! Si jo fos més valenta, fins i tot li donaria una bufetada per a que no se n’oblidi mai”.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">Cada cop que ella a</text>
+      <target>
+       <answer>gafava</answer>
+       <response fill="*" length="6" maxLength="6" />
+       <text>gafava</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF"> una galeta, l’home també n’agafava una. Allò la i</text>
+      <target>
+       <answer>ndignava</answer>
+       <response fill="*" length="8" maxLength="8" />
+       <text>ndignava</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF"> tant que no aconseguia concentrar-se ni reaccionar.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">Quan q</text>
+      <target>
+       <answer>uedava</answer>
+       <response fill="*" length="6" maxLength="6" />
+       <text>uedava</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF"> només una galeta, va pensar: “què farà ara aquest aprofitat?”</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="text: omplir forats amb llista" autoJump="true">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Tria les paraules correctes que completen el text.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Molt bé!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="685" height="406" />
+    </window>
+   </settings>
+   <checkButton>Avalua't</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="17" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" size="19" bold="false" italic="false" Alignment="1">
+      <text family="Arial" background="0xFFFFFF" size="19" bold="true" italic="false" foreground="0x6699FF">EL LLEÓ I EL RATOLÍ</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" size="19" bold="false" italic="false" Alignment="0">
+      <text family="Arial" background="0xFFFFFF" size="19" bold="false" italic="false">A l'ombra d'un </text>
+      <target>
+       <answer>arbre</answer>
+       <optionList>
+        <option>abre</option>
+        <option>arbre</option>
+        <option>arbra</option>
+        <option>abra</option>
+       </optionList>
+       <text>arbre</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="19" bold="false" italic="false"> un lleó dormia una migdiada. Un ratolí, que jugava per les branques, no se'n va adonar i jugant, jugant, va caure damunt l'esquena del lleó i el va despertar. Molt enfadat, el lleó, d'una grapada, el va atrapar. </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" size="19" bold="false" italic="false" />
+     <p family="Arial" background="0xFFFFFF" size="19" bold="false" italic="false">
+      <text family="Arial" background="0xFFFFFF" size="19" bold="false" italic="false">El ratolí, en veure's pres del rei dels animals, li va demanar perdó i, tot plorant, li va dir que en cas de necessitat l'ajudaria. El lleó va riure: com el podia ajudar una bestiola tan petita si ell era tan gros i tan valent? Tanta gràcia li va fer, que el va deixar lliure. Molt temps </text>
+      <target>
+       <answer>després</answer>
+       <optionList>
+        <option>despres</option>
+        <option>desprès</option>
+        <option>després</option>
+        <option>despre's</option>
+       </optionList>
+       <text>després</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="19" bold="false" italic="false">, el lleó va caure a les xarxes d'uns </text>
+      <target>
+       <answer>caçadors</answer>
+       <optionList>
+        <option>casadors</option>
+        <option>cacadors</option>
+        <option>cazadors</option>
+        <option>caçadors</option>
+       </optionList>
+       <text>caçadors</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="19" bold="false" italic="false"> i, com que no podia sortir-ne tota i la seva gran força, es va posar a rugir tan fort com podia. I vet aquí que, per casualitat, aquell ratolinet no era gaire lluny i, en sentir el lleó, va córrer a </text>
+      <target>
+       <answer>ajudar-lo</answer>
+       <optionList>
+        <option>agudarlo</option>
+        <option>ajudarlo</option>
+        <option>agudar-lo</option>
+        <option>ajudar-lo</option>
+       </optionList>
+       <text>ajudar-lo</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="19" bold="false" italic="false">: va rosegar amb les seves dentetes les malles de la xarxa fins que va fer un forat prou gran i el lleó va poder sortir i s'escapà. </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" size="19" bold="false" italic="false">
+      <text family="Arial" background="0xFFFFFF" size="19" bold="false" italic="false">I des d'aquell dia el ratolí i el lleó van ser amics inseparables!</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" detail="false" />
+  </activity>
+  <activity class="@text.Order" name="text: ordenar paraules" code="" type="orderWords">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Les paraules amb accent d'aquest text s'han canviat de lloc... col·loca-les bé!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Molt bé! Era fàcil, oi?</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="653" height="376" />
+    </window>
+   </settings>
+   <checkButton>Ho he fet bé?</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="19" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="300" height="120" image="Sin título.jpg" />
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">La setmana passada arribaren des de Miami, per via </text>
+      <target>aèria,</target>
+      <text family="Arial" background="0xFFFFFF"> set taurons destinats a l'</text>
+      <target>Aquàrium</target>
+      <text family="Arial" background="0xFFFFFF"> de Barcelona. D'aquests set, sis són taurons grisos i un </text>
+      <target>és</target>
+      <text family="Arial" background="0xFFFFFF"> un solraig de sorra. El tauró gris és una </text>
+      <target>espècie</target>
+      <text family="Arial" background="0xFFFFFF"> que es troba per tota la </text>
+      <target>Mediterrània;</target>
+      <text family="Arial" background="0xFFFFFF"> és el prototip de tauró que tothom </text>
+      <target>té</target>
+      <text family="Arial" background="0xFFFFFF"> a la ment, i el responsable de la majoria d'atacs contra els humans. Ara, tant el </text>
+      <target>tauró</target>
+      <text family="Arial" background="0xFFFFFF"> gris com el solraig </text>
+      <target>són</target>
+      <text family="Arial" background="0xFFFFFF"> dues especies seriosament amenaçades.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">El Temps, 4 de setembre de 1995.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+    </section>
+   </document>
+   <evaluator class="@BasicEvaluator" />
+  </activity>
+  <activity class="@text.Order" name="text: ordenar paràgrafs" type="orderParagraphs">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Ordena els paràgrafs d'aquest text. Fixa't que és una recepta!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Activitat superada!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x8AB6F2" dest="0xFFFFFF" angle="91" cycles="10" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="766" height="451" />
+    </window>
+   </settings>
+   <checkButton>Ho he fet bé?</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x000000" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="16" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <target>RECEPTA PER A SER FELIÇ</target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <target>Ingredients</target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <target>1100 gr. de records infantils, 3 tasses de somriures, 450 grams d'esperança, 300 grams de tendresa, 5 llaunes d'afecte, 40 paquets d'alegria, 1 mica de bogeria, 1200 grams d'amor i 1500 grams de paciència.</target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <target>Preparació</target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <target>En primer lloc, neteja els records, traient les parts que estiguin fetes malbé o que no serveixin. Agrega una a una les somriures, fins a formar una pasta suau i dolça.</target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <target>A continuació, afegeix a la barreja les esperances i permet que reposi, fins que dobli la seva mida. Renta amb aigua cada un dels paquets d'alegria, xapau-los en petits trossets i barreja amb tot l'afecte que trobis.</target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <target>Després, incorpora la paciència, la mica de bogeria, i la tendresa. Divideix en porcions iguals tot l'amor i tapeu-los amb la barreja anterior. Posa-ho durant tota la teva vida al forn del teu cor.</target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <target>Per últim, gaudeix sempre amb la teva família ... amb tot el sabor del que li vas posar. Si afegiu, dues cullerades de comprensió i 300 grams de comunicació aquesta recepta durarà per sempre.</target>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@BasicEvaluator" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="anava.jpg" file="anava.jpg" />
+  <media name="anglès-resized.jpg" file="angles_resized.jpg" />
+  <media name="aquí-resized.jpg" file="aqui_resized.jpg" />
+  <media name="arbre-resized.jpg" file="arbre_resized.jpg" />
+  <media name="arribar-resized.jpg" file="arribar_resized.jpg" />
+  <media name="assignatura imatge.jpg" file="assignatura_imatge.jpg" />
+  <media name="autoria imatges-resized.jpg" file="autoria_imatges_resized.jpg" />
+  <media name="beguda imatge.jpg" file="beguda_imatge.jpg" />
+  <media name="entrepà.jpg" file="entrepa.jpg" />
+  <media name="excursió imatge.jpg" file="excursio_imatge.jpg" />
+  <media name="hivern.jpg" file="hivern.jpg" />
+  <media name="i01-puzle1.jpg" file="i01_puzle1.jpg" />
+  <media name="i01-small.jpg" file="i01_small.jpg" />
+  <media name="pantalla final-resized.jpg" file="pantalla_final_resized.jpg" />
+  <media name="portada final bona.jpg" file="portada_final_bona.jpg" />
+  <media name="Sin título.jpg" file="sin_titulo.jpg" />
+  <media name="È.jpg" file="e.jpg" />
+  <media name="É.jpg" file="0e.jpg" />
+  <media name="Ò.jpg" file="o.jpg" />
+  <media name="Ó.jpg" file="0o.jpg" />
+  <media name="anglès lletrejat revés.mp3" file="angles_lletrejat_reves.mp3" />
+  <media name="anglès.mp3" file="angles.mp3" />
+  <media name="aprovar lletrejat revés.mp3" file="aprovar_lletrejat_reves.mp3" />
+  <media name="aprovar.mp3" file="aprovar.mp3" />
+  <media name="aquí lletrejat revés.mp3" file="aqui_lletrejat_reves.mp3" />
+  <media name="aquí.mp3" file="aqui.mp3" />
+  <media name="arbre lletrejat revés.mp3" file="arbre_lletrejat_reves.mp3" />
+  <media name="arbre.mp3" file="arbre.mp3" />
+  <media name="arribar lletrejat revés.mp3" file="arribar_lletrejat_reves.mp3" />
+  <media name="arribar.mp3" file="arribar.mp3" />
+  <media name="assignatura lletrejat revés.mp3" file="assignatura_lletrejat_reves.mp3" />
+  <media name="assignatura.mp3" file="assignatura.mp3" />
+  <media name="cavall.mp3" file="cavall.mp3" />
+  <media name="demà.mp3" file="dema.mp3" />
+  <media name="després.mp3" file="despres.mp3" />
+  <media name="equivocar.mp3" file="equivocar.mp3" />
+  <media name="excursió.mp3" file="excursio.mp3" />
+  <media name="hi havia.mp3" file="hi_havia.mp3" />
+  <media name="història.mp3" file="historia.mp3" />
+  <media name="il·lusió.mp3" file="il_lusio.mp3" />
+  <media name="intel·ligència.mp3" file="intel_ligencia.mp3" />
+  <media name="matemàtiques.mp3" file="matematiques.mp3" />
+  <media name="núvol.mp3" file="nuvol.mp3" />
+  <media name="aprobar.png" file="aprobar.png" />
+  <media name="asignatura.png" file="asignatura.png" />
+  <media name="bitllet.png" file="bitllet.png" />
+  <media name="boat.png" file="boat.png" />
+  <media name="cheese.png" file="cheese.png" />
+  <media name="cotxe.png" file="cotxe.png" />
+  <media name="i01-cotxe.png" file="i01_cotxe.png" />
+  <media name="paraigua.png" file="paraigua.png" />
+  <media name="rellotge.png" file="rellotge.png" />
+ </mediaBag>
+</JClicProject>
+

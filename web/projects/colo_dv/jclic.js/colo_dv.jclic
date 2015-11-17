@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="color" version="0.1.3">
+ <settings>
+  <title>Els colors a educació infantil</title>
+  <revision description="Creació del paquet d'activitats en Clic 3.0" date="5/6/08" />
+  <revision description="Adaptació" date="5/6/08">
+   <author name="Raquel Garcia Hernando" mail="rgarc296@xtec.es" />
+  </revision>
+  <revision description="Publicació a la zonaClic (http://clic.xtec.cat)" date="6/30/14">
+   <author name="Equip Clic" mail="clic@xtec.cat" organization="Àrea TIC - Departament d'Educació" />
+  </revision>
+  <author name="Maria Freixa Castelló" mail="mfreix26@xtec.cat" />
+  <organization name="Escola Jaume Balmes" mail="a8026208@xtec.cat" url="http://www.xtec.cat/centres/a8026208" city="Sant Feliu de Codines" state="Catalunya" />
+  <language>català</language>
+  <description>
+   <p>Projecte d'activitats per als més petits sobre els colors. Al llarg dels exercicis es comença aprenent els colors primaris per anar avançant cap als secundaris.&lt;p&gt;</p>
+   <p>Adaptat per discapacitat visual baixa visió.</p>
+  </description>
+  <descriptors area="Visual i plàstica, Llengües" level="Infantil (3-6)">colors</descriptors>
+ </settings>
+ <sequence>
+  <item id="start" name="infromacio">
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="associacio" />
+  <item name="identificacio" />
+  <item name="memories" />
+  <item name="puzzle" />
+  <item name="identificacio2" />
+  <item name="memoria" />
+  <item name="associacio2" />
+  <item name="exploracio" />
+  <item name="puzzzle">
+   <jump action="RETURN" id="forward" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@associations.SimpleAssociation" name="associacio" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="act3.mp3" />
+     <p>RELACIONA ELS COLORS AMB LA IMATGE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="hohasfet.mp3" />
+     <p>MOLT BÉ!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x009933" border="true" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="150.0" cellHeight="113.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell id="0">
+     <style>
+      <color background="0xFFFF00" />
+     </style>
+    </cell>
+    <cell id="1">
+     <style>
+      <color background="0xFF0000" />
+     </style>
+    </cell>
+    <cell id="2">
+     <style>
+      <color background="0x3300FF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="3" cols="1" cellWidth="150.0" cellHeight="113.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell image="llimones.jpg">
+     <style>
+      <color background="0xFFFF00" />
+     </style>
+    </cell>
+    <cell avoidOverlapping="true" image="cireres.JPG">
+     <style>
+      <color background="0xFF0000" />
+     </style>
+    </cell>
+    <cell avoidOverlapping="true" image="marblau.jpg">
+     <style>
+      <color background="0x3300FF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="associacio2" code="">
+   <description />
+   <messages>
+    <cell imgAlign="right,middle" type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="relacionaobjcol.mp3" />
+     <p>RELACIONA L'OBJECTE AMB ELS COLORS</p>
+    </cell>
+    <cell imgAlign="right,middle" image="pilotac.jpg" type="final">
+     <style>
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" border="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="correcte.mp3" />
+     <p>CORRECTE!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="2" cols="1" cellWidth="150.0" cellHeight="127.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="2" />
+    <cell id="0" image="pilotac.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="sopilota.mp3" />
+    </cell>
+    <cell id="1" image="verda.jpg">
+     <media type="PLAY_AUDIO" level="1" file="soherba.mp3" />
+    </cell>
+   </cells>
+   <cells rows="2" cols="1" cellWidth="250.0" cellHeight="100.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="2" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFF00" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="sopilota.mp3" />
+     <p>GROGA, BLAVA I VERMELLA</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color background="0x00CC00" />
+     </style>
+     <p>VERDA</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Explore" name="exploracio" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="color.mp3" />
+     <p>ESCOLTA EL NOM DELS COLORS</p>
+    </cell>
+    <cell type="final" />
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x990099" border="true" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="150.0" cellHeight="130.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell id="0">
+     <style>
+      <color background="0xFF0000" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="vermell.mp3" />
+    </cell>
+    <cell id="1">
+     <style>
+      <color background="0xFFFF00" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="groc.mp3" />
+    </cell>
+    <cell id="2">
+     <style>
+      <color background="0x0000CC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="blau.mp3" />
+    </cell>
+    <cell id="3">
+     <style>
+      <color background="0x00CC33" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="verd.mp3" />
+    </cell>
+    <cell id="4">
+     <style>
+      <color background="0xCC33FF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="lila.mp3" />
+    </cell>
+    <cell id="5">
+     <style>
+      <color background="0xFF6600" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="taronja.mp3" />
+    </cell>
+   </cells>
+   <cells rows="6" cols="1" cellWidth="151.0" cellHeight="80.0" border="true" id="secondary">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <font family="Arial" size="28" bold="true" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell>
+     <style>
+      <font family="Arial" size="22" />
+      <color background="0xFF0000" />
+     </style>
+     <p>VERMELL</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="22" />
+      <color background="0xFFFF00" />
+     </style>
+     <p>GROC</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="22" />
+      <color background="0x0000CC" />
+     </style>
+     <p>BLAU</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="22" />
+      <color background="0x00CC33" />
+     </style>
+     <p>VERD</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="22" />
+      <color background="0xCC33FF" />
+     </style>
+     <p>LILA</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="22" />
+      <color background="0xFF6600" />
+     </style>
+     <p>TARONJA</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Identify" name="identificacio" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="identi.mp3" />
+     <p>CLICA AL DAMUNT DE LES IMATGES DE COLOR GROC</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="mb.mp3" />
+     <p>MOLT BÉ!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <cells rows="3" cols="3" cellWidth="175.0" cellHeight="150.0" border="true" id="primary">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+    <cell id="1" image="platan.jpg" />
+    <cell id="0" image="sabata.jpg">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="0" image="pantalons.jpg" />
+    <cell id="0" image="terra.jpg" />
+    <cell id="1" image="polls.jpg" />
+    <cell id="0" image="maduixa.jpg" />
+    <cell id="1" image="oli.jpg" />
+    <cell id="1" image="llimona.jpg" />
+    <cell id="1" image="flor.jpg" />
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@panels.Identify" name="identificacio2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="clicaverd.mp3" />
+     <p>CLICA SOBRE ELS OBJECTES VERDS</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="quedenvermells.mp3" />
+     <p>ARA QUEDEN ELS VERMELLS!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="150.0" cellHeight="150.0" border="true" id="primary">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell id="0" image="estrella.jpg" />
+    <cell id="0" image="cotxe.jpg" />
+    <cell id="1" image="camisa.jpg" />
+    <cell id="0" image="bici.jpg" />
+    <cell id="1" image="arbre.jpg" />
+    <cell id="1" image="enciam.gif" />
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="infromacio" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Dialog" size="72" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="mescla.mp3" />
+     <p>P3-P4-P5</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF0000" border="true" />
+   </settings>
+   <cells rows="2" cols="1" cellWidth="410.0" cellHeight="200.0" border="false">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="2" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Dialog" size="72" bold="true" />
+      <color background="0xFF0000" />
+     </style>
+     <p>Els COLORS</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Dialog" size="22" bold="true" />
+      <color background="0xFF0000" />
+     </style>
+     <p>Original: Maria Freixa Castelló</p>
+     <p>Adaptació: Raquel Garcia Hernando</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@memory.MemoryGame" name="memoria" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="buscaparella.mp3" />
+     <p>BUSCA LA SEVA PARELLA</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="correcte.mp3" />
+     <p>CORRECTE!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFF00" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="150.0" cellHeight="130.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="enciam.gif" />
+    <cell image="llimona.jpg" />
+    <cell image="maduixa.jpg" />
+    <cell image="pilotac.jpg" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="memories" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="buscaparella.mp3" />
+     <p>BUSCA EL MATEIX COLOR</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="quebe.mp3" />
+     <p>BÉ!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x3333FF" border="true" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="150.0" cellHeight="130.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell id="0">
+     <style>
+      <color background="0x3333FF" />
+     </style>
+    </cell>
+    <cell id="1">
+     <style>
+      <color background="0xFF0000" />
+     </style>
+    </cell>
+    <cell id="2">
+     <style>
+      <color background="0xFFFF00" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="PUZZLE.mp3" />
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="mb.mp3" />
+     <p>MOLT BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="1" cols="2" border="true" image="lloropuzzle.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="2" rows="1" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="puzzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="PUZZLE.mp3" />
+     <p>RESOL EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="hohasfet.mp3" />
+     <p>MOLT BÉ!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="2" cols="2" border="true" image="globus.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="2" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="enciam.gif" file="enciam.gif" />
+  <media name="arbre.jpg" file="arbre.jpg" />
+  <media name="bici.jpg" file="bici.jpg" />
+  <media name="camisa.jpg" file="camisa.jpg" />
+  <media name="cireres.JPG" file="cireres.jpg" />
+  <media name="cotxe.jpg" file="cotxe.jpg" />
+  <media name="estrella.jpg" file="estrella.jpg" />
+  <media name="flor.jpg" file="flor.jpg" />
+  <media name="globus.jpg" file="globus.jpg" />
+  <media name="llimona.jpg" file="llimona.jpg" />
+  <media name="llimones.jpg" file="llimones.jpg" />
+  <media name="lloropuzzle.jpg" file="lloropuzzle.jpg" />
+  <media name="maduixa.jpg" file="maduixa.jpg" />
+  <media name="marblau.jpg" file="marblau.jpg" />
+  <media name="oli.jpg" file="oli.jpg" />
+  <media name="pantalons.jpg" file="pantalons.jpg" />
+  <media name="pilotac.jpg" file="pilotac.jpg" />
+  <media name="platan.jpg" file="platan.jpg" />
+  <media name="polls.jpg" file="polls.jpg" />
+  <media name="sabata.jpg" file="sabata.jpg" />
+  <media name="terra.jpg" file="terra.jpg" />
+  <media name="verda.jpg" file="verda.jpg" />
+  <media name="act3.mp3" file="act3.mp3" />
+  <media name="blau.mp3" file="blau.mp3" />
+  <media name="buscaparella.mp3" file="buscaparella.mp3" />
+  <media name="clicaverd.mp3" file="clicaverd.mp3" />
+  <media name="color.mp3" file="color.mp3" />
+  <media name="correcte.mp3" file="correcte.mp3" />
+  <media name="groc.mp3" file="groc.mp3" />
+  <media name="hohasfet.mp3" file="hohasfet.mp3" />
+  <media name="identi.mp3" file="identi.mp3" />
+  <media name="lila.mp3" file="lila.mp3" />
+  <media name="mb.mp3" file="mb.mp3" />
+  <media name="mescla.mp3" file="mescla.mp3" />
+  <media name="PUZZLE.mp3" file="puzzle.mp3" />
+  <media name="quebe.mp3" file="quebe.mp3" />
+  <media name="quedenvermells.mp3" file="quedenvermells.mp3" />
+  <media name="relacionaobjcol.mp3" file="relacionaobjcol.mp3" />
+  <media name="soherba.mp3" file="soherba.mp3" />
+  <media name="sopilota.mp3" file="sopilota.mp3" />
+  <media name="taronja.mp3" file="taronja.mp3" />
+  <media name="verd.mp3" file="verd.mp3" />
+  <media name="vermell.mp3" file="vermell.mp3" />
+ </mediaBag>
+</JClicProject>
+

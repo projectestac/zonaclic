@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <JClicProject name="demo" version="0.1.3">
  <settings>
-  <title>JClic demo activities</title>
-  <revision description="Adapted for JSClic" date="4/4/15">
-   <author name="Francesc Busquets" mail="fbusquets@xtec.cat" />
-  </revision>
+  <title>untitled</title>
   <revision description="created" date="2/1/02" />
-  <author name="Francesc Busquets" mail="fbusquets@xtec.cat" url="http://clic.xtec.cat" rol="author" />
-  <organization name="XTEC" mail="clic@xtec.cat" url="http://clic.xtec.cat" city="Barcelona" country="Catalonia">
-   <comments>
-    <p>Catalonia Department of Education</p>
-   </comments>
-  </organization>
-  <language>English (en)</language>
-  <description>
-   <p>Compilation of samples of the different types of JClic activities.</p>
-   <p>This package is just for testing and demo purposes.</p>
-  </description>
-  <descriptors area="Not applicable" level="Not applicable">demo activities testing</descriptors>
+  <descriptors />
  </settings>
  <sequence>
-  <!-- item id="demo.pac" name="pres0.ass" delay="50" -->
-  <item id="demo.pac" name="pres0.ass" >
+  <item id="demo.pac" name="pres0.ass" delay="50">
    <jump tag="menu0.pac" id="forward" />
    <jump action="STOP" id="back" />
   </item>

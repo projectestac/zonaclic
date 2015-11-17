@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="gcivil_ca" version="0.1.3">
+ <settings>
+  <title>Guerra civil española</title>
+  <revision description="created" date="3/16/14" />
+  <revision description="Traducció català" date="2/2/06">
+   <author name="Pere Vargas Moré" mail="pvargas@uoc.edu" />
+  </revision>
+  <revision description="Publicació a la zonaClic (http://clic.xtec.cat)" date="6/18/14">
+   <author name="Equip Clic" mail="clic@xtec.cat" organization="Àrea TIC - Departament d'Educació" />
+  </revision>
+  <author name="Paula García García-Tenorio" />
+  <author name="David Méndez García" mail="davidmendez@ya.com" />
+  <organization name="IES Gonzalo Torrente Ballester" mail="ies.torrenteballest.sansebastian@educa.madrid.org" url="http://www.educa.madrid.org/portal/c/pub/webfactory/ver?webName=ies.torrenteballest.sansebastian" city="San Sebastián de los Reyes" />
+  <organization name="CEPAPUB Coslada" mail="cepa.coslada@educa.madrid.org" url="http://ceacoslada.com/" city="Coslada" state="Madrid" />
+  <language>català</language>
+  <description>
+   <p>Activitats JClic dissenyades per formar part d'una &lt;A HREF="http://personales.ya.com/educativo/marcogeneralcoslada.htm"&gt;WebQuest&lt;/A&gt; sobre la guerra civil espanyola per a alumnes de 4t d'ESO i educació bàsica per adults.,</p>
+  </description>
+  <descriptors area="Ciències socials" level="Secundària (12-16)">guerra civil</descriptors>
+  <skin file="@simple.xml" />
+ </settings>
+ <sequence>
+  <item id="start" name="presentació" delay="20">
+   <description>
+    <p>Portada y presentación de actividades.</p>
+   </description>
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="trencaclosc1" />
+  <item name="1936" />
+  <item name="Les 2 Espanyes" />
+  <item name="Guerra Civil Espanyola" />
+  <item name="Personat" />
+  <item name="Biografia" />
+  <item name="trencaclosc2" />
+  <item name="ideologi" />
+  <item name="Ideologies2" />
+  <item name="trencaclosc3" />
+  <item name="1936-39" />
+  <item name="Map">
+   <jump action="RETURN" id="forward" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.InformationScreen" name="1936" code="Mapa d'Espanya el 1936.">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Llegeix amb atenció com va començar la Guerra Civil Espanyola.</p>
+    </cell>
+   </messages>
+   <settings margin="19" report="true" reportActions="false">
+    <container bgColor="0x666666">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCCC" border="false" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="715.0" cellHeight="590.0" border="false">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell avoidOverlapping="true" image="mapaespaña1936.gif">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Dialog" size="18" />
+      <color background="0xFFCC00" />
+     </style>
+     <p>El 17 de juliol de 1936 a les Canàries i en algunes ciutats africanes (Melilla, Ceuta i Tetuan), i el 18 de juliol a la Península, un  sector important de l'exèrcit va protagonitzar un cop d'Estat. L'alçament va triomfar a les zones agrícoles i va fracassar a les grans ciutats i a les regions industrials. El fracàs del cop d'Estat i la divisió d'Espanya en dues zones va donar lloc a l'inici de la guerra civil.</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="1936-39" code="Mapes d'Espanya 1936-39">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Aquests mapes exemplifiquen el desenvolupament de la guerra civil. Fixat'hi bé perquè els hauràs d'ordenar</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x666666">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCCC" border="false" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="808.0" cellHeight="605.0" border="false">
+    <style>
+     <color background="0xFFCC33" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell avoidOverlapping="true" image="mapas1936-1939.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="18" bold="true" />
+      <color foreground="0x6666FF" />
+     </style>
+     <p>Fixa't bé en aquests quatre mapes i les dates</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@text.FillInBlanks" name="Biografia" code="Biografies de personatges" autoJump="true">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Omple els buits amb el nom del personatge de les descripcions.</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>¡Enhorabona!</p>
+    </cell>
+    <cell type="finalError">
+     <style />
+     <p>Torna-ho a intentar</p>
+    </cell>
+   </messages>
+   <settings margin="19" report="true" reportActions="true">
+    <container bgColor="0x666666">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCCC" border="false">
+     <size width="761" height="580" />
+    </window>
+   </settings>
+   <document>
+    <style name="targetError" base="target" foreground="0x6666FF" />
+    <style name="target" base="default" target="true" foreground="0xCC0000" />
+    <style name="default" family="Calibri" background="0xFFFFFF" size="14" bold="true" italic="false" tabWidth="12" />
+    <section>
+     <p size="14" bold="false" background="0xFFFFFF" italic="false" family="impact" />
+     <p size="14" bold="false" background="0xFFFFFF" italic="false" family="impact">
+      <text size="26" bold="true" background="0xFFFFFF" family="Calibri" foreground="0xFFCC00">DESCOBREIX EL PERSONATGE</text>
+     </p>
+     <p size="14" bold="false" background="0xFFFFFF" italic="false" family="impact" />
+     <p size="14" bold="false" background="0xFFFFFF" italic="false" family="impact">
+      <text size="26" bold="false" background="0xFFFFFF" family="Impact" foreground="0xFFCC00">1</text>
+      <text size="26" bold="false" background="0xFFFFFF" family="Calibri" foreground="0xFFCC00">.</text>
+      <target>
+       <answer>Lluís Companys</answer>
+       <response fill="_" length="14" maxLength="14" />
+       <text>Lluís Companys</text>
+      </target>
+      <text size="14" bold="false" background="0xFFFFFF" family="Calibri" foreground="0x000000">, fou President de la Generalitat de Catalunya durant la II República. Al capdavant de les forces públiques va aconseguir esclafar la rebelió dels militars a Barcelona, amb l'ajuda dels partits i sindicats d'esquerres. Va morir executat pel règim franquista l'any 1940.</text>
+     </p>
+     <p size="14" bold="false" background="0xFFFFFF" italic="false" family="impact">
+      <text size="26" bold="false" background="0xFFFFFF" family="Impact" foreground="0xFFCC00">2.</text>
+      <text size="14" bold="false" background="0xFFFFFF" family="Impact" foreground="0x000000"> </text>
+      <text size="14" bold="false" background="0xFFFFFF" family="Calibri" foreground="0x000000">El general </text>
+      <target>
+       <answer>Mola</answer>
+       <response fill="_" length="4" maxLength="4" />
+       <text>Mola</text>
+      </target>
+      <text size="14" bold="false" background="0xFFFFFF" family="Calibri" foreground="0x000000"> fou el cap de l'aixecament militar. Davant les sospites de ser l'instigador d'una revolta dels militars va ser destinat a Pamplona, on va poder acabar planificar la rebel·lió. Va morir en un accident d'avió, l'any 1937.</text>
+     </p>
+     <p size="14" bold="false" background="0xFFFFFF" italic="false" family="impact" />
+     <p size="14" bold="false" background="0xFFFFFF" italic="false" family="impact">
+      <text size="26" bold="false" background="0xFFFFFF" family="Impact" foreground="0xFFCC00">3.</text>
+      <text size="14" bold="false" background="0xFFFFFF" family="Impact" foreground="0xFFCC00"> </text>
+      <text size="14" bold="false" background="0xFFFFFF" family="Calibri" foreground="0x000000">La pasionaria, va ser el sobrenom de la dirigent comunista </text>
+      <target>
+       <answer>Dolores Ibárruri</answer>
+       <response fill="_" length="16" maxLength="16" />
+       <text>Dolores Ibárruri</text>
+      </target>
+      <text size="14" bold="false" background="0xFFFFFF" family="Calibri" foreground="0x000000"> nascuda a Bilbao. Va participar en la lluita obrera des de molt jove. Membre del PCE, fou elegida diputada a les Corts per Astúries l'any 1936.</text>
+     </p>
+     <p size="14" bold="false" background="0xFFFFFF" italic="false" family="impact" />
+     <p size="14" bold="false" background="0xFFFFFF" italic="false" family="impact">
+      <text size="26" bold="false" background="0xFFFFFF" family="Impact" foreground="0xFFCC00">4.</text>
+      <text size="14" bold="false" background="0xFFFFFF" family="Impact" foreground="0x000000"> </text>
+      <text size="14" bold="false" background="0xFFFFFF" family="Calibri" foreground="0x000000">Quan va esclatar la guerra </text>
+      <target>
+       <answer>Franco</answer>
+       <response fill="_" length="6" maxLength="6" />
+       <text>Franco</text>
+      </target>
+      <text size="14" bold="false" background="0xFFFFFF" family="Calibri" foreground="0x000000"> tenia 43 anys, era un dels generals de divisió més joves d'Europa. Nascut al Ferrol, va fer la major part de la seva carrera militar al Marroc. A partir de l'octubre de 1936 es va convertir en Cap Suprem del bàndol nacional.</text>
+     </p>
+     <p size="14" bold="false" background="0xFFFFFF" italic="false" family="impact" />
+     <p size="14" bold="false" background="0xFFFFFF" italic="false" family="impact">
+      <text size="26" bold="false" background="0xFFFFFF" family="Impact" foreground="0xFFCC00">5.</text>
+      <text size="14" bold="false" background="0xFFFFFF" family="Impact" foreground="0x000000">  </text>
+      <text size="14" bold="false" background="0xFFFFFF" family="Calibri" foreground="0x000000"> </text>
+      <target>
+       <answer>Durruti</answer>
+       <response fill="_" length="7" maxLength="7" />
+       <text>Durruti</text>
+      </target>
+      <text size="14" bold="false" background="0xFFFFFF" family="Calibri" foreground="0x000000"> fou un dels liders destacats anarquistes. Va participar en la sufocació de l'alçament dels militars a Barcelona i al front d'Aragó. El novembre de 1936 va anar a lluitar a Madrid, on va morir d'un tret.</text>
+     </p>
+     <p size="14" bold="false" background="0xFFFFFF" italic="false" family="impact" />
+     <p size="14" bold="false" background="0xFFFFFF" italic="false" family="impact">
+      <text size="26" bold="false" background="0xFFFFFF" family="Impact" foreground="0xFFCC00">6. </text>
+      <text size="14" bold="false" background="0xFFFFFF" family="Calibri" foreground="0x000000"> </text>
+      <target>
+       <answer>José Antonio Primo de Rivera</answer>
+       <response fill="_" length="28" maxLength="30" />
+       <text>Jose Antonio Primo de Rivera</text>
+      </target>
+      <text size="14" bold="false" background="0xFFFFFF" family="Calibri" foreground="0x000000"> i Onésimo Redondo van ser els fundadors la Falange Española, partit feixista que després de la guerra esdevindria partit únic del règim franquista. Ambdós van morir durant la guerra civil esdevenint màrtirs de la causa nacional.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" detail="false" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="Guerra Civil Espanyola" code="" autoJump="true">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Per cada pregunta tens tres respostes, tria la bona.</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Molt bé!</p>
+    </cell>
+    <cell type="finalError">
+     <style />
+     <p>Torna-ho a intentar</p>
+    </cell>
+   </messages>
+   <settings margin="19" report="true" reportActions="false">
+    <container bgColor="0x666666">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCCC" border="false">
+     <size width="800" height="703" />
+    </window>
+   </settings>
+   <document>
+    <style name="targetError" base="target" foreground="0x6666FF" />
+    <style name="target" base="default" target="true" foreground="0xCC0000" />
+    <style name="default" family="impact" background="0xFFFFFF" size="14" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <text size="16" bold="true" background="0xFFFFFF" family="Arial">RESPON CORRECTAMENT A LES SEGÜENTS PREGUNTES:</text>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <text size="18" background="0xFFFFFF" foreground="0xFFCC00" family="impact">1.</text>
+      <text size="14" background="0xFFFFFF" family="impact"> </text>
+      <text size="16" background="0xFFFFFF" family="impact"> </text>
+      <text size="16" bold="true" background="0xFFFFFF" family="Calibri">En quina data i lloc es va produir la sublevació militar contra el govern de la República Espanyola?</text>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <target>
+       <answer>El 17 de juliol de 1936 a la ciutat marroquina de Melilla</answer>
+       <optionList>
+        <option>El 18 de juliol de 1936 a la ciutat de Barcelona</option>
+        <option>El 17 de juliol de 1936 a la ciutat marroquina de Melilla</option>
+        <option>18 de juliol a la ciutat de Tenerife</option>
+       </optionList>
+       <text>El 17 de juliol de 1936 a la ciutat marroquina de Melilla.</text>
+      </target>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <cell width="381" height="117" border="false">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <font family="Dialog" size="14" />
+        <color background="0xFFCC00" />
+       </style>
+       <p> El cop d'estat va iniciar-se quan una guarnició militar es va revoltar contra el Govern de la Segona República Espanyola. Era l'inici d'un cop d'estat preparat minuciosament pel sector intransigent de l'exèrcit en connivència amb els sectors més reaccionaris de l'oligarquia espanyola després de la victòria del Front Popular. El 18 i el 19 de juliol es van revoltar la majoria de guarnicions militars arreu de l'Estat.</p>
+      </cell>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <text size="18" background="0xFFFFFF" foreground="0xFFCC00" family="impact">2.</text>
+      <text size="14" background="0xFFFFFF" family="impact">  </text>
+      <text size="16" bold="true" background="0xFFFFFF" family="Calibri">En quina data és van sublevar els militars a Barcelona?</text>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <target>
+       <answer>El 19 de juliol de 1936</answer>
+       <optionList>
+        <option>El 19 de juliol de 1936</option>
+        <option>El 21 de juliol de 1936</option>
+        <option>El 17 de juliol de 1936</option>
+       </optionList>
+       <text>El 19 de juliol de 1936.</text>
+      </target>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <cell width="381" height="117">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <font family="Dialog" size="16" />
+        <color background="0xFFCC00" />
+       </style>
+       <p>A la ciutat de Barcelona, l'actitud ferma de la Generalitat, que comandava les forces d'ordre públic, i la mobilització dels militants dels partits i sindicats d'esquerres va aconseguir esclafar la rebelió després de dos dies de lluita als carrers.</p>
+      </cell>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <text size="18" background="0xFFFFFF" foreground="0xFFCC00" family="impact">3.  </text>
+      <text size="18" bold="true" background="0xFFFFFF" family="Calibri" foreground="0x000000">Quins grups donaven suport a la insurrecció militar?</text>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <target>
+       <answer>L'Església, grans terratinents, classes altes, partits de dretes i antirepublicans</answer>
+       <optionList>
+        <option>L'Església, grans terratinents, classes altes, partits de dretes i antirepublicans</option>
+        <option>Les classes populars i els partits d'esquerres</option>
+        <option>El baix clergat, els partits antimonàrquics i partits d'esquerres</option>
+       </optionList>
+       <text>L'Església, grans terratinents, classes altes, partits de dretes i antirepublicans.</text>
+      </target>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <cell width="381" height="107">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <font family="Dialog" size="16" />
+        <color background="0xFFCC00" />
+       </style>
+       <p>La insurrecció militar va comptar amb el suport dels grups que s'havien oposat a les reformes republicanes i de les organitzacions polítiques falangistes, tradicionalistes, monàrquics...</p>
+      </cell>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <text size="18" background="0xFFFFFF" foreground="0xFFCC00" family="impact">4. </text>
+      <text size="16" bold="true" background="0xFFFFFF" family="Calibri" foreground="0xFFCC00"> </text>
+      <text size="16" bold="true" background="0xFFFFFF" family="Calibri">Quins sectors socials es van mantenir fidels al govern de la República?</text>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <target>
+       <answer>Les classes socials populars, intel·lectuals i artistes</answer>
+       <optionList>
+        <option>Síndicats empresarials, carlins.</option>
+        <option>Les classes socials populars, intel·lectuals i artistes</option>
+        <option>Els militars alfonsins, la dreta i el clergat</option>
+       </optionList>
+       <text>Les classes socials populars, intel·lectuals i artistes.</text>
+      </target>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <cell width="380" height="67">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <font family="Dialog" size="16" />
+        <color background="0xFFCC00" />
+       </style>
+       <p>També es van mantenir fidels a la República alguns nuclis de l'exèrcit i de la Guàrdia Civil, i la majoria de la Guàrdia d'Assalt.</p>
+      </cell>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <text size="18" background="0xFFFFFF" foreground="0xFFCC00" family="impact">5.</text>
+      <text size="14" background="0xFFFFFF" family="impact">  </text>
+      <text size="16" bold="true" background="0xFFFFFF" family="Calibri">Què eren les brigades internacionals?</text>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <target>
+       <answer>Unitats militars formades per voluntaris estrangers</answer>
+       <optionList>
+        <option>Unitats militars formades per voluntaris estrangers</option>
+        <option>Soldats italians de Mussolini</option>
+        <option>Unitats de la Legió Condor alemanya</option>
+       </optionList>
+       <text>Unitats militars formades per voluntaris estrangers.</text>
+      </target>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <cell width="380" height="100">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <font family="Dialog" size="16" />
+        <color background="0xFFCC00" />
+       </style>
+       <p>Van participar en la guerra civil en defensa de la República. Es calcula que van ser uns 45.000, organitzats en brigades, participant en moltes batalles.</p>
+      </cell>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <text size="18" background="0xFFFFFF" foreground="0xFFCC00" family="impact">6.</text>
+      <text size="14" background="0xFFFFFF" family="impact">  En quina data es va acabar la Guerra Civil Espanyola?</text>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <text size="18" background="0xFFFFFF" foreground="0xCC3300" family="Arial"> </text>
+      <target>
+       <answer>L'1 d'abril de 1939</answer>
+       <optionList>
+        <option>20 de gener de 1939</option>
+        <option>4 de febrer de 1939</option>
+        <option>L'1 d'abril de 1939</option>
+       </optionList>
+       <text>L'1 d'abril de 1939</text>
+      </target>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <cell width="380" height="100">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <font family="Dialog" size="16" />
+        <color background="0xFFCC00" />
+       </style>
+       <p>Un comunicat del General Franco donava per acabada la Guerra Civil Espanyola, anunciant "En el día de hoy, el Ejército rojo cautivo y desarmado, han alcanzado las tropas nacionales sus últimos objetivos militares. La guerra ha terminado."</p>
+      </cell>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" detail="false" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="Ideologies2" code="Identificació de principis bàsics de les ideologies.">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Relaciona els noms de les ideologies de la columna de la dreta amb els principis bàsics que apareixen en la columna de l'esquerra.</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>¡Enhorabona!</p>
+    </cell>
+    <cell type="finalError">
+     <style />
+     <p>Torna-ho a intentar</p>
+    </cell>
+   </messages>
+   <settings margin="19" maxActions="12" countDownActions="false" report="true" reportActions="true">
+    <container bgColor="0x666666">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCCC" border="false" />
+   </settings>
+   <cells rows="6" cols="1" cellWidth="165.0" cellHeight="81.0" border="true" id="primary">
+    <style borderStroke="2.0" markerStroke="5.0">
+     <font family="Arial" size="20" bold="true" />
+     <color background="0xFFCC00" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell id="0">
+     <p>Anarquisme</p>
+    </cell>
+    <cell id="1">
+     <p>Feixisme</p>
+    </cell>
+    <cell id="2">
+     <p>Comunisme</p>
+    </cell>
+    <cell id="3">
+     <p>Catolicisme</p>
+    </cell>
+    <cell id="4">
+     <p>Socialisme</p>
+    </cell>
+    <cell id="5">
+     <p>Capitalisme</p>
+    </cell>
+   </cells>
+   <cells rows="2" cols="3" cellWidth="286.0" cellHeight="282.0" border="true" id="secondary">
+    <style borderStroke="2.4" markerStroke="2.7">
+     <font family="Arial" size="20" />
+     <color background="0xFFCC00" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell>
+     <p>Principis de suport mutu, autogestió i acció directa amb l'objectiu d'abolir l'Estat i la propietat privada.</p>
+    </cell>
+    <cell>
+     <p> Creació d'un Estat totalitari en que els tres poders bàsics (legislatiu, executiu i judicial)estiguin sota la direcció d'un sol cap d'Estat (Fürer, Caudillo, Duce).</p>
+    </cell>
+    <cell>
+     <p>Abolició de l'Estat i la propietat privada a través de la lluita de classes i la dictadura del proletariat.</p>
+    </cell>
+    <cell>
+     <p>Pretensió que la vida moral, social i legal d'un Estat quedi supeditada a les creences bàsiques de l'Església.</p>
+    </cell>
+    <cell>
+     <p>Objectiu bàsic de creació d'un Estat de benestar amb una adequada redistribució de la riquesa. </p>
+    </cell>
+    <cell>
+     <p>Principis de dret essencial a la propietat privada, sometiment de la vida social a la llei de l'oferta i la demanda i no intervenció dels Estats a la vida econòmica.</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="Les 2 Espanyes" code="Puzzles sobre las dos zonas en guerra en julio de 1936.">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Us presentem el mapa anterior fragmentat. Ordeneu les parts del mapa, per veure la divisió d'Espanya en dos bàndols després de la insurrecció militar del juliol de 1936.</p>
+    </cell>
+   </messages>
+   <settings margin="19" dragCells="true" report="true" reportActions="true">
+    <container bgColor="0x666666">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCCC" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="mapaespaña1936_2.gif">
+    <style />
+    <shaper class="@Holes" cols="1" rows="1">
+     <shape comment="0">M:0.21,0.021352|L:0.2425,0.128114|L:0.32,0.113879|L:0.3575,0.13879|L:0.445,0.120996|L:0.51,0.135231|L:0.545,0.099644|L:0.5675,0.085409|L:0.545,0.05694|L:0.21,0.021352</shape>
+     <shape comment="1">M:0.71,0.128114|L:0.685,0.231317|L:0.645,0.281139|L:0.6425,0.391459|L:0.605,0.448399|L:0.55,0.427046|L:0.51,0.348754|L:0.465,0.323843|L:0.42,0.44484|L:0.2975,0.498221|L:0.24,0.562278|L:0.215,0.491103|L:0.2425,0.441281|L:0.2575,0.341637|L:0.23,0.24911|L:0.1375,0.224199|L:0.095,0.092527|L:0.22,0.024911|L:0.2425,0.135231|L:0.325,0.106762|L:0.3575,0.13879|L:0.4425,0.120996|L:0.515,0.131673|L:0.5475,0.103203|L:0.5725,0.081851|L:0.71,0.128114</shape>
+     <shape comment="2">M:0.8675,0.156584|L:0.87,0.217082|L:0.965,0.391459|L:0.9475,0.483986|L:0.815,0.291815|L:0.74,0.320285|L:0.7075,0.501779|L:0.715,0.587189|L:0.66,0.736655|L:0.56,0.854093|L:0.3825,0.907473|L:0.3025,0.900356|L:0.32,0.80427|L:0.2975,0.793594|L:0.27,0.811388|L:0.205,0.768683|L:0.18,0.704626|L:0.2125,0.633452|L:0.245,0.558719|L:0.3,0.498221|L:0.4175,0.441281|L:0.4625,0.320285|L:0.51,0.352313|L:0.5525,0.430605|L:0.605,0.448399|L:0.645,0.3879|L:0.6475,0.274021|L:0.69,0.227758|L:0.705,0.131673|L:0.8675,0.156584</shape>
+     <shape comment="3">M:0.2775,0.996441|L:0.295,0.932384|L:0.2675,0.814947|L:0.3,0.793594|L:0.32,0.80427|L:0.2975,0.900356|L:0.34,0.932384|L:0.5,0.982206|L:0.2775,0.996441</shape>
+     <shape comment="4">M:0.8,0.587189|L:0.95,0.487544|L:0.82,0.302491|L:0.74,0.320285|L:0.7125,0.501779|L:0.715,0.590747|L:0.8,0.587189</shape>
+    </shaper>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="Map" code="Identificació de les dues zones a través de diversos mapes">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Relaciona cada mapa amb l'any que li pertoca.</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>¡Enhorabona!</p>
+    </cell>
+    <cell type="finalError">
+     <style />
+     <p>Torna-ho a intentar.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="true">
+    <container bgColor="0x666666">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false" />
+    <skin file="@simple.xml" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="337.0" cellHeight="245.0" border="true" id="primary">
+    <style borderStroke="0.7" markerStroke="2.7">
+     <font family="Arial" size="28" bold="true" />
+     <color background="0xFF9900" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell id="0" image="mapa1936.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Impact" size="18" />
+      <color foreground="0xFF9900" background="0x999999" border="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="1" image="mapa1937.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Impact" size="18" />
+      <color foreground="0xFF9900" background="0x999999" border="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="2" image="mapa1938.jpg">
+     <style>
+      <color background="0x999999" border="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell id="3" image="mapa1939.jpg">
+     <style>
+      <color background="0x999999" border="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="118.0" cellHeight="118.0" border="true" id="secondary">
+    <style borderStroke="1.5" markerStroke="2.7">
+     <font family="Impact" size="20" />
+     <color background="0xFF9900" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <p>1936 (juliol)</p>
+    </cell>
+    <cell>
+     <p>1937 (març)</p>
+    </cell>
+    <cell>
+     <p>1938 (març-abril)</p>
+    </cell>
+    <cell>
+     <p>1939 (febrer)</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="Personat" code="Personatges">
+   <description />
+   <messages>
+    <cell border="false" type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Dialog" size="17" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Relaciona el noms dels personatges de la columna de l'esquerra amb la seva situació durant el conflicte. Tens un nombre limitat d'intents!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Dialog" size="17" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>¡Enhorabona!</p>
+    </cell>
+    <cell type="finalError">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Dialog" size="17" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Torna a intentar-ho</p>
+    </cell>
+   </messages>
+   <settings margin="19" maxActions="12" countDownActions="true" report="true" reportActions="true">
+    <container bgColor="0x666666">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCCC" border="false" />
+    <skin file="@simple.xml" />
+   </settings>
+   <cells rows="3" cols="3" cellWidth="273.0" cellHeight="176.0" border="true" id="primary">
+    <style borderStroke="1.4" markerStroke="2.7">
+     <font family="Arial" size="26" />
+     <color background="0xFFCC00" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+    <cell id="1">
+     <p>Azaña</p>
+    </cell>
+    <cell id="0">
+     <p>Franco</p>
+    </cell>
+    <cell id="0">
+     <p>Carmen Polo</p>
+    </cell>
+    <cell id="0">
+     <p>Sanjurjo</p>
+    </cell>
+    <cell id="1">
+     <p>Durruti</p>
+    </cell>
+    <cell id="1">
+     <p>Largo Caballero</p>
+    </cell>
+    <cell id="1">
+     <p>Lluís Companys</p>
+    </cell>
+    <cell id="0">
+     <p>Queipo de Llano</p>
+    </cell>
+    <cell id="1">
+     <p>Neus Català</p>
+    </cell>
+   </cells>
+   <cells rows="2" cols="1" cellWidth="149.0" cellHeight="149.0" border="true" id="secondary">
+    <style borderStroke="1.9" markerStroke="2.7">
+     <font family="Arial" size="26" bold="true" />
+     <color background="0xFFCC00" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="2" />
+    <cell avoidOverlapping="true" image="bandera-franquista.jpg">
+     <p>Nacionales</p>
+    </cell>
+    <cell avoidOverlapping="true" image="bandera-repuclicana.jpg">
+     <p>Republicanos</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="false" />
+   <layout position="BA" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="ideologi" code="Sopa de lletres d'ideologies">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Troba set noms d'ideologies presents a la Guerra Civil Espanyola</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Moltes Felicitats!</p>
+    </cell>
+   </messages>
+   <settings margin="19" report="true" reportActions="true">
+    <container bgColor="0x666666">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCCC" border="false" />
+   </settings>
+   <textGrid rows="12" columns="12" cellWidth="61.0" cellHeight="52.0" border="true">
+    <style margin="3" borderStroke="1.3" markerStroke="2.7">
+     <font family="Arial" size="36" />
+     <color background="0xFFCC00" border="0xFFFFFF" />
+    </style>
+    <text>
+     <row>COMUNISME*N*</row>
+     <row>AEMSIUQRANA*</row>
+     <row>P*********C*</row>
+     <row>IFEIXISME*I*</row>
+     <row>T*********O*</row>
+     <row>A*********N*</row>
+     <row>L*********A*</row>
+     <row>I*********L*</row>
+     <row>SOCIALISMEI*</row>
+     <row>M*********S*</row>
+     <row>E*********M*</row>
+     <row>CATOLICISME*</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">COMUNISME</clue>
+    <clue id="1">CAPITALISME</clue>
+    <clue id="2">ANARQUISME</clue>
+    <clue id="3">SOCIALISME</clue>
+    <clue id="4">FEIXISME</clue>
+    <clue id="5">CATOLICISME</clue>
+    <clue id="6">NACIONALISME</clue>
+   </clues>
+  </activity>
+  <activity class="@panels.InformationScreen" name="presentació" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Fes clic sobre el botó "següent" per a començar. </p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x333333">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="false" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="657.0" cellHeight="657.0" border="false">
+    <style margin="0" borderStroke="0.0" markerStroke="5.0">
+     <font family="Arial" size="24" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell txtAlign="middle,bottom" imgAlign="middle,top" image="PORTADA.jpg">
+     <p>Traducció: Pere Vargas Moré</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@puzzles.HolePuzzle" name="trencaclosc1" code="Puzzle Agustí Centelles">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>El fotògraf Agustí Centelles va realitzar aquesta fotografia a Barcelona, on es veuen diversos guardies d'assalt fidels a la República fent front als militars revoltats. Ordena-la.</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Agustí Centelles: guàrdies d'assalt, 19 de juliol de 1936.</p>
+    </cell>
+   </messages>
+   <settings margin="19" report="true" reportActions="false">
+    <container bgColor="0x666666">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCCC" border="false" />
+   </settings>
+   <cells rows="4" cols="4" border="false" image="guardia_assalt.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="4" rows="4" />
+   </cells>
+   <scramble times="10" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="trencaclosc2" code="Trencaclosques d'un cartell republicà">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Aquest cartell de propaganda republicana està desordenat. Intenta esbrinar el que diu ordenant cada peça al seu lloc.</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Cal que els soldats tinguin cura amb les malalties de transmissió sexual!</p>
+    </cell>
+   </messages>
+   <settings margin="19" dragCells="true" report="true" reportActions="true">
+    <container bgColor="0x666666">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCCC" border="false" />
+   </settings>
+   <cells rows="5" cols="5" border="false" image="cartell.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="5" rows="5" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="trencaclosc3" code="trencaclosques amb l'església de Sta. Maria de Manlleu">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Durant la guerra civil moltes esglésies del país van ser saquejades i cremades. Sabries dir quina és aquesta església?</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Exacte, és l'església de Santa Maria de Manlleu</p>
+    </cell>
+   </messages>
+   <settings margin="19" dragCells="true" report="true" reportActions="true">
+    <container bgColor="0x666666">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCCC" border="false" />
+   </settings>
+   <cells rows="4" cols="4" border="false" image="ESGLESIA_MANLLEU-resized.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="4" rows="4" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="mapaespaña1936.gif" file="mapaespana1936.gif" />
+  <media name="mapaespaña1936_2.gif" file="mapaespana1936_2.gif" />
+  <media name="bandera-franquista.jpg" file="bandera_franquista.jpg" />
+  <media name="bandera-repuclicana.jpg" file="bandera_repuclicana.jpg" />
+  <media name="cartell.jpg" file="rep29.jpg" />
+  <media name="ESGLESIA_MANLLEU-resized.jpg" file="esglesia_manlleu_resized.jpg" />
+  <media name="guardia_assalt.jpg" file="guardia_assalt.jpg" />
+  <media name="mapa1936.jpg" file="mapa1936.jpg" />
+  <media name="mapa1937.jpg" file="mapa1937.jpg" />
+  <media name="mapa1938.jpg" file="mapa1938.jpg" />
+  <media name="mapa1939.jpg" file="mapa1939.jpg" />
+  <media name="mapas1936-1939.jpg" file="mapas1936_1939.jpg" />
+  <media name="PORTADA.jpg" file="portada.jpg" />
+ </mediaBag>
+</JClicProject>
+

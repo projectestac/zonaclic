@@ -1,0 +1,3769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="tra_qui" version="0.1.3">
+ <settings>
+  <title>El transport en la indústria química</title>
+  <revision description="versió 1" date="1/30/15" />
+  <revision description="Publicació a la zonaClic (http://clic.xtec.cat)" date="3/18/15">
+   <author name="Equip Clic" mail="clic@xtec.cat" organization="Àrea TIC - Departament d'Educació" />
+  </revision>
+  <author name="Carles Domènec Freixanet" mail="cdomene6@xtec.cat" />
+  <organization name="Departament d'Ensenyament" city="Barcelona" state="Catalunya" />
+  <language>català</language>
+  <description>
+   <p>Projecte adreçat a alumnes de &lt;b&gt;CFGM de Planta química&lt;/b&gt; associat al mòdul de transport de materials en planta química.&lt;p&gt;</p>
+   <p>Serveix com a repàs després de cada unitat o de la matèria completa. No vol ser exhaustiu, sino donar a l'alumne/a una idea de si ha comprès la formació rebuda.</p>
+  </description>
+  <descriptors area="Ciències socials" level="Secundària (12-16), Batxillerat (16-18)">societat, transport, tecnologia química</descriptors>
+  <skin file="@blue.xml" />
+ </settings>
+ <sequence>
+  <item id="inicial" name="presentació">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item id="incial-1" name="presentació_1" />
+  <item id="distribucio" name="Distribució">
+   <jump action="STOP" id="forward" />
+  </item>
+  <item id="propietats-1" name="so-estat">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item id="propietats-2" name="riscos" />
+  <item id="propietats-3" name="estats_agregació" />
+  <item id="propietats-4" name="propietats" />
+  <item id="propietats-5" name="diagrama de fases" />
+  <item id="propietats-6" name="associació complexa general" />
+  <item id="propietats-7" name="associació unitats">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item id="conduccio-1" name="fluids">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item id="conduccio-2" name="Pressió" />
+  <item id="conduccio-3" name="Retenció" />
+  <item id="conduccio-4" name="canonades" />
+  <item id="conduccio-5" name="aire comprimit" />
+  <item id="conduccio-6" name="puzle canonades" />
+  <item id="conduccio-7" name="complexa canonades" />
+  <item id="conduccio-8" name="Vàlvules" />
+  <item id="conduccio-9" name="PID resposta">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item id="elements-1" name="tipus de bombes">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item id="elements-2" name="identifica equips" />
+  <item id="elements-3" name="emplenar impulsió" />
+  <item id="elements-4" name="puzle descàrrega" />
+  <item id="elements-5" name="identificació manteniment" />
+  <item id="elements-6" name="associació impulsió" />
+  <item id="elements-7" name="mapaconceptual">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item id="solids-1" name="solids sopa">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item id="solids-3" name="identifica transport" />
+  <item id="solids-4" name="tipus elevadors" />
+  <item id="solids-2" name="ordenar cinta" />
+  <item id="solids-5" name="ordenar pneumàtic" />
+  <item id="solids-6" name="omple solids" />
+  <item id="solids-7" name="complexa solids" />
+  <item id="solids-8" name="simple-solids">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item id="emmagatzematge-1" name="perillositat">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item id="emmagatzematge-2" name="simple perill" />
+  <item id="emmagatzematge-3" name="identificació diposits" />
+  <item id="emmagatzematge-4" name="complexa magatzem" />
+  <item id="emmagatzematge-5" name="resposta_magatzem">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item id="recursos-1" name="Llicències de recursos">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item id="recursos-2" name="Llicències de recursos_2" />
+  <item id="recursos-3" name="Llicències de recursos_3" />
+  <item id="recursos-4" name="Llicències de recursos_4" />
+  <item id="recursos-5" name="Llicències de recursos_5" />
+  <item id="recursos-6" name="Llicències de recursos_6" />
+  <item id="recursos-7" name="Llicències de recursos_7">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item id="final-1" name="repas final">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item id="final-2" name="Sortida">
+   <jump action="EXIT" id="forward" />
+   <jump tag="distribucio" id="back" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.InformationScreen" name="Distribució" code="">
+   <description>
+    <p>Permet seleccionar el tema concret, veure llicències i sortir del jclic</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Tria quina unitat vols treballar</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x99CCFF">
+     <image name="canonades1-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="true" />
+   </settings>
+   <cells rows="4" cols="2" cellWidth="208.0" cellHeight="119.0" border="true">
+    <style borderStroke="3.1" markerStroke="5.0">
+     <font family="Arial" size="24" bold="true" italic="true" />
+     <color background="0x6666FF" inactive="0x6666FF" border="0x003399" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="4" />
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="propietats-1" />
+     <p>Propietats de la matèria</p>
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="conduccio-1" />
+     <p>Conducció de fluids</p>
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="elements-1" />
+     <p>Elements d'impulsió de fluids</p>
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="solids-1" />
+     <p>Transport de sòlids</p>
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="emmagatzematge-1" />
+     <p>Magatzematge i transport extern</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="24" bold="true" italic="true" />
+      <color background="0x9966FF" />
+     </style>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="recursos-1" />
+     <p>Llicències de recursos </p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="24" bold="true" italic="true" />
+      <color background="0xFFFF33" />
+     </style>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="final-1" />
+     <p>Sortida</p>
+    </cell>
+    <cell image="globus.jpg" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Llicències de recursos" code="">
+   <description>
+    <p>inclou les llicencies de les imatges no elaborades per l'autor</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Llicències de les imatges. Clica al text per comprovar</p>
+    </cell>
+   </messages>
+   <settings margin="15" report="false">
+    <container bgColor="0x99CDFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x6566FF" border="true" />
+    <skin file="@mini.xml" />
+   </settings>
+   <cells rows="6" cols="2" cellWidth="242.0" cellHeight="72.0" border="true">
+    <style margin="2" borderStroke="2.6" markerStroke="2.7">
+     <font family="Arial" size="16" />
+     <color background="0x99CDFF" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="6" />
+    <cell image="TMIQ06_AUXR06_R01_GHS01Bomba.png" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:GHS-pictogram-explos.svg " />
+     <p>Autoria: Torsten Henning          </p>
+     <p>Llicència: Domini Públic             </p>
+     <p>Procedència: http://commons.wikimedia.org/wiki/File:GHS-pictogram-explos.svg </p>
+    </cell>
+    <cell image="TMIQ06_AUXR06_R02_GHS02Flama.png" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:GHS-pictogram-flamme.svg" />
+     <p>Autoria: Torsten Henning         </p>
+     <p>Llicència: Domini Públic            </p>
+     <p>Procedència: http://commons.wikimedia.org/wiki/File:GHS-pictogram-flamme.svg </p>
+    </cell>
+    <cell image="TMIQ06_AUXR06_R04_GHS04Bombona.png" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:GHS-pictogram-bottle.svg  " />
+     <p>Autoria: Torsten Henning          </p>
+     <p>Llicència: Domini Públic            </p>
+     <p>Procedència: http://commons.wikimedia.org/wiki/File:GHS-pictogram-bottle.svg </p>
+    </cell>
+    <cell image="TMIQ06_AUXR06_R05_GHS05Corrosiu.png" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:GHS-pictogram-acid.svg  " />
+     <p>Autoria: Torsten Henning        </p>
+     <p>Llicència: Domini Públic                 </p>
+     <p>Procedència: http://commons.wikimedia.org/wiki/File:GHS-pictogram-acid.svg </p>
+    </cell>
+    <cell image="TMIQ06_AUXR06_R06_GHS06Calavera.png" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:GHS-pictogram-skull.svg " />
+     <p>Autoria: Torsten Henning         </p>
+     <p>Llicència: Domini Públic            </p>
+     <p>Procedència: http://commons.wikimedia.org/wiki/File:GHS-pictogram-skull.svg </p>
+    </cell>
+    <cell image="TMIQ06_AUXR06_R07_GHS07Atenció.png" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:GHS-pictogram-exclam.svg " />
+     <p>Autoria: Torsten Henning        </p>
+     <p>Llicència: Domini Públic         </p>
+     <p>Procedència: http://commons.wikimedia.org/wiki/File:GHS-pictogram-exclam.svg </p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Llicències de recursos_2" code="">
+   <description>
+    <p>inclou les llicencies de les imatges no elaborades per l'autor</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Llicències de les imatges. Clica al text per comprovar</p>
+    </cell>
+   </messages>
+   <settings margin="15" report="false">
+    <container bgColor="0x99CDFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x6566FF" border="true" />
+    <skin file="@mini.xml" />
+   </settings>
+   <cells rows="6" cols="2" cellWidth="242.0" cellHeight="72.0" border="true">
+    <style margin="2" borderStroke="2.6" markerStroke="5.0">
+     <font family="Arial" size="16" />
+     <color background="0x99CDFF" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="6" />
+    <cell image="parafina.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:Liquid_paraffin_in_bottle.jpg?uselang=es" />
+     <p>Autoria: Chemik10</p>
+     <p>Llicència: CC-BY-SA                   </p>
+     <p>Procedencia:http://commons.wikimedia.org/wiki/File:Liquid_paraffin_in_bottle.jpg?uselang=es</p>
+    </cell>
+    <cell image="boira-resized.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:Foggy_Aura_river.jpg" />
+     <p>Autoria: Johan AdmScoo</p>
+     <p>Llicència: CC BY                         </p>
+     <p>Procedència:http://commons.wikimedia.org/wiki/File:Foggy_Aura_river.jpg</p>
+    </cell>
+    <cell image="Cabal.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://www.flickr.com/photos/peasap/655104288/sizes/m/in/photostream/  " />
+     <p>Autoria: Peasap</p>
+     <p>Llicència: CC BY                         </p>
+     <p>Procedència:http://www.flickr.com/photos/peasap/655104288/sizes/m/in/photostream/</p>
+    </cell>
+    <cell image="canonades1-resized.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://recursostic.educacion.es//bancoimagenes/ArchivosImagenes/DVD04/CD07/3934__43_m_1.jpg  " />
+     <p>Autoria: Ministeri d'Educació. </p>
+     <p>Llicència: Us educatiu-nc</p>
+     <p>Procedència: idITE=127949</p>
+    </cell>
+    <cell image="colors.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:Warm_und_kalt_IMGP7847.jpg " />
+     <p>Autoria: Rainer Knäpper</p>
+     <p>Llicència: CC BY-SA                  </p>
+     <p>Procedència:http://commons.wikimedia.org/wiki/File:Warm_und_kalt_IMGP7847.jpg </p>
+    </cell>
+    <cell image="PVC.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://www.flickr.com/photos/dsoltesz/4460986239/  " />
+     <p>Autoria: Deborah Soltesz</p>
+     <p>Llicència: CC BY-NC-SA           </p>
+     <p>Procedència:http://www.flickr.com/photos/dsoltesz/4460986239/ </p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Llicències de recursos_3" code="">
+   <description>
+    <p>inclou les llicencies de les imatges no elaborades per l'autor</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Llicències de les imatges. Clica al text per comprovar</p>
+    </cell>
+   </messages>
+   <settings margin="15" report="false">
+    <container bgColor="0x99CDFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x6566FF" border="true" />
+    <skin file="@mini.xml" />
+   </settings>
+   <cells rows="6" cols="2" cellWidth="244.0" cellHeight="78.0" border="true">
+    <style margin="2" borderStroke="2.6" markerStroke="5.0">
+     <font family="Arial" size="16" />
+     <color background="0x99CDFF" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="6" />
+    <cell image="valvules.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://www.flickr.com/photos/27889738@N07/4086225334/" />
+     <p>Autoria: ykanazawa1999</p>
+     <p>Llicència: CC BY-NC-SA                   </p>
+     <p>        Procedencia:http://www.flickr.com/photos/27889738@N07/4086225334/</p>
+    </cell>
+    <cell image="abrasió.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://www.flickr.com/photos/harmonyiii/156673841/" />
+     <p>Autoria: harmony_iii</p>
+     <p>Llicència: CC BY-NC-SA                  </p>
+     <p>         Procedència:http://www.flickr.com/photos/harmonyiii/156673841/</p>
+    </cell>
+    <cell image="cavitació.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:Usure_par_cavitation_d%27un_impulseur_de_pompe_centrifuge_01.jpg " />
+     <p>Autoria: Jean-Jacques Milan</p>
+     <p>Llicència: CC BY-SA                           </p>
+     <p>      Procedència:http://commons.wikimedia.org/wiki/File:Usure_par_cavitation_d%27un_impulseur_de_pompe_centrifuge_01.jpg</p>
+    </cell>
+    <cell image="corrosió.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:Well_Pump_with_impeller.JPG?uselang=es  " />
+     <p>Autoria: Matt</p>
+     <p>Llicència: Domini públic.                   </p>
+     <p>        Procedència:  http://commons.wikimedia.org/wiki/File:Well_Pump_with_impeller.JPG?uselang=es</p>
+    </cell>
+    <cell image="corrosió-2.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://www.flickr.com/photos/rport/3382296724/ " />
+     <p>Autoria: rport</p>
+     <p>Llicència: CC BY-NC                         </p>
+     <p>        Procedència: http://www.flickr.com/photos/rport/3382296724/</p>
+    </cell>
+    <cell image="centrifuga.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:KSB_09_Etanorm_mit_Motor_und_Frequenzumrichter.jpg" />
+     <p>Autoria: KSB Aktiengesellschaft, Frankenthal</p>
+     <p>Llicencia: CC BY-SA                                </p>
+     <p>Procedència:http://commons.wikimedia.org/wiki/File:KSB_09_Etanorm_mit_Motor_und_Frequenzumrichter.jpg</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Llicències de recursos_4" code="">
+   <description>
+    <p>inclou les llicencies de les imatges no elaborades per l'autor</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Llicències de les imatges. Clica al text per comprovar</p>
+    </cell>
+   </messages>
+   <settings margin="15" report="false">
+    <container bgColor="0x99CDFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x6566FF" border="true" />
+    <skin file="@mini.xml" />
+   </settings>
+   <cells rows="6" cols="2" cellWidth="244.0" cellHeight="78.0" border="true">
+    <style margin="2" borderStroke="2.6" markerStroke="5.0">
+     <font family="Arial" size="16" />
+     <color background="0x99CDFF" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="6" />
+    <cell image="poros.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://www.flickr.com/photos/core-materials/3840300545/in/photostream " />
+     <p>Autoria: CORE_Materials</p>
+     <p>Llicència: CC BY-NC-SA                       </p>
+     <p>Procedencia: http://www.flickr.com/photos/core-materials/3840300545/in/photostream </p>
+    </cell>
+    <cell image="fluidesa.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://es.wikipedia.org/wiki/Archivo:Tannin_heap.jpeg " />
+     <p>Autoria: Simon A. Eugster</p>
+     <p>Llicència: CC BY                                      </p>
+     <p>Procedència:http://es.wikipedia.org/wiki/Archivo:Tannin_heap.jpeg </p>
+    </cell>
+    <cell image="friable.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:Lycopene_powder.jpg    " />
+     <p>utoria:Jeff Dahl</p>
+     <p>Llicència: CC BY-SA                                                    </p>
+     <p>Procedència:http://commons.wikimedia.org/wiki/File:Lycopene_powder.jpg </p>
+     <p> </p>
+    </cell>
+    <cell image="granulometria.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://en.wikipedia.org/wiki/File:Fly_Ash_FHWA_dot_gov.jpg   " />
+     <p>Autoria: United States Department of Transportation</p>
+     <p>Llicència: Domini Públic</p>
+     <p>                             Procedència:http://en.wikipedia.org/wiki/File:Fly_Ash_FHWA_dot_gov.jpg </p>
+    </cell>
+    <cell image="pols_acer.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:Powder_steel.jpg " />
+     <p>Autoria: Aney</p>
+     <p>Llicència: CC BY-SA                                                     </p>
+     <p>Procedència:http://commons.wikimedia.org/wiki/File:Powder_steel.jpg </p>
+    </cell>
+    <cell image="fusio.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:Lactobacillus_bulgaricus.jpeg " />
+     <p>Autoria: Gengiskanhg</p>
+     <p>Llicència: CC BY-SA                                                </p>
+     <p>Procedència:http://commons.wikimedia.org/wiki/File:Lactobacillus_bulgaricus.jpeg </p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Llicències de recursos_5" code="">
+   <description>
+    <p>inclou les llicencies de les imatges no elaborades per l'autor</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Llicències de les imatges. Clica al text per comprovar</p>
+    </cell>
+   </messages>
+   <settings margin="15" report="false">
+    <container bgColor="0x99CDFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x6566FF" border="true" />
+    <skin file="@mini.xml" />
+   </settings>
+   <cells rows="6" cols="2" cellWidth="244.0" cellHeight="78.0" border="true">
+    <style margin="2" borderStroke="2.6" markerStroke="5.0">
+     <font family="Arial" size="16" />
+     <color background="0x99CDFF" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="6" />
+    <cell image="CintaCoberta.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://www.flickr.com/photos/inoneear/3520128968/ " />
+     <p>Autoria: Jan inoneear</p>
+     <p>Llicència: CC BY-NC-SA                                          </p>
+     <p>Procedencia:http://www.flickr.com/photos/inoneear/3520128968/ </p>
+    </cell>
+    <cell image="cinta-demo.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://www.flickr.com/photos/cdeimages/4624451302/in/photostream/ " />
+     <p>Autoria: CDEGlobal</p>
+     <p>Llicència: CC BY                                </p>
+     <p>Procedencia:http://www.flickr.com/photos/cdeimages/4624451302/in/photostream/ </p>
+    </cell>
+    <cell image="catufols-demo.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://www.discaf.com/elevadores-cangilones.html  " />
+     <p>Autoria: Discaf</p>
+     <p>Llicència: Copyright (cita)                       </p>
+     <p>Procedència:http://www.discaf.com/elevadores-cangilones.htm </p>
+     <p> </p>
+    </cell>
+    <cell image="cargol-demo.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:Mechanical_Crusher.JPG   " />
+     <p>Autoria: Agne27</p>
+     <p>Llicència: CC BY-SA                       </p>
+     <p>Procedència:http://commons.wikimedia.org/wiki/File:Mechanical_Crusher.JPG </p>
+    </cell>
+    <cell image="vibratori-demo.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://www.bruks.com/vibrating-conveyors" />
+     <p>Autoria: Bruks</p>
+     <p>Llicència: Copyright (cita)                     </p>
+     <p>Procedencia:http://www.bruks.com/vibrating-conveyors</p>
+    </cell>
+    <cell image="pneumatic-demo.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://www.flickr.com/photos/kacey/5086413571/" />
+     <p>Autoria: KaCey97007</p>
+     <p>Llicència: CC BY-NC                                           </p>
+     <p>Procedència:http://www.flickr.com/photos/kacey/5086413571/ </p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Llicències de recursos_6" code="">
+   <description>
+    <p>inclou les llicencies de les imatges no elaborades per l'autor</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Llicències de les imatges. Clica al text per comprovar</p>
+    </cell>
+   </messages>
+   <settings margin="15" report="false">
+    <container bgColor="0x99CDFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x6566FF" border="true" />
+    <skin file="@mini.xml" />
+   </settings>
+   <cells rows="6" cols="2" cellWidth="244.0" cellHeight="78.0" border="true">
+    <style margin="2" borderStroke="2.6" markerStroke="5.0">
+     <font family="Arial" size="16" />
+     <color background="0x99CDFF" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="6" />
+    <cell image="ciclo-resized1.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:SeparadorCiclonico.jpg?uselang=es " />
+     <p>Autoria: Macau500</p>
+     <p>Llicència: Domini Públic                    </p>
+     <p>Procedència:http://commons.wikimedia.org/wiki/File:SeparadorCiclonico.jpg?uselang=es </p>
+    </cell>
+    <cell image="Sorra.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://www.flickr.com/photos/cdeimages/3585219574/in/photostream/ " />
+     <p>Autoria: CDEGlobal</p>
+     <p>Llicència: CC BY                                              </p>
+     <p>Procedència:http://www.flickr.com/photos/cdeimages/3585219574/in/photostream/</p>
+    </cell>
+    <cell image="Esquema.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://en.wikipedia.org/wiki/File:Dust_collector.jpg  " />
+     <p>Autoria: Kristoferb</p>
+     <p>Llicència: Domini Públic                                </p>
+     <p>Procedencia:http://en.wikipedia.org/wiki/File:Dust_collector.jpg </p>
+    </cell>
+    <cell image="diposit1.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://www.flickr.com/photos/akiokarari/4907017034/   " />
+     <p>Autoria: Akiokarari</p>
+     <p>Llicència: CC BY-NC-SA                               </p>
+     <p>Procedència:http://www.flickr.com/photos/akiokarari/4907017034/ </p>
+    </cell>
+    <cell image="diposit-2.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://www.flickr.com/photos/hetteix/3087338242/ " />
+     <p>Autoria: Daniel P. Hetteix</p>
+     <p>Llicència: CC BY-NC-SA                                  </p>
+     <p>Procedència:http://www.flickr.com/photos/hetteix/3087338242/ </p>
+    </cell>
+    <cell image="diposit3.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:Vacuum_Insulated_Evaporator_photo.JPG" />
+     <p>Autoria: Captain n00dle</p>
+     <p>Llicència: Dominio Público                                 </p>
+     <p>Procedència:http://commons.wikimedia.org/wiki/File:Vacuum_Insulated_Evaporator_photo.JPG </p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Llicències de recursos_7" code="">
+   <description>
+    <p>inclou les llicencies de les imatges no elaborades per l'autor</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Llicències de les imatges. Clica al text per comprovar</p>
+    </cell>
+   </messages>
+   <settings margin="15" report="false">
+    <container bgColor="0x99CDFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x6566FF" border="true" />
+    <skin file="@mini.xml" />
+   </settings>
+   <cells rows="4" cols="2" cellWidth="244.0" cellHeight="78.0" border="true">
+    <style margin="2" borderStroke="2.6" markerStroke="5.0">
+     <font family="Arial" size="16" />
+     <color background="0x99CDFF" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="4" />
+    <cell image="dipòsit-4.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:Crossgates_Gasholder_Number_1_-_geograph.org.uk_-_372098.jpg " />
+     <p>Autoria: John Wray</p>
+     <p>Llicència: CC BY-SA                                 </p>
+     <p>Procedència:http://commons.wikimedia.org/wiki/File:Crossgates_Gasholder_Number_1_-_geograph.org.uk_-_372098.jpg </p>
+    </cell>
+    <cell image="magatzem.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:Forklift.JPG " />
+     <p>Autoria: Sa'ad Jafar</p>
+     <p>Llicència: Domini públic                                        </p>
+     <p>Procedència:http://commons.wikimedia.org/wiki/File:Forklift.JPG </p>
+    </cell>
+    <cell image="botella.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:Schachtzeichen_Flaschenreihe01.jpg " />
+     <p>Autoria: NatiSythen</p>
+     <p>Llicència: CC BY-SA                                         </p>
+     <p>Procedència:http://commons.wikimedia.org/wiki/File:Schachtzeichen_Flaschenreihe01.jpg </p>
+    </cell>
+    <cell image="globus.jpg" />
+    <cell txtAlign="left,middle">
+     <media type="URL" level="1" file="http://commons.wikimedia.org/wiki/File:Globe_valve_diagram.svg" />
+     <p>Autoria: Petteri Aimonen</p>
+     <p>Llicència: Domini Públic                       </p>
+     <p>Procedència:http://commons.wikimedia.org/wiki/File:Globe_valve_diagram.svg</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@text.WrittenAnswer" name="PID resposta" code="">
+   <description>
+    <p>Demana identificar el significat de la simbologia PID en els diagrames de producció</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Identifica la variable i la acció (separades per un espai)de cada símbol PID</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CCFF" />
+     </style>
+     <p>Bé! Donen guerra quan el símbol ve de l'anglès, oi!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x99CDFF">
+     <image name="NitrogenPID.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6565FF" border="true" />
+   </settings>
+   <cells rows="5" cols="1" cellWidth="227.0" cellHeight="77.0" border="true" id="primary">
+    <style borderStroke="2.9" markerStroke="2.7">
+     <font family="Arial" size="24" bold="true" />
+     <color background="0xFFFFFF" inactive="0x99CCFF" border="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="22" bold="true" />
+      <color foreground="0x000099" background="0x99CCFF" border="0xFFFFFF" />
+     </style>
+     <p>Símbol PID</p>
+    </cell>
+    <cell id="0" image="PID.jpg">
+     <p>PT</p>
+    </cell>
+    <cell id="1" image="PID.jpg">
+     <p>TA</p>
+    </cell>
+    <cell id="2" image="PID.jpg">
+     <p>LR</p>
+    </cell>
+    <cell id="3" image="PID.jpg">
+     <p>WC</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="248.0" cellHeight="76.0" border="true" id="answers">
+    <style borderStroke="3.0" markerStroke="2.7">
+     <font family="Arial" size="20" bold="true" />
+     <color background="0xFFFFFF" inactive="0xFFFFFF" border="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <p>Pressió Transmissió</p>
+    </cell>
+    <cell>
+     <p>Temperatura Alarma</p>
+    </cell>
+    <cell>
+     <p>Nivell Registre</p>
+    </cell>
+    <cell>
+     <p>Pes Control</p>
+    </cell>
+   </cells>
+   <cells rows="5" cols="1" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell />
+    <cell image="veritable.jpg" />
+    <cell image="veritable.jpg" />
+    <cell image="veritable.jpg" />
+    <cell image="veritable.jpg" />
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.Order" name="Pressió" code="" type="orderParagraphs">
+   <description>
+    <p>Ordena paràgrafs per explicar conceptes de pressió</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Mou els paràgrafs fins que el text quedi ordenat</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Ben fet!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="true">
+     <size width="780" height="399" />
+    </window>
+   </settings>
+   <checkButton>Revisa l'ordre</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x006600" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="18" bold="false" italic="false" foreground="0x0000FF" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" bold="true" size="20">Escales de pressió dels gasos:</text>
+      <text family="Arial" background="0xFFFFFF"> </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <target>- Hi ha l'escala absoluta de pressions o pressions absolutes, quan la pressió “0” correspon al buit absolut.</target>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <target>- També hi ha l'escala relativa de pressions o pressions manomètriques, quan la pressió “0” correspon a la pressió atmosfèrica.</target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">Es compleix que:		</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text family="Arial" background="0xFFFFFF" size="20" bold="true" italic="false" foreground="0x0000FF">P</text>
+      <text family="Arial" background="0xFFFFFF" size="12" bold="true" italic="false" foreground="0x0000FF">abs</text>
+      <text family="Arial" background="0xFFFFFF" size="18" bold="true" italic="false" foreground="0x0000FF">= </text>
+      <text family="Arial" background="0xFFFFFF" size="20" bold="true" italic="false" foreground="0x0000FF">P</text>
+      <text family="Arial" background="0xFFFFFF" size="12" bold="true" italic="false" foreground="0x0000FF">relativa</text>
+      <text family="Arial" background="0xFFFFFF" size="18" bold="true" italic="false" foreground="0x0000FF"> + </text>
+      <text family="Arial" background="0xFFFFFF" size="20" bold="true" italic="false" foreground="0x0000FF">P</text>
+      <text family="Arial" background="0xFFFFFF" size="12" bold="true" italic="false" foreground="0x0000FF">atmosfèrica</text>
+      <text family="Arial" background="0xFFFFFF" size="18" bold="true" italic="false" foreground="0x0000FF">	</text>
+      <text family="Arial" background="0xFFFFFF">  </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <target>La suma de la pressió manomètrica i de la pressió atmosfèrica és la pressió absoluta. </target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <target>Per exemple, en un tanc tancat que conté gas,  la pressió que fem servir en l'equació d'estat és la pressió absoluta. </target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+    </section>
+   </document>
+   <evaluator class="@BasicEvaluator" />
+  </activity>
+  <activity class="@panels.Identify" name="Retenció" code="">
+   <description>
+    <p>Identificar vàlvula de retenció</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x0000CC" background="0x99CCFF" />
+     </style>
+     <p>Quines d'aquestes vàlvules no eviten el retorn de líquid si es para la bomba?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x0000CC" background="0xFF6666" />
+     </style>
+     <p>Les vàlvules de retencio eviten moltes avaries!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <image name="globus.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="true" />
+    <skin file="@blue.xml" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="190.0" cellHeight="261.0" border="true" id="primary">
+    <style borderStroke="1.4" markerStroke="2.7">
+     <font family="Verdana" size="24" bold="true" />
+     <color foreground="0x0000CC" background="0x99CCFF" alternative="0x0000CC" border="0x0000CC" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell id="1" image="Bola.jpg" />
+    <cell id="1" image="4vies.jpg" />
+    <cell id="1" image="Comporta.jpg" />
+    <cell id="1" image="papallona.jpg" />
+    <cell id="0" image="Retencio.jpg" />
+    <cell id="1" image="Diafragma.jpg" />
+   </cells>
+   <cells rows="2" cols="3" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell txtAlign="middle,top" imgAlign="middle,bottom" avoidOverlapping="true" image="Bola.jpg">
+     <p>Les de bola tanquen bé</p>
+    </cell>
+    <cell txtAlign="middle,top" imgAlign="middle,bottom" avoidOverlapping="true" image="4vies.jpg">
+     <p>Les de varies vies permeten connectar diferents canonades</p>
+    </cell>
+    <cell txtAlign="left,top" imgAlign="right,bottom" avoidOverlapping="true" image="Comporta.jpg">
+     <p>Les de comporta són per grans cabals</p>
+    </cell>
+    <cell txtAlign="middle,top" imgAlign="middle,bottom" avoidOverlapping="true" image="papallona.jpg">
+     <p>Les de papallona permeten regular molt bé el flux</p>
+    </cell>
+    <cell txtAlign="middle,top" imgAlign="middle,bottom" avoidOverlapping="true" image="Retencio.jpg">
+     <p>Aquesta sí. La de RETENCIÓ</p>
+    </cell>
+    <cell txtAlign="middle,top" imgAlign="middle,bottom" avoidOverlapping="true" image="Diafragma.jpg">
+     <p>Les de diafragma ajusten fluxos petits</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="Sortida" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Verdana" size="22" bold="true" />
+      <color background="0x009999" />
+     </style>
+     <p>TRANSPORT DE MATERIALS A LA INDÚSTRIA QUÍMICA</p>
+    </cell>
+   </messages>
+   <settings margin="2" report="false">
+    <container bgColor="0x99CDFF">
+     <image name="NitrogenPID.jpg" tiled="false" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x6565FF" border="true" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="498.0" cellHeight="159.0" border="true">
+    <style borderStroke="2.9" markerStroke="2.7">
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x99CDFF" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Calibri" size="26" bold="true" />
+      <color foreground="0x0000FF" background="0x99FFFF" />
+     </style>
+     <p>Espero que t'hagi resultat útil i entretinguda. </p>
+     <p>Pots tornar quan vulguis.</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@memory.MemoryGame" name="Vàlvules" code="">
+   <description>
+    <p>Relaciona el símbol PID amb el tipus de vàlvula</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Relaciona el símbol PID de cada vàlvula amb el  nom</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Bé! A posar-ho en pràctica</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CDFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6565FF" border="true" />
+    <skin file="@blue.xml" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="130.0" cellHeight="152.0" border="true" id="primary">
+    <style borderStroke="2.0" markerStroke="2.7">
+     <font family="Arial" size="22" />
+     <color foreground="0x000066" background="0x99CCFF" inactive="0x99CDFF" border="0x6565FF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell image="TMIQ02_CONT_R23_ValvulaBola.png" />
+    <cell image="TMIQ02_CONT_R28_ValvulaPapallona.png" />
+    <cell image="TMIQ02_CONT_R30_ValvulaDiafragma.png" />
+    <cell image="TMIQ02_CONT_R24_ValvulaControl.png" />
+    <cell image="TMIQ02_CONT_R34_ValvulaSeguretat.png" />
+    <cell image="TMIQ02_CONT_R32_ValvulaReductora.png" />
+   </cells>
+   <cells rows="2" cols="3" cellWidth="50.0" cellHeight="30.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell>
+     <p>de bola</p>
+    </cell>
+    <cell>
+     <p>de papallona</p>
+    </cell>
+    <cell>
+     <p>de diafragma</p>
+    </cell>
+    <cell>
+     <p>de control</p>
+    </cell>
+    <cell>
+     <p>de seguretat</p>
+    </cell>
+    <cell>
+     <p>reductora</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@text.Order" name="aire comprimit" code="" type="orderWords" amongParagraphs="true">
+   <description>
+    <p>Ordena paraules del text referedies a la conducció de l'aite comprimit</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Col·loca bé les paraules desordenades</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Ho veus, ara s'entén tot! Molt bé!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <image name="Reductora.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="true">
+     <position x="0" y="0" />
+     <size width="723" height="230" />
+    </window>
+   </settings>
+   <checkButton>Serà correcte?</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x006600" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="18" bold="false" italic="false" foreground="0x0000FF" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" bold="true" size="20">Conduccions d'aire comprimit</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" bold="false" size="18">Els </text>
+      <target>filtres</target>
+      <text family="Arial" background="0xFFFFFF" bold="false" size="18"> d'aire comprimit han de revisar-se periòdicament ja que provoquen grans pèrdues de carrega a mesura que s'obturen. </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" bold="false" size="18">Els </text>
+      <target>assecadors</target>
+      <text family="Arial" background="0xFFFFFF" bold="false" size="18"> regeneratius poden regenerar-se amb calor per tornar-los a fer servir. </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" bold="false" size="18">Les </text>
+      <target>línies</target>
+      <text family="Arial" background="0xFFFFFF" bold="false" size="18"> tancades d'aire comprimit consumeixen menys i acostumen a donar pressions més homogènies a tota la línia, encara que són més cares. </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" bold="false" size="18">Normalment, els </text>
+      <target>equips</target>
+      <text family="Arial" background="0xFFFFFF" bold="false" size="18"> i instruments connectats a la línies d'aire comprimit tenen els seus propis </text>
+      <target>reductors</target>
+      <text family="Arial" background="0xFFFFFF" bold="false" size="18"> de pressió addicionals.  </text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@BasicEvaluator" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="associació complexa general" code="">
+   <description>
+    <p>Identifica si determinades afirmacions són veritables o falses</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Indica si les afirmacions de la part superior són veritables o falses</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CCFF" />
+     </style>
+     <p>Bé. És important tenir els conceptes clars.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CDFF">
+     <image name="boira-resized.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" transparent="true" border="false" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="492.0" cellHeight="113.0" border="true" id="primary">
+    <style borderStroke="1.5" markerStroke="2.7">
+     <font family="Verdana" size="24" bold="true" />
+     <color foreground="0x000099" background="0x6666FF" inactive="0x00808080" alternative="0x000099" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell id="0">
+     <p>La humitat relativa mesura el percentatge d'aigua en forma de gas present a l'aire respecte al màxim que pot admetre, que és la pressió de vapor </p>
+    </cell>
+    <cell id="1">
+     <p>En un dipòsit amb líquid, la pressió és la mateixa a tots els punts de l'interior.</p>
+    </cell>
+    <cell id="0">
+     <p>Un fluid newtonià té la viscositat constant a una temperatura concreta </p>
+    </cell>
+    <cell id="1">
+     <p>Per a determinar, amb el nombre de Reynolds, el règim de circulació d'un fluid cal buscar en unes taules per a cada fluid, ja que no es pot obtenir directament a partir del valor. </p>
+    </cell>
+   </cells>
+   <cells rows="2" cols="1" cellWidth="235.0" cellHeight="88.0" border="true" id="secondary">
+    <style transparent="true" borderStroke="1.5" markerStroke="2.7">
+     <font family="Verdana" size="24" bold="true" />
+     <color foreground="0x000099" border="0x6666FF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="2" />
+    <cell txtAlign="left,middle" imgAlign="right,middle" avoidOverlapping="true" image="veritable.jpg">
+     <style>
+      <font family="Calibri" size="28" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Veritable</p>
+    </cell>
+    <cell txtAlign="left,middle" imgAlign="right,middle" avoidOverlapping="true" image="fals.jpg">
+     <style>
+      <font family="Calibri" size="28" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Fals</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="veritable.jpg" />
+    <cell image="fals.jpg" />
+    <cell image="veritable.jpg" />
+    <cell image="fals.jpg" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="associació impulsió" code="">
+   <description>
+    <p>associa components dels equips amb el seu nom </p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x0000CC" background="0x99CCFF" />
+     </style>
+     <p>Identifica els elements de bombes o compressors</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x0000CC" background="0xFF6666" />
+     </style>
+     <p>Cal saber com estan construïts. Molt bé!</p>
+    </cell>
+   </messages>
+   <settings margin="0" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <image name="centrifuga.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="2" cellWidth="243.0" cellHeight="201.0" border="false" id="primary">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x6666FF" inactive="0x006666FF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell image="coixinet-resized.jpg" />
+    <cell image="Estator.png" />
+    <cell image="Motor.jpg" />
+    <cell image="pistó.jpg" />
+    <cell image="pressostat-resized.jpg" />
+    <cell image="vacuometre.jpg" />
+   </cells>
+   <cells rows="3" cols="2" cellWidth="169.0" cellHeight="187.0" border="false" id="secondary">
+    <style borderStroke="0.7" markerStroke="2.7">
+     <font family="Verdana" size="24" bold="true" />
+     <color foreground="0x0000CC" background="0x99CCFF" inactive="0x006666FF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell>
+     <p>Coixinet de boles</p>
+    </cell>
+    <cell>
+     <p>Estator bomba cargol</p>
+    </cell>
+    <cell>
+     <p>motor elèctric</p>
+    </cell>
+    <cell>
+     <p>pistó</p>
+    </cell>
+    <cell>
+     <p>pressòstat</p>
+    </cell>
+    <cell>
+     <p>vacuòmetre</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="associació unitats" code="">
+   <description>
+    <p>Relaciona magnituds amb la simbologia de les unitats</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Associa la magnitud amb la simbologia de les seves unitats</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CCFF" />
+     </style>
+     <p>Molt bé. Les unitats són vitals en química</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CDFF">
+     <image name="i01-Cabal.jpg" tiled="false" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" transparent="true" border="false" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="284.0" cellHeight="54.0" border="true" id="primary">
+    <style borderStroke="1.5" markerStroke="2.7">
+     <font family="Verdana" size="36" bold="true" />
+     <color foreground="0x000099" background="0x6666FF" inactive="0x00808080" alternative="0x000099" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <p>Cabal volumètric</p>
+    </cell>
+    <cell>
+     <p>Cabal màsic</p>
+    </cell>
+    <cell>
+     <p>Temps</p>
+    </cell>
+    <cell>
+     <p>Volum</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="103.0" cellHeight="52.0" border="true" id="secondary">
+    <style transparent="true" borderStroke="1.5" markerStroke="5.0">
+     <font family="Verdana" size="24" bold="true" />
+     <color foreground="0x000099" background="0x00C0C0C0" inactive="0x00808080" border="0x6666FF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0x0033CC" background="0xFFFFFF" inactive="0x00808080" />
+     </style>
+     <p>m3/s</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0x0033CC" background="0xFFFFFF" inactive="0x00808080" />
+     </style>
+     <p>kg/s</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0x0033CC" background="0xFFFFFF" inactive="0x00808080" />
+     </style>
+     <p>s</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0x0033CC" background="0xFFFFFF" inactive="0x00808080" />
+     </style>
+     <p>L</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="canonades" code="">
+   <description>
+    <p>Completa paraules per descriure els suports de les canonades de transport</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Completa les paraules per saber com es col·loquen els suports</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Bé, ja hem repassat un altre aspecte del transport</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <image name="suports.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="true">
+     <position x="0" y="0" />
+     <size width="456" height="293" />
+    </window>
+   </settings>
+   <checkButton>Avalua't</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x006600" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="18" bold="false" italic="false" foreground="0x0000FF" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="18" bold="true">Els suports de les conduccions de fluids,</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="18" bold="false">és adequat que es col·loquin a: </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="18" bold="false">- Les </text>
+      <target>
+       <answer>canonades</answer>
+       <response fill="*" length="9" maxLength="18" show="c" />
+       <text>canonades</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="18" bold="false">, mai a accessoris com vàlvules.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="18" bold="false">- Trams rectes de canonada; s'han d'evitar corbes per no reduir la </text>
+      <target>
+       <answer>flexibilitat</answer>
+       <response fill="_" length="12" maxLength="24" show="f" />
+       <info mode="onError">
+        <cell width="100" height="40">
+         <style borderStroke="0.7" markerStroke="5.0">
+          <font family="Arial" size="16" bold="true" />
+          <color foreground="0x0000FF" />
+         </style>
+         <p>contrari a rigidesa</p>
+        </cell>
+       </info>
+       <text>flexibilitat</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="18" bold="false">,</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="18" bold="false">- A prop de zones amb càrregues importants: trams </text>
+      <target>
+       <answer>verticals</answer>
+       <response fill="_" length="9" maxLength="18" show="v" />
+       <text>verticals</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="18" bold="false">, vàlvules pesades.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="18" bold="false">- A prop de zones desmuntables per fer el </text>
+      <target>
+       <answer>manteniment</answer>
+       <response fill="_" length="11" maxLength="22" show="m" />
+       <text>manteniment</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="18" bold="false">, pero mai a sobre: així es dóna solidesa però es perment treballar.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="complexa canonades" code="">
+   <description>
+    <p>Identifica si determinades afirmacions són veritables o falses</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Indica si les afirmacions de la part superior són veritables o falses</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CCFF" />
+     </style>
+     <p>Bé. És important tenir els conceptes clars.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CDFF">
+     <image name="PVC.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" transparent="true" border="false" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="492.0" cellHeight="113.0" border="true" id="primary">
+    <style borderStroke="1.5" markerStroke="2.7">
+     <font family="Verdana" size="24" bold="true" />
+     <color foreground="0x000099" background="0x6666FF" inactive="0x00808080" alternative="0x000099" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell id="0">
+     <p>L'acer inoxidable F316L és un aliatge que permet treballar a temperaturas inferiors a -100 °C y superiors a 800 °C.</p>
+    </cell>
+    <cell id="1">
+     <p>Les canonades plàstiques tenen una bona estabilitat tèrmica i una baixa estabilitat química.</p>
+    </cell>
+    <cell id="0">
+     <p>La neteja contínua de las línies de transport de fluids es realitza habitualment quan per la conducció han de passar productes diferents.</p>
+    </cell>
+    <cell id="1">
+     <p>Les línies obertes de distribució d'aire comprimit acostumen a donar pressions més homogènies i són més cares que les tancades.</p>
+    </cell>
+   </cells>
+   <cells rows="2" cols="1" cellWidth="235.0" cellHeight="88.0" border="true" id="secondary">
+    <style transparent="true" borderStroke="1.5" markerStroke="2.7">
+     <font family="Verdana" size="24" bold="true" />
+     <color foreground="0x000099" border="0x6666FF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="2" />
+    <cell txtAlign="left,middle" imgAlign="right,middle" avoidOverlapping="true" image="veritable.jpg">
+     <style>
+      <font family="Calibri" size="28" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Veritable</p>
+    </cell>
+    <cell txtAlign="left,middle" imgAlign="right,middle" avoidOverlapping="true" image="fals.jpg">
+     <style>
+      <font family="Calibri" size="28" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Fals</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="veritable.jpg" />
+    <cell image="fals.jpg" />
+    <cell image="veritable.jpg" />
+    <cell image="fals.jpg" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="complexa magatzem" code="">
+   <description>
+    <p>Identifica si determinades afirmacions són veritables o falses</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Indica si les afirmacions de la part superior són veritables o falses</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CCFF" />
+     </style>
+     <p>Bé. És important tenir els conceptes clars.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CDFF">
+     <image name="magatzem.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" transparent="true" border="false" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="492.0" cellHeight="113.0" border="true" id="primary">
+    <style borderStroke="1.5" markerStroke="2.7">
+     <font family="Verdana" size="24" bold="true" />
+     <color foreground="0x000099" background="0x6666FF" inactive="0x00808080" alternative="0x000099" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell id="0">
+     <p>L'ordenació d'un magatzem de productes químics no pot fer-se en ordre alfabètic. S'ha de tenir en compte la classificació de productes i les incompatibilitats.</p>
+    </cell>
+    <cell id="1">
+     <p>Les etiquetes s'han de col·locar de manera que es puguin eliminar fàcilment quan es canvia el producte que contenen els envasos.</p>
+    </cell>
+    <cell id="0">
+     <p>El clor sec és un gas estable i no ataca a la majoria de metalls; tanmateix, si és humit, és molt corrossiu.</p>
+    </cell>
+    <cell id="1">
+     <p>Al magatzem on hi ha sòlids explosius s'hi pot guardar també paper i cartró d'embalatge sempre que estigui a més de dos metres del producte.</p>
+    </cell>
+   </cells>
+   <cells rows="2" cols="1" cellWidth="235.0" cellHeight="88.0" border="true" id="secondary">
+    <style transparent="true" borderStroke="1.5" markerStroke="2.7">
+     <font family="Verdana" size="24" bold="true" />
+     <color foreground="0x000099" border="0x6666FF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="2" />
+    <cell txtAlign="left,middle" imgAlign="right,middle" avoidOverlapping="true" image="veritable.jpg">
+     <style>
+      <font family="Calibri" size="28" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Veritable</p>
+    </cell>
+    <cell txtAlign="left,middle" imgAlign="right,middle" avoidOverlapping="true" image="fals.jpg">
+     <style>
+      <font family="Calibri" size="28" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Fals</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="veritable.jpg" />
+    <cell image="fals.jpg" />
+    <cell image="veritable.jpg" />
+    <cell image="fals.jpg" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="complexa solids" code="">
+   <description>
+    <p>Identifica si determinades afirmacions són veritables o falses</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Indica si les afirmacions de la part superior són veritables o falses</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CCFF" />
+     </style>
+     <p>Bé. És important tenir els conceptes clars.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CDFF">
+     <image name="Sorra.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" transparent="true" border="false" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="492.0" cellHeight="113.0" border="true" id="primary">
+    <style borderStroke="1.5" markerStroke="2.7">
+     <font family="Verdana" size="24" bold="true" />
+     <color foreground="0x000099" background="0x6666FF" inactive="0x00808080" alternative="0x000099" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell id="0">
+     <p>El volum específic és el volum ocupat per la unitat de massa i té un valor que és l'invers de la densitat</p>
+    </cell>
+    <cell id="1">
+     <p>Els ciclons són el millor sistema per a recuperar les partícules fines</p>
+    </cell>
+    <cell id="0">
+     <p>En l'equació per al càlcul de la potència per elevar la càrrega en un cargol sense fi intervenen el cabal màsic, la altura d'elevació i l'acceleració de la gravetat</p>
+    </cell>
+    <cell id="1">
+     <p>L'angle de repòs dinàmic és sempre més gran que l'estàtic perquè el producte flueix millor</p>
+    </cell>
+   </cells>
+   <cells rows="2" cols="1" cellWidth="235.0" cellHeight="88.0" border="true" id="secondary">
+    <style transparent="true" borderStroke="1.5" markerStroke="2.7">
+     <font family="Verdana" size="24" bold="true" />
+     <color foreground="0x000099" border="0x6666FF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="2" />
+    <cell txtAlign="left,middle" imgAlign="right,middle" avoidOverlapping="true" image="veritable.jpg">
+     <style>
+      <font family="Calibri" size="28" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Veritable</p>
+    </cell>
+    <cell txtAlign="left,middle" imgAlign="right,middle" avoidOverlapping="true" image="fals.jpg">
+     <style>
+      <font family="Calibri" size="28" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Fals</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="veritable.jpg" />
+    <cell image="fals.jpg" />
+    <cell image="veritable.jpg" />
+    <cell image="fals.jpg" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="diagrama de fases" code="">
+   <description>
+    <p>Col·loca la simbologia correctament sobre el gràfic</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Aquest diagrama s'ha quedat sense abreviatures ni unitats. Col·loca-les</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Ben fet. La pressió a ordenades i la temperatura a abscisses</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Verdana" size="24" bold="true" italic="true" />
+      <color foreground="0x660066" background="0xFF6666" />
+     </style>
+     <p>Ep! Recorda i repassa.</p>
+    </cell>
+   </messages>
+   <settings margin="0" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <image name="parafina.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" transparent="true" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="diagrama-resized.jpg">
+    <style borderStroke="3.1" markerStroke="2.7">
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x6666FF" inactive="0x006666FF" border="0x003399" />
+    </style>
+    <shaper class="@Holes" cols="1" rows="1">
+     <shape comment="0">rectangle:0.015456,0.101667,0.083462,0.095</shape>
+     <shape comment="1">rectangle:0.261206,0.676667,0.075734,0.085</shape>
+     <shape comment="2">rectangle:0.874807,0.428333,0.071097,0.08</shape>
+     <shape comment="3">rectangle:0.876352,0.918333,0.1051,0.075</shape>
+    </shaper>
+   </cells>
+   <scramble times="31" />
+   <layout position="BA" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="emplenar impulsió" code="">
+   <description>
+    <p>Completa les frases triant la paraula</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Tria les opcions correctes perquè les definicions siguin correctes</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Bé, ja has repassat conceptes</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <image name="valvules.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="true">
+     <size width="525" height="437" />
+    </window>
+   </settings>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Calibri" background="0xFFFFFF" size="22" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Calibri" background="0xFFFFFF" size="22" bold="false">Les </text>
+      <text family="Calibri" background="0xFFFFFF" size="22" bold="false" italic="false">bombes</text>
+      <text family="Calibri" background="0xFFFFFF" size="22" bold="false"> són dispositius </text>
+      <target>
+       <answer>mecànics</answer>
+       <optionList>
+        <option>hidràulics</option>
+        <option>pneumàtics</option>
+        <option>mecànics</option>
+        <option>elèctrics</option>
+       </optionList>
+       <text>mecànics</text>
+      </target>
+      <text family="Calibri" background="0xFFFFFF" size="22" bold="false"> que subministren energia al líquid, que pot fer-se servir per augmentar-ne la velocitat, la </text>
+      <target>
+       <answer>pressió</answer>
+       <optionList>
+        <option>temperatura</option>
+        <option>pressió</option>
+        <option>viscositat</option>
+        <option>densitat</option>
+       </optionList>
+       <text>pressió</text>
+      </target>
+      <text family="Calibri" background="0xFFFFFF" size="22" bold="false"> o per elevar-los. Les bombes rotodinàmiques es caracteritzen perquè tenen un disc giratori a gran velocitat, que és un </text>
+      <target>
+       <answer>rotor</answer>
+       <optionList>
+        <option>àlep</option>
+        <option>estàtor</option>
+        <option>rotor</option>
+        <option>estri</option>
+       </optionList>
+       <text>rotor</text>
+      </target>
+      <text family="Calibri" background="0xFFFFFF" size="22" bold="false"> impulsor anomenat rodet. </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Calibri" background="0xFFFFFF" size="22" bold="false">Un ventilador està dissenyat per operar a </text>
+      <target>
+       <answer>pressions</answer>
+       <optionList>
+        <option>velocitats</option>
+        <option>viscositats</option>
+        <option>pressions</option>
+        <option>densitats</option>
+       </optionList>
+       <text>pressions</text>
+      </target>
+      <text family="Calibri" background="0xFFFFFF" size="22" bold="false"> estàtiques petites de màxim 10 kPa. Un bufador permet arribar més amunt, fins a 70 </text>
+      <target>
+       <answer>kPa</answer>
+       <optionList>
+        <option>kPa</option>
+        <option>m/s</option>
+        <option>kg/s</option>
+        <option>m</option>
+       </optionList>
+       <text>kPa</text>
+      </target>
+      <text family="Calibri" background="0xFFFFFF" size="22" bold="false">, si és monoetapa, o 300, si és multietapa. El </text>
+      <target>
+       <answer>compressor</answer>
+       <optionList>
+        <option>rodet</option>
+        <option>ventilador</option>
+        <option>bufador</option>
+        <option>compressor</option>
+       </optionList>
+       <text>compressor</text>
+      </target>
+      <text family="Calibri" background="0xFFFFFF" size="22" bold="false"> ens permet arribar molt més amunt, habitualment fins 2000 kPa.  </text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="estats_agregació" code="">
+   <description>
+    <p>Emplena paraules desaparegudes sibre els estats de la matèria</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Completa  els paràgrafs amb les paraules adequades</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Ben fet! Ves endavant, els estats d'agregació donen més de si.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <image name="TMIQ01_AUXR12_R01_Azul.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="true">
+     <size width="760" height="330" />
+    </window>
+   </settings>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="24" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="22" bold="true" foreground="0x0000FF">Què són els estats d'agregació de la matèria?</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="22" bold="false" foreground="0x0000FF">La matèria que ens envolta es pot  presentar en tres formes diferents: com un </text>
+      <target>
+       <answer>sòlid</answer>
+       <response fill="*" length="5" maxLength="10" />
+       <info>
+        <cell width="173" height="147">
+         <style borderStroke="0.7" markerStroke="5.0">
+          <font family="Arial" size="22" bold="true" />
+          <color foreground="0x006600" background="0xFFCC99" />
+         </style>
+         <p>Estat d'agregació de la matèria que manté forma i volum.</p>
+        </cell>
+       </info>
+       <text>sòlid</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="22" bold="false" foreground="0x0000FF">, com un líquid o com un </text>
+      <target>
+       <answer>gas</answer>
+       <response fill="*" length="3" maxLength="6" />
+       <text>gas</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="22" bold="false" foreground="0x0000FF">. Tenim, per tant, tres possibes estats.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="22" bold="false" foreground="0x0000FF">Parlem d'agregació com la forma en que s'agrupen els components de la matèria entre sí, siguin </text>
+      <target>
+       <answer>àtoms</answer>
+       <response fill="*" length="5" maxLength="7" />
+       <info>
+        <cell width="180" height="170">
+         <style borderStroke="0.7" markerStroke="5.0">
+          <font family="Arial" size="22" bold="true" />
+          <color foreground="0x006600" background="0xFFCC99" />
+         </style>
+         <p>Quantitat mínima de matèria posseeix intrínsecament les propietats característiques d'un element químic, i és la quantitat més petita d'aquest que pot intervenir en una reacció química.</p>
+        </cell>
+       </info>
+       <text>àtoms</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="22" bold="false" foreground="0x0000FF"> o molècules. Si es troben molt propers i fortament units tenim un sòlid; si l'unió és més fleble, aleshores tenim un </text>
+      <target>
+       <answer>líquid</answer>
+       <response fill="*" length="6" maxLength="12" />
+       <text>líquid</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="22" bold="false" foreground="0x0000FF"> i si la interacció és molt dèbil o pràcticament nul·la, llavors tenim un gas.  </text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="fluids" code="">
+   <description>
+    <p>Completa les frases triant la paraula sobre estats d'agregació</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Tria les opcions correctes perquè el text tingui sentit</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Be! Podrem transportar fàcilment els fluids</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="true">
+     <size width="780" height="417" />
+    </window>
+   </settings>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="16" bold="true" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" Alignment="0">
+      <text family="Arial" background="0xFFFFFF" size="16" bold="false" foreground="0x0000FF">Els gasos i els líquids són </text>
+      <target>
+       <answer>fluids</answer>
+       <optionList>
+        <option>productes</option>
+        <option>fluids</option>
+        <option>elements</option>
+        <option>sòlids</option>
+       </optionList>
+       <text>fluids</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="16" bold="false" foreground="0x0000FF"> i es caracteritzen perquè les seves molècules no estan unides molt rígidament, cosa que els permet, en conseqüència, </text>
+      <target>
+       <answer>lliscar</answer>
+       <optionList>
+        <option>flotar</option>
+        <option>lliscar</option>
+        <option>vibrar</option>
+       </optionList>
+       <text>lliscar</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="16" bold="false" foreground="0x0000FF"> unes sobre les altres. Això fa que puguin fluir o moure's, canviar de </text>
+      <target>
+       <answer>forma</answer>
+       <optionList>
+        <option>composició</option>
+        <option>color</option>
+        <option>consistència</option>
+        <option>forma</option>
+       </optionList>
+       <text>forma</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="16" bold="false" foreground="0x0000FF"> i adaptar-se als conductes per a transportar-los.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="0" />
+     <p family="Arial" background="0xFFFFFF" Alignment="0">
+      <cell imgAlign="left,middle" width="458" height="158" image="compressió1.jpg" />
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="16" bold="false" foreground="0x0000FF">Fluids compressibles ho són els gasos: se'n pot </text>
+      <text family="Arial" background="0xFFFFFF" size="16" bold="false" italic="false" foreground="0x0000FF">reduir </text>
+      <target>
+       <answer>el volum</answer>
+       <optionList>
+        <option>l'olor</option>
+        <option>el color</option>
+        <option>la viscositat</option>
+        <option>el volum</option>
+       </optionList>
+       <text>el volum</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="16" bold="false" foreground="0x0000FF"> si s'hi aplica pressió. </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="16" bold="false" foreground="0x0000FF">Fluids incompressibles ho són els </text>
+      <target>
+       <answer>líquids</answer>
+       <optionList>
+        <option>sòlids</option>
+        <option>líquids</option>
+        <option>elements</option>
+       </optionList>
+       <text>líquids</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="16" bold="false" foreground="0x0000FF">: no aconseguirem comprimir-los encara que hi apliquem pressió.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="16" bold="false" foreground="0x0000FF">Els sòlids conserven la forma i tenen molta cohesió. No podrem separar-ne les molècules perquè flueixin aplicant pressió.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="identifica equips" code="">
+   <description>
+    <p>Completa la descripció dels equips de la imatge</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Seleccciona amb el ratolí cadascuna de les imatges i completa la descripció de l'equip</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Ben fet!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="true" />
+   </settings>
+   <cells rows="4" cols="3" cellWidth="153.0" cellHeight="108.0" border="true" id="primary">
+    <style borderStroke="3.1" markerStroke="2.7">
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x6666FF" inactive="0x6666FF" alternative="0x000000" border="0x003399" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="4" />
+    <cell id="0" image="lliscant.gif" />
+    <cell>
+     <p>Bomba</p>
+    </cell>
+    <cell>
+     <p>rotativa de</p>
+    </cell>
+    <cell id="1" image="Engranatges.gif" />
+    <cell>
+     <p>Bomba</p>
+    </cell>
+    <cell>
+     <p>rotativa d'</p>
+    </cell>
+    <cell id="2" image="Axial.gif" />
+    <cell>
+     <p>Compressor</p>
+    </cell>
+    <cell>
+     <p>rotodinàmic</p>
+    </cell>
+    <cell id="3" image="sense_fi.gif" />
+    <cell>
+     <p>Transportador</p>
+    </cell>
+    <cell>
+     <p>de cargol</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="129.0" cellHeight="108.0" border="false" id="answers">
+    <style borderStroke="3.7" markerStroke="2.7">
+     <font family="Verdana" size="18" bold="true" />
+     <color foreground="0x000099" background="0x99CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <p>paletes|paletes lliscants</p>
+    </cell>
+    <cell>
+     <p>engranatges|engranatges externs</p>
+    </cell>
+    <cell>
+     <p>axial</p>
+    </cell>
+    <cell>
+     <p>sense fi|helicoïdal</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="3" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="4" />
+    <cell>
+     <p>Bé!</p>
+    </cell>
+    <cell />
+    <cell />
+    <cell>
+     <p>Bé!</p>
+    </cell>
+    <cell />
+    <cell />
+    <cell>
+     <p>Bé!</p>
+    </cell>
+    <cell />
+    <cell />
+    <cell>
+     <p>Bé!</p>
+    </cell>
+    <cell />
+    <cell />
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.Identify" name="identifica transport" code="" type="identifyWords">
+   <description>
+    <p>classificar elements de transport</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Identifica quins sistemes de transport són fixos</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Molt bé! Ara ja pots triar el millor</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <image name="CintaCoberta.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="true">
+     <size width="603" height="316" />
+    </window>
+   </settings>
+   <checkButton>Revisa la tria</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x006600" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="18" bold="false" italic="false" foreground="0x0000FF" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <text size="18">Hi ha dos tipus d'equips per al </text>
+      <text size="18" bold="true">transport de sòlids</text>
+      <text size="18">:</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text size="18">- Les màquines mòbils, per petites càrregues i a llocs variats</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text size="18">- Les instal·lacions fixes, per grans volums i a llocs concrets</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text size="18">Entre els següents equips, tria els que corresponen a instal·lacions fixes:</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="18"> Carretilla elevadora;</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="18"> Tractor;</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="18"> </text>
+      <target>Elevador de catúfols;</target>
+      <text family="Arial" background="0xFFFFFF" size="18"> </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="18"> Transpaleta;</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="18"> </text>
+      <target>Transport pneumàtic;</target>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="18"> </text>
+      <target>Transport vibratori.</target>
+      <text family="Arial" background="0xFFFFFF" size="18"> </text>
+     </p>
+    </section>
+   </document>
+  </activity>
+  <activity class="@panels.Identify" name="identificació diposits" code="">
+   <description>
+    <p>identifica per a què serveixen els dipòsits</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x0000CC" background="0x99CCFF" />
+     </style>
+     <p>Quins d'aquests dipòsits poden contenir gasos?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x0000CC" background="0xFF6666" />
+     </style>
+     <p>Be! La darrera foto té descàrrega per sota i cinta de transport: una sitja per a sòlids!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <image name="Esferes.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="384.0" cellHeight="249.0" border="true" id="primary">
+    <style borderStroke="1.4" markerStroke="2.7">
+     <font family="Verdana" size="24" bold="true" />
+     <color foreground="0x0000CC" background="0x99CCFF" alternative="0x0000CC" border="0x0000CC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell id="1" image="diposit1.jpg" />
+    <cell id="0" image="diposit-2.jpg" />
+    <cell id="1" image="diposit3.jpg" />
+    <cell id="1" image="dipòsit-4.jpg" />
+   </cells>
+   <cells rows="2" cols="2" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell txtAlign="left,top" imgAlign="right,bottom" avoidOverlapping="true" image="diposit1.jpg">
+     <p>L'esfera és la millor forma per contenir gasos</p>
+    </cell>
+    <cell txtAlign="left,top" imgAlign="right,bottom" avoidOverlapping="true" image="diposit-2.jpg">
+     <p>Descàrrega per sota i cinta de transport: una sitja per sòlids!</p>
+    </cell>
+    <cell txtAlign="left,top" imgAlign="right,middle" avoidOverlapping="true" image="diposit3.jpg">
+     <p>Gel i un gasificador: gas criogènic</p>
+    </cell>
+    <cell txtAlign="left,top" imgAlign="right,bottom" avoidOverlapping="true" image="dipòsit-4.jpg">
+     <p>Un gasómetre: creix en alçària a mesura que entra gas</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@panels.Identify" name="identificació manteniment" code="">
+   <description>
+    <p>reconeix desgast de bombes</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x0000CC" background="0x99CCFF" />
+     </style>
+     <p>Quins d'aquests danys no són deguts a la cavitació?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x0000CC" background="0xFF6666" />
+     </style>
+     <p>Bé. La cavitació s'ha de mirar d'evitar alimentant correctament la bomba</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <image name="centrifuga.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="311.0" cellHeight="163.0" border="true" id="primary">
+    <style borderStroke="1.4" markerStroke="2.7">
+     <font family="Verdana" size="24" bold="true" />
+     <color foreground="0x0000CC" background="0x99CCFF" alternative="0x0000CC" border="0x0000CC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell id="1" image="abrasió.jpg" />
+    <cell id="0" image="cavitació.jpg" />
+    <cell id="1" image="corrosió.jpg" />
+    <cell id="1" image="corrosió-2.jpg" />
+   </cells>
+   <cells rows="2" cols="2" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell txtAlign="left,top" imgAlign="right,bottom" avoidOverlapping="true" image="abrasió.jpg">
+     <p>L'abrasió la provoquen líquids bruts, amb sòlids en suspensió</p>
+    </cell>
+    <cell txtAlign="left,top" imgAlign="right,bottom" avoidOverlapping="true" image="cavitació.jpg">
+     <p>La cavitació: quin mal fa a les bombes no tenir una bona alimentació!</p>
+    </cell>
+    <cell txtAlign="left,top" imgAlign="right,middle" avoidOverlapping="true" image="corrosió.jpg">
+     <p>Els líquids corrosius, com àcids i àlcalis, fan malbé rotors i estàtors.</p>
+    </cell>
+    <cell txtAlign="left,top" imgAlign="right,bottom" avoidOverlapping="true" image="corrosió-2.jpg">
+     <p>La corrosió també afecta a les canonades</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="mapaconceptual" code="mapa">
+   <description>
+    <p>ordena la classificació d'elements d'impuslió de gasos</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Completa la classificació següent, emplenant els forats</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Perfecte! Tens clara la classificació</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Verdana" size="24" bold="true" italic="true" />
+      <color foreground="0x660066" background="0xFF6666" />
+     </style>
+     <p>Llàstima! No et rendeixis i repassa</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" maxTime="60" countDownTime="true" maxActions="10" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="true" />
+    <skin file="@blue.xml" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="MapaConceptual_mini2.jpg">
+    <style borderStroke="3.1" markerStroke="2.7">
+     <font family="Arial" size="17" bold="true" italic="true" />
+     <color background="0x6666FF" inactive="0x6666FF" border="0x003399" />
+    </style>
+    <shaper class="@Holes" cols="3" rows="2">
+     <shape comment="0">M:0.084507,0.458564|L:0.08529,0.501842|L:0.094679,0.512891|L:0.315336,0.512891|L:0.326291,0.499079|L:0.324726,0.455801|L:0.312207,0.443831|L:0.097027,0.444751|L:0.084507,0.458564</shape>
+     <shape comment="1">M:0.339593,0.496317|L:0.349765,0.513812|L:0.564163,0.513812|L:0.57277,0.5|L:0.573552,0.458564|L:0.564945,0.444751|L:0.352113,0.441989|L:0.339593,0.45488|L:0.339593,0.455801|L:0.339593,0.496317</shape>
+     <shape comment="2">M:0.766041,0.453959|L:0.766823,0.502762|L:0.776213,0.512891|L:0.985133,0.514733|L:0.994523,0.504604|L:0.994523,0.452118|L:0.983568,0.441068|L:0.777778,0.441989|L:0.766041,0.453959</shape>
+     <shape comment="3">M:0.306729,0.932781|L:0.305947,0.984346|L:0.316901,0.991713|L:0.475743,0.993554|L:0.484351,0.983425|L:0.485133,0.932781|L:0.471049,0.92081|L:0.317684,0.92081|L:0.306729,0.932781</shape>
+     <shape comment="4">M:0.503912,0.935543|L:0.50313,0.985267|L:0.514085,0.995396|L:0.664319,0.995396|L:0.675274,0.985267|L:0.675274,0.936464|L:0.662754,0.923573|L:0.516432,0.924494|L:0.503912,0.935543</shape>
+    </shaper>
+   </cells>
+   <scramble times="31" />
+   <layout position="BA" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="omple solids" code="">
+   <description>
+    <p>Completa frases amb paraula despareguda sobre transport pneumàtic</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Completa  els paràgrafs amb les paraules adequades</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Ben fet! El transport pneumàtic inclou el sòlid en un medi fluid</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <image name="Arrossegament.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="true">
+     <size width="630" height="407" />
+    </window>
+   </settings>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x006600" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="24" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="22" bold="true" foreground="0x0000FF">Transport pneumàtic</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="22" bold="false" foreground="0x0000FF">El principi d'Arquímedes ens diu que tot cos submergit en un </text>
+      <target>
+       <answer>fluid</answer>
+       <response fill="*" length="5" maxLength="5" />
+       <info>
+        <cell width="155" height="81">
+         <style borderStroke="0.7" markerStroke="5.0">
+          <font family="Verdana" size="14" bold="true" />
+          <color foreground="0x660066" background="0x99CCFF" />
+         </style>
+         <p>Producte en un estat en el qual les molècules poden desplaçar-se unes respecte les altres</p>
+        </cell>
+       </info>
+       <text>fluid</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="22" bold="false" foreground="0x0000FF"> sofreix un empenyiment cap a dalt igual al pes del </text>
+      <target>
+       <answer>volum</answer>
+       <response fill="*" length="5" maxLength="5" />
+       <info>
+        <cell width="100" height="40">
+         <style borderStroke="0.7" markerStroke="5.0">
+          <font family="Verdana" size="14" bold="true" />
+          <color foreground="0x660066" background="0x99CCFF" />
+         </style>
+         <p>propietat extensiva</p>
+        </cell>
+       </info>
+       <text>volum</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="22" bold="false" foreground="0x0000FF"> de fluid desallotjat. </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="22" bold="false" foreground="0x0000FF">Quan un líquid o un gas transporten un sòlid, ho fan mitjançant una </text>
+      <target>
+       <answer>força</answer>
+       <response fill="*" length="5" maxLength="5" />
+       <info>
+        <cell width="127" height="54">
+         <style borderStroke="0.7" markerStroke="5.0">
+          <font family="Verdana" size="14" bold="true" />
+          <color foreground="0x660066" background="0x99CCFF" />
+         </style>
+         <p>magnitud vectorial que modifica el moviment d'un cos</p>
+        </cell>
+       </info>
+       <text>força</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="22" bold="false" foreground="0x0000FF"> addicional sobre el sòlid deguda al moviment del fluid que s'anomena força d'arrossegament.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="22" bold="false" foreground="0x0000FF">En resum, la força resultant que transporta el producte (F</text>
+      <text family="Arial" background="0xFFFFFF" size="12" bold="false" foreground="0x0000FF">R</text>
+      <text family="Arial" background="0xFFFFFF" size="22" bold="false" foreground="0x0000FF">) serà: </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text family="Arial" background="0xFFFFFF" size="22" bold="false" foreground="0x0000FF">F</text>
+      <text family="Arial" background="0xFFFFFF" size="12" bold="false" foreground="0x0000FF">R</text>
+      <text family="Arial" background="0xFFFFFF" size="22" bold="false" foreground="0x0000FF">=F</text>
+      <text family="Arial" background="0xFFFFFF" size="12" bold="false" foreground="0x0000FF">E</text>
+      <text family="Arial" background="0xFFFFFF" size="22" bold="false" foreground="0x0000FF">+F</text>
+      <text family="Arial" background="0xFFFFFF" size="12" bold="false" foreground="0x0000FF">A</text>
+      <text family="Arial" background="0xFFFFFF" size="22" bold="false" foreground="0x0000FF">-P</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="22" bold="false" foreground="0x0000FF"> on P és el </text>
+      <target>
+       <answer>pes</answer>
+       <response fill="*" length="3" maxLength="3" />
+       <info>
+        <cell width="86" height="107">
+         <style borderStroke="0.7" markerStroke="5.0">
+          <font family="Verdana" size="14" bold="true" />
+          <color foreground="0x660066" background="0x99CCFF" />
+         </style>
+         <p>propietat extensiva que depèn del volum i la densitat</p>
+        </cell>
+       </info>
+       <text>pes</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF" size="22" bold="false" foreground="0x0000FF"> de la partícula sòlida.	</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.Order" name="ordenar cinta" code="" type="orderWords" amongParagraphs="true">
+   <description>
+    <p>Ordenar paraules que descriuen les cintes transportadores</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Col·loca bé les paraules per entendre'n el significat</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Bé!, tot ordenat</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="true">
+     <size width="778" height="390" />
+    </window>
+   </settings>
+   <checkButton>Comprova l'ordre</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x006600" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x0000FF" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" bold="true" size="18">Cintes transportadores</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16">Una </text>
+      <target>cinta</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16"> transportadora és una estructura flexible de teixit, </text>
+      <target>goma</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16"> o metàl·lica, amb forma de corretja tancada en anell. Dos tambors (corrons de gran diàmetre) l'arrosseguen; un està motoritzat i l'altre és conduït.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16">El producte es col·loca a la part superior de la cinta, que se suporta mitjançant </text>
+      <target>corrons</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16"> de gir lliure, espaiats adequadament. Les cintes tenen sistemes per a ser tensades.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16">Les cintes més comunes es fan amb una estructura resistent que s'anomena </text>
+      <target>armadura,</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16"> constituïda per teixits </text>
+      <target>naturals,</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16"> sintètics o acer, recoberta per materials de goma, amb un gruix superior el de la part exterior, que condueix el producte, que el de la interior, que és en contacte amb tambors i corrons. </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16">L'estructura ha de suportar el producte i ha de donar </text>
+      <target>rigidesa</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16"> a la cinta per poder tensar-la, sense ser excessiva perquè s'adapti als corrons. La resistència de l'armadura és funció de la </text>
+      <target>densitat</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16"> del producte.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.Order" name="ordenar pneumàtic" code="" type="orderWords" amongParagraphs="true">
+   <description>
+    <p>Ordena paraules que descriuen el transport pneumàtic</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Col·loca bé les paraules per entendre'n el significat</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Bé!, tot ordenat</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <image name="ciclo-resized1.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="true">
+     <size width="460" height="390" />
+    </window>
+   </settings>
+   <checkButton>Comprova l'ordre</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x006600" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="16" bold="true" italic="false" foreground="0x0000FF" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" bold="true" size="18">Transport pneumàtic</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16">Els transports hidràulic i pneumàtic s'efectuen aprofitant la capacitat d'arrossegament dels </text>
+      <target>fluids</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16"> per dur els sòlids d'un punt a un altre en forma de </text>
+      <target>suspensió.</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16"> Per això, els fluids han de moure's a una </text>
+      <target>velocitat</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16"> mínima, que s'anomena crítica.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16">En el transport pneumàtic fem servir, fonalmentalment, l'aire com a mitjà d'impulsió, encara que també es fan servir </text>
+      <target>gasos</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16"> inerts. Es pot transportar quasi qualsevol tipus de producte, encara que, per raons econòmiques, es busca que tingui una </text>
+      <target>grandària</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16"> inferior als 10 mm de diàmetre equivalent.  </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16">Els millors sòlids a transportar són productes molt fluids, no </text>
+      <target>abrasius,</target>
+      <text family="Arial" background="0xFFFFFF" bold="true" size="16"> de granulometria petita i no fibrosa.  </text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="perillositat" code="perill">
+   <description>
+    <p>sopa de lletres amb els tipus de perills dels productes</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Cerca sis perills i veuràs la simbologia REACH</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Molt bé! Ara a llegir etiquetes</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Verdana" size="24" bold="true" italic="true" />
+      <color foreground="0x660066" background="0xFF6666" />
+     </style>
+     <p>Repassa els perills i torna-hi. Ànims!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CDFF">
+     <counters time="true" actions="false" score="true" />
+    </container>
+    <window bgColor="0x6565FF" border="true" />
+   </settings>
+   <textGrid rows="10" columns="10" cellWidth="46.0" cellHeight="43.0" border="true">
+    <style borderStroke="1.9" markerStroke="2.7">
+     <font family="Arial" size="22" />
+     <color foreground="0x000066" background="0x99CDFF" border="0xFFFFFF" />
+    </style>
+    <text>
+     <row>**UISOLPXE</row>
+     <row>CORROSIUL*</row>
+     <row>I******B**</row>
+     <row>X*****A*O*</row>
+     <row>O****M**I*</row>
+     <row>T***AO**S*</row>
+     <row>***L*R**S*</row>
+     <row>**F**T**E*</row>
+     <row>*N***A**R*</row>
+     <row>I****L**P*</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">INFLAMABLE</clue>
+    <clue id="1">PRESSIO</clue>
+    <clue id="2">EXPLOSIU</clue>
+    <clue id="3">CORROSIU</clue>
+    <clue id="4">MORTAL</clue>
+    <clue id="5">TOXIC</clue>
+   </clues>
+   <cells rows="3" cols="2" cellWidth="241.0" cellHeight="143.0" border="true" id="secondary">
+    <style borderStroke="2.9" markerStroke="2.7">
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x99CDFF" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell image="TMIQ06_AUXR06_R02_GHS02Flama.png" />
+    <cell image="TMIQ06_AUXR06_R04_GHS04Bombona.png" />
+    <cell image="TMIQ06_AUXR06_R01_GHS01Bomba.png" />
+    <cell image="TMIQ06_AUXR06_R05_GHS05Corrosiu.png" />
+    <cell image="TMIQ06_AUXR06_R06_GHS06Calavera.png" />
+    <cell image="TMIQ06_AUXR06_R07_GHS07Atenció.png" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="presentació" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Verdana" size="22" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Un repàs del mòdul professional</p>
+    </cell>
+   </messages>
+   <settings margin="0" report="false">
+    <container bgColor="0x99CDFF">
+     <image name="portada.jpg" tiled="false" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x6565FF" transparent="true" border="false" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="763.0" cellHeight="70.0" border="false">
+    <style transparent="true" borderStroke="2.9" markerStroke="5.0">
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x009999" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="presentació_1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Verdana" size="22" bold="true" />
+      <color background="0x009999" />
+     </style>
+     <p>TRANSPORT DE MATERIALS A LA INDÚSTRIA QUÍMICA</p>
+    </cell>
+   </messages>
+   <settings margin="2" report="false">
+    <container bgColor="0x99CDFF">
+     <image name="NitrogenPID.jpg" tiled="false" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x6565FF" border="true" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="472.0" cellHeight="252.0" border="true">
+    <style borderStroke="2.9" markerStroke="2.7">
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x99CDFF" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="18" />
+      <color background="0x99FFFF" />
+     </style>
+     <p>Aquesta activitat Jclic vol ser una ajuda per a repassar els conceptes per a la preparació de les proves d'avaluació.</p>
+     <p>La pots fer servir després de cada unitat formativa o al final del mòdul. </p>
+     <p>En cap cas cobreix tot el contingut. L'estudi, la resolució de problemes i el seguiment del curs són molt importants. </p>
+     <p>Espero que et sigui entretinguda i t'ajudi a estudiar aquest mòdul.</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@text.Identify" name="propietats" code="" type="identifyWords">
+   <description>
+    <p>Classificar les propietats de la matèria</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Identifica quines propietats són intensives</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Molt bé! Pots caracteritzar una substàcia</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <image name="AltaViscositat.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="true">
+     <size width="400" height="500" />
+    </window>
+   </settings>
+   <checkButton>Revisa la tria</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x006600" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="16" bold="false" italic="false" foreground="0x0000FF" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <text size="16">Les </text>
+      <text family="Arial" background="0xFFFFFF" bold="true">propietats</text>
+      <text size="16" bold="true"> intensives</text>
+      <text size="16"> d'una substància no depenen de la quantitat de matèria i serveixen per </text>
+      <text family="Arial" background="0xFFFFFF">caracteritzar-la.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text size="16">Les </text>
+      <text size="16" bold="true">propietats </text>
+      <text family="Arial" background="0xFFFFFF" bold="true">extensives</text>
+      <text family="Arial" background="0xFFFFFF">,</text>
+      <text size="16"> tanmateix, es caracteritzen per dependre de la quantitat de </text>
+      <text family="Arial" background="0xFFFFFF">matèria</text>
+      <text size="16"> que hi ha en un sistema i no de les seves característiques. </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text size="16">Entre les següents propietats, senyala les intensives:</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text size="16">- Volum,</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text size="16">- Pes,</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <target>- Densitat,</target>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <target>- Capil·laritat,</target>
+      <text size="16"> </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <target>- Tensió superficial,</target>
+      <text size="16"> </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text size="16">- Pressió,</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <target>- Punt d'ebullició,</target>
+      <text size="16"> </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text size="16">- Longitud, </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <target>- Viscositat,</target>
+      <text size="16"> </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text size="16">- Massa,</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <target>- Pressió de vapor.</target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+    </section>
+   </document>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="puzle canonades" code="">
+   <description>
+    <p>colocar correctament els colors identificadors del producte que es transporta per canonades</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="22" bold="true" />
+      <color foreground="0x000099" background="0x99CCFF" />
+     </style>
+     <p>Col·loca correctament el color del tram estret de la canonada per identificar el fluid transportat</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="22" bold="true" />
+      <color foreground="0x000099" background="0x99CCFF" />
+     </style>
+     <p>Ben fet! Els colors ens ajuden a reconèixer què transportem</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x99CDFF">
+     <image name="colors.jpg" tiled="true" />
+     <counters time="true" actions="false" score="true" />
+    </container>
+    <window bgColor="0x99CCFF" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="colorscanonades.jpg">
+    <style borderStroke="2.9" markerStroke="2.7">
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x99CDFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Holes" cols="1" rows="1">
+     <shape comment="0">rectangle:0.227829,0.04386,0.062691,0.072368</shape>
+     <shape comment="1">rectangle:0.229358,0.214912,0.065749,0.078947</shape>
+     <shape comment="2">rectangle:0.232416,0.388158,0.065749,0.078947</shape>
+     <shape comment="3">rectangle:0.2263,0.550439,0.068807,0.076754</shape>
+     <shape comment="4">rectangle:0.227829,0.710526,0.065749,0.078947</shape>
+     <shape comment="5">rectangle:0.2263,0.877193,0.070336,0.076754</shape>
+    </shaper>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="puzle descàrrega" code="">
+   <description>
+    <p>Col·locar correctament les vàlvules d'una línia de descàrrega d'una bomba</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="22" bold="true" />
+      <color foreground="0x000099" background="0x99CCFF" />
+     </style>
+     <p>Col·loca les vàlvules en la seva posició correcta a la línia de descàrrega de la bomba</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="22" bold="true" />
+      <color foreground="0x000099" background="0x99CCFF" />
+     </style>
+     <p>Bé! Ara ja no hi ha cap risc d'accident</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x99CDFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x99CCFF" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="Descarrega.jpg">
+    <style borderStroke="2.9" markerStroke="2.7">
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x99CDFF" inactive="0x99CCFF" border="0x990099" />
+    </style>
+    <shaper class="@Holes" cols="1" rows="1">
+     <shape comment="0">rectangle:0.289634,0.699725,0.0625,0.129477</shape>
+     <shape comment="1">rectangle:0.394817,0.812672,0.0625,0.129477</shape>
+     <shape comment="2">rectangle:0.61128,0.013774,0.064024,0.132231</shape>
+     <shape comment="3">rectangle:0.557927,0.625344,0.0625,0.107438</shape>
+    </shaper>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@textGrid.CrossWord" name="repas final" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Vols acabar amb uns mots encreuats?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x003399" background="0x99CCFF" />
+     </style>
+     <p>Costa però satisfà acabar-lo, no?. Ara sí, adéu!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x6666FF" border="true" />
+   </settings>
+   <textGrid rows="10" columns="6" cellWidth="40.0" cellHeight="44.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>*TRANSPORT</row>
+     <row>C*O**O***R</row>
+     <row>I*T*ALEP*E</row>
+     <row>N*O**I*V*S</row>
+     <row>T*R**D*C**</row>
+     <row>A**FE*X*FC</row>
+    </text>
+   </textGrid>
+   <cells rows="1" cols="3" cellWidth="401.0" cellHeight="131.0" border="true" id="acrossClues">
+    <style borderStroke="3.1" markerStroke="2.7">
+     <color background="0x6666FF" inactive="0x6666FF" border="0x003399" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell id="5" item="4" />
+    <cell id="5" item="1">
+     <p>Símbol químic del component principal del acer, aliatge que es fa servir molt en unstal·lacions de transport.</p>
+    </cell>
+    <cell id="5" item="2">
+     <p>Lletra que precedeix el codi de perill en transpot per carretera quan el producte reacciona violentament amb l'aigua. Això adverteix als bombers.</p>
+    </cell>
+    <cell id="5" item="3">
+     <p>Lletres de la simbologia PID que indiquen un punt de control del flux per una canonada.</p>
+    </cell>
+    <cell id="5" item="0" />
+    <cell id="4" item="4" />
+    <cell id="4" item="0" />
+    <cell id="4" item="3" />
+    <cell id="4" item="2" />
+    <cell id="4" item="1" />
+    <cell id="3" item="5" />
+    <cell id="3" item="0" />
+    <cell id="3" item="4" />
+    <cell id="3" item="3" />
+    <cell id="3" item="2" />
+    <cell id="3" item="1" />
+    <cell id="2" item="4" />
+    <cell id="2" item="0" />
+    <cell id="2" item="3" />
+    <cell id="2" item="2">
+     <p>Cadascuna de les paletes de forma plana, còncava, guerxada o helicoïdal que constitueixen el rodet d'una bomba centrífuga.</p>
+    </cell>
+    <cell id="2" item="1" />
+    <cell id="1" item="4" />
+    <cell id="1" item="0" />
+    <cell id="1" item="3" />
+    <cell id="1" item="2" />
+    <cell id="1" item="1" />
+    <cell id="0" item="0">
+     <p>Acció i efecte de portar d'un lloc a un altre de la fábrica productes químics mitjançant equips construïts i habilitats per a aquesta finalitat. </p>
+    </cell>
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="401.0" cellHeight="131.0" border="true" id="downClues">
+    <style borderStroke="3.1" markerStroke="2.7">
+     <color background="0x6666FF" inactive="0x6666FF" border="0x003399" />
+    </style>
+    <cell id="1" item="1" />
+    <cell id="0" item="1" />
+    <cell id="0" item="0">
+     <p>Equipament de transport de sòlids que consisteix en una superfície flexible sobre la que es diposita el producte i que es mou de forma contínua gràcies a un motor</p>
+    </cell>
+    <cell id="9" item="2" />
+    <cell id="9" item="1" />
+    <cell id="9" item="0">
+     <p>Codi de perill per al transport per carretera de un líquid o gas inflamable.</p>
+    </cell>
+    <cell id="8" item="2" />
+    <cell id="8" item="1" />
+    <cell id="8" item="0" />
+    <cell id="7" item="2" />
+    <cell id="7" item="1">
+     <p>Material plàstic que es fa servir en la construcció de canonades, molt estable químicament.</p>
+    </cell>
+    <cell id="7" item="0" />
+    <cell id="6" item="3" />
+    <cell id="6" item="2" />
+    <cell id="6" item="1" />
+    <cell id="6" item="0" />
+    <cell id="5" item="1" />
+    <cell id="5" item="0">
+     <p>Estat de la matèria en que la interacció entre molècules fa que mantingui el volum i la forma.</p>
+    </cell>
+    <cell id="4" item="3" />
+    <cell id="4" item="2" />
+    <cell id="4" item="1" />
+    <cell id="4" item="0" />
+    <cell id="3" item="2" />
+    <cell id="3" item="1" />
+    <cell id="3" item="0" />
+    <cell id="2" item="0">
+     <p>Part mòbil d'una bomba i que impulsa el líquid a transportar.</p>
+    </cell>
+    <cell id="1" item="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="resposta_magatzem" code="">
+   <description>
+    <p>Resposta a determinades qüestions sobre emmagatzematge</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Respon a les preguntes següents</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CCFF" />
+     </style>
+     <p>Bé! Els magatzems són complexos</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x99CDFF">
+     <image name="botella.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6565FF" border="true" />
+   </settings>
+   <cells rows="5" cols="1" cellWidth="330.0" cellHeight="95.0" border="true" id="primary">
+    <style borderStroke="2.9" markerStroke="2.7">
+     <font family="Arial" size="24" bold="true" />
+     <color background="0xFFFFFF" inactive="0x99CCFF" border="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell id="0">
+     <p>El sistema d'emmagatzematge per petites quantitats de producte a les zones de treball, s'anomena:</p>
+    </cell>
+    <cell id="1">
+     <p>Els sistemes d'identificació que pot llegir directament el personal de planta, s'ha realitzat sobre un tipus de suport ....</p>
+    </cell>
+    <cell id="2">
+     <p>Quan es descarreguen sòlids d'una sitja i el producte surt de la zona central, mentre els laterals propers a la pared no es mouen, dóna un flux conegut com a:</p>
+    </cell>
+    <cell id="3">
+     <p>Un gas emmagatzemat en estat líquis per efecte de la pressió del contenidor, es coneix com a:</p>
+    </cell>
+    <cell id="4">
+     <p>Quin sistema d'emmagatzematge és més adequat pels productes químics envasats?</p>
+    </cell>
+   </cells>
+   <cells rows="5" cols="1" cellWidth="198.0" cellHeight="95.0" border="true" id="answers">
+    <style borderStroke="3.0" markerStroke="2.7">
+     <font family="Arial" size="20" bold="true" />
+     <color background="0xFFFFFF" inactive="0xFFFFFF" border="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell>
+     <p>armari protegit|protegit</p>
+    </cell>
+    <cell>
+     <p>òptic</p>
+    </cell>
+    <cell>
+     <p>flux túnel|túnel</p>
+    </cell>
+    <cell>
+     <p>gas liquat|liquat</p>
+    </cell>
+    <cell>
+     <p>ordenat</p>
+    </cell>
+   </cells>
+   <cells rows="5" cols="1" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell image="veritable.jpg" />
+    <cell image="veritable.jpg" />
+    <cell image="veritable.jpg" />
+    <cell image="veritable.jpg" />
+    <cell image="veritable.jpg" />
+   </cells>
+   <scramble times="31" primary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="riscos" code="riscos">
+   <description>
+    <p>Relaciona simbologia amb risc o mesura de prevenció</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x0000CC" background="0x99CCFF" />
+     </style>
+     <p>Relaciona el símbol amb la descripció del risc o l'EPI </p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x0000CC" background="0xFF6666" />
+     </style>
+     <p>Recorda fer servir els EPI per evitar riscos</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <image name="Permanganat.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="true" />
+    <skin file="@blue.xml" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="107.0" cellHeight="132.0" border="false" id="primary">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x6666FF" inactive="0x6666FF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell image="riscatraoament.jpg" />
+    <cell image="risccalent.png" />
+    <cell image="riscelectric.jpg" />
+    <cell image="mascareta.jpg" />
+    <cell image="protectors.jpg" />
+    <cell image="guants.jpg" />
+   </cells>
+   <cells rows="2" cols="3" cellWidth="107.0" cellHeight="135.0" border="false" id="secondary">
+    <style borderStroke="0.7" markerStroke="2.7">
+     <font family="Verdana" size="24" bold="true" />
+     <color foreground="0x0000CC" background="0x99CCFF" inactive="0x6666FF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell>
+     <p>Risc d'atrapament</p>
+    </cell>
+    <cell>
+     <p>Risc de cremades</p>
+    </cell>
+    <cell>
+     <p>Risc d'electrocució</p>
+    </cell>
+    <cell>
+     <p>Mascareta protectora</p>
+    </cell>
+    <cell>
+     <p>Protectors auditius</p>
+    </cell>
+    <cell>
+     <p>Guants protectors</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="simple perill" code="">
+   <description>
+    <p>relaciona codi de perill de transport amb descripció i exemple</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Associa el codi de perill amb la descripció i l'exemple</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CCFF" />
+     </style>
+     <p>Cal informar de les substàncies que es transporten</p>
+    </cell>
+   </messages>
+   <settings margin="14" report="true" reportActions="false">
+    <container bgColor="0x99CDFF">
+     <image name="codiX4.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="false" />
+   </settings>
+   <cells rows="5" cols="1" cellWidth="159.0" cellHeight="54.0" border="true" id="primary">
+    <style borderStroke="1.5" markerStroke="5.0">
+     <font family="Verdana" size="36" bold="true" />
+     <color background="0xFF6600" inactive="0x00808080" alternative="0x000099" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell>
+     <p>268</p>
+    </cell>
+    <cell>
+     <p>33</p>
+    </cell>
+    <cell>
+     <p>44</p>
+    </cell>
+    <cell>
+     <p>60</p>
+    </cell>
+    <cell>
+     <p>X423</p>
+    </cell>
+   </cells>
+   <cells rows="5" cols="1" cellWidth="456.0" cellHeight="54.0" border="true" id="secondary">
+    <style transparent="true" borderStroke="1.5" markerStroke="5.0">
+     <font family="Verdana" size="24" bold="true" />
+     <color foreground="0x000099" background="0x00C0C0C0" inactive="0x00808080" border="0x6666FF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0x0033CC" background="0xFFFFFF" inactive="0x00808080" border="0x66CCFF" />
+     </style>
+     <p>Gas tòxic i corrossiu (clor)</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0x0033CC" background="0xFFFFFF" inactive="0x00808080" border="0x66CCFF" />
+     </style>
+     <p>líquid molt inflamable (etanol)</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0x0033CC" background="0xFFFFFF" inactive="0x00808080" border="0x66CCFF" />
+     </style>
+     <p>sòlid inflamable (sofre)</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0x0033CC" background="0xFFFFFF" inactive="0x00808080" border="0x66CCFF" />
+     </style>
+     <p>Tòxic (arsènic)</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0x0033CC" background="0xFFFFFF" inactive="0x00808080" border="0x66CCFF" />
+     </style>
+     <p>sòlid inflamable que reacciona amb aigua i emet gasos inflamables (sodi metall)</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="simple-solids" code="">
+   <description>
+    <p>Relaciona zones del transport pnmeumàtic amb un dels elements que les integren</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Relaciona les zones d'un transport pneumàtic amb els equips i elements corresponents</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CCFF" />
+     </style>
+     <p>Molt bé. Quan tot està ben col·locat, funciona!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CDFF">
+     <image name="Esquema.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" transparent="true" border="false" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="284.0" cellHeight="54.0" border="true" id="primary">
+    <style borderStroke="1.5" markerStroke="2.7">
+     <font family="Verdana" size="36" bold="true" />
+     <color foreground="0x000099" background="0x6666FF" inactive="0x00808080" alternative="0x000099" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <p>Zona de transport</p>
+    </cell>
+    <cell>
+     <p>Zona d'alimentació</p>
+    </cell>
+    <cell>
+     <p>Element d'impulsió</p>
+    </cell>
+    <cell>
+     <p>Zona de separació</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="227.0" cellHeight="52.0" border="true" id="secondary">
+    <style transparent="true" borderStroke="1.5" markerStroke="5.0">
+     <font family="Verdana" size="24" bold="true" />
+     <color foreground="0x000099" background="0x00C0C0C0" inactive="0x00808080" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0x0033CC" background="0xFFFFFF" inactive="0x00808080" border="0xFFFFFF" />
+     </style>
+     <p>Canonada</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0x0033CC" background="0xFFFFFF" inactive="0x00808080" border="0xFFFFFF" />
+     </style>
+     <p>Dosificador</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0x0033CC" background="0xFFFFFF" inactive="0x00808080" border="0xFFFFFF" />
+     </style>
+     <p>Compressor</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0x0033CC" background="0xFFFFFF" inactive="0x00808080" border="0xFFFFFF" />
+     </style>
+     <p>Filtre</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="so-estat" code="so-estat">
+   <description>
+    <p>Relaciona el so del porducte transportat amb l'estat d'agregació</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Relaciona el so que sentiràs amb l'estat del producte transportat.</p>
+    </cell>
+    <cell imgAlign="right,middle" avoidOverlapping="true" image="protectors.jpg" type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CCFF" />
+     </style>
+     <p>A planta, quan s'indiqui, amb protectors auditius.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CDFF">
+     <image name="estat2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6666FF" border="false" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="129.0" cellHeight="127.0" border="false" id="primary">
+    <style borderStroke="0.7" markerStroke="2.7">
+     <font family="Verdana" size="24" bold="true" />
+     <color foreground="0x000099" background="0x6666FF" alternative="0x000099" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell id="1" image="protectors.jpg">
+     <media type="PLAY_AUDIO" level="1" file="bomba.wav" />
+    </cell>
+    <cell id="2" image="protectors.jpg">
+     <media type="PLAY_AUDIO" level="1" file="bufador.wav" />
+    </cell>
+    <cell id="2" image="protectors.jpg">
+     <media type="PLAY_AUDIO" level="1" file="compressor pistons.wav" />
+    </cell>
+    <cell id="2" image="protectors.jpg">
+     <media type="PLAY_AUDIO" level="1" file="ventilador.mp3" />
+    </cell>
+    <cell id="0" image="protectors.jpg">
+     <media type="PLAY_AUDIO" level="1" file="cinta_correcte.mp3" />
+    </cell>
+    <cell id="1" image="protectors.jpg">
+     <media type="PLAY_AUDIO" level="1" file="bomba2.mp3" />
+    </cell>
+   </cells>
+   <cells rows="3" cols="1" cellWidth="190.0" cellHeight="64.0" border="true" id="secondary">
+    <style transparent="true" borderStroke="1.5" markerStroke="2.7">
+     <font family="Verdana" size="24" bold="true" />
+     <color foreground="0x000099" border="0x6666FF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <p>Sòlid</p>
+    </cell>
+    <cell>
+     <p>Líquid</p>
+    </cell>
+    <cell>
+     <p>Gas</p>
+    </cell>
+   </cells>
+   <cells rows="2" cols="3" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell txtAlign="middle,top" imgAlign="middle,bottom" image="bomba centrifuga.jpg">
+     <p>bomba centrífuga</p>
+    </cell>
+    <cell txtAlign="middle,top" imgAlign="middle,bottom" image="bufador.jpg">
+     <p>bufador</p>
+    </cell>
+    <cell txtAlign="middle,top" imgAlign="middle,bottom" image="compressor.jpg">
+     <p>Compressor</p>
+    </cell>
+    <cell txtAlign="middle,top" imgAlign="middle,bottom" image="ventilador.jpg">
+     <p>Ventilador</p>
+    </cell>
+    <cell txtAlign="middle,top" imgAlign="middle,bottom" image="cinta.jpg">
+     <p>Cinta</p>
+    </cell>
+    <cell txtAlign="middle,top" imgAlign="middle,bottom" image="bomba.jpg">
+     <p>Bomba</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="solids sopa" code="perill">
+   <description>
+    <p>Troba sis propietats dels sòlids que n'afecten el transport</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Cerca sis propietats dels sòlids i en veuràs un exemple</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color foreground="0x000099" background="0x99CDFF" />
+     </style>
+     <p>Molt bé! Es tria el mitjà segons com sigui el producte</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="120" countDownTime="true" report="true" reportActions="false">
+    <container bgColor="0x99CDFF">
+     <counters time="true" actions="false" score="true" />
+    </container>
+    <window bgColor="0x6565FF" border="true" />
+   </settings>
+   <textGrid rows="13" columns="10" cellWidth="44.0" cellHeight="53.0" border="true">
+    <style borderStroke="1.9" markerStroke="2.7">
+     <font family="Arial" size="22" />
+     <color foreground="0x000066" background="0x99CDFF" border="0xFFFFFF" />
+    </style>
+    <text>
+     <row>**FRIABILITAT</row>
+     <row>********A****</row>
+     <row>***ABRASIO*F*</row>
+     <row>******E****U*</row>
+     <row>*****D*****S*</row>
+     <row>DENSITAT***I*</row>
+     <row>***U*******O*</row>
+     <row>**L**********</row>
+     <row>*F***********</row>
+     <row>AIRTEMOLUNARG</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">DENSITAT</clue>
+    <clue id="1">FLUIDESA</clue>
+    <clue id="2">GRANULOMETRIA</clue>
+    <clue id="3">FRIABILITAT</clue>
+    <clue id="4">ABRASIO</clue>
+    <clue id="5">FUSIO</clue>
+   </clues>
+   <cells rows="3" cols="2" cellWidth="231.0" cellHeight="176.0" border="true" id="secondary">
+    <style borderStroke="2.9" markerStroke="5.0">
+     <font family="Calibri" size="20" bold="true" />
+     <color foreground="0xFFE004" background="0x99CDFF" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell image="poros.jpg">
+     <style shadow="true" borderStroke="1.7" markerStroke="5.0">
+      <font family="Calibri" size="20" bold="true" />
+      <color foreground="0xFFFF00" background="0x99CDFF" shadow="0x000000" />
+     </style>
+     <p>La porositat afecta la densitat</p>
+    </cell>
+    <cell image="fluidesa.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Calibri" size="20" bold="true" />
+      <color foreground="0x000066" background="0x99CDFF" />
+     </style>
+     <p>El pendent del conus depèn de la fluidesa</p>
+    </cell>
+    <cell border="false" image="granulometria.jpg">
+     <style shadow="true" borderStroke="7.0" markerStroke="5.0">
+      <font family="Calibri" size="20" bold="true" />
+      <color foreground="0xF7EF17" background="0x99CDFF" shadow="0x090000" border="0x090800" />
+     </style>
+     <p>Sempre hi ha diferents mides</p>
+    </cell>
+    <cell image="friable.jpg">
+     <style shadow="true" borderStroke="1.7" markerStroke="5.0">
+      <font family="Calibri" size="20" bold="true" />
+      <color foreground="0xFFFF00" background="0x99CDFF" shadow="0x000000" />
+     </style>
+     <p>El producte s'esmicola facilment</p>
+    </cell>
+    <cell image="pols_acer.jpg">
+     <style shadow="true" borderStroke="1.7" markerStroke="5.0">
+      <font family="Calibri" size="20" bold="true" />
+      <color foreground="0xFFFF00" background="0x99CDFF" shadow="0x000000" />
+     </style>
+     <p>L'acer en pols és molt abrasiu</p>
+    </cell>
+    <cell image="fusio.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Calibri" size="20" bold="true" />
+      <color foreground="0x003366" background="0x99CDFF" />
+     </style>
+     <p>Si fon el producte s'apelmaça</p>
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Explore" name="tipus de bombes" code="">
+   <description>
+    <p>Activitat que mostra videos de diferents tipus de bombes</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Aquí pots veure uns vídeos dels principals tipus de bombes</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x99CCFF">
+     <image name="bomba.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x6666FF" border="true" />
+    <skin file="@blue.xml" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="153.0" cellHeight="90.0" border="true" id="primary">
+    <style borderStroke="1.7" markerStroke="2.7">
+     <font family="Verdana" size="24" />
+     <color background="0x99CCFF" border="0x0000CC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell id="0">
+     <p>Cavitat progressiva</p>
+    </cell>
+    <cell id="1">
+     <p>Peristàltica</p>
+    </cell>
+    <cell id="2">
+     <p>De lòbuls</p>
+    </cell>
+    <cell id="3">
+     <p>Centrífuga</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="146.0" cellHeight="89.0" border="true" id="secondary">
+    <style borderStroke="2.4" markerStroke="2.7">
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x6666FF" inactive="0x6666FF" border="0x0000CC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="rotor.jpg">
+     <media type="URL" level="1" file="https://www.youtube.com/watch?v=vNYm2_0zGNA" />
+    </cell>
+    <cell image="Peristaltica.jpg">
+     <media type="URL" level="1" file="https://www.youtube.com/watch?v=PVxVKeQ5flg" />
+    </cell>
+    <cell image="Lobuls.jpg">
+     <media type="URL" level="1" file="https://www.youtube.com/watch?v=76AaIWSe4CA&amp;feature=related" />
+    </cell>
+    <cell image="bomba centrifuga.jpg">
+     <media type="URL" level="1" file="https://www.youtube.com/watch?v=iygacPUfuRA&amp;feature=related" />
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Explore" name="tipus elevadors" code="">
+   <description>
+    <p>Activitat que mostra diferents tipus de transportadors de productes sòlids</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Verdana" size="24" bold="true" />
+      <color background="0x99CCFF" />
+     </style>
+     <p>Aquí pots veure uns vídeos dels principals tipus d'elements de transport de sòlids</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x99CCFF">
+     <image name="cinta.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x6666FF" border="true" />
+    <skin file="@blue.xml" />
+   </settings>
+   <cells rows="5" cols="1" cellWidth="153.0" cellHeight="90.0" border="true" id="primary">
+    <style borderStroke="1.7" markerStroke="2.7">
+     <font family="Verdana" size="24" />
+     <color background="0x99CCFF" border="0x0000CC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell id="0">
+     <p>Cinta transportadora</p>
+    </cell>
+    <cell id="1">
+     <p>Cargol sense fi</p>
+    </cell>
+    <cell id="2">
+     <p>Elevador de catúfols</p>
+    </cell>
+    <cell id="3">
+     <p>Transportador vibratori</p>
+    </cell>
+    <cell id="4">
+     <p>Transport pneumàtic</p>
+    </cell>
+   </cells>
+   <cells rows="5" cols="1" cellWidth="257.0" cellHeight="137.0" border="true" id="secondary">
+    <style borderStroke="2.4" markerStroke="2.7">
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x6666FF" inactive="0x6666FF" border="0x0000CC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell image="cinta-demo.jpg">
+     <media type="URL" level="1" file="http://www.youtube.com/watch?v=UqwDKcAetyQ " />
+    </cell>
+    <cell image="cargol-demo.jpg">
+     <media type="URL" level="1" file="http://www.youtube.com/watch?v=pFD4UodgOp0&amp;NR=1 " />
+    </cell>
+    <cell image="catufols-demo.jpg">
+     <media type="URL" level="1" file="http://www.youtube.com/watch?v=mKky1y2446s&amp;feature=related " />
+    </cell>
+    <cell image="vibratori-demo.jpg">
+     <media type="URL" level="1" file="http://www.youtube.com/watch?v=hnpns2GHslM&amp;feature=related" />
+    </cell>
+    <cell image="pneumatic-demo.jpg">
+     <media type="URL" level="1" file="https://www.youtube.com/watch?v=38Ikit8XyDw" />
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="Axial.gif" file="axial.gif" />
+  <media name="Engranatges.gif" file="engranatges.gif" />
+  <media name="lliscant.gif" file="lliscant.gif" />
+  <media name="sense_fi.gif" file="sense_fi.gif" />
+  <media name="4vies.jpg" file="4vies.jpg" />
+  <media name="abrasió.jpg" file="abrasio.jpg" />
+  <media name="AltaViscositat.jpg" file="altaviscositat.jpg" />
+  <media name="Arrossegament.jpg" file="arrossegament.jpg" />
+  <media name="boira-resized.jpg" file="boira_resized.jpg" />
+  <media name="Bola.jpg" file="bola.jpg" />
+  <media name="bomba centrifuga.jpg" file="bomba_centrifuga.jpg" />
+  <media name="bomba.jpg" file="bomba.jpg" />
+  <media name="botella.jpg" file="botella.jpg" />
+  <media name="bufador.jpg" file="bufador.jpg" />
+  <media name="Cabal.jpg" file="cabal.jpg" />
+  <media name="canonades1-resized.jpg" file="canonades1_resized.jpg" />
+  <media name="cargol-demo.jpg" file="cargol_demo.jpg" />
+  <media name="catufols-demo.jpg" file="catufols_demo.jpg" />
+  <media name="cavitació.jpg" file="cavitacio.jpg" />
+  <media name="centrifuga.jpg" file="centrifuga.jpg" />
+  <media name="ciclo-resized1.jpg" file="ciclo_resized1.jpg" />
+  <media name="cinta-demo.jpg" file="cinta_demo.jpg" />
+  <media name="cinta.jpg" file="cinta.jpg" />
+  <media name="CintaCoberta.jpg" file="cintacoberta.jpg" />
+  <media name="codiX4.jpg" file="codix4.jpg" />
+  <media name="coixinet-resized.jpg" file="coixinet_resized.jpg" />
+  <media name="colors.jpg" file="colors.jpg" />
+  <media name="colorscanonades.jpg" file="colorscanonades.jpg" />
+  <media name="Comporta.jpg" file="comporta.jpg" />
+  <media name="compressió1.jpg" file="compressio1.jpg" />
+  <media name="compressor.jpg" file="compressor.jpg" />
+  <media name="corrosió-2.jpg" file="corrosio_2.jpg" />
+  <media name="corrosió.jpg" file="corrosio.jpg" />
+  <media name="Descarrega.jpg" file="descarrega.jpg" />
+  <media name="Diafragma.jpg" file="diafragma.jpg" />
+  <media name="diagrama-resized.jpg" file="diagrama_resized.jpg" />
+  <media name="diposit-2.jpg" file="diposit_2.jpg" />
+  <media name="diposit1.jpg" file="diposit1.jpg" />
+  <media name="diposit3.jpg" file="diposit3.jpg" />
+  <media name="dipòsit-4.jpg" file="diposit_4.jpg" />
+  <media name="Esferes.jpg" file="esferes.jpg" />
+  <media name="Esquema.jpg" file="esquema.jpg" />
+  <media name="estat2.jpg" file="estat2.jpg" />
+  <media name="fals.jpg" file="fals.jpg" />
+  <media name="fluidesa.jpg" file="fluidesa.jpg" />
+  <media name="friable.jpg" file="friable.jpg" />
+  <media name="fusio.jpg" file="fusio.jpg" />
+  <media name="globus.jpg" file="globus.jpg" />
+  <media name="granulometria.jpg" file="granulometria.jpg" />
+  <media name="guants.jpg" file="guants.jpg" />
+  <media name="i01-Cabal.jpg" file="0cabal.jpg" />
+  <media name="Lobuls.jpg" file="lobuls.jpg" />
+  <media name="magatzem.jpg" file="magatzem.jpg" />
+  <media name="MapaConceptual_mini2.jpg" file="mapaconceptual_mini2.jpg" />
+  <media name="mascareta.jpg" file="mascareta.jpg" />
+  <media name="Motor.jpg" file="motor.jpg" />
+  <media name="NitrogenPID.jpg" file="nitrogenpid.jpg" />
+  <media name="papallona.jpg" file="papallona.jpg" />
+  <media name="parafina.jpg" file="parafina.jpg" />
+  <media name="Peristaltica.jpg" file="peristaltica.jpg" />
+  <media name="Permanganat.jpg" file="permanganat.jpg" />
+  <media name="PID.jpg" file="pid.jpg" />
+  <media name="pistó.jpg" file="pisto.jpg" />
+  <media name="pneumatic-demo.jpg" file="pneumatic_demo.jpg" />
+  <media name="pols_acer.jpg" file="pols_acer.jpg" />
+  <media name="poros.jpg" file="poros.jpg" />
+  <media name="portada.jpg" file="portada.jpg" />
+  <media name="pressostat-resized.jpg" file="pressostat_resized.jpg" />
+  <media name="protectors.jpg" file="protectors.jpg" />
+  <media name="PVC.jpg" file="pvc.jpg" />
+  <media name="Reductora.jpg" file="reductora.jpg" />
+  <media name="Retencio.jpg" file="retencio.jpg" />
+  <media name="riscatraoament.jpg" file="riscatraoament.jpg" />
+  <media name="riscelectric.jpg" file="riscelectric.jpg" />
+  <media name="rotor.jpg" file="rotor.jpg" />
+  <media name="Sorra.jpg" file="sorra.jpg" />
+  <media name="suports.jpg" file="suports.jpg" />
+  <media name="TMIQ01_AUXR12_R01_Azul.jpg" file="tmiq01_auxr12_r01_azul.jpg" />
+  <media name="vacuometre.jpg" file="vacuometre.jpg" />
+  <media name="valvules.jpg" file="valvules.jpg" />
+  <media name="ventilador.jpg" file="ventilador.jpg" />
+  <media name="veritable.jpg" file="veritable.jpg" />
+  <media name="vibratori-demo.jpg" file="vibratori_demo.jpg" />
+  <media name="bomba2.mp3" file="bomba2.mp3" />
+  <media name="cinta_correcte.mp3" file="cinta_correcte.mp3" />
+  <media name="ventilador.mp3" file="ventilador.mp3" />
+  <media name="Estator.png" file="estator.png" />
+  <media name="risccalent.png" file="risccalent.png" />
+  <media name="TMIQ02_CONT_R23_ValvulaBola.png" file="tmiq02_cont_r23_valvulabola.png" />
+  <media name="TMIQ02_CONT_R24_ValvulaControl.png" file="tmiq02_cont_r24_valvulacontrol.png" />
+  <media name="TMIQ02_CONT_R28_ValvulaPapallona.png" file="tmiq02_cont_r28_valvulapapallona.png" />
+  <media name="TMIQ02_CONT_R30_ValvulaDiafragma.png" file="tmiq02_cont_r30_valvuladiafragma.png" />
+  <media name="TMIQ02_CONT_R32_ValvulaReductora.png" file="tmiq02_cont_r32_valvulareductora.png" />
+  <media name="TMIQ02_CONT_R34_ValvulaSeguretat.png" file="tmiq02_cont_r34_valvulaseguretat.png" />
+  <media name="TMIQ06_AUXR06_R01_GHS01Bomba.png" file="tmiq06_auxr06_r01_ghs01bomba.png" />
+  <media name="TMIQ06_AUXR06_R02_GHS02Flama.png" file="tmiq06_auxr06_r02_ghs02flama.png" />
+  <media name="TMIQ06_AUXR06_R04_GHS04Bombona.png" file="tmiq06_auxr06_r04_ghs04bombona.png" />
+  <media name="TMIQ06_AUXR06_R05_GHS05Corrosiu.png" file="tmiq06_auxr06_r05_ghs05corrosiu.png" />
+  <media name="TMIQ06_AUXR06_R06_GHS06Calavera.png" file="tmiq06_auxr06_r06_ghs06calavera.png" />
+  <media name="TMIQ06_AUXR06_R07_GHS07Atenció.png" file="tmiq06_auxr06_r07_ghs07atencio.png" />
+  <media name="bomba.wav" file="bomba.wav" />
+  <media name="bufador.wav" file="bufador.wav" />
+  <media name="compressor pistons.wav" file="compressor_pistons.wav" />
+ </mediaBag>
+</JClicProject>
+

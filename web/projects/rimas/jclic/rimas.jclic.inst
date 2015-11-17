@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicInstall title="Rimas" authors="Marcia Silva Madeira, Gisele Miranda" folder="rimas">
+ <file src="rimas.jclic.zip" />
+ <file src="rimas.jclic.inst" />
+ <shortcut project="rimas.jclic.zip" text="Rimas" description="" icon="" />
+</JClicInstall>
+

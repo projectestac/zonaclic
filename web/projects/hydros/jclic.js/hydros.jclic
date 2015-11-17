@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="hydros" version="0.1.3">
+ <settings>
+  <title>The hydrosphere</title>
+  <revision description="created" date="11/28/09" />
+  <revision description="Published in the clicZone (http://clic.xtec.cat)" date="5/6/15">
+   <author name="Equip Clic" mail="clic@xtec.cat" organization="Àrea TIC - Departament d'Educació" />
+  </revision>
+  <author name="Carmen María Mèndez González" mail="cmmgbio@hotmail.com" />
+  <organization name="CP Ceo Hermanos Estevanez Murphy" city="Salud alto (Santa Cruz de Tenerife)" state="Islas Canarias" />
+  <language>English</language>
+  <description>
+   <p>Theses JClic activities belong to the unit of "The hydrosphere" which students are taught using English as a communication tool. The activities are aimed at the student to learn the vocabulary of the unit and some simple processes.</p>
+  </description>
+  <descriptors area="Experimental sciences, Languages" level="Secondary school (12-16)">English language, vocabulary, The Earth</descriptors>
+  <skin file="@blue.xml" />
+ </settings>
+ <sequence>
+  <item id="start" name="pantalla información">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="puzzle2" />
+  <item name="asociación1" />
+  <item name="asociación2" />
+  <item name="memoria1" />
+  <item name="memoria2" />
+  <item name="sopa1" />
+  <item name="sopa2" />
+  <item name="texto1" />
+  <item name="texto2" />
+  <item name="puzzle1">
+   <jump action="RETURN" id="forward" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@associations.ComplexAssociation" name="asociación1" code="" inverse="true">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xFFCC66" />
+     </style>
+     <p>LOOK FOR THE MEANING OF THE FOLLOWING WORDS</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xFF33CC" />
+     </style>
+     <p> VERY GOOD!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x3366FF" />
+     </style>
+     <p>TRY AGAIN !!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="60" countDownTime="true" report="true" reportActions="false">
+    <container bgColor="0x99FFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x00FF66" border="true" />
+   </settings>
+   <cells rows="5" cols="1" cellWidth="166.0" cellHeight="90.0" border="true" id="primary">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <font family="Comic Sans MS" size="17" bold="true" />
+     <color background="0xFFFF66" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell id="0">
+     <p>WAVES</p>
+    </cell>
+    <cell id="1">
+     <p>TIDES</p>
+    </cell>
+    <cell id="2">
+     <p>WETLANDS</p>
+    </cell>
+    <cell id="3">
+     <p>GROUNDWATER</p>
+    </cell>
+    <cell id="4">
+     <p>EVAPORATION</p>
+    </cell>
+   </cells>
+   <cells rows="5" cols="1" cellWidth="184.0" cellHeight="90.0" border="true" id="secondary">
+    <style>
+     <font family="Comic Sans MS" size="14" />
+     <color background="0x99FF33" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell>
+     <p>Water that moves across the surface of the sea</p>
+    </cell>
+    <cell>
+     <p>a regular rise and fall in the level of the sea</p>
+    </cell>
+    <cell>
+     <p>an area of wet land</p>
+    </cell>
+    <cell>
+     <p>water that is found under the soil, rocks..</p>
+    </cell>
+    <cell>
+     <p>liquid water changes into a gas</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="asociación2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xFFFF33" />
+     </style>
+     <p>CHOOSE THE BEST OPTION</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x99FF99" />
+     </style>
+     <p>VERY GOOD!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xCC33FF" />
+     </style>
+     <p>TRY AGAIN!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x00FFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0000FF" border="true" />
+   </settings>
+   <cells rows="5" cols="1" cellWidth="178.0" cellHeight="81.0" border="true" id="primary">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <font family="Arial" size="17" bold="true" />
+     <color background="0xCCCCFF" inactive="0xCC0099" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell id="1">
+     <p>SEA</p>
+    </cell>
+    <cell id="0">
+     <p>GLACIARS</p>
+    </cell>
+    <cell id="0">
+     <p>RIVERS</p>
+    </cell>
+    <cell id="1">
+     <p>OCEAN</p>
+    </cell>
+    <cell id="0">
+     <p>GROUNDWATER</p>
+    </cell>
+   </cells>
+   <cells rows="2" cols="1" cellWidth="182.0" cellHeight="81.0" border="true" id="secondary">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x66FFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="2" />
+    <cell>
+     <p>FRESH WATER</p>
+    </cell>
+    <cell>
+     <p>SALT WATER</p>
+    </cell>
+   </cells>
+   <cells rows="5" cols="1" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="olas.mp3" />
+     <p>GOOD</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="arroyo.mp3" />
+     <p>GOOD</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="NIAGARA.mp3" />
+     <p>GOOD</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="SEAGULLS.mp3" />
+     <p>GOOD</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="lluvia.mp3" />
+     <p>GOOD</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="memoria1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x33CCFF" />
+     </style>
+     <p>Link each image with its word</p>
+    </cell>
+    <cell type="final">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xFFCC00" />
+     </style>
+     <p>VERY GOOD!!!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x999900" />
+     </style>
+     <p>TRY AGAIN!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x66FFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x33FF33" border="true" />
+   </settings>
+   <cells rows="2" cols="4" cellWidth="156.0" cellHeight="119.0" border="true" id="primary">
+    <style borderStroke="0.7" markerStroke="2.7">
+     <font family="Arial" size="17" bold="true" />
+     <color foreground="0x660000" background="0x66FF66" inactive="0xFFFF99" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="2" />
+    <cell image="G:/imágenes/glaciar2.jpg" />
+    <cell image="G:/imágenes/lago1.jpg" />
+    <cell image="G:/imágenes/mar.jpg" />
+    <cell image="mar4.jpg" />
+    <cell image="rio2.jpg" />
+    <cell image="nubes2.jpg" />
+    <cell image="rio1.jpg" />
+    <cell image="G:/imágenes/glaciar3.jpg" />
+   </cells>
+   <cells rows="2" cols="4" cellWidth="50.0" cellHeight="30.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="4" rows="2" />
+    <cell>
+     <p>glaciars</p>
+    </cell>
+    <cell>
+     <p>lake</p>
+    </cell>
+    <cell>
+     <p>ocean</p>
+    </cell>
+    <cell>
+     <p>waves</p>
+    </cell>
+    <cell>
+     <p>river</p>
+    </cell>
+    <cell>
+     <p>clouds</p>
+    </cell>
+    <cell>
+     <p>stream</p>
+    </cell>
+    <cell>
+     <p>snow</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="memoria2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xFFFF66" />
+     </style>
+     <p>FIND THE EQUAL LANDSCAPES</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x33FF33" />
+     </style>
+     <p>well done!!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x00FF99" />
+     </style>
+     <p>TRY AGAIN!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x66FFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x33FF33" border="true" />
+   </settings>
+   <cells rows="2" cols="4" cellWidth="174.0" cellHeight="144.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0xFF9966" inactive="0xFF9966" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="2" />
+    <cell image="SUBTERRANEA.jpg" />
+    <cell image="G:/imágenes/glaciar3.jpg" />
+    <cell image="MARISMA.jpg" />
+    <cell image="rio1.jpg" />
+    <cell image="G:/imágenes/mar.jpg" />
+    <cell image="G:/imágenes/lago1.jpg" />
+    <cell image="mar4.jpg" />
+    <cell image="G:/imágenes/lago2.jpg" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="pantalla información" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x6666FF" />
+     </style>
+     <p>PROYECTO CLIL</p>
+     <p>( Content and Language Integrated Learning )</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFFCC33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x33FF99" border="true" />
+    <skin file="@green.xml" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="429.0" cellHeight="265.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color foreground="0x0000FF" background="0x99FF99" />
+     </style>
+     <p>THE HYDROSPHERE (1º ESO)</p>
+     <p>Carmen Mª Méndez González</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="puzzle1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x6666FF" />
+     </style>
+     <p>PUT IN THE CORRECT ORDER</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x66FFFF" />
+     </style>
+     <p>OK</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xCCCC00" />
+     </style>
+     <p>TRY AGAIN!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x66FFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF3399" border="true" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="139.0" cellHeight="116.0" border="true">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color foreground="0x330033" background="0xFF9999" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell>
+     <p>DISTRIBUTION</p>
+    </cell>
+    <cell>
+     <p>OF WATER</p>
+    </cell>
+    <cell>
+     <p>ON EARTH</p>
+    </cell>
+    <cell>
+     <p>IS THE FOLLOWING</p>
+    </cell>
+    <cell>
+     <p>97% SALT WATER</p>
+    </cell>
+    <cell>
+     <p>3% FRESH WATER</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.HolePuzzle" name="puzzle2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0x330033" background="0x999900" />
+     </style>
+     <p>Solve this puzzle about the hydrosphere</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x33FF33" />
+     </style>
+     <p>OK.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x9999FF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x33FF33" border="true" />
+   </settings>
+   <cells rows="4" cols="4" border="true" image="agua.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="4" rows="4" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="sopa1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="17" bold="true" />
+      <color background="0x33FF33" />
+     </style>
+     <p>FIND FIVE WORDS ABOUT THE WATER CYCLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xCC66FF" />
+     </style>
+     <p>VERY GOOD!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x6666FF" />
+     </style>
+     <p>TRY AGAIN!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x6699FF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCC00" border="true" />
+   </settings>
+   <textGrid rows="11" columns="13" cellWidth="41.0" cellHeight="36.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>EVAPORATION</row>
+     <row>DCFR****N**</row>
+     <row>GOOERUNOFF*</row>
+     <row>*N*C*N**I**</row>
+     <row>*D*I**O*L**</row>
+     <row>*E*P****T**</row>
+     <row>*N*I****R**</row>
+     <row>*S*T****A**</row>
+     <row>*A*A****T**</row>
+     <row>*T*T****I**</row>
+     <row>*I*I****O**</row>
+     <row>*O*O****N**</row>
+     <row>*N*N*******</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">EVAPORATION</clue>
+    <clue id="1">RUNOFF</clue>
+    <clue id="2">PRECIPITATION</clue>
+    <clue id="3">INFILTRATION</clue>
+    <clue id="4">CONDENSATION</clue>
+   </clues>
+  </activity>
+  <activity class="@textGrid.WordSearch" name="sopa2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0x0000FF" background="0x9999FF" />
+     </style>
+     <p>FIND EIGHT WORDS ABOUT THE HYDROSPHERE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xFF6666" />
+     </style>
+     <p>GOOD!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x66FF33" />
+     </style>
+     <p>TRY AGAIN!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99FFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x00FF99" border="true" />
+   </settings>
+   <textGrid rows="8" columns="11" cellWidth="40.0" cellHeight="40.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>SWAMPG*R</row>
+     <row>DLF**R*I</row>
+     <row>GHA**O*V</row>
+     <row>L**K*U*E</row>
+     <row>A***EN*R</row>
+     <row>C****D**</row>
+     <row>ISEVAW**</row>
+     <row>A****A**</row>
+     <row>R****TS*</row>
+     <row>***ICE**</row>
+     <row>****AR**</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">SWAMP</clue>
+    <clue id="1">SEA</clue>
+    <clue id="2">WAVES</clue>
+    <clue id="3">RIVER</clue>
+    <clue id="4">LAKE</clue>
+    <clue id="5">GROUNDWATER</clue>
+    <clue id="6">ICE</clue>
+    <clue id="7">GLACIAR</clue>
+   </clues>
+   <cells rows="2" cols="4" cellWidth="135.0" cellHeight="113.0" border="true" id="secondary">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="2" />
+    <cell image="MARISMA.jpg">
+     <media type="PLAY_AUDIO" level="1" file="SEAGULLS.mp3" />
+    </cell>
+    <cell image="mar3.jpg">
+     <media type="PLAY_AUDIO" level="1" file="olas.mp3" />
+    </cell>
+    <cell image="mar4.jpg">
+     <media type="PLAY_AUDIO" level="1" file="olas.mp3" />
+    </cell>
+    <cell image="rio2.jpg">
+     <media type="PLAY_AUDIO" level="1" file="arroyo.mp3" />
+    </cell>
+    <cell image="G:/imágenes/lago2.jpg">
+     <media type="PLAY_AUDIO" level="1" file="lluvia.mp3" />
+    </cell>
+    <cell image="SUBTERRANEA.jpg">
+     <media type="PLAY_AUDIO" level="1" file="NIAGARA.mp3" />
+    </cell>
+    <cell image="G:/imágenes/glaciar3.jpg">
+     <media type="PLAY_AUDIO" level="1" file="arroyo.mp3" />
+    </cell>
+    <cell image="G:/imágenes/glaciar2.jpg">
+     <media type="PLAY_AUDIO" level="1" file="arroyo.mp3" />
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="texto1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0x330033" background="0x66FF00" />
+     </style>
+     <p>CHOOSE THE CORRECT WORD</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xFFCC00" />
+     </style>
+     <p>VERY GOOD!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x6666FF" />
+     </style>
+     <p>TRY AGAIN!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x33FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCFF00" border="true">
+     <size width="400" height="376" />
+    </window>
+   </settings>
+   <document>
+    <style name="default" family="Comic Sans MS" italic="false" tabWidth="12" bold="false" size="14" background="0xFFFFFF" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <section>
+     <p family="Arial" Alignment="1" background="0xFFFFFF">
+      <text family="Comic Sans MS" size="20"> </text>
+      <text family="Comic Sans MS" bold="true" size="20"> Properties of water</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" Alignment="0" background="0xFFFFFF">
+      <text family="Comic Sans MS" size="14">The main properties of water are:</text>
+     </p>
+     <p family="Arial" Alignment="0" background="0xFFFFFF">
+      <text family="Comic Sans MS" size="14"> 1. A powerful </text>
+      <target>
+       <answer>solvent</answer>
+       <optionList>
+        <option>solvent</option>
+        <option>acid</option>
+        <option>oxide</option>
+        <option>mineral</option>
+       </optionList>
+       <text>solvent</text>
+      </target>
+      <text family="Comic Sans MS" size="14">. It dissolves many components of rock.</text>
+     </p>
+     <p family="Arial" Alignment="0" background="0xFFFFFF">
+      <text family="Comic Sans MS" size="14"> 2. Absorbs </text>
+      <target>
+       <answer>heat</answer>
+       <optionList>
+        <option>cold</option>
+        <option>heat</option>
+        <option>light</option>
+        <option>ice</option>
+       </optionList>
+       <text>heat</text>
+      </target>
+      <text family="Comic Sans MS" size="14">. Water moderates the Earth´s climate.</text>
+     </p>
+     <p family="Arial" Alignment="0" background="0xFFFFFF">
+      <text family="Comic Sans MS" size="14"> 3. Cohesion and Adhesion.  In cohesion water is attracted to itselt. That allowes that </text>
+      <target>
+       <answer>water</answer>
+       <optionList>
+        <option>air</option>
+        <option>bird</option>
+        <option>water</option>
+        <option>light</option>
+       </optionList>
+       <text>water</text>
+      </target>
+      <text family="Comic Sans MS" size="14"> can travel throughs vessels in plants. Adhesion occurs when water is attracted by other </text>
+      <target>
+       <answer>materials</answer>
+       <optionList>
+        <option>planets</option>
+        <option>materials</option>
+        <option>people</option>
+        <option>sun</option>
+       </optionList>
+       <text>materials</text>
+      </target>
+      <text family="Comic Sans MS" size="14">. As a result, water wets surfaces such as soil and rocks.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text size="14"> </text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.Order" name="texto2" code="" type="orderWords" amongParagraphs="true">
+   <description />
+   <messages>
+    <cell type="previous">
+     <style />
+     <p>READ THE TEXT THEN PRESS ON IT.</p>
+    </cell>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xFF9999" />
+     </style>
+     <p>PUT THE WORDS IN THE CORRECT PLACE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0x9900FF" />
+     </style>
+     <p>GOOD!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xCCCC00" />
+     </style>
+     <p>BE CAREFUL!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x6699FF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x00FF99" border="true" />
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <prevScreen />
+   <document>
+    <style name="default" family="Comic Sans MS" italic="false" tabWidth="12" bold="false" size="14" background="0xFFFFFF" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <section>
+     <p family="Arial" Alignment="1" background="0xFFFFFF">
+      <text family="Comic Sans MS" bold="true" size="14">FRESH WATER</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" Alignment="0" background="0xFFFFFF">
+      <text family="Comic Sans MS" size="14"> Fresh water is found in different forms: lakes, rivers, groundwater, wetlands, streams or torrents.</text>
+     </p>
+     <p family="Arial" Alignment="0" background="0xFFFFFF">
+      <text family="Comic Sans MS" size="14"> </text>
+      <target>Streams</target>
+      <text family="Comic Sans MS" size="14"> or </text>
+      <target>torrents</target>
+      <text family="Comic Sans MS" size="14"> are water courses fed by rain.</text>
+     </p>
+     <p family="Arial" Alignment="0" background="0xFFFFFF">
+      <text family="Comic Sans MS" size="14"> </text>
+      <target>Wetlands</target>
+      <text family="Comic Sans MS" size="14"> are areas of swamps where the ground is inundated all year.</text>
+     </p>
+     <p family="Arial" Alignment="0" background="0xFFFFFF">
+      <text family="Comic Sans MS" size="14"> </text>
+      <target>Glaciers</target>
+      <text family="Comic Sans MS" size="14"> are formed from the accumulation of snow.</text>
+     </p>
+     <p family="Arial" Alignment="0" background="0xFFFFFF">
+      <text family="Comic Sans MS" size="14"> </text>
+      <target>Rivers</target>
+      <text family="Comic Sans MS" size="14"> are permanent water courses.</text>
+     </p>
+     <p family="Arial" Alignment="0" background="0xFFFFFF">
+      <text family="Comic Sans MS" size="14"> </text>
+      <target>Groundwater</target>
+      <text family="Comic Sans MS" size="14"> is water located beneath the ground surface.</text>
+     </p>
+     <p family="Arial" Alignment="0" background="0xFFFFFF">
+      <text family="Comic Sans MS" size="14"> </text>
+      <target>Lakes</target>
+      <text family="Comic Sans MS" size="14"> are bodies of water of different sizes.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@BasicEvaluator" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="agua.jpg" file="agua.jpg" />
+  <media name="G:/imágenes/glaciar2.jpg" file="g__imagenes_glaciar2.jpg" />
+  <media name="G:/imágenes/glaciar3.jpg" file="g__imagenes_glaciar3.jpg" />
+  <media name="G:/imágenes/lago1.jpg" file="g__imagenes_lago1.jpg" />
+  <media name="G:/imágenes/lago2.jpg" file="g__imagenes_lago2.jpg" />
+  <media name="G:/imágenes/mar.jpg" file="g__imagenes_mar.jpg" />
+  <media name="mar3.jpg" file="mar3.jpg" />
+  <media name="mar4.jpg" file="mar4.jpg" />
+  <media name="MARISMA.jpg" file="marisma.jpg" />
+  <media name="nubes2.jpg" file="nubes2.jpg" />
+  <media name="rio1.jpg" file="rio1.jpg" />
+  <media name="rio2.jpg" file="rio2.jpg" />
+  <media name="SUBTERRANEA.jpg" file="subterranea.jpg" />
+  <media name="arroyo.mp3" file="arroyo.mp3" />
+  <media name="lluvia.mp3" file="lluvia.mp3" />
+  <media name="NIAGARA.mp3" file="niagara.mp3" />
+  <media name="olas.mp3" file="olas.mp3" />
+  <media name="SEAGULLS.mp3" file="seagulls.mp3" />
+ </mediaBag>
+</JClicProject>
+

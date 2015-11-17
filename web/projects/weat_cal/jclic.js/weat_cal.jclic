@@ -1,0 +1,2997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="weat_cal" version="0.1.3">
+ <settings>
+  <title>Weather and calendar</title>
+  <revision description="created" date="3/21/08" />
+  <revision description="Published in the clicZone (http://clic.xtec.cat)" date="5/14/14">
+   <author name="Equip Clic" mail="clic@xtec.cat" organization="Àrea TIC - Departament d'Educació" />
+  </revision>
+  <author name="Antonia Morelló Bahilo" mail="amorello@ono.com" />
+  <organization name="CP Francisco Giner de los Rios" mail="46016580@edu.gva.es" city="València" state="País Valencià" />
+  <language>English</language>
+  <description>
+   <p>Project of activities in English about:</p>
+   <p>&lt;ul&gt;</p>
+   <p>&lt;li&gt;weather</p>
+   <p>&lt;li&gt;seasons</p>
+   <p>&lt;li&gt;months</p>
+   <p>&lt;li&gt;week days</p>
+   <p>&lt;/ul&gt;</p>
+  </description>
+  <descriptors area="Languages" level="Primary school (6-12)">English language, spelling, vocabulary</descriptors>
+ </settings>
+ <sequence>
+  <item id="start" name="portada">
+   <jump action="STOP" id="back" />
+  </item>
+  <item id="menu" name="menu">
+   <jump action="STOP" id="forward" />
+  </item>
+  <item id="weather" name="weather picture name" />
+  <item name="fill gaps" />
+  <item name="weather wordsquare" />
+  <item name="weather memory game" />
+  <item name="crossword" />
+  <item name="fill gaps2" />
+  <item name="weather map" />
+  <item name="dictation" />
+  <item name="weather puzzle" />
+  <item name="order the sentences">
+   <jump tag="start" id="forward" />
+   <jump action="STOP" id="back" />
+  </item>
+  <item id="calendar" name="match audio months">
+   <jump tag="menu" id="back" />
+  </item>
+  <item name="months memory" />
+  <item name="months wordsquare" />
+  <item name="Match season months" />
+  <item name="match days week" />
+  <item name="days crossword" />
+  <item name="order calendar" />
+  <item name="gaps prepositions" />
+  <item name="complete sentences">
+   <jump tag="start" id="forward" />
+   <jump action="STOP" id="back" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@associations.SimpleAssociation" name="Match season months" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x660066" background="0xFCE1FC" />
+     </style>
+     <p>Match</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x660066" background="0xFCE1FC" />
+     </style>
+     <p>Good!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFFFFF">
+     <image name="colorflower.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFBE1FB" transparent="true" border="false" />
+    <skin file="@blue.xml" />
+   </settings>
+   <cells rows="1" cols="4" cellWidth="165.0" cellHeight="139.0" border="false" id="primary">
+    <style transparent="true" borderStroke="1.0" markerStroke="2.7">
+     <font family="Comic Sans MS" size="28" bold="true" />
+     <color foreground="0xFFFFFF" background="0xFFFFFF" inactive="0xFCF2FC" border="0x660066" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="1" />
+    <cell txtAlign="middle,top" image="spring.jpg">
+     <media type="PLAY_AUDIO" level="1" file="spring.wav" />
+     <p>SPRING</p>
+    </cell>
+    <cell txtAlign="middle,top" image="summer.jpg">
+     <media type="PLAY_AUDIO" level="1" file="summer.wav" />
+     <p>SUMMER</p>
+    </cell>
+    <cell txtAlign="middle,top" image="autumn.jpg">
+     <media type="PLAY_AUDIO" level="1" file="autumn.wav" />
+     <p>AUTUMN</p>
+    </cell>
+    <cell txtAlign="middle,top" image="winter.jpg">
+     <media type="PLAY_AUDIO" level="1" file="winter.wav" />
+     <p>WINTER</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="4" cellWidth="230.0" cellHeight="217.0" border="true" id="secondary">
+    <style borderStroke="1.0" markerStroke="2.7">
+     <font family="Comic Sans MS" size="28" />
+     <color foreground="0x660066" background="0xFCE1FC" inactive="0xFCF2FC" border="0x660066" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="1" />
+    <cell>
+     <p>March, April, May, June</p>
+    </cell>
+    <cell>
+     <p>Juny, July, August, September</p>
+    </cell>
+    <cell>
+     <p>September, October, November, December</p>
+    </cell>
+    <cell>
+     <p>December, January, February, March</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="complete sentences" code="">
+   <description />
+   <messages>
+    <cell type="previous">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0xCFE7FF" />
+     </style>
+     <p>Read</p>
+    </cell>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0xCFE7FF" />
+     </style>
+     <p>Complete the sentences</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0xCFE7FF" />
+     </style>
+     <p>Great!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="snow.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false">
+     <size width="525" height="389" />
+    </window>
+    <skin file="@blue.xml" />
+   </settings>
+   <checkButton>Check your answer</checkButton>
+   <prevScreen maxTime="15" />
+   <document>
+    <style name="default" italic="false" foreground="0x0066CC" tabWidth="12" family="Comic Sans MS" background="0xCFE7FF" bold="false" size="20" />
+    <style name="target" base="default" foreground="0x9966FF" target="true" />
+    <style name="targetError" base="target" foreground="0xCC0000" background="0xFFFFFF" />
+    <section>
+     <p foreground="0x0066CC" family="Comic Sans MS" background="0xCFE7FF" size="20" />
+     <p foreground="0x0066CC" family="Comic Sans MS" background="0xCFE7FF" size="20">
+      <text family="Comic Sans MS" background="0xCFE7FF">1. Autumn is from </text>
+      <target>
+       <answer>October</answer>
+       <response fill="_" length="7" maxLength="7" />
+       <text>October</text>
+      </target>
+      <text family="Comic Sans MS" background="0xCFE7FF"> to </text>
+      <target>
+       <answer>December</answer>
+       <response fill="_" length="8" maxLength="8" />
+       <text>December</text>
+      </target>
+     </p>
+     <p foreground="0x0066CC" family="Comic Sans MS" background="0xCFE7FF" size="20">
+      <text family="Comic Sans MS" background="0xCFE7FF">2. There are lots of flowers on the trees </text>
+      <target>
+       <answer>in</answer>
+       <response fill="_" length="2" maxLength="2" />
+       <text>in</text>
+      </target>
+      <text family="Comic Sans MS" background="0xCFE7FF"> </text>
+      <target>
+       <answer>spring</answer>
+       <response fill="_" length="6" maxLength="6" />
+       <text>spring</text>
+      </target>
+     </p>
+     <p foreground="0x0066CC" family="Comic Sans MS" background="0xCFE7FF" size="20">
+      <text family="Comic Sans MS" background="0xCFE7FF">3. It is very </text>
+      <target>
+       <answer>hot</answer>
+       <response fill="_" length="3" maxLength="3" />
+       <text>hot</text>
+      </target>
+      <text family="Comic Sans MS" background="0xCFE7FF"> and </text>
+      <target>
+       <answer>sunny</answer>
+       <response fill="_" length="5" maxLength="5" />
+       <text>sunny</text>
+      </target>
+      <text family="Comic Sans MS" background="0xCFE7FF"> in summer</text>
+     </p>
+     <p foreground="0x0066CC" family="Comic Sans MS" background="0xCFE7FF" size="20">
+      <text family="Comic Sans MS" background="0xCFE7FF">4. The leaves fall from the trees </text>
+      <target>
+       <answer>in</answer>
+       <response fill="_" length="2" maxLength="2" />
+       <text>in</text>
+      </target>
+      <text family="Comic Sans MS" background="0xCFE7FF"> </text>
+      <target>
+       <answer>autumn</answer>
+       <response fill="_" length="6" maxLength="6" />
+       <text>autumn</text>
+      </target>
+     </p>
+     <p foreground="0x0066CC" family="Comic Sans MS" background="0xCFE7FF" size="20">
+      <text family="Comic Sans MS" background="0xCFE7FF">5. Summer is from </text>
+      <target>
+       <answer>July</answer>
+       <response fill="_" length="4" maxLength="4" />
+       <text>July</text>
+      </target>
+      <text family="Comic Sans MS" background="0xCFE7FF"> to </text>
+      <target>
+       <answer>September</answer>
+       <response fill="_" length="9" maxLength="9" />
+       <text>September</text>
+      </target>
+     </p>
+     <p foreground="0x0066CC" family="Comic Sans MS" background="0xCFE7FF" size="20">
+      <text family="Comic Sans MS" background="0xCFE7FF">6. There isn't school </text>
+      <target>
+       <answer>on</answer>
+       <response fill="_" length="2" maxLength="2" />
+       <text>on</text>
+      </target>
+      <text family="Comic Sans MS" background="0xCFE7FF"> Sundays</text>
+     </p>
+     <p foreground="0x0066CC" family="Comic Sans MS" background="0xCFE7FF" size="20">
+      <text family="Comic Sans MS" background="0xCFE7FF">7. It is </text>
+      <target>
+       <answer>cold</answer>
+       <response fill="_" length="4" maxLength="4" />
+       <text>cold</text>
+      </target>
+      <text family="Comic Sans MS" background="0xCFE7FF"> and </text>
+      <target>
+       <answer>snowy</answer>
+       <response fill="_" length="5" maxLength="5" />
+       <text>snowy</text>
+      </target>
+      <text family="Comic Sans MS" background="0xCFE7FF"> in winter</text>
+     </p>
+     <p foreground="0x0066CC" family="Comic Sans MS" background="0xCFE7FF" size="20">
+      <text family="Comic Sans MS" background="0xCFE7FF">8. Spring begins </text>
+      <target>
+       <answer>on</answer>
+       <response fill="_" length="2" maxLength="2" />
+       <text>on</text>
+      </target>
+      <text family="Comic Sans MS" background="0xCFE7FF"> 21 March and ends </text>
+      <target>
+       <answer>on</answer>
+       <response fill="_" length="2" maxLength="2" />
+       <text>on</text>
+      </target>
+      <text family="Comic Sans MS" background="0xCFE7FF"> 21 June</text>
+     </p>
+     <p foreground="0x0066CC" family="Comic Sans MS" background="0xCFE7FF" size="20">
+      <text family="Comic Sans MS" background="0xCFE7FF">9. Christmas is </text>
+      <target>
+       <answer>in</answer>
+       <response fill="_" length="2" maxLength="2" />
+       <text>in</text>
+      </target>
+      <text family="Comic Sans MS" background="0xCFE7FF"> </text>
+      <target>
+       <answer>December</answer>
+       <response fill="_" length="8" maxLength="8" />
+       <text>December</text>
+      </target>
+     </p>
+     <p foreground="0x0066CC" family="Comic Sans MS" background="0xCFE7FF" size="20">
+      <text family="Comic Sans MS" background="0xCFE7FF">10. We go to the beach </text>
+      <target>
+       <answer>in</answer>
+       <response fill="_" length="2" maxLength="2" />
+       <text>in</text>
+      </target>
+      <text family="Comic Sans MS" background="0xCFE7FF"> </text>
+      <target>
+       <answer>summer</answer>
+       <response fill="_" length="6" maxLength="6" />
+       <text>summer</text>
+      </target>
+     </p>
+     <p foreground="0x0066CC" family="Comic Sans MS" background="0xCFE7FF" size="20">
+      <text family="Comic Sans MS" background="0xCFE7FF">11. </text>
+      <target>
+       <answer>Winter</answer>
+       <response fill="_" length="6" maxLength="6" />
+       <text>Winter</text>
+      </target>
+      <text family="Comic Sans MS" background="0xCFE7FF"> is from January to March</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkCase="true" detail="false" />
+  </activity>
+  <activity class="@textGrid.CrossWord" name="crossword" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0xFAF6CD" />
+     </style>
+     <p>Write the names of the symbols</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0067CC" background="0xFAF6CD" />
+     </style>
+     <p>Fantastic!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="amarilla.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+    <skin file="@blue.xml" />
+   </settings>
+   <textGrid rows="12" columns="12" cellWidth="64.0" cellHeight="52.0" border="true">
+    <style borderStroke="0.7" markerStroke="2.7">
+     <font family="Comic Sans MS" size="48" bold="true" />
+     <color foreground="0xFBF7CD" background="0xF59C1F" inactive="0xFAF4B9" border="0xFAF6CD" />
+    </style>
+    <text>
+     <row>**********C*</row>
+     <row>********S*O*</row>
+     <row>********N*L*</row>
+     <row>******CLOUDY</row>
+     <row>********W***</row>
+     <row>****SUNNY***</row>
+     <row>****T*******</row>
+     <row>****O*W*****</row>
+     <row>****RAINY***</row>
+     <row>*H**M*N*****</row>
+     <row>FOGGY*D*****</row>
+     <row>*T****Y*****</row>
+    </text>
+   </textGrid>
+   <cells rows="1" cols="3" cellWidth="201.0" cellHeight="87.0" border="true" id="acrossClues">
+    <style>
+     <color inactive="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell id="11" item="2" />
+    <cell id="11" item="0" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="11" item="1" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="10" item="2" />
+    <cell id="10" item="1" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="10" item="0" border="true" image="foggy2.jpg">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="9" item="3" />
+    <cell id="9" item="0" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="9" item="2" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="9" item="1" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="8" item="1" />
+    <cell id="8" item="0" border="true" image="rainy.jpg">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="7" item="2" />
+    <cell id="7" item="1" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="7" item="0" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="6" item="1" />
+    <cell id="6" item="0" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="5" item="1" />
+    <cell id="5" item="0" border="true" image="sunny.jpg">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="2" item="1">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="2" item="0">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="1" item="1">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="1" item="0" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="4" item="1" />
+    <cell id="4" item="0">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="3" item="1" />
+    <cell id="3" item="0" border="true" image="cloudy.jpg">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="2" item="4" />
+    <cell id="2" item="3" />
+    <cell id="1" item="4" />
+    <cell id="1" item="3" />
+    <cell id="0" item="0" border="true">
+     <style>
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="0" item="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="201.0" cellHeight="87.0" border="true" id="downClues">
+    <style>
+     <color inactive="0xFFFFFF" />
+    </style>
+    <cell id="1" item="1" />
+    <cell id="1" item="0" border="true" image="hot.jpg">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="2" item="1" />
+    <cell id="2" item="0" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="3" item="1" />
+    <cell id="3" item="0" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="8" item="2" />
+    <cell id="8" item="1" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="4" item="1" />
+    <cell id="4" item="0" border="true" image="stormy.jpg">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="5" item="2" />
+    <cell id="5" item="1" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="5" item="0" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="6" item="3" />
+    <cell id="6" item="2" border="true" image="windy.jpg">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="6" item="1" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="6" item="0" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="7" item="3" />
+    <cell id="7" item="2" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="7" item="1" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="7" item="0">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="8" item="0" border="true" image="snowy.jpg">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="8" item="0" />
+    <cell id="11" item="1" />
+    <cell id="11" item="0">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="9" item="1" />
+    <cell id="9" item="0">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="10" item="1" />
+    <cell id="10" item="0" border="true" image="cold.jpg">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="0" item="1" />
+    <cell id="0" item="0" border="true">
+     <style>
+      <color background="0xFFFFFF" inactive="0xFFFFFF" border="0xFF9900" />
+     </style>
+    </cell>
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <layout position="AB" wildTransparent="true" />
+  </activity>
+  <activity class="@textGrid.CrossWord" name="days crossword" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x990066" background="0xFFFFFF" />
+     </style>
+     <p>Write the days of the week</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x990066" background="0xFFFFFF" />
+     </style>
+     <p>Excellent!</p>
+    </cell>
+   </messages>
+   <settings margin="10" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="purple_myspace_background1.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFCE2FC" transparent="true" border="false" />
+    <skin file="@blue.xml" />
+   </settings>
+   <textGrid rows="12" columns="13" cellWidth="54.0" cellHeight="52.0" border="true">
+    <style borderStroke="1.2" markerStroke="2.7">
+     <font family="Comic Sans MS" size="32" bold="true" />
+     <color foreground="0x990066" background="0xFFFFFF" inactive="0xFFCCFF" border="0x990066" />
+    </style>
+    <text>
+     <row>***TUESDAY**</row>
+     <row>***H********</row>
+     <row>**SUNDAY****</row>
+     <row>***R********</row>
+     <row>***S***W****</row>
+     <row>***D***E****</row>
+     <row>**SATURDAY**</row>
+     <row>***Y***N****</row>
+     <row>*******E****</row>
+     <row>*******S****</row>
+     <row>****MONDAY**</row>
+     <row>*******A****</row>
+     <row>**FRIDAY****</row>
+    </text>
+   </textGrid>
+   <cells rows="1" cols="3" cellWidth="251.0" cellHeight="77.0" border="true" id="acrossClues">
+    <style borderStroke="1.0" markerStroke="2.7">
+     <font family="Comic Sans MS" size="28" />
+     <color foreground="0x990066" background="0xFFFFFF" inactive="0xFFFFFF" border="0x990066" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell id="12" item="0" border="true">
+     <p>5th. day of the week</p>
+    </cell>
+    <cell id="12" item="0" />
+    <cell id="4" item="2" />
+    <cell id="4" item="1" border="true" />
+    <cell id="11" item="1" />
+    <cell id="11" item="0" />
+    <cell id="10" item="0" border="true">
+     <p>1st. day of the week</p>
+    </cell>
+    <cell id="10" item="0" />
+    <cell id="9" item="1" />
+    <cell id="9" item="0" />
+    <cell id="8" item="1" />
+    <cell id="8" item="0" />
+    <cell id="7" item="2" />
+    <cell id="7" item="1" />
+    <cell id="7" item="0" />
+    <cell id="6" item="1" />
+    <cell id="6" item="0" border="true">
+     <p>6th. day of the week</p>
+    </cell>
+    <cell id="5" item="2" />
+    <cell id="5" item="1" />
+    <cell id="5" item="0" />
+    <cell id="1" item="1" />
+    <cell id="1" item="0" />
+    <cell id="2" item="0" border="true">
+     <p>7th. day of the week</p>
+    </cell>
+    <cell id="2" item="1" />
+    <cell id="3" item="1" />
+    <cell id="3" item="0" />
+    <cell id="4" item="0" />
+    <cell id="0" item="1" />
+    <cell id="0" item="0" border="true">
+     <p>2nd. day of the week</p>
+    </cell>
+    <cell id="0" />
+    <cell id="4" />
+    <cell id="4" />
+    <cell id="3" />
+    <cell id="0" />
+    <cell id="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="251.0" cellHeight="77.0" border="true" id="downClues">
+    <style borderStroke="1.0" markerStroke="2.7">
+     <font family="Comic Sans MS" size="28" />
+     <color foreground="0x990066" background="0xFFFFFF" inactive="0xFFFFFF" border="0x990066" />
+    </style>
+    <cell id="2" item="3" />
+    <cell id="2" item="2" border="true" />
+    <cell id="3" item="2" />
+    <cell id="3" item="1" />
+    <cell id="6" item="5" />
+    <cell id="6" item="4" />
+    <cell id="6" item="3" />
+    <cell id="5" item="5" />
+    <cell id="5" item="4" />
+    <cell id="5" item="3" />
+    <cell id="4" item="5" />
+    <cell id="4" item="4" />
+    <cell id="4" item="3" border="true" />
+    <cell id="8" item="3" />
+    <cell id="8" item="2" />
+    <cell id="1" item="0" />
+    <cell id="2" item="1" border="true" />
+    <cell id="2" item="0" border="true" />
+    <cell id="11" item="0" />
+    <cell id="10" item="0" />
+    <cell id="9" item="3" />
+    <cell id="9" item="2" />
+    <cell id="9" item="0" />
+    <cell id="9" item="1" />
+    <cell id="8" item="1" />
+    <cell id="8" item="0" />
+    <cell id="8" item="1" />
+    <cell id="2" item="6" />
+    <cell id="2" item="5" />
+    <cell id="3" item="0" border="true">
+     <p>4th. day of the week</p>
+    </cell>
+    <cell id="7" item="2" border="true">
+     <p>3rd. day of the week</p>
+    </cell>
+    <cell id="7" item="1" />
+    <cell id="7" item="0" />
+    <cell id="7" item="2" />
+    <cell id="6" item="2" />
+    <cell id="6" item="1" />
+    <cell id="6" item="0" />
+    <cell id="6" item="2" />
+    <cell id="5" item="2" />
+    <cell id="5" item="1" />
+    <cell id="5" item="0" />
+    <cell id="5" item="2" />
+    <cell id="4" item="2" />
+    <cell id="4" item="1" />
+    <cell id="4" item="0" />
+    <cell id="4" item="2" />
+    <cell id="0" item="0" />
+    <cell id="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="1" />
+    <cell id="2" />
+    <cell id="2" />
+    <cell id="4" />
+    <cell id="3" />
+    <cell id="3" />
+    <cell id="0" />
+    <cell id="0" />
+    <cell id="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <layout position="AB" wildTransparent="true" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="dictation" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0xFFFFFF" background="0x009999" />
+     </style>
+     <p>Click, listen and write</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0xFFFFFF" background="0x009999" />
+     </style>
+     <p>Great!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="winter_snowflake02.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+    <skin file="@blue.xml" />
+   </settings>
+   <cells rows="3" cols="3" cellWidth="196.0" cellHeight="180.0" border="true" id="primary">
+    <style borderStroke="1.3" markerStroke="2.7">
+     <font family="Comic Sans MS" size="28" />
+     <color background="0xFFFFFF" border="0x0066CC" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+    <cell id="0" border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0x33FFFF" inactive="0xFFFFFF" border="0x009BFF" />
+     </style>
+     <p>What's the weather like?  </p>
+    </cell>
+    <cell id="1" image="cloudy2.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0xFFFFFF" background="0xCCCCFF" inactive="0xFFFFFF" border="0x0099FF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'scloudy.wav" />
+    </cell>
+    <cell id="2" image="cold2.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0xFFFFFF" background="0x33FFFF" inactive="0xFFFFFF" border="0x0099FF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'scold.wav" />
+    </cell>
+    <cell id="3" image="rainy2.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0xFFFFFF" background="0xCCCCFF" inactive="0xFFFFFF" border="0x0099FF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'srainy.wav" />
+    </cell>
+    <cell id="4" image="hot2.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0xFFFFFF" background="0xFFFF00" inactive="0xFFFFFF" border="0x0099FF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'shot.wav" />
+    </cell>
+    <cell id="5" image="stormy2.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0xFFFFFF" background="0xCCCCFF" inactive="0xFFFFFF" border="0x0099FF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'sstormy.wav" />
+    </cell>
+    <cell id="6" image="windy2.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0xFFFFFF" background="0xFF9900" inactive="0xFFFFFF" border="0x0099FF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'swindy.wav" />
+    </cell>
+    <cell id="7" image="foggy2.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" inactive="0xFFFFFF" border="0x0099FF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'sfoggy.wav" />
+    </cell>
+    <cell id="8" image="snowy2.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0xFFFFFF" background="0x33FFFF" inactive="0xFFFFFF" border="0x0099FF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="It's snowy2.wav" />
+    </cell>
+   </cells>
+   <cells rows="3" cols="3" cellWidth="175.0" cellHeight="69.0" border="true" id="answers">
+    <style borderStroke="0.7" markerStroke="2.7">
+     <font family="Comic Sans MS" size="28" />
+     <color foreground="0x0066CC" background="0x99CCFF" border="0x0066CC" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="20" />
+      <color foreground="0x0066CC" background="0x99CCFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <p>What's the weather like?</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="20" />
+      <color foreground="0x0066CC" background="0x99CCFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <p>It's cloudy</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="20" />
+      <color foreground="0x0066CC" background="0x99CCFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <p>It's cold</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="20" />
+      <color foreground="0x0066CC" background="0x99CCFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <p>It's rainy</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="20" />
+      <color foreground="0x0066CC" background="0x99CCFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <p>It's hot</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="20" />
+      <color foreground="0x0066CC" background="0x99CCFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <p>It's stormy</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="20" />
+      <color foreground="0x0066CC" background="0x99CCFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <p>It's windy</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="20" />
+      <color foreground="0x0066CC" background="0x99CCFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <p>It's foggy</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="20" />
+      <color foreground="0x0066CC" background="0x99CCFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <p>It's snowy</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="fill gaps" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x660066" background="0xFFFFFF" />
+     </style>
+     <p>Click, listen and choose</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x660066" background="0xFFFFFF" />
+     </style>
+     <p>Fantastic!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="rosa.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false">
+     <size width="500" height="580" />
+    </window>
+    <skin file="@blue.xml" />
+   </settings>
+   <document>
+    <style name="default" italic="false" foreground="0x660066" tabWidth="12" family="Comic Sans MS" background="0xE8C5DD" bold="false" size="28" />
+    <style name="target" base="default" foreground="0x0066CC" target="true" background="0xE8C5DD" />
+    <style name="targetError" base="target" foreground="0xCC0066" background="0xFFFFFF" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" Alignment="0" />
+     <p family="Arial" background="0xFFFFFF" Alignment="0">
+      <cell width="35" height="20">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <font family="Comic Sans MS" size="18" />
+        <color background="0xE8C5DD" />
+       </style>
+       <media type="PLAY_AUDIO" level="1" file="What'stheweatherlike.wav" />
+      </cell>
+      <text family="Comic Sans MS" background="0xE8C5DD" size="28">What's the </text>
+      <target>
+       <answer>weather</answer>
+       <optionList>
+        <option>hot</option>
+        <option>weather</option>
+        <option>sunny</option>
+        <option>windy</option>
+       </optionList>
+       <text>weather</text>
+      </target>
+      <text family="Comic Sans MS" background="0xE8C5DD" size="28"> like?</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="0">
+      <cell width="35" height="20">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <font family="Comic Sans MS" size="20" />
+        <color background="0xE8C5DD" />
+       </style>
+       <media type="PLAY_AUDIO" level="1" file="It's snowy2.wav" />
+      </cell>
+      <text italic="false" foreground="0x660066" background="0xE8C5DD" family="Comic Sans MS" bold="false" size="28">It's </text>
+      <target>
+       <answer>snowy</answer>
+       <optionList>
+        <option>cloudy</option>
+        <option>windy</option>
+        <option>cold</option>
+        <option>snowy</option>
+       </optionList>
+       <text>snowy</text>
+      </target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="0">
+      <cell width="35" height="20">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <font family="Comic Sans MS" size="20" />
+        <color background="0xE8C5DD" />
+       </style>
+       <media type="PLAY_AUDIO" level="1" file="it'swindy.wav" />
+      </cell>
+      <text italic="false" foreground="0x660066" background="0xE8C5DD" family="Comic Sans MS" bold="false" size="28">It's </text>
+      <target>
+       <answer>windy</answer>
+       <optionList>
+        <option>foggy</option>
+        <option>rainy</option>
+        <option>windy</option>
+        <option>sunny</option>
+       </optionList>
+       <text>windy</text>
+      </target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="0">
+      <cell width="35" height="20">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <font family="Comic Sans MS" size="20" />
+        <color background="0xE8C5DD" />
+       </style>
+       <media type="PLAY_AUDIO" level="1" file="it'sfoggy.wav" />
+      </cell>
+      <text italic="false" foreground="0x660066" background="0xE8C5DD" family="Comic Sans MS" bold="false" size="28">It's </text>
+      <target>
+       <answer>foggy</answer>
+       <optionList>
+        <option>foggy</option>
+        <option>snowy</option>
+        <option>rainy</option>
+        <option>stormy</option>
+       </optionList>
+       <text>foggy</text>
+      </target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="0">
+      <cell width="35" height="20">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <font family="Comic Sans MS" size="18" />
+        <color background="0xE8C5DD" />
+       </style>
+       <media type="PLAY_AUDIO" level="1" file="it'shot.wav" />
+      </cell>
+      <text italic="false" foreground="0x660066" background="0xE8C5DD" family="Comic Sans MS" bold="false" size="28">It's </text>
+      <target>
+       <answer>hot</answer>
+       <optionList>
+        <option>cold</option>
+        <option>cloudy</option>
+        <option>sunny</option>
+        <option>hot</option>
+       </optionList>
+       <text>hot</text>
+      </target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="0">
+      <cell width="35" height="20">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <font family="Comic Sans MS" size="18" />
+        <color background="0xE8C5DD" />
+       </style>
+       <media type="PLAY_AUDIO" level="1" file="it'srainy.wav" />
+      </cell>
+      <text italic="false" foreground="0x660066" background="0xE8C5DD" family="Comic Sans MS" bold="false" size="28">It's </text>
+      <target>
+       <answer>rainy</answer>
+       <optionList>
+        <option>rainy</option>
+        <option>cold</option>
+        <option>stormy</option>
+        <option>cloudy</option>
+       </optionList>
+       <text>rainy</text>
+      </target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="0">
+      <cell width="35" height="20">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <font family="Comic Sans MS" size="18" />
+        <color background="0xE8C5DD" />
+       </style>
+       <media type="PLAY_AUDIO" level="1" file="it'ssunny.wav" />
+      </cell>
+      <text italic="false" foreground="0x660066" background="0xE8C5DD" family="Comic Sans MS" bold="false" size="28">It's </text>
+      <target>
+       <answer>sunny</answer>
+       <optionList>
+        <option>weather</option>
+        <option>stormy</option>
+        <option>foggy</option>
+        <option>sunny</option>
+       </optionList>
+       <text>sunny</text>
+      </target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="0">
+      <cell width="35" height="20">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <font family="Comic Sans MS" size="18" />
+        <color background="0xE8C5DD" />
+       </style>
+       <media type="PLAY_AUDIO" level="1" file="it'scold.wav" />
+      </cell>
+      <text italic="false" foreground="0x660066" background="0xE8C5DD" family="Comic Sans MS" bold="false" size="28">It's </text>
+      <target>
+       <answer>cold</answer>
+       <optionList>
+        <option>cold</option>
+        <option>rainy</option>
+        <option>hot</option>
+        <option>cold</option>
+       </optionList>
+       <text>cold</text>
+      </target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="0">
+      <cell width="35" height="20">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <font family="Comic Sans MS" size="18" />
+        <color background="0xE8C5DD" />
+       </style>
+       <media type="PLAY_AUDIO" level="1" file="it'sstormy.wav" />
+      </cell>
+      <text italic="false" foreground="0x660066" background="0xE8C5DD" family="Comic Sans MS" bold="false" size="28">It's </text>
+      <target>
+       <answer>stormy</answer>
+       <optionList>
+        <option>rainy</option>
+        <option>stormy</option>
+        <option>sunny</option>
+        <option>hot</option>
+       </optionList>
+       <text>stormy</text>
+      </target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="0">
+      <cell width="35" height="20">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <font family="Comic Sans MS" size="18" />
+        <color background="0xE8C5DD" />
+       </style>
+       <media type="PLAY_AUDIO" level="1" file="it'scloudy.wav" />
+      </cell>
+      <text italic="false" foreground="0x660066" background="0xE8C5DD" family="Comic Sans MS" bold="false" size="28">It's </text>
+      <target>
+       <answer>cloudy</answer>
+       <optionList>
+        <option>cold</option>
+        <option>rainy</option>
+        <option>weather</option>
+        <option>cloudy</option>
+       </optionList>
+       <text>cloudy</text>
+      </target>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="fill gaps2" code="" autoJump="true">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="24" />
+      <color foreground="0x0067CC" background="0xFFEFCC" />
+     </style>
+     <p>Write short answer. Use capital letters.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="26" />
+      <color foreground="0x0067CC" background="0xFFEFCC" />
+     </style>
+     <p>Well done!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="g2rbow04.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false">
+     <size width="520" height="420" />
+    </window>
+    <skin file="@blue.xml" />
+   </settings>
+   <checkButton>Check your answer</checkButton>
+   <document>
+    <style name="default" italic="false" foreground="0x0067CC" tabWidth="12" family="Comic Sans MS" background="0xFFEECB" bold="false" size="26" />
+    <style name="target" base="default" foreground="0x0067CC" target="true" background="0xFFEFCC" />
+    <style name="targetError" base="target" foreground="0xFF0066" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="0">
+      <text family="Comic Sans MS" background="0xFFEECC">1. Is it hot and sunny? </text>
+      <cell width="40" height="40" border="true" image="hot.jpg">
+       <style>
+        <color background="0xFFFFFF" border="0x0067CC" />
+       </style>
+      </cell>
+      <text family="Comic Sans MS" background="0xFFEECC"> </text>
+      <target>
+       <answer>Yes, It is</answer>
+       <response fill="_" length="11" maxLength="11" />
+       <text>Yes, It is</text>
+      </target>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Comic Sans MS" background="0xFFEECC">2. Is it cloudy? </text>
+      <cell width="40" height="40" border="true" image="foggy2.jpg">
+       <style>
+        <color background="0xFFFFFF" border="0x0067CC" />
+       </style>
+      </cell>
+      <text family="Comic Sans MS" background="0xFFEECC"> </text>
+      <target>
+       <answer>No, It isn't</answer>
+       <response fill="_" length="13" maxLength="13" />
+       <text>No, It isn't</text>
+      </target>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Comic Sans MS" background="0xFFEECC">3. Is it rainy? </text>
+      <cell width="40" height="40" border="true" image="snowy.jpg">
+       <style>
+        <color background="0xFFFFFF" border="0x0067CC" />
+       </style>
+      </cell>
+      <text family="Comic Sans MS" background="0xFFEECC"> </text>
+      <target>
+       <answer>No, It isn't</answer>
+       <response fill="_" length="12" maxLength="12" />
+       <text>No, It isn't</text>
+      </target>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Comic Sans MS" background="0xFFEECC">4. Is it cold and snowy? </text>
+      <cell width="40" height="40" border="true" image="cold.jpg">
+       <style>
+        <color background="0xFFFFFF" border="0x0067CC" />
+       </style>
+      </cell>
+      <text family="Comic Sans MS" background="0xFFEECC"> </text>
+      <target>
+       <answer>Yes, It is</answer>
+       <response fill="_" length="10" maxLength="10" />
+       <text>Yes, It is</text>
+      </target>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Comic Sans MS" background="0xFFEECC">5. Is it stormy? </text>
+      <cell width="40" height="40" border="true" image="stormy.jpg">
+       <style>
+        <color background="0xFFFFFF" border="0x0067CC" />
+       </style>
+      </cell>
+      <text italic="false" foreground="0x0067CC" background="0xFFEECC" family="Comic Sans MS" bold="false" size="24"> </text>
+      <target>
+       <answer>Yes, It is</answer>
+       <response fill="_" length="10" maxLength="10" />
+       <text>Yes, It is</text>
+      </target>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text italic="false" foreground="0x0067CC" background="0xFFEECC" family="Comic Sans MS" bold="false" size="26">6. Is it windy? </text>
+      <cell width="40" height="40" border="true" image="windy.jpg">
+       <style>
+        <color background="0xFFFFFF" border="0x0067CC" />
+       </style>
+      </cell>
+      <text italic="false" foreground="0x0067CC" background="0xFFEECC" family="Comic Sans MS" bold="false" size="26"> </text>
+      <target>
+       <answer>Yes, It is</answer>
+       <response fill="_" length="10" maxLength="10" />
+       <text>Yes, It is</text>
+      </target>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text italic="false" foreground="0x0067CC" background="0xFFEECC" family="Comic Sans MS" bold="false" size="26">7. Is it foggy?</text>
+      <text italic="false" foreground="0x0067CC" background="0xFFEECC" family="Comic Sans MS" bold="false" size="24"> </text>
+      <cell width="40" height="40" border="true" image="sunny.jpg">
+       <style>
+        <color background="0xFFFFFF" border="0x0067CC" />
+       </style>
+      </cell>
+      <text italic="false" foreground="0x0067CC" background="0xFFEECC" family="Comic Sans MS" bold="false" size="24"> </text>
+      <target>
+       <answer>No, It isn't</answer>
+       <response fill="_" length="12" maxLength="12" />
+       <text>No, It isn't</text>
+      </target>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkCase="true" checkPunctuation="false" detail="false" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="gaps prepositions" code="">
+   <description />
+   <messages>
+    <cell type="previous">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0xFFFFFF" />
+     </style>
+     <p>Read and learn</p>
+    </cell>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0067CC" background="0xFFFFFF" />
+     </style>
+     <p>Choose the correct preposition</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0067CC" background="0xFFFFFF" />
+     </style>
+     <p>Marvellous!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="g2rbow11.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false">
+     <size width="900" height="352" />
+    </window>
+    <skin file="@blue.xml" />
+   </settings>
+   <checkButton>Check your answer</checkButton>
+   <prevScreen maxTime="15">
+    <style borderStroke="1.0" markerStroke="2.7">
+     <font family="Comic Sans MS" size="24" />
+     <color foreground="0x0066CC" background="0xFFFFFF" inactive="0xFFFFFF" border="0x0066CC" />
+    </style>
+    <p>&#xD;</p>
+    <p>We use   ON   with dates and days:&#xD;</p>
+    <p>on 15 June      on Friday(s)     on Monday morning&#xD;</p>
+    <p>on 8 October   on Saturday    on Sunday evening&#xD;</p>
+    <p>&#xD;</p>
+    <p>&#xD;</p>
+    <p>We use   IN   for longer periods of time (months and seasons):&#xD;</p>
+    <p>in winter     in summer     in April     in November</p>
+   </prevScreen>
+   <document>
+    <style name="default" italic="false" foreground="0x0067CC" tabWidth="10" family="Comic Sans MS" background="0xFFFFFF" bold="false" size="18" />
+    <style name="target" base="default" foreground="0x04B8F1" target="true" background="0xFFFFFF" />
+    <style name="targetError" base="target" foreground="0xCC0066" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <target>
+       <answer>in</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>in</text>
+      </target>
+      <text family="Comic Sans MS" size="22"> April		</text>
+      <target>
+       <answer>on</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>on</text>
+      </target>
+      <text family="Comic Sans MS" size="22"> Monday		</text>
+      <target>
+       <answer>in</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>in</text>
+      </target>
+      <text family="Comic Sans MS" size="22"> summer		</text>
+      <target>
+       <answer>in</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>in</text>
+      </target>
+      <text family="Comic Sans MS" size="22"> October</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <target>
+       <answer>in</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>in</text>
+      </target>
+      <text family="Comic Sans MS" size="22"> December	</text>
+      <target>
+       <answer>on</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>on</text>
+      </target>
+      <text family="Comic Sans MS" size="22"> 12 March		</text>
+      <target>
+       <answer>on</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>on</text>
+      </target>
+      <text family="Comic Sans MS" size="22"> Fridays		</text>
+      <target>
+       <answer>in</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>in</text>
+      </target>
+      <text family="Comic Sans MS" size="22"> June</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <target>
+       <answer>on</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>on</text>
+      </target>
+      <text family="Comic Sans MS" size="22"> Monday		</text>
+      <target>
+       <answer>in</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>in</text>
+      </target>
+      <text family="Comic Sans MS" size="22"> winter		</text>
+      <target>
+       <answer>in</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>in</text>
+      </target>
+      <text family="Comic Sans MS" size="22"> September	</text>
+      <target>
+       <answer>on</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>on</text>
+      </target>
+      <text family="Comic Sans MS" size="22"> Sunday morning</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <target>
+       <answer>in</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>in</text>
+      </target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="22"> August		</text>
+      <target>
+       <answer>in</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>in</text>
+      </target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="22"> autumn		</text>
+      <target>
+       <answer>in</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>in</text>
+      </target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="22"> July		</text>
+      <target>
+       <answer>on</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>on</text>
+      </target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="22"> 23 January</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <target>
+       <answer>on</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>on</text>
+      </target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="22"> Tuesday		</text>
+      <target>
+       <answer>in</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>in</text>
+      </target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="22"> February		</text>
+      <target>
+       <answer>in</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>in</text>
+      </target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="22"> spring		</text>
+      <target>
+       <answer>on</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>on</text>
+      </target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="22"> Wednesday</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <target>
+       <answer>on</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>on</text>
+      </target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="22"> 8 May		</text>
+      <target>
+       <answer>in</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>in</text>
+      </target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="22"> November	</text>
+      <target>
+       <answer>on</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>on</text>
+      </target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="22"> Saturdays	</text>
+      <target>
+       <answer>on</answer>
+       <optionList>
+        <option>in</option>
+        <option>on</option>
+       </optionList>
+       <text>on</text>
+      </target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="22"> Thursday</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="match audio months" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x785102" background="0xE0D2A8" />
+     </style>
+     <p>Listen and match</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x785102" background="0xE0D2A8" />
+     </style>
+     <p>Good!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFFFFF">
+     <image name="fallleaf.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+    <skin file="@blue.xml" />
+   </settings>
+   <cells rows="12" cols="1" cellWidth="250.0" cellHeight="200.0" border="true" id="primary">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <font family="Comic Sans MS" size="20" />
+     <color foreground="0x795203" background="0xE0D3A8" inactive="0xE0D2A8" border="0x785102" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="12" />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="january.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="february.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="march.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="april.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="may.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="june.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="july.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="august.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="september.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="october.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="november.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="december.wav" />
+    </cell>
+   </cells>
+   <cells rows="12" cols="1" cellWidth="900.0" cellHeight="200.0" border="true" id="secondary">
+    <style>
+     <font family="Comic Sans MS" size="28" />
+     <color foreground="0x785102" background="0xE0D2A8" inactive="0xE0D2A8" border="0x785102" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="12" />
+    <cell>
+     <p>January</p>
+    </cell>
+    <cell>
+     <p>February</p>
+    </cell>
+    <cell>
+     <p>March</p>
+    </cell>
+    <cell>
+     <p>April</p>
+    </cell>
+    <cell>
+     <p>May</p>
+    </cell>
+    <cell>
+     <p>June</p>
+    </cell>
+    <cell>
+     <p>July</p>
+    </cell>
+    <cell>
+     <p>August</p>
+    </cell>
+    <cell>
+     <p>September</p>
+    </cell>
+    <cell>
+     <p>October</p>
+    </cell>
+    <cell>
+     <p>November</p>
+    </cell>
+    <cell>
+     <p>December</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="match days week" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0xFFFF99" />
+     </style>
+     <p>Match</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0xFFFF99" />
+     </style>
+     <p>Fantastic!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="g2rbow12.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+    <skin file="@blue.xml" />
+   </settings>
+   <cells rows="7" cols="1" cellWidth="600.0" cellHeight="200.0" border="true" id="primary">
+    <style borderStroke="1.2" markerStroke="2.7">
+     <font family="Comic Sans MS" size="28" />
+     <color foreground="0x0066CC" background="0xFFFF99" inactive="0xFCFCD9" border="0x0066CC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="7" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0xFFFF99" inactive="0xFFFFCC" border="0x0066CC" />
+     </style>
+     <p>Monday</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0xFFFF99" inactive="0xFFFFCC" border="0x0066CC" />
+     </style>
+     <p>Tuesday</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0xFFFF99" inactive="0xFFFFCC" border="0x0066CC" />
+     </style>
+     <p>Wednesday</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0xFFFF99" inactive="0xFFFFCC" border="0x0066CC" />
+     </style>
+     <p>Thursday</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0xFFFF99" inactive="0xFFFFCC" border="0x0066CC" />
+     </style>
+     <p>Friday</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0xFFFF99" inactive="0xFFFFCC" border="0x0066CC" />
+     </style>
+     <p>Saturday</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0xFFFF99" inactive="0xFFFFCC" border="0x0066CC" />
+     </style>
+     <p>Sunday</p>
+    </cell>
+   </cells>
+   <cells rows="7" cols="1" cellWidth="200.0" cellHeight="200.0" border="true" id="secondary">
+    <style borderStroke="1.0" markerStroke="2.7">
+     <font family="Comic Sans MS" size="32" bold="true" />
+     <color foreground="0x0066CC" background="0xFFFF99" inactive="0xFBFBD7" border="0x0066CC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="7" />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="monday.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="tuesday.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="wednesday.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="thursday.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="friday.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="saturday.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="sunday.wav" />
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="BA" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="menu" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0xD5E8FB" inactive="0xFFFFFF" />
+     </style>
+     <p>Click and choose</p>
+    </cell>
+   </messages>
+   <settings margin="9" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="quiltpatch.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFCC99" border="false" />
+    <skin file="@blue.xml" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="236.0" cellHeight="366.0" border="false">
+    <style borderStroke="1.9" markerStroke="2.7">
+     <color border="0x0099FF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell txtAlign="middle,bottom" avoidOverlapping="true" image="SOL-NUBE.jpg">
+     <style>
+      <font family="Comic Sans MS" size="50" />
+      <color foreground="0x0066CC" background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="weather" />
+     <p>Weather</p>
+    </cell>
+    <cell txtAlign="middle,bottom" avoidOverlapping="true" image="calendar2.jpg">
+     <style>
+      <font family="Comic Sans MS" size="50" />
+      <color foreground="0x0066CC" background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="calendar" />
+     <p>Calendar</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@memory.MemoryGame" name="months memory" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x785102" background="0xFBE489" />
+     </style>
+     <p>Make pairs</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x785102" background="0xFAE489" />
+     </style>
+     <p>Excellent!!</p>
+    </cell>
+   </messages>
+   <settings margin="10" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="g8pat04.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCC6600" transparent="true" border="false" />
+    <skin file="@blue.xml" />
+   </settings>
+   <cells rows="4" cols="3" cellWidth="116.0" cellHeight="103.0" border="true" id="primary">
+    <style>
+     <color background="0xFFFFFF" inactive="0xFAE489" border="0x785102" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="4" />
+    <cell image="january2.jpg" />
+    <cell image="february2.jpg" />
+    <cell image="march2.jpg" />
+    <cell image="april2.jpg" />
+    <cell image="may2.jpg" />
+    <cell image="june2.jpg" />
+    <cell image="july2.jpg" />
+    <cell image="august2.jpg" />
+    <cell image="september2.jpg" />
+    <cell image="october2.jpg" />
+    <cell image="november2.jpg" />
+    <cell image="december2.jpg" />
+   </cells>
+   <cells rows="4" cols="3" cellWidth="50.0" cellHeight="30.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="4" />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="january.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="february.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="march.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="april.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="may.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="june.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="july.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="august.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="september.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="october.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="november.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="december.wav" />
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="months wordsquare" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x6699FF" background="0xFFFFFF" />
+     </style>
+     <p>Find the 12 months of the year</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x6699FF" background="0xFFFFFF" />
+     </style>
+     <p>Fantastic!</p>
+    </cell>
+   </messages>
+   <settings margin="10" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="g13ice04.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x6699FF" border="false" />
+    <skin file="@blue.xml" />
+   </settings>
+   <textGrid rows="12" columns="12" cellWidth="100.0" cellHeight="100.0" border="true">
+    <style borderStroke="1.2" markerStroke="2.7">
+     <font family="Comic Sans MS" size="36" bold="true" />
+     <color foreground="0x6699FF" background="0xFFFFFF" border="0x6699FF" />
+    </style>
+    <text>
+     <row>D****JANUARY</row>
+     <row>*E********A*</row>
+     <row>**C*MARCH*U*</row>
+     <row>***E******GR</row>
+     <row>NOVEMBER**UE</row>
+     <row>*C*M*B****SB</row>
+     <row>*T**A*E**ATM</row>
+     <row>*O***Y*R*P*E</row>
+     <row>*B**J****R*T</row>
+     <row>FEBRUARY*I*P</row>
+     <row>*R**L****L*E</row>
+     <row>****YJUNE**S</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">JANUARY</clue>
+    <clue id="1">FEBRUARY</clue>
+    <clue id="2">MARCH</clue>
+    <clue id="3">APRIL</clue>
+    <clue id="4">MAY</clue>
+    <clue id="5">JUNE</clue>
+    <clue id="6">JULY</clue>
+    <clue id="7">AUGUST</clue>
+    <clue id="8">SEPTEMBER</clue>
+    <clue id="9">OCTOBER</clue>
+    <clue id="10">NOVEMBER</clue>
+    <clue id="11">DECEMBER</clue>
+   </clues>
+  </activity>
+  <activity class="@text.Order" name="order calendar" code="" type="orderWords">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x6600CC" background="0xFFCC99" />
+     </style>
+     <p>Order the months and the days</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x6600CC" background="0xFFCC99" />
+     </style>
+     <p>Well done!</p>
+    </cell>
+   </messages>
+   <settings margin="10" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="g2rbow13.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" transparent="true" border="false">
+     <size width="900" height="380" />
+    </window>
+    <skin file="@blue.xml" />
+   </settings>
+   <checkButton>Check your answer</checkButton>
+   <document>
+    <style name="default" italic="false" foreground="0x6600CC" tabWidth="12" family="Comic Sans MS" background="0xFFCC99" bold="false" size="28" />
+    <style name="target" base="default" foreground="0x6600CC" target="true" background="0xFFCC99" />
+    <style name="targetError" base="target" foreground="0xCC0066" background="0xFFFFFF" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text foreground="0x6600CC" family="Comic Sans MS" background="0xFFCC99" size="28">MONTHS</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <target>January</target>
+      <text foreground="0x6600CC" family="Comic Sans MS" background="0xFFCC99" size="24">  </text>
+      <target>February</target>
+      <text foreground="0x6600CC" family="Comic Sans MS" background="0xFFCC99" size="24">  </text>
+      <target>March</target>
+      <text foreground="0x6600CC" family="Comic Sans MS" background="0xFFCC99" size="24">  </text>
+      <target>April</target>
+      <text foreground="0x6600CC" family="Comic Sans MS" background="0xFFCC99" size="24">  </text>
+      <target>May</target>
+      <text foreground="0x6600CC" family="Comic Sans MS" background="0xFFCC99" size="24">  </text>
+      <target>June</target>
+      <text foreground="0x6600CC" family="Comic Sans MS" background="0xFFCC99" size="24">  </text>
+      <target>July</target>
+      <text foreground="0x6600CC" family="Comic Sans MS" background="0xFFCC99" size="24">  </text>
+      <target>August</target>
+      <text foreground="0x6600CC" family="Comic Sans MS" background="0xFFCC99" size="24">  </text>
+      <target>September</target>
+      <text foreground="0x6600CC" family="Comic Sans MS" background="0xFFCC99" size="24">  </text>
+      <target>October</target>
+      <text foreground="0x6600CC" family="Comic Sans MS" background="0xFFCC99" size="24">  </text>
+      <target>November</target>
+      <text foreground="0x6600CC" family="Comic Sans MS" background="0xFFCC99" size="24">  </text>
+      <target>December</target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text foreground="0x6600CC" family="Comic Sans MS" background="0xFFCC99" size="28">DAYS</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <target>Monday</target>
+      <text foreground="0x6600CC" family="Comic Sans MS" background="0xFFCC99" size="24">  </text>
+      <target>Tuesday</target>
+      <text foreground="0x6600CC" family="Comic Sans MS" background="0xFFCC99" size="24">  </text>
+      <target>Wednesday</target>
+      <text foreground="0x6600CC" family="Comic Sans MS" background="0xFFCC99" size="24">  </text>
+      <target>Thursday</target>
+      <text foreground="0x6600CC" family="Comic Sans MS" background="0xFFCC99" size="24">  </text>
+      <target>Friday</target>
+      <text foreground="0x6600CC" family="Comic Sans MS" background="0xFFCC99" size="24">  </text>
+      <target>Saturday</target>
+      <text foreground="0x6600CC" family="Comic Sans MS" background="0xFFCC99" size="24">  </text>
+      <target>Sunday</target>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@BasicEvaluator" />
+  </activity>
+  <activity class="@text.Order" name="order the sentences" code="" type="orderWords">
+   <description />
+   <messages>
+    <cell type="previous">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0067CC" background="0xFFFFFF" />
+     </style>
+     <p>Read these sentences</p>
+    </cell>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0067CC" background="0xFFFFFF" />
+     </style>
+     <p>Order the sentences</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0067CC" background="0xFFFFFF" />
+     </style>
+     <p>Excellent!</p>
+    </cell>
+   </messages>
+   <settings margin="13" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="multicolor-background2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" transparent="true" border="false">
+     <size width="634" height="363" />
+    </window>
+    <skin file="@blue.xml" />
+   </settings>
+   <checkButton>Check your answer</checkButton>
+   <prevScreen maxTime="16" />
+   <document>
+    <style name="default" italic="false" foreground="0x0067CC" tabWidth="12" family="Comic Sans MS" background="0xFFFFFF" bold="false" size="28" />
+    <style name="target" base="default" foreground="0x0067CC" target="true" />
+    <style name="targetError" base="target" foreground="0xFF0066" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28">1. </text>
+      <target>What's</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>the</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>weather</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>like?</target>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28">2. </text>
+      <target>It</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>is</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>hot</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>and</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>sunny</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>in</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>Egypt</target>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28">3. </text>
+      <target>It</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>is</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>very</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>cold</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>and</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>snowy</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>in</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>Iceland</target>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28">4. </text>
+      <target>It</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>is</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>often</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>foggy</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>in</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>London</target>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28">5. </text>
+      <target>It</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>is</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>cloudy</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>and</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>rainy</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>in</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>the</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>north</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>of</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>Spain</target>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28">6. </text>
+      <target>It</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>is</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>stormy</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>and</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>windy</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>in</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>the</target>
+      <text family="Comic Sans MS" background="0xFFFFFF" size="28"> </text>
+      <target>Caribbean</target>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+    </section>
+   </document>
+   <evaluator class="@BasicEvaluator" checkCase="true" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="portada" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x990099" background="0xF8E6FA" inactive="0xFFFFFF" />
+     </style>
+     <p>Wellcome!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="multicolor.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+    <skin file="@blue.xml" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="portada2-copia.jpg">
+    <style transparent="true" borderStroke="1.3" markerStroke="2.7">
+     <color background="0xF8E6FA" border="0x990099" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell txtAlign="left,bottom">
+     <style borderStroke="1.2" markerStroke="2.7">
+      <font family="Akbar" size="16" />
+      <color foreground="0x990099" background="0xFFFFFF" inactive="0xFFFFFF" border="0x990099" />
+     </style>
+     <p>Antonia Morelló Bahilo</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="weather map" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+     <p>Listen and match</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0xFFFFFF" inactive="0xFFFFFF" />
+     </style>
+     <p>Fantastic!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="quiltpatch.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+    <skin file="@blue.xml" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="245.0" cellHeight="307.0" border="true" id="primary">
+    <style borderStroke="0.9" markerStroke="5.0">
+     <font family="Comic Sans MS" size="28" />
+     <color foreground="0x0066CC" background="0xFFFFFF" inactive="0xFFFFFF" border="0x0066CC" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell txtAlign="middle,bottom" border="true" image="cloudy.jpg">
+     <style borderStroke="1.2" markerStroke="2.7">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0x0066CC" background="0xFFFFFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <p>Wales</p>
+    </cell>
+    <cell txtAlign="middle,bottom" border="true" image="foggy2.jpg">
+     <style borderStroke="1.0" markerStroke="2.7">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0x0066CC" background="0xFFFFFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <p>London</p>
+    </cell>
+    <cell txtAlign="middle,bottom" border="true" image="rainy.jpg">
+     <style borderStroke="1.0" markerStroke="2.7">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0x0066CC" background="0xFFFFFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <p>Midlands</p>
+    </cell>
+    <cell txtAlign="middle,bottom" border="true" image="cold.jpg">
+     <style borderStroke="1.0" markerStroke="2.7">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0x0066CC" background="0xFFFFFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <p>Scotland</p>
+    </cell>
+    <cell txtAlign="middle,bottom" border="true" image="stormy.jpg">
+     <style borderStroke="0.9" markerStroke="2.7">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0x0066CC" background="0xFFFFFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <p>South East</p>
+    </cell>
+    <cell txtAlign="middle,bottom" border="true" image="windy-sunny.jpg">
+     <style borderStroke="1.0" markerStroke="2.7">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0x0066CC" background="0xFFFFFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <p>Ireland</p>
+    </cell>
+   </cells>
+   <cells rows="2" cols="3" cellWidth="59.0" cellHeight="64.0" border="true" id="secondary">
+    <style borderStroke="1.2" markerStroke="2.7">
+     <color border="0x0066CC" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell txtAlign="middle,bottom" border="true">
+     <style borderStroke="1.2" markerStroke="2.7">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0x0066CC" background="0xFFFFFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="cloudy wales.wav" />
+    </cell>
+    <cell txtAlign="middle,bottom" border="true">
+     <style borderStroke="1.0" markerStroke="2.7">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0x0066CC" background="0xFFFFFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="foggy london.wav" />
+    </cell>
+    <cell txtAlign="middle,bottom" border="true">
+     <style borderStroke="1.0" markerStroke="2.7">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0x0066CC" background="0xFFFFFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="rainymidlands.wav" />
+    </cell>
+    <cell txtAlign="middle,bottom" border="true">
+     <style borderStroke="1.2" markerStroke="2.7">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0x0066CC" background="0xFFFFFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="snowycold scotland.wav" />
+    </cell>
+    <cell txtAlign="middle,bottom" border="true">
+     <style borderStroke="1.0" markerStroke="2.7">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0x0066CC" background="0xFFFFFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="stormy south east.wav" />
+    </cell>
+    <cell txtAlign="middle,bottom" border="true">
+     <style borderStroke="1.2" markerStroke="2.7">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0x0066CC" background="0xFFFFFF" inactive="0xFFFFFF" border="0x0066CC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="windy sunny ireland.wav" />
+    </cell>
+   </cells>
+   <cells rows="2" cols="3" border="true" image="mapa-uk.jpg" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell id="0" border="false" />
+    <cell id="1" border="false" />
+    <cell id="2" border="false" />
+    <cell id="3" border="false" />
+    <cell id="4" border="false" />
+    <cell id="5" border="false" />
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="BA" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="weather memory game" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x009999" background="0xFFFFCC" />
+     </style>
+     <p>Match</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x009999" background="0xFFFFCC" />
+     </style>
+     <p>Well done!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="g8pat25.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+    <skin file="@blue.xml" />
+   </settings>
+   <cells rows="3" cols="3" cellWidth="230.0" cellHeight="131.0" border="true" id="primary">
+    <style borderStroke="0.9" markerStroke="5.0">
+     <font family="Arial" size="28" />
+     <color foreground="0x009999" background="0xFFFFFF" inactive="0xFFFFCC" border="0x009999" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+    <cell border="true">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="24" />
+      <color foreground="0x009999" background="0xFFFFCC" inactive="0xFFFFCC" border="0x009999" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'sfoggy.wav" />
+     <p>It's foggy</p>
+    </cell>
+    <cell border="true">
+     <style>
+      <font family="Comic Sans MS" size="24" />
+      <color foreground="0x009999" background="0xFFFFCC" inactive="0xFFFFCC" border="0x009999" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="It's snowy2.wav" />
+     <p>It's snowy</p>
+    </cell>
+    <cell border="true">
+     <style>
+      <font family="Comic Sans MS" size="24" />
+      <color foreground="0x009999" background="0xFFFFCC" inactive="0xFFFFCC" border="0x009999" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'swindy.wav" />
+     <p>It's windy</p>
+    </cell>
+    <cell border="true">
+     <style>
+      <font family="Comic Sans MS" size="24" />
+      <color foreground="0x009999" background="0xFFFFCC" inactive="0xFFFFCC" border="0x009999" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'srainy.wav" />
+     <p>It's rainy</p>
+    </cell>
+    <cell border="true">
+     <style>
+      <font family="Comic Sans MS" size="24" />
+      <color foreground="0x009999" background="0xFFFFCC" inactive="0xFFFFCC" border="0x009999" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'ssunny.wav" />
+     <p>It's sunny</p>
+    </cell>
+    <cell border="true">
+     <style>
+      <font family="Comic Sans MS" size="24" />
+      <color foreground="0x009999" background="0xFFFFCC" inactive="0xFFFFCC" border="0x009999" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'sstormy.wav" />
+     <p>It's stormy</p>
+    </cell>
+    <cell border="true">
+     <style>
+      <font family="Comic Sans MS" size="24" />
+      <color foreground="0x009999" background="0xFFFFCC" inactive="0xFFFFCC" border="0x009999" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'scloudy.wav" />
+     <p>It's cloudy</p>
+    </cell>
+    <cell border="true">
+     <style>
+      <font family="Comic Sans MS" size="24" />
+      <color foreground="0x009999" background="0xFFFFCC" inactive="0xFFFFCC" border="0x009999" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'shot.wav" />
+     <p>It's hot</p>
+    </cell>
+    <cell border="true">
+     <style>
+      <font family="Comic Sans MS" size="24" />
+      <color foreground="0x009999" background="0xFFFFCC" inactive="0xFFFFCC" border="0x009999" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'scold.wav" />
+     <p>It's cold</p>
+    </cell>
+   </cells>
+   <cells rows="3" cols="3" cellWidth="50.0" cellHeight="30.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="3" />
+    <cell id="0" border="true" image="foggy2.jpg">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="18" />
+      <color foreground="0x009999" background="0xFFFFFF" inactive="0xFFFFCC" border="0x009999" />
+     </style>
+    </cell>
+    <cell id="1" border="true" image="snowy.jpg">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="18" />
+      <color foreground="0x009999" background="0xFFFFFF" inactive="0xFFFFCC" border="0x009999" />
+     </style>
+    </cell>
+    <cell id="2" border="true" image="windy.jpg">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="18" />
+      <color foreground="0x009999" background="0xFFFFFF" inactive="0xFFFFCC" border="0x009999" />
+     </style>
+    </cell>
+    <cell id="3" border="true" image="rainy.jpg">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="18" />
+      <color foreground="0x009999" background="0xFFFFFF" inactive="0xFFFFCC" border="0x009999" />
+     </style>
+    </cell>
+    <cell id="4" border="true" image="sunny.jpg">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="18" />
+      <color foreground="0x009999" background="0xFFFFFF" inactive="0xFFFFCC" border="0x009999" />
+     </style>
+    </cell>
+    <cell id="5" border="true" image="stormy.jpg">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="18" />
+      <color foreground="0x009999" background="0xFFFFFF" inactive="0xFFFFCC" border="0x009999" />
+     </style>
+    </cell>
+    <cell id="6" border="true" image="cloudy.jpg">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="18" />
+      <color foreground="0x009999" background="0xFFFFFF" inactive="0xFFFFCC" border="0x009999" />
+     </style>
+    </cell>
+    <cell id="7" border="true" image="hot.jpg">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="18" />
+      <color foreground="0x009999" background="0xFFFFFF" inactive="0xFFFFCC" border="0x009999" />
+     </style>
+    </cell>
+    <cell id="8" border="true" image="cold.jpg">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="18" />
+      <color foreground="0x009999" background="0xFFFFFF" inactive="0xFFFFCC" border="0x009999" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="weather picture name" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x660066" background="0xFCE3FC" />
+     </style>
+     <p>What's the weather like?</p>
+    </cell>
+    <cell type="final">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x660066" background="0xFEE6FE" />
+     </style>
+     <p>Well done!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="multicolor.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+    <skin file="@blue.xml" />
+   </settings>
+   <cells rows="9" cols="1" cellWidth="307.0" cellHeight="50.0" border="true" id="primary">
+    <style borderStroke="0.7" markerStroke="2.7">
+     <font family="Comic Sans MS" size="24" />
+     <color background="0xFCF2FC" inactive="0xFFFFFF" border="0x660066" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="9" />
+    <cell border="true">
+     <style borderStroke="1.2" markerStroke="2.7">
+      <font family="Comic Sans MS" size="30" />
+      <color foreground="0x660066" background="0xFCF2FC" inactive="0xFFFFFF" border="0x660066" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'ssunny.wav" />
+     <p>It's sunny</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="1.2" markerStroke="2.7">
+      <font family="Comic Sans MS" size="30" />
+      <color foreground="0x660066" background="0xFCF2FC" inactive="0xFFFFFF" border="0x660066" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'scloudy.wav" />
+     <p>It's cloudy</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="1.2" markerStroke="2.7">
+      <font family="Comic Sans MS" size="30" />
+      <color foreground="0x660066" background="0xFCF2FC" inactive="0xFFFFFF" border="0x660066" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="It's snowy.wav" />
+     <p>It's snowy</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="1.2" markerStroke="2.7">
+      <font family="Comic Sans MS" size="30" />
+      <color foreground="0x660066" background="0xFCF2FC" inactive="0xFFFFFF" border="0x660066" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'sfoggy.wav" />
+     <p>It's foggy</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="1.2" markerStroke="2.7">
+      <font family="Comic Sans MS" size="30" />
+      <color foreground="0x660066" background="0xFCF2FC" inactive="0xFFFFFF" border="0x660066" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'srainy.wav" />
+     <p>It's rainy</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="1.2" markerStroke="2.7">
+      <font family="Comic Sans MS" size="30" />
+      <color foreground="0x660066" background="0xFCF2FC" inactive="0xFFFFFF" border="0x660066" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'sstormy.wav" />
+     <p>It's stormy</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="1.2" markerStroke="2.7">
+      <font family="Comic Sans MS" size="30" />
+      <color foreground="0x660066" background="0xFCF2FC" inactive="0xFFFFFF" border="0x660066" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'swindy.wav" />
+     <p>It's windy</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="1.2" markerStroke="2.7">
+      <font family="Comic Sans MS" size="30" />
+      <color foreground="0x660066" background="0xFCF2FC" inactive="0xFFFFFF" border="0x660066" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'shot.wav" />
+     <p>It's hot</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="1.2" markerStroke="2.7">
+      <font family="Comic Sans MS" size="30" />
+      <color foreground="0x660066" background="0xFCF2FC" inactive="0xFFFFFF" border="0x660066" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="it'scold.wav" />
+     <p>It's cold</p>
+    </cell>
+   </cells>
+   <cells rows="9" cols="1" cellWidth="147.0" cellHeight="50.0" border="true" id="secondary">
+    <style borderStroke="1.2" markerStroke="2.7">
+     <color background="0xFFFFFF" inactive="0xFFFFFF" border="0x660066" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="9" />
+    <cell id="0" image="sunny.jpg">
+     <style borderStroke="1.2" markerStroke="2.7">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0x660066" background="0xFFFFFF" inactive="0xFFFFFF" border="0x660066" />
+     </style>
+    </cell>
+    <cell id="1" image="cloudy.jpg" />
+    <cell id="2" image="snowy.jpg" />
+    <cell id="3" image="foggy2.jpg" />
+    <cell id="4" image="rainy.jpg" />
+    <cell id="5" image="stormy.jpg" />
+    <cell id="6" image="windy.jpg" />
+    <cell id="7" image="hot.jpg" />
+    <cell id="8" image="cold.jpg" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="weather puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0xFFCC66" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="What'stheweatherlike.wav" />
+     <p>What's the weather like?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0x0066CC" background="0xFFCC66" />
+     </style>
+     <p>That's great!</p>
+    </cell>
+   </messages>
+   <settings margin="10" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="g2rbow09.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+    <skin file="@blue.xml" />
+   </settings>
+   <cells rows="3" cols="2" border="false" image="mapa-uk3.jpg">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color inactive="0xFFFFFF" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Holes" cols="2" rows="3">
+     <shape comment="0">rectangle:0.765237,0.057758,0.126411,0.116648</shape>
+     <shape comment="1">rectangle:0.756208,0.276331,0.129797,0.120045</shape>
+     <shape comment="2">rectangle:0.402935,0.438279,0.128668,0.116648</shape>
+     <shape comment="3">rectangle:0.782167,0.451869,0.129797,0.118913</shape>
+     <shape comment="4">rectangle:0.846501,0.611552,0.12754,0.11778</shape>
+     <shape comment="5">rectangle:0.585779,0.678369,0.128668,0.118913</shape>
+     <shape comment="6">rectangle:0.242664,0.655719,0.12754,0.118913</shape>
+     <shape comment="7">rectangle:0.84763,0.852775,0.12754,0.124575</shape>
+     <shape comment="8">rectangle:0.172686,0.271801,0.133183,0.123443</shape>
+    </shaper>
+    <cell border="true">
+     <style borderStroke="2.0" markerStroke="2.7">
+      <color border="0xFFCC66" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="scotland snowy.wav" />
+    </cell>
+    <cell border="true">
+     <style borderStroke="2.0" markerStroke="2.7">
+      <color border="0xFFCC66" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="north cold.wav" />
+    </cell>
+    <cell border="true">
+     <style borderStroke="2.0" markerStroke="2.7">
+      <color border="0xFFCC66" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="wales clody.wav" />
+    </cell>
+    <cell border="true">
+     <style borderStroke="2.0" markerStroke="2.7">
+      <color border="0xFFCC66" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="midlands rainy.wav" />
+    </cell>
+    <cell border="true">
+     <style borderStroke="2.0" markerStroke="2.7">
+      <color border="0xFFCC66" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="hot east.wav" />
+    </cell>
+    <cell border="true">
+     <style borderStroke="2.0" markerStroke="2.7">
+      <color border="0xFFCC66" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="london foggy.wav" />
+    </cell>
+    <cell border="true">
+     <style borderStroke="2.0" markerStroke="2.7">
+      <color border="0xFFCC66" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="southwest stormy.wav" />
+    </cell>
+    <cell border="true">
+     <style borderStroke="2.0" markerStroke="2.7">
+      <color border="0xFFCC66" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="southeast sunny.wav" />
+    </cell>
+    <cell border="true">
+     <style borderStroke="2.0" markerStroke="2.7">
+      <color border="0xFFCC66" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="ireland windy.wav" />
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="weather wordsquare" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0xFFFFFF" background="0x9999FF" />
+     </style>
+     <p>Find 10 words about weather</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="28" />
+      <color foreground="0xFFFFFF" background="0x9999FF" />
+     </style>
+     <p>Great!</p>
+    </cell>
+   </messages>
+   <settings margin="10" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="g2rbow13.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x9999FF" border="false" />
+    <skin file="@blue.xml" />
+   </settings>
+   <textGrid rows="9" columns="9" cellWidth="72.0" cellHeight="64.0" border="true">
+    <style borderStroke="0.7" markerStroke="2.7">
+     <font family="Comic Sans MS" size="36" bold="true" />
+     <color foreground="0x9966FF" background="0xE1E1FE" inactive="0xFFFFFF" />
+    </style>
+    <text>
+     <row>Y***C****</row>
+     <row>DS*SNOWY*</row>
+     <row>NT**S*L**</row>
+     <row>IO**U**DY</row>
+     <row>WRAINY**D</row>
+     <row>*MH*N***U</row>
+     <row>*Y*OY***O</row>
+     <row>*WEATHERL</row>
+     <row>**FOGGY*C</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">HOT</clue>
+    <clue id="1">COLD</clue>
+    <clue id="2">SNOWY</clue>
+    <clue id="3">FOGGY</clue>
+    <clue id="4">WINDY</clue>
+    <clue id="5">RAINY</clue>
+    <clue id="6">SUNNY</clue>
+    <clue id="7">STORMY</clue>
+    <clue id="8">CLOUDY</clue>
+    <clue id="9">WEATHER</clue>
+   </clues>
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="amarilla.gif" file="amarilla.gif" />
+  <media name="g13ice04.gif" file="g13ice04.gif" />
+  <media name="g2rbow04.gif" file="g2rbow04.gif" />
+  <media name="g2rbow09.gif" file="g2rbow09.gif" />
+  <media name="g2rbow11.gif" file="g2rbow11.gif" />
+  <media name="g2rbow12.gif" file="g2rbow12.gif" />
+  <media name="g2rbow13.gif" file="g2rbow13.gif" />
+  <media name="g8pat04.gif" file="g8pat04.gif" />
+  <media name="g8pat25.gif" file="g8pat25.gif" />
+  <media name="multicolor.gif" file="multicolor.gif" />
+  <media name="purple_myspace_background1.gif" file="purple_myspace_background1.gif" />
+  <media name="quiltpatch.gif" file="quiltpatch.gif" />
+  <media name="rosa.gif" file="rosa.gif" />
+  <media name="snow.gif" file="snow.gif" />
+  <media name="winter_snowflake02.gif" file="winter_snowflake02.gif" />
+  <media name="april2.jpg" file="april2.jpg" />
+  <media name="august2.jpg" file="august2.jpg" />
+  <media name="autumn.jpg" file="autumn.jpg" />
+  <media name="calendar2.jpg" file="calendar2.jpg" />
+  <media name="cloudy.jpg" file="cloudy.jpg" />
+  <media name="cloudy2.jpg" file="cloudy2.jpg" />
+  <media name="cold.jpg" file="cold.jpg" />
+  <media name="cold2.jpg" file="cold2.jpg" />
+  <media name="colorflower.jpg" file="colorflower.jpg" />
+  <media name="december2.jpg" file="december2.jpg" />
+  <media name="fallleaf.jpg" file="fallleaf.jpg" />
+  <media name="february2.jpg" file="february2.jpg" />
+  <media name="foggy2.jpg" file="foggy2.jpg" />
+  <media name="hot.jpg" file="hot.jpg" />
+  <media name="hot2.jpg" file="hot2.jpg" />
+  <media name="january2.jpg" file="january2.jpg" />
+  <media name="july2.jpg" file="july2.jpg" />
+  <media name="june2.jpg" file="june2.jpg" />
+  <media name="mapa-uk.jpg" file="mapa_uk.jpg" />
+  <media name="mapa-uk3.jpg" file="mapa_uk3.jpg" />
+  <media name="march2.jpg" file="march2.jpg" />
+  <media name="may2.jpg" file="may2.jpg" />
+  <media name="multicolor-background2.jpg" file="multicolor_background2.jpg" />
+  <media name="november2.jpg" file="november2.jpg" />
+  <media name="october2.jpg" file="october2.jpg" />
+  <media name="portada2-copia.jpg" file="portada2_copia.jpg" />
+  <media name="rainy.jpg" file="rainy.jpg" />
+  <media name="rainy2.jpg" file="rainy2.jpg" />
+  <media name="september2.jpg" file="september2.jpg" />
+  <media name="snowy.jpg" file="snowy.jpg" />
+  <media name="snowy2.jpg" file="snowy2.jpg" />
+  <media name="SOL-NUBE.jpg" file="sol_nube.jpg" />
+  <media name="spring.jpg" file="spring.jpg" />
+  <media name="stormy.jpg" file="stormy.jpg" />
+  <media name="stormy2.jpg" file="stormy2.jpg" />
+  <media name="summer.jpg" file="summer.jpg" />
+  <media name="sunny.jpg" file="sunny.jpg" />
+  <media name="windy-sunny.jpg" file="windy_sunny.jpg" />
+  <media name="windy.jpg" file="windy.jpg" />
+  <media name="windy2.jpg" file="windy2.jpg" />
+  <media name="winter.jpg" file="winter.jpg" />
+  <media name="april.wav" file="april.wav" />
+  <media name="august.wav" file="august.wav" />
+  <media name="autumn.wav" file="autumn.wav" />
+  <media name="cloudy wales.wav" file="cloudy_wales.wav" />
+  <media name="december.wav" file="december.wav" />
+  <media name="february.wav" file="february.wav" />
+  <media name="foggy london.wav" file="foggy_london.wav" />
+  <media name="friday.wav" file="friday.wav" />
+  <media name="hot east.wav" file="hot_east.wav" />
+  <media name="ireland windy.wav" file="ireland_windy.wav" />
+  <media name="It's snowy.wav" file="it_s_snowy.wav" />
+  <media name="It's snowy2.wav" file="it_s_snowy2.wav" />
+  <media name="it'scloudy.wav" file="it_scloudy.wav" />
+  <media name="it'scold.wav" file="it_scold.wav" />
+  <media name="it'sfoggy.wav" file="it_sfoggy.wav" />
+  <media name="it'shot.wav" file="it_shot.wav" />
+  <media name="it'srainy.wav" file="it_srainy.wav" />
+  <media name="it'sstormy.wav" file="it_sstormy.wav" />
+  <media name="it'ssunny.wav" file="it_ssunny.wav" />
+  <media name="it'swindy.wav" file="it_swindy.wav" />
+  <media name="january.wav" file="january.wav" />
+  <media name="july.wav" file="july.wav" />
+  <media name="june.wav" file="june.wav" />
+  <media name="london foggy.wav" file="london_foggy.wav" />
+  <media name="march.wav" file="march.wav" />
+  <media name="may.wav" file="may.wav" />
+  <media name="midlands rainy.wav" file="midlands_rainy.wav" />
+  <media name="monday.wav" file="monday.wav" />
+  <media name="north cold.wav" file="north_cold.wav" />
+  <media name="november.wav" file="november.wav" />
+  <media name="october.wav" file="october.wav" />
+  <media name="rainymidlands.wav" file="rainymidlands.wav" />
+  <media name="saturday.wav" file="saturday.wav" />
+  <media name="scotland snowy.wav" file="scotland_snowy.wav" />
+  <media name="september.wav" file="september.wav" />
+  <media name="snowycold scotland.wav" file="snowycold_scotland.wav" />
+  <media name="southeast sunny.wav" file="southeast_sunny.wav" />
+  <media name="southwest stormy.wav" file="southwest_stormy.wav" />
+  <media name="spring.wav" file="spring.wav" />
+  <media name="stormy south east.wav" file="stormy_south_east.wav" />
+  <media name="summer.wav" file="summer.wav" />
+  <media name="sunday.wav" file="sunday.wav" />
+  <media name="thursday.wav" file="thursday.wav" />
+  <media name="tuesday.wav" file="tuesday.wav" />
+  <media name="wales clody.wav" file="wales_clody.wav" />
+  <media name="wednesday.wav" file="wednesday.wav" />
+  <media name="What'stheweatherlike.wav" file="what_stheweatherlike.wav" />
+  <media name="windy sunny ireland.wav" file="windy_sunny_ireland.wav" />
+  <media name="winter.wav" file="winter.wav" />
+ </mediaBag>
+</JClicProject>
+

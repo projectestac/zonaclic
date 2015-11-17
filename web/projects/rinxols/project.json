@@ -1,0 +1,54 @@
+{
+  "title": "Na Rínxols d'Or",
+  "author": "Miren Garralda Dibuixos: Ainhoa Corbera Garralda",
+  "school": "Escola Mas Casanovas Barcelona",
+  "date": "15/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "description": {
+    "en": "Activity pack about the children's story \"Goldy Locks\". Created for elementary school children.",
+    "ca": "Tres paquets d'activitats sobre el conte de na Rínxols d'Or, adreçades al cicle superior d'educació infantil i l'inicial de primària. En el primer paquet s'explica el conte mitjançant dibuixos, textos i sons, en el segon es proposen alguns trencaclosques fets a partir de les imatges i en el tercer es plantegen activitats de lectura comprensiva.",
+    "es": "Tres paquetes de actividades sobre el cuento de Ricitos de Oro, dirigidas al ciclo superior de educación infantil y el inicial de primaria. En el primer paquete se explica el cuento mediante dibujos, textos y sonido, en el segundo se proponen algunos puzzles a partir de las imágenes y en el tercero se plantean actividades de lectura comprensiva."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/rinxols.jclic",
+  "cover": "cover.gif",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/rinxols.jclic.zip",
+  "instFile": "jclic/rinxols.jclic.inst",
+  "clicZoneId": 1148,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1148",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/rinxols/jclic/rinxols.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ]
+}

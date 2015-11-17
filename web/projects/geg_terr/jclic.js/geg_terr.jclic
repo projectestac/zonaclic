@@ -1,0 +1,3738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="geg_terr" version="0.1.3">
+ <settings>
+  <title>Els gegants de Terrassa</title>
+  <revision description="created" date="10/15/13" />
+  <revision description="Publicació a la zonaClic (http://clic.xtec.cat)" date="4/13/15">
+   <author name="Equip Clic" mail="clic@xtec.cat" organization="Àrea TIC - Departament d'Educació" />
+  </revision>
+  <author name="Juli Castellón Jurado" mail="jcaste62@xtec.cat" />
+  <organization name="C El Cim" mail="a8029660@xtec.cat" url="http://www.escolaelcim.cat" city="Terrassa" state="Catalunya" />
+  <language>català</language>
+  <description>
+   <p>Material didàctic per a nens i nenes sobre els Geganters de Terrassa amb activitats sobre:</p>
+   <p>&lt;ul&gt;</p>
+   <p>&lt;li&gt;gegants i gegantons</p>
+   <p>&lt;li&gt;capgrossos</p>
+   <p>&lt;li&gt;colla gegantera (geganters, uniformitat, músiques i balls i festes)</p>
+   <p>&lt;li&gt;construcció d'un gegant</p>
+   <p>&lt;li&gt;Terrassa, ciutat gegantera 2015</p>
+   <p>&lt;/ol&gt;</p>
+  </description>
+  <descriptors area="Ciències socials" level="Infantil (3-6), Primària (6-12)">cultura popular, societat, festes populars</descriptors>
+  <skin file="@orange.xml" />
+ </settings>
+ <sequence>
+  <item id="START" name="portada">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item id="START2" name="menú" />
+  <item id="START3" name="menu2" />
+  <item name="gegants vells informació">
+   <jump tag="START2" id="back" />
+  </item>
+  <item name="gegants vells completar" />
+  <item name="gegants vells relacionar" />
+  <item name="gegants vells puzzle" />
+  <item name="gegants nous informació" />
+  <item name="gegants nous completar" />
+  <item name="gegants nous relacionar" />
+  <item name="gegants nous puzzle" />
+  <item name="gegants repliques informació" />
+  <item name="gegants rèpliques completar" />
+  <item name="gegants rèpliques puzzle" />
+  <item name="modernistes informació" />
+  <item name="modernistes completar" />
+  <item name="modernistes puzzle" />
+  <item name="antonio informació" />
+  <item name="antoni completar" />
+  <item name="antonio puzzle" />
+  <item name="carmeta  informació" />
+  <item name="carmeta completar" />
+  <item name="carmeta puzzle" />
+  <item name="tranqui informació" />
+  <item name="tranqui completar" />
+  <item name="tranqui puzzle" />
+  <item name="maneló informació" />
+  <item name="maneló completar" />
+  <item name="manelo puzzle" />
+  <item name="gegants memory" />
+  <item name="gegants sopa de lletres">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item name="capgrossos portada">
+   <jump tag="START2" id="back" />
+  </item>
+  <item name="capgrossos patufet informació" />
+  <item name="capgrossos bruixa informació" />
+  <item name="capgrossos rei informació" />
+  <item name="capgrossos la reina informació" />
+  <item name="capgrossos patufet puzzle" />
+  <item name="capgrossos relacionar" />
+  <item name="capgrossos bruixa puzzle" />
+  <item name="capgrossos sopa de lletres" />
+  <item name="capgrossos rei puzzle" />
+  <item name="capgrossos memory" />
+  <item name="capgrossos reina puzzle">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item name="vocabulari">
+   <jump tag="START3" id="back" />
+  </item>
+  <item name="geganter" />
+  <item name="portador" />
+  <item name="ballador" />
+  <item name="voltador" />
+  <item name="graller" />
+  <item name="geganters sopa de lletres" />
+  <item name="enfaixament" />
+  <item name="tabaler" />
+  <item name="acompanyants" />
+  <item name="fer canvi" />
+  <item name="fer &quot;el ball&quot;">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item name="uniformitat clàssica">
+   <jump tag="START3" id="back" />
+  </item>
+  <item name="uniformitat clàssica puzzle" />
+  <item name="uniformitat modernista" />
+  <item name="uniformitat modernista puzzle">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item name="músiques i balls1 informació">
+   <jump tag="START3" id="back" />
+  </item>
+  <item name="músiques i balls2 informació" />
+  <item name="músiques i balls3 informació" />
+  <item name="músiques i balls4 informació" />
+  <item name="músiques i balls relacionar">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item name="FESTES">
+   <jump tag="START3" id="back" />
+  </item>
+  <item name="FESTES RELACIONAR">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item name="1. Fer els dibuixos">
+   <jump tag="START2" id="back" />
+  </item>
+  <item name="1.puzzle" />
+  <item name="2.Fer la figura amb fang" />
+  <item name="2.puzzle" />
+  <item name="3. Fer el motllo" />
+  <item name="3.puzzle" />
+  <item name="4. Fer el gegant amb paper cartró" />
+  <item name="4.puzzle" />
+  <item name="5.Pintar el gegant" />
+  <item name="5.puzzle" />
+  <item name="6. Vestir el gegant" />
+  <item name="6.puzzle">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item name="ciutat gegantera">
+   <jump tag="START2" id="back" />
+  </item>
+  <item name="ciutat gegantera puzzle">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item name="CRÈDITS1">
+   <jump tag="START2" id="back" />
+  </item>
+  <item name="CRÈDITS2" />
+  <item name="CRÈDITS3">
+   <jump action="RETURN" id="forward" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.InformationScreen" name="1. Fer els dibuixos" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="1.6" markerStroke="2.7">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" border="0x330099" />
+     </style>
+     <p>1. FER ELS DIBUIXOS</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="325.0" cellHeight="363.0" border="true">
+    <style borderStroke="1.7" markerStroke="5.0">
+     <font family="Arial" size="36" bold="true" />
+     <color foreground="0x003399" background="0xFF9900" shadow="0x000099" border="0x000099" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="Sin título18-resized.jpg" />
+    <cell image="Sin título19-resized.jpg" />
+    <cell image="Sin título17-resized.jpg" />
+   </cells>
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="1.puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>MOLT BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="Sin título17-resized.jpg">
+    <style borderStroke="2.0" markerStroke="2.7">
+     <color background="0xFF9933" inactive="0xFF9900" border="0x330099" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="2.Fer la figura amb fang" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="1.6" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" border="0x330099" />
+     </style>
+     <p>2. FER LA FIGURA AMB FANG</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="356.0" cellHeight="278.0" border="true">
+    <style borderStroke="1.7" markerStroke="5.0">
+     <font family="Arial" size="36" bold="true" />
+     <color foreground="0x003399" background="0xFF9900" shadow="0x000099" border="0x000099" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="Sin título15-resized.jpg" />
+    <cell image="Sin título-resized.jpg" />
+    <cell image="Sin título2-resized.jpg" />
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="2.puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>GENIAL</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="Sin título2-resized.jpg">
+    <style borderStroke="2.0" markerStroke="2.7">
+     <color background="0xFF9933" inactive="0xFF9900" border="0x330099" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="3. Fer el motllo" code="">
+   <description />
+   <messages>
+    <cell border="false" type="initial">
+     <style borderStroke="0.0" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" border="0x330099" />
+     </style>
+     <p>3. FER EL MOTLLO</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="342.0" cellHeight="271.0" border="true">
+    <style borderStroke="1.7" markerStroke="5.0">
+     <font family="Arial" size="36" bold="true" />
+     <color foreground="0x003399" background="0xFF9900" shadow="0x000099" border="0x000099" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="Sin título3-resized.jpg" />
+    <cell image="Sin título5-resized.jpg" />
+    <cell image="Sin título6-resized.jpg" />
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="3.puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>EXCEL·LENT</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="Sin título6-resized.jpg">
+    <style borderStroke="2.0" markerStroke="2.7">
+     <color background="0xFF9933" inactive="0xFF9900" border="0x330099" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="4. Fer el gegant amb paper cartró" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xF0F0F0" />
+     </style>
+     <p>4. FER EL GEGANT AMB CARTRÓ PEDRA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="349.0" cellHeight="283.0" border="true">
+    <style borderStroke="1.7" markerStroke="5.0">
+     <font family="Arial" size="36" bold="true" />
+     <color foreground="0x003399" background="0xFF9900" shadow="0x000099" border="0x000099" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="Sin título7-resized.jpg" />
+    <cell image="Sin título8-resized.jpg" />
+    <cell image="Sin título9-resized.jpg" />
+   </cells>
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="4.puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>PERFECTE</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="Sin título9-resized.jpg">
+    <style borderStroke="2.0" markerStroke="2.7">
+     <color background="0xFF9933" inactive="0xFF9900" border="0x330099" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="5.Pintar el gegant" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xF0F0F0" />
+     </style>
+     <p>5. PINTAR EL GEGANT</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="353.0" cellHeight="335.0" border="true">
+    <style borderStroke="1.7" markerStroke="5.0">
+     <font family="Arial" size="36" bold="true" />
+     <color foreground="0x003399" background="0xFF9900" shadow="0x000099" border="0x000099" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="Sin título20-resized.jpg" />
+    <cell image="Sin título10-resized.jpg" />
+    <cell image="Sin título11.jpg" />
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="5.puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="Sin título11.jpg">
+    <style borderStroke="2.0" markerStroke="2.7">
+     <color background="0xFF9933" inactive="0xFF9900" border="0x330099" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="6. Vestir el gegant" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xF0F0F0" />
+     </style>
+     <p>6. VESTIR EL GEGANT</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="354.0" cellHeight="288.0" border="true">
+    <style borderStroke="1.7" markerStroke="5.0">
+     <font family="Arial" size="36" bold="true" />
+     <color foreground="0x003399" background="0xFF9900" shadow="0x000099" border="0x000099" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="Sin título12-resized.jpg" />
+    <cell image="Sin título13-resized.jpg" />
+    <cell image="Sin título14-resized.jpg" />
+   </cells>
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="6.puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>MOLT BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="Sin título13-resized.jpg">
+    <style borderStroke="2.0" markerStroke="2.7">
+     <color background="0xFF9933" inactive="0xFF9900" border="0x330099" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="CRÈDITS1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>EQUIP DE TREBALL</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="6" cols="1" cellWidth="542.0" cellHeight="80.0" border="false">
+    <style borderStroke="1.7" markerStroke="5.0">
+     <font family="Arial" size="20" />
+     <color foreground="0x003399" background="0xFF9900" shadow="0x000099" border="0x000099" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color foreground="0x330099" background="0xFF9900" />
+     </style>
+     <p>AUTORS</p>
+    </cell>
+    <cell>
+     <p>SANTIAGO SERRANO</p>
+    </cell>
+    <cell>
+     <p>MONTSE SALUDES</p>
+    </cell>
+    <cell>
+     <p>XAVI SUÁREZ</p>
+    </cell>
+    <cell>
+     <p>MÍRIAM CASTELLÓN</p>
+    </cell>
+    <cell>
+     <p>JULIO CASTELLÓN</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="CRÈDITS2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>COL·LABORADORS</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="10" cols="1" cellWidth="697.0" cellHeight="58.0" border="false">
+    <style borderStroke="1.7" markerStroke="2.7">
+     <font family="Arial" size="20" />
+     <color foreground="0x003399" background="0xFF9900" shadow="0x000099" border="0x000099" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color foreground="0x330099" background="0xFF9900" />
+     </style>
+     <p>AGRAÏMENTS</p>
+    </cell>
+    <cell>
+     <p>AJUNTAMENT DE TERRASSA</p>
+    </cell>
+    <cell>
+     <p>CANAL TERRASSA TV</p>
+    </cell>
+    <cell>
+     <p>ARXIU TOBELLA TERRASSA</p>
+    </cell>
+    <cell>
+     <p>GEGANTERS DE TERRASSA</p>
+    </cell>
+    <cell>
+     <p>TALLER EL DRAC PETIT</p>
+    </cell>
+    <cell>
+     <p>MINISTRILS DEL RAVAL</p>
+    </cell>
+    <cell>
+     <p>COORDINADORA DE GRUPS DE CULTURA POPULAR DE TERRASSA</p>
+    </cell>
+    <cell>
+     <p>ATENEU TERRASSENC</p>
+    </cell>
+    <cell>
+     <p>CASINET DE L'ESPARDENYA</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="CRÈDITS3" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>ENLLAÇOS</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="6" cols="1" cellWidth="919.0" cellHeight="96.0" border="false">
+    <style borderStroke="1.7" markerStroke="2.7">
+     <font family="Arial" size="20" bold="true" />
+     <color foreground="0x003399" background="0xFF9900" shadow="0x000099" border="0x000099" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell>
+     <media type="URL" level="1" file="http://webs.gegants.cat/terrassa/" />
+     <p>GEGANTERS DE TERRASSA: http://webs.gegants.cat/terrassa/</p>
+    </cell>
+    <cell>
+     <media type="URL" level="1" file="http://tallerdracpetit.com" />
+     <p>TALLER EL DRAC PETIT: http://tallerdracpetit.com</p>
+    </cell>
+    <cell>
+     <media type="URL" level="1" file="http://ministrilsdelraval.com/quisom.html" />
+     <p>MINISTRILS DEL RAVAL: http://ministrilsdelraval.com/quisom.html</p>
+    </cell>
+    <cell>
+     <media type="URL" level="1" file="http://culturapopular.terrassa.net/" />
+     <p>COORDINADORA DE GRUPS DE CULTURA POPULAR DE TERRASSA: http://culturapopular.terrassa.net/</p>
+    </cell>
+    <cell>
+     <media type="URL" level="1" file="http://ateneuterrassenc.terrassa.net/" />
+     <p>ATENEU TERRASSENC: http://ateneuterrassenc.terrassa.net/</p>
+    </cell>
+    <cell>
+     <media type="URL" level="1" file="http://casinetdelespardenya.cat/" />
+     <p>CASINET DE L'ESPARDENYA: http://casinetdelespardenya.cat/</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="FESTES" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>CALENDARI DE FESTES 2015 A TERRASSA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="8" cols="1" cellWidth="515.0" cellHeight="43.0" border="true">
+    <style borderStroke="2.0" markerStroke="2.7">
+     <font family="Arial" size="20" bold="true" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="8" />
+    <cell>
+     <p>CAVALCADA DE REIS (GENER)</p>
+    </cell>
+    <cell>
+     <p>LA RUA DE CARNESTOLTES (FEBRER)</p>
+    </cell>
+    <cell>
+     <p>LA CULTURASSA (ABRIL)</p>
+    </cell>
+    <cell>
+     <p>LA SANTA CREU I ARBRE DE MAIG (MAIG)</p>
+    </cell>
+    <cell>
+     <p>FIRA MODERNISTA (MAIG)</p>
+    </cell>
+    <cell>
+     <p>LA FESTA DELS CAPDIDATS (JUNY)</p>
+    </cell>
+    <cell>
+     <p>LA FESTA MAJOR (JULIOL)</p>
+    </cell>
+    <cell>
+     <p>XXX CIUTAT GEGANTERA DE CATALUNYA (SETEMBRE)</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="FESTES RELACIONAR" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>RELACIONA</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>GENIAL</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="8" cols="1" cellWidth="394.0" cellHeight="42.0" border="true" id="primary">
+    <style borderStroke="2.0" markerStroke="2.7">
+     <font family="Arial" size="20" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="8" />
+    <cell id="0">
+     <p>CAVALCADA DE REIS</p>
+    </cell>
+    <cell id="1">
+     <p>LA RUA DE CARNESTOLTES</p>
+    </cell>
+    <cell id="2">
+     <p>LA CULTURASSA</p>
+    </cell>
+    <cell id="3">
+     <p>LA SANTA CREU I ARBRE DE MAIG</p>
+    </cell>
+    <cell id="3">
+     <p>FIRA MODERNISTA</p>
+    </cell>
+    <cell id="4">
+     <p>LA FESTA DELS CAPDIDATS</p>
+    </cell>
+    <cell id="5">
+     <p>LA FESTA MAJOR</p>
+    </cell>
+    <cell id="6">
+     <p>XXX CIUTAT GEGANTERA DE CATALUNYA</p>
+    </cell>
+   </cells>
+   <cells rows="7" cols="1" cellWidth="135.0" cellHeight="46.0" border="false" id="secondary">
+    <style borderStroke="1.6" markerStroke="2.7">
+     <font family="Arial" size="20" bold="true" />
+     <color foreground="0x330099" background="0xFF9900" border="0x330099" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="7" />
+    <cell>
+     <p>GENER</p>
+    </cell>
+    <cell>
+     <p>FEBRER</p>
+    </cell>
+    <cell>
+     <p>ABRIL</p>
+    </cell>
+    <cell>
+     <p>MAIG</p>
+    </cell>
+    <cell>
+     <p>JUNY</p>
+    </cell>
+    <cell>
+     <p>JULIOL</p>
+    </cell>
+    <cell>
+     <p>SETEMBRE</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="acompanyants" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xF0F0F0" />
+     </style>
+     <p>ACOMPANYANTS</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>EXCEL·LENT</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="acompanyant.jpg">
+    <style borderStroke="2.2" markerStroke="5.0">
+     <color background="0xFF9933" inactive="0xFF9900" border="0x003399" />
+    </style>
+    <shaper class="@TriangularJigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="antoni completar" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>COMPLETA EL TEXT</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>PERFECTE</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true">
+     <size width="628" height="289" />
+    </window>
+   </settings>
+   <checkButton>AVALUA'T</checkButton>
+   <document>
+    <style name="default" size="24" italic="false" bold="false" background="0xFF9900" family="Arial" tabWidth="12" foreground="0x330099" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <section>
+     <p size="24" family="Arial" background="0xFF9900" foreground="0x330099">
+      <text size="24" family="Arial" background="0xFF9900" foreground="0x330099">La figura de l’Antoni </text>
+      <target>
+       <answer>Messeguer</answer>
+       <optionList>
+        <option>Serrano</option>
+        <option>Castellón</option>
+        <option>Messeguer</option>
+       </optionList>
+       <text>Messeguer</text>
+      </target>
+      <text size="24" family="Arial" background="0xFF9900" foreground="0x330099"> va néixer a iniciativa del Casinet de l’Espardenya i gràcies a la subscripció popular . En homenatge a qui fou un destacat activista cultural i </text>
+      <target>
+       <answer>president</answer>
+       <optionList>
+        <option>secretari</option>
+        <option>president</option>
+        <option>vocal</option>
+       </optionList>
+       <text>president</text>
+      </target>
+      <text size="24" family="Arial" background="0xFF9900" foreground="0x330099"> dels geganters de Terrassa. Va ser batejat a la festa Culturassa del </text>
+      <target>
+       <answer>2012</answer>
+       <optionList>
+        <option>2000</option>
+        <option>2011</option>
+        <option>2012</option>
+       </optionList>
+       <text>2012</text>
+      </target>
+      <text size="24" family="Arial" background="0xFF9900" foreground="0x330099"> i donat a la Coordinadora de Grups de Cultura Popular i Tradicional Catalana  de Terrassa.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="antonio informació" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="17 - Track 17.mp3" />
+     <p>ANTONI MESSEGUER</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="372.0" cellHeight="499.0" border="true">
+    <style borderStroke="2.2" markerStroke="5.0">
+     <font family="Arial" size="24" />
+     <color foreground="0x003399" background="0xFF9900" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <p>La figura de l’Antoni Messeguer va néixer a iniciativa del Casinet de l’Espardenya i gràcies a la subscripció popular . En homenatge a qui fou un destacat activista cultural i president dels geganters de Terrassa. Va ser batejat a la festa Culturassa del 2012 i donat a la Coordinadora de Grups de Cultura Popular i Tradicional Catalana  de Terrassa. Construït pel Jordi Grau i vestit pel Ramon Roig. El grup dels geganters són els responsables de fer-lo ballar i portar arreu.</p>
+    </cell>
+    <cell image="antoni-resized.jpg" />
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="antonio puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="2" border="true" image="antoni-resized.jpg">
+    <style borderStroke="0.7" markerStroke="2.7">
+     <color background="0xFF9933" border="0x330099" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="ballador" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xF0F0F0" />
+     </style>
+     <p>BALLADOR</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>MOLT BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="ballador.jpg">
+    <style borderStroke="2.2" markerStroke="5.0">
+     <color background="0xFF9933" inactive="0xFF9900" border="0x003399" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="capgrossos bruixa informació" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="08 - Track 08.mp3" />
+     <p>LA HISTÒRIA DELS CAPGROSSOS</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="432.0" cellHeight="580.0" border="true">
+    <style borderStroke="2.0" markerStroke="5.0">
+     <font family="Arial" size="36" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell image="bruixa2-resized.jpg" />
+    <cell avoidOverlapping="true">
+     <p>Un bon dia va aparèixer per casa la Bruixa de la bona sort, i em va dir: "veig que vius en una casa molt gran i que sovint et trobes sol, doncs hi ha dos personatges que també busquen companyia, el Rei i la Reina de l’alegria".</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="capgrossos bruixa puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>GENIAL</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="3" cols="2" border="true" image="bruixa2-resized.jpg">
+    <style borderStroke="1.7" markerStroke="2.7">
+     <color background="0xFF9933" inactive="0xFF9933" border="0x330099" />
+    </style>
+    <shaper class="@TriangularJigSaw" cols="2" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="capgrossos la reina informació" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="08 - Track 08.mp3" />
+     <p>LA HISTÒRIA DELS CAPGROSSOS</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="432.0" cellHeight="580.0" border="true">
+    <style borderStroke="2.4" markerStroke="2.7">
+     <font family="Arial" size="36" />
+     <color foreground="0x003399" background="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell image="reinabl-resized.jpg">
+     <style>
+      <color background="0xFF9933" />
+     </style>
+    </cell>
+    <cell>
+     <p>Per sort abans de tirar-la aparegué un geganter de Terrassa que ens va adoptar, i des de fa set anys que estem encara més feliços, perquè sovint fent sortides amb els geganters, que ens cuiden i porten a conèixer tot el territori català. Però sabeu el millor de tot? Que qui ens dóna vida, són la canalla de la colla i la que coneixem allà on anem.</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@memory.MemoryGame" name="capgrossos memory" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>CERCA LES PARELLES</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>EXCEL·LENT</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="1" cols="4" cellWidth="197.0" cellHeight="225.0" border="true" id="primary">
+    <style borderStroke="2.1" markerStroke="0.0">
+     <font family="Arial" size="28" bold="true" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="1" />
+    <cell id="1">
+     <p>LA BRUIXA</p>
+    </cell>
+    <cell id="1">
+     <p>EN PATUFET</p>
+    </cell>
+    <cell id="1">
+     <p>EL REI</p>
+    </cell>
+    <cell id="1">
+     <p>LA REINA</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="4" cellWidth="50.0" cellHeight="30.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="4" rows="1" />
+    <cell image="bruixa2-resized.jpg" />
+    <cell image="patufetfb-resized.jpg" />
+    <cell image="reibl-resized.jpg" />
+    <cell image="reinabl-resized.jpg" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="capgrossos patufet informació" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="08 - Track 08.mp3" />
+     <p>LA HISTÒRIA DELS CAPGROSSOS</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="432.0" cellHeight="580.0" border="true">
+    <style borderStroke="0.7" markerStroke="2.7">
+     <font family="Arial" size="36" bold="true" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell image="patufetfb-resized.jpg" />
+    <cell>
+     <style borderStroke="2.2" markerStroke="5.0">
+      <font family="Arial" size="48" />
+      <color foreground="0x000099" background="0xFF9900" border="0x3300CC" />
+     </style>
+     <p>La nostra història es remunta cap al Berguedà. Sóc en Patufet, he viscut molt de temps a una casa de Sant Llorenç dels Morunys. Feliç, saltava i cantava per les contrades aquella cançó que diu: “patim, patam, patum, homes i dones del cap dret, patim, patam, patum, no trepitgeu a en Patufet “.</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="capgrossos patufet puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>PERFECTE</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="3" cols="2" border="true" image="patufetfb-resized.jpg">
+    <style borderStroke="0.7" markerStroke="2.7">
+     <color background="0xFF9933" inactive="0xFF9933" border="0x330099" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="capgrossos portada" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="01 - Track 01.mp3" />
+     <p>ELS CAPGROSSOS</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="4capgrossosretocats-resized.jpg">
+    <style borderStroke="2.1" markerStroke="2.7">
+     <color border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="capgrossos rei informació" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="08 - Track 08.mp3" />
+     <p>LA HISTÒRIA DELS CAPGROSSOS</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="432.0" cellHeight="580.0" border="true">
+    <style borderStroke="2.1" markerStroke="2.7">
+     <font family="Arial" size="36" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell image="reibl-resized.jpg" />
+    <cell>
+     <p>Veient la Bruixa que a casa meva hi regnaven la felicitat i l’alegria, va decidir quedar-se a viure amb nosaltres durant molts anys, fins un dia que anaven a enderrocar la casa amb nosaltres a dins.</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="capgrossos rei puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="3" cols="2" border="true" image="reibl-resized.jpg">
+    <style borderStroke="2.2" markerStroke="2.7">
+     <color background="0xFF9933" inactive="0xFF9933" border="0x330099" />
+    </style>
+    <shaper class="@ClassicJigSaw" cols="2" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="capgrossos reina puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>MOLT BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="3" cols="2" border="true" image="reinabl-resized.jpg">
+    <style borderStroke="2.1" markerStroke="2.7">
+     <color background="0xFF9933" inactive="0xFF9933" border="0x330099" />
+    </style>
+    <shaper class="@TriangularJigSaw" cols="2" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="capgrossos relacionar" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>RELACIONA</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>GENIAL</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="199.0" cellHeight="127.0" border="true" id="primary">
+    <style borderStroke="2.0" markerStroke="2.7">
+     <font family="Arial" size="28" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell id="0">
+     <p>LA BRUIXA</p>
+    </cell>
+    <cell id="1">
+     <p>EN PATUFET</p>
+    </cell>
+    <cell id="2">
+     <p>EL REI</p>
+    </cell>
+    <cell id="3">
+     <p>LA REINA</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="256.0" cellHeight="127.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0xFF9933" inactive="0xFF9933" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="bruixa2-resized.jpg" />
+    <cell image="patufetfb-resized.jpg" />
+    <cell image="reibl-resized.jpg" />
+    <cell image="reinabl-resized.jpg" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="capgrossos sopa de lletres" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x3300CC" background="0xFFFFFF" />
+     </style>
+     <p>CERCA ELS NOMS DELS CAPGROSSOS</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>EXCEL·LENT</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x3300CC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <textGrid rows="8" columns="8" cellWidth="69.0" cellHeight="62.0" border="true">
+    <style borderStroke="2.2" markerStroke="2.7">
+     <font family="Arial" size="24" bold="true" />
+     <color foreground="0x3300CC" background="0xFF9900" border="0x3300CC" />
+    </style>
+    <text>
+     <row>********</row>
+     <row>***R***T</row>
+     <row>***E***E</row>
+     <row>BRUIXA*F</row>
+     <row>***N***U</row>
+     <row>***A***T</row>
+     <row>*******A</row>
+     <row>*REI***P</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">BRUIXA</clue>
+    <clue id="1">PATUFET</clue>
+    <clue id="2">REINA</clue>
+    <clue id="3">REI</clue>
+   </clues>
+  </activity>
+  <activity class="@panels.InformationScreen" name="carmeta  informació" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="01 - Track 01.mp3" />
+     <p>LA CARMETA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="319.0" cellHeight="532.0" border="true">
+    <style borderStroke="2.0" markerStroke="2.7">
+     <font family="Arial" size="26" bold="true" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <p>La Carmeta de TV-20 representa la persona que va impulsar la primera televisió a Terrassa. Té una alçada de 2'50 metres i un pes de 17'8 kg.</p>
+    </cell>
+    <cell image="carmeta-resized.jpg" />
+   </cells>
+  </activity>
+  <activity class="@text.FillInBlanks" name="carmeta completar" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>COMPLETA EL TEXT</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>PERFECTE</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true">
+     <size width="780" height="192" />
+    </window>
+   </settings>
+   <checkButton>Avalua't</checkButton>
+   <document>
+    <style name="default" size="24" italic="false" bold="false" background="0xFF9900" family="Arial" tabWidth="12" foreground="0x330099" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <section>
+     <p size="24" italic="false" bold="false" family="Arial" background="0xFF9900" foreground="0x330099">
+      <text size="24" italic="false" bold="false" family="Arial" background="0xFF9900" foreground="0x330099">La Carmeta de TV-</text>
+      <target>
+       <answer>20</answer>
+       <optionList>
+        <option>22</option>
+        <option>21</option>
+        <option>20</option>
+       </optionList>
+       <text>20</text>
+      </target>
+      <text size="24" italic="false" bold="false" family="Arial" background="0xFF9900" foreground="0x330099"> representa la persona que va impulsar la primera televisió a Terrassa. Té una alçada de </text>
+      <target>
+       <answer>2'50</answer>
+       <optionList>
+        <option>2'60</option>
+        <option>2'40</option>
+        <option>2'50</option>
+       </optionList>
+       <text>2'50</text>
+      </target>
+      <text size="24" italic="false" bold="false" family="Arial" background="0xFF9900" foreground="0x330099"> metres i un pes de </text>
+      <target>
+       <answer>17'8</answer>
+       <optionList>
+        <option>15'2</option>
+        <option>17'8</option>
+        <option>18'7</option>
+       </optionList>
+       <text>17'8</text>
+      </target>
+      <text size="24" italic="false" bold="false" family="Arial" background="0xFF9900" foreground="0x330099"> kg.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="carmeta puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="2" border="true" image="carmeta-resized.jpg">
+    <style>
+     <color background="0xFF9933" border="0x330099" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="ciutat gegantera" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>CLICA I ESCOLTA</p>
+    </cell>
+    <cell type="final">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>MOLT BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="268.0" cellHeight="215.0" border="true">
+    <style borderStroke="2.2" markerStroke="5.0">
+     <color background="0xFF9933" inactive="0xFF9900" border="0x003399" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell id="0" image="candidata.jpg">
+     <media type="PLAY_AUDIO" level="1" file="Terrassa, Ciutat Gegantera 2015-1.mp3" />
+    </cell>
+    <cell id="1" image="modernista-resized1.jpg">
+     <media type="PLAY_AUDIO" level="1" file="Terrassa, Ciutat Gegantera 2015-2.mp3" />
+    </cell>
+    <cell id="2" image="terrasacg2015-1024x904-resized.jpg">
+     <media type="PLAY_AUDIO" level="1" file="Terrassa, Ciutat Gegantera 2015 -3.mp3" />
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="ciutat gegantera puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>GENIAL</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="terrasacg2015-1024x904-resized.jpg">
+    <style borderStroke="2.2" markerStroke="5.0">
+     <color background="0xFF9933" inactive="0xFF9900" border="0x003399" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="enfaixament" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xF0F0F0" />
+     </style>
+     <p>ENFAIXAMENT</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>EXCEL·LENT</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="enfaixament.jpg">
+    <style borderStroke="2.2" markerStroke="5.0">
+     <color background="0xFF9933" inactive="0xFF9900" border="0x003399" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="fer &quot;el ball&quot;" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xF0F0F0" />
+     </style>
+     <p>FER "EL BALL"</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>PERFECTE</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="fer el ball.jpg">
+    <style borderStroke="2.2" markerStroke="5.0">
+     <color background="0xFF9933" inactive="0xFF9900" border="0x003399" />
+    </style>
+    <shaper class="@JigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="fer canvi" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xF0F0F0" />
+     </style>
+     <p>FER CANVI</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="fer canvi.jpg">
+    <style borderStroke="2.2" markerStroke="5.0">
+     <color background="0xFF9933" inactive="0xFF9900" border="0x003399" />
+    </style>
+    <shaper class="@ClassicJigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="geganter" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xF0F0F0" />
+     </style>
+     <p>GEGANTER</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>MOLT BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="geganter.jpg">
+    <style borderStroke="2.2" markerStroke="5.0">
+     <color background="0xFF9933" inactive="0xFF9900" border="0x003399" />
+    </style>
+    <shaper class="@ClassicJigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="geganters sopa de lletres" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x3300CC" background="0xFFFFFF" />
+     </style>
+     <p>CERCA ELS NOMS DELS GEGANTERS</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>GENIAL</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x3300CC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <textGrid rows="10" columns="10" cellWidth="55.0" cellHeight="48.0" border="true">
+    <style borderStroke="2.2" markerStroke="2.7">
+     <font family="Arial" size="24" bold="true" />
+     <color foreground="0x3300CC" background="0xFF9900" border="0x3300CC" />
+    </style>
+    <text>
+     <row>TABALER**B</row>
+     <row>******E**A</row>
+     <row>******T**L</row>
+     <row>******N**L</row>
+     <row>******A**A</row>
+     <row>******G**D</row>
+     <row>*GRALLER*O</row>
+     <row>******G**R</row>
+     <row>**VOLTADOR</row>
+     <row>PORTADOR**</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">TABALER</clue>
+    <clue id="1">BALLADOR</clue>
+    <clue id="2">GEGANTER</clue>
+    <clue id="3">GRALLER</clue>
+    <clue id="4">VOLTADOR</clue>
+    <clue id="5">PORTADOR</clue>
+   </clues>
+   <cells rows="3" cols="2" cellWidth="210.0" cellHeight="142.0" border="true" id="secondary">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <color background="0xFF9900" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell image="TABALER2-resized.jpg" />
+    <cell image="ballador.jpg" />
+    <cell image="geganter.jpg" />
+    <cell image="GRALLER.jpg" />
+    <cell image="voltadors.jpg" />
+    <cell image="portadors.jpg" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="gegants memory" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x3300CC" background="0xFFFFFF" alternative="0xFF9900" />
+     </style>
+     <p>CERCA LES PARELLES</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>EXCEL·LENT</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="2" cols="4" cellWidth="201.0" cellHeight="208.0" border="true" id="primary">
+    <style borderStroke="2.1" markerStroke="2.7">
+     <font family="Arial" size="24" bold="true" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="2" />
+    <cell>
+     <p>GEGANTS VELLS</p>
+    </cell>
+    <cell>
+     <p>GEGANTS NOUS</p>
+    </cell>
+    <cell>
+     <p>GEGANTS MODERNISTES</p>
+    </cell>
+    <cell>
+     <p>CARMETA</p>
+    </cell>
+    <cell>
+     <p>TRANQUI</p>
+    </cell>
+    <cell>
+     <p>MANELO</p>
+    </cell>
+    <cell>
+     <p>GEGANTS RÈPLIQUES</p>
+    </cell>
+    <cell>
+     <p>ANTONI</p>
+    </cell>
+   </cells>
+   <cells rows="2" cols="3" cellWidth="50.0" cellHeight="30.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="4" rows="2" />
+    <cell image="vellsoriginals-resized.jpg" />
+    <cell image="nous-resized.jpg" />
+    <cell image="modernistes-resized.jpg" />
+    <cell image="carmeta-resized.jpg" />
+    <cell image="tranqui-resized.jpg" />
+    <cell image="manelo2.jpg" />
+    <cell image="vellsrepliques-225x300.jpg" />
+    <cell image="antoni-resized.jpg" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="gegants nous completar" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x000099" background="0xFFFFFF" />
+     </style>
+     <p>COMPLETA AQUEST TEXT</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>PERFECTE</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true">
+     <size width="780" height="298" />
+    </window>
+   </settings>
+   <checkButton>AVALUA'T</checkButton>
+   <document>
+    <style name="default" size="24" italic="false" bold="false" background="0xFF9900" family="Arial" tabWidth="12" foreground="0x330099" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="targetError" base="target" background="0xFF9900" foreground="0xFF0000" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFF9900">Just </text>
+      <target>
+       <answer>cent</answer>
+       <optionList>
+        <option>dos-cents</option>
+        <option>cent</option>
+        <option>tres-cents</option>
+       </optionList>
+       <text>cent </text>
+      </target>
+      <text family="Arial" background="0xFF9900">anys després de la inauguració dels gegants vells, el 2 de juliol de 1950, </text>
+      <target>
+       <answer>Terrassa</answer>
+       <optionList>
+        <option>Rubí</option>
+        <option>Terrassa</option>
+        <option>Cerdanyola</option>
+       </optionList>
+       <text>Terrassa</text>
+      </target>
+      <text family="Arial" background="0xFF9900"> incorporà una nova parella de gegants, construïts per l’olotí Lluís </text>
+      <target>
+       <answer>Carbonell</answer>
+       <optionList>
+        <option>Castellon</option>
+        <option>Colomina</option>
+        <option>Carbonell</option>
+       </optionList>
+       <text>Carbonell</text>
+      </target>
+      <text family="Arial" background="0xFF9900"> i Colom. Són els Gegants Nous, Ramonet(</text>
+      <target>
+       <answer>3,73m</answer>
+       <optionList>
+        <option>3,70m</option>
+        <option>3,71m</option>
+        <option>3,73m</option>
+       </optionList>
+       <text>3,73m</text>
+      </target>
+      <text family="Arial" background="0xFF9900">) i Estefania (</text>
+      <target>
+       <answer>3,65m</answer>
+       <optionList>
+        <option>3,60m</option>
+        <option>3,65m</option>
+        <option>3,70m</option>
+       </optionList>
+       <text>3,65m</text>
+      </target>
+      <text family="Arial" background="0xFF9900">) i representen els comptes de Barcelona </text>
+      <target>
+       <answer>Ramon Borrell i Ermessenda de Carcassona</answer>
+       <optionList>
+        <option>Ramon Berenguer i Estefania de Carcassona</option>
+        <option>Juli Castellon i Immaculada Colomina</option>
+        <option>Ramon Borrell i Ermessenda de Carcassona</option>
+       </optionList>
+       <text>Ramon Borrell i Ermessenda de Carcassona</text>
+      </target>
+      <text family="Arial" background="0xFF9900">.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="gegants nous informació" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="01 - Track 01.mp3" />
+     <p>ELA GEGANTS NOUS</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="398.0" cellHeight="531.0" border="true">
+    <style borderStroke="2.1" markerStroke="5.0">
+     <font family="Arial" size="17" bold="true" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell id="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x003399" background="0xFF9933" />
+     </style>
+     <p>Just cents anys després de la inauguració dels gegants vells, el 2 de juliol de 1950, Terrassa incorporà una nova parella de gegants, construïts per l’olotí Lluís Carbonell i Colom. Són els Gegants Nous, Ramonet(3,73m) i Estefania (3,65m) i representen els comptes de Barcelona Ramon Borrell i Ermessenda de Carcassona.</p>
+    </cell>
+    <cell id="1" image="nous-resized.jpg" />
+   </cells>
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="gegants nous puzzle" code="">
+   <description />
+   <messages>
+    <cell border="true" type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>MOLT BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="nous-resized.jpg">
+    <style borderStroke="2.0" markerStroke="2.8">
+     <font family="Arial" size="17" bold="true" />
+     <color background="0xFF9933" inactive="0xFF9900" alternative="0xFF9900" border="0x330099" />
+    </style>
+    <shaper class="@TriangularJigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="gegants nous relacionar" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>RELACIONA</p>
+    </cell>
+    <cell type="final">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>GENIAL</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="3" cols="2" cellWidth="186.0" cellHeight="169.0" border="true" id="primary">
+    <style borderStroke="2.2" markerStroke="2.7">
+     <font family="Arial" size="18" bold="true" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9900" alternative="0x0099CC" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell id="0">
+     <p>3'73 metres</p>
+    </cell>
+    <cell id="1">
+     <p>3'65 metres</p>
+    </cell>
+    <cell id="0">
+     <p>RAMON BORRELL</p>
+    </cell>
+    <cell id="1">
+     <p>ERMESSENDA DE CARCASSONA</p>
+    </cell>
+    <cell id="1">
+     <p>ESTEFANIA</p>
+    </cell>
+    <cell id="0">
+     <p>RAMONET</p>
+    </cell>
+   </cells>
+   <cells rows="2" cols="1" cellWidth="126.0" cellHeight="144.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0xFF9933" inactive="0x0099CC" alternative="0x0099CC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="2" />
+    <cell image="GEGANT-resized.jpg" />
+    <cell image="GEGANTA-resized.jpg" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="gegants repliques informació" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x000099" background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="04 - Track 04.mp3" />
+     <p>RÈPLIQUES DELS GEGANTS VELLS</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="376.0" cellHeight="562.0" border="true">
+    <style borderStroke="2.0" markerStroke="5.0">
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x003399" background="0xFF9900" />
+     </style>
+     <p>Amb el pas del temps, els cossos dels Gegants Vells s’anaven deteriorant, i amb motiu del seu 160è aniversari a l’any 2010, d’acord amb l’Ajuntament, es va decidir fer unes rèpliques per que fossin les que sortissin durant tot l’any arreu, menys els dies de la Festa Major i Trobades Centenàries que ho faran els originals.</p>
+    </cell>
+    <cell image="226323repliquesmed-resized.jpg" />
+   </cells>
+  </activity>
+  <activity class="@text.FillInBlanks" name="gegants rèpliques completar" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x000099" background="0xFFFFFF" />
+     </style>
+     <p>COMPLETA AQUEST TEXT</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>EXCEL·LENT</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true">
+     <size width="780" height="266" />
+    </window>
+   </settings>
+   <checkButton>AVALUA'I</checkButton>
+   <document>
+    <style name="default" size="24" italic="false" bold="false" tabWidth="12" background="0xFF9900" family="Arial" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="targetError" base="target" background="0xFF9900" foreground="0xFF0000" />
+    <section>
+     <p size="24" italic="false" bold="false" family="Arial" background="0xFF9900">
+      <text size="28" italic="false" bold="false" family="Arial" background="0xFF9900" foreground="0x003399">Amb el pas del temps, els cossos dels Gegants Vells s’anaven deteriorant, i amb motiu del seu </text>
+      <target>
+       <answer>160</answer>
+       <optionList>
+        <option>150</option>
+        <option>160</option>
+        <option>170</option>
+       </optionList>
+       <text>160</text>
+      </target>
+      <text size="28" italic="false" bold="false" family="Arial" background="0xFF9900" foreground="0x003399">è aniversari a l’any </text>
+      <target>
+       <answer>2010</answer>
+       <optionList>
+        <option>1910</option>
+        <option>2000</option>
+        <option>2010</option>
+       </optionList>
+       <text>2010</text>
+      </target>
+      <text size="28" italic="false" bold="false" family="Arial" background="0xFF9900" foreground="0x003399">, d’acord amb l’Ajuntament, es va decidir fer unes rèpliques per que fossin les que sortissin durant tot l’any arreu, menys els dies de la Festa </text>
+      <target>
+       <answer>Major</answer>
+       <optionList>
+        <option>Major</option>
+        <option>Popular</option>
+        <option>Setmanal</option>
+       </optionList>
+       <text>Major</text>
+      </target>
+      <text size="28" italic="false" bold="false" family="Arial" background="0xFF9900" foreground="0x003399"> i Trobades </text>
+      <target>
+       <answer>Centenàries</answer>
+       <optionList>
+        <option>Centenàries</option>
+        <option>Anuals</option>
+        <option>Semestrals</option>
+       </optionList>
+       <text>Centenàries</text>
+      </target>
+      <text size="28" italic="false" bold="false" family="Arial" background="0xFF9900" foreground="0x003399"> que ho faran els originals.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="gegants rèpliques puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>MOLT BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x3300CC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="226323repliquesmed-resized.jpg">
+    <style borderStroke="1.9" markerStroke="2.8">
+     <color background="0xFF9900" inactive="0xFF9900" alternative="0xFF9900" border="0x330099" />
+    </style>
+    <shaper class="@JigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="gegants sopa de lletres" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x3300CC" background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="vals 'el meu solet'.mp3" />
+     <p>CERCA ELS NOMS DELS GEGANTS</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>PERFECTE</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x3300CC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <textGrid rows="10" columns="10" cellWidth="55.0" cellHeight="48.0" border="true">
+    <style borderStroke="2.2" markerStroke="2.7">
+     <font family="Arial" size="24" bold="true" />
+     <color foreground="0x3300CC" background="0xFF9900" border="0x3300CC" />
+    </style>
+    <text>
+     <row>ANTONI*P*C</row>
+     <row>*******E*A</row>
+     <row>*******P*R</row>
+     <row>*******O*M</row>
+     <row>*******N*E</row>
+     <row>***IUQNART</row>
+     <row>*ESTEFANIA</row>
+     <row>****ROBESA</row>
+     <row>**RAMONET*</row>
+     <row>MANELO****</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">ANTONI</clue>
+    <clue id="1">PEPONA</clue>
+    <clue id="2">CARMETA</clue>
+    <clue id="3">TRANQUI</clue>
+    <clue id="4">MANELO</clue>
+    <clue id="5">RAMONET</clue>
+    <clue id="6">ROBESA</clue>
+    <clue id="7">ESTEFANIA</clue>
+   </clues>
+  </activity>
+  <activity class="@text.FillInBlanks" name="gegants vells completar" code="" autoJump="true">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>COMPLETAR EL TEXT SOBRE ELS GEGANTS VELLS</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true">
+     <size width="780" height="351" />
+    </window>
+   </settings>
+   <checkButton>AVALUA'T</checkButton>
+   <document>
+    <style name="default" size="28" italic="false" bold="false" tabWidth="12" background="0xFF9900" family="Arial" />
+    <style name="target" base="default" target="true" background="0xFF9900" foreground="0x0000FF" />
+    <style name="targetError" base="target" background="0xFFFFFF" foreground="0xFF0000" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" Alignment="0">
+      <text size="28" background="0xFF9900" foreground="0x003399">La nostra tradició gegantera a Terrassa es remunta a l’any </text>
+      <target>
+       <answer>1850</answer>
+       <optionList>
+        <option>1950</option>
+        <option>1850</option>
+        <option>2010</option>
+       </optionList>
+       <text>1850</text>
+      </target>
+      <text size="28" background="0xFF9900" foreground="0x003399">. Fou en Francesc Torras i Armengol, artista de la ciutat, qui va construir una parella de gegants i la va donar a l’</text>
+      <target>
+       <answer>Ajuntament</answer>
+       <optionList>
+        <option>Ajuntament</option>
+        <option>Associació</option>
+        <option>Escolania</option>
+       </optionList>
+       <text>Ajuntament</text>
+      </target>
+      <text size="28" background="0xFF9900" foreground="0x003399"> per saldar els deutes que hi tenia. Ell, en </text>
+      <target>
+       <answer>Robesa</answer>
+       <optionList>
+        <option>Ramonet</option>
+        <option>Guifré</option>
+        <option>Robesa</option>
+       </optionList>
+       <text>Robesa</text>
+      </target>
+      <text size="28" background="0xFF9900" foreground="0x003399"> (4,20m), representa un mestre d’obres i amb semblança a un amic de l’escultor. Ella, na </text>
+      <target>
+       <answer>Pepona</answer>
+       <optionList>
+        <option>Marieta</option>
+        <option>Immaculada</option>
+        <option>Pepona</option>
+       </optionList>
+       <text>Pepona</text>
+      </target>
+      <text size="28" background="0xFF9900" foreground="0x003399"> (4,10m), representa una veïna de família benestant del poble.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="0" />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="gegants vells informació" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="02 - Track 02.mp3" />
+     <p>ELS PRIMERS GEGANTS DE LA CIUTAT</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="430.0" cellHeight="594.0" border="true">
+    <style borderStroke="2.0" markerStroke="2.7">
+     <font family="Arial" size="28" bold="true" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="17 - Track 17.mp3" />
+     <p>La nostra tradició gegantera a Terrassa es remunta a l’any 1850. Fou en Francesc Torras i Armengol, artista de la ciutat, qui va construir una parella de gegants i la va donar a l’Ajuntament per saldar els deutes que hi tenia. Ell, en Robesa (4,20m), representa un mestre d’obres i amb semblança a un amic de l’escultor. Ella, na Pepona (4,10m), representa una veïna de família benestant del poble.</p>
+    </cell>
+    <cell image="vellsoriginals-resized.jpg" />
+   </cells>
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="gegants vells puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>MOLT BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="vellsoriginals-resized.jpg">
+    <style borderStroke="2.2" markerStroke="2.7">
+     <font family="Arial" size="17" bold="true" />
+     <color background="0xFF9933" inactive="0xFF9900" border="0x330099" />
+    </style>
+    <shaper class="@ClassicJigSaw" cols="3" rows="2" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="gegants vells relacionar" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x000099" background="0xFFFFFF" />
+     </style>
+     <p>RELACIONA</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x0000FF" background="0xFFFFFF" />
+     </style>
+     <p>GENIAL</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x3300CC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="2" cellWidth="170.0" cellHeight="150.0" border="true" id="primary">
+    <style borderStroke="1.7" markerStroke="2.7">
+     <font family="Arial" size="18" bold="true" />
+     <color foreground="0x3300CC" background="0xFF9900" inactive="0xFF9900" alternative="0xFF9900" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell id="0">
+     <p>PEPONA</p>
+    </cell>
+    <cell id="1">
+     <p>ROBESA</p>
+    </cell>
+    <cell id="0">
+     <p>FAMÍLIA BENESTANT</p>
+    </cell>
+    <cell id="1">
+     <p>MESTRE D'OBRES</p>
+    </cell>
+    <cell id="1">
+     <p>4,20 METRES</p>
+    </cell>
+    <cell id="0">
+     <p>4,10 METRES</p>
+    </cell>
+   </cells>
+   <cells rows="2" cols="1" cellWidth="119.0" cellHeight="134.0" border="true" id="secondary">
+    <style>
+     <color background="0xFF9900" inactive="0xFF9900" alternative="0xFF9900" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="2" />
+    <cell image="PEPONA.jpg" />
+    <cell image="ROBESA.jpg" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="graller" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xF0F0F0" />
+     </style>
+     <p>GRALLER</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>EXCEL·LENT</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="GRALLER.jpg">
+    <style borderStroke="2.2" markerStroke="5.0">
+     <color background="0xFF9933" inactive="0xFF9900" border="0x003399" />
+    </style>
+    <shaper class="@ClassicJigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="manelo puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>PERFECTE</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="2" border="true" image="manelo2.jpg">
+    <style borderStroke="2.0" markerStroke="2.7">
+     <color background="0xFF9933" inactive="0xFF9900" border="0x330099" />
+    </style>
+    <shaper class="@JigSaw" cols="2" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="maneló completar" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>COMPLETA EL TEXT</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true">
+     <size width="678" height="321" />
+    </window>
+   </settings>
+   <checkButton>AVALUA'T</checkButton>
+   <document>
+    <style name="default" size="24" italic="false" bold="false" background="0xFF9900" family="Arial" tabWidth="12" foreground="0x330099" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="targetError" base="target" background="0xFFFFFF" foreground="0xFF0000" />
+    <section>
+     <p size="24" family="Arial" background="0xFF9900" foreground="0x330099">
+      <text size="24" italic="false" bold="false" family="Arial" background="0xFF9900" foreground="0x330099">Va ser recuperat dins del </text>
+      <target>
+       <answer>60è</answer>
+       <optionList>
+        <option>60è</option>
+        <option>50è</option>
+        <option>40è</option>
+       </optionList>
+       <text>60è</text>
+      </target>
+      <text size="24" italic="false" bold="false" family="Arial" background="0xFF9900" foreground="0x330099"> aniversari dels gegants Nous Ramonet i Estefania, l’any 2010. L’original va ser estrenat l’any </text>
+      <target>
+       <answer>1950</answer>
+       <optionList>
+        <option>1980</option>
+        <option>1990</option>
+        <option>1950</option>
+       </optionList>
+       <text>1950</text>
+      </target>
+      <text size="24" italic="false" bold="false" family="Arial" background="0xFF9900" foreground="0x330099"> juntament amb els gegants Nous i només va sortir amb ells, com a mestre de cerimònies, durant un petit temps de cinc o sis anys. Se li va perdre la pista fins al dia de la seva recuperació. El seu constructor ha estat en </text>
+      <target>
+       <answer>Jordi Grau</answer>
+       <optionList>
+        <option>David Castellón</option>
+        <option>Jordi Grau</option>
+        <option>Albert Bou</option>
+       </optionList>
+       <text>Jordi Grau</text>
+      </target>
+      <text size="24" italic="false" bold="false" family="Arial" background="0xFF9900" foreground="0x330099">, que l’ha fet a partir d’unes fotografies que el documentaven.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="maneló informació" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="04 - Track 04.mp3" />
+     <p>EL MANELÓ</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="369.0" cellHeight="420.0" border="true">
+    <style borderStroke="2.1" markerStroke="2.7">
+     <font family="Arial" size="24" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <p>Va ser recuperat dins del 60è aniversari dels gegants Nous Ramonet i Estefania, l’any 2010. L’original va ser estrenat l’any 1950 juntament amb els gegants Nous i només va sortir amb ells, com a mestre de cerimònies, durant un petit temps de cinc o sis anys. Se li va perdre la pista fins al dia de la seva recuperació. El seu constructor ha estat en Jordi Grau, que l’ha fet a partir d’unes fotografies que el documentaven.</p>
+    </cell>
+    <cell image="manelo2.jpg" />
+   </cells>
+  </activity>
+  <activity class="@panels.Identify" name="menu2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>TRIA UNA OPCIÓ</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="5" cols="1" cellWidth="437.0" cellHeight="116.0" border="true" id="primary">
+    <style borderStroke="1.7" markerStroke="5.0">
+     <font family="Arial" size="36" bold="true" />
+     <color foreground="0x003399" background="0xFF9900" shadow="0x000099" border="0x000099" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell id="0">
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="vocabulari" />
+     <p>ELS GEGANTERS</p>
+    </cell>
+    <cell id="0">
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="uniformitat clàssica" />
+     <p>UNIFORMITAT</p>
+    </cell>
+    <cell id="0">
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="músiques i balls1 informació" />
+     <p>MÚSIQUES I BALLS</p>
+    </cell>
+    <cell id="0">
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="FESTES" />
+     <p>FESTES</p>
+    </cell>
+    <cell id="0">
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="menú" />
+     <p>TORNAR AL MENU PRINCIPAL</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+  </activity>
+  <activity class="@panels.Identify" name="menú" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="1.6" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" border="0x330099" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="01 - Track 01.mp3" />
+     <p>TRIA UNA OPCIÓ</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="292.0" cellHeight="225.0" border="true" id="primary">
+    <style borderStroke="1.7" markerStroke="5.0">
+     <font family="Arial" size="36" bold="true" />
+     <color foreground="0x003399" background="0xFF9900" shadow="0x000099" border="0x000099" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell id="0">
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="gegants vells informació" />
+     <p>GEGANTS I GEGANTONS</p>
+    </cell>
+    <cell id="0">
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="capgrossos portada" />
+     <p>CAPGROSSOS</p>
+    </cell>
+    <cell id="0">
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="menu2" />
+     <p>COLLA GEGANTERA</p>
+    </cell>
+    <cell id="0">
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="1. Fer els dibuixos" />
+     <p>CONSTRUCCIÓ D'UN GEGANT</p>
+    </cell>
+    <cell id="0">
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="ciutat gegantera" />
+     <p>CIUTAT GEGANTERA 2015</p>
+    </cell>
+    <cell id="0">
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="CRÈDITS1" />
+     <p>CRÈDITS,AGRAÏMENTS I ENLLAÇOS</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="modernistes completar" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>COMPLETA EL TEXT</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>MOLT BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true">
+     <size width="775" height="600" />
+    </window>
+   </settings>
+   <checkButton>AVALUA'T</checkButton>
+   <document>
+    <style name="default" size="36" italic="false" bold="false" background="0xFF9900" family="Arial" tabWidth="12" foreground="0x003399" />
+    <style name="target" base="default" target="true" background="0xFF9900" foreground="0x0000FF" />
+    <style name="targetError" base="target" background="0xFFFFFF" foreground="0xFF0000" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" Alignment="0">
+      <text size="34" family="Arial" background="0xFF9900" foreground="0x003399">L’any </text>
+      <target>
+       <answer>2007</answer>
+       <optionList>
+        <option>2005</option>
+        <option>2006</option>
+        <option>2007</option>
+       </optionList>
+       <text>2007</text>
+      </target>
+      <text size="34" family="Arial" background="0xFF9900" foreground="0x003399">, per iniciativa del Grup de Geganters de Terrassa, els </text>
+      <target>
+       <answer>terrassencs</answer>
+       <optionList>
+        <option>terrassencs</option>
+        <option>sabadellencs</option>
+        <option>barcelonins</option>
+       </optionList>
+       <text>terrassencs</text>
+      </target>
+      <text size="34" family="Arial" background="0xFF9900" foreground="0x003399"> Jordi Grau i en Ramon Roig construeixen els Gegants Modernistes. Són en </text>
+      <target>
+       <answer>Magí</answer>
+       <optionList>
+        <option>Pep</option>
+        <option>Magí</option>
+        <option>Robert</option>
+       </optionList>
+       <text>Magí</text>
+      </target>
+      <text size="34" family="Arial" background="0xFF9900" foreground="0x003399"> i na </text>
+      <target>
+       <answer>Roseta</answer>
+       <optionList>
+        <option>Mercè</option>
+        <option>Pepeta</option>
+        <option>Roseta</option>
+       </optionList>
+       <text>Roseta</text>
+      </target>
+      <text size="34" family="Arial" background="0xFF9900" foreground="0x003399"> i representen una parella de finals del segle </text>
+      <target>
+       <answer>XIX</answer>
+       <optionList>
+        <option>XX</option>
+        <option>XIX</option>
+        <option>XVIII</option>
+       </optionList>
+       <text>XIX</text>
+      </target>
+      <text size="34" family="Arial" background="0xFF9900" foreground="0x003399">. Es van estrenar durant la cinquena Fira Modernista, declarada d’interès turístic per la Generalitat de Catalunya, i van ser apadrinats </text>
+      <text family="Arial" background="0xFF9900">pels</text>
+      <text size="34" family="Arial" background="0xFF9900" foreground="0x003399"> Gegants del Pi de </text>
+      <target>
+       <answer>Barcelona</answer>
+       <optionList>
+        <option>Tarragona</option>
+        <option>Girona</option>
+        <option>Barcelona</option>
+       </optionList>
+       <text>Barcelona</text>
+      </target>
+      <text size="34" family="Arial" background="0xFF9900" foreground="0x003399">.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="modernistes informació" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="08 - Track 08.mp3" />
+     <p>ELS GEGANTS MODERNISTES</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="338.0" cellHeight="532.0" border="true">
+    <style borderStroke="2.0" markerStroke="2.7">
+     <font family="Arial" size="17" bold="true" />
+     <color background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x003399" background="0xFF9900" />
+     </style>
+     <p>L’any 2007, per iniciativa del Grup de Geganters de Terrassa, els terrassencs Jordi Grau i en Ramon Roig construeixen els Gegants Modernistes. Són en Magí i na Roseta i representen una parella de finals del segle XIX. Es van estrenar durant la cinquena Fira Modernista, declarada d’interès turístic per la Generalitat de Catalunya, i van ser apadrinats pels Gegants del Pi de Barcelona.</p>
+    </cell>
+    <cell image="modernistes-resized.jpg" />
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="modernistes puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>GENIAL</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="2" border="true" image="modernistes-resized.jpg">
+    <style borderStroke="2.0" markerStroke="2.7">
+     <font family="Arial" size="17" bold="true" />
+     <color background="0xFF9933" border="0x330099" />
+    </style>
+    <shaper class="@ClassicJigSaw" cols="2" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="músiques i balls relacionar" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xF0F0F0" />
+     </style>
+     <p>RELACIONA</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>EXCEL·LENT</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="153.0" cellHeight="124.0" border="true" id="primary">
+    <style borderStroke="2.2" markerStroke="2.7">
+     <font family="Arial" size="18" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9900" alternative="0x0099CC" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell id="0">
+     <media type="PLAY_AUDIO" level="1" file="vals 'el meu solet'.mp3" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="vals jota.mp3" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="el ball rodó.mp3" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="valset valencià.mp3" />
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="206.0" cellHeight="101.0" border="true" id="secondary">
+    <style borderStroke="2.3" markerStroke="2.7">
+     <font family="Arial" size="20" bold="true" />
+     <color foreground="0x330099" background="0xFF9933" inactive="0xFF9933" alternative="0x0099CC" border="0x330099" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <p>EL MEU SOLET</p>
+    </cell>
+    <cell>
+     <p>EL VALS JOTA</p>
+    </cell>
+    <cell>
+     <p>EL BALL RODÓ</p>
+    </cell>
+    <cell>
+     <p>EL VALSET VALENCIÀ</p>
+    </cell>
+   </cells>
+   <cells rows="2" cols="2" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="músiques i balls1 informació" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="vals 'el meu solet'.mp3" />
+     <p>EL MEU SOLET</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="272.0" cellHeight="287.0" border="true">
+    <style borderStroke="2.0" markerStroke="2.7">
+     <font family="Arial" size="36" bold="true" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell image="SOL SOLET.gif" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="músiques i balls2 informació" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="vals jota.mp3" />
+     <p>EL VALS JOTA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="330.0" cellHeight="265.0" border="true">
+    <style borderStroke="2.0" markerStroke="2.7">
+     <font family="Arial" size="36" bold="true" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell image="EL VALS JOTA.gif" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="músiques i balls3 informació" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="el ball rodó.mp3" />
+     <p>EL BALL RODÓ</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="330.0" cellHeight="265.0" border="true">
+    <style borderStroke="2.0" markerStroke="2.7">
+     <font family="Arial" size="36" bold="true" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell image="BALL RODÓ.gif" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="músiques i balls4 informació" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="valset valencià.mp3" />
+     <p>EL VALSET VALENCIÀ</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="330.0" cellHeight="265.0" border="true">
+    <style borderStroke="2.0" markerStroke="2.7">
+     <font family="Arial" size="36" bold="true" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell image="VALSET VALENCIA.gif" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="portada" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="2.2" markerStroke="2.7">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" border="0x000099" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="08 - Track 08.mp3" />
+     <p>ELS GEGANTS DE TERRASSA</p>
+    </cell>
+   </messages>
+   <settings margin="15" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="934.0" cellHeight="535.0" border="true">
+    <style borderStroke="2.1" markerStroke="2.7">
+     <color background="0xFF9933" border="0x330099" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell txtAlign="middle,bottom" image="PORTADA2-resized.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFF9900" border="0x330099" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="01 - Track 01.mp3" />
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="portador" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xF0F0F0" />
+     </style>
+     <p>PORTADOR</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>PERFECTE</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="portadors.jpg">
+    <style borderStroke="2.2" markerStroke="5.0">
+     <color background="0xFF9933" inactive="0xFF9900" border="0x003399" />
+    </style>
+    <shaper class="@TriangularJigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="tabaler" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xF0F0F0" />
+     </style>
+     <p>TABALER</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="TABALER2-resized.jpg">
+    <style borderStroke="2.2" markerStroke="5.0">
+     <color background="0xFF9933" inactive="0xFF9900" border="0x003399" />
+    </style>
+    <shaper class="@JigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="tranqui completar" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>COMPLETA EL TEXT</p>
+    </cell>
+    <cell type="final">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>MOLT BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="666" height="217" />
+    </window>
+   </settings>
+   <checkButton>AVALUA'T</checkButton>
+   <document>
+    <style name="default" size="24" italic="false" bold="false" background="0xFF9900" family="Arial" tabWidth="12" foreground="0x330099" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <section>
+     <p size="24" family="Arial" background="0xFF9900" foreground="0x330099">
+      <text size="24" italic="false" bold="false" family="Arial" background="0xFF9900" foreground="0x330099">En Tranqui, àlies "</text>
+      <target>
+       <answer>Llesquetes</answer>
+       <optionList>
+        <option>Tomaquet</option>
+        <option>Llesquetes</option>
+        <option>Tronxet</option>
+       </optionList>
+       <text>Llesquetes</text>
+      </target>
+      <text size="24" italic="false" bold="false" family="Arial" background="0xFF9900" foreground="0x330099">", que representa un geganter i que serveix d'aprenentatge als més menuts. Té una alçada de </text>
+      <target>
+       <answer>1'70</answer>
+       <optionList>
+        <option>1'60</option>
+        <option>1'80</option>
+        <option>1'70</option>
+       </optionList>
+       <text>1'70</text>
+      </target>
+      <text size="24" italic="false" bold="false" family="Arial" background="0xFF9900" foreground="0x330099"> metres i un pes de </text>
+      <target>
+       <answer>9'7</answer>
+       <optionList>
+        <option>9'7</option>
+        <option>9'2</option>
+        <option>9'4</option>
+       </optionList>
+       <text>9'7</text>
+      </target>
+      <text size="24" italic="false" bold="false" family="Arial" background="0xFF9900" foreground="0x330099"> kg.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="tranqui informació" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="02 - Track 02.mp3" />
+     <p>EL TRANQUI</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="337.0" cellHeight="539.0" border="true">
+    <style borderStroke="1.9" markerStroke="2.7">
+     <font family="Arial" size="24" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <p>En Tranqui, àlies "Llesquetes", que representa un geganter i que serveix d'aprenentatge als més menuts. Té una alçada de 1'70 metres i un pes de 9'7 kg.</p>
+    </cell>
+    <cell image="tranqui-resized.jpg" />
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="tranqui puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>GENIAL</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="2" border="true" image="tranqui-resized.jpg">
+    <style borderStroke="2.1" markerStroke="2.7">
+     <font family="Arial" size="17" bold="true" />
+     <color background="0xFF9933" border="0x330099" />
+    </style>
+    <shaper class="@TriangularJigSaw" cols="2" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="uniformitat clàssica" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>UNIFORMITAT CLÀSSICA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="532.0" cellHeight="418.0" border="true">
+    <style borderStroke="2.1" markerStroke="5.0">
+     <font family="Arial" size="22" bold="true" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell image="C:/Users/miriamcc_92/Desktop/gegants terrassa/FOTOS2 GEGANTS/oficial.jpg" />
+    <cell>
+     <p>CAMISA DE COLOR BLANC-PANTALON DE COLOR BLANC-MOCADOR VERMELL AMB CLAPEJAT BLANC DE CASTELLER-FAIXA DE COLOR NEGRE DE CASTELLER-CALÇAT DE COLOR BLANC.</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="uniformitat clàssica puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xF0F0F0" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>EXCEL.LENT</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x3300CC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="oficial.jpg">
+    <style borderStroke="1.9" markerStroke="2.8">
+     <color background="0xFF9900" inactive="0xFF9900" alternative="0xFF9900" border="0x330099" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="uniformitat modernista" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xFFFFFF" />
+     </style>
+     <p>UNIFORMITAT MODERNISTA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9933" border="true" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="526.0" cellHeight="465.0" border="true">
+    <style borderStroke="2.1" markerStroke="5.0">
+     <font family="Arial" size="22" bold="true" />
+     <color foreground="0x003399" background="0xFF9933" inactive="0xFF9933" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell image="C:/Users/miriamcc_92/Desktop/gegants terrassa/FOTOS2 GEGANTS/modernista-resized.jpg" />
+    <cell>
+     <p>CAMISA DE COLOR BLANC-PANTALON DE COLOR BLAU-MOCADOR MODERNISTA A QUADRETS BLANCS I BLAUS-FAIXA DE COLOR NEGRE DE CASTELLER-CALÇAT DE COLOR BLANC.</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="uniformitat modernista puzzle" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xF0F0F0" />
+     </style>
+     <p>FES EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>PERFECTE</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x3300CC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="modernista-resized.jpg">
+    <style borderStroke="1.9" markerStroke="2.8">
+     <color background="0xFF9900" inactive="0xFF9900" alternative="0xFF9900" border="0x330099" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Explore" name="vocabulari" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>CLICA I LLEGEIX</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x3300CC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="2" cols="5" cellWidth="208.0" cellHeight="89.0" border="true" id="primary">
+    <style borderStroke="1.7" markerStroke="5.0">
+     <font family="Arial" size="18" />
+     <color foreground="0x3300CC" background="0xFF9900" inactive="0xFF9900" alternative="0xFF9900" border="0x3300CC" />
+    </style>
+    <shaper class="@Rectangular" cols="5" rows="2" />
+    <cell id="0">
+     <p>GEGANTER</p>
+    </cell>
+    <cell id="1">
+     <p>PORTADORS</p>
+    </cell>
+    <cell id="2">
+     <p>BALLADORS</p>
+    </cell>
+    <cell id="3">
+     <p>VOLTADORS</p>
+    </cell>
+    <cell id="4">
+     <p>GRALLER</p>
+    </cell>
+    <cell id="5">
+     <p>TABALER</p>
+    </cell>
+    <cell id="6">
+     <p>ACOMPANYANTS</p>
+    </cell>
+    <cell id="7">
+     <p>FER CANVI</p>
+    </cell>
+    <cell id="8">
+     <p>ENFAIXAMENT</p>
+    </cell>
+    <cell id="9">
+     <p>FER "EL BALL"</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="1035.0" cellHeight="39.0" border="true" id="secondary">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <font family="Arial" size="17" bold="true" />
+     <color foreground="0x003399" background="0xFF9900" inactive="0xFF9900" alternative="0xFF9900" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell>
+     <p>És tothom que col.labora per tirar endavant els objectius de la colla.</p>
+    </cell>
+    <cell>
+     <p>Són els que traginen el gegant d'un lloc a l'altre.</p>
+    </cell>
+    <cell>
+     <p>Són els que, a més de traginar el gegant, el fan ballar.</p>
+    </cell>
+    <cell>
+     <p>Són els que vigilen pel voltant del gegant, procurant que el portador no ensopegui amb cap sot del carrer, que no s'enganxi el gegant a cap fil elèctric, que ningú tibi dels vestits del gegant,que ningú es creui pel davant del gegant, entre altres coses. </p>
+    </cell>
+    <cell>
+     <p>És el músic que toca la gralla per fer ballar el gegant.</p>
+    </cell>
+    <cell>
+     <p>És el músic que toca el tabal per fer ballar el gegant.</p>
+    </cell>
+    <cell>
+     <p>Són els geganters que es cuiden dels més menuts, porten l'aigua per veure, ajuden a muntar i desmuntar els gegants entre altres coses.</p>
+    </cell>
+    <cell>
+     <p>És el relleu que es fa, d'un geganter portador a un altre, durant la cercavila.</p>
+    </cell>
+    <cell>
+     <p>Acció de posar-se la faixa per prevenir possibles lesions.</p>
+    </cell>
+    <cell>
+     <p>És el lluiment específic del gegant, en el qual en gaudeixen el públic i el propi geganter, però per això, fan falta moltes hores d'assajos.</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="voltador" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x003399" background="0xF0F0F0" />
+     </style>
+     <p>VOLTADOR</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x330099" background="0xFFFFFF" />
+     </style>
+     <p>BÉ</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x003399">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9900" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="voltadors.jpg">
+    <style borderStroke="2.2" markerStroke="5.0">
+     <color background="0xFF9933" inactive="0xFF9900" border="0x003399" />
+    </style>
+    <shaper class="@JigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="BALL RODÓ.gif" file="ball_rodo.gif" />
+  <media name="EL VALS JOTA.gif" file="el_vals_jota.gif" />
+  <media name="SOL SOLET.gif" file="sol_solet.gif" />
+  <media name="VALSET VALENCIA.gif" file="valset_valencia.gif" />
+  <media name="226323repliquesmed-resized.jpg" file="226323repliquesmed_resized.jpg" />
+  <media name="4capgrossosretocats-resized.jpg" file="4capgrossosretocats_resized.jpg" />
+  <media name="acompanyant.jpg" file="acompanyant.jpg" />
+  <media name="antoni-resized.jpg" file="antoni_resized.jpg" />
+  <media name="ballador.jpg" file="ballador.jpg" />
+  <media name="bruixa2-resized.jpg" file="bruixa2_resized.jpg" />
+  <media name="C:/Users/miriamcc_92/Desktop/gegants terrassa/FOTOS2 GEGANTS/modernista-resized.jpg" file="c__users_miriamcc_92_desktop_gegants_terrassa_fotos2_gegants_modernista_resized.jpg" />
+  <media name="C:/Users/miriamcc_92/Desktop/gegants terrassa/FOTOS2 GEGANTS/oficial.jpg" file="c__users_miriamcc_92_desktop_gegants_terrassa_fotos2_gegants_oficial.jpg" />
+  <media name="candidata.jpg" file="candidata.jpg" />
+  <media name="carmeta-resized.jpg" file="carmeta_resized.jpg" />
+  <media name="enfaixament.jpg" file="enfaixament.jpg" />
+  <media name="fer canvi.jpg" file="fer_canvi.jpg" />
+  <media name="fer el ball.jpg" file="fer_el_ball.jpg" />
+  <media name="GEGANT-resized.jpg" file="gegant_resized.jpg" />
+  <media name="GEGANTA-resized.jpg" file="geganta_resized.jpg" />
+  <media name="geganter.jpg" file="geganter.jpg" />
+  <media name="GRALLER.jpg" file="graller.jpg" />
+  <media name="manelo2.jpg" file="manelo2.jpg" />
+  <media name="modernista-resized.jpg" file="modernista_resized.jpg" />
+  <media name="modernista-resized1.jpg" file="modernista_resized1.jpg" />
+  <media name="modernistes-resized.jpg" file="modernistes_resized.jpg" />
+  <media name="nous-resized.jpg" file="nous_resized.jpg" />
+  <media name="oficial.jpg" file="oficial.jpg" />
+  <media name="patufetfb-resized.jpg" file="patufetfb_resized.jpg" />
+  <media name="PEPONA.jpg" file="pepona.jpg" />
+  <media name="PORTADA2-resized.jpg" file="portada2_resized.jpg" />
+  <media name="portadors.jpg" file="portadors.jpg" />
+  <media name="reibl-resized.jpg" file="reibl_resized.jpg" />
+  <media name="reinabl-resized.jpg" file="reinabl_resized.jpg" />
+  <media name="ROBESA.jpg" file="robesa.jpg" />
+  <media name="Sin título-resized.jpg" file="sin_titulo_resized.jpg" />
+  <media name="Sin título10-resized.jpg" file="sin_titulo10_resized.jpg" />
+  <media name="Sin título11.jpg" file="sin_titulo11.jpg" />
+  <media name="Sin título12-resized.jpg" file="sin_titulo12_resized.jpg" />
+  <media name="Sin título13-resized.jpg" file="sin_titulo13_resized.jpg" />
+  <media name="Sin título14-resized.jpg" file="sin_titulo14_resized.jpg" />
+  <media name="Sin título15-resized.jpg" file="sin_titulo15_resized.jpg" />
+  <media name="Sin título17-resized.jpg" file="sin_titulo17_resized.jpg" />
+  <media name="Sin título18-resized.jpg" file="sin_titulo18_resized.jpg" />
+  <media name="Sin título19-resized.jpg" file="sin_titulo19_resized.jpg" />
+  <media name="Sin título2-resized.jpg" file="sin_titulo2_resized.jpg" />
+  <media name="Sin título20-resized.jpg" file="sin_titulo20_resized.jpg" />
+  <media name="Sin título3-resized.jpg" file="sin_titulo3_resized.jpg" />
+  <media name="Sin título5-resized.jpg" file="sin_titulo5_resized.jpg" />
+  <media name="Sin título6-resized.jpg" file="sin_titulo6_resized.jpg" />
+  <media name="Sin título7-resized.jpg" file="sin_titulo7_resized.jpg" />
+  <media name="Sin título8-resized.jpg" file="sin_titulo8_resized.jpg" />
+  <media name="Sin título9-resized.jpg" file="sin_titulo9_resized.jpg" />
+  <media name="TABALER2-resized.jpg" file="tabaler2_resized.jpg" />
+  <media name="terrasacg2015-1024x904-resized.jpg" file="terrasacg2015_1024x904_resized.jpg" />
+  <media name="tranqui-resized.jpg" file="tranqui_resized.jpg" />
+  <media name="vellsoriginals-resized.jpg" file="vellsoriginals_resized.jpg" />
+  <media name="vellsrepliques-225x300.jpg" file="vellsrepliques_225x300.jpg" />
+  <media name="voltadors.jpg" file="voltadors.jpg" />
+  <media name="01 - Track 01.mp3" file="01___track_01_00_44.mp3" />
+  <media name="02 - Track 02.mp3" file="02___track_02_00_28.mp3" />
+  <media name="04 - Track 04.mp3" file="04___track_04_00_49.mp3" />
+  <media name="08 - Track 08.mp3" file="08___track_08_01_02.mp3" />
+  <media name="17 - Track 17.mp3" file="17___track_17_00_57.mp3" />
+  <media name="el ball rodó.mp3" file="el_ball_rodo.mp3" />
+  <media name="Terrassa, Ciutat Gegantera 2015 -3.mp3" file="terrassa__ciutat_gegantera_2015__3.mp3" />
+  <media name="Terrassa, Ciutat Gegantera 2015-1.mp3" file="terrassa__ciutat_gegantera_2015_1.mp3" />
+  <media name="Terrassa, Ciutat Gegantera 2015-2.mp3" file="terrassa__ciutat_gegantera_2015_2.mp3" />
+  <media name="vals 'el meu solet'.mp3" file="vals__el_meu_solet_.mp3" />
+  <media name="vals jota.mp3" file="vals_jota__2_.mp3" />
+  <media name="valset valencià.mp3" file="valet_valencia.mp3" />
+ </mediaBag>
+</JClicProject>
+

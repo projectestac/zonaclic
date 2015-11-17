@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicInstall title="The hydrosphere" authors="Carmen Mª Méndez González" folder="hydros">
+ <file src="hydros.jclic.zip" />
+ <file src="hydros.jclic.inst" />
+ <shortcut project="hydros.jclic.zip" text="The hydrosphere" description="" icon="" />
+</JClicInstall>
+

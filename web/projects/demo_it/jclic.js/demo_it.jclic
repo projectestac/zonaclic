@@ -1,0 +1,5261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="demo_it" version="0.1.3">
+ <settings>
+  <title>Attività dimostrative di JClic</title>
+  <revision description="Creació" date="2/1/02">
+   <comments>
+    <p>Adaptació a partir de les activitats de demostració del Clic 3.0</p>
+   </comments>
+  </revision>
+  <revision description="Traduzione italiana" date="12/3/05">
+   <author name="Roberto Marcolin" mail="nilocram@netscape.net" />
+  </revision>
+  <author name="Francesc Busquets i Burguera" mail="fbusquets@pie.xtec.es" />
+  <description>
+   <p>L'obiettivo di questo progetto è mostrare  i diversi tipi di attività e le principalii funzioni di JClic. Il progetto è organizzato in due parti:nella prima c'èuna sequenza per ciascun tipo di attività (puzzle, associazioni, sopes de lletres, parole crociate e attività di testo), nella seconda viene presentato un riepilogo  delle principali novità di JClic rispetto alla versione precedente, Clic 3.0.</p>
+  </description>
+  <descriptors />
+ </settings>
+ <sequence>
+  <item id="demo.pac" name="pres0.ass" delay="50">
+   <jump tag="menu0.pac" id="forward" />
+   <jump action="STOP" id="back" />
+  </item>
+  <item id="menu0.pac" name="menu0.ass">
+   <jump action="STOP" id="forward" />
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="menuact.ass">
+   <jump action="STOP" id="forward" />
+   <jump action="STOP" id="back" />
+  </item>
+  <item id="menunou.pac" name="nou">
+   <jump tag="menu0.pac" id="forward" />
+   <jump action="STOP" id="back" />
+  </item>
+  <item id="menupuz.pac" name="menupuz.ass">
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="puz01.puz" />
+  <item name="puz02.puz" />
+  <item name="puz03.puz" />
+  <item name="gigpuzzle" />
+  <item name="mapa" />
+  <item name="puzanim.puz" />
+  <item name="puz04.puz" />
+  <item name="puz05.puz" />
+  <item name="puz06.puz" />
+  <item name="puz06b.puz">
+   <jump tag="menuact.pac" id="forward" />
+  </item>
+  <item id="menuact.pac" name="menuact.ass">
+   <jump action="STOP" id="forward" />
+   <jump action="STOP" id="back" />
+  </item>
+  <item id="menuass.pac" name="menuass.ass">
+   <description>
+    <p>Paquet d'exemples d'associacions</p>
+   </description>
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="ass01.ass" />
+  <item name="ass02.ass" />
+  <item name="ass04.ass" />
+  <item name="ass05.ass" />
+  <item name="ass06.ass" />
+  <item name="ass07.ass" />
+  <item name="ass09.ass" />
+  <item name="ass12.ass" />
+  <item name="ass13.ass">
+   <jump tag="menuact.pac" id="forward" />
+  </item>
+  <item id="menusop.pac" name="menusop.ass">
+   <description>
+    <p>Paquet d'exemples de sopes de lletres</p>
+   </description>
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="sop01.sop" />
+  <item name="sop02.sop" />
+  <item name="sop03.sop">
+   <jump tag="menuact.pac" id="forward" />
+  </item>
+  <item id="menucrw.pac" name="menucrw.ass">
+   <description>
+    <p>Paquet d'exemples de mots encreuats</p>
+   </description>
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="crw01.crw" />
+  <item name="crw02.crw">
+   <jump tag="menuact.pac" id="forward" />
+  </item>
+  <item id="menutxa.pac" name="menutxa.ass">
+   <description>
+    <p>Paquet d'exemples d'activitats de text</p>
+   </description>
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="ass08.ass" />
+  <item name="txa01.txa" />
+  <item name="txa02.txa" />
+  <item name="txa03.txa" />
+  <item name="txa04.txa" />
+  <item name="txa05.txa" />
+  <item name="txa07.txa" />
+  <item name="txa08.txa" />
+  <item name="txa09.txa" />
+  <item name="txa10.txa" />
+  <item name="txa11.txa" />
+  <item name="txa12.txa" />
+  <item name="txa13.txa" />
+  <item name="txa14.txa">
+   <jump tag="menuact.pac" id="forward" />
+  </item>
+  <item id="skins" name="skin01.txa">
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="skin02.txa" />
+  <item name="skin03.txa" />
+  <item name="skin04.txa">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item id="anim" name="anim.ass">
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="anim1" />
+  <item name="puzanim.puz" />
+  <item name="anim2">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item id="sounds" name="sounds">
+   <jump action="RETURN" id="forward" />
+   <jump action="STOP" id="back" />
+  </item>
+  <item id="features" name="novetats">
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="maxTimeSample" />
+  <item name="maxActionsSample" />
+  <item name="useOrderSample" />
+  <item name="puz06b.puz" />
+  <item name="ass01b.ass" />
+  <item name="ass01c.ass" />
+  <item name="estils.txa" />
+  <item name="caselles.txa" />
+  <item name="fonts.txa">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item id="shapers" name="shape1">
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="shape3" />
+  <item name="shape2" />
+  <item name="shape4" />
+  <item name="mapa">
+   <jump action="RETURN" id="forward" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.InformationScreen" name="anim.ass" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Multimedia e animazioni</p>
+    </cell>
+    <cell type="final">
+     <style />
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="5" cols="3" cellWidth="190.0" cellHeight="80.0" border="true">
+    <style>
+     <font family="Arial" size="12" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Holes" cols="3" rows="5" scaleX="3.0" scaleY="12.0">
+     <enclosing>
+      <shape>rectangle:0,0,3,12</shape>
+     </enclosing>
+     <shape>rectangle:0,0,3,2</shape>
+     <shape>rectangle:0,2,1,4</shape>
+     <shape>rectangle:1,2,1,4</shape>
+     <shape>rectangle:2,2,1,4</shape>
+     <shape>rectangle:0,6,1,1</shape>
+     <shape>rectangle:1,6,1,1</shape>
+     <shape>rectangle:2,6,1,1</shape>
+     <shape>rectangle:0,7,1,4</shape>
+     <shape>rectangle:1,7,1,4</shape>
+     <shape>rectangle:2,7,1,4</shape>
+     <shape>rectangle:0,11,1,1</shape>
+     <shape>rectangle:1,11,1,1</shape>
+     <shape>rectangle:2,11,1,1</shape>
+    </shaper>
+    <cell>
+     <p>Nelle caselle delle attività Clic si possono collocare diversi elementi multimediali e animazioni, si possono anche registrare suoni dal microfono e ascoltare il risultato delle registrazioni:</p>
+    </cell>
+    <cell>
+     <media type="PLAY_VIDEO" level="1" file="test1.swf" stretch="true" free="false" catchMouseEvents="true" />
+    </cell>
+    <cell>
+     <media type="PLAY_VIDEO" level="1" file="zebra.avi" stretch="true" free="false" />
+    </cell>
+    <cell image="simpleanim.gif" />
+    <cell>
+     <p>Filmati flash</p>
+    </cell>
+    <cell>
+     <p>Vídeo AVI, MPEG e QT</p>
+    </cell>
+    <cell>
+     <p>GIFs animate</p>
+    </cell>
+    <cell>
+     <media type="RECORD_AUDIO" level="1" buffer="1" length="10" />
+    </cell>
+    <cell>
+     <media type="PLAY_RECORDED_AUDIO" level="1" buffer="1" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="moltbe.wav" />
+    </cell>
+    <cell>
+     <p>Registrare suoni</p>
+    </cell>
+    <cell>
+     <p>Riprodurre il suono registrato</p>
+    </cell>
+    <cell>
+     <p>Suoni WAV, AU e MP3</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="anim1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Esempio di associazione con GIFs animate</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Bravo!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="140.0" cellHeight="100.0" border="true" id="primary">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell id="0" image="bici2.gif" />
+    <cell id="1" image="natacio.gif" />
+    <cell id="2" image="esqui.gif" />
+    <cell id="3" image="trampoli.gif" />
+   </cells>
+   <cells rows="4" cols="1" cellWidth="140.0" cellHeight="50.0" border="true" id="secondary">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <p>Ciclismo</p>
+    </cell>
+    <cell>
+     <p>Nuoto</p>
+    </cell>
+    <cell>
+     <p>Sci</p>
+    </cell>
+    <cell>
+     <p>Salto dal trampolíno</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="anim2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Un altro puzzle creato con un GIF animato</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="3" cols="2" border="false" image="tennis.gif">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="ass01.ass" code="">
+   <description>
+    <p>Associazione semplice tra caselle di testo e zone di un'immagine.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="14" bold="true" />
+     </style>
+     <p>Questa è una associazione diretta tra un testo e un'immagine divisa in sezioni rettangolari.</p>
+    </cell>
+    <cell image="genial.gif" type="final">
+     <style>
+      <font family="Arial" size="14" bold="true" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" infoCmd="winhelp.exe demo.hlp" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x0000FF" border="true" />
+   </settings>
+   <cells rows="4" cols="3" cellWidth="100.0" cellHeight="70.0" border="false" id="primary">
+    <style shadow="true">
+     <font family="Arial" size="17" bold="true" />
+     <color foreground="0xFFFFFF" background="0x0000FF" shadow="0x000000" inactive="0x000000" alternative="0x000000" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="4" />
+    <cell>
+     <p>Alaska</p>
+    </cell>
+    <cell>
+     <p>Lituania</p>
+    </cell>
+    <cell>
+     <p>Siberia</p>
+    </cell>
+    <cell>
+     <p>California</p>
+    </cell>
+    <cell>
+     <p>Catalogna</p>
+    </cell>
+    <cell>
+     <p>Cina</p>
+    </cell>
+    <cell>
+     <p>Perú</p>
+    </cell>
+    <cell>
+     <p>Kenia</p>
+    </cell>
+    <cell>
+     <p>Indonesia</p>
+    </cell>
+    <cell>
+     <p>Cile</p>
+    </cell>
+    <cell>
+     <p>Lesotho</p>
+    </cell>
+    <cell>
+     <p>Nuova Zelanda</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="3" border="false" image="mapa.gif" id="secondary">
+    <style>
+     <font family="Arial" size="15" />
+     <color background="0x0000FF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="4" />
+   </cells>
+   <scramble times="31" primary="true" secondary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="ass01b.ass" code="">
+   <description>
+    <p>Associazione con trascinamento di parole</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="14" bold="true" />
+     </style>
+     <p>In questa associazione si trascinano le caselle di testo che hanno un colore di fondo trasparente.</p>
+    </cell>
+    <cell image="genial.gif" type="final">
+     <style>
+      <font family="Arial" size="14" bold="true" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" infoCmd="winhelp.exe demo.hlp" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x0000FF" border="true" />
+   </settings>
+   <cells rows="4" cols="3" cellWidth="100.0" cellHeight="70.0" border="false" id="primary">
+    <style shadow="true" transparent="true">
+     <font family="Arial" size="17" bold="true" />
+     <color foreground="0xFFFFFF" background="0x0000FF" shadow="0x000000" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="4" />
+    <cell>
+     <p>Alaska</p>
+    </cell>
+    <cell>
+     <p>Lituania</p>
+    </cell>
+    <cell>
+     <p>Siberia</p>
+    </cell>
+    <cell>
+     <p>California</p>
+    </cell>
+    <cell>
+     <p>Catalogna</p>
+    </cell>
+    <cell>
+     <p>Cina</p>
+    </cell>
+    <cell>
+     <p>Perú</p>
+    </cell>
+    <cell>
+     <p>Kenia</p>
+    </cell>
+    <cell>
+     <p>Indonesia</p>
+    </cell>
+    <cell>
+     <p>Cile</p>
+    </cell>
+    <cell>
+     <p>Lesotho</p>
+    </cell>
+    <cell>
+     <p>Nuova Zelanda</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="3" border="false" image="mapa.gif" id="secondary">
+    <style>
+     <font family="Arial" size="15" />
+     <color background="0x0000FF" inactive="0x0000FF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="4" />
+   </cells>
+   <scramble times="31" primary="true" secondary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="ass01c.ass" code="">
+   <description>
+    <p>Associazione con colori semitrasparenti</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="14" bold="true" />
+      <gradient source="0x0000FF" dest="0xFFFFFF" angle="0" />
+     </style>
+     <p>Qui si utilizzano colori di fondo semi-trasparenti e gradienti di colore.</p>
+    </cell>
+    <cell image="genial.gif" type="final">
+     <style>
+      <font family="Arial" size="14" bold="true" />
+      <gradient source="0xFFFFFF" dest="0x000080" angle="90" cycles="2" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" infoCmd="winhelp.exe demo.hlp" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0xFFFFFF" dest="0x0000FF" angle="90" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFFFFFF" border="false" />
+   </settings>
+   <cells rows="4" cols="3" cellWidth="100.0" cellHeight="70.0" border="false" id="primary">
+    <style shadow="true">
+     <font family="Arial" size="17" bold="true" />
+     <color foreground="0xFFFFFF" background="0xFFFFFF" shadow="0x000000" inactive="0x000000" alternative="0x000000" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="4" />
+    <cell>
+     <style shadow="true">
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xFFFFFF" background="0x80FF0000" shadow="0x000000" inactive="0x00FFFFFF" />
+     </style>
+     <p>Alaska</p>
+    </cell>
+    <cell>
+     <style shadow="true">
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xFFFFFF" background="0xC0FF0000" shadow="0x000000" inactive="0x00FFFFFF" />
+     </style>
+     <p>Lituania</p>
+    </cell>
+    <cell>
+     <style shadow="true">
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xFFFFFF" background="0x8000FF00" shadow="0x000000" inactive="0x00FFFFFF" />
+     </style>
+     <p>Siberia</p>
+    </cell>
+    <cell>
+     <style shadow="true">
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xFFFFFF" background="0xC000FF00" shadow="0x000000" inactive="0x00FFFFFF" />
+     </style>
+     <p>California</p>
+    </cell>
+    <cell>
+     <style shadow="true">
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xFFFFFF" background="0x800000FF" shadow="0x000000" inactive="0x00FFFFFF" />
+     </style>
+     <p>Catalogna</p>
+    </cell>
+    <cell>
+     <style shadow="true">
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xFFFFFF" background="0xC00000FF" shadow="0x000000" inactive="0x00FFFFFF" />
+     </style>
+     <p>Cina</p>
+    </cell>
+    <cell>
+     <style shadow="true">
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xFFFFFF" background="0x80800000" shadow="0x000000" inactive="0x00FFFFFF" />
+     </style>
+     <p>Perú</p>
+    </cell>
+    <cell>
+     <style shadow="true">
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xFFFFFF" background="0xC0800000" shadow="0x000000" inactive="0x00FFFFFF" />
+     </style>
+     <p>Kenia</p>
+    </cell>
+    <cell>
+     <style shadow="true">
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xFFFFFF" background="0x80008000" shadow="0x000000" inactive="0x00FFFFFF" />
+     </style>
+     <p>Indonesia</p>
+    </cell>
+    <cell>
+     <style shadow="true">
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xFFFFFF" background="0xC0008000" shadow="0x000000" inactive="0x00FFFFFF" />
+     </style>
+     <p>Cile</p>
+    </cell>
+    <cell>
+     <style shadow="true">
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xFFFFFF" background="0x80000080" shadow="0x000000" inactive="0x00FFFFFF" />
+     </style>
+     <p>Lesotho</p>
+    </cell>
+    <cell>
+     <style shadow="true">
+      <font family="Arial" size="17" bold="true" />
+      <color foreground="0xFFFFFF" background="0xC0008000" shadow="0x000000" inactive="0x00FFFFFF" />
+     </style>
+     <p>Nuova Zelanda</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="3" border="false" image="mapa.gif" id="secondary">
+    <style>
+     <font family="Arial" size="15" />
+     <color background="0x0000FF" inactive="0x00FFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="4" />
+   </cells>
+   <scramble times="31" primary="true" secondary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="ass02.ass" code="">
+   <description>
+    <p>Associazione  tra testi, con assegnazione di relazioni e soluzione.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+     </style>
+     <p>Questa è un'associazione tra due testi, ma con un numero  di elementi differente per ciascuna griglia.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+     </style>
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="3" cols="4" cellWidth="100.0" cellHeight="90.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="18" />
+     <color foreground="0x0000FF" background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="3" />
+    <cell id="0">
+     <p>gioco</p>
+    </cell>
+    <cell id="2">
+     <p>vedrete</p>
+    </cell>
+    <cell id="2">
+     <p>canterà</p>
+    </cell>
+    <cell id="1">
+     <p>camminavano</p>
+    </cell>
+    <cell id="0">
+     <p>guardate</p>
+    </cell>
+    <cell id="1">
+     <p>disse</p>
+    </cell>
+    <cell id="0">
+     <p>passi</p>
+    </cell>
+    <cell id="2">
+     <p>balleranno</p>
+    </cell>
+    <cell id="0">
+     <p>mangia</p>
+    </cell>
+    <cell id="0">
+     <p>bevete</p>
+    </cell>
+    <cell id="2">
+     <p>salterai</p>
+    </cell>
+    <cell id="1">
+     <p>videro</p>
+    </cell>
+   </cells>
+   <cells rows="3" cols="1" cellWidth="100.0" cellHeight="90.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="18" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <p>PRESENTE</p>
+    </cell>
+    <cell>
+     <p>PASSATO</p>
+    </cell>
+    <cell>
+     <p>FUTURO</p>
+    </cell>
+   </cells>
+   <cells rows="3" cols="4" cellWidth="100.0" cellHeight="90.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="4" rows="3" />
+    <cell>
+     <p>oggi gioco</p>
+    </cell>
+    <cell>
+     <p>domani vedrete</p>
+    </cell>
+    <cell>
+     <p>domani canterà</p>
+    </cell>
+    <cell>
+     <p>ieri camminavano</p>
+    </cell>
+    <cell>
+     <p>oggi guardate</p>
+    </cell>
+    <cell>
+     <p>ieri disse</p>
+    </cell>
+    <cell>
+     <p>oggi passi</p>
+    </cell>
+    <cell>
+     <p>domani balleranno</p>
+    </cell>
+    <cell>
+     <p>oggi mangia</p>
+    </cell>
+    <cell>
+     <p>oggi bevete</p>
+    </cell>
+    <cell>
+     <p>domani salterai</p>
+    </cell>
+    <cell>
+     <p>ieri videro</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Identify" name="ass04.ass" code="">
+   <description>
+    <p>Associazione  tra testi, con assegnazione di relazioni e soluzione.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>Attività di identificazione: quali verbi sono al futuro?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="3" cols="4" cellWidth="100.0" cellHeight="90.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="18" />
+     <color foreground="0x0000FF" background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="3" />
+    <cell id="0">
+     <p>gioco</p>
+    </cell>
+    <cell id="1">
+     <p>verrò</p>
+    </cell>
+    <cell id="1">
+     <p>canterà</p>
+    </cell>
+    <cell id="0">
+     <p>camminavano</p>
+    </cell>
+    <cell id="0">
+     <p>guardai</p>
+    </cell>
+    <cell id="0">
+     <p>disse</p>
+    </cell>
+    <cell id="0">
+     <p>passi</p>
+    </cell>
+    <cell id="1">
+     <p>balleranno</p>
+    </cell>
+    <cell id="0">
+     <p>sei andato</p>
+    </cell>
+    <cell id="0">
+     <p>bevvi</p>
+    </cell>
+    <cell id="0">
+     <p>salterai</p>
+    </cell>
+    <cell id="0">
+     <p>avevo visto</p>
+    </cell>
+   </cells>
+   <cells rows="3" cols="4" cellWidth="100.0" cellHeight="90.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="4" rows="3" />
+    <cell>
+     <p>avui jugo</p>
+    </cell>
+    <cell>
+     <p>domani verrò</p>
+    </cell>
+    <cell>
+     <p>domani canterà</p>
+    </cell>
+    <cell>
+     <p>ahir caminaven</p>
+    </cell>
+    <cell>
+     <p>avui mireu</p>
+    </cell>
+    <cell>
+     <p>ahir digué</p>
+    </cell>
+    <cell>
+     <p>avui passes</p>
+    </cell>
+    <cell>
+     <p>domani balleranno</p>
+    </cell>
+    <cell>
+     <p>avui menja</p>
+    </cell>
+    <cell>
+     <p>avui beveu</p>
+    </cell>
+    <cell>
+     <p>domani salterai</p>
+    </cell>
+    <cell>
+     <p>ahir van veure</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@panels.Identify" name="ass05.ass" code="">
+   <description>
+    <p>Attività di identificazione</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Un' altra identificazione: dov'è l'Australia?</p>
+    </cell>
+    <cell image="genial.gif" type="final">
+     <style />
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="3" cols="4" border="false" image="mapa.gif" id="primary">
+    <style>
+     <color foreground="0xFFFFFF" background="0x0000FF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="3" />
+    <ids>0 0 0 0 0 0 0 0 0 0 0 1</ids>
+   </cells>
+   <cells rows="3" cols="4" cellWidth="140.0" cellHeight="100.0" border="false" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="4" rows="3" />
+    <cell>
+     <p>-</p>
+    </cell>
+    <cell>
+     <p>-</p>
+    </cell>
+    <cell>
+     <p>-</p>
+    </cell>
+    <cell>
+     <p>-</p>
+    </cell>
+    <cell>
+     <p>-</p>
+    </cell>
+    <cell>
+     <p>-</p>
+    </cell>
+    <cell>
+     <p>-</p>
+    </cell>
+    <cell>
+     <p>-</p>
+    </cell>
+    <cell>
+     <p>-</p>
+    </cell>
+    <cell>
+     <p>-</p>
+    </cell>
+    <cell>
+     <p>-</p>
+    </cell>
+    <cell>
+     <p>Si que era aquí!</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="ass06.ass" code="">
+   <description>
+    <p>Associazione tra testo e immagine, con assegnazione speciale di relazioni.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>In questo caso si tratta di una associazione tra il testo e le zone di un grafico.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>OK</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="9" cols="5" border="false" image="func2.gif" id="primary">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Holes" cols="5" rows="9" scaleX="5.0" scaleY="9.0">
+     <enclosing>
+      <shape>rectangle:0,0,5,9</shape>
+     </enclosing>
+     <shape>rectangle:1,1,1,1</shape>
+     <shape>rectangle:4,1,1,1</shape>
+     <shape>rectangle:2,2,1,1</shape>
+     <shape>rectangle:2,3,1,1</shape>
+     <shape>rectangle:1,4,1,1</shape>
+     <shape>rectangle:2,4,1,1</shape>
+     <shape>rectangle:3,4,1,1</shape>
+     <shape>rectangle:0,8,1,1</shape>
+    </shaper>
+    <ids>0 4 6 2 7 3 1 5</ids>
+   </cells>
+   <cells rows="4" cols="2" cellWidth="120.0" cellHeight="70.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="4" />
+    <cell>
+     <p>massimo locale</p>
+    </cell>
+    <cell>
+     <p>f'(x)=0, x&gt;0</p>
+    </cell>
+    <cell>
+     <p>punto d'inflessione</p>
+    </cell>
+    <cell>
+     <p>(0,0)</p>
+    </cell>
+    <cell>
+     <p>x=6</p>
+    </cell>
+    <cell>
+     <p>f(x)= -12</p>
+    </cell>
+    <cell>
+     <p>x=0</p>
+    </cell>
+    <cell>
+     <p>f(x)=0, x&lt;0</p>
+    </cell>
+   </cells>
+   <cells rows="9" cols="5" border="false" image="funcio.gif" id="solvedPrimary">
+    <shaper class="@Holes" cols="5" rows="9" scaleX="5.0" scaleY="9.0">
+     <enclosing>
+      <shape>rectangle:0,0,5,9</shape>
+     </enclosing>
+     <shape>rectangle:1,1,1,1</shape>
+     <shape>rectangle:4,1,1,1</shape>
+     <shape>rectangle:2,2,1,1</shape>
+     <shape>rectangle:2,3,1,1</shape>
+     <shape>rectangle:1,4,1,1</shape>
+     <shape>rectangle:2,4,1,1</shape>
+     <shape>rectangle:3,4,1,1</shape>
+     <shape>rectangle:0,8,1,1</shape>
+    </shaper>
+   </cells>
+   <scramble times="31" primary="false" secondary="false" />
+   <layout position="BA" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="ass07.ass" code="">
+   <description>
+    <p>Calcolo mentale con risposta scritta.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>Questa è un'attività in cui ogni volta si generano casualmente le operazioni.  Utilizza un modulo esterno chiamato "Arith"</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" infoCmd="winhelp.exe arith2.hlp" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <automation class="@arith.Arith">
+    <operand from="1" to="99" id="A" />
+    <operand from="1" to="10" id="B" />
+    <operations plus="true" minus="true" multiply="true" divide="true" />
+    <unknown result="true" first="true" last="true" operand="true" inverse="false" />
+    <result from="1" to="9999" duplicates="true" />
+   </automation>
+   <cells rows="2" cols="4" cellWidth="180.0" cellHeight="100.0" border="true" id="primary">
+    <style>
+     <font family="Courier New" size="18" bold="true" />
+     <color foreground="0x0000FF" background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="2" />
+   </cells>
+   <cells rows="2" cols="4" cellWidth="180.0" cellHeight="100.0" border="true" id="secondary">
+    <style>
+     <font family="Courier New" size="18" bold="true" />
+     <color foreground="0xFF0000" background="0xFFFFFF" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="2" />
+   </cells>
+   <cells rows="2" cols="4" cellWidth="180.0" cellHeight="100.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="4" rows="2" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@text.WrittenAnswer" name="ass08.ass" code="">
+   <description>
+    <p>Attività di risposta scritta.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="15" bold="true" />
+     </style>
+     <p>Attività di risposta scritta: come si chiamano questi veicoli?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="15" bold="true" />
+     </style>
+     <p>molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="4" cellWidth="120.0" cellHeight="120.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="33" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="1" />
+    <cell id="0" image="bici.gif" />
+    <cell id="1" image="cotxe.gif" />
+    <cell id="2" image="camio.gif" />
+    <cell id="3" image="moto.gif" />
+   </cells>
+   <cells rows="1" cols="4" cellWidth="120.0" cellHeight="120.0" border="true" id="answers">
+    <style>
+     <font family="Arial" size="33" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="1" />
+    <cell>
+     <p>bicicletta|bici</p>
+    </cell>
+    <cell>
+     <p>macchina|automobile|auto</p>
+    </cell>
+    <cell>
+     <p>camion|furgone</p>
+    </cell>
+    <cell>
+     <p>moto|motocicletta</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@panels.Explore" name="ass09.ass" code="">
+   <description>
+    <p>Attività di esplorazione.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>Questa è una attività di esplorazione. Clicca sulla mappa per vedere l'informazione associata a ciascuna zona.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" infoCmd="winhelp.exe demo.hlp" report="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="10" cols="10" border="false" image="mapa.gif" id="primary">
+    <style>
+     <font family="Arial" size="26" />
+     <color background="0x0000FF" />
+    </style>
+    <shaper class="@Holes" cols="10" rows="10" scaleX="10.0" scaleY="10.0">
+     <enclosing>
+      <shape>rectangle:0,0,10,10</shape>
+     </enclosing>
+     <shape>rectangle:0,0,3,1</shape>
+     <shape>M:3,0|L:3,1|L:2,1|L:2,2|L:4,2|L:4,1|L:4,0|X</shape>
+     <shape>M:4,0|L:4,1|L:4,2|L:5,2|L:5,1|L:9,1|L:9,2|L:9,3|L:9,4|L:8,4|L:8,5|L:9,5|L:9,6|L:10,6|L:10,5|L:10,4|L:10,3|L:10,2|L:10,1|L:10,0|X</shape>
+     <shape>rectangle:0,1,2,1</shape>
+     <shape>M:5,1|L:5,2|L:5,3|L:6,3|L:6,2|L:6,1|X</shape>
+     <shape>M:6,1|L:6,2|L:6,3|L:7,3|L:7,2|L:9,2|L:9,1|X</shape>
+     <shape>rectangle:0,2,1,1</shape>
+     <shape>rectangle:1,2,2,1</shape>
+     <shape>M:3,2|L:3,3|L:2,3|L:2,4|L:2,5|L:3,5|L:3,6|L:3,7|L:3,8|L:3,9|L:2,9|L:2,8|L:2,7|L:1,7|L:1,6|L:1,5|L:1,4|L:0,4|L:0,5|L:0,6|L:0,7|L:0,8|L:0,9|L:0,10|L:10,10|L:10,9|L:8,9|L:8,8|L:8,7|L:8,6|L:7,6|L:7,5|L:6,5|L:6,6|L:6,7|L:6,8|L:5,8|L:5,7|L:5,6|L:4,6|L:4,5|L:4,4|L:4,3|L:4,2|X</shape>
+     <shape>M:4,2|L:4,3|L:4,4|L:5,4|L:5,3|L:5,2|X</shape>
+     <shape>M:7,2|L:7,3|L:6,3|L:6,4|L:8,4|L:8,3|L:9,3|L:9,2|X</shape>
+     <shape>rectangle:0,3,1,1</shape>
+     <shape>rectangle:1,3,1,1</shape>
+     <shape>M:5,3|L:5,4|L:5,5|L:6,5|L:6,4|L:6,3|X</shape>
+     <shape>rectangle:8,3,1,1</shape>
+     <shape>rectangle:1,4,1,1</shape>
+     <shape>M:4,4|L:4,5|L:4,6|L:5,6|L:5,7|L:5,8|L:6,8|L:6,7|L:6,6|L:6,5|L:5,5|L:5,4|X</shape>
+     <shape>rectangle:6,4,2,1</shape>
+     <shape>M:1,5|L:1,6|L:2,6|L:2,7|L:2,8|L:2,9|L:3,9|L:3,8|L:3,7|L:3,6|L:3,5|X</shape>
+     <shape>M:7,5|L:7,6|L:8,6|L:8,7|L:10,7|L:10,6|L:9,6|L:9,5|X</shape>
+     <shape>rectangle:1,6,1,1</shape>
+     <shape>M:8,7|L:8,8|L:8,9|L:9,9|L:9,8|L:9,7|X</shape>
+     <shape>rectangle:9,7,1,1</shape>
+     <shape>rectangle:9,8,1,1</shape>
+    </shaper>
+    <ids>0 13 0 1 14 3 0 15 0 16 6 4 17 18 19 20 21 22 23 9 7 24 0 12</ids>
+   </cells>
+   <cells rows="15" cols="2" cellWidth="320.0" cellHeight="60.0" border="false" id="secondary">
+    <style>
+     <font family="Arial" size="26" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="15" />
+    <cell>
+     <p>ACQUA!</p>
+    </cell>
+    <cell>
+     <p>Alaska</p>
+    </cell>
+    <cell>
+     <p>Lituania</p>
+    </cell>
+    <cell>
+     <p>Siberia</p>
+    </cell>
+    <cell>
+     <p>California</p>
+    </cell>
+    <cell>
+     <p>Catalogna</p>
+    </cell>
+    <cell>
+     <p>Cina</p>
+    </cell>
+    <cell>
+     <p>Peru</p>
+    </cell>
+    <cell>
+     <p>Kenia</p>
+    </cell>
+    <cell>
+     <p>Indonesia</p>
+    </cell>
+    <cell>
+     <p>Cile</p>
+    </cell>
+    <cell>
+     <p>Lesotho</p>
+    </cell>
+    <cell>
+     <p>Nuova Zelanda</p>
+    </cell>
+    <cell>
+     <p>Groenlandia</p>
+    </cell>
+    <cell>
+     <p>Russia</p>
+    </cell>
+    <cell>
+     <p>Canada</p>
+    </cell>
+    <cell>
+     <p>Europa</p>
+    </cell>
+    <cell>
+     <p>Stati Uniti</p>
+    </cell>
+    <cell>
+     <p>Medio Oriente</p>
+    </cell>
+    <cell>
+     <p>Giappone</p>
+    </cell>
+    <cell>
+     <p>Caraibi</p>
+    </cell>
+    <cell>
+     <p>Africa</p>
+    </cell>
+    <cell>
+     <p>Asia</p>
+    </cell>
+    <cell>
+     <p>America del sud</p>
+    </cell>
+    <cell>
+     <p>Australia</p>
+    </cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="ass12.ass" code="">
+   <description>
+    <p>Associazione tra immagini, suoni registrat e testo.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>Come vai in inglese? In questa associazione abbiamo testo, immagini e suoni.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>Good!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="4" cellWidth="120.0" cellHeight="120.0" border="false" id="primary">
+    <style>
+     <font family="Arial" size="21" />
+     <color background="0xFFFBDD" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="1" />
+    <cell image="bici.gif">
+     <media type="PLAY_AUDIO" level="1" file="bycicle.wav" />
+    </cell>
+    <cell image="cotxe.gif">
+     <media type="PLAY_AUDIO" level="1" file="car.wav" />
+    </cell>
+    <cell image="camio.gif">
+     <media type="PLAY_AUDIO" level="1" file="lorry.wav" />
+    </cell>
+    <cell image="moto.gif">
+     <media type="PLAY_AUDIO" level="1" file="motorcyc.wav" />
+    </cell>
+   </cells>
+   <cells rows="1" cols="4" cellWidth="120.0" cellHeight="120.0" border="false" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color foreground="0x0000FF" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="1" />
+    <cell>
+     <p>bicycle</p>
+    </cell>
+    <cell>
+     <p>car</p>
+    </cell>
+    <cell>
+     <p>lorry</p>
+    </cell>
+    <cell>
+     <p>motorcycle</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="ass13.ass" code="">
+   <description>
+    <p>Associazione sempllice tra pezzi musicali (file MIDI) e i nomi dei loro autori .</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>E in questa utilizziamo anche i file MIDI.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="moltbe.wav" />
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="140.0" cellHeight="120.0" border="true" id="primary">
+    <style>
+     <font family="Times New Roman" size="18" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell>
+     <media type="PLAY_MIDI" level="1" file="mozart.mid" />
+    </cell>
+    <cell>
+     <media type="PLAY_MIDI" level="1" file="novena.mid" />
+    </cell>
+    <cell>
+     <media type="PLAY_MIDI" level="1" file="bach.mid" />
+    </cell>
+    <cell>
+     <media type="PLAY_MIDI" level="1" file="bressol.mid" />
+    </cell>
+   </cells>
+   <cells rows="2" cols="2" cellWidth="160.0" cellHeight="120.0" border="true" id="secondary">
+    <style shadow="true">
+     <font family="Times New Roman" size="29" bold="true" />
+     <color foreground="0xFFFFFF" background="0x800080" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell>
+     <p>Mozart</p>
+    </cell>
+    <cell>
+     <p>Beethoven</p>
+    </cell>
+    <cell>
+     <p>Bach</p>
+    </cell>
+    <cell>
+     <p>Brahms</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="caselles.txa" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+    </cell>
+    <cell type="final">
+     <style />
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="540" height="380" />
+    </window>
+   </settings>
+   <document>
+    <style name="default" size="16" tabWidth="16" italic="false" bold="false" foreground="0x000000" background="0xFFFFFF" family="Arial" />
+    <style name="target" base="default" target="true" foreground="0x0000FF" background="0xC0C0C0" />
+    <style name="targetError" base="target" foreground="0xFFFFFF" background="0xFF0000" />
+    <section>
+     <p Alignment="1">
+      <text size="20" bold="true" foreground="0x800000">Caselle con  contenuti visivi</text>
+     </p>
+     <p>
+      <text>La maggior parte delle attività di Clic (associazioni, puzzles...) utilizzano caselle. In Clic 3.0 le caselle di una zona compartien sempre el mateix estil: color, tipus de lletra, etc. Amb el JClic cada casella pot tenir unes caracteristiques propies:</text>
+     </p>
+     <p />
+     <p Alignment="1">
+      <cell width="140" height="80" border="true" image="mapa.gif">
+       <style shadow="true">
+        <font family="Arial" size="13" bold="true" />
+        <color foreground="0xFF0000" background="0x0000FF" shadow="0xFFFFFF" />
+       </style>
+       <p>Le caselle possono contenere sia immagini che testi</p>
+      </cell>
+      <text> </text>
+      <cell width="100" height="80" border="true">
+       <style>
+        <font family="Arial" size="12" bold="true" />
+        <color foreground="0xFFFFFF" background="0xFF8040" />
+       </style>
+       <p>e ogni casella</p>
+      </cell>
+      <text> </text>
+      <cell txtAlign="left,top" imgAlign="left,top" width="100" height="80" border="true">
+       <style>
+        <font family="Arial" size="13" bold="true" />
+        <color foreground="0xFFFFFF" background="0x008000" />
+        <gradient source="0x008000" dest="0xFFFF00" angle="90" />
+       </style>
+       <p>...può avere...</p>
+      </cell>
+      <text> </text>
+      <cell txtAlign="right,bottom" imgAlign="right,bottom" width="100" height="80" border="true">
+       <style>
+        <font family="Arial" size="13" bold="true" />
+        <color foreground="0xFFFFFF" background="0xFFFF00" />
+        <gradient source="0xFFFF00" dest="0x008000" angle="90" />
+       </style>
+       <p>... uno stile differente.</p>
+      </cell>
+     </p>
+     <p Alignment="1">
+      <text> </text>
+      <cell width="250" height="150" border="false">
+       <style>
+        <font family="Arial" size="13" />
+        <color background="0xFFFF00" />
+       </style>
+       <p>&lt;html&gt;&lt;center&gt;&lt;font size=-1&gt;Le caselle possono contenere anche codice html. Per esempio, questa è una tabella:&lt;table border=1 width=200 bgcolor="white"&gt;&lt;tr&gt;&lt;td rowspan="2"&gt;&lt;img src="trex.gif"&gt;&lt;/td&gt;&lt;td align="center"&gt;&lt;font color="red"&gt;&lt;b&gt;Ciao!&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center"&gt;Qual è la strada per jurassic park?&lt;/td&gt;&lt;/table&gt;&lt;/font&gt;&lt;/center&gt;&lt;/html&gt;</p>
+      </cell>
+      <text> </text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@textGrid.CrossWord" name="crw01.crw" code="">
+   <description>
+    <p>Parole crociate.</p>
+    <p>Alcune definizioni sono immagini.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>In queste parole crociate alcune definizioni sono grafiche</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <textGrid rows="10" columns="5" cellWidth="25.0" cellHeight="25.0" border="true">
+    <style>
+     <font family="Arial" size="15" />
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>*CASA*FLOR</row>
+     <row>DONA*RIA*O</row>
+     <row>ELA*SOLCAT</row>
+     <row>S**SOS*AL*</row>
+     <row>AVUI*AI*AS</row>
+    </text>
+   </textGrid>
+   <cells rows="5" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="acrossClues">
+    <style>
+     <font family="Arial" size="15" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell id="0" item="0" image="casa.gif" />
+    <cell id="0" item="1">
+     <p>Neix per la primavera</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>Regala</p>
+    </cell>
+    <cell id="1" item="1">
+     <p>N'hi ha a Galícia</p>
+    </cell>
+    <cell id="1" item="2">
+     <p>Vocal</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="downClues">
+    <style>
+     <font family="Arial" size="15" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell id="0" item="0">
+     <p>Endreça</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>Verdura</p>
+    </cell>
+    <cell id="1" item="1">
+     <p>Consonant</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>Nom femení</p>
+    </cell>
+    <cell id="2" item="1">
+     <p>Quina por!</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>Amb bona salut</p>
+    </cell>
+    <cell id="3" item="1">
+     <p>Afirmatiu</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>La primera</p>
+    </cell>
+    <cell id="4" item="1">
+     <p>Per aturar el cavall</p>
+    </cell>
+    <cell id="5" item="0">
+     <p>Es regala per Sant Jordi</p>
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.CrossWord" name="crw02.crw" code="">
+   <description>
+    <p>Parole crociate con alcune definizioni sonore.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>E qui c'è una variante con una definizione  sonora.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="moltbe.wav" />
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <textGrid rows="10" columns="5" cellWidth="25.0" cellHeight="25.0" border="true">
+    <style>
+     <font family="Arial" size="15" />
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>*CASA*FLOR</row>
+     <row>DONA*RIA*O</row>
+     <row>ELA*SOLCAT</row>
+     <row>S**SOS*AL*</row>
+     <row>AVUI*AI*AS</row>
+    </text>
+   </textGrid>
+   <cells rows="5" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="acrossClues">
+    <style>
+     <font family="Arial" size="15" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell id="2" item="1" />
+    <cell id="0" item="0" image="casa.gif" />
+    <cell id="0" item="1">
+     <p>Neix per la primavera</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>Regala</p>
+    </cell>
+    <cell id="1" item="1">
+     <p>N'hi ha a Galícia</p>
+    </cell>
+    <cell id="1" item="2">
+     <p>Vocal</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="downClues">
+    <style>
+     <font family="Arial" size="15" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="10" />
+    <cell id="0" item="0">
+     <p>Endreça</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>Verdura</p>
+    </cell>
+    <cell id="1" item="1">
+     <p>Consonant</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>Nom femení</p>
+    </cell>
+    <cell id="2" item="1">
+     <p>Quina por!</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>Amb bona salut</p>
+    </cell>
+    <cell id="3" item="1">
+     <p>Afirmatiu</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>La primera</p>
+    </cell>
+    <cell id="4" item="1">
+     <p>Per aturar el cavall</p>
+    </cell>
+    <cell id="5" item="0">
+     <p>Es regala per Sant Jordi</p>
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="estils.txa" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+    </cell>
+    <cell type="final">
+     <style />
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true">
+     <size width="540" height="200" />
+    </window>
+   </settings>
+   <document>
+    <style name="default" size="16" tabWidth="16" italic="false" bold="false" foreground="0x000000" background="0xFFFFFF" family="Arial" />
+    <style name="target" base="default" target="true" foreground="0x0000FF" background="0xC0C0C0" />
+    <style name="targetError" base="target" foreground="0xFFFFFF" background="0xFF0000" />
+    <section>
+     <p />
+     <p Alignment="1">
+      <text size="20" bold="true" foreground="0x800000">Testo con stili nelle attività di testo</text>
+     </p>
+     <p />
+     <p>
+      <text>Nelle attività ddi testo si possono usare </text>
+      <text italic="true">differenti</text>
+      <text bold="true"> stili, </text>
+      <text size="10"> dimensioni, </text>
+      <text foreground="0xFF0000">colori, </text>
+      <text size="14" family="Courier">tipi di font...</text>
+     </p>
+     <p>
+      <text>... e paragrafi  allineati a sinistra,</text>
+     </p>
+     <p Alignment="1">
+      <text>paragrafi  allineati al centro</text>
+     </p>
+     <p Alignment="2">
+      <text>o paragrafi  allineati a destra.</text>
+     </p>
+     <p />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="fonts.txa" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+    </cell>
+    <cell type="final">
+     <style />
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="540" height="330" />
+    </window>
+   </settings>
+   <document>
+    <style name="default" size="16" tabWidth="16" italic="false" bold="false" foreground="0x000000" background="0xFFFFFF" family="Arial" />
+    <style name="handsign" base="default" size="36" family="HandSign" />
+    <style name="target" base="handsign" target="true" foreground="0x0000FF" />
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <section>
+     <p Alignment="1">
+      <text size="20" bold="true" foreground="0x800000">Tipi di font</text>
+     </p>
+     <p />
+     <p>
+      <text>I progetti JClic possono includere tipi di font "TrueType" che si caricano dinamicamente, senza che occorra installarli nel sistema.</text>
+     </p>
+     <p>
+      <text>Per eesempio, questo è scritto con il tipo di font "HandSign", che si utilizza per codificare il linguaggio dei segni:</text>
+     </p>
+     <p />
+     <p Alignment="1">
+      <text style="handsign">QUESTO E' SCRITTO NEL LINGUAGGIO DEI SIMBOLI</text>
+     </p>
+     <p>
+      <text>Prova a scrivere nel linguaggio dei segni: </text>
+      <target>
+       <answer>abcdefghijk</answer>
+       <response fill="_" length="1" maxLength="100" />
+       <text>abcdefghijk</text>
+      </target>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="gigpuzzle" code="">
+   <description>
+    <p>Puzzle di tipo "DOPPIO", con shaper jigsaw</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Con JClic le caselle possono essere rettangolari o di altre forme.</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Groarr!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="3" cols="4" border="true" image="wolf.jpg">
+    <style borderStroke="1.5">
+     <color background="0xFFFFFF" shadow="0x000000" inactive="0xFFFFFF" alternative="0xFFFFFF" border="0x808080" />
+    </style>
+    <shaper class="@ClassicJigSaw" cols="4" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="mapa" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Questa attività utilizza il generatore di forme  "Holes"</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="229.0" cellHeight="300.0" border="true">
+    <style borderStroke="1.5">
+     <color background="0x808080" inactive="0xFFFFFF" />
+    </style>
+    <shaper class="@Holes" cols="1" rows="1" scaleX="229.0" scaleY="300.0">
+     <enclosing>
+      <shape>rectangle:0,0,229,300</shape>
+     </enclosing>
+     <shape comment="Brasil">M:137.500001,194.499993|L:126.499994,182.500005|L:136.999994,172.999996|L:135.000007,166.000003|L:131.249994,160.250008|L:127.749998,151.749998|L:123.500006,147.750002|L:120.999997,141|L:121.999998,128.250003|L:115.750004,123.249999|L:110.999998,114.249998|L:104,110.250002|L:93,105.249998|L:89.999998,97.249997|L:75.000001,102.000001|L:67.799998,97.800002|L:62,96.799994|L:57,90.000004|L:58.999998,78.800002|L:64.000001,73.000002|L:68.999997,71.999998|L:70.999999,66|L:73,61.999999|L:70.999999,54.000002|L:76.000002,47|L:84.199999,48.799999|L:94,50.000001|L:98.000003,47|L:96.000002,40.000002|L:102.999999,38.999999|L:114,38|L:117.999995,50.000001|L:122.800007,46.399999|L:127.000001,46.000001|L:135.800002,42.999999|L:141.999998,46.000001|L:149.000002,38.999999|L:156.000007,47|L:148.000001,57.999998|L:154.000005,56|L:159.999996,56|L:162.999998,60.000001|L:169.000002,56.999999|L:176.999993,61.999999|L:178.999995,66.999999|L:184.999998,65.000001|L:193.000004,66.999999|L:198.999994,66|L:206.999999,74.000001|L:211.000002,76.999998|L:217.000006,76.999998|L:219.999994,86.999997|L:214.000004,96.999997|L:205.999999,106.999996|L:200.999995,113|L:198.999994,124.999997|L:195.000005,134.999996|L:189.000001,143.999997|L:182.999997,153.999996|L:175.000006,153.999996|L:164.999999,158.999991|L:157.999994,163.000005|L:156.000007,174.999994|L:148.000001,184.000003|L:137.500001,194.499993</shape>
+     <shape comment="Argentina">M:100.750001,291.500008|L:91.750002,287.249994|L:89.499997,278.250003|L:82.250003,276.500005|L:78.25,268.999994|L:78.25,257.000005|L:80.250001,246.749997|L:78.000003,240.000004|L:76.000002,228.749996|L:76.500002,218.750006|L:77.75,209.499997|L:78.499997,198.750007|L:76.749999,187.75|L:78.75,178.250009|L:81.499999,171.249998|L:81.750002,162.000006|L:86.500002,151.499999|L:93,148.000002|L:97.000002,150|L:101.999999,147.000003|L:106.249998,152.499998|L:112.499999,156.749994|L:117.750006,161.750007|L:121.250001,163.750005|L:119.25,171.249998|L:124.749996,173.499995|L:130.249993,171.999997|L:135.000007,166.000003|L:136.999994,172.999996|L:126.250004,182.500005|L:120.25,192.499995|L:119.999997,201.000005|L:120.999997,207.999998|L:125,211.999995|L:116.999995,222.000003|L:110.999998,223.000002|L:107.000002,223.000002|L:105.000001,230.999994|L:98.999997,230.999994|L:98.999997,242.000002|L:96.000002,247.999996|L:90.999998,254.000008|L:96.000002,260.000002|L:93,268.499994|L:88.999997,272.000009|L:105.249997,288.249993|L:100.750001,291.500008</shape>
+     <shape comment="Chile">M:100.750001,291.500008|L:91.750002,287.249994|L:89.499997,278.250003|L:82.250003,276.500005|L:78.25,268.999994|L:78.25,257.000005|L:80.250001,246.749997|L:78.000003,240.000004|L:76.000002,228.749996|L:76.500002,218.750006|L:77.75,209.499997|L:78.499997,198.750007|L:76.749999,187.75|L:78.75,178.250009|L:81.499999,171.249998|L:81.750002,162.000006|L:86.500002,151.499999|L:81.999999,144.999996|L:78.999997,138.000003|L:73.5,128.750002|L:71.999999,134.999996|L:75.000001,150.999999|L:73,162.000006|L:71.999999,173.999995|L:71.999999,188|L:71.999999,200.000006|L:69.999998,210.999995|L:68.999997,223.000002|L:68.999997,232.999992|L:70.999999,241.000003|L:74.000001,236.000007|L:76.000002,244.999999|L:71.999999,252.999991|L:73,263|L:74.000001,272.000009|L:78.000003,277.000004|L:81.999999,282.999998|L:86.000002,285.999995|L:91.750002,287.249994|L:96.500002,293.000007|L:100.750001,291.500008</shape>
+     <shape comment="Uruguay">M:137.500001,194.499993|L:126.250004,182.500005|L:120.25,192.499995|L:119.999997,201.000005|L:120.999997,207.999998|L:134.249996,205.000001|L:137.500001,194.499993</shape>
+     <shape comment="Paraguay">M:124.749996,173.499995|L:119.25,171.249998|L:121.250001,163.750005|L:117.750006,161.750007|L:112.499999,156.749994|L:106.249998,152.499998|L:101.999999,147.000003|L:107.000002,140.000001|L:112.999999,139.000002|L:120.999997,141|L:123.500006,147.750002|L:127.749998,151.749998|L:131.249994,160.250008|L:135.000007,166.000003|L:130.249993,171.999997|L:124.749996,173.499995</shape>
+     <shape comment="Bolivia">M:112.999999,139.000002|L:107.000002,140.000001|L:101.999999,147.000003|L:97.000002,150|L:93,148.000002|L:86.500002,151.499999|L:81.999999,144.999996|L:78.999997,138.000003|L:73.5,128.750002|L:75.000001,122.999999|L:76.000002,113|L:75.000001,102.000001|L:89.999998,97.249997|L:93,105.249998|L:104,110.250002|L:110.999998,114.249998|L:115.999994,123.249999|L:121.999998,128.250003|L:120.999997,141|L:112.999999,139.000002</shape>
+     <shape comment="Peru">M:75.000001,122.999999|L:76.000002,113|L:75.000001,102.000001|L:67.999997,97.999996|L:62,96.999997|L:57,90.000004|L:58.999998,78.999996|L:64.000001,73.000002|L:68.999997,71.999998|L:70.999999,66|L:63,65.000001|L:54.999999,61|L:49.8,56.999999|L:44.999999,62.999998|L:38.000001,68.000002|L:33.000001,75.999999|L:26,71.999998|L:26,81.000003|L:32.000001,87.999997|L:37,96.999997|L:42,105.999997|L:47,113.999999|L:53.000001,121.000001|L:60.999999,125.999996|L:67.000003,129.000002|L:71.999999,134.999996|L:73.5,128.750002|L:75.000001,122.999999</shape>
+     <shape comment="Ecuador">M:49.8,56.999999|L:44.999999,62.999998|L:38.000001,68.000002|L:33.000001,75.999999|L:26,71.999998|L:29.999999,68.000002|L:27.000001,65.000001|L:24.999999,59.000002|L:28.999999,52.999999|L:33.999998,47.999999|L:39.999999,54.000002|L:45.999999,55.000001|L:49.8,56.999999</shape>
+     <shape comment="Colombia">M:70.999999,66|L:63,65.000001|L:54.999999,61|L:49.8,56.999999|L:45.999999,55.000001|L:39.999999,54.000002|L:33.8,47.999999|L:39.999999,42|L:41,34.000001|L:39.000002,25.000001|L:44.000002,18|L:49.999999,10.000001|L:57,6|L:66.000002,3|L:58.999998,14|L:62,21.999999|L:67.999997,26|L:75.000001,30|L:81.999999,28|L:81.999999,37|L:80.8,43.799999|L:84.199999,48.999998|L:76.000002,47|L:70.999999,54.000002|L:73,61.999999|L:70.999999,66</shape>
+     <shape comment="Venezuela">M:64.000001,11.6|L:58.999998,14|L:62,21.8|L:67.799998,26|L:75.000001,30|L:81.999999,28|L:81.999999,37|L:80.8,43.799999|L:84.199999,48.799999|L:94,50.000001|L:98.000003,47|L:96.000002,40.000002|L:102.999999,38.999999|L:114,38|L:110.999998,28.999999|L:114.800002,20.000001|L:109.999997,19|L:105.000001,14|L:98.000003,9|L:94,13|L:85.000001,10.000001|L:78.999997,10.000001|L:73,4|L:64.000001,11.6</shape>
+     <shape comment="Guayana">M:114.999994,20.000001|L:110.999998,28.999999|L:114,38|L:117.999995,50.000001|L:122.800007,46.399999|L:127.000001,46.000001|L:124.200005,37.199999|L:127.000001,30|L:119.999997,27.000001|L:114.999994,20.000001</shape>
+     <shape comment="Surinam">M:127.000001,30|L:124.200005,37.199999|L:127.000001,46.000001|L:135.999994,42.999999|L:139.999996,40.000002|L:137.999995,37|L:138.999996,30.999999|L:134.000006,30.999999|L:127.000001,30</shape>
+     <shape comment="Guayana francesa">M:139.999996,40.000002|L:135.999994,42.999999|L:141.999998,46.000001|L:149.000002,38.999999|L:145,33|L:138.999996,30.999999|L:137.999995,37|L:139.999996,40.000002</shape>
+    </shaper>
+    <cell id="0">
+     <style>
+      <color background="0x008000" />
+     </style>
+    </cell>
+    <cell id="1">
+     <style>
+      <color background="0xFFC800" />
+     </style>
+    </cell>
+    <cell id="2">
+     <style>
+      <color background="0x0000FF" />
+     </style>
+    </cell>
+    <cell id="3">
+     <style>
+      <color background="0xFFFF00" />
+     </style>
+    </cell>
+    <cell id="4">
+     <style>
+      <color background="0x800080" />
+     </style>
+    </cell>
+    <cell id="5">
+     <style>
+      <color background="0xFFFF00" />
+     </style>
+    </cell>
+    <cell id="6">
+     <style>
+      <color background="0xFF0000" />
+     </style>
+    </cell>
+    <cell id="7">
+     <style>
+      <color background="0x008000" />
+     </style>
+    </cell>
+    <cell id="8">
+     <style>
+      <color background="0x0000FF" />
+     </style>
+    </cell>
+    <cell id="9">
+     <style>
+      <color background="0x800080" />
+     </style>
+    </cell>
+    <cell id="10">
+     <style>
+      <color background="0xFFC800" />
+     </style>
+    </cell>
+    <cell id="11">
+     <style>
+      <color background="0xFF0000" />
+     </style>
+    </cell>
+    <cell id="12">
+     <style>
+      <color background="0x0000FF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="maxActionsSample" code="">
+   <description>
+    <p>Associazione tra testo e immagine, con assegnazione speciale di relazioni.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>Questa attività deve essere risolta in meno di 10 tentativi</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>OK</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>Hai esaurito i tuoi tentativi!</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="10" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="9" cols="5" border="false" image="func2.gif" id="primary">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Holes" cols="5" rows="9" scaleX="5.0" scaleY="9.0">
+     <enclosing>
+      <shape>rectangle:0,0,5,9</shape>
+     </enclosing>
+     <shape>rectangle:1,1,1,1</shape>
+     <shape>rectangle:4,1,1,1</shape>
+     <shape>rectangle:2,2,1,1</shape>
+     <shape>rectangle:2,3,1,1</shape>
+     <shape>rectangle:1,4,1,1</shape>
+     <shape>rectangle:2,4,1,1</shape>
+     <shape>rectangle:3,4,1,1</shape>
+     <shape>rectangle:0,8,1,1</shape>
+    </shaper>
+    <ids>0 4 6 2 7 3 1 5</ids>
+   </cells>
+   <cells rows="4" cols="2" cellWidth="120.0" cellHeight="70.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="4" />
+    <cell>
+     <p>massimo locale</p>
+    </cell>
+    <cell>
+     <p>f'(x)=0, x&gt;0</p>
+    </cell>
+    <cell>
+     <p>punto d'inflessione</p>
+    </cell>
+    <cell>
+     <p>(0,0)</p>
+    </cell>
+    <cell>
+     <p>x=6</p>
+    </cell>
+    <cell>
+     <p>f(x)= -12</p>
+    </cell>
+    <cell>
+     <p>x=0</p>
+    </cell>
+    <cell>
+     <p>f(x)=0, x&lt;0</p>
+    </cell>
+   </cells>
+   <cells rows="9" cols="5" border="false" image="funcio.gif" id="solvedPrimary">
+    <shaper class="@Holes" cols="5" rows="9" scaleX="5.0" scaleY="9.0">
+     <enclosing>
+      <shape>rectangle:0,0,5,9</shape>
+     </enclosing>
+     <shape>rectangle:1,1,1,1</shape>
+     <shape>rectangle:4,1,1,1</shape>
+     <shape>rectangle:2,2,1,1</shape>
+     <shape>rectangle:2,3,1,1</shape>
+     <shape>rectangle:1,4,1,1</shape>
+     <shape>rectangle:2,4,1,1</shape>
+     <shape>rectangle:3,4,1,1</shape>
+     <shape>rectangle:0,8,1,1</shape>
+    </shaper>
+   </cells>
+   <scramble times="31" primary="false" secondary="false" />
+   <layout position="BA" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="maxTimeSample" code="">
+   <description>
+    <p>Puzzle con tempo massimo di risoluzione</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Devi risolvere questo puzzle in meno di 15 secondi</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Molto bene! Continuiamo?</p>
+    </cell>
+    <cell type="finalError">
+     <style />
+     <p>Tempo finito!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" maxTime="15" countDownTime="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="4" cols="3" border="false" image="astro.jpg">
+    <style>
+     <font family="Arial" size="21" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="4" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="menu0.ass" code="">
+   <description>
+    <p>Menu principale delle attività dimostrative</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="21" />
+      <color foreground="0xFFFFFF" background="0x0000FF" inactive="0x828282" alternative="0x828282" />
+     </style>
+     <p>Che cosa vuoi vedere?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="21" />
+      <color foreground="0xFFFFFF" background="0x0000FF" inactive="0x828282" alternative="0x828282" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x0000FF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x0000FF" border="false" />
+   </settings>
+   <cells rows="2" cols="1" cellWidth="500.0" cellHeight="100.0" border="false">
+    <style shadow="true">
+     <font family="Arial" size="26" bold="true" />
+     <color foreground="0xFFFFFF" background="0x0000FF" shadow="0x000000" inactive="0x000000" alternative="0x000000" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="2" />
+    <cell>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="menuact.ass" />
+     <p>• Esempi dei differenti tipi di attività</p>
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="menunou.pac" />
+     <p>• Novità di JClic</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="menuact.ass" code="">
+   <description>
+    <p>Menu degli esempi</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+      <color background="0xFFFF80" inactive="0x828282" alternative="0x828282" />
+     </style>
+     <p>Seleziona il tipo di esempi che vuoi vedere</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+      <color background="0xFFFF80" inactive="0x828282" alternative="0x828282" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFFFF80">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFFFF80" border="false" />
+   </settings>
+   <cells rows="6" cols="1" cellWidth="500.0" cellHeight="70.0" border="false">
+    <style shadow="true">
+     <font family="Arial" size="26" bold="true" />
+     <color foreground="0x000080" background="0xFFFF80" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="menupuz.pac" />
+     <p>Puzzle</p>
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="menuass.pac" />
+     <p>Associazioni</p>
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="menusop.pac" />
+     <p>Crucipuzzle </p>
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="menucrw.pac" />
+     <p>Parole crociate</p>
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="menutxa.pac" />
+     <p>Attività di testo</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="20" bold="true" />
+      <color foreground="0x800000" background="0xFFFF80" />
+     </style>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="menu0.pac" />
+     <p>&lt;&lt; Torna al menu principale</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="menuass.ass" code="">
+   <description>
+    <p>Descrizione delle associazioni</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="21" />
+      <color background="0xFFFF80" inactive="0x828282" alternative="0x828282" />
+     </style>
+     <p>Clicca sulla freccia per vedere gli esempi di associazione</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="21" />
+      <color background="0xFFFF80" inactive="0x828282" alternative="0x828282" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFFFF80">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFFFF80" border="false" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="500.0" cellHeight="90.0" border="false">
+    <style>
+     <font family="Arial" size="20" bold="true" />
+     <color foreground="0x000080" background="0xFFFF80" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <p>L'obiettivo delle attività associative è scoprire le relazioni tra gli elementi di due insiemi differenti di informazioni.</p>
+    </cell>
+    <cell>
+     <p>L'informazione da collegare può presentarsi come testo, immagine, suono, animazione, vídeo... o qualsiasi altro tipo di risorsa multimediale.</p>
+    </cell>
+    <cell>
+     <p>In questa categoria sono comprese anche alcune attività speciali, come le finestre informative o quelle con risposte scritte.</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="menucrw.ass" code="">
+   <description>
+    <p>Descrizione delle parole crociate</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="21" />
+      <color background="0xFFFF80" inactive="0x828282" alternative="0x828282" />
+     </style>
+     <p>Clicca sulla freccia per vedere gli esempi di parole crociate</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="21" />
+      <color background="0xFFFF80" inactive="0x828282" alternative="0x828282" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFFFF80">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFFFF80" border="false" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="500.0" cellHeight="90.0" border="false">
+    <style>
+     <font family="Arial" size="20" bold="true" />
+     <color foreground="0x000080" background="0xFFFF80" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <p>Le parole crociate sono come quelle che si trovano in qualsiasi giornale o rivista...</p>
+    </cell>
+    <cell>
+     <p>... con il vantaggio che le definizioni delle parole che si incrociano nelle caselle si presentano immediatamente.</p>
+    </cell>
+    <cell>
+     <p>Le definizioni sono di solito testuali, mapossono anche essere musicali o sonore.</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="menupuz.ass" code="">
+   <description>
+    <p>Descrizione dei puzzle</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="21" />
+      <color background="0xFFFF80" inactive="0x828282" alternative="0x828282" />
+     </style>
+     <p>Clicca sulla freccia per vedere gli esempi di puzzle</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="21" />
+      <color background="0xFFFF80" inactive="0x828282" alternative="0x828282" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFFFF80">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFFFF80" border="false" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="500.0" cellHeight="90.0" border="false">
+    <style>
+     <font family="Arial" size="21" bold="true" />
+     <color foreground="0x000080" background="0xFFFF80" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <p>L'obiettivo dei puzzle è di rimettere in ordine gli elementi di un insieme di informazioni che è stato rimescolato.</p>
+    </cell>
+    <cell>
+     <p>Questa informazione può essere testuale, grafica o sonora.</p>
+    </cell>
+    <cell>
+     <p>I puzzle si possono distinguere in quattro modalità differenti chiamate : "interscambio", "doppio", "buco" e "memory".</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="menusop.ass" code="">
+   <description>
+    <p>Descrizione dei crucipuzzle</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="21" />
+      <color background="0xFFFF80" inactive="0x828282" alternative="0x828282" />
+     </style>
+     <p>Clicca sulla freccia per vedere gli esempi di ricerca lettere</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="21" />
+      <color background="0xFFFF80" inactive="0x828282" alternative="0x828282" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFFFF80">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFFFF80" border="false" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="500.0" cellHeight="90.0" border="false">
+    <style>
+     <font family="Arial" size="20" bold="true" />
+     <color foreground="0x000080" background="0xFFFF80" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <p>Nei crucipuzzle si devono trovare le parole nascoste che possono essere scritte in qualsiasi direzione.</p>
+    </cell>
+    <cell>
+     <p>C'è anche l'opzione per cui mano a mano che si trovano le parole si scopre un'informazione collegata .</p>
+    </cell>
+    <cell>
+     <p>L'informazione collegata può essere testuale, grafica o sonora...</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="menutxa.ass" code="">
+   <description>
+    <p>Spiegazione delle attività di testo</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="21" />
+      <color background="0xFFFF80" inactive="0x828282" alternative="0x828282" />
+     </style>
+     <p>Clicca sulla freccia per vedere gli esempi di attività di testo</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="21" />
+      <color background="0xFFFF80" inactive="0x828282" alternative="0x828282" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFFFF80">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFFFF80" border="false" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="500.0" cellHeight="100.0" border="false">
+    <style>
+     <font family="Arial" size="21" bold="true" />
+     <color foreground="0x000080" background="0xFFFF80" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <p>Le attività di testo sono esercizi che consistono nel correggere, completare,  ordinare o identificare determinati elementi di un testo.</p>
+    </cell>
+    <cell>
+     <p>Ci sono sette modalità differenti di attività di testo: risposta scritta, riempimento, completare testi, identificare lettere o parole e ordinare parole o paragrafi.</p>
+    </cell>
+    <cell>
+     <p>Gli esercizi possono includere elementi grafici e sonori, come anche diversi elementi di help.</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="nou" code="">
+   <description>
+    <p>Novità di JClic</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <color foreground="0xFFFFFF" background="0x0000FF" />
+     </style>
+     <p>Novità di JClic</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x0000FF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x0000FF" border="false" />
+   </settings>
+   <cells rows="5" cols="1" cellWidth="470.0" cellHeight="50.0" border="false">
+    <style shadow="true">
+     <font family="Arial" size="18" bold="true" />
+     <color foreground="0xFFFFFF" background="0x0000FF" shadow="0x000000" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell txtAlign="left,middle" imgAlign="left,middle">
+     <media type="RUN_CLIC_PACKAGE" level="1" file="anim" />
+     <p>• Uso di JPG, PNG, GIFs animate e animazioni Flash</p>
+    </cell>
+    <cell txtAlign="left,middle" imgAlign="left,middle">
+     <media type="RUN_CLIC_PACKAGE" level="1" file="shapers" />
+     <p>• Generatori di forme</p>
+    </cell>
+    <cell txtAlign="left,middle" imgAlign="left,middle">
+     <media type="RUN_CLIC_PACKAGE" level="1" file="skins" />
+     <p>• Aspetto grafico personalizzabile</p>
+    </cell>
+    <cell txtAlign="left,middle" imgAlign="left,middle">
+     <media type="RUN_CLIC_PACKAGE" level="1" file="sounds" />
+     <p>• Suoni per gli eventi</p>
+    </cell>
+    <cell txtAlign="left,middle" imgAlign="left,middle">
+     <media type="RUN_CLIC_PACKAGE" level="1" file="features" />
+     <p>• Altre nuove caratteristiche delle attività</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@text.FillInBlanks" name="novetats" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+    </cell>
+    <cell type="final">
+     <style />
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFFFFFF" border="false">
+     <size width="600" height="360" />
+    </window>
+   </settings>
+   <document>
+    <style name="default" italic="false" size="14" foreground="0x000000" tabWidth="16" family="Arial" background="0xFFFFFF" bold="false" />
+    <style name="target" base="default" target="true" foreground="0x0000FF" background="0xC0C0C0" />
+    <style name="targetError" base="target" foreground="0xFFFFFF" background="0xFF0000" />
+    <section>
+     <p Alignment="1">
+      <text size="16" foreground="0x800000" bold="true">Altre nuove caratterístiche delle attività</text>
+     </p>
+     <p />
+     <p>
+      <text>In questa sequenza si mostrano alcune delle nuove caratteristiche che possono essere utilizzate nelle attività  di JClic:</text>
+     </p>
+     <p />
+     <p>
+      <text>- Stabilire un tempo massimo per risolvere l'attività.</text>
+     </p>
+     <p />
+     <p>
+      <text>- Attività che permettono un numero massimo di tentativi.</text>
+     </p>
+     <p />
+     <p>
+      <text>- Forzare la risoluzione degli elementi di una attività in un ordine determinato.</text>
+     </p>
+     <p />
+     <p>
+      <text>- Attività di memory con due insiemi di informazioni.</text>
+     </p>
+     <p />
+     <p>
+      <text>- Migliore visualizzazione</text>
+     </p>
+     <p />
+     <p>
+      <text>- Inserimento di font TrueType nei progetti JClic</text>
+     </p>
+     <p />
+     <p>
+      <text>- Uso di colori con il  canale alfa (trasparenza) e con gradienti.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="pres0.ass" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0x000080" />
+      <gradient source="0xD4D0C8" dest="0xF0F0E8" angle="90" cycles="2" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x0066CC">
+     <gradient source="0x000080" dest="0x0000FF" angle="90" cycles="30" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFFFF80" transparent="true" border="false" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="436.0" cellHeight="300.0" border="false">
+    <style shadow="true" transparent="true">
+     <font family="Arial" size="46" bold="true" />
+     <color foreground="0xF0F0E8" shadow="0x000080" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="menu0.pac" />
+     <p>Attività dimostrative di JClic 1.0</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="puz01.puz" code="">
+   <description>
+    <p>Puzzle del tipo "DOPPIO", con l'immagine di un leone.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Questo è un puzzle grafico del tipo"doppio"</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Groarr!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="4" cols="3" border="false" image="lion.jpg">
+    <style>
+     <font family="Arial" size="21" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="4" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="puz02.puz" code="">
+   <description>
+    <p>Puzzle del tipo  "INTERSCAMBIO", con l'immagine di un astronauta.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>... questo è di "interscambio" ...</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Molto bene! Continuiamo?</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="4" cols="3" border="false" image="astro.jpg">
+    <style>
+     <font family="Arial" size="21" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="4" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.HolePuzzle" name="puz03.puz" code="">
+   <description>
+    <p>Puzzle del tipo "BUCO", con l'immagine di un lupo.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>... e questo è del tipo "buco". Sono i più difficili!</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Ce l'hai fatta!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="3" cols="4" border="true" image="wolf.jpg">
+    <style>
+     <font family="Arial" size="21" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="3" />
+   </cells>
+   <scramble times="10" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="puz04.puz" code="">
+   <description>
+    <p>Puzzle del tipo "INTERSCAMBIO", con un file di testo.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Si possono anche costruire puzzle con il testo, come questo.</p>
+    </cell>
+    <cell image="pirata.gif" type="final">
+     <style />
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="3" cols="4" cellWidth="150.0" cellHeight="90.0" border="true">
+    <style>
+     <font family="Times New Roman" size="31" />
+     <color foreground="0xFFFFFF" background="0x000040" inactive="0x000000" alternative="0x000000" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="3" />
+    <cell>
+     <p>Chi </p>
+    </cell>
+    <cell>
+     <p>lascia</p>
+    </cell>
+    <cell>
+     <p>la via</p>
+    </cell>
+    <cell>
+     <p>vecchia</p>
+    </cell>
+    <cell>
+     <p>per</p>
+    </cell>
+    <cell>
+     <p>la nuova,</p>
+    </cell>
+    <cell>
+     <p>sa</p>
+    </cell>
+    <cell>
+     <p>quel</p>
+    </cell>
+    <cell>
+     <p>che lascia,</p>
+    </cell>
+    <cell>
+     <p>non sa</p>
+    </cell>
+    <cell>
+     <p>quel che</p>
+    </cell>
+    <cell>
+     <p>trova.</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="puz05.puz" code="">
+   <description>
+    <p>Moltiplicazioni</p>
+    <p>Numeri 1 - 9</p>
+    <p>Ordine ascendente</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>... o con operazioni matematiche. In questo caso bisogna disporle in ordine ascendente</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" infoCmd="winhelp.exe arith2.hlp" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <automation class="@arith.Arith">
+    <operand from="1" to="10" id="A" />
+    <operand from="1" to="10" id="B" />
+    <operations plus="true" minus="true" multiply="true" divide="false" />
+    <unknown result="true" first="false" last="false" operand="false" inverse="false" />
+    <result from="0" to="9999" duplicates="false" order="ascending" />
+   </automation>
+   <cells rows="1" cols="5" cellWidth="120.0" cellHeight="100.0" border="true">
+    <style>
+     <font family="Arial" size="18" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="5" rows="1" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="puz06.puz" code="">
+   <description>
+    <p>Puzzle del tipo "MEMORY" con frammenti di un'immagine</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+     </style>
+     <p>Questo è un memory: bisogna trovare i due pezzi uguali</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+     </style>
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="3" cols="4" border="true" image="mapa.gif" id="primary">
+    <style>
+     <font family="Arial" size="15" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="puz06b.puz" code="">
+   <description>
+    <p>Puzzle del tipo "MEMORY" con due insiemi di informazioni</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+     </style>
+     <p>In questo memory occorre accoppiare parola e immagine che si riferiscono allo stesso oggetto</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+     </style>
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="100.0" cellHeight="70.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="12" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="bici.gif" />
+    <cell image="cotxe.gif" />
+    <cell image="camio.gif" />
+    <cell image="moto.gif" />
+   </cells>
+   <cells rows="2" cols="2" border="false" id="secondary">
+    <style>
+     <font family="Arial" size="14" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell>
+     <p>bicicletta</p>
+    </cell>
+    <cell>
+     <p>auto</p>
+    </cell>
+    <cell>
+     <p>camion</p>
+    </cell>
+    <cell>
+     <p>moto</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="puzanim.puz" code="">
+   <description>
+    <p>Puzzle con un gif animato</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Esempio di puzzle con un GIF animato</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Molto bene! Continuiamo?</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="elmo.gif">
+    <style>
+     <font family="Arial" size="21" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="shape1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Questo puzzle è stato creato con il generatore di forme  "TriangularJigSaw"</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Era facile, no?</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="4" border="true" image="foto.jpg">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@TriangularJigSaw" cols="4" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="shape2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Questo generatore di forme si chiama "ClassicJigSaw"</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Bello, vero?</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="4" border="true" image="foto2.jpg">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@ClassicJigSaw" cols="4" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="shape3" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Questo utilizza il generatore "JigSaw", con una distribuzione casuale dei denti. Se vai all'attività precedente e poi torni, vedrai una distribuzione differente.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="4" border="true" image="foto.jpg">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@JigSaw" cols="4" rows="3" randomLines="true" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="shape4" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Il generatore "Holes" permette di definire ogni tipo di poligono, per mezzo di cerchi, ellissi e curve di Bézier.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="foto.jpg">
+    <style>
+     <color background="0xFFFFFF" inactive="0xFFFFFF" />
+    </style>
+    <shaper class="@Holes" cols="1" rows="1" scaleX="360.0" scaleY="270.0">
+     <enclosing>
+      <shape>rectangle:0,0,360,270</shape>
+     </enclosing>
+     <shape comment="circle">ellipse:45,15,70,70</shape>
+     <shape comment="triangle">M:35,172|L:35,90|L:106,131|X</shape>
+     <shape comment="rectangle">rectangle:268,20,48,137</shape>
+     <shape comment="ellipse">ellipse:150,190,130,60</shape>
+     <shape comment="pentagon">M:178,77|L:216,106|L:201,154|L:154,154|L:139,106|X</shape>
+     <shape comment="star">M:78,191|L:87,216|L:116,216|L:93,232|L:101,257|L:78,242|L:54,257|L:64,232|L:40,216|L:69,216|X</shape>
+    </shaper>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="skin01.txa" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0x400080" background="0xFFFFFF" />
+     </style>
+     <p>Skin azzurro</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0x400080" background="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="false">
+     <size width="540" height="250" />
+    </window>
+    <skin file="@blue.xml" />
+   </settings>
+   <document>
+    <style name="default" foreground="0x004080" size="17" italic="false" tabWidth="16" background="0xFFFFFF" family="Arial" bold="false" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" background="0xC0C0C0" />
+    <style name="targetError" base="target" foreground="0xFFFFFF" background="0xFF0000" />
+    <section>
+     <p>
+      <text> JClic permette l'uso di differenti interfacce utente, che sono gli "skin"  del programma. Le interfacce utente consistono in una elaborazione grafica delle finestre, dei pulsanti e dei contatori, e un documento XML che descrive il loro comportamento e la distribuzione nella schermata.</text>
+     </p>
+     <p />
+     <p>
+      <text>Ogni progetto JClic (o ogni attività di un progetto) può usare uno skin differente.</text>
+     </p>
+     <p />
+     <p>
+      <text>Questa attività viene visualizzata con lo skin  "Azzurro". Clicca sulla freccia di avanzamento per vedere altri esempi.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="skin02.txa" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0x400080" background="0xFFFFFF" />
+     </style>
+     <p>Skin arancione</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0x400080" background="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="false">
+     <size width="540" height="150" />
+    </window>
+    <skin file="@orange.xml" />
+   </settings>
+   <document>
+    <style name="default" foreground="0x004080" size="17" italic="false" tabWidth="16" background="0xFFFFFF" family="Arial" bold="false" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" background="0xC0C0C0" />
+    <style name="targetError" base="target" foreground="0xFFFFFF" background="0xFF0000" />
+    <section>
+     <p>
+      <text>In questa attività si utilizza l'interfaccia chiamata "Arancione", che è solo una variante cromatica della precedente.</text>
+     </p>
+     <p />
+     <p>
+      <text>Clicca sulla freccia di avanzamento per vedere altri esempi.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="skin03.txa" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0x400080" background="0xFFFFFF" />
+     </style>
+     <p>Skin semplice</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0x400080" background="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="false">
+     <size width="540" height="150" />
+    </window>
+    <skin file="@simple.xml" />
+   </settings>
+   <document>
+    <style name="default" foreground="0x004080" size="17" italic="false" tabWidth="16" background="0xFFFFFF" family="Arial" bold="false" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" background="0xC0C0C0" />
+    <style name="targetError" base="target" foreground="0xFFFFFF" background="0xFF0000" />
+    <section>
+     <p>
+      <text>Questa è l'interfaccia chiamata "Semplice".</text>
+     </p>
+     <p>
+      <text>I pulsanti per l'avanzamento delle attività sono nella parte superiore.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="skin04.txa" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0x400080" background="0xFFFFFF" />
+     </style>
+     <p>Skin scratch</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0x400080" background="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="false">
+     <size width="540" height="150" />
+    </window>
+    <skin file="scratch.xml" />
+   </settings>
+   <document>
+    <style name="default" foreground="0x004080" size="17" italic="false" tabWidth="16" background="0xFFFFFF" family="Arial" bold="false" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" background="0xC0C0C0" />
+    <style name="targetError" base="target" foreground="0xFFFFFF" background="0xFF0000" />
+    <section>
+     <p>
+      <text>E questa è un interfaccia di prova disegnata con delle linee e senza contatori.</text>
+     </p>
+     <p />
+     <p>
+      <text>Se passi all'attività successiva ti troverai di nuovo nell'interfaccia standard di JClic.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="sop01.sop" code="">
+   <description>
+    <p>Nomi di compositori</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Un crucipuzzle facile: trova tre nomi di compositori</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <textGrid rows="10" columns="6" cellWidth="30.0" cellHeight="30.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>***B******</row>
+     <row>MOZART****</row>
+     <row>***C*A****</row>
+     <row>***H**H***</row>
+     <row>*******M**</row>
+     <row>********S*</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">BACH</clue>
+    <clue id="1">MOZART</clue>
+    <clue id="2">BRAHMS</clue>
+   </clues>
+  </activity>
+  <activity class="@textGrid.WordSearch" name="sop02.sop" code="">
+   <description>
+    <p>Crucipuzzle con un'immagine associata.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>In questo crucipuzzle ci sono i nomi dei paesi dell'America del sud. Mano a mano che li trovi compariranno sulla mappa.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>Li hai trovati tutti!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <textGrid rows="16" columns="10" cellWidth="20.0" cellHeight="20.0" border="false">
+    <style>
+     <font family="Arial" size="10" />
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>P***COLOMBIA****</row>
+     <row>A****ECUADOR**V*</row>
+     <row>RY*B*****P****EG</row>
+     <row>AA*R****E*****NU</row>
+     <row>GUIANAFRANCESEEI</row>
+     <row>UG*S**U*******ZA</row>
+     <row>AU*I*BOLIVIAC*UN</row>
+     <row>YR*L**********EA</row>
+     <row>*U*E*ARGENTINAL*</row>
+     <row>******SURINAMEA*</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">BRASILE</clue>
+    <clue id="1">ARGENTINA</clue>
+    <clue id="2">CILE</clue>
+    <clue id="3">URUGUAY</clue>
+    <clue id="4">PARAGUAY</clue>
+    <clue id="5">BOLIVIA</clue>
+    <clue id="6">PERU</clue>
+    <clue id="7">ECUADOR</clue>
+    <clue id="8">COLOMBIA</clue>
+    <clue id="9">VENEZUELA</clue>
+    <clue id="10">GUIANA</clue>
+    <clue id="11">SURINAME</clue>
+    <clue id="12">GUIANAFRANCESE</clue>
+   </clues>
+   <cells rows="1" cols="1" cellWidth="229.0" cellHeight="300.0" border="true" id="secondary">
+    <style borderStroke="1.5">
+     <color background="0x808080" inactive="0xFFFFFF" />
+    </style>
+    <shaper class="@Holes" cols="1" rows="1" scaleX="229.0" scaleY="300.0">
+     <enclosing>
+      <shape>rectangle:0,0,229,300</shape>
+     </enclosing>
+     <shape comment="Brasil">M:137.5,194.5|L:126.5,182.5|L:137,173|L:135,166|L:131.25,160.25|L:127.75,151.75|L:123.5,147.75|L:121,141|L:122,128.25|L:115.75,123.25|L:111,114.25|L:104,110.25|L:93,105.25|L:90,97.25|L:75,102|L:67.8,97.8|L:61.8,96.6|L:57,90|L:59,78.8|L:64,73|L:69,72|L:71,66|L:73,62|L:71,54|L:76,47|L:84.2,48.8|L:94,50|L:98,47|L:96,40|L:103,39|L:114,38|L:118,50|L:122.8,46.4|L:127,46|L:135.8,43|L:142,46|L:149,39|L:156,47|L:148,58|L:154,56|L:160,56|L:163,60|L:169,57|L:177,62|L:179,67|L:185,65|L:193,67|L:199,66|L:207,74|L:211,77|L:217,77|L:220,87|L:214,97|L:206,107|L:201,113|L:199,125|L:195,135|L:189,144|L:183,154|L:175,154|L:165,159|L:158,163|L:156,175|L:148,184|L:137.5,194.5</shape>
+     <shape comment="Argentina">M:100.75,291.5|L:91.75,287.25|L:89.5,278.25|L:82.25,276.5|L:78.25,269|L:78.25,257|L:80.25,246.75|L:78,240|L:76,228.75|L:76.5,218.75|L:77.75,209.5|L:78.5,198.75|L:76.75,187.75|L:78.75,178.25|L:81.5,171.25|L:81.75,162|L:86.5,151.5|L:93,148|L:97,150|L:102,147|L:106.25,152.5|L:112.5,156.75|L:117.75,161.75|L:121.25,163.75|L:119.25,171.25|L:124.75,173.5|L:130.25,172|L:135,166|L:137,173|L:126.25,182.5|L:120.25,192.5|L:120,201|L:121,208|L:125,212|L:117,222|L:111,223|L:107,223|L:105,231|L:99,231|L:99,242|L:96,248|L:91,254|L:96,260|L:93,268.5|L:89,272|L:105.25,288.25|L:100.75,291.5</shape>
+     <shape comment="Chile">M:100.75,291.5|L:91.75,287.25|L:89.5,278.25|L:82.25,276.5|L:78.25,269|L:78.25,257|L:80.25,246.75|L:78,240|L:76,228.75|L:76.5,218.75|L:77.75,209.5|L:78.5,198.75|L:76.75,187.75|L:78.75,178.25|L:81.5,171.25|L:81.75,162|L:86.5,151.5|L:82,145|L:79,138|L:73.5,128.75|L:72,135|L:75,151|L:73,162|L:72,174|L:72,188|L:72,200|L:70,211|L:69,223|L:69,233|L:71,241|L:74,236|L:76,245|L:72,253|L:73,263|L:74,272|L:78,277|L:82,283|L:86,286|L:91.75,287.25|L:96.5,293|L:100.75,291.5</shape>
+     <shape comment="Uruguay">M:137.5,194.5|L:126.25,182.5|L:120.25,192.5|L:120,201|L:121,208|L:134.25,205|L:137.5,194.5</shape>
+     <shape comment="Paraguay">M:124.75,173.5|L:119.25,171.25|L:121.25,163.75|L:117.75,161.75|L:112.5,156.75|L:106.25,152.5|L:102,147|L:107,140|L:113,139|L:121,141|L:123.5,147.75|L:127.75,151.75|L:131.25,160.25|L:135,166|L:130.25,172|L:124.75,173.5</shape>
+     <shape comment="Bolivia">M:113,139|L:107,140|L:102,147|L:97,150|L:93,148|L:86.5,151.5|L:82,145|L:79,138|L:73.5,128.75|L:75,123|L:76,113|L:75,102|L:90,97.25|L:93,105.25|L:104,110.25|L:111,114.25|L:116,123.25|L:122,128.25|L:121,141|L:113,139</shape>
+     <shape comment="Peru">M:75,123|L:76,113|L:75,102|L:67.8,97.8|L:61.8,96.6|L:57,90|L:59,79|L:64,73|L:69,72|L:71,66|L:63,65|L:55,61|L:49.8,57|L:45,63|L:38,68|L:33,76|L:26,72|L:26,81|L:32,88|L:37,97|L:42,106|L:47,114|L:53,121|L:61,126|L:67,129|L:72,135|L:73.5,128.75|L:75,123</shape>
+     <shape comment="Ecuador">M:49.8,57|L:45,63|L:38,68|L:33,76|L:26,72|L:30,68|L:27,65|L:25,59|L:29,53|L:34,48|L:40,54|L:46,55|L:49.8,57</shape>
+     <shape comment="Colombia">M:71,66|L:63,65|L:55,61|L:49.8,57|L:46,55|L:40,54|L:33.8,48|L:40,42|L:41,34|L:39,25|L:44,18|L:50,10|L:57,6|L:66,3|L:59.2,14.6|L:62,22|L:68,26|L:75,30|L:82,28|L:82,37|L:80.8,43.8|L:84.2,49|L:76,47|L:71,54|L:73,62|L:71,66</shape>
+     <shape comment="Venezuela">M:64.4,12.2|L:59.2,14.6|L:62,21.8|L:67.8,26|L:75,30|L:82,28|L:82,37|L:80.8,43.8|L:84.2,48.8|L:94,50|L:98,47|L:96,40|L:103,39|L:114,38|L:111,29|L:114.8,20|L:110,19|L:105,14|L:98,9|L:94,13|L:85,10|L:79,10|L:73,4|L:64.4,12.2</shape>
+     <shape comment="Guayana">M:115,20|L:111,29|L:114,38|L:118,50|L:122.8,46.4|L:127,46|L:124.2,37.2|L:127,30|L:120,27|L:115,20</shape>
+     <shape comment="Surinam">M:127,30|L:124.2,37.2|L:127,46|L:136,43|L:140,40|L:138,37|L:139,31|L:134,31|L:127,30</shape>
+     <shape comment="Guayana francesa">M:140,40|L:136,43|L:142,46|L:149,39|L:145,33|L:139,31|L:138,37|L:140,40</shape>
+    </shaper>
+    <cell id="0">
+     <style>
+      <color background="0x008000" />
+     </style>
+    </cell>
+    <cell id="1">
+     <style>
+      <color background="0xFFC800" />
+     </style>
+    </cell>
+    <cell id="2">
+     <style>
+      <color background="0x0000FF" />
+     </style>
+    </cell>
+    <cell id="3">
+     <style>
+      <color background="0xFFFF00" />
+     </style>
+    </cell>
+    <cell id="4">
+     <style>
+      <color background="0x800080" />
+     </style>
+    </cell>
+    <cell id="5">
+     <style>
+      <color background="0xFFFF00" />
+     </style>
+    </cell>
+    <cell id="6">
+     <style>
+      <color background="0xFF0000" />
+     </style>
+    </cell>
+    <cell id="7">
+     <style>
+      <color background="0x008000" />
+     </style>
+    </cell>
+    <cell id="8">
+     <style>
+      <color background="0x0000FF" />
+     </style>
+    </cell>
+    <cell id="9">
+     <style>
+      <color background="0x800080" />
+     </style>
+    </cell>
+    <cell id="10">
+     <style>
+      <color background="0xFFC800" />
+     </style>
+    </cell>
+    <cell id="11">
+     <style>
+      <color background="0xFF0000" />
+     </style>
+    </cell>
+    <cell id="12">
+     <style>
+      <color background="0x0000FF" />
+     </style>
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="sop03.sop" code="">
+   <description>
+    <p>Nomi di compositori con file MIDI associati</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Il crucipuzzle dei compositori, però abbiamo aggiunto anche la musica.</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <textGrid rows="10" columns="6" cellWidth="30.0" cellHeight="30.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>***B******</row>
+     <row>MOZART****</row>
+     <row>***C*A****</row>
+     <row>***H**H***</row>
+     <row>*******M**</row>
+     <row>********S*</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">BACH</clue>
+    <clue id="1">MOZART</clue>
+    <clue id="2">BRAHMS</clue>
+   </clues>
+   <cells rows="3" cols="1" cellWidth="100.0" cellHeight="50.0" border="false" id="secondary">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <media type="PLAY_MIDI" level="1" file="bach.mid" />
+    </cell>
+    <cell>
+     <media type="PLAY_MIDI" level="1" file="mozart.mid" />
+    </cell>
+    <cell>
+     <media type="PLAY_MIDI" level="1" file="bressol.mid" />
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="sounds" code="">
+   <description>
+    <p>Associazione tra testi con assegnazione di  relazioni e soluzioni.</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+     </style>
+     <p>Suoni di eventi</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+     </style>
+     <p>Ohhhh!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+    <eventSounds>
+     <sound id="click" file="pop.wav" />
+     <sound id="actionError" file="whistledown.wav" />
+     <sound id="actionOk" file="whistleup.wav" />
+     <sound id="finishedOk" file="ohhh.wav" />
+    </eventSounds>
+   </settings>
+   <cells rows="3" cols="4" cellWidth="100.0" cellHeight="90.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="18" />
+     <color foreground="0x0000FF" background="0xFFFFFF" />
+    </style>
+    <shaper class="@Holes" cols="1" rows="1" scaleX="4.0" scaleY="4.0">
+     <enclosing>
+      <shape>rectangle:0,0,4,4</shape>
+     </enclosing>
+     <shape>rectangle:0,0,4,1</shape>
+     <shape>rectangle:0,1,1,1</shape>
+     <shape>rectangle:1,1,1,1</shape>
+     <shape>rectangle:2,1,1,1</shape>
+     <shape>rectangle:3,1,1,1</shape>
+     <shape>rectangle:0,2,1,1</shape>
+     <shape>rectangle:1,2,1,1</shape>
+     <shape>rectangle:2,2,1,1</shape>
+     <shape>rectangle:3,2,1,1</shape>
+     <shape>rectangle:0,3,1,1</shape>
+     <shape>rectangle:1,3,1,1</shape>
+     <shape>rectangle:2,3,1,1</shape>
+     <shape>rectangle:3,3,1,1</shape>
+    </shaper>
+    <cell>
+     <style>
+      <font family="Arial" size="14" />
+      <color background="0xFFFFFF" inactive="0x800000" />
+     </style>
+     <p> </p>
+    </cell>
+    <cell id="0">
+     <p>gioco</p>
+    </cell>
+    <cell id="2">
+     <p>vedrete</p>
+    </cell>
+    <cell id="2">
+     <p>canterà</p>
+    </cell>
+    <cell id="1">
+     <p>camminavano</p>
+    </cell>
+    <cell id="0">
+     <p>guardate</p>
+    </cell>
+    <cell id="1">
+     <p>disse</p>
+    </cell>
+    <cell id="0">
+     <p> passi</p>
+    </cell>
+    <cell id="2">
+     <p>balleranno</p>
+    </cell>
+    <cell id="0">
+     <p>mangia</p>
+    </cell>
+    <cell id="0">
+     <p>bevete</p>
+    </cell>
+    <cell id="2">
+     <p>salterai</p>
+    </cell>
+    <cell id="1">
+     <p>videro</p>
+    </cell>
+   </cells>
+   <cells rows="3" cols="1" cellWidth="100.0" cellHeight="90.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="18" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <p>PRESENTE</p>
+    </cell>
+    <cell>
+     <p>PASSATO</p>
+    </cell>
+    <cell>
+     <p>FUTURO</p>
+    </cell>
+   </cells>
+   <cells rows="3" cols="4" cellWidth="100.0" cellHeight="90.0" border="true" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="4" rows="3" />
+    <cell>
+     <p>Questa attività serve a provare i suoni collegati agli eventi.</p>
+     <p>Potete provarli facendo clic sulle caselle, creando delle associazioni tra le due tabelle.</p>
+    </cell>
+    <cell>
+     <p>oggi gioco</p>
+    </cell>
+    <cell>
+     <p>domani vedrete</p>
+    </cell>
+    <cell>
+     <p>domani canterà</p>
+    </cell>
+    <cell>
+     <p>ieri camminavano</p>
+    </cell>
+    <cell>
+     <p>oggi guardate</p>
+    </cell>
+    <cell>
+     <p>ieri disse</p>
+    </cell>
+    <cell>
+     <p>oggi passi</p>
+    </cell>
+    <cell>
+     <p>domani balleranno</p>
+    </cell>
+    <cell>
+     <p>oggi mangia</p>
+    </cell>
+    <cell>
+     <p>oggi bevete</p>
+    </cell>
+    <cell>
+     <p>domani salterai</p>
+    </cell>
+    <cell>
+     <p>ieri videro</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="txa01.txa" code="">
+   <description>
+    <p>Attività di riempimento con immagini</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0x008080" background="0xFFFFFF" />
+     </style>
+     <p>Attività di riempimento con immagini</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0x008080" background="0xFFFFFF" />
+     </style>
+     <p>Benissimo!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false">
+     <size width="540" height="350" />
+    </window>
+   </settings>
+   <document>
+    <style name="default" italic="false" size="17" foreground="0x000000" tabWidth="31" family="Arial" background="0xFFFFFF" bold="false" />
+    <style name="target" base="default" target="true" foreground="0x0000FF" background="0xFFFFFF" />
+    <style name="targetError" base="target" foreground="0xFFFFFF" background="0xFF0000" />
+    <section>
+     <p>
+      <cell width="140" height="138" border="false" image="taronja.gif">
+       <style shadow="true" borderStroke="0.7" markerStroke="5.0">
+        <font family="Courier New" size="20" />
+        <color foreground="0x0000A0" background="0xFFFFFF" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+       </style>
+      </cell>
+      <text>	</text>
+      <cell width="140" height="140" border="false" image="cireres.gif">
+       <style shadow="true">
+        <font family="Courier New" size="20" bold="true" />
+        <color foreground="0x0000A0" background="0xFFFFFF" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+       </style>
+      </cell>
+      <text>	</text>
+      <cell width="140" height="140" border="false" image="pera.gif">
+       <style shadow="true">
+        <font family="Courier New" size="20" bold="true" />
+        <color foreground="0x0000A0" background="0xFFFFFF" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+       </style>
+      </cell>
+     </p>
+     <p>
+      <text>      </text>
+      <text italic="false" size="17" foreground="0x0066FF" family="Arial" background="0xFFFFFF" bold="false">arancia</text>
+      <text>	   </text>
+      <target>
+       <answer>ciliegie</answer>
+       <response fill="_" length="8" maxLength="8" />
+       <text>ciliegie</text>
+      </target>
+      <text>	       </text>
+      <target>
+       <answer>pera</answer>
+       <response fill="_" length="4" maxLength="4" />
+       <text>pera</text>
+      </target>
+     </p>
+     <p>
+      <cell width="140" height="140" border="false" image="llimona.gif">
+       <style shadow="true">
+        <font family="Courier New" size="20" bold="true" />
+        <color foreground="0x0000A0" background="0xFFFFFF" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+       </style>
+      </cell>
+      <text>	</text>
+      <cell width="140" height="140" border="false" image="sindria.gif">
+       <style shadow="true">
+        <font family="Courier New" size="20" bold="true" />
+        <color foreground="0x0000A0" background="0xFFFFFF" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+       </style>
+      </cell>
+      <text>	</text>
+      <cell width="140" height="140" border="false" image="raim.gif">
+       <style shadow="true">
+        <font family="Courier New" size="20" bold="true" />
+        <color foreground="0x0000A0" background="0xFFFFFF" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+       </style>
+      </cell>
+     </p>
+     <p>
+      <text>     </text>
+      <target>
+       <answer>limone</answer>
+       <response fill="_" length="7" maxLength="7" />
+       <text>limone</text>
+      </target>
+      <text>                         </text>
+      <target>
+       <answer>anguria</answer>
+       <response fill="_" length="7" maxLength="7" />
+       <text>anguria</text>
+      </target>
+      <text>	    </text>
+      <target>uva</target>
+     </p>
+     <p />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="txa02.txa" code="" autoJump="true">
+   <description>
+    <p>Attività di riempimento</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>Attività di riempimento .</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>Perfetto!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="lletres.gif" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <size width="410" height="350" />
+    </window>
+   </settings>
+   <document>
+    <style name="default" italic="false" size="15" foreground="0x000000" tabWidth="12" family="Arial" background="0xFFFFFF" bold="false" />
+    <style name="note" base="default" size="11" />
+    <style name="target" base="default" target="true" foreground="0x0000FF" background="0xFFFFFF" />
+    <style name="targetError" base="target" foreground="0xFFFFFF" background="0xFF0000" />
+    <section>
+     <p>
+      <cell txtAlign="left,middle" imgAlign="left,middle" width="380" height="60" border="false">
+       <style>
+        <font family="Arial" size="20" bold="true" />
+        <color foreground="0xFF0000" background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+       </style>
+       <p>Indica il nome di questi insiemi di animali:</p>
+      </cell>
+     </p>
+     <p />
+     <p>
+      <text>  •  Un </text>
+      <target>
+       <answer>gregge</answer>
+       <response fill="_" length="6" maxLength="6" />
+       <text>gregge</text>
+      </target>
+      <text> di pecore</text>
+     </p>
+     <p />
+     <p>
+      <text>  •  Uno </text>
+      <target>
+       <answer>stormo</answer>
+       <response fill="_" length="6" maxLength="6" />
+       <text>stormo</text>
+      </target>
+      <text> di uccelli</text>
+     </p>
+     <p />
+     <p>
+      <text>  •  Una </text>
+      <target>
+       <answer>mandria</answer>
+       <response fill="_" length="7" maxLength="7" />
+       <text>mandria</text>
+      </target>
+      <text> di cavalli</text>
+     </p>
+     <p />
+     <p>
+      <text>  •  Uno </text>
+      <target>
+       <answer>sciame</answer>
+       <response fill="_" length="6" maxLength="6" />
+       <text>sciame</text>
+      </target>
+      <text> di api</text>
+     </p>
+     <p />
+     <p>
+      <text>  •  Un </text>
+      <target>
+       <answer>branco</answer>
+       <response fill="_" length="6" maxLength="6" />
+       <text>branco</text>
+      </target>
+      <text> di lupi</text>
+     </p>
+     <p />
+     <p />
+     <p style="note" />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="txa03.txa" code="">
+   <description>
+    <p>Riempimento con finestre di help</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>Attività di riempimento con finestre di aiuto</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false">
+     <size width="560" height="340" />
+    </window>
+   </settings>
+   <document>
+    <style name="default" foreground="0x000000" size="15" italic="false" tabWidth="2" background="0xC0C0C0" family="Arial" bold="false" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" background="0xC0C0C0" />
+    <style name="targetError" base="target" foreground="0xFFFFFF" background="0xFF0000" />
+    <section>
+     <p>
+      <cell txtAlign="left,middle" imgAlign="left,middle" width="500" height="100" border="false">
+       <style>
+        <font family="Arial" size="18" bold="true" />
+        <color foreground="0xFF0000" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+       </style>
+       <p>Riempi gli spazi vuoti delle frasi con i nomi derivati dalle parole che vengono mostrate. </p>
+      </cell>
+     </p>
+     <p>
+      <text>•  Va viure un any enmig de la </text>
+      <target>
+       <answer>solitud</answer>
+       <answer>soledat</answer>
+       <response fill="_" length="7" maxLength="7" />
+       <info>
+        <cell width="80" height="30">
+         <style shadow="true">
+          <font family="Arial" size="13" bold="true" />
+          <color foreground="0xFFFFFF" background="0x0000FF" shadow="0x000000" inactive="0x000000" alternative="0x000000" />
+         </style>
+         <p>sol</p>
+        </cell>
+       </info>
+       <text>solitud</text>
+      </target>
+      <text> d'aquestes muntanyes.</text>
+     </p>
+     <p />
+     <p>
+      <text>•  És molt difícil calcular amb precisió l'</text>
+      <target>
+       <answer>antiguitat</answer>
+       <response fill="_" length="10" maxLength="10" />
+       <info>
+        <cell width="80" height="30">
+         <style shadow="true">
+          <font family="Arial" size="13" bold="true" />
+          <color foreground="0xFFFFFF" background="0x0000FF" shadow="0x000000" inactive="0x000000" alternative="0x000000" />
+         </style>
+         <p>antic</p>
+        </cell>
+       </info>
+       <text>antiguitat</text>
+      </target>
+      <text> d'aquestes construccions.</text>
+     </p>
+     <p />
+     <p>
+      <text>•  L'entusiasme del públic pel gol va ser foc d'</text>
+      <target>
+       <answer>encenalls</answer>
+       <response fill="_" length="9" maxLength="9" />
+       <info>
+        <cell width="80" height="30">
+         <style shadow="true">
+          <font family="Arial" size="13" bold="true" />
+          <color foreground="0xFFFFFF" background="0x0000FF" shadow="0x000000" inactive="0x000000" alternative="0x000000" />
+         </style>
+         <p>encendre</p>
+        </cell>
+       </info>
+       <text>encenalls</text>
+      </target>
+      <text>, perquè l'equip contrari va marcar al cap d'un minut.</text>
+     </p>
+     <p />
+     <p>
+      <text>•  Això que has dit és una </text>
+      <target>
+       <answer>beneiteria</answer>
+       <response fill="_" length="10" maxLength="10" />
+       <info>
+        <cell width="80" height="30">
+         <style shadow="true">
+          <font family="Arial" size="13" bold="true" />
+          <color foreground="0xFFFFFF" background="0x0000FF" shadow="0x000000" inactive="0x000000" alternative="0x000000" />
+         </style>
+         <p>beneit</p>
+        </cell>
+       </info>
+       <text>beneiteria</text>
+      </target>
+      <text> sense solta ni volta.</text>
+     </p>
+     <p />
+     <p>
+      <text foreground="0x000000" size="10" italic="false" background="0xC0C0C0" family="Arial" bold="false">Material didàctic per a cursos de nivell C</text>
+     </p>
+     <p>
+      <text foreground="0x000000" size="10" italic="false" background="0xC0C0C0" family="Arial" bold="false">Escola d'Administració Pública de Catalunya</text>
+     </p>
+     <p>
+      <text foreground="0x000000" size="10" italic="false" background="0xC0C0C0" family="Arial" bold="false">Pere Herrero i Maria Valle, 1997</text>
+     </p>
+     <p />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="txa04.txa" code="" autoJump="true">
+   <description>
+    <p>Attività di riempimento con sostituzione delle parole errate</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Attività di riempimento con sostituzione di parole</p>
+    </cell>
+    <cell type="final">
+     <style />
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="528" height="346" />
+    </window>
+   </settings>
+   <document>
+    <style name="default" italic="false" size="17" foreground="0x000000" tabWidth="12" family="Arial" background="0xFFFFFF" bold="false" />
+    <style name="note" base="default" size="11" />
+    <style name="target" base="default" target="true" foreground="0x0000FF" background="0xFFFFFF" />
+    <style name="targetError" base="target" foreground="0xFFFFFF" background="0xFF0000" />
+    <section>
+     <p>
+      <cell txtAlign="left,middle" imgAlign="left,middle" width="500" height="60" border="true">
+       <style>
+        <color foreground="0xFFFFFF" background="0x008080" inactive="0x000000" alternative="0x000000" />
+       </style>
+       <p>Cancella le parole errate e correggi gli errori che ci sono in queste frasi:</p>
+      </cell>
+     </p>
+     <p />
+     <p>
+      <text>L'</text>
+      <target>
+       <answer>eccesso</answer>
+       <response fill="_" length="7" maxLength="7" show="accesso" />
+       <text>eccesso</text>
+      </target>
+      <text> di velocità ha causato l'incidente.</text>
+     </p>
+     <p />
+     <p>
+      <text>Abbiamo provato </text>
+      <target>
+       <answer>a</answer>
+       <response fill="_" length="1" maxLength="1" show="ha" />
+       <text>a</text>
+      </target>
+      <text> chiamarlo</text>
+     </p>
+     <p />
+     <p>
+      <text>Non </text>
+      <target>
+       <answer>accelerare</answer>
+       <response fill="_" length="10" maxLength="10" show="acellerare" />
+       <text>accelerare</text>
+      </target>
+      <text> bruscamente.</text>
+     </p>
+     <p />
+     <p>
+      <text>Ieri ho fatto la sua </text>
+      <target>
+       <answer>conoscenza</answer>
+       <response fill="_" length="10" maxLength="10" show="conoscienza" />
+       <text>conoscenza</text>
+      </target>
+      <text>.</text>
+     </p>
+     <p />
+     <p>
+      <text>E' una regola che non ammette </text>
+      <target>
+       <answer>eccezioni</answer>
+       <response fill="_" length="9" maxLength="9" show="eccezzioni" />
+       <text>eccezioni</text>
+      </target>
+      <text>.</text>
+     </p>
+     <p />
+     <p>
+      <text>Telefono a Maria, </text>
+      <target>
+       <answer>le</answer>
+       <response fill="_" length="2" maxLength="2" show="gli" />
+       <text>le</text>
+      </target>
+      <text>  chiederò di uscire.</text>
+     </p>
+     <p />
+     <p />
+     <p />
+     <p style="note" />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="txa05.txa" code="" autoJump="true">
+   <description>
+    <p>Attività con valutazione finale</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Attività con valutazione finale</p>
+    </cell>
+    <cell type="final">
+     <style />
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="520" height="346" />
+    </window>
+   </settings>
+   <checkButton>Correggi l'esercizio</checkButton>
+   <document>
+    <style name="default" foreground="0x000000" size="17" italic="false" tabWidth="12" background="0xFFFFFF" family="Arial" bold="false" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" background="0xFFFFFF" />
+    <style name="targetError" base="target" foreground="0xFFFFFF" background="0xFF0000" />
+    <section>
+     <p>
+      <cell txtAlign="left,middle" imgAlign="left,middle" width="490" height="70" border="true">
+       <style>
+        <color foreground="0xFFFFFF" background="0x008080" inactive="0x000000" alternative="0x000000" />
+       </style>
+       <p>Riempi i vuoti nelle frasi seguenti con:</p>
+       <p>a, amb, em, en, hem</p>
+      </cell>
+     </p>
+     <p />
+     <p>
+      <target>
+       <answer>Em</answer>
+       <response fill="_" length="1" maxLength="10" />
+       <text>Em</text>
+      </target>
+      <text> penso que t'has deixat enredar.</text>
+     </p>
+     <p />
+     <p>
+      <target>
+       <answer>En</answer>
+       <response fill="_" length="1" maxLength="10" />
+       <text>En</text>
+      </target>
+      <text> pots portar uns quants.</text>
+     </p>
+     <p />
+     <p>
+      <text>Sempre que és fora pensa </text>
+      <target>
+       <answer>en</answer>
+       <response fill="_" length="1" maxLength="10" />
+       <text>en</text>
+      </target>
+      <text> tu.</text>
+     </p>
+     <p />
+     <p>
+      <text>Tenia pressa i ho va acabar </text>
+      <target>
+       <answer>amb</answer>
+       <response fill="_" length="1" maxLength="10" />
+       <text>amb</text>
+      </target>
+      <text> quatre esgarrapades.</text>
+     </p>
+     <p />
+     <p>
+      <text>Ho he preguntat </text>
+      <target>
+       <answer>a en</answer>
+       <response fill="_" length="1" maxLength="10" />
+       <text>a en</text>
+      </target>
+      <text> Jaume i m'ha dit que sí.</text>
+     </p>
+     <p />
+     <p>
+      <text>Van desaparèixer </text>
+      <target>
+       <answer>en</answer>
+       <response fill="_" length="1" maxLength="10" />
+       <text>en</text>
+      </target>
+      <text> un tres i no res.</text>
+     </p>
+     <p />
+     <p>
+      <target>
+       <answer>Hem</answer>
+       <response fill="_" length="1" maxLength="10" />
+       <text>Hem</text>
+      </target>
+      <text> pensat que val més no arriscar-se en aquest negoci.</text>
+     </p>
+     <p />
+     <p>
+      <text>Mai no penses </text>
+      <target>
+       <answer>a</answer>
+       <response fill="_" length="1" maxLength="10" />
+       <text>a</text>
+      </target>
+      <text> tancar la porta del garatge.</text>
+     </p>
+     <p />
+     <p>
+      <target>
+       <answer>En</answer>
+       <response fill="_" length="1" maxLength="10" />
+       <text>En</text>
+      </target>
+      <text> porto de grans i de petites.</text>
+     </p>
+     <p />
+     <p>
+      <text foreground="0x000000" size="10" italic="false" background="0xFFFFFF" family="Arial" bold="false">Material didàctic per a cursos de nivell C</text>
+     </p>
+     <p>
+      <text foreground="0x000000" size="10" italic="false" background="0xFFFFFF" family="Arial" bold="false">Escola d'Administració Pública de Catalunya</text>
+     </p>
+     <p>
+      <text foreground="0x000000" size="10" italic="false" background="0xFFFFFF" family="Arial" bold="false">Pere Herrero i Maria Valle, 1997</text>
+     </p>
+     <p />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" detail="false" checkSteps="4" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="txa07.txa" code="">
+   <description>
+    <p>Tavola periodica: riempimento</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0xFFFFFF" background="0x008080" />
+     </style>
+     <p>In questa tavola mancano il sodio, l'ossigeno, l'uranio e il ferro. Dove vanno collocati?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0xFFFFFF" background="0x008080" />
+     </style>
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x008080">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x008080" transparent="true" border="false">
+     <size width="525" height="320" />
+    </window>
+   </settings>
+   <document>
+    <style name="default" italic="false" size="15" foreground="0xFFFFFF" tabWidth="7" family="Arial" background="0x008080" bold="true" />
+    <style name="target" base="default" target="true" foreground="0x00FFFF" background="0x008080" />
+    <style name="targetError" base="target" foreground="0xFFFFFF" background="0xFF0000" />
+    <section>
+     <p>
+      <cell width="510" height="60" border="true">
+       <style>
+        <color foreground="0xFFFFFF" background="0x000080" inactive="0x000000" alternative="0x000000" />
+       </style>
+       <p>Tavola periodica degli elementi</p>
+      </cell>
+     </p>
+     <p />
+     <p>
+      <text>H																	He</text>
+     </p>
+     <p>
+      <text>Li	Be											B	C	N	</text>
+      <target>
+       <answer>O</answer>
+       <response fill="_" length="1" maxLength="2" />
+       <text>O</text>
+      </target>
+      <text>	F	Ne</text>
+     </p>
+     <p>
+      <target>
+       <answer>Na</answer>
+       <response fill="_" length="1" maxLength="2" />
+       <text>Na</text>
+      </target>
+      <text>	Mg											Al	Si	P	S	Cl	Ar</text>
+     </p>
+     <p>
+      <text>K	Ca	Sc	Ti	V	Cr	Mn	</text>
+      <target>
+       <answer>Fe</answer>
+       <response fill="_" length="1" maxLength="2" />
+       <text>Fe</text>
+      </target>
+      <text>	Co	Ni	Cu	Zn	Ga	Ge	As	Se	Br	Kr</text>
+     </p>
+     <p>
+      <text>Rb	Sr	Y	Zr	Nb	Mo	Tc	Ru	Rh	Pd	Ag	Cd	In	Sn	Sb	Te	I	Xe</text>
+     </p>
+     <p>
+      <text>Cs	Ba	La	Hf	Ta	W	Re	Os	Ir	Pt	Au	Hg	Tl	Pb	Bi	Po	At	Rn</text>
+     </p>
+     <p>
+      <text>Fr	Ra	Ac</text>
+     </p>
+     <p />
+     <p>
+      <text>Ce	Pr	Nd	Pm	Sm	Eu	Gd	Tb	Dy	Ho	Er	Tm	Yb	Lu</text>
+     </p>
+     <p>
+      <text>Th	Pa	</text>
+      <target>
+       <answer>U</answer>
+       <response fill="_" length="1" maxLength="2" />
+       <text>U</text>
+      </target>
+      <text>	Np	Pu	Am	Cm	Bk	Cf	Es	Fm	Md	No	Lr</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkCase="true" detail="false" checkSteps="4" />
+  </activity>
+  <activity class="@text.Identify" name="txa08.txa" code="" type="identifyWords">
+   <description>
+    <p>Tavola periodica: identificare parole</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0xFFFFFF" background="0x008080" />
+     </style>
+     <p>Indica i gas</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0xFFFFFF" background="0x008080" />
+     </style>
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x008080">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x008080" transparent="true" border="false">
+     <size width="525" height="320" />
+    </window>
+   </settings>
+   <checkButton>Correggi l'esercizio</checkButton>
+   <document>
+    <style name="default" italic="false" size="15" foreground="0xC0C0C0" tabWidth="7" family="Arial" background="0x008080" bold="true" />
+    <style name="target" base="default" target="true" foreground="0xFFFFFF" background="0x008080" />
+    <style name="targetError" base="target" foreground="0xFFFFFF" background="0xFF0000" />
+    <section>
+     <p>
+      <cell width="510" height="60" border="true">
+       <style>
+        <color foreground="0xFFFFFF" background="0x000080" inactive="0x000000" alternative="0x000000" />
+       </style>
+       <p>Tavola periodica degli elementi</p>
+      </cell>
+     </p>
+     <p />
+     <p>
+      <target>H</target>
+      <text>																	</text>
+      <target>He</target>
+     </p>
+     <p>
+      <text>Li	Be											B	C	</text>
+      <target>N</target>
+      <text>	</text>
+      <target>O</target>
+      <text>	</text>
+      <target>F</target>
+      <text>	</text>
+      <target>Ne</target>
+     </p>
+     <p>
+      <text>Na	Mg											Al	Si	P	S	</text>
+      <target>Cl</target>
+      <text>	</text>
+      <target>Ar</target>
+     </p>
+     <p>
+      <text>K	Ca	Sc	Ti	V	Cr	Mn	Fe	Co	Ni	Cu	Zn	Ga	Ge	As	Se	Br	</text>
+      <target>Kr</target>
+     </p>
+     <p>
+      <text>Rb	Sr	Y	Zr	Nb	Mo	Tc	Ru	Rh	Pd	Ag	Cd	In	Sn	Sb	Te	I	</text>
+      <target>Xe</target>
+     </p>
+     <p>
+      <text>Cs	Ba	La	Hf	Ta	W	Re	Os	Ir	Pt	Au	Hg	Tl	Pb	Bi	Po	At	</text>
+      <target>Rn</target>
+     </p>
+     <p>
+      <text>Fr	Ra	Ac</text>
+     </p>
+     <p />
+     <p>
+      <text>Ce	Pr	Nd	Pm	Sm	Eu	Gd	Tb	Dy	Ho	Er	Tm	Yb	Lu</text>
+     </p>
+     <p>
+      <text>Th	Pa	U	Np	Pu	Am	Cm	Bk	Cf	Es	Fm	Md	No	Lr</text>
+     </p>
+    </section>
+   </document>
+  </activity>
+  <activity class="@text.Identify" name="txa09.txa" code="" type="identifyChars">
+   <description>
+    <p>Individuare delle lettere</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Attività di individuazione di lettere</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <image name="nuvols.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="464" height="280" />
+    </window>
+   </settings>
+   <checkButton>Correggi l'esercizio</checkButton>
+   <document>
+    <style name="default" foreground="0x000000" size="17" italic="false" tabWidth="12" background="0xFFFFFF" family="Arial" bold="false" />
+    <style name="note" base="default" size="11" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" background="0xFFFFFF" />
+    <style name="targetError" base="target" foreground="0xFFFFFF" background="0xFF0000" />
+    <section>
+     <p>
+      <cell txtAlign="left,middle" imgAlign="left,middle" width="450" height="60" border="true">
+       <style>
+        <color foreground="0xFFFFFF" background="0x008080" inactive="0x000000" alternative="0x000000" />
+       </style>
+       <p>Nel testo indica tutte le vocali toniche nelle parole che non sono monosillabe:</p>
+      </cell>
+     </p>
+     <p />
+     <p>
+      <text>L'atmosf</text>
+      <target>e</target>
+      <text>ra s'estabilitzar</text>
+      <target>à</target>
+      <text> av</text>
+      <target>u</target>
+      <text>i i el vent calmar</text>
+      <target>à</target>
+      <text> fins i tot a l'Empord</text>
+      <target>à</target>
+      <text>. La nuvolosit</text>
+      <target>a</target>
+      <text>t ser</text>
+      <target>à</target>
+      <text> vari</text>
+      <target>a</target>
+      <text>ble al Pirin</text>
+      <target>e</target>
+      <text>u, per</text>
+      <target>ò</target>
+      <text> amb predom</text>
+      <target>i</target>
+      <text>ni de l'ambi</text>
+      <target>e</target>
+      <text>nt sec i assolei</text>
+      <target>a</target>
+      <text>t. La temperat</text>
+      <target>u</target>
+      <text>ra pujar</text>
+      <target>à</target>
+      <text> </text>
+      <target>u</target>
+      <text>na m</text>
+      <target>i</target>
+      <text>ca més. B</text>
+      <target>o</target>
+      <text>ires a l'interi</text>
+      <target>o</target>
+      <text>r.</text>
+     </p>
+     <p />
+     <p style="note">
+      <text style="note">"El Periodico"</text>
+     </p>
+     <p style="note">
+      <text style="note">24 de gener de 1999</text>
+     </p>
+    </section>
+   </document>
+  </activity>
+  <activity class="@text.Identify" name="txa10.txa" code="" type="identifyWords">
+   <description>
+    <p>Individuare parole</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Attività di individuazione di parole</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="500" height="310" />
+    </window>
+   </settings>
+   <checkButton>Correggi l'esercizio</checkButton>
+   <document>
+    <style name="default" foreground="0x000000" size="15" italic="false" tabWidth="12" background="0xFFFFFF" family="Arial" bold="false" />
+    <style name="note" base="default" size="11" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" background="0xFFFFFF" />
+    <style name="targetError" base="target" foreground="0xFFFFFF" background="0xFF0000" />
+    <section>
+     <p>
+      <cell txtAlign="left,middle" imgAlign="left,middle" width="450" height="60" border="true">
+       <style>
+        <color foreground="0xFFFFFF" background="0x008080" inactive="0x000000" alternative="0x000000" />
+       </style>
+       <p>In questo testo individua i sostantivi:</p>
+      </cell>
+     </p>
+     <p />
+     <p>
+      <target>Parcs</target>
+      <text> i </text>
+      <target>Jardins</target>
+      <text> etiquetarà </text>
+      <target>arbres</target>
+      <text> de </text>
+      <target>Barcelona</target>
+      <text>. Seran entre 5000 i 10000 els </text>
+      <target>exemplars</target>
+      <text> als quals s'adjuntarà un </text>
+      <target>rètol</target>
+      <text> amb el seu </text>
+      <target>nom</target>
+      <text> comú i científic i el seu </text>
+      <target>lloc</target>
+      <text> d'</text>
+      <target>origen</target>
+      <text>. L'</text>
+      <target>objectiu</target>
+      <text> de la </text>
+      <target>iniciativa</target>
+      <text> és incrementar el </text>
+      <target>coneixement</target>
+      <text> dels </text>
+      <target>arbres</target>
+      <text> entre els </text>
+      <target>ciutadans</target>
+      <text>. La </text>
+      <target>campanya</target>
+      <text>, titulada "Els </text>
+      <target>arbres</target>
+      <text> tenen </text>
+      <target>nom"</target>
+      <text>, obrirà a partir d'avui una </text>
+      <target>consulta</target>
+      <text> pública per seleccionar </text>
+      <target>propostes</target>
+      <text> sobre la </text>
+      <target>forma</target>
+      <text>, </text>
+      <target>tipus</target>
+      <text> i </text>
+      <target>sistema</target>
+      <text> de </text>
+      <target>retolació</target>
+      <text>.</text>
+     </p>
+     <p />
+     <p style="note">
+      <text style="note">"El Periodico"</text>
+     </p>
+     <p style="note">
+      <text style="note">24 de gener de 1999</text>
+     </p>
+    </section>
+   </document>
+  </activity>
+  <activity class="@text.Order" name="txa11.txa" code="" type="orderParagraphs">
+   <description>
+    <p>Riordinare paragrafi</p>
+   </description>
+   <messages>
+    <cell type="previous">
+     <style />
+     <p>Leggi questa storia e clicca nel testo per cominciare l'esercizio</p>
+    </cell>
+    <cell type="initial">
+     <style />
+     <p>Attività di riordino dei paragrafi: metti in ordine questa storia di Pere Calders</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Perfetto!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="550" height="350" />
+    </window>
+   </settings>
+   <checkButton>Corregir l'exercici</checkButton>
+   <prevScreen />
+   <document>
+    <style name="default" foreground="0x0000FF" size="12" italic="false" tabWidth="12" background="0xFFFFFF" family="Arial" bold="false" />
+    <style name="target" base="default" foreground="0x000000" target="true" background="0xFFFFFF" />
+    <style name="targetError" base="target" foreground="0xFFFFFF" background="0xFF0000" />
+    <section>
+     <p>
+      <cell txtAlign="left,middle" imgAlign="left,middle" width="530" height="36" border="true">
+       <style shadow="true">
+        <font family="Arial" size="21" bold="true" />
+        <color foreground="0xFFFFFF" background="0x0000FF" shadow="0x000000" inactive="0x000000" alternative="0x000000" />
+       </style>
+       <p>L'hora en punt</p>
+      </cell>
+     </p>
+     <p />
+     <p>
+      <target>La mort es presentà quan no se l'esperava, i ell digué que no li havia donat hora.</target>
+     </p>
+     <p />
+     <p>
+      <target>- És que l'hora la dono jo! -va respondre-li la mort.</target>
+     </p>
+     <p />
+     <p>
+      <target>- No sempre, no sempre... -replicà ell-. Ara, per exemple, tinc l'agenda plena i a vos no us ve d'un dia. Però a mi sí. Telefoneu-me dimarts que ve, a quarts de cinc, i quedarem per una data.</target>
+     </p>
+     <p />
+     <p>
+      <target>- És irregular, no puc fer-ho. Va contra els reglaments -digué la gran senyora.</target>
+     </p>
+     <p />
+     <p>
+      <target>- Apa, bah! -es defensà ell, tot empenyent-la suaument cap a la porta. Amb la feinada que teniu no em direu pas que depeneu d'un difunt puntual. En canvi, jo tinc compromisos inajornables.</target>
+     </p>
+     <p />
+     <p>
+      <target>I la mort se'n va anar amb la calavera entre les cames, sense saber-se'n avenir. No li havia passat mai.</target>
+     </p>
+     <p />
+     <p>
+      <text>Pere Calders</text>
+     </p>
+     <p>
+      <text>"De teves a meves" (Ed. Laia)</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@BasicEvaluator" />
+  </activity>
+  <activity class="@text.Order" name="txa12.txa" code="" type="orderWords">
+   <description>
+    <p>Riordina le parole</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Attività di riordinamento delle parole</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="500" height="346" />
+    </window>
+   </settings>
+   <checkButton>Correggi l'esercizio</checkButton>
+   <document>
+    <style name="default" foreground="0x000000" size="15" italic="false" tabWidth="12" background="0xFFFFFF" family="Arial" bold="false" />
+    <style name="note" base="default" size="11" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" background="0xFFFFFF" />
+    <style name="targetError" base="target" foreground="0xFFFFFF" background="0xFF0000" />
+    <section>
+     <p>
+      <cell txtAlign="left,middle" imgAlign="left,middle" width="470" height="70" border="true">
+       <style>
+        <color foreground="0xFFFFFF" background="0x008080" inactive="0x000000" alternative="0x000000" />
+       </style>
+       <p>Rimetti in ordine le parole che sono state spostate in questo testo:</p>
+      </cell>
+     </p>
+     <p />
+     <p>
+      <text>La </text>
+      <target>commissione</target>
+      <target>,</target>
+      <text> che riunisce gli operatori della </text>
+      <target>telefonia</target>
+      <text>, i rappresentanti dell'Amministrazione, le imprese del </text>
+      <target>settore</target>
+      <text> e gli utenti, deve studiare la nuova </text>
+      <target>proposta</target>
+      <text> di Telefónica per applicare una tariffa </text>
+      <target>flat.</target>
+      <text> </text>
+     </p>
+     <p />
+     <p>
+      <text>Fonti </text>
+      <text>dell'</text>
+      <target> </target>
+      <target>operatore</target>
+      <target>,</target>
+      <text> citate da Europa Press, offrivano nella serata di ieri una </text>
+      <target>visione</target>
+      <text> più ottimistica, nell'indicare che i problemi di </text>
+      <target>congestione</target>
+      <text> che si erano verificati nelle linee</text>
+      <text> </text>
+      <target>assegnate</target>
+      <text> a Internet saranno risolti </text>
+      <target>oggi</target>
+      <target>.</target>
+     </p>
+     <p />
+     <p style="note">
+      <text style="note">"El Periodico"</text>
+     </p>
+     <p style="note">
+      <text style="note">24 gennaio 1999</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@BasicEvaluator" />
+  </activity>
+  <activity class="@text.Complete" name="txa13.txa" code="">
+   <description>
+    <p>Completa il testo</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="12" bold="true" />
+      <color foreground="0x800080" inactive="0x000000" alternative="0x000000" />
+     </style>
+     <p>Attività di completamento del testo: scrivi tutte le lettere "a" e "e" che sono sparite</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="12" bold="true" />
+      <color foreground="0x800080" inactive="0x000000" alternative="0x000000" />
+     </style>
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <image name="baldufes.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="520" height="346" />
+    </window>
+   </settings>
+   <checkButton>Correggi l'esercizio</checkButton>
+   <document>
+    <style name="default" size="17" background="0xFFFFFF" tabWidth="12" foreground="0x000000" bold="false" family="Arial" italic="false" />
+    <style name="note" base="default" size="11" />
+    <style name="target" base="default" target="true" background="0xFFFFFF" foreground="0x0000FF" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p>
+      <cell txtAlign="left,middle" imgAlign="left,middle" width="500" height="30" border="true">
+       <style>
+        <color foreground="0xFFFFFF" background="0x008080" inactive="0x000000" alternative="0x000000" />
+       </style>
+       <p>Ball de baldufes a Manresa</p>
+      </cell>
+     </p>
+     <p />
+     <p>
+      <text>L'</text>
+      <target>e</target>
+      <text>xposició d</text>
+      <target>e</target>
+      <text> l</text>
+      <target>a</target>
+      <text> Fund</text>
+      <target>a</target>
+      <text>ció C</text>
+      <target>a</target>
+      <text>ix</text>
+      <target>a</target>
+      <text> d</text>
+      <target>e</target>
+      <text> M</text>
+      <target>a</target>
+      <text>nr</text>
+      <target>e</target>
+      <text>s</text>
+      <target>a</target>
+      <text> "L</text>
+      <target>a</target>
+      <text> b</text>
+      <target>a</target>
+      <text>lduf</text>
+      <target>a</target>
+      <text>. Un món d'</text>
+      <target>a</target>
+      <text>mics", compost</text>
+      <target>a</target>
+      <text> p</text>
+      <target>e</target>
+      <text>r 90 b</text>
+      <target>a</target>
+      <text>lduf</text>
+      <target>e</target>
+      <text>s d</text>
+      <target>e</target>
+      <text> tot</text>
+      <target>a</target>
+      <text> m</text>
+      <target>e</target>
+      <text>n</text>
+      <target>a</target>
+      <text>, s'</text>
+      <target>a</target>
+      <text>comi</text>
+      <target>a</target>
+      <text>d</text>
+      <target>a</target>
+      <text> </text>
+      <target>a</target>
+      <text>qu</text>
+      <target>e</target>
+      <text>st c</text>
+      <target>a</target>
+      <text>p d</text>
+      <target>e</target>
+      <text> s</text>
+      <target>e</target>
+      <text>tm</text>
+      <target>a</target>
+      <text>n</text>
+      <target>a</target>
+      <text> </text>
+      <target>a</target>
+      <text>mb un b</text>
+      <target>a</target>
+      <text>ll popul</text>
+      <target>a</target>
+      <text>r d'</text>
+      <target>a</target>
+      <text>qu</text>
+      <target>e</target>
+      <text>sts obj</text>
+      <target>e</target>
+      <text>ct</text>
+      <target>e</target>
+      <text>s d</text>
+      <target>a</target>
+      <text>v</text>
+      <target>a</target>
+      <text>nt l</text>
+      <target>a</target>
+      <text> s</text>
+      <target>a</target>
+      <text>l</text>
+      <target>a</target>
+      <text> d'</text>
+      <target>e</target>
+      <text>xposicions. L'</text>
+      <target>a</target>
+      <text>ct</text>
+      <target>e</target>
+      <text> compt</text>
+      <target>a</target>
+      <text>r</text>
+      <target>à</target>
+      <text> </text>
+      <target>a</target>
+      <text>mb l</text>
+      <target>e</target>
+      <text>s </text>
+      <target>e</target>
+      <text>xhibicions d</text>
+      <target>e</target>
+      <text> div</text>
+      <target>e</target>
+      <text>rsos </text>
+      <target>e</target>
+      <text>sp</text>
+      <target>e</target>
+      <text>ci</text>
+      <target>a</target>
+      <text>list</text>
+      <target>e</target>
+      <text>s i </text>
+      <target>a</target>
+      <text>mb un t</text>
+      <target>a</target>
+      <text>ll</text>
+      <target>e</target>
+      <text>r </text>
+      <target>e</target>
+      <text>n qu</text>
+      <target>è</target>
+      <text> s'</text>
+      <target>e</target>
+      <text>ns</text>
+      <target>e</target>
+      <text>ny</text>
+      <target>a</target>
+      <text>r</text>
+      <target>à</target>
+      <text> </text>
+      <target>e</target>
+      <text>ls n</text>
+      <target>e</target>
+      <text>ns </text>
+      <target>a</target>
+      <text> construir un</text>
+      <target>a</target>
+      <text> b</text>
+      <target>a</target>
+      <text>lduf</text>
+      <target>a</target>
+      <text>.</text>
+     </p>
+     <p />
+     <p style="note">
+      <text style="note">"El Periodico"</text>
+     </p>
+     <p style="note">
+      <text style="note">24 de gener de 1999</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkSteps="4" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="txa14.txa" code="" autoJump="true">
+   <description>
+    <p>Completa una tabella</p>
+   </description>
+   <messages>
+    <cell type="previous">
+     <style>
+      <font family="Arial" size="14" />
+     </style>
+     <p>Leggi la regola ortografica e clicca nel testo per cominciare l'esercizio</p>
+    </cell>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="14" />
+     </style>
+     <p>Esempio di tabella con tabulazioni: Completa queste serie</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="14" />
+     </style>
+     <p>Bravissimo! Bravissima! Bravissimi! Bravissime!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false">
+     <size width="540" height="340" />
+    </window>
+   </settings>
+   <prevScreen>
+    <style>
+     <font family="Arial" size="11" />
+     <color background="0xFFFFFF" />
+    </style>
+    <p>El gènere de l'adjectiu (masculí i femení) i el nombre (singular i plural) depenen del nom que acompanyen: un calaix «buit», uns calaixos «buits», unes capses «buides».</p>
+    <p>La regla general per a la formació del gènere i el nombre de l'adjectiu és com la del substantiu:</p>
+    <p>• Masculí = Femení + «a»</p>
+    <p>• Singular = Plural + «s»</p>
+    <p>La majoria d'adjectius tenen una forma per al masculí i una altra per al femení; és a dir, tenen dues terminacions:</p>
+    <p>- Hem de tenir en compte les modificacions ortogràfiques que hi pot haver: cec-cega-cecs-cegues; mut-muda-muts-mudes; oblic-obliqua-oblics-obliqües.</p>
+    <p> </p>
+    <p>- Els adjectius masculins acabats en -s, -ç, -x, -ix, -tx formen el plural acabat en -os: rus-russos; dolç-dolços; convex-convexos.</p>
+    <p>- Entre els mots acabats en -s n'hi ha que la poden duplicar: gras-grassa-grassos-grasses; ros-rossa-rossos-rosses. N'hi ha d'altres que mantenen una sola s: gris-grisa-grisos-grises</p>
+    <p>- Els adjectius masculins acabats en -sc, -st, -xt, -ig admeten una doble forma del plural: fresc-frescs o fresc-frescos; trist-trists o trist-tristos.</p>
+   </prevScreen>
+   <document>
+    <style name="default" size="17" background="0xFFFFFF" tabWidth="26" foreground="0x000000" bold="false" family="Arial" italic="false" />
+    <style name="note" base="default" size="11" />
+    <style name="target" base="default" target="true" background="0xFFFFFF" foreground="0x0000FF" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p>
+      <cell txtAlign="left,middle" imgAlign="left,middle" width="118" height="30" border="false">
+       <style shadow="true">
+        <font family="Arial" size="13" bold="true" />
+        <color foreground="0xFFFFFF" background="0x0000FF" shadow="0x000000" inactive="0x000000" alternative="0x000000" />
+       </style>
+       <p>Maschile sing.</p>
+      </cell>
+      <text>	</text>
+      <cell txtAlign="left,middle" imgAlign="left,middle" width="118" height="30" border="false">
+       <style shadow="true">
+        <font family="Arial" size="13" bold="true" />
+        <color foreground="0xFFFFFF" background="0x0000FF" shadow="0x000000" inactive="0x000000" alternative="0x000000" />
+       </style>
+       <p>Femminile sing.</p>
+      </cell>
+      <text>	</text>
+      <cell width="118" height="30" border="false">
+       <style shadow="true">
+        <font family="Arial" size="13" bold="true" />
+        <color foreground="0xFFFFFF" background="0x0000FF" shadow="0x000000" inactive="0x000000" alternative="0x000000" />
+       </style>
+       <p>Maschile plurale</p>
+      </cell>
+      <text>	</text>
+      <cell width="118" height="30" border="false">
+       <style shadow="true">
+        <font family="Arial" size="13" bold="true" />
+        <color foreground="0xFFFFFF" background="0x0000FF" shadow="0x000000" inactive="0x000000" alternative="0x000000" />
+       </style>
+       <p>Femminile plurale</p>
+      </cell>
+     </p>
+     <p>
+      <target>
+       <answer>tranquil</answer>
+       <response fill="_" length="10" maxLength="10" show="tranquillo" />
+       <text>tranquil</text>
+      </target>
+      <text>	</text>
+      <target>
+       <answer>tranquilla</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>tranquil·la</text>
+      </target>
+      <text>	</text>
+      <target>
+       <answer>tranquilli</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>tranquils</text>
+      </target>
+      <text>	</text>
+      <target>
+       <answer>tranquille</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>tranquil·les</text>
+      </target>
+     </p>
+     <p>
+      <text>morisc	</text>
+      <target>
+       <answer>morisca</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>morisca</text>
+      </target>
+      <text>	</text>
+      <target>
+       <answer>moriscos</answer>
+       <answer>moriscs</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>moriscos</text>
+      </target>
+      <text>	</text>
+      <target>
+       <answer>morisques</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>morisques</text>
+      </target>
+     </p>
+     <p>
+      <target>
+       <answer>roig</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>roig</text>
+      </target>
+      <text>	roja	</text>
+      <target>
+       <answer>rojos</answer>
+       <answer>roigs</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>rojos</text>
+      </target>
+      <text>	</text>
+      <target>
+       <answer>roges</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>roges</text>
+      </target>
+     </p>
+     <p>
+      <target>
+       <answer>genuí</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>genuí</text>
+      </target>
+      <text>	</text>
+      <target>
+       <answer>genuïna</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>genuïna</text>
+      </target>
+      <text>	</text>
+      <target>
+       <answer>genuïns</answer>
+       <response fill="_" length="7" maxLength="7" />
+       <text>genuïns</text>
+      </target>
+      <text>	</text>
+      <target>
+       <answer>genuïnes</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>genuïnes</text>
+      </target>
+     </p>
+     <p>
+      <target>
+       <answer>dur</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>dur</text>
+      </target>
+      <text>	</text>
+      <target>
+       <answer>dura</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>dura</text>
+      </target>
+      <text>	</text>
+      <target>
+       <answer>durs</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>durs</text>
+      </target>
+      <text>	dures</text>
+     </p>
+     <p>
+      <text>gris	</text>
+      <target>
+       <answer>grisa</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>grisa</text>
+      </target>
+      <text>	</text>
+      <target>
+       <answer>grisos</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>grisos</text>
+      </target>
+      <text>	</text>
+      <target>
+       <answer>grises</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>grises</text>
+      </target>
+     </p>
+     <p>
+      <target>
+       <answer>negre</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>negre</text>
+      </target>
+      <text>	</text>
+      <target>
+       <answer>negra</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>negra</text>
+      </target>
+      <text>	negres	</text>
+      <target>
+       <answer>negres</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>negres</text>
+      </target>
+     </p>
+     <p>
+      <target>
+       <answer>descalç</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>descalç</text>
+      </target>
+      <text>	</text>
+      <target>
+       <answer>descalça</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>descalça</text>
+      </target>
+      <text>	</text>
+      <target>
+       <answer>descalços</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>descalços</text>
+      </target>
+      <text>	descalces</text>
+     </p>
+     <p>
+      <target>
+       <answer>groc</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>groc</text>
+      </target>
+      <text>	groga	</text>
+      <target>
+       <answer>grocs</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>grocs</text>
+      </target>
+      <text>	</text>
+      <target>
+       <answer>grogues</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>grogues</text>
+      </target>
+     </p>
+     <p>
+      <target>
+       <answer>pobre</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>pobre</text>
+      </target>
+      <text>	</text>
+      <target>
+       <answer>pobra</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>pobra</text>
+      </target>
+      <text>	pobres	</text>
+      <target>
+       <answer>pobres</answer>
+       <response fill="_" length="1" maxLength="15" />
+       <text>pobres</text>
+      </target>
+     </p>
+     <p />
+     <p style="note">
+      <text style="note">Curs de llengua catalana "El catala es facil"</text>
+     </p>
+     <p style="note">
+      <text style="note">Ed. Castellnou</text>
+     </p>
+     <p style="note">
+      <text style="note">J. Badia, J. Balcells, N. Bergua, N. Brugarolas i J. Grifoll, 1998</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@panels.Identify" name="useOrderSample" code="">
+   <description>
+    <p>Esempio di attività con un ordine di risoluzione</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>In questa attività occorre identificare i numeri in ordine</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="16" bold="true" />
+     </style>
+     <p>Molto bene!</p>
+    </cell>
+   </messages>
+   <settings margin="8" useOrder="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="3" cols="4" cellWidth="100.0" cellHeight="90.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="18" />
+     <color foreground="0x0000FF" background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="3" />
+    <cell id="1">
+     <p>1</p>
+    </cell>
+    <cell id="1">
+     <p>II</p>
+    </cell>
+    <cell id="1">
+     <p>...</p>
+    </cell>
+    <cell id="1">
+     <p>quattro</p>
+    </cell>
+    <cell id="1">
+     <p>V</p>
+    </cell>
+    <cell id="1">
+     <p>6</p>
+    </cell>
+    <cell id="1">
+     <p>sette</p>
+    </cell>
+    <cell id="1">
+     <p>8</p>
+    </cell>
+    <cell id="1">
+     <p>IX</p>
+    </cell>
+    <cell id="1">
+     <p>1+2+3+4</p>
+    </cell>
+    <cell id="1">
+     <p>XI</p>
+    </cell>
+    <cell id="1">
+     <p>dodici</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="zebra.avi" file="zebra.avi" save="false" />
+  <media name="bici.gif" file="bici.gif" />
+  <media name="bici2.gif" file="bici2.gif" save="false" />
+  <media name="camio.gif" file="camio.gif" />
+  <media name="casa.gif" file="casa.gif" />
+  <media name="cireres.gif" file="cireres.gif" />
+  <media name="cotxe.gif" file="cotxe.gif" />
+  <media name="elmo.gif" file="elmo.gif" />
+  <media name="esqui.gif" file="esqui.gif" />
+  <media name="func2.gif" file="func2.gif" />
+  <media name="funcio.gif" file="funcio.gif" />
+  <media name="genial.gif" file="genial.gif" />
+  <media name="lletres.gif" file="lletres.gif" />
+  <media name="llimona.gif" file="llimona.gif" />
+  <media name="mapa.gif" file="mapa.gif" />
+  <media name="minialt.gif" file="minialt.gif" />
+  <media name="minialt2.gif" file="minialt2.gif" />
+  <media name="moto.gif" file="moto.gif" />
+  <media name="natacio.gif" file="natacio.gif" />
+  <media name="pera.gif" file="pera.gif" save="false" />
+  <media name="pirata.gif" file="pirata.gif" />
+  <media name="raim.gif" file="raim.gif" />
+  <media name="simpleanim.gif" file="simpleanim.gif" />
+  <media name="sindria.gif" file="sindria.gif" />
+  <media name="taronja.gif" file="taronja.gif" />
+  <media name="tennis.gif" file="tennis.gif" />
+  <media name="trampoli.gif" file="trampoli.gif" save="false" />
+  <media name="trex.gif" file="trex.gif" />
+  <media name="astro.jpg" file="astro.jpg" save="false" />
+  <media name="baldufes.jpg" file="baldufes.jpg" save="false" />
+  <media name="foto.jpg" file="foto.jpg" />
+  <media name="foto2.jpg" file="foto2.jpg" />
+  <media name="lion.jpg" file="lion.jpg" />
+  <media name="nuria.jpg" file="nuria.jpg" />
+  <media name="nuvols.jpg" file="nuvols.jpg" save="false" />
+  <media name="wolf.jpg" file="wolf.jpg" />
+  <media name="bach.mid" file="bach.mid" save="false" />
+  <media name="bressol.mid" file="bressol.mid" />
+  <media name="mozart.mid" file="mozart.mid" save="false" />
+  <media name="novena.mid" file="novena.mid" save="false" />
+  <media name="test1.swf" file="test1.swf" save="false" />
+  <media name="bycicle.wav" file="bycicle.wav" />
+  <media name="car.wav" file="car.wav" />
+  <media name="lorry.wav" file="lorry.wav" save="false" />
+  <media name="moltbe.wav" file="moltbe.wav" save="false" />
+  <media name="motorcyc.wav" file="motorcyc.wav" save="false" />
+  <media name="nuria.wav" file="nuria.wav" save="false" />
+  <media name="ohhh.wav" file="ohhh.wav" />
+  <media name="pop.wav" file="pop.wav" />
+  <media name="whistledown.wav" file="whistledown.wav" />
+  <media name="whistleup.wav" file="whistleup.wav" />
+  <media name="scratch.xml" file="scratch.xml" />
+ </mediaBag>
+</JClicProject>
+

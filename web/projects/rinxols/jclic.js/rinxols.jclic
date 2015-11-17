@@ -1,0 +1,2290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="rinxols" version="0.1.3">
+ <settings>
+  <title>Na Rínxols d'Or</title>
+  <revision description="Creació del paquet d'activitats en Clic 3.0" date="11/4/98" />
+  <revision description="Conversió de Clic3 a JClic" date="7/15/02">
+   <author name="Equip Clic" mail="clic@pie.xtec.es" organization="Subdirecció General de Tecnologies de la Informació (SGTI)" />
+  </revision>
+  <author name="Miren Garralda" mail="mgarrald@pie.xtec.es" />
+  <author name="Ainhoa Corbera Garralda" mail="va8aga@zen.sunderland.ac.uk" rol="dibuixos" />
+  <organization name="CEIP Mas Casanovas" mail="a8002800@centres.xtec.es" url="http://www.xtec.es/centres/a8002800" city="Barcelona" state="Catalunya" />
+  <language>Català</language>
+  <description>
+   <p>Tres paquets d'activitats sobre el conte de na Rínxols d'Or, adreçades al cicle superior d'educació infantil i l'inicial de primària. En el primer paquet s'explica el conte mitjançant dibuixos, textos i sons, en el segon es proposen alguns trencaclosques fets a partir de les imatges i en el tercer es plantegen activitats de lectura comprensiva.</p>
+  </description>
+  <descriptors level="Infantil, Primària">llengua catalana, conte</descriptors>
+ </settings>
+ <sequence>
+  <item id="rinxols.pac" name="portada.ass">
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="porta2.ass">
+   <jump action="STOP" id="forward" />
+  </item>
+  <item id="conte.pac" name="rinxol11.ass">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="rinxol12.ass" />
+  <item name="rinxol13.ass" />
+  <item name="rinxol14.ass" />
+  <item name="rinxol5b.ass" />
+  <item name="rinxol15.ass" />
+  <item name="rinxol16.ass" />
+  <item name="rinxol17.ass" />
+  <item name="rinxol18.ass">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item id="puzle.pac" name="trenca1.puz">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="trenca2.puz" />
+  <item name="trenca3.puz" />
+  <item name="trenca4.puz" />
+  <item name="trenca5b.puz" />
+  <item name="trenca5.puz" />
+  <item name="trenca6.puz" />
+  <item name="trenca7.puz" />
+  <item name="trenca8.puz">
+   <jump action="RETURN" id="forward" />
+  </item>
+  <item id="lectura.pac" name="f1.ass">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="frase1.ass" />
+  <item name="frase1.puz" />
+  <item name="questi1.ass" />
+  <item name="f2.ass" />
+  <item name="frase2.ass" />
+  <item name="frase2.puz" />
+  <item name="questi2.ass" />
+  <item name="f3.ass" />
+  <item name="frase3.ass" />
+  <item name="frase3.puz" />
+  <item name="questi3.ass" />
+  <item name="f4.ass" />
+  <item name="frase4.ass" />
+  <item name="frase4.puz" />
+  <item name="questi4.ass" />
+  <item name="frase5.ass" />
+  <item name="frase5.puz" />
+  <item name="questi5.ass" />
+  <item name="frase6.ass" />
+  <item name="frase6.puz" />
+  <item name="questi6.ass" />
+  <item name="frase7.ass" />
+  <item name="frase7.puz" />
+  <item name="questi7.ass" />
+  <item name="rinxols1.sop" />
+  <item name="rinxols2.sop">
+   <jump action="RETURN" id="forward" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@associations.SimpleAssociation" name="f1.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or (1)</p>
+   </description>
+   <messages>
+    <cell image="rinxolti.gif" type="initial">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" inactive="0x804000" alternative="0x804000" />
+     </style>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" inactive="0x804000" alternative="0x804000" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFF8040">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF8040" border="false" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="202.0" cellHeight="202.0" border="true" id="primary">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" inactive="0x804000" alternative="0x804000" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="rinxol.gif">
+     <p />
+    </cell>
+    <cell image="casa.gif">
+     <p />
+    </cell>
+    <cell image="bosc.gif" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="202.0" cellHeight="202.0" border="true" id="secondary">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" inactive="0x804000" alternative="0x804000" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="rinxols.wav" />
+     <p>RINXOLS D'OR</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="caseta.wav" />
+     <p>CASETA</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="bosc.wav" />
+     <p>BOSC</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="BUA" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="f2.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or (2)</p>
+   </description>
+   <messages>
+    <cell image="rinxolti.gif" type="initial">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" inactive="0x804000" alternative="0x804000" />
+     </style>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" inactive="0x804000" alternative="0x804000" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFF8040">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF8040" border="false" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="202.0" cellHeight="202.0" border="true" id="primary">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" inactive="0x804000" alternative="0x804000" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="cadirgr.gif" />
+    <cell image="cadirmi.gif">
+     <p />
+    </cell>
+    <cell image="cadirpe.gif">
+     <p />
+    </cell>
+   </cells>
+   <cells rows="1" cols="3" cellWidth="202.0" cellHeight="202.0" border="true" id="secondary">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" inactive="0x804000" alternative="0x804000" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="cadigran.wav" />
+     <p>CADIRA GRAN</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="cadimitj.wav" />
+     <p>CADIRA MITJANA</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="cadipeti.wav" />
+     <p>CADIRA PETITA</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="BUA" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="f3.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or (3)</p>
+   </description>
+   <messages>
+    <cell image="rinxolti.gif" type="initial">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" inactive="0x804000" alternative="0x804000" />
+     </style>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" inactive="0x804000" alternative="0x804000" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFF8040">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF8040" border="false" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="202.0" cellHeight="202.0" border="true" id="primary">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" inactive="0x804000" alternative="0x804000" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="sopa.gif" />
+    <cell image="sopami.gif" />
+    <cell image="sopape.gif" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="202.0" cellHeight="202.0" border="true" id="secondary">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" inactive="0x804000" alternative="0x804000" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="platgran.wav" />
+     <p>PLAT GRAN</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="platmitj.wav" />
+     <p>PLAT MITJÀ</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="platpeti.wav" />
+     <p>PLAT PETIT</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="BUA" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="f4.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or (4)</p>
+   </description>
+   <messages>
+    <cell image="rinxolti.gif" type="initial">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" inactive="0x804000" alternative="0x804000" />
+     </style>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" inactive="0x804000" alternative="0x804000" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFF8040">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF8040" border="false" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="202.0" cellHeight="202.0" border="true" id="primary">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" inactive="0x804000" alternative="0x804000" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="llitgran.gif">
+     <p />
+    </cell>
+    <cell image="llitmitj.gif" />
+    <cell image="llitpeti.gif">
+     <p />
+    </cell>
+   </cells>
+   <cells rows="1" cols="3" cellWidth="202.0" cellHeight="202.0" border="true" id="secondary">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" inactive="0x804000" alternative="0x804000" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="llitgran.wav" />
+     <p>LLIT GRAN</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="llitmitj.wav" />
+     <p>LLIT MITJÀ</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="llitpeti.wav" />
+     <p>LLIT PETIT</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="BUA" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="frase1.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or (1)</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu1a.wav" />
+     <p>NA RINXOLS D'OR ENTRA A LA CASETA DEL BOSC</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFF8040">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF8040" border="false" />
+   </settings>
+   <cells rows="1" cols="8" cellWidth="100.0" cellHeight="138.0" border="true">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="8" rows="1" />
+    <cell>
+     <p>NA </p>
+    </cell>
+    <cell image="rinxol.gif">
+     <p />
+    </cell>
+    <cell>
+     <p>ENTRA</p>
+    </cell>
+    <cell>
+     <p>A </p>
+    </cell>
+    <cell>
+     <p>LA</p>
+    </cell>
+    <cell image="casa.gif">
+     <p />
+    </cell>
+    <cell>
+     <p>DEL</p>
+    </cell>
+    <cell image="bosc.gif" />
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="frase1.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>ORDENA LA FRASE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu1a.wav" />
+     <p>NA RINXOLS D'OR ENTRA A LA CASETA DEL BOSC </p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xFF8040">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF8040" border="false" />
+   </settings>
+   <cells rows="1" cols="8" cellWidth="100.0" cellHeight="138.0" border="true">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="8" rows="1" />
+    <cell>
+     <p>NA </p>
+    </cell>
+    <cell image="rinxol.gif">
+     <p />
+    </cell>
+    <cell>
+     <p>ENTRA</p>
+    </cell>
+    <cell>
+     <p>A </p>
+    </cell>
+    <cell>
+     <p>LA</p>
+    </cell>
+    <cell image="casa.gif">
+     <p />
+    </cell>
+    <cell>
+     <p>DEL</p>
+    </cell>
+    <cell image="bosc.gif" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="frase2.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or (2)</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu2.wav" />
+     <p>ES TROBA TRES CADIRES UNA GRAN, UNA MITJANA I UNA PETITA. S'ASSEU A LA PETITA</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFF8040">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF8040" border="false" />
+   </settings>
+   <cells rows="1" cols="8" cellWidth="100.0" cellHeight="138.0" border="true">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="8" rows="1" />
+    <cell>
+     <p>ES TROBA</p>
+    </cell>
+    <cell>
+     <p>3 CADIRES</p>
+    </cell>
+    <cell image="cadirgr.gif" />
+    <cell image="cadirmi.gif">
+     <p />
+    </cell>
+    <cell image="cadirpe.gif">
+     <p />
+    </cell>
+    <cell>
+     <p>S'ASSEU </p>
+    </cell>
+    <cell>
+     <p>A </p>
+    </cell>
+    <cell>
+     <p>LA PETITA</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="frase2.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>ORDENA LA FRASE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu2.wav" />
+     <p>ES TROBA 3 CADIRES, UNA GRAN, UNA MITJANA I UNA PETITA, S'ASSEU A LA PETITA</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xFF8040">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF8040" border="false" />
+   </settings>
+   <cells rows="1" cols="8" cellWidth="100.0" cellHeight="138.0" border="true">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="8" rows="1" />
+    <cell>
+     <p>ES TROBA</p>
+    </cell>
+    <cell>
+     <p>3 CADIRES</p>
+    </cell>
+    <cell image="cadirgr.gif" />
+    <cell image="cadirmi.gif">
+     <p />
+    </cell>
+    <cell image="cadirpe.gif">
+     <p />
+    </cell>
+    <cell>
+     <p>S'ASSEU </p>
+    </cell>
+    <cell>
+     <p>A </p>
+    </cell>
+    <cell>
+     <p>LA PETITA</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="frase3.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or (3)</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu3.wav" />
+     <p>TASTA LA SOPA DEL PLAT GRAN, DEL PLAT MITJÀ I DEL PLAT PETIT. ES MENJA LA DEL PLAT PETIT</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFF8040">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF8040" border="false" />
+   </settings>
+   <cells rows="1" cols="8" cellWidth="100.0" cellHeight="138.0" border="true">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="8" rows="1" />
+    <cell>
+     <p>TASTA LA SOPA</p>
+    </cell>
+    <cell image="sopa.gif" />
+    <cell image="sopami.gif" />
+    <cell image="sopape.gif" />
+    <cell>
+     <p>ES MENJA </p>
+    </cell>
+    <cell>
+     <p>LA </p>
+    </cell>
+    <cell>
+     <p>DEL </p>
+    </cell>
+    <cell>
+     <p>PLAT PETIT</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="frase3.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>ORDENA LA FRASE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu3.wav" />
+     <p>TASTA LA SOPA DEL PLAT GRAN, DEL PLAT MITJÀ I DEL PLAT PETIT. ES MENJA LA DEL PLAT PETIT.</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xFF8040">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF8040" border="false" />
+   </settings>
+   <cells rows="1" cols="8" cellWidth="100.0" cellHeight="138.0" border="true">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="8" rows="1" />
+    <cell>
+     <p>TASTA LA SOPA</p>
+    </cell>
+    <cell image="sopa.gif" />
+    <cell image="sopami.gif" />
+    <cell image="sopape.gif" />
+    <cell>
+     <p>ES MENJA </p>
+    </cell>
+    <cell>
+     <p>LA </p>
+    </cell>
+    <cell>
+     <p>DEL </p>
+    </cell>
+    <cell>
+     <p>PLAT PETIT</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="frase4.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or (4)</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu4.wav" />
+     <p>PUJA AL LLIT GRAN, AL LLIT MITJÀ I AL LLIT PETIT. S'ADORM AL LLIT PETIT</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFF8040">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF8040" border="false" />
+   </settings>
+   <cells rows="2" cols="4" cellWidth="121.0" cellHeight="188.0" border="true">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="2" />
+    <cell>
+     <p>PUJA </p>
+    </cell>
+    <cell image="llitgran.gif">
+     <p />
+    </cell>
+    <cell image="llitmitj.gif" />
+    <cell image="llitpeti.gif">
+     <p />
+    </cell>
+    <cell>
+     <p>S'ADORM </p>
+    </cell>
+    <cell>
+     <p>AL </p>
+    </cell>
+    <cell>
+     <p>LLIT</p>
+    </cell>
+    <cell>
+     <p>PETIT</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="frase4.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>ORDENA LA FRASE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu4.wav" />
+     <p>PUJA AL LLIT GRAN, AL LLIT MITJÀ I AL LLIT PETIT. S'ADORM AL LLIT PETIT</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xFF8040">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF8040" border="false" />
+   </settings>
+   <cells rows="2" cols="4" cellWidth="121.0" cellHeight="188.0" border="true">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="2" />
+    <cell>
+     <p>PUJA </p>
+    </cell>
+    <cell image="llitgran.gif">
+     <p />
+    </cell>
+    <cell image="llitmitj.gif" />
+    <cell image="llitpeti.gif">
+     <p />
+    </cell>
+    <cell>
+     <p>S'ADORM </p>
+    </cell>
+    <cell>
+     <p>AL </p>
+    </cell>
+    <cell>
+     <p>LLIT</p>
+    </cell>
+    <cell>
+     <p>PETIT</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="frase5.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or (4)</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu6.wav" />
+     <p>L'ÓS PETIT DIU: HAN TRENCAT LA MEVA CADIRA!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFF8040">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF8040" border="false" />
+   </settings>
+   <cells rows="1" cols="6" cellWidth="121.0" cellHeight="188.0" border="true">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="6" rows="1" />
+    <cell image="osdiu.gif" />
+    <cell>
+     <p>DIU:</p>
+    </cell>
+    <cell>
+     <p>HAN TRENCAT</p>
+    </cell>
+    <cell>
+     <p>LA </p>
+    </cell>
+    <cell>
+     <p>MEVA </p>
+    </cell>
+    <cell image="sillrota.gif" />
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="frase5.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>ORDENA LA FRASE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu6.wav" />
+     <p>L'ÓS PETIT DIU: HAN TRENCAT LA MEVA CADIRA. </p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xFF8040">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF8040" border="false" />
+   </settings>
+   <cells rows="1" cols="6" cellWidth="121.0" cellHeight="188.0" border="true">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="6" rows="1" />
+    <cell image="osdiu.gif" />
+    <cell>
+     <p>DIU:</p>
+    </cell>
+    <cell>
+     <p>HAN TRENCAT</p>
+    </cell>
+    <cell>
+     <p>LA </p>
+    </cell>
+    <cell>
+     <p>MEVA </p>
+    </cell>
+    <cell image="sillrota.gif" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="frase6.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or (4)</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu7.wav" />
+     <p>L'ÓS PETIT DIU: S'HAN MENJAT LA MEVA SOPA!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFF8040">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF8040" border="false" />
+   </settings>
+   <cells rows="1" cols="6" cellWidth="121.0" cellHeight="188.0" border="true">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="6" rows="1" />
+    <cell image="osdiu.gif" />
+    <cell>
+     <p>DIU:</p>
+    </cell>
+    <cell>
+     <p>S'HAN MENJAT</p>
+    </cell>
+    <cell>
+     <p>LA </p>
+    </cell>
+    <cell>
+     <p>MEVA </p>
+    </cell>
+    <cell image="sopape.gif" />
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="frase6.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>ORDENA LA FRASE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu7.wav" />
+     <p>L'ÓS PETIT DIU: S'HAN MENJAT LA MEVA SOPA. </p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xFF8040">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF8040" border="false" />
+   </settings>
+   <cells rows="1" cols="6" cellWidth="121.0" cellHeight="188.0" border="true">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="6" rows="1" />
+    <cell image="osdiu.gif" />
+    <cell>
+     <p>DIU:</p>
+    </cell>
+    <cell>
+     <p>S'HAN MENJAT</p>
+    </cell>
+    <cell>
+     <p>LA </p>
+    </cell>
+    <cell>
+     <p>MEVA </p>
+    </cell>
+    <cell image="sopape.gif" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="frase7.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or (4)</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu8.wav" />
+     <p>L'ÓS PETIT DIU: HI HA ALGÚ AL MEU LLIT!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFF8040">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF8040" border="false" />
+   </settings>
+   <cells rows="1" cols="6" cellWidth="121.0" cellHeight="188.0" border="true">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="6" rows="1" />
+    <cell image="osdiu.gif" />
+    <cell>
+     <p>DIU:</p>
+    </cell>
+    <cell>
+     <p>HI HA ALGÚ</p>
+    </cell>
+    <cell>
+     <p>AL</p>
+    </cell>
+    <cell>
+     <p>MEU</p>
+    </cell>
+    <cell image="llitpeti.gif" />
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="frase7.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>ORDENA LA FRASE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="30" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu8.wav" />
+     <p>L'ÓS PETIT DIU: HI HA ALGÚ AL MEU LLIT </p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xFF8040">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF8040" border="false" />
+   </settings>
+   <cells rows="1" cols="6" cellWidth="121.0" cellHeight="188.0" border="true">
+    <style>
+     <font family="Times New Roman" size="30" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="6" rows="1" />
+    <cell image="osdiu.gif" />
+    <cell>
+     <p>DIU:</p>
+    </cell>
+    <cell>
+     <p>HI HA ALGÚ</p>
+    </cell>
+    <cell>
+     <p>AL</p>
+    </cell>
+    <cell>
+     <p>MEU</p>
+    </cell>
+    <cell image="llitpeti.gif" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="porta2.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFF0080" />
+     </style>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFF0080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF0080" border="false" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="438.0" cellHeight="100.0" border="false">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFF0080" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="porta21.gif">
+     <media type="RUN_CLIC_PACKAGE" level="1" file="conte.pac" />
+    </cell>
+    <cell image="porta22.gif">
+     <media type="RUN_CLIC_PACKAGE" level="1" file="puzle.pac" />
+    </cell>
+    <cell image="porta23.gif">
+     <media type="RUN_CLIC_PACKAGE" level="1" file="lectura.pac" />
+    </cell>
+    <cell />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="portada.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xFF0080" />
+     </style>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0xFF0080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF0080" border="false" />
+   </settings>
+   <cells rows="3" cols="4" border="false" image="rinxols0.gif">
+    <style>
+     <color background="0xFF0080" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="3" />
+   </cells>
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="questi1.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="33" bold="true" />
+      <color background="0x80FF80" inactive="0x004000" alternative="0x004000" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="questi1.wav" />
+     <p>ON ENTRA LA RINXOLS D'OR?</p>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Times New Roman" size="33" bold="true" />
+      <color background="0x80FF80" inactive="0x004000" alternative="0x004000" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x008000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x008000" border="false" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="267.0" cellHeight="176.0" border="false" id="primary">
+    <style>
+     <font family="Times New Roman" size="33" bold="true" />
+     <color background="0x80FF80" inactive="0x004000" alternative="0x004000" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell />
+    <cell id="1" image="rinxol.gif" />
+    <cell />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="124.0" cellHeight="184.0" border="true" id="secondary">
+    <style>
+     <font family="Times New Roman" size="33" bold="true" />
+     <color background="0x80FF80" inactive="0x004000" alternative="0x004000" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="xemene.gif" />
+    <cell image="casa.gif" />
+    <cell image="finestra.gif" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="267.0" cellHeight="176.0" border="false" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="dibu1a.wav" />
+     <p>NA RINXOLS D'OR ENTRA A LA CASETA DEL BOSC</p>
+    </cell>
+    <cell />
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="questi2.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="33" bold="true" />
+      <color background="0x00FFFF" inactive="0x000080" alternative="0x000080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="questi2.wav" />
+     <p>QUANTES CADIRES ES TROBA?</p>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Times New Roman" size="33" bold="true" />
+      <color background="0x00FFFF" inactive="0x000080" alternative="0x000080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x0000A0" border="false" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="267.0" cellHeight="176.0" border="false" id="primary">
+    <style>
+     <font family="Times New Roman" size="33" bold="true" />
+     <color background="0x00FFFF" inactive="0x000080" alternative="0x000080" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell />
+    <cell id="1" image="cadir-.gif" />
+    <cell />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="124.0" cellHeight="184.0" border="true" id="secondary">
+    <style>
+     <font family="Times New Roman" size="33" bold="true" />
+     <color background="0x00FFFF" inactive="0x000080" alternative="0x000080" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell>
+     <p>1</p>
+    </cell>
+    <cell>
+     <p>3</p>
+    </cell>
+    <cell>
+     <p>2</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="3" cellWidth="267.0" cellHeight="176.0" border="false" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="dibu2.wav" />
+     <p>ES TROBA TRES CADIRES: UNA GRAN, UNA MITJANA I UNA PETITA. S'ASSEU A LA PETITA</p>
+    </cell>
+    <cell />
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="questi3.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="33" bold="true" />
+      <color background="0x00FFFF" inactive="0x000080" alternative="0x000080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="questi3.wav" />
+     <p>DE QUIN PLAT ES MENJA LA SOPA?</p>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Times New Roman" size="33" bold="true" />
+      <color background="0x00FFFF" inactive="0x000080" alternative="0x000080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x0000A0" border="false" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="267.0" cellHeight="176.0" border="false" id="primary">
+    <style>
+     <font family="Times New Roman" size="33" bold="true" />
+     <color background="0x00FFFF" inactive="0x000080" alternative="0x000080" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell />
+    <cell id="2" image="menja.gif" />
+    <cell />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="211.0" cellHeight="184.0" border="true" id="secondary">
+    <style>
+     <font family="Times New Roman" size="33" bold="true" />
+     <color background="0x00FFFF" inactive="0x000080" alternative="0x000080" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="sopgran.gif" />
+    <cell image="sopmitja.gif" />
+    <cell image="soppeti.gif" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="267.0" cellHeight="176.0" border="false" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="dibu3.wav" />
+     <p>TASTA LA SOPA DEL PLAT GRAN, DEL PLAT MITJÀ I DEL PLAT PETIT. ES MENJA LA DEL PLAT PETIT</p>
+    </cell>
+    <cell />
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="questi4.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="33" bold="true" />
+      <color background="0xFFFF00" inactive="0x000080" alternative="0x000080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="questi4.wav" />
+     <p>A QUIN LLIT S'ADORM?</p>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Times New Roman" size="33" bold="true" />
+      <color background="0xFFFF00" inactive="0x000080" alternative="0x000080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x0000A0" border="false" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="267.0" cellHeight="176.0" border="false" id="primary">
+    <style>
+     <font family="Times New Roman" size="33" bold="true" />
+     <color background="0xFFFF00" inactive="0x000080" alternative="0x000080" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell />
+    <cell id="2" image="dorm.gif" />
+    <cell />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="171.0" cellHeight="207.0" border="true" id="secondary">
+    <style>
+     <font family="Times New Roman" size="33" bold="true" />
+     <color background="0xFFFF00" inactive="0x000080" alternative="0x000080" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="llitgran.gif" />
+    <cell image="llitmitj.gif" />
+    <cell image="llitpeti.gif" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="267.0" cellHeight="176.0" border="false" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="dibu4.wav" />
+     <p>PUJA AL LLIT GRAN, AL LLIT MITJÀ I AL LLIT PETIT. S'ADORM AL LLIT PETIT</p>
+    </cell>
+    <cell />
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="questi5.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="25" bold="true" />
+      <color background="0xFFFF00" inactive="0x000080" alternative="0x000080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="questi5.wav" />
+     <p>QUÉ DIU L'ÓS PETIT?</p>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Times New Roman" size="25" bold="true" />
+      <color background="0xFFFF00" inactive="0x000080" alternative="0x000080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x0000A0" border="false" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="267.0" cellHeight="176.0" border="false" id="primary">
+    <style>
+     <font family="Times New Roman" size="25" bold="true" />
+     <color background="0xFFFF00" inactive="0x000080" alternative="0x000080" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell />
+    <cell id="2" image="osdiu.gif" />
+    <cell />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="145.0" cellHeight="184.0" border="true" id="secondary">
+    <style>
+     <font family="Times New Roman" size="25" bold="true" />
+     <color background="0xFFFF00" inactive="0x000080" alternative="0x000080" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="rinx1.gif" />
+    <cell image="rinx2.gif" />
+    <cell image="sillrota.gif" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="267.0" cellHeight="176.0" border="false" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="dibu6.wav" />
+     <p>L'ÓS PETIT DIU:HAN TRENCAT LA MEVA CADIRA! </p>
+    </cell>
+    <cell />
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="questi6.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="25" bold="true" />
+      <color background="0xFFFF00" inactive="0x000080" alternative="0x000080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="questi5.wav" />
+     <p>QUÉ DIU L'ÓS PETIT?</p>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Times New Roman" size="25" bold="true" />
+      <color background="0xFFFF00" inactive="0x000080" alternative="0x000080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x008000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x008000" border="false" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="267.0" cellHeight="176.0" border="false" id="primary">
+    <style>
+     <font family="Times New Roman" size="25" bold="true" />
+     <color background="0xFFFF00" inactive="0x000080" alternative="0x000080" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell />
+    <cell id="2" image="osdiu.gif" />
+    <cell />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="124.0" cellHeight="184.0" border="true" id="secondary">
+    <style>
+     <font family="Times New Roman" size="25" bold="true" />
+     <color background="0xFFFF00" inactive="0x000080" alternative="0x000080" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="rinx1.gif" />
+    <cell image="rinx2.gif" />
+    <cell image="plorsopa.gif" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="267.0" cellHeight="176.0" border="false" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="dibu7.wav" />
+     <p>L'ÓS PETIT DIU:S'HAN MENJAT LA MEVA SOPA! </p>
+    </cell>
+    <cell />
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="questi7.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="25" bold="true" />
+      <color background="0xFFFF00" inactive="0x000080" alternative="0x000080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="questi5.wav" />
+     <p>QUÉ DIU L'ÒS PETIT?</p>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Times New Roman" size="25" bold="true" />
+      <color background="0xFFFF00" inactive="0x000080" alternative="0x000080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0080C0">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x0080C0" border="false" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="267.0" cellHeight="176.0" border="false" id="primary">
+    <style>
+     <font family="Times New Roman" size="25" bold="true" />
+     <color background="0xFFFF00" inactive="0x000080" alternative="0x000080" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell />
+    <cell id="2" image="osdiu.gif" />
+    <cell />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="124.0" cellHeight="184.0" border="true" id="secondary">
+    <style>
+     <font family="Times New Roman" size="25" bold="true" />
+     <color background="0xFFFF00" inactive="0x000080" alternative="0x000080" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="rinx1.gif" />
+    <cell image="rinx2.gif" />
+    <cell image="plordorm.gif" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="267.0" cellHeight="176.0" border="false" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="dibu8.wav" />
+     <p>L'ÓS PETIT DIU: HI HA ALGÚ AL MEU LLIT! </p>
+    </cell>
+    <cell />
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="rinxol11.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu1a.wav" />
+     <p>Na Rinxols d'Or entra a la caseta del bosc</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFF0080" border="false" />
+   </settings>
+   <cells rows="3" cols="4" border="false" image="rinxols1.gif">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="3" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="rinxol12.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or (2)</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu2.wav" />
+     <p>Es troba tres cadires: una gran, una mitjana i una petita; s'asseu a la petita</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="rinxols2.gif">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="rinxol13.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or (3)</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu3.wav" />
+     <p>Tasta la sopa del plat gran, del plat mitjà i del plat petit; es menja la del plat petit</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="rinxols3.gif">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="rinxol14.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or (4)</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu4.wav" />
+     <p>Puja al llit gran, al llit mitjà i al llit  petit; s'adorm al llit petit</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="rinxols4.gif">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="rinxol15.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or (5)</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu7.wav" />
+     <p>L'ós petit diu: s'han menjat la meva sopa</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="rinxols5.gif">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="rinxol16.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or (6)</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu8.wav" />
+     <p>L'ós petit diu: hi ha algú al meu llit</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="rinxols6.gif">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="rinxol17.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or (7)</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu9.wav" />
+     <p>La Rinxols d'Or veu l'ós gran, l'ós mitjà i l'ós petit i s'espanta</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="rinxols7.gif">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="rinxol18.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or (8)</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu9a.wav" />
+     <p>La Rinxols d'Or decideix no ficar-se en embolics</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="rinxols8.gif">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="rinxol5b.ass">
+   <description>
+    <p>Conte de La Rinxols d'Or (5)</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu6.wav" />
+     <p>L'ós petit diu: han trencat la meva cadira</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="rinxol5b.gif">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@textGrid.WordSearch" name="rinxols1.sop">
+   <messages>
+    <cell image="rinxocru.gif" type="initial">
+     <style>
+      <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF80C0" alternative="0xFF80C0" />
+     </style>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF80C0" alternative="0xFF80C0" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x0000FF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x0000FF" border="false" />
+   </settings>
+   <textGrid rows="12" columns="4" cellWidth="35.0" cellHeight="35.0" border="true">
+    <style>
+     <color foreground="0xFFFFFF" background="0xFF0080" inactive="0xFF80C0" alternative="0xFF80C0" />
+    </style>
+    <text>
+     <row>CASETA******</row>
+     <row>SOPA********</row>
+     <row>RINXOLS-D'OR</row>
+     <row>ÓS**********</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">CASETA</clue>
+    <clue id="1">SOPA</clue>
+    <clue id="2">RINXOLS-D'OR</clue>
+    <clue id="3">ÓS</clue>
+   </clues>
+   <cells rows="2" cols="2" cellWidth="150.0" cellHeight="200.0" border="false" id="secondary">
+    <style>
+     <color foreground="0xFFFFFF" background="0xFF0080" inactive="0xFF80C0" alternative="0xFF80C0" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="casa.gif">
+     <media type="PLAY_AUDIO" level="1" file="caseta.wav" />
+    </cell>
+    <cell image="sopa.gif">
+     <media type="PLAY_AUDIO" level="1" file="sopa.wav" />
+    </cell>
+    <cell image="rinxol.gif">
+     <media type="PLAY_AUDIO" level="1" file="rinxols.wav" />
+    </cell>
+    <cell image="os.gif">
+     <media type="PLAY_AUDIO" level="1" file="os.wav" />
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="rinxols2.sop">
+   <messages>
+    <cell image="rinxocru.gif" type="initial">
+     <style>
+      <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF80C0" alternative="0xFF80C0" />
+     </style>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <color foreground="0x400040" background="0xFFFFFF" inactive="0xFF80C0" alternative="0xFF80C0" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x0000FF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x0000FF" border="false" />
+   </settings>
+   <textGrid rows="10" columns="4" cellWidth="35.0" cellHeight="35.0" border="true">
+    <style>
+     <color foreground="0xFFFFFF" background="0xFF0080" inactive="0xFF80C0" alternative="0xFF80C0" />
+    </style>
+    <text>
+     <row>PLAT-PETIT</row>
+     <row>LLIT-GRAN*</row>
+     <row>CADIRA****</row>
+     <row>ÓSSA******</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">PLAT-PETIT</clue>
+    <clue id="1">LLIT-GRAN</clue>
+    <clue id="2">CADIRA</clue>
+    <clue id="3">ÓSSA</clue>
+   </clues>
+   <cells rows="2" cols="2" cellWidth="160.0" cellHeight="200.0" border="false" id="secondary">
+    <style>
+     <color foreground="0xFFFFFF" background="0xFF0080" inactive="0xFF80C0" alternative="0xFF80C0" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="sopape.gif">
+     <media type="PLAY_AUDIO" level="1" file="platpeti.wav" />
+    </cell>
+    <cell image="llitgran.gif">
+     <media type="PLAY_AUDIO" level="1" file="llitgran.wav" />
+    </cell>
+    <cell image="cadira.gif">
+     <media type="PLAY_AUDIO" level="1" file="cadira.wav" />
+    </cell>
+    <cell image="osa.gif">
+     <media type="PLAY_AUDIO" level="1" file="osa.wav" />
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="trenca1.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu1a.wav" />
+     <p>NA RINXOLS D'OR ENTRA A LA CASETA DEL BOSC</p>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="2" cols="2" border="true" image="rinxols1.gif">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="trenca2.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu2.wav" />
+     <p>ES TROBA TRES CADIRES: UNA GRAN, UNA MITJANA I UNA PETITA: S'ASSEU A LA PETITA</p>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="rinxols2.gif">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="trenca3.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu3.wav" />
+     <p>TASTA LA SOPA DEL PLAT GRAN, DEL PLAT MITJÀ I DEL PLAT PETIT. ES MENJA LA DEL PLAT PETIT</p>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="2" cols="2" border="true" image="rinxols3.gif">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="trenca4.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu4.wav" />
+     <p>PUJA AL LLIT GRAN, AL LLIT MITJÀ I AL LLIT PETIT. S'ADORM AL LLIT PETIT</p>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="2" border="true" image="rinxols4.gif">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="trenca5.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu7.wav" />
+     <p>L'ÓS PETIT DIU: S'HAN MENJAT LA MEVA SOPA</p>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="rinxols5.gif">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="trenca5b.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu6.wav" />
+     <p>L'ÓS PETIT DIU: HAN TRENCAT LA MEVA CADIRA</p>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="2" cols="2" border="true" image="rinxol5b.gif">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="trenca6.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu8.wav" />
+     <p>L'ÓS PETIT DIU: HI HA ALGÚ AL MEU LLIT</p>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="2" border="true" image="rinxols6.gif">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="trenca7.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu9.wav" />
+     <p>LA RINXOLS D'OR VEU L'ÓS GRAN, L'ÓS MITJÀ I L'ÓS PETIT I S'ESPANTA</p>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="2" cols="2" border="true" image="rinxols7.gif">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="trenca8.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="dibu9a.wav" />
+     <p>LA RINXOLS D'OR DECIDEIX NO FICAR-SE EN EMBOLICS.</p>
+    </cell>
+    <cell image="rinxolbe.gif" type="final">
+     <style>
+      <font family="Arial" size="13" bold="true" />
+      <color background="0xFFFFFF" inactive="0x004080" alternative="0x004080" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFF0080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="rinxols8.gif">
+    <style>
+     <font family="Arial" size="13" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="bosc.gif" file="bosc.gif" />
+  <media name="cadir-.gif" file="cadir_.gif" />
+  <media name="cadira.gif" file="cadira.gif" />
+  <media name="cadirgr.gif" file="cadirgr.gif" />
+  <media name="cadirmi.gif" file="cadirmi.gif" />
+  <media name="cadirpe.gif" file="cadirpe.gif" />
+  <media name="casa.gif" file="casa.gif" />
+  <media name="dorm.gif" file="dorm.gif" />
+  <media name="finestra.gif" file="finestra.gif" />
+  <media name="llitgran.gif" file="llitgran.gif" />
+  <media name="llitmitj.gif" file="llitmitj.gif" />
+  <media name="llitpeti.gif" file="llitpeti.gif" />
+  <media name="menja.gif" file="menja.gif" />
+  <media name="os.gif" file="os.gif" />
+  <media name="osa.gif" file="osa.gif" />
+  <media name="osdiu.gif" file="osdiu.gif" />
+  <media name="plordorm.gif" file="plordorm.gif" />
+  <media name="plorsopa.gif" file="plorsopa.gif" />
+  <media name="porta21.gif" file="porta21.gif" />
+  <media name="porta22.gif" file="porta22.gif" />
+  <media name="porta23.gif" file="porta23.gif" />
+  <media name="rinx1.gif" file="rinx1.gif" />
+  <media name="rinx2.gif" file="rinx2.gif" />
+  <media name="rinxocru.gif" file="rinxocru.gif" />
+  <media name="rinxol.gif" file="rinxol.gif" />
+  <media name="rinxol5b.gif" file="rinxol5b.gif" />
+  <media name="rinxolbe.gif" file="rinxolbe.gif" />
+  <media name="rinxols0.gif" file="rinxols0.gif" />
+  <media name="rinxols1.gif" file="rinxols1.gif" />
+  <media name="rinxols2.gif" file="rinxols2.gif" />
+  <media name="rinxols3.gif" file="rinxols3.gif" />
+  <media name="rinxols4.gif" file="rinxols4.gif" />
+  <media name="rinxols5.gif" file="rinxols5.gif" />
+  <media name="rinxols6.gif" file="rinxols6.gif" />
+  <media name="rinxols7.gif" file="rinxols7.gif" />
+  <media name="rinxols8.gif" file="rinxols8.gif" />
+  <media name="rinxolti.gif" file="rinxolti.gif" />
+  <media name="sillrota.gif" file="sillrota.gif" />
+  <media name="sopa.gif" file="sopa.gif" />
+  <media name="sopami.gif" file="sopami.gif" />
+  <media name="sopape.gif" file="sopape.gif" />
+  <media name="sopgran.gif" file="sopgran.gif" />
+  <media name="sopmitja.gif" file="sopmitja.gif" />
+  <media name="soppeti.gif" file="soppeti.gif" />
+  <media name="xemene.gif" file="xemene.gif" />
+  <media name="bosc.wav" file="bosc.wav" />
+  <media name="cadigran.wav" file="cadigran.wav" />
+  <media name="cadimitj.wav" file="cadimitj.wav" />
+  <media name="cadipeti.wav" file="cadipeti.wav" />
+  <media name="cadira.wav" file="cadira.wav" />
+  <media name="caseta.wav" file="caseta.wav" />
+  <media name="dibu1a.wav" file="dibu1a.wav" />
+  <media name="dibu2.wav" file="dibu2.wav" />
+  <media name="dibu3.wav" file="dibu3.wav" />
+  <media name="dibu4.wav" file="dibu4.wav" />
+  <media name="dibu6.wav" file="dibu6.wav" />
+  <media name="dibu7.wav" file="dibu7.wav" />
+  <media name="dibu8.wav" file="dibu8.wav" />
+  <media name="dibu9.wav" file="dibu9.wav" />
+  <media name="dibu9a.wav" file="dibu9a.wav" />
+  <media name="llitgran.wav" file="llitgran.wav" />
+  <media name="llitmitj.wav" file="llitmitj.wav" />
+  <media name="llitpeti.wav" file="llitpeti.wav" />
+  <media name="os.wav" file="os.wav" />
+  <media name="osa.wav" file="osa.wav" />
+  <media name="platgran.wav" file="platgran.wav" />
+  <media name="platmitj.wav" file="platmitj.wav" />
+  <media name="platpeti.wav" file="platpeti.wav" />
+  <media name="questi1.wav" file="questi1.wav" />
+  <media name="questi2.wav" file="questi2.wav" />
+  <media name="questi3.wav" file="questi3.wav" />
+  <media name="questi4.wav" file="questi4.wav" />
+  <media name="questi5.wav" file="questi5.wav" />
+  <media name="rinxols.wav" file="rinxols.wav" />
+  <media name="sopa.wav" file="sopa.wav" />
+ </mediaBag>
+</JClicProject>
+
