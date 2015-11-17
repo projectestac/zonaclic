@@ -1,0 +1,2201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="espana2" version="0.1.3">
+ <settings>
+  <title>España. Las comunidades Autónomas en lenguaje de signos</title>
+  <revision description="created" date="11/14/10" />
+  <revision description="Publicación en la zonaClic (http://clic.xtec.cat)" date="3/13/15">
+   <author name="Equip Clic" mail="clic@xtec.cat" organization="Àrea TIC - Departament d'Educació" />
+  </revision>
+  <author name="Teresa López Vicente" mail="dimna2003@yahoo.es" />
+  <language>español</language>
+  <description>
+   <p>Actividad JClic para alumnos sordos usuarios de lengua de signos española. Consta de actividades de identificación del nombre de la comunidad autónoma, localización en el mapa de España, fotografías de imágenes asociadas a esa comunidad y el signo que la representa, así como actividades de asociación entre los elementos mencionados. También tiene puzzles en los que se ordenan las letras del nombre de la comunidad junto con la imagen alusiva que aparece detrás.</p>
+  </description>
+  <descriptors area="Ciencias sociales, Lenguas" level="Primaria (6-12), Secundaria (12-16)">vocabulario, geografía, sign language</descriptors>
+ </settings>
+ <sequence>
+  <item id="start" name="España Comunidades autónomas">
+   <jump action="EXIT" id="back" />
+  </item>
+  <item id="menu" name="menú">
+   <jump tag="start" id="forward" />
+  </item>
+  <item id="presentaciones" name="España" />
+  <item name="Andalucia" />
+  <item name="Aragón" />
+  <item name="Asturias" />
+  <item name="Baleares" />
+  <item name="Cantabria" />
+  <item name="Canarias" />
+  <item name="Castilla La Mancha" />
+  <item name="Castilla León" />
+  <item name="Cataluña" />
+  <item name="Comunidad de Madrid" />
+  <item name="Comunidad de Murcia" />
+  <item name="Comunidad Valenciana" />
+  <item name="Extremadura" />
+  <item name="Galicia" />
+  <item name="La Rioja" />
+  <item name="Navarra" />
+  <item name="País Vasco">
+   <jump tag="menu" id="forward" />
+  </item>
+  <item id="foto nombre" name="asociar foto nombre">
+   <jump tag="menu" id="back" />
+  </item>
+  <item name="asociar foto nombre 1" />
+  <item name="asociar foto nombre 2" />
+  <item name="Asociación foto nombre 3" />
+  <item name="asociar foto nombre 4">
+   <jump tag="menu" id="forward" />
+  </item>
+  <item id="puzzles" name="puzzle Murcia">
+   <jump tag="menu" id="back" />
+  </item>
+  <item name="puzzle España" />
+  <item name="puzzle Madrid" />
+  <item name="PUZZLE ANDALUCIA">
+   <jump tag="menu" id="forward" />
+  </item>
+  <item id="signo mapa" name="Asocia signo mapa">
+   <jump tag="menu" id="back" />
+  </item>
+  <item name="asocia signo mapa 1" />
+  <item name="asocia mapa signo 2" />
+  <item name="asocia mapa signo 3">
+   <jump tag="menu" id="forward" />
+  </item>
+  <item id="nombre mapa" name="asocia nombre mapa">
+   <jump tag="menu" id="back" />
+  </item>
+  <item name="Asocia nombre mapa 1" />
+  <item name="Asocia nombre mapa 2" />
+  <item name="Asocia mapa nombre 3">
+   <jump tag="menu" id="forward" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.InformationScreen" name="Andalucia" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x000066" background="0x00FF00" />
+     </style>
+     <p>ANDALUCÍA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="337.0" cellHeight="280.0" border="true">
+    <style>
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="andalucia.gif" />
+    <cell image="alhambra.jpg" />
+    <cell image="Andalucía.jpg" />
+    <cell>
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x003399" background="0x33CCFF" />
+     </style>
+     <p>Andalucía</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Aragón">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x000066" background="0x00FF00" />
+     </style>
+     <p>ARAGÓN</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="413.0" cellHeight="276.0" border="true">
+    <style>
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="aragón.gif" />
+    <cell image="Zaragoza-Basilica.jpg" />
+    <cell image="Aragón.jpg" />
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>Aragón</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="Asocia mapa nombre 3" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FFFF" />
+     </style>
+     <p>Une con flechas</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FF00" />
+     </style>
+     <p>!!!MUY BIEN!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0xFF3333" />
+     </style>
+     <p>Repite la actividad</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="6" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="1" cols="4" cellWidth="189.0" cellHeight="219.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="28" />
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="1" />
+    <cell>
+     <style>
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0xCC0000" background="0x00CCFF" />
+     </style>
+     <p>Extremadura</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0xCC0000" background="0x00CCFF" />
+     </style>
+     <p>Navarra</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0xCC0000" background="0x00CCFF" />
+     </style>
+     <p>Comunidad de Murcia</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0xCC0000" background="0x00CCFF" />
+     </style>
+     <p>Comunidad de Madrid</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="4" cellWidth="189.0" cellHeight="199.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x00FF00" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="1" />
+    <cell image="extremadura.gif" />
+    <cell image="navarra2.gif" />
+    <cell image="murcia2.gif" />
+    <cell image="madrid2.gif" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="Asocia nombre mapa 1">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FFFF" />
+     </style>
+     <p>UNE CON FLECHAS</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FF00" />
+     </style>
+     <p>!!!MUY BIEN!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0xFF3333" />
+     </style>
+     <p>Repite la actividad</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="7" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="1" cols="5" cellWidth="189.0" cellHeight="199.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="28" />
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="5" rows="1" />
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0xCC0000" background="0x00CCFF" />
+     </style>
+     <p>Comunidad valenciana</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0xCC0000" background="0x00CCFF" />
+     </style>
+     <p>Comunidad de Madrid</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0xCC0000" background="0x00CCFF" />
+     </style>
+     <p>La Rioja</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0xCC0000" background="0x00CCFF" />
+     </style>
+     <p>Baleares</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0xCC0000" background="0x00CCFF" />
+     </style>
+     <p>Castilla León</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="5" cellWidth="189.0" cellHeight="199.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x00FF00" />
+    </style>
+    <shaper class="@Rectangular" cols="5" rows="1" />
+    <cell image="comunidadvalenciana.gif" />
+    <cell image="madrid2.gif" />
+    <cell image="larioja2.gif" />
+    <cell image="islasbaleares2.gif" />
+    <cell image="castillayleón.gif" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="Asocia nombre mapa 2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FFFF" />
+     </style>
+     <p>UNE CON FLECHAS</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FF00" />
+     </style>
+     <p>!!!MUY BIEN!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0xFF3333" />
+     </style>
+     <p>REPITE LA ACTIVIDAD</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="7" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="1" cols="5" cellWidth="189.0" cellHeight="199.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="28" />
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="5" rows="1" />
+    <cell>
+     <style>
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0xCC0000" background="0x00CCFF" />
+     </style>
+     <p>Comunidad de Murcia</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0xCC0000" background="0x00CCFF" />
+     </style>
+     <p>Galicia</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0xCC0000" background="0x00CCFF" />
+     </style>
+     <p>Cantabria</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0xCC0000" background="0x00CCFF" />
+     </style>
+     <p>Asturias</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0xCC0000" background="0x00CCFF" />
+     </style>
+     <p>Canarias</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="5" cellWidth="189.0" cellHeight="199.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x00FF00" />
+    </style>
+    <shaper class="@Rectangular" cols="5" rows="1" />
+    <cell image="murcia2.gif" />
+    <cell image="galicia.gif" />
+    <cell image="cantabria2.gif" />
+    <cell image="asturias2.gif" />
+    <cell image="canarias.gif" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="Asocia signo mapa" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FFFF" />
+     </style>
+     <p>UNE CON FLECHAS</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FF00" />
+     </style>
+     <p>!!!MUY BIEN!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0xFF3333" />
+     </style>
+     <p>REPITE LA ACTIVIDAD</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="7" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="1" cols="5" cellWidth="201.0" cellHeight="214.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="28" />
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="5" rows="1" />
+    <cell image="País_Vasco.jpg" />
+    <cell image="Murcia.jpg" />
+    <cell image="La_Rioja.jpg" />
+    <cell image="Galicia.jpg" />
+    <cell image="Extremadura.jpg" />
+   </cells>
+   <cells rows="1" cols="5" cellWidth="174.0" cellHeight="266.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x00FF00" />
+    </style>
+    <shaper class="@Rectangular" cols="5" rows="1" />
+    <cell image="paisvasco.gif" />
+    <cell image="murcia2.gif">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="72" />
+      <color foreground="0x990000" background="0x00FF00" />
+     </style>
+    </cell>
+    <cell image="larioja2.gif" />
+    <cell image="galicia.gif" />
+    <cell image="extremadura.gif" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="Asociación foto nombre 3" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FFFF" />
+     </style>
+     <p>UNE CON FLECHAS</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FF00" />
+     </style>
+     <p>!!!MUY BIEN!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0xFF3333" />
+     </style>
+     <p>REPITE LA ACTIVIDAD</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="6" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="302.0" cellHeight="130.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="28" />
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell txtAlign="left,middle" imgAlign="right,middle" avoidOverlapping="true" image="bodega la rioja.jpg">
+     <p>Bodegas de vino</p>
+    </cell>
+    <cell txtAlign="left,middle" imgAlign="right,middle" avoidOverlapping="true" image="mérida teatro romano.jpg">
+     <p>Teatro romano de Mérida</p>
+    </cell>
+    <cell txtAlign="left,middle" imgAlign="right,middle" avoidOverlapping="true" image="ensaimada mallorca.jpg">
+     <p>Ensaimada de Mallorca</p>
+    </cell>
+    <cell txtAlign="left,middle" imgAlign="right,middle" avoidOverlapping="true" image="Zaragoza-Basilica.jpg">
+     <p>Basílica del Pilar de Zaragoza</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="517.0" cellHeight="56.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x00FF00" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x003399" background="0x33CCFF" />
+     </style>
+     <p>La Rioja</p>
+    </cell>
+    <cell>
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x003399" background="0x33CCFF" />
+     </style>
+     <p>Extremadura</p>
+    </cell>
+    <cell>
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x003399" background="0x33CCFF" />
+     </style>
+     <p>Baleares</p>
+    </cell>
+    <cell>
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x003399" background="0x33CCFF" />
+     </style>
+     <p>Aragón</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="Asturias">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x000066" background="0x00FF00" />
+     </style>
+     <p>ASTURIAS</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="378.0" cellHeight="276.0" border="true">
+    <style>
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="asturias2.gif" />
+    <cell image="escanciador de sidra.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="72" />
+      <color foreground="0xFFFFFF" background="0x66CCFF" />
+     </style>
+    </cell>
+    <cell image="Asturias.jpg" />
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>Asturias</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Baleares">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x000066" background="0x00FF00" />
+     </style>
+     <p>BALEARES</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="309.0" cellHeight="248.0" border="true">
+    <style>
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="islasbaleares2.gif" />
+    <cell image="ensaimada mallorca.jpg" />
+    <cell image="Baleares.jpg" />
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>Baleares</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Canarias">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x000066" background="0x00FF00" />
+     </style>
+     <p>CANARIAS</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="339.0" cellHeight="279.0" border="true">
+    <style>
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="canarias.gif" />
+    <cell image="Teide en Tenerife.jpg" />
+    <cell image="Canarias.jpg" />
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>Canarias</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Cantabria">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x000066" background="0x00FF00" />
+     </style>
+     <p>CANTABRIA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="336.0" cellHeight="243.0" border="true">
+    <style>
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="cantabria2.gif" />
+    <cell image="santander palacio de la Magdalena.jpg" />
+    <cell image="Cantabria.jpg" />
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>Cantabria</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Castilla La Mancha">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x000066" background="0x00FF00" />
+     </style>
+     <p>CASTILLA LA MANCHA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="315.0" cellHeight="262.0" border="true">
+    <style>
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="castilla la mancha.gif" />
+    <cell image="Don_Quijote_y_Sancho_en_los_molinos_de_Campo_de_Criptana.jpg" />
+    <cell image="Castilla_La_Mancha.jpg" />
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>Castilla La Mancha</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Castilla León">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x000066" background="0x00FF00" />
+     </style>
+     <p>CASTILLA LEÓN</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="340.0" cellHeight="266.0" border="true">
+    <style>
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="castillayleón.gif" />
+    <cell image="avila murallas.jpg" />
+    <cell image="Castilla_León.jpg" />
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>Castilla León</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Cataluña">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x000066" background="0x00FF00" />
+     </style>
+     <p>CATALUÑA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="345.0" cellHeight="277.0" border="true">
+    <style>
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="cataluña.gif" />
+    <cell image="Barcelona sagrada familia-resized.jpg" />
+    <cell image="Cataluña.jpg" />
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>Cataluña</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Comunidad Valenciana">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x000066" background="0x00FF00" />
+     </style>
+     <p>COMUNIDAD VALENCIANA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="318.0" cellHeight="263.0" border="true">
+    <style>
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="comunidadvalenciana.gif" />
+    <cell image="Valencia, ciudad de las artes.jpg" />
+    <cell image="País_Valenciano.jpg" />
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>Comunidad Valenciana</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Comunidad de Madrid">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x000066" background="0x00FF00" />
+     </style>
+     <p>COMUNIDAD DE MADRID</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="393.0" cellHeight="286.0" border="true">
+    <style>
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="madrid2.gif" />
+    <cell image="madrid-cibeles.jpg" />
+    <cell image="Comunidad_de_Madrid.jpg" />
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>Comunidad de Madrid</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Comunidad de Murcia">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x000066" background="0x00FF00" />
+     </style>
+     <p>COMUNIDAD DE MURCIA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="318.0" cellHeight="251.0" border="true">
+    <style>
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="murcia2.gif" />
+    <cell image="Murcia, catedral-resized.jpg" />
+    <cell image="Murcia.jpg" />
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>Comunidad de Murcia</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="España">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x000066" background="0x00FF00" />
+     </style>
+     <p>ESPAÑA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="426.0" cellHeight="497.0" border="true">
+    <style>
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell image="España.gif" />
+    <cell image="España.jpg" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="España Comunidades autónomas" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x000066" background="0x00FF00" />
+     </style>
+     <p>ESPAÑA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+    <skin file="@blue.xml" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="portada españa.jpg">
+    <style>
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell txtAlign="right,bottom" border="false">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial Black" size="20" />
+      <color foreground="0xCC0000" background="0x99CCFF" />
+     </style>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Extremadura">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x000066" background="0x00FF00" />
+     </style>
+     <p>EXTREMADURA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="318.0" cellHeight="260.0" border="true">
+    <style>
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="extremadura.gif" />
+    <cell image="mérida teatro romano.jpg" />
+    <cell image="Extremadura.jpg" />
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>Extremadura</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Galicia">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x000066" background="0x00FF00" />
+     </style>
+     <p>GALICIA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="331.0" cellHeight="261.0" border="true">
+    <style>
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="galicia.gif" />
+    <cell image="santiago de compostela, catedral.jpg" />
+    <cell image="Galicia.jpg" />
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>Galicia</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="La Rioja">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x000066" background="0x00FF00" />
+     </style>
+     <p>LA RIOJA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="328.0" cellHeight="253.0" border="true">
+    <style>
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="larioja2.gif" />
+    <cell image="bodega la rioja.jpg" />
+    <cell image="La_Rioja.jpg" />
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>La Rioja</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="Navarra">
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="28" bold="true" />
+      <color foreground="0x000066" background="0x00FF00" />
+     </style>
+     <p>NAVARRA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="350.0" cellHeight="279.0" border="true">
+    <style>
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="navarra2.gif" />
+    <cell image="sanfermines.jpg" />
+    <cell image="Navarra.jpg" />
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>Navarra</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="PUZZLE ANDALUCIA">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FFFF" />
+     </style>
+     <p>HAZ EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FF00" />
+     </style>
+     <p>!!!MUY BIEN!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="1" cols="9" border="true" image="alhambra.jpg">
+    <style>
+     <font family="Arial" size="28" />
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="9" rows="1" />
+    <cell txtAlign="middle,bottom">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0x66CCFF" />
+     </style>
+     <p>A</p>
+    </cell>
+    <cell txtAlign="middle,bottom">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0x66CCFF" />
+     </style>
+     <p>N</p>
+    </cell>
+    <cell txtAlign="middle,bottom">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0x66CCFF" />
+     </style>
+     <p>D</p>
+    </cell>
+    <cell txtAlign="middle,bottom">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0x66CCFF" />
+     </style>
+     <p>A</p>
+    </cell>
+    <cell txtAlign="middle,bottom">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0x66CCFF" />
+     </style>
+     <p>L</p>
+    </cell>
+    <cell txtAlign="middle,bottom">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0x66CCFF" />
+     </style>
+     <p>U</p>
+    </cell>
+    <cell txtAlign="middle,bottom">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0x66CCFF" />
+     </style>
+     <p>C</p>
+    </cell>
+    <cell txtAlign="middle,bottom">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0x66CCFF" />
+     </style>
+     <p>Í</p>
+    </cell>
+    <cell txtAlign="middle,bottom">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0x66CCFF" />
+     </style>
+     <p>A</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="País Vasco" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>PAÍS VASCO</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="2" cols="2" cellWidth="280.0" cellHeight="261.0" border="true">
+    <style>
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell image="paisvasco.gif" />
+    <cell image="bilbao Museo Guggenheim.jpg" />
+    <cell image="País_Vasco.jpg" />
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>País Vasco</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="asocia mapa signo 2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FFFF" />
+     </style>
+     <p>Une con flechas</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FF00" />
+     </style>
+     <p>!!!MUY BIEN!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0xFF3333" />
+     </style>
+     <p>Repite la actividad</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="7" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="1" cols="5" cellWidth="189.0" cellHeight="199.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="28" />
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="5" rows="1" />
+    <cell image="Baleares.jpg" />
+    <cell image="Andalucía.jpg" />
+    <cell image="Comunidad_de_Madrid.jpg" />
+    <cell image="Asturias.jpg" />
+    <cell image="Navarra.jpg" />
+   </cells>
+   <cells rows="1" cols="5" cellWidth="189.0" cellHeight="199.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x00FF00" />
+    </style>
+    <shaper class="@Rectangular" cols="5" rows="1" />
+    <cell image="islasbaleares2.gif" />
+    <cell image="andalucia.gif" />
+    <cell image="madrid2.gif" />
+    <cell image="asturias2.gif" />
+    <cell image="navarra2.gif" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="asocia mapa signo 3" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FFFF" />
+     </style>
+     <p>Une con flechas</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FF00" />
+     </style>
+     <p>!!!MUY BIEN!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0xFF3333" />
+     </style>
+     <p>Repite la actividad</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="6" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="1" cols="4" cellWidth="189.0" cellHeight="199.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="28" />
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="1" />
+    <cell image="comunidadvalenciana.gif" />
+    <cell image="aragón.gif" />
+    <cell image="madrid2.gif" />
+    <cell image="murcia2.gif" />
+   </cells>
+   <cells rows="1" cols="4" cellWidth="189.0" cellHeight="199.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x00FF00" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="1" />
+    <cell image="País_Valenciano.jpg" />
+    <cell image="Aragón.jpg" />
+    <cell image="Comunidad_de_Madrid.jpg" />
+    <cell image="Murcia.jpg" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="asocia nombre mapa">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FFFF" />
+     </style>
+     <p>Asocia</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FF00" />
+     </style>
+     <p>!!!Muy bien!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0xFF3333" />
+     </style>
+     <p>Repite la actividad</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="5" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="1" cols="5" cellWidth="189.0" cellHeight="200.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="28" />
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="5" rows="1" />
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="26" bold="true" />
+      <color foreground="0x990000" background="0x00FF00" />
+     </style>
+     <p>Andalucía</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="26" bold="true" />
+      <color foreground="0x990000" background="0x00FF00" />
+     </style>
+     <p>Castilla</p>
+     <p>La Mancha</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="26" bold="true" />
+      <color foreground="0x990000" background="0x00FF00" />
+     </style>
+     <p>Cataluña</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x00FF00" />
+     </style>
+     <p>País Vasco</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="26" bold="true" />
+      <color foreground="0x990000" background="0x00FF00" />
+     </style>
+     <p>Aragón</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="5" cellWidth="189.0" cellHeight="199.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x00FF00" />
+    </style>
+    <shaper class="@Rectangular" cols="5" rows="1" />
+    <cell image="andalucia.gif" />
+    <cell image="castilla la mancha.gif" />
+    <cell image="cataluña.gif" />
+    <cell image="paisvasco.gif" />
+    <cell image="aragón.gif" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="asocia signo mapa 1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FFFF" />
+     </style>
+     <p>Une con flechas</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FF00" />
+     </style>
+     <p>!!!MUY BIEN!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0xFF3333" />
+     </style>
+     <p>Repite la actividad</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="7" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="1" cols="5" cellWidth="181.0" cellHeight="199.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="28" />
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="5" rows="1" />
+    <cell image="canarias.gif" />
+    <cell image="castilla la mancha.gif" />
+    <cell image="castillayleón.gif" />
+    <cell image="cataluña.gif" />
+    <cell image="cantabria2.gif" />
+   </cells>
+   <cells rows="1" cols="5" cellWidth="181.0" cellHeight="199.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x00FF00" />
+    </style>
+    <shaper class="@Rectangular" cols="5" rows="1" />
+    <cell image="Canarias.jpg" />
+    <cell image="Castilla_La_Mancha.jpg" />
+    <cell image="Castilla_León.jpg" />
+    <cell image="Cataluña.jpg" />
+    <cell image="Cantabria.jpg" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="asociar foto nombre" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FFFF" />
+     </style>
+     <p>UNE CON FLECHAS</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FF00" />
+     </style>
+     <p>!!!MUY BIEN!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0xFF3333" />
+     </style>
+     <p>!NO, NO! REPITE LA ACTIVIDAD</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="6" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+    <skin file="@green.xml" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="290.0" cellHeight="76.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="28" />
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell border="true">
+     <style borderStroke="2.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="22" bold="true" />
+      <color foreground="0xCC0033" background="0x33CCFF" />
+     </style>
+     <p>ANDALUCÍA</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="22" bold="true" />
+      <color foreground="0xCC0033" background="0x33CCFF" />
+     </style>
+     <p>CASTILLA LA MANCHA</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="22" bold="true" />
+      <color foreground="0xCC0033" background="0x33CCFF" />
+     </style>
+     <p>CASTILLA LEÓN</p>
+    </cell>
+    <cell border="true">
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="22" bold="true" />
+      <color foreground="0xCC0033" background="0x33CCFF" />
+     </style>
+     <p>MURCIA</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="400.0" cellHeight="137.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x00FF00" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell txtAlign="middle,bottom" avoidOverlapping="true" image="alhambra.jpg">
+     <p>Alhambra de Granada</p>
+    </cell>
+    <cell txtAlign="middle,bottom" avoidOverlapping="true" image="Don_Quijote_y_Sancho_en_los_molinos_de_Campo_de_Criptana.jpg">
+     <p>Molinos de viento en Ciudad Real</p>
+    </cell>
+    <cell txtAlign="middle,bottom" avoidOverlapping="true" image="avila murallas.jpg">
+     <p>Murallas de Ávila</p>
+    </cell>
+    <cell txtAlign="middle,bottom" avoidOverlapping="true" image="Murcia, catedral-resized.jpg">
+     <p>Catedral de Murcia</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="BA" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="asociar foto nombre 1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FFFF" />
+     </style>
+     <p>UNE CON FLECHAS</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FF00" />
+     </style>
+     <p>!!!MUY BIEN!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0xFF3333" />
+     </style>
+     <p>REPITE LA ACTIVIDAD</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="6" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="434.0" cellHeight="145.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="28" />
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell txtAlign="left,middle" avoidOverlapping="true" image="bilbao Museo Guggenheim.jpg">
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="18" bold="true" />
+      <color foreground="0x003399" background="0x33CCFF" />
+     </style>
+     <p>Museo Guggenhein. Bilbao</p>
+    </cell>
+    <cell txtAlign="left,middle" avoidOverlapping="true" image="sanfermines.jpg">
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="18" bold="true" />
+      <color foreground="0x003399" background="0x33CCFF" />
+     </style>
+     <p>Fiestas de San Fermín. Pamplona</p>
+    </cell>
+    <cell txtAlign="left,middle" avoidOverlapping="true" image="santiago de compostela, catedral.jpg">
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="18" bold="true" />
+      <color foreground="0x003399" background="0x33CCFF" />
+     </style>
+     <p>Catedral de Santiago de Compostela</p>
+    </cell>
+    <cell txtAlign="left,middle" avoidOverlapping="true" image="Valencia, ciudad de las artes.jpg">
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="18" bold="true" />
+      <color foreground="0x003399" background="0x33CCFF" />
+     </style>
+     <p>Ciudad de las Artes y las Ciencias</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="404.0" cellHeight="60.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x00FF00" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0xCC0033" background="0x33CCFF" />
+     </style>
+     <p>País Vasco</p>
+    </cell>
+    <cell>
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0xCC0033" background="0x33CCFF" />
+     </style>
+     <p>Navarra</p>
+    </cell>
+    <cell>
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0xCC0033" background="0x33CCFF" />
+     </style>
+     <p>Galicia</p>
+    </cell>
+    <cell>
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0xCC0033" background="0x33CCFF" />
+     </style>
+     <p>Comunidad Valenciana</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="asociar foto nombre 2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FFFF" />
+     </style>
+     <p>UNE CON FLECHAS</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FF00" />
+     </style>
+     <p>!!!MUY BIEN!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0xFF3333" />
+     </style>
+     <p>REPITE LA ACTIVIDAD</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="6" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="428.0" cellHeight="122.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="28" />
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell txtAlign="left,middle" avoidOverlapping="true" image="Zaragoza-Basilica.jpg">
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="18" bold="true" />
+      <color foreground="0x003399" background="0x33CCFF" />
+     </style>
+     <p>Basílica del Pilar. Zaragoza</p>
+    </cell>
+    <cell txtAlign="left,middle" avoidOverlapping="true" image="madrid-cibeles.jpg">
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="18" bold="true" />
+      <color foreground="0x003399" background="0x33CCFF" />
+     </style>
+     <p>Fuente de La Cibeles</p>
+    </cell>
+    <cell txtAlign="left,middle" avoidOverlapping="true" image="Teide en Tenerife.jpg">
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="18" bold="true" />
+      <color foreground="0x003399" background="0x33CCFF" />
+     </style>
+     <p>Volcán Teide. Tenerife</p>
+    </cell>
+    <cell txtAlign="left,middle" avoidOverlapping="true" image="santander palacio de la Magdalena.jpg">
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="18" bold="true" />
+      <color foreground="0x003399" background="0x33CCFF" />
+     </style>
+     <p>Palacio de la Magdalena. Santander</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="423.0" cellHeight="64.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x00FF00" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell border="true">
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>Aragón</p>
+    </cell>
+    <cell>
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>Comunidad de Madrid</p>
+    </cell>
+    <cell>
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>Canarias</p>
+    </cell>
+    <cell>
+     <style borderStroke="2.8" markerStroke="2.7">
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <p>Cantabria</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="asociar foto nombre 4" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FFFF" />
+     </style>
+     <p>UNE CON FLECHAS</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FF00" />
+     </style>
+     <p>!!!MUY BIEN!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0xFF3333" />
+     </style>
+     <p>REPITE LA ACTIVIDAD</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxActions="6" countDownActions="false" report="true" reportActions="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="356.0" cellHeight="142.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="28" />
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell txtAlign="left,middle" imgAlign="right,middle" avoidOverlapping="true" image="ensaimada mallorca.jpg">
+     <p>Ensaimada de Mallorca</p>
+    </cell>
+    <cell txtAlign="left,middle" imgAlign="right,middle" avoidOverlapping="true" image="escanciador de sidra.jpg">
+     <p>Sidra asturiana</p>
+    </cell>
+    <cell txtAlign="left,middle" imgAlign="right,middle" avoidOverlapping="true" image="mérida teatro romano.jpg">
+     <p>Teatro romano de Merida</p>
+    </cell>
+    <cell txtAlign="left,middle" imgAlign="right,middle" avoidOverlapping="true" image="Don_Quijote_y_Sancho_en_los_molinos_de_Campo_de_Criptana.jpg">
+     <p>Molinos de viento de Ciudad Real</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="408.0" cellHeight="58.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0x00FF00" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0xCC0000" background="0x66CCFF" />
+     </style>
+     <p>Baleares</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0xCC0000" background="0x66CCFF" />
+     </style>
+     <p>Asturias</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0xCC0000" background="0x66CCFF" />
+     </style>
+     <p>Extremadura</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0xCC0000" background="0x66CCFF" />
+     </style>
+     <p>Castilla La Mancha</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="menú">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FFFF" />
+     </style>
+     <p>ESCOGE LA ACTIVIDAD QUE QUIERES</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="5" cols="1" cellWidth="688.0" cellHeight="109.0" border="true">
+    <style>
+     <font family="Arial" size="28" />
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell id="0">
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x33CCFF" />
+     </style>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="presentaciones" />
+     <p>Las comunidades autónomas y sus signos</p>
+    </cell>
+    <cell id="1">
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x00FF00" />
+     </style>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="foto nombre" />
+     <p>Asocia la Comunidad autónoma y su foto</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0xFFCC33" />
+     </style>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="nombre mapa" />
+     <p>Asocia el mapa y el nombre de la Comunidad autónoma</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0xFFCCCC" />
+     </style>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="signo mapa" />
+     <p>Asocia el mapa y su signo</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Comic Sans MS" size="28" bold="true" />
+      <color foreground="0x990000" background="0x999999" />
+     </style>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="puzzles" />
+     <p>Puzzles</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="puzzle España">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FFFF" />
+     </style>
+     <p>Forma el puzzle</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FF00" />
+     </style>
+     <p>!!!MUY BIEN!!!</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0xFF3333" />
+     </style>
+     <p>Repite la actividad</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="1" cols="6" border="true" image="España.gif">
+    <style>
+     <font family="Arial" size="28" />
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="6" rows="1" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0x990000" background="0x999999" />
+     </style>
+     <p>E</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0x990000" background="0x999999" />
+     </style>
+     <p>S</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0x990000" background="0x999999" />
+     </style>
+     <p>P</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0x990000" background="0x999999" />
+     </style>
+     <p>A</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0x990000" background="0x999999" />
+     </style>
+     <p>Ñ</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0x990000" background="0x999999" />
+     </style>
+     <p>A</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="puzzle Madrid" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FFFF" />
+     </style>
+     <p>HAZ EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FF00" />
+     </style>
+     <p>!!!MUY BIEN!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="1" cols="6" border="true" image="madrid-cibeles.jpg">
+    <style>
+     <font family="Arial" size="28" />
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="6" rows="1" />
+    <cell txtAlign="middle,top">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0xCC0000" background="0x66CCFF" />
+     </style>
+     <p>M</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0xCC0000" background="0x66CCFF" />
+     </style>
+     <p>A</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0xCC0000" background="0x66CCFF" />
+     </style>
+     <p>D</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0xCC0000" background="0x66CCFF" />
+     </style>
+     <p>R</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0xCC0000" background="0x66CCFF" />
+     </style>
+     <p>I</p>
+    </cell>
+    <cell txtAlign="middle,top">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0xCC0000" background="0x66CCFF" />
+     </style>
+     <p>D</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="puzzle Murcia">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FFFF" />
+     </style>
+     <p>HAZ EL PUZZLE</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="28" />
+      <color background="0x66FF00" />
+     </style>
+     <p>!!!MUY BIEN!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x66FF33">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="1" cols="6" border="true" image="Murcia, catedral-resized.jpg">
+    <style>
+     <font family="Arial" size="28" />
+     <color background="0x33CCFF" inactive="0x99CCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="6" rows="1" />
+    <cell>
+     <style borderStroke="2.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0x0000CC" background="0x33CCFF" />
+     </style>
+     <p>M</p>
+    </cell>
+    <cell>
+     <style borderStroke="2.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0x0000CC" background="0x33CCFF" />
+     </style>
+     <p>U</p>
+    </cell>
+    <cell>
+     <style borderStroke="2.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0x0000CC" background="0x33CCFF" />
+     </style>
+     <p>R</p>
+    </cell>
+    <cell>
+     <style borderStroke="2.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0x0000CC" background="0x33CCFF" />
+     </style>
+     <p>C</p>
+    </cell>
+    <cell>
+     <style borderStroke="2.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0x0000CC" background="0x33CCFF" />
+     </style>
+     <p>I</p>
+    </cell>
+    <cell>
+     <style borderStroke="2.7" markerStroke="2.7">
+      <font family="Comic Sans MS" size="72" bold="true" />
+      <color foreground="0x0000CC" background="0x33CCFF" />
+     </style>
+     <p>A</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="andalucia.gif" file="andalucia.gif" />
+  <media name="aragón.gif" file="aragon.gif" />
+  <media name="asturias2.gif" file="asturias2.gif" />
+  <media name="canarias.gif" file="canarias.gif" />
+  <media name="cantabria2.gif" file="cantabria2.gif" />
+  <media name="castilla la mancha.gif" file="castilla_la_mancha.gif" />
+  <media name="castillayleón.gif" file="castillayleon.gif" />
+  <media name="cataluña.gif" file="cataluna.gif" />
+  <media name="comunidadvalenciana.gif" file="comunidadvalenciana.gif" />
+  <media name="España.gif" file="espana.gif" />
+  <media name="extremadura.gif" file="extremadura.gif" />
+  <media name="galicia.gif" file="galicia.gif" />
+  <media name="islasbaleares2.gif" file="islasbaleares2.gif" />
+  <media name="larioja2.gif" file="larioja2.gif" />
+  <media name="madrid2.gif" file="madrid2.gif" />
+  <media name="murcia2.gif" file="murcia2.gif" />
+  <media name="navarra2.gif" file="navarra2.gif" />
+  <media name="paisvasco.gif" file="paisvasco.gif" />
+  <media name="alhambra.jpg" file="alhambra.jpg" />
+  <media name="Andalucía.jpg" file="andalucia.jpg" />
+  <media name="Aragón.jpg" file="aragon.jpg" />
+  <media name="Asturias.jpg" file="asturias.jpg" />
+  <media name="avila murallas.jpg" file="avila_murallas.jpg" />
+  <media name="Baleares.jpg" file="baleares.jpg" />
+  <media name="Barcelona sagrada familia-resized.jpg" file="barcelona_sagrada_familia_resized.jpg" />
+  <media name="bilbao Museo Guggenheim.jpg" file="bilbao_museo_guggenheim.jpg" />
+  <media name="bodega la rioja.jpg" file="bodega_la_rioja.jpg" />
+  <media name="Canarias.jpg" file="canarias.jpg" />
+  <media name="Cantabria.jpg" file="cantabria.jpg" />
+  <media name="Castilla_La_Mancha.jpg" file="castilla_la_mancha.jpg" />
+  <media name="Castilla_León.jpg" file="castilla_leon.jpg" />
+  <media name="Cataluña.jpg" file="cataluna.jpg" />
+  <media name="Comunidad_de_Madrid.jpg" file="comunidad_de_madrid.jpg" />
+  <media name="Don_Quijote_y_Sancho_en_los_molinos_de_Campo_de_Criptana.jpg" file="don_quijote_y_sancho_en_los_molinos_de_campo_de_criptana.jpg" />
+  <media name="ensaimada mallorca.jpg" file="ensaimada_mallorca.jpg" />
+  <media name="escanciador de sidra.jpg" file="escanciador_de_sidra.jpg" />
+  <media name="España.jpg" file="espana.jpg" />
+  <media name="Extremadura.jpg" file="extremadura.jpg" />
+  <media name="Galicia.jpg" file="galicia.jpg" />
+  <media name="La_Rioja.jpg" file="la_rioja.jpg" />
+  <media name="madrid-cibeles.jpg" file="madrid_cibeles.jpg" />
+  <media name="Murcia, catedral-resized.jpg" file="murcia__catedral_resized.jpg" />
+  <media name="Murcia.jpg" file="murcia.jpg" />
+  <media name="mérida teatro romano.jpg" file="merida_teatro_romano.jpg" />
+  <media name="Navarra.jpg" file="navarra.jpg" />
+  <media name="País_Valenciano.jpg" file="pais_valenciano.jpg" />
+  <media name="País_Vasco.jpg" file="pais_vasco.jpg" />
+  <media name="portada españa.jpg" file="portada_espana.jpg" />
+  <media name="sanfermines.jpg" file="sanfermines.jpg" />
+  <media name="santander palacio de la Magdalena.jpg" file="santander_palacio_de_la_magdalena.jpg" />
+  <media name="santiago de compostela, catedral.jpg" file="santiago_de_compostela__catedral.jpg" />
+  <media name="Teide en Tenerife.jpg" file="teide_en_tenerife.jpg" />
+  <media name="Valencia, ciudad de las artes.jpg" file="valencia__ciudad_de_las_artes.jpg" />
+  <media name="Zaragoza-Basilica.jpg" file="zaragoza_basilica.jpg" />
+ </mediaBag>
+</JClicProject>
+

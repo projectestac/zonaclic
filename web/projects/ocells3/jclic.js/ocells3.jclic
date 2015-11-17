@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="ocells3" version="0.1.3">
+ <settings>
+  <title>Els ocells de Catalunya</title>
+  <revision description="created" date="12/4/10" />
+  <revision description="Publicació a la zonaClic (http://clic.xtec.cat)" date="3/16/15">
+   <author name="Equip Clic" mail="clic@xtec.cat" organization="Àrea TIC - Departament d'Educació" />
+  </revision>
+  <author name="Joaquima Paretas Ros&#xD;&#xA;JOAQUIMA PARETAS ROS" mail="jpareta2@xtec.cat" />
+  <language>català</language>
+  <description>
+   <p>En aquest projecte d'activitats JClic s'inclouen diferents activitats amb diferents modalitats per tal de donar a conèixer diferents ocells de Catalunya.</p>
+  </description>
+  <descriptors area="Ciències experimentals" level="Primària (6-12)">ocells, animals</descriptors>
+ </settings>
+ <sequence>
+  <item id="start" name="primera">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="abellerol" />
+  <item name="bernat" />
+  <item name="cadernera" />
+  <item name="capsigrany" />
+  <item name="cuereta" />
+  <item name="garsa" />
+  <item name="gavina" />
+  <item name="mallerenga" />
+  <item name="oreneta" />
+  <item name="pardal" />
+  <item name="pit-roig" />
+  <item name="puzle1" />
+  <item name="puzle2" />
+  <item name="info1" />
+  <item name="associa1" />
+  <item name="associa2" />
+  <item name="associa3" />
+  <item name="pilsa" />
+  <item name="puput" />
+  <item name="sopa" />
+  <item name="abu" />
+  <item name="fi">
+   <jump action="RETURN" id="forward" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.InformationScreen" name="abellerol" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>L'ABELLEROL ES TROBA PROP DEL RIUS I ESTANYS D'AIGUA</p>
+    </cell>
+   </messages>
+   <settings margin="0" report="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="abellerol.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="abu" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>COMPLETA AQUEST TRENCACLOSQUES</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>ETS MOLT RÀPID! ENHORABONA</p>
+    </cell>
+   </messages>
+   <settings margin="0" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xFFFFCC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="abubilla0.jpg">
+    <style>
+     <color border="0xCC0000" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="associa1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <color background="0xCCFFCC" />
+     </style>
+     <p>RELACIONA ELS NOMS DELS OCELLS AMB LA SEVA FOTO</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>PERFECTE!</p>
+    </cell>
+   </messages>
+   <settings margin="2" report="true" reportActions="false">
+    <container bgColor="0xFFFF99">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFCCCC" border="false" />
+   </settings>
+   <cells rows="3" cols="3" cellWidth="159.0" cellHeight="136.0" border="true" id="primary">
+    <style borderStroke="0.5" markerStroke="5.0">
+     <font family="Arial" size="24" bold="true" />
+     <color background="0xFFCCFF" inactive="0xFFFF66" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+    <cell>
+     <p>oreneta</p>
+    </cell>
+    <cell>
+     <p>cadernera</p>
+    </cell>
+    <cell>
+     <p>pilsà</p>
+    </cell>
+    <cell>
+     <p>mussol</p>
+    </cell>
+    <cell>
+     <p>merla</p>
+    </cell>
+    <cell>
+     <p>mallarenga</p>
+    </cell>
+    <cell>
+     <p>pit-roig</p>
+    </cell>
+    <cell>
+     <p>gavina</p>
+    </cell>
+    <cell>
+     <p>bernat pescaire</p>
+    </cell>
+   </cells>
+   <cells rows="3" cols="3" cellWidth="260.0" cellHeight="175.0" border="false" id="secondary">
+    <style borderStroke="0.6" markerStroke="2.7">
+     <color background="0xFF6666" inactive="0xFFCC33" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+    <cell image="oreneta1.jpg" />
+    <cell image="cadernera2.jpg" />
+    <cell image="Pinsa1-resized.jpg" />
+    <cell image="mussol1.jpg" />
+    <cell image="merla1.jpg" />
+    <cell image="mallerenga1.jpg" />
+    <cell image="pit-roig1.jpg" />
+    <cell image="gaviota.jpg" />
+    <cell image="bernat p1.jpg" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="associa2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>Escolta i relaciona els cants amb els cells</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>Que bé ho fan!</p>
+    </cell>
+   </messages>
+   <settings margin="2" report="true" reportActions="false">
+    <container bgColor="0xFFCCCC">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xCCCCFF" border="false" />
+   </settings>
+   <cells rows="1" cols="4" cellWidth="139.0" cellHeight="180.0" border="true" id="primary">
+    <style>
+     <color background="0xCCCCFF" inactive="0xFF9900" alternative="0xFFCC00" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="1" />
+    <cell txtAlign="middle,top" imgAlign="middle,bottom" avoidOverlapping="true" image="interr.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" />
+      <color background="0x99FF66" inactive="0xFFCC00" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="abellerol.wav" />
+     <p>Quin ocell és?</p>
+    </cell>
+    <cell txtAlign="middle,top" imgAlign="middle,bottom" avoidOverlapping="true" image="interr.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" />
+      <color background="0x99FF66" inactive="0xFFCC00" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="blauet.wav" />
+     <p>Quin ocell és?</p>
+    </cell>
+    <cell txtAlign="middle,top" imgAlign="middle,bottom" avoidOverlapping="true" image="interr.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" />
+      <color background="0x99FF66" inactive="0xFFCC00" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="cadernera.wav" />
+     <p>Quin ocell és?</p>
+    </cell>
+    <cell txtAlign="middle,top" imgAlign="middle,bottom" avoidOverlapping="true" image="interr.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" />
+      <color background="0x99FF66" inactive="0xFFCC00" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="capsigra.wav" />
+     <p>Quin ocell és?</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="4" cellWidth="140.0" cellHeight="44.0" border="true" id="secondary">
+    <style>
+     <color background="0x99FF99" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="1" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" />
+      <color foreground="0x6666FF" background="0x99FF66" inactive="0xFF9999" />
+     </style>
+     <p>ABELLEROL</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" />
+      <color foreground="0x6666FF" background="0x99FF66" inactive="0xFF9999" />
+     </style>
+     <p>BLAUET</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" />
+      <color foreground="0x6666FF" background="0x99FF66" inactive="0xFF9999" />
+     </style>
+     <p>CADERNERA</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" />
+      <color foreground="0x6666FF" background="0x99FF66" inactive="0xFF9999" />
+     </style>
+     <p>CAPSIGRANY</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="associa3" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>Relaciona el que menja cada ocell</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>Ara ja saps què mengen</p>
+    </cell>
+   </messages>
+   <settings margin="1" report="true" reportActions="false">
+    <container bgColor="0xFFFF99">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false" />
+   </settings>
+   <cells rows="2" cols="4" cellWidth="205.0" cellHeight="203.0" border="true" id="primary">
+    <style>
+     <color background="0xFF9999" inactive="0xFFCCCC" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="2" />
+    <cell id="4" image="garsa1.jpg" />
+    <cell id="0" image="abubilla.jpg" />
+    <cell id="3" image="alcaudon.jpg" />
+    <cell id="3" image="oreneta1.jpg" />
+    <cell id="1" image="petirrojo-resized.jpg" />
+    <cell id="1" image="pardal1.jpg" />
+    <cell image="mallerenga1.jpg" />
+    <cell id="2" image="martinet.jpg" />
+   </cells>
+   <cells rows="5" cols="1" cellWidth="188.0" cellHeight="79.0" border="true" id="secondary">
+    <style borderStroke="0.7" markerStroke="2.7">
+     <font family="Arial" size="24" bold="true" />
+     <color background="0xFF6699" border="0x990000" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell>
+     <p>menja cucs</p>
+    </cell>
+    <cell>
+     <p>menja llavors</p>
+    </cell>
+    <cell>
+     <p>menja peixos</p>
+    </cell>
+    <cell>
+     <p>menja insectes</p>
+    </cell>
+    <cell>
+     <p>de tot</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="bernat" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>EL BERNAT PESCAIRE S'ALIMENTA DE PEIXOS DELS AIGUAMOLLS</p>
+    </cell>
+   </messages>
+   <settings margin="0" report="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="Garza r.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="cadernera" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>LA CADERNERA TÉ UN BONIC PLOMATGE I TAMBÉ UN MAGNÍFIC CANT</p>
+    </cell>
+   </messages>
+   <settings margin="0" report="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="jilguero.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="capsigrany" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>EL CAPSIGRANY ÉS UN OCELL INSECTÍVOR</p>
+    </cell>
+   </messages>
+   <settings margin="0" report="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="alcaudon.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="cuereta" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>LA CUERETA BLANCA ÉS UN OCELL PETITÓ, NOMÉS PESA 23 GRAMS</p>
+    </cell>
+   </messages>
+   <settings margin="0" report="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="cuereta.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="fi" code="">
+   <description />
+   <messages />
+   <settings margin="2" report="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="593.0" cellHeight="486.0" border="false">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell txtAlign="left,middle" imgAlign="right,middle" avoidOverlapping="true" image="oreneta1.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="17" bold="true" />
+      <color background="0xCCFFCC" inactive="0xFFFFFF" />
+     </style>
+     <p>FI  </p>
+     <p>Has acabat les activitats. Ja coneixes més coses dels ocells. Es molt important que els cuidem i els respectem.</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="garsa" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>LA GARSA ÉS UN DELS OCELLS MÉS CONEGUTS A CATALUNYA</p>
+    </cell>
+   </messages>
+   <settings margin="0" report="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="urraca.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="gavina" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xCCFFCC" />
+     </style>
+     <p>LA GAVINA ÉS OMNÍVORA ANANT A ALIMENTAR-SE INCLÚS ALS ABOCADORS DE DEIXALLES</p>
+    </cell>
+   </messages>
+   <settings margin="0" report="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="gaviota.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="info1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>LLEGEIX ATENTAMENT</p>
+    </cell>
+   </messages>
+   <settings margin="0" report="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xCCCCCC" border="false" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="994.0" cellHeight="545.0" border="false">
+    <style>
+     <font family="Arial" size="24" />
+     <color background="0xFF6666" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell txtAlign="left,middle" imgAlign="right,middle" avoidOverlapping="true" image="pardal1.jpg">
+     <p>El pardal comú, és un membre de la família Passeridae originària d'Europa i Àsia i introduïda en altres continents. Als Estats Units van ser introduïts deliberadament a la segona meitat del segle XIX i ara és l'ocell més abundant. poden arribar a viure 13 anys en captivitat, però en llibertat, pocs arriben a sobrepassar els 7 anys.</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="mallerenga" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>LA MALLERENGA VIU ALS ESTRATS BAIXOS DEL BOSC</p>
+    </cell>
+   </messages>
+   <settings margin="0" report="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="herrerillo.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="oreneta" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>L'ORENETA ÉS MOLT BENEFICIOSA DONCS S'ALIMENTA EXCLUSIVAMENT D'INSECTES</p>
+    </cell>
+   </messages>
+   <settings margin="0" report="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="golondrina.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="pardal" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>EL PARDAL FA NIUS A QUALSEVOL FORAT DE PARETS I TEULADES</p>
+    </cell>
+   </messages>
+   <settings margin="0" report="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="gorrion.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="pilsa" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xCCFFCC" />
+     </style>
+     <p>EL PILSÀ ES QUEDA TOT L'ANY A LES NOSTRES TERRES.</p>
+    </cell>
+   </messages>
+   <settings margin="1" report="false">
+    <container bgColor="0xFFFFCC">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="pinzon.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="pit-roig" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>EL PIT-ROIG TAMBÉ ANOMENAT REIENTINC</p>
+    </cell>
+   </messages>
+   <settings margin="0" report="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="petirrojo-resized.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="primera" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xCCFFCC" />
+     </style>
+     <p>Trobaràs alguns ocells que sovint veus a diferents llocs de Catalunya</p>
+    </cell>
+   </messages>
+   <settings margin="0" report="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="portada.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="puput" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xCCFFCC" />
+     </style>
+     <p>EL PUPUT AMB LA SEVA BONICA CRESTA</p>
+    </cell>
+   </messages>
+   <settings margin="0" report="false">
+    <container bgColor="0xFFFFCC">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="abubilla.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="puzle1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <color background="0xCCFFCC" />
+     </style>
+     <p>FES AQUEST PUZLE DE L'ORIOL</p>
+    </cell>
+   </messages>
+   <settings margin="1" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xFFFFFF">
+     <gradient source="0xCCCC00" dest="0xFFFFFF" angle="0" cycles="3" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFCCCC" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="oriol1.jpg">
+    <style borderStroke="0.3" markerStroke="2.7">
+     <color inactive="0xFFCCFF" border="0xCC9900" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="puzle2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>I ARA AQUEST DEL PIT-ROIG</p>
+    </cell>
+    <cell type="final">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <color background="0xCCFFCC" />
+     </style>
+     <p>MOLT GUAI!</p>
+    </cell>
+   </messages>
+   <settings margin="0" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xFFCCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFCCCC" border="false" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="pit-roig1.jpg">
+    <style borderStroke="0.2" markerStroke="2.7">
+     <color inactive="0x00CC66" border="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="sopa" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>CERCA EL NOM DE SIS OCELLS EN AQUESTA SOPA DE LLETRES</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0xCCFFCC" />
+     </style>
+     <p>HO FAS MOLT BÉ!</p>
+    </cell>
+   </messages>
+   <settings margin="0" report="true" reportActions="false">
+    <container bgColor="0xFF6666">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFF66" border="false" />
+   </settings>
+   <textGrid rows="9" columns="7" cellWidth="70.0" cellHeight="69.0" border="true">
+    <style borderStroke="5.0" markerStroke="2.7">
+     <font family="Arial" size="48" bold="true" />
+     <color foreground="0xFF3333" background="0xFFFFFF" border="0xFFFF66" />
+    </style>
+    <text>
+     <row>****O*G*C</row>
+     <row>**PARDALU</row>
+     <row>****I*R*E</row>
+     <row>****O*S*R</row>
+     <row>**PILSA*E</row>
+     <row>********T</row>
+     <row>CADERNERA</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">PARDAL</clue>
+    <clue id="1">ORIOL</clue>
+    <clue id="2">PILSA</clue>
+    <clue id="3">GARSA</clue>
+    <clue id="4">CADERNERA</clue>
+    <clue id="5">CUERETA</clue>
+   </clues>
+   <cells rows="3" cols="2" cellWidth="189.0" cellHeight="149.0" border="true" id="secondary">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <color background="0xFFFFCC" inactive="0xFFFF99" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell image="pardal1.jpg" />
+    <cell image="oriol1.jpg" />
+    <cell image="Pinsa1-resized.jpg" />
+    <cell image="garsa1.jpg" />
+    <cell image="cadernera2.jpg" />
+    <cell image="cuereta b1.jpg" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="abellerol.jpg" file="abellerol.jpg" />
+  <media name="abubilla.jpg" file="abubilla.jpg" />
+  <media name="abubilla0.jpg" file="abubilla0.jpg" />
+  <media name="alcaudon.jpg" file="alcaudon.jpg" />
+  <media name="bernat p1.jpg" file="bernat_p1.jpg" />
+  <media name="cadernera2.jpg" file="cadernera2.jpg" />
+  <media name="cuereta b1.jpg" file="cuereta_b1.jpg" />
+  <media name="cuereta.jpg" file="cuereta.jpg" />
+  <media name="garsa1.jpg" file="garsa1.jpg" />
+  <media name="Garza r.jpg" file="garza_r.jpg" />
+  <media name="gaviota.jpg" file="gaviota.jpg" />
+  <media name="golondrina.jpg" file="golondrina.jpg" />
+  <media name="gorrion.jpg" file="gorrion.jpg" />
+  <media name="herrerillo.jpg" file="herrerillo.jpg" />
+  <media name="interr.jpg" file="interr.jpg" />
+  <media name="jilguero.jpg" file="jilguero.jpg" />
+  <media name="mallerenga1.jpg" file="mallerenga1.jpg" />
+  <media name="martinet.jpg" file="martinet.jpg" />
+  <media name="merla1.jpg" file="merla1.jpg" />
+  <media name="mussol1.jpg" file="mussol1.jpg" />
+  <media name="oreneta1.jpg" file="oreneta1.jpg" />
+  <media name="oriol1.jpg" file="oriol1.jpg" />
+  <media name="pardal1.jpg" file="pardal1.jpg" />
+  <media name="petirrojo-resized.jpg" file="petirrojo_resized.jpg" />
+  <media name="Pinsa1-resized.jpg" file="pinsa1_resized.jpg" />
+  <media name="pinzon.jpg" file="pinzon.jpg" />
+  <media name="pit-roig1.jpg" file="pit_roig1.jpg" />
+  <media name="portada.jpg" file="portada.jpg" />
+  <media name="urraca.jpg" file="urraca.jpg" />
+  <media name="abellerol.wav" file="abellerol.wav" />
+  <media name="blauet.wav" file="blauet.wav" />
+  <media name="cadernera.wav" file="cadernera.wav" />
+  <media name="capsigra.wav" file="capsigra.wav" />
+ </mediaBag>
+</JClicProject>
+

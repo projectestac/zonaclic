@@ -1,0 +1,53 @@
+{
+  "title": "Mira quins quadres",
+  "author": "Dina Abizanda",
+  "school": "Escola L'Alzina Molins de Rei (Baix Llobregat)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "Package of activities about the most important pictorial art at the end of 19th and 20th century: \n<ul> \n <li><b>Miró:</b> <i>Woman and bird at nigh</i> and <i>Self-portrait</i> </li>\n <li><b>Picasso:</b> <i>Woman with yellow hat</i> and <i>Mediterranean landscape</i> </li>\n <li><b>Van Gogh:</b> <i>The starry night</i> and <i>The chair</i> </li>\n <li><b>Klee: </b><i>The red balloon</i> and <i>Ballerina</i> </li>\n <li><b>Matisse: </b><i>The snail</i> and <i>The windshield</i> </li>\n <li><b>Léger: </b><i>Three musicians</i> and <i>The circular divers</i> </li>\n</ul>",
+    "ca": "Paquet d'activitats sobre obres de diversos pintors cubistes, impressionistes i expressionistes de finals del segle XIX i del segle XX: \n<ul> \n <li><b>Miró:</b> <i>Dona i ocell a la nit</i> i <i>Autoretrat</i> </li>\n <li><b>Picasso:</b> <i>Dona amb barret groc</i> i <i>Paisatge mediterrani</i> </li>\n <li><b>Van Gogh:</b> <i>La nit estrellada</i> i <i>La cadira</i> </li>\n <li><b>Klee: </b><i>El globus vermell</i> i <i>Ballarina</i> </li>\n <li><b>Matisse: </b><i>El cargol</i> i <i>El parabrisa</i> </li>\n <li><b>Léger: </b><i>Tres músics</i> i <i>Els clavadistes circulars</i> </li>\n</ul>",
+    "es": "Paquete de actividades sobre obras de diversos autores cubistas, impresionistas y expresionistas de finales del siglo XIX y del siglo XX: \n<ul> \n <li><b>Miró:</b> <i>Mujer y pájaro en la noche</i> y <i>Autorretrato</i> </li>\n <li><b>Picasso:</b> <i>Mujer con sombrero amarillo</i> y <i>Paisaje mediterráneo</i> </li>\n <li><b>Van Gogh:</b> <i>La noche estrellada</i> y <i>La silla</i> </li>\n <li><b>Klee: </b><i>El globo rojo</i> y <i>Bailarina</i> </li>\n <li><b>Matisse: </b><i>El caracol</i> y <i>El parabrisas</i> </li>\n <li><b>Léger: </b><i>Tres músicos</i> y <i>Los clavadistas circulares</i> </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/quadres.jclic",
+  "cover": "cover.jpg",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/quadres.jclic.zip",
+  "instFile": "jclic/quadres.jclic.inst",
+  "clicZoneId": 1488,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1488",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/quadres/jclic/quadres.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ]
+}

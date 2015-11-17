@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicInstall title="Mira quina quadres" authors="Dina Abizanda" folder="quadres">
+ <file src="quadres.jclic.zip" />
+ <file src="quadres.jclic.inst" />
+ <file src="quadres.ico.gif" />
+ <shortcut project="quadres.jclic.zip" text="Quadres" description="" icon="quadres.ico.gif" />
+</JClicInstall>
+

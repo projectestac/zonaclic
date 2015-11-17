@@ -1,0 +1,1697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="quadres" version="0.1.3">
+ <settings>
+  <title>Mira quins quadres</title>
+  <revision description="Creació del paquet d'activitats en Clic 3.0" date="2/15/02" />
+  <revision description="Conversió de Clic3 a JClic" date="6/6/02">
+   <author name="Equip Clic" mail="clic@pie.xtec.es" organization="Subdirecció General de Tecnologies de la Informació (SGTI)" />
+  </revision>
+  <author name="Dina Abizanda" mail="dabizand@pie.xtec.es" />
+  <organization name="CEIP L'Alzina" mail="a8021363@centres.xtec.es" url="http://www.xtec.es/centres/a8021363" city="Molins de Rei" state="Catalunya" />
+  <language>Català</language>
+  <description>
+   <p>Paquet d'activitats sobre obres de diversos pintors cubistes, impressionistes i expressionistes de finals del segle XIX i del segle XX:</p>
+   <p>&lt;UL&gt;</p>
+   <p>&lt;LI&gt;&lt;B&gt;Miró:&lt;/B&gt; &lt;I&gt;Dona i ocell a la nit&lt;/I&gt; i &lt;I&gt;Autoretrat&lt;/I&gt;</p>
+   <p>&lt;LI&gt;&lt;B&gt;Picasso:&lt;/B&gt; &lt;I&gt;Dona amb barret groc&lt;/I&gt; i &lt;I&gt;Paisatge mediterrani&lt;/I&gt;</p>
+   <p>&lt;LI&gt;&lt;B&gt;Van Gogh:&lt;/B&gt; &lt;I&gt;La nit estrellada&lt;/I&gt; i &lt;I&gt;La cadira&lt;/I&gt;</p>
+   <p>&lt;LI&gt;&lt;B&gt;Klee: &lt;/B&gt;&lt;I&gt;El globus vermell&lt;/I&gt; i &lt;I&gt;Ballarina&lt;/I&gt;</p>
+   <p>&lt;LI&gt;&lt;B&gt;Matisse: &lt;/B&gt;&lt;I&gt;El cargol&lt;/I&gt; i &lt;I&gt;El parabrisa&lt;/I&gt;</p>
+   <p>&lt;LI&gt;&lt;B&gt;Léger: &lt;/B&gt;&lt;I&gt;Tres músics&lt;/I&gt; i &lt;I&gt;Els clavadistes circulars&lt;/I&gt;</p>
+   <p>&lt;/UL&gt;</p>
+  </description>
+  <descriptors area="Ciències socials" level="Primària">pintura, aprenentatge de la història de l'art, cubisme</descriptors>
+ </settings>
+ <sequence>
+  <item id="titol.pac" name="quadres1.ass" delay="10" navButtons="back">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="quadres2.ass" delay="10" navButtons="none">
+   <jump tag="quadres.pac" id="forward" />
+  </item>
+  <item id="quadres.pac" name="miro1.puz">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="miro1.ass" />
+  <item name="miro2.puz" />
+  <item name="miro2.ass" />
+  <item name="vangogh1.puz" />
+  <item name="vg.ass" />
+  <item name="vangogh2.puz" />
+  <item name="vg2.ass" />
+  <item name="picas1.puz" />
+  <item name="picas2.ass" />
+  <item name="picas2.puz" />
+  <item name="picas1.ass" />
+  <item name="klee2.puz" />
+  <item name="klee4.ass" />
+  <item name="klee3.puz" />
+  <item name="klee3.ass" />
+  <item name="matisse1.puz" />
+  <item name="matisse1.ass" />
+  <item name="matisse2.puz" />
+  <item name="matisse2.ass" />
+  <item name="leger1.puz" />
+  <item name="leger1.ass" />
+  <item name="leger2.puz" />
+  <item name="leger22.ass" />
+  <item name="final1.ass" />
+  <item name="final2.ass" />
+  <item name="final.ass">
+   <jump action="RETURN" id="forward" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.InformationScreen" name="final.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0x000000" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="quadres3.wav" />
+     <p>mira </p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0x000000" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x000000" border="false" />
+   </settings>
+   <cells rows="1" cols="1" border="false" image="final.gif">
+    <style>
+     <color background="0x000000" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="final1.ass" inverse="true">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x004080" background="0x0094DB" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>Recordes els títols d'aquests quadres?</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x004080" background="0x0094DB" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>Molt bona memòria !!...espera que n'hi ha més...</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo4.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0094DB" border="false" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="250.0" cellHeight="250.0" border="false" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="33" />
+     <color foreground="0x004080" background="0x0094DB" inactive="0x004080" alternative="0x004080" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell id="0" image="miro1p.jpg" />
+    <cell id="1" image="picas1p.jpg" />
+    <cell id="2" image="vgh1p.jpg" />
+    <cell id="3" image="leger1p.jpg" />
+    <cell id="4" image="mat1p.jpg" />
+    <cell id="5" image="klee1p.jpg" />
+   </cells>
+   <cells rows="6" cols="1" cellWidth="270.0" cellHeight="70.0" border="false" id="secondary">
+    <style>
+     <font family="Comic Sans MS" size="36" />
+     <color foreground="0x0094DB" background="0x004080" inactive="0x0094DB" alternative="0x0094DB" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell>
+     <p>Autoretrat</p>
+    </cell>
+    <cell>
+     <p>Dona amb barret groc</p>
+    </cell>
+    <cell>
+     <p>La cadira</p>
+    </cell>
+    <cell>
+     <p>Tres músics</p>
+    </cell>
+    <cell>
+     <p>El cargol</p>
+    </cell>
+    <cell>
+     <p>El globus vermell</p>
+    </cell>
+   </cells>
+   <cells rows="2" cols="3" cellWidth="250.0" cellHeight="250.0" border="false" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="1.wav" />
+     <p>"Autoretrat" de Miró </p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="9.wav" />
+     <p>"Dona amb barret groc" de Picasso </p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="7.wav" />
+     <p>"La cadira" de Van Gogh </p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="20.wav" />
+     <p>"Tres músics" de Léger </p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="19.wav" />
+     <p>"El cargol" de Matisse </p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="18.wav" />
+     <p>"El globus vermell" de Klee </p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="BA" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="final2.ass" inverse="true">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x004080" background="0x0094DB" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>I d'aquests altres?</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x004080" background="0x0094DB" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>ho has fet molt bé... no esperava menys de tu!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fondo4.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0094DB" border="false" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="250.0" cellHeight="250.0" border="false" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="33" />
+     <color foreground="0x004080" background="0x0094DB" inactive="0x004080" alternative="0x004080" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell id="0" image="miro2p.jpg" />
+    <cell id="1" image="picas2p.jpg" />
+    <cell id="2" image="vgh2p.jpg" />
+    <cell id="3" image="leger2p.jpg" />
+    <cell id="4" image="mat2p.jpg" />
+    <cell id="5" image="klee2p.jpg" />
+   </cells>
+   <cells rows="6" cols="1" cellWidth="270.0" cellHeight="70.0" border="false" id="secondary">
+    <style>
+     <font family="Comic Sans MS" size="36" />
+     <color foreground="0x0094DB" background="0x004080" inactive="0x0094DB" alternative="0x0094DB" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell>
+     <p>Dona i ocell a la nit</p>
+    </cell>
+    <cell>
+     <p>Paissatge mediterrani</p>
+    </cell>
+    <cell>
+     <p>La nit estrellada</p>
+    </cell>
+    <cell>
+     <p>Els clavadistes circulars</p>
+    </cell>
+    <cell>
+     <p>El parabrisa</p>
+    </cell>
+    <cell>
+     <p>Ballarina</p>
+    </cell>
+   </cells>
+   <cells rows="2" cols="3" cellWidth="250.0" cellHeight="250.0" border="false" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="2.wav" />
+     <p>"Dona i ocell a la nit" de Miró </p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="23.wav" />
+     <p>"Paissatge mediterrani" de Picasso </p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="4.wav" />
+     <p>"La nit estrellada" de Van Gogh </p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="17.wav" />
+     <p>"Els clavadistes circulars" de Léger </p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="15.wav" />
+     <p>"El parabrisa" de Matisse </p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="12.wav" />
+     <p>"Ballarina" de Klee </p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="BA" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="klee2.puz" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="45" />
+      <color foreground="0xFFFF80" />
+     </style>
+     <p>Fes el trencaclosques...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="45" />
+      <color foreground="0xFFFF80" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="11.wav" />
+     <p>... encara queden més jocs... </p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xCCCCCC">
+     <image name="fondo3.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="4" border="false" image="klee3.jpg">
+    <style shadow="true">
+     <font family="Comic Sans MS" size="41" />
+     <color foreground="0xC0C0C0" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+    </style>
+    <shaper class="@JigSaw" cols="4" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="klee3.ass">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0x800000" background="0xFFFFC8" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>... ara col·loca els troços que falten. Vigila amb els tramposos!!</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0x800000" background="0xFFFFC8" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>MOLT BEN FET!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fons1.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFC8" border="false" />
+   </settings>
+   <cells rows="5" cols="6" border="false" image="klee33.jpg" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="26" />
+     <color foreground="0xFFFFC8" background="0xFFFFC8" inactive="0xFFFFC8" alternative="0xFFFFC8" />
+    </style>
+    <shaper class="@Holes" cols="6" rows="5" showEnclosure="true" scaleX="6.0" scaleY="5.0">
+     <enclosing>
+      <shape>rectangle:0,0,6,5</shape>
+     </enclosing>
+     <shape>rectangle:2,1,1,1</shape>
+     <shape>rectangle:4,1,1,1</shape>
+     <shape>rectangle:0,2,1,1</shape>
+     <shape>rectangle:3,3,1,1</shape>
+     <shape>rectangle:1,4,1,1</shape>
+     <shape>rectangle:5,4,1,1</shape>
+    </shaper>
+    <ids>0 2 4 6 8 10</ids>
+   </cells>
+   <cells rows="4" cols="3" cellWidth="90.0" cellHeight="90.0" border="false" id="secondary">
+    <style>
+     <font family="Comic Sans MS" size="26" />
+     <color foreground="0xFFFFC8" background="0xFFFFC8" inactive="0xFFFFC8" alternative="0xFFFFC8" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="4" />
+    <cell image="klee33a.jpg" />
+    <cell image="klee33a2.jpg" />
+    <cell image="klee33b.jpg" />
+    <cell image="klee33b2.jpg" />
+    <cell image="klee33c.jpg" />
+    <cell image="klee33c2.jpg" />
+    <cell image="klee33d.jpg" />
+    <cell image="klee33d2.jpg" />
+    <cell image="klee33e.jpg" />
+    <cell image="klee33e2.jpg" />
+    <cell image="klee33f.jpg" />
+    <cell image="klee33f2.jpg" />
+   </cells>
+   <cells rows="5" cols="6" border="false" image="klee33r.jpg" id="solvedPrimary">
+    <shaper class="@Holes" cols="6" rows="5" showEnclosure="true" scaleX="6.0" scaleY="5.0">
+     <enclosing>
+      <shape>rectangle:0,0,6,5</shape>
+     </enclosing>
+     <shape>rectangle:2,1,1,1</shape>
+     <shape>rectangle:4,1,1,1</shape>
+     <shape>rectangle:0,2,1,1</shape>
+     <shape>rectangle:3,3,1,1</shape>
+     <shape>rectangle:1,4,1,1</shape>
+     <shape>rectangle:5,4,1,1</shape>
+    </shaper>
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="klee3.puz" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="45" />
+      <color foreground="0x800000" background="0xFFFFCE" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>Fes el trencaclosques...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="45" />
+      <color foreground="0x800000" background="0xFFFFCE" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="12.wav" />
+     <p>... mira't bé el quadre... </p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xCCCCCC">
+     <image name="fondo2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="4" border="false" image="klee4.jpg">
+    <style shadow="true">
+     <font family="Comic Sans MS" size="41" />
+     <color foreground="0xFFFFCE" background="0xFFFFCE" shadow="0xFFFFCE" inactive="0xFFFFCE" alternative="0xFFFFCE" />
+    </style>
+    <shaper class="@TriangularJigSaw" cols="4" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Identify" name="klee4.ass">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="45" />
+      <color foreground="0xFFFF80" />
+     </style>
+     <p>... ara busca les 7 diferències i marca-les al quadre de la dreta ...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="45" />
+      <color foreground="0xFFFF80" />
+     </style>
+     <p>ETS UN ARTISTA!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fons4.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800000" border="false" />
+   </settings>
+   <cells rows="5" cols="12" border="false" image="klee44d.jpg" id="primary">
+    <style>
+     <color foreground="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+    </style>
+    <shaper class="@Holes" cols="12" rows="5" showEnclosure="true" scaleX="12.0" scaleY="5.0">
+     <enclosing>
+      <shape>rectangle:0,0,12,5</shape>
+     </enclosing>
+     <shape>M:7,1|L:7,2|L:6,2|L:6,1|X|M:8,3|L:8,4|L:7,4|L:7,3|X|M:0,0|L:0,1|L:0,2|L:0,3|L:0,4|L:0,5|L:10,5|L:10,4|L:11,4|L:11,3|L:9,3|L:9,2|L:10,2|L:10,1|L:11,1|L:11,2|L:11,3|L:12,3|L:12,2|L:12,1|L:12,0|X</shape>
+     <shape>rectangle:6,1,1,1</shape>
+     <shape>rectangle:10,1,1,1</shape>
+     <shape>rectangle:9,2,1,1</shape>
+     <shape>rectangle:10,2,1,1</shape>
+     <shape>rectangle:7,3,1,1</shape>
+     <shape>rectangle:11,3,1,1</shape>
+     <shape>rectangle:10,4,1,1</shape>
+     <shape>rectangle:11,4,1,1</shape>
+    </shaper>
+    <ids>0 1 1 1 1 1 1 1 0</ids>
+   </cells>
+   <cells rows="5" cols="12" border="false" image="klee44r.jpg" id="solvedPrimary">
+    <shaper class="@Holes" cols="12" rows="5" showEnclosure="true" scaleX="12.0" scaleY="5.0">
+     <enclosing>
+      <shape>rectangle:0,0,12,5</shape>
+     </enclosing>
+     <shape>M:7,1|L:7,2|L:6,2|L:6,1|X|M:8,3|L:8,4|L:7,4|L:7,3|X|M:0,0|L:0,1|L:0,2|L:0,3|L:0,4|L:0,5|L:10,5|L:10,4|L:11,4|L:11,3|L:9,3|L:9,2|L:10,2|L:10,1|L:11,1|L:11,2|L:11,3|L:12,3|L:12,2|L:12,1|L:12,0|X</shape>
+     <shape>rectangle:6,1,1,1</shape>
+     <shape>rectangle:10,1,1,1</shape>
+     <shape>rectangle:9,2,1,1</shape>
+     <shape>rectangle:10,2,1,1</shape>
+     <shape>rectangle:7,3,1,1</shape>
+     <shape>rectangle:11,3,1,1</shape>
+     <shape>rectangle:10,4,1,1</shape>
+     <shape>rectangle:11,4,1,1</shape>
+    </shaper>
+   </cells>
+   <scramble times="31" primary="false" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="leger1.ass" inverse="true">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x000080" background="0xCECECE" />
+     </style>
+     <p>... ara col·loca cada peça al seu lloc ...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x000080" background="0xCECECE" />
+     </style>
+     <p>MOLT BÉ!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fons2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x000080" transparent="true" border="false" />
+   </settings>
+   <cells rows="5" cols="4" border="false" image="leger11.jpg" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="26" />
+     <color foreground="0x0000A0" background="0x000080" />
+    </style>
+    <shaper class="@Holes" cols="4" rows="5" showEnclosure="true" scaleX="4.0" scaleY="5.0">
+     <enclosing>
+      <shape>rectangle:0,0,4,5</shape>
+     </enclosing>
+     <shape>rectangle:2,0,1,1</shape>
+     <shape>rectangle:1,1,1,1</shape>
+     <shape>rectangle:2,1,1,1</shape>
+     <shape>rectangle:3,1,1,1</shape>
+     <shape>rectangle:2,2,1,1</shape>
+     <shape>rectangle:0,3,1,1</shape>
+     <shape>rectangle:1,3,1,1</shape>
+     <shape>rectangle:3,4,1,1</shape>
+    </shaper>
+    <ids>0 1 2 3 4 5 6 7</ids>
+   </cells>
+   <cells rows="4" cols="2" cellWidth="74.0" cellHeight="74.0" border="false" id="secondary">
+    <style>
+     <font family="Comic Sans MS" size="36" />
+     <color foreground="0xCECECE" background="0xCECECE" inactive="0xCECECE" alternative="0xCECECE" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="4" />
+    <cell image="rodo1.jpg" />
+    <cell image="rodo2.jpg" />
+    <cell image="rodo3.jpg" />
+    <cell image="rodo4.jpg" />
+    <cell image="rodo5.jpg" />
+    <cell image="rodo6.jpg" />
+    <cell image="rodo7.jpg" />
+    <cell image="rodo8.jpg" />
+   </cells>
+   <cells rows="5" cols="4" border="false" image="leger11s.jpg" id="solvedPrimary">
+    <shaper class="@Holes" cols="4" rows="5" showEnclosure="true" scaleX="4.0" scaleY="5.0">
+     <enclosing>
+      <shape>rectangle:0,0,4,5</shape>
+     </enclosing>
+     <shape>rectangle:2,0,1,1</shape>
+     <shape>rectangle:1,1,1,1</shape>
+     <shape>rectangle:2,1,1,1</shape>
+     <shape>rectangle:3,1,1,1</shape>
+     <shape>rectangle:2,2,1,1</shape>
+     <shape>rectangle:0,3,1,1</shape>
+     <shape>rectangle:1,3,1,1</shape>
+     <shape>rectangle:3,4,1,1</shape>
+    </shaper>
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="BA" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="leger1.puz">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="45" />
+      <color foreground="0x0000A0" background="0x0080C0" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>Fes el trencaclosques...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="45" />
+      <color foreground="0x0000A0" background="0x0080C0" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="16.wav" />
+     <p>... fixa't bé en el quadre... </p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xCCCCCC">
+     <image name="fondo4.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="3" border="false" image="leger1.jpg">
+    <style shadow="true">
+     <font family="Comic Sans MS" size="41" />
+     <color foreground="0x0080C0" background="0x0080C0" shadow="0x0080C0" inactive="0x0080C0" alternative="0x0080C0" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="leger2.puz">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="45" />
+      <color foreground="0xFFFF80" />
+     </style>
+     <p>Fes el trencaclosques...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="45" />
+      <color foreground="0xFFFF80" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="17.wav" />
+     <p>... mira el quadre amb atenció abans de continuar... </p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xCCCCCC">
+     <image name="fondo3.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="4" border="false" image="leger2.jpg">
+    <style shadow="true">
+     <font family="Comic Sans MS" size="41" />
+     <color foreground="0xC0C0C0" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="leger22.ass">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0xFFFF00" />
+     </style>
+     <p>...ara torna-li el color al quadre. Fixa't en les flexes blanques ...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="40" />
+      <color foreground="0xFFFF00" />
+     </style>
+     <p>FABULÓS!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fons4.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFF80" border="false" />
+   </settings>
+   <cells rows="4" cols="4" border="false" image="leger2~1.jpg" id="primary">
+    <style shadow="true">
+     <font family="Comic Sans MS" size="40" />
+     <color foreground="0xFFFF80" background="0xFFFF80" shadow="0xFFFF80" inactive="0xFFFF80" alternative="0xFFFF80" />
+    </style>
+    <shaper class="@Holes" cols="4" rows="4" showEnclosure="true" scaleX="4.0" scaleY="4.0">
+     <enclosing>
+      <shape>rectangle:0,0,4,4</shape>
+     </enclosing>
+     <shape>rectangle:0,0,1,1</shape>
+     <shape>rectangle:1,0,1,1</shape>
+     <shape>rectangle:2,0,1,1</shape>
+     <shape>rectangle:3,0,1,1</shape>
+     <shape>M:0,1|L:0,2|L:0,3|L:1,3|L:1,2|L:3,2|L:3,3|L:4,3|L:4,2|L:4,1|X</shape>
+     <shape>M:1,2|L:1,3|L:1,4|L:2,4|L:2,3|L:2,2|X</shape>
+     <shape>rectangle:2,2,1,1</shape>
+     <shape>rectangle:0,3,1,1</shape>
+     <shape>rectangle:2,3,1,1</shape>
+     <shape>rectangle:3,3,1,1</shape>
+    </shaper>
+    <ids>0 1 0 1 2 1 3 3 0 1</ids>
+   </cells>
+   <cells rows="5" cols="4" border="false" image="paleta.jpg" id="secondary">
+    <style shadow="true">
+     <font family="Comic Sans MS" size="36" />
+     <color foreground="0xFFFF80" background="0xFFFF80" shadow="0xFFFF80" inactive="0xFFFF80" alternative="0xFFFF80" />
+    </style>
+    <shaper class="@Holes" cols="4" rows="5" showEnclosure="true" scaleX="4.0" scaleY="5.0">
+     <enclosing>
+      <shape>rectangle:0,0,4,5</shape>
+     </enclosing>
+     <shape>rectangle:3,0,1,1</shape>
+     <shape>rectangle:2,2,1,1</shape>
+     <shape>rectangle:0,3,1,1</shape>
+     <shape>rectangle:1,1,1,1</shape>
+    </shaper>
+   </cells>
+   <cells rows="4" cols="4" border="false" image="leger22.jpg" id="solvedPrimary">
+    <shaper class="@Holes" cols="4" rows="4" showEnclosure="true" scaleX="4.0" scaleY="4.0">
+     <enclosing>
+      <shape>rectangle:0,0,4,4</shape>
+     </enclosing>
+     <shape>rectangle:0,0,1,1</shape>
+     <shape>rectangle:1,0,1,1</shape>
+     <shape>rectangle:2,0,1,1</shape>
+     <shape>rectangle:3,0,1,1</shape>
+     <shape>M:0,1|L:0,2|L:0,3|L:1,3|L:1,2|L:3,2|L:3,3|L:4,3|L:4,2|L:4,1|X</shape>
+     <shape>M:1,2|L:1,3|L:1,4|L:2,4|L:2,3|L:2,2|X</shape>
+     <shape>rectangle:2,2,1,1</shape>
+     <shape>rectangle:0,3,1,1</shape>
+     <shape>rectangle:2,3,1,1</shape>
+     <shape>rectangle:3,3,1,1</shape>
+    </shaper>
+   </cells>
+   <scramble times="31" primary="false" secondary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Identify" name="matisse1.ass">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="43" />
+      <color foreground="0x000080" background="0xFFFFC4" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>... ara marca els quadres que siguin igual que el model ...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="43" />
+      <color foreground="0x000080" background="0xFFFFC4" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>GENIAL!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fons2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0080C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="6" cellWidth="140.0" cellHeight="140.0" border="false" id="primary">
+    <style>
+     <color foreground="0xFFFFC4" background="0xFFFFC4" inactive="0xFFFFC4" alternative="0xFFFFC4" />
+    </style>
+    <shaper class="@Rectangular" cols="6" rows="3" />
+    <cell id="0" image="mat11m.jpg" />
+    <cell id="0" image="mat12.jpg" />
+    <cell id="0" image="mat13.jpg" />
+    <cell id="1" image="mat11.jpg" />
+    <cell id="0" image="mat14.jpg" />
+    <cell id="1" image="mat11.jpg" />
+    <cell id="0" image="mat15.jpg" />
+    <cell id="0" image="mat14.jpg" />
+    <cell id="1" image="mat11.jpg" />
+    <cell id="0" image="mat16.jpg" />
+    <cell id="0" image="mat15.jpg" />
+    <cell id="1" image="mat11.jpg" />
+    <cell id="1" image="mat11.jpg" />
+    <cell id="0" image="mat14.jpg" />
+    <cell id="0" image="mat12.jpg" />
+    <cell id="1" image="mat11.jpg" />
+    <cell id="0" image="mat13.jpg" />
+    <cell id="1" image="mat11.jpg" />
+   </cells>
+   <scramble times="31" primary="false" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="matisse1.puz" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="45" />
+      <color foreground="0x0000A0" background="0x2693FF" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>Fes el trencaclosques...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="45" />
+      <color foreground="0x0000A0" background="0x2693FF" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="14.wav" />
+     <p>... seguim una mica més?... </p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xCCCCCC">
+     <image name="fondo4.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="3" border="false" image="matisse1.jpg">
+    <style shadow="true">
+     <font family="Comic Sans MS" size="41" />
+     <color foreground="0x0080FF" background="0x0080FF" shadow="0x0080FF" inactive="0x0080FF" alternative="0x0080FF" />
+    </style>
+    <shaper class="@ClassicJigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Identify" name="matisse2.ass">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="43" />
+      <color foreground="0x800000" background="0xFFFF9D" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>... ara busca les 7 diferències i marca-les al quadre de la dreta. Vigila, està posat en mirall ...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="43" />
+      <color foreground="0x800000" background="0xFFFF9D" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>TENS MOLT BONA VISTA!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fons1.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800000" transparent="true" border="false" />
+   </settings>
+   <cells rows="6" cols="12" border="false" image="mat22.jpg" id="primary">
+    <style>
+     <color background="0xFFFFC4" />
+    </style>
+    <shaper class="@Holes" cols="12" rows="6" showEnclosure="true" scaleX="12.0" scaleY="6.0">
+     <enclosing>
+      <shape>rectangle:0,0,12,6</shape>
+     </enclosing>
+     <shape>M:10,3|L:10,4|L:9,4|L:9,3|X|M:0,0|L:0,1|L:0,2|L:0,3|L:0,4|L:0,5|L:0,6|L:6,6|L:6,5|L:7,5|L:7,4|L:8,4|L:8,5|L:7,5|L:7,6|L:9,6|L:9,5|L:10,5|L:10,6|L:12,6|L:12,5|L:12,4|L:12,3|L:12,2|L:11,2|L:11,1|L:10,1|L:10,2|L:9,2|L:9,1|L:10,1|L:10,0|X</shape>
+     <shape>rectangle:10,0,1,1</shape>
+     <shape>rectangle:11,0,1,1</shape>
+     <shape>rectangle:9,1,1,1</shape>
+     <shape>rectangle:11,1,1,1</shape>
+     <shape>rectangle:9,3,1,1</shape>
+     <shape>rectangle:7,4,1,1</shape>
+     <shape>rectangle:6,5,1,1</shape>
+     <shape>rectangle:9,5,1,1</shape>
+    </shaper>
+    <ids>0 1 0 1 1 1 1 1 1</ids>
+   </cells>
+   <cells rows="6" cols="12" border="false" image="mat22r.jpg" id="solvedPrimary">
+    <shaper class="@Holes" cols="12" rows="6" showEnclosure="true" scaleX="12.0" scaleY="6.0">
+     <enclosing>
+      <shape>rectangle:0,0,12,6</shape>
+     </enclosing>
+     <shape>M:10,3|L:10,4|L:9,4|L:9,3|X|M:0,0|L:0,1|L:0,2|L:0,3|L:0,4|L:0,5|L:0,6|L:6,6|L:6,5|L:7,5|L:7,4|L:8,4|L:8,5|L:7,5|L:7,6|L:9,6|L:9,5|L:10,5|L:10,6|L:12,6|L:12,5|L:12,4|L:12,3|L:12,2|L:11,2|L:11,1|L:10,1|L:10,2|L:9,2|L:9,1|L:10,1|L:10,0|X</shape>
+     <shape>rectangle:10,0,1,1</shape>
+     <shape>rectangle:11,0,1,1</shape>
+     <shape>rectangle:9,1,1,1</shape>
+     <shape>rectangle:11,1,1,1</shape>
+     <shape>rectangle:9,3,1,1</shape>
+     <shape>rectangle:7,4,1,1</shape>
+     <shape>rectangle:6,5,1,1</shape>
+     <shape>rectangle:9,5,1,1</shape>
+    </shaper>
+   </cells>
+   <scramble times="31" primary="false" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="matisse2.puz" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="43" />
+      <color foreground="0x800000" background="0xCECECE" shadow="0xFFFFC4" inactive="0xFFFFC4" alternative="0xFFFFC4" />
+     </style>
+     <p>Fes el trencaclosques...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="43" />
+      <color foreground="0x800000" background="0xCECECE" shadow="0xFFFFC4" inactive="0xFFFFC4" alternative="0xFFFFC4" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="15.wav" />
+     <p>... clica la fletxa per continuar... </p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xCCCCCC">
+     <image name="fondo2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="3" border="false" image="matisse2.jpg">
+    <style shadow="true">
+     <font family="Comic Sans MS" size="41" />
+     <color foreground="0xCECECE" background="0xCECECE" shadow="0xCECECE" inactive="0xCECECE" alternative="0xCECECE" />
+    </style>
+    <shaper class="@TriangularJigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="miro1.ass" inverse="true">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x800000" />
+     </style>
+     <p>...ara col·loca cada peça al seu lloc</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x800000" />
+     </style>
+     <p>MAGNÍFIC!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fons1.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x800000" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="3" border="false" image="miro1.jpg" id="primary">
+    <style shadow="true">
+     <font family="Comic Sans MS" size="26" />
+     <color foreground="0x840000" background="0x840000" shadow="0x840000" inactive="0x840000" alternative="0x840000" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+    <ids>0 2 -1 3 -1 1 4 -1 5</ids>
+   </cells>
+   <cells rows="3" cols="2" cellWidth="100.0" cellHeight="100.0" border="false" id="secondary">
+    <style shadow="true">
+     <font family="Comic Sans MS" size="36" />
+     <color foreground="0x840000" background="0x840000" shadow="0x840000" inactive="0x840000" alternative="0x840000" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell image="miro1p1.jpg" />
+    <cell image="miro1p2.jpg" />
+    <cell image="miro1p3.jpg" />
+    <cell image="miro1p4.jpg" />
+    <cell image="miro1p5.jpg" />
+    <cell image="miro1p6.jpg" />
+   </cells>
+   <cells rows="3" cols="3" border="false" image="miro12.jpg" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" primary="false" secondary="true" />
+   <layout position="BA" />
+  </activity>
+  <activity class="@panels.Identify" name="miro2.ass">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0xFFFF00" />
+     </style>
+     <p>... ara marca les coses que han canviat ...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0xFFFF00" />
+     </style>
+     <p>MOLT BÉ!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fons4.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false" transparent="true" />
+   </settings>
+   <cells rows="6" cols="4" border="false" image="miro22p.jpg" id="primary">
+    <style shadow="true">
+     <font family="Comic Sans MS" size="36" />
+     <color foreground="0xFFFF00" />
+    </style>
+    <shaper class="@Holes" cols="4" rows="6" showEnclosure="true" scaleX="4.0" scaleY="6.0">
+     <enclosing>
+      <shape>rectangle:0,0,4,6</shape>
+     </enclosing>
+     <shape>rectangle:0,0,1,1</shape>
+     <shape>M:1,0|L:1,1|L:0,1|L:0,2|L:0,3|L:0,4|L:0,5|L:0,6|L:1,6|L:1,5|L:2,5|L:2,6|L:3,6|L:3,5|L:4,5|L:4,4|L:4,3|L:4,2|L:4,1|L:3,1|L:3,2|L:2,2|L:2,1|L:3,1|L:3,0|X</shape>
+     <shape>rectangle:3,0,1,1</shape>
+     <shape>rectangle:2,1,1,1</shape>
+     <shape>rectangle:1,5,1,1</shape>
+     <shape>rectangle:3,5,1,1</shape>
+    </shaper>
+    <ids>1 0 1 1 1 1</ids>
+   </cells>
+   <cells rows="6" cols="4" border="false" image="miro22s.jpg" id="solvedPrimary">
+    <shaper class="@Holes" cols="4" rows="6" showEnclosure="true" scaleX="4.0" scaleY="6.0">
+     <enclosing>
+      <shape>rectangle:0,0,4,6</shape>
+     </enclosing>
+     <shape>rectangle:0,0,1,1</shape>
+     <shape>M:1,0|L:1,1|L:0,1|L:0,2|L:0,3|L:0,4|L:0,5|L:0,6|L:1,6|L:1,5|L:2,5|L:2,6|L:3,6|L:3,5|L:4,5|L:4,4|L:4,3|L:4,2|L:4,1|L:3,1|L:3,2|L:2,2|L:2,1|L:3,1|L:3,0|X</shape>
+     <shape>rectangle:3,0,1,1</shape>
+     <shape>rectangle:2,1,1,1</shape>
+     <shape>rectangle:1,5,1,1</shape>
+     <shape>rectangle:3,5,1,1</shape>
+    </shaper>
+   </cells>
+   <scramble times="31" primary="false" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="miro1.puz" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="45" />
+      <color foreground="0x800000" background="0xCCCCCC" />
+     </style>
+     <p>Fes el trencaclosques...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="45" />
+      <color foreground="0x800000" background="0xCCCCCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="21.wav" />
+     <p>... mira't bé el quadre...</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xCCCCCC">
+     <image name="fondo2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="4" border="false" image="miro11.jpg">
+    <style shadow="true">
+     <font family="Comic Sans MS" size="41" />
+     <color foreground="0x800000" background="0xCCCCCC" />
+    </style>
+    <shaper class="@ClassicJigSaw" cols="4" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="miro2.puz" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0xFFFF00" />
+     </style>
+     <p>Fes el trencaclosques...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0xFFFF00" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="1.wav" />
+     <p>...mira el quadre amb molta atenció... </p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFFFFB5">
+     <image name="fondo3.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="3" border="false" image="miro22.jpg">
+    <style shadow="true">
+     <font family="Comic Sans MS" size="36" />
+     <color foreground="0xFFFF00" />
+    </style>
+    <shaper class="@JigSaw" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="picas1.ass" inverse="true">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x000080" background="0x0080FF" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>... ara busca aquests triangles al quadre...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x000080" background="0x0080FF" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>MAGNÍFIC!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <image name="fons2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x000080" transparent="true" border="false" />
+   </settings>
+   <cells rows="5" cols="5" border="false" image="picas~10.jpg" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="26" />
+     <color foreground="0x0000A0" background="0x000080" />
+    </style>
+    <shaper class="@Holes" cols="5" rows="5" showEnclosure="true" scaleX="5.0" scaleY="5.0">
+     <enclosing>
+      <shape>rectangle:0,0,5,5</shape>
+     </enclosing>
+     <shape>rectangle:1,0,1,1</shape>
+     <shape>rectangle:1,1,1,1</shape>
+     <shape>rectangle:2,2,1,1</shape>
+     <shape>rectangle:1,3,1,1</shape>
+     <shape>rectangle:2,3,1,1</shape>
+     <shape>rectangle:0,4,1,1</shape>
+     <shape>rectangle:1,4,1,1</shape>
+     <shape>rectangle:4,4,1,1</shape>
+    </shaper>
+    <ids>4 2 3 6 1 7 0 5</ids>
+   </cells>
+   <cells rows="4" cols="2" cellWidth="67.0" cellHeight="43.0" border="false" id="secondary">
+    <style>
+     <font family="Comic Sans MS" size="36" />
+     <color foreground="0x000080" background="0x000080" inactive="0x000084" alternative="0x000084" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="4" />
+    <cell image="1pic10.jpg" />
+    <cell image="1pic9.jpg" />
+    <cell image="1pic3.jpg" />
+    <cell image="1pic4.jpg" />
+    <cell image="1pic5.jpg" />
+    <cell image="1pic6.jpg" />
+    <cell image="1pic7.jpg" />
+    <cell image="1pic8.jpg" />
+   </cells>
+   <cells rows="5" cols="5" border="false" image="picas~10.jpg" id="solvedPrimary">
+    <shaper class="@Holes" cols="5" rows="5" showEnclosure="true" scaleX="5.0" scaleY="5.0">
+     <enclosing>
+      <shape>rectangle:0,0,5,5</shape>
+     </enclosing>
+     <shape>rectangle:1,0,1,1</shape>
+     <shape>rectangle:1,1,1,1</shape>
+     <shape>rectangle:2,2,1,1</shape>
+     <shape>rectangle:1,3,1,1</shape>
+     <shape>rectangle:2,3,1,1</shape>
+     <shape>rectangle:0,4,1,1</shape>
+     <shape>rectangle:1,4,1,1</shape>
+     <shape>rectangle:4,4,1,1</shape>
+    </shaper>
+   </cells>
+   <scramble times="31" primary="false" secondary="false" />
+   <layout position="BA" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="picas1.puz">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x804000" background="0xFFFFB5" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>Fes el trencaclosques ...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x804000" background="0xFFFFB5" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="8.wav" />
+     <p>... clica la fletxa per continuar jugant amb el quadre ... </p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x408080">
+     <image name="fondo5.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="3" border="false" image="picas11.jpg">
+    <style shadow="true">
+     <font family="Comic Sans MS" size="36" />
+     <color foreground="0xFFFFB5" background="0xFFFFB5" shadow="0xFFFFB5" inactive="0xFFFFB5" alternative="0xFFFFB5" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="picas2.ass" inverse="true">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x943910" background="0xFFFFB0" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>... ara troba on és cada peça ...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x943910" background="0xFFFFB0" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>MOLT BEN FET!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <image name="fons5.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x943910" transparent="true" border="false" />
+   </settings>
+   <cells rows="6" cols="6" border="false" image="picas1b.jpg" id="primary">
+    <style>
+     <font family="Comic Sans MS" size="26" />
+     <color foreground="0x943910" background="0x943910" inactive="0x943910" alternative="0x943910" />
+    </style>
+    <shaper class="@Holes" cols="6" rows="6" showEnclosure="true" scaleX="6.0" scaleY="6.0">
+     <enclosing>
+      <shape>rectangle:0,0,6,6</shape>
+     </enclosing>
+     <shape>rectangle:1,1,1,1</shape>
+     <shape>rectangle:2,1,1,1</shape>
+     <shape>rectangle:3,1,1,1</shape>
+     <shape>rectangle:4,1,1,1</shape>
+     <shape>rectangle:1,2,1,1</shape>
+     <shape>rectangle:2,3,1,1</shape>
+    </shaper>
+    <ids>0 4 5 1 2 3</ids>
+   </cells>
+   <cells rows="6" cols="1" cellWidth="100.0" cellHeight="100.0" border="false" id="secondary">
+    <style>
+     <font family="Comic Sans MS" size="36" />
+     <color foreground="0x943910" background="0x943910" inactive="0x943910" alternative="0x943910" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell image="picp1.jpg" />
+    <cell image="picp2.jpg" />
+    <cell image="picp3.jpg" />
+    <cell image="picp4.jpg" />
+    <cell image="picp5.jpg" />
+    <cell image="picp6.jpg" />
+   </cells>
+   <cells rows="6" cols="6" border="false" image="picas1b.jpg" id="solvedPrimary">
+    <shaper class="@Holes" cols="6" rows="6" showEnclosure="true" scaleX="6.0" scaleY="6.0">
+     <enclosing>
+      <shape>rectangle:0,0,6,6</shape>
+     </enclosing>
+     <shape>rectangle:1,1,1,1</shape>
+     <shape>rectangle:2,1,1,1</shape>
+     <shape>rectangle:3,1,1,1</shape>
+     <shape>rectangle:4,1,1,1</shape>
+     <shape>rectangle:1,2,1,1</shape>
+     <shape>rectangle:2,3,1,1</shape>
+    </shaper>
+   </cells>
+   <scramble times="31" primary="false" secondary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="picas2.puz">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x000080" background="0x0080FF" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>Fes el trencaclosques ...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x000080" background="0x0080FF" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="23.wav" />
+     <p>...vols fer més coses amb aquest quadre?... </p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x0080FF">
+     <image name="fondo4.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="3" border="false" image="picass~2.jpg">
+    <style>
+     <color foreground="0x0080FF" background="0x0080FF" inactive="0x0080FF" alternative="0x0080FF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="quadres1.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0x000000" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="quadbso.wav" />
+     <p />
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0x000000" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x000000" border="false" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="600.0" cellHeight="400.0" border="false">
+    <style>
+     <color background="0x000000" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell>
+     <media type="PLAY_VIDEO" level="1" file="quadb.swf" stretch="false" free="false" autoStart="true" />
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="quadres2.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0x000000" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="quad6so.wav" />
+     <p />
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0x000000" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000000">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x000000" border="false" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="800.0" cellHeight="600.0" border="false">
+    <style>
+     <color background="0x000000" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell>
+     <media type="PLAY_VIDEO" level="1" file="quad6.swf" stretch="false" free="false" autoStart="true" />
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="vangogh1.puz">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x0000A0" background="0x0080C0" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>Fes el trencaclosques ...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x0000A0" background="0x0080C0" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="22.wav" />
+     <p>... mira bé el quadre que encara no hem acabat ... </p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x0080C0">
+     <image name="fondo4.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="3" border="false" image="vgh11.jpg">
+    <style>
+     <color foreground="0x0080C0" background="0x0080C0" inactive="0x0080C0" alternative="0x0080C0" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="vangogh2.puz">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x804000" background="0xFFFFC4" shadow="0xFF8040" inactive="0xFF8040" alternative="0xFF8040" />
+     </style>
+     <p>Fes el trencaclosques ...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="36" />
+      <color foreground="0x804000" background="0xFFFFC4" shadow="0xFF8040" inactive="0xFF8040" alternative="0xFF8040" />
+     </style>
+     <media type="PLAY_AUDIO" level="2" file="7.wav" />
+     <p>... continuem? ... </p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x0080C0">
+     <image name="fondo5.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="3" border="false" image="vangog~2.jpg">
+    <style>
+     <color foreground="0xFFFFC4" background="0xFFFFC4" inactive="0xFFFFC4" alternative="0xFFFFC4" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Identify" name="vg.ass">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="43" />
+      <color foreground="0x000080" background="0xFFFFC4" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>... ara marca les peces que NO són del quadre anterior ...</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="43" />
+      <color foreground="0x000080" background="0xFFFFC4" shadow="0xC0C0C0" inactive="0xC0C0C0" alternative="0xC0C0C0" />
+     </style>
+     <p>ETS UN ARTISTA!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fons2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0080C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="3" cols="4" cellWidth="140.0" cellHeight="100.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="22" />
+     <color background="0xFFFFC4" />
+    </style>
+    <shaper class="@Rectangular" cols="4" rows="3" />
+    <cell id="0" image="vg1.jpg" />
+    <cell id="0" image="vg2.jpg" />
+    <cell id="0" image="vg3.jpg" />
+    <cell id="0" image="vg4.jpg" />
+    <cell id="0" image="vg5.jpg" />
+    <cell id="0" image="vg6.jpg" />
+    <cell id="1" image="vg7.jpg" />
+    <cell id="1" image="vg8.jpg" />
+    <cell id="1" image="vg9.jpg" />
+    <cell id="1" image="vg10.jpg" />
+    <cell id="1" image="vg11.jpg" />
+    <cell id="1" image="vg12.jpg" />
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@panels.Identify" name="vg2.ass">
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="43" />
+      <color foreground="0x804000" background="0xFFFFC4" shadow="0xFF8040" inactive="0xFF8040" alternative="0xFF8040" />
+     </style>
+     <p>... ara marca les ombres que corresponen al model</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Comic Sans MS" size="43" />
+      <color foreground="0x804000" background="0xFFFFC4" shadow="0xFF8040" inactive="0xFF8040" alternative="0xFF8040" />
+     </style>
+     <p>FANTÀSTIC!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="fons5.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0080C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="2" cols="8" cellWidth="100.0" cellHeight="200.0" border="false" id="primary">
+    <style>
+     <color foreground="0xFFFFC4" background="0xFFFFC4" inactive="0xFFFFC4" alternative="0xFFFFC4" />
+    </style>
+    <shaper class="@Rectangular" cols="8" rows="2" />
+    <cell id="0" image="vg22.jpg" />
+    <cell id="1" image="vg22a.jpg" />
+    <cell id="0" image="vg22b.jpg" />
+    <cell id="0" image="vg22c.jpg" />
+    <cell id="1" image="vg22a.jpg" />
+    <cell id="0" image="vg22d.jpg" />
+    <cell id="0" image="vg22e.jpg" />
+    <cell id="0" image="vg22f.jpg" />
+    <cell id="0" image="vg22g.jpg" />
+    <cell id="1" image="vg22a.jpg" />
+    <cell id="0" image="vg22h.jpg" />
+    <cell id="1" image="vg22a.jpg" />
+    <cell id="0" image="vg22d.jpg" />
+    <cell id="0" image="vg22i.jpg" />
+    <cell id="1" image="vg22a.jpg" />
+    <cell id="1" image="vg22a.jpg" />
+   </cells>
+   <cells rows="2" cols="8" cellWidth="100.0" cellHeight="200.0" border="false" id="solvedPrimary">
+    <shaper class="@Rectangular" cols="8" rows="2" />
+    <cell image="vg22.jpg" />
+    <cell image="vg22.jpg" />
+    <cell image="vg22.jpg" />
+    <cell image="vg22.jpg" />
+    <cell image="vg22.jpg" />
+    <cell image="vg22.jpg" />
+    <cell image="vg22.jpg" />
+    <cell image="vg22.jpg" />
+    <cell image="vg22.jpg" />
+    <cell image="vg22.jpg" />
+    <cell image="vg22.jpg" />
+    <cell image="vg22.jpg" />
+    <cell image="vg22.jpg" />
+    <cell image="vg22.jpg" />
+    <cell image="vg22.jpg" />
+    <cell image="vg22.jpg" />
+   </cells>
+   <scramble times="31" primary="false" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="final.gif" file="final.gif" />
+  <media name="1pic10.jpg" file="1pic10.jpg" />
+  <media name="1pic3.jpg" file="1pic3.jpg" />
+  <media name="1pic4.jpg" file="1pic4.jpg" />
+  <media name="1pic5.jpg" file="1pic5.jpg" />
+  <media name="1pic6.jpg" file="1pic6.jpg" />
+  <media name="1pic7.jpg" file="1pic7.jpg" />
+  <media name="1pic8.jpg" file="1pic8.jpg" />
+  <media name="1pic9.jpg" file="1pic9.jpg" />
+  <media name="fondo2.jpg" file="fondo2.jpg" />
+  <media name="fondo3.jpg" file="fondo3.jpg" />
+  <media name="fondo4.jpg" file="fondo4.jpg" />
+  <media name="fondo5.jpg" file="fondo5.jpg" />
+  <media name="fons1.jpg" file="fons1.jpg" />
+  <media name="fons2.jpg" file="fons2.jpg" />
+  <media name="fons4.jpg" file="fons4.jpg" />
+  <media name="fons5.jpg" file="fons5.jpg" />
+  <media name="klee1p.jpg" file="klee1p.jpg" />
+  <media name="klee2p.jpg" file="klee2p.jpg" />
+  <media name="klee3.jpg" file="klee3.jpg" />
+  <media name="klee33.jpg" file="klee33.jpg" />
+  <media name="klee33a.jpg" file="klee33a.jpg" />
+  <media name="klee33a2.jpg" file="klee33a2.jpg" />
+  <media name="klee33b.jpg" file="klee33b.jpg" />
+  <media name="klee33b2.jpg" file="klee33b2.jpg" />
+  <media name="klee33c.jpg" file="klee33c.jpg" />
+  <media name="klee33c2.jpg" file="klee33c2.jpg" />
+  <media name="klee33d.jpg" file="klee33d.jpg" />
+  <media name="klee33d2.jpg" file="klee33d2.jpg" />
+  <media name="klee33e.jpg" file="klee33e.jpg" />
+  <media name="klee33e2.jpg" file="klee33e2.jpg" />
+  <media name="klee33f.jpg" file="klee33f.jpg" />
+  <media name="klee33f2.jpg" file="klee33f2.jpg" />
+  <media name="klee33r.jpg" file="klee33r.jpg" />
+  <media name="klee4.jpg" file="klee4.jpg" />
+  <media name="klee44d.jpg" file="klee44d.jpg" />
+  <media name="klee44r.jpg" file="klee44r.jpg" />
+  <media name="leger1.jpg" file="leger1.jpg" />
+  <media name="leger11.jpg" file="leger11.jpg" />
+  <media name="leger11s.jpg" file="leger11s.jpg" />
+  <media name="leger1p.jpg" file="leger1p.jpg" />
+  <media name="leger2.jpg" file="leger2.jpg" />
+  <media name="leger22.jpg" file="leger22.jpg" />
+  <media name="leger2p.jpg" file="leger2p.jpg" />
+  <media name="leger2~1.jpg" file="leger2_1.jpg" />
+  <media name="mat11.jpg" file="mat11.jpg" />
+  <media name="mat11m.jpg" file="mat11m.jpg" />
+  <media name="mat12.jpg" file="mat12.jpg" />
+  <media name="mat13.jpg" file="mat13.jpg" />
+  <media name="mat14.jpg" file="mat14.jpg" />
+  <media name="mat15.jpg" file="mat15.jpg" />
+  <media name="mat16.jpg" file="mat16.jpg" />
+  <media name="mat1p.jpg" file="mat1p.jpg" />
+  <media name="mat22.jpg" file="mat22.jpg" />
+  <media name="mat22r.jpg" file="mat22r.jpg" />
+  <media name="mat2p.jpg" file="mat2p.jpg" />
+  <media name="matisse1.jpg" file="matisse1.jpg" />
+  <media name="matisse2.jpg" file="matisse2.jpg" />
+  <media name="miro1.jpg" file="miro1.jpg" />
+  <media name="miro11.jpg" file="miro11.jpg" />
+  <media name="miro12.jpg" file="miro12.jpg" />
+  <media name="miro1p.jpg" file="miro1p.jpg" />
+  <media name="miro1p1.jpg" file="miro1p1.jpg" />
+  <media name="miro1p2.jpg" file="miro1p2.jpg" />
+  <media name="miro1p3.jpg" file="miro1p3.jpg" />
+  <media name="miro1p4.jpg" file="miro1p4.jpg" />
+  <media name="miro1p5.jpg" file="miro1p5.jpg" />
+  <media name="miro1p6.jpg" file="miro1p6.jpg" />
+  <media name="miro22.jpg" file="miro22.jpg" />
+  <media name="miro22p.jpg" file="miro22p.jpg" />
+  <media name="miro22s.jpg" file="miro22s.jpg" />
+  <media name="miro2p.jpg" file="miro2p.jpg" />
+  <media name="paleta.jpg" file="paleta.jpg" />
+  <media name="picas11.jpg" file="picas11.jpg" />
+  <media name="picas1b.jpg" file="picas1b.jpg" />
+  <media name="picas1p.jpg" file="picas1p.jpg" />
+  <media name="picas2p.jpg" file="picas2p.jpg" />
+  <media name="picass~2.jpg" file="picass_2.jpg" />
+  <media name="picas~10.jpg" file="picas_10.jpg" />
+  <media name="picp1.jpg" file="picp1.jpg" />
+  <media name="picp2.jpg" file="picp2.jpg" />
+  <media name="picp3.jpg" file="picp3.jpg" />
+  <media name="picp4.jpg" file="picp4.jpg" />
+  <media name="picp5.jpg" file="picp5.jpg" />
+  <media name="picp6.jpg" file="picp6.jpg" />
+  <media name="rodo1.jpg" file="rodo1.jpg" />
+  <media name="rodo2.jpg" file="rodo2.jpg" />
+  <media name="rodo3.jpg" file="rodo3.jpg" />
+  <media name="rodo4.jpg" file="rodo4.jpg" />
+  <media name="rodo5.jpg" file="rodo5.jpg" />
+  <media name="rodo6.jpg" file="rodo6.jpg" />
+  <media name="rodo7.jpg" file="rodo7.jpg" />
+  <media name="rodo8.jpg" file="rodo8.jpg" />
+  <media name="vangog~2.jpg" file="vangog_2.jpg" />
+  <media name="vg1.jpg" file="vg1.jpg" />
+  <media name="vg10.jpg" file="vg10.jpg" />
+  <media name="vg11.jpg" file="vg11.jpg" />
+  <media name="vg12.jpg" file="vg12.jpg" />
+  <media name="vg2.jpg" file="vg2.jpg" />
+  <media name="vg22.jpg" file="vg22.jpg" />
+  <media name="vg22a.jpg" file="vg22a.jpg" />
+  <media name="vg22b.jpg" file="vg22b.jpg" />
+  <media name="vg22c.jpg" file="vg22c.jpg" />
+  <media name="vg22d.jpg" file="vg22d.jpg" />
+  <media name="vg22e.jpg" file="vg22e.jpg" />
+  <media name="vg22f.jpg" file="vg22f.jpg" />
+  <media name="vg22g.jpg" file="vg22g.jpg" />
+  <media name="vg22h.jpg" file="vg22h.jpg" />
+  <media name="vg22i.jpg" file="vg22i.jpg" />
+  <media name="vg3.jpg" file="vg3.jpg" />
+  <media name="vg4.jpg" file="vg4.jpg" />
+  <media name="vg5.jpg" file="vg5.jpg" />
+  <media name="vg6.jpg" file="vg6.jpg" />
+  <media name="vg7.jpg" file="vg7.jpg" />
+  <media name="vg8.jpg" file="vg8.jpg" />
+  <media name="vg9.jpg" file="vg9.jpg" />
+  <media name="vgh11.jpg" file="vgh11.jpg" />
+  <media name="vgh1p.jpg" file="vgh1p.jpg" />
+  <media name="vgh2p.jpg" file="vgh2p.jpg" />
+  <media name="quad6.swf" file="quad6.swf" />
+  <media name="quadb.swf" file="quadb.swf" />
+  <media name="1.wav" file="1.wav" />
+  <media name="11.wav" file="11.wav" />
+  <media name="12.wav" file="12.wav" />
+  <media name="14.wav" file="14.wav" />
+  <media name="15.wav" file="15.wav" />
+  <media name="16.wav" file="16.wav" />
+  <media name="17.wav" file="17.wav" />
+  <media name="18.wav" file="18.wav" />
+  <media name="19.wav" file="19.wav" />
+  <media name="2.wav" file="2.wav" />
+  <media name="20.wav" file="20.wav" />
+  <media name="21.wav" file="21.wav" />
+  <media name="22.wav" file="22.wav" />
+  <media name="23.wav" file="23.wav" />
+  <media name="4.wav" file="4.wav" />
+  <media name="7.wav" file="7.wav" />
+  <media name="8.wav" file="8.wav" />
+  <media name="9.wav" file="9.wav" />
+  <media name="quad6so.wav" file="quad6so.wav" />
+  <media name="quadbso.wav" file="quadbso.wav" />
+  <media name="quadres3.wav" file="quadres3.wav" />
+ </mediaBag>
+</JClicProject>
+

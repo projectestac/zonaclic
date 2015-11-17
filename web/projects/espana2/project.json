@@ -1,0 +1,54 @@
+{
+  "title": "España. Las comunidades Autónomas en lenguaje de signos",
+  "author": "Teresa López Vicente",
+  "date": "26/03/15",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences, Languages",
+    "ca": "Ciències socials, Llengües",
+    "es": "Ciencias sociales, Lenguas"
+  },
+  "areaCodes": [
+    "soc",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "description": {
+    "en": "JClic activity addressed to deaf children users of Spanish language signs. It consists of name identification activities of the autonomous region, on a map of Spain, photographs images associated with that community and the sign that represents and association activities between them. It also has puzzles in which the letters of the name of the community are ordered with the allusive image that appears behind.",
+    "ca": "Activitat JClic adreçada a alumnes sords usuaris de llengua de signes espanyola. Consta d'activitats d'identificació del nom de la comunitat autònoma, localització en el mapa d'Espanya, fotografies d'imatges associades a aquesta comunitat i el signe que la representa, així com activitats d'associació entre els elements esmentats. També té puzles en què s'ordenen les lletres del nom de la comunitat juntament amb la imatge al·lusiva que apareix darrere.",
+    "es": "Actividad JClic para alumnos sordos usuarios de lengua de signos española. Consta de actividades de identificación del nombre de la comunidad autónoma, localización en el mapa de España, fotografías de imágenes asociadas a esa comunidad y el signo que la representa, así como actividades de asociación entre los elementos mencionados. También tiene puzzles en los que se ordenan las letras del nombre de la comunidad junto con la imagen alusiva que aparece detrás."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/espana2.jclic",
+  "cover": "cover.png",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/espana2.jclic.zip",
+  "instFile": "jclic/espana2.jclic.inst",
+  "clicZoneId": 3884,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3884",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/espana2/jclic/espana2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ]
+}
