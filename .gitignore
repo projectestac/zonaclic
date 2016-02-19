@@ -34,7 +34,9 @@ netbeans/
 .project
 
 # Directories with non redistribuable files #
-lib/bootstrap/
+
+#lib/bootstrap/
+!lib/bootstrap/1.4/rt.jar
 
 app/JNLPServlet/web/WEB-INF/classes/
 app/clicDB/web/WEB-INF/classes/

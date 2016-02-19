@@ -27,8 +27,17 @@
 
 
     <!-- zonaClic is currently targeted to JVM 1.4 -->
-    <property name="javac.source" value="1.7"/>
-    <property name="javac.target" value="1.7"/>
+    <property name="javac.source" value="1.4"/>
+    <property name="javac.target" value="1.4"/>
+
+    <!-- Check if "rt.jar" exists in lib/bootstrap/1.4 -->
+    <property name="bootstrap.file" value="${lib.dir}/bootstrap/${javac.target}/rt.jar"/>
+    <condition property="bootstrap.path"
+               value="${bootstrap.file}"
+               else="${java.home}/lib/rt.jar">
+       <available file="${bootstrap.file}"/>
+    </condition>
+    <property name="bootstrap.arg" value="-Xbootclasspath:${bootstrap.path}"/>
 
     <!-- Patterns -->
     <patternset id="images" >
@@ -75,24 +84,32 @@
     <property name="debug"          value="on" />
     <property name="deprecation"    value="off" />
     <property name="optimize"       value="on" />
-    <property name="bootclasspath"  value="${lib.dir}/bootstrap/${javac.target}/rt.jar" />
 
     <!-- Custom javac definition -->
     <presetdef name="ext.javac">
-        <!-- javac debug="${debug}"
-               deprecation="${deprecation}"
-               optimize="${optimize}"
-               source="${javac.source}"
-               target="${javac.target}"
-               bootclasspath="${bootclasspath}"
-               includeAntRuntime="false" -->
         <javac debug="${debug}"
                deprecation="${deprecation}"
                optimize="${optimize}"
                source="${javac.source}"
                target="${javac.target}"
+               bootclasspath="${bootstrap.path}"
                includeAntRuntime="false" >
-               <!-- compilerarg value="-Xbootclasspath:${bootclasspath}" / -->
+               <compilerarg value="-Xlint:unchecked"/>
+               <compilerarg value="${bootstrap.arg}" />
+        </javac>
+    </presetdef>
+
+    <!-- Custom javac definition - without warnings about generics -->
+    <presetdef name="ext.javac.nogenerics">
+        <javac debug="${debug}"
+               deprecation="${deprecation}" 
+               optimize="${optimize}"
+               encoding="${encoding}"
+               source="${javac.source}"
+               target="${javac.target}"
+               bootclasspath="${bootstrap.path}"
+               includeAntRuntime="false" >
+               <compilerarg value="${bootstrap.arg}" />
         </javac>
     </presetdef>
 
@@ -115,7 +132,7 @@
       <property name="build.acc.dir"  location="${build.dir}/acc" />
       <property name="build.prod.dir" location="${build.dir}/prod" />
 
-      <property name="int.base"       value="http://integracio.clic.xtec.cat" />
+      <property name="int.base"       value="http://clic-int.xtec.cat:7778" />
       <property name="acc.base"       value="http://clic-acc.xtec.cat" />
       <property name="prod.base"      value="http://clic.xtec.cat" />
 
@@ -147,6 +164,11 @@
   <target name="clean" depends="init" description="Clean build dir">
     <delete dir="${build.dir}" />
     <echo message="*** Build dir cleared!"/>
+    <delete dir="${app.dir}/clicDB/web/WEB-INF/classes" />
+    <delete dir="${app.dir}/JNLPServlet/web/WEB-INF/classes" />
+    <delete dir="${app.dir}/gali/web/WEB-INF/classes" />
+    <delete dir="${app.dir}/reportsWebApp/web/WEB-INF/classes" />
+    <echo message="*** App web/WEB-INF/classes dirs cleared!"/>
   </target>
 
 
