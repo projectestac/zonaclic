@@ -1,9 +1,9 @@
-
 -----------------------------------------------------------.------------------
 === Preparació de l'entorn de desenvolupament amb NetBeans i Apache Tomcat ===
 ------------------------------------------------------------------------------
 
 ACTUALITZAT OCT2012: Provat amb NetBeans 7.2 i Apache Tomcat 7.0
+ACTUALITZAT NOV2016: Provat amb NetBeans 8.1 i Apache Tomcat 8.0
 
 IMPORTANT: En tot aquest document cal substituir l'expressió "$HOME" pel directori d'inici de l'usuari que estigui
 implementant l'entorn de desenvolupament. A tot arreu on aparegui l'expressió $HOME s'ha de substituir pel
@@ -19,10 +19,10 @@ fitxers amb el codi font i la documentació. Normalment aquest directori corresp
 
 3 - Copiar tots els fitxers ".properties" del directori $ROOT/home al directori $HOME de l'usuari
 
-4 - Definir el host "localhost.xtec.cat" com a sinònim de "localhost" a 127.0.0.1.
+4 - Definir el host "clic-virtual.xtec.cat" com a sinònim de "localhost" a 127.0.0.1.
     A la Linkat això es fa afegint aquesta línia a /etc/hosts:
 
-    127.0.0.1       localhost.xtec.cat
+    127.0.0.1       clic-virtual.xtec.cat
 
 5 - Instal·lar una versió de NetBeans 6.x o superior que inclogui "Java web" i "Apache Tomcat". Es pot descarregar des de:
     http://netbeans.org/downloads/index.html
@@ -41,8 +41,6 @@ fitxers amb el codi font i la documentació. Normalment aquest directori corresp
     $HOME/.nebeans/6.x/apache-tomcat-xx_base/conf/Catalina/localhost/ROOT.xml
     ...per tal que tingui aquest contingut:
 
-<?xml version='1.0' encoding='utf-8'?>
-<!-- Context path="" docBase="${catalina.home}/webapps/ROOT"/ -->
 <Context path="" docBase="$ROOT/web" allowLinking="true"/>
 
 ATENCIÓ: Recordeu substituir l'expressió $ROOT del docBase pel seu path absolut!
@@ -51,12 +49,17 @@ ATENCIÓ: Recordeu substituir l'expressió $ROOT del docBase pel seu path absolu
     $HOME/.nebeans/6.x/apache-tomcat-xxx_base/conf/Catalina/localhost
     ...amb aquest contingut:
 
-<?xml version='1.0' encoding='utf-8'?>
 <Context allowLinking="true">
-<Resource name="jdbc/ClicConnectionPoolDS" auth="Container"
+<Resource name="jdbc/ClicConnectionPoolDS"
+          auth="Container"
           type="javax.sql.DataSource" 
           driverClassName="oracle.jdbc.OracleDriver" 
-          url="jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=on)(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=XE)))" username="clic" password="clic" maxActive="20" maxIdle="10" maxWait="-1"/>
+          url="jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=on)(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=XE)))"
+          username="clic"
+          password="clic"
+          maxActive="20"
+          maxIdle="10"
+          maxWait="-1"/>
 </Context>
 
 ATENCIÓ: Potser caldrà substituir "localhost" per la IP del servidor on estigui funcionant l'oracleXE
@@ -66,6 +69,7 @@ ATENCIÓ: Potser caldrà substituir "localhost" per la IP del servidor on estigu
     la instal·lació de Tomcat (que en el cas de la Linkat és /usr/local/apache-tomcat-xxx/lib)
 
     ACTUALITZACIÓ: En Ubuntu, el fitxer es pot deixar (o millor enllaçar) a /usr/java/packages/lib/ext
+    ACTUALITZACIÓ: Amb Tomca 8 cal que el driver sigui com a mínim el de Oracle11g (fitxer ojdbc6.jar - http://download.oracle.com/otn/utilities_drivers/jdbc/121010/ojdbc6.jar)
 
 10 - Copiar el fitxer:
      $ROOT/lib/jclicreports.war
@@ -73,7 +77,7 @@ ATENCIÓ: Potser caldrà substituir "localhost" per la IP del servidor on estigu
      $HOME/.nebeans/xxx/apache-tomcat-xxx_base/webapps
 
 11 - Tornar a Netbeans (pestanya "Services" - "Servers") i fer un "restart" del servidor Apache.
-     Comprovar que en obrir l'URL http://localhost:8084/index.htm es pugui navegar per la primera pàgina
+     Comprovar que en obrir l'URL http://clic-virtual.xtec.cat:8084/index.htm es pugui navegar per la primera pàgina
      de la seció "català". És normal que faltin algunes imatges pàgines, perquè a l'entorn de
      desenvolupament s'hi ha copiat només una part de la web.
 
@@ -94,12 +98,12 @@ ATENCIÓ: Potser caldrà substituir "localhost" per la IP del servidor on estigu
 
 14 - Reiniciar el servidor Apache des de Netbeans.
      Per comprovar el funcionament es poden invocar els següents URL:
-     - WebClic estàtic: http://localhost:8084/
-     - WebClic dinàmic: http://localhost:8084/db/
-     - Galí: http://localhost:8084/gali/
+     - WebClic estàtic: http://clic-virtual.xtec.cat:8084/
+     - WebClic dinàmic: http://clic-virtual.xtec.cat:8084/db/
+     - Galí: http://clic-virtual.xtec.cat:8084/gali/
      - JNLP:
-       http://localhost:8084/jnlp/jclic/player.jnlp (engega el JClic amb Java WebStart)
-       http://localhost:8084/jnlp/jclic/author.jnlp (engega el JClic Author amb Java WebStart)
+       http://clic-virtual.xtec.cat:8084/jnlp/jclic/player.jnlp (engega el JClic amb Java WebStart)
+       http://clic-virtual.xtec.cat:8084/jnlp/jclic/author.jnlp (engega el JClic Author amb Java WebStart)
      - Provar l'instal·lador d'algun dels primers projectes de la llista mostrada al portal
 
 ATENCIÓ: La compilacó de les versions que s'envien als entorns d'integració, acceptació i producció s'ha de fer
