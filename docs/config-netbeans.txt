@@ -41,7 +41,7 @@ fitxers amb el codi font i la documentació. Normalment aquest directori corresp
     $HOME/.nebeans/6.x/apache-tomcat-xx_base/conf/Catalina/localhost/ROOT.xml
     ...per tal que tingui aquest contingut:
 
-<Context path="" docBase="$ROOT/web" allowLinking="true"/>
+<Context path="" docBase="$ROOT/web" />
 
 ATENCIÓ: Recordeu substituir l'expressió $ROOT del docBase pel seu path absolut!
 
@@ -49,17 +49,14 @@ ATENCIÓ: Recordeu substituir l'expressió $ROOT del docBase pel seu path absolu
     $HOME/.nebeans/6.x/apache-tomcat-xxx_base/conf/Catalina/localhost
     ...amb aquest contingut:
 
-<Context allowLinking="true">
+<Context>
 <Resource name="jdbc/ClicConnectionPoolDS"
           auth="Container"
           type="javax.sql.DataSource" 
           driverClassName="oracle.jdbc.OracleDriver" 
           url="jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=on)(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=XE)))"
           username="clic"
-          password="clic"
-          maxActive="20"
-          maxIdle="10"
-          maxWait="-1"/>
+          password="clic" />
 </Context>
 
 ATENCIÓ: Potser caldrà substituir "localhost" per la IP del servidor on estigui funcionant l'oracleXE
@@ -69,7 +66,7 @@ ATENCIÓ: Potser caldrà substituir "localhost" per la IP del servidor on estigu
     la instal·lació de Tomcat (que en el cas de la Linkat és /usr/local/apache-tomcat-xxx/lib)
 
     ACTUALITZACIÓ: En Ubuntu, el fitxer es pot deixar (o millor enllaçar) a /usr/java/packages/lib/ext
-    ACTUALITZACIÓ: Amb Tomca 8 cal que el driver sigui com a mínim el de Oracle11g (fitxer ojdbc6.jar - http://download.oracle.com/otn/utilities_drivers/jdbc/121010/ojdbc6.jar)
+    ACTUALITZACIÓ: Amb Tomcat 8 cal que el driver sigui com a mínim el d'Oracle 11g (fitxer ojdbc6.jar - http://download.oracle.com/otn/utilities_drivers/jdbc/121010/ojdbc6.jar)
 
 10 - Copiar el fitxer:
      $ROOT/lib/jclicreports.war
