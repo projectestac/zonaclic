@@ -27,21 +27,31 @@ function onSignIn(googleUser) {
    console.log("ID Token: " + id_token);
    */
 
-  $.post('getUserInfo.jsp', {id_token: googleUser.getAuthResponse().id_token})
-          .done(function (result) {
-            $('#result').empty()
-                    .append($('<img/>', {src: result.avatar}))
-                    .append($('<ul/>').apend([
-                      $('<li/>').html('User: ' + result.user),
-                      $('<li/>').html('Email: ' + result.email),
-                      $('<li/>').html('Expires: ' + result.expires)
-                    ]));
+  $('#result').empty();
+  
+  // TODO: put waiting image
+
+  $.post('getUserInfo.jsp', {id_token: googleUser.getAuthResponse().id_token}, null, 'json')
+          .done(function (data) {
+            if (data === null || typeof data !== 'object')
+              $('#result').html('ERROR: No data received!');
+            else if (data.status !== 'validated')
+              $('#result').html('ERROR: ' + data.error);
+            else
+              $('#result')
+                      .append($('<img/>', {src: data.avatar}))
+                      .append($('<ul/>').append([
+                        $('<li/>').html('User: ' + data.fullUserName),
+                        $('<li/>').html('Email: ' + data.email),
+                        $('<li/>').html('Expires: ' + data.expires)
+                      ]));
           })
-          .fail(function (error) {
-            $('#result').empty().append('ERROR: ' + error);
-            console.log(error);
+          .fail(function (jqXHR, textStatus, errorThrown) {
+            $('#result').html('ERROR: ' + textStatus + ' - ' + errorThrown);
+            console.log(errorThrown);
+            console.log(jqXHR);
           }).always(function () {
-    // TODO: Remove waiting img
+    // TODO: Remove waiting image
   });
 }
 
