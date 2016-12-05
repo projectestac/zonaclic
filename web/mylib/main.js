@@ -31,20 +31,26 @@ function onSignIn(googleUser) {
   
   // TODO: put waiting image
 
-  $.post('getUserInfo.jsp', {id_token: googleUser.getAuthResponse().id_token}, null, 'json')
+  $.post('/db/getUserInfo.jsp', {id_token: googleUser.getAuthResponse().id_token}, null, 'json')
           .done(function (data) {
             if (data === null || typeof data !== 'object')
               $('#result').html('ERROR: No data received!');
             else if (data.status !== 'validated')
               $('#result').html('ERROR: ' + data.error);
-            else
+            else {
               $('#result')
                       .append($('<img/>', {src: data.avatar}))
                       .append($('<ul/>').append([
                         $('<li/>').html('User: ' + data.fullUserName),
                         $('<li/>').html('Email: ' + data.email),
+                        $('<li/>').html('Id: ' + data.id),
+                        $('<li/>').html('Quota: ' + data.quota),
                         $('<li/>').html('Expires: ' + data.expires)
-                      ]));
+                      ]))
+                      .append($('<p/>').html('Current size: '+data.currentSize));
+              for(var p=0; p<data.projects.length; p++)
+                $('#result').append($('<hr/>')).append($('<p/>').html('Title: '+data.projects[p].title));
+            }
           })
           .fail(function (jqXHR, textStatus, errorThrown) {
             $('#result').html('ERROR: ' + textStatus + ' - ' + errorThrown);
@@ -94,4 +100,5 @@ function start() {
 
   checkIfSignedIn();
 }
+
 

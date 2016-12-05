@@ -1,13 +1,9 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"
-%><jsp:useBean id="b" class="edu.xtec.web.clic.UsrLibBean" scope="request" /><%
-if(!b.init(request, response, "ca")){%><jsp:forward page="error_ca.jsp"/><%}
-// Aquí va el codi d'inicialització
-%><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ca">
   <head>
     <link href="main.css" rel="stylesheet" type="text/css">
     <meta name="google-signin-scope" content="profile email">
-    <meta name="google-signin-client_id" content="<%=b.getGoogleToken()%>">
+    <meta name="google-signin-client_id" content="628119593973-72bhu9uv9jrlaqv3c7o1h9quf6jocspn.apps.googleusercontent.com">
     <!-- meta name="google-signin-hosted_domain" content="xtec.cat" -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://apis.google.com/js/platform.js?onload=start" async defer></script>
