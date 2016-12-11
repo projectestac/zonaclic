@@ -28,17 +28,17 @@ function onSignIn(googleUser) {
    */
 
   $('#result').empty();
-  
+
   // TODO: put waiting image
 
   $.post('/db/getUserInfo.jsp', {id_token: googleUser.getAuthResponse().id_token}, null, 'json')
           .done(function (data) {
             if (data === null || typeof data !== 'object')
-              $('#result').html('ERROR: No data received!');
+              $('#userInfo').html('ERROR: No data received!');
             else if (data.status !== 'validated')
-              $('#result').html('ERROR: ' + data.error);
+              $('#userInfo').html('ERROR: ' + data.error);
             else {
-              $('#result')
+              $('#userInfo')
                       .append($('<img/>', {src: data.avatar}))
                       .append($('<ul/>').append([
                         $('<li/>').html('User: ' + data.fullUserName),
@@ -47,9 +47,40 @@ function onSignIn(googleUser) {
                         $('<li/>').html('Quota: ' + data.quota),
                         $('<li/>').html('Expires: ' + data.expires)
                       ]))
-                      .append($('<p/>').html('Current size: '+data.currentSize));
-              for(var p=0; p<data.projects.length; p++)
-                $('#result').append($('<hr/>')).append($('<p/>').html('Title: '+data.projects[p].title));
+                      .append($('<p/>').html('Current size: ' + data.currentSize));
+
+              for (var p = 0; p < data.projects.length; p++)
+                $('#userProjects').append($('<hr/>')).append($('<p/>').html('Title: ' + data.projects[p].title));
+
+              $('#uploadForm').append($('<form/>', {id: 'upFile', enctype: 'multipart/form-data'})
+                      .append($('<input/>', {type: 'file', name: 'file'}).on('change', function () {
+                        var file = this.files[0];
+                        console.log('File is: ' + file.name + ' (' + file.size + ' - ' + file.type + ')');
+                      }))
+                      .append($('<input/>', {type: 'button', value: 'Upload'}).on('click', function () {
+                        var formData = new FormData($('#upFile')[0]);
+                        $.ajax({
+                          url: '/db/uploadUserFile',
+                          type: 'POST',
+                          xhr: function () {  // Custom XMLHttpRequest
+                            var myXhr = $.ajaxSettings.xhr();
+                            if (myXhr.upload) { // Check if upload property exists
+                              myXhr.upload.addEventListener('progress', progressHandlingFunction, false); // For handling the progress of the upload
+                            }
+                            return myXhr;
+                          },
+                          //Ajax events
+                          beforeSend: beforeSendHandler,
+                          success: completeHandler,
+                          error: errorHandler,
+                          // Form data
+                          data: formData,
+                          //Options to tell jQuery not to process data or worry about content-type.
+                          cache: false,
+                          contentType: false,
+                          processData: false
+                        });
+                      }))).append($('<progress/>', {id: 'upProgress'}));
             }
           })
           .fail(function (jqXHR, textStatus, errorThrown) {
@@ -101,4 +132,24 @@ function start() {
   checkIfSignedIn();
 }
 
+function progressHandlingFunction(e){
+    if(e.lengthComputable){
+        $('#upProgress').attr({value:e.loaded,max:e.total});
+    }
+}
+
+function beforeSendHandler(e) {
+  console.log('Before send handler called');
+  console.log(e);
+}
+
+function completeHandler(e) {
+  console.log('Complete handler called');
+  console.log(e);
+}
+
+function errorHandler(e) {
+  console.log('Error handler called:');
+  console.log(e);
+}
 

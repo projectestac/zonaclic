@@ -66,7 +66,7 @@ public class JSONStringer {
   /**
    * The output data, containing at most one top-level array or object.
    */
-  final StringBuilder out = new StringBuilder();
+  final StringBuffer out = new StringBuffer();
 
   /**
    * Lexical scoping elements within this stringer, necessary to insert the

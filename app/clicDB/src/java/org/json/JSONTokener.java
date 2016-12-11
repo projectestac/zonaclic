@@ -198,7 +198,7 @@ public class JSONTokener {
          * the result as a substring of the input. But if we encounter an escape
          * sequence, we need to use a StringBuilder to compose the result.
      */
-    StringBuilder builder = null;
+    StringBuffer builder = null;
 
     /* the index of the first character not yet appended to the builder. */
     int start = pos;
@@ -210,7 +210,7 @@ public class JSONTokener {
           // a new string avoids leaking memory
           return new String(in.substring(start, pos - 1));
         } else {
-          builder.append(in, start, pos - 1);
+          builder.append(in.toCharArray(), start, pos - 1);
           return builder.toString();
         }
       }
@@ -220,9 +220,9 @@ public class JSONTokener {
           throw syntaxError("Unterminated escape sequence");
         }
         if (builder == null) {
-          builder = new StringBuilder();
+          builder = new StringBuffer();
         }
-        builder.append(in, start, pos - 1);
+        builder.append(in.toCharArray(), start, pos - 1);
         builder.append(readEscapeCharacter());
         start = pos;
       }
