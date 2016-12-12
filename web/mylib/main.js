@@ -53,7 +53,7 @@ function onSignIn(googleUser) {
                 $('#userProjects').append($('<hr/>')).append($('<p/>').html('Title: ' + data.projects[p].title));
 
               $('#uploadForm').append($('<form/>', {id: 'upFile', enctype: 'multipart/form-data'})
-                      .append($('<input/>', {type: 'file', name: 'file'}).on('change', function () {
+                      .append($('<input/>', {type: 'file', name: 'scormFile'}).on('change', function () {
                         var file = this.files[0];
                         console.log('File is: ' + file.name + ' (' + file.size + ' - ' + file.type + ')');
                       }))

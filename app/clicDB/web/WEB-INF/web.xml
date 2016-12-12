@@ -84,12 +84,12 @@
   <servlet>
     <servlet-name>uploadUserFile</servlet-name>    
     <jsp-file>/uploadUserFile.jsp</jsp-file>
-    <multipart-config>
+    <!-- multipart-config>
       <location>/tmp</location>
       <max-file-size>41943040</max-file-size>
       <max-request-size>41943040</max-request-size>
       <file-size-threshold>1048576</file-size-threshold>
-    </multipart-config>
+    </multipart-config -->
   </servlet>
   <servlet-mapping>
     <servlet-name>JCApplet</servlet-name>

@@ -4,12 +4,18 @@
  */
 package edu.xtec.web.clic;
 
+import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.util.Iterator;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
+import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.Part;
+import org.apache.commons.fileupload.FileItem;
+import org.apache.commons.fileupload.disk.DiskFileItemFactory;
+import org.apache.commons.fileupload.servlet.ServletFileUpload;
+import org.apache.commons.io.IOUtils;
 import org.json.JSONObject;
 
 /**
@@ -18,62 +24,98 @@ import org.json.JSONObject;
  */
 public class UsrUploadBean extends UsrLibBean {
 
-  String fileName;
-  String projectName;
   String status = "processing";
   String err;
+  UserProject prj = null;
 
   //@Override
   protected void getRequestParams(HttpServletRequest request) throws Exception {
     super.getRequestParams(request);
-    if (email != null) {
-      final Part filePart = request.getPart("file");
-      if (filePart != null) {
-        fileName = getFileName(filePart);
-        if (!fileName.endsWith(".scorm.zip")) {
-          status = "error";
-          err = "Invalid file type!";
-        } else {
-          projectName = fileName.substring(0, fileName.indexOf('.'));
-          File dest = new File(userSpace.root, "__TMP" + projectName +".zip");
-          OutputStream out = null;
-          InputStream filecontent = null;
-          try {
-            out = new FileOutputStream(dest);
-            filecontent = filePart.getInputStream();
-            int read;
-            final byte[] bytes = new byte[1024];
-            while ((read = filecontent.read(bytes)) != -1) {
-              out.write(bytes, 0, read);
-            }
-            status = "ok";
-          } catch (Exception ex) {
-            status = "error";
-            err = ex.getMessage();
-          } finally {
-            if (out != null) {
-              out.close();
-            }
-            if (filecontent != null) {
-              filecontent.close();
-            }
+    if (email != null && userSpace != null) {
+      status = "error";
+      err = "bad request";
+      if (ServletFileUpload.isMultipartContent(request)) {
+
+        // Create a factory for disk-based file items
+        DiskFileItemFactory factory = new DiskFileItemFactory();
+
+        // Configure a repository (to ensure a secure temp location is used)
+        ServletContext servletContext = request.getServletContext();
+        File repository = (File) servletContext.getAttribute("javax.servlet.context.tempdir");
+        // Set factory constraints
+        //factory.setSizeThreshold(yourMaxMemorySize);
+        factory.setRepository(repository);
+
+        // Create a new file upload handler
+        ServletFileUpload upload = new ServletFileUpload(factory);
+        // Set overall request size constraint
+        //upload.setSizeMax(yourMaxRequestSize);
+
+        // Parse the request
+        Iterator it = upload.parseRequest(request).iterator();
+        while (it.hasNext()) {
+          FileItem item = (FileItem) it.next();
+          if (!item.isFormField()) {
+            processUploadedFile(item);
+            break;
           }
         }
       }
+    } else {
+      status = "error";
+      err = "bad user";
     }
   }
 
-  private String getFileName(final Part part) {
-    String header = part.getHeader("content-disposition");
-    if (header != null) {
-      String[] chunks = header.split(";");
-      for (int i = 0; i < chunks.length; i++) {
-        if (chunks[i].trim().startsWith("filename")) {
-          return chunks[i].substring(chunks[i].indexOf('=') + 1).trim().replace("\"", "");
-        }
+  protected void processUploadedFile(FileItem item) throws Exception {
+    String fieldName = item.getFieldName();
+    String fileName = item.getName();
+    String contentType = item.getContentType();
+    //boolean isInMemory = item.isInMemory();
+    long sizeInBytes = item.getSize();
+    if ("scormFile".equals(fieldName)
+            && fileName != null
+            && fileName.endsWith(".scorm.zip")
+            && "application/zip".equals(contentType)) {
+      if (sizeInBytes > (quota - userSpace.currentSize)) {
+        err = "disk quota exceeded";
+        return;
       }
+      String projectName = fileName.substring(0, fileName.indexOf('.'));
+      try {
+        prj = new UserProject(projectName, userSpace);
+        prj.clean();
+        String prjBase = prj.prjRoot.getCanonicalPath() + File.separator;
+
+        ZipInputStream zis = new ZipInputStream(new BufferedInputStream(item.getInputStream()));
+        ZipEntry entry;
+        boolean interrupted = false;
+        while ((entry = zis.getNextEntry()) != null) {
+          File entryFile = new File(prj.prjRoot, entry.getName());
+          if (!entryFile.getCanonicalPath().startsWith(prjBase)) {
+            prj.clean();
+            err = "Invalid file name in ZIP file";
+            interrupted = true;
+            break;
+          }
+          if (entry.isDirectory()) {
+            entryFile.mkdirs();
+          } else {
+            entryFile.getParentFile().mkdirs();
+            IOUtils.copy(zis, new FileOutputStream(entryFile));
+          }
+        }
+        zis.close();
+        userSpace.readProjects();
+        if (!interrupted) {
+          status = "ok";
+        }
+      } catch (Exception ex) {
+        err = ex.getMessage();
+      }
+    } else {
+      err = "bad file type";
     }
-    return null;
   }
 
   public String getJsonResponse() {
@@ -85,7 +127,7 @@ public class UsrUploadBean extends UsrLibBean {
         json.put("error", "invalid user");
       } else {
         json.put("status", status);
-        if (err != null) {
+        if (!status.equals("ok") && err != null) {
           json.put("error", err);
         }
       }
@@ -95,5 +137,4 @@ public class UsrUploadBean extends UsrLibBean {
     }
     return result;
   }
-
 }

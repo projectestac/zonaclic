@@ -7,6 +7,7 @@ package edu.xtec.web.clic;
 
 import java.io.File;
 import java.io.FileInputStream;
+import org.apache.commons.io.FileUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -32,10 +33,9 @@ public class UserProject implements java.io.Serializable {
   public String[] levels = null;
 
   public long totalFileSize = 0;
-  public int numFiles = 0;
 
   public UserProject(String name, UserSpace parent) throws Exception {
-    this.name = UsrLibBean.getPlainId(name, "");
+    this.name = UserProject.getValidName(name);
     prjRoot = new File(parent.root, this.name);
     prjRoot.mkdir();
   }
@@ -55,8 +55,6 @@ public class UserProject implements java.io.Serializable {
     obj.putOpt("languages", languages);
     obj.putOpt("areas", areas);
     obj.putOpt("levels", levels);
-
-    obj.put("numFiles", numFiles);
     obj.put("totalFileSize", totalFileSize);
 
     return obj;
@@ -120,36 +118,41 @@ public class UserProject implements java.io.Serializable {
     }
   }
 
-  public static final int MAX_DEPTH = 4;
-
-  public long scanDir(File base, int depth) throws Exception {
-    long size = 0;
-    File[] files = base.listFiles();
-    for (int i = 0; i < files.length; i++) {
-      if (files[i].isDirectory()) {
-        if (depth < MAX_DEPTH) {
-          size += scanDir(files[i], ++depth);
-        } else {
-          throw new Exception("Max folder depth exceeded!");
-        }
-      } else if (files[i].isFile() && !files[i].isHidden()) {
-        numFiles++;
-        size += files[i].length();
-      }
-    }
-    return size;
-  }
-
   public long checkFiles() throws Exception {
-    numFiles = 0;
-    totalFileSize = scanDir(prjRoot, 0);
+    totalFileSize = FileUtils.sizeOfDirectory(prjRoot);
     return totalFileSize;
   }
-  
-  public void rmFiles() throws Exception {
-    
-    
-    
-    
+
+  public void clean() throws Exception {
+    FileUtils.deleteDirectory(prjRoot);
+    prjRoot.mkdirs();
+    title = "Untitled";
+    author = "unknown";
+    school = "";
+    date = "";
+    cover = "";
+    thumbnail = "";
+    metaLangs = null;
+    descriptions = null;
+    languages = null;
+    areas = null;
+    levels = null;
+    totalFileSize = 0;
   }
+
+  public static String getValidName(String proposedName) {
+    String result = proposedName.trim().toLowerCase();
+    if (result.equals("")) {
+      result = "unnamed";
+    }
+    char[] ch = result.toCharArray();
+    for (int i = 0; i < ch.length; i++) {
+      char c = ch[i];
+      if (c < '0' || (c > '9' && c < 'a') || c > 'z') {
+        ch[i] = '_';
+      }
+    }
+    return new String(ch);
+  }
+
 }
