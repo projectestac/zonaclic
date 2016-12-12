@@ -18,6 +18,7 @@ import org.json.JSONObject;
 public class UserProject implements java.io.Serializable {
 
   public File prjRoot = null;
+  public UserSpace parent;
 
   public String name = "noname";
   public String title = "Untitled";
@@ -26,16 +27,18 @@ public class UserProject implements java.io.Serializable {
   public String date = "";
   public String cover = "";
   public String thumbnail = "";
-  public String[] metaLangs = null;
-  public String[] descriptions = null;
-  public String[] languages = null;
-  public String[] areas = null;
-  public String[] levels = null;
+  public String[] metaLangs;
+  public String[] descriptions;
+  public String[] languages;
+  public String[] areas;
+  public String[] levels;
+  
 
   public long totalFileSize = 0;
 
   public UserProject(String name, UserSpace parent) throws Exception {
-    this.name = UserProject.getValidName(name);
+    this.parent = parent;
+    this.name = UserProject.getValidName(name);    
     prjRoot = new File(parent.root, this.name);
     prjRoot.mkdir();
   }
@@ -50,14 +53,28 @@ public class UserProject implements java.io.Serializable {
     obj.putOpt("date", date);
     obj.putOpt("cover", cover);
     obj.putOpt("thumbnail", thumbnail);
-    obj.putOpt("meta_langs", metaLangs);
-    obj.putOpt("descriptions", descriptions);
-    obj.putOpt("languages", languages);
-    obj.putOpt("areas", areas);
-    obj.putOpt("levels", levels);
+    if(metaLangs!=null)
+      obj.put("meta_langs", new JSONArray(metaLangs));
+    obj.putOpt("descriptions", toJSONObject(descriptions));
+    obj.putOpt("languages", toJSONObject(languages));
+    obj.putOpt("areas", toJSONObject(areas));
+    obj.putOpt("levels", toJSONObject(levels));
     obj.put("totalFileSize", totalFileSize);
+    obj.put("basePath", parent.userId + "/" + name);
 
     return obj;
+  }
+  
+  public JSONObject toJSONObject(String[] attribute) throws Exception{
+    
+    if(attribute==null || metaLangs==null || metaLangs.length!=attribute.length)
+      return null;
+    
+    JSONObject result = new JSONObject();    
+    for(int i=0; i<metaLangs.length; i++){
+      result.put(metaLangs[i], attribute[i]);
+    }
+    return result;
   }
 
   public void readProjectData() throws Exception {

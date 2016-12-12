@@ -22,6 +22,7 @@ public class UserSpace implements java.io.Serializable {
 
   public UserSpace(String userId, File root) throws Exception {
     this.root = root;
+    this.userId = userId;
     root.mkdir();
   }
 

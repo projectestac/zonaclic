@@ -1,5 +1,8 @@
 /* global $, gapi */
 
+var url = new URL(window.location.href);
+var usrLibRoot = url.protocol + '//' + url.host + '/users/';
+
 function onSignIn(googleUser) {
 
   checkIfSignedIn();
@@ -50,7 +53,7 @@ function onSignIn(googleUser) {
                       .append($('<p/>').html('Current size: ' + data.currentSize));
 
               for (var p = 0; p < data.projects.length; p++)
-                $('#userProjects').append($('<hr/>')).append($('<p/>').html('Title: ' + data.projects[p].title));
+                $('#userProjects').append(getProjectElement$(data.projects[p]));
 
               $('#uploadForm').append($('<form/>', {id: 'upFile', enctype: 'multipart/form-data'})
                       .append($('<input/>', {type: 'file', name: 'scormFile'}).on('change', function () {
@@ -132,10 +135,10 @@ function start() {
   checkIfSignedIn();
 }
 
-function progressHandlingFunction(e){
-    if(e.lengthComputable){
-        $('#upProgress').attr({value:e.loaded,max:e.total});
-    }
+function progressHandlingFunction(e) {
+  if (e.lengthComputable) {
+    $('#upProgress').attr({value: e.loaded, max: e.total});
+  }
 }
 
 function beforeSendHandler(e) {
@@ -151,5 +154,20 @@ function completeHandler(e) {
 function errorHandler(e) {
   console.log('Error handler called:');
   console.log(e);
+}
+
+function getProjectElement$(project) {
+  var basePath = usrLibRoot + project.basePath + '/';
+  console.log(project);
+  var result$ = $('<div/>', {class: 'project'});
+  result$.append($('<ul/>')
+          .append($('<li/>').html('Name: ' + project.name))
+          .append($('<li/>').html('Title: ' + project.title))
+          .append($('<li/>').html('Author: ' + project.author))
+          .append($('<li/>').html('School: ' + project.school))
+          .append($('<li/>').append($('<img/>', {src: basePath + project.thumbnail})))
+          .append($('<li/>').append($('<a/>', {href: basePath + 'index.html', target: '_blank'}).html('Link to project')))
+          );
+  return result$;
 }
 
