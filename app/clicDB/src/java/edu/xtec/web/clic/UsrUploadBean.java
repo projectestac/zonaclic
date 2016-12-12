@@ -40,7 +40,7 @@ public class UsrUploadBean extends UsrLibBean {
         DiskFileItemFactory factory = new DiskFileItemFactory();
 
         // Configure a repository (to ensure a secure temp location is used)
-        ServletContext servletContext = request.getServletContext();
+        ServletContext servletContext = request.getSession().getServletContext();
         File repository = (File) servletContext.getAttribute("javax.servlet.context.tempdir");
         // Set factory constraints
         //factory.setSizeThreshold(yourMaxMemorySize);
