@@ -3,7 +3,6 @@ package edu.xtec.web.clic;
 import edu.xtec.util.db.ConnectionBean;
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileFilter;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -57,14 +56,12 @@ public class UsrLibBean extends PageBean {
       }
     }
 
-    HttpSession session;
     String token = getParam(request, ID_TOKEN, null);
     if (token != null) {
       // Validate token
       URL verifyURL = new URL(CHECK_GOOGLE_TOKEN + token);
       JSONObject json = readJSON(verifyURL.openStream());
-      // Get current session
-      session = request.getSession(true);
+      
       // Check for valid email
       email = json.getString("email");
       if (email == null) {
@@ -93,31 +90,41 @@ public class UsrLibBean extends PageBean {
       }
 
       userId = getPlainId(email, "xtec.cat");
-
       userSpace = new UserSpace(userId, new File(ROOT_BASE, userId));
       userSpace.readProjects();
 
+      fullUserName = json.getString("name");
+      avatar = json.optString("picture", null);
+      expires = new Date(json.getLong("exp") * 1000);
+
+      setSessionAttributes(request.getSession(true));
+
+    } else {
+      getSessionAttributes(request.getSession(false));
+    }
+  }
+
+  protected void setSessionAttributes(HttpSession session) throws Exception {
+    if (session != null) {
       session.setAttribute("email", email);
       session.setAttribute("id", userId);
       session.setAttribute("quota", new Long(quota));
-      fullUserName = json.getString("name");
       session.setAttribute("fullUserName", fullUserName);
-      avatar = json.optString("picture", null);
       session.setAttribute("avatar", avatar == null ? "" : avatar);
-      expires = new Date(json.getLong("exp") * 1000);
       session.setAttribute("expires", expires);
       session.setAttribute("userSpace", userSpace);
-    } else {
-      session = request.getSession(false);
-      if (session != null) {
-        email = (String) session.getAttribute("email");
-        userId = (String) session.getAttribute("id");
-        quota = ((Long) session.getAttribute("quota")).longValue();
-        fullUserName = (String) session.getAttribute("fullUserName");
-        avatar = (String) session.getAttribute("avatar");
-        expires = (Date) session.getAttribute("expires");
-        userSpace = (UserSpace) session.getAttribute("userSpace");
-      }
+    }
+  }
+
+  protected void getSessionAttributes(HttpSession session) throws Exception {
+    if (session != null) {
+      email = (String) session.getAttribute("email");
+      userId = (String) session.getAttribute("id");
+      quota = ((Long) session.getAttribute("quota")).longValue();
+      fullUserName = (String) session.getAttribute("fullUserName");
+      avatar = (String) session.getAttribute("avatar");
+      expires = (Date) session.getAttribute("expires");
+      userSpace = (UserSpace) session.getAttribute("userSpace");
     }
   }
 

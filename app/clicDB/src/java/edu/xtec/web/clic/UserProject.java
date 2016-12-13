@@ -139,9 +139,11 @@ public class UserProject implements java.io.Serializable {
     totalFileSize = FileUtils.sizeOfDirectory(prjRoot);
     return totalFileSize;
   }
-
+  
   public void clean() throws Exception {
+    long fs = totalFileSize;
     FileUtils.deleteDirectory(prjRoot);
+    parent.currentSize -= fs;
     prjRoot.mkdirs();
     title = "Untitled";
     author = "unknown";
@@ -154,7 +156,7 @@ public class UserProject implements java.io.Serializable {
     languages = null;
     areas = null;
     levels = null;
-    totalFileSize = 0;
+    totalFileSize = 0;    
   }
 
   public static String getValidName(String proposedName) {

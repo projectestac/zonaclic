@@ -56,10 +56,11 @@ function onSignIn(googleUser) {
                 $('#userProjects').append(getProjectElement$(data.projects[p]));
 
               $('#uploadForm').append($('<form/>', {id: 'upFile', enctype: 'multipart/form-data'})
-                      .append($('<input/>', {type: 'file', name: 'scormFile'}).on('change', function () {
+                      .append($('<input/>', {type: 'file', name: 'scormFile', accept: '.scorm.zip'}).on('change', function () {
                         var file = this.files[0];
                         console.log('File is: ' + file.name + ' (' + file.size + ' - ' + file.type + ')');
                       }))
+                      .append($('<input/>', {type: 'text', name: 'project'}))
                       .append($('<input/>', {type: 'button', value: 'Upload'}).on('click', function () {
                         var formData = new FormData($('#upFile')[0]);
                         $.ajax({
@@ -82,6 +83,7 @@ function onSignIn(googleUser) {
                           cache: false,
                           contentType: false,
                           processData: false
+                          //dataType: 'json'
                         });
                       }))).append($('<progress/>', {id: 'upProgress'}));
             }
@@ -146,9 +148,11 @@ function beforeSendHandler(e) {
   console.log(e);
 }
 
-function completeHandler(e) {
+function completeHandler(d) {
   console.log('Complete handler called');
-  console.log(e);
+  console.log(d);
+  if (d.project)
+    $('#userProjects').append(getProjectElement$(d.project));
 }
 
 function errorHandler(e) {
@@ -167,7 +171,21 @@ function getProjectElement$(project) {
           .append($('<li/>').html('School: ' + project.school))
           .append($('<li/>').append($('<img/>', {src: basePath + project.thumbnail})))
           .append($('<li/>').append($('<a/>', {href: basePath + 'index.html', target: '_blank'}).html('Link to project')))
+          .append($('<li/>').html('DELETE').on('click', function () {
+            $.ajax({
+              url: '/db/deleteUserProject.jsp',
+              data: {project: project.name},
+              success: function (e) {
+                if (e.status === 'ok')
+                  result$.remove();
+              },
+              error: function (e) {
+                console.log('Error:' + e);
+              },
+              cache: false,
+              dataType: 'json'
+            });
+          }))
           );
   return result$;
 }
-

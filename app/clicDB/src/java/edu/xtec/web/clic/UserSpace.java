@@ -7,6 +7,7 @@ package edu.xtec.web.clic;
 
 import java.io.File;
 import java.io.FileFilter;
+import org.apache.commons.io.FileUtils;
 import org.json.JSONArray;
 
 /**
@@ -52,5 +53,49 @@ public class UserSpace implements java.io.Serializable {
       currentSize += projects[i].checkFiles();
     }
     return getProjects();
+  }
+
+  public UserProject getProject(String name) {
+    UserProject result = null;
+    if (name != null) {
+      name = UserProject.getValidName(name);
+      for (int i = 0; i < projects.length; i++) {
+        if (projects[i].name.equals(name)) {
+          result = projects[i];
+          break;
+        }
+      }
+    }
+    return result;
+  }
+
+  public boolean removeProject(String name) throws Exception {
+    boolean result = false;
+    UserProject prj = getProject(name);
+    if (prj != null) {
+      FileUtils.deleteDirectory(prj.prjRoot);
+      UserProject[] currentprojects = projects;
+      projects = new UserProject[projects.length - 1];
+      for (int i = 0, k = 0; i < currentprojects.length; i++) {
+        if (currentprojects[i] != prj) {
+          projects[k++] = currentprojects[i];
+        }
+      }
+      currentSize -= prj.totalFileSize;
+      result = true;
+    }
+    return result;
+  }
+  
+  public void addProject(UserProject prj) throws Exception {
+    if(prj!=null && getProject(prj.name)==null) {
+      UserProject[] currentprojects = projects;
+      projects = new UserProject[projects.length + 1];
+      if(currentprojects.length > 0)
+        System.arraycopy(currentprojects, 0, projects, 0, currentprojects.length);
+      projects[currentprojects.length] = prj;
+      prj.readProjectData();
+      currentSize += prj.checkFiles();
+    }
   }
 }

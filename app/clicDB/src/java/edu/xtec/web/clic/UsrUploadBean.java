@@ -52,13 +52,20 @@ public class UsrUploadBean extends UsrLibBean {
         //upload.setSizeMax(yourMaxRequestSize);
 
         // Parse the request
+        FileItem theFile = null;
+        String projectName = null;
         Iterator it = upload.parseRequest(request).iterator();
         while (it.hasNext()) {
           FileItem item = (FileItem) it.next();
-          if (!item.isFormField()) {
-            processUploadedFile(item);
-            break;
-          }
+          if(item.isFormField()){
+            if(item.getFieldName().equals("project"))
+              projectName = item.getString();            
+          } else if(theFile == null)
+            theFile = item;
+        }
+        if(theFile!=null) {
+          processUploadedFile(theFile, projectName);
+          setSessionAttributes(request.getSession(false));
         }
       }
     } else {
@@ -67,7 +74,7 @@ public class UsrUploadBean extends UsrLibBean {
     }
   }
 
-  protected void processUploadedFile(FileItem item) throws Exception {
+  protected void processUploadedFile(FileItem item, String projectName) throws Exception {
     String fieldName = item.getFieldName();
     String fileName = item.getName();
     String contentType = item.getContentType();
@@ -81,10 +88,14 @@ public class UsrUploadBean extends UsrLibBean {
         err = "disk quota exceeded";
         return;
       }
-      String projectName = fileName.substring(0, fileName.indexOf('.'));
+      
+      if(projectName == null || "".equals(projectName))
+        projectName = fileName.substring(0, fileName.indexOf('.'));
+      
       try {
+        userSpace.removeProject(projectName);
         prj = new UserProject(projectName, userSpace);
-        prj.clean();
+        
         String prjBase = prj.prjRoot.getCanonicalPath() + File.separator;
 
         ZipInputStream zis = new ZipInputStream(new BufferedInputStream(item.getInputStream()));
@@ -106,7 +117,7 @@ public class UsrUploadBean extends UsrLibBean {
           }
         }
         zis.close();
-        userSpace.readProjects();
+        userSpace.addProject(prj);
         if (!interrupted) {
           status = "ok";
         }
@@ -127,7 +138,9 @@ public class UsrUploadBean extends UsrLibBean {
         json.put("error", "invalid user");
       } else {
         json.put("status", status);
-        if (!status.equals("ok") && err != null) {
+        if(status.equals("ok")) {
+          json.put("project", prj.getJSON());          
+        } else if(err!=null){
           json.put("error", err);
         }
       }
