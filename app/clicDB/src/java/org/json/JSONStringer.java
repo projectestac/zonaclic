@@ -303,6 +303,11 @@ public class JSONStringer {
 
   private void string(String value) {
     out.append("\"");
+    printString(value, out);
+    out.append("\"");
+  }
+  
+  private static StringBuffer printString(String value, StringBuffer out) {
     for (int i = 0, length = value.length(); i < length; i++) {
       char c = value.charAt(i);
 
@@ -356,9 +361,12 @@ public class JSONStringer {
           }
           break;
       }
-
     }
-    out.append("\"");
+    return out;
+  }
+  
+  public static String getString(String value){
+    return printString(value, new StringBuffer()).toString();
   }
 
   private void newline() {

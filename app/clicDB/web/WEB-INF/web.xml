@@ -82,6 +82,10 @@
     <jsp-file>/rss.jsp</jsp-file>
   </servlet>
   <servlet>
+    <servlet-name>getUserInfo</servlet-name>
+    <servlet-class>edu.xtec.web.clic.GetUserInfoServlet</servlet-class>
+  </servlet>  
+  <servlet>
     <servlet-name>uploadUserFile</servlet-name>    
     <jsp-file>/uploadUserFile.jsp</jsp-file>
     <!-- multipart-config>
@@ -107,6 +111,10 @@
     <servlet-name>RSS</servlet-name>
     <url-pattern>/rss_es.xml</url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getUserInfo</servlet-name>
+    <url-pattern>/getUserInfo</url-pattern>
+  </servlet-mapping>  
   <servlet-mapping>
     <servlet-name>uploadUserFile</servlet-name>
     <url-pattern>/uploadUserFile</url-pattern>

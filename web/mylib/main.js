@@ -34,7 +34,7 @@ function onSignIn(googleUser) {
 
   // TODO: put waiting image
 
-  $.post('/db/getUserInfo.jsp', {id_token: googleUser.getAuthResponse().id_token}, null, 'json')
+  $.post('/db/getUserInfo', {id_token: googleUser.getAuthResponse().id_token}, null, 'json')
           .done(function (data) {
             if (data === null || typeof data !== 'object')
               $('#userInfo').html('ERROR: No data received!');

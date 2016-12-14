@@ -1,24 +1,30 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package edu.xtec.web.clic;
 
-import edu.xtec.util.db.ConnectionBean;
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.net.URL;
 import java.text.DateFormat;
 import java.util.Date;
+import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.json.JSONStringer;
 
 /**
  *
  * @author fbusquet
  */
-public class UsrLibBean extends PageBean {
+public class GetUserInfoServlet extends HttpServlet {
 
   public static final int DEFAULT_QUOTA = 52428800;
   /* 50 MB */
@@ -36,17 +42,22 @@ public class UsrLibBean extends PageBean {
 
   public UserSpace userSpace;
 
-  public UsrLibBean() {
-    super();
+  protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+    response.setContentType("application/json");
+    response.setCharacterEncoding("UTF-8");
+    PrintWriter writer = response.getWriter();
+
+    try {
+      loadUserData(request);
+      writer.write(getJsonUserInfo().toString());
+    } catch (Exception ex) {
+      //writer.print("{\"status\":\"error\",\"error\":\"" + JSONStringer.getString(ex.getMessage()) + "\"}");
+    } finally {
+      writer.flush();
+    }
   }
 
-  protected String getMainBundle() {
-    return "edu.xtec.resources.messages.usrLibMessages";
-  }
-
-  //@Override
-  protected void getRequestParams(HttpServletRequest request) throws Exception {
-    super.getRequestParams(request);
+  protected void loadUserData(HttpServletRequest request) throws Exception {
 
     // Read root base location
     if (ROOT_BASE == null) {
@@ -56,12 +67,12 @@ public class UsrLibBean extends PageBean {
       }
     }
 
-    String token = getParam(request, ID_TOKEN, null);
+    String token = PageBean.getParam(request, ID_TOKEN, null);
     if (token != null) {
       // Validate token
       URL verifyURL = new URL(CHECK_GOOGLE_TOKEN + token);
-      JSONObject json = readJSON(verifyURL.openStream());
-      
+      JSONObject json = PageBean.readJSON(verifyURL.openStream());
+
       // Check for valid email
       email = json.getString("email");
       if (email == null) {
@@ -71,7 +82,7 @@ public class UsrLibBean extends PageBean {
 
       // Read settings
       File settingsFile = new File(Context.cntx.getProperty("userLibCfg", "settings.json"));
-      JSONObject settings = readJSON(new FileInputStream(settingsFile));
+      JSONObject settings = PageBean.readJSON(new FileInputStream(settingsFile));
       quota = settings.optLong("quota", quota);
       // Find user 
       boolean validUser = "xtec.cat".equals(hd);
@@ -86,7 +97,7 @@ public class UsrLibBean extends PageBean {
         }
       }
       if (!validUser) {
-        throw new Exception("Invalid user!");
+        throw new Exception("Invalid user");
       }
 
       userId = getPlainId(email, "xtec.cat");
@@ -102,6 +113,25 @@ public class UsrLibBean extends PageBean {
     } else {
       getSessionAttributes(request.getSession(false));
     }
+  }
+
+  public JSONObject getJsonUserInfo() throws Exception {
+    JSONObject json = new JSONObject();
+    if (email == null) {
+      json.put("status", "error");
+      json.put("error", "invalid user");
+    } else {
+      json.put("email", email);
+      json.put("id", userId);
+      json.put("quota", quota);
+      json.put("fullUserName", fullUserName);
+      json.putOpt("avatar", avatar);
+      json.put("expires", DateFormat.getDateTimeInstance().format(expires));
+      json.put("status", "validated");
+      json.put("projects", userSpace.getProjectsJSON());
+      json.put("currentSize", userSpace.currentSize);
+    }
+    return json;
   }
 
   protected void setSessionAttributes(HttpSession session) throws Exception {
@@ -126,38 +156,6 @@ public class UsrLibBean extends PageBean {
       expires = (Date) session.getAttribute("expires");
       userSpace = (UserSpace) session.getAttribute("userSpace");
     }
-  }
-
-  protected void process(ConnectionBean con) throws Exception {
-  }
-
-  public String getGoogleToken() {
-    return Context.cntx.getProperty("googleClientId", "");
-  }
-
-  public String getJsonUserInfo() {
-    String result;
-    try {
-      JSONObject json = new JSONObject();
-      if (email == null) {
-        json.put("status", "error");
-        json.put("error", "invalid user");
-      } else {
-        json.put("email", email);
-        json.put("id", userId);
-        json.put("quota", quota);
-        json.put("fullUserName", fullUserName);
-        json.putOpt("avatar", avatar);
-        json.put("expires", DateFormat.getDateTimeInstance().format(expires));
-        json.put("status", "validated");
-        json.put("projects", userSpace.getProjectsJSON());
-        json.put("currentSize", userSpace.currentSize);
-      }
-      result = json.toString(1);
-    } catch (Exception ex) {
-      result = "{\"status\":\"error\",\"error\":\"invalid data\"}";
-    }
-    return result;
   }
 
   public static String getPlainId(String email, String hd) {
