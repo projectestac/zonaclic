@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.xtec.web.clic;
+package edu.xtec.web.clic.userlib;
 
+import edu.xtec.web.clic.Utilities;
 import java.io.File;
 import java.io.FileInputStream;
 import org.apache.commons.io.FileUtils;

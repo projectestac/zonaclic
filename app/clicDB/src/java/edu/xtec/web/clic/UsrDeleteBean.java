@@ -5,6 +5,7 @@
  */
 package edu.xtec.web.clic;
 
+import edu.xtec.web.clic.userlib.UserProject;
 import javax.servlet.http.HttpServletRequest;
 import org.json.JSONObject;
 

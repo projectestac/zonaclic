@@ -4,6 +4,7 @@
  */
 package edu.xtec.web.clic;
 
+import edu.xtec.web.clic.userlib.UserProject;
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileOutputStream;

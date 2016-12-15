@@ -3,8 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.xtec.web.clic;
+package edu.xtec.web.clic.userlib;
 
+import edu.xtec.web.clic.Context;
+import edu.xtec.web.clic.Utilities;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -24,7 +26,7 @@ import org.json.JSONStringer;
  *
  * @author fbusquet
  */
-public class GetUserInfoServlet extends HttpServlet {
+public class GetUserInfo extends HttpServlet {
 
   public static final int DEFAULT_QUOTA = 52428800;
   /* 50 MB */
@@ -60,8 +62,7 @@ public class GetUserInfoServlet extends HttpServlet {
   protected void loadUserData(HttpServletRequest request) throws Exception {
 
     // Read root base location
-    if (ROOT_BASE == null) {
-      
+    if (ROOT_BASE == null) {      
       ROOT_BASE = new File(Context.getStaticFileBase(), Context.cntx.getProperty("userLibRoot", "users"));
       if (!ROOT_BASE.canWrite()) {
         throw new Exception("Invalid root base!");

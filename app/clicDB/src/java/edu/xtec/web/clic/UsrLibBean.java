@@ -1,5 +1,6 @@
 package edu.xtec.web.clic;
 
+import edu.xtec.web.clic.userlib.UserSpace;
 import edu.xtec.util.db.ConnectionBean;
 import java.io.File;
 import java.io.FileInputStream;

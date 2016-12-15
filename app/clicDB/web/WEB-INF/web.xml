@@ -83,7 +83,7 @@
   </servlet>
   <servlet>
     <servlet-name>getUserInfo</servlet-name>
-    <servlet-class>edu.xtec.web.clic.GetUserInfoServlet</servlet-class>
+    <servlet-class>edu.xtec.web.clic.userlib.GetUserInfo</servlet-class>
   </servlet>  
   <servlet>
     <servlet-name>uploadUserFile</servlet-name>    
