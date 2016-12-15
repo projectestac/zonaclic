@@ -173,7 +173,8 @@ function getProjectElement$(project) {
           .append($('<li/>').append($('<a/>', {href: basePath + 'index.html', target: '_blank'}).html('Link to project')))
           .append($('<li/>').html('DELETE').on('click', function () {
             $.ajax({
-              url: '/db/deleteUserProject.jsp',
+              url: '/db/deleteProject',
+              type: 'POST',
               data: {project: project.name},
               success: function (e) {
                 if (e.status === 'ok')

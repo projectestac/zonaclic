@@ -87,13 +87,11 @@
   </servlet>  
   <servlet>
     <servlet-name>uploadUserFile</servlet-name>    
-    <jsp-file>/uploadUserFile.jsp</jsp-file>
-    <!-- multipart-config>
-      <location>/tmp</location>
-      <max-file-size>41943040</max-file-size>
-      <max-request-size>41943040</max-request-size>
-      <file-size-threshold>1048576</file-size-threshold>
-    </multipart-config -->
+    <servlet-class>edu.xtec.web.clic.userlib.UploadScormFile</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>deleteProject</servlet-name>    
+    <servlet-class>edu.xtec.web.clic.userlib.DeleteProject</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>JCApplet</servlet-name>
@@ -118,6 +116,10 @@
   <servlet-mapping>
     <servlet-name>uploadUserFile</servlet-name>
     <url-pattern>/uploadUserFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteProject</servlet-name>
+    <url-pattern>/deleteProject</url-pattern>
   </servlet-mapping>
   <session-config>
     <session-timeout>
