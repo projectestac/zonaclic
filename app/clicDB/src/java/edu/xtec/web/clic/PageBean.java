@@ -5,7 +5,6 @@
  */
 package edu.xtec.web.clic;
 
-import java.io.InputStream;
 import java.text.DateFormat;
 import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
@@ -14,8 +13,6 @@ import java.util.Locale;
 import java.util.ResourceBundle;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import org.apache.commons.io.IOUtils;
-import org.json.JSONObject;
 
 /**
  *
@@ -31,9 +28,9 @@ public abstract class PageBean {
   public static final int CA = 0, ES = 1, EN = 2, NUM_LANGS = 3;
   public static final String[] LANGS = {"ca", "es", "en"};
   // static objects
-  private static HashMap bundles = new HashMap();
-  private static final DateFormat[] dateFormats = new DateFormat[NUM_LANGS];
-  private static final NumberFormat[] numberFormats = new NumberFormat[NUM_LANGS];
+  private static final HashMap BUNDLES = new HashMap();
+  private static final DateFormat[] DATE_FORMATS = new DateFormat[NUM_LANGS];
+  private static final NumberFormat[] NUMBER_FORMATS = new NumberFormat[NUM_LANGS];
   // Members
   protected int errCode;
   protected String errDescription;
@@ -122,10 +119,10 @@ public abstract class PageBean {
     requestedLang = lang;
     lang = LANGS[bi];
     String kl = getClass().getName();
-    ResourceBundle[] rb = (ResourceBundle[]) bundles.get(kl);
+    ResourceBundle[] rb = (ResourceBundle[]) BUNDLES.get(kl);
     if (rb == null) {
       rb = new ResourceBundle[NUM_LANGS];
-      bundles.put(kl, rb);
+      BUNDLES.put(kl, rb);
     }
 
     bundle = rb[bi];
@@ -133,15 +130,15 @@ public abstract class PageBean {
       bundle = ResourceBundle.getBundle(getMainBundle(), new Locale(LANGS[bi], ""));
       rb[bi] = bundle;
     }
-    dateFormat = dateFormats[bi];
+    dateFormat = DATE_FORMATS[bi];
     if (dateFormat == null) {
       dateFormat = new SimpleDateFormat("dd/MM/yy", new Locale(LANGS[bi], ""));
-      dateFormats[bi] = dateFormat;
+      DATE_FORMATS[bi] = dateFormat;
     }
-    numberFormat = numberFormats[bi];
+    numberFormat = NUMBER_FORMATS[bi];
     if (numberFormat == null) {
       numberFormat = NumberFormat.getInstance(new Locale(LANGS[bi], ""));
-      numberFormats[bi] = numberFormat;
+      NUMBER_FORMATS[bi] = numberFormat;
     }
   }
 
@@ -155,69 +152,28 @@ public abstract class PageBean {
     return result;
   }
 
-  public static String getParam(HttpServletRequest request, String key, String defaultValue) {
-    String result = request.getParameter(key);
-    if (result == null || result.length() == 0) {
-      result = defaultValue;
-    }
-    return result;
-  }
-
-  public static boolean getBoolParam(HttpServletRequest request, String key, boolean defaultValue) {
-    String result = request.getParameter(key);
-    if (result == null || result.length() == 0) {
-      result = defaultValue ? TRUE : "";
-    }
-    return result.equals(TRUE);
-  }
-
-  public static String str(String text) {
+  static public String str(String text) {
     return text == null ? "" : text;
   }
 
-  public static String enumItems(String[] text) {
-    String result = "";
-    StringBuffer sb = new StringBuffer();
-    for (int i = 0; i < text.length; i++) {
-      sb.append(text[i]).append(", ");
-    }
-    if (sb.length() > 0) {
-      result = Utilities.xmlEncode(sb.substring(0, sb.length() - 2));
-    }
-    return result;
-  }
-
-  public static String enumItems(TableWrapper[] tw) {
-    String result = "";
-    StringBuffer sb = new StringBuffer();
-    for (int i = 0; i < tw.length; i++) {
-      sb.append(tw[i].getMainText()).append(", ");
-    }
-    if (sb.length() > 0) {
-      result = Utilities.xmlEncode(sb.substring(0, sb.length() - 2));
-    }
-    return result;
-  }
-
-  public static String em(String m) {
+  static public String em(String m) {
     StringBuffer result = new StringBuffer();
     if (m != null) {
       for (int i = m.length() - 1; i >= 0; i--) {
         char ch = m.charAt(i);
-        if (ch == '@') {
-          result.append("-at-");
-        } else if (ch == '.') {
-          result.append("-dot-");
-        } else {
-          result.append(ch);
+        switch(ch){
+          case '@':
+            result.append("-at-");
+            break;
+          case '.':
+            result.append("-dot-");
+            break;
+          default:
+            result.append(ch);
         }
       }
     }
     return result.substring(0);
-  }
-
-  public static JSONObject readJSON(InputStream is) throws Exception {
-    return new JSONObject(IOUtils.toString(is, "UTF-8"));
   }
 
   public String getServerBase() {

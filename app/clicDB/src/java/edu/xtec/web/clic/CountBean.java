@@ -42,7 +42,7 @@ public class CountBean extends PageBean {
     //@Override
     protected void getRequestParams(HttpServletRequest request) throws Exception {
         super.getRequestParams(request);
-        by = getParam(request, BY, ListBean.WILD);
+        by = Utilities.getParam(request, BY, ListBean.WILD);
     }
 
     protected void process(edu.xtec.util.db.ConnectionBean con) throws Exception {

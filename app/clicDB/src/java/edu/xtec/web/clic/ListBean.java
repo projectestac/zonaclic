@@ -62,9 +62,9 @@ public class ListBean extends PageBean {
     //@Override
     protected void getRequestParams(HttpServletRequest request) throws Exception {
         super.getRequestParams(request);
-        area = getParam(request, AREA, WILD);
-        idioma = getParam(request, IDIOMA, WILD);
-        nivell = getParam(request, NIVELL, WILD);
+        area = Utilities.getParam(request, AREA, WILD);
+        idioma = Utilities.getParam(request, IDIOMA, WILD);
+        nivell = Utilities.getParam(request, NIVELL, WILD);
         //ctm=getBoolParam(request, CTM, true);
         ctm = ONE.equals(request.getParameter(CTM));
 

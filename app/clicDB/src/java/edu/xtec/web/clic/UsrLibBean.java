@@ -1,11 +1,8 @@
 package edu.xtec.web.clic;
 
 import edu.xtec.util.db.ConnectionBean;
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.net.URL;
 import java.text.DateFormat;
 import java.util.Date;
@@ -56,11 +53,11 @@ public class UsrLibBean extends PageBean {
       }
     }
 
-    String token = getParam(request, ID_TOKEN, null);
+    String token = Utilities.getParam(request, ID_TOKEN, null);
     if (token != null) {
       // Validate token
       URL verifyURL = new URL(CHECK_GOOGLE_TOKEN + token);
-      JSONObject json = readJSON(verifyURL.openStream());
+      JSONObject json = Utilities.readJSON(verifyURL.openStream());
       
       // Check for valid email
       email = json.getString("email");
@@ -71,7 +68,7 @@ public class UsrLibBean extends PageBean {
 
       // Read settings
       File settingsFile = new File(Context.cntx.getProperty("userLibCfg", "settings.json"));
-      JSONObject settings = readJSON(new FileInputStream(settingsFile));
+      JSONObject settings = Utilities.readJSON(new FileInputStream(settingsFile));
       quota = settings.optLong("quota", quota);
       // Find user 
       boolean validUser = "xtec.cat".equals(hd);

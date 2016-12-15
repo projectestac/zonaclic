@@ -40,7 +40,8 @@ public class Context extends java.util.Properties implements ServletContextListe
 
     public static final String DEFAULT_SERVER_BASE = "http://clic.xtec.cat";
     public static final String DEFAULT_APP_BASE = "http://clic.xtec.cat/db";
-
+    public static final String DEFAULT_FILE_BASE = "/tmp";
+    private static File fileBase = null;
 
     public void contextInitialized(ServletContextEvent sce) {
 
@@ -105,4 +106,11 @@ public class Context extends java.util.Properties implements ServletContextListe
     public static String getAppBase() {
         return cntx == null ? DEFAULT_APP_BASE : cntx.getProperty("appBase", DEFAULT_APP_BASE);
     }
+    
+    public static File getStaticFileBase(){
+      if(fileBase == null)
+        fileBase = new File(cntx == null ? DEFAULT_FILE_BASE : cntx.getProperty("staticFilesPath", DEFAULT_FILE_BASE));      
+      return fileBase;
+    }
+        
 }

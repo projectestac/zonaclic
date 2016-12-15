@@ -43,7 +43,7 @@ public class ActBean extends PageBean {
     //@Override
     protected void getRequestParams(HttpServletRequest request) throws Exception {
         super.getRequestParams(request);
-        String s = getParam(request, ID, null);
+        String s = Utilities.getParam(request, ID, null);
         id = 1148;
         if (s != null && s.length() > 0) {
             try {
@@ -87,7 +87,7 @@ public class ActBean extends PageBean {
     }
     
     public String getDescriptors() {
-        return enumItems(act.descriptors);
+        return Utilities.enumItems(act.descriptors);
     }
     
     public String getTopicTitle() {
@@ -107,7 +107,7 @@ public class ActBean extends PageBean {
         }
         
         sb.append(bundle.getString("j".equals(v.tipus) ? "ver_jclic" : "ver_clic"));
-        String ident = enumItems(v.idiomes);
+        String ident = Utilities.enumItems(v.idiomes);
         if (ident != null && ident.length() > 0) {
             sb.append(" - ").append(ident);
         }
@@ -134,8 +134,8 @@ public class ActBean extends PageBean {
     
     public String[][] getInfoCaixes() {
         ArrayList v = new ArrayList(4);
-        v.add(new String[]{getTopicTitle(), enumItems(act.arees)});
-        v.add(new String[]{getLevelTitle(), enumItems(act.nivells)});
+        v.add(new String[]{getTopicTitle(), Utilities.enumItems(act.arees)});
+        v.add(new String[]{getLevelTitle(), Utilities.enumItems(act.nivells)});
         v.add(new String[]{getMsg("date"), dateFormat.format(act.data_creacio)});
         if (act.data_revisio != null && act.data_revisio.after(act.data_creacio)) {
             v.add(new String[]{getMsg("last_revision"), dateFormat.format(act.data_revisio)});

@@ -51,7 +51,7 @@ public class GetUserInfoServlet extends HttpServlet {
       loadUserData(request);
       writer.write(getJsonUserInfo().toString());
     } catch (Exception ex) {
-      //writer.print("{\"status\":\"error\",\"error\":\"" + JSONStringer.getString(ex.getMessage()) + "\"}");
+      writer.print("{\"status\":\"error\",\"error\":\"" + JSONStringer.getString(ex.getMessage()) + "\"}");
     } finally {
       writer.flush();
     }
@@ -61,17 +61,18 @@ public class GetUserInfoServlet extends HttpServlet {
 
     // Read root base location
     if (ROOT_BASE == null) {
-      ROOT_BASE = new File(Context.cntx.getProperty("userLibRoot", "."));
+      
+      ROOT_BASE = new File(Context.getStaticFileBase(), Context.cntx.getProperty("userLibRoot", "users"));
       if (!ROOT_BASE.canWrite()) {
         throw new Exception("Invalid root base!");
       }
     }
 
-    String token = PageBean.getParam(request, ID_TOKEN, null);
+    String token = Utilities.getParam(request, ID_TOKEN, null);
     if (token != null) {
       // Validate token
       URL verifyURL = new URL(CHECK_GOOGLE_TOKEN + token);
-      JSONObject json = PageBean.readJSON(verifyURL.openStream());
+      JSONObject json = Utilities.readJSON(verifyURL.openStream());
 
       // Check for valid email
       email = json.getString("email");
@@ -81,8 +82,8 @@ public class GetUserInfoServlet extends HttpServlet {
       String hd = json.optString("hd", "");
 
       // Read settings
-      File settingsFile = new File(Context.cntx.getProperty("userLibCfg", "settings.json"));
-      JSONObject settings = PageBean.readJSON(new FileInputStream(settingsFile));
+      File settingsFile = new File(Context.getStaticFileBase(), Context.cntx.getProperty("userLibCfg", "users/settings.json"));
+      JSONObject settings = Utilities.readJSON(new FileInputStream(settingsFile));
       quota = settings.optLong("quota", quota);
       // Find user 
       boolean validUser = "xtec.cat".equals(hd);

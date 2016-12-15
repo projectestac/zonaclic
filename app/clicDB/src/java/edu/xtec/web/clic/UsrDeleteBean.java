@@ -23,7 +23,7 @@ public class UsrDeleteBean extends UsrLibBean {
     if (email != null && userSpace != null) {
       status = "error";
       err = "bad request";
-      if(userSpace.removeProject(getParam(request, "project", null))){
+      if(userSpace.removeProject(Utilities.getParam(request, "project", null))){
         setSessionAttributes(request.getSession(false));
         status = "ok";
         err = null; 

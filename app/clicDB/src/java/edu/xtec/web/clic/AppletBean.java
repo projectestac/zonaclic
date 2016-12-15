@@ -53,21 +53,21 @@ public class AppletBean extends PageBean {
     protected void getRequestParams(HttpServletRequest request) throws Exception {
         super.getRequestParams(request);
 
-        project = getParam(request, PROJECT, "");
-        title = getParam(request, TITLE, "");
+        project = Utilities.getParam(request, PROJECT, "");
+        title = Utilities.getParam(request, TITLE, "");
         if (title.length() > 0) {
             title = ": " + title;
         }
-        skin = getParam(request, SKIN, null);
-        reporter = getParam(request, REPORTER, null);
+        skin = Utilities.getParam(request, SKIN, null);
+        reporter = Utilities.getParam(request, REPORTER, null);
         if (reporter != null) {
-            reporterClass = getParam(request, REPORTER, DEFAULT_REPORTER_CLASS);
+            reporterClass = Utilities.getParam(request, REPORTER, DEFAULT_REPORTER_CLASS);
         }
-        exitUrl = getParam(request, EXIT_URL, null);
-        infoUrlFrame = getParam(request, INFO_URL_FRAME, null);
-        sequence = getParam(request, SEQUENCE, null);
-        systemSounds = getParam(request, SYSTEM_SOUNDS, null);
-        compressImages = getParam(request, COMPRESS_IMAGES, null);
+        exitUrl = Utilities.getParam(request, EXIT_URL, null);
+        infoUrlFrame = Utilities.getParam(request, INFO_URL_FRAME, null);
+        sequence = Utilities.getParam(request, SEQUENCE, null);
+        systemSounds = Utilities.getParam(request, SYSTEM_SOUNDS, null);
+        compressImages = Utilities.getParam(request, COMPRESS_IMAGES, null);
 
     }
 

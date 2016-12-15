@@ -80,7 +80,7 @@ public class UserProject implements java.io.Serializable {
   public void readProjectData() throws Exception {
     File prjJson = new File(prjRoot, "project.json");
     if (prjJson.exists()) {
-      JSONObject json = UsrLibBean.readJSON(new FileInputStream(prjJson));
+      JSONObject json = Utilities.readJSON(new FileInputStream(prjJson));
       title = json.optString("title", title);
       author = json.optString("author", author);
       school = json.optString("school", school);
