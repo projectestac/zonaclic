@@ -57,6 +57,10 @@
     <param-value>EDU_JCLIC_SETTINGS</param-value>
   </context-param>
   <context-param>
+    <param-name>USERLOG_TABLE</param-name>
+    <param-value>LOG_USERACTIONS</param-value>
+  </context-param>
+  <context-param>
     <param-name>testKey</param-name>
     <param-value>READ_FROM_DATABASE</param-value>
   </context-param>
@@ -70,6 +74,14 @@
     <param-value>READ_FROM_DATABASE</param-value>
     <description>/j2ee/e13_clic/web/</description>
   </context-param>
+  <context-param>
+    <param-name>userLibRoot</param-name>
+    <param-value>users</param-value>
+  </context-param>
+  <context-param>
+    <param-name>userLibCfg</param-name>
+    <param-value>users/settings.json</param-value>
+  </context-param>  
   <listener>
     <listener-class>edu.xtec.web.clic.Context</listener-class>
   </listener>

@@ -5,6 +5,7 @@
  */
 package edu.xtec.web.clic.userlib;
 
+import edu.xtec.util.db.ConnectionBean;
 import edu.xtec.web.clic.Context;
 import edu.xtec.web.clic.Utilities;
 import java.io.File;
@@ -12,6 +13,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.URL;
+import java.sql.PreparedStatement;
 import java.text.DateFormat;
 import java.util.Date;
 import javax.servlet.http.HttpServlet;
@@ -52,8 +54,10 @@ public class GetUserInfo extends HttpServlet {
     try {
       loadUserData(request);
       writer.write(getJsonUserInfo().toString());
+      logMsg("INFO", userId, "User logged in");
     } catch (Exception ex) {
       writer.print("{\"status\":\"error\",\"error\":\"" + JSONStringer.getString(ex.getMessage()) + "\"}");
+      logMsg("ERROR", userId == null ? "unknown" : userId, "Log in incorrect: "+ex.getMessage());
     } finally {
       writer.flush();
     }
@@ -78,7 +82,7 @@ public class GetUserInfo extends HttpServlet {
       // Check for valid email
       email = json.getString("email");
       if (email == null) {
-        throw new Exception("Invalid user");
+        throw new Exception("Usuari desconegut");
       }
       String hd = json.optString("hd", "");
 
@@ -99,7 +103,7 @@ public class GetUserInfo extends HttpServlet {
         }
       }
       if (!validUser) {
-        throw new Exception("Invalid user");
+        throw new Exception("Usuari no autoritzat: "+email);
       }
 
       userId = getPlainId(email, "xtec.cat");
@@ -176,6 +180,41 @@ public class GetUserInfo extends HttpServlet {
       }
     }
     return new String(ch);
+  }
+  
+  /**
+   * TAULA CREADA AMB:
+   * CREATE TABLE CLIC.LOG_USERACTIONS
+   * (
+   *   LOG_DATE DATE,
+   *   LOG_TYPE CHAR(5),
+   *   LOG_USER VARCHAR2(100),
+   *   LOG_MSG VARCHAR2(2014)
+   * )
+   */  
+  protected void logMsg(String type, String user, String msg){
+    ConnectionBean con = null;
+    PreparedStatement stmt = null;
+    try {
+      con = Context.cntx.getDB().getConnectionBean();
+      stmt = con.getPreparedStatement("INSERT INTO CLIC.LOG_USERACTIONS (LOG_DATE, LOG_TYPE, LOG_USER, LOG_MSG) VALUES (?,?,?,?)");
+      stmt.setDate(1, new java.sql.Date(System.currentTimeMillis()));
+      stmt.setString(2, type);
+      stmt.setString(3, user==null ? "" : user);
+      stmt.setString(4, msg);
+      stmt.execute();
+    } catch(Exception ex) {
+      System.err.println("Unable to write logs to DB due to: "+ex.getMessage());      
+    } finally {
+      if(con!=null) {
+        try {
+          con.closeStatement(stmt);
+          Context.cntx.getDB().freeConnectionBean(con);
+        } catch(Exception ex) {
+          System.err.println("Unable to close DB connection due to: "+ex.getMessage());
+        }
+      }
+    }
   }
 
 }
