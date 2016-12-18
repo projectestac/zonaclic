@@ -50,14 +50,13 @@ public class GetUserInfo extends HttpServlet {
     response.setContentType("application/json");
     response.setCharacterEncoding("UTF-8");
     PrintWriter writer = response.getWriter();
-
     try {
       loadUserData(request);
       writer.write(getJsonUserInfo().toString());
-      logMsg("INFO", userId, "User logged in");
+      logMsg("INFO", "User logged in");
     } catch (Exception ex) {
       writer.print("{\"status\":\"error\",\"error\":\"" + JSONStringer.getString(ex.getMessage()) + "\"}");
-      logMsg("ERROR", userId == null ? "unknown" : userId, "Log in incorrect: "+ex.getMessage());
+      logMsg("ERROR", "Log in incorrect: " + ex.getMessage());
     } finally {
       writer.flush();
     }
@@ -66,7 +65,7 @@ public class GetUserInfo extends HttpServlet {
   protected void loadUserData(HttpServletRequest request) throws Exception {
 
     // Read root base location
-    if (ROOT_BASE == null) {      
+    if (ROOT_BASE == null) {
       ROOT_BASE = new File(Context.getStaticFileBase(), Context.cntx.getProperty("userLibRoot", "users"));
       if (!ROOT_BASE.canWrite()) {
         throw new Exception("Invalid root base!");
@@ -103,7 +102,7 @@ public class GetUserInfo extends HttpServlet {
         }
       }
       if (!validUser) {
-        throw new Exception("Usuari no autoritzat: "+email);
+        throw new Exception("Usuari no autoritzat: " + email);
       }
 
       userId = getPlainId(email, "xtec.cat");
@@ -181,18 +180,26 @@ public class GetUserInfo extends HttpServlet {
     }
     return new String(ch);
   }
-  
-  /**
-   * TAULA CREADA AMB:
-   * CREATE TABLE CLIC.LOG_USERACTIONS
-   * (
-   *   LOG_DATE DATE,
-   *   LOG_TYPE CHAR(5),
-   *   LOG_USER VARCHAR2(100),
-   *   LOG_MSG VARCHAR2(2014)
-   * )
-   */  
-  protected void logMsg(String type, String user, String msg){
+
+  /* ---------------------------------------
+
+Taula creada amb:
+------------------------------------------  
+CREATE TABLE  "LOG_USERACTIONS" 
+   (	"LOG_DATE" DATE NOT NULL ENABLE, 
+	"LOG_TYPE" CHAR(5) NOT NULL ENABLE, 
+	"LOG_USER" VARCHAR2(100), 
+	"LOG_MSG" VARCHAR2(1024)
+   )
+/
+
+CREATE INDEX  "LOG_USERACTIONS_LOG_DATE_IDX" ON  "LOG_USERACTIONS" ("LOG_DATE")
+/
+
+CREATE INDEX  "LOG_USERACTIONS_LOG_TYPE_IDX" ON  "LOG_USERACTIONS" ("LOG_TYPE")
+/
+------------------------------------------ */
+  protected void logMsg(String type, String msg) {
     ConnectionBean con = null;
     PreparedStatement stmt = null;
     try {
@@ -200,18 +207,18 @@ public class GetUserInfo extends HttpServlet {
       stmt = con.getPreparedStatement("INSERT INTO CLIC.LOG_USERACTIONS (LOG_DATE, LOG_TYPE, LOG_USER, LOG_MSG) VALUES (?,?,?,?)");
       stmt.setDate(1, new java.sql.Date(System.currentTimeMillis()));
       stmt.setString(2, type);
-      stmt.setString(3, user==null ? "" : user);
+      stmt.setString(3, userId == null ? "unknown" : userId);
       stmt.setString(4, msg);
       stmt.execute();
-    } catch(Exception ex) {
-      System.err.println("Unable to write logs to DB due to: "+ex.getMessage());      
+    } catch (Exception ex) {
+      System.err.println("Unable to write logs to DB due to: " + ex.getMessage());
     } finally {
-      if(con!=null) {
+      if (con != null) {
         try {
           con.closeStatement(stmt);
           Context.cntx.getDB().freeConnectionBean(con);
-        } catch(Exception ex) {
-          System.err.println("Unable to close DB connection due to: "+ex.getMessage());
+        } catch (Exception ex) {
+          System.err.println("Unable to close DB connection due to: " + ex.getMessage());
         }
       }
     }

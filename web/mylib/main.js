@@ -163,7 +163,7 @@ function errorHandler(e) {
 function getProjectElement$(project) {
   var basePath = usrLibRoot + project.basePath + '/';
   console.log(project);
-  var result$ = $('<div/>', {class: 'project'});
+  var result$ = $('<div/>', {class: 'project mdl-card mdl-shadow--2dp'});
   result$.append($('<ul/>')
           .append($('<li/>').html('Name: ' + project.name))
           .append($('<li/>').html('Title: ' + project.title))

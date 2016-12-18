@@ -37,7 +37,6 @@ public class UploadScormFile extends GetUserInfo {
     response.setContentType("application/json");
     response.setCharacterEncoding("UTF-8");
     PrintWriter writer = response.getWriter();
-
     try {
       loadUserData(request);
       if (email != null && userSpace != null) {
@@ -79,8 +78,14 @@ public class UploadScormFile extends GetUserInfo {
         }
       }
       writer.write(getJsonResponse().toString());
+      if ("ok".equals(status) && prj != null) {
+        logMsg("INFO", "Project uploaded: \"" + prj.name + "\"");
+      } else {
+        logMsg("ERROR", "Error uploading project " + (prj != null ? prj.name : "unknown") + ": " + err);
+      }
     } catch (Exception ex) {
       writer.print("{\"status\":\"error\",\"error\":\"" + JSONStringer.getString(ex.getMessage()) + "\"}");
+      logMsg("ERROR", "Error uploading project " + (prj != null ? prj.name : "unknown") + ": " + ex.getMessage());
     } finally {
       writer.flush();
     }

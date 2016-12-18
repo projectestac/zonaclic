@@ -25,12 +25,12 @@ public class DeleteProject extends GetUserInfo {
   protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
     response.setContentType("application/json");
     response.setCharacterEncoding("UTF-8");
+    String project = Utilities.getParam(request, "project", null);
     PrintWriter writer = response.getWriter();
-
     try {
       loadUserData(request);
       if (email != null && userSpace != null) {
-        if (userSpace.removeProject(Utilities.getParam(request, "project", null))) {
+        if (userSpace.removeProject(project)) {
           setSessionAttributes(request.getSession(false));
           status = "ok";
         } else {
@@ -39,8 +39,14 @@ public class DeleteProject extends GetUserInfo {
         }
       }
       writer.write(getJsonResponse().toString());
+      if ("ok".equals(status)) {
+        logMsg("INFO", "Project \"" + project + "\" deleted");
+      } else {
+        logMsg("ERROR", "Invalid delete request of project \"" + project + "\"");
+      }
     } catch (Exception ex) {
       writer.print("{\"status\":\"error\",\"error\":\"" + JSONStringer.getString(ex.getMessage()) + "\"}");
+      logMsg("ERROR", "Error in delete request of project \"" + project + "\": " + ex.getMessage());
     } finally {
       writer.flush();
     }
