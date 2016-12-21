@@ -1,0 +1,27 @@
+.mdl-layout__header-row {
+  padding-left: 20pt;
+}
+
+.avatar {
+  max-width: 36pt;
+  max-height: 36pt;
+  border-radius: 50%;
+  margin-right: 5pt;
+}
+
+#mainGrid {
+  max-width: 1200pt;
+}
+
+.hidden {
+  display: none;
+}
+
+.mdl-mini-footer .mdl-logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.mdl-data-table {
+  margin-bottom: 10pt;
+}
