@@ -210,7 +210,8 @@ public class JSONTokener {
           // a new string avoids leaking memory
           return new String(in.substring(start, pos - 1));
         } else {
-          builder.append(in.toCharArray(), start, pos - 1);
+          //builder.append(in.toCharArray(), start, pos - 1);
+          builder.append(in.substring(start, pos-1));
           return builder.toString();
         }
       }
@@ -222,7 +223,8 @@ public class JSONTokener {
         if (builder == null) {
           builder = new StringBuffer();
         }
-        builder.append(in.toCharArray(), start, pos - 1);
+        //builder.append(in.toCharArray(), start, pos - 1);
+        builder.append(in.substring(start, pos-1));
         builder.append(readEscapeCharacter());
         start = pos;
       }
