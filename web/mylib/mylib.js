@@ -39,15 +39,19 @@ function onSignIn(googleUser) {
 }
 
 // Called when we have a valid XTEC user
-function loginOK(data) {  
+function loginOK(data) {
   $('#fullUserName').html(data.fullUserName);
   $('.avatar').attr('src', data.avatar);
   $('#userName').html(data.id);
   $('#userNumProjects').html(data.projects.length);
   $('#usedBytes').html(toMB(data.currentSize) + ' MB');
-  $('#availBytes').html(toMB(data.quota - data.currentSize) + ' MB');
-  
+  $('#quota').html(toMB(data.quota) + ' MB');
+
   checkIfSignedIn();
+
+  for (var p = 0; p < data.projects.length; p++)
+    $('#mainGrid').append($buildProjectCard(data.projects[p]));
+
   console.log('User ' + data.id + ' signed in.');
 }
 
@@ -77,7 +81,7 @@ function checkIfSignedIn() {
     // No valid user is signed in
     $('#accountInfo').addClass('hidden');
     $('#userIdBox').addClass('hidden');
-    $('.project').remove();    
+    $('.project').remove();
     $('#gSignInBtn').removeClass('hidden');
     $('#loginSpinner').addClass('hidden');
     $('#loginBox').removeClass('hidden');
@@ -116,8 +120,84 @@ function init() {
   });
 }
 
-// Miscellaneous functions
+function $buildProjectCard(project) {
 
+  console.log(project);
+
+  var basePath = usrLibRoot + project.basePath + '/';
+  var $result = $('<div/>', {class: 'project mdl-cell mdl-cell--6-col project mdl-card mdl-shadow--2dp'});
+
+  $result.append($('<div/>', {class: 'mdl-card__title'}).css({background: 'url(\'' + basePath + project.cover + '\') center / cover'})
+          .append($('<h2/>', {class: 'mdl-card__title-text'}).html(project.title)));
+
+  var lang = project.meta_langs && project.meta_langs.length > 0 ? project.meta_langs[0] : '';
+
+  $result.append($('<div/>', {class: 'mdl-card__supporting-text'}).html(
+          'Carpeta: ' + project.name + '<br>\n' +
+          'Mida: ' + toMB(project.totalFileSize) + ' MB<br>\n' +
+          'Autor/a: ' + project.author + '<br>\n' +
+          'Centre: ' + project.school + '<br>\n' +
+          (project.languages && project.languages[lang] ? 'Idioma: ' + project.languages[lang] + '<br>\n' : '') +
+          (project.levels && project.levels[lang] ? 'Nivell: ' + project.levels[lang] + '<br>\n' : '') +
+          (project.areas && project.areas[lang] ? 'Àrea: ' + project.areas[lang] + '<br>\n' : '') +
+          (project.descriptions && project.descriptions[lang] ? project.descriptions[lang] : '')
+          ));
+
+  var $deleteBtn = $('<button/>', {class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect', title: 'Esborra el projecte'})
+          .append($('<i/>', {class: 'material-icons'}).html('delete')).on('click', function () {
+    if (window.confirm('Segur que voleu esborrar definitivament el projecte? (no es pot desfer)'))
+      $.ajax({
+        url: '/db/deleteProject',
+        type: 'POST',
+        data: {project: project.name},
+        success: function (e) {
+          if (e.status === 'ok')
+            $result.remove();
+          else
+            window.alert(e.status + ' ' + e.err);
+        },
+        error: function (xhr, err) {
+          // TODO: Improve the info displayed about the error
+          window.alert('ERROR ' + xhr.status + ' ' + xhr.responseText);
+        },
+        cache: false,
+        dataType: 'json'
+      });
+  });
+
+  var $shareBtn = $('<button/>', {class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect', title: 'Comparteix...'})
+          .append($('<i/>', {class: 'material-icons'}).html('share').on('click', function () {
+            // TODO: Implement share options
+          }));
+
+  var $downloadBtn = $('<button/>', {class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect', title: 'Descarrega el fitxer'})
+          .append($('<i/>', {class: 'material-icons'}).html('cloud_download').on('click', function () {
+            // TODO: Implement file download
+          }));
+
+  var $editBtn = $('<button/>', {class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect', title: 'Edita el projecte'})
+          .append($('<i/>', {class: 'material-icons'}).html('edit').on('click', function () {
+            // TODO: Implement edit
+          }));
+
+  var $playBtn = $('<a/>', {
+    class: 'mdl-button mdl-button--icon mdl-button--raised mdl-button--accent mdl-js-button mdl-js-ripple-effect',
+    title: 'Obre el projecte',
+    href: basePath + 'index.html',
+    target: '_BLANK'})
+          .append($('<i/>', {class: 'material-icons'}).html('play_arrow'));
+
+  $result.append($('<div/>', {class: 'mdl-card__actions mdl-card--border'})
+          .append($downloadBtn, $editBtn, $deleteBtn, $shareBtn));
+
+  $result.append($('<div/>', {class: 'mdl-card__menu'})
+          .append($playBtn));
+
+  return $result;
+}
+
+// Miscellaneous functions
+//
 function toMB(bytes) {
-  return Math.round(10*bytes/(1024*1024))/10;
+  return Math.round(10 * bytes / (1024 * 1024)) / 10;
 }

@@ -10,7 +10,7 @@
 }
 
 #mainGrid {
-  max-width: 1200pt;
+  max-width: 1000pt;
 }
 
 .hidden {
@@ -22,6 +22,15 @@
   color: inherit;
 }
 
-.mdl-data-table {
-  margin-bottom: 10pt;
+#accountInfo h2 {
+  font-size: 14pt;
 }
+
+.project .mdl-card__title {
+  min-height: 80pt;
+}
+
+.project .mdl-card__actions {
+  text-align: right;
+}
+

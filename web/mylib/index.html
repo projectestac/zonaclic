@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="ca">
   <head>
-    <meta name="google-signin-scope" content="profile email">
-    <meta name="google-signin-client_id" content="628119593973-72bhu9uv9jrlaqv3c7o1h9quf6jocspn.apps.googleusercontent.com">
+    <meta charset="utf-8"/>
+    <meta name="google-signin-scope" content="profile email"/>
+    <meta name="google-signin-client_id" content="628119593973-72bhu9uv9jrlaqv3c7o1h9quf6jocspn.apps.googleusercontent.com"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="mylib.js"></script>
     <script src="https://apis.google.com/js/platform.js?onload=gApiLoaded" async defer></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue-indigo.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue-indigo.min.css"/>
     <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>    
-    <link href="mylib.css" rel="stylesheet" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link href="mylib.css" rel="stylesheet" type="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -19,13 +20,12 @@
           <span class="mdl-layout__title">La meva zonaClic</span>
           <div class="mdl-layout-spacer"></div>
           <div class="mdl-layout-content hidden" id="userIdBox">
-            <img class="avatar">
-            <span id="fullUserName"></span>
+            <img class="avatar">            
           </div>
         </div>          
       </header>
       <main class="mdl-layout__content">
-        <div class="mdl-grid" id="mainGrid">
+        <div id="mainGrid" class="mdl-grid">
 
           <div id="loginBox" class="mdl-cell mdl-cell--12-col hidden">
             <p>Inicieu la sessió amb el vostre identificador XTEC:</p>
@@ -34,24 +34,22 @@
             <p id="loginMsg"></p>
           </div>
 
-          <div id="accountInfo" class="mdl-cell mdl-cell--12-col hidden">
-            <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
-              <tbody>
-                <tr><td class="mdl-data-table__cell--non-numeric"><i class="material-icons">mood</i> Sessió iniciada per:</td><td id="userName">?</td></tr>
-                <tr><td class="mdl-data-table__cell--non-numeric">Projectes publicats:</td><td id="userNumProjects">0</td></tr>
-                <tr><td class="mdl-data-table__cell--non-numeric">Espai de disc ocupat:</td><td id="usedBytes">0 MB</td></tr>
-                <tr><td class="mdl-data-table__cell--non-numeric">Espai de disc disponible:</td><td id="availBytes">0 MB</td></tr>
-              </tbody>
-            </table>
-            <!-- p>Sessió iniciada per: <span id="userName">?</span></p>
-            <p>Projectes publicats: <span id="userNumProjects">0</span></p>
-            <p>Espai de disc ocupat: <span id="usedBytes">0 MB</span></p>
-            <p>Espai de disc disponible: <span id="availBytes">0 MB</span></p -->            
-            <button id="logoutBtn" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">
-              Tanca la sessió
-            </button>                        
+          <div id="accountInfo" class ="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col hidden">
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Dades del compte</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Usuari: <span id="fullUserName">?</span><br>
+              Ubicació de la biblioteca: https://clic.xtec.cat/users/<span id="userName"></span><br>
+              Projectes publicats: <span id="userNumProjects">0</span><br>
+              Espai de disc ocupat: <span id="usedBytes">0 MB</span> (de <span id="quota">0 MB</span> disponibles)<br>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <button id="logoutBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                Tanca la sessió
+              </button>
+            </div>              
           </div>
-
 
           <div class="mdl-cell mdl-cell--6-col project">projecte1</div>
           <div class="mdl-cell mdl-cell--6-col project">projecte2</div>
