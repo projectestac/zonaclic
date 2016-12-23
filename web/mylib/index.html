@@ -9,7 +9,9 @@
     <script src="https://apis.google.com/js/platform.js?onload=gApiLoaded" async defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
     <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue-indigo.min.css"/>
-    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>    
+    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <script src="dialog-polyfill/dialog-polyfill.js"></script>
+    <link rel="stylesheet" type="text/css" href="dialog-polyfill/dialog-polyfill.css" />    
     <link href="mylib.css" rel="stylesheet" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
@@ -45,16 +47,15 @@
               Espai de disc ocupat: <span id="usedBytes">0 MB</span> (de <span id="quota">0 MB</span> disponibles)<br>
             </div>
             <div class="mdl-card__actions mdl-card--border">
-              <button id="logoutBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                Tanca la sessió
-              </button>
+              <button id="uploadBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Publica un nou projecte</button>
+              <button id="logoutBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Tanca la sessió</button>
             </div>              
           </div>
 
           <div class="mdl-cell mdl-cell--6-col project">projecte1</div>
           <div class="mdl-cell mdl-cell--6-col project">projecte2</div>
         </div>
-      </main>
+      </main>      
       <!-- footer class="mdl-mini-footer">
         <div class="mdl-mini-footer__left-section">
           <div class="mdl-logo"><a href="http://clic.xtec.cat">zonaClic</a></div>
@@ -67,5 +68,38 @@
         </div>        
       </footer -->      
     </div>
+    <dialog id="uploadDlg" class="mdl-dialog">
+      <h4 class="mdl-dialog__title">Publicació de projectes</h4>
+      <div class="mdl-dialog__content">
+        <form id="uploadForm" enctype="multipart/form-data">
+          <p>Per publicar un projecte JClic l'heu d'<strong>exportar</strong> abans al format SCORM HTML5
+            amb el <a href="http://clic.xtec.cat/ca/jclic/download.htm" target="_BLANK">JClic Author</a>.<br>
+            El fitxer resultant porta l'extensió <span class="code">.scorm.zip</span></p>
+          <p id="fileSelectBlock">
+            <label class="mdl-button mdl-js-button mdl-button--raised">                    
+              <input id="scormFileInput" type="file" name="scormFile" accept=".scorm.zip" style="display:none"/>
+              Selecciona un fitxer .scorm.zip
+            </label>
+          </p>
+          <p id="fileInfoBlock" class="hidden">
+            Fitxer seleccionat: <span id="fileInfo">nomdelfitxer (xxx MB)</span><br>
+            <span id="fileWarn" class="warning"></span>
+          </p>
+          <p id="folderNameBlock" class="hidden">
+            <label for="projectNameInput">Nom del directori on es publicarà el projecte: </label>
+            <input id="projectNameInput" type="text" name="project" /><br>
+            <span id="fileNameWarn" class="warning"></span><br>            
+          </p>
+        </form>
+        <div id="fileUploadProgressBlock" class="hidden">
+          <p id="uploadMsg">S'està pujant el fitxer...</p>
+          <div id="spinner" class="mdl-spinner mdl-js-spinner"></div>
+        </div>
+      </div>
+      <div class="mdl-dialog__actions">
+        <button id="uploadCancel" type="button" class="mdl-button close">Cancel·la</button>
+        <button id="uploadOK" type="button" class="mdl-button" disabled>Puja el projecte</button>
+      </div>
+    </dialog>
   </body>
 </html>

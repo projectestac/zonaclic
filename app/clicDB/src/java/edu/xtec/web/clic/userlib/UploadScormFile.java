@@ -112,6 +112,8 @@ public class UploadScormFile extends GetUserInfo {
       if (projectName == null || "".equals(projectName)) {
         projectName = fileName.substring(0, fileName.indexOf('.'));
       }
+      
+      projectName = UserProject.getValidName(projectName);
 
       // Reset project if exists
       userSpace.removeProject(projectName);

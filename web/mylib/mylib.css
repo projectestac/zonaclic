@@ -34,3 +34,25 @@
   text-align: right;
 }
 
+#uploadDlg {
+  width: 80%;
+  max-width: 600pt;
+}
+
+#uploadDlg a {
+  outline: none;
+}
+
+.mdl-dialog__title {
+  font-size: 16pt;
+}
+
+.code {
+  font-family: monospace;
+}
+
+.warning {
+  color: red;
+}
+
+
