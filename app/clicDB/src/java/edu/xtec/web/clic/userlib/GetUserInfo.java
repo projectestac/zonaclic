@@ -34,7 +34,7 @@ public class GetUserInfo extends HttpServlet {
   /* 50 MB */
   public static final String ID_TOKEN = "id_token";
   public static final String CHECK_GOOGLE_TOKEN = "https://www.googleapis.com/oauth2/v3/tokeninfo?id_token=";
-  public static File ROOT_BASE = null;
+  private static File ROOT_BASE = null;
 
   public String email;
   public String userId;
@@ -63,15 +63,6 @@ public class GetUserInfo extends HttpServlet {
   }
 
   protected void loadUserData(HttpServletRequest request) throws Exception {
-
-    // Read root base location
-    if (ROOT_BASE == null) {
-      ROOT_BASE = new File(Context.getStaticFileBase(), Context.cntx.getProperty("userLibRoot", "users"));
-      if (!ROOT_BASE.canWrite()) {
-        throw new Exception("Invalid root base!");
-      }
-    }
-
     String token = Utilities.getParam(request, ID_TOKEN, null);
     if (token != null) {
       // Validate token
@@ -106,7 +97,7 @@ public class GetUserInfo extends HttpServlet {
       }
 
       userId = getPlainId(email, "xtec.cat");
-      userSpace = new UserSpace(userId, new File(ROOT_BASE, userId));
+      userSpace = new UserSpace(userId, new File(getRootBase(), userId));
       userSpace.readProjects();
 
       fullUserName = json.getString("name");
@@ -179,6 +170,16 @@ public class GetUserInfo extends HttpServlet {
       }
     }
     return new String(ch);
+  }
+  
+  public static File getRootBase() throws IOException {
+    if (ROOT_BASE == null) {
+      ROOT_BASE = new File(Context.getStaticFileBase(), Context.cntx.getProperty("userLibRoot", "users"));
+      if (!ROOT_BASE.canWrite()) {
+        throw new IOException("Invalid root base!");
+      }
+    }    
+    return ROOT_BASE;
   }
 
   /* ---------------------------------------

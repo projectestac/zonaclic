@@ -1,13 +1,17 @@
 /* global $, gapi */
 
-// St the location of "users" dir
+// Set the location of "users" dir
 var url = new URL(window.location.href);
 var usrLibRoot = url.protocol + '//' + url.host + '/users/';
 
 // Flags to check when DOM and Google API are ready to start
 var gAPI_ready = false, DOM_ready = false, initialized = false;
 
-var currentAvailSize = 0;
+// Max disk space assigned to the current user, and amount currently used
+var userQuota = 0, usedBytes = 0;
+
+// Projects published by the current user
+var projects = [];
 
 // Polyfill for String.endsWith
 // See: https://developer.mozilla.org/ca/docs/Web/JavaScript/Referencia/Objectes_globals/String/endsWith
@@ -54,22 +58,31 @@ function onSignIn(googleUser) {
 
 }
 
-// Called when we have a valid XTEC user
+// Called when a valid user is logged in
 function loginOK(data) {
   $('#fullUserName').html(data.fullUserName);
   $('.avatar').attr('src', data.avatar);
   $('#userName').html(data.id);
-  $('#userNumProjects').html(data.projects.length);
-  $('#usedBytes').html(toMB(data.currentSize) + ' MB');
-  $('#quota').html(toMB(data.quota) + ' MB');
-  currentAvailSize = data.quota - data.currentSize;
-
+  projects = data.projects;
+  userQuota = data.quota;
+  usedBytes = data.currentSize;
+  updateSpaceInfo();
   checkIfSignedIn();
 
-  for (var p = 0; p < data.projects.length; p++)
-    $('#mainGrid').append($buildProjectCard(data.projects[p]));
+  for (var p = 0; p < projects.length; p++)
+    $('#mainGrid').append($buildProjectCard(projects[p]));
 
   console.log('User ' + data.id + ' signed in.');
+}
+
+// Update information about currently used and available space
+function updateSpaceInfo() {
+  $('#userNumProjects').html(projects.length);
+  usedBytes = 0;
+  for (var i = 0; i < projects.length; i++)
+    usedBytes += projects[i].totalFileSize;
+  $('#usedBytes').html(toMB(usedBytes) + ' MB');
+  $('#quota').html(toMB(userQuota) + ' MB');
 }
 
 // Called on Google log-in errors
@@ -77,10 +90,11 @@ function onSignInFailure() {
   $('#loginMsg').html('S\'ha produït un error en validar l\'usuari');
 }
 
-// Method used to sign out of the app.
+// Method used to sign out
 function signOut() {
   $('#loginMsg').empty();
-  currentAvailSize = 0;
+  userQuota = 0;
+  usedBytes = 0;
   var auth2 = gapi.auth2.getAuthInstance();
   auth2.signOut().then(function () {
     checkIfSignedIn();
@@ -88,7 +102,7 @@ function signOut() {
   });
 }
 
-// Checks if a valid user is signed in, and shows/hides DOM elements accordingly
+// Check if a valid user is signed in, and show/hide DOM elements accordingly
 function checkIfSignedIn() {
   if (gapi && gapi.auth2 && gapi.auth2.getAuthInstance().isSignedIn.get()) {
     // User is signed in
@@ -106,46 +120,107 @@ function checkIfSignedIn() {
   }
 }
 
-function initUploadDlg() {
+// Find the project with the given name
+function findProject(folderName) {
+  for (var i = 0; i < projects.length; i++)
+    if (projects[i].name === folderName)
+      return projects[i];
+  return null;
+}
 
+// Add a new project to `projects`, removing duplicate if needed
+function addProject(project) {
+  if (project !== null) {
+    removeProject(project);
+    projects.push(project);
+    $('#mainGrid').append($buildProjectCard(project));
+    updateSpaceInfo();
+  }
+}
+
+// Remove the given project from `projects`
+function removeProject(project) {
+  if (project !== null) {
+    var prj = findProject(project.name);
+    if (prj !== null) {
+      if (prj.card)
+        prj.card.remove();
+      projects = projects.splice(projects.indexOf(prj), 1);
+      updateSpaceInfo();
+    }
+  }
+}
+
+// Initialize the 'upload project' dialog
+function initUploadDlg() {
   var $uploadDlg = $('#uploadDlg');
   dialogPolyfill.registerDialog($uploadDlg[0]);
 
-  // Check proposed file name and size
+  var $folderInput = $('#projectNameInput'),
+          $folderWarn = $('#fileNameWarn'),
+          $uploadOK = $('#uploadOK'),
+          $fileWarn = $('#fileWarn');
+
+  // Check the proposed project name and size
   $('#scormFileInput').on('change', function () {
-    var file = this.files[0];
-    var folderName = file.name.substring(0, file.name.indexOf('.'));
-    $('#fileInfo').html(file.name + ' (' + toMB(file.size) + ' MB)');
+    if (this.files.length > 0) {
+      var file = this.files[0];
+      $('#fileNameInfo').html(file.name);
+      $('#fileSizeInfo').html('(' + toMB(file.size) + ' MB)');
 
-    var sizeOk = file.size < currentAvailSize;
-    var typeOk = file.name.toLowerCase().endsWith('.scorm.zip');
+      var folderName = file.name.substring(0, file.name.indexOf('.')).trim().replace(/[\W]/gi, '_').toLowerCase() || 'prj';
+      var sizeOk = file.size < (userQuota - usedBytes);
+      var typeOk = file.name.toLowerCase().endsWith('.scorm.zip');
 
-    if (!sizeOk)
-      $('#fileWarn').html('ERROR: El fitxer seleccionat excedeix l\'espai disponible!');
-    else if (!typeOk)
-      $('#fileWarn').html('ERROR: El fitxer seleccionat no és del tipus ".scorm.zip"');
+      if (!sizeOk)
+        $fileWarn.html('ERROR: El fitxer seleccionat excedeix l\'espai disponible!');
+      else if (!typeOk)
+        $fileWarn.html('ERROR: El fitxer seleccionat no és del tipus ".scorm.zip"');
 
-    $('#fileInfoBlock').removeClass('hidden');
+      $('#fileInfoBlock').removeClass('hidden');
 
-    if (sizeOk && typeOk) {
-      $('#projectNameInput').attr({value: folderName});
-      // Todo: check for duplicate folder names!
-      $('#folderNameBlock').removeClass('hidden');
-      $('#uploadOK').prop('disabled', false);
+      if (sizeOk && typeOk) {
+        // File ready to upload
+        $folderInput.val(folderName).trigger('input');
+        $('#folderNameBlock').removeClass('hidden');
+        $uploadOK.prop('disabled', false);
+      } else {
+        // File is not ready for uploading
+        $('#folderNameBlock').addClass('hidden');
+        $uploadOK.prop('disabled', true);
+      }
     } else {
-      $('#folderNameBlock').addClass('hidden');
-      $('#uploadOK').prop('disabled', true);
+      // Clear dialog
+      $('#fileInfo, #fileWarn').html('');
+      $('#fileInfoBlock, #folderNameBlock').addClass('hidden');
+      $uploadOK.prop('disabled', true);
     }
   });
 
+  // Dynamically check proposed project names
+  $folderInput.on('input', function () {
+    var folderName = $folderInput.val();
+    var ok = false;
+    if (folderName === '')
+      $folderWarn.html('ERROR: Heu d\'especificar un nom per al directori on es publicarà el projecte.');
+    else if (findProject(folderName) !== null) {
+      $folderWarn.html('ATENCIÓ: Ja existeix un projecte en aquest directori! El seu contingut serà substituït.');
+      ok = true;
+    } else if (/[\W]/gi.test(folderName))
+      $folderWarn.html('ERROR: El nom del directori no pot contenir accents, espais ni caràcters especials.');
+    else {
+      $folderWarn.html('');
+      ok = true;
+    }
+    $uploadOK.prop('disabled', !ok);
+  });
+
   // Upload the file
-  $('#uploadOK').on('click', function () {
-    
-    $('#uploadOK').prop('disabled', true);
+  $uploadOK.on('click', function () {
+    $uploadOK.prop('disabled', true);
     $('#uploadForm').addClass('hidden');
     $('#uploadMsg').html('S\'està pujant el fitxer...');
     // TODO: display file name
-    $('#spinner').addClass('is-active');
     $('#fileUploadProgressBlock').removeClass('hidden');
 
     var formData = new FormData($('#uploadForm')[0]);
@@ -153,35 +228,35 @@ function initUploadDlg() {
       url: '/db/uploadUserFile',
       type: 'POST',
       xhr: function () {  // Custom XMLHttpRequest
-        var myXhr = $.ajaxSettings.xhr();        
+        var myXhr = $.ajaxSettings.xhr();
         if (myXhr.upload) { // Check if upload property exists
-          // TODO: Add progress handling function
-          // myXhr.upload.addEventListener('progress', progressHandlingFunction, false); // For handling the progress of the upload
+          myXhr.upload.addEventListener('progress', function (e) {
+            if (e.lengthComputable)
+              $('#upProgress').attr({value: e.loaded, max: e.total});
+          }, false);
         }
         return myXhr;
       },
       //Ajax events
       //beforeSend: beforeSendHandler,
-      success: function(data){
-        $uploadDlg[0].close();        
-        if (data.project){
-          // TODO: Remove possible duplicates!
-          $('#mainGrid').append($buildProjectCard(data.project));
-        }
+      success: function (data) {
+        $uploadDlg[0].close();
+        addProject(data.project);
       },
-      error: function(data){
+      error: function (data) {
         var err = data.error || 'Error desconegut!';
-        $('#uploadMsg').html('S\'ha produït un error: ' + err);
-        $('#spinner').removeClass('is-active');        
+        $('#uploadMsg').html('S\'ha produït un error en pujar el fitxer: ' + err);
+        $('#upProgress').addClass('hidden');
       },
-      // Form data
       data: formData,
-      //Options to tell jQuery not to process data or worry about content-type.
       cache: false,
       contentType: false,
       processData: false
       //dataType: 'json'
     });
+    
+    // Display progress bar
+    $('#upProgress').removeClass('hidden');
   });
 
   $('#uploadCancel').on('click', function () {
@@ -189,14 +264,17 @@ function initUploadDlg() {
   });
 }
 
+// Prepare and open the upload dialog
 function uploadProject() {
-  // Clear existing data
+  // Clean existing data
+  $('#uploadForm')[0].reset();
   $('#scormFileInput, #projectNameInput').attr({value: ''});
-  $('#fileInfo, #fileWarn, #fileNameWarn').empty();
-  $('#fileInfoBlock, #folderNameBlock, #fileUploadProgressBlock').addClass('hidden');
+  $('#fileNameInfo, #fileWarn, #fileNameWarn').empty();
+  $('#fileInfoBlock, #folderNameBlock, #fileUploadProgressBlock, #upProgress').addClass('hidden');
   $('#uploadForm').removeClass('hidden');
   $('#uploadOK').prop('disabled', true);
   $('#uploadCancel').prop('disabled', false);
+  // Open dialog
   $('#uploadDlg')[0].showModal();
 }
 
@@ -214,7 +292,7 @@ function gApiLoaded() {
     init();
 }
 
-// Called at startup, when DOM and Google API are ready
+// Called at startup, when both DOM and Google API are ready
 function init() {
   initialized = true;
   initUploadDlg();
@@ -232,9 +310,10 @@ function init() {
   });
 }
 
+// Build a card with information and action buttons related to the given project
 function $buildProjectCard(project) {
   var basePath = usrLibRoot + project.basePath + '/';
-  var $result = $('<div/>', {class: 'project mdl-cell mdl-cell--6-col project mdl-card mdl-shadow--2dp'});
+  var $result = $('<div/>', {class: 'project mdl-cell mdl-cell--6-col project mdl-card mdl-shadow--2dp'}).data('project', project);
 
   $result.append($('<div/>', {class: 'mdl-card__title'}).css({background: 'url(\'' + basePath + project.cover + '\') center / cover'})
           .append($('<h2/>', {class: 'mdl-card__title-text'}).html(project.title)));
@@ -252,6 +331,10 @@ function $buildProjectCard(project) {
           (project.descriptions && project.descriptions[lang] ? project.descriptions[lang] : '')
           ));
 
+  project.card = $result;
+  
+  // Create action buttons:
+  
   var $deleteBtn = $('<button/>', {class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect', title: 'Esborra el projecte'})
           .append($('<i/>', {class: 'material-icons'}).html('delete')).on('click', function () {
     if (window.confirm('Segur que voleu esborrar definitivament el projecte? (no es pot desfer)'))
@@ -261,7 +344,7 @@ function $buildProjectCard(project) {
         data: {project: project.name},
         success: function (e) {
           if (e.status === 'ok')
-            $result.remove();
+            removeProject(project);
           else
             window.alert(e.status + ' ' + e.err);
         },
@@ -274,17 +357,24 @@ function $buildProjectCard(project) {
       });
   });
 
-  var $shareBtn = $('<button/>', {class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect', title: 'Comparteix...'})
+  var $shareBtn = $('<button/>', {
+    class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
+    disabled: true,
+    title: 'Comparteix...'})
           .append($('<i/>', {class: 'material-icons'}).html('share').on('click', function () {
             // TODO: Implement share options
           }));
 
-  var $downloadBtn = $('<button/>', {class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect', title: 'Descarrega el fitxer'})
-          .append($('<i/>', {class: 'material-icons'}).html('cloud_download').on('click', function () {
-            // TODO: Implement file download
-          }));
+  var $downloadBtn = $('<a/>', {
+    class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
+    title: 'Descarrega el fitxer',
+    href: '/db/downloadUserProject?prj=' + project.basePath})
+          .append($('<i/>', {class: 'material-icons'}).html('cloud_download'));
 
-  var $editBtn = $('<button/>', {class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect', title: 'Edita el projecte'})
+  var $editBtn = $('<button/>', {
+    class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
+    disabled: true,
+    title: 'Edita el projecte'})
           .append($('<i/>', {class: 'material-icons'}).html('edit').on('click', function () {
             // TODO: Implement edit
           }));
@@ -296,6 +386,7 @@ function $buildProjectCard(project) {
     target: '_BLANK'})
           .append($('<i/>', {class: 'material-icons'}).html('play_arrow'));
 
+  // Build card
   $result.append($('<div/>', {class: 'mdl-card__actions mdl-card--border'})
           .append($downloadBtn, $editBtn, $deleteBtn, $shareBtn));
 
@@ -306,7 +397,8 @@ function $buildProjectCard(project) {
 }
 
 // Miscellaneous functions
-//
+
+// Express the given amount of bytes in megabyte units
 function toMB(bytes) {
   return Math.round(10 * bytes / (1024 * 1024)) / 10;
 }

@@ -33,13 +33,12 @@ public class UserProject implements java.io.Serializable {
   public String[] languages;
   public String[] areas;
   public String[] levels;
-  
 
   public long totalFileSize = 0;
 
   public UserProject(String name, UserSpace parent) throws Exception {
     this.parent = parent;
-    this.name = UserProject.getValidName(name);    
+    this.name = UserProject.getValidName(name);
     prjRoot = new File(parent.root, this.name);
     prjRoot.mkdir();
   }
@@ -54,8 +53,9 @@ public class UserProject implements java.io.Serializable {
     obj.putOpt("date", date);
     obj.putOpt("cover", cover);
     obj.putOpt("thumbnail", thumbnail);
-    if(metaLangs!=null)
+    if (metaLangs != null) {
       obj.put("meta_langs", new JSONArray(metaLangs));
+    }
     obj.putOpt("descriptions", toJSONObject(descriptions));
     obj.putOpt("languages", toJSONObject(languages));
     obj.putOpt("areas", toJSONObject(areas));
@@ -65,14 +65,15 @@ public class UserProject implements java.io.Serializable {
 
     return obj;
   }
-  
-  public JSONObject toJSONObject(String[] attribute) throws Exception{
-    
-    if(attribute==null || metaLangs==null || metaLangs.length!=attribute.length)
+
+  public JSONObject toJSONObject(String[] attribute) throws Exception {
+
+    if (attribute == null || metaLangs == null || metaLangs.length != attribute.length) {
       return null;
-    
-    JSONObject result = new JSONObject();    
-    for(int i=0; i<metaLangs.length; i++){
+    }
+
+    JSONObject result = new JSONObject();
+    for (int i = 0; i < metaLangs.length; i++) {
       result.put(metaLangs[i], attribute[i]);
     }
     return result;
@@ -140,7 +141,7 @@ public class UserProject implements java.io.Serializable {
     totalFileSize = FileUtils.sizeOfDirectory(prjRoot);
     return totalFileSize;
   }
-  
+
   public void clean() throws Exception {
     long fs = totalFileSize;
     FileUtils.deleteDirectory(prjRoot);
@@ -157,7 +158,7 @@ public class UserProject implements java.io.Serializable {
     languages = null;
     areas = null;
     levels = null;
-    totalFileSize = 0;    
+    totalFileSize = 0;
   }
 
   public static String getValidName(String proposedName) {
@@ -173,6 +174,21 @@ public class UserProject implements java.io.Serializable {
       }
     }
     return new String(ch);
+  }
+
+  public static boolean isValidName(String str) {
+    boolean result = false;
+    if (str != null && str.length() > 0) {
+      char[] ch = str.toCharArray();
+      for (int i = 0; i < ch.length; i++) {
+        char c = ch[i];
+        if (c != '.' && c != '_' && (c < '0' || c > 'z' || (c > '9' && c < 'a'))) {
+          break;
+        }
+      }
+      result = true;
+    }
+    return result;
   }
 
 }

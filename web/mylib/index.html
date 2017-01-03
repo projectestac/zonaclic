@@ -74,7 +74,7 @@
         <form id="uploadForm" enctype="multipart/form-data">
           <p>Per publicar un projecte JClic l'heu d'<strong>exportar</strong> abans al format SCORM HTML5
             amb el <a href="http://clic.xtec.cat/ca/jclic/download.htm" target="_BLANK">JClic Author</a>.<br>
-            El fitxer resultant porta l'extensió <span class="code">.scorm.zip</span></p>
+            El fitxer resultant, que porta l'extensió <span class="code">.scorm.zip</span>, és el que heu de seleccionar fent clic en aquest botó:</p>
           <p id="fileSelectBlock">
             <label class="mdl-button mdl-js-button mdl-button--raised">                    
               <input id="scormFileInput" type="file" name="scormFile" accept=".scorm.zip" style="display:none"/>
@@ -82,23 +82,23 @@
             </label>
           </p>
           <p id="fileInfoBlock" class="hidden">
-            Fitxer seleccionat: <span id="fileInfo">nomdelfitxer (xxx MB)</span><br>
+            Fitxer seleccionat: <span id="fileNameInfo">nomdelfitxer</span> <span id="fileSizeInfo">(xxx MB)</span><br>
             <span id="fileWarn" class="warning"></span>
           </p>
           <p id="folderNameBlock" class="hidden">
-            <label for="projectNameInput">Nom del directori on es publicarà el projecte: </label>
+            <label for="projectNameInput">Directori on es publicarà el projecte: </label>
             <input id="projectNameInput" type="text" name="project" /><br>
-            <span id="fileNameWarn" class="warning"></span><br>            
+            <span id="fileNameWarn" class="warning"></span><br>
           </p>
         </form>
         <div id="fileUploadProgressBlock" class="hidden">
           <p id="uploadMsg">S'està pujant el fitxer...</p>
-          <div id="spinner" class="mdl-spinner mdl-js-spinner"></div>
+          <progress id="upProgress" class="mdl-progress mdl-js-progress"></progress><br>            
         </div>
       </div>
       <div class="mdl-dialog__actions">
         <button id="uploadCancel" type="button" class="mdl-button close">Cancel·la</button>
-        <button id="uploadOK" type="button" class="mdl-button" disabled>Puja el projecte</button>
+        <button id="uploadOK" type="button" class="mdl-button" disabled>Publica el projecte</button>
       </div>
     </dialog>
   </body>

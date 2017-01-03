@@ -105,6 +105,10 @@
     <servlet-name>deleteProject</servlet-name>    
     <servlet-class>edu.xtec.web.clic.userlib.DeleteProject</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>downloadUserProject</servlet-name>
+    <servlet-class>edu.xtec.web.clic.userlib.DownloadProject</servlet-class>
+  </servlet>  
   <servlet-mapping>
     <servlet-name>JCApplet</servlet-name>
     <url-pattern>/jcapplet</url-pattern>
@@ -132,6 +136,10 @@
   <servlet-mapping>
     <servlet-name>deleteProject</servlet-name>
     <url-pattern>/deleteProject</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>downloadUserProject</servlet-name>
+    <url-pattern>/downloadUserProject</url-pattern>
   </servlet-mapping>
   <session-config>
     <session-timeout>
