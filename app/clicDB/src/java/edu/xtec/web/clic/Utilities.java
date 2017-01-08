@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.StringTokenizer;
 import javax.servlet.http.HttpServletRequest;
 import org.apache.commons.io.IOUtils;
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 /**
@@ -191,6 +192,17 @@ public abstract class Utilities {
 
   static public JSONObject readJSON(InputStream is) throws Exception {
     return new JSONObject(IOUtils.toString(is, "UTF-8"));
+  }
+
+  static public String[] readJSONArray(JSONArray arr) throws Exception {
+    String[] result = null;
+    if (arr != null && arr.length() > 0) {
+      result = new String[arr.length()];
+      for (int i = 0; i < arr.length(); i++) {
+        result[i] = arr.getString(i);
+      }
+    }
+    return result;
   }
 
 }

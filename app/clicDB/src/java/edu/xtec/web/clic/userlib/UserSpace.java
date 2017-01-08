@@ -5,9 +5,9 @@
  */
 package edu.xtec.web.clic.userlib;
 
-import edu.xtec.web.clic.userlib.UserProject;
 import java.io.File;
 import java.io.FileFilter;
+import java.io.PrintWriter;
 import org.apache.commons.io.FileUtils;
 import org.json.JSONArray;
 
@@ -84,6 +84,7 @@ public class UserSpace implements java.io.Serializable {
       }
       currentSize -= prj.totalFileSize;
       result = true;
+      saveProjectsList();
     }
     return result;
   }
@@ -97,6 +98,16 @@ public class UserSpace implements java.io.Serializable {
       projects[currentprojects.length] = prj;
       prj.readProjectData();
       currentSize += prj.checkFiles();
+      saveProjectsList();
     }
+  }
+  
+  public void saveProjectsList() throws Exception {
+    File projectsList = new File(root, "projects.json");
+    JSONArray list = new JSONArray();
+    for(int i=0; i<projects.length; i++) {
+      list.put(projects[i].getInfo());
+    }
+    FileUtils.writeStringToFile(projectsList, list.toString(1));
   }
 }

@@ -28,17 +28,22 @@ public class UserProject implements java.io.Serializable {
   public String date = "";
   public String cover = "";
   public String thumbnail = "";
+  public String mainFile;
   public String[] metaLangs;
   public String[] descriptions;
   public String[] languages;
   public String[] areas;
   public String[] levels;
+  public String[] langCodes;
+  public String[] areaCodes;
+  public String[] levelCodes;
 
   public long totalFileSize = 0;
 
   public UserProject(String name, UserSpace parent) throws Exception {
     this.parent = parent;
     this.name = UserProject.getValidName(name);
+    mainFile = this.name + ".jclic";
     prjRoot = new File(parent.root, this.name);
     prjRoot.mkdir();
   }
@@ -53,13 +58,17 @@ public class UserProject implements java.io.Serializable {
     obj.putOpt("date", date);
     obj.putOpt("cover", cover);
     obj.putOpt("thumbnail", thumbnail);
+    obj.putOpt("mainFile", mainFile);
     if (metaLangs != null) {
       obj.put("meta_langs", new JSONArray(metaLangs));
     }
     obj.putOpt("descriptions", toJSONObject(descriptions));
     obj.putOpt("languages", toJSONObject(languages));
+    obj.putOpt("langCodes", langCodes);
     obj.putOpt("areas", toJSONObject(areas));
+    obj.putOpt("areaCodes", areaCodes);
     obj.putOpt("levels", toJSONObject(levels));
+    obj.putOpt("levelCodes", levelCodes);
     obj.put("totalFileSize", totalFileSize);
     obj.put("basePath", parent.userId + "/" + name);
 
@@ -67,7 +76,6 @@ public class UserProject implements java.io.Serializable {
   }
 
   public JSONObject toJSONObject(String[] attribute) throws Exception {
-
     if (attribute == null || metaLangs == null || metaLangs.length != attribute.length) {
       return null;
     }
@@ -89,14 +97,11 @@ public class UserProject implements java.io.Serializable {
       date = json.optString("date", date);
       cover = json.optString("cover", cover);
       thumbnail = json.optString("thumbnail", thumbnail);
+      mainFile = json.optString("mainFile", mainFile);
       // Read meta_langs
       JSONArray ml = json.optJSONArray("meta_langs");
       if (ml != null && ml.length() > 0) {
-
-        metaLangs = new String[ml.length()];
-        for (int i = 0; i < ml.length(); i++) {
-          metaLangs[i] = ml.getString(i);
-        }
+        metaLangs = Utilities.readJSONArray(ml);
 
         // Read descriptions
         JSONObject obj = json.optJSONObject("description");
@@ -108,6 +113,7 @@ public class UserProject implements java.io.Serializable {
         }
 
         // Read languages
+        langCodes = Utilities.readJSONArray(json.optJSONArray("langCodes"));
         obj = json.optJSONObject("languages");
         if (obj != null && obj.length() > 0) {
           languages = new String[metaLangs.length];
@@ -117,6 +123,7 @@ public class UserProject implements java.io.Serializable {
         }
 
         // Read areas
+        areaCodes = Utilities.readJSONArray(json.optJSONArray("areaCodes"));
         obj = json.optJSONObject("areas");
         if (obj != null && obj.length() > 0) {
           areas = new String[metaLangs.length];
@@ -126,6 +133,7 @@ public class UserProject implements java.io.Serializable {
         }
 
         // Read levels
+        levelCodes = Utilities.readJSONArray(json.optJSONArray("levelCodes"));
         obj = json.optJSONObject("levels");
         if (obj != null && obj.length() > 0) {
           levels = new String[metaLangs.length];
@@ -153,12 +161,37 @@ public class UserProject implements java.io.Serializable {
     date = "";
     cover = "";
     thumbnail = "";
+    mainFile = "";
     metaLangs = null;
     descriptions = null;
     languages = null;
     areas = null;
     levels = null;
+    langCodes = null;
+    areaCodes = null;
+    levelCodes = null;
     totalFileSize = 0;
+  }
+
+  public JSONObject getInfo() throws Exception {
+    JSONObject result = new JSONObject();
+    result.put("path", name);
+    result.put("title", title);
+    result.putOpt("author", author);
+    result.putOpt("date", date);
+    if (langCodes != null) {
+      result.put("langCodes", new JSONArray(langCodes));
+    }
+    if (levelCodes != null) {
+      result.put("levelCodes", new JSONArray(levelCodes));
+    }
+    if (areaCodes != null) {
+      result.put("areaCodes", new JSONArray(areaCodes));
+    }
+    result.putOpt("mainFile", mainFile);
+    result.putOpt("cover", cover);
+    result.putOpt("thumbnail", thumbnail);
+    return result;
   }
 
   public static String getValidName(String proposedName) {
