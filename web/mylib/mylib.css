@@ -49,7 +49,7 @@
   overflow-y: auto;
 }
 
-#uploadDlg {
+#uploadDlg, #confirmDeleteDlg {
   width: 80%;
   max-width: 600pt;
 }

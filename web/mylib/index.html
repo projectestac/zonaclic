@@ -103,5 +103,17 @@
         <button id="uploadOK" type="button" class="mdl-button" disabled>Publica el projecte</button>
       </div>
     </dialog>
+    <dialog id="confirmDeleteDlg" class="mdl-dialog">
+      <h4 class="mdl-dialog__title">Eliminació del projecte "<span class="deleteName"></span>"</h4>
+      <div class="mdl-dialog__content">
+        <p>Heu sol·licitat eliminar completament el projecte "<span class="deleteName"></span>" del servidor.<br><strong>ATENCIÓ: Aquesta operació no es pot desfer!</strong></p>
+        <p>Segur que voleu eliminar el projecte?</p>
+        <p id="deleteMsg" class="hidden warning"></p>
+      </div>
+      <div class="mdl-dialog__actions">
+        <button id="deleteCancel" type="button" class="mdl-button close">Cancel·la l'operació</button>
+        <button id="deleteOK" type="button" class="mdl-button" disabled>Elimina el projecte</button>
+      </div>
+    </dialog>    
   </body>
 </html>

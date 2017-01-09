@@ -145,7 +145,8 @@ function removeProject(project) {
     if (prj !== null) {
       if (prj.card)
         prj.card.remove();
-      projects = projects.splice(projects.indexOf(prj), 1);
+      var p = projects.indexOf(prj);
+      projects = projects.splice(p, 1);
       updateSpaceInfo();
     }
   }
@@ -252,9 +253,9 @@ function initUploadDlg() {
       cache: false,
       contentType: false,
       processData: false
-      //dataType: 'json'
+              //dataType: 'json'
     });
-    
+
     // Display progress bar
     $('#upProgress').removeClass('hidden');
   });
@@ -278,6 +279,57 @@ function uploadProject() {
   $('#uploadDlg')[0].showModal();
 }
 
+// Initialize the 'delete project' dialog
+function initDeleteDlg() {
+  var $deleteDlg = $('#confirmDeleteDlg');
+  dialogPolyfill.registerDialog($deleteDlg[0]);
+
+  $('#deleteCancel').on('click', function () {
+    $deleteDlg[0].close();
+  });
+
+  $('#deleteOK').on('click', function () {
+    var project = $deleteDlg.data('project');
+    if (project) {
+      $('#deleteOK').prop('disabled', true);
+      $.ajax({
+        url: '/db/deleteProject',
+        type: 'POST',
+        data: {project: project.name},
+        success: function (e) {
+          if (e.status === 'ok') {
+            removeProject(project);
+            $deleteDlg.data('project', null);
+            $deleteDlg[0].close();
+          } else {
+            $('#deleteMsg').html('Error inesperat: ' + e.status + ' - ' + e.err).removeClass('hidden');
+          }
+        },
+        error: function (xhr, err) {
+          // TODO: Improve the info displayed about the error
+          $('#deleteMsg').html('ERROR ' + xhr.status + ' ' + xhr.responseText).removeClass('hidden');
+        },
+        cache: false,
+        dataType: 'json'
+      });
+    }
+  });
+}
+
+// Prepare and open the delete dialog
+function deleteProject(project) {
+  // Load dialog project
+  $('#confirmDeleteDlg').data('project', project);
+  $('.deleteName').html(project.name);
+  // Clean existing message
+  $('#deleteMsg').html('').addClass('hidden');
+  // Enable OK button
+  $('#deleteOK').prop('disabled', false);
+  // Open dialog
+  $('#confirmDeleteDlg')[0].showModal();
+}
+
+
 // Called when DOM is fully initialized
 $(function () {
   DOM_ready = true;
@@ -296,6 +348,7 @@ function gApiLoaded() {
 function init() {
   initialized = true;
   initUploadDlg();
+  initDeleteDlg();
   checkIfSignedIn();
   $('#uploadBtn').on('click', uploadProject);
   $('#logoutBtn').on('click', signOut);
@@ -332,30 +385,13 @@ function $buildProjectCard(project) {
           ));
 
   project.card = $result;
-  
+
   // Create action buttons:
-  
+
   var $deleteBtn = $('<button/>', {class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect', title: 'Esborra el projecte'})
-          .append($('<i/>', {class: 'material-icons'}).html('delete')).on('click', function () {
-    if (window.confirm('Segur que voleu esborrar definitivament el projecte? (no es pot desfer)'))
-      $.ajax({
-        url: '/db/deleteProject',
-        type: 'POST',
-        data: {project: project.name},
-        success: function (e) {
-          if (e.status === 'ok')
-            removeProject(project);
-          else
-            window.alert(e.status + ' ' + e.err);
-        },
-        error: function (xhr, err) {
-          // TODO: Improve the info displayed about the error
-          window.alert('ERROR ' + xhr.status + ' ' + xhr.responseText);
-        },
-        cache: false,
-        dataType: 'json'
-      });
-  });
+          .append($('<i/>', {class: 'material-icons'}).html('delete').on('click', function () {
+            deleteProject(project);
+          }));
 
   var $shareBtn = $('<button/>', {
     class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
