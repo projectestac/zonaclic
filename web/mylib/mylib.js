@@ -70,7 +70,7 @@ function loginOK(data) {
   checkIfSignedIn();
 
   for (var p = 0; p < projects.length; p++)
-    $('#mainGrid').append($buildProjectCard(projects[p]));
+    $('#projects').append($buildProjectCard(projects[p]));
 
   console.log('User ' + data.id + ' signed in.');
 }
@@ -133,7 +133,7 @@ function addProject(project) {
   if (project !== null) {
     removeProject(project);
     projects.push(project);
-    $('#mainGrid').append($buildProjectCard(project));
+    $('#projects').append($buildProjectCard(project));
     updateSpaceInfo();
   }
 }
@@ -204,7 +204,7 @@ function initUploadDlg() {
     if (folderName === '')
       $folderWarn.html('ERROR: Heu d\'especificar un nom per al directori on es publicarà el projecte.');
     else if (findProject(folderName) !== null) {
-      $folderWarn.html('ATENCIÓ: Ja existeix un projecte en aquest directori! El seu contingut serà substituït.');
+      $folderWarn.html('ATENCIÓ: Ja existeix un projecte en aquest directori. El seu contingut serà substituït.<br>Feu-ho només si el que preteneu és publicar una nova versió del mateix projecte.');
       ok = true;
     } else if (/[\W]/gi.test(folderName))
       $folderWarn.html('ERROR: El nom del directori no pot contenir accents, espais ni caràcters especials.');
@@ -313,7 +313,7 @@ function init() {
 // Build a card with information and action buttons related to the given project
 function $buildProjectCard(project) {
   var basePath = usrLibRoot + project.basePath + '/';
-  var $result = $('<div/>', {class: 'project mdl-cell mdl-cell--6-col project mdl-card mdl-shadow--2dp'}).data('project', project);
+  var $result = $('<div/>', {class: 'project mdl-cell mdl-card mdl-shadow--2dp'}).data('project', project);
 
   $result.append($('<div/>', {class: 'mdl-card__title'}).css({background: 'url(\'' + basePath + project.cover + '\') center / cover'})
           .append($('<h2/>', {class: 'mdl-card__title-text'}).html(project.title)));

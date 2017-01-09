@@ -27,34 +27,36 @@
         </div>          
       </header>
       <main class="mdl-layout__content">
-        <div id="mainGrid" class="mdl-grid">
 
-          <div id="loginBox" class="mdl-cell mdl-cell--12-col hidden">
-            <p>Inicieu la sessió amb el vostre identificador XTEC:</p>
-            <div id="gSignInBtn"></div>
-            <div id="loginSpinner" class="mdl-spinner mdl-js-spinner is-active hidden"></div>
-            <p id="loginMsg"></p>
-          </div>
-
-          <div id="accountInfo" class ="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col hidden">
-            <div class="mdl-card__title">
-              <h2 class="mdl-card__title-text">Dades del compte</h2>
-            </div>
-            <div class="mdl-card__supporting-text">
-              Usuari: <span id="fullUserName">?</span><br>
-              Ubicació de la biblioteca: https://clic.xtec.cat/users/<span id="userName"></span><br>
-              Projectes publicats: <span id="userNumProjects">0</span><br>
-              Espai de disc ocupat: <span id="usedBytes">0 MB</span> (de <span id="quota">0 MB</span> disponibles)<br>
-            </div>
-            <div class="mdl-card__actions mdl-card--border">
-              <button id="uploadBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Publica un nou projecte</button>
-              <button id="logoutBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Tanca la sessió</button>
-            </div>              
-          </div>
-
-          <div class="mdl-cell mdl-cell--6-col project">projecte1</div>
-          <div class="mdl-cell mdl-cell--6-col project">projecte2</div>
+        <div id="loginBox" class="mdl-cell hidden">
+          <p>Inicieu la sessió amb el vostre identificador XTEC:</p>
+          <div id="gSignInBtn"></div>
+          <div id="loginSpinner" class="mdl-spinner mdl-js-spinner is-active hidden"></div>
+          <p id="loginMsg"></p>
         </div>
+
+        <div id="accountInfo" class ="mdl-card mdl-shadow--2dp mdl-cell hidden">
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Dades del compte</h2>
+          </div>
+          <div class="mdl-card__supporting-text">
+            Usuari: <span id="fullUserName">?</span><br>
+            Ubicació de la biblioteca: https://clic.xtec.cat/users/<span id="userName"></span><br>
+            Projectes publicats: <span id="userNumProjects">0</span><br>
+            Espai de disc ocupat: <span id="usedBytes">0 MB</span> (de <span id="quota">0 MB</span> disponibles)<br>
+          </div>
+
+          <div class="mdl-card__actions mdl-card--border">
+            <button id="uploadBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Publica un projecte nou</button>
+            <button id="logoutBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Tanca la sessió</button>
+          </div>              
+        </div>
+
+        <div id="projects">
+          <div class="mdl-cell project">projecte1</div>
+          <div class="mdl-cell project">projecte2</div>
+        </div>
+        
       </main>      
       <!-- footer class="mdl-mini-footer">
         <div class="mdl-mini-footer__left-section">
