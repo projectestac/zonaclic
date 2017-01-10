@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
     <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue-indigo.min.css"/>
     <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <script src="dialog-polyfill.js"></script>
+    <link rel="stylesheet" type="text/css" href="dialog-polyfill.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="main.css" type="text/css"/>    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
@@ -25,5 +28,41 @@
         <div id="projects"></div>
       </main>      
     </div>
+    <dialog id="shareDlg" class="mdl-dialog">
+      <h4 class="mdl-dialog__title">Comparteix el projecte</h4>
+      <div class="mdl-dialog__content">
+        <div class="mdl-cell mdl-shadow--2dp shareItem">
+          <p>Enllaç directe a les activitats:</p>
+          <span class="shareText" id="directLink">http://clic.xtec.cat/prova</span>
+          <button id="linkTextCopy" class="mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">content_copy</i></button>
+          <div class="shareButtons">
+            <!-- Share buttons from: https://codepen.io/brandonhimpfen/pen/EjpMEZ -->
+            <!-- Twitter -->
+            <a href="http://twitter.com/home?status=" title="Share on Twitter" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--twitter"><i class="fa fa-twitter fa-fw"></i></a>
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/sharer/sharer.php?u=" title="Share on Facebook" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--facebook"><i class="fa fa-facebook fa-fw"></i></a>
+            <!-- Google+ -->
+            <a href="https://plus.google.com/share?url=" title="Share on Google+" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--googleplus"><i class="fa fa-google-plus fa-fw"></i></a>
+            <!-- StumbleUpon -->
+            <a href="http://www.stumbleupon.com/submit?url=" title="Share on StumbleUpon" target="_blank" data-placement="top" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--stumbleupon"><i class="fa fa-stumbleupon fa-fw"></i></a>
+            <!-- LinkedIn --> 
+            <a href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=" title="Share on LinkedIn" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--linkedin"><i class="fa fa-linkedin fa-fw"></i></a> 
+          </div>
+        </div>
+        <div class="mdl-cell mdl-shadow--2dp shareItem">
+          <p>Codi per incrustar les activitats en un blog o pàgina web:</p>
+          <span class="shareText" id="embedCode">xxxx</span>
+          <button id="embedCodeCopy" class="mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">content_copy</i></button>
+        </div>
+        <div class="mdl-cell mdl-shadow--2dp shareItem">
+          <p>Enllaç a utilitzar en el mòdul de JClic per a Moodle:</p>
+          <span class="shareText" id="moodleLink">xxxx</span>
+          <button id="moodleLinkCopy" class="mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">content_copy</i></button>
+        </div>        
+      </div>
+      <div class="mdl-dialog__actions">
+        <button id="closeDlg" type="button" class="mdl-button close">Tanca</button>
+      </div>
+    </dialog>
   </body>
 </html>

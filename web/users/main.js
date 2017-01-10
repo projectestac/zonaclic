@@ -1,4 +1,4 @@
-/* global $, window */
+/* global $, window, dialogPolyfill */
 $(function () {
   var user = window.location.search.substring(1);
   //var basePath = 'https://clic.xtec.cat/users';
@@ -78,10 +78,9 @@ $(function () {
     // Create action buttons:
     var $shareBtn = $('<button/>', {
       class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
-      disabled: true,
       title: 'Comparteix...'})
             .append($('<i/>', {class: 'material-icons'}).html('share').on('click', function () {
-              // TODO: Implement share options
+              openShareDlg(project);
             }));
 
     var $downloadBtn = $('<a/>', {
@@ -106,6 +105,14 @@ $(function () {
             .append($playBtn));
 
     return $result;
+  }
+
+  var shareDlg = $('#shareDlg')[0];
+  dialogPolyfill.registerDialog(shareDlg);
+  $('#closeDlg').on('click', function(){shareDlg.close();});
+
+  function openShareDlg(project) {
+    shareDlg.showModal();
   }
 
 });
