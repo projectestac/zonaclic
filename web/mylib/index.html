@@ -36,40 +36,28 @@
         </div>
 
         <div id="accountInfo" class ="mdl-card mdl-shadow--2dp mdl-cell hidden">
-          <div class="mdl-card__title">
-            <h2 class="mdl-card__title-text">Dades del compte</h2>
-          </div>
           <div class="mdl-card__supporting-text">
-            Usuari: <span id="fullUserName">?</span><br>
-            Ubicació de la biblioteca: https://clic.xtec.cat/users/<span id="userName"></span><br>
-            Projectes publicats: <span id="userNumProjects">0</span><br>
-            Espai de disc ocupat: <span id="usedBytes">0 MB</span> (de <span id="quota">0 MB</span> disponibles)<br>
+            <h2 class="mdl-card__title-text">Dades del compte</h2>
+            <table class="accountInfo">
+              <tbody>
+                <tr><td>Usuari:</td><td id="fullUserName"></td></tr>
+                <tr><td>Ubicació de la biblioteca:</td><td><a id="userLibUrl" class="code" target="_BLANK"></a></td></tr>
+                <tr><td>Projectes publicats:</td><td id="userNumProjects"></td></tr>
+                <tr><td>Espai de disc ocupat:</td><td><span id="usedBytes">0 MB</span> (de <span id="quota">0 MB</span> disponibles)</td></tr>
+              </tbody>
+            </table>
           </div>
-
           <div class="mdl-card__actions mdl-card--border">
             <button id="uploadBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Publica un projecte nou</button>
             <button id="logoutBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Tanca la sessió</button>
           </div>              
         </div>
-
-        <div id="projects">
-          <div class="mdl-cell project">projecte1</div>
-          <div class="mdl-cell project">projecte2</div>
-        </div>
+        
+        <div id="projects"></div>
         
       </main>      
-      <!-- footer class="mdl-mini-footer">
-        <div class="mdl-mini-footer__left-section">
-          <div class="mdl-logo"><a href="http://clic.xtec.cat">zonaClic</a></div>
-        </div>
-        <div class="mdl-mini-footer__right-section">
-          <ul class="mdl-mini-footer__link-list">
-            <li><a href="#">Ajuda</a></li>
-            <li><a href="#">Condicions d'ús</a></li>
-          </ul>          
-        </div>        
-      </footer -->      
     </div>
+    
     <dialog id="uploadDlg" class="mdl-dialog">
       <h4 class="mdl-dialog__title">Publicació de projectes</h4>
       <div class="mdl-dialog__content">
@@ -103,6 +91,7 @@
         <button id="uploadOK" type="button" class="mdl-button" disabled>Publica el projecte</button>
       </div>
     </dialog>
+    
     <dialog id="confirmDeleteDlg" class="mdl-dialog">
       <h4 class="mdl-dialog__title">Eliminació del projecte "<span class="deleteName"></span>"</h4>
       <div class="mdl-dialog__content">

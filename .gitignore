@@ -43,8 +43,8 @@ app/clicDB/web/WEB-INF/classes/
 app/gali/web/WEB-INF/classes/
 
 # MyLib test files
-web/users
-!web/users/clic
-!web/users/settings.json
+web/users/*/**
+!web/users/clic/*
+#!web/users/settings.json
 
 

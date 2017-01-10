@@ -2,13 +2,6 @@
   padding-left: 20pt;
 }
 
-.avatar {
-  max-width: 36pt;
-  max-height: 36pt;
-  border-radius: 50%;
-  margin-right: 5pt;
-}
-
 #projects {
   display: flex;
   flex-wrap: wrap;
@@ -21,14 +14,6 @@
 .mdl-mini-footer .mdl-logo a {
   text-decoration: none;
   color: inherit;
-}
-
-#accountInfo {
-  width: 500pt;  
-}
-
-#accountInfo h2 {
-  font-size: 14pt;
 }
 
 .project {
@@ -71,29 +56,16 @@
   line-height: initial;
 }
 
-table td:first-child {
+.prjData td:first-child {
   padding-left: 0;
   padding-right: 10pt;
   font-weight: bold;
 }
 
-.prjDesc, .prjData, .accountInfo {
+.prjDesc, .prjData {
   margin-top: 10pt;
   line-height: initial;
   border-spacing: 0;
-}
-
-#uploadDlg, #confirmDeleteDlg {
-  width: 80%;
-  max-width: 600pt;
-}
-
-#uploadDlg a {
-  outline: none;
-}
-
-.mdl-dialog__title {
-  font-size: 16pt;
 }
 
 .code {
@@ -104,6 +76,5 @@ table td:first-child {
   color: red;
 }
 
-#fileNameInfo {
-  font-weight: bold;
-}
+
+

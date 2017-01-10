@@ -30,7 +30,7 @@ public class UserProject implements java.io.Serializable {
   public String thumbnail = "";
   public String mainFile;
   public String[] metaLangs;
-  public String[] descriptions;
+  public String[] description;
   public String[] languages;
   public String[] areas;
   public String[] levels;
@@ -62,7 +62,7 @@ public class UserProject implements java.io.Serializable {
     if (metaLangs != null) {
       obj.put("meta_langs", new JSONArray(metaLangs));
     }
-    obj.putOpt("descriptions", toJSONObject(descriptions));
+    obj.putOpt("description", toJSONObject(description));
     obj.putOpt("languages", toJSONObject(languages));
     obj.putOpt("langCodes", langCodes);
     obj.putOpt("areas", toJSONObject(areas));
@@ -103,12 +103,12 @@ public class UserProject implements java.io.Serializable {
       if (ml != null && ml.length() > 0) {
         metaLangs = Utilities.readJSONArray(ml);
 
-        // Read descriptions
+        // Read description
         JSONObject obj = json.optJSONObject("description");
         if (obj != null && obj.length() > 0) {
-          descriptions = new String[metaLangs.length];
+          description = new String[metaLangs.length];
           for (int i = 0; i < metaLangs.length; i++) {
-            descriptions[i] = obj.optString(metaLangs[i]);
+            description[i] = obj.optString(metaLangs[i]);
           }
         }
 
@@ -163,7 +163,7 @@ public class UserProject implements java.io.Serializable {
     thumbnail = "";
     mainFile = "";
     metaLangs = null;
-    descriptions = null;
+    description = null;
     languages = null;
     areas = null;
     levels = null;

@@ -62,7 +62,8 @@ function onSignIn(googleUser) {
 function loginOK(data) {
   $('#fullUserName').html(data.fullUserName);
   $('.avatar').attr('src', data.avatar);
-  $('#userName').html(data.id);
+  var usrlib = 'https://clic.xtec.cat/users?' + data.id;
+  $('#userLibUrl').attr({href: usrlib}).html(usrlib);
   projects = data.projects;
   userQuota = data.quota;
   usedBytes = data.currentSize;
@@ -145,8 +146,7 @@ function removeProject(project) {
     if (prj !== null) {
       if (prj.card)
         prj.card.remove();
-      var p = projects.indexOf(prj);
-      projects = projects.splice(p, 1);
+      projects.splice(projects.indexOf(prj), 1);
       updateSpaceInfo();
     }
   }
@@ -228,7 +228,7 @@ function initUploadDlg() {
     $.ajax({
       url: '/db/uploadUserFile',
       type: 'POST',
-      xhr: function () {  // Custom XMLHttpRequest
+      xhr: function () {  // Try to track upload progress with a customized XHR object
         var myXhr = $.ajaxSettings.xhr();
         if (myXhr.upload) { // Check if upload property exists
           myXhr.upload.addEventListener('progress', function (e) {
@@ -238,22 +238,18 @@ function initUploadDlg() {
         }
         return myXhr;
       },
-      //Ajax events
-      //beforeSend: beforeSendHandler,
       success: function (data) {
         $uploadDlg[0].close();
         addProject(data.project);
       },
-      error: function (data) {
-        var err = data.error || 'Error desconegut!';
-        $('#uploadMsg').html('S\'ha produït un error en pujar el fitxer: ' + err);
+      error: function (xhr, status) {
+        $('#uploadMsg').html('S\'ha produït un error: ' + xhr.statusText + ' ' + status);
         $('#upProgress').addClass('hidden');
       },
       data: formData,
       cache: false,
       contentType: false,
       processData: false
-              //dataType: 'json'
     });
 
     // Display progress bar
@@ -275,7 +271,7 @@ function uploadProject() {
   $('#uploadForm').removeClass('hidden');
   $('#uploadOK').prop('disabled', true);
   $('#uploadCancel').prop('disabled', false);
-  // Open dialog
+  // Open the dialog
   $('#uploadDlg')[0].showModal();
 }
 
@@ -305,9 +301,8 @@ function initDeleteDlg() {
             $('#deleteMsg').html('Error inesperat: ' + e.status + ' - ' + e.err).removeClass('hidden');
           }
         },
-        error: function (xhr, err) {
-          // TODO: Improve the info displayed about the error
-          $('#deleteMsg').html('ERROR ' + xhr.status + ' ' + xhr.responseText).removeClass('hidden');
+        error: function (xhr, status) {
+          $('#deleteMsg').html('ERROR ' + xhr.statusText + ' ' + status).removeClass('hidden');
         },
         cache: false,
         dataType: 'json'
@@ -373,17 +368,30 @@ function $buildProjectCard(project) {
 
   var lang = project.meta_langs && project.meta_langs.length > 0 ? project.meta_langs[0] : '';
 
-  $result.append($('<div/>', {class: 'mdl-card__supporting-text'}).html(
-          'Carpeta: ' + project.name + '<br>\n' +
-          'Mida: ' + toMB(project.totalFileSize) + ' MB<br>\n' +
-          'Autor/a: ' + project.author + '<br>\n' +
-          'Centre: ' + project.school + '<br>\n' +
-          (project.languages && project.languages[lang] ? 'Idioma: ' + project.languages[lang] + '<br>\n' : '') +
-          (project.levels && project.levels[lang] ? 'Nivell: ' + project.levels[lang] + '<br>\n' : '') +
-          (project.areas && project.areas[lang] ? 'Àrea: ' + project.areas[lang] + '<br>\n' : '') +
-          (project.descriptions && project.descriptions[lang] ? project.descriptions[lang] : '')
-          ));
+  var $cardBody = $('<div/>', {class: 'mdl-card__supporting-text'}).append(
+          $('<p/>', {class: 'prjAuthor'}).html(project.author),
+          $('<p/>', {class: 'prjSchool'}).html(project.school));
 
+  var $tBody = $('<tbody/>').append(
+          $('<tr/>').append($('<td>').html('Directori:'), $('<td>', {class: 'code'}).html(project.name)),
+          $('<tr/>').append($('<td>').html('Mida:'), $('<td>').html(toMB(project.totalFileSize) + ' MB')),
+          $('<tr/>').append($('<td>').html('Data:'), $('<td>').html(project.date)));
+
+  if (project.languages && project.languages[lang])
+    $tBody.append($('<tr/>').append($('<td>').html('Idiomes:'), $('<td>').html(project.languages[lang])));
+
+  if (project.levels && project.levels[lang])
+    $tBody.append($('<tr/>').append($('<td>').html('Nivells:'), $('<td>').html(project.levels[lang])));
+
+  if (project.areas && project.areas[lang])
+    $tBody.append($('<tr/>').append($('<td>').html('Àrees:'), $('<td>').html(project.areas[lang])));
+
+  $cardBody.append($('<table/>', {class: 'prjData'}).append($tBody));
+  
+  if(project.description && project.description[lang])
+    $cardBody.append($('<p/>', {class: 'prjDesc'}).html(project.description[lang]));
+  
+  $result.append($cardBody);
   project.card = $result;
 
   // Create action buttons:
@@ -404,6 +412,7 @@ function $buildProjectCard(project) {
   var $downloadBtn = $('<a/>', {
     class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
     title: 'Descarrega el fitxer',
+    download: true,
     href: '/db/downloadUserProject?prj=' + project.basePath})
           .append($('<i/>', {class: 'material-icons'}).html('cloud_download'));
 
