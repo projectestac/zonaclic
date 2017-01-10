@@ -28,6 +28,9 @@
                    una mostra) en format GIF, JPG o PNG
  * web/thumbs:   Versions reduïdes de les imatges del directori arrel/gifs,
                    emprades al servei RSS. S'inclou també només una mostra.
+ * web/mylib     Part estàtica de l'aplicació que permet als usuaris XTEC publicar
+                   els seus projectes JClic a la carpeta "users".
+ * web/users     Espai de publicació de projectes dels usuaris.
                    
 
  -------- ClicDB --------

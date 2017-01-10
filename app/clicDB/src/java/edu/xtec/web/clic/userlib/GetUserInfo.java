@@ -1,8 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/**
+ * GetUserInfo.java
+ * 
+ * Checks if the token provided by the user is valid and, when true, returns
+ * information about the user's zone status and projects currently published on
+ * it.
+ *
+ **/
 package edu.xtec.web.clic.userlib;
 
 import edu.xtec.util.db.ConnectionBean;
@@ -30,12 +33,17 @@ import org.json.JSONStringer;
  */
 public class GetUserInfo extends HttpServlet {
 
+  // Default disk quota is 50 MB
   public static final int DEFAULT_QUOTA = 52428800;
-  /* 50 MB */
+
+  // Parameter name for OAuth token
   public static final String ID_TOKEN = "id_token";
+  // Endpoint to validate OAuth tokens sent by Google
   public static final String CHECK_GOOGLE_TOKEN = "https://www.googleapis.com/oauth2/v3/tokeninfo?id_token=";
+  // Root directory of user's zone in the local filesystem
   private static File ROOT_BASE = null;
 
+  // Information fields about the current user
   public String email;
   public String userId;
   public String fullUserName;
@@ -44,9 +52,12 @@ public class GetUserInfo extends HttpServlet {
   public String expDate;
   public long quota = DEFAULT_QUOTA;
 
+  // UserSpace object assignated to the current user
   public UserSpace userSpace;
 
+  // Main servlet method. Reacts only to "POST" queries.
   protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+    // Response will be always a JSON
     response.setContentType("application/json");
     response.setCharacterEncoding("UTF-8");
     PrintWriter writer = response.getWriter();
@@ -55,13 +66,15 @@ public class GetUserInfo extends HttpServlet {
       writer.write(getJsonUserInfo().toString());
       logMsg("INFO", "User logged in");
     } catch (Exception ex) {
+      // Hand-made JSON, used to return the error message
       writer.print("{\"status\":\"error\",\"error\":\"" + JSONStringer.getString(ex.getMessage()) + "\"}");
-      logMsg("ERROR", "Log in incorrect: " + ex.getMessage());
+      logMsg("ERROR", "Login incorrect: " + ex.getMessage());
     } finally {
       writer.flush();
     }
   }
 
+  // Loads the data associated with the current user
   protected void loadUserData(HttpServletRequest request) throws Exception {
     String token = Utilities.getParam(request, ID_TOKEN, null);
     if (token != null) {
@@ -74,13 +87,15 @@ public class GetUserInfo extends HttpServlet {
       if (email == null) {
         throw new Exception("Usuari desconegut");
       }
+      // "hd" field is used only with GSuite users. Contains the domain name.
       String hd = json.optString("hd", "");
 
-      // Read settings
+      // Read global settings
       File settingsFile = new File(Context.getStaticFileBase(), Context.cntx.getProperty("userLibCfg", "users/settings.json"));
       JSONObject settings = Utilities.readJSON(new FileInputStream(settingsFile));
+      // Get the current generic disk quota
       quota = settings.optLong("quota", quota);
-      // Find user 
+      // Check if user is allowed to login, and load specific user settings
       boolean validUser = "xtec.cat".equals(hd);
       JSONArray usr = settings.getJSONArray("users");
       for (int i = 0; i < usr.length(); i++) {
@@ -93,24 +108,32 @@ public class GetUserInfo extends HttpServlet {
         }
       }
       if (!validUser) {
+        // Unathorized used
         throw new Exception("Usuari no autoritzat: " + email);
       }
 
+      // Get user ID from email
       userId = getPlainId(email, "xtec.cat");
+      // Initialize the UserSpace object
       userSpace = new UserSpace(userId, new File(getRootBase(), userId));
       userSpace.readProjects();
 
+      // Get additional data
       fullUserName = json.getString("name");
       avatar = json.optString("picture", null);
       expires = new Date(json.getLong("exp") * 1000);
 
+      // Create a session object and save current user's data on it
       setSessionAttributes(request.getSession(true));
 
     } else {
+      // No token presented
+      // Try to read settings from a stored session, if any
       getSessionAttributes(request.getSession(false));
     }
   }
 
+  // Encapsulates current user data in a JSON expression, ready to be sent
   public JSONObject getJsonUserInfo() throws Exception {
     JSONObject json = new JSONObject();
     if (email == null) {
@@ -130,8 +153,13 @@ public class GetUserInfo extends HttpServlet {
     return json;
   }
 
+  // Save current user data in current session object
   protected void setSessionAttributes(HttpSession session) throws Exception {
     if (session != null) {
+      // Retain sessions only for 30'
+      session.setMaxInactiveInterval(1800);
+
+      // Save user settings in the HttpSession object
       session.setAttribute("email", email);
       session.setAttribute("id", userId);
       session.setAttribute("quota", new Long(quota));
@@ -142,6 +170,7 @@ public class GetUserInfo extends HttpServlet {
     }
   }
 
+  // Retrieve user data from current session object, if any
   protected void getSessionAttributes(HttpSession session) throws Exception {
     if (session != null) {
       email = (String) session.getAttribute("email");
@@ -154,6 +183,9 @@ public class GetUserInfo extends HttpServlet {
     }
   }
 
+  // Miscellaneous functions
+  // Gets a simplified user ID from its e-mail address
+  // Only plain letters, digits and dots are allowed
   public static String getPlainId(String email, String hd) {
     email = email.trim().toLowerCase();
     int p = email.lastIndexOf("@" + hd);
@@ -171,20 +203,22 @@ public class GetUserInfo extends HttpServlet {
     }
     return new String(ch);
   }
-  
+
+  // Initialize the ROOT_BASE variable, reading it from "Context" if needed
   public static File getRootBase() throws IOException {
     if (ROOT_BASE == null) {
       ROOT_BASE = new File(Context.getStaticFileBase(), Context.cntx.getProperty("userLibRoot", "users"));
-      if (!ROOT_BASE.canWrite()) {
+      if (!ROOT_BASE.canWrite()) // Root directory must be writable
+      {
         throw new IOException("Invalid root base!");
       }
-    }    
+    }
     return ROOT_BASE;
   }
 
   /* ---------------------------------------
 
-Taula creada amb:
+Log table created with:
 ------------------------------------------  
 CREATE TABLE  "LOG_USERACTIONS" 
    (	"LOG_DATE" DATE NOT NULL ENABLE, 
@@ -200,6 +234,7 @@ CREATE INDEX  "LOG_USERACTIONS_LOG_DATE_IDX" ON  "LOG_USERACTIONS" ("LOG_DATE")
 CREATE INDEX  "LOG_USERACTIONS_LOG_TYPE_IDX" ON  "LOG_USERACTIONS" ("LOG_TYPE")
 /
 ------------------------------------------ */
+  // Appends a message to the log table
   protected void logMsg(String type, String msg) {
     ConnectionBean con = null;
     PreparedStatement stmt = null;

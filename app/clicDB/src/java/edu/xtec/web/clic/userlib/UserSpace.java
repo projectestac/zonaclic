@@ -1,13 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * UserSpace.java
+ *
+ * Encapsulates information about the project's library associated to a single user
+ *
  */
 package edu.xtec.web.clic.userlib;
 
 import java.io.File;
 import java.io.FileFilter;
-import java.io.PrintWriter;
 import org.apache.commons.io.FileUtils;
 import org.json.JSONArray;
 
@@ -17,21 +17,23 @@ import org.json.JSONArray;
  */
 public class UserSpace implements java.io.Serializable {
 
+  // Root directory (on local filesystem) of this user space
   public File root;
+  // Current user unique identifier
   public String userId;
+  // Array of current projects published by the user
   public UserProject[] projects = new UserProject[0];
+  // Current amount of bytes being used on disk
   public long currentSize = 0;
 
+  // Creates a new UserSpace, initializing the directory if needed
   public UserSpace(String userId, File root) throws Exception {
     this.root = root;
     this.userId = userId;
     root.mkdir();
   }
 
-  public UserProject[] getProjects() {
-    return projects;
-  }
-
+  // Get all projects data as a JSON array
   public JSONArray getProjectsJSON() throws Exception {
     JSONArray prj = new JSONArray();
     for (int i = 0; i < projects.length; i++) {
@@ -40,12 +42,14 @@ public class UserSpace implements java.io.Serializable {
     return prj;
   }
 
+  // Looks for "project.json" files in all subdirectories
   public UserProject[] readProjects() throws Exception {
     File[] prjFiles = root.listFiles(new FileFilter() {
       public boolean accept(File file) {
-        return file.isDirectory();
+        return file.isDirectory() && (new File(file, "project.json")).exists();
       }
     });
+    // Creates an "UserProject" object for each directory and initializes it
     projects = new UserProject[prjFiles.length];
     currentSize = 0;
     for (int i = 0; i < projects.length; i++) {
@@ -53,9 +57,11 @@ public class UserSpace implements java.io.Serializable {
       projects[i].readProjectData();
       currentSize += projects[i].checkFiles();
     }
-    return getProjects();
+    return projects;
   }
 
+  // Retrieves the "UserProject" object associated to the given name from
+  // the collection of current projects
   public UserProject getProject(String name) {
     UserProject result = null;
     if (name != null) {
@@ -70,6 +76,8 @@ public class UserSpace implements java.io.Serializable {
     return result;
   }
 
+  // Deletes requested project from disk, removes it from
+  // "projects" and updates disk quota usage
   public boolean removeProject(String name) throws Exception {
     boolean result = false;
     UserProject prj = getProject(name);
@@ -84,28 +92,34 @@ public class UserSpace implements java.io.Serializable {
       }
       currentSize -= prj.totalFileSize;
       result = true;
+      // Update "projects.json"
       saveProjectsList();
     }
     return result;
   }
-  
+
+  // Adds a new "UserProject" object to "projects" and updates
+  // disk quota usage
   public void addProject(UserProject prj) throws Exception {
-    if(prj!=null && getProject(prj.name)==null) {
+    if (prj != null && getProject(prj.name) == null) {
       UserProject[] currentprojects = projects;
       projects = new UserProject[projects.length + 1];
-      if(currentprojects.length > 0)
+      if (currentprojects.length > 0) {
         System.arraycopy(currentprojects, 0, projects, 0, currentprojects.length);
+      }
       projects[currentprojects.length] = prj;
       prj.readProjectData();
       currentSize += prj.checkFiles();
+      // Update "projects.json"
       saveProjectsList();
     }
   }
-  
+
+  // Saves the curent list of projects, with basic information about it
   public void saveProjectsList() throws Exception {
     File projectsList = new File(root, "projects.json");
     JSONArray list = new JSONArray();
-    for(int i=0; i<projects.length; i++) {
+    for (int i = 0; i < projects.length; i++) {
       list.put(projects[i].getInfo());
     }
     FileUtils.writeStringToFile(projectsList, list.toString(1));

@@ -4,10 +4,10 @@ $(function () {
   //var basePath = 'https://clic.xtec.cat/users';
   var basePath = '.';
 
-  if (user === null || user === '' || /[\W]/gi.test(user)) {
-    // TODO: Show invalid user    
+  if (user === null || user === '' || /[^A-Za-z0-9_.]/gi.test(user)) {
+    $('#msg').html('Usuari desconegut').removeClass('hidden');
   } else {
-    basePath = user;    
+    basePath = user;
     $.ajax({
       dataType: 'json',
       url: basePath + '/projects.json',
@@ -37,7 +37,7 @@ $(function () {
         }
       },
       error: function (xhr) {
-        $('#msg').html('ERROR: ' + xhr.statusText);
+        $('#msg').html('ERROR: ' + xhr.statusText).removeClass('hidden');
       }
     });
   }
@@ -108,10 +108,4 @@ $(function () {
     return $result;
   }
 
-  // Express the given amount of bytes in megabyte units
-  function toMB(bytes) {
-    return Math.round(10 * bytes / (1024 * 1024)) / 10;
-  }
-
 });
-
