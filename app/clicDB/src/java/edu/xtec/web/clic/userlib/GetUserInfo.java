@@ -1,11 +1,12 @@
 /**
  * GetUserInfo.java
- * 
+ *
  * Checks if the token provided by the user is valid and, when true, returns
  * information about the user's zone status and projects currently published on
  * it.
  *
- **/
+ *
+ */
 package edu.xtec.web.clic.userlib;
 
 import edu.xtec.util.db.ConnectionBean;
@@ -13,6 +14,7 @@ import edu.xtec.web.clic.Context;
 import edu.xtec.web.clic.Utilities;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.URL;
@@ -23,6 +25,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import org.apache.commons.io.IOUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.JSONStringer;
@@ -59,7 +62,6 @@ public class GetUserInfo extends HttpServlet {
   protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
     // Response will be always a JSON
     response.setContentType("application/json");
-    response.setCharacterEncoding("UTF-8");
     PrintWriter writer = response.getWriter();
     try {
       loadUserData(request);
@@ -92,21 +94,30 @@ public class GetUserInfo extends HttpServlet {
 
       // Read global settings
       File settingsFile = new File(Context.getStaticFileBase(), Context.cntx.getProperty("userLibCfg", "users/settings.json"));
+      if (!settingsFile.exists()) {
+        settingsFile.getParentFile().mkdirs();
+        IOUtils.write("{}", new FileOutputStream(settingsFile));
+      }
       JSONObject settings = Utilities.readJSON(new FileInputStream(settingsFile));
       // Get the current generic disk quota
       quota = settings.optLong("quota", quota);
       // Check if user is allowed to login, and load specific user settings
       boolean validUser = "xtec.cat".equals(hd);
-      JSONArray usr = settings.getJSONArray("users");
-      for (int i = 0; i < usr.length(); i++) {
-        JSONObject usrObj = usr.getJSONObject(i);
-        String id = usrObj.optString("id", "");
-        if (email.equals(id)) {
-          validUser = true;
-          quota = usrObj.optLong("quota", quota);
-          break;
+
+      // Check if user is explicity allowed
+      if (settings.has("users")) {
+        JSONArray usr = settings.getJSONArray("users");
+        for (int i = 0; i < usr.length(); i++) {
+          JSONObject usrObj = usr.getJSONObject(i);
+          String id = usrObj.optString("id", "");
+          if (email.equals(id)) {
+            validUser = true;
+            quota = usrObj.optLong("quota", quota);
+            break;
+          }
         }
       }
+
       if (!validUser) {
         // Unathorized used
         throw new Exception("Usuari no autoritzat: " + email);
@@ -208,6 +219,9 @@ public class GetUserInfo extends HttpServlet {
   public static File getRootBase() throws IOException {
     if (ROOT_BASE == null) {
       ROOT_BASE = new File(Context.getStaticFileBase(), Context.cntx.getProperty("userLibRoot", "users"));
+      if (!ROOT_BASE.exists()) {
+        ROOT_BASE.mkdirs();
+      }
       if (!ROOT_BASE.canWrite()) // Root directory must be writable
       {
         throw new IOException("Invalid root base!");
