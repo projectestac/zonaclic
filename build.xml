@@ -10,7 +10,7 @@
 
     <!-- Variables -->
     <property name="name"           value="WebClic" />
-    <property name="year"           value="2004-15" />
+    <property name="year"           value="2004-17" />
 
     <property name="src.dir"        location="src" />
     <property name="lib.dir"        location="lib" />
@@ -351,7 +351,7 @@
   <!-- =================================================================== -->
   <target name="reportsWebApp" depends="init" description="Builds the reportsWebApp WAR of Gali">
     <mkdir dir="${app.dir}/reportsWebApp/web"/>
-    <unwar src="${lib.dir}/jclicreports.war" dest="${app.dir}/reportsWebApp/web"/>
+    <unwar src="${lib.dir}/jclicreports-14.war" dest="${app.dir}/reportsWebApp/web"/>
 
   </target>
 
@@ -368,12 +368,7 @@
     <sleep seconds="3" />
     <war destfile="${build.prod.dir}/reportsWebApp.war"
          basedir="${build.prod.dir}/reportsWebApp.war-base"
-         webxml="${app.dir}/reportsWebApp/web/WEB-INF/web.xml" >
-        <lib dir="${lib.dir}">
-            <include name="jclic.jar" />
-            <include name="jclicreports.jar" />
-        </lib>
-    </war>
+         webxml="${app.dir}/reportsWebApp/web/WEB-INF/web.xml" />
   </target>
 
   <!-- =================================================================== -->

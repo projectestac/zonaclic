@@ -3,7 +3,9 @@
 # Package Files and binary distributables #
 *.jar
 !app/JNLPServlet/web/jclic/*.jar
+!lib/*.jar
 *.war
+!lib/*.war
 *.ear
 *.exe
 *.zip
