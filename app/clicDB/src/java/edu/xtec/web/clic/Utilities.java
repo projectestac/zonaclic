@@ -9,6 +9,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 import javax.servlet.http.HttpServletRequest;
+import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.io.IOUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -201,6 +202,24 @@ public abstract class Utilities {
       for (int i = 0; i < arr.length(); i++) {
         result[i] = arr.getString(i);
       }
+    }
+    return result;
+  }
+
+  static public JSONObject readOAuthToken(String token) throws Exception {
+    JSONObject result, head;
+    String signature;
+    StringTokenizer st = new StringTokenizer(token, ".");
+    try {
+      head = new JSONObject(new String(Base64.decodeBase64((st.nextToken() + "==").getBytes())));
+      assert head.getString("alg").length() > 2;
+      assert head.getString("kid").length() > 16;
+      result = new JSONObject(new String(Base64.decodeBase64((st.nextToken() + "==").getBytes())));
+      assert result.getString("iss").equals("accounts.google.com");
+      signature = st.nextToken();
+      assert signature.length() >= 16;
+    } catch (Exception ex) {
+      throw new Exception("Invalid ID token");
     }
     return result;
   }

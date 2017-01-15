@@ -80,9 +80,24 @@ public class GetUserInfo extends HttpServlet {
   protected void loadUserData(HttpServletRequest request) throws Exception {
     String token = Utilities.getParam(request, ID_TOKEN, null);
     if (token != null) {
+      // Read global settings
+      File settingsFile = new File(Context.getStaticFileBase(), Context.cntx.getProperty("userLibCfg", "users/settings.json"));
+      if (!settingsFile.exists()) {
+        settingsFile.getParentFile().mkdirs();
+        IOUtils.write("{}", new FileOutputStream(settingsFile));
+      }
+      JSONObject settings = Utilities.readJSON(new FileInputStream(settingsFile));
+
       // Validate token
-      URL verifyURL = new URL(CHECK_GOOGLE_TOKEN + token);
-      JSONObject json = Utilities.readJSON(verifyURL.openStream());
+      JSONObject json;
+      if (settings.optBoolean("remoteTokenAuth", false)) {
+        System.out.println(">>> remote validation of token");
+        URL verifyURL = new URL(CHECK_GOOGLE_TOKEN + token);
+        json = Utilities.readJSON(verifyURL.openStream());
+      } else {
+        System.out.println(">>> local validation of token");
+        json = Utilities.readOAuthToken(token);
+      }
 
       // Check for valid email
       email = json.getString("email");
@@ -92,13 +107,6 @@ public class GetUserInfo extends HttpServlet {
       // "hd" field is used only with GSuite users. Contains the domain name.
       String hd = json.optString("hd", "");
 
-      // Read global settings
-      File settingsFile = new File(Context.getStaticFileBase(), Context.cntx.getProperty("userLibCfg", "users/settings.json"));
-      if (!settingsFile.exists()) {
-        settingsFile.getParentFile().mkdirs();
-        IOUtils.write("{}", new FileOutputStream(settingsFile));
-      }
-      JSONObject settings = Utilities.readJSON(new FileInputStream(settingsFile));
       // Get the current generic disk quota
       quota = settings.optLong("quota", quota);
       // Check if user is allowed to login, and load specific user settings
