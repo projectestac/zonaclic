@@ -61,7 +61,7 @@ public class GetUserInfo extends HttpServlet {
   // Main servlet method. Reacts only to "POST" queries.
   protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
     // Response will be always a JSON
-    response.setContentType("application/json");
+    response.setContentType("application/json;charset=UTF-8");
     PrintWriter writer = response.getWriter();
     try {
       loadUserData(request);

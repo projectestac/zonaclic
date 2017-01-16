@@ -23,7 +23,7 @@ public class DeleteProject extends GetUserInfo {
   String err;
 
   protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
-    response.setContentType("application/json");
+    response.setContentType("application/json;charset=UTF-8");
     String project = Utilities.getParam(request, "project", null);
     PrintWriter writer = response.getWriter();
     try {

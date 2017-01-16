@@ -34,7 +34,7 @@ public class UploadScormFile extends GetUserInfo {
   UserProject prj = null;
 
   protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
-    response.setContentType("application/json");
+    response.setContentType("application/json;charset=UTF-8");
     PrintWriter writer = response.getWriter();
     try {
       loadUserData(request);
