@@ -1,0 +1,2 @@
+UPDATE "CLIC.EDU_JCLIC_SETTINGS" SET "SETTING_VALUE" = '/j2ee/e13_clic/web/' WHERE "SETTING_KEY" = 'staticFilesPath';
+
