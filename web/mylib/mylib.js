@@ -1,4 +1,4 @@
-/* global $, gapi */
+/* global $, gapi, clipboard */
 
 // Set the location of "users" dir
 var url = new URL(window.location.href);
@@ -34,27 +34,27 @@ function onSignIn(googleUser) {
   $('#loginSpinner').removeClass('hidden');
   var errMsg = null;
   var userData = null;
-  $.post('/db/getUserInfo', {id_token: googleUser.getAuthResponse().id_token}, null, 'json')
-          .done(function (data) {
-            if (data === null || typeof data !== 'object')
-              errMsg = 'ERROR: No s\'ha pogut validar l\'usuari. Proveu-ho més tard.';
-            else if (data.status !== 'validated')
-              errMsg = 'ERROR: ' + data.error;
-            else
-              userData = data;
-          })
-          .fail(function (jqXHR, textStatus, errorThrown) {
-            errMsg = 'ERROR: ' + textStatus + ' - ' + errorThrown;
-            console.log(errorThrown);
-            console.log(jqXHR);
-          })
-          .always(function () {
-            if (errMsg) {
-              signOut();
-              $('#loginMsg').html(errMsg);
-            } else if (userData !== null)
-              loginOK(userData);
-          });
+  $.post('/db/getUserInfo', { id_token: googleUser.getAuthResponse().id_token }, null, 'json')
+    .done(function (data) {
+      if (data === null || typeof data !== 'object')
+        errMsg = 'ERROR: No s\'ha pogut validar l\'usuari. Proveu-ho més tard.';
+      else if (data.status !== 'validated')
+        errMsg = 'ERROR: ' + data.error;
+      else
+        userData = data;
+    })
+    .fail(function (jqXHR, textStatus, errorThrown) {
+      errMsg = 'ERROR: ' + textStatus + ' - ' + errorThrown;
+      console.log(errorThrown);
+      console.log(jqXHR);
+    })
+    .always(function () {
+      if (errMsg) {
+        signOut();
+        $('#loginMsg').html(errMsg);
+      } else if (userData !== null)
+        loginOK(userData);
+    });
 
 }
 
@@ -63,7 +63,7 @@ function loginOK(data) {
   $('#fullUserName').html(data.fullUserName);
   $('.avatar').attr('src', data.avatar);
   var usrlib = 'https://clic.xtec.cat/users?' + data.id;
-  $('#userLibUrl').attr({href: usrlib}).html(usrlib);
+  $('#userLibUrl').attr({ href: usrlib }).html(usrlib);
   projects = data.projects;
   userQuota = data.quota;
   usedBytes = data.currentSize;
@@ -107,14 +107,17 @@ function signOut() {
 function checkIfSignedIn() {
   if (gapi && gapi.auth2 && gapi.auth2.getAuthInstance().isSignedIn.get()) {
     // User is signed in
-    $('#accountInfo').removeClass('hidden');
+    $('#userIdBox').on('click', function () { $('#accountInfo').toggleClass('hidden'); });
     $('#userIdBox').removeClass('hidden');
     $('#loginBox').addClass('hidden');
+    $('#mainInfo').removeClass('hidden');
   } else {
-    // No valid user is signed in
+    // No valid user signed in
     $('#accountInfo').addClass('hidden');
+    $('#userIdBox').unbind('click');
     $('#userIdBox').addClass('hidden');
     $('.project').remove();
+    $('#mainInfo').addClass('hidden');
     $('#gSignInBtn').removeClass('hidden');
     $('#loginSpinner').addClass('hidden');
     $('#loginBox').removeClass('hidden');
@@ -158,9 +161,9 @@ function initUploadDlg() {
   dialogPolyfill.registerDialog($uploadDlg[0]);
 
   var $folderInput = $('#projectNameInput'),
-          $folderWarn = $('#fileNameWarn'),
-          $uploadOK = $('#uploadOK'),
-          $fileWarn = $('#fileWarn');
+    $folderWarn = $('#fileNameWarn'),
+    $uploadOK = $('#uploadOK'),
+    $fileWarn = $('#fileWarn');
 
   // Check the proposed project name and size
   $('#scormFileInput').on('change', function () {
@@ -235,7 +238,7 @@ function initUploadDlg() {
         if (myXhr.upload) { // Check if upload property exists
           myXhr.upload.addEventListener('progress', function (e) {
             if (e.lengthComputable)
-              $('#upProgress').attr({value: e.loaded, max: e.total});
+              $('#upProgress').attr({ value: e.loaded, max: e.total });
           }, false);
         }
         return myXhr;
@@ -267,7 +270,7 @@ function initUploadDlg() {
 function uploadProject() {
   // Clean existing data
   $('#uploadForm')[0].reset();
-  $('#scormFileInput, #projectNameInput').attr({value: ''});
+  $('#scormFileInput, #projectNameInput').attr({ value: '' });
   $('#fileNameInfo, #fileWarn, #fileNameWarn').empty();
   $('#fileInfoBlock, #folderNameBlock, #fileUploadProgressBlock, #upProgress').addClass('hidden');
   $('#uploadForm').removeClass('hidden');
@@ -293,7 +296,7 @@ function initDeleteDlg() {
       $.ajax({
         url: '/db/deleteProject',
         type: 'POST',
-        data: {project: project.name},
+        data: { project: project.name },
         success: function (e) {
           if (e.status === 'ok') {
             removeProject(project);
@@ -326,6 +329,29 @@ function deleteProject(project) {
   $('#confirmDeleteDlg')[0].showModal();
 }
 
+// Initialize the 'share project' dialog
+function initShareDlg() {
+  var $shareDlg = $('#shareDlg');
+  dialogPolyfill.registerDialog($shareDlg[0]);
+  $('#linkTextCopy').on('click', function(){
+    clipboard.copy($('#directLink').text());
+  });
+  $('#embedCodeCopy').on('click', function(){
+    clipboard.copy($('#embedCode').text());
+  });
+  $('#moodleLinkCopy').on('click', function(){
+    clipboard.copy($('#moodleLink').text());
+  });
+  $('#closeShareDlg').on('click', function () {
+    shareDlg.close();
+  });
+}
+
+// Open the 'share project' dialog
+function openShareDlg(project) {
+  // TODO: fill dialog with project's data
+  $('#shareDlg')[0].showModal();
+}
 
 // Called when DOM is fully initialized
 $(function () {
@@ -341,11 +367,12 @@ function gApiLoaded() {
     init();
 }
 
-// Called at startup, when both DOM and Google API are ready
+// Called at startup, when both DOM and Google API methods are ready
 function init() {
   initialized = true;
   initUploadDlg();
   initDeleteDlg();
+  initShareDlg();
   checkIfSignedIn();
   $('#uploadBtn').on('click', uploadProject);
   $('#logoutBtn').on('click', signOut);
@@ -363,21 +390,21 @@ function init() {
 // Build a card with information and action buttons related to the given project
 function $buildProjectCard(project) {
   var basePath = usrLibRoot + project.basePath + '/';
-  var $result = $('<div/>', {class: 'project mdl-cell mdl-card mdl-shadow--2dp'}).data('project', project);
+  var $result = $('<div/>', { class: 'project mdl-cell mdl-card mdl-shadow--2dp' }).data('project', project);
 
-  $result.append($('<div/>', {class: 'mdl-card__title'}).css({background: 'url(\'' + basePath + project.cover + '\') center / cover'})
-          .append($('<h2/>', {class: 'mdl-card__title-text'}).html(project.title)));
+  $result.append($('<div/>', { class: 'mdl-card__title' }).css({ background: 'url(\'' + basePath + project.cover + '\') center / cover' })
+    .append($('<h2/>', { class: 'mdl-card__title-text' }).html(project.title)));
 
   var lang = project.meta_langs && project.meta_langs.length > 0 ? project.meta_langs[0] : '';
 
-  var $cardBody = $('<div/>', {class: 'mdl-card__supporting-text'}).append(
-          $('<p/>', {class: 'prjAuthor'}).html(project.author),
-          $('<p/>', {class: 'prjSchool'}).html(project.school));
+  var $cardBody = $('<div/>', { class: 'mdl-card__supporting-text' }).append(
+    $('<p/>', { class: 'prjAuthor' }).html(project.author),
+    $('<p/>', { class: 'prjSchool' }).html(project.school));
 
   var $tBody = $('<tbody/>').append(
-          $('<tr/>').append($('<td>').html('Directori:'), $('<td>', {class: 'code'}).html(project.name)),
-          $('<tr/>').append($('<td>').html('Mida:'), $('<td>').html(toMB(project.totalFileSize) + ' MB')),
-          $('<tr/>').append($('<td>').html('Data:'), $('<td>').html(project.date)));
+    $('<tr/>').append($('<td>').html('Directori:'), $('<td>', { class: 'code' }).html(project.name)),
+    $('<tr/>').append($('<td>').html('Mida:'), $('<td>').html(toMB(project.totalFileSize) + ' MB')),
+    $('<tr/>').append($('<td>').html('Data:'), $('<td>').html(project.date)));
 
   if (project.languages && project.languages[lang])
     $tBody.append($('<tr/>').append($('<td>').html('Idiomes:'), $('<td>').html(project.languages[lang])));
@@ -388,57 +415,59 @@ function $buildProjectCard(project) {
   if (project.areas && project.areas[lang])
     $tBody.append($('<tr/>').append($('<td>').html('Àrees:'), $('<td>').html(project.areas[lang])));
 
-  $cardBody.append($('<table/>', {class: 'prjData'}).append($tBody));
-  
-  if(project.description && project.description[lang])
-    $cardBody.append($('<p/>', {class: 'prjDesc'}).html(project.description[lang]));
-  
+  $cardBody.append($('<table/>', { class: 'prjData' }).append($tBody));
+
+  if (project.description && project.description[lang])
+    $cardBody.append($('<p/>', { class: 'prjDesc' }).html(project.description[lang]));
+
   $result.append($cardBody);
   project.card = $result;
 
   // Create action buttons:
-
-  var $deleteBtn = $('<button/>', {class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect', title: 'Esborra el projecte'})
-          .append($('<i/>', {class: 'material-icons'}).html('delete').on('click', function () {
-            deleteProject(project);
-          }));
+  var $deleteBtn = $('<button/>', { class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect', title: 'Esborra el projecte' })
+    .append($('<i/>', { class: 'material-icons' }).html('delete').on('click', function () {
+      deleteProject(project);
+    }));
 
   var $shareBtn = $('<button/>', {
     class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
-    disabled: true,
-    title: 'Comparteix...'})
-          .append($('<i/>', {class: 'material-icons'}).html('share').on('click', function () {
-            // TODO: Implement share options
-          }));
+    title: 'Comparteix...'
+  })
+    .append($('<i/>', { class: 'material-icons' }).html('share').on('click', function () {
+      openShareDlg(project);
+    }));
 
   var $downloadBtn = $('<a/>', {
     class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
     title: 'Descarrega el fitxer',
     download: true,
-    href: '/db/downloadUserProject?prj=' + project.basePath})
-          .append($('<i/>', {class: 'material-icons'}).html('cloud_download'));
+    href: '/db/downloadUserProject?prj=' + project.basePath
+  })
+    .append($('<i/>', { class: 'material-icons' }).html('cloud_download'));
 
   var $editBtn = $('<button/>', {
     class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
     disabled: true,
-    title: 'Edita el projecte'})
-          .append($('<i/>', {class: 'material-icons'}).html('edit').on('click', function () {
-            // TODO: Implement edit
-          }));
+    title: 'Edita el projecte'
+  })
+    .append($('<i/>', { class: 'material-icons' }).html('edit').on('click', function () {
+      // TODO: Implement edit
+    }));
 
   var $playBtn = $('<a/>', {
     class: 'mdl-button mdl-button--icon mdl-button--raised mdl-button--accent mdl-js-button mdl-js-ripple-effect',
     title: 'Obre el projecte',
     href: basePath + 'index.html',
-    target: '_BLANK'})
-          .append($('<i/>', {class: 'material-icons'}).html('play_arrow'));
+    target: '_BLANK'
+  })
+    .append($('<i/>', { class: 'material-icons' }).html('play_arrow'));
 
   // Build card
-  $result.append($('<div/>', {class: 'mdl-card__actions mdl-card--border'})
-          .append($downloadBtn, $editBtn, $deleteBtn, $shareBtn));
+  $result.append($('<div/>', { class: 'mdl-card__actions mdl-card--border' })
+    .append($downloadBtn, $editBtn, $deleteBtn, $shareBtn));
 
-  $result.append($('<div/>', {class: 'mdl-card__menu'})
-          .append($playBtn));
+  $result.append($('<div/>', { class: 'mdl-card__menu' })
+    .append($playBtn));
 
   return $result;
 }

@@ -1,108 +1,186 @@
 <!DOCTYPE html>
 <html lang="ca">
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="google-signin-scope" content="profile email"/>
-    <meta name="google-signin-client_id" content="628119593973-72bhu9uv9jrlaqv3c7o1h9quf6jocspn.apps.googleusercontent.com"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="mylib.js"></script>
-    <script src="https://apis.google.com/js/platform.js?onload=gApiLoaded" async defer></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
-    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue-indigo.min.css"/>
-    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
-    <script src="dialog-polyfill/dialog-polyfill.js"></script>
-    <link rel="stylesheet" type="text/css" href="dialog-polyfill/dialog-polyfill.css" />    
-    <link href="mylib.css" rel="stylesheet" type="text/css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  </head>
-  <body>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header">
-        <div class="mdl-layout__header-row">
-          <span class="mdl-layout__title">La meva zonaClic</span>
-          <div class="mdl-layout-spacer"></div>
-          <div class="mdl-layout-content hidden" id="userIdBox">
-            <img class="avatar">            
-          </div>
-        </div>          
-      </header>
-      <main class="mdl-layout__content">
 
-        <div id="loginBox" class="mdl-cell hidden">
-          <p>Inicieu la sessió amb el vostre identificador XTEC:</p>
-          <div id="gSignInBtn"></div>
-          <div id="loginSpinner" class="mdl-spinner mdl-js-spinner is-active hidden"></div>
-          <p id="loginMsg"></p>
-        </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="google-signin-scope" content="profile email" />
+  <meta name="google-signin-client_id" content="628119593973-72bhu9uv9jrlaqv3c7o1h9quf6jocspn.apps.googleusercontent.com" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://apis.google.com/js/platform.js?onload=gApiLoaded" async defer></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue-indigo.min.css" />
+  <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/dialog-polyfill@0.4.6/dialog-polyfill.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/dialog-polyfill@0.4.6/dialog-polyfill.css" />
+  <script src="https://unpkg.com/clipboard-js@0.3.2/clipboard.min.js"></script>
+  <link href="mylib.css" rel="stylesheet" type="text/css" />
+  <script src="mylib.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
 
-        <div id="accountInfo" class ="mdl-card mdl-shadow--2dp mdl-cell hidden">
-          <div class="mdl-card__supporting-text">
-            <h2 class="mdl-card__title-text">Dades del compte</h2>
-            <table class="accountInfo">
-              <tbody>
-                <tr><td>Usuari:</td><td id="fullUserName"></td></tr>
-                <tr><td>Ubicació de la biblioteca:</td><td><a id="userLibUrl" class="code" target="_BLANK"></a></td></tr>
-                <tr><td>Projectes publicats:</td><td id="userNumProjects"></td></tr>
-                <tr><td>Espai de disc ocupat:</td><td><span id="usedBytes">0 MB</span> (de <span id="quota">0 MB</span> disponibles)</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="mdl-card__actions mdl-card--border">
-            <button id="uploadBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Publica un projecte nou</button>
-            <button id="logoutBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Tanca la sessió</button>
-          </div>              
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout__title">La meva zonaClic</span>
+        <div class="mdl-layout-spacer"></div>
+        <div class="mdl-layout-content hidden" id="userIdBox">
+          <img class="avatar">
         </div>
-        
-        <div id="projects"></div>
-        
-      </main>      
+      </div>
+    </header>
+
+    <main class="mdl-layout__content">
+
+      <div id="loginBox" class="mdl-cell hidden">
+        <p>Inicieu la sessió amb el vostre identificador XTEC:</p>
+        <div id="gSignInBtn"></div>
+        <div id="loginSpinner" class="mdl-spinner mdl-js-spinner is-active hidden"></div>
+        <p id="loginMsg"></p>
+      </div>
+
+      <div id="accountInfo" class="mdl-card mdl-shadow--2dp mdl-cell hidden">
+        <div class="mdl-card__supporting-text">
+          <h2 class="mdl-card__title-text">Dades del compte</h2>
+          <table class="accountInfo">
+            <tbody>
+              <tr>
+                <td>Usuari:</td>
+                <td id="fullUserName"></td>
+              </tr>
+              <tr>
+                <td>Ubicació de la biblioteca:</td>
+                <td>
+                  <a id="userLibUrl" class="code" target="_BLANK"></a>
+                </td>
+              </tr>
+              <tr>
+                <td>Projectes publicats:</td>
+                <td id="userNumProjects"></td>
+              </tr>
+              <tr>
+                <td>Espai de disc ocupat:</td>
+                <td><span id="usedBytes">0 MB</span> (de <span id="quota">0 MB</span> disponibles)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <button id="logoutBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Tanca la sessió</button>
+        </div>
+      </div>
+
+      <div id="mainInfo" class="mdl-card mdl-shadow--2dp mdl-cell hidden">
+        <div class="mdl-card__supporting-text">
+          <h2 class="mdl-card__title-text">Espai per a projectes d'usuari</h2>
+          <p>Aquest espai està pensat per facilitar la publicació dels vostres projectes JClic que no es trobin disponibles
+            a la <a href="https://clic.xtec.cat/repo" target="_blank">biblioteca de la zonaClic</a>.</p>
+          <p>Per publicar un projecte l'heu d'exportar abans al format HTML5-SCORM amb el
+            <a href="http://clic.xtec.cat/ca/jclic/download.htm" target="_blank">JClic Author</a>.</p>
+          <p>Un cop publicats, els projectes es poden compartir al blog, web de centre o xarxes socials fent clic al botó
+            <i class="material-icons small-icon">share</i></p>
+          <p>El mateix botó permet també obtenir el codi per incrustar el projecte en qualsevol blog o pàgina web, així com
+            l'adreça per utilitzar-lo amb el mòdul de JClic per a Moodle.</p>
+          <p><strong>IMPORTANT:</strong> Cada usuari es fa responsable dels fitxers publicats al seu espai de projectes. Cal
+            respectar sempre el copyright dels components gràfics, textuals o sonors emprats a les activitats. Els projectes
+            publicats en aquest espai són sempre públics i es comparteixen per defecte amb una llicència
+            <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca">Creative Commons de tipus <em>by-nc-sa</em></a>.</p>
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <button id="uploadBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Publica un projecte nou</button>
+        </div>
+      </div>
+
+      <div id="projects"></div>
+
+    </main>
+  </div>
+
+  <dialog id="uploadDlg" class="mdl-dialog">
+    <h4 class="mdl-dialog__title">Publicació de projectes</h4>
+    <div class="mdl-dialog__content">
+      <form id="uploadForm" enctype="multipart/form-data">
+        <p>Per publicar un projecte JClic l'heu d'<strong>exportar</strong> abans al format SCORM HTML5 amb el <a href="http://clic.xtec.cat/ca/jclic/download.htm"
+            target="_blank">JClic Author</a>.<br> El fitxer resultant, que porta l'extensió <span class="code">.scorm.zip</span>,
+          és el que heu de seleccionar fent clic en aquest botó:</p>
+        <p id="fileSelectBlock">
+          <label class="mdl-button mdl-js-button mdl-button--raised">
+            <input id="scormFileInput" type="file" name="scormFile" accept=".scorm.zip" style="display:none"/> Seleccioneu un fitxer .scorm.zip
+          </label>
+        </p>
+        <p id="fileInfoBlock" class="hidden">
+          Fitxer seleccionat: <span id="fileNameInfo">nomdelfitxer</span> <span id="fileSizeInfo">(xxx MB)</span><br>
+          <span id="fileWarn" class="warning"></span>
+        </p>
+        <p id="folderNameBlock" class="hidden">
+          <label for="projectNameInput">Directori on es publicarà el projecte: </label>
+          <input id="projectNameInput" type="text" name="project" /><br>
+          <span id="fileNameWarn" class="warning"></span><br>
+        </p>
+      </form>
+      <div id="fileUploadProgressBlock" class="hidden">
+        <p id="uploadMsg">S'està pujant el fitxer...</p>
+        <progress id="upProgress" class="mdl-progress mdl-js-progress"></progress><br>
+      </div>
     </div>
-    
-    <dialog id="uploadDlg" class="mdl-dialog">
-      <h4 class="mdl-dialog__title">Publicació de projectes</h4>
-      <div class="mdl-dialog__content">
-        <form id="uploadForm" enctype="multipart/form-data">
-          <p>Per publicar un projecte JClic l'heu d'<strong>exportar</strong> abans al format SCORM HTML5
-            amb el <a href="http://clic.xtec.cat/ca/jclic/download.htm" target="_BLANK">JClic Author</a>.<br>
-            El fitxer resultant, que porta l'extensió <span class="code">.scorm.zip</span>, és el que heu de seleccionar fent clic en aquest botó:</p>
-          <p id="fileSelectBlock">
-            <label class="mdl-button mdl-js-button mdl-button--raised">                    
-              <input id="scormFileInput" type="file" name="scormFile" accept=".scorm.zip" style="display:none"/>
-              Selecciona un fitxer .scorm.zip
-            </label>
-          </p>
-          <p id="fileInfoBlock" class="hidden">
-            Fitxer seleccionat: <span id="fileNameInfo">nomdelfitxer</span> <span id="fileSizeInfo">(xxx MB)</span><br>
-            <span id="fileWarn" class="warning"></span>
-          </p>
-          <p id="folderNameBlock" class="hidden">
-            <label for="projectNameInput">Directori on es publicarà el projecte: </label>
-            <input id="projectNameInput" type="text" name="project" /><br>
-            <span id="fileNameWarn" class="warning"></span><br>
-          </p>
-        </form>
-        <div id="fileUploadProgressBlock" class="hidden">
-          <p id="uploadMsg">S'està pujant el fitxer...</p>
-          <progress id="upProgress" class="mdl-progress mdl-js-progress"></progress><br>            
+    <div class="mdl-dialog__actions">
+      <button id="uploadCancel" type="button" class="mdl-button close">Cancel·la</button>
+      <button id="uploadOK" type="button" class="mdl-button" disabled>Publica el projecte</button>
+    </div>
+  </dialog>
+
+  <dialog id="confirmDeleteDlg" class="mdl-dialog">
+    <h4 class="mdl-dialog__title">Eliminació del projecte "<span class="deleteName"></span>"</h4>
+    <div class="mdl-dialog__content">
+      <p>Heu sol·licitat eliminar completament el projecte "<span class="deleteName"></span>" del servidor.<br><strong>ATENCIÓ: Aquesta operació no es pot desfer!</strong></p>
+      <p>Segur que voleu eliminar el projecte?</p>
+      <p id="deleteMsg" class="hidden warning"></p>
+    </div>
+    <div class="mdl-dialog__actions">
+      <button id="deleteCancel" type="button" class="mdl-button close">Cancel·la l'operació</button>
+      <button id="deleteOK" type="button" class="mdl-button" disabled>Elimina el projecte</button>
+    </div>
+  </dialog>
+
+  <dialog id="shareDlg" class="mdl-dialog">
+    <h4 class="mdl-dialog__title">Comparteix el projecte</h4>
+    <div class="mdl-dialog__content">
+      <div class="mdl-cell mdl-shadow--2dp shareItem">
+        <p>Enllaç directe a les activitats:</p>
+        <span class="shareText" id="directLink">http://clic.xtec.cat/prova</span>
+        <button id="linkTextCopy" class="mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">content_copy</i></button>
+        <div class="shareButtons">
+          <!-- Share buttons from: https://codepen.io/brandonhimpfen/pen/EjpMEZ -->
+          <!-- Twitter -->
+          <a href="http://twitter.com/home?status=" title="Share on Twitter" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--twitter"><i class="fa fa-twitter fa-fw"></i></a>
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/sharer/sharer.php?u=" title="Share on Facebook" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--facebook"><i class="fa fa-facebook fa-fw"></i></a>
+          <!-- Google+ -->
+          <a href="https://plus.google.com/share?url=" title="Share on Google+" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--googleplus"><i class="fa fa-google-plus fa-fw"></i></a>
+          <!-- StumbleUpon -->
+          <a href="http://www.stumbleupon.com/submit?url=" title="Share on StumbleUpon" target="_blank" data-placement="top" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--stumbleupon"><i class="fa fa-stumbleupon fa-fw"></i></a>
+          <!-- LinkedIn -->
+          <a href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=" title="Share on LinkedIn" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
         </div>
       </div>
-      <div class="mdl-dialog__actions">
-        <button id="uploadCancel" type="button" class="mdl-button close">Cancel·la</button>
-        <button id="uploadOK" type="button" class="mdl-button" disabled>Publica el projecte</button>
+      <div class="mdl-cell mdl-shadow--2dp shareItem">
+        <p>Codi per incrustar les activitats en un blog o pàgina web:</p>
+        <span class="shareText" id="embedCode">xxxx</span>
+        <button id="embedCodeCopy" class="mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">content_copy</i></button>
       </div>
-    </dialog>
-    
-    <dialog id="confirmDeleteDlg" class="mdl-dialog">
-      <h4 class="mdl-dialog__title">Eliminació del projecte "<span class="deleteName"></span>"</h4>
-      <div class="mdl-dialog__content">
-        <p>Heu sol·licitat eliminar completament el projecte "<span class="deleteName"></span>" del servidor.<br><strong>ATENCIÓ: Aquesta operació no es pot desfer!</strong></p>
-        <p>Segur que voleu eliminar el projecte?</p>
-        <p id="deleteMsg" class="hidden warning"></p>
+      <div class="mdl-cell mdl-shadow--2dp shareItem">
+        <p>Enllaç a utilitzar en el mòdul de JClic per a Moodle:</p>
+        <span class="shareText" id="moodleLink">yyy</span>
+        <button id="moodleLinkCopy" class="mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">content_copy</i></button>
       </div>
-      <div class="mdl-dialog__actions">
-        <button id="deleteCancel" type="button" class="mdl-button close">Cancel·la l'operació</button>
-        <button id="deleteOK" type="button" class="mdl-button" disabled>Elimina el projecte</button>
-      </div>
-    </dialog>    
-  </body>
+    </div>
+    <div class="mdl-dialog__actions">
+      <button id="closeShareDlg" type="button" class="mdl-button close">Tanca</button>
+    </div>
+  </dialog>
+
+</body>
+
 </html>
