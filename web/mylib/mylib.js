@@ -333,13 +333,13 @@ function deleteProject(project) {
 function initShareDlg() {
   var $shareDlg = $('#shareDlg');
   dialogPolyfill.registerDialog($shareDlg[0]);
-  $('#linkTextCopy').on('click', function(){
+  $('#linkTextCopy').on('click', function () {
     clipboard.copy($('#directLink').text());
   });
-  $('#embedCodeCopy').on('click', function(){
+  $('#embedCodeCopy').on('click', function () {
     clipboard.copy($('#embedCode').text());
   });
-  $('#moodleLinkCopy').on('click', function(){
+  $('#moodleLinkCopy').on('click', function () {
     clipboard.copy($('#moodleLink').text());
   });
   $('#closeShareDlg').on('click', function () {
@@ -349,7 +349,26 @@ function initShareDlg() {
 
 // Open the 'share project' dialog
 function openShareDlg(project) {
-  // TODO: fill dialog with project's data
+  var basePath = usrLibRoot + project.basePath + '/';
+  var directLink = basePath + 'index.html';
+  var moodleLink = basePath + project.mainFile;
+  var shareText = encodeURIComponent('Activitats #JClic "' + project.title + '" ' + directLink);
+  $('#directLink').val(directLink);
+  $('#shTwitter').attr('href', 'http://twitter.com/home?status=' + shareText);
+  $('#shFacebook').attr('href', 'https://www.facebook.com/sharer/sharer.php?u=' + shareText);
+  $('#shGoogle').attr('href', 'https://plus.google.com/share?url=' + encodeURIComponent(directLink));
+  $('#shLinkedin').attr('href',
+    'http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(directLink)
+    + '&title=' + encodeURIComponent(project.title)
+    + '&summary=' + encodeURIComponent('Activitats #JClic "' + project.title + '"'));
+  $('#shPinterest').attr('href',
+    'https://pinterest.com/pin/create/button/?url=' + encodeURIComponent(directLink)
+    + '&media=' + encodeURIComponent(basePath + project.cover)
+    + '&description=' + encodeURIComponent(project.title));
+
+  $('#embedCode').val(getEmbedCode(directLink));
+  $('#moodleLink').val(moodleLink);
+
   $('#shareDlg')[0].showModal();
 }
 
@@ -477,4 +496,11 @@ function $buildProjectCard(project) {
 // Express the given amount of bytes in megabyte units
 function toMB(bytes) {
   return Math.round(10 * bytes / (1024 * 1024)) / 10;
+}
+
+function getEmbedCode(url, width, height) {
+  return '<iframe width="%w%" height="%h%" frameborder="0" allowFullScreen="true" src="%url%"></iframe>'
+    .replace('%url%', url)
+    .replace('%w%', width ? width : '800')
+    .replace('%h%', height ? height : '600');
 }

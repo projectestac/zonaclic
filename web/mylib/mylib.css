@@ -136,7 +136,19 @@ table td:first-child {
   width: 100%;
 }
 
+.shareItem label {
+  display: block
+}
 
+.shareItem input {
+  size: 200pt;
+  font-size: 12pt;
+}
+
+.shareButtons .mdl-button {
+  padding: 0;
+  font-size: 12pt;
+}
 
 .mdl-button.mdl-button--twitter {
   color: #3f51b5;

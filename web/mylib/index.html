@@ -148,31 +148,31 @@
     <h4 class="mdl-dialog__title">Comparteix el projecte</h4>
     <div class="mdl-dialog__content">
       <div class="mdl-cell mdl-shadow--2dp shareItem">
-        <p>Enllaç directe a les activitats:</p>
-        <span class="shareText" id="directLink">http://clic.xtec.cat/prova</span>
+        <label for="directLink">Enllaç directe a les activitats:</label>
+        <input class="shareText" id="directLink"></input>
         <button id="linkTextCopy" class="mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">content_copy</i></button>
         <div class="shareButtons">
           <!-- Share buttons from: https://codepen.io/brandonhimpfen/pen/EjpMEZ -->
           <!-- Twitter -->
-          <a href="http://twitter.com/home?status=" title="Share on Twitter" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--twitter"><i class="fa fa-twitter fa-fw"></i></a>
+          <a id="shTwitter" title="Comparteix a Twitter" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--twitter"><i class="fa fa-twitter fa-fw"></i></a>
           <!-- Facebook -->
-          <a href="https://www.facebook.com/sharer/sharer.php?u=" title="Share on Facebook" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--facebook"><i class="fa fa-facebook fa-fw"></i></a>
+          <a id="shFacebook" title="Comparteix a Facebook" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--facebook"><i class="fa fa-facebook fa-fw"></i></a>
           <!-- Google+ -->
-          <a href="https://plus.google.com/share?url=" title="Share on Google+" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--googleplus"><i class="fa fa-google-plus fa-fw"></i></a>
-          <!-- StumbleUpon -->
-          <a href="http://www.stumbleupon.com/submit?url=" title="Share on StumbleUpon" target="_blank" data-placement="top" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--stumbleupon"><i class="fa fa-stumbleupon fa-fw"></i></a>
+          <a id="shGoogle" title="Comparteix a Google+" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--googleplus"><i class="fa fa-google-plus fa-fw"></i></a>
+          <!-- Pinterest -->
+          <a id="shPinterest" title="Comparteix a Pinterest" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--googleplus"><i class="fa fa-pinterest fa-fw"></i></a>
           <!-- LinkedIn -->
-          <a href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=" title="Share on LinkedIn" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+          <a id="shLinkedin" title="Comparteix a LinkedIn" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
         </div>
       </div>
       <div class="mdl-cell mdl-shadow--2dp shareItem">
-        <p>Codi per incrustar les activitats en un blog o pàgina web:</p>
-        <span class="shareText" id="embedCode">xxxx</span>
+        <label for="embedCode">Codi per incrustar les activitats en un blog o pàgina web:</label>
+        <input class="shareText" id="embedCode"></input>
         <button id="embedCodeCopy" class="mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">content_copy</i></button>
       </div>
       <div class="mdl-cell mdl-shadow--2dp shareItem">
-        <p>Enllaç a utilitzar en el mòdul de JClic per a Moodle:</p>
-        <span class="shareText" id="moodleLink">yyy</span>
+        <label for="moodleLink">Enllaç a utilitzar en el mòdul de JClic per a Moodle:</label>
+        <input class="shareText" id="moodleLink"></input>
         <button id="moodleLinkCopy" class="mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">content_copy</i></button>
       </div>
     </div>
