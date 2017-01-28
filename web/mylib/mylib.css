@@ -129,11 +129,19 @@ table td:first-child {
 #shareDlg {
   width: 80%;
   max-width: 600pt;
+  background-color: #f8f8f8;
 }
 
 .shareItem {
   padding: 10pt;
   width: 100%;
+  background-color: white;
+}
+
+.copyInput {
+  display: flex;
+  align-items: center;
+  margin: 5pt 0;
 }
 
 .shareItem label {
@@ -141,261 +149,41 @@ table td:first-child {
 }
 
 .shareItem input {
-  size: 200pt;
-  font-size: 12pt;
+  width: 100%;
+  max-height: 11pt;
+  font-family: monospace;
+  font-size: 9pt;
+  color: #606060;
 }
 
-.shareButtons .mdl-button {
-  padding: 0;
-  font-size: 12pt;
+.shareButtons svg {
+  pointer-events: none;
+  width: 26pt;
+  height: 26pt;
 }
 
-.mdl-button.mdl-button--twitter {
-  color: #3f51b5;
+#shTwitter svg {
+  fill: #55acee;
 }
 
-.mdl-button.mdl-button--twitter:focus:not(:active) {
-  background-color: #00acee;
+#shFacebook svg {
+  fill: #3b5998;
 }
 
-.mdl-button--raised.mdl-button--twitter {
-  background: #00acee;
-  color: white;
+#shGoogle svg {
+  fill: #dd4b39;
 }
 
-.mdl-button--raised.mdl-button--twitter:hover {
-  background-color: #00acee;
+#shPinterest svg {
+  fill: #bd081c;
 }
 
-.mdl-button--raised.mdl-button--twitter:active {
-  background-color: #00acee;
+#shEmail svg {
+  fill: #0166ff;
 }
 
-.mdl-button--raised.mdl-button--twitter:focus:not(:active) {
-  background-color: #00acee;
+#moodleLogo {
+  height: 18pt;
+  margin-bottom: 10pt;
 }
 
-.mdl-button--raised.mdl-button--twitter .mdl-ripple {
-  background: white;
-}
-
-.mdl-button--fab.mdl-button--twitter {
-  background: #00acee;
-  color: white;
-}
-
-.mdl-button--fab.mdl-button--twitter:hover {
-  background-color: #00acee;
-}
-
-.mdl-button--fab.mdl-button--twitter:focus:not(:active) {
-  background-color: #00acee;
-}
-
-.mdl-button--fab.mdl-button--twitter:active {
-  background-color: #00acee;
-}
-
-.mdl-button--fab.mdl-button--twitter .mdl-ripple {
-  background: white;
-}
-
-.mdl-button.mdl-button--facebook {
-  color: #3f51b5;
-}
-
-.mdl-button.mdl-button--facebook:focus:not(:active) {
-  background-color: #3b5998;
-}
-
-.mdl-button--raised.mdl-button--facebook {
-  background: #3b5998;
-  color: white;
-}
-
-.mdl-button--raised.mdl-button--facebook:hover {
-  background-color: #3b5998;
-}
-
-.mdl-button--raised.mdl-button--facebook:active {
-  background-color: #3b5998;
-}
-
-.mdl-button--raised.mdl-button--facebook:focus:not(:active) {
-  background-color: #3b5998;
-}
-
-.mdl-button--raised.mdl-button--facebook .mdl-ripple {
-  background: white;
-}
-
-.mdl-button--fab.mdl-button--facebook {
-  background: #3b5998;
-  color: white;
-}
-
-.mdl-button--fab.mdl-button--facebook:hover {
-  background-color: #3b5998;
-}
-
-.mdl-button--fab.mdl-button--facebook:focus:not(:active) {
-  background-color: #3b5998;
-}
-
-.mdl-button--fab.mdl-button--facebook:active {
-  background-color: #3b5998;
-}
-
-.mdl-button--fab.mdl-button--facebook .mdl-ripple {
-  background: white;
-}
-
-.mdl-button.mdl-button--googleplus {
-  color: #3f51b5;
-}
-
-.mdl-button.mdl-button--googleplus:focus:not(:active) {
-  background-color: #e93f2e;
-}
-
-.mdl-button--raised.mdl-button--googleplus {
-  background: #e93f2e;
-  color: white;
-}
-
-.mdl-button--raised.mdl-button--googleplus:hover {
-  background-color: #e93f2e;
-}
-
-.mdl-button--raised.mdl-button--googleplus:active {
-  background-color: #e93f2e;
-}
-
-.mdl-button--raised.mdl-button--googleplus:focus:not(:active) {
-  background-color: #e93f2e;
-}
-
-.mdl-button--raised.mdl-button--googleplus .mdl-ripple {
-  background: white;
-}
-
-.mdl-button--fab.mdl-button--googleplus {
-  background: #e93f2e;
-  color: white;
-}
-
-.mdl-button--fab.mdl-button--googleplus:hover {
-  background-color: #e93f2e;
-}
-
-.mdl-button--fab.mdl-button--googleplus:focus:not(:active) {
-  background-color: #e93f2e;
-}
-
-.mdl-button--fab.mdl-button--googleplus:active {
-  background-color: #e93f2e;
-}
-
-.mdl-button--fab.mdl-button--googleplus .mdl-ripple {
-  background: white;
-}
-
-.mdl-button.mdl-button--stumbleupon {
-  color: #3f51b5;
-}
-
-.mdl-button.mdl-button--stumbleupon:focus:not(:active) {
-  background-color: #f74425;
-}
-
-.mdl-button--raised.mdl-button--stumbleupon {
-  background: #f74425;
-  color: white;
-}
-
-.mdl-button--raised.mdl-button--stumbleupon:hover {
-  background-color: #f74425;
-}
-
-.mdl-button--raised.mdl-button--stumbleupon:active {
-  background-color: #f74425;
-}
-
-.mdl-button--raised.mdl-button--stumbleupon:focus:not(:active) {
-  background-color: #f74425;
-}
-
-.mdl-button--raised.mdl-button--stumbleupon .mdl-ripple {
-  background: white;
-}
-
-.mdl-button--fab.mdl-button--stumbleupon {
-  background: #f74425;
-  color: white;
-}
-
-.mdl-button--fab.mdl-button--stumbleupon:hover {
-  background-color: #f74425;
-}
-
-.mdl-button--fab.mdl-button--stumbleupon:focus:not(:active) {
-  background-color: #f74425;
-}
-
-.mdl-button--fab.mdl-button--stumbleupon:active {
-  background-color: #f74425;
-}
-
-.mdl-button--fab.mdl-button--stumbleupon .mdl-ripple {
-  background: white;
-}
-
-.mdl-button.mdl-button--linkedin {
-  color: #3f51b5;
-}
-
-.mdl-button.mdl-button--linkedin:focus:not(:active) {
-  background-color: #0e76a8;
-}
-
-.mdl-button--raised.mdl-button--linkedin {
-  background: #0e76a8;
-  color: white;
-}
-
-.mdl-button--raised.mdl-button--linkedin:hover {
-  background-color: #0e76a8;
-}
-
-.mdl-button--raised.mdl-button--linkedin:active {
-  background-color: #0e76a8;
-}
-
-.mdl-button--raised.mdl-button--linkedin:focus:not(:active) {
-  background-color: #0e76a8;
-}
-
-.mdl-button--raised.mdl-button--linkedin .mdl-ripple {
-  background: white;
-}
-
-.mdl-button--fab.mdl-button--linkedin {
-  background: #0e76a8;
-  color: white;
-}
-
-.mdl-button--fab.mdl-button--linkedin:hover {
-  background-color: #0e76a8;
-}
-
-.mdl-button--fab.mdl-button--linkedin:focus:not(:active) {
-  background-color: #0e76a8;
-}
-
-.mdl-button--fab.mdl-button--linkedin:active {
-  background-color: #0e76a8;
-}
-
-.mdl-button--fab.mdl-button--linkedin .mdl-ripple {
-  background: white;
-}

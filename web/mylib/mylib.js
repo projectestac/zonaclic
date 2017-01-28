@@ -333,14 +333,20 @@ function deleteProject(project) {
 function initShareDlg() {
   var $shareDlg = $('#shareDlg');
   dialogPolyfill.registerDialog($shareDlg[0]);
+  $('.shareText')
+    .on('focus', function () { this.setSelectionRange(0, this.value.length); })
+    .attr('spellcheck', false);
   $('#linkTextCopy').on('click', function () {
     clipboard.copy($('#directLink').text());
+    $('#copy-toast')[0].MaterialSnackbar.showSnackbar({ message: 'L\'enllaç s\'ha copiat al porta-retalls' });
   });
   $('#embedCodeCopy').on('click', function () {
     clipboard.copy($('#embedCode').text());
+    $('#copy-toast')[0].MaterialSnackbar.showSnackbar({ message: 'El codi s\'ha copiat al porta-retalls. Enganxeu-lo amb CTRL+V a la pàgina o article del blog on vulgueu que aparegui.' });
   });
   $('#moodleLinkCopy').on('click', function () {
     clipboard.copy($('#moodleLink').text());
+    $('#copy-toast')[0].MaterialSnackbar.showSnackbar({ message: 'L\'enllaç s\'ha copiat al porta-retalls. Enganxeu-lo amb CTRL+V en una activitat de tipus JClic del Moodle.' });
   });
   $('#closeShareDlg').on('click', function () {
     shareDlg.close();
@@ -349,61 +355,45 @@ function initShareDlg() {
 
 // Open the 'share project' dialog
 function openShareDlg(project) {
+
+  $('#shareDlgTitle').html(getQuotedText(project.title));
+
   var basePath = usrLibRoot + project.basePath + '/';
   var directLink = basePath + 'index.html';
   var moodleLink = basePath + project.mainFile;
-  var shareText = encodeURIComponent('Activitats #JClic "' + project.title + '" ' + directLink);
+  var shareText = encodeURIComponent('Activitats JClic ' + getQuotedText(project.title) + ' ' + directLink);
   $('#directLink').val(directLink);
-  $('#shTwitter').attr('href', 'http://twitter.com/home?status=' + shareText);
-  $('#shFacebook').attr('href', 'https://www.facebook.com/sharer/sharer.php?u=' + shareText);
+  $('#shTwitter').attr('href', 'https://twitter.com/intent/tweet?' +
+    'text=' + encodeURIComponent(getQuotedText(project.title)) +
+    '&url=' + encodeURIComponent(directLink) +
+    '&hashtags=JClic' +
+    '&via=jclic');
+
+  //$('#shFacebook').attr('href', 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(directLink));
+  $('#shFacebook').attr('href', 'https://www.facebook.com/dialog/feed?' +
+    'app_id=1917838468440790' +
+    '&picture=' + encodeURIComponent(basePath + project.cover) +
+    '&name=' + encodeURIComponent(project.title) +
+    '&description=' + encodeURIComponent('Proveu aquestes activitats amb el nou JClic per a HTML5') +
+    '&redirect_uri=' + encodeURIComponent('http://facebook.com/') +
+    '&link=' + encodeURIComponent(directLink));
+
   $('#shGoogle').attr('href', 'https://plus.google.com/share?url=' + encodeURIComponent(directLink));
-  $('#shLinkedin').attr('href',
-    'http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(directLink)
-    + '&title=' + encodeURIComponent(project.title)
-    + '&summary=' + encodeURIComponent('Activitats #JClic "' + project.title + '"'));
+
   $('#shPinterest').attr('href',
-    'https://pinterest.com/pin/create/button/?url=' + encodeURIComponent(directLink)
-    + '&media=' + encodeURIComponent(basePath + project.cover)
-    + '&description=' + encodeURIComponent(project.title));
+    'https://pinterest.com/pin/create/button/?url=' + encodeURIComponent(directLink) +
+    '&media=' + encodeURIComponent(basePath + project.cover) +
+    '&description=' + encodeURIComponent(project.title));
+
+  $('#shEmail').attr('href', 'mailto:?' +
+    'subject=' + encodeURIComponent('Activitats JClic ' + getQuotedText(project.title)) +
+    '&body=' + encodeURIComponent(project.title + '\n\nProveu aquestes activitats amb el nou JClic per a HTML5:\n' + directLink)
+  );
 
   $('#embedCode').val(getEmbedCode(directLink));
   $('#moodleLink').val(moodleLink);
 
   $('#shareDlg')[0].showModal();
-}
-
-// Called when DOM is fully initialized
-$(function () {
-  DOM_ready = true;
-  if (gAPI_ready && !initialized)
-    init();
-});
-
-// Called when Google API is ready
-function gApiLoaded() {
-  gAPI_ready = true;
-  if (DOM_ready && !initialized)
-    init();
-}
-
-// Called at startup, when both DOM and Google API methods are ready
-function init() {
-  initialized = true;
-  initUploadDlg();
-  initDeleteDlg();
-  initShareDlg();
-  checkIfSignedIn();
-  $('#uploadBtn').on('click', uploadProject);
-  $('#logoutBtn').on('click', signOut);
-  gapi.signin2.render('gSignInBtn', {
-    'scope': 'profile email',
-    'width': 240,
-    'height': 50,
-    'longtitle': false,
-    'theme': 'dark',
-    'onsuccess': onSignIn,
-    'onfailure': onSignInFailure
-  });
 }
 
 // Build a card with information and action buttons related to the given project
@@ -449,6 +439,7 @@ function $buildProjectCard(project) {
     }));
 
   var $shareBtn = $('<button/>', {
+    id: 'share',
     class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
     title: 'Comparteix...'
   })
@@ -491,16 +482,59 @@ function $buildProjectCard(project) {
   return $result;
 }
 
+// Initialization process
+
+// Called when DOM is fully initialized
+$(function () {
+  DOM_ready = true;
+  if (gAPI_ready && !initialized)
+    init();
+});
+
+// Called when Google API is ready
+function gApiLoaded() {
+  gAPI_ready = true;
+  if (DOM_ready && !initialized)
+    init();
+}
+
+// Called at startup, when both DOM and Google API methods are ready
+function init() {
+  initialized = true;
+  initUploadDlg();
+  initDeleteDlg();
+  initShareDlg();
+  checkIfSignedIn();
+  $('#uploadBtn').on('click', uploadProject);
+  $('#logoutBtn').on('click', signOut);
+  gapi.signin2.render('gSignInBtn', {
+    'scope': 'profile email',
+    'width': 240,
+    'height': 50,
+    'longtitle': false,
+    'theme': 'dark',
+    'onsuccess': onSignIn,
+    'onfailure': onSignInFailure
+  });
+}
+
 // Miscellaneous functions
 
-// Express the given amount of bytes in megabyte units
+// Get the given amount of bytes in megabyte units
 function toMB(bytes) {
   return Math.round(10 * bytes / (1024 * 1024)) / 10;
 }
 
+// Get the HTML code suitable for embedding a JClic project
 function getEmbedCode(url, width, height) {
   return '<iframe width="%w%" height="%h%" frameborder="0" allowFullScreen="true" src="%url%"></iframe>'
     .replace('%url%', url)
     .replace('%w%', width ? width : '800')
     .replace('%h%', height ? height : '600');
+}
+
+// Surround text with double quotes only if there is no double quote on it
+function getQuotedText(text) {
+  text = text || '';
+  return text.indexOf('"') < 0 ? '"' + text + '"' : text;
 }
