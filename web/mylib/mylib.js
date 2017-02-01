@@ -1,4 +1,4 @@
-/* global $, gapi, clipboard */
+/* global $, gapi, clipboard, dialogPolyfill */
 
 // Set the location of "users" dir
 var url = new URL(window.location.href);
@@ -107,13 +107,11 @@ function signOut() {
 function checkIfSignedIn() {
   if (gapi && gapi.auth2 && gapi.auth2.getAuthInstance().isSignedIn.get()) {
     // User is signed in
-    $('#userIdBox').on('click', function () { $('#accountInfo').toggleClass('hidden'); });
     $('#userIdBox').removeClass('hidden');
     $('#loginBox').addClass('hidden');
     $('#mainInfo').removeClass('hidden');
   } else {
     // No valid user signed in
-    $('#accountInfo').addClass('hidden');
     $('#userIdBox').unbind('click');
     $('#userIdBox').addClass('hidden');
     $('.project').remove();
@@ -346,7 +344,7 @@ function initShareDlg() {
   });
   $('#moodleLinkCopy').on('click', function () {
     clipboard.copy($('#moodleLink').text());
-    $('#copy-toast')[0].MaterialSnackbar.showSnackbar({ message: 'L\'enllaç s\'ha copiat al porta-retalls. Enganxeu-lo amb CTRL+V en una activitat de tipus JClic del Moodle.' });
+    $('#copy-toast')[0].MaterialSnackbar.showSnackbar({ message: 'L\'enllaç s\'ha copiat al porta-retalls. Enganxeu-lo amb CTRL+V en una activitat de tipus JClic de Moodle.' });
   });
   $('#closeShareDlg').on('click', function () {
     shareDlg.close();
@@ -434,18 +432,20 @@ function $buildProjectCard(project) {
 
   // Create action buttons:
   var $deleteBtn = $('<button/>', { class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect', title: 'Esborra el projecte' })
-    .append($('<i/>', { class: 'material-icons' }).html('delete').on('click', function () {
+    .append($('<i/>', { class: 'material-icons' }).html('delete'))
+    .on('click', function () {
       deleteProject(project);
-    }));
+    });
 
   var $shareBtn = $('<button/>', {
     id: 'share',
     class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
     title: 'Comparteix...'
   })
-    .append($('<i/>', { class: 'material-icons' }).html('share').on('click', function () {
+    .append($('<i/>', { class: 'material-icons' }).html('share'))
+    .on('click', function () {
       openShareDlg(project);
-    }));
+    });
 
   var $downloadBtn = $('<a/>', {
     class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
@@ -455,6 +455,7 @@ function $buildProjectCard(project) {
   })
     .append($('<i/>', { class: 'material-icons' }).html('cloud_download'));
 
+  /*
   var $editBtn = $('<button/>', {
     class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
     disabled: true,
@@ -463,6 +464,7 @@ function $buildProjectCard(project) {
     .append($('<i/>', { class: 'material-icons' }).html('edit').on('click', function () {
       // TODO: Implement edit
     }));
+  */
 
   var $playBtn = $('<a/>', {
     class: 'mdl-button mdl-button--icon mdl-button--raised mdl-button--accent mdl-js-button mdl-js-ripple-effect',
@@ -474,7 +476,7 @@ function $buildProjectCard(project) {
 
   // Build card
   $result.append($('<div/>', { class: 'mdl-card__actions mdl-card--border' })
-    .append($downloadBtn, $editBtn, $deleteBtn, $shareBtn));
+    .append($downloadBtn, /* $editBtn, */ $deleteBtn, $shareBtn));
 
   $result.append($('<div/>', { class: 'mdl-card__menu' })
     .append($playBtn));

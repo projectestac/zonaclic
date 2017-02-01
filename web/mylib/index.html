@@ -33,16 +33,29 @@
 
     <main class="mdl-layout__content">
 
-      <div id="loginBox" class="mdl-cell hidden">
-        <p>Inicieu la sessió amb el vostre identificador XTEC:</p>
-        <div id="gSignInBtn"></div>
-        <div id="loginSpinner" class="mdl-spinner mdl-js-spinner is-active hidden"></div>
-        <p id="loginMsg"></p>
+      <div id="loginBox" class="mdl-card mdl-cell hidden">
+        <div class="mdl-card__supporting-text">
+          <p>Inicieu la sessió amb el vostre identificador XTEC:</p>
+          <div id="gSignInBtn"></div>
+          <div id="loginSpinner" class="mdl-spinner mdl-js-spinner is-active hidden"></div>
+          <p id="loginMsg"></p>
+        </div>
       </div>
 
-      <div id="accountInfo" class="mdl-card mdl-shadow--2dp mdl-cell hidden">
+      <div id="mainInfo" class="mdl-card mdl-shadow--2dp mdl-cell hidden">
         <div class="mdl-card__supporting-text">
-          <h2 class="mdl-card__title-text">Dades del compte</h2>
+          <h2 class="mdl-card__title-text">Espai per a projectes d'usuari</h2>
+          <p>L'objectiu d'aquest espai és facilitar-vos la publicació dels vostres projectes JClic que no es trobin disponibles
+            a la <a href="https://clic.xtec.cat/repo" target="_blank">biblioteca de la zonaClic</a>.</p>
+          <p>Per publicar un projecte l'heu d'exportar abans al format HTML5-SCORM amb una versió actualitzada del
+            <a href="http://clic.xtec.cat/ca/jclic/download.htm" target="_blank">JClic Author</a>.</p>
+          <p>Un cop publicats, els projectes es poden compartir al blog, Moodle, web de centre o xarxes socials fent clic al botó
+            <i class="material-icons small-icon">share</i></p>
+          <p><strong>IMPORTANT:</strong> Cada usuari es fa responsable dels fitxers publicats al seu espai de projectes. Cal
+            respectar sempre el copyright dels components gràfics, textuals o sonors emprats a les activitats. Els projectes
+            publicats en aquest espai són sempre públics i es comparteixen per defecte amb una llicència
+            <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca">Creative Commons de tipus <em>by-nc-sa</em></a>.</p>
+
           <table class="accountInfo">
             <tbody>
               <tr>
@@ -64,31 +77,11 @@
                 <td><span id="usedBytes">0 MB</span> (de <span id="quota">0 MB</span> disponibles)</td>
               </tr>
             </tbody>
-          </table>
-        </div>
-        <div class="mdl-card__actions mdl-card--border">
-          <button id="logoutBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Tanca la sessió</button>
-        </div>
-      </div>
-
-      <div id="mainInfo" class="mdl-card mdl-shadow--2dp mdl-cell hidden">
-        <div class="mdl-card__supporting-text">
-          <h2 class="mdl-card__title-text">Espai per a projectes d'usuari</h2>
-          <p>Aquest espai està pensat per facilitar la publicació dels vostres projectes JClic que no es trobin disponibles
-            a la <a href="https://clic.xtec.cat/repo" target="_blank">biblioteca de la zonaClic</a>.</p>
-          <p>Per publicar un projecte l'heu d'exportar abans al format HTML5-SCORM amb el
-            <a href="http://clic.xtec.cat/ca/jclic/download.htm" target="_blank">JClic Author</a>.</p>
-          <p>Un cop publicats, els projectes es poden compartir al blog, web de centre o xarxes socials fent clic al botó
-            <i class="material-icons small-icon">share</i></p>
-          <p>El mateix botó permet també obtenir el codi per incrustar el projecte en qualsevol blog o pàgina web, així com
-            l'adreça per utilitzar-lo amb el mòdul de JClic per a Moodle.</p>
-          <p><strong>IMPORTANT:</strong> Cada usuari es fa responsable dels fitxers publicats al seu espai de projectes. Cal
-            respectar sempre el copyright dels components gràfics, textuals o sonors emprats a les activitats. Els projectes
-            publicats en aquest espai són sempre públics i es comparteixen per defecte amb una llicència
-            <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca">Creative Commons de tipus <em>by-nc-sa</em></a>.</p>
+          </table>            
         </div>
         <div class="mdl-card__actions mdl-card--border">
           <button id="uploadBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Publica un projecte nou</button>
+          <button id="logoutBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Tanca la sessió</button>
         </div>
       </div>
 

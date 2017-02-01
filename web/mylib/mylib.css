@@ -23,15 +23,8 @@
   color: inherit;
 }
 
-#accountInfo {
-  width: 500pt;
-  position: absolute;
-  right: 0;
-  z-index: 10;  
-}
-
-#accountInfo h2 {
-  font-size: 14pt;
+#loginBox {
+  width: 300pt;
 }
 
 #mainInfo {
@@ -43,6 +36,15 @@
   margin-top: 8pt;
   margin-bottom: 4pt;
   line-height: 1.3;
+}
+
+#mainInfo table {
+  margin-top: 20pt;
+}
+
+#logoutBtn {
+  right: 5pt;
+  position: absolute;
 }
 
 .project {
@@ -91,7 +93,7 @@ table td:first-child {
   font-weight: bold;
 }
 
-.prjDesc, .prjData, .accountInfo {
+.prjDesc, .prjData, {
   margin-top: 10pt;
   line-height: initial;
   border-spacing: 0;
@@ -154,6 +156,10 @@ table td:first-child {
   font-family: monospace;
   font-size: 9pt;
   color: #606060;
+}
+
+.shareButtons a {
+  outline: none;
 }
 
 .shareButtons svg {
