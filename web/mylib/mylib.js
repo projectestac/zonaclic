@@ -112,8 +112,7 @@ function checkIfSignedIn() {
     $('#mainInfo').removeClass('hidden');
   } else {
     // No valid user signed in
-    $('#userIdBox').unbind('click');
-    $('#userIdBox').addClass('hidden');
+    $('#userIdBox').unbind('click').addClass('hidden');
     $('.project').remove();
     $('#mainInfo').addClass('hidden');
     $('#gSignInBtn').removeClass('hidden');
