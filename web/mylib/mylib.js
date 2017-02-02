@@ -335,16 +335,22 @@ function initShareDlg() {
     .on('focus', function () { this.setSelectionRange(0, this.value.length); })
     .attr('spellcheck', false);
   $('#linkTextCopy').on('click', function () {
-    clipboard.copy($('#directLink').text());
-    $('#copy-toast')[0].MaterialSnackbar.showSnackbar({ message: 'L\'enllaç s\'ha copiat al porta-retalls' });
+    clipboard.copy($('#directLink').val())
+      .then(function () {
+        $('#copy-toast')[0].MaterialSnackbar.showSnackbar({ message: 'L\'enllaç s\'ha copiat al porta-retalls' });
+      });
   });
   $('#embedCodeCopy').on('click', function () {
-    clipboard.copy($('#embedCode').text());
-    $('#copy-toast')[0].MaterialSnackbar.showSnackbar({ message: 'El codi s\'ha copiat al porta-retalls. Enganxeu-lo amb CTRL+V a la pàgina o article del blog on vulgueu que aparegui.' });
+    clipboard.copy($('#embedCode').val())
+      .then(function () {
+        $('#copy-toast')[0].MaterialSnackbar.showSnackbar({ message: 'El codi s\'ha copiat al porta-retalls. Enganxeu-lo amb CTRL+V a la pàgina o article del blog on vulgueu que aparegui.' });
+      });
   });
   $('#moodleLinkCopy').on('click', function () {
-    clipboard.copy($('#moodleLink').text());
-    $('#copy-toast')[0].MaterialSnackbar.showSnackbar({ message: 'L\'enllaç s\'ha copiat al porta-retalls. Enganxeu-lo amb CTRL+V en una activitat de tipus JClic de Moodle.' });
+    clipboard.copy($('#moodleLink').val())
+      .then(function () {
+        $('#copy-toast')[0].MaterialSnackbar.showSnackbar({ message: 'L\'enllaç s\'ha copiat al porta-retalls. Enganxeu-lo amb CTRL+V en una activitat de tipus JClic de Moodle.' });
+      });
   });
   $('#closeShareDlg').on('click', function () {
     shareDlg.close();
