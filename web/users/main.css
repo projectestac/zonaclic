@@ -135,6 +135,7 @@ table td:first-child {
 
 .shareButtons a {
   outline: none;
+  text-decoration: none;
 }
 
 .shareButtons svg {

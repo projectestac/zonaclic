@@ -3,6 +3,7 @@
 // Set the location of "users" dir
 var url = new URL(window.location.href);
 var usrLibRoot = url.protocol + '//' + url.host + '/users/';
+var usrLibBase = 'https://clic.xtec.cat/users?';
 
 // Flags to check when DOM and Google API are ready to start
 var gAPI_ready = false, DOM_ready = false, initialized = false;
@@ -62,7 +63,7 @@ function onSignIn(googleUser) {
 function loginOK(data) {
   $('#fullUserName').html(data.fullUserName);
   $('.avatar').attr('src', data.avatar);
-  var usrlib = 'https://clic.xtec.cat/users?' + data.id;
+  var usrlib = usrLibBase + data.id;
   $('#userLibUrl').attr({ href: usrlib }).html(usrlib);
   projects = data.projects;
   userQuota = data.quota;
@@ -241,8 +242,15 @@ function initUploadDlg() {
         return myXhr;
       },
       success: function (data) {
-        $uploadDlg[0].close();
-        addProject(data.project);
+        if (data && data.project) {
+          $uploadDlg[0].close();
+          addProject(data.project);
+        }
+        else {
+          console.log(data);
+          $('#uploadMsg').html('S\'ha produït un error: ' + ((data && data.error) ? data.error : 'Error desconegut'));
+          $('#upProgress').addClass('hidden');
+        }
       },
       error: function (xhr, status) {
         $('#uploadMsg').html('S\'ha produït un error: ' + xhr.statusText + ' ' + status);
@@ -295,12 +303,15 @@ function initDeleteDlg() {
         type: 'POST',
         data: { project: project.name },
         success: function (e) {
-          if (e.status === 'ok') {
+          if (e.status === 'ok' ||
+            // Workaround for NFS delay when deleting files
+            (e.status === 'error' && e.error && e.error.indexOf('Unable to delete directory') >= 0)) {
             removeProject(project);
             $deleteDlg.data('project', null);
             $deleteDlg[0].close();
           } else {
-            $('#deleteMsg').html('Error inesperat: ' + e.status + ' - ' + e.err).removeClass('hidden');
+            console.log(e);
+            $('#deleteMsg').html('Error inesperat: ' + e.error).removeClass('hidden');
           }
         },
         error: function (xhr, status) {
@@ -475,7 +486,7 @@ function $buildProjectCard(project) {
     class: 'mdl-button mdl-button--icon mdl-button--raised mdl-button--accent mdl-js-button mdl-js-ripple-effect',
     title: 'Obre el projecte',
     href: basePath + 'index.html',
-    target: '_BLANK'
+    target: '_blank'
   })
     .append($('<i/>', { class: 'material-icons' }).html('play_arrow'));
 

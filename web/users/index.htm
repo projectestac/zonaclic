@@ -3,9 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Espai per a projectes JClic dels usuaris - Tauler de control</title>
-  <meta name="google-signin-scope" content="profile email" />
-  <meta name="google-signin-client_id" content="628119593973-72bhu9uv9jrlaqv3c7o1h9quf6jocspn.apps.googleusercontent.com" />
+  <title>Biblioteca de projectes JClic</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue-indigo.min.css" />
@@ -13,9 +11,8 @@
   <script src="https://unpkg.com/dialog-polyfill@0.4.6/dialog-polyfill.js"></script>
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/dialog-polyfill@0.4.6/dialog-polyfill.css" />
   <script src="https://unpkg.com/clipboard-js@0.3.2/clipboard.min.js"></script>
-  <link href="mylib.css" rel="stylesheet" type="text/css" />
-  <script src="mylib.js"></script>
-  <script src="https://apis.google.com/js/platform.js?onload=gApiLoaded" async defer></script>
+  <link href="main.css" rel="stylesheet" type="text/css" />
+  <script src="main.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
@@ -24,120 +21,18 @@
 
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout__title">La meva zonaClic</span>
+        <span id="title" class="mdl-layout__title">Biblioteca de projectes JClic</span>
         <div class="mdl-layout-spacer"></div>
-        <div class="mdl-layout-content hidden" id="userIdBox">
-          <img class="avatar">
-        </div>
+        <div class="mdl-layout-content" id="userIdBox"></div>
       </div>
     </header>
 
     <main class="mdl-layout__content">
-
-      <div id="loginBox" class="mdl-card mdl-cell hidden">
-        <div class="mdl-card__supporting-text">
-          <p>Inicieu la sessió amb el vostre identificador XTEC:</p>
-          <div id="gSignInBtn"></div>
-          <div id="loginSpinner" class="mdl-spinner mdl-js-spinner is-active hidden"></div>
-          <p id="loginMsg"></p>
-        </div>
-      </div>
-
-      <div id="mainInfo" class="mdl-card mdl-shadow--2dp mdl-cell hidden">
-        <div class="mdl-card__supporting-text">
-          <h2 class="mdl-card__title-text">Espai per a projectes JClic dels usuaris (en proves)</h2>
-          <p>L'objectiu d'aquest espai és facilitar-vos la publicació dels vostres projectes JClic que no es trobin disponibles
-            a la <a href="https://clic.xtec.cat/repo" target="_blank">biblioteca de la zonaClic</a>.</p>
-          <p>Per publicar un projecte l'heu d'exportar abans al format HTML5-SCORM amb una versió actualitzada del
-            <a href="http://clic.xtec.cat/ca/jclic/download.htm" target="_blank">JClic Author</a>.</p>
-          <p>Un cop publicats, els projectes es poden compartir al blog, Moodle, web de centre o xarxes socials fent clic al
-            botó
-            <i class="material-icons small-icon">share</i></p>
-          <p><strong>IMPORTANT:</strong> Cada usuari es fa responsable dels fitxers publicats al seu espai de projectes. Cal
-            respectar sempre el copyright dels components gràfics, textuals o sonors emprats a les activitats. Els projectes
-            publicats en aquest espai són sempre públics i es comparteixen per defecte amb una llicència
-            <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca">Creative Commons de tipus <em>by-nc-sa</em></a>.</p>
-          <p>Per a qualsevol incidència escriviu a: <a href="mailto:clic@xtec.cat">clic@xtec.cat</a></p>
-          <table class="accountInfo">
-            <tbody>
-              <tr>
-                <td>Usuari:</td>
-                <td id="fullUserName"></td>
-              </tr>
-              <tr>
-                <td>Ubicació de la biblioteca:</td>
-                <td>
-                  <a id="userLibUrl" class="code" target="_blank"></a>
-                </td>
-              </tr>
-              <tr>
-                <td>Projectes publicats:</td>
-                <td id="userNumProjects"></td>
-              </tr>
-              <tr>
-                <td>Espai de disc ocupat:</td>
-                <td><span id="usedBytes">0 MB</span> (de <span id="quota">0 MB</span> disponibles)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="mdl-card__actions mdl-card--border">
-          <button id="uploadBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Publica un projecte nou</button>
-          <button id="logoutBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Tanca la sessió</button>
-        </div>
-      </div>
-
+      <div id="msg" class="mdl-cell hidden"></div>
       <div id="projects"></div>
-
     </main>
+
   </div>
-
-  <dialog id="uploadDlg" class="mdl-dialog">
-    <h4 class="mdl-dialog__title">Publicació de projectes</h4>
-    <div class="mdl-dialog__content">
-      <form id="uploadForm" enctype="multipart/form-data">
-        <p>Per publicar un projecte JClic l'heu d'<strong>exportar</strong> abans al format SCORM HTML5 amb el
-          <a href="http://clic.xtec.cat/ca/jclic/download.htm"
-            target="_blank">JClic Author</a>.<br> El fitxer resultant, que porta l'extensió <span class="code">.scorm.zip</span>, és el que
-            heu de seleccionar fent clic en aquest botó:</p>
-        <p id="fileSelectBlock">
-          <label class="mdl-button mdl-js-button mdl-button--raised">
-            <input id="scormFileInput" type="file" name="scormFile" accept=".scorm.zip" style="display:none"/> Seleccioneu un fitxer .scorm.zip
-          </label>
-        </p>
-        <p id="fileInfoBlock" class="hidden">
-          Fitxer seleccionat: <span id="fileNameInfo">nomdelfitxer</span> <span id="fileSizeInfo">(xxx MB)</span><br>
-          <span id="fileWarn" class="warning"></span>
-        </p>
-        <p id="folderNameBlock" class="hidden">
-          <label for="projectNameInput">Directori on es publicarà el projecte: </label>
-          <input id="projectNameInput" type="text" name="project" /><br>
-          <span id="fileNameWarn" class="warning"></span><br>
-        </p>
-      </form>
-      <div id="fileUploadProgressBlock" class="hidden">
-        <p id="uploadMsg">S'està pujant el fitxer...</p>
-        <progress id="upProgress" class="mdl-progress mdl-js-progress"></progress><br>
-      </div>
-    </div>
-    <div class="mdl-dialog__actions">
-      <button id="uploadCancel" type="button" class="mdl-button close">Cancel·la</button>
-      <button id="uploadOK" type="button" class="mdl-button" disabled>Publica el projecte</button>
-    </div>
-  </dialog>
-
-  <dialog id="confirmDeleteDlg" class="mdl-dialog">
-    <h4 class="mdl-dialog__title">Eliminació del projecte "<span class="deleteName"></span>"</h4>
-    <div class="mdl-dialog__content">
-      <p>Heu sol·licitat eliminar completament el projecte "<span class="deleteName"></span>" del servidor.<br><strong>ATENCIÓ: Aquesta operació no es pot desfer!</strong></p>
-      <p>Segur que voleu eliminar el projecte?</p>
-      <p id="deleteMsg" class="hidden warning"></p>
-    </div>
-    <div class="mdl-dialog__actions">
-      <button id="deleteCancel" type="button" class="mdl-button close">Cancel·la l'operació</button>
-      <button id="deleteOK" type="button" class="mdl-button" disabled>Elimina el projecte</button>
-    </div>
-  </dialog>
 
   <dialog id="shareDlg" class="mdl-dialog">
     <h4 class="mdl-dialog__title">Comparteix <span id="shareDlgTitle"></span></h4>
@@ -280,8 +175,8 @@
             <stop offset="0" stop-color="#231f20" />
             <stop offset="1" stop-color="#231f20" stop-opacity="0" />
           </linearGradient>
-          <path d="M29.2 33.4c-4.8-1-10 1.5-13.6 4.1-2.3-16.8 8.1-16.4 21.7-12.2-.9 4.1-2.4 9.6-5 12.9-.1-2.2-1.1-3.7-3.1-4.8"
-            fill="url(#h)" />
+          <path d="M29.2 33.4c-4.8-1-10 1.5-13.6 4.1-2.3-16.8 8.1-16.4 21.7-12.2-.9 4.1-2.4 9.6-5 12.9-.1-2.2-1.1-3.7-3.1-4.8" fill="url(#h)"
+          />
           <linearGradient id="i" gradientUnits="userSpaceOnUse" x1="1.167" y1="23.588" x2="49.166" y2="23.588">
             <stop offset="0" stop-color="#929497" />
             <stop offset=".124" stop-color="#757578" />
@@ -295,8 +190,7 @@
           <path fill="#383738" stroke="#4a4a4c" stroke-width=".5" d="M49.2 16.1L30.3 29.8" />
           <path d="M26.7 23.4c.2 2.2-.3-2.1 0 0" opacity=".23" fill="#231f20" />
           <path fill="#FFF" stroke="#a8abad" stroke-width=".5" d="M1.2 30.7l29.1-.9" />
-          <path d="M24.9 23.6c-5 1.4-21.4 5-21.6 7.1-.5 3.9-.1 10.1-.1 10.1" fill="none" stroke="#f16922" stroke-width=".5"
-          />
+          <path d="M24.9 23.6c-5 1.4-21.4 5-21.6 7.1-.5 3.9-.1 10.1-.1 10.1" fill="none" stroke="#f16922" stroke-width=".5" />
           <path d="M4.7 55.7C2.9 51.2.7 46.2 3.3 40 5 45.8 4.7 50.2 4.7 55.7" fill="#f16922" />
           <ellipse transform="rotate(-19.61 24.19 23.28)" cx="24.2" cy="23.3" rx=".8" ry=".4" fill="#6d6e70" />
         </svg>
