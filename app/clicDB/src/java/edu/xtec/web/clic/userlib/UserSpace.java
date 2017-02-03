@@ -82,7 +82,10 @@ public class UserSpace implements java.io.Serializable {
     boolean result = false;
     UserProject prj = getProject(name);
     if (prj != null) {
-      FileUtils.deleteDirectory(prj.prjRoot);
+      // Avoid exceptions due to timeouts in NFS volumes
+      // FileUtils.deleteDirectory(prj.prjRoot);
+      FileUtils.deleteQuietly(prj.prjRoot);
+
       UserProject[] currentprojects = projects;
       projects = new UserProject[projects.length - 1];
       for (int i = 0, k = 0; i < currentprojects.length; i++) {

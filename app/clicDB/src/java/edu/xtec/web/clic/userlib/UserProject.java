@@ -153,7 +153,10 @@ public class UserProject implements java.io.Serializable {
 
   public void clean() throws Exception {
     long fs = totalFileSize;
-    FileUtils.deleteDirectory(prjRoot);
+    // Avoid exceptions due to timeouts in NFS volumes
+    // FileUtils.deleteDirectory(prjRoot);
+    FileUtils.deleteQuietly(prjRoot);
+
     parent.currentSize -= fs;
     prjRoot.mkdirs();
     title = "Untitled";

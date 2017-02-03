@@ -99,7 +99,9 @@ public class UploadScormFile extends GetUserInfo {
 
     if (fieldName == null || !fieldName.equals("scormFile")
             || fileName == null || !fileName.endsWith(".scorm.zip")
-            || !"application/zip".equals(contentType)) {
+            // Disable contentType check because it depends on operating system and browser
+            // || !"application/zip".equals(contentType)
+            ) {
       status = "error";
       err = "Tipus de fitxer incorrecte!";
     } else if (sizeInBytes > (quota - userSpace.currentSize)) {
