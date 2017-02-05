@@ -1,8 +1,10 @@
-/* global $, gapi */
+/* global $, gapi, clipboard, dialogPolyfill */
 
 // Set the location of "users" dir
 var url = new URL(window.location.href);
 var usrLibRoot = url.protocol + '//' + url.host + '/users/';
+//var usrLibBase = 'https://clic.xtec.cat/users?';
+var usrLibBase = usrLibRoot + '?';
 
 // Flags to check when DOM and Google API are ready to start
 var gAPI_ready = false, DOM_ready = false, initialized = false;
@@ -34,27 +36,27 @@ function onSignIn(googleUser) {
   $('#loginSpinner').removeClass('hidden');
   var errMsg = null;
   var userData = null;
-  $.post('/db/getUserInfo', {id_token: googleUser.getAuthResponse().id_token}, null, 'json')
-          .done(function (data) {
-            if (data === null || typeof data !== 'object')
-              errMsg = 'ERROR: No s\'ha pogut validar l\'usuari. Proveu-ho més tard.';
-            else if (data.status !== 'validated')
-              errMsg = 'ERROR: ' + data.error;
-            else
-              userData = data;
-          })
-          .fail(function (jqXHR, textStatus, errorThrown) {
-            errMsg = 'ERROR: ' + textStatus + ' - ' + errorThrown;
-            console.log(errorThrown);
-            console.log(jqXHR);
-          })
-          .always(function () {
-            if (errMsg) {
-              signOut();
-              $('#loginMsg').html(errMsg);
-            } else if (userData !== null)
-              loginOK(userData);
-          });
+  $.post('/db/getUserInfo', { id_token: googleUser.getAuthResponse().id_token }, null, 'json')
+    .done(function (data) {
+      if (data === null || typeof data !== 'object')
+        errMsg = 'ERROR: No s\'ha pogut validar l\'usuari. Proveu-ho més tard.';
+      else if (data.status !== 'validated')
+        errMsg = 'ERROR: ' + data.error;
+      else
+        userData = data;
+    })
+    .fail(function (jqXHR, textStatus, errorThrown) {
+      errMsg = 'ERROR: ' + textStatus + ' - ' + errorThrown;
+      console.log(errorThrown);
+      console.log(jqXHR);
+    })
+    .always(function () {
+      if (errMsg) {
+        signOut();
+        $('#loginMsg').html(errMsg);
+      } else if (userData !== null)
+        loginOK(userData);
+    });
 
 }
 
@@ -62,8 +64,8 @@ function onSignIn(googleUser) {
 function loginOK(data) {
   $('#fullUserName').html(data.fullUserName);
   $('.avatar').attr('src', data.avatar);
-  var usrlib = 'https://clic.xtec.cat/users?' + data.id;
-  $('#userLibUrl').attr({href: usrlib}).html(usrlib);
+  var usrlib = usrLibBase + data.id;
+  $('#userLibUrl').attr({ href: usrlib }).html(usrlib);
   projects = data.projects;
   userQuota = data.quota;
   usedBytes = data.currentSize;
@@ -107,14 +109,14 @@ function signOut() {
 function checkIfSignedIn() {
   if (gapi && gapi.auth2 && gapi.auth2.getAuthInstance().isSignedIn.get()) {
     // User is signed in
-    $('#accountInfo').removeClass('hidden');
     $('#userIdBox').removeClass('hidden');
     $('#loginBox').addClass('hidden');
+    $('#mainInfo').removeClass('hidden');
   } else {
-    // No valid user is signed in
-    $('#accountInfo').addClass('hidden');
-    $('#userIdBox').addClass('hidden');
+    // No valid user signed in
+    $('#userIdBox').unbind('click').addClass('hidden');
     $('.project').remove();
+    $('#mainInfo').addClass('hidden');
     $('#gSignInBtn').removeClass('hidden');
     $('#loginSpinner').addClass('hidden');
     $('#loginBox').removeClass('hidden');
@@ -158,9 +160,9 @@ function initUploadDlg() {
   dialogPolyfill.registerDialog($uploadDlg[0]);
 
   var $folderInput = $('#projectNameInput'),
-          $folderWarn = $('#fileNameWarn'),
-          $uploadOK = $('#uploadOK'),
-          $fileWarn = $('#fileWarn');
+    $folderWarn = $('#fileNameWarn'),
+    $uploadOK = $('#uploadOK'),
+    $fileWarn = $('#fileWarn');
 
   // Check the proposed project name and size
   $('#scormFileInput').on('change', function () {
@@ -235,14 +237,21 @@ function initUploadDlg() {
         if (myXhr.upload) { // Check if upload property exists
           myXhr.upload.addEventListener('progress', function (e) {
             if (e.lengthComputable)
-              $('#upProgress').attr({value: e.loaded, max: e.total});
+              $('#upProgress').attr({ value: e.loaded, max: e.total });
           }, false);
         }
         return myXhr;
       },
       success: function (data) {
-        $uploadDlg[0].close();
-        addProject(data.project);
+        if (data && data.project) {
+          $uploadDlg[0].close();
+          addProject(data.project);
+        }
+        else {
+          console.log(data);
+          $('#uploadMsg').html('S\'ha produït un error: ' + ((data && data.error) ? data.error : 'Error desconegut'));
+          $('#upProgress').addClass('hidden');
+        }
       },
       error: function (xhr, status) {
         $('#uploadMsg').html('S\'ha produït un error: ' + xhr.statusText + ' ' + status);
@@ -267,7 +276,7 @@ function initUploadDlg() {
 function uploadProject() {
   // Clean existing data
   $('#uploadForm')[0].reset();
-  $('#scormFileInput, #projectNameInput').attr({value: ''});
+  $('#scormFileInput, #projectNameInput').attr({ value: '' });
   $('#fileNameInfo, #fileWarn, #fileNameWarn').empty();
   $('#fileInfoBlock, #folderNameBlock, #fileUploadProgressBlock, #upProgress').addClass('hidden');
   $('#uploadForm').removeClass('hidden');
@@ -293,14 +302,17 @@ function initDeleteDlg() {
       $.ajax({
         url: '/db/deleteProject',
         type: 'POST',
-        data: {project: project.name},
+        data: { project: project.name },
         success: function (e) {
-          if (e.status === 'ok') {
+          if (e.status === 'ok' ||
+            // Workaround for NFS delay when deleting files
+            (e.status === 'error' && e.error && e.error.indexOf('Unable to delete directory') >= 0)) {
             removeProject(project);
             $deleteDlg.data('project', null);
             $deleteDlg[0].close();
           } else {
-            $('#deleteMsg').html('Error inesperat: ' + e.status + ' - ' + e.err).removeClass('hidden');
+            console.log(e);
+            $('#deleteMsg').html('Error inesperat: ' + e.error).removeClass('hidden');
           }
         },
         error: function (xhr, status) {
@@ -326,6 +338,170 @@ function deleteProject(project) {
   $('#confirmDeleteDlg')[0].showModal();
 }
 
+// Initialize the 'share project' dialog
+function initShareDlg() {
+  var $shareDlg = $('#shareDlg');
+  dialogPolyfill.registerDialog($shareDlg[0]);
+  $('.shareText')
+    .on('focus', function () { this.setSelectionRange(0, this.value.length); })
+    .attr('spellcheck', false);
+  $('#linkTextCopy').on('click', function () {
+    clipboard.copy($('#directLink').val())
+      .then(function () {
+        $('#copy-toast')[0].MaterialSnackbar.showSnackbar({ message: 'L\'enllaç s\'ha copiat al porta-retalls' });
+      });
+  });
+  $('#embedCodeCopy').on('click', function () {
+    clipboard.copy($('#embedCode').val())
+      .then(function () {
+        $('#copy-toast')[0].MaterialSnackbar.showSnackbar({ message: 'El codi s\'ha copiat al porta-retalls. Enganxeu-lo amb CTRL+V a la pàgina o article del blog on vulgueu que aparegui.' });
+      });
+  });
+  $('#moodleLinkCopy').on('click', function () {
+    clipboard.copy($('#moodleLink').val())
+      .then(function () {
+        $('#copy-toast')[0].MaterialSnackbar.showSnackbar({ message: 'L\'enllaç s\'ha copiat al porta-retalls. Enganxeu-lo amb CTRL+V en una activitat de tipus JClic de Moodle.' });
+      });
+  });
+  $('#closeShareDlg').on('click', function () {
+    shareDlg.close();
+  });
+}
+
+// Open the 'share project' dialog
+function openShareDlg(project) {
+
+  $('#shareDlgTitle').html(getQuotedText(project.title));
+
+  var basePath = usrLibRoot + project.basePath + '/';
+  var directLink = basePath + 'index.html';
+  var moodleLink = basePath + project.mainFile;
+  var shareText = encodeURIComponent('Activitats JClic ' + getQuotedText(project.title) + ' ' + directLink);
+  $('#directLink').val(directLink);
+  $('#shTwitter').attr('href', 'https://twitter.com/intent/tweet?' +
+    'text=' + encodeURIComponent(getQuotedText(project.title)) +
+    '&url=' + encodeURIComponent(directLink) +
+    '&hashtags=JClic' +
+    '&via=jclic');
+
+  //$('#shFacebook').attr('href', 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(directLink));
+  $('#shFacebook').attr('href', 'https://www.facebook.com/dialog/feed?' +
+    'app_id=1917838468440790' +
+    '&picture=' + encodeURIComponent(basePath + project.cover) +
+    '&name=' + encodeURIComponent(project.title) +
+    '&description=' + encodeURIComponent('Proveu aquestes activitats amb el nou JClic per a HTML5') +
+    '&redirect_uri=' + encodeURIComponent('http://facebook.com/') +
+    '&link=' + encodeURIComponent(directLink));
+
+  $('#shGoogle').attr('href', 'https://plus.google.com/share?url=' + encodeURIComponent(directLink));
+
+  $('#shPinterest').attr('href',
+    'https://pinterest.com/pin/create/button/?url=' + encodeURIComponent(directLink) +
+    '&media=' + encodeURIComponent(basePath + project.cover) +
+    '&description=' + encodeURIComponent(project.title));
+
+  $('#shEmail').attr('href', 'mailto:?' +
+    'subject=' + encodeURIComponent('Activitats JClic ' + getQuotedText(project.title)) +
+    '&body=' + encodeURIComponent(project.title + '\n\nProveu aquestes activitats amb el nou JClic per a HTML5:\n' + directLink)
+  );
+
+  $('#embedCode').val(getEmbedCode(directLink));
+  $('#moodleLink').val(moodleLink);
+
+  $('#shareDlg')[0].showModal();
+}
+
+// Build a card with information and action buttons related to the given project
+function $buildProjectCard(project) {
+  var basePath = usrLibRoot + project.basePath + '/';
+  var $result = $('<div/>', { class: 'project mdl-cell mdl-card mdl-shadow--2dp' }).data('project', project);
+
+  $result.append($('<div/>', { class: 'mdl-card__title' }).css({ background: 'url(\'' + basePath + project.cover + '\') center / cover' })
+    .append($('<h2/>', { class: 'mdl-card__title-text' }).html(project.title)));
+
+  var lang = project.meta_langs && project.meta_langs.length > 0 ? project.meta_langs[0] : '';
+
+  var $cardBody = $('<div/>', { class: 'mdl-card__supporting-text' }).append(
+    $('<p/>', { class: 'prjAuthor' }).html(project.author),
+    $('<p/>', { class: 'prjSchool' }).html(project.school));
+
+  var $tBody = $('<tbody/>').append(
+    $('<tr/>').append($('<td>').html('Directori:'), $('<td>', { class: 'code' }).html(project.name)),
+    $('<tr/>').append($('<td>').html('Mida:'), $('<td>').html(toMB(project.totalFileSize) + ' MB')),
+    $('<tr/>').append($('<td>').html('Data:'), $('<td>').html(project.date)));
+
+  if (project.languages && project.languages[lang])
+    $tBody.append($('<tr/>').append($('<td>').html('Idiomes:'), $('<td>').html(project.languages[lang])));
+
+  if (project.levels && project.levels[lang])
+    $tBody.append($('<tr/>').append($('<td>').html('Nivells:'), $('<td>').html(project.levels[lang])));
+
+  if (project.areas && project.areas[lang])
+    $tBody.append($('<tr/>').append($('<td>').html('Àrees:'), $('<td>').html(project.areas[lang])));
+
+  $cardBody.append($('<table/>', { class: 'prjData' }).append($tBody));
+
+  if (project.description && project.description[lang])
+    $cardBody.append($('<p/>', { class: 'prjDesc' }).html(project.description[lang]));
+
+  $result.append($cardBody);
+  project.card = $result;
+
+  // Create action buttons:
+  var $deleteBtn = $('<button/>', { class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect', title: 'Esborra el projecte' })
+    .append($('<i/>', { class: 'material-icons' }).html('delete'))
+    .on('click', function () {
+      deleteProject(project);
+    });
+
+  var $shareBtn = $('<button/>', {
+    id: 'share',
+    class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
+    title: 'Comparteix...'
+  })
+    .append($('<i/>', { class: 'material-icons' }).html('share'))
+    .on('click', function () {
+      openShareDlg(project);
+    });
+
+  var $downloadBtn = $('<a/>', {
+    class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
+    title: 'Descarrega el fitxer',
+    download: true,
+    href: '/db/downloadUserProject?prj=' + project.basePath
+  })
+    .append($('<i/>', { class: 'material-icons' }).html('cloud_download'));
+
+  /*
+  var $editBtn = $('<button/>', {
+    class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
+    disabled: true,
+    title: 'Edita el projecte'
+  })
+    .append($('<i/>', { class: 'material-icons' }).html('edit').on('click', function () {
+      // TODO: Implement edit
+    }));
+  */
+
+  var $playBtn = $('<a/>', {
+    class: 'mdl-button mdl-button--icon mdl-button--raised mdl-button--accent mdl-js-button mdl-js-ripple-effect',
+    title: 'Obre el projecte',
+    href: basePath + 'index.html',
+    target: '_blank'
+  })
+    .append($('<i/>', { class: 'material-icons' }).html('play_arrow'));
+
+  // Build card
+  $result.append($('<div/>', { class: 'mdl-card__actions mdl-card--border' })
+    .append($downloadBtn, /* $editBtn, */ $deleteBtn, $shareBtn));
+
+  $result.append($('<div/>', { class: 'mdl-card__menu' })
+    .append($playBtn));
+
+  return $result;
+}
+
+// Initialization process
 
 // Called when DOM is fully initialized
 $(function () {
@@ -341,11 +517,12 @@ function gApiLoaded() {
     init();
 }
 
-// Called at startup, when both DOM and Google API are ready
+// Called at startup, when both DOM and Google API methods are ready
 function init() {
   initialized = true;
   initUploadDlg();
   initDeleteDlg();
+  initShareDlg();
   checkIfSignedIn();
   $('#uploadBtn').on('click', uploadProject);
   $('#logoutBtn').on('click', signOut);
@@ -360,92 +537,23 @@ function init() {
   });
 }
 
-// Build a card with information and action buttons related to the given project
-function $buildProjectCard(project) {
-  var basePath = usrLibRoot + project.basePath + '/';
-  var $result = $('<div/>', {class: 'project mdl-cell mdl-card mdl-shadow--2dp'}).data('project', project);
-
-  $result.append($('<div/>', {class: 'mdl-card__title'}).css({background: 'url(\'' + basePath + project.cover + '\') center / cover'})
-          .append($('<h2/>', {class: 'mdl-card__title-text'}).html(project.title)));
-
-  var lang = project.meta_langs && project.meta_langs.length > 0 ? project.meta_langs[0] : '';
-
-  var $cardBody = $('<div/>', {class: 'mdl-card__supporting-text'}).append(
-          $('<p/>', {class: 'prjAuthor'}).html(project.author),
-          $('<p/>', {class: 'prjSchool'}).html(project.school));
-
-  var $tBody = $('<tbody/>').append(
-          $('<tr/>').append($('<td>').html('Directori:'), $('<td>', {class: 'code'}).html(project.name)),
-          $('<tr/>').append($('<td>').html('Mida:'), $('<td>').html(toMB(project.totalFileSize) + ' MB')),
-          $('<tr/>').append($('<td>').html('Data:'), $('<td>').html(project.date)));
-
-  if (project.languages && project.languages[lang])
-    $tBody.append($('<tr/>').append($('<td>').html('Idiomes:'), $('<td>').html(project.languages[lang])));
-
-  if (project.levels && project.levels[lang])
-    $tBody.append($('<tr/>').append($('<td>').html('Nivells:'), $('<td>').html(project.levels[lang])));
-
-  if (project.areas && project.areas[lang])
-    $tBody.append($('<tr/>').append($('<td>').html('Àrees:'), $('<td>').html(project.areas[lang])));
-
-  $cardBody.append($('<table/>', {class: 'prjData'}).append($tBody));
-  
-  if(project.description && project.description[lang])
-    $cardBody.append($('<p/>', {class: 'prjDesc'}).html(project.description[lang]));
-  
-  $result.append($cardBody);
-  project.card = $result;
-
-  // Create action buttons:
-
-  var $deleteBtn = $('<button/>', {class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect', title: 'Esborra el projecte'})
-          .append($('<i/>', {class: 'material-icons'}).html('delete').on('click', function () {
-            deleteProject(project);
-          }));
-
-  var $shareBtn = $('<button/>', {
-    class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
-    disabled: true,
-    title: 'Comparteix...'})
-          .append($('<i/>', {class: 'material-icons'}).html('share').on('click', function () {
-            // TODO: Implement share options
-          }));
-
-  var $downloadBtn = $('<a/>', {
-    class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
-    title: 'Descarrega el fitxer',
-    download: true,
-    href: '/db/downloadUserProject?prj=' + project.basePath})
-          .append($('<i/>', {class: 'material-icons'}).html('cloud_download'));
-
-  var $editBtn = $('<button/>', {
-    class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
-    disabled: true,
-    title: 'Edita el projecte'})
-          .append($('<i/>', {class: 'material-icons'}).html('edit').on('click', function () {
-            // TODO: Implement edit
-          }));
-
-  var $playBtn = $('<a/>', {
-    class: 'mdl-button mdl-button--icon mdl-button--raised mdl-button--accent mdl-js-button mdl-js-ripple-effect',
-    title: 'Obre el projecte',
-    href: basePath + 'index.html',
-    target: '_BLANK'})
-          .append($('<i/>', {class: 'material-icons'}).html('play_arrow'));
-
-  // Build card
-  $result.append($('<div/>', {class: 'mdl-card__actions mdl-card--border'})
-          .append($downloadBtn, $editBtn, $deleteBtn, $shareBtn));
-
-  $result.append($('<div/>', {class: 'mdl-card__menu'})
-          .append($playBtn));
-
-  return $result;
-}
-
 // Miscellaneous functions
 
-// Express the given amount of bytes in megabyte units
+// Get the given amount of bytes in megabyte units
 function toMB(bytes) {
   return Math.round(10 * bytes / (1024 * 1024)) / 10;
+}
+
+// Get the HTML code suitable for embedding a JClic project
+function getEmbedCode(url, width, height) {
+  return '<iframe width="%w%" height="%h%" frameborder="0" allowFullScreen="true" src="%url%"></iframe>'
+    .replace('%url%', url)
+    .replace('%w%', width ? width : '800')
+    .replace('%h%', height ? height : '600');
+}
+
+// Surround text with double quotes only if there is no double quote on it
+function getQuotedText(text) {
+  text = text || '';
+  return text.indexOf('"') < 0 ? '"' + text + '"' : text;
 }
