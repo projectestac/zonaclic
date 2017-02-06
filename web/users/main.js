@@ -3,12 +3,13 @@
 var root = 'https://clic.xtec.cat/users/';
 //var root = window.location.origin + window.location.pathname;
 var usrLibRoot = root;
+var user = 'test';
 
 $(function () {
 
   initShareDlg();
 
-  var user = window.location.search.substring(1);
+  user = window.location.search.substring(1);
   if (user === null || user === '' || /[^A-Za-z0-9_.]/gi.test(user)) {
     logError('Usuari desconegut!');
   } else {
@@ -176,7 +177,7 @@ function $buildProjectCard(project) {
     class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
     title: 'Descarrega el fitxer',
     download: true,
-    href: '/db/downloadUserProject?prj=' + project.basePath
+    href: '/db/downloadUserProject?prj=' + user + '/' + project.basePath
   })
     .append($('<i/>', { class: 'material-icons' }).html('cloud_download'));
 
