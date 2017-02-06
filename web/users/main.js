@@ -35,7 +35,7 @@ $(function () {
                   $projects.append($buildProjectCard(project));
                 },
                 error: function (xhr) {
-                  logError('ERROR loading "' + prjInfoPath + '": ' + xhr.statusText);
+                  logError(xhr.statusText + ' a: ' + prjInfoPath);
                 }
               });
             })(prjBasePath, prjInfoPath);
@@ -43,15 +43,16 @@ $(function () {
         }
       },
       error: function (xhr) {
-        logError('ERROR: ' + xhr.statusText);
+        logError(xhr.statusText +  ' a: ' + prjInfoPath);
       }
     });
   }
 });
 
 function logError(msg) {
-  console.log(error);
-  $('#msg').append($('<p/>').html('ERROR loading "' + prjInfoPath + '": ' + xhr.statusText)).removeClass('hidden');
+  msg = 'ERROR: ' +  msg;
+  console.log(msg);
+  $('#msg').append($('<p/>').html(msg)).removeClass('hidden');
 }
 
 
