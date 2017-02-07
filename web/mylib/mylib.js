@@ -389,7 +389,7 @@ function openShareDlg(project) {
     '&picture=' + encodeURIComponent(basePath + project.cover) +
     '&name=' + encodeURIComponent(project.title) +
     '&description=' + encodeURIComponent('Proveu aquestes activitats amb el nou JClic per a HTML5') +
-    '&redirect_uri=' + encodeURIComponent('http://facebook.com/') +
+    '&redirect_uri=' + encodeURIComponent('https://facebook.com/') +
     '&link=' + encodeURIComponent(directLink));
 
   $('#shGoogle').attr('href', 'https://plus.google.com/share?url=' + encodeURIComponent(directLink));
