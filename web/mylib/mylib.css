@@ -89,7 +89,7 @@ table td:first-child {
   font-weight: bold;
 }
 
-.prjDesc, .prjData, {
+.prjDesc, .prjData {
   margin-top: 10pt;
   line-height: initial;
   border-spacing: 0;
