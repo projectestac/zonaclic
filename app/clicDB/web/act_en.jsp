@@ -202,7 +202,9 @@ function MM_swapImage() { //v3.0
 	        <td width="42%" rowspan="2" valign="top" class="f1"><a href="../en/jclic/howto.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('info<%=i%>1','','../img/info_on.gif',1)"><img src="../img/info.gif" alt="" name="info<%=i%>1" width="20" height="20" hspace="3" border="0" align="absmiddle" id="info<%=i%>1">how 
               does it work?</a><br>
               <!-- InstanceBeginEditable name="applet" --> 
-              <a href="javascript:launchApplet('jclicApplet.jsp?project=<%=srvBase%>/projects/<%=v.folder%>/<%=v.path%><%=b.getAppletExtraParams(v)%>')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img<%=img%>','','../img/run_applet_on.gif',1)"><img src="../img/run_applet.gif" width="20" height="20" border="0" name="img<%=img++%>" hspace="3" align="absmiddle" alt=""><%=b.getMsg("runApplet")%></a><!-- InstanceEndEditable -->
+              <a href="javascript:launchApplet('jclicApplet.jsp?project=<%=srvBase%>/projects/<%=v.folder%>/<%=v.path%><%=b.getAppletExtraParams(v)%>')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img<%=img%>','','../img/run_applet_on.gif',1)"><img src="../img/run_applet.gif" width="20" height="20" border="0" name="img<%=img++%>" hspace="3" align="absmiddle" alt=""><%=b.getMsg("runHTML5")%></a><br>              
+              <a href="javascript:getProjectJnlp('<%=srvBase%>/projects/<%=v.folder%>/<%=v.path%>','<%=b.getTitle().replaceAll("'", "\'")%>','<%=v.folder%>')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img<%=img%>','','../img/run_applet_on.gif',1)"><img src="../img/run_applet.gif" width="20" height="20" border="0" name="img<%=img++%>" hspace="3" align="absmiddle" alt=""><%=b.getMsg("runWebStart")%></a>              
+              <!-- InstanceEndEditable -->
               <%     for (int k=0; k<v.fitxers.length; k++){
         edu.xtec.web.clic.WFitxers f=v.fitxers[k];
 %>
@@ -229,10 +231,9 @@ if(av.autor.mail!=null){%> <a href="javascript:mailto('<%=b.em(av.autor.mail)%>'
             </td>		
 	 </tr>
 	 <tr>
-            <td class="url" valign="bottom" align="right" colspan="2"><!-- InstanceBeginEditable name="urlJC" -->
-<%=b.getMsg("embed")%> <input readonly onclick="this.focus(); this.select();" type="text" value=
-"&lt;div style=&quot;width:560;text-align:center;font-size:x-small;&quot;&gt;&lt;iframe src=&quot;<%=srvBase%>/db/jclicApplet.jsp?project=<%=srvBase%>/projects/<%=v.folder%>/<%=v.path%>&amp;skin=@mini.xml&amp;lang=ca&quot; frameborder=0 width=560 height=440 scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;&lt;br&gt;&lt;a href=&quot;<%=srvBase%>/db/act_ca.jsp?id=<%= b.id %>&quot;&gt;<%=b.getMsg("pre_title")%> <%=b.getTitle()%>&lt;/a&gt;&lt;/div&gt;" /><br>
-<%=b.getMsg("projectURL")%> <input readonly onclick="this.focus(); this.select();" type="text" value="<%=srvBase%>/projects/<%=v.folder%>/<%=v.path%>" /><!-- InstanceEndEditable --></td>
+            <td class="f1" valign="bottom" align="right" colspan="2"><!-- InstanceBeginEditable name="urlJC" -->
+<strong><%=b.getMsg("newTag")%></strong> <a href="https://clic.xtec.cat/repo/index.html?lang=en&prj=<%=v.getFolderBase()%>"><%=b.getMsg("newLib")%></a>
+<!-- InstanceEndEditable --></td>
           </tr>
     </table>
    </td>
