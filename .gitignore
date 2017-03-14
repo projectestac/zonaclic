@@ -21,6 +21,7 @@ Thumbs.db
 # Build and doc directories #
 build/
 dist/
+!web/dist/
 apidoc/
 javadoc/
 private/

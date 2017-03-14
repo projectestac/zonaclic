@@ -144,7 +144,7 @@ function getPlugin(project, width, height, rWidth, rHeight) {
     var jclicScript = document.createElement('script');
     jclicScript.setAttribute('type', 'text/javascript');
     jclicScript.setAttribute('src', jsBase);
-    jclicScript.setAttribute('charset', 'utf-8'):
+    jclicScript.setAttribute('charset', 'utf-8');
     document.head.appendChild(jclicScript);
   }
 
@@ -164,7 +164,7 @@ function getParams(project, w, h) {
   var options = '';
 
   if (w)
-    options = options + ',"with":"' + w + '"';
+    options = options + ',"width":"' + w + '"';
 
   if (h)
     options = options + ',"height":"' + h + '"';

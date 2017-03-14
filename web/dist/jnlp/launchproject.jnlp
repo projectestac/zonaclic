@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="https://clic.xtec.cat/dist/jnlp/" codebase-absolute="https://clic.xtec.cat/dist/jnlp/" href="">
+  <information>
+    <title>JClic test project</title>
+    <vendor>XTEC</vendor>
+    <homepage href="https://clic.xtec.cat"/>
+    <icon href="splash_player.png" kind="splash"/>
+    <icon width="64" height="64" href="jclic_64x64.png"/>
+  </information>
+  <security>
+    <all-permissions/>
+  </security>
+  <resources>
+    <j2se version="1.6+"/>
+    <jar href="../jclic/jclic.jar" main="true" />
+  </resources>
+  <application-desc>
+    <argument>https://clic.xtec.cat/projects/observa/jclic/observa.jclic.zip</argument>\n\
+  </application-desc>
+</jnlp>

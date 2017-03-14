@@ -200,7 +200,7 @@ function MM_swapImage() { //v3.0
 			   <!-- InstanceBeginEditable name="applet" --> 
               <a href="javascript:launchApplet('jclicApplet.jsp?project=<%=srvBase%>/projects/<%=v.folder%>/<%=v.path%><%=b.getAppletExtraParams(v)%>')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img<%=img%>','','../img/run_applet_on.gif',1)"><img src="../img/run_applet.gif" width="20" height="20" border="0" name="img<%=img++%>" hspace="3" align="absmiddle" alt=""><%=b.getMsg("runHTML5")%></a><br>
               
-              <a href="javascript:getJnlp('<%=srvBase%>/projects/<%=v.folder%>/<%=v.path%>','<%=b.getTitle().replaceAll("'", "\'")%>','<%=v.folder%>')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img<%=img%>','','../img/run_applet_on.gif',1)"><img src="../img/run_applet.gif" width="20" height="20" border="0" name="img<%=img++%>" hspace="3" align="absmiddle" alt=""><%=b.getMsg("runWebStart")%></a>
+              <a href="javascript:getProjectJnlp('<%=srvBase%>/projects/<%=v.folder%>/<%=v.path%>','<%=b.getTitle().replaceAll("'", "\'")%>','<%=v.folder%>')" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img<%=img%>','','../img/run_applet_on.gif',1)"><img src="../img/run_applet.gif" width="20" height="20" border="0" name="img<%=img++%>" hspace="3" align="absmiddle" alt=""><%=b.getMsg("runWebStart")%></a>
                             
               <!-- InstanceEndEditable -->
               <%     for (int k=0; k<v.fitxers.length; k++){
