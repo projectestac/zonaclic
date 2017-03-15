@@ -11,12 +11,12 @@ String srvBase=b.getServerBase();
 <!-- InstanceEndEditable --> 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <link href="../css/basic.css" rel="stylesheet" type="text/css">
-<script language="JavaScript" src="../scripts/mm.js" type="text/JavaScript"></script>
+<script language="JavaScript" src="https://clic.xtec.cat/scripts/mm.js" type="text/JavaScript"></script>
  
 <meta name="Keywords" content="<%=b.getMsg("common_keywords")%>, <%=b.getDescriptors()%>">
 <link href="../css/act.css" rel="stylesheet" type="text/css">
-<script language="JavaScript" src="<%=srvBase%>/dist/jclic/launchApplet.js" type="text/javascript"></script>
-<script language="JavaScript" src="<%=srvBase%>/dist/jnlp/jclicJnlp.js" type="text/javascript"></script>
+<script language="JavaScript" src="https://clic.xtec.cat/dist/jclic/launchApplet.js" type="text/javascript"></script>
+<script language="JavaScript" src="https://clic.xtec.cat/dist/jnlp/jclicJnlp.js" type="text/javascript"></script>
 <!-- InstanceBeginEditable name="head" -->
 <style>
 .container{ position:relative; width:300px; float:right; }
@@ -81,7 +81,7 @@ function MM_swapImage() { //v3.0
   </tr>
   <tr>
       <td width="20" height="200" background="../img/f0_r3_c2.gif">&nbsp;</td>
-   <td class="main" width="718" valign="top"><script language="JavaScript" src="../scripts/av_ca.js" type="text/JavaScript"></script>
+   <td class="main" width="718" valign="top"><script language="JavaScript" src="https://clic.xtec.cat/scripts/av_ca.js" type="text/JavaScript"></script>
          <div class="topMenu"><a href="../ca/index.htm">inici</a> | <a href="../ca/act/index.htm">activitats</a> 
           | <a href="listact_ca.jsp"><strong>cerca</strong></a> </div>
    <div class="titol"><!-- InstanceBeginEditable name="titol" --><%=b.getTitle()%><!-- InstanceEndEditable --></div>
@@ -227,7 +227,7 @@ if(av.autor.mail!=null){%> <a href="javascript:mailto('<%=b.em(av.autor.mail)%>'
             </td>		
 	 </tr>
 	 <tr>
-            <td class="f1" valign="bottom" align="right" colspan="2"><!-- InstanceBeginEditable name="urlJC" -->
+            <td class="f1" valign="middle" align="right" colspan="2"><!-- InstanceBeginEditable name="urlJC" -->
 <strong><%=b.getMsg("newTag")%></strong> <a href="https://clic.xtec.cat/repo/index.html?lang=ca&prj=<%=v.getFolderBase()%>"><%=b.getMsg("newLib")%></a>
 <!-- InstanceEndEditable --></td>
           </tr>

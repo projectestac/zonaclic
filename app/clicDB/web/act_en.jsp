@@ -11,11 +11,12 @@ String srvBase=b.getServerBase();
 <!-- InstanceEndEditable --> 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <link href="../css/basic.css" rel="stylesheet" type="text/css">
-<script language="JavaScript" src="../scripts/mm.js" type="text/JavaScript"></script>
+<script language="JavaScript" src="https://clic.xtec.cat/scripts/mm.js" type="text/JavaScript"></script>
  
 <meta name="Keywords" content="<%=b.getMsg("common_keywords")%>, <%=b.getDescriptors()%>">
 <link href="../css/act.css" rel="stylesheet" type="text/css">
-<script language="JavaScript" src="<%=srvBase%>/dist/jclic/launchApplet.js" type="text/javascript"></script>
+<script language="JavaScript" src="https://clic.xtec.cat/dist/jclic/launchApplet.js" type="text/javascript"></script>
+<script language="JavaScript" src="https://clic.xtec.cat/dist/jnlp/jclicJnlp.js" type="text/javascript"></script>
 <!-- InstanceBeginEditable name="head" -->
 <style>
 .container{ position:relative; width:300px; float:right; }
@@ -80,7 +81,7 @@ function MM_swapImage() { //v3.0
   </tr>
   <tr>
       <td width="20" height="200" background="../img/f0_r3_c2.gif">&nbsp;</td>
-   <td class="main" width="718" valign="top"><script language="JavaScript" src="../scripts/av_en.js" type="text/JavaScript"></script>
+   <td class="main" width="718" valign="top"><script language="JavaScript" src="https://clic.xtec.cat/scripts/av_en.js" type="text/JavaScript"></script>
 <% if(System.currentTimeMillis()<1187452800000L){ %>
 <p class="avis"><span class="nou"><strong>Attention!<br>
 </strong></span>On August the 18th, the ClicZone will be closing between 9:00 AM to 17:00 PM (time of Barcelona) to allow improvement works in the servers of the Telematic Educational Network of Catalonia (XTEC).</p>   
