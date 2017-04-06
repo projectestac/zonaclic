@@ -9,7 +9,7 @@
     <context-param>
         <param-name>servletBaseUrl</param-name>
         <param-value>READ_FROM_DATABASE</param-value>
-        <description>http://clic.xtec.cat/gali/gali</description>
+        <description>https://clic.xtec.cat/gali/gali</description>
         </context-param>
     <context-param>
         <param-name>dbLogFile</param-name>
@@ -58,7 +58,7 @@
     <context-param>
         <param-name>checkIdentUrl</param-name>
         <param-value>READ_FROM_DATABASE</param-value>
-        <description>http://aplitic.xtec.cat/e13_colex/validate.jsp</description>
+        <description>https://aplitic.xtec.cat/e13_colex/validate.jsp</description>
     </context-param>
     <context-param>
         <param-name>reporterName</param-name>
@@ -72,22 +72,22 @@
     <context-param>
         <param-name>packageUrl</param-name>
         <param-value>READ_FROM_DATABASE</param-value>
-        <description>http://clic.xtec.cat/fgali/</description>
+        <description>https://clic.xtec.cat/fgali/</description>
         </context-param>
     <context-param>
         <param-name>packageNOCUrl</param-name>
         <param-value>READ_FROM_DATABASE</param-value>
-        <description>http://clic.xtec.cat/fgalino/</description>
+        <description>https://clic.xtec.cat/fgalino/</description>
         </context-param>
     <context-param>
         <param-name>packageALGUrl</param-name>
         <param-value>READ_FROM_DATABASE</param-value>
-        <description>http://clic.xtec.cat/fgalial/</description>
+        <description>https://clic.xtec.cat/fgalial/</description>
         </context-param>
     <context-param>
         <param-name>packageOCUrl</param-name>
         <param-value>READ_FROM_DATABASE</param-value>
-        <description>http://clic.xtec.cat/fgalioc/</description>
+        <description>https://clic.xtec.cat/fgalioc/</description>
         </context-param>
     <context-param>
         <param-name>SETTINGS_TABLE</param-name>
@@ -95,7 +95,7 @@
     </context-param>
     <context-param>
         <param-name>galiLogo</param-name>
-        <param-value>http://clic.xtec.cat/img/logo_gali.gif</param-value>
+        <param-value>https://clic.xtec.cat/img/logo_gali.gif</param-value>
         </context-param>
     <listener>
         <listener-class>gali.Context</listener-class>

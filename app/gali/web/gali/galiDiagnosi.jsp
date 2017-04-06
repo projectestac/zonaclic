@@ -5,7 +5,7 @@ if(!bd.init(request, session, response)){%><jsp:forward page="error.html"/><%}
 <html>
 <head>
 <title>GAL&Iacute; - Prova de nivell inicial</title>
-<script language="JavaScript" src="http://clic.xtec.cat/dist/jclic/jclicplugin.js" type="text/javascript"></script>
+<script language="JavaScript" src="https://clic.xtec.cat/dist/jclic/jclicplugin.js" type="text/javascript"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <link href="../estils.css" rel="stylesheet" type="text/css">
 </head>
