@@ -3,26 +3,45 @@
 var root = 'https://clic.xtec.cat/users/';
 //var root = window.location.origin + window.location.pathname;
 var usrLibRoot = root;
-var user = 'test';
+var params = {
+  user: ''
+};
 
 $(function () {
 
   initShareDlg();
 
-  user = window.location.search.substring(1);
-  if (user === null || user === '' || /[^A-Za-z0-9_.]/gi.test(user)) {
+  window.location.search.substring(1).split('&').forEach(function(p){
+    if(p.indexOf('=')<0){
+      if(!params.user)
+        params.user = p;
+      else
+        params[p]='';
+    } else {
+      var kv = p.split('=')
+      if(kv[0]) {
+        params[kv[0]] = kv[1] || '';
+      }
+    }
+  });
+
+  console.log(params);
+
+  if (!params.user || /[^A-Za-z0-9_.]/gi.test(params.user)) {
     logError('Usuari desconegut!');
   } else {
-    usrLibRoot = root + user + '/';
+    usrLibRoot = root + params.user + '/';
     $.ajax({
       dataType: 'json',
       url: usrLibRoot + 'projects.json',
       success: function (projects) {
-        $('#userIdBox').html(user);
+        $('#userIdBox').html('<a href="?' + params.user + '">' + params.user + '</a>');
         var $projects = $('#projects');
+        var numCards = 0;
         for (var p = 0; p < projects.length; p++) {
           var prj = projects[p];
-          if (prj.path) {
+          if (prj.path && (!params.act || params.act==prj.path)) {
+            numCards ++;
             var prjBasePath = prj.path;
             var prjInfoPath = usrLibRoot + prj.path + '/project.json';
             // Enclose ajax call in a closure to retain path values
@@ -40,6 +59,9 @@ $(function () {
               });
             })(prjBasePath, prjInfoPath);
           }
+        }
+        if(params.act && numCards == 0) {
+          logError('El projecte "' + params.act + '" no existeix!');
         }
       },
       error: function (xhr) {
@@ -75,6 +97,12 @@ function initShareDlg() {
         $('#copy-toast')[0].MaterialSnackbar.showSnackbar({ message: 'El codi s\'ha copiat al porta-retalls. Enganxeu-lo amb CTRL+V a la pàgina o article del blog on vulgueu que aparegui.' });
       });
   });
+  $('#actLinkCopy').on('click', function () {
+    clipboard.copy($('#actLink').val())
+      .then(function () {
+        $('#copy-toast')[0].MaterialSnackbar.showSnackbar({ message: 'El codi s\'ha copiat al porta-retalls.' });
+      });
+  });
   $('#moodleLinkCopy').on('click', function () {
     clipboard.copy($('#moodleLink').val())
       .then(function () {
@@ -93,9 +121,11 @@ function openShareDlg(project) {
 
   var basePath = usrLibRoot + project.basePath + '/';
   var directLink = basePath + 'index.html';
+  var actLink = root + "index.htm?" + params.user + "&act=" + project.basePath;
   var moodleLink = basePath + project.mainFile;
   var shareText = encodeURIComponent('Activitats JClic ' + getQuotedText(project.title) + ' ' + directLink);
   $('#directLink').val(directLink);
+  $('#actLink').val(actLink);
   $('#shTwitter').attr('href', 'https://twitter.com/intent/tweet?' +
     'text=' + encodeURIComponent(getQuotedText(project.title)) +
     '&url=' + encodeURIComponent(directLink) +
@@ -178,7 +208,7 @@ function $buildProjectCard(project) {
     class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
     title: 'Descarrega el fitxer',
     download: true,
-    href: '/db/downloadUserProject?prj=' + user + '/' + project.basePath
+    href: '/db/downloadUserProject?prj=' + params.user + '/' + project.basePath
   })
     .append($('<i/>', { class: 'material-icons' }).html('cloud_download'));
 

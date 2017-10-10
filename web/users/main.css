@@ -2,6 +2,15 @@
   padding-left: 20pt;
 }
 
+#userIdBox a {
+  text-decoration: none;
+  color: white;
+}
+
+.mdl-layout__content {
+  background-color: rgb(236, 251, 255);
+}
+
 #projects {
   display: flex;
   flex-wrap: wrap;
