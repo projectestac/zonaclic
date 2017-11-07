@@ -132,7 +132,7 @@
       <property name="build.acc.dir"  location="${build.dir}/acc" />
       <property name="build.prod.dir" location="${build.dir}/prod" />
 
-      <property name="int.base"       value="http://clic-int.xtec.cat:7778" />
+      <property name="int.base"       value="http://xtec-int.educacio.intranet:7792" />
       <property name="acc.base"       value="http://clic-acc.xtec.cat" />
       <property name="prod.base"      value="http://clic.xtec.cat" />
 
