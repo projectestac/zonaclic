@@ -1,0 +1,23 @@
+
+# Back and log files #
+*.bak
+*.LCK
+*~
+*.log
+Thumbs.db
+
+# Vagrant
+vm/.vagrant
+
+# Build and doc directories #
+build/
+dist/
+apidoc/
+private/
+
+# MyLib test files
+web/users/*/**
+!web/users/clic/*
+#!web/users/settings.json
+
+
