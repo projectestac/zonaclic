@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Temps de generació: 03-12-2017 a les 21:50:43
+-- Temps de generació: 04-12-2017 a les 17:11:11
 -- Versió del servidor: 5.7.20-0ubuntu0.16.04.1
 -- Versió de PHP: 7.0.22-0ubuntu0.16.04.1
 
@@ -19,8 +19,6 @@ SET time_zone = "+00:00";
 --
 -- Base de dades: `jclicrepo`
 --
-CREATE DATABASE IF NOT EXISTS `jclicrepo` DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
-USE `jclicrepo`;
 
 -- --------------------------------------------------------
 
@@ -29,10 +27,10 @@ USE `jclicrepo`;
 --
 
 CREATE TABLE `codes` (
-  `path` varchar(256) COLLATE utf8_bin NOT NULL,
-  `type` varchar(10) COLLATE utf8_bin NOT NULL,
-  `code` varchar(10) COLLATE utf8_bin NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+  `path` varchar(256) NOT NULL,
+  `type` varchar(10) NOT NULL,
+  `code` varchar(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -41,14 +39,14 @@ CREATE TABLE `codes` (
 --
 
 CREATE TABLE `descriptions` (
-  `path` varchar(256) COLLATE utf8_bin NOT NULL,
-  `lang` varchar(3) COLLATE utf8_bin NOT NULL,
-  `description` text COLLATE utf8_bin,
-  `languages` text COLLATE utf8_bin,
-  `areas` text COLLATE utf8_bin,
-  `levels` text COLLATE utf8_bin,
-  `descriptors` text COLLATE utf8_bin
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+  `path` varchar(256) NOT NULL,
+  `lang` varchar(3) NOT NULL,
+  `description` text,
+  `languages` text,
+  `areas` text,
+  `levels` text,
+  `descriptors` text
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -57,20 +55,21 @@ CREATE TABLE `descriptions` (
 --
 
 CREATE TABLE `projects` (
-  `path` varchar(256) COLLATE utf8_bin NOT NULL,
+  `path` varchar(256) NOT NULL,
+  `title` text NOT NULL,
   `lastUpdated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `date` date DEFAULT NULL,
-  `author` text COLLATE utf8_bin,
-  `school` text COLLATE utf8_bin,
-  `mainFile` tinytext COLLATE utf8_bin,
-  `cover` tinytext COLLATE utf8_bin,
-  `thumbnail` tinytext COLLATE utf8_bin,
-  `zipFile` tinytext COLLATE utf8_bin,
-  `instFile` tinytext COLLATE utf8_bin,
+  `author` text,
+  `school` text,
+  `mainFile` tinytext,
+  `cover` tinytext,
+  `thumbnail` tinytext,
+  `zipFile` tinytext,
+  `instFile` tinytext,
   `clicZoneId` int(11) DEFAULT NULL,
   `orderId` int(11) DEFAULT NULL,
-  `files` text COLLATE utf8_bin
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+  `files` text
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Indexos per taules bolcades
@@ -96,12 +95,14 @@ ALTER TABLE `projects`
   ADD PRIMARY KEY (`path`);
 ALTER TABLE `projects` ADD FULLTEXT KEY `author` (`author`);
 ALTER TABLE `projects` ADD FULLTEXT KEY `school` (`school`);
+ALTER TABLE `projects` ADD FULLTEXT KEY `title` (`title`);
+
+--- Crea usuari 'clic'
+CREATE USER 'clic'@'%' IDENTIFIED BY 'clic';
+GRANT ALL PRIVILEGES ON *.* TO 'clic'@'%' REQUIRE NONE WITH GRANT OPTION MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 
-
-CREATE USER 'jclicrepo'@'%' IDENTIFIED WITH mysql_native_password AS 'clic';
-GRANT ALL PRIVILEGES ON `jclicrepo`.* TO 'jclicrepo'@'%';
 
