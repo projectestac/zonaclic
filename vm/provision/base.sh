@@ -21,7 +21,7 @@ sudo locale-gen es_ES.UTF-8  &> /dev/null
 sudo dpkg-reconfigure locales &> /dev/null
 
 echo 'Set Timezone'
-sudo echo "Europe/Madrid" | sudo tee /etc/timezone  &> /dev/null
+sudo echo "Europe/Andorra" | sudo tee /etc/timezone  &> /dev/null
 sudo dpkg-reconfigure -f noninteractive tzdata &> /dev/null
 
 # output results to terminal

@@ -15,5 +15,9 @@ define('PROJECTS_INDEX', 'projects.json');
 // ** Languages currently used in this repository ** //
 define('LANGS', ['ca', 'es', 'en']);
 
+// ** Possible MySQL full text search methods ** //
+define('FTS_METHODS', ['default', 'natural', 'boolean']);
+
+
 
 

@@ -17,18 +17,18 @@
  * 
  * @return string - The valid expression
  */
-function adjustDate($d)
-{
+ function adjustDate($d)
+ {
     $dm = explode("/", $d);
     if (count($dm)==3) {
         $d = "20$dm[2]/$dm[1]/$dm[0]";
     }
     return $d;
-}
+ }
 
-$startTime = time();
+ $startTime = time();
 
-// Main process:
+ // Main process:
  print("<!DOCTYPE html><html><head><meta charset=\"UTF-8\"><title>Updating database</title></head><body><code><pre>\n");
 
  // Set-up database connection and prepared statements:
@@ -56,11 +56,12 @@ $startTime = time();
  $stmtInsertProject->bindParam(':files', $files);
 
  $stmtInsertDesc = $dbConn->prepare(
-     'INSERT INTO descriptions(path,lang,description,languages,areas,levels,descriptors)
-     VALUES (:prj_path,:lang,:prj_description,:languages,:areas,:levels,:descriptors)'
+     'INSERT INTO descriptions(path,lang,title,description,languages,areas,levels,descriptors)
+     VALUES (:prj_path,:lang,:title,:prj_description,:languages,:areas,:levels,:descriptors)'
  );
  $stmtInsertDesc->bindParam(':prj_path', $prj_path);
  $stmtInsertDesc->bindParam(':lang', $lang);
+ $stmtInsertDesc->bindParam(':title', $title);
  $stmtInsertDesc->bindParam(':prj_description', $prj_description);
  $stmtInsertDesc->bindParam(':languages', $languages);
  $stmtInsertDesc->bindParam(':areas', $areas);
@@ -179,6 +180,5 @@ $startTime = time();
   print('</pre></code></body></html>');
 
   // Query model:
-  // ALTER TABLE tablename CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
   // SELECT * FROM `descriptions` WHERE LANG="ca" AND MATCH(`description`,`languages`,`areas`,`levels`,`descriptors`) AGAINST ("química geologia ecosistema matemàtiques")
 

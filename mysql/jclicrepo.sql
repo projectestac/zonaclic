@@ -41,6 +41,7 @@ CREATE TABLE `codes` (
 CREATE TABLE `descriptions` (
   `path` varchar(256) NOT NULL,
   `lang` varchar(3) NOT NULL,
+  `title` text NOT NULL,
   `description` text,
   `languages` text,
   `areas` text,
@@ -72,10 +73,6 @@ CREATE TABLE `projects` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Indexos per taules bolcades
---
-
---
 -- Index de la taula `codes`
 --
 ALTER TABLE `codes`
@@ -86,7 +83,7 @@ ALTER TABLE `codes`
 --
 ALTER TABLE `descriptions`
   ADD UNIQUE KEY `key` (`path`,`lang`);
-ALTER TABLE `descriptions` ADD FULLTEXT KEY `description` (`description`,`languages`,`areas`,`levels`,`descriptors`);
+ALTER TABLE `descriptions` ADD FULLTEXT KEY `description` (`title`,`description`,`languages`,`areas`,`levels`,`descriptors`);
 
 --
 -- Index de la taula `projects`
@@ -97,12 +94,6 @@ ALTER TABLE `projects` ADD FULLTEXT KEY `author` (`author`);
 ALTER TABLE `projects` ADD FULLTEXT KEY `school` (`school`);
 ALTER TABLE `projects` ADD FULLTEXT KEY `title` (`title`);
 
---- Crea usuari 'clic'
-CREATE USER 'clic'@'%' IDENTIFIED BY 'clic';
-GRANT ALL PRIVILEGES ON *.* TO 'clic'@'%' REQUIRE NONE WITH GRANT OPTION MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
-
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-
-
