@@ -16,7 +16,7 @@ define('PROJECTS_INDEX', 'projects.json');
 define('LANGS', ['ca', 'es', 'en']);
 
 // ** Possible MySQL full text search methods ** //
-define('FTS_METHODS', ['default', 'natural', 'boolean']);
+define('FTS_METHODS', ['natural', 'boolean']);
 
 
 
