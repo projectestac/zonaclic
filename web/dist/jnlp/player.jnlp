@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jnlp codebase="http://clic.xtec.cat/jnlp/jclic/" codebase-absolute="http://clic.xtec.cat/jnlp/jclic/" href="player.jnlp" spec="1.0+">
+<jnlp spec="1.0+" codebase="https://clic.xtec.cat/dist/jclic/" href="https://clic.xtec.cat/jnlp/jclic/player.jnlp" version="0.3.2.6">
   <information>
     <title>JClic</title>
     <vendor>XTEC</vendor>
@@ -21,7 +21,8 @@
   </security>
   <resources>
     <j2se version="1.7+"/>
-    <jar href="jclic.jar" main="true" version="1.3.2.6"/>
+    <jar href="jclic.jar" main="true"/>
   </resources>
   <application-desc/>
+  <update check="background" policy="prompt-update"/>
 </jnlp>
