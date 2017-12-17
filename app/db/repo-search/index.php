@@ -16,9 +16,9 @@
  * 
  */
 
- require_once 'config.php';
+ require_once '../config.php';
 
- header('Content-Type: application/json');
+ header('Content-Type: application/json;charset=UTF-8');
  header('Access-Control-Allow-Origin: *');
  
  $result = [];
@@ -41,7 +41,7 @@
    
  // Set-up database connection and prepared statements:
  $dbConn = new PDO('mysql:dbname='.DB_NAME.';host='.DB_HOST.';charset=utf8', DB_USER, DB_PASSWORD); 
- $stmtQuery = $dbConn->prepare("SELECT * FROM descriptions WHERE lang='". $lang ."' AND MATCH(title,description,languages,areas,levels,descriptors) AGAINST (:query" . $mode . ")");
+ $stmtQuery = $dbConn->prepare("SELECT * FROM descriptions WHERE lang='".$lang."' AND MATCH(title,description,languages,areas,levels,descriptors) AGAINST (:query".$mode.")");
  $stmtQuery->bindParam(':query', $query);
  
  $stmtQuery->execute();

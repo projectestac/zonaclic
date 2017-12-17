@@ -1,0 +1,192 @@
+.mdl-layout__header-row {
+  padding-left: 20pt;
+}
+
+.avatar {
+  max-width: 36pt;
+  max-height: 36pt;
+  border-radius: 50%;
+  margin-right: 5pt;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hidden {
+  display: none;
+}
+
+.mdl-mini-footer .mdl-logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#loginBox {
+  width: 300pt;
+}
+
+#mainInfo {
+  width: 100%;
+  margin-right: 13pt;  
+}
+
+#mainInfo p {
+  margin-top: 8pt;
+  margin-bottom: 4pt;
+  line-height: 1.3;
+  max-width: 700pt;
+}
+
+#mainInfo table {
+  margin-top: 20pt;
+}
+
+.project {
+  flex-basis: 300pt;
+}
+
+.project .mdl-card__title {
+  min-height: 100pt;
+  padding-bottom: 0;
+}
+
+.project .mdl-card__title-text {
+  color: #424540;
+  background-color: rgba(255, 255, 255, 0.85);
+  font-weight: bold;
+  font-size: large;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 10pt;
+}
+
+.project .mdl-card__actions {
+  text-align: right;
+}
+
+.project .mdl-card__supporting-text {
+  flex-grow: 2;
+  max-height: 300pt;
+  overflow-y: auto;
+}
+
+.prjAuthor {
+  margin-bottom: 0;
+  line-height: initial;
+}
+
+.prjSchool {
+  font-style: italic;
+  line-height: initial;
+}
+
+table td:first-child {
+  padding-left: 0;
+  padding-right: 10pt;
+  font-weight: bold;
+}
+
+.prjDesc, .prjData {
+  margin-top: 10pt;
+  line-height: initial;
+  border-spacing: 0;
+}
+
+#uploadDlg, #confirmDeleteDlg {
+  width: 80%;
+  max-width: 600pt;
+}
+
+#uploadDlg a {
+  outline: none;
+}
+
+.mdl-dialog__title {
+  font-size: 16pt;
+}
+
+.code {
+  font-family: monospace;
+}
+
+.warning {
+  color: red;
+}
+
+#fileNameInfo {
+  font-weight: bold;
+}
+
+.small-icon {
+  font-size: 12pt;
+}
+
+#shareDlg {
+  width: 80%;
+  max-width: 600pt;
+  background-color: #f8f8f8;
+}
+
+.shareItem {
+  padding: 10pt;
+  width: 100%;
+  background-color: white;
+}
+
+.copyInput {
+  display: flex;
+  align-items: center;
+  margin: 5pt 0;
+}
+
+.shareItem label {
+  display: block
+}
+
+.shareItem input {
+  width: 100%;
+  max-height: 11pt;
+  font-family: monospace;
+  font-size: 9pt;
+  color: #606060;
+}
+
+.shareButtons a {
+  outline: none;
+  text-decoration: none;
+}
+
+.shareButtons svg {
+  pointer-events: none;
+  width: 26pt;
+  height: 26pt;
+}
+
+#shTwitter svg {
+  fill: #55acee;
+}
+
+#shFacebook svg {
+  fill: #3b5998;
+}
+
+#shGoogle svg {
+  fill: #dd4b39;
+}
+
+#shPinterest svg {
+  fill: #bd081c;
+}
+
+#shEmail svg {
+  fill: #0166ff;
+}
+
+#moodleLogo {
+  height: 18pt;
+  margin-bottom: 10pt;
+}
+

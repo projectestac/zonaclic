@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} "/\w*\.jsp$"
+RewriteRule ^(.*)$ index.php?path=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule "getUserInfo" "userlib/getUserInfo.php" [L,QSA]
+RewriteRule "uploadUserFile" "userlib/uploadUserFile.php" [L,QSA]
+RewriteRule "deleteProject" "userlib/deleteProject.php" [L,QSA]
+RewriteRule "downloadUserProject" "userlib/downloadUserProject.php" [L,QSA]

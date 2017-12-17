@@ -8,7 +8,7 @@
  * 
  */
 
- require_once 'config.php';
+ require_once '../config.php';
 
 /**
  * Converts the date format used by JClic (DD/MM/YY) to YYYY/MM/DD
@@ -87,8 +87,9 @@
  $stmtDeleteAllCodes->bindParam(':prj_path', $prj_path);
  
  // Read the index of projects included in the repository 
- $basePath = realpath(dirname(__FILE__) . DIRECTORY_SEPARATOR . PROJECTS_PATH);
- $string = file_get_contents($basePath . DIRECTORY_SEPARATOR . PROJECTS_INDEX);
+ // Paths are relative to 'config.php', one level below this file
+ $basePath = realpath(dirname(__FILE__).'/../'.PROJECTS_PATH);
+ $string = file_get_contents($basePath.'/'.PROJECTS_INDEX);
  $projects = json_decode($string, false);
  $countUpdate = 0;
  $countSkip = 0;
@@ -97,7 +98,7 @@
 
  foreach ($projects as $project) {
      $prj_path = $project->{'path'};
-     $prjFileName = $basePath . DIRECTORY_SEPARATOR . $prj_path .DIRECTORY_SEPARATOR . 'project.json';
+     $prjFileName = $basePath.'/'.$prj_path.'/project.json';
      $fileTime = filemtime($prjFileName);
      $string = file_get_contents($prjFileName);
      $projectData = json_decode($string, false);
