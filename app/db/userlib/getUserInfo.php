@@ -20,11 +20,11 @@
  function getPlainId($email, $hd) {
    $r = strtolower(trim($email));
    $p = strrpos($r, '@'.$hd);
-   $r = $p === false ? str_replace('@', '.', $r) : substr($r, 0, $p + 1);
+   $r = $p === false ? str_replace('@', '.', $r) : substr($r, 0, $p);
 
    $result = '';
    foreach(str_split($r) as $ch)
-     $result = $result. ($ch < '0' || ($ch > '9' && $ch < 'a') || $ch > 'z') ? '.' : $ch ;
+     $result = $result. (($ch < '0' || ($ch > '9' && $ch < 'a') || $ch > 'z') ? '.' : $ch);
     
    return $result;
  }
@@ -81,12 +81,15 @@
          $result['id'] = getPlainId($email, $HD);
          $result['fullUserName'] = $user->{'name'};
          $result['avatar'] = getAttr($user, 'picture', '');
-         $result['expires'] = date('M d, Y h:i:s A', $user->{'exp'} * 1000);
+         $result['expires'] = date('M d, Y h:i:s A', $user->{'exp'});
          $result['status'] = 'validated';
          // Todo: Check projects
          $result['projects'] = [];
          $result['currentSize'] = 0;
          // Todo: set session
+
+         // DEBUG
+         // $result['response'] = $user;
 
        }
      }
