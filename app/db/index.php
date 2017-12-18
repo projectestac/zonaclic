@@ -17,8 +17,8 @@ function buildListParam($oldId, $newId) {
 }
 
 function getPathFromId($id) {
-  // TODO: Build list of equivalences!
-  return $id == 1000 ? 'clicinfa' : 'observa';
+  require_once 'projects-id.php';
+  return isset(PROJECTS[$id]) ? PROJECTS[$id] : '';
 }
 
 $flag = false;
