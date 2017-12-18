@@ -1,6 +1,18 @@
 <?php
  
- // List of main projects sorted by project id
+ /**
+  *  List of main projects sorted by project id
+  *  Obtained with:
+  *
+  *  SELECT activitats.id, versions.id, activitats_desc.titol, versions.folder
+  *  FROM (activitats INNER JOIN versions ON activitats.id=versions.activitat)
+  *       INNER JOIN activitats_desc ON activitats.id = activitats_desc.id
+  *  WHERE ((versions.tipus = 'j') AND (activitats_desc.idioma = 'ca'))
+  *  ORDER BY activitats.id, versions.id;
+  *
+  */
+
+ 
  define('PROJECTS', array(
   1000=>"clicinfa",1001=>"hpobdeu",1002=>"nadal96",1003=>"animcast",1004=>"observes",1005=>"mesos",1006=>"porgal",1007=>"basicos",1008=>"norantz",1009=>"sonido",
   1010=>"pasarrat",1011=>"ratoli",1012=>"handbol",1013=>"eusintel",1014=>"seq",1015=>"efisica",1016=>"manip",1017=>"gimcaes1",1018=>"lagranja",1019=>"asocia",
