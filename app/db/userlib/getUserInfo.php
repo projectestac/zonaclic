@@ -75,6 +75,9 @@
          // Unathorized user
          $result['status'] = 'error';
          $result['error'] = 'Usuari no autoritzat';          
+       } else if(!isset($user->{'exp'}) || $user->{'exp'} < DateTime::getTimeStamp()) {
+         $result['status'] = 'error';
+         $result['error'] = 'Credencial no vàlida';
        } else {
          $result['email'] = $email;
          $result['quota'] = $quota;
