@@ -30,7 +30,7 @@
        mkdir($this->$prjRoot, 0776, true);
    }
 
-   public function getJSON() {
+   public function getData() {
      $result = array();
      $result['name'] = $this->$name;
      $result['title'] = $this->$title;
@@ -49,8 +49,19 @@
      $result['levelCodes'] = $this->$levelCodes;
      $result['totalFileSize'] = $this->$totalFileSize;
      $result['basePath'] = $this->$prjRoot;
-     return json_encode($result);
+     return $result;
    }
+
+   public function toJSONObject($attribute) {
+    if ($attribute === null || $this->$metaLangs === null || count($this.$metaLangs) !== count($attribute))
+      return null;
+
+    $result = array();
+    $n = count($this->$metaLangs);
+    for($i=0; $i<$n; $i++)
+      $result{$this->$metaLangs[i]} = $attribute[i];
+    return $result;
+  }
 
    public static function getValidName($proposedName) {
      $result = '';
