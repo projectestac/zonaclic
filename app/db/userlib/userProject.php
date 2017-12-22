@@ -32,21 +32,7 @@ class UserProject
     public $prjRoot = null;
     public $parent = null;
     public $name = 'noname';
-    public $title = 'Untitled';
-    public $author = 'unknown';    
-    public $school = '';
-    public $date = '';
-    public $cover = '';
-    public $thumbnail = '';
-    public $mainFile = null;
-    public $metaLangs = [];
-    public $description = [];
-    public $languages = [];
-    public $areas = [];
-    public $levels = [];
-    public $langCodes = [];
-    public $areaCodes = [];
-    public $levelCodes = [];
+    public $prj = array();
     public $totalFileSize = 0;
     // }}}
 
@@ -60,63 +46,10 @@ class UserProject
     {
         $this->$parent = $parent;
         $this->$name = UserProject::getValidName($name);
-        $this->$mainFile = $this->$name.'.jclic';
         $this->$prjRoot = $parent->$root.'/'.$this->$name;
         if (!is_dir($this->$prjRoot)) {
             mkdir($this->$prjRoot, 0776, true);
         }
-    }
-
-    /**
-     * Gets an associative array with all relevant data
-     * about this project
-     * 
-     * @return array
-     */
-    public function getData() 
-    {
-        $result = array();
-        $result['name'] = $this->$name;
-        $result['title'] = $this->$title;
-        $result['author'] = $this->$author;
-        $result['school'] = $this->$school;
-        $result['date'] = $this->$date;
-        $result['cover'] = $this->$cover;
-        $result['thumbnail'] = $this->$thumbnail;
-        $result['mainFile'] = $this->$mainFile;
-        $result['metaLangs'] = $this->$metaLangs;
-        $result['description'] = $this->toJSONObject($this->$description);
-        $result['languages'] = $this->toJSONObject($this->$languages);
-        $result['langCodes'] = $this->$langCodes;
-        $result['areas'] = $this->toJSONObject($this->$areas);
-        $result['areaCodes'] = $this->$areaCodes;
-        $result['levels'] = $this->toJSONObject($this->$levels);
-        $result['levelCodes'] = $this->$levelCodes;
-        $result['totalFileSize'] = $this->$totalFileSize;
-        $result['basePath'] = $this->$prjRoot;
-        return $result;
-    }
-
-    /**
-     * Converts an array of attributes into an associative array
-     * linked to `metaLangs`
-     * 
-     * @param array $attribute An array of attributes
-     * 
-     * @return array
-     */
-    public function toJSONObject($attribute) 
-    {
-        if ($attribute === null || $this->$metaLangs === null || count($this.$metaLangs) !== count($attribute)) {
-            return null;
-        }
-
-        $result = array();
-        $n = count($this->$metaLangs);
-        for ($i=0; $i<$n; $i++) {
-            $result{$this->$metaLangs[i]} = $attribute[i];
-        }
-        return $result;
     }
 
     /**
@@ -129,25 +62,62 @@ class UserProject
         $prjJson = $this->$prjRoot.'/project.json';
         if (file_exists($prjJson)) {
             $data = file_get_contents($prjJson);
-            $prj = json_decode($data);
-            $this->$title = $prj->title ?: 'No title';
-            $this->$author = $prj->author ?: '';
-            $this->$school = $prj->school ?: '';
-            $this->$date = $prj->date ?: '';
-            $this->$cover = $prj->cover ?: '';
-            $this->$thumbnail = $prj->thumbnail ?: '';
-            $this->$mainFile = $prj->mainFile ?: '';
-            $this->$metaLangs = $prj->meta_langs ?: array();
-            if (count($this->$metaLangs)>0) {
-              
-
-            }
-          
-
-
+            $this->$prj = json_decode($data);
+            $this->checkFiles();
+            $this->$prj->name = $this->$name;
+            $this->$prj->totalFileSize = $this->$totalFileSize;
+            $this->$prj->basePath = $this->$parent->$userId.'/'.$this->$name;
         }
+    }
 
+    /**
+     * Gets the total size of this project
+     * 
+     * @return integer
+     */
+    public function checkFiles()
+    {
+        $this->$totalFileSize = UserProject::getDirectorySize($this->$prjRoot);
+        return $this->$totalFileSize;
+    }
 
+    /**
+     * Gets the total file size of the files existing in a specific directory and its subdirectories
+     * From https://stackoverflow.com/a/21409562/3588740
+     * 
+     * @param string $path The path to be recursivelly scanned
+     * 
+     * @return integer
+     */
+    public static function getDirectorySize($path)
+    {
+        $bytestotal = 0;
+        $path = realpath($path);
+        if ($path!==false && $path!='' && file_exists($path)) {
+            foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path, FilesystemIterator::SKIP_DOTS)) as $object) {
+                $bytestotal += $object->getSize();
+            }
+        }
+        return $bytestotal;
+    }
+
+    /**
+     * Deletes all content of root project's directory and its subdirectories
+     * 
+     * @return void
+     */
+    public function clean()
+    {
+        $fs = $this->$totalFileSize;
+        // Delete all files and subsirectories
+        foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($this->$prjRoot, FilesystemIterator::SKIP_DOTS), RecursiveIteratorIterator::CHILD_FIRST) as $path) {
+            $path->isDir() && !$path->isLink() ? rmdir($path->getPathname()) : unlink($path->getPathname());
+        }
+        // Don't delete root dir!
+        // rmdir($dirPath);
+        $this->$parent->$currentSize -= $fs;
+        $this->$totalFileSize = 0;
+        $this->$prj = array();
     }
 
     /**
