@@ -3,6 +3,7 @@
 // Set the location of "users" dir
 var url = new URL(window.location.href);
 var usrLibRoot = url.protocol + '//' + url.host + '/users/';
+var libRoot = usrLibRoot + 'unknown/';
 var usrLibBase = 'https://clic.xtec.cat/users?';
 
 // Flags to check when DOM and Google API are ready to start
@@ -65,6 +66,7 @@ function loginOK(data) {
   $('.avatar').attr('src', data.avatar);
   var usrlib = usrLibBase + data.id;
   $('#userLibUrl').attr({ href: usrlib }).html(usrlib);
+  libRoot = usrLibRoot + data.id + '/';
   projects = data.projects;
   userQuota = data.quota;
   usedBytes = data.currentSize;
@@ -372,7 +374,7 @@ function openShareDlg(project) {
 
   $('#shareDlgTitle').html(getQuotedText(project.title));
 
-  var basePath = usrLibRoot + project.basePath + '/';
+  var basePath = libRoot + project.basePath + '/';
   var directLink = basePath + 'index.html';
   var moodleLink = basePath + project.mainFile;
   var shareText = encodeURIComponent('Activitats JClic ' + getQuotedText(project.title) + ' ' + directLink);
@@ -412,7 +414,7 @@ function openShareDlg(project) {
 
 // Build a card with information and action buttons related to the given project
 function $buildProjectCard(project) {
-  var basePath = usrLibRoot + project.basePath + '/';
+  var basePath = libRoot + project.basePath + '/';
   var $result = $('<div/>', { class: 'project mdl-cell mdl-card mdl-shadow--2dp' }).data('project', project);
 
   $result.append($('<div/>', { class: 'mdl-card__title' }).css({ background: 'url(\'' + basePath + project.cover + '\') center / cover' })

@@ -30,26 +30,25 @@ class UserProject
 {
     // {{{ properties
     public $prjRoot = null;
-    public $parent = null;
     public $name = 'noname';
-    public $prj = array();
+    public $prj = null;
     public $totalFileSize = 0;
     // }}}
 
     /**
      * Class constructor
      * 
-     * @param string    $name   Folder name of this project
-     * @param UserSpace $parent Parent user space
+     * @param string $name      Folder name of this project
+     * @param string $parentDir Root folder for all user spaces
      */
-    public function __construct($name, $parent)
+    public function __construct($name, $parentDir)
     {
-        $this->$parent = $parent;
-        $this->$name = UserProject::getValidName($name);
-        $this->$prjRoot = $parent->$root.'/'.$this->$name;
-        if (!is_dir($this->$prjRoot)) {
-            mkdir($this->$prjRoot, 0776, true);
+        $this->name = UserProject::getValidName($name);
+        $this->prjRoot = $parentDir.'/'.$this->name;
+        if (!is_dir($this->prjRoot)) {
+            mkdir($this->prjRoot, 0776, true);
         }
+        $this->prj = (object)[];
     }
 
     /**
@@ -59,30 +58,32 @@ class UserProject
      */
     public function readProjectData()
     {
-        $prjJson = $this->$prjRoot.'/project.json';
+        $prjJson = $this->prjRoot.'/project.json';
         if (file_exists($prjJson)) {
             $data = file_get_contents($prjJson);
-            $this->$prj = json_decode($data);
-            $this->checkFiles();
-            $this->$prj->name = $this->$name;
-            $this->$prj->totalFileSize = $this->$totalFileSize;
-            $this->$prj->basePath = $this->$parent->$userId.'/'.$this->$name;
+            $this->setProjectData(json_decode($data));
         }
     }
 
     /**
-     * Gets the total size of this project
+     * Set the project data from a $prj object
      * 
-     * @return integer
+     * @param object $prj The project data
+     * 
+     * @return void
      */
-    public function checkFiles()
+    public function setProjectData($prj)
     {
-        $this->$totalFileSize = UserProject::getDirectorySize($this->$prjRoot);
-        return $this->$totalFileSize;
+        $this->prj = $prj;
+        $this->totalFileSize = UserProject::getDirectorySize($this->prjRoot);
+        // Copy data to $prj
+        $this->prj->name = $this->name;
+        $this->prj->totalFileSize = $this->totalFileSize;
+        $this->prj->basePath = $this->name;
     }
 
     /**
-     * Gets the total file size of the files existing in a specific directory and its subdirectories
+     * Get the total file size of the files existing in a specific directory and its subdirectories
      * From https://stackoverflow.com/a/21409562/3588740
      * 
      * @param string $path The path to be recursivelly scanned
@@ -108,16 +109,14 @@ class UserProject
      */
     public function clean()
     {
-        $fs = $this->$totalFileSize;
         // Delete all files and subsirectories
-        foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($this->$prjRoot, FilesystemIterator::SKIP_DOTS), RecursiveIteratorIterator::CHILD_FIRST) as $path) {
+        foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($this->prjRoot, FilesystemIterator::SKIP_DOTS), RecursiveIteratorIterator::CHILD_FIRST) as $path) {
             $path->isDir() && !$path->isLink() ? rmdir($path->getPathname()) : unlink($path->getPathname());
         }
         // Don't delete root dir!
         // rmdir($dirPath);
-        $this->$parent->$currentSize -= $fs;
-        $this->$totalFileSize = 0;
-        $this->$prj = array();
+        $this->totalFileSize = 0;
+        $this->prj = (object)[];
     }
 
     /**
@@ -137,8 +136,7 @@ class UserProject
             foreach (str_split($r) as $ch) {
                 $result = $result.(($ch < '0' || ($ch > '9' && $ch < 'a') || $ch > 'z') ? '_' : $ch);
             }
-        }
-     
+        }     
         return $result;
     }
 
@@ -162,6 +160,5 @@ class UserProject
             }
         }
         return result;
-    }
-   
+    }   
 }
