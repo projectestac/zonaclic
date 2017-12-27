@@ -1,7 +1,6 @@
 <?php
-
 /**
- * File "index.php"
+ * File: index.php
  * 
  * Makes a query to the database and returns a list of the projects that have
  * the specified words on its main description, title and/or the "areas",
@@ -14,41 +13,57 @@
  *           For more information about the differences between these methods see:
  *           https://dev.mysql.com/doc/refman/5.7/en/fulltext-search.html
  * 
+ * PHP Version 7
+ * 
+ * @category Service
+ * @package  RepoSearch
+ * @author   Francesc Busquets <francesc@gmail.com>
+ * @license  https://www.tldrlegal.com/l/eupl-1.1 EUPL-1.1
+ * @link     https://github.com/projectestac/zonaclic
  */
 
- require_once '../config.php';
+require_once '../config.php';
 
- header('Content-Type: application/json;charset=UTF-8');
- header('Access-Control-Allow-Origin: *');
+header('Content-Type: application/json;charset=UTF-8');
+header('Access-Control-Allow-Origin: *');
  
- $result = [];
+$result = [];
 
- $query = isset($_REQUEST['q']) ? $_REQUEST['q'] : null;
- if($query === null){
-   print json_encode($result);
-   return;
- }
+$query = isset($_REQUEST['q']) ? $_REQUEST['q'] : null;
+if ($query === null) {
+    print json_encode($result);
+    return;
+}
 
- $lang = isset($_REQUEST['lang']) ? $_REQUEST['lang'] : 'en';
- if(!in_array($lang, LANGS))
-   $lang = 'en';
+$lang = isset($_REQUEST['lang']) ? $_REQUEST['lang'] : 'en';
+if (!in_array($lang, LANGS)) {
+    $lang = 'en';
+}
 
- $method = isset($_REQUEST['method']) ? $_REQUEST['method'] : 'default';
- if(!in_array($method, FTS_METHODS))
-   $method = 'natural';
+$method = isset($_REQUEST['method']) ? $_REQUEST['method'] : 'default';
+if (!in_array($method, FTS_METHODS)) {
+    $method = 'natural';
+}
 
- $mode = $method === 'natural' ? ' IN NATURAL LANGUAGE MODE' : $method === 'boolean' ? ' IN BOOLEAN MODE' : '';
+$mode = $method === 'natural'
+    ? ' IN NATURAL LANGUAGE MODE'
+    : $method === 'boolean' ? ' IN BOOLEAN MODE' : '';
    
- // Set-up database connection and prepared statements:
- $dbConn = new PDO('mysql:dbname='.DB_NAME.';host='.DB_HOST.';charset=utf8', DB_USER, DB_PASSWORD); 
- $stmtQuery = $dbConn->prepare("SELECT * FROM descriptions WHERE lang='".$lang."' AND MATCH(title,description,languages,areas,levels,descriptors) AGAINST (:query".$mode.")");
- $stmtQuery->bindParam(':query', $query);
+// Set-up database connection and prepared statements:
+$dbConn = new PDO('mysql:dbname='.DB_NAME.';host='.DB_HOST.';charset=utf8', DB_USER, DB_PASSWORD); 
+
+$stmtQuery = $dbConn->prepare(
+    "SELECT * FROM descriptions WHERE lang='".$lang.
+    "' AND MATCH(title,description,languages,areas,levels,descriptors) AGAINST (:query".$mode.")"
+);
+
+$stmtQuery->bindParam(':query', $query);
  
- $stmtQuery->execute();
- while ($row = $stmtQuery->fetch()){
-   $result[] = $row['path'];
- }
+$stmtQuery->execute();
+while ($row = $stmtQuery->fetch()) {
+    $result[] = $row['path'];
+}
 
- // TODO: Log queries?
+// TODO: Log queries?
 
- print(json_encode($result));
+print(json_encode($result));

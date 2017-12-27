@@ -23,18 +23,6 @@
 require_once '../config.php';
 require_once 'userSpace.php';
 
-// Parameter name for OAuth token
-$ID_TOKEN = 'id_token';
-// Endpoint to validate OAuth tokens sent by Google
-$CHECK_GOOGLE_TOKEN = 'https://www.googleapis.com/oauth2/v3/tokeninfo?id_token=';
-// Valid Google Suite organisation
-$HD = 'xtec.cat';
-
- // Miscellaneous functions
-
- // Gets a simplified user ID from its e-mail address
- // Only plain letters, digits and dots are allowed
-
 /**
  * Gets a simplified user ID from its e-mail address
  * Only plain letters, digits and dots are allowed
@@ -59,7 +47,8 @@ function getPlainId($email, $hd)
 }
 
 /**
- * Gets the value associated to $key in the $array if set, returning $default otherwise
+ * Gets the value associated to $key in the $array if set,
+ * returning $default otherwise
  * 
  * @param array  $array   The array where to search for
  * @param string $key     Key to be searched
@@ -75,16 +64,16 @@ function getAttr($array, $key, $default)
 /**
  * Main function
  */
-if (isset($_POST[$ID_TOKEN]) && $_POST[$ID_TOKEN] !== '') {
+if (isset($_POST[ID_TOKEN]) && $_POST[ID_TOKEN] !== '') {
     try {
-        $result = (object)[];
+        $result = (object)['status'=>'processing'];
 
         // Read settings file
         $settingsFileName = '../'.USERS_ROOT.'/'.SETTINGS_FILE;
         $settings = json_decode(file_get_contents($settingsFileName), false);
     
         // Check token validity (Warning: external call to a Google API!)
-        $raw = file_get_contents($CHECK_GOOGLE_TOKEN.$_POST[$ID_TOKEN]);
+        $raw = file_get_contents(CHECK_GOOGLE_TOKEN.$_POST[ID_TOKEN]);
         $user = json_decode($raw, false);
 
         if (!isset($user->{'email'}) || $user->{'email'} === '') {
@@ -98,7 +87,7 @@ if (isset($_POST[$ID_TOKEN]) && $_POST[$ID_TOKEN] !== '') {
             $validUser = false;
        
             $hd = getAttr($user, 'hd', null);
-            if ($hd === $HD) {
+            if ($hd === HD) {
                 $validUser = true;
             }
        
@@ -122,7 +111,7 @@ if (isset($_POST[$ID_TOKEN]) && $_POST[$ID_TOKEN] !== '') {
             } else {
                 $result->email = $email;
                 $result->quota = $quota;
-                $result->id = getPlainId($email, $HD);
+                $result->id = getPlainId($email, HD);
                 $result->fullUserName = $user->name;
                 $result->avatar = getAttr($user, 'picture', '');
                 $result->expires = date('M d, Y h:i:s A', $user->exp);
@@ -133,14 +122,16 @@ if (isset($_POST[$ID_TOKEN]) && $_POST[$ID_TOKEN] !== '') {
                 $result->projects = $space->getProjectsData();
                 $result->currentSize = $space->currentSize;
 
-                // Todo: set session
-
-                // DEBUG
-                // $result['response'] = $user;
+                // Set session data
+                session_start();
+                $_SESSION['userId'] = $result->id;
+                $_SESSION['rootDir'] = $space->rootDir;                
+                $_SESSION['quota'] = $result->quota;
+                $_SESSION['currentSize'] = $result->currentSize;
             }
         }
 
-        // Set response
+        // Set response header and content
         header('Content-Type: application/json;charset=UTF-8');
         print json_encode($result);          
 

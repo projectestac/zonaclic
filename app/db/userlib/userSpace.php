@@ -112,7 +112,7 @@ class UserSpace
     public function getProject($name)    
     {   
         $p = $this->getProjectIndex($name);
-        return $p >= 0 ? $this->projects[i] : null;
+        return $p >= 0 ? $this->projects[$p] : null;
     }
 
     /**
@@ -128,7 +128,7 @@ class UserSpace
         $result = false;
         $p = $this->getProjectIndex($name);
         if ($p>=0) {
-            $prj = $this->projects[$i];
+            $prj = $this->projects[$p];
             $prj->clean();
             rmdir($prj->prjRoot);
             array_splice($this->projects, $p, 1);
@@ -152,6 +152,56 @@ class UserSpace
             array_push($this->projects, $result);
         }
         return $result;        
+    }
+
+    /**
+     * Updates the file "projects.json" with data from currently registered projects
+     * 
+     * @return boolean
+     */
+    public function updateIndex()
+    {
+        $projectList = array();
+        foreach ($this->projects as $prj) {
+            $prj = $prj->prj;
+            $prjReg = (object)[];
+            $prjReg->path = $prj->name;
+            UserSpace::copyAttr($prj, $prjReg, 'title', 'Sense nom');
+            UserSpace::copyAttr($prj, $prjReg, 'author');
+            UserSpace::copyAttr($prj, $prjReg, 'date');
+            UserSpace::copyAttr($prj, $prjReg, 'langCodes');
+            UserSpace::copyAttr($prj, $prjReg, 'mainFile');
+            UserSpace::copyAttr($prj, $prjReg, 'cover');
+            UserSpace::copyAttr($prj, $prjReg, 'thumbnail');
+            array_push($projectList, $prjReg);
+        }
+        $fp = fopen($this->rootDir.'/projects.json', 'w');
+        $result = fwrite($fp, json_encode($projectList, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)) !== false;
+        fclose($fp);
+        return $result;
+    }
+
+    /**
+     * Copy the $attr attribute of $src to $dest only if it's set or $default provided
+     * 
+     * @param object $src     The source object
+     * @param object $dest    The destination object
+     * @param string $attr    The name of the attribute to be copied
+     * @param any    $default An optional default value
+     * 
+     * @return object The $dest object
+     */
+    public static function copyAttr($src, $dest, $attr, $default = null)
+    {
+        if (!property_exists($src, $attr)) {
+            if ($default !== null) {
+                $dest->$attr = $default;
+            }
+        } else {
+            $dest->$attr = $src->$attr;
+        }
+
+        return $dest;
     }
 
 }

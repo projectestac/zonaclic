@@ -66,6 +66,25 @@ class UserProject
     }
 
     /**
+     * Renames the project (and the directory containing it) to a new name
+     * 
+     * @param string $newName The new name assigned to this project
+     * 
+     * @return boolean true if successfull
+     */
+    public function renameTo($newName)
+    {
+        $newName = UserProject::getValidName($newName);
+        $newRoot = dirname($this->prjRoot).'/'.$newName;
+        $result = rename($this->prjRoot, $newRoot);
+        if ($result) {
+            $this->name = $newName;
+            $this->prjRoot = $newRoot;
+        }
+        return $result;
+    }
+
+    /**
      * Set the project data from a $prj object
      * 
      * @param object $prj The project data
@@ -104,17 +123,13 @@ class UserProject
 
     /**
      * Deletes all content of root project's directory and its subdirectories
+     * $prjRoot itself is not deleted
      * 
      * @return void
      */
     public function clean()
     {
-        // Delete all files and subsirectories
-        foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($this->prjRoot, FilesystemIterator::SKIP_DOTS), RecursiveIteratorIterator::CHILD_FIRST) as $path) {
-            $path->isDir() && !$path->isLink() ? rmdir($path->getPathname()) : unlink($path->getPathname());
-        }
-        // Don't delete root dir!
-        // rmdir($dirPath);
+        UserProject::_removeDir($this->prjRoot.'/', false);
         $this->totalFileSize = 0;
         $this->prj = (object)[];
     }
@@ -160,5 +175,30 @@ class UserProject
             }
         }
         return result;
-    }   
+    }
+
+    /**
+     * Recursively deletes the content of a directory and its subdirectories
+     * Thanks to Lewis Cowles and Paulund:
+     * https://paulund.co.uk/php-delete-directory-and-files-in-directory
+     * 
+     * @param string  $target     The directory to remove. IMPORTANT: Must be ended with '/'
+     * @param boolean $deleteRoot When `true`, the provided directory is also removed
+     * 
+     * @return void
+     */
+    private static function _removeDir($target, $deleteRoot=false)
+    {
+        if (is_dir($target)) {
+            $files = glob($target.'*', GLOB_MARK); //GLOB_MARK adds a slash to directories returned
+            foreach ($files as $file) {
+                UserProject::_removeDir($file, true);
+            }          
+            if ($deleteRoot) {
+                rmdir($target);
+            }
+        } elseif (is_file($target)) {
+            unlink($target);
+        }
+    }
 }
