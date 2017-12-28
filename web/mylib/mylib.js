@@ -3,7 +3,8 @@
 // Set the location of "users" dir
 var url = new URL(window.location.href);
 var usrLibRoot = url.protocol + '//' + url.host + '/users/';
-var libRoot = usrLibRoot + 'unknown/';
+var user = 'unknown'
+var libRoot = usrLibRoot + '/' + user;
 var usrLibBase = 'https://clic.xtec.cat/users?';
 
 // Flags to check when DOM and Google API are ready to start
@@ -64,7 +65,8 @@ function onSignIn(googleUser) {
 function loginOK(data) {
   $('#fullUserName').html(data.fullUserName);
   $('.avatar').attr('src', data.avatar);
-  var usrlib = usrLibBase + data.id;
+  user = data.id;
+  var usrlib = usrLibBase + user;
   $('#userLibUrl').attr({ href: usrlib }).html(usrlib);
   libRoot = usrLibRoot + data.id + '/';
   projects = data.projects;
@@ -99,6 +101,7 @@ function signOut() {
   $('#loginMsg').empty();
   userQuota = 0;
   usedBytes = 0;
+  user = 'unknown';
   var auth2 = gapi.auth2.getAuthInstance();
   auth2.signOut().then(function () {
     checkIfSignedIn();
@@ -469,7 +472,7 @@ function $buildProjectCard(project) {
     class: 'mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect',
     title: 'Descarrega el fitxer',
     download: true,
-    href: '/db/downloadUserProject?prj=' + project.basePath
+    href: '/db/downloadUserProject?prj=' + user + '/' + project.basePath
   })
     .append($('<i/>', { class: 'material-icons' }).html('cloud_download'));
 

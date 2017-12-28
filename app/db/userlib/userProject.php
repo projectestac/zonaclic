@@ -182,7 +182,7 @@ class UserProject
      * Thanks to Lewis Cowles and Paulund:
      * https://paulund.co.uk/php-delete-directory-and-files-in-directory
      * 
-     * @param string  $target     The directory to remove. IMPORTANT: Must be ended with '/'
+     * @param string  $target     Path to the directory to remove. IMPORTANT: Always ended with '/'
      * @param boolean $deleteRoot When `true`, the provided directory is also removed
      * 
      * @return void
@@ -192,7 +192,11 @@ class UserProject
         if (is_dir($target)) {
             $files = glob($target.'*', GLOB_MARK); //GLOB_MARK adds a slash to directories returned
             foreach ($files as $file) {
-                UserProject::_removeDir($file, true);
+                if (is_file($file)) {
+                    unlink($file);
+                } else {
+                    UserProject::_removeDir($file, true);
+                }
             }          
             if ($deleteRoot) {
                 rmdir($target);
