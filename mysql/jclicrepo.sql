@@ -86,7 +86,8 @@ CREATE TABLE IF NOT EXISTS `projects` (
 CREATE TABLE `log` (
   `date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `type` tinytext COLLATE latin1_general_ci NOT NULL,
-  `msg` text COLLATE latin1_general_ci NOT NULL
+  `msg` text COLLATE latin1_general_ci NOT NULL,
+  PRIMARY KEY (`date`)  
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;
 
 -- --------------------------------------------------------
@@ -98,24 +99,14 @@ CREATE TABLE `log` (
 --
 -- Index de la taula `descriptions`
 --
-ALTER TABLE `descriptions`
-  ADD UNIQUE KEY `key` (`path`,`lang`);
 ALTER TABLE `descriptions` ADD FULLTEXT KEY `description` (`title`,`description`,`languages`,`areas`,`levels`,`descriptors`);
 
 --
 -- Index de la taula `projects`
 --
-ALTER TABLE `projects`
-  ADD PRIMARY KEY (`path`);
 ALTER TABLE `projects` ADD FULLTEXT KEY `author` (`author`);
 ALTER TABLE `projects` ADD FULLTEXT KEY `school` (`school`);
 ALTER TABLE `projects` ADD FULLTEXT KEY `title` (`title`);
-
---
--- Index de la taula `log`
---
-ALTER TABLE `log`
-  ADD PRIMARY KEY (`date`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
