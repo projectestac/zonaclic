@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Temps de generació: 04-12-2017 a les 17:11:11
+-- Temps de generació: 02-01-2018 a les 10:53:18
 -- Versió del servidor: 5.7.20-0ubuntu0.16.04.1
 -- Versió de PHP: 7.0.22-0ubuntu0.16.04.1
 
@@ -19,6 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Base de dades: `jclicrepo`
 --
+CREATE DATABASE IF NOT EXISTS `jclicrepo` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `jclicrepo`;
 
 -- --------------------------------------------------------
 
@@ -26,10 +28,11 @@ SET time_zone = "+00:00";
 -- Estructura de la taula `codes`
 --
 
-CREATE TABLE `codes` (
+CREATE TABLE IF NOT EXISTS `codes` (
   `path` varchar(256) NOT NULL,
   `type` varchar(10) NOT NULL,
-  `code` varchar(10) NOT NULL
+  `code` varchar(10) NOT NULL,
+  UNIQUE KEY `codes` (`path`,`type`,`code`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -38,7 +41,7 @@ CREATE TABLE `codes` (
 -- Estructura de la taula `descriptions`
 --
 
-CREATE TABLE `descriptions` (
+CREATE TABLE IF NOT EXISTS `descriptions` (
   `path` varchar(256) NOT NULL,
   `lang` varchar(3) NOT NULL,
   `title` text NOT NULL,
@@ -46,7 +49,8 @@ CREATE TABLE `descriptions` (
   `languages` text,
   `areas` text,
   `levels` text,
-  `descriptors` text
+  `descriptors` text,
+  UNIQUE KEY `key` (`path`,`lang`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -55,7 +59,7 @@ CREATE TABLE `descriptions` (
 -- Estructura de la taula `projects`
 --
 
-CREATE TABLE `projects` (
+CREATE TABLE IF NOT EXISTS `projects` (
   `path` varchar(256) NOT NULL,
   `title` text NOT NULL,
   `lastUpdated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -69,14 +73,27 @@ CREATE TABLE `projects` (
   `instFile` tinytext,
   `clicZoneId` int(11) DEFAULT NULL,
   `orderId` int(11) DEFAULT NULL,
-  `files` text
+  `files` text,
+  PRIMARY KEY (`path`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+-- --------------------------------------------------------
+
 --
--- Index de la taula `codes`
+-- Estructura de la taula `log`
 --
-ALTER TABLE `codes`
-  ADD UNIQUE KEY `codes` (`path`,`type`,`code`);
+
+CREATE TABLE `log` (
+  `date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `type` tinytext COLLATE latin1_general_ci NOT NULL,
+  `msg` text COLLATE latin1_general_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Indexos per taules bolcades
+--
 
 --
 -- Index de la taula `descriptions`
@@ -93,6 +110,12 @@ ALTER TABLE `projects`
 ALTER TABLE `projects` ADD FULLTEXT KEY `author` (`author`);
 ALTER TABLE `projects` ADD FULLTEXT KEY `school` (`school`);
 ALTER TABLE `projects` ADD FULLTEXT KEY `title` (`title`);
+
+--
+-- Index de la taula `log`
+--
+ALTER TABLE `log`
+  ADD PRIMARY KEY (`date`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

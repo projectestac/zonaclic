@@ -17,9 +17,12 @@
 // TODO: Log actions!
 
 require_once '../config.php';
+require_once '../log.php';
 require_once 'userSpace.php';
 
 $result = (object)['status'=>'processing'];
+$userId = 'unknown';
+$projectName = 'noproject';
 
 session_start();
 
@@ -51,10 +54,12 @@ try {
     // Update user space index
     $space->updateIndex();
     $result->status = 'ok';
+    logMsg('DELETE', 'user: '.$userId.' project: '.$projectName);
 
 } catch (RuntimeException $e) {
     $result->status = 'error';
     $result->error = $e->getMessage();
+    logMsg('ERR-DELETE', $e->getMessage().' user: '.$userId.' project: '.$projectName);
 }
 
 // Set response header and content

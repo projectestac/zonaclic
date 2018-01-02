@@ -21,6 +21,7 @@
 // *****************************************************************
 
 require_once '../config.php';
+require_once '../log.php';
 require_once 'userSpace.php';
 
 /**
@@ -65,6 +66,7 @@ function getAttr($array, $key, $default)
  * Main function
  */
 if (isset($_POST[ID_TOKEN]) && $_POST[ID_TOKEN] !== '') {
+    $errMsg = '';
     try {
         $result = (object)['status'=>'processing'];
 
@@ -80,6 +82,7 @@ if (isset($_POST[ID_TOKEN]) && $_POST[ID_TOKEN] !== '') {
             // Invalid token!
             $result->status = 'error';
             $result->error = 'Validació incorrecta';
+            $errmsg = ' No email in user data';
         } else {       
             // Check if user is valid and load email and quota
             $email = $user->email;
@@ -104,10 +107,12 @@ if (isset($_POST[ID_TOKEN]) && $_POST[ID_TOKEN] !== '') {
             if ($validUser !== true) {
                 // Unathorized
                 $result->status = 'error';
-                $result->error = 'Usuari no autoritzat';          
+                $result->error = 'Usuari no autoritzat';
+                $errMsg = 'User email: '.$email;
             } else if (!isset($user->exp) || $user->exp < (new DateTime())->getTimestamp()) {
                 $result->status = 'error';
                 $result->error = 'Credencial no vàlida';
+                $errMsg = 'Expired session';
             } else {
                 $result->email = $email;
                 $result->quota = $quota;
@@ -128,6 +133,8 @@ if (isset($_POST[ID_TOKEN]) && $_POST[ID_TOKEN] !== '') {
                 $_SESSION['rootDir'] = $space->rootDir;                
                 $_SESSION['quota'] = $result->quota;
                 $_SESSION['currentSize'] = $result->currentSize;
+
+                logMsg('LOGIN', 'user: '.$result->id.' ('.number_format($result->currentSize/MB, 2).'/'.number_format($result->quota/MB, 2).')');
             }
         }
 
@@ -138,7 +145,8 @@ if (isset($_POST[ID_TOKEN]) && $_POST[ID_TOKEN] !== '') {
     } catch (Exception $e) {
         // Internal error
         http_response_code(500);
-        print 'Internal error: '.$e;
+        print 'Internal error: '.$e->getMessage();
+        logMsg('ERR-LOGIN', $e->getMessage().' '.$errMsg);
     }
 } else {
     // Bad request

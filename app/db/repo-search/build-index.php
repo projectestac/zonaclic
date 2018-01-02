@@ -16,6 +16,7 @@
  */
 
 require_once '../config.php';
+require_once '../log.php';
 
 /**
  * Converts the date format used by JClic (DD/MM/YY) to YYYY/MM/DD
@@ -38,7 +39,7 @@ $startTime = time();
 // Main process:
 print("<!DOCTYPE html><html><head><meta charset=\"UTF-8\"><title>Updating database</title></head><body><code><pre>\n");
 
-// Set-up database connection and prepared statements:
+// Set-up database connection:
 $dbConn = new PDO(
     'mysql:dbname='.DB_NAME.
     ';host='.DB_HOST.
@@ -46,6 +47,7 @@ $dbConn = new PDO(
     DB_USER, DB_PASSWORD
 );
 
+// Build prepared statements:
 $stmtQuery = $dbConn->prepare('SELECT path,lastUpdated FROM projects WHERE path=:prj_path');
 $stmtQuery->bindParam(':prj_path', $prj_path);
  
@@ -187,9 +189,11 @@ foreach ($projects as $project) {
     ob_flush();
 }
 
- $timeSpent = time() - $startTime;
- print("------------\n$countUpdate projects updated and $countSkip projects skipped in $timeSpent seconds.\n");
- print('</pre></code></body></html>');
+$timeSpent = time() - $startTime;
+print("------------\n$countUpdate projects updated and $countSkip projects skipped in $timeSpent seconds.\n");
+print('</pre></code></body></html>');
+
+logMsg('INDEX', $countUpdate.' projects updated and '.$countSkip.' projects skipped in '.$timeSpent.' seconds');
 
  // Query model:
  // SELECT * FROM `descriptions` WHERE LANG="ca" AND MATCH(`description`,`languages`,`areas`,`levels`,`descriptors`) AGAINST ("química geologia ecosistema matemàtiques")

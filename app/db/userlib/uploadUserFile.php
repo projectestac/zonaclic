@@ -18,10 +18,13 @@
 // TODO: Log actions!
 
 require_once '../config.php';
+require_once '../log.php';
 require_once 'userSpace.php';
 require_once 'userProject.php';
 
 $result = (object)['status'=>'processing'];
+$userId = 'unknown';
+$projectName = 'noproject';
 
 session_start();
 
@@ -109,10 +112,12 @@ try {
     $space->updateIndex();
     $result->status = 'ok';
     $result->project = $prj->prj;
+    logMsg('UPLOAD', 'user: '.$userId.' project: '.$projectName.' size: '.number_format($prj->totalFileSize/MB, 2));
 
 } catch (RuntimeException $e) {
     $result->status = 'error';
     $result->error = $e->getMessage();
+    logMsg('ERR-UPLOAD', $e->getMessage().' user: '.$userId.' project: '.$projectName);
 }
 
 // Set response header and content
