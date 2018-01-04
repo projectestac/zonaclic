@@ -1,0 +1,421 @@
+{
+  "logo": "logo.png",
+  "index": {
+    "path": "../projects",
+    "file": "projects.json"
+  },
+  "searchService": "../db/repo-search/index.php",
+  "facebookShareID": "1917838468440790",
+  "facebookRedirect": "https://facebook.com",
+  "twitterVia": "jclic",
+  "shareHashtags": ["JClic"],
+  "languages": [
+    {"id": "en", "name": "English"},
+    {"id": "ca", "name": "català"},
+    {"id": "es", "name": "español"}],
+  "defaultLanguage": "en",
+  "labels": {
+    "en": {
+      "mainTitle": "JClic HTML5 projects library",
+      "mainDescription": "Temporary site to test the new JClic HTML5 player",
+      "ok": "OK",
+      "cancel": "Cancel",
+      "searchTitle": "Search activities",
+      "languages": "Languages",
+      "subjects": "Subjects",
+      "levels": "Levels",
+      "descriptors": "Descriptors",      
+      "relatedProjects": "Related projects",      
+      "date": "Date",
+      "license": "License",
+      "close": "Close",
+      "play": "Play",
+      "playText": "Launch the activities",
+      "download": "Download",
+      "downloadText": "Download the activities in a ZIP file",
+      "install": "Install",
+      "installText": "Install as Java™ package",
+      "linkClicZone": "ClicZone",
+      "linkClicZoneText": "See in ClicZone",
+      "share": "Share",
+      "shareText": "Share this project",
+      "title": "Title",
+      "author": "Author",
+      "description": "Description",
+      "search": "Search",
+      "loading": "Loading...",
+      "settings": "Settings",
+      "fullScreen": "Play activities at full screen",
+      "openInNewTab": "Play activities on a new tab",
+      "orderBy": "Order by",
+      "inverse": "Inverse order",
+      "projects": "projects",
+      "copy": "copy",
+      "copied": "Text has been copied to clipboard.",
+      "linkToProject": "Link to project page:",
+      "linkToActivities": "Direct link to the activities:",
+      "linkForMoodle": "Link to use in JClic Module for Moodle:",
+      "embedCode": "Code to embed:",
+      "check": "Check this activities running on the new JClic HTML5 player",
+      "about": "About...",
+      "continue": "Continue",
+      "unknownProject": "Unknown project:",
+      "errorLoading": "Error loading:",
+      "preparingSCORM": "Preparing SCORM file",
+      "downloadingIngredients": "Downloading project ingredients",
+      "pleaseWaitCompressing": "Compressing all data into a ZIP file. Please wait.",
+      "zipFileAvailable": "ZIP file successfully generated and available for download",
+      "errorGeneratingZip": "Error generating ZIP file",
+      "downloadFile": "Download file"
+      },
+    "ca": {
+      "mainTitle": "Biblioteca de projectes JClic HTML5",
+      "mainDescription": "Espai provisional de proves del nou motor HTML5 del JClic",
+      "ok": "D'acord",
+      "cancel": "Cancel·la",
+      "searchTitle": "Cerca activitats",
+      "languages": "Idioma",
+      "subjects": "Àrea curricular",
+      "levels": "Nivell",
+      "descriptors": "Descriptors",
+      "relatedProjects": "Projectes relacionats",
+      "date": "Data",
+      "license": "Llicència d'ús",
+      "close": "Tanca",
+      "play": "Obre",
+      "playText": "Obre les activitats",
+      "download": "Descarrega",
+      "downloadText": "Descarrega les activitats en un fitxer ZIP",
+      "install": "Instal·la",
+      "installText": "Instal·la com a paquet Java™",
+      "linkClicZone": "zonaClic",
+      "linkClicZoneText": "Mostra'l a la zonaClic",
+      "share": "Comparteix",
+      "shareText": "Comparteix aquest projecte",
+      "title": "Títol",
+      "author": "Autor/a",
+      "description": "Descripció",
+      "search": "Cerca",
+      "loading": "S'està carregant...",
+      "settings": "Configuració",
+      "fullScreen": "Obre les activitats a pantalla completa",
+      "openInNewTab": "Obre les activitats en una pestanya nova",      
+      "orderBy": "Ordena per",
+      "inverse": "Ordre invers",
+      "projects": "projectes",
+      "copy": "copia",
+      "copied": "El text s'ha copiat al porta-retalls.",
+      "linkToProject": "Enllaç a la fitxa del projecte:",
+      "linkToActivities": "Enllaç directe a les activitats:",
+      "linkForMoodle": "Enllaç a utilitzar en el mòdul de JClic per a Moodle:",
+      "embedCode": "Codi per incrustar les activitats en un blog o pàgina web:",
+      "check": "Proveu aquestes activitats amb el nou JClic per a HTML5",
+      "about": "Quant a...",
+      "continue": "Continua",
+      "unknownProject": "Projecte desconegut:",
+      "errorLoading": "S'ha produït un error en llegir:",
+      "preparingSCORM": "S'està preparant el fitxer SCORM",
+      "downloadingIngredients": "S'estan descarregant els ingredients del projecte",
+      "pleaseWaitCompressing": "S'estan comprimint les dades en un fitxer ZIP. Espereu, si us plau.",
+      "zipFileAvailable": "Fitxer ZIP generat amb èxit i disponible per ser descarregat",
+      "errorGeneratingZip": "S'ha produït un error generant el fitxer ZIP",
+      "downloadFile": "Descarrega el fitxer"
+      },
+    "es": {
+      "mainTitle": "Biblioteca de proyectos JClic HTML5",
+      "mainDescription": "Espacio provisional de pruebas del nuevo motor HTML5 de JClic",
+      "ok": "Aceptar",
+      "cancel": "Cancelar",
+      "searchTitle": "Buscar actividades",
+      "languages": "Idioma",
+      "subjects": "Área curricular",
+      "levels": "Nivel educativo",
+      "descriptors": "Descriptores",
+      "relatedProjects": "Proyectos relacionados",
+      "date": "Fecha",
+      "license": "Licencia de uso",
+      "close": "Cerrar",
+      "play": "Abrir",
+      "playText": "Iniciar las actividades",
+      "download": "Descargar",
+      "downloadText": "Descargar las actividades en un archivo ZIP",
+      "install": "Instalar",
+      "installText": "Instalar como paquete Java™",
+      "linkClicZone": "zonaClic",
+      "linkClicZoneText": "Ver en la zonaClic",
+      "share": "Compartir",
+      "shareText": "Compartir este proyecto",
+      "title": "Título",
+      "author": "Autor/a",
+      "description": "Descripción",
+      "search": "Buscar",
+      "loading": "Cargando...",
+      "settings": "Configuración",
+      "fullScreen": "Abrir actividades a pantalla completa",
+      "openInNewTab": "Abrir las actividades en una pestaña nueva",      
+      "orderBy": "Ordenar por",
+      "inverse": "orden inverso",
+      "projects": "proyectos",
+      "copy": "copiar",
+      "copied": "El texto se ha copiado al portapapeles.",
+      "linkToProject": "Enlace a la ficha del proyecto:",
+      "linkToActivities": "Enlace directo a las actividades:",
+      "linkForMoodle": "Enlace a utilizar en el módulo de JClic para Moodle:",
+      "embedCode": "Código para incrustar las actividades en un blog o página web:",
+      "check": "Prueba estas actividades con el nuevo JClic para HTML5",
+      "about": "Acerca de...",
+      "continue": "Continuar",
+      "unknownProject": "Proyecto desconocido:",
+      "errorLoading": "Se ha producido un error al leer:",
+      "preparingSCORM": "Se está preparando el archivo SCORM",
+      "downloadingIngredients": "Se están descargando los ingredientes del proyecto",
+      "pleaseWaitCompressing": "Se están comprimiendo los datos en un archivo ZIP. Por favor, espere.",
+      "zipFileAvailable": "Archivo ZIP generado con éxito y disponible para ser descargado",
+      "errorGeneratingZip": "Se ha producido un error al generar el archivo ZIP",
+      "downloadFile": "Descargar el archivo"
+      }
+  },
+  "actLanguages": {
+    "options": ["*", "de", "ar", "rmq", "ca", "zh", "es", "eo", "eu", "fr", "gl", "el", "en", "it", "la", "arn", "oc", "pt", "ro", "sv"],
+    "ca": [
+        {"val" :"*", "text":"Tots els idiomes"},
+        {"val" :"de", "text":"alemany"},
+        {"val" :"en", "text":"anglès"},
+        {"val" :"ar", "text":"àrab"},
+        {"val" :"arn", "text":"araucà"},
+        {"val" :"eu", "text":"basc"},
+        {"val" :"rmq", "text":"caló"},
+        {"val" :"ca", "text":"català"},
+        {"val" :"es", "text":"espanyol"},
+        {"val" :"eo", "text":"esperanto"},
+        {"val" :"fr", "text":"francès"},
+        {"val" :"gl", "text":"gallec"},
+        {"val" :"el", "text":"grec"},
+        {"val" :"it", "text":"italià"},
+        {"val" :"la", "text":"llatí"},
+        {"val" :"oc", "text":"occità"},
+        {"val" :"pt", "text":"portuguès"},
+        {"val" :"ro", "text":"romanès"},
+        {"val" :"sv", "text":"suec"},
+        {"val" :"zh", "text":"xinès"}],
+    "en": [
+        {"val" :"*", "text":"All languages"},
+        {"val" :"ar", "text":"Arabic"},
+        {"val" :"arn", "text":"Araucanian"},
+        {"val" :"eu", "text":"Basque"},
+        {"val" :"rmq", "text":"Caló"},
+        {"val" :"ca", "text":"Catalan"},
+        {"val" :"zh", "text":"Chinese"},
+        {"val" :"en", "text":"English"},
+        {"val" :"eo", "text":"Esperanto"},
+        {"val" :"fr", "text":"French"},
+        {"val" :"gl", "text":"Galician"},
+        {"val" :"de", "text":"German"},
+        {"val" :"el", "text":"Greek"},
+        {"val" :"it", "text":"Italian"},
+        {"val" :"la", "text":"Latin"},
+        {"val" :"oc", "text":"Occitan"},
+        {"val" :"pt", "text":"Portuguese"},
+        {"val" :"ro", "text":"Romanian"},
+        {"val" :"es", "text":"Spanish"},
+        {"val" :"sv", "text":"Swedish"}],
+    "es": [
+        {"val" :"*", "text":"Todos los idiomas"},
+        {"val" :"de", "text":"alemán"},
+        {"val" :"ar", "text":"árabe"},
+        {"val" :"rmq", "text":"caló"},
+        {"val" :"ca", "text":"catalán"},
+        {"val" :"zh", "text":"chino"},
+        {"val" :"es", "text":"español"},
+        {"val" :"eo", "text":"esperanto"},
+        {"val" :"eu", "text":"euskara"},
+        {"val" :"fr", "text":"francés"},
+        {"val" :"gl", "text":"gallego"},
+        {"val" :"el", "text":"griego"},
+        {"val" :"en", "text":"inglés"},
+        {"val" :"it", "text":"italiano"},
+        {"val" :"la", "text":"latín"},
+        {"val" :"arn", "text":"mapudungun"},
+        {"val" :"oc", "text":"occitano"},
+        {"val" :"pt", "text":"portugués"},
+        {"val" :"ro", "text":"rumano"},
+        {"val" :"sv", "text":"sueco"}]
+  },
+  "actSubjects": {
+    "options": ["*", "lleng", "mat", "soc", "exp", "mus", "vip", "ef", "tec", "div"],
+    "ca": [
+        {"val" :"*", "text":"Totes les àrees"},
+        {"val" :"lleng", "text":"Llengües"},
+        {"val" :"mat", "text":"Matemàtiques"},
+        {"val" :"soc", "text":"Ciències socials"},
+        {"val" :"exp", "text":"Ciències experimentals"},
+        {"val" :"mus", "text":"Música"},
+        {"val" :"vip", "text":"Visual i plàstica"},
+        {"val" :"ef", "text":"Educació física"},
+        {"val" :"tec", "text":"Tecnologies"},
+        {"val" :"div", "text":"Diversos"}],
+    "en": [
+        {"val" :"*", "text":"All areas"},
+        {"val" :"lleng", "text":"Languages"},
+        {"val" :"mat", "text":"Mathematics"},
+        {"val" :"soc", "text":"Social sciences"},
+        {"val" :"exp", "text":"Experimental sciences"},
+        {"val" :"mus", "text":"Music"},
+        {"val" :"vip", "text":"Art & design"},
+        {"val" :"ef", "text":"Physical education"},
+        {"val" :"tec", "text":"Design & technology"},
+        {"val" :"div", "text":"Miscellaneous"}],
+    "es": [
+        {"val" :"*", "text":"Todas las áreas"},
+        {"val" :"lleng", "text":"Lenguas"},
+        {"val" :"mat", "text":"Matemáticas"},
+        {"val" :"soc", "text":"Ciencias sociales"},
+        {"val" :"exp", "text":"Ciencias experimentales"},
+        {"val" :"mus", "text":"Música"},
+        {"val" :"vip", "text":"Plástica y visual"},
+        {"val" :"ef", "text":"Educación física"},
+        {"val" :"tec", "text":"Tecnología"},
+        {"val" :"div", "text":"Diversos"}]
+  },
+  "actLevels": {
+    "options": ["*", "INF", "PRI", "SEC", "BTX"],
+    "ca": [
+        {"val" :"*", "text":"Tots els nivells"},
+        {"val" :"INF", "text":"Infantil (3-6)"},
+        {"val" :"PRI", "text":"Primària (6-12)"},
+        {"val" :"SEC", "text":"Secundària (12-16)"},
+        {"val" :"BTX", "text":"Batxillerat (16-18)"}],
+    "en": [
+        {"val" :"*", "text":"All levels"},
+        {"val" :"INF", "text":"Kindergarten (3-6)"},
+        {"val" :"PRI", "text":"Primary school (6-12)"},
+        {"val" :"SEC", "text":"Secondary school (12-16)"},
+        {"val" :"BTX", "text":"High school (16-18)"}],
+    "es": [
+        {"val" :"*", "text":"Todos los niveles"},
+        {"val" :"INF", "text":"Infantil (3-6)"},
+        {"val" :"PRI", "text":"Primaria (6-12)"},
+        {"val" :"SEC", "text":"Secundaria (12-16)"},
+        {"val" :"BTX", "text":"Bachillerato (16-18)"}]
+  },
+"infoImgBasePath": "images",
+"info": {
+    "ca": [
+        {
+            "title": "Projecte JClic",
+            "icon": "icon-main.svg",
+            "link": "http://clic.xtec.cat/ca/jclic/index.htm",
+            "text": [
+                "El JClic és un projecte de programari lliure de la <a href=\"http://www.xtec.cat\">Xarxa Telemàtica Educativa de Catalunya</a> (XTEC) que permet crear diversos tipus d’activitats interactives com ara associacions, puzles, activitats de text, mots encreuats o sopes de lletres a partir d’elements de text, gràfics i multimèdia.",
+                "El programa compta amb una eina d'autor per crear les activitats, un reproductor que permet executar-les i un sistema d'informes que emmagatzema els resultats obtinguts pels alumnes. Tots aquests components, així com diverses guies i tutorials per aprendre a crear les activitats, es troben disponibles a la <a href=\"http://clic.xtec.cat/ca/jclic/download.htm\">zonaClic</a>",
+                "El JClic és una aplicació Java que funciona en sistemes Linux, Windows i Mac OS. El codi font i la documentació tècnica de l'aplicació es troben disponibles a <a href=\"http://projectestac.github.io/jclic/\">GitHub</a>"
+            ]
+        },
+        {
+            "title": "JClic.js",
+            "icon": "jclic-html5.svg",
+            "link": "http://projectestac.github.io/jclic.js/",
+            "text": [
+                "Aquest projecte, encara en fase de desenvolupament, permet reproduir les activitats JClic en plataformes <a href=\"http://www.w3.org/html/\">HTML5</a>. El seu objectiu és facilitar l'ús de les activitats JClic en qualsevol navegador web modern (Firefox, Chrome, Safari, Edge, Opera…) sense que calgui cap connector especial. Això permet utilitzar el JClic també en sistemes que no suporten Java, com ara Android, iOS, o ChromeOS.",
+                "El codi font i la documentació del projecte JClic.js es troben també disponibles a <a href=\"http://projectestac.github.io/jclic.js/\">GitHub</a>. El projecte està obert a les aportacions de tots aquells que vulguin participar en el seu desenvolupament.",
+                "El mòdul JClic Author ja permet l’exportació directa de les activitats JClic a pàgines HTML5 amb JClic.js, així com a paquets SCORM."
+            ]
+        },
+        {
+            "title": "Biblioteca d'activitats JClic",
+            "icon": "zonaclic-64.png",
+            "link": "http://clic.xtec.cat/db/listact_ca.jsp",
+            "text": [
+                "Són molts els docents de diferents països que han utilitzat el JClic per crear materials interactius en diverses llengües i per a múltiples nivells, temes i àrees curriculars. Alguns d’aquests materials s’han anat recollint a la <a href=\"http://clic.xtec.cat/db/listact_ca.jsp\">biblioteca de projectes de la zonaClic</a> gràcies a la generositat dels seus autors, que han decidit compartir-los amb llicències Creative Commons permetent així la seva reutilització, traducció i adaptació a escenaris educatius diversos."
+            ]
+        },
+        {
+            "title": "JClic-repo",
+            "icon": "jclicrepo-64.png",
+            "link": "https://github.com/projectestac/jclic-repo",
+            "text": [
+                "Aquesta pàgina forma part de \"jclic-repo\", un nou projecte de programari lliure que té com a objectiu facilitar la publicació de col·leccions de projectes JClic en serveis d'allotjament web estàtic. El projecte utilitza la tecnologia de components web <a href=\"https://www.polymer-project.org\">Polymer</a>, i totes les seves fonts es troben també disponibles a <a href=\"https://github.com/projectestac/jclic-repo\">GitHub</a>.",
+                "La instal·lació de jclic-repo on ara us trobeu conté una bona part dels més de 2.300 recursos de la biblioteca de projectes de la zonaClic. El cercador us permet filtrar els resultats per idioma, nivell educatiu, àrea curricular, títol o autoria. Fent clic damunt la targeta de cada projecte accedireu a una informació més detallada, des d’on podreu engegar les activitats en HTML5, descarregar-les i compartir-les a les xarxes socials."
+            ]
+        }
+    ],
+    "en": [
+        {
+            "title": "JClic project",
+            "icon": "icon-main.svg",
+            "link": "http://clic.xtec.cat/en/jclic/index.htm",
+            "text": [
+                "JClic is a free software project from the <a href=\"http://www.xtec.cat/\">Catalan Educational Telematic Network</a> (XTEC) for creating various types of interactive activities such as associations, puzzles, text activities, crosswords or puzzles, made with texts, graphics and multimedia.",
+                "The program includes an authoring tool to create activities, a player and a reporting system that stores the results obtained by students. All these components, along with some guides and tutorials on how to create activities, are available in the <a href=\"http://clic.xtec.cat/en/jclic/download.htm\">clicZone</a>.",
+                "JClic is a Java application that runs on Linux, Windows and Mac OS. All sources and technical documentation are published in <a href=\"http://projectestac.github.io/jclic/\">GitHub</a>."
+            ]
+        },
+        {
+            "title": "JClic.js",
+            "icon": "jclic-html5.svg",
+            "link": "http://projectestac.github.io/jclic.js/",
+            "text": [
+                "This project, which is still under development, can be used to play JClic activities in <a href=\"http://www.w3.org/html/\">HTML5</a> (HTML + JavaScript + CSS3) platforms. Its main objective is to allow the use of JClic activities in any modern browser (like Firefox, Chrome, Safari, Edge, Opera...) without the need of any special plug-in. This will allow JClic to run also on systems that do not support Java such as Android, iOS or ChromeOS.",
+                "The source code and documentation of jclic.js are also available on <a href=\"http://projectestac.github.io/jclic.js/\">GitHub</a>. The project is open to anyone who wants to participate in its development.",
+                "The JClic Author module allows direct exporting of activities to HTML5 and SCORM format."
+            ]
+        },
+        {
+            "title": "Library of JClic projects",
+            "icon": "zonaclic-64.png",
+            "link": "http://clic.xtec.cat/db/listact_en.jsp",
+            "text": [
+                "Many teachers from different countries have used JClic to create interactive materials for a wide variety of levels, subjects, languages and curriculum areas. Some of these materials have been collected in the <a href=\"http://clic.xtec.cat/db/listact_en.jsp\">clicZone projects library</a> thanks to the generosity of their authors, who have decided to share them under Creative Commons licenses allowing reuse, translation and adaptation to different educational scenarios."
+            ]
+        },
+        {
+            "title": "JClic-repo",
+            "icon": "jclicrepo-64.png",
+            "link": "https://github.com/projectestac/jclic-repo",
+            "text": [
+                "This page is part of \"jclic-repo\", a new free software project that facilitates the publication of collections of JClic activities on static web hosting services. The project currently uses <a href=\"https://www.polymer-project.org/\">Polymer web components</a>. Source code is also available in <a href=\"https://github.com/projectestac/jclic-repo\">GitHub</a>.",
+                "This installation of jclic-repo contains most of the 2,300 resources published in the clicZone library. It has a search engine that allows you to filter the results by language, level, topic, title or author. By clicking on each project card, more detailed information is shown. From here you can directly launch the activities in HTML5, download them or share them in social networks."
+            ]
+        }
+    ],
+    "es": [
+        {
+            "title": "Proyecto JClic",
+            "icon": "icon-main.svg",
+            "link": "http://clic.xtec.cat/es/jclic/index.htm",
+            "text": [
+                "JClic es un proyecto de software libre de la <a href=\"http://www.xtec.cat\">Red Telemática Educativa de Cataluña</a> (XTEC) que permite crear diversos tipos de actividades interactivas como asociaciones, puzles, actividades de texto, crucigramas o sopas de letras, a partir de elementos de texto, gráficos y multimedia.",
+                "El programa cuenta con una herramienta de autor para crear las actividades, un reproductor que permite ejecutarlas y un sistema de informes que almacena los resultados obtenidos por los alumnos. Todos estos componentes, así como diversas guías y tutoriales para aprender a crear las actividades, se encuentran disponibles en la <a href=\"http://clic.xtec.cat/es/jclic/download.htm\">zonaClic</a>.",
+                "JClic es una aplicación Java que funciona en sistemas Linux, Windows y Mac OS. El código fuente y la documentación técnica de la aplicación están disponibles en <a href=\"http://projectestac.github.io/jclic/\">GitHub</a>."
+            ]
+        },
+        {
+            "title": "JClic.js",
+            "icon": "jclic-html5.svg",
+            "link": "http://projectestac.github.io/jclic.js/",
+            "text": [
+                "Este proyecto, todavía en fase de desarrollo, permite reproducir las actividades JClic en plataformas <a href=\"http://www.w3.org/html/\">HTML5</a> (HTML + JavaScript + CSS3). Su principal objetivo es facilitar el uso de las actividades JClic en cualquier navegador web moderno (Firefox, Chrome, Safari, Edge, Opera...) sin que sea necesario ningún conector especial. Esto permite utilizar JClic también en sistemas que no soportan Java, como Android, iOS o ChromeOS.",
+                "El código fuente y la documentación del proyecto <b>jclic.js</b> están disponibles en <a href=\"http://projectestac.github.io/jclic.js/\">GitHub</a>. El proyecto está abierto a las aportaciones de todos los que quieran participar en su desarrollo.",
+                "El módulo JClic Author permite la exportación directa de las actividades a páginas HTML5 y paquetes SCORM."
+            ]
+        },
+        {
+            "title": "Biblioteca de actividades JClic",
+            "icon": "zonaclic-64.png",
+            "link": "http://clic.xtec.cat/db/listact_es.jsp",
+            "text": [
+                "Son muchos los docentes de distintos países que han utilizado JClic para crear materiales interactivos en diversas lenguas y para múltiples niveles, temas y áreas curriculares. Algunos de estos materiales se han ido recopilando en la <a href=\"http://clic.xtec.cat/db/listact_es.jsp\">biblioteca de proyectos de la zonaClic</a> gracias a la generosidad de sus autores, que han decidido compartirlos bajo licencias Creative Commons permitiendo así su reutilización, traducción y adaptación a escenarios educativos diversos."
+            ]
+        },
+        {
+            "title": "JClic-repo",
+            "icon": "jclicrepo-64.png",
+            "link": "https://github.com/projectestac/jclic-repo",
+            "text": [
+                "Esta página forma parte de \"jclic-repo\", un nuevo proyecto de software libre que tiene como objetivo facilitar la publicación de colecciones de actividades JClic en servicios de alojamiento web estático. El proyecto utiliza la tecnología de componentes web <a href=\"https://www.polymer-project.org/\">Polymer</a>, y todas sus fuentes se encuentran también disponibles en <a href=\"https://github.com/projectestac/jclic-repo\">GitHub</a>.",
+                "Esta instalación de jclic-repo contiene una buena parte de los más de 2.300 recursos de la biblioteca de proyectos de la zonaClic. El buscador permite filtrar los resultados por idioma, nivel educativo, área curricular, título o autoría. Haciendo clic en la tarjeta de cada proyecto se accede a una información más detallada, desde donde se pueden lanzar directamente las actividades en HTML5, descargarlas o compartirlas en las redes sociales."
+            ]
+        }
+    ]
+}
+}

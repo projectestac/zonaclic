@@ -9,6 +9,8 @@ This project is organized into four main sections:
 - `/web`: Contains several static files served at root level on the web site.
 
   - `/web/dist/jnlp`: Several JNLP (_Java Launch Network Protocol_) files used to deliver to the final user the main components of JClic (Player, Author and Reports). The content of some of this files is dynamically updated based on the query parameters passed to `/app/jnlp` (see below).
+  - `/web/repo`: Web app used to query the main repository of projects. See https://clic.xtec.cat/repo for details.
+  - `/web/projects`: Root directory of the projects repository, currently containing only samples used for testing.
   - `/web/mylib`: Static web app that allows users to upload to the server their own JClic projects. This app makes use of the services implemented in `/app/db/userlib` (see below).
   - `/web/users`: Sample user space folder. This directory will be filled with the JClic projects published by users.
 
@@ -22,7 +24,7 @@ This project is organized into four main sections:
   - `/app/jnlp`: Dynamically updates the content of some JNLP files based on the query string passed. This is needed by the Java app that makes possible to download and locally install the JClic projects, and also to dynamically launch the activities using the Java player.
   - `/app/redirect`: This PHP script will redirect old clicZone static pages to its new URL.
 
-- `/vm`: Scripts used to build a [Vagrant](https://www.vagrantup.com/) virtual machine used only in development environments. Directories for `/repo`  and `/projects` should be available below the root of this project. Check `Vagrantfile` for details.
+- `/vm`: Scripts used to build a [Vagrant](https://www.vagrantup.com/) virtual machine used only in development environments. Check `Vagrantfile` for details.
 
 
 

@@ -9,7 +9,7 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 // ** Path to repository projects ** //
-define('PROJECTS_PATH', '../../projects');
+define('PROJECTS_PATH', '../../web/projects');
 define('PROJECTS_INDEX', 'projects.json');
 
 // ** Languages currently used in this repository ** //
