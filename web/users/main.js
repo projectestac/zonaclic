@@ -1,7 +1,8 @@
 /* global $, window, dialogPolyfill, clipboard */
 
-var root = 'https://clic.xtec.cat/users/';
-//var root = window.location.origin + window.location.pathname;
+//var root = 'https://clic.xtec.cat/users/';
+//var root = './';
+var root = window.location.origin + window.location.pathname;
 var usrLibRoot = root;
 var params = {
   user: ''

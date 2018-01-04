@@ -1,17 +1,14 @@
-# Vagrant VMS for clic.xtec.cat
+## Vagrant virtual machine for clic.xtec.cat
 
-## Requirements
+### Requirements
 
-* You need to have [Vagrant] and the official [VirtualBox] installed.
+* You need to have [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org) installed.
 * The [vagrant-hosts](https://github.com/oscar-stack/vagrant-hosts) vagrant plugin is also required:
 
     `vagrant plugin install vagrant-hosts`
-    
-* The host machine probably needs at least 4 GB of RAM.
-* You may need to enable virtualization manually.
 
 
-## Vagrant commands
+### Vagrant commands
 
 * **`vagrant up`** to start the VM.
 
@@ -23,20 +20,20 @@
 
 * **`vagrant destroy`** to completely delete the VM. Asks for confirmation.
 
-## Hostnames and IP
+### Hostnames and IP
 
 You must add this entry to your `/etc/hosts` to access the VM:
 
 `192.168.33.2 clic-virtual.xtec.cat`
 
-## Accessing the virtual machine
+### Accessing the virtual machine
 
 Once started, the VM pages are available at:
 
 http://clic-virtual.xtec.cat
 https://clic-virtual.xtec.cat (fake SSL certificate must be accepted)
 
-## Useful resources
+### Useful resources
 
 * [Vagrant](http://www.vagrantup.com/)
 * [VirtualBox](https://www.virtualbox.org/)
