@@ -28,7 +28,7 @@ $result = [];
 
 // Read request params
 $query = isset($_REQUEST['q']) ? $_REQUEST['q'] : null;
-if ($query !== null && strlen($query > 0)) {
+if ($query !== null && strlen($query) > 0) {
    
     // TODO: Log queries?
 
