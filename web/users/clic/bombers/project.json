@@ -1,0 +1,118 @@
+{
+ "title": "Els bombers",
+ "author": "Montserrat Casas Bul",
+ "school": "Escola Pompeu Fabra El Pont de Vilomara i Rocafort (El Pont de Vilomara) (Bages)",
+ "date": "16/12/05",
+ "languages": {
+  "en": "Catalan",
+  "ca": "català",
+  "es": "catalán"
+ },
+ "langCodes": [
+  "ca"
+ ],
+ "areas": {
+  "en": "Social sciences",
+  "ca": "Ciències socials",
+  "es": "Ciencias sociales"
+ },
+ "areaCodes": [
+  "soc"
+ ],
+ "levels": {
+  "en": "Kindergarten (3-6), Primary school (6-12)",
+  "ca": "Infantil (3-6), Primària (6-12)",
+  "es": "Infantil (3-6), Primaria (6-12)"
+ },
+ "levelCodes": [
+  "INF",
+  "PRI"
+ ],
+ "descriptors": {
+  "ca": "bombers",
+  "es": "bomberos",
+  "en": "firemans"
+ },
+ "descCodes": [
+  1351
+ ],
+ "description": {
+  "en": "Project of activities about the firemen, their uniform, their tools, their tucks...",
+  "ca": "Paquet d'activitats sobre els bombes: com vesteixen, quines eines fan servir, quins vehicles, com s'escriu bombers i quins números hi ha en el telèfon d'emergències. \n<br> Inclou jocs, trencaclosques, una cançó i la sirena del cotxe dels bombers entre d'altres coses.",
+  "es": "Paquete de actividades sobre los bomberos: como visten, que herramientas utilizan, que vehículos, como se escribe bomberos y cuales es el número del teléfono de emergencias.\n<br> Incluye juegos, rompecabezas, una canción y la sirena del coche de bomberos entre otras cosas."
+ },
+ "license": {
+  "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+  "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+  "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+ },
+ "mainFile": "bombers.jclic",
+ "cover": "cover.jpg",
+ "thumbnail": "thumb.png",
+ "zipFile": "jclic/bombers.jclic.zip",
+ "instFile": "jclic/bombers.jclic.inst",
+ "clicZoneId": 3224,
+ "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3224",
+ "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/bombers/jclic/bombers.jclic.zip",
+ "meta_langs": [
+  "ca",
+  "es",
+  "en"
+ ],
+ "files": [
+  "cover.jpg",
+  "bo-01-resized.jpg",
+  "bobn-resized.jpg",
+  "bomber1.jpg",
+  "bomber2.jpg",
+  "bomber3.jpg",
+  "bomber4.jpg",
+  "bomber5.jpg",
+  "bombers.jclic",
+  "bombers_003.jpg",
+  "bombers_017.jpg",
+  "bombers_018.jpg",
+  "bombers_019.jpg",
+  "bombers_020.jpg",
+  "bombers_021.jpg",
+  "bombers_033.jpg",
+  "bombers_034.jpg",
+  "bombers_053.jpg",
+  "bombers_055.jpg",
+  "bombers_066.jpg",
+  "bombers_068.jpg",
+  "botes.jpg",
+  "can_o.wav",
+  "casc.jpg",
+  "cotxebom.jpg",
+  "credits.jpg",
+  "destral.jpg",
+  "eines.gif",
+  "eines_elec.jpg",
+  "einesfust.jpg",
+  "einespalet.jpg",
+  "einespint.jpg",
+  "emisora.jpg",
+  "escala.jpg",
+  "extintor.jpg",
+  "guantes.jpg",
+  "iguals.jpg",
+  "imagen1.jpg",
+  "jaqueta.jpg",
+  "lots.gif",
+  "manega.gif",
+  "pantalons.jpg",
+  "pintar.gif",
+  "raclet.jpg",
+  "roba.jpg",
+  "sirena.wav",
+  "project.json",
+  "thumb.png",
+  "index.html",
+  "bombers.jclic.js",
+  "favicon.ico",
+  "icon-72.png",
+  "icon-192.png",
+  "imsmanifest.xml"
+ ]
+}
