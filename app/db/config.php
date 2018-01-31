@@ -1,5 +1,10 @@
 <?php
 
+// ** Proxy settings ** //
+define('USE_PROXY', true);
+define('PROXY_HOST', 'localhost');
+define('PROXY_PORT', 3128);
+
 // ** MySQL settings ** //
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'jclicrepo');

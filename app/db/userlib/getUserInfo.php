@@ -63,6 +63,36 @@ function getAttr($array, $key, $default)
 }
 
 /**
+ * Gets the content of a remote file, performing a network call
+ * 
+ * @param string $url The remote file to retrieve
+ * 
+ * @return string
+ */
+function getRemoteFile($url)
+{
+    $result = '';
+    try {
+        if (!USE_PROXY) {
+            $result = file_get_contents($url);
+        } else {
+            $proxy = PROXY_HOST.':'.PROXY_PORT;
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_PROXY, $proxy);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            //curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            //curl_setopt($ch, CURLOPT_USERAGENT,'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13');
+            $result = curl_exec($ch);
+            curl_close($ch);
+        }
+    } catch (Exception $e) { 
+        throw $e;
+    }
+    return $result;
+}
+
+/**
  * Main function
  */
 if (isset($_POST[ID_TOKEN]) && $_POST[ID_TOKEN] !== '') {
@@ -75,7 +105,8 @@ if (isset($_POST[ID_TOKEN]) && $_POST[ID_TOKEN] !== '') {
         $settings = json_decode(file_get_contents($settingsFileName), false);
     
         // Check token validity (Warning: external call to a Google API!)
-        $raw = file_get_contents(CHECK_GOOGLE_TOKEN.$_POST[ID_TOKEN]);
+        //$raw = file_get_contents(CHECK_GOOGLE_TOKEN.$_POST[ID_TOKEN]);
+        $raw = getRemoteFile(CHECK_GOOGLE_TOKEN.$_POST[ID_TOKEN]);
         $user = json_decode($raw, false);
 
         if (!isset($user->{'email'}) || $user->{'email'} === '') {
