@@ -85,6 +85,9 @@ function getRemoteFile($url)
             //curl_setopt($ch, CURLOPT_USERAGENT,'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13');
             $result = curl_exec($ch);
             curl_close($ch);
+            if ($result === '' || $result === false) {
+                throw new Exception('No s\'ha pogut verificar l\'usuari. Proxy error.');
+            }
         }
     } catch (Exception $e) { 
         throw $e;
@@ -105,7 +108,6 @@ if (isset($_POST[ID_TOKEN]) && $_POST[ID_TOKEN] !== '') {
         $settings = json_decode(file_get_contents($settingsFileName), false);
     
         // Check token validity (Warning: external call to a Google API!)
-        //$raw = file_get_contents(CHECK_GOOGLE_TOKEN.$_POST[ID_TOKEN]);
         $raw = getRemoteFile(CHECK_GOOGLE_TOKEN.$_POST[ID_TOKEN]);
         $user = json_decode($raw, false);
 
