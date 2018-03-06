@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Temps de generació: 02-01-2018 a les 10:53:18
--- Versió del servidor: 5.7.20-0ubuntu0.16.04.1
--- Versió de PHP: 7.0.22-0ubuntu0.16.04.1
+-- Temps de generació: 06-03-2018 a les 16:44:42
+-- Versió del servidor: 5.5.35-1ubuntu1
+-- Versió de PHP: 7.0.25-0ubuntu0.16.04.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -83,11 +83,11 @@ CREATE TABLE IF NOT EXISTS `projects` (
 -- Estructura de la taula `log`
 --
 
-CREATE TABLE `log` (
+CREATE TABLE IF NOT EXISTS `log` (
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `type` tinytext COLLATE latin1_general_ci NOT NULL,
   `msg` text COLLATE latin1_general_ci NOT NULL,
-  PRIMARY KEY (`date`)  
+  PRIMARY KEY (`date`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;
 
 -- --------------------------------------------------------
