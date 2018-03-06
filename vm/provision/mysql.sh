@@ -8,7 +8,10 @@ echo 'Install MySQL'
 sudo debconf-set-selections <<< "mysql-server mysql-server/root_password password $pass"
 sudo debconf-set-selections <<< "mysql-server mysql-server/root_password_again password $pass"
 
-sudo apt-get install -y mysql-server-5.7 &> /dev/null
+# Install MySQL 5.5 instead of 5.7 (default in xenial)
+# sudo apt-get install -y mysql-server-5.7 &> /dev/null
+sudo apt-get install -y mysql-common=5.5.35+dfsg-1ubuntu1 mysql-server-5.5 &> /dev/null
+
 sudo sed -i 's/127.0.0.1/0.0.0.0/g' /etc/mysql/my.cnf
 sudo sed -i 's/\[mysqld\]/\[mysqld\]\nwait_timeout = 100\nmax_connections=500/g' /etc/mysql/my.cnf
 

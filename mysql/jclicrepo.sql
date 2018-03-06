@@ -29,7 +29,7 @@ USE `jclicrepo`;
 --
 
 CREATE TABLE IF NOT EXISTS `codes` (
-  `path` varchar(256) NOT NULL,
+  `path` varchar(200) NOT NULL,
   `type` varchar(10) NOT NULL,
   `code` varchar(10) NOT NULL,
   UNIQUE KEY `codes` (`path`,`type`,`code`)
@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `codes` (
 --
 
 CREATE TABLE IF NOT EXISTS `descriptions` (
-  `path` varchar(256) NOT NULL,
+  `path` varchar(200) NOT NULL,
   `lang` varchar(3) NOT NULL,
   `title` text NOT NULL,
   `description` text,
@@ -51,7 +51,7 @@ CREATE TABLE IF NOT EXISTS `descriptions` (
   `levels` text,
   `descriptors` text,
   UNIQUE KEY `key` (`path`,`lang`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -60,7 +60,7 @@ CREATE TABLE IF NOT EXISTS `descriptions` (
 --
 
 CREATE TABLE IF NOT EXISTS `projects` (
-  `path` varchar(256) NOT NULL,
+  `path` varchar(200) NOT NULL,
   `title` text NOT NULL,
   `lastUpdated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `date` date DEFAULT NULL,
@@ -75,7 +75,7 @@ CREATE TABLE IF NOT EXISTS `projects` (
   `orderId` int(11) DEFAULT NULL,
   `files` text,
   PRIMARY KEY (`path`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -84,7 +84,7 @@ CREATE TABLE IF NOT EXISTS `projects` (
 --
 
 CREATE TABLE `log` (
-  `date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `type` tinytext COLLATE latin1_general_ci NOT NULL,
   `msg` text COLLATE latin1_general_ci NOT NULL,
   PRIMARY KEY (`date`)  

@@ -4,6 +4,9 @@ export DEBIAN_FRONTEND=noninteractive #http://serverfault.com/questions/500764/d
 
 echo 'Update packages'
 
+# Trusty main repository is needed for MySQL 5.5
+sudo add-apt-repository 'deb http://archive.ubuntu.com/ubuntu trusty main' &> /dev/null
+
 sudo apt-get update &> /dev/null
 sudo apt-get autoremove -y  &> /dev/null
 

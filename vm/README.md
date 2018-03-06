@@ -3,10 +3,12 @@
 ### Requirements
 
 * You need to have [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org) installed.
+
 * The [vagrant-hosts](https://github.com/oscar-stack/vagrant-hosts) vagrant plugin is also required:
 
     `vagrant plugin install vagrant-hosts`
 
+* A directory named `projects` should be present below the project's root folder. This directory will be mounted as `/dades/projects` on the virtual machine, and can be useful for testing with different collections of JClic projects existing on your local machine.
 
 ### Vagrant commands
 

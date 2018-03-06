@@ -13,4 +13,4 @@ source "/vm/provision/functions.sh"
 sudo service apache2 restart
 
 # Here we must write the latest version number
-save_version 2018013100
+save_version 2018030600
