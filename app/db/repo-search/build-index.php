@@ -124,6 +124,10 @@ foreach ($projects as $project) {
     if (!$row || $fileTime > $lastUpdated) {
         print("[x] Updating project $prjFileName\n");
 
+        // Check if file 'all-words.txt' exists
+        $prjFileName = $basePath.'/'.$prj_path.'/all-words.txt';
+        $allWords = file_exists($prjFileName) ? ' ' . file_get_contents($prjFileName) : '';
+
         // Update 'projects'
         $title = $projectData->{'title'};
         $prj_date = adjustDate($projectData->{'date'});
@@ -142,7 +146,8 @@ foreach ($projects as $project) {
         // Update 'descriptions'
         $stmtDeleteAllDescs->execute();         
         foreach (LANGS as $lang) {
-            $prj_description = isset($projectData->{'description'}->{$lang}) ? strip_tags($projectData->{'description'}->{$lang}) : null;
+            $prj_description = isset($projectData->{'description'}->{$lang}) ? strip_tags($projectData->{'description'}->{$lang}) : '';
+            $prj_description .= $allWords;
             $languages = isset($projectData->{'languages'}->{$lang}) ? $projectData->{'languages'}->{$lang} : null;
             $areas = isset($projectData->{'areas'}->{$lang}) ? $projectData->{'areas'}->{$lang} : null;
             $levels = isset($projectData->{'levels'}->{$lang}) ? $projectData->{'levels'}->{$lang} : null;
