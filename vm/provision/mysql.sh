@@ -26,3 +26,6 @@ sudo apt-get install -y phpmyadmin &> /dev/null
 
 sudo sed -i "s/.*\['auth_type'\].*/\$cfg['Servers'][\$i]['auth_type'] = 'config';\n\$cfg['Servers'][\$i]['user'] = 'root';\n\$cfg['Servers'][\$i]['password'] = 'clic';/" /etc/phpmyadmin/config.inc.php
 sudo sed -i '/^.*open_basedir/ s/$/:\/tmp\//' /etc/apache2/conf-available/phpmyadmin.conf
+
+sudo update-rc.d mysql defaults
+
