@@ -40,7 +40,7 @@ try {
     $projectName = UserProject::getValidName($_REQUEST['project']);
 
     // Initialize the user space and check if the requested project exists
-    $space = new UserSpace($userId, '../'.USERS_ROOT);
+    $space = new UserSpace($userId);
     $space->readProjects();
     if ($space->getProjectIndex($projectName) < 0) {
         throw new RuntimeException('Aquest projecte no existeix. Potser ja l\'heu esborrat?');

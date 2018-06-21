@@ -77,7 +77,7 @@ try {
     }
 
     // Calculate the used space and check if there already esists a project with the same name
-    $space = new UserSpace($userId, '../'.USERS_ROOT);
+    $space = new UserSpace($userId);
     $space->readProjects();
     $existingPrj = $space->getProject($projectName);
 

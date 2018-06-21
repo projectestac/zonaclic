@@ -56,7 +56,7 @@ try {
         throw new RuntimeException('epppp');
     }
 
-    $prjDir = '../'.USERS_ROOT.'/'.$_GET['prj'];
+    $prjDir = UserSpace::usersRoot().'/'.$_GET['prj'];
     if (!file_exists($prjDir) || !is_dir($prjDir) || !file_exists($prjDir.'/project.json')) {
         // Not found
         $errCode = 404;

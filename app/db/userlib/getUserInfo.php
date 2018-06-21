@@ -104,7 +104,7 @@ if (isset($_POST[ID_TOKEN]) && $_POST[ID_TOKEN] !== '') {
         $result = (object)['status'=>'processing'];
 
         // Read settings file
-        $settingsFileName = '../'.USERS_ROOT.'/'.SETTINGS_FILE;
+        $settingsFileName = UserSpace::usersRoot().'/'.SETTINGS_FILE;
         $settings = json_decode(file_get_contents($settingsFileName), false);
     
         // Check token validity (Warning: external call to a Google API!)
@@ -155,7 +155,7 @@ if (isset($_POST[ID_TOKEN]) && $_POST[ID_TOKEN] !== '') {
                 $result->expires = date('M d, Y h:i:s A', $user->exp);
                 $result->status = 'validated';
 
-                $space = new UserSpace($result->id, '../'.USERS_ROOT);
+                $space = new UserSpace($result->id);
                 $space->readProjects();
                 $result->projects = $space->getProjectsData();
                 $result->currentSize = $space->currentSize;

@@ -101,8 +101,8 @@ $stmtDeleteAllCodes = $dbConn->prepare(
 $stmtDeleteAllCodes->bindParam(':prj_path', $prj_path);
  
 // Read the index of projects included in the repository 
-// Paths are relative to 'config.php', one level below this file
-$basePath = realpath(dirname(__FILE__).'/../'.PROJECTS_PATH);
+// Paths can be absolute (starting with '/') or relative to 'config.php', one level below this file
+$basePath = realpath((substr(PROJECTS_PATH, 0, 1) === '/' ? '' : '../').PROJECTS_PATH);
 $string = file_get_contents($basePath.'/'.PROJECTS_INDEX);
 $projects = json_decode($string, false);
 $countUpdate = 0;

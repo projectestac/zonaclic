@@ -15,7 +15,8 @@
  * @link     https://github.com/projectestac/zonaclic
  */
 
-require_once 'userProject.php';
+ require_once '../config.php';
+ require_once 'userProject.php';
 
 /**
  * Class UserSpace
@@ -40,10 +41,13 @@ class UserSpace
      * Class constructor
      * 
      * @param string $userId    User id
-     * @param string $usersRoot Root directory of user's space
+     * @param string $usersRoot Root directory of user's space. Defaults to UserSpace::usersRoot()
      */
-    public function __construct($userId, $usersRoot)
+    public function __construct($userId, $usersRoot = null)
     {
+        if($usersRoot === null) {
+            $usersRoot = self::usersRoot();
+        }
         $this->userId = $userId;
         $this->rootDir = $usersRoot.'/'.$userId;
         if (!is_dir($this->rootDir)) {
@@ -202,6 +206,11 @@ class UserSpace
         }
 
         return $dest;
+    }
+
+    public static function usersRoot()
+    {
+        return realpath((substr(USERS_ROOT, 0, 1) === '/' ? '' : '../').USERS_ROOT);
     }
 
 }
