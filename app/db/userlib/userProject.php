@@ -46,7 +46,7 @@ class UserProject
         $this->name = UserProject::getValidName($name);
         $this->prjRoot = $parentDir.'/'.$this->name;
         if (!is_dir($this->prjRoot)) {
-            mkdir($this->prjRoot, 0776, true);
+            mkdir($this->prjRoot, 0777, true);
         }
         $this->prj = (object)[];
     }
@@ -119,6 +119,28 @@ class UserProject
             }
         }
         return $bytestotal;
+    }
+
+
+    /**
+     * Sets the specified permissions to all files and subdirectories
+     * 
+     * @param string $path The path to be recursivelly processed
+     * 
+     */
+    public static function setPermissions($path, $dirPermissions, $filePermissions)
+    {
+        $path = realpath($path);
+        if ($path!==false && $path!='' && file_exists($path)) {
+            foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path, FilesystemIterator::SKIP_DOTS | FilesystemIterator::CURRENT_AS_FILEINFO)) as $object) {
+                if($object->isDir()) {
+                    chmod($object->getRealPath(), $dirPermissions);
+                }
+                else if($object->isFile()) {
+                    chmod($object->getRealPath(), $filePermissions);
+                }
+            }
+        }
     }
 
     /**

@@ -51,7 +51,7 @@ class UserSpace
         $this->userId = $userId;
         $this->rootDir = $usersRoot.'/'.$userId;
         if (!is_dir($this->rootDir)) {
-            mkdir($this->rootDir, 0776, true);
+            mkdir($this->rootDir, 0777, true);
         }
     }
 
@@ -179,9 +179,12 @@ class UserSpace
             UserSpace::copyAttr($prj, $prjReg, 'thumbnail');
             array_push($projectList, $prjReg);
         }
-        $fp = fopen($this->rootDir.'/projects.json', 'w');
+        $fname = $this->rootDir.'/projects.json';
+        $fp = fopen($fname, 'w');
         $result = fwrite($fp, json_encode($projectList, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)) !== false;
         fclose($fp);
+        if($result)
+            chmod($fname, 0666);
         return $result;
     }
 

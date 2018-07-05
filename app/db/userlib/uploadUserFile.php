@@ -103,8 +103,13 @@ try {
         throw new RuntimeException('No s\'ha pogut extreure el contingut del fitxer.');
     }
 
-    // Close the zip file and update global space data
+    // Close the zip file
     $zip->close();
+
+    // Adjust permissions of all files and directories
+    UserProject::setPermissions($prj->prjRoot, 0777, 0666);
+
+    // Update global space data
     if ($existingPrj !== null) {
         $space->removeProject($existingPrj->name);
     }
