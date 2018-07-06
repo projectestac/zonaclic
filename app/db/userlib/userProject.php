@@ -132,7 +132,7 @@ class UserProject
     {
         $path = realpath($path);
         if ($path!==false && $path!='' && file_exists($path)) {
-            foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path, FilesystemIterator::SKIP_DOTS | FilesystemIterator::CURRENT_AS_FILEINFO)) as $object) {
+            foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path, FilesystemIterator::CURRENT_AS_FILEINFO)) as $object) {
                 if($object->isDir()) {
                     chmod($object->getRealPath(), $dirPermissions);
                 }
