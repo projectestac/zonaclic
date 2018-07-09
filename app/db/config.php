@@ -38,3 +38,6 @@ define('CHECK_GOOGLE_TOKEN', 'https://www.googleapis.com/oauth2/v3/tokeninfo?id_
 
 // ** Users belonging to this Google Suite organisation are accepted ** //
 define('HD', 'xtec.cat');
+
+// Current process UID
+define('UID', posix_geteuid());

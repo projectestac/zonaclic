@@ -15,6 +15,7 @@
  * @link     https://github.com/projectestac/zonaclic
  */
 
+require_once '../config.php';
 
 /**
  * Class UserProject
@@ -133,12 +134,10 @@ class UserProject
         $path = realpath($path);
         if ($path!==false && $path!='' && file_exists($path)) {
             foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path, FilesystemIterator::CURRENT_AS_FILEINFO)) as $object) {
-                if($object->isDir()) {
-                    chmod($object->getRealPath(), $dirPermissions);
-                }
-                else if($object->isFile()) {
-                    chmod($object->getRealPath(), $filePermissions);
-                }
+                if($object->isDir())
+                    UserProject::safeChmod($object->getRealPath(), $dirPermissions);                
+                else if($object->isFile())
+                    UserProject::safeChmod($object->getRealPath(), $filePermissions);
             }
         }
     }
@@ -226,5 +225,11 @@ class UserProject
         } elseif (is_file($target)) {
             unlink($target);
         }
+    }
+
+    public static function safeChmod($file, $permissions)
+    {
+        if(file_exists($file) && fileowner($file) == UID)
+            chmod($file, $permissions);
     }
 }

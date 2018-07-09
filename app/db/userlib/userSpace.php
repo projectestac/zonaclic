@@ -184,7 +184,7 @@ class UserSpace
         $result = fwrite($fp, json_encode($projectList, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)) !== false;
         fclose($fp);
         if($result)
-            chmod($fname, 0666);
+            UserProject::safeChmod($fname, 0666);
         return $result;
     }
 
