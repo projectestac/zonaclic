@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jnlp spec="1.0+" codebase="https://clic.xtec.cat/dist/jclic/"> 
+<jnlp spec="1.0+" codebase="https://preproduccio.clic.xtec.cat/dist/jclic/"> 
   <information>
     <title>JClic project installer</title>
     <vendor>XTEC</vendor>
-    <homepage href="https://clic.xtec.cat"/>
+    <homepage href="https://preproduccio.clic.xtec.cat"/>
     <description>JClic project installer</description> 
     <description kind="short">Application that downloads and installs JClic projects</description> 
     <description kind="tooltip">JClic project installer</description> 

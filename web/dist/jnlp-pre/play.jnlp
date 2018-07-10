@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jnlp spec="1.0+" codebase="https://clic.xtec.cat/dist/jclic/"> 
+<jnlp spec="1.0+" codebase="https://preproduccio.clic.xtec.cat/dist/jclic/"> 
   <information>
     <title>$$title</title>
     <vendor>XTEC</vendor>
-    <homepage href="https://clic.xtec.cat"/>
+    <homepage href="https://preproduccio.clic.xtec.cat"/>
     <description>JClic activities "$$title"</description> 
     <icon height="32" href="jclic_32x32.png" width="32"/>
     <icon href="splash_player.png" kind="splash"/>
