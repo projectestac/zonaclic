@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/basic_ca.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" --> 
+<title>ZonaClic - JClic reports</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../../../css/basic.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="../../../scripts/mm.js" type="text/JavaScript"></script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Language" content="ca">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<meta name="keywords" content="clic jclic education educational software educaci� educaci�n programari educatiu software educativo">
+</head>
+<body>
+<div align="center"> 
+ <table border="0" width="758" cellpadding="0" cellspacing="0">
+  <tr>
+   <td><img src="../../../img/spacer.gif" width="20" height="1" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="718" height="1" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="20" height="1" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="4"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="758" height="80">
+          <param name="movie" value="../../../img/nav_ca.swf">
+          <param name="quality" value="high">
+          <param name="BGCOLOR" value="#CCFF99">
+          <param name="BASE" value="/legacy/img">
+          <embed src="../../../img/nav_ca.swf" width="758" height="80" quality="high" pluginspage="https://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" bgcolor="#CCFF99" base="/legacy/img"></embed></object></td>
+  </tr>
+  <tr>
+   <td><img name="f0_r2_c2" src="../../../img/f0_r2_c2.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img name="f0_r2_c3" src="../../../img/f0_r2_c3.gif" width="718" height="20" border="0" alt=""></td>
+   <td><img name="f0_r2_c4" src="../../../img/f0_r2_c4.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+      <td width="20" height="200" background="../../../img/f0_r3_c2.gif">&nbsp;</td>
+   <td class="main" width="718" valign="top"><script language="JavaScript" src="../../../scripts/av_ca.js" type="text/JavaScript"></script><!-- InstanceBeginEditable name="zona0" --> 
+<p class="topMenu"><a href="../../index.htm">inici</a> | <a href="../index.htm">JClic</a><strong> 
+          </strong>|<strong> </strong>JClic reports </p>
+        <p class="t1">Servidor d'informes JClic</p>
+        <p>El JClic disposa d'un sistema de registre dels resultats de les activitats. El JClic reports &eacute;s el m&ograve;dul encarregat de recollir les dades (temps emprat en cada activitat, intents, encerts, etc...) i presentar-les despr&eacute;s en informes estad&iacute;stics de diversos tipus.</p>
+        <p class="t2">Funcionament</p>
+        <p>El JClic reports es basa en un esquema <strong>client
+            - servidor</strong>. El servidor pot ser qualsevol ordinador de la xarxa, i els clients s&oacute;n de dos tipus: les aplicacions JClic (<em>applet</em>          i <em>player</em>),
+          que envien al servidor les puntuacions obtingudes pels usuaris en fer
+          les activitats, i els navegadors web (Firefox, Opera,
+          Explorer...) des dels quals es poden consultar els resultats i administrar
+          la base de dades.</p>
+        <p>Per posar en funcionament el
+          <strong>servidor</strong> necessitareu tres elements:</p>
+        <ul>
+          <li>Un <strong>sistema de bases
+              de dades</strong>, on s'emmagatzemar&agrave;� la informaci&oacute;. Ha de suportar
+              transaccions SQL i disposar d'algun connector JDBC o ODBC. Hi ha molts sistemes, tant comercials com
+              lliures, que compleixen aquests requisits: mySQL,
+          MS-Access, PostgreSQL, Oracle, etc.</li>
+          <li>Un <strong>connector</strong> que permeti la
+                comunicaci&oacute; entre la base de dades i el programa <strong>JClic
+                reports</strong>. Els connectors
+                emprats per les aplicacions Java s&oacute;n de tipus JDBC, tot i que
+          tamb&eacute; es poden emprar connectors ODBC.</li>
+          <li>El programa <strong>JClic
+          reports</strong>, que fa dues funcions:<br>
+		<ul>
+        <li>D'una banda ofereix
+                            als clients JClic la informaci&oacute; necess&agrave;ria per a identificar
+                els usuaris, iniciar les sessions de treball i rebre els
+              resultats: nom de l'activitat,
+                            nombre d'intents i d'encerts, temps emprat, etc.
+          El JClic reports emmagatzema aquesta informaci&oacute; a la base de dades mitjan&ccedil;ant el connector.</li>
+        <li>La segona
+                    funci&oacute; consisteix a processar les dades emmagatzemades i
+          mostrar-les en diversos formats. Aquesta consulta es pot realitzar
+          des de qualsevol navegador web: Firefox, Safari, Internet Explorer,
+          etc.</li>
+        </ul>
+		En aquest esquema es mostren els diversos elements
+          del sistema i les seves interaccions:</li>
+        </ul>
+   <p align="center"><img src="configureJClicReportsGraf1_ca.png" alt="Esquema de funcionament del JClic reports" width="504" height="252"></p>
+        <p class="t2"><a name="mod"></a>Modalitats</p>
+        <p>La comunicaci&oacute; entre el <strong>JClic reports</strong> i els
+            seus clients (JClic applet, JClic player, navegador web, etc.) es
+            pot establir de dues maneres:</p>
+        <ul>
+          <li>Per <strong>connexi&oacute; directa</strong> (modalitat est&agrave;ndard)<br>
+            En aquesta modalitat el <strong>JClic reports</strong> obre una finestra al servidor on es mostra
+            informaci&oacute; del que est&agrave; fent, i ofereix uns botons
+            per aturar-lo, engegar-lo i consultar els resultats des d'un navegador.  
+          </li>
+          <li>Mitjan&ccedil;ant un <strong>servidor d'aplicacions
+              Java</strong> (modalitat
+            avan&ccedil;ada)<br>
+            Aquesta modalitat no requereix disposar d'entorn gr&agrave;fic. El
+            JClic reports actua com un conjunt de <em>servlets</em> integrats
+            en un servidor d'aplicacions J2EE.</li>
+        </ul>
+        <p class="t2">Configuraci&oacute; del sistema</p>
+        <p>Per configurar el sistema d'informes del JClic
+            haurem de seguir quatre passos, que afecten els quatre elements que
+        es mostren numerats a l'esquema:</p>
+        <ol>
+          <li>Crear una base de dades.</li>
+          <li>Configurar el connector.</li>
+          <li>Configurar el servidor d'informes <strong>JClic reports.</strong></li>
+          <li>Configurar els clients <strong>JClic</strong> per tal que
+              facin &uacute;s del servidor d'informes.</li>
+        </ol>
+        <p>Els passos a seguir per a realitzar aquestes operacions seran diferents segons el tipus
+          de base de dades i entorn operatiu. En aquestes guies s'explica detalladament el proc&eacute;s en diverses situacions: </p>
+        <blockquote>
+          <p class="t3">Modalitat est&agrave;ndard</p>
+          <ul>
+            <li><a href="stdaccess.htm"><strong>MS-Access en Windows</strong></a> </li>
+            <li><a href="stdmysqlwin.htm"><strong>mySQL en Windows</strong></a></li>
+            <li><a href="stdmysqldeb.htm"><strong>mySQL en Linux (Debian, Ubuntu)</strong></a></li>
+          </ul>
+          <p class="t3">Modalitat avan&ccedil;ada</p>
+          <ul>
+            <li><a href="advmysqldeb.htm"><strong>Tomcat + mySQL en Linux
+                  (Debian, Ubuntu)</strong></a></li>
+          </ul>
+        </blockquote>
+        <p class="t2">Documentaci&oacute; addicional</p>
+        <p>Aquests s&oacute;n alguns documents i fitxers que us poden
+          resultar d'inter&egrave;s
+              per configurar la base de dades i realitzar el manteniment del sistema:</p>
+        <ul>
+          <li>Esquema de taules de la base de dades:<br>
+            <a href="..//pub/reports/JClicReports_tables_ca.pdf"><img src="../../../img/pdf_on.gif" width="20" height="20" border="0" align="absmiddle"> JClicReports_tables_ca.pdf</a> (25
+            Kb) </li>
+          <li>Conjunt de dades de prova per a MS-Access:<br>
+            <a href="..//pub/reports/jclic_test_access97.zip"><img src="../../../img/zip_on.gif" width="20" height="20" border="0" align="absmiddle"> jclic_test_access97.zip</a> (139
+            Kb)<br>
+            <a href="..//pub/reports/jclic_test_access2000.zip"><img src="../../../img/zip_on.gif" width="20" height="20" border="0" align="absmiddle"> jclic_test_access2000.zip</a> (129
+            Kb) </li>
+          <li>Conjunt de dades de prova per a MySQL:<br>
+          <a href="..//pub/reports/jclic_test_mysql.zip"><img src="../../../img/zip_on.gif" width="20" height="20" border="0" align="absmiddle"> jclic_test_mysql.zip </a>(65
+          Kb) </li>
+        <li>L'aplicaci&oacute; J2EE, que es fa servir en la modalitat
+          avan&ccedil;ada:<br>
+          <a href="..//pub/reports/reports.war"><img src="../../../img/zip_on.gif" width="20" height="20" border="0" align="absmiddle"> reports.war </a>(Ver.
+          0.2.3.4 - 29/10/13 - 2.040 Kb)</li>
+        </ul>
+   <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="addThis" --><hr style="margin-top: 40px;"><!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="https://www.addthis.com/bookmark.php?v=250&username=clic" class="addthis_button_compact">Comparteix-ho</a>
+<span class="addthis_separator">|</span>
+<a title="Envia a Facebook" class="addthis_button_facebook"></a>
+<a title="Envia a Twitter" class="addthis_button_twitter"></a>
+<a title="Envia a Delicious" class="addthis_button_delicious"></a>
+<a title="Afegeix als favorits" class="addthis_button_favorites"></a>
+<a title="Envia per correu mitjan�ant Gmail" class="addthis_button_gmail"></a>
+</div>
+<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#username=clic"></script>
+<!-- AddThis Button END --><!-- InstanceEndEditable --></td>
+   <td width="20" background="../../../img/f0_r3_c4.gif">&nbsp;</td>
+   <td width="1" background="../../../img/spacer.gif"><img src="../../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img name="f0_r4_c2" src="../../../img/f0_r4_c2.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img name="f0_r4_c3" src="../../../img/f0_r4_c3.gif" width="718" height="20" border="0" alt=""></td>
+   <td><img name="f0_r4_c4" src="../../../img/f0_r4_c4.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img src="../../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <!-- InstanceBeginEditable name="zonaExtra" --><!-- InstanceEndEditable -->
+  <tr>
+   <td colspan="4" bgcolor="#99CCCC" class="peu">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+	<td align="left"><!-- InstanceBeginEditable name="postPeuEsquerre" --><!-- InstanceEndEditable --></td>
+	<td align="center">
+	<a href="http://www.gencat.cat/educacio/"><img src="../../../img/depeducacio.gif" alt="Generalitat de Catalunya - Departament d'Educaci&oacute;" width="130" height="23" border="0"></a>
+	<img src="../../../img/spacer.gif" width="100" height="1" border="0" alt="">
+    <a href="http://www.xtec.cat/"><img src="../../../img/xtec.gif" alt="Xarxa Telem&agrave;tica Educativa de Catalunya" width="178" height="23" border="0"></a> 
+          <!-- InstanceBeginEditable name="postPeu" --><!-- InstanceEndEditable -->
+    </td>
+	<td align="right"><!-- InstanceBeginEditable name="postPeuDret" --><!-- InstanceEndEditable --></td>
+     </tr>
+     </table>
+   </td>
+  </tr>
+ </table>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2006596-1");
+pageTracker._trackPageview();
+</script></body>
+<!-- InstanceEnd --></html>

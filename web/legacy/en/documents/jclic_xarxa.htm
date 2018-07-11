@@ -1,0 +1,319 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/basic_en.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>clicZone - JClic in a network</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../../css/basic.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="../../scripts/mm.js" type="text/JavaScript"></script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Language" content="en">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<meta name="keywords" content="clic jclic education educational software educaci� educaci�n programari educatiu software educativo">
+</head>
+<body>
+<div align="center"> 
+ <table border="0" width="758" cellpadding="0" cellspacing="0">
+  <tr>
+   <td><img src="../../img/spacer.gif" width="20" height="1" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="718" height="1" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="20" height="1" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="4"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="758" height="80">
+          <param name="movie" value="../../img/nav_en.swf">
+          <param name="quality" value="high">
+          <param name="BGCOLOR" value="#CCFF99">
+          <param name="BASE" value="/legacy/img">
+          <embed src="../../img/nav_en.swf" width="758" height="80" quality="high" pluginspage="https://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" bgcolor="#CCFF99" base="/legacy/img"></embed></object></td>
+  </tr>
+  <tr>
+   <td><img name="f0_r2_c2" src="../../img/f0_r2_c2.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img name="f0_r2_c3" src="../../img/f0_r2_c3.gif" width="718" height="20" border="0" alt=""></td>
+   <td><img name="f0_r2_c4" src="../../img/f0_r2_c4.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+      <td width="20" height="200" background="../../img/f0_r3_c2.gif">&nbsp;</td>
+   <td class="main" width="718" valign="top"><script language="JavaScript" src="../../scripts/av_en.js" type="text/JavaScript"></script><!-- InstanceBeginEditable name="zona0" -->
+        <p class="topMenu"><a href="../index.htm">home</a> | <a href="index.htm">documents</a><strong> 
+          | </strong>JClic in a network</p>
+        <p class="t1">Installation of JClic in a network</p>
+        <p align="justify">There are two features of JClic that will allow us
+          to optimize its use
+        in the school network:</p>
+        <ul>
+          <li><strong>To configure the reports system</strong><br>
+    JClic reports runs in the server and
+    carries out two functions: to compile information on the JClic activities
+    carried out by the students, and
+    to represent statistical reports based on the results of these activities.</li>
+          <li><strong>To use the same projects library from all the
+              computers</strong><br>
+    This will facilitate the management of the packages of activities:
+    they are installed once in the server and
+    become available to any computer connected to the network.</li>
+        </ul>
+        <p>The first feature is explained in the <a href="../jclic/reports/index.htm"><strong>instructions
+              of configuration of<em> JClic reports</em></strong></a>.
+              Is advised to read them before continuing.</p>
+        <p>As you will have seen, there are two operation modes of <em>JClic
+            reports</em>:
+            <strong>standard</strong> (single Java application) and <strong>advanced</strong>          (using
+            Tomcat). Some of the steps to follow now will depend on the chosen
+            mode.</p>
+        <p class="t2">Configuration of the server</p>
+        <p>We will make two tasks in the server: to share a folder and to create
+          a JClic projects library on it.</p>
+        <p class="t3">Creation of the shared folder </p>
+        <p>There are some examples of how to share a folder, both in standard
+          and advanced operation modes:</p>
+        <p><strong>Standard operation mode:</strong></p>
+        <ul>
+          <li>In Windows, if the server already
+            has a folder or a shared unit (for
+            example <span class="codi">S:</span> or <span class="codi">C:\S</span>),
+            we can create a subfolder <span class="codi">S:\JClic</span> or <span class="codi">C:\S\JClic</span>.</li>
+          <li>Also in Windows, if we don't have any
+            generic shared resource, we can create a folder <span class="codi">C:\JClic</span> and
+            share it with the name "JClic".</li>
+          <li>In Linux there are at least two systems of sharing folders:<strong> NFS</strong> (<em>Network
+                File System</em>) and <strong>SMB</strong> (<em>Samba</em>).
+                In bot, we can make use of an existing shared resource
+                creating a subfolder called "JClic" in it ,
+                or we can create a new folder and make it a shared
+                resource.</li>
+          <li>In Mac OS X  we can also share folders in an AppleTalk network
+            through AFP (Apple
+                Filing Protocol). In <a href="http://www.macosxhints.com/article.php?story=20011108161839416" class="extern">this
+                article</a> you can read how to share a folder in read-only mode.</li>
+        </ul>
+        <p><strong>Advanced operation mode:</strong></p>
+        <ul>
+          <li>If in the first part we have choose to use <em>JClic reports</em> in
+            the advanced operation mode (<em>Linux</em> + <em>Tomcat</em> + <em>MySQL</em>),
+            we can create a directory called "JClic" in the root of Tomcat, usually
+            located in <span class="codi">/usr/share/tomcat<em>x</em>/webapps</span>.
+            (where "x" is the version of Tomcat being used).</li>
+          <li>Also if we have the <em>Apache</em> web server installed,
+              we can create the folder "JClic" in its root,
+              since <em>Apache</em> is more safe and efficient
+              that <em>Tomcat</em> serving static files.</li>
+        </ul>
+        <strong> </strong>
+        <p class="t3">Creation of the shared library of JClic projects </p>
+        <strong> </strong>
+        <p>The steps to create the shared library of JClic projects are:</p>
+        <strong> </strong>
+        <ul>
+          <li>Launch <a href="../jclic/download.htm">JClic player</a> in
+              the server.<br>
+                <em>Note: If the server does
+                not have a graphic window manager,
+                launch JClic in another computer with read and write access to
+                the shared folder.</em> </li>
+          <li>Go to <strong>Tools - Libraries</strong> and click on <strong>New</strong>.</li>
+          <li>In the dialog window, leave checked the option
+            <strong>Create new project library</strong> and click
+            on <strong>Ok</strong>.</li>
+          <li>Select the "JClic" shared folder created in the previous step.
+              The program suggests to create in it a file named <span class="codi">library.jclic</span>.
+              Click on <strong>OK</strong>.</li>
+          <li>You will see a new element in the list of libraries, named "New
+              project library". Select it, click on <strong>Edit </strong>and
+              change its name to "Shared
+              Library".</li>
+        </ul>
+        <strong> </strong>
+        <p class="t3">Installing JClic projects in the server</p>
+        <strong> </strong>
+        <p>In the server, launch a browser, go to the <a href="/repo/">library
+            of activities</a> of the <strong>clicZone</strong> and install some
+            projects in the shared library that we have just created.</p>
+        <strong> </strong>
+        <p>Also in the server, launch JClic and go to <strong>Tools - Libraries</strong>.
+          Select the shared library and click on <strong>Edit</strong>. Here
+          you can create folders and subfolders (for thematic
+          areas, for working projects, for groups...). You can also cut, copy
+          and paste the project icons in order to move it from one folder to
+          another.</p>
+        <strong> </strong>
+        <p class="t3">Last details in the server</p>
+        <strong> </strong>
+        <p>To prevent confusions, it can be convenient to eliminate all
+            the project libraries except the shared one. This can be done from
+          the JClic menu        <strong>Tools - Libraries</strong>. </p>
+        <strong> </strong>
+        <p>It is also advisable to assign a password to JClic,
+          in order to prevent unauthorized access to the configuration and management
+          of the library. This can be done from <strong>Tools</strong> - <strong>Settings</strong> <strong>- Security</strong>.</p>
+        <strong> </strong>
+        <p class="t2">Configuration of the clients </p>
+        <strong> </strong>
+        <p>The clients must be configurated one by one. The good news
+            are that we must to make it once.</p>
+        <strong><strong> </strong></strong>
+        <p class="t3">Finding out the path to the shared library </p>
+        <strong><strong> </strong></strong>
+        <p>We must start discovering how to reach the file <span class="codi">library.jclic</span> from
+          the network clients. Some examples are:<strong><strong> </strong></strong> </p>
+        <p><strong>Standard operating mode:</strong><strong><strong> </strong></strong></p>
+        <strong><strong> </strong></strong>
+        <ul>
+          <li>In Windows clients, the path will probably be:<br>
+            <span class="codi">\\nameoftheserver\S\JClic\library.jclic,</span> or              <span class="codi">\\nameoftheserver\JClic\library.jclic</span>.</li>
+          <li>In Linux clients the shared unit must be mounted in order to be
+            available to JClic, through <em>mount</em> or <em>smbmount</em>.
+              Once gotten on, we will find the resource in a directory like <span class="codi">/mnt/S/JClic/library.jclic</span> (if
+              we are making use of a resource "S" that
+              we already had gotten on), or <span class="codi">/mnt/JClic/library.jclic</span>,
+              if we have created a specific mount point for the shared folder.</li>
+          <li>In Mac OS X we can get on the volume from the <strong>Finder</strong> (menu <strong>Go</strong>            -
+                <strong>Connect to the server</strong>).
+                Once gotten on, the library will be accessible in <span class="codi">/Volumes/S/JClic/library.jclic</span>,
+                or in <span class="codi">/Volumes/JClic/library.jclic</span>.<strong><strong> </strong></strong> </li>
+        </ul>
+        <p><strong>Advanced operating mode:</strong></p>
+        <strong><strong> </strong></strong>
+        <ul>
+          <li>If the server has
+              been configured in the advanced mode, Tomcat will
+              allow you to enter the library through the HTTP protocol.
+              The path will be a URL like:<br>
+                <br>
+                <span class="codi">http://nameoftheserver:XXXX/JClic/library.jclic</span><br>
+                <br>
+    where <em>nameoftheserver</em> can be the name of
+    the server or its ip
+    address, and <em>XXXX</em>  is
+    the port number where Tomcat is running. By
+    default it is <strong>8180</strong> for <em>Tomcat 4</em> and <strong>8080</strong> for <em>Tomcat
+    5</em>.</li>
+          <li>If the server has also <em>Apache</em> installed and you have decided
+            to create here the library folder, the URL will be similar
+              but with another port number (or without any port number
+              if <em>Apache</em> runs on port 80). </li>
+        </ul>
+        <strong><strong> </strong></strong>
+        <p class="t3">Configuring JClic</p>
+        <strong><strong> </strong></strong>
+        <ul>
+          <li>In each of the network clients, launch <em>JClic</em>.
+            This can be made from the <a href="../jclic/download.htm">downloading
+            and installation page</a>.</li>
+          <li>Go to <strong>Tools - Settings - Libraries</strong>.</li>
+          <li>Leave checked the box <em>Automatically go to
+            libraries when JClic starts</em>.</li>
+          <li> Click on <strong>New</strong> and select the option <em>Add a
+            link to an existing project library</em>.</li>
+          <li>In the <em>File or URL</em> field, write on the path to the file <span class="codi">library.jclic</span> that
+            we have found out in the previous step.</li>
+          <li>Click on <strong>OK</strong>.</li>
+          <li>Close JClic and check that wen starting it again we can access
+            to the shared library.</li>
+        </ul>
+        <strong><strong> </strong></strong>
+        <p class="t3">Last details in the clients </p>
+        <strong><strong> </strong></strong>
+        <ul>
+          <li>It can be convenient to eliminate the "main Library" and to leave
+            only the "shared Library". This will avoid the dialog window that
+            always appears as JClic starts, prompting us which library we want
+            to load. It can
+              be suppressed from <strong>Tools -
+              Libraries</strong>.</li>
+          <li>It can also be convenient to protect the configuration
+              with a password. This can be done in <strong>Tools
+              - Settings - Security</strong>.</li>
+        </ul>
+        <strong><strong> </strong></strong>
+        <p class="t2">Maintenance of the system</p>
+        <strong><strong> </strong></strong>
+        <p>If new projects have to be installed or the structure
+              of the shared library has to be modified, by always making it from
+              the servant|server, since the customers
+              do not have laws|rights of writing.</p>
+        <strong><strong> </strong></strong>
+        <p>It|He|She has to be taken
+              into account that for erasing an icon of the library (from the
+              menu <strong>Herramientas - Libraries
+              - To Edit</strong>) are not erased the files of its|his|her|their project.
+              These will continue in the folder of the library. Totally to eliminate
+              a project its|his|her|their folder
+              has to be suppressed manually.</p>
+        <strong><strong> </strong></strong>
+        <p class="t2">Advanced functionality </p>
+        <strong><strong> </strong></strong>
+        <p>In this document he|she|it has
+              explained itself|himself|herself as
+              creating only one shared library, but there can be other solutions,
+              as creating a specific library for every cycle or course. We have
+              also supposed that there is only one servant|server that
+              acts as servant|server of reports
+              and the library of projects houses. Evidently, these tasks can
+              be divided up among different computers also.</p>
+        <strong><strong> </strong></strong>
+        <p>If the advanced modality has been opted for and the
+              library has been placed in the <em>Apache servant|server</em>,
+              and if this servant|server has exit
+              to Internet, your pupils|students will
+              be able to be connected also from home|house:
+              it will only be necessary that they start off JClic, go to <strong>Herramientas -
+              Libraries</strong> and think a new library noting|pointing the
+              corresponding URL (<em>http://servidor.dominio/JClic/library.jclic</em>).
+              Like this they will be able to work with the same projects as at
+              school.</p>
+        <strong><strong> </strong></strong>
+        <p align="justify">&nbsp; </p>
+        <div class="identat"></div>
+        <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="addThis" --><hr style="margin-top: 40px;"><!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="https://www.addthis.com/bookmark.php?v=250&username=clic" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a title="Send to Facebook" class="addthis_button_facebook"></a>
+<a title="Send to Twitter" class="addthis_button_twitter"></a>
+<a title="Send to Delicious" class="addthis_button_delicious"></a>
+<a title="Add to favorites" class="addthis_button_favorites"></a>
+<a title="Email to a friend using Gmail" class="addthis_button_gmail"></a>
+</div>
+<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#username=clic"></script>
+<!-- AddThis Button END --><!-- InstanceEndEditable --></td>
+   <td width="20" background="../../img/f0_r3_c4.gif">&nbsp;</td>
+   <td width="1" background="../../img/spacer.gif"><img src="../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img name="f0_r4_c2" src="../../img/f0_r4_c2.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img name="f0_r4_c3" src="../../img/f0_r4_c3.gif" width="718" height="20" border="0" alt=""></td>
+   <td><img name="f0_r4_c4" src="../../img/f0_r4_c4.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <!-- InstanceBeginEditable name="zonaExtra" --><!-- InstanceEndEditable -->
+  <tr>
+   <td colspan="4" bgcolor="#99CCCC" class="peu">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+	<td align="left"><!-- InstanceBeginEditable name="postPeuEsquerre" --><!-- InstanceEndEditable --></td>
+	<td align="center">
+	<a href="http://www.gencat.cat/educacio/"><img src="../../img/depeducacio.gif" alt="Generalitat de Catalunya - Departament d'Educaci&oacute;" width="130" height="23" border="0"></a>
+	<img src="../../img/spacer.gif" width="100" height="1" border="0" alt="">
+    <a href="http://www.xtec.cat/"><img src="../../img/xtec.gif" alt="Xarxa Telem&agrave;tica Educativa de Catalunya" width="178" height="23" border="0"></a> 
+          <!-- InstanceBeginEditable name="postPeu" --><!-- InstanceEndEditable -->
+    </td>
+	<td align="right"><!-- InstanceBeginEditable name="postPeuDret" --><!-- InstanceEndEditable --></td>
+     </tr>
+     </table>
+   </td>
+  </tr>
+ </table>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2006596-1");
+pageTracker._trackPageview();
+</script></body>
+<!-- InstanceEnd --></html>

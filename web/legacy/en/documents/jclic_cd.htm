@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/basic_en.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>clicZone - JClic Cd-Rom</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../../css/basic.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="../../scripts/mm.js" type="text/JavaScript"></script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Language" content="en">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<meta name="keywords" content="clic jclic education educational software educaci� educaci�n programari educatiu software educativo">
+</head>
+<body>
+<div align="center"> 
+ <table border="0" width="758" cellpadding="0" cellspacing="0">
+  <tr>
+   <td><img src="../../img/spacer.gif" width="20" height="1" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="718" height="1" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="20" height="1" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="4"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="758" height="80">
+          <param name="movie" value="../../img/nav_en.swf">
+          <param name="quality" value="high">
+          <param name="BGCOLOR" value="#CCFF99">
+          <param name="BASE" value="/legacy/img">
+          <embed src="../../img/nav_en.swf" width="758" height="80" quality="high" pluginspage="https://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" bgcolor="#CCFF99" base="/legacy/img"></embed></object></td>
+  </tr>
+  <tr>
+   <td><img name="f0_r2_c2" src="../../img/f0_r2_c2.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img name="f0_r2_c3" src="../../img/f0_r2_c3.gif" width="718" height="20" border="0" alt=""></td>
+   <td><img name="f0_r2_c4" src="../../img/f0_r2_c4.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+      <td width="20" height="200" background="../../img/f0_r3_c2.gif">&nbsp;</td>
+   <td class="main" width="718" valign="top"><script language="JavaScript" src="../../scripts/av_en.js" type="text/JavaScript"></script><!-- InstanceBeginEditable name="zona0" -->
+        <p class="topMenu"><a href="../index.htm">home</a> | <a href="index.htm">documents</a><strong> 
+          | </strong>JClic Cd-Rom</p>
+        <p class="t1">Creating a  Cd-Rom with JClic activities </p>
+        <p>In order to play the activities in local mode or in a CD ROM it's necessary to run the activities in an applet. To do it, it's necessary to follow the next steps:</p>
+        <ol>
+          <LI> Create a project like <strong>activity1.jclic.zip</strong> and the page to open it in an applet. In order to do so, go to <strong>TOOLS | CREATE WEB PAGE</strong>. There are different options that can be used there: applet size, background color, etc. This is explained in the course of <a href="../jclic/curs.htm"><strong>Creating multimedia educational materials with JClic</strong></a>, in the <a href="../jclic/curs/d73m5/d73m5t3.htm"><strong>5th module</strong></a>. With this procedure an <strong>index.htm</strong> file is created. It is recommendable to change its  name and give it the same one that the activity has, in this case we would call it <strong>activity1.htm</strong>.
+          <LI>Unload the <a href="../jclic/download.htm#offline"><strong>JClic files</strong></a> and put the files that the file <strong>zip</strong> contains in a folder called <strong>JClic</strong> with the other activity folders. The structure would have to be like this:
+            <p align="center"><img src="../../img/carpetes.gif" width="66" height="50"></p>
+                <p>And the content of each one of the folders of the activities should be like this one:</p>
+                <p align="center"><img src="../../img/activities.gif" width="105" height="38"></p>
+          <LI>Once the program files are placed in the <strong>jclic</strong> folder and the activity and the page that <strong>activity1</strong> launches in the folder we must modify the <strong>HTML</strong> document and change the following lines of text:
+            <blockquote>
+                  <p align="left">This one :<br>
+                      <span class="codi">&lt;script language=&quot;JavaScript&quot; src=&quot;https://clic.xtec.cat/dist/jclic/jclicplugin.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</span></p>
+                  <p align="left"> for this other:<br>
+                      <span class="codi">&lt;script language=&quot;JavaScript&quot; src=&quot;../jclic/jclicplugin.js &quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</span></p>
+                  <p>and this one<br>
+                      <span class="codi">setJarBase('https://clic.xtec.cat/dist/jclic');</span> <br>
+                      <br>
+        for this other:<br>
+        <span class="codi">setJarBase('../jclic'); </span></p>
+            </blockquote>
+        </OL>
+        <blockquote>
+          <p>Then, when the file <strong>activity1.htm</strong> is opened the activity in an <strong>applet</strong> mode will be launched, taking the files that it need from the local folder and not from Internet.</p>
+        </blockquote>
+        <p>The document will b&eacute; similar to the document bellow:</p>
+        <blockquote>
+          <p> <span class="codi">&lt;!doctype html public &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot;&gt; <br>
+&lt;html&gt; <br>
+&lt;head&gt; <br>
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt; <br>
+&lt;title&gt;*****activity title******&lt;/title&gt; <br>
+&lt;script language=&quot;JavaScript&quot; src=&quot;../jclic/jclicplugin.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt; <br>
+&lt;/head&gt; <br>
+&lt;body leftmargin=&quot;0&quot; topmargin=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; onLoad=&quot;window.focus();&quot;&gt; <br>
+&lt;script language=&quot;JavaScript&quot;&gt; <br>
+    setJarBase('../jclic'); <br>
+    writePlugin('*****.jclic.zip', '100%', '100%'); <br>
+&lt;/script&gt; <br>
+&lt;/body&gt; <br>
+&lt;/html&gt; </span></p>
+        </blockquote>
+        <p align="justify">&nbsp;</p>
+        <p align="justify">&nbsp; </p>
+        <div class="identat"></div>
+        <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="addThis" --><hr style="margin-top: 40px;"><!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="https://www.addthis.com/bookmark.php?v=250&username=clic" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a title="Send to Facebook" class="addthis_button_facebook"></a>
+<a title="Send to Twitter" class="addthis_button_twitter"></a>
+<a title="Send to Delicious" class="addthis_button_delicious"></a>
+<a title="Add to favorites" class="addthis_button_favorites"></a>
+<a title="Email to a friend using Gmail" class="addthis_button_gmail"></a>
+</div>
+<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#username=clic"></script>
+<!-- AddThis Button END --><!-- InstanceEndEditable --></td>
+   <td width="20" background="../../img/f0_r3_c4.gif">&nbsp;</td>
+   <td width="1" background="../../img/spacer.gif"><img src="../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img name="f0_r4_c2" src="../../img/f0_r4_c2.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img name="f0_r4_c3" src="../../img/f0_r4_c3.gif" width="718" height="20" border="0" alt=""></td>
+   <td><img name="f0_r4_c4" src="../../img/f0_r4_c4.gif" width="20" height="20" border="0" alt=""></td>
+   <td><img src="../../img/spacer.gif" width="1" height="20" border="0" alt=""></td>
+  </tr>
+  <!-- InstanceBeginEditable name="zonaExtra" --><!-- InstanceEndEditable -->
+  <tr>
+   <td colspan="4" bgcolor="#99CCCC" class="peu">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+	<td align="left"><!-- InstanceBeginEditable name="postPeuEsquerre" --><!-- InstanceEndEditable --></td>
+	<td align="center">
+	<a href="http://www.gencat.cat/educacio/"><img src="../../img/depeducacio.gif" alt="Generalitat de Catalunya - Departament d'Educaci&oacute;" width="130" height="23" border="0"></a>
+	<img src="../../img/spacer.gif" width="100" height="1" border="0" alt="">
+    <a href="http://www.xtec.cat/"><img src="../../img/xtec.gif" alt="Xarxa Telem&agrave;tica Educativa de Catalunya" width="178" height="23" border="0"></a> 
+          <!-- InstanceBeginEditable name="postPeu" --><!-- InstanceEndEditable -->
+    </td>
+	<td align="right"><!-- InstanceBeginEditable name="postPeuDret" --><!-- InstanceEndEditable --></td>
+     </tr>
+     </table>
+   </td>
+  </tr>
+ </table>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2006596-1");
+pageTracker._trackPageview();
+</script></body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,15 @@
+.links {
+	font-size : 10pt;
+}
+
+.links LI {
+	margin-top: 6px;
+	margin-bottom: 6px;
+	list-style-image: url(../img/link_icon.gif);
+	list-style-type: circle;
+
+
+
+
+
+}

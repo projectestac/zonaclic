@@ -1,0 +1,36 @@
+.newsTitle {
+	font-size: 10pt;
+	font-weight: bold;
+	color: #006633;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+	margin-bottom: 0px;
+	margin-top: 8px;
+
+
+
+}
+
+.newsBlock{
+	background-color: #F4F4F4;
+	padding: 10px;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+
+}
+.newsLink {
+	font-weight: bold;
+	margin-top: 0px;
+
+
+
+
+}
+.newsData {
+	text-align: right;
+	float: right;
+
+}
