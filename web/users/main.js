@@ -1,8 +1,6 @@
 /* global $, window, dialogPolyfill, clipboard */
 
-//var root = 'https://clic.xtec.cat/users/';
-//var root = './';
-var root = window.location.origin + window.location.pathname;
+var root = window.location.origin + window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
 var usrLibRoot = root;
 var params = {
   user: ''
@@ -12,15 +10,15 @@ $(function () {
 
   initShareDlg();
 
-  window.location.search.substring(1).split('&').forEach(function(p){
-    if(p.indexOf('=')<0){
-      if(!params.user)
+  window.location.search.substring(1).split('&').forEach(function (p) {
+    if (p.indexOf('=') < 0) {
+      if (!params.user)
         params.user = p;
       else
-        params[p]='';
+        params[p] = '';
     } else {
       var kv = p.split('=')
-      if(kv[0]) {
+      if (kv[0]) {
         params[kv[0]] = kv[1] || '';
       }
     }
@@ -41,8 +39,8 @@ $(function () {
         var numCards = 0;
         for (var p = 0; p < projects.length; p++) {
           var prj = projects[p];
-          if (prj.path && (!params.act || params.act==prj.path)) {
-            numCards ++;
+          if (prj.path && (!params.act || params.act == prj.path)) {
+            numCards++;
             var prjBasePath = prj.path;
             var prjInfoPath = usrLibRoot + prj.path + '/project.json';
             // Enclose ajax call in a closure to retain path values
@@ -61,19 +59,19 @@ $(function () {
             })(prjBasePath, prjInfoPath);
           }
         }
-        if(params.act && numCards == 0) {
+        if (params.act && numCards == 0) {
           logError('El projecte "' + params.act + '" no existeix!');
         }
       },
       error: function (xhr) {
-        logError(xhr.statusText +  ' a: ' + prjInfoPath);
+        logError(xhr.statusText + ' a: ' + prjInfoPath);
       }
     });
   }
 });
 
 function logError(msg) {
-  msg = 'ERROR: ' +  msg;
+  msg = 'ERROR: ' + msg;
   console.log(msg);
   $('#msg').append($('<p/>').html(msg)).removeClass('hidden');
 }
@@ -122,7 +120,7 @@ function openShareDlg(project) {
 
   var basePath = usrLibRoot + project.basePath + '/';
   var directLink = basePath + 'index.html';
-  var actLink = root + "index.htm?" + params.user + "&act=" + project.basePath;
+  var actLink = root + "index.html?" + params.user + "&act=" + project.basePath;
   var moodleLink = basePath + project.mainFile;
   var shareText = encodeURIComponent('Activitats JClic ' + getQuotedText(project.title) + ' ' + directLink);
   $('#directLink').val(directLink);
@@ -153,6 +151,9 @@ function openShareDlg(project) {
     'subject=' + encodeURIComponent('Activitats JClic ' + getQuotedText(project.title)) +
     '&body=' + encodeURIComponent(project.title + '\n\nProveu aquestes activitats amb el nou JClic per a HTML5:\n' + directLink)
   );
+
+  $('#shClassroom').attr('href',
+    'https://classroom.google.com/u/0/share?url=' + encodeURIComponent(directLink));
 
   $('#embedCode').val(getEmbedCode(directLink));
   $('#moodleLink').val(moodleLink);
