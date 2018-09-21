@@ -13,10 +13,17 @@ if (isset($_GET['path']) && preg_match('/^[\w-]*\.jnlp$/', $_GET['path']) && fil
             $jnlp = str_replace('$$'.$key, $value, $jnlp);
         }
     }
+
+    // Remove empty params
+    $lines = explode("\n", $jnlp);
+    $result = "";
+    foreach ($lines as $line)
+        if (strpos($line, '$$') === false)
+            $result = $result.$line."\n";
   
     // Set mime-type and send the resulting file
     header('Content-type: application/x-java-jnlp-file');
-    echo $jnlp;
+    echo $result;
 } else {
     http_response_code(404);
 }

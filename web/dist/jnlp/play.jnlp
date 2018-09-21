@@ -18,13 +18,13 @@
   </resources>
   <application-desc main-class="JClicPlayer">
     <argument>$$project</argument>
-    <!-- argument>-sequence=$$sequence</argument -->
-    <!-- argument>-language=$$lang</argument -->
-    <!-- argument>-country=$$country</argument -->
-    <!-- argument>-variant=$$variant</argument -->
-    <!-- argument>-skin=$$skin</argument -->
-    <!-- argument>-reporter=$$reporter</argument -->
-    <!-- argument>-reporterParams=$$rParams</argument -->
-    <!-- argument>-systemSounds=$$systemSounds</argument -->
+    <argument>-sequence=$$sequence</argument>
+    <argument>-language=$$lang</argument>
+    <argument>-country=$$country</argument>
+    <argument>-variant=$$variant</argument>
+    <argument>-skin=$$skin</argument>
+    <argument>-reporter=$$reporter</argument>
+    <argument>-reporterParams=$$rParams</argument>
+    <argument>-systemSounds=$$systemSounds</argument>
   </application-desc> 
 </jnlp>
