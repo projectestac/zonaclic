@@ -191,7 +191,7 @@ foreach ($projects as $project) {
         print("[ ] Project $prjFileName is up to date.\n");
         $countSkip++;
     }
-    ob_flush();
+    //ob_flush();
 }
 
 $timeSpent = time() - $startTime;
