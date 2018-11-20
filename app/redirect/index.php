@@ -1,4 +1,3 @@
-
 <?php
 
 $originalPath = $_SERVER['REQUEST_URI'];
