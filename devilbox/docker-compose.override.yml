@@ -1,0 +1,47 @@
+# IMPORTANT: The version must match the version of docker-compose.yml
+version: '2.1'
+
+################################################################################
+# SERVICES
+################################################################################
+services:
+
+  # ------------------------------------------------------------
+  # PHP / HHVM
+  # ------------------------------------------------------------
+  php:
+
+    volumes:
+      - ${HOME}/${HOST_PATH_RELATIVE_DATADIR}:${HOME}/${HOST_PATH_RELATIVE_DATADIR}:rw${MOUNT_OPTIONS}
+
+
+  # ------------------------------------------------------------
+  # Web Server
+  # ------------------------------------------------------------
+  httpd:
+
+    volumes:
+      - ${HOME}/${HOST_PATH_RELATIVE_DATADIR}:${HOME}/${HOST_PATH_RELATIVE_DATADIR}:rw${MOUNT_OPTIONS}
+
+
+  # ------------------------------------------------------------
+  # Squid proxy
+  # ------------------------------------------------------------
+  squid:
+    image: datadog/squid
+    hostname: squid
+
+    ports:
+      # ---- Format: ----
+      # [HOST-ADDR : ] HOST-PORT : DOCKER-PORT
+      - "${LOCAL_LISTEN_ADDR}${HOST_PORT_SQUID:-3128}:3128"
+
+    networks:
+      app_net:
+        ipv4_address: 172.16.238.220
+
+    volumes:
+      - ${DEVILBOX_PATH}/data/squid:/var/spool/squid
+      - ${DEVILBOX_PATH}/log/squid:/var/log/squid:rw${MOUNT_OPTIONS}
+
+

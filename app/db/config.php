@@ -1,12 +1,12 @@
 <?php
 
 // ** Proxy settings ** //
-define('USE_PROXY', true);
-define('PROXY_HOST', 'localhost');
+define('USE_PROXY', true); // 'true' in FMO
+define('PROXY_HOST', 'squid');
 define('PROXY_PORT', 3128);
 
 // ** MySQL settings ** //
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'mysql');
 define('DB_NAME', 'jclicrepo');
 define('DB_USER', 'clic');
 define('DB_PASSWORD', 'clic');
