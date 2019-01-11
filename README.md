@@ -25,3 +25,6 @@ The clicZone project is organized into four main directories:
   - `/app/redirect`: This PHP script will redirect old clicZone static pages to its new URL.
 
 - `/vm`: Scripts used to build a [Vagrant](https://www.vagrantup.com/) virtual machine used only in development environments. Check [vm/README.md](https://github.com/projectestac/zonaclic/blob/master/vm/README.md) for details.
+
+- `/devilbox`: Configuration files for the [Devilbox](http://devilbox.org/) LAMP stack, used only in development environments.
+
