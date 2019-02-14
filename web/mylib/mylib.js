@@ -166,10 +166,15 @@ function initUploadDlg() {
   var $folderInput = $('#projectNameInput'),
     $folderWarn = $('#fileNameWarn'),
     $uploadOK = $('#uploadOK'),
-    $fileWarn = $('#fileWarn');
+    $fileWarn = $('#fileWarn'),
+    $fileInput = $('#scormFileInput');
+
+  // Use single file extension on Mac OS (".scorm.zip" not working)
+  if (window.navigator.platform && window.navigator.platform.toLowerCase().startsWith('mac'))
+    $fileInput.attr('accept', '.zip');
 
   // Check the proposed project name and size
-  $('#scormFileInput').on('change', function () {
+  $fileInput.on('change', function () {
     if (this.files.length > 0) {
       var file = this.files[0];
       $('#fileNameInfo').html(file.name);
