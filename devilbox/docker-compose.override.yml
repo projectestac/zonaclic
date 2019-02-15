@@ -11,6 +11,9 @@ services:
   # ------------------------------------------------------------
   php:
 
+    environment:
+      - LOCALDEV=${HOME}/${HOST_PATH_RELATIVE_DATADIR}          
+
     volumes:
       - ${HOME}/${HOST_PATH_RELATIVE_DATADIR}:${HOME}/${HOST_PATH_RELATIVE_DATADIR}:rw${MOUNT_OPTIONS}
 
@@ -19,6 +22,9 @@ services:
   # Web Server
   # ------------------------------------------------------------
   httpd:
+
+    environment:
+      - LOCALDEV=${HOME}/${HOST_PATH_RELATIVE_DATADIR}
 
     volumes:
       - ${HOME}/${HOST_PATH_RELATIVE_DATADIR}:${HOME}/${HOST_PATH_RELATIVE_DATADIR}:rw${MOUNT_OPTIONS}
