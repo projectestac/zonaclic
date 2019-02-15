@@ -72,7 +72,7 @@ vhost_type:
   docroot: |
     # Define the vhost to serve files
     DocumentRoot "__DOCUMENT_ROOT__"
-    <Directory "/shared/httpd/clic">
+    <Directory "__DOCUMENT_ROOT__">
         DirectoryIndex __INDEX__
 
         AllowOverride All
@@ -139,11 +139,18 @@ features:
 
   alias: |
     # Alias Definition
-    Alias "/db/" "/shared/httpd/clic/app/db/"
-    Alias "/jnlp/" "/shared/httpd/clic/app/jnlp/"
-    Alias "/ca/" "/shared/httpd/clic/app/redirect/"
-    Alias "/en/" "/shared/httpd/clic/app/redirect/"
-    Alias "/es/" "/shared/httpd/clic/app/redirect/"
+    Define base_path ${LOCALDEV}/projectestac/zonaclic
+    Alias "/db/" "${base_path}/app/db/"
+    Alias "/jnlp/" "${base_path}/app/jnlp/"
+    Alias "/ca/" "${base_path}/app/redirect/"    
+    Alias "/en/" "${base_path}/app/redirect/"
+    Alias "/es/" "${base_path}/app/redirect/"
+
+    <Directory ${base_path}/ >
+       Options -Indexes +Multiviews +FollowSymLinks
+       AllowOverride All
+       Require all granted
+    </Directory>
 
     Alias "__ALIAS__" "__PATH____ALIAS__"
     <Location "__ALIAS__">
