@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>JClic HTML5 player</title>
+    <link rel="icon" sizes="16x16" href="images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      var JClicDataProject;
+      if (window.location.protocol === 'http:')
+        window.location.replace(window.location.href.replace('http:', 'https:'));
+      else
+        JClicDataProject = '../projects/' + decodeURIComponent(location.search.substring(1));
+    </script>
+    <script type="text/javascript" src="https://clic.xtec.cat/dist/jclic.js/jclic.min.js"></script>
+  </head>
+  <body style="margin:0">
+    <div class ="JClic"></div>
+  </body>
+</html>
