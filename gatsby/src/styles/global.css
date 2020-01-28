@@ -1,0 +1,71 @@
+article img {
+  max-width: 100%;
+}
+
+article figcaption {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-style: italic;
+  font-size: small;
+}
+
+article blockquote {
+  font-style: italic;
+  margin-left: 0;
+  padding-left: 0.5rem;
+  border-left: 1px solid;
+}
+
+article .gatsby-highlight {
+  display: grid;
+}
+
+article .responsive-wrapper {
+  display: grid;
+  grid-template-columns: 200px;
+  overflow-x: auto;
+}
+
+@media (max-width: 960px) {
+  .gatsby-resp-image-figure {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.text-with-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* === Auto-hide header anchors === */
+a.anchor {
+  float: left;
+  padding-right: 0.3rem;
+  margin-left: -1.3rem;
+}
+
+h1 .anchor svg, h2 .anchor svg, h3 .anchor svg, h4 .anchor svg, h5 .anchor svg, h6 .anchor svg {
+  visibility: hidden;
+}
+
+h1:hover .anchor svg, h2:hover .anchor svg, h3:hover .anchor svg, h4:hover .anchor svg, h5:hover .anchor svg, h6:hover .anchor svg, h1 .anchor:focus svg, h2 .anchor:focus svg, h3 .anchor:focus svg, h4 .anchor:focus svg, h5 .anchor:focus svg, h6 .anchor:focus svg {
+  visibility: visible;
+}
+
+/* === Accidental styles used in some markdown files === */
+
+.small-flags img {
+  width: 3rem;
+}
+
+.small-flags table, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+
+.reddie {
+  color: red;
+}
