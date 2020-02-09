@@ -16,6 +16,7 @@ const OFFLINE_PWA = 'true' === process.env.OFFLINE_PWA;
 
 // Main metadata settings
 const siteUrl = BASE_URL;
+const siteRoot = BASE_URL.substr(0, BASE_URL.length - PATH_PREFIX.length - 1);
 const themeColor = '#663399';
 const themeBackground = '#ffffff';
 
@@ -64,6 +65,7 @@ const config = {
     author,
     description,
     siteUrl,
+    siteRoot,
     version,
     social: {
       twitter: 'jclic',
@@ -161,14 +163,14 @@ const config = {
         name: title,
         short_name: shortTitle,
         description: `${description} (${version})`,
-        start_url: `${PATH_PREFIX}/`,
+        start_url: `/`,
         background_color: themeBackground,
         theme_color: themeColor,
         display: 'standalone',
         icon: 'content/assets/icons/logo.svg',
         localize: supportedLanguages.map(lang => ({
           lang,
-          start_url: `${PATH_PREFIX}/${lang}/`,
+          start_url: `/${lang}/`,
           name: localizedTitles[lang],
           short_name: localizedShortTitles[lang],
           description: localizedDescriptions[lang],

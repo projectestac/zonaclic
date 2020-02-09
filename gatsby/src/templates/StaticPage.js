@@ -29,11 +29,11 @@ export default function StaticPageTemplate({ data, location }) {
   const { locale: lang } = intl;
   const alt = getAllVersions(data, location, lang);
   const { frontmatter, fields: { slug }, excerpt, body } = getResolvedVersionForLanguage(data, intl);
-  const { title, description = excerpt } = frontmatter;
+  const { title, description = excerpt, thumbnail } = frontmatter;
 
   return (
     <Layout {...{ intl, slug }}>
-      <SEO {...{ lang, title, slug, description, alt }} />
+      <SEO {...{ lang, title, slug, description, thumbnail, alt }} />
       <article className={classes.article} >
         <header>
           <h1>{title}</h1>
@@ -58,6 +58,14 @@ export const pageQuery = graphql`
           frontmatter {
             description
             title
+            # // Uncomment when a 'thumbnail' field is used in any frontmatter
+            # thumbnail {
+            #   childImageSharp {
+            #     fluid(maxWidth: 1200) {
+            #       src
+            #     }
+            #   }
+            # }
           }
           excerpt(pruneLength: 160)
         }

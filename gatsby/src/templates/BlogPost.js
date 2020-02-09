@@ -40,13 +40,13 @@ export default function BlogPostTemplate({ data, pageContext, location }) {
   const intl = useIntl();
   const { locale: lang, formatDate } = intl;
   const { frontmatter, excerpt, body, fields: { slug } } = getResolvedVersionForLanguage(data, intl);
-  const { title, description = excerpt, date } = frontmatter;
+  const { title, description = excerpt, date, thumbnail } = frontmatter;
   const { previous, next } = pageContext;
   const alt = getAllVersions(data, location, lang);
 
   return (
     <Layout {...{ intl, slug }}>
-      <SEO {...{ lang, title, slug, alt, description }} />
+      <SEO {...{ lang, title, slug, alt, description, thumbnail }} />
       <article className={classes.article}>
         <header>
           <h1>{title}</h1>
@@ -87,6 +87,14 @@ export const pageQuery = graphql`
             date
             description
             title
+            # // Uncomment when a 'thumbnail' field is used in any frontmatter
+            # thumbnail {
+            #   childImageSharp {
+            #     fluid(maxWidth: 1200) {
+            #       src
+            #     }
+            #   }
+            # }
           }
           excerpt(pruneLength: 160)
         }

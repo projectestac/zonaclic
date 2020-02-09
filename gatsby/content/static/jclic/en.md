@@ -4,6 +4,7 @@ order: 100
 date: '2020-01-07T11:45+01:00'
 description: Informaction about the JClic project
 icon: info-circle
+# thumbnail: './image.jpg'
 keywords: jclic, informació
 ---
 
