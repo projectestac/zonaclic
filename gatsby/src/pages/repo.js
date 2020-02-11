@@ -19,7 +19,7 @@ export default function Repo({ data, location }) {
   return (
     <Layout {...{ intl }}>
       <SEO {...{ lang, title, description, alt }} />
-      <RepoMain {...{ intl }} />
+      <RepoMain {...{ intl, location }} />
     </Layout>
   );
 }
