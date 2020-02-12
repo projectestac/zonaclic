@@ -5,7 +5,7 @@ import { Link } from 'gatsby-plugin-intl';
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
-import { mergeClasses } from '../utils/misc';
+import { mergeClasses, isAbsoluteUrl } from '../utils/misc';
 import Container from "@material-ui/core/Container";
 import Box from "@material-ui/core/Box";
 import footerData from "../../content/footer.json";
@@ -67,7 +67,7 @@ function Footer({ intl: { locale, messages }, ...props }) {
                 {block.items.map(({ name, link }, k) => (
                   <li key={k}>
                     {
-                      /^https?:\/\//.test(link) ?
+                      isAbsoluteUrl(link) ?
                         <a href={link} target="_blank" rel="noopener noreferrer">{name}</a> :
                         <Link to={link}>{name}</Link>
                     }

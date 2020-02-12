@@ -14,7 +14,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function Breadcrumbs({ slug, intl, ...props }) {
+export default function Breadcrumbs({ slug, intl, location, ...props }) {
 
   const classes = mergeClasses(props, useStyles());
   const { messages, locale, defaultLocale } = intl;
@@ -36,7 +36,7 @@ export default function Breadcrumbs({ slug, intl, ...props }) {
       }
     }
   `).allMdx.edges.map(edge => edge.node);
-
+  
   const getFragments = slug => slug.split('/').filter(s => s.length > 0);
 
   const getSlugTitle = (slug) => {

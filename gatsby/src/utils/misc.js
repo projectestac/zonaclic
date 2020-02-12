@@ -12,3 +12,13 @@ export const mergeClasses = (props, classes, root = 'root') => {
     classes[root] = `${classes[root]} ${props.className}`;
   return classes;
 }
+
+/**
+ * Checks if the given expression is an absolute URL
+ * (implemented with a very simple test, not RFC 3987 compliant!)
+ * @param {string} text 
+ */
+export const isAbsoluteUrl = (text) => /^https?:\/\//.test(text);
+
+
+export const htmlContent = (desc) => /<\w*>/.test(desc) ? desc : desc.replace(/\n/g, '<br/>\n');

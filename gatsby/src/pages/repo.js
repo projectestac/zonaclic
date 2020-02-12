@@ -1,25 +1,22 @@
-import React from 'react';
-import { graphql } from 'gatsby';
-import { useIntl, Link } from 'gatsby-plugin-intl';
+import React, { useState, useMemo } from 'react';
+import queryString from 'query-string';
+import { useIntl } from 'gatsby-plugin-intl';
 import Layout from '../components/Layout';
-import SEO from '../components/SEO';
-import { getAllVariants } from '../utils/node';
 import RepoMain from '../components/repo/RepoMain';
 
 const SLUG = '/repo/';
 
-export default function Repo({ data, location }) {
+export default function Repo({ location }) {
 
   const intl = useIntl();
-  const { locale: lang, messages } = intl;
-  const title = messages['repo-title'];
-  const description = messages['repo-description'];
-  const alt = getAllVariants(SLUG, location, intl.locale);
+  const [act, setAct] = useState();
+  useMemo(() => setAct(queryString.parse(location.search)['act']), [location]);
+
+  // SEO defined in inner elements
 
   return (
-    <Layout {...{ intl }}>
-      <SEO {...{ lang, title, description, alt }} />
-      <RepoMain {...{ intl, location }} />
+    <Layout {...{ intl, slug: `${SLUG}${act ? `${act}/` : ''}` }}>
+      <RepoMain {...{ intl, location, SLUG, act }} />
     </Layout>
   );
 }

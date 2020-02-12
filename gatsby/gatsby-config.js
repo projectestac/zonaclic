@@ -77,7 +77,7 @@ const config = {
     localizedShortTitles,
     localizedDescriptions,
     localizedAuthors,
-    specialPages: ['/search/', '/blog/'],
+    specialPages: ['/search/', '/blog/', '/repo/'],
   },
   plugins: [
     // Static pages
