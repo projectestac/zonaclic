@@ -63,6 +63,7 @@ export default function DrawerPanel({ intl, ...props }) {
 
   const data = useStaticQuery(query);
   const pages = getAllResolvedVersionsForLanguage(data, intl);
+  const { messages } = intl;
   const classes = mergeClasses(props, useStyles());
 
   return (
@@ -75,17 +76,21 @@ export default function DrawerPanel({ intl, ...props }) {
       </Toolbar>
       <Divider />
       <List>
-        {pages.map(node => (
-          <ListItem button key={node.fields.slug} onClick={() => navigate(node.fields.slug)}>
-            <ListItemIcon className={classes.listItemIcon}><FontAwIcon icon={node.frontmatter.icon} size="lg" /></ListItemIcon>
-            <ListItemText primary={node.frontmatter.title} />
+        <ListItem button onClick={() => navigate('/repo/')}>
+          <ListItemIcon className={classes.listItemIcon}><FontAwIcon icon="cubes" size="lg" /></ListItemIcon>
+          <ListItemText primary={messages['repo-title']} />
+        </ListItem>
+        {pages.map(({ fields: { slug }, frontmatter: { icon, title } }) => (
+          <ListItem button key={slug} onClick={() => navigate(slug)}>
+            <ListItemIcon className={classes.listItemIcon}><FontAwIcon icon={icon} size="lg" /></ListItemIcon>
+            <ListItemText primary={title} />
           </ListItem>
         ))}
       </List>
       <Divider />
       <ListItem button onClick={() => navigate('/blog/')}>
         <ListItemIcon className={classes.listItemIcon}><FontAwIcon icon="rss-square" size="lg" /></ListItemIcon>
-        <ListItemText primary="Blog" />
+        <ListItemText primary={messages['blog-index-title']} />
       </ListItem>
     </div>
   );

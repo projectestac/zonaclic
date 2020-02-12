@@ -20,26 +20,29 @@ function RepoMain({ location, SLUG, intl, act, ...props }) {
 
   const classes = mergeClasses(props, useStyles());
   const { messages, formatMessage } = intl;
-  const [projects, setProjects] = useState([]);
+  const [projects, setProjects] = useState(null);
   const [project, setProject] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState('');
+  const [error, setError] = useState(null);
 
   useEffect(() => {
+    // Clear previous states
+    setProjects(null);
+    setProject(null);
+    setError(null);
+    // Load the given project
     if (act) {
       const fullPath = `${REPO_BASE}${act}`;
       // Load a specific project
       fetch(`${fullPath}/project.json`)
         .then(response => {
           if (!response.ok)
-            throw new Error(`Network error: ${response.statusText}`);
+            throw new Error(response.statusText);
           return response.json();
         })
         .then(_project => {
           _project.path = act;
           _project.fullPath = fullPath;
           setProject(_project);
-          setLoading(false);
         })
         .catch(err => {
           setError(err);
@@ -49,27 +52,26 @@ function RepoMain({ location, SLUG, intl, act, ...props }) {
       fetch(`${REPO_BASE}${REPO_LIST}`)
         .then(response => {
           if (!response.ok)
-            throw new Error(`Network error: ${response.statusText}`);
+            throw new Error(response.statusText);
           return response.json();
         })
         .then(_projects => {
           setProjects(_projects);
-          setLoading(false);
         })
         .catch(err => {
           setError(err);
         });
     }
-  }, [location.search, act]);
+  }, [act]);
 
   return (
     <Container {...props} className={classes.root}>
-      <Typography variant="h2">{messages['repo-title']}</Typography>
+      <Typography variant="h3">{messages['repo-title']}</Typography>
       {
-        (loading && <CircularProgress />) ||
         (error && <h2>{formatMessage({ id: 'error' }, { error })}</h2>) ||
-        (act && <Project {...{ project, intl, SLUG, location }} />) ||
-        <RepoList {...{ projects, intl, SLUG, location }} />
+        (project && <Project {...{ project, intl, SLUG, location }} />) ||
+        (projects && <RepoList {...{ projects, intl, SLUG, REPO_BASE, location }} />) ||
+        <CircularProgress />
       }
     </Container>
   );

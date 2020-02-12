@@ -20,7 +20,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-function RepoList({ intl: { locale, messages, formatMessage }, projects, SLUG, location, ...props }) {
+function RepoList({ intl: { locale, messages, formatMessage }, projects, SLUG, REPO_BASE, location, ...props }) {
 
   const classes = mergeClasses(props, useStyles());
   const [page, setPage] = React.useState(0);
@@ -34,16 +34,16 @@ function RepoList({ intl: { locale, messages, formatMessage }, projects, SLUG, l
       <SEO {...{ locale, title, description, slug: SLUG, thumbnail: `/cards/repo/twitter-card-${locale}.jpg`, alt }} />
       <Container {...props} className={classes.root}>
         <List>
-          {projects.slice(page * itemsPerPage, (page + 1) * itemsPerPage).map(({ path, title, author, date, langCodes, levelCodes, mainFile, cover, thumbnail }, n) => (
-            <ListItem button key={n} onClick={() => navigate(`/repo/?act=${path}`, { replace: false })}>
-              <ListItemAvatar>
-                <Avatar>
-                  <FontAwIcon icon="mouse" size="lg" />
-                </Avatar>
-              </ListItemAvatar>
-              <ListItemText primary={title} secondary={author} />
-            </ListItem>
-          ))}
+          {projects
+            .slice(page * itemsPerPage, (page + 1) * itemsPerPage)
+            .map(({ path, title, author, date, langCodes, levelCodes, mainFile, cover, thumbnail }, n) => (
+              <ListItem button key={n} onClick={() => navigate(`/repo/?act=${path}`, { replace: false })}>
+                <ListItemAvatar>
+                  <Avatar alt={title} src={`${REPO_BASE}${path}/${thumbnail || cover}`} />
+                </ListItemAvatar>
+                <ListItemText primary={title} secondary={author} />
+              </ListItem>
+            ))}
         </List>
         <TablePagination
           classes={{ spacer: classes.spacer, toolbar: classes.toolbar }}
