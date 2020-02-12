@@ -1,7 +1,6 @@
 import React from 'react';
 import { makeStyles } from "@material-ui/core/styles";
 import { mergeClasses, htmlContent } from '../../utils/misc';
-import Container from "@material-ui/core/Container";
 import SEO from '../SEO';
 import { getAllVariants } from '../../utils/node';
 
@@ -10,7 +9,7 @@ const useStyles = makeStyles(_theme => ({
   },
 }));
 
-function Project({ intl: { locale, defaultLocale, messages, formatMessage }, project, SLUG, location, ...props }) {
+function Project({ intl: { locale, defaultLocale, messages }, project, SLUG, location, ...props }) {
 
   const {
     path, fullPath, meta_langs,
@@ -29,16 +28,15 @@ function Project({ intl: { locale, defaultLocale, messages, formatMessage }, pro
   const imgPath = `${fullPath}/${cover}`;
 
   return (
-    <>
+    <div {...props} className={classes.root}>
       <SEO {...{ locale, title: pageTitle, description: pageDesc, slug, thumbnail: imgPath, alt }} />
-      <Container {...props} className={classes.root}>
-        <h2>{title}</h2>
-        <h3>{`${author || ''}${school ? ` (${school})` : ''}`}</h3>
-        <p>{date}</p>
-        {cover && <img src={imgPath} alt={messages['cover-alt']} />}
-        <div dangerouslySetInnerHTML={{ __html: htmlContent(description[k]) }}></div>
-      </Container>
-    </>
+      <h2>{title}</h2>
+      <h3>{author}</h3>
+      <h3>{school}</h3>
+      <p>{date}</p>
+      {cover && <img src={imgPath} alt={messages['cover-alt']} />}
+      <div dangerouslySetInnerHTML={{ __html: htmlContent(description[k]) }}></div>
+    </div>
   );
 }
 

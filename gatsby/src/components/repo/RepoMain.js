@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import { mergeClasses } from '../../utils/misc';
-import Container from "@material-ui/core/Container";
 import CircularProgress from '@material-ui/core/CircularProgress';
 import Project from './Project';
 import RepoList from "./RepoList";
@@ -45,7 +44,7 @@ function RepoMain({ location, SLUG, intl, act, ...props }) {
           setProject(_project);
         })
         .catch(err => {
-          setError(err);
+          setError(err?.toString() || 'Error');
         });
     } else {
       // Load the full repo list
@@ -59,13 +58,13 @@ function RepoMain({ location, SLUG, intl, act, ...props }) {
           setProjects(_projects);
         })
         .catch(err => {
-          setError(err);
+          setError(err?.toString() || 'Error');
         });
     }
   }, [act]);
 
   return (
-    <Container {...props} className={classes.root}>
+    <div {...props} className={classes.root}>
       <Typography variant="h3">{messages['repo-title']}</Typography>
       {
         (error && <h2>{formatMessage({ id: 'error' }, { error })}</h2>) ||
@@ -73,7 +72,7 @@ function RepoMain({ location, SLUG, intl, act, ...props }) {
         (projects && <RepoList {...{ projects, intl, SLUG, REPO_BASE, location }} />) ||
         <CircularProgress />
       }
-    </Container>
+    </div>
   );
 }
 
