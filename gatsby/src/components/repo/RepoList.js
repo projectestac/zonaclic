@@ -16,8 +16,13 @@ const DEFAULT_ITEMS_PER_PAGE = 10;
 const useStyles = makeStyles(_theme => ({
   root: {
   },
-  listElements: {
-  }
+  spacer: {
+    display: 'none',
+  },
+  toolbar: {
+    flexFlow: 'wrap',
+    paddingLeft: '0',
+  },
 }));
 
 function RepoList({ intl: { locale, messages, formatMessage }, projects, SLUG, REPO_BASE, location, ...props }) {
@@ -49,11 +54,14 @@ function RepoList({ intl: { locale, messages, formatMessage }, projects, SLUG, R
         component="nav"
         page={page}
         rowsPerPage={itemsPerPage}
+        rowsPerPageOptions={[10, 25, 50, 100]}
         onChangeRowsPerPage={ev => setItemsPerPage(ev.target.value)}
         count={projects.length}
         onChangePage={(_ev, p) => setPage(p)}
-        labelDisplayedRows={({ from, to, count }) => formatMessage({ id: 'search-results-count' }, { from, to, count })}
-        labelRowsPerPage={messages['search-results-per-page']}
+        labelDisplayedRows={({ from, to, count }) => formatMessage({ id: 'results-count' }, { from, to, count })}
+        labelRowsPerPage={messages['results-per-page']}
+        backIconButtonText={messages['results-page-prev']}
+        nextIconButtonText={messages['results-page-next']}
       />
     </div>
   );

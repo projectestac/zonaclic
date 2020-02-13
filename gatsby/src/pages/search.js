@@ -126,8 +126,10 @@ export default function Search({ location, data }) {
               onChangeRowsPerPage={ev => setItemsPerPage(ev.target.value)}
               count={results.length}
               onChangePage={(_ev, p) => setPage(p)}
-              labelDisplayedRows={({ from, to, count }) => formatMessage({ id: 'search-results-count' }, { from, to, count })}
-              labelRowsPerPage={messages['search-results-per-page']}
+              labelDisplayedRows={({ from, to, count }) => formatMessage({ id: 'results-count' }, { from, to, count })}
+              labelRowsPerPage={messages['results-per-page']}
+              backIconButtonText={messages['results-page-prev']}
+              nextIconButtonText={messages['results-page-next']}
             />
           </div>
         }
