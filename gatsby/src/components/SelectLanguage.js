@@ -1,13 +1,22 @@
 import React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
 import { makeStyles } from '@material-ui/core/styles';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
 import { changeLocale } from 'gatsby-plugin-intl';
-import { siteMetadata } from '../../gatsby-config';
 import { mergeClasses } from '../utils/misc';
 
-const { supportedLanguages, langNames } = siteMetadata;
+const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        langNames
+        supportedLanguages
+      }
+    }
+  }
+`;
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -27,6 +36,7 @@ const useStyles = makeStyles(theme => ({
 export default function ({ intl: { locale, messages }, ...props }) {
 
   const classes = mergeClasses(props, useStyles());
+  const { site: { siteMetadata: { supportedLanguages, langNames } } } = useStaticQuery(query);
   const handleChange = ev => changeLocale(ev.target.value);
 
   return (
@@ -42,9 +52,9 @@ export default function ({ intl: { locale, messages }, ...props }) {
         onChange={handleChange}
         renderValue={value => value}
       >
-        {supportedLanguages.map(lang => (
+        {supportedLanguages.map((lang, n) => (
           <MenuItem key={lang} value={lang}>
-            {langNames[lang]}
+            {langNames[n]}
           </MenuItem>
         ))}
       </Select>

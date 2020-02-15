@@ -155,6 +155,8 @@ function moveBuildToPathPrefix() {
     const destDir = path.resolve(__dirname, buildDirName, prefix);
     fs.renameSync(buildDir, prefixedDir);
     fs.moveSync(prefixedDir, destDir);
+    // Create a symlink for 404
+    fs.symlinkSync(`${prefix}/404.html`, `${buildDir}/404.html`);
     console.log(`${ch.bold.green('info:')} Build files moved to "${destDir}"`);
   }
 }

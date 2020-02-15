@@ -4,9 +4,29 @@ import { makeStyles } from '@material-ui/core/styles';
 import { mergeClasses } from '../utils/misc';
 import MUIBreadcrumbs from '@material-ui/core/Breadcrumbs';
 import { Link } from 'gatsby-plugin-intl';
-import { siteMetadata } from '../../gatsby-config';
 
-const { specialPages } = siteMetadata;
+const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        specialPages
+      }
+    }
+    allMdx {
+      edges {
+        node {
+          frontmatter {
+            title
+          }
+          fields {
+            slug
+            lang
+          }
+        }
+      }
+    }
+  }
+`;
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -14,29 +34,15 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function Breadcrumbs({ slug, intl, location, ...props }) {
+export default function Breadcrumbs({ slug, intl, ...props }) {
 
   const classes = mergeClasses(props, useStyles());
   const { messages, locale, defaultLocale } = intl;
   const siteTitle = messages['site-title'];
-  const allSlugs = useStaticQuery(graphql`
-    query {
-      allMdx {
-        edges {
-          node {
-            frontmatter {
-              title
-            }
-            fields {
-              slug
-              lang
-            }
-          }
-        }
-      }
-    }
-  `).allMdx.edges.map(edge => edge.node);
-  
+  const data = useStaticQuery(query);
+  const { site: { siteMetadata: { specialPages } } } = data;
+  const allSlugs = data.allMdx.edges.map(edge => edge.node);
+
   const getFragments = slug => slug.split('/').filter(s => s.length > 0);
 
   const getSlugTitle = (slug) => {

@@ -9,7 +9,7 @@ import Avatar from '@material-ui/core/Avatar';
 import ListItemText from '@material-ui/core/ListItemText';
 import TablePagination from '@material-ui/core/TablePagination';
 import SEO from '../SEO';
-import { getAllVariants } from '../../utils/node';
+import ShareButtons from '../ShareButtons';
 
 const DEFAULT_ITEMS_PER_PAGE = 10;
 
@@ -25,18 +25,20 @@ const useStyles = makeStyles(_theme => ({
   },
 }));
 
-function RepoList({ intl: { locale, messages, formatMessage }, projects, SLUG, REPO_BASE, location, ...props }) {
+function RepoList({ intl, projects, SLUG, REPO_BASE, location, ...props }) {
 
+  const { locale, messages, formatMessage } = intl;
   const classes = mergeClasses(props, useStyles());
   const [page, setPage] = React.useState(0);
   const [itemsPerPage, setItemsPerPage] = React.useState(DEFAULT_ITEMS_PER_PAGE);
-  const alt = getAllVariants(SLUG, location, locale);
   const title = messages['repo-title'];
   const description = messages['repo-description'];
+  const card = `/cards/repo/card-${locale}.jpg`;
 
   return (
     <div {...props} className={classes.main}>
-      <SEO {...{ locale, title, description, slug: SLUG, thumbnail: `/cards/repo/twitter-card-${locale}.jpg`, alt }} />
+      <SEO {...{ location, lang: locale, title, description, slug: SLUG, thumbnail: card }} />
+      <ShareButtons {...{ intl, link: location?.href, title, description, slug: SLUG, thumbnail: card }} />
       <List>
         {projects
           .slice(page * itemsPerPage, (page + 1) * itemsPerPage)

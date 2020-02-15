@@ -5,7 +5,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import { useIntl, navigate } from 'gatsby-plugin-intl';
-import { getAllVariants } from '../utils/node';
 import queryString from 'query-string';
 import Typography from '@material-ui/core/Typography';
 import CircularProgress from '@material-ui/core/CircularProgress';
@@ -51,7 +50,6 @@ export default function Search({ location, data }) {
   const classes = useStyles();
   const intl = useIntl();
   const { locale: lang, messages, formatMessage } = intl;
-  const alt = getAllVariants(SLUG, location, lang);
 
   const [results, setResults] = useState([]);
   const [waiting, setWaiting] = useState(true);
@@ -95,7 +93,7 @@ export default function Search({ location, data }) {
 
   return (
     <Layout {...{ intl, slug: SLUG }}>
-      <SEO {...{ lang, title, alt }} />
+      <SEO {...{ lang, title, location, slug: SLUG }} />
       <article>
         <header>
           <Typography variant="h2" gutterBottom>{title}</Typography>

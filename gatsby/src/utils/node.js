@@ -1,6 +1,4 @@
 import { emptyNode } from './defaults';
-import { siteMetadata } from '../../gatsby-config';
-const { supportedLanguages } = siteMetadata;
 
 /**
  * Gets the specific node associated with the current locale from a set of markdown content nodes.
@@ -61,11 +59,12 @@ export const getAllVersions = (data, location, current = null) => {
 
 /**
  * Get the absolute URLs of all available language variants of a specific slug
+ * @param {string[]} supportedLanguages - Array of codes for supported languages
  * @param {string} slug - Slug to be used as a base
  * @param {Object} location - The `window.location` object
  * @param {string} current - Current language
  */
-export const getAllVariants = (slug, location, current) => {
+export const getAllVariants = (supportedLanguages, slug, location, current) => {
   return supportedLanguages
     .filter(lang => lang !== current)
     .map(lang => ({ lang, href: `${location.origin}${__PATH_PREFIX__}/${lang}${slug}` }));

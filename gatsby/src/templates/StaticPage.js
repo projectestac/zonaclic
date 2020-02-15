@@ -4,8 +4,9 @@ import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { useIntl } from "gatsby-plugin-intl"
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
-import { getResolvedVersionForLanguage, getAllVersions } from '../utils/node';
+import { getResolvedVersionForLanguage } from '../utils/node';
 import { makeStyles } from '@material-ui/core/styles';
+import ShareButtons from '../components/ShareButtons';
 
 const useStyles = makeStyles(theme => ({
   article: {
@@ -27,16 +28,16 @@ export default function StaticPageTemplate({ data, location }) {
   const classes = useStyles();
   const intl = useIntl();
   const { locale: lang } = intl;
-  const alt = getAllVersions(data, location, lang);
   const { frontmatter, fields: { slug }, excerpt, body } = getResolvedVersionForLanguage(data, intl);
   const { title, description = excerpt, thumbnail } = frontmatter;
 
   return (
     <Layout {...{ intl, slug }}>
-      <SEO {...{ lang, title, slug, description, thumbnail, alt }} />
+      <SEO {...{ lang, title, slug, description, thumbnail, location }} />
       <article className={classes.article} >
         <header>
           <h1>{title}</h1>
+          <ShareButtons {...{ intl, link: location?.href, title, description, slug, thumbnail }} />
         </header>
         <MDXRenderer {...{ frontmatter, intl }}>{body}</MDXRenderer>
       </article>
@@ -45,7 +46,7 @@ export default function StaticPageTemplate({ data, location }) {
 }
 
 export const pageQuery = graphql`
-  query StaticPagesBySlug($slug: String!) {
+  query($slug: String!) {
     allMdx(filter: {fields: {slug: {eq: $slug}}}) {
       edges {
         node {

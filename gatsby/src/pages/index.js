@@ -4,7 +4,7 @@ import { useIntl, Link } from 'gatsby-plugin-intl';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import FrontItem from '../components/FrontItem';
-import { getAllResolvedVersionsForLanguage, getAllVariants } from '../utils/node';
+import { getAllResolvedVersionsForLanguage } from '../utils/node';
 
 const SLUG = '/';
 
@@ -14,12 +14,11 @@ export default function Index({ data, location }) {
   const { locale: lang, messages } = intl;
   const title = messages['site-title'];
   const description = messages['site-description'];
-  const alt = getAllVariants(SLUG, location, lang);
   const pages = getAllResolvedVersionsForLanguage(data, intl);
 
   return (
     <Layout {...{ intl }}>
-      <SEO {...{ lang, title, description, alt }} />
+      <SEO {...{ lang, title, description, location, slug: SLUG }} />
       <h2>{messages['pages']}</h2>
       {pages.map(node => (
         <FrontItem node={node} key={node.fields.slug} />

@@ -6,10 +6,10 @@
  */
 
 import React from 'react';
-import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
-import { isAbsoluteUrl } from '../utils/misc';
+import { getImgUrl } from '../utils/misc';
+import { getAllVariants } from '../utils/node';
 
 const query = graphql`
   query {
@@ -20,15 +20,19 @@ const query = graphql`
         author
         siteUrl
         siteRoot
+        cardFileName
+        supportedLanguages
       }
     }
   }
 `;
 
-function SEO({ description, lang, meta, title, slug, alt = [], thumbnail, ...props }) {
+function SEO({ location, title, description = '', lang = 'en', meta = [], slug = null, thumbnail = null, ...props }) {
 
-  const { site } = useStaticQuery(query);
-  const metaDescription = description || site.siteMetadata.description;
+  const { site: { siteMetadata } } = useStaticQuery(query);
+  const metaDescription = description || siteMetadata.description;
+  const alt = (slug && location && lang && getAllVariants(siteMetadata.supportedLanguages, slug, location, lang)) || [];
+
   const metaTags = [
     {
       name: 'description',
@@ -52,7 +56,7 @@ function SEO({ description, lang, meta, title, slug, alt = [], thumbnail, ...pro
     },
     {
       name: 'twitter:creator',
-      content: site.siteMetadata.author,
+      content: siteMetadata.author,
     },
     {
       name: 'twitter:title',
@@ -64,14 +68,8 @@ function SEO({ description, lang, meta, title, slug, alt = [], thumbnail, ...pro
     },
   ].concat(meta);
 
-  if (slug) {
-    const cardUrl = thumbnail
-      ? thumbnail?.childImageSharp?.fluid?.src
-        ? `${site.siteMetadata.siteRoot}${thumbnail.childImageSharp.fluid.src}`
-        : isAbsoluteUrl(thumbnail)
-          ? thumbnail
-          : `${site.siteMetadata.siteUrl}${thumbnail}`
-      : `${site.siteMetadata.siteUrl}/${lang}${slug}twitter-card.jpg`;
+  const cardUrl = getImgUrl({ siteMetadata, slug, lang, thumbnail });
+  if (cardUrl) {
     metaTags.push(
       {
         name: 'twitter:image',
@@ -89,7 +87,7 @@ function SEO({ description, lang, meta, title, slug, alt = [], thumbnail, ...pro
       {...props}
       htmlAttributes={{ lang }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      titleTemplate={`%s | ${siteMetadata.title}`}
       meta={metaTags}
       link={alt.map(({ lang, href }) => ({
         rel: 'alternate',
@@ -99,21 +97,5 @@ function SEO({ description, lang, meta, title, slug, alt = [], thumbnail, ...pro
     />
   );
 }
-
-SEO.defaultProps = {
-  lang: 'en',
-  meta: [],
-  description: '',
-  slug: null,
-};
-
-SEO.propTypes = {
-  description: PropTypes.string,
-  lang: PropTypes.string,
-  slug: PropTypes.string,
-  thumbnail: PropTypes.string,
-  meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string.isRequired,
-};
 
 export default SEO;

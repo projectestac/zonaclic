@@ -13,14 +13,20 @@ const PATH_PREFIX = process.env.PATH_PREFIX || '';
 const BASE_URL = process.env.BASE_URL || 'https://localhost:9000/';
 const ANALYTICS_UA = process.env.ANALYTICS_UA || '';
 const OFFLINE_PWA = 'true' === process.env.OFFLINE_PWA;
+const FACEBOOK_ID = process.env.FACEBOOK_ID || '';
 
 // Main metadata settings
 const siteUrl = BASE_URL;
 const siteRoot = BASE_URL.substr(0, BASE_URL.length - PATH_PREFIX.length - 1);
+const cardFileName = 'card.jpg';
 const themeColor = '#663399';
 const themeBackground = '#ffffff';
 
+const shareOn = { twitter: true, facebook: true, telegram: true, whatsapp: true, pinterest: true, email: true, classroom: true, moodle: true };
+const shareMeta = { hash: 'jclic,edu', via: 'jclic' };
+
 const supportedLanguages = ['en', 'ca', 'es'];
+const langNames = ['English', 'Català', 'Español'];
 const defaultLanguage = 'en';
 
 const localizedTitles = {
@@ -51,11 +57,7 @@ const localizedDescriptions = {
 };
 const description = localizedDescriptions[defaultLanguage];
 
-const langNames = {
-  ca: 'Català',
-  es: 'Español',
-  en: 'English',
-}
+const specialPages = ['/search/', '/blog/', '/repo/'];
 
 // Gatsby config options
 const config = {
@@ -73,11 +75,11 @@ const config = {
     defaultLanguage,
     supportedLanguages,
     langNames,
-    localizedTitles,
-    localizedShortTitles,
-    localizedDescriptions,
-    localizedAuthors,
-    specialPages: ['/search/', '/blog/', '/repo/'],
+    specialPages,
+    shareOn,
+    shareMeta,
+    cardFileName,
+    facebookId: FACEBOOK_ID,
   },
   plugins: [
     // Static pages
@@ -192,7 +194,7 @@ const config = {
         subtitleFontSize: 48, // defaults to 60
         // fontStyle: 'monospace', // defaults to "monospace"
         fontFile: require.resolve('./content/assets/oswald-v29-latin-500.ttf'), // will override fontStyle - path to custom TTF font
-        // cardFileName: 'twitter-card.jpg', // defaults to "twitter-card.jpg"
+        cardFileName, // defaults to "twitter-card.jpg"
       },
     },
     // Generate feeds
@@ -247,7 +249,7 @@ const config = {
               });
             },
             output: lang === defaultLanguage ? 'rss.xml' : `rss-${lang}.xml`,
-            title: `${localizedTitles[lang]} (${langNames[lang]})`,
+            title: `${localizedTitles[lang]} (${langNames[supportedLanguages.indexOf(lang)]})`,
             language: lang,
           };
         }),
