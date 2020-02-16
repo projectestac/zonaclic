@@ -6,7 +6,6 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import Project from './Project';
 import RepoList from "./RepoList";
 
-
 const REPO_BASE = 'https://clic.xtec.cat/projects/';
 const REPO_LIST = 'projects.json';
 
@@ -32,7 +31,7 @@ function RepoMain({ location, SLUG, intl, act, ...props }) {
     if (act) {
       const fullPath = `${REPO_BASE}${act}`;
       // Load a specific project
-      fetch(`${fullPath}/project.json`)
+      fetch(`${fullPath}/project.json`, { referrerPolicy: 'no-referrer' })
         .then(response => {
           if (!response.ok)
             throw new Error(response.statusText);
@@ -48,7 +47,7 @@ function RepoMain({ location, SLUG, intl, act, ...props }) {
         });
     } else {
       // Load the full repo list
-      fetch(`${REPO_BASE}${REPO_LIST}`)
+      fetch(`${REPO_BASE}${REPO_LIST}`, { referrerPolicy: 'no-referrer' })
         .then(response => {
           if (!response.ok)
             throw new Error(response.statusText);

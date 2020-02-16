@@ -9,6 +9,8 @@ const useStyles = makeStyles(_theme => ({
   },
 }));
 
+const shareSites = { moodle: true, classroom: true, embed: true };
+
 function Project({ intl, project, SLUG, location, ...props }) {
 
   const {
@@ -25,7 +27,9 @@ function Project({ intl, project, SLUG, location, ...props }) {
   const slug = `${SLUG}?act=${path}`
   const pageTitle = `${messages['repo-title']} - ${title}`;
   const pageDesc = description[k];
-  const imgPath = `${fullPath}/${cover}`;
+  const imgPath = cover && `${fullPath}/${cover}`;
+  const moodleLink = `${fullPath}/${mainFile}`;
+  const embedCode = `<iframe width="800" height="600" frameborder="0" allowFullScreen="true" src="${fullPath}/jclic.js/index.html"></iframe>`
 
   return (
     <div {...props} className={classes.root}>
@@ -34,8 +38,8 @@ function Project({ intl, project, SLUG, location, ...props }) {
       <h3>{author}</h3>
       <h3>{school}</h3>
       <p>{date}</p>
-      <ShareButtons {...{ intl, link: location?.href, title, description, slug, thumbnail: cover || thumbnail }} />
-      {cover && <img src={imgPath} alt={messages['cover-alt']} />}
+      <ShareButtons {...{ shareSites, intl, link: location?.href, title, description, slug, thumbnail: imgPath || thumbnail, moodleLink, embedCode }} />
+      {imgPath && <img src={imgPath} alt={messages['cover-alt']} />}
       <div dangerouslySetInnerHTML={{ __html: htmlContent(description[k]) }}></div>
     </div>
   );

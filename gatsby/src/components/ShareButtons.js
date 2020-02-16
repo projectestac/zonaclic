@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { getImgUrl } from '../utils/misc';
 import IconButton from '@material-ui/core/IconButton';
@@ -11,6 +11,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import TelegramIcon from '@material-ui/icons/Telegram';
 import PinterestIcon from '@material-ui/icons/Pinterest';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+import CodeIcon from '@material-ui/icons/Code';
 
 const query = graphql`
   query {
@@ -19,7 +20,7 @@ const query = graphql`
         baseUrl
         pathPrefix
         cardFileName
-        shareOn {
+        shareSites {
           twitter
           facebook
           telegram
@@ -28,6 +29,7 @@ const query = graphql`
           email
           classroom
           moodle
+          embed
         }
         shareMeta {
           hash
@@ -39,12 +41,22 @@ const query = graphql`
   }
 `;
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles(_theme => ({
   root: {
     display: 'flex',
     "& button": {
       marginLeft: '-0.7rem',
     }
+  },
+  moodleBox: {
+    padding: '1rem',
+    marginBottom: '1rem',
+    backgroundColor: 'yellow',
+  },
+  embedBox: {
+    padding: '1rem',
+    marginBottom: '1rem',
+    backgroundColor: 'orange',
   },
   twitter: {
     color: '#01acee',
@@ -89,91 +101,111 @@ export const MoodleIcon = () =>
 
 const E = encodeURIComponent;
 
-export default function ShareButtons({ intl, slug, thumbnail, link, moodleLink, title, description, emailBody, ...props }) {
+export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, slug, thumbnail, link, moodleLink, embedCode, title, description, emailBody, ...props }) {
 
-  const { site: { siteMetadata } } = useStaticQuery(query);
-  const { shareOn: { twitter, facebook, telegram, whatsapp, pinterest, email, classroom, moodle } } = siteMetadata;
-  const { shareMeta: { hash, via } } = siteMetadata;
   const classes = mergeClasses(props, useStyles());
+  const [embedBox, setEmbedBox] = useState(false);
+  const [moodleBox, setMoodleBox] = useState(false);
+  const { site: { siteMetadata } } = useStaticQuery(query);
+  const { twitter, facebook, telegram, whatsapp, pinterest, email, classroom, moodle, embed } = { ...siteMetadata.shareSites, ...shareSites };
+  const { hash, via } = { ...siteMetadata.shareMeta, shareMeta };
   const { messages, locale: lang } = intl;
   const img = getImgUrl({ siteMetadata, slug, lang, thumbnail });
 
   return (
-    <div className={classes.root}>
-      {twitter && title && link &&
-        <a
-          href={`https://twitter.com/intent/tweet?text=${E(title)}&url=${E(link)}${hash ? `&hashtags=${E(hash)}` : ''}${via ? `&via=${E(via)}` : ''}`}
-          target="_blank"
-          rel="noopener noreferrer">
-          <IconButton className={classes.twitter} aria-label="Twitter" title={messages['share-twitter']} >
-            <TwitterIcon />
+    <>
+      <div className={classes.root}>
+        {twitter && title && link &&
+          <a
+            href={`https://twitter.com/intent/tweet?text=${E(title)}&url=${E(link)}${hash ? `&hashtags=${E(hash)}` : ''}${via ? `&via=${E(via)}` : ''}`}
+            target="_blank"
+            rel="noopener noreferrer">
+            <IconButton className={classes.twitter} aria-label="Twitter" title={messages['share-twitter']} >
+              <TwitterIcon />
+            </IconButton>
+          </a>
+        }
+        {facebook && title && link &&
+          <a
+            href={`https://www.facebook.com/dialog/feed?app_id=${siteMetadata.facebookId}&link=${E(link)}${img ? `&picture=${E(img)}` : ''}&name=${E(title)}${description ? `&description=${E(description)}` : ''}&redirect_uri=${E('https://facebook.com')}`}
+            target="_blank"
+            rel="noopener noreferrer">
+            <IconButton className={classes.facebook} aria-label="Facebook" title={messages['share-facebook']}>
+              <FacebookIcon />
+            </IconButton>
+          </a>
+        }
+        {telegram && title && link &&
+          <a
+            href={`https://telegram.me/share/url?url=${E(link)}&text=${E(`${title}\n${description || ''}`)}`}
+            target="_blank"
+            rel="noopener noreferrer">
+            <IconButton className={classes.telegram} aria-label="Telegram" title={messages['share-telegram']}>
+              <TelegramIcon />
+            </IconButton>
+          </a>}
+        {whatsapp && title && link &&
+          <a
+            href={`https://api.whatsapp.com/send?text=${E(`${title}\n${link}`)}`}
+            target="_blank"
+            rel="noopener noreferrer">
+            <IconButton className={classes.whatsapp} aria-label="WhatsApp" title={messages['share-whatsapp']}>
+              <WhatsAppIcon />
+            </IconButton>
+          </a>
+        }
+        {pinterest && img && title && link &&
+          <a
+            href={`https://pinterest.com/pin/create/button/?url=${E(link)}&media=${E(img)}&description=${E(title)}`}
+            target="_blank"
+            rel="noopener noreferrer">
+            <IconButton className={classes.pinterest} aria-label="Pinterest" title={messages['share-pinterest']}>
+              <PinterestIcon />
+            </IconButton>
+          </a>
+        }
+        {email && title &&
+          <a
+            href={`mailto:?subject=${E(title)}&body=${E(emailBody || `${title}\n\n${description || ''}\n${link}`)}`}
+            target="_blank"
+            rel="noopener noreferrer">
+            <IconButton className={classes.email} aria-label="E-mail" title={messages['share-email']} >
+              <EmailIcon />
+            </IconButton>
+          </a>
+        }
+        {classroom && link &&
+          <a
+            href={`https://classroom.google.com/u/0/share?url=${E(link)}`}
+            target="_blank"
+            rel="noopener noreferrer">
+            <IconButton aria-label="Google Classroom" title={messages['share-classroom']} >
+              <GClassRoomIcon />
+            </IconButton>
+          </a>
+        }
+        {embed && embedCode &&
+          <IconButton aria-label="Embed" title={messages['share-embed']} onClick={() => setEmbedBox(!embedBox)}>
+            <CodeIcon />
           </IconButton>
-        </a>
+        }
+        {moodle && moodleLink &&
+          <IconButton aria-label="Moodle" title={messages['share-moodle']} onClick={() => setMoodleBox(!moodleBox)}>
+            <MoodleIcon />
+          </IconButton>
+        }
+      </div>
+      {moodle && moodleLink && moodleBox &&
+        <div className={classes['moodleBox']}>
+          COPY MOODLE LINK: {moodleLink}
+        </div>
       }
-      {facebook && title && link &&
-        <a
-          href={`https://www.facebook.com/dialog/feed?app_id=${siteMetadata.facebookId}&link=${E(link)}${img ? `&picture=${E(img)}` : ''}&name=${E(title)}${description ? `&description=${E(description)}` : ''}&redirect_uri=${E('https://facebook.com')}`}
-          target="_blank"
-          rel="noopener noreferrer">
-          <IconButton className={classes.facebook} aria-label="Facebook" title={messages['share-facebook']}>
-            <FacebookIcon />
-          </IconButton>
-        </a>
+      {embed && embedCode && embedBox &&
+        <div className={classes['embedBox']}>
+          COPY EMBED CODE: {embedCode}
+        </div>
       }
-      {telegram && title && link &&
-        <a
-          href={`https://telegram.me/share/url?url=${E(link)}&text=${E(`${title}\n${description || ''}`)}`}
-          target="_blank"
-          rel="noopener noreferrer">
-          <IconButton className={classes.telegram} aria-label="Telegram" title={messages['share-telegram']}>
-            <TelegramIcon />
-          </IconButton>
-        </a>}
-      {whatsapp && title && link &&
-        <a
-          href={`https://api.whatsapp.com/send?text=${E(`${title}\n${link}`)}`}
-          target="_blank"
-          rel="noopener noreferrer">
-          <IconButton className={classes.whatsapp} aria-label="WhatsApp" title={messages['share-whatsapp']}>
-            <WhatsAppIcon />
-          </IconButton>
-        </a>
-      }
-      {pinterest && img && title && link &&
-        <a
-          href={`https://pinterest.com/pin/create/button/?url=${link}&media=${img}&description=${title}`}
-          target="_blank"
-          rel="noopener noreferrer">
-          <IconButton className={classes.pinterest} aria-label="Pinterest" title={messages['share-pinterest']}>
-            <PinterestIcon />
-          </IconButton>
-        </a>
-      }
-      {email && title &&
-        <a
-          href={`mailto:?subject=${E(title)}&body=${E(emailBody || `${title}\n\n${description || ''}\n${link}`)}`}
-          target="_blank"
-          rel="noopener noreferrer">
-          <IconButton className={classes.email} aria-label="E-mail" title={messages['share-email']} >
-            <EmailIcon />
-          </IconButton>
-        </a>
-      }
-      {classroom && link &&
-        <a
-          href={`https://classroom.google.com/u/0/share?url=${E(link)}`}
-          target="_blank"
-          rel="noopener noreferrer">
-          <IconButton aria-label="Google Classroom" title={messages['share-classroom']} >
-            <GClassRoomIcon />
-          </IconButton>
-        </a>
-      }
-      {moodle && moodleLink &&
-        <IconButton aria-label="Moodle" title={messages['share-moodle']}>
-          <MoodleIcon />
-        </IconButton>}
-    </div>
+    </>
   );
 
 
