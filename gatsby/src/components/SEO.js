@@ -18,8 +18,8 @@ const query = graphql`
         title
         description
         author
-        siteUrl
-        siteRoot
+        baseUrl
+        pathPrefix
         cardFileName
         supportedLanguages
       }

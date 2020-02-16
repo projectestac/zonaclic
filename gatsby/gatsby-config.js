@@ -16,8 +16,8 @@ const OFFLINE_PWA = 'true' === process.env.OFFLINE_PWA;
 const FACEBOOK_ID = process.env.FACEBOOK_ID || '';
 
 // Main metadata settings
-const siteUrl = BASE_URL;
-const siteRoot = BASE_URL.substr(0, BASE_URL.length - PATH_PREFIX.length - 1);
+const pathPrefix = PATH_PREFIX;
+const baseUrl = BASE_URL;
 const cardFileName = 'card.jpg';
 const themeColor = '#663399';
 const themeBackground = '#ffffff';
@@ -66,8 +66,8 @@ const config = {
     title,
     author,
     description,
-    siteUrl,
-    siteRoot,
+    pathPrefix,
+    baseUrl,
     version,
     social: {
       twitter: 'jclic',
@@ -208,8 +208,8 @@ const config = {
               siteMetadata {
                 title
                 description
-                siteUrl
-                site_url: siteUrl
+                baseUrl
+                pathPrefix
               }
             }
           }`,
@@ -233,9 +233,9 @@ const config = {
                 }
               }
             }`,
-            serialize: ({ query: { site, allMdx } }) => {
+            serialize: ({ query: { site: { siteMetadata: { baseUrl, pathPrefix } }, allMdx } }) => {
               return allMdx.edges.map(({ node: { fields: { slug }, frontmatter, excerpt, body } }) => {
-                const url = `${site.siteMetadata.siteUrl}/${lang}${slug}`;
+                const url = `${baseUrl}${pathPrefix}/${lang}${slug}`;
                 return Object.assign(
                   {},
                   frontmatter,

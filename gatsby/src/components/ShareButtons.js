@@ -16,8 +16,8 @@ const query = graphql`
   query {
     site {
       siteMetadata {
-        siteUrl
-        siteRoot
+        baseUrl
+        pathPrefix
         cardFileName
         shareOn {
           twitter

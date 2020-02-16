@@ -20,10 +20,10 @@ export const isAbsoluteUrl = (text) => /^https?:\/\//.test(text);
 
 export const htmlContent = (desc) => /<\w*>/.test(desc) ? desc : desc.replace(/\n/g, '<br/>\n');
 
-export const getImgUrl = ({ siteMetadata: { siteRoot, siteUrl, cardFileName }, slug, lang, thumbnail }) => {
-  return thumbnail && thumbnail?.childImageSharp?.sizes?.src
-    ? `${siteRoot}${thumbnail.childImageSharp.sizes.src}`
+export const getImgUrl = ({ siteMetadata: { baseUrl, pathPrefix, cardFileName }, slug, lang, thumbnail }) => {
+  return thumbnail && thumbnail?.childImageSharp?.fluid?.src
+    ? `${baseUrl}${thumbnail.childImageSharp.fluid.src}`
     : slug
-      ? `${siteUrl}${lang}${slug}${cardFileName}`
+      ? `${baseUrl}${pathPrefix}/${lang}${slug}${cardFileName}`
       : null;
 }
