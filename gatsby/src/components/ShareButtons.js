@@ -1,9 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { getImgUrl } from '../utils/misc';
 import IconButton from '@material-ui/core/IconButton';
 import { makeStyles } from '@material-ui/core/styles';
 import { mergeClasses } from '../utils/misc';
+import Paper from '@material-ui/core/Paper';
+import Input from '@material-ui/core/Input';
+import InputAdornment from '@material-ui/core/InputAdornment';
+import Tooltip from '@material-ui/core/Tooltip';
+import Snackbar from '@material-ui/core/Snackbar';
+import RadioGroup from '@material-ui/core/RadioGroup';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import Radio from '@material-ui/core/Radio';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 import SvgIcon from '@material-ui/core/SvgIcon';
 import EmailIcon from '@material-ui/icons/Email';
 import FacebookIcon from '@material-ui/icons/Facebook';
@@ -12,6 +21,8 @@ import TelegramIcon from '@material-ui/icons/Telegram';
 import PinterestIcon from '@material-ui/icons/Pinterest';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import CodeIcon from '@material-ui/icons/Code';
+import CopyIcon from '@material-ui/icons/FileCopyOutlined';
+import CloseIcon from '@material-ui/icons/Close';
 
 const query = graphql`
   query {
@@ -43,7 +54,11 @@ const query = graphql`
 
 const useStyles = makeStyles(_theme => ({
   root: {
+    position: 'relative',
+  },
+  buttons: {
     display: 'flex',
+    flexWrap: 'wrap',
     "& button": {
       marginLeft: '-0.7rem',
     }
@@ -51,12 +66,14 @@ const useStyles = makeStyles(_theme => ({
   moodleBox: {
     padding: '1rem',
     marginBottom: '1rem',
-    backgroundColor: 'yellow',
   },
   embedBox: {
     padding: '1rem',
     marginBottom: '1rem',
-    backgroundColor: 'orange',
+  },
+  radioGroup: {
+    flexDirection: 'row',
+    justifyContent: 'center',
   },
   twitter: {
     color: '#01acee',
@@ -101,11 +118,22 @@ export const MoodleIcon = () =>
 
 const E = encodeURIComponent;
 
-export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, slug, thumbnail, link, moodleLink, embedCode, title, description, emailBody, ...props }) {
+const buildEmbedCode = options => options ? `<iframe ${Object.keys(options).map(key => `${key}="${options[key]}"`).join(' ')}></iframe>` : null;
+
+export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, slug, thumbnail, link, moodleLink, embedOptions, title, description, emailBody, ...props }) {
 
   const classes = mergeClasses(props, useStyles());
   const [embedBox, setEmbedBox] = useState(false);
   const [moodleBox, setMoodleBox] = useState(false);
+  const [snackOpen, setSnackOpen] = useState(false);
+  const handleSnackClose = (_ev, reason) => { if (reason !== 'clickaway') setSnackOpen(false); };
+  const [embedCode, setEmbedCode] = useState(buildEmbedCode(embedOptions));
+  const [embedOption, setEmbedOption] = useState('800x600');
+  const handleEmbedChange = ev => {
+    setEmbedOption(ev.target.value);
+    const wh = ev.target.value.split('x');
+    setEmbedCode(buildEmbedCode({ ...embedOptions, width: wh[0], height: wh[1] }));
+  }
   const { site: { siteMetadata } } = useStaticQuery(query);
   const { twitter, facebook, telegram, whatsapp, pinterest, email, classroom, moodle, embed } = { ...siteMetadata.shareSites, ...shareSites };
   const { hash, via } = { ...siteMetadata.shareMeta, shareMeta };
@@ -113,14 +141,14 @@ export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, sl
   const img = getImgUrl({ siteMetadata, slug, lang, thumbnail });
 
   return (
-    <>
-      <div className={classes.root}>
+    <div className={classes.root}>
+      <div className={classes.buttons}>
         {twitter && title && link &&
           <a
             href={`https://twitter.com/intent/tweet?text=${E(title)}&url=${E(link)}${hash ? `&hashtags=${E(hash)}` : ''}${via ? `&via=${E(via)}` : ''}`}
             target="_blank"
             rel="noopener noreferrer">
-            <IconButton className={classes.twitter} aria-label="Twitter" title={messages['share-twitter']} >
+            <IconButton className={classes.twitter} aria-label="Twitter" title={messages['share-twitter']}>
               <TwitterIcon />
             </IconButton>
           </a>
@@ -185,27 +213,99 @@ export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, sl
           </a>
         }
         {embed && embedCode &&
-          <IconButton aria-label="Embed" title={messages['share-embed']} onClick={() => setEmbedBox(!embedBox)}>
+          <IconButton
+            aria-label="Embed"
+            title={messages['share-embed']}
+            onClick={() => {
+              setSnackOpen(false);
+              setMoodleBox(false);
+              setEmbedBox(!embedBox);
+            }}>
             <CodeIcon />
           </IconButton>
         }
         {moodle && moodleLink &&
-          <IconButton aria-label="Moodle" title={messages['share-moodle']} onClick={() => setMoodleBox(!moodleBox)}>
+          <IconButton
+            aria-label="Moodle"
+            title={messages['share-moodle']}
+            onClick={() => {
+              setSnackOpen(false);
+              setMoodleBox(!moodleBox);
+              setEmbedBox(false);
+            }}>
             <MoodleIcon />
           </IconButton>
         }
       </div>
       {moodle && moodleLink && moodleBox &&
-        <div className={classes['moodleBox']}>
-          COPY MOODLE LINK: {moodleLink}
-        </div>
+        <Paper className={classes['moodleBox']} elevation={2}>
+          <label htmlFor="moodleLink" dangerouslySetInnerHTML={{ __html: messages['share-moodle-label'] }} />
+          <Input
+            type="text"
+            fullWidth
+            id="moodleLink"
+            value={moodleLink}
+            inputProps={{
+              readOnly: true,
+            }}
+            endAdornment={
+              <InputAdornment position="end">
+                <CopyToClipboard text={moodleLink} onCopy={() => setSnackOpen(true)}>
+                  <Tooltip title={messages['share-copy']} placement="top" arrow>
+                    <IconButton aria-label="Copy" >
+                      <CopyIcon />
+                    </IconButton>
+                  </Tooltip>
+                </CopyToClipboard>
+              </InputAdornment>
+            }
+          />
+        </Paper>
       }
       {embed && embedCode && embedBox &&
-        <div className={classes['embedBox']}>
-          COPY EMBED CODE: {embedCode}
-        </div>
+        <Paper className={classes['embedBox']} elevation={2}>
+          <label htmlFor="embedLink">{messages['share-embed-label']}</label>
+          <Input
+            type="text"
+            fullWidth
+            id="embedLink"
+            value={embedCode}
+            inputProps={{
+              readOnly: true,
+            }}
+            endAdornment={
+              <InputAdornment position="end">
+                <CopyToClipboard text={embedCode} onCopy={() => setSnackOpen(true)}>
+                  <Tooltip title={messages['share-copy']} placement="top" arrow>
+                    <IconButton aria-label="Copy">
+                      <CopyIcon />
+                    </IconButton>
+                  </Tooltip>
+                </CopyToClipboard>
+              </InputAdornment>
+            }
+          />
+          <RadioGroup className={classes['radioGroup']} aria-label="size" value={embedOption} onChange={handleEmbedChange}>
+            <FormControlLabel value={'640x390'} control={<Radio />} label="640x390" />
+            <FormControlLabel value={'800x600'} control={<Radio />} label="800x600" />
+            <FormControlLabel value={'100%x800'} control={<Radio />} label="100%" />
+          </RadioGroup>
+        </Paper>
       }
-    </>
+      <Snackbar
+        style={{ position: 'relative' }}
+        open={snackOpen}
+        autoHideDuration={4000}
+        onClose={handleSnackClose}
+        anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+        message={messages['share-copied']}
+        action={
+          <IconButton size="small" aria-label="close" color="inherit" onClick={handleSnackClose}>
+            <CloseIcon fontSize="small" />
+          </IconButton>
+        }
+      />
+    </div>
   );
 
 

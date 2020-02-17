@@ -7,6 +7,9 @@ import ShareButtons from '../ShareButtons';
 const useStyles = makeStyles(_theme => ({
   root: {
   },
+  cover: {
+    maxWidth: '100%',
+  }
 }));
 
 const shareSites = { moodle: true, classroom: true, embed: true };
@@ -29,7 +32,13 @@ function Project({ intl, project, SLUG, location, ...props }) {
   const pageDesc = description[k];
   const imgPath = cover && `${fullPath}/${cover}`;
   const moodleLink = `${fullPath}/${mainFile}`;
-  const embedCode = `<iframe width="800" height="600" frameborder="0" allowFullScreen="true" src="${fullPath}/jclic.js/index.html"></iframe>`
+  const embedOptions = {
+    width: '800',
+    height: '600',
+    frameborder: '0',
+    allowFullScreen: 'true',
+    src: `${fullPath}/jclic.js/index.html`,
+  }
 
   return (
     <div {...props} className={classes.root}>
@@ -38,8 +47,8 @@ function Project({ intl, project, SLUG, location, ...props }) {
       <h3>{author}</h3>
       <h3>{school}</h3>
       <p>{date}</p>
-      <ShareButtons {...{ shareSites, intl, link: location?.href, title, description, slug, thumbnail: imgPath || thumbnail, moodleLink, embedCode }} />
-      {imgPath && <img src={imgPath} alt={messages['cover-alt']} />}
+      <ShareButtons {...{ shareSites, intl, link: location?.href, title, description, slug, thumbnail: imgPath || thumbnail, moodleLink, embedOptions }} />
+      {imgPath && <img src={imgPath} alt={messages['cover-alt']} className={classes['cover']} />}
       <div dangerouslySetInnerHTML={{ __html: htmlContent(description[k]) }}></div>
     </div>
   );
