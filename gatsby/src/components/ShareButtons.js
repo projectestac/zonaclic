@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { getImgUrl } from '../utils/misc';
 import IconButton from '@material-ui/core/IconButton';
@@ -7,7 +7,6 @@ import { mergeClasses } from '../utils/misc';
 import Paper from '@material-ui/core/Paper';
 import Input from '@material-ui/core/Input';
 import InputAdornment from '@material-ui/core/InputAdornment';
-import Tooltip from '@material-ui/core/Tooltip';
 import Snackbar from '@material-ui/core/Snackbar';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
@@ -118,7 +117,7 @@ export const MoodleIcon = () =>
 
 const E = encodeURIComponent;
 
-const buildEmbedCode = options => options ? `<iframe ${Object.keys(options).map(key => `${key}="${options[key]}"`).join(' ')}></iframe>` : null;
+
 
 export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, slug, thumbnail, link, moodleLink, embedOptions, title, description, emailBody, ...props }) {
 
@@ -127,10 +126,11 @@ export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, sl
   const [moodleBox, setMoodleBox] = useState(false);
   const [snackOpen, setSnackOpen] = useState(false);
   const handleSnackClose = (_ev, reason) => { if (reason !== 'clickaway') setSnackOpen(false); };
+  const buildEmbedCode = (options) => options ? `<iframe ${Object.keys(options).map(key => `${key}="${options[key]}"`).join(' ')}></iframe>` : null;
   const [embedCode, setEmbedCode] = useState(buildEmbedCode(embedOptions));
-  const [embedOption, setEmbedOption] = useState('800x600');
-  const handleEmbedChange = ev => {
-    setEmbedOption(ev.target.value);
+  const [embedSize, setEmbedSize] = useState('800x600');
+  const handleChangeEmbedSize = (ev) => {
+    setEmbedSize(ev.target.value);
     const wh = ev.target.value.split('x');
     setEmbedCode(buildEmbedCode({ ...embedOptions, width: wh[0], height: wh[1] }));
   }
@@ -148,7 +148,7 @@ export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, sl
             href={`https://twitter.com/intent/tweet?text=${E(title)}&url=${E(link)}${hash ? `&hashtags=${E(hash)}` : ''}${via ? `&via=${E(via)}` : ''}`}
             target="_blank"
             rel="noopener noreferrer">
-            <IconButton className={classes.twitter} aria-label="Twitter" title={messages['share-twitter']}>
+            <IconButton className={classes.twitter} aria-label={messages['share-twitter']} title={messages['share-twitter']}>
               <TwitterIcon />
             </IconButton>
           </a>
@@ -158,7 +158,7 @@ export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, sl
             href={`https://www.facebook.com/dialog/feed?app_id=${siteMetadata.facebookId}&link=${E(link)}${img ? `&picture=${E(img)}` : ''}&name=${E(title)}${description ? `&description=${E(description)}` : ''}&redirect_uri=${E('https://facebook.com')}`}
             target="_blank"
             rel="noopener noreferrer">
-            <IconButton className={classes.facebook} aria-label="Facebook" title={messages['share-facebook']}>
+            <IconButton className={classes.facebook} aria-label={messages['share-facebook']} title={messages['share-facebook']}>
               <FacebookIcon />
             </IconButton>
           </a>
@@ -168,7 +168,7 @@ export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, sl
             href={`https://telegram.me/share/url?url=${E(link)}&text=${E(`${title}\n${description || ''}`)}`}
             target="_blank"
             rel="noopener noreferrer">
-            <IconButton className={classes.telegram} aria-label="Telegram" title={messages['share-telegram']}>
+            <IconButton className={classes.telegram} aria-label={messages['share-telegram']} title={messages['share-telegram']}>
               <TelegramIcon />
             </IconButton>
           </a>}
@@ -177,7 +177,7 @@ export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, sl
             href={`https://api.whatsapp.com/send?text=${E(`${title}\n${link}`)}`}
             target="_blank"
             rel="noopener noreferrer">
-            <IconButton className={classes.whatsapp} aria-label="WhatsApp" title={messages['share-whatsapp']}>
+            <IconButton className={classes.whatsapp} aria-label={messages['share-whatsapp']} title={messages['share-whatsapp']}>
               <WhatsAppIcon />
             </IconButton>
           </a>
@@ -187,7 +187,7 @@ export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, sl
             href={`https://pinterest.com/pin/create/button/?url=${E(link)}&media=${E(img)}&description=${E(title)}`}
             target="_blank"
             rel="noopener noreferrer">
-            <IconButton className={classes.pinterest} aria-label="Pinterest" title={messages['share-pinterest']}>
+            <IconButton className={classes.pinterest} aria-label={messages['share-pinterest']} title={messages['share-pinterest']}>
               <PinterestIcon />
             </IconButton>
           </a>
@@ -197,7 +197,7 @@ export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, sl
             href={`mailto:?subject=${E(title)}&body=${E(emailBody || `${title}\n\n${description || ''}\n${link}`)}`}
             target="_blank"
             rel="noopener noreferrer">
-            <IconButton className={classes.email} aria-label="E-mail" title={messages['share-email']} >
+            <IconButton className={classes.email} aria-label={messages['share-email']} title={messages['share-email']} >
               <EmailIcon />
             </IconButton>
           </a>
@@ -207,14 +207,14 @@ export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, sl
             href={`https://classroom.google.com/u/0/share?url=${E(link)}`}
             target="_blank"
             rel="noopener noreferrer">
-            <IconButton aria-label="Google Classroom" title={messages['share-classroom']} >
+            <IconButton aria-label={messages['share-classroom']} title={messages['share-classroom']} >
               <GClassRoomIcon />
             </IconButton>
           </a>
         }
         {embed && embedCode &&
           <IconButton
-            aria-label="Embed"
+            aria-label={messages['share-embed']}
             title={messages['share-embed']}
             onClick={() => {
               setSnackOpen(false);
@@ -226,7 +226,7 @@ export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, sl
         }
         {moodle && moodleLink &&
           <IconButton
-            aria-label="Moodle"
+            aria-label={messages['share-moodle']}
             title={messages['share-moodle']}
             onClick={() => {
               setSnackOpen(false);
@@ -251,11 +251,9 @@ export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, sl
             endAdornment={
               <InputAdornment position="end">
                 <CopyToClipboard text={moodleLink} onCopy={() => setSnackOpen(true)}>
-                  <Tooltip title={messages['share-copy']} placement="top" arrow>
-                    <IconButton aria-label="Copy" >
-                      <CopyIcon />
-                    </IconButton>
-                  </Tooltip>
+                  <IconButton aria-label={messages['share-copy']} title={messages['share-copy']} >
+                    <CopyIcon />
+                  </IconButton>
                 </CopyToClipboard>
               </InputAdornment>
             }
@@ -276,16 +274,14 @@ export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, sl
             endAdornment={
               <InputAdornment position="end">
                 <CopyToClipboard text={embedCode} onCopy={() => setSnackOpen(true)}>
-                  <Tooltip title={messages['share-copy']} placement="top" arrow>
-                    <IconButton aria-label="Copy">
-                      <CopyIcon />
-                    </IconButton>
-                  </Tooltip>
+                  <IconButton aria-label={messages['share-copy']} title={messages['share-copy']}>
+                    <CopyIcon />
+                  </IconButton>
                 </CopyToClipboard>
               </InputAdornment>
             }
           />
-          <RadioGroup className={classes['radioGroup']} aria-label="size" value={embedOption} onChange={handleEmbedChange}>
+          <RadioGroup className={classes['radioGroup']} aria-label={messages['share-embed-size']} value={embedSize} onChange={handleChangeEmbedSize}>
             <FormControlLabel value={'640x390'} control={<Radio />} label="640x390" />
             <FormControlLabel value={'800x600'} control={<Radio />} label="800x600" />
             <FormControlLabel value={'100%x800'} control={<Radio />} label="100%" />
@@ -300,13 +296,12 @@ export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, sl
         anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
         message={messages['share-copied']}
         action={
-          <IconButton size="small" aria-label="close" color="inherit" onClick={handleSnackClose}>
+          <IconButton size="small" aria-label={messages['close']} title={messages['close']} color="inherit" onClick={handleSnackClose}>
             <CloseIcon fontSize="small" />
           </IconButton>
         }
       />
     </div>
   );
-
 
 }

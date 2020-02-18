@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import { mergeClasses } from '../../utils/misc';
-import CircularProgress from '@material-ui/core/CircularProgress';
 import Project from './Project';
-import RepoList from "./RepoList";
+import RepoList from './RepoList';
+import Loading from './Loading';
 
 const REPO_BASE = 'https://clic.xtec.cat/projects/';
 const REPO_LIST = 'projects.json';
@@ -17,7 +16,7 @@ const useStyles = makeStyles(_theme => ({
 function RepoMain({ location, SLUG, intl, act, ...props }) {
 
   const classes = mergeClasses(props, useStyles());
-  const { messages, formatMessage } = intl;
+  const { formatMessage } = intl;
   const [projects, setProjects] = useState(null);
   const [project, setProject] = useState(null);
   const [error, setError] = useState(null);
@@ -64,12 +63,11 @@ function RepoMain({ location, SLUG, intl, act, ...props }) {
 
   return (
     <div {...props} className={classes.root}>
-      <Typography variant="h3">{messages['repo-title']}</Typography>
       {
         (error && <h2>{formatMessage({ id: 'error' }, { error })}</h2>) ||
-        (project && <Project {...{ project, intl, SLUG, location }} />) ||
+        (project && <Project {...{ project, intl, SLUG, REPO_BASE, location }} />) ||
         (projects && <RepoList {...{ projects, intl, SLUG, REPO_BASE, location }} />) ||
-        <CircularProgress />
+        <Loading {...{ intl }} />
       }
     </div>
   );

@@ -2,6 +2,7 @@ import React from 'react';
 import { navigate } from 'gatsby-plugin-intl';
 import { makeStyles } from "@material-ui/core/styles";
 import { mergeClasses } from '../../utils/misc';
+import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
@@ -38,6 +39,7 @@ function RepoList({ intl, projects, SLUG, REPO_BASE, location, ...props }) {
   return (
     <div {...props} className={classes.main}>
       <SEO {...{ location, lang: locale, title, description, slug: SLUG, thumbnail: card }} />
+      <Typography variant="h3">{messages['repo-title']}</Typography>
       <ShareButtons {...{ intl, link: location?.href, title, description, slug: SLUG, thumbnail: card }} />
       <List>
         {projects
