@@ -18,7 +18,7 @@ export const mergeClasses = (props, classes, root = 'root') => {
  */
 export const isAbsoluteUrl = (text) => text && /^https?:\/\//.test(text);
 
-export const htmlContent = (desc) => /<\w*>/.test(desc) ? desc : desc.replace(/\n/g, '<br/>\n');
+export const htmlContent = (desc) => /<\w*>/.test(desc) ? desc : desc.replace(/\n/g, '<p/>\n');
 
 export const getImgUrl = ({ siteMetadata: { baseUrl, pathPrefix, cardFileName }, slug, lang, thumbnail = null }) => {
   return isAbsoluteUrl(thumbnail) ? thumbnail

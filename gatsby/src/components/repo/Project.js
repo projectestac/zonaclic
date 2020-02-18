@@ -12,13 +12,15 @@ const useStyles = makeStyles(_theme => ({
   root: {
   },
   cover: {
-    maxWidth: '50%',
-    float: 'right',
+    maxWidth: '16rem',
+    marginBottom: '1rem',
+  },
+  mainBlock: {
     marginTop: '1rem',
-    marginLeft: '1rem',
     marginBottom: '1rem',
   },
   description: {
+    minWidth: '30%',
   },
   dataCard: {
     borderCollapse: 'collapse',
@@ -26,6 +28,7 @@ const useStyles = makeStyles(_theme => ({
     lineHeight: '100%',
     "& td": {
       border: 0,
+      paddingLeft: 0,
     },
     "& td:first-child": {
       minWidth: '8rem',
@@ -80,9 +83,10 @@ function Project({ intl, project, SLUG, REPO_BASE, location, ...props }) {
       <Typography variant="h3">{title}</Typography>
       <p>{author}</p>
       <ShareButtons {...{ shareSites, intl, link: location?.href, title, description, slug, thumbnail: imgPath || thumbnail, moodleLink, embedOptions }} />
-      {imgPath && <img src={imgPath} alt={messages['cover-alt']} className={classes['cover']} />}
-      <div className={classes['description']} dangerouslySetInnerHTML={{ __html: htmlContent(description[k]) }}></div>
-      <br clear="all" />
+      <div className={classes['mainBlock']}>
+        {imgPath && <img src={imgPath} alt={messages['cover-alt']} className={classes['cover']} />}
+        <div className={classes['description']} dangerouslySetInnerHTML={{ __html: htmlContent(description[k]) }}></div>
+      </div>
       <table className={classes['dataCard']}>
         <tbody>
           <tr>
