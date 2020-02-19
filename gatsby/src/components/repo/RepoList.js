@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { navigate } from 'gatsby-plugin-intl';
 import { makeStyles } from "@material-ui/core/styles";
 import { mergeClasses } from '../../utils/misc';
@@ -11,6 +11,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import TablePagination from '@material-ui/core/TablePagination';
 import SEO from '../SEO';
 import ShareButtons from '../ShareButtons';
+import SelectProjects from './SelectProjects';
 
 const DEFAULT_ITEMS_PER_PAGE = 10;
 
@@ -26,7 +27,7 @@ const useStyles = makeStyles(_theme => ({
   },
 }));
 
-function RepoList({ intl, projects, SLUG, REPO_BASE, location, ...props }) {
+function RepoList({ intl, projects, filters, setFilters, setLoading, setError, SLUG, REPO_BASE, location, ...props }) {
 
   const { locale, messages, formatMessage } = intl;
   const classes = mergeClasses(props, useStyles());
@@ -35,12 +36,14 @@ function RepoList({ intl, projects, SLUG, REPO_BASE, location, ...props }) {
   const title = messages['repo-title'];
   const description = messages['repo-description'];
   const card = `/cards/repo/card-${locale}.jpg`;
+  useEffect(() => setPage(0), [projects]);
 
   return (
     <div {...props} className={classes.main}>
       <SEO {...{ location, lang: locale, title, description, slug: SLUG, thumbnail: card }} />
       <Typography variant="h3">{messages['repo-title']}</Typography>
       <ShareButtons {...{ intl, link: location?.href, title, description, slug: SLUG, thumbnail: card }} />
+      <SelectProjects {...{ intl, filters, setFilters, setLoading, setError }} />
       <List>
         {projects
           .slice(page * itemsPerPage, (page + 1) * itemsPerPage)

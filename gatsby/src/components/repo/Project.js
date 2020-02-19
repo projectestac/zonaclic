@@ -21,13 +21,17 @@ const useStyles = makeStyles(_theme => ({
   },
   description: {
     minWidth: '30%',
+    "& li": {
+      marginBottom: '1rem',
+    }
   },
   dataCard: {
     borderCollapse: 'collapse',
     minWidth: '80%',
-    lineHeight: '100%',
     "& td": {
-      border: 0,
+      border: 'none',
+      borderBottom: '1px solid lightgray',
+      borderTop: '1px solid lightgray',
       paddingLeft: 0,
     },
     "& td:first-child": {
@@ -45,13 +49,13 @@ const useStyles = makeStyles(_theme => ({
   related: {
     margin: 0,
     paddingLeft: 0,
-    listStyleType: 'none'
+    listStyleType: 'none',
   }
 }));
 
 const shareSites = { moodle: true, classroom: true, embed: true };
 
-function Project({ intl, project, SLUG, REPO_BASE, location, ...props }) {
+function Project({ intl, project, SLUG, REPO_BASE, location, fullProjectList, ...props }) {
 
   const {
     path, fullPath, meta_langs,
@@ -76,6 +80,8 @@ function Project({ intl, project, SLUG, REPO_BASE, location, ...props }) {
     allowFullScreen: 'true',
     src: `${fullPath}/jclic.js/index.html`,
   }
+  const getProjectTitle = path => (fullProjectList && fullProjectList?.find(prj => prj.path === path)?.title) || path;
+
 
   return (
     <div {...props} className={classes.root}>
@@ -156,7 +162,7 @@ function Project({ intl, project, SLUG, REPO_BASE, location, ...props }) {
               <td>
                 <ul className={classes['related']}>
                   {relatedTo.map((prj, n) => (
-                    <li key={n}><Link to={`/repo/?act=${prj}`}>{prj}</Link></li>
+                    <li key={n}><Link to={`/repo/?act=${prj}`}>{getProjectTitle(prj)}</Link></li>
                   ))}
                 </ul>
               </td>
