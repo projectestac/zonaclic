@@ -17,7 +17,7 @@ import TablePagination from '@material-ui/core/TablePagination';
 import { FontAwIcon } from '../utils/FontAwIcon';
 
 const SLUG = '/search/';
-const DEFAULT_ITEMS_PER_PAGE = 10;
+const DEFAULT_ITEMS_PER_PAGE = 25;
 
 // Fuse.js options
 // See: https://fusejs.io/

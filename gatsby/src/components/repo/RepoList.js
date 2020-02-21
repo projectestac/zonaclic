@@ -13,7 +13,7 @@ import SEO from '../SEO';
 import ShareButtons from '../ShareButtons';
 import SelectProjects from './SelectProjects';
 
-const DEFAULT_ITEMS_PER_PAGE = 10;
+const DEFAULT_ITEMS_PER_PAGE = 25;
 
 const useStyles = makeStyles(_theme => ({
   root: {

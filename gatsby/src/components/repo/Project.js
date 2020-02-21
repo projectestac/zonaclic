@@ -12,8 +12,33 @@ const useStyles = makeStyles(_theme => ({
   root: {
   },
   cover: {
-    maxWidth: '16rem',
+    position: 'relative',
+    maxHeight: '10rem',
     marginBottom: '1rem',
+  },
+  overlayBtn: {
+    position: 'absolute',
+    padding: '0.5rem',
+    opacity: '10%',
+    height: '50%',
+    width: '50%',
+    left: '50%',
+    top: '50%',
+    transform: 'translate(-50%,-50%)',
+    cursor: 'pointer',
+    background: 'transparent',
+    border: 'none',
+    "& img": {
+      maxWidth: '100%',
+      maxHeight: '100%',
+    },
+    "&:hover": {
+      opacity: '75%',
+    },
+  },
+  btnContainer: {
+    display: 'inline-block',
+    position: 'relative',
   },
   mainBlock: {
     marginTop: '1rem',
@@ -90,7 +115,14 @@ function Project({ intl, project, SLUG, REPO_BASE, location, fullProjectList, ..
       <p>{author}</p>
       <ShareButtons {...{ shareSites, intl, link: location?.href, title, description, slug, thumbnail: imgPath || thumbnail, moodleLink, embedOptions }} />
       <div className={classes['mainBlock']}>
-        {imgPath && <img src={imgPath} alt={messages['cover-alt']} className={classes['cover']} />}
+        {imgPath &&
+          <div className={classes['btnContainer']}>
+            <img src={imgPath} alt={messages['cover-alt']} className={classes['cover']} />
+            <button className={classes['overlayBtn']} onClick={() => alert('hola!')}>
+              <img src="/img/play-button.png" alt="play" />
+            </button>
+          </div>
+        }
         <div className={classes['description']} dangerouslySetInnerHTML={{ __html: htmlContent(description[k]) }}></div>
       </div>
       <table className={classes['dataCard']}>
