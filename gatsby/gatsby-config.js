@@ -265,7 +265,10 @@ const config = {
         webFontsConfig: {
           fonts: {
             google: [
+              { family: 'Merriweather', variants: ['300', '400', '500'] },
               { family: 'Roboto', variants: ['300', '400', '500'] },
+              { family: 'Montserrat', variants: ['800'] },
+	      { family: 'Catamaran', variants: ['700', '800','900']},
               // { family: 'Open Sans', variants: ['300', '400', '500'] },
             ],
           },

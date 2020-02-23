@@ -41,7 +41,7 @@ function RepoList({ intl, projects, filters, setFilters, setLoading, setError, S
   return (
     <div {...props} className={classes.main}>
       <SEO {...{ location, lang: locale, title, description, slug: SLUG, thumbnail: card }} />
-      <Typography variant="h3">{messages['repo-title']}</Typography>
+      <Typography variant="h1">{messages['repo-title']}</Typography>
       <ShareButtons {...{ intl, link: location?.href, title, description, slug: SLUG, thumbnail: card }} />
       <SelectProjects {...{ intl, filters, setFilters, setLoading, setError }} />
       <List>

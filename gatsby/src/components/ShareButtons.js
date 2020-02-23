@@ -59,7 +59,7 @@ const useStyles = makeStyles(_theme => ({
     display: 'flex',
     flexWrap: 'wrap',
     "& button": {
-      marginLeft: '-0.7rem',
+      marginLeft: '-0.8rem',
     }
   },
   moodleBox: {

@@ -71,6 +71,9 @@ const useStyles = makeStyles(_theme => ({
     marginRight: '0.9rem',
     opacity: .7,
   },
+  cctext: {
+    fontSize: '9pt',
+  },
   related: {
     margin: 0,
     paddingLeft: 0,
@@ -111,7 +114,7 @@ function Project({ intl, project, SLUG, REPO_BASE, location, fullProjectList, ..
   return (
     <div {...props} className={classes.root}>
       <SEO {...{ location, lang: locale, title: pageTitle, description: pageDesc, slug, thumbnail: imgPath }} />
-      <Typography variant="h3">{title}</Typography>
+      <Typography variant="h2">{title}</Typography>
       <p>{author}</p>
       <ShareButtons {...{ shareSites, intl, link: location?.href, title, description, slug, thumbnail: imgPath || thumbnail, moodleLink, embedOptions }} />
       <div className={classes['mainBlock']}>
@@ -184,7 +187,7 @@ function Project({ intl, project, SLUG, REPO_BASE, location, fullProjectList, ..
               <td>{`${messages['prj-license']}:`}</td>
               <td>
                 <img className={classes['cclogo']} src={withPrefix('/img/cclogo.png')} alt="CC" />
-                <div dangerouslySetInnerHTML={{ __html: license[locale] || license[defaultLocale] }} />
+                <div className={classes['cctext']} dangerouslySetInnerHTML={{ __html: license[locale] || license[defaultLocale] }} />
               </td>
             </tr>
           }
