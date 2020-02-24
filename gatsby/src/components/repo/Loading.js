@@ -8,7 +8,7 @@ const useStyles = makeStyles(_theme => ({
   root: {
   },
   progress: {
-    marginTop: '1rem',
+    marginTop: '2rem',
   }
 }));
 
@@ -17,7 +17,7 @@ function Loading({ intl, ...props }) {
   const { messages } = intl;
   return (
     <div className={classes.root}>
-      <Typography variant="h3">{messages['repo-title']}</Typography>
+      <Typography variant="h1">{messages['repo-title']}</Typography>
       <p>{messages['loading']}</p>
       <CircularProgress className={classes['progress']} />
     </div>

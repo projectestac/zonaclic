@@ -1,39 +1,42 @@
 
-import { red } from '@material-ui/core/colors';
 import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
 
 const theme = responsiveFontSizes(
   createMuiTheme({
     palette: {
-      primary: { main: '#1976D2', contrastText: '#ffffff' },
-      secondary: { main: '#AED581', contrastText: '#004D40' },
-      error: red,
+      // primary: { main: '#1976D2', contrastText: '#ffffff' },
+      primary: { main: '#1976d2' },
+      //secondary: { main: '#AED581', contrastText: '#004D40' },
+      secondary: { main: '#fbc02d' },
+      //error: red,
     },
     typography: {
-      fontFamily: ['Roboto', 'sans-serif'].join(','),
+      fontFamily: ['"Roboto"', '"Helvetica"', '"Arial"', 'sans-serif'].join(','),
+      fontDisplay: 'swap',
       h1: {
-        fontFamily: ['Catamaran', 'sans-serif'].join(','),
+        fontFamily: ['"Montserrat"', 'sans-serif'].join(','),
         fontWeight: 800,
-        opacity: 0.75,
-        fontSize: '4rem',
+        fontSize: '3.5rem',
         marginBottom: '1rem',
       },
       h2: {
-        fontFamily: ['Catamaran', 'sans-serif'].join(','),
+        fontFamily: ['"Montserrat"', 'sans-serif'].join(','),
         fontWeight: 800,
-        opacity: 0.75,
         fontSize: '2.5rem',
         marginBottom: '0.8rem',
       },
       h3: {
-        fontFamily: ['Montserrat', 'sans-serif'].join(','),
+        fontFamily: ['"Montserrat"', 'sans-serif'].join(','),
         fontWeight: 800,
-        opacity: 0.75,
         fontSize: '2rem',
         marginBottom: '0.6rem',
       },
-      body2: {
-        fontFamily: ['Merriweather', 'Georgia', 'serif'].join(','),
+      body3: {
+        fontFamily: ['"Merriweather"', '"Georgia"', 'serif'].join(','),
+        fontWeight: 400,
+        fontSize: '1rem',
+        lineHeight: 1.5,
+        letterSpacing: '0.00938em',
       },
     },
     drawerWidth: '14rem',

@@ -14,8 +14,8 @@ import ShareButtons from '../components/ShareButtons';
 
 const useStyles = makeStyles(theme => ({
   article: {
-    ...theme.typography.body2,
-    '& h1': { ...theme.typography.h1 },
+    ...theme.typography.body3,
+    '& h1': { ...theme.typography.h1, color: theme.palette.primary.dark, },
     '& h2': { ...theme.typography.h2 },
     '& h3': { ...theme.typography.h3 },
     '& h4': { ...theme.typography.h4 },

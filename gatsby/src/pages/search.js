@@ -6,7 +6,6 @@ import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import { useIntl, navigate } from 'gatsby-plugin-intl';
 import queryString from 'query-string';
-import Typography from '@material-ui/core/Typography';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
@@ -36,6 +35,10 @@ const FUSE_OPTIONS = {
 };
 
 const useStyles = makeStyles(theme => ({
+  root: {
+    '& h1': { ...theme.typography.h1, color: theme.palette.primary.dark, },
+    '& h2': { ...theme.typography.h2, color: theme.palette.primary.dark, },
+  },
   spacer: {
     display: 'none',
   },
@@ -94,9 +97,9 @@ export default function Search({ location, data }) {
   return (
     <Layout {...{ intl, slug: SLUG }}>
       <SEO {...{ lang, title, location, slug: SLUG }} />
-      <article>
+      <article className={classes.root}>
         <header>
-          <Typography variant="h2" gutterBottom>{title}</Typography>
+          <h2>{title}</h2>
         </header>
         <hr />
         {

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { makeStyles } from "@material-ui/core/styles";
-import { mergeClasses, checkFetchResponse } from '../../utils/misc';
+import { checkFetchResponse } from '../../utils/misc';
 import Project from './Project';
 import RepoList from './RepoList';
 import Loading from './Loading';
@@ -8,14 +7,8 @@ import Loading from './Loading';
 const REPO_BASE = 'https://clic.xtec.cat/projects/';
 const REPO_LIST = 'projects.json';
 
-const useStyles = makeStyles(_theme => ({
-  root: {
-  },
-}));
+function RepoMain({ location, SLUG, intl, act }) {
 
-function RepoMain({ location, SLUG, intl, act, ...props }) {
-
-  const classes = mergeClasses(props, useStyles());
   const { formatMessage } = intl;
   const [fullProjectList, setFullProjectList] = useState(null);
   const [projects, setProjects] = useState(null);
@@ -69,14 +62,10 @@ function RepoMain({ location, SLUG, intl, act, ...props }) {
   }, [act, project, fullProjectList, filters]);
 
   return (
-    <div {...props} className={classes.root}>
-      {
-        (error && <h2>{formatMessage({ id: 'error' }, { error })}</h2>) ||
-        (loading && <Loading {...{ intl }} />) ||
-        (project && <Project {...{ intl, project, SLUG, REPO_BASE, location, fullProjectList }} />) ||
-        (projects && <RepoList {...{ intl, projects, filters, setFilters, setLoading, setError, SLUG, REPO_BASE, location }} />)
-      }
-    </div>
+    (error && <h2>{formatMessage({ id: 'error' }, { error })}</h2>) ||
+    (loading && <Loading {...{ intl }} />) ||
+    (project && <Project {...{ intl, project, SLUG, REPO_BASE, location, fullProjectList }} />) ||
+    (projects && <RepoList {...{ intl, projects, filters, setFilters, setLoading, setError, SLUG, REPO_BASE, location }} />)
   );
 }
 

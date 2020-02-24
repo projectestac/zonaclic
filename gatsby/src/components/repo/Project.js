@@ -2,7 +2,6 @@ import React from 'react';
 import { withPrefix } from 'gatsby';
 import { Link } from 'gatsby-plugin-intl';
 import { makeStyles } from "@material-ui/core/styles";
-import Typography from '@material-ui/core/Typography';
 import { mergeClasses, htmlContent } from '../../utils/misc';
 import filesize from 'filesize';
 import SEO from '../SEO';
@@ -114,7 +113,7 @@ function Project({ intl, project, SLUG, REPO_BASE, location, fullProjectList, ..
   return (
     <div {...props} className={classes.root}>
       <SEO {...{ location, lang: locale, title: pageTitle, description: pageDesc, slug, thumbnail: imgPath }} />
-      <Typography variant="h2">{title}</Typography>
+      <h2>{title}</h2>
       <p>{author}</p>
       <ShareButtons {...{ shareSites, intl, link: location?.href, title, description, slug, thumbnail: imgPath || thumbnail, moodleLink, embedOptions }} />
       <div className={classes['mainBlock']}>

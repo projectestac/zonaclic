@@ -9,6 +9,7 @@ import TextField from '@material-ui/core/TextField';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import IconButton from '@material-ui/core/IconButton';
 import SearchIcon from '@material-ui/icons/Search';
+import Typography from '@material-ui/core/Typography';
 
 const JCLIC_SEARCH_SERVICE = 'https://clic.xtec.cat/db/repo-search/index.php';
 
@@ -16,10 +17,19 @@ const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
     flexWrap: 'wrap',
+    padding: '1rem 0.5rem',
+  },
+  label: {
+    flexBasis: '100%',
+    marginLeft: '0.5rem',
+    marginBottom: '0.5rem',
   },
   formControl: {
-    margin: theme.spacing(1),
+    marginRight: '0.5rem',
+    marginLeft: '0.5rem',
     width: '10rem',
+    flexGrow: 1,
+    maxWidth: '21rem',
   },
 }));
 
@@ -52,6 +62,7 @@ function SelectProjects({ intl, filters, setFilters, setLoading, setError, ...pr
 
   return (
     <div className={classes.root}>
+      <Typography color="textSecondary" className={classes['label']}>{messages['prj-filter']}</Typography>
       <FormControl className={classes.formControl}>
         <InputLabel id="select-lang-label">{messages['prj-language']}</InputLabel>
         <Select
