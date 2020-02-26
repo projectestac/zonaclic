@@ -3,7 +3,7 @@ import { withPrefix } from 'gatsby';
 import { Link } from 'gatsby-plugin-intl';
 import { makeStyles } from "@material-ui/core/styles";
 import { mergeClasses, htmlContent } from '../../utils/misc';
-import { FontAwIcon } from '../../utils/FontAwIcon';
+import ProjectDownload from './ProjectDownload';
 import filesize from 'filesize';
 import SEO from '../SEO';
 import ShareButtons from '../ShareButtons';
@@ -44,13 +44,16 @@ const useStyles = makeStyles(theme => ({
   description: {
     "& li": {
       marginBottom: '1rem',
-    }
+    },
+    [theme.breakpoints.up('sm')]: {
+      width: '80%',
+    },
   },
   dataCard: {
     borderCollapse: 'collapse',
     minWidth: '80%',
     marginTop: '1.5rem',
-    marginBottom: '1rem',
+    marginBottom: '1.5rem',
     "& td": {
       border: 'none',
       borderBottom: '1px solid lightgray',
@@ -130,10 +133,9 @@ function Project({ intl, project, SLUG, REPO_BASE, location, fullProjectList, ..
             <img src={imgPath} className={classes['cover']} alt={messages['cover-alt']} />
             <IconButton
               className={classes['overlayBtn']}
-              color="secondary"
+              color="primary"
               href={projectLink} target="_BLANK"
-              aria-label={messages['prj-launch']}
-              title={messages['prj-launch']}
+              title={messages['prj-launch-tooltip']}
             >
               <PlayIcon />
             </IconButton>
@@ -224,28 +226,29 @@ function Project({ intl, project, SLUG, REPO_BASE, location, fullProjectList, ..
           color="primary"
           startIcon={<PlayIcon />}
           href={projectLink} target="_BLANK"
-          aria-label={messages['prj-launch']} title={messages['prj-launch']}
+          title={messages['prj-launch-tooltip']}
         >
-          Launch
+          {messages['prj-launch']}
         </Button>
         <Button
           variant="contained"
           color="primary"
           startIcon={<DownloadIcon />}
-          aria-label={messages['prj-download']} title={messages['prj-download']}
+          title={messages['prj-download-tooltip']}
         >
-          Download
+          {messages['prj-download']}
         </Button>
         <Button
           variant="contained"
           color="primary"
           startIcon={<JavaIcon />}
           href={instJavaLink} target="_BLANK"
-          aria-label={messages['prj-java-inst']} title={messages['prj-java-inst']}
+          title={messages['prj-java-inst-tooltip']}
         >
-          Java Install
+          {messages['prj-java-inst']}
         </Button>
       </div>
+      <ProjectDownload {...{ intl }} />
     </div>
   );
 }
