@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { withPrefix } from 'gatsby';
 import { Link } from 'gatsby-plugin-intl';
 import { makeStyles } from "@material-ui/core/styles";
@@ -7,7 +7,8 @@ import ProjectDownload from './ProjectDownload';
 import filesize from 'filesize';
 import SEO from '../SEO';
 import ShareButtons from '../ShareButtons';
-import PlayIcon from '@material-ui/icons/PlayCircleFilled';
+import PlayIcon from '@material-ui/icons/PlayArrow';
+import PlayCircleIcon from '@material-ui/icons/PlayCircleFilled';
 import JavaIcon from '@material-ui/icons/LocalCafe';
 import DownloadIcon from '@material-ui/icons/CloudDownload';
 import IconButton from '@material-ui/core/IconButton';
@@ -18,6 +19,7 @@ const useStyles = makeStyles(theme => ({
   },
   cover: {
     maxHeight: '10rem',
+    border: '1px solid #ccc',
   },
   btnContainer: {
     display: 'inline-flex',
@@ -97,9 +99,10 @@ function Project({ intl, project, SLUG, REPO_BASE, location, fullProjectList, ..
     path, fullPath, meta_langs,
     title, author, school, date,
     languages, areas, levels, descriptors, description, license,
-    relatedTo, mainFile, zipFile, instFile, files,
+    relatedTo, mainFile, instFile,
     cover, thumbnail,
-    activities, mediaFiles, totalSize,
+    activities, totalSize,
+    // zipFile, files, mediaFiles,
   } = project;
 
   const { locale, defaultLocale, messages } = intl;
@@ -117,9 +120,11 @@ function Project({ intl, project, SLUG, REPO_BASE, location, fullProjectList, ..
     height: '600',
     frameborder: '0',
     allowFullScreen: 'true',
-    src: `${fullPath}/jclic.js/index.html`,
+    src: projectLink,
   }
   const getProjectTitle = path => (fullProjectList && fullProjectList?.find(prj => prj.path === path)?.title) || path;
+
+  const [dlgOpen, setDlgOpen] = useState(false);
 
   return (
     <div {...props} className={classes.root}>
@@ -224,7 +229,7 @@ function Project({ intl, project, SLUG, REPO_BASE, location, fullProjectList, ..
         <Button
           variant="contained"
           color="primary"
-          startIcon={<PlayIcon />}
+          startIcon={<PlayCircleIcon />}
           href={projectLink} target="_BLANK"
           title={messages['prj-launch-tooltip']}
         >
@@ -235,6 +240,7 @@ function Project({ intl, project, SLUG, REPO_BASE, location, fullProjectList, ..
           color="primary"
           startIcon={<DownloadIcon />}
           title={messages['prj-download-tooltip']}
+          onClick={() => setDlgOpen(true)}
         >
           {messages['prj-download']}
         </Button>
@@ -248,7 +254,7 @@ function Project({ intl, project, SLUG, REPO_BASE, location, fullProjectList, ..
           {messages['prj-java-inst']}
         </Button>
       </div>
-      <ProjectDownload {...{ intl }} />
+      <ProjectDownload {...{ intl, project, dlgOpen, setDlgOpen }} />
     </div>
   );
 }
