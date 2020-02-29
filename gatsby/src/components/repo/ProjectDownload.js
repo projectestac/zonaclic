@@ -12,8 +12,31 @@ import { mergeClasses } from '../../utils/misc';
 import DownloadIcon from '@material-ui/icons/CloudDownload';
 import Button from '@material-ui/core/Button';
 
-const useStyles = makeStyles(_theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
+    [theme.breakpoints.up('sm')]: {
+      minWidth: '600px',
+    },
+  },
+  dlgContent: {
+    "& > *": {
+      marginBottom: theme.spacing(2),
+    }
+  },
+  status: {
+    maxWidth: '100%',
+    whiteSpace: 'nowrap',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+  },
+  error: {
+    color: 'red',
+  },
+  actions: {
+    "& > button": {
+      margin: theme.spacing(1),
+    }
+
   },
 }));
 
@@ -31,7 +54,7 @@ function ProjectDownload({ dlgOpen, setDlgOpen, intl, project, ...props }) {
   const [err, setErr] = useState('error');
   const [progress, setProgress] = useState(0);
   const [zipFile, setZipFile] = useState(null);
-  // Array of `XMLHttpRequest`, useful to abort the pending requests
+  // Array of `XMLHttpRequest`, used to abort pending requests
   const _xhrs = [];
   // Get the zip file name from the last part of the project path
   const fileParts = fullPath.split('/');
@@ -49,7 +72,7 @@ function ProjectDownload({ dlgOpen, setDlgOpen, intl, project, ...props }) {
           xhr.abort();
         } catch (err) {
           // Should not occur
-          console.log(`Error cancelling XHR: ${err}`);
+          console.log(`Error cancelling XHR: ${err}`, xhr);
         }
       }
     });
@@ -74,6 +97,7 @@ function ProjectDownload({ dlgOpen, setDlgOpen, intl, project, ...props }) {
   const getBinaryContent = (path, callback) => {
     let xhr = null;
     try {
+      // Create and prepare an XHR
       xhr = new XMLHttpRequest();
       xhr.open('GET', path, true);
       if ('responseType' in xhr)
@@ -98,19 +122,24 @@ function ProjectDownload({ dlgOpen, setDlgOpen, intl, project, ...props }) {
           }
         }
       };
+
+      // Launch the XHR
       xhr.send();
     } catch (e) {
       xhr = null;
       callback(new Error(e), null);
     }
+
+    // return the resulting XHR, or _null_ in case of error
     return xhr;
   }
 
   const start = () => {
-    // Clear current dialog
+
+    // Clear the current dialog
     reset();
 
-    // Run only if `project` is not null
+    // Run only when `project` is not null
     if (project) {
       setMsg(messages['prj-preparing-scorm']);
 
@@ -128,30 +157,29 @@ function ProjectDownload({ dlgOpen, setDlgOpen, intl, project, ...props }) {
 
       // Make a normalized copy of 'project'
       const prj = JSON.parse(JSON.stringify(project).replace(pathToRemove, ''));
-      // Delete some fields added by `RepoMain`
+      // Delete extra fields added by `RepoMain`
       delete prj.path;
       delete prj.fullPath;
 
       // Add the modified 'project.json' to the ZIP file
       zip.file('project.json', JSON.stringify(prj, null, ' '), {});
 
-      // Here we will start downloading ingredients
+      // Start downloading ingredients
       setMsg(messages['prj-downloading-ingredients']);
 
       // Build an array of promises, excluding `project.json` (already stored on the zip file)
       const promises = files.filter(f => f !== 'project.json')
         .map(file => {
-          let xhr;
           return new Promise((resolve, reject) => {
             // Call the static method `getBinaryContent` (see below), where the promise will be finally fullfilled or rejected
-            xhr = getBinaryContent(`${fullPath}/${file}`, (err, data) => {
+            const xhr = getBinaryContent(`${fullPath}/${file}`, (err, data) => {
               if (err)
                 reject(err);
               else {
                 setStatus(file);
                 // Compress and save the resulting data in `zip`
                 zip.file(file.replace(pathToRemove, ''), data, { binary: true });
-                setProgress(++currentFiles * 100 / numFiles);
+                setProgress((++currentFiles) * 100 / numFiles);
                 resolve(true);
               }
             });
@@ -165,7 +193,7 @@ function ProjectDownload({ dlgOpen, setDlgOpen, intl, project, ...props }) {
         .then(
           // Success (_data is an array of `true`, not used)
           _data => {
-            // The process has successfully finished, so clear the references to XMLHttpRequests
+            // The process has successfully finished, so clear all references to XMLHttpRequests
             _xhrs.length = 0;
             // Generate a zip BLOB and store it on `zipFile`
             setMsg(messages['prj-compressing']);
@@ -199,21 +227,28 @@ function ProjectDownload({ dlgOpen, setDlgOpen, intl, project, ...props }) {
   }
 
   return (
-    <Dialog className={classes.root} open={dlgOpen} onClose={closeDlg} onEnter={start}>
+    <Dialog classes={{ paper: classes['root'] }} open={dlgOpen} onClose={closeDlg} onEnter={start}>
       <DialogTitle>{formatMessage({ id: 'prj-download-title' }, { title })}</DialogTitle>
-      <DialogContent>
-        <Typography>{msg}</Typography>
-        <LinearProgress value={progress} variant="determinate" />
-        <Typography>{status}</Typography>
-        <Typography>{err}</Typography>
+      <DialogContent className={classes['dlgContent']}>
+        {!err && <Typography>{msg}</Typography>}
+        {!err && !zipFile && <LinearProgress value={progress} variant="determinate" />}
+        {!err && !zipFile && <Typography className={classes['status']}>{status}</Typography>}
+        {err && <Typography className={classes['error']}>{err}</Typography>}
       </DialogContent>
-      <DialogActions>
+      <DialogActions className={classes['actions']}>
         {zipFile &&
-          <Button startIcon={<DownloadIcon />} onClick={downloadFile}>
+          <Button
+            variant="contained"
+            startIcon={<DownloadIcon />}
+            onClick={downloadFile}
+          >
             {messages['prj-download-file']}
           </Button>
         }
-        <Button onClick={closeDlg}>
+        <Button
+          variant="contained"
+          onClick={closeDlg}
+        >
           {messages['cancel']}
         </Button>
       </DialogActions>
