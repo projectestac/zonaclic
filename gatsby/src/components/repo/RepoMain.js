@@ -4,10 +4,8 @@ import Project from './Project';
 import RepoList from './RepoList';
 import Loading from './Loading';
 
-const REPO_BASE = 'https://clic.xtec.cat/projects/';
-const REPO_LIST = 'projects.json';
 
-function RepoMain({ location, SLUG, intl, act }) {
+function RepoMain({ location, SLUG, intl, repoBase, repoList, act }) {
 
   const { formatMessage } = intl;
   const [fullProjectList, setFullProjectList] = useState(null);
@@ -17,12 +15,17 @@ function RepoMain({ location, SLUG, intl, act }) {
   const [error, setError] = useState(null);
   const [filters, setFilters] = useState({ language: '', subject: '', level: '', text: '', textMatches: [] });
 
-  const loadFullProjectList = () => fetch(`${REPO_BASE}${REPO_LIST}`, { referrerPolicy: 'no-referrer' })
-    .then(checkFetchResponse)
-    .then(_fullList => setFullProjectList(_fullList))
-    .catch(err => setError(err?.toString() || 'Error'));
 
+  // Update `fullProjectList`, `projects` and `project`
   useEffect(() => {
+
+    function loadFullProjectList() {
+      return fetch(repoList, { referrerPolicy: 'no-referrer' })
+        .then(checkFetchResponse)
+        .then(_fullList => setFullProjectList(_fullList))
+        .catch(err => setError(err?.toString() || 'Error'));
+    }
+
     // Clear previous states
     setError(null);
     // Load the given project
@@ -30,7 +33,7 @@ function RepoMain({ location, SLUG, intl, act }) {
       setLoading(true);
       setProject(null);
       setProjects(null);
-      const fullPath = `${REPO_BASE}${act}`;
+      const fullPath = `${repoBase}/${act}`;
       // Load a specific project
       fetch(`${fullPath}/project.json`, { referrerPolicy: 'no-referrer' })
         .then(checkFetchResponse)
@@ -59,13 +62,13 @@ function RepoMain({ location, SLUG, intl, act }) {
       else
         loadFullProjectList();
     }
-  }, [act, project, fullProjectList, filters]);
+  }, [repoBase, repoList, act, project, fullProjectList, filters]);
 
   return (
     (error && <h2>{formatMessage({ id: 'error' }, { error })}</h2>) ||
     (loading && <Loading {...{ intl }} />) ||
-    (project && <Project {...{ intl, project, SLUG, REPO_BASE, location, fullProjectList }} />) ||
-    (projects && <RepoList {...{ intl, projects, filters, setFilters, setLoading, setError, SLUG, REPO_BASE, location }} />)
+    (project && <Project {...{ intl, project, SLUG, location, fullProjectList }} />) ||
+    (projects && <RepoList {...{ intl, repoBase, projects, filters, setFilters, setLoading, setError, SLUG, location }} />)
   );
 }
 

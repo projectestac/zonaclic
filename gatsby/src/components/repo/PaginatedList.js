@@ -23,7 +23,7 @@ const useStyles = makeStyles(_theme => ({
   },
 }));
 
-function PaginatedList({ intl, projects, REPO_BASE, ...props }) {
+function PaginatedList({ intl, projects, repoBase, ...props }) {
 
   const { messages, formatMessage } = intl;
   const classes = mergeClasses(props, useStyles());
@@ -36,10 +36,10 @@ function PaginatedList({ intl, projects, REPO_BASE, ...props }) {
       <List dense>
         {projects
           .slice(page * itemsPerPage, (page + 1) * itemsPerPage)
-          .map(({ path, title, author, date, langCodes, levelCodes, mainFile, cover, thumbnail }, n) => (
+          .map(({ path, fullPath, title, author, date, langCodes, levelCodes, mainFile, cover, thumbnail }, n) => (
             <ListItem button key={n} className={classes.listElements} onClick={() => navigate(`/repo/?act=${path}`, { replace: false })}>
               <ListItemAvatar>
-                <Avatar variant="square" alt={title} src={`${REPO_BASE}${path}/${thumbnail || cover}`} />
+                <Avatar variant="square" alt={title} src={`${repoBase}/${path}/${thumbnail || cover}`} />
               </ListItemAvatar>
               <ListItemText primary={title} secondary={author} />
             </ListItem>

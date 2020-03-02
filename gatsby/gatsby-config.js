@@ -10,10 +10,12 @@ const { version } = require('./package.json');
 
 // Read environment variables
 const PATH_PREFIX = process.env.PATH_PREFIX || '';
-const BASE_URL = process.env.BASE_URL || 'https://localhost:9000/';
+const BASE_URL = process.env.BASE_URL || 'https://localhost:9000';
 const ANALYTICS_UA = process.env.ANALYTICS_UA || '';
 const OFFLINE_PWA = 'true' === process.env.OFFLINE_PWA;
 const FACEBOOK_ID = process.env.FACEBOOK_ID || '';
+const REPO_BASE = process.env.REPO_BASE || 'https://clic.xtec.cat/projects';
+const REPO_LIST = process.env.REPO_BASE || 'https://clic.xtec.cat/projects/projects.json';
 
 // Main metadata settings
 const pathPrefix = PATH_PREFIX;
@@ -80,6 +82,8 @@ const config = {
     shareMeta,
     cardFileName,
     facebookId: FACEBOOK_ID,
+    repoBase: REPO_BASE,
+    repoList: REPO_LIST,
   },
   plugins: [
     // Static pages

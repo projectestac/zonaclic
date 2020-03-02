@@ -14,12 +14,32 @@ import DownloadIcon from '@material-ui/icons/CloudDownload';
 import IconButton from '@material-ui/core/IconButton';
 import Button from '@material-ui/core/Button';
 
+/*
+const imgPlaceholder=`data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGIAAABiBAMAAABZixs9AAAAMFBMVE\
+XZ2dnV1dW1tbW9vb2urq7c3NzQ0NDMzMzDw8O4uLjHx8fAwMCrq6uxsbGoqKjf39+WOJXRAAAAAW\
+JLR0QAiAUdSAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+QDAgw7OygLvhcAAAG4SURBVF\
+jDY2AYBaNgFIwCqoJQUuVYJYxxgzZsOsLmuOAGj1Kx6Ih+JYgb1Bhg0SGpgMcfzIpDXAdj+XIB0n\
+RkLK9qJ0kHY1toqEQBKTq4ShkY2BpJ0SEF8sQyUnRkgYhlAaTYkUCqDq6lwCTaQFpYsYZKlJIYH+\
+mkxQdDYNWqVII6wkSRhQNYCaerxWoBpKXEaEOh9aTpmM3Aqv2BFB25wBj4PIEEHVyKQE+wdgoQrY\
+NxJzhoosyI1lHcCuEUFxCpg8scGrBsVlCGAH4djNYJMJ60KYSaHoBPB2vSAgR3ETghWglvxafjlz\
+tSZIdfBHKYShma8OnYworMz01lYDwWwBB2LACnDqX5KHy26awpICOYGnDqOIWaAFmFy8HKWDcnEJ\
+s/AjUhQRtlTqwOjo1QRnIDcToYd8ASV2BzqjAxOjgb4Ez26cFE6GC8hazbmLAO1rhSZG7PRII6wh\
+6ghHU0YTtKUAoUBsI+55pIYq3G2CxAog5hQxJrTsbZJNa1rLINJOoIPBVAmg7WulQSWwBRbh+I0w\
+FvLfUWEtlaCpsHbX0duUJki4xVYjdu0EadluUoGAWjYBSQDwD+eom39voA8AAAAABJRU5ErkJggg\
+==`;
+*/
+
 const useStyles = makeStyles(theme => ({
   root: {
   },
   cover: {
-    maxHeight: '10rem',
-    border: '1px solid #ccc',
+    minWidth: '96px',
+    minHeight: '96px',
+    // backgroundImage: `url("${imgPlaceholder}")`,
+    // backgroundSize: 'contain',
+    // backgroundRepeat: 'no-repeat',
+    maxWidth: '100%',
+    maxHeight: '300px',
   },
   btnContainer: {
     display: 'inline-flex',
@@ -93,7 +113,7 @@ const useStyles = makeStyles(theme => ({
 
 const shareSites = { moodle: true, classroom: true, embed: true };
 
-function Project({ intl, project, SLUG, REPO_BASE, location, fullProjectList, ...props }) {
+function Project({ intl, project, SLUG, location, fullProjectList, ...props }) {
 
   const {
     path, fullPath, meta_langs,

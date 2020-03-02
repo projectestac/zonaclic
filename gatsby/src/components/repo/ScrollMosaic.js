@@ -11,7 +11,7 @@ const useStyles = makeStyles(_theme => ({
   },
 }));
 
-function ScrollMosaic({ projects, ...props }) {
+function ScrollMosaic({ projects, repoBase, ...props }) {
 
   const classes = mergeClasses(props, useStyles());
 

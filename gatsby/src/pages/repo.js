@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import { graphql } from 'gatsby';
 import queryString from 'query-string';
 import { useIntl } from 'gatsby-plugin-intl';
 import { makeStyles } from '@material-ui/core/styles';
@@ -14,8 +15,9 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function Repo({ location }) {
+export default function Repo({ data, location }) {
 
+  const { site: { siteMetadata: { repoBase, repoList } } } = data;
   const classes = useStyles();
   const intl = useIntl();
   const [act, setAct] = useState();
@@ -26,8 +28,19 @@ export default function Repo({ location }) {
   return (
     <Layout {...{ intl, slug: `${SLUG}${act ? `${act}/` : ''}` }}>
       <article className={classes.root}>
-        <RepoMain {...{ intl, location, SLUG, act }} />
+        <RepoMain {...{ intl, location, SLUG, repoBase, repoList, act }} />
       </article>
     </Layout>
   );
 }
+
+export const pageQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        repoBase
+        repoList
+      }
+    }
+  }
+`;

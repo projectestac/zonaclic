@@ -19,7 +19,7 @@ const useStyles = makeStyles(_theme => ({
   },
 }));
 
-function RepoList({ intl, projects, filters, setFilters, setLoading, setError, SLUG, REPO_BASE, location, ...props }) {
+function RepoList({ intl, repoBase, projects, filters, setFilters, setLoading, setError, SLUG, location, ...props }) {
 
   const { locale, messages } = intl;
   const classes = mergeClasses(props, useStyles());
@@ -38,8 +38,8 @@ function RepoList({ intl, projects, filters, setFilters, setLoading, setError, S
       </Paper>
       <Divider />
       <Switch checked={list} onChange={_ev => setList(!list)} />
-      {(list && <PaginatedList {...{ intl, projects, REPO_BASE }} />)
-        || <ScrollMosaic {...{ intl, projects, REPO_BASE }} />
+      {(list && <PaginatedList {...{ intl, repoBase, projects }} />)
+        || <ScrollMosaic {...{ intl, repoBase, projects }} />
       }
     </div >
   );
