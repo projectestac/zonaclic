@@ -23,7 +23,7 @@ function RepoList({ intl, repoBase, projects, filters, setFilters, setLoading, s
 
   const { locale, messages } = intl;
   const classes = mergeClasses(props, useStyles());
-  const [list, setList] = useState(true);
+  const [list, setList] = useState(false);
   const title = messages['repo-title'];
   const description = messages['repo-description'];
   const card = `/cards/repo/card-${locale}.jpg`;
@@ -38,8 +38,8 @@ function RepoList({ intl, repoBase, projects, filters, setFilters, setLoading, s
       </Paper>
       <Divider />
       <Switch checked={list} onChange={_ev => setList(!list)} />
-      {(list && <PaginatedList {...{ intl, repoBase, projects }} />)
-        || <ScrollMosaic {...{ intl, repoBase, projects }} />
+      {(list && <PaginatedList {...{ intl, SLUG, repoBase, projects }} />)
+        || <ScrollMosaic {...{ intl, SLUG, repoBase, projects }} />
       }
     </div >
   );

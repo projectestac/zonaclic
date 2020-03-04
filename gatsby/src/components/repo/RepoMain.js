@@ -5,7 +5,7 @@ import RepoList from './RepoList';
 import Loading from './Loading';
 
 
-function RepoMain({ location, SLUG, intl, repoBase, repoList, act }) {
+function RepoMain({ location, SLUG, intl, repoBase, repoList, jnlpInstaller, act }) {
 
   const { formatMessage } = intl;
   const [fullProjectList, setFullProjectList] = useState(null);
@@ -67,7 +67,7 @@ function RepoMain({ location, SLUG, intl, repoBase, repoList, act }) {
   return (
     (error && <h2>{formatMessage({ id: 'error' }, { error })}</h2>) ||
     (loading && <Loading {...{ intl }} />) ||
-    (project && <Project {...{ intl, project, SLUG, location, fullProjectList }} />) ||
+    (project && <Project {...{ intl, project, SLUG, location, fullProjectList, jnlpInstaller }} />) ||
     (projects && <RepoList {...{ intl, repoBase, projects, filters, setFilters, setLoading, setError, SLUG, location }} />)
   );
 }

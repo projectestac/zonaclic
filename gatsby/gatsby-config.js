@@ -16,6 +16,7 @@ const OFFLINE_PWA = 'true' === process.env.OFFLINE_PWA;
 const FACEBOOK_ID = process.env.FACEBOOK_ID || '';
 const REPO_BASE = process.env.REPO_BASE || 'https://clic.xtec.cat/projects';
 const REPO_LIST = process.env.REPO_BASE || 'https://clic.xtec.cat/projects/projects.json';
+const JNLP_INSTALLER = process.env.JNLP_INSTALLER || 'https://clic.xtec.cat/jnlp/jclic/install.jnlp?argument=%%FILE%%';
 
 // Main metadata settings
 const pathPrefix = PATH_PREFIX;
@@ -84,6 +85,7 @@ const config = {
     facebookId: FACEBOOK_ID,
     repoBase: REPO_BASE,
     repoList: REPO_LIST,
+    jnlpInstaller: JNLP_INSTALLER,
   },
   plugins: [
     // Static pages

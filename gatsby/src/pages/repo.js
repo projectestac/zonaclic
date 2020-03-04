@@ -17,7 +17,7 @@ const useStyles = makeStyles(theme => ({
 
 export default function Repo({ data, location }) {
 
-  const { site: { siteMetadata: { repoBase, repoList } } } = data;
+  const { site: { siteMetadata: { repoBase, repoList, jnlpInstaller } } } = data;
   const classes = useStyles();
   const intl = useIntl();
   const [act, setAct] = useState();
@@ -28,7 +28,7 @@ export default function Repo({ data, location }) {
   return (
     <Layout {...{ intl, slug: `${SLUG}${act ? `${act}/` : ''}` }}>
       <article className={classes.root}>
-        <RepoMain {...{ intl, location, SLUG, repoBase, repoList, act }} />
+        <RepoMain {...{ intl, location, SLUG, repoBase, repoList, jnlpInstaller, act }} />
       </article>
     </Layout>
   );
@@ -40,6 +40,7 @@ export const pageQuery = graphql`
       siteMetadata {
         repoBase
         repoList
+        jnlpInstaller
       }
     }
   }

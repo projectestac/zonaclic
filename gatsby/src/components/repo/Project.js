@@ -15,7 +15,8 @@ import IconButton from '@material-ui/core/IconButton';
 import Button from '@material-ui/core/Button';
 
 /*
-const imgPlaceholder=`data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGIAAABiBAMAAABZixs9AAAAMFBMVE\
+const imgPlaceholder=`\
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGIAAABiBAMAAABZixs9AAAAMFBMVE\
 XZ2dnV1dW1tbW9vb2urq7c3NzQ0NDMzMzDw8O4uLjHx8fAwMCrq6uxsbGoqKjf39+WOJXRAAAAAW\
 JLR0QAiAUdSAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+QDAgw7OygLvhcAAAG4SURBVF\
 jDY2AYBaNgFIwCqoJQUuVYJYxxgzZsOsLmuOAGj1Kx6Ih+JYgb1Bhg0SGpgMcfzIpDXAdj+XIB0n\
@@ -113,7 +114,7 @@ const useStyles = makeStyles(theme => ({
 
 const shareSites = { moodle: true, classroom: true, embed: true };
 
-function Project({ intl, project, SLUG, location, fullProjectList, ...props }) {
+function Project({ intl, project, SLUG, location, fullProjectList, jnlpInstaller, ...props }) {
 
   const {
     path, fullPath, meta_langs,
@@ -134,7 +135,7 @@ function Project({ intl, project, SLUG, location, fullProjectList, ...props }) {
   const imgPath = cover && `${fullPath}/${cover}`;
   const moodleLink = `${fullPath}/${mainFile}`;
   const projectLink = moodleLink.replace(/\/[^/]*$/, '/index.html');
-  const instJavaLink = `https://clic.xtec.cat/jnlp/jclic/install.jnlp?argument=${fullPath}/${instFile}`;
+  const instJavaLink = jnlpInstaller.replace('%%FILE%%', `${fullPath}/${instFile}`);
   const embedOptions = {
     width: '800',
     height: '600',
@@ -237,7 +238,7 @@ function Project({ intl, project, SLUG, location, fullProjectList, ...props }) {
               <td>
                 <ul className={classes['related']}>
                   {relatedTo.map((prj, n) => (
-                    <li key={n}><Link to={`/repo/?act=${prj}`}>{getProjectTitle(prj)}</Link></li>
+                    <li key={n}><Link to={`${SLUG}?act=${prj}`}>{getProjectTitle(prj)}</Link></li>
                   ))}
                 </ul>
               </td>
@@ -250,7 +251,8 @@ function Project({ intl, project, SLUG, location, fullProjectList, ...props }) {
           variant="contained"
           color="primary"
           startIcon={<PlayCircleIcon />}
-          href={projectLink} target="_BLANK"
+          href={projectLink}
+          target="_BLANK"
           title={messages['prj-launch-tooltip']}
         >
           {messages['prj-launch']}
@@ -268,7 +270,8 @@ function Project({ intl, project, SLUG, location, fullProjectList, ...props }) {
           variant="contained"
           color="primary"
           startIcon={<JavaIcon />}
-          href={instJavaLink} target="_BLANK"
+          href={instJavaLink}
+          target="_BLANK"
           title={messages['prj-java-inst-tooltip']}
         >
           {messages['prj-java-inst']}
