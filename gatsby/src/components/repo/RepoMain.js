@@ -14,7 +14,7 @@ function RepoMain({ location, SLUG, intl, repoBase, repoList, jnlpInstaller, act
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [filters, setFilters] = useState({ language: '', subject: '', level: '', text: '', textMatches: [] });
-
+  const [listMode, setListMode] = useState(false);
 
   // Update `fullProjectList`, `projects` and `project`
   useEffect(() => {
@@ -68,7 +68,7 @@ function RepoMain({ location, SLUG, intl, repoBase, repoList, jnlpInstaller, act
     (error && <h2>{formatMessage({ id: 'error' }, { error })}</h2>) ||
     (loading && <Loading {...{ intl }} />) ||
     (project && <Project {...{ intl, project, SLUG, location, fullProjectList, jnlpInstaller }} />) ||
-    (projects && <RepoList {...{ intl, repoBase, projects, filters, setFilters, setLoading, setError, SLUG, location }} />)
+    (projects && <RepoList {...{ intl, repoBase, projects, filters, setFilters, listMode, setListMode, setLoading, setError, SLUG, location }} />)
   );
 }
 

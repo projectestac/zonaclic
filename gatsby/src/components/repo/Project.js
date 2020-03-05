@@ -108,6 +108,7 @@ const useStyles = makeStyles(theme => ({
     flexWrap: 'wrap',
     "& a,button": {
       marginRight: '1rem',
+      marginBottom: '1rem',
     }
   },
 }));

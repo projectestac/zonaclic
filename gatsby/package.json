@@ -35,6 +35,7 @@
     "@francesc/gatsby-plugin-multilang-twitter-cards": "^0.1.5",
     "@material-ui/core": "^4.9.5",
     "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.45",
     "@mdx-js/mdx": "^1.5.7",
     "@mdx-js/react": "^1.5.7",
     "clsx": "^1.1.0",
@@ -67,7 +68,8 @@
     "react": "^16.13.0",
     "react-copy-to-clipboard": "^5.0.2",
     "react-dom": "^16.13.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-infinite-scroller": "^1.2.4"
   },
   "devDependencies": {
     "chalk": "^3.0.0",
