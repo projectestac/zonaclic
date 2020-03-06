@@ -6,7 +6,6 @@ import InfiniteScroll from 'react-infinite-scroller';
 import Paper from '@material-ui/core/Card';
 import Fab from '@material-ui/core/Fab';
 import PlayIcon from '@material-ui/icons/PlayArrow';
-import ArrowUp from '@material-ui/icons/ArrowUpward';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -16,12 +15,6 @@ const useStyles = makeStyles(theme => ({
     "& a:link": {
       textDecoration: 'none',
     }
-  },
-  toTop: {
-    display: 'none',
-    position: 'fixed',
-    bottom: '1rem',
-    right: '1rem',
   },
   card: {
     maxWidth: '20rem',
@@ -107,7 +100,7 @@ function ProjectCard({ SLUG, classes, messages, repoBase, project }) {
 
 const blockSize = 30;
 
-function ScrollMosaic({ intl, SLUG, repoBase, projects, topRef, ...props }) {
+function ScrollMosaic({ intl, SLUG, repoBase, projects, ...props }) {
 
   const classes = mergeClasses(props, useStyles());
   const { messages } = intl;
@@ -125,34 +118,20 @@ function ScrollMosaic({ intl, SLUG, repoBase, projects, topRef, ...props }) {
   }, [projects]);
 
   return (
-    <>
-      <InfiniteScroll
-        {...props}
-        className={classes.root}
-        pageStart={0}
-        initialLoad={true}
-        loadMore={loadMore}
-        hasMore={projects.length > items.length}
-        threshold={250}
-        useWindow={true}
-      >
-        {items.map((project, n) => (
-          <ProjectCard {...{ key: n, SLUG, classes, messages, repoBase, project }} />
-        ))}
-      </InfiniteScroll>
-      <Fab
-        className={classes['toTop']}
-        title={messages['top']}
-        onClick={() => {
-          topRef.current.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start',
-          });
-        }}
-      >
-        <ArrowUp />
-      </Fab>
-    </>
+    <InfiniteScroll
+      {...props}
+      className={classes.root}
+      pageStart={0}
+      initialLoad={true}
+      loadMore={loadMore}
+      hasMore={projects.length > items.length}
+      threshold={250}
+      useWindow={true}
+    >
+      {items.map((project, n) => (
+        <ProjectCard {...{ key: n, SLUG, classes, messages, repoBase, project }} />
+      ))}
+    </InfiniteScroll>
   );
 }
 

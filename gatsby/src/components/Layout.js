@@ -9,6 +9,7 @@ import TopBar from './TopBar';
 import DrawerPanel from './DrawerPanel';
 import Breadcrumbs from './Breadcrumbs';
 import Footer from './Footer';
+import BackToTop from './BackToTop';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -46,7 +47,7 @@ const useStyles = makeStyles(theme => ({
   },
   drawerPaper: {
     width: theme.drawerWidth,
-  }
+  },
 }));
 
 export default function Layout({ intl, slug, children }) {
@@ -98,6 +99,7 @@ export default function Layout({ intl, slug, children }) {
           <main>{children}</main>
         </Container>
         <Footer className={classes.footer} {...{ intl }} />
+        <BackToTop {...{ intl, showBelow: 300 }} />
       </div>
     </div>
   );

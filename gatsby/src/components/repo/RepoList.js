@@ -42,12 +42,11 @@ function RepoList({ intl, repoBase, projects, filters, setFilters, listMode, set
   const projectCount = formatMessage(
     { id: projects.length === 1 ? 'repo-num-single' : 'repo-num-plural' },
     { num: formatNumber(projects.length) });
-  const topRef = createRef();
 
   return (
     <div {...props} className={classes.root}>
       <SEO {...{ location, lang: locale, title, description, slug: SLUG, thumbnail: card }} />
-      <Typography variant="h1" ref={topRef}>{messages['repo-title']}</Typography>
+      <Typography variant="h1">{messages['repo-title']}</Typography>
       <ShareButtons {...{ intl, link: location?.href, title, description, slug: SLUG, thumbnail: card }} />
       <Paper className={classes['selectProjects']}>
         <SelectProjects {...{ intl, filters, setFilters, setLoading, setError }} />
@@ -71,7 +70,7 @@ function RepoList({ intl, repoBase, projects, filters, setFilters, listMode, set
         <Typography variant="body2">{projectCount}</Typography>
       </div>
       {(listMode && <PaginatedList {...{ intl, SLUG, repoBase, projects }} />)
-        || <ScrollMosaic {...{ intl, SLUG, repoBase, projects, topRef }} />
+        || <ScrollMosaic {...{ intl, SLUG, repoBase, projects }} />
       }
     </div >
   );
