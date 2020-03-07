@@ -32,7 +32,7 @@ const useStyles = makeStyles(_theme => ({
   }
 }));
 
-function RepoList({ intl, repoBase, projects, filters, setFilters, listMode, setListMode, setLoading, setError, SLUG, location, ...props }) {
+function RepoList({ intl, repoBase, projects, filters, setFilters, listMode, setListMode, setLoading, setError, SLUG, location, jclicSearchService, ...props }) {
 
   const { locale, messages, formatNumber, formatMessage } = intl;
   const classes = mergeClasses(props, useStyles());
@@ -49,7 +49,7 @@ function RepoList({ intl, repoBase, projects, filters, setFilters, listMode, set
       <Typography variant="h1">{messages['repo-title']}</Typography>
       <ShareButtons {...{ intl, link: location?.href, title, description, slug: SLUG, thumbnail: card }} />
       <Paper className={classes['selectProjects']}>
-        <SelectProjects {...{ intl, filters, setFilters, setLoading, setError }} />
+        <SelectProjects {...{ intl, jclicSearchService, filters, setFilters, setLoading, setError }} />
       </Paper>
       <div className={classes['infoBar']}>
         <ToggleButtonGroup

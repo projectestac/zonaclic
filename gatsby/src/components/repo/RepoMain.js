@@ -5,7 +5,7 @@ import RepoList from './RepoList';
 import Loading from './Loading';
 
 
-function RepoMain({ location, SLUG, intl, repoBase, repoList, jnlpInstaller, act }) {
+function RepoMain({ location, SLUG, intl, repoBase, repoList, jnlpInstaller, jclicSearchService, act }) {
 
   const { formatMessage } = intl;
   const [fullProjectList, setFullProjectList] = useState(null);
@@ -20,7 +20,7 @@ function RepoMain({ location, SLUG, intl, repoBase, repoList, jnlpInstaller, act
   useEffect(() => {
 
     function loadFullProjectList() {
-      return fetch(repoList, { referrerPolicy: 'no-referrer' })
+      return fetch(repoList)
         .then(checkFetchResponse)
         .then(_fullList => setFullProjectList(_fullList))
         .catch(err => setError(err?.toString() || 'Error'));
@@ -35,7 +35,7 @@ function RepoMain({ location, SLUG, intl, repoBase, repoList, jnlpInstaller, act
       setProjects(null);
       const fullPath = `${repoBase}/${act}`;
       // Load a specific project
-      fetch(`${fullPath}/project.json`, { referrerPolicy: 'no-referrer' })
+      fetch(`${fullPath}/project.json`)
         .then(checkFetchResponse)
         .then(_project => {
           _project.path = act;
@@ -68,7 +68,7 @@ function RepoMain({ location, SLUG, intl, repoBase, repoList, jnlpInstaller, act
     (error && <h2>{formatMessage({ id: 'error' }, { error })}</h2>) ||
     (loading && <Loading {...{ intl }} />) ||
     (project && <Project {...{ intl, project, SLUG, location, fullProjectList, jnlpInstaller }} />) ||
-    (projects && <RepoList {...{ intl, repoBase, projects, filters, setFilters, listMode, setListMode, setLoading, setError, SLUG, location }} />)
+    (projects && <RepoList {...{ intl, repoBase, projects, filters, setFilters, listMode, setListMode, setLoading, setError, SLUG, location, jclicSearchService }} />)
   );
 }
 

@@ -7,6 +7,7 @@ import SEO from '../components/SEO';
 import { useIntl, navigate } from 'gatsby-plugin-intl';
 import queryString from 'query-string';
 import CircularProgress from '@material-ui/core/CircularProgress';
+import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
@@ -14,6 +15,8 @@ import Avatar from '@material-ui/core/Avatar';
 import ListItemText from '@material-ui/core/ListItemText';
 import TablePagination from '@material-ui/core/TablePagination';
 import { FontAwIcon } from '../utils/FontAwIcon';
+import { checkFetchResponse } from '../utils/misc';
+import { repoSlug } from './repo';
 
 const SLUG = '/search/';
 const DEFAULT_ITEMS_PER_PAGE = 25;
@@ -45,11 +48,20 @@ const useStyles = makeStyles(theme => ({
   toolbar: {
     flexFlow: 'wrap',
   },
+  waiting: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    "& > *": {
+      margin: '1rem',
+    },
+  },
 }));
 
 
 export default function Search({ location, data }) {
 
+  const { allMdx: { nodes }, site: { siteMetadata: { repoBase, repoList, jclicSearchService } } } = data;
   const classes = useStyles();
   const intl = useIntl();
   const { locale: lang, messages, formatMessage } = intl;
@@ -66,7 +78,7 @@ export default function Search({ location, data }) {
   function getFuseEngine(locale) {
     if (!fuseEngine[locale])
       fuseEngine[locale] = new Fuse(
-        data.allMdx.nodes
+        nodes
           .filter(({ fields: { lang } }) => lang === locale)
           .map(({ fields: { slug, tokens }, frontmatter: { title, description, icon } }) => ({
             title,
@@ -86,8 +98,25 @@ export default function Search({ location, data }) {
     // Delay the search operation, so allowing page to be fully rendered
     window.setTimeout(() => {
       const fuse = getFuseEngine(lang);
-      setResults(fuse.search(query));
-      setWaiting(false);
+      const staticResults = fuse.search(query);
+      setResults(staticResults);
+      fetch(`${jclicSearchService}?lang=${lang}&method=boolean&q=${encodeURIComponent(query)}`)
+        .then(checkFetchResponse)
+        .then(textMatches => {
+          if (textMatches.length) {
+            return fetch(repoList)
+              .then(checkFetchResponse)
+              .then(fullProjectList => {
+                setResults([]
+                  .concat(staticResults)
+                  .concat(fullProjectList.filter(({ path }) => textMatches.includes(path)))
+                );
+                setWaiting(false);
+              });
+          }
+          setWaiting(false);
+        })
+        .catch(err => console.log(err?.toString() || 'Error'));
     }, 0);
   }
 
@@ -103,20 +132,37 @@ export default function Search({ location, data }) {
         </header>
         <hr />
         {
-          (waiting && <CircularProgress />) ||
-          (results.length === 0 && <h2>{messages['no-results']}</h2>) ||
+          (!waiting && results.length === 0 && <h2>{messages['no-results']}</h2>) ||
           <div>
             <List>
-              {results.slice(page * itemsPerPage, (page + 1) * itemsPerPage).map(({ slug, title, description, icon }, n) => (
-                <ListItem button key={n} onClick={() => navigate(slug)}>
-                  <ListItemAvatar>
-                    <Avatar>
-                      <FontAwIcon icon={icon} size="lg" />
-                    </Avatar>
-                  </ListItemAvatar>
-                  <ListItemText primary={title} secondary={description} />
-                </ListItem>
-              ))}
+              {results
+                .slice(page * itemsPerPage, (page + 1) * itemsPerPage)
+                .map((result, n) => {
+                  if (result.path) {
+                    const { path, title, author, cover, thumbnail } = result;
+                    return (
+                      <ListItem button key={n} onClick={() => navigate(`${repoSlug}?act=${path}`)}>
+                        <ListItemAvatar>
+                          <Avatar variant="square" alt={title} src={`${repoBase}/${path}/${thumbnail || cover}`} />
+                        </ListItemAvatar>
+                        <ListItemText primary={title} secondary={author} />
+                      </ListItem>
+                    );
+                  } else {
+                    const { slug, title, description, icon } = result;
+                    return (
+                      <ListItem button key={n} onClick={() => navigate(slug)}>
+                        <ListItemAvatar>
+                          <Avatar>
+                            <FontAwIcon icon={icon} size="lg" />
+                          </Avatar>
+                        </ListItemAvatar>
+                        <ListItemText primary={title} secondary={description} />
+                      </ListItem>
+                    );
+                  }
+                })
+              }
             </List>
             <hr />
             <TablePagination
@@ -134,13 +180,26 @@ export default function Search({ location, data }) {
             />
           </div>
         }
+        {waiting &&
+          <div className={classes['waiting']}>
+            <Typography variant="subtitle1">{messages['searching']}</Typography>
+            <CircularProgress size="4rem" />
+          </div>
+        }
       </article>
     </Layout>
   );
 }
 
 export const pageQuery = graphql`
-  query MyQuery {
+  query {
+    site {
+      siteMetadata {
+        repoBase
+        repoList
+        jclicSearchService
+      }
+    }
     allMdx {
       nodes {
         fields {

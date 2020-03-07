@@ -11,9 +11,7 @@ import IconButton from '@material-ui/core/IconButton';
 import SearchIcon from '@material-ui/icons/Search';
 import Typography from '@material-ui/core/Typography';
 
-const JCLIC_SEARCH_SERVICE = 'https://clic.xtec.cat/db/repo-search/index.php';
-
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles(_theme => ({
   root: {
     display: 'flex',
     flexWrap: 'wrap',
@@ -33,7 +31,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-function SelectProjects({ intl, filters, setFilters, setLoading, setError, ...props }) {
+function SelectProjects({ intl, jclicSearchService, filters, setFilters, setLoading, setError, ...props }) {
 
   const classes = mergeClasses(props, useStyles());
   const { messages, locale } = intl;
@@ -48,7 +46,7 @@ function SelectProjects({ intl, filters, setFilters, setLoading, setError, ...pr
       ev.preventDefault();
       if (query) {
         setLoading(true);
-        fetch(`${JCLIC_SEARCH_SERVICE}?lang=${locale}&method=boolean&q=${encodeURIComponent(query)}`)
+        fetch(`${jclicSearchService}?lang=${locale}&method=boolean&q=${encodeURIComponent(query)}`)
           .then(checkFetchResponse)
           .then(textMatches => {
             setFilters({ ...filters, text: query, textMatches });

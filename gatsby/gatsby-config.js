@@ -17,6 +17,7 @@ const FACEBOOK_ID = process.env.FACEBOOK_ID || '';
 const REPO_BASE = process.env.REPO_BASE || 'https://clic.xtec.cat/projects';
 const REPO_LIST = process.env.REPO_BASE || 'https://clic.xtec.cat/projects/projects.json';
 const JNLP_INSTALLER = process.env.JNLP_INSTALLER || 'https://clic.xtec.cat/jnlp/jclic/install.jnlp?argument=%%FILE%%';
+const JCLIC_SEARCH_SERVICE = process.env.JCLIC_SEARCH_SERVICE || 'https://clic.xtec.cat/db/repo-search';
 
 // Main metadata settings
 const pathPrefix = PATH_PREFIX;
@@ -86,6 +87,7 @@ const config = {
     repoBase: REPO_BASE,
     repoList: REPO_LIST,
     jnlpInstaller: JNLP_INSTALLER,
+    jclicSearchService: JCLIC_SEARCH_SERVICE,
   },
   plugins: [
     // Static pages
