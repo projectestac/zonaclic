@@ -23,7 +23,7 @@ const useStyles = makeStyles(_theme => ({
   },
 }));
 
-function PaginatedList({ intl, projects, repoBase, SLUG, ...props }) {
+function PaginatedList({ intl, user, projects, repoBase, SLUG, ...props }) {
 
   const { messages, formatMessage } = intl;
   const classes = mergeClasses(props, useStyles());
@@ -37,9 +37,9 @@ function PaginatedList({ intl, projects, repoBase, SLUG, ...props }) {
         {projects
           .slice(page * itemsPerPage, (page + 1) * itemsPerPage)
           .map(({ path, title, author, date, langCodes, levelCodes, mainFile, cover, thumbnail }, n) => (
-            <ListItem button key={n} className={classes.listElements} onClick={() => navigate(`${SLUG}?act=${path}`, { replace: false })}>
+            <ListItem button key={n} className={classes.listElements} onClick={() => navigate(`${SLUG}?${user ? `user=${user}&` : ''}act=${path}`, { replace: false })}>
               <ListItemAvatar>
-                <Avatar variant="square" alt={title} src={`${repoBase}/${path}/${thumbnail || cover}`} />
+                <Avatar variant="square" alt={title} src={`${repoBase}/${user ? `${user}/` : ''}${path}/${thumbnail || cover}`} />
               </ListItemAvatar>
               <ListItemText primary={title} secondary={author} />
             </ListItem>

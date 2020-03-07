@@ -35,7 +35,7 @@ function SelectProjects({ intl, jclicSearchService, filters, setFilters, setLoad
 
   const classes = mergeClasses(props, useStyles());
   const { messages, locale } = intl;
-  const [query, setQuery] = useState(filters.text);
+  const [query, setQuery] = useState(filters?.text || '');
   const handleChange = ev => {
     ev.preventDefault();
     const { target: { name, value } } = ev;
@@ -66,7 +66,7 @@ function SelectProjects({ intl, jclicSearchService, filters, setFilters, setLoad
         <Select
           labelId="select-lang-label"
           name="language"
-          value={filters.language || ''}
+          value={filters?.language || ''}
           onChange={handleChange}>
           {messages['lang-codes'].split('|').map((code) => <MenuItem key={code} value={code}>{messages[`lang-${code}`]}</MenuItem>)}
         </Select>
@@ -76,7 +76,7 @@ function SelectProjects({ intl, jclicSearchService, filters, setFilters, setLoad
         <Select
           labelId="select-subj-label"
           name="subject"
-          value={filters.subject || ''}
+          value={filters?.subject || ''}
           onChange={handleChange}>
           {messages['subj-codes'].split('|').map((code) => <MenuItem key={code} value={code}>{messages[`subj-${code}`]}</MenuItem>)}
         </Select>
@@ -86,7 +86,7 @@ function SelectProjects({ intl, jclicSearchService, filters, setFilters, setLoad
         <Select
           labelId="select-level-label"
           name="level"
-          value={filters.level || ''}
+          value={filters?.level || ''}
           onChange={handleChange}>
           {messages['level-codes'].split('|').map((code) => <MenuItem key={code} value={code}>{messages[`level-${code}`]}</MenuItem>)}
         </Select>

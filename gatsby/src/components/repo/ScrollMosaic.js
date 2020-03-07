@@ -63,21 +63,22 @@ const useStyles = makeStyles(theme => ({
 }));
 
 
-function ProjectCard({ SLUG, classes, messages, repoBase, project }) {
+function ProjectCard({ SLUG, user, classes, messages, repoBase, project }) {
 
-  const { path, title, author, langCodes, mainFile, cover } = project;
-  const projectLink = `${repoBase}/${path}/${mainFile.replace(/\/[^/]*$/, '/index.html')}`;
+  const { path, title = 'Untitled', author = 'Unknown author', langCodes = [], mainFile, cover } = project;
+  const base = `${repoBase}/${path}`;
+  const projectLink = `${base}/${mainFile.replace(/\/[^/]*$/, '/index.html')}`;
   const [raised, setRaised] = useState(false);
 
   return (
-    <Link to={`${SLUG}?act=${path}`} replace={false}>
+    <Link to={`${SLUG}?${user ? `user=${user}&` : ''}act=${path}`} replace={false}>
       <Paper
         className={classes['card']}
         onMouseOver={() => setRaised(true)}
         onMouseOut={() => setRaised(false)}
         elevation={raised ? 8 : 1}
       >
-        <div className={classes['cardContent']} style={{ background: `no-repeat center/150% url("${repoBase}/${path}/${cover}")` }}>
+        <div className={classes['cardContent']} style={{ background: `no-repeat center/150% url("${base}/${cover}")` }}>
           {langCodes.map(code => <span key={code} className={classes['language']}>{code}</span>)}
           <div className={classes['title']}>{title}</div>
           <Fab
@@ -100,7 +101,7 @@ function ProjectCard({ SLUG, classes, messages, repoBase, project }) {
 
 const blockSize = 30;
 
-function ScrollMosaic({ intl, SLUG, repoBase, projects, ...props }) {
+function ScrollMosaic({ intl, user, SLUG, repoBase, projects, ...props }) {
 
   const classes = mergeClasses(props, useStyles());
   const { messages } = intl;
@@ -129,7 +130,7 @@ function ScrollMosaic({ intl, SLUG, repoBase, projects, ...props }) {
       useWindow={true}
     >
       {items.map((project, n) => (
-        <ProjectCard {...{ key: n, SLUG, classes, messages, repoBase, project }} />
+        <ProjectCard {...{ key: n, SLUG, user, classes, messages, repoBase, project }} />
       ))}
     </InfiniteScroll>
   );

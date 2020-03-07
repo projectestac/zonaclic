@@ -32,13 +32,13 @@ const useStyles = makeStyles(_theme => ({
   }
 }));
 
-function RepoList({ intl, repoBase, projects, filters, setFilters, listMode, setListMode, setLoading, setError, SLUG, location, jclicSearchService, ...props }) {
+function RepoList({ intl, user = null, repoBase, projects, filters, setFilters, listMode, setListMode, setLoading, setError, SLUG, location, jclicSearchService, ...props }) {
 
   const { locale, messages, formatNumber, formatMessage } = intl;
   const classes = mergeClasses(props, useStyles());
-  const title = messages['repo-title'];
-  const description = messages['repo-description'];
-  const card = `/cards/repo/card-${locale}.jpg`;
+  const title = user ? formatMessage({ id: 'user-repo-title' }, { user }) : messages['repo-title'];
+  const description = user ? formatMessage({ id: 'user-repo-description' }, { user }) : messages['repo-description'];
+  const card = `/cards/${user ? 'user' : 'repo'}/card-${locale}.jpg`;
   const projectCount = formatMessage(
     { id: projects.length === 1 ? 'repo-num-single' : 'repo-num-plural' },
     { num: formatNumber(projects.length) });
@@ -46,11 +46,13 @@ function RepoList({ intl, repoBase, projects, filters, setFilters, listMode, set
   return (
     <div {...props} className={classes.root}>
       <SEO {...{ location, lang: locale, title, description, slug: SLUG, thumbnail: card }} />
-      <Typography variant="h1">{messages['repo-title']}</Typography>
+      <Typography variant="h1">{title}</Typography>
       <ShareButtons {...{ intl, link: location?.href, title, description, slug: SLUG, thumbnail: card }} />
-      <Paper className={classes['selectProjects']}>
-        <SelectProjects {...{ intl, jclicSearchService, filters, setFilters, setLoading, setError }} />
-      </Paper>
+      {!user &&
+        <Paper className={classes['selectProjects']}>
+          <SelectProjects {...{ intl, jclicSearchService, filters, setFilters, setLoading, setError }} />
+        </Paper>
+      }
       <div className={classes['infoBar']}>
         <ToggleButtonGroup
           className={classes['viewMode']}
@@ -69,8 +71,8 @@ function RepoList({ intl, repoBase, projects, filters, setFilters, listMode, set
         </ToggleButtonGroup>
         <Typography variant="body2">{projectCount}</Typography>
       </div>
-      {(listMode && <PaginatedList {...{ intl, SLUG, repoBase, projects }} />)
-        || <ScrollMosaic {...{ intl, SLUG, repoBase, projects }} />
+      {(listMode && <PaginatedList {...{ intl, user, SLUG, repoBase, projects }} />)
+        || <ScrollMosaic {...{ intl, user, SLUG, repoBase, projects }} />
       }
     </div >
   );

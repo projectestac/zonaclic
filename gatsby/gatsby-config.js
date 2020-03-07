@@ -18,6 +18,8 @@ const REPO_BASE = process.env.REPO_BASE || 'https://clic.xtec.cat/projects';
 const REPO_LIST = process.env.REPO_BASE || 'https://clic.xtec.cat/projects/projects.json';
 const JNLP_INSTALLER = process.env.JNLP_INSTALLER || 'https://clic.xtec.cat/jnlp/jclic/install.jnlp?argument=%%FILE%%';
 const JCLIC_SEARCH_SERVICE = process.env.JCLIC_SEARCH_SERVICE || 'https://clic.xtec.cat/db/repo-search';
+const USERS_BASE = process.env.USERS_BASE || 'https://clic.xtec.cat/users';
+const GOOGLE_OAUTH2_ID = process.env.GOOGLE_OAUTH2_ID || '';
 
 // Main metadata settings
 const pathPrefix = PATH_PREFIX;
@@ -61,7 +63,7 @@ const localizedDescriptions = {
 };
 const description = localizedDescriptions[defaultLanguage];
 
-const specialPages = ['/search/', '/blog/', '/repo/'];
+const specialPages = ['/search/', '/blog/', '/repo/', '/user/'];
 
 // Gatsby config options
 const config = {
@@ -88,6 +90,8 @@ const config = {
     repoList: REPO_LIST,
     jnlpInstaller: JNLP_INSTALLER,
     jclicSearchService: JCLIC_SEARCH_SERVICE,
+    usersBase: USERS_BASE,
+    googleOAuth2Id: GOOGLE_OAUTH2_ID,
   },
   plugins: [
     // Static pages

@@ -117,8 +117,6 @@ export const MoodleIcon = () =>
 
 const E = encodeURIComponent;
 
-
-
 export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, slug, thumbnail, link, moodleLink, embedOptions, title, description, emailBody, ...props }) {
 
   const classes = mergeClasses(props, useStyles());

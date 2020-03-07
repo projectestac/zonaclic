@@ -115,7 +115,7 @@ const useStyles = makeStyles(theme => ({
 
 const shareSites = { moodle: true, classroom: true, embed: true };
 
-function Project({ intl, project, SLUG, location, fullProjectList, jnlpInstaller, ...props }) {
+function Project({ intl, user = null, project, SLUG, location, fullProjectList, jnlpInstaller, ...props }) {
 
   const {
     path, fullPath, meta_langs,
@@ -127,16 +127,16 @@ function Project({ intl, project, SLUG, location, fullProjectList, jnlpInstaller
     // zipFile, files, mediaFiles,
   } = project;
 
-  const { locale, defaultLocale, messages } = intl;
+  const { locale, defaultLocale, messages, formatMessage } = intl;
   const classes = mergeClasses(props, useStyles());
   const k = meta_langs.includes(locale) ? locale : defaultLocale;
-  const slug = `${SLUG}?act=${path}`
-  const pageTitle = `${messages['repo-title']} - ${title}`;
+  const slug = `${SLUG}?${user ? `user=${user}&` : ''}act=${path}`
+  const pageTitle = `${user ? formatMessage({ id: 'user-repo-title' }, { user }) : messages['repo-title']} - ${title}`;
   const pageDesc = description[k];
   const imgPath = cover && `${fullPath}/${cover}`;
   const moodleLink = `${fullPath}/${mainFile}`;
   const projectLink = moodleLink.replace(/\/[^/]*$/, '/index.html');
-  const instJavaLink = jnlpInstaller.replace('%%FILE%%', `${fullPath}/${instFile}`);
+  const instJavaLink = instFile ? jnlpInstaller.replace('%%FILE%%', `${fullPath}/${instFile}`) : null;
   const embedOptions = {
     width: '800',
     height: '600',
@@ -153,7 +153,7 @@ function Project({ intl, project, SLUG, location, fullProjectList, jnlpInstaller
       <SEO {...{ location, lang: locale, title: pageTitle, description: pageDesc, slug, thumbnail: imgPath }} />
       <h2>{title}</h2>
       <p>{author}</p>
-      <ShareButtons {...{ shareSites, intl, link: location?.href, title, description, slug, thumbnail: imgPath || thumbnail, moodleLink, embedOptions }} />
+      <ShareButtons {...{ shareSites, intl, link: location?.href, title, description: pageDesc, slug, thumbnail: imgPath || thumbnail, moodleLink, embedOptions }} />
       <div className={classes['mainBlock']}>
         {imgPath &&
           <div className={classes['btnContainer']}>
@@ -168,7 +168,7 @@ function Project({ intl, project, SLUG, location, fullProjectList, jnlpInstaller
             </IconButton>
           </div>
         }
-        <div className={classes['description']} dangerouslySetInnerHTML={{ __html: htmlContent(description[k]) }}></div>
+        <div className={classes['description']} dangerouslySetInnerHTML={{ __html: htmlContent(pageDesc) }}></div>
       </div>
       <table className={classes['dataCard']}>
         <tbody>
@@ -267,16 +267,18 @@ function Project({ intl, project, SLUG, location, fullProjectList, jnlpInstaller
         >
           {messages['prj-download']}
         </Button>
-        <Button
-          variant="contained"
-          color="primary"
-          startIcon={<JavaIcon />}
-          href={instJavaLink}
-          target="_BLANK"
-          title={messages['prj-java-inst-tooltip']}
-        >
-          {messages['prj-java-inst']}
-        </Button>
+        {!user && instJavaLink &&
+          <Button
+            variant="contained"
+            color="primary"
+            startIcon={<JavaIcon />}
+            href={instJavaLink}
+            target="_BLANK"
+            title={messages['prj-java-inst-tooltip']}
+          >
+            {messages['prj-java-inst']}
+          </Button>
+        }
       </div>
       <ProjectDownload {...{ intl, project, dlgOpen, setDlgOpen }} />
     </div>

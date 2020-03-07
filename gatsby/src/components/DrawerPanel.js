@@ -80,6 +80,10 @@ export default function DrawerPanel({ intl, ...props }) {
           <ListItemIcon className={classes.listItemIcon}><FontAwIcon icon="cubes" size="lg" /></ListItemIcon>
           <ListItemText primary={messages['repo-title']} />
         </ListItem>
+        <ListItem button onClick={() => navigate('/user/')}>
+          <ListItemIcon className={classes.listItemIcon}><FontAwIcon icon="users" size="lg" /></ListItemIcon>
+          <ListItemText primary={messages['user-repo']} />
+        </ListItem>
         {pages.map(({ fields: { slug }, frontmatter: { icon, title } }) => (
           <ListItem button key={slug} onClick={() => navigate(slug)}>
             <ListItemIcon className={classes.listItemIcon}><FontAwIcon icon={icon} size="lg" /></ListItemIcon>
