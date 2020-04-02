@@ -27,8 +27,10 @@ const useStyles = makeStyles(_theme => ({
     marginBottom: '1rem',
   },
   viewMode: {
-    flexGrow: 1,
     background: 'transparent',
+  },
+  projectCount: {
+    flexGrow: 1,
   }
 }));
 
@@ -40,7 +42,7 @@ function RepoList({ intl, user = null, repoBase, projects, filters, setFilters, 
   const description = user ? formatMessage({ id: 'user-repo-description' }, { user }) : messages['repo-description'];
   const card = `/cards/${user ? 'user' : 'repo'}/card-${locale}.jpg`;
   const projectCount = formatMessage(
-    { id: projects.length === 1 ? 'repo-num-single' : 'repo-num-plural' },
+    { id: projects.length === 0 ? 'repo-num-zero' : projects.length === 1 ? 'repo-num-single' : 'repo-num-plural' },
     { num: formatNumber(projects.length) });
 
   return (
@@ -54,6 +56,7 @@ function RepoList({ intl, user = null, repoBase, projects, filters, setFilters, 
         </Paper>
       }
       <div className={classes['infoBar']}>
+        <Typography variant="body2" className={classes['projectCount']}>{projectCount}</Typography>
         <ToggleButtonGroup
           className={classes['viewMode']}
           size="small"
@@ -69,7 +72,6 @@ function RepoList({ intl, user = null, repoBase, projects, filters, setFilters, 
             <ViewListIcon />
           </ToggleButton>
         </ToggleButtonGroup>
-        <Typography variant="body2">{projectCount}</Typography>
       </div>
       {(listMode && <PaginatedList {...{ intl, user, SLUG, repoBase, projects }} />)
         || <ScrollMosaic {...{ intl, user, SLUG, repoBase, projects }} />
