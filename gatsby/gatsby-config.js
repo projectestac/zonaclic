@@ -15,7 +15,7 @@ const ANALYTICS_UA = process.env.ANALYTICS_UA || '';
 const OFFLINE_PWA = 'true' === process.env.OFFLINE_PWA;
 const FACEBOOK_ID = process.env.FACEBOOK_ID || '';
 const REPO_BASE = process.env.REPO_BASE || 'https://clic.xtec.cat/projects';
-const REPO_LIST = process.env.REPO_BASE || 'https://clic.xtec.cat/projects/projects.json';
+const REPO_LIST = process.env.REPO_LIST || 'https://clic.xtec.cat/projects/projects.json';
 const JNLP_INSTALLER = process.env.JNLP_INSTALLER || 'https://clic.xtec.cat/jnlp/jclic/install.jnlp?argument=%%FILE%%';
 const JCLIC_SEARCH_SERVICE = process.env.JCLIC_SEARCH_SERVICE || 'https://clic.xtec.cat/db/repo-search';
 const USERS_BASE = process.env.USERS_BASE || 'https://clic.xtec.cat/users';

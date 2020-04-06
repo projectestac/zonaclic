@@ -61,7 +61,7 @@ function UserMain({ location, SLUG, intl, usersBase, googleOAuth2Id, jnlpInstall
     (error && <h2>{formatMessage({ id: 'error' }, { error })}</h2>) ||
     (loading && <Loading {...{ intl }} />) ||
     (user && project && <Project {...{ intl, user, project, SLUG, jnlpInstaller, location }} />) ||
-    (user && projects && <RepoList {...{ intl, user, repoBase: `${usersBase}/${user}`, projects, listMode, setListMode, setLoading, setError, SLUG, location }} />) ||
+    (user && projects && <RepoList {...{ intl, user, repoBase: usersBase, projects, listMode, setListMode, setLoading, setError, SLUG, location }} />) ||
     <p>User page...</p>
   );
 }
