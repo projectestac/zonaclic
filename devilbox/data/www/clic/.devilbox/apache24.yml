@@ -84,6 +84,8 @@ vhost_type:
         Order allow,deny
         Allow from all
         Require all granted
+
+        Header set Access-Control-Allow-Origin "*"
     </Directory>
 
   # Reverse Proxy (-r)
@@ -148,6 +150,7 @@ features:
 
     <Directory ${base_path}/ >
        Options -Indexes +Multiviews +FollowSymLinks
+       Header set Access-Control-Allow-Origin "*"
        AllowOverride All
        Require all granted
     </Directory>
