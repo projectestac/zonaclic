@@ -1,3 +1,7 @@
+.hidden {
+  display: none;
+}
+
 article img {
   max-width: 100%;
 }
@@ -40,6 +44,7 @@ article .responsive-wrapper {
 }
 
 /* === Auto-hide header anchors === */
+
 a.anchor {
   float: left;
   padding-right: 0.3rem;
@@ -68,4 +73,27 @@ h1:hover .anchor svg, h2:hover .anchor svg, h3:hover .anchor svg, h4:hover .anch
 
 .reddie {
   color: red;
+}
+
+/* === Data cards === */
+
+.dataCard {
+  border-collapse: collapse;
+  min-width: 80%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.dataCard td {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  padding-left: 0;
+}
+
+.dataCard td:first-child {
+  min-width: 8rem;
+  font-weight: bold;
+  padding-right: 4pt;
+  vertical-align: top;
 }

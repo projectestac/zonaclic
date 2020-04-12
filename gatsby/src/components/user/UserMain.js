@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { checkFetchResponse } from '../../utils/misc';
-
 import Project from '../repo/Project';
 import RepoList from '../repo/RepoList';
 import Loading from '../repo/Loading';
@@ -63,7 +62,7 @@ function UserMain({ location, SLUG, intl, usersBase, googleOAuth2Id, userLibApi,
     (loading && <Loading {...{ intl }} />) ||
     (user && project && <Project {...{ intl, user, project, SLUG, jnlpInstaller, location }} />) ||
     (user && projects && <RepoList {...{ intl, user, repoBase: usersBase, projects, listMode, setListMode, setLoading, setError, SLUG, location }} />) ||
-    <UserLib {...{ intl, googleOAuth2Id, userLibApi, userLibInfoNode }} />
+    <UserLib path="/" {...{ intl, SLUG, googleOAuth2Id, userLibApi, userLibInfoNode }} />
   );
 }
 

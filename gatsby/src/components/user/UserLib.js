@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { makeStyles } from "@material-ui/core/styles";
+import { Link } from 'gatsby-plugin-intl';
+import filesize from 'filesize';
 import { mergeClasses, checkFetchResponse } from '../../utils/misc';
 import Button from '@material-ui/core/Button';
 import CircularProgress from '@material-ui/core/CircularProgress';
+import Typography from '@material-ui/core/Typography';
+import Avatar from '@material-ui/core/Avatar';
 
 // See: https://github.com/anthonyjgrove/react-google-login
 import { GoogleLogin } from 'react-google-login';
@@ -13,13 +17,23 @@ const useStyles = makeStyles(theme => ({
   },
   error: {
     color: 'red',
+    fontWeight: 'bold',
   },
-  userInfo: {
-    color: 'blue',
+  titleGroup: {
+    display: 'grid',
+    gridTemplateColumns: '1fr auto',
+    gridGap: theme.spacing(1),
+  },
+  avatar: {
+    width: theme.spacing(7),
+    height: theme.spacing(7),
+  },
+  mainButtons: {
+    marginTop: theme.spacing(1),
   },
 }));
 
-function UserLib({ intl, googleOAuth2Id, userLibApi, userLibInfoNode, ...props }) {
+function UserLib({ intl, SLUG, googleOAuth2Id, userLibApi, userLibInfoNode, ...props }) {
 
   const classes = mergeClasses(props, useStyles());
   const { locale, defaultLocale, messages, formatMessage } = intl;
@@ -45,6 +59,8 @@ function UserLib({ intl, googleOAuth2Id, userLibApi, userLibInfoNode, ...props }
   const [loading, setLoading] = useState(false);
   const [err, setErr] = useState(null);
 
+  const title = userData ? formatMessage({ id: 'user-repo-title' }, { user: userData.fullUserName || userData.id }) : messages['user-repo'];
+
   const loginSuccess = (googleUser) => {
     if (googleUser && googleUser.tokenId) {
       setLoading(true);
@@ -68,6 +84,7 @@ function UserLib({ intl, googleOAuth2Id, userLibApi, userLibInfoNode, ...props }
             googleUser,
             ...data,
           });
+          setErr(null);
         })
         .catch(error => {
           googleUser?.disconnect();
@@ -96,26 +113,56 @@ function UserLib({ intl, googleOAuth2Id, userLibApi, userLibInfoNode, ...props }
 
   return (
     <div className={classes.root}>
-      <p>{messages['user-repo']}</p>
+      <div className={classes['titleGroup']}>
+        <Typography variant="h2">{title}</Typography>
+        {userData && <Avatar alt={userData.fullUserName} src={userData.avatar} className={classes['avatar']} />}
+      </div>
       <MDXRenderer {...{ frontmatter, intl }}>{body}</MDXRenderer>
       {err && <div className={classes['error']}>{err}</div>}
       {loading && <CircularProgress className={classes['loading']} />}
-      {!userData && !loading &&
-        <GoogleLogin
-          clientId={googleOAuth2Id}
-          buttonText={messages['user-repo-login']}
-          onSuccess={loginSuccess}
-          onFailure={loginFailed}
-          isSignedIn={true}
-          cookiePolicy={'single_host_origin'}
-        />
-      }
-      {userData && !loading &&
-        <div className={classes['userInfo']}>
-          <img src={userData.avatar} alt="avatar" />
-          <p>{userData.fullUserName}</p>
-          <Button variant="contained" onClick={logout}>{messages['user-repo-logout']}</Button>
-        </div>
+      {!loading &&
+        <>
+          <div className={classes['mainButtons']}>
+            {!userData &&
+              <GoogleLogin
+                clientId={googleOAuth2Id}
+                buttonText={messages['user-repo-login']}
+                onSuccess={loginSuccess}
+                onFailure={loginFailed}
+                isSignedIn={true}
+                cookiePolicy={'single_host_origin'}
+                render={renderProps => (
+                  <Button variant="contained" onClick={renderProps.onClick} disabled={renderProps.disabled}>{messages['user-repo-login']}</Button>
+                )}
+              />
+            }
+            {userData &&
+              <Button variant="contained" onClick={logout}>{messages['user-repo-logout']}</Button>
+            }
+          </div>
+          {userData &&
+            <table className="dataCard">
+              <tbody>
+                <tr>
+                  <td>{`${messages['user-repo-user']}:`}</td>
+                  <td>{userData.fullUserName || userData.id} ({userData.email})</td>
+                </tr>
+                <tr>
+                  <td>{`${messages['user-repo-library']}:`}</td>
+                  <td><Link to={`${SLUG}?user=${userData.id}`}>{`${window.location.href}?user=${userData.id}`}</Link></td>
+                </tr>
+                <tr>
+                  <td>{`${messages['user-repo-num-projects']}:`}</td>
+                  <td>{userData.projects.length}</td>
+                </tr>
+                <tr>
+                  <td>{`${messages['user-repo-quota']}:`}</td>
+                  <td>{formatMessage({ id: 'user-repo-quota-exp' }, { current: filesize(userData.currentSize), quota: filesize(userData.quota) })}</td>
+                </tr>
+              </tbody>
+            </table>
+          }
+        </>
       }
     </div>
   );

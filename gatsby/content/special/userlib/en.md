@@ -3,7 +3,7 @@ title: My clicZone
 page: userlib
 ---
 
-## Espai per a projectes JClic dels usuaris
+### Espai per a projectes JClic dels usuaris
 
 L'objectiu d'aquest espai és facilitar-vos la publicació dels vostres projectes JClic que no es trobin disponibles a la [biblioteca de la zonaClic](https://clic.xtec.cat/repo/).
 

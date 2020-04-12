@@ -53,24 +53,7 @@ const useStyles = makeStyles(theme => ({
       width: '80%',
     },
   },
-  dataCard: {
-    borderCollapse: 'collapse',
-    minWidth: '80%',
-    marginTop: '1.5rem',
-    marginBottom: '1.5rem',
-    "& td": {
-      border: 'none',
-      borderBottom: '1px solid lightgray',
-      borderTop: '1px solid lightgray',
-      paddingLeft: 0,
-    },
-    "& td:first-child": {
-      minWidth: '8rem',
-      fontWeight: 'bold',
-      paddingRight: '4pt',
-      verticalAlign: 'top',
-    },
-  },
+  // dataCard class moved to src/styles/global.css
   cclogo: {
     float: 'left',
     marginRight: '0.9rem',
@@ -151,7 +134,7 @@ function Project({ intl, user = null, project, SLUG, location, fullProjectList, 
         }
         <div className={classes['description']} dangerouslySetInnerHTML={{ __html: htmlContent(pageDesc) }}></div>
       </div>
-      <table className={classes['dataCard']}>
+      <table className="dataCard">
         <tbody>
           <tr>
             <td>{`${messages['prj-authors']}:`}</td>
