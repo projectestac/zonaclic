@@ -20,6 +20,7 @@ const JNLP_INSTALLER = process.env.JNLP_INSTALLER || 'https://clic.xtec.cat/jnlp
 const JCLIC_SEARCH_SERVICE = process.env.JCLIC_SEARCH_SERVICE || 'https://clic.xtec.cat/db/repo-search';
 const USERS_BASE = process.env.USERS_BASE || 'https://clic.xtec.cat/users';
 const GOOGLE_OAUTH2_ID = process.env.GOOGLE_OAUTH2_ID || '';
+const USERLIB_API = process.env.USERLIB_API || "https://clic.xtec.cat/db";
 
 // Main metadata settings
 const pathPrefix = PATH_PREFIX;
@@ -92,6 +93,7 @@ const config = {
     jclicSearchService: JCLIC_SEARCH_SERVICE,
     usersBase: USERS_BASE,
     googleOAuth2Id: GOOGLE_OAUTH2_ID,
+    userLibApi: USERLIB_API,
   },
   plugins: [
     // Static pages
@@ -108,6 +110,14 @@ const config = {
       options: {
         path: `${__dirname}/content/blog`,
         name: 'blog',
+      },
+    },
+    // Special mdx content
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/content/special`,
+        name: 'userlib',
       },
     },
     // Misc. assets
