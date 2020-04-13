@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { makeStyles } from "@material-ui/core/styles";
 import { Link } from 'gatsby-plugin-intl';
@@ -8,9 +8,10 @@ import Button from '@material-ui/core/Button';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
-
 // See: https://github.com/anthonyjgrove/react-google-login
 import { GoogleLogin } from 'react-google-login';
+
+const AUTH_KEY = '__auth';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -29,7 +30,7 @@ const useStyles = makeStyles(theme => ({
     height: theme.spacing(7),
   },
   mainButtons: {
-    marginTop: theme.spacing(1),
+    marginTop: theme.spacing(3),
   },
 }));
 
@@ -61,7 +62,16 @@ function UserLib({ intl, SLUG, googleOAuth2Id, userLibApi, userLibInfoNode, ...p
 
   const title = userData ? formatMessage({ id: 'user-repo-title' }, { user: userData.fullUserName || userData.id }) : messages['user-repo'];
 
+  useEffect(() => {
+    if (!userData) {
+      const obj = JSON.parse(sessionStorage.getItem(AUTH_KEY));
+      if (obj && obj.googleUser && obj.expires && Date.now() < new Date(obj.expires))
+        loginSuccess(obj.googleUser);
+    }
+  });
+
   const loginSuccess = (googleUser) => {
+    sessionStorage.removeItem(AUTH_KEY);
     if (googleUser && googleUser.tokenId) {
       setLoading(true);
       fetch(`${userLibApi}/getUserInfo`, {
@@ -80,10 +90,9 @@ function UserLib({ intl, SLUG, googleOAuth2Id, userLibApi, userLibInfoNode, ...p
           if (!data || data.status !== 'validated') {
             throw new Error(data?.error);
           }
-          setUserData({
-            googleUser,
-            ...data,
-          });
+          const result = { googleUser, ...data };
+          sessionStorage.setItem(AUTH_KEY, JSON.stringify(result));
+          setUserData(result);
           setErr(null);
         })
         .catch(error => {
@@ -99,14 +108,16 @@ function UserLib({ intl, SLUG, googleOAuth2Id, userLibApi, userLibInfoNode, ...p
   }
 
   const loginFailed = ({ error, details }) => {
+    sessionStorage.removeItem(AUTH_KEY);
     setUserData(null);
     setLoading(false);
     setErr(`ERROR: ${details} (${error})`);
   }
 
   const logout = () => {
-    if (userData)
+    if (userData && typeof userData?.googleUser?.disconnect === 'function')
       userData.googleUser.disconnect();
+    sessionStorage.removeItem(AUTH_KEY);
     setUserData(null);
     setErr(null);
   }
@@ -129,7 +140,7 @@ function UserLib({ intl, SLUG, googleOAuth2Id, userLibApi, userLibInfoNode, ...p
                 buttonText={messages['user-repo-login']}
                 onSuccess={loginSuccess}
                 onFailure={loginFailed}
-                isSignedIn={true}
+                isSignedIn={false}
                 cookiePolicy={'single_host_origin'}
                 render={renderProps => (
                   <Button variant="contained" onClick={renderProps.onClick} disabled={renderProps.disabled}>{messages['user-repo-login']}</Button>

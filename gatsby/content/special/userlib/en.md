@@ -1,16 +1,16 @@
 ---
 title: My clicZone
-page: userlib
 ---
 
-### Espai per a projectes JClic dels usuaris
+### Space for personal JClic projects
 
-L'objectiu d'aquest espai és facilitar-vos la publicació dels vostres projectes JClic que no es trobin disponibles a la [biblioteca de la zonaClic](https://clic.xtec.cat/repo/).
+The aim of this space is to facilitate teachers the publication of their own JClic projects that are not available in the [main library of the clicZone](https://clic.xtec.cat/repo/).
 
-Per publicar un projecte l'heu d'exportar abans al format HTML5-SCORM amb una versió actualitzada del [JClic Author](https://clic.xtec.cat/ca/jclic/download.htm).
+This service is currently available to users of the Educational Telematic Network of Catalonia (XTEC). If you do not have an XTEC identifier and wish to use the service, send us a message at: clic@xtec.cat.
 
-Un cop publicats, podeu fer servir els vostres projectes com a activitat avaluable de Moodle o bé compartir-los al blog, web de centre o xarxes socials.
+To publish a project, it must first be exported to the HTML5-SCORM format using an updated version of [JClic Author](https://clic.xtec.cat/en/jclic/download.htm).
 
-__IMPORTANT__: Cada usuari es fa responsable dels fitxers publicats al seu espai de projectes. Cal respectar sempre el copyright dels components gràfics, textuals o sonors emprats a les activitats. Els projectes publicats en aquest espai són sempre públics i es comparteixen per defecte amb una llicència [Creative Commons de tipus by-nc-sa](https://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca).
+The projects published in this space can be used as evaluable activities in Moodle, embedded in a blog or website, and also spread to social networks.
 
-Per a qualsevol incidència escriviu a: [clic@xtec.cat](mailto:clic.xtec.cat)
+__IMPORTANT__: Each user is responsible for the content published in their personal projects space. It is important to always respect the copyright of graphics, text and sound files used in the activities. All projects are always public and shared by default with a [Creative Commons license of type by-nc-sa](https://creativecommons.org/licenses/by-nc-sa/3.0/).
+
