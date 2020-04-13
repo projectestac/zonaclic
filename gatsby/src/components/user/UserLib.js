@@ -5,16 +5,25 @@ import { Link } from 'gatsby-plugin-intl';
 import filesize from 'filesize';
 import { mergeClasses, checkFetchResponse } from '../../utils/misc';
 import Button from '@material-ui/core/Button';
+import IconButton from '@material-ui/core/IconButton';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
+import Divider from '@material-ui/core/Divider';
+import DeleteIcon from '@material-ui/icons/Delete';
+
 // See: https://github.com/anthonyjgrove/react-google-login
 import { GoogleLogin } from 'react-google-login';
+import ProjectCard from '../repo/ProjectCard';
 
 const AUTH_KEY = '__auth';
 
 const useStyles = makeStyles(theme => ({
   root: {
+  },
+  divider: {
+    marginTop: theme.spacing(3),
+    marginBottom: theme.spacing(3),
   },
   error: {
     color: 'red',
@@ -32,9 +41,24 @@ const useStyles = makeStyles(theme => ({
   mainButtons: {
     marginTop: theme.spacing(3),
   },
+  projects: {
+    marginTop: theme.spacing(3),
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(14rem, 1fr))',
+    gridGap: '1rem',
+    "& a:link": {
+      textDecoration: 'none',
+    }
+  },
+  cardInfo: {
+    display: 'flex',
+    "& *:first-child": {
+      flexGrow: 1,
+    },
+  }
 }));
 
-function UserLib({ intl, SLUG, googleOAuth2Id, userLibApi, userLibInfoNode, ...props }) {
+function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInfoNode, ...props }) {
 
   const classes = mergeClasses(props, useStyles());
   const { locale, defaultLocale, messages, formatMessage } = intl;
@@ -122,6 +146,14 @@ function UserLib({ intl, SLUG, googleOAuth2Id, userLibApi, userLibInfoNode, ...p
     setErr(null);
   }
 
+  const uploadProject = () => {
+    console.log('Show the publish project dialog...');
+  }
+
+  const deleteProject = (project) => {
+    console.log(`Project "${project.title}" should be deleted`);
+  }
+
   return (
     <div className={classes.root}>
       <div className={classes['titleGroup']}>
@@ -152,26 +184,53 @@ function UserLib({ intl, SLUG, googleOAuth2Id, userLibApi, userLibInfoNode, ...p
             }
           </div>
           {userData &&
-            <table className="dataCard">
-              <tbody>
-                <tr>
-                  <td>{`${messages['user-repo-user']}:`}</td>
-                  <td>{userData.fullUserName || userData.id} ({userData.email})</td>
-                </tr>
-                <tr>
-                  <td>{`${messages['user-repo-library']}:`}</td>
-                  <td><Link to={`${SLUG}?user=${userData.id}`}>{`${window.location.href}?user=${userData.id}`}</Link></td>
-                </tr>
-                <tr>
-                  <td>{`${messages['user-repo-num-projects']}:`}</td>
-                  <td>{userData.projects.length}</td>
-                </tr>
-                <tr>
-                  <td>{`${messages['user-repo-quota']}:`}</td>
-                  <td>{formatMessage({ id: 'user-repo-quota-exp' }, { current: filesize(userData.currentSize), quota: filesize(userData.quota) })}</td>
-                </tr>
-              </tbody>
-            </table>
+            <>
+              <table className="dataCard">
+                <tbody>
+                  <tr>
+                    <td>{`${messages['user-repo-user']}:`}</td>
+                    <td>{userData.fullUserName || userData.id} ({userData.email})</td>
+                  </tr>
+                  <tr>
+                    <td>{`${messages['user-repo-library']}:`}</td>
+                    <td><Link to={`${SLUG}?user=${userData.id}`}>{`${window.location.href}?user=${userData.id}`}</Link></td>
+                  </tr>
+                  <tr>
+                    <td>{`${messages['user-repo-projects']}:`}</td>
+                    <td>{userData.projects.length}</td>
+                  </tr>
+                  <tr>
+                    <td>{`${messages['user-repo-quota']}:`}</td>
+                    <td>{formatMessage({ id: 'user-repo-quota-exp' }, { current: filesize(userData.currentSize), quota: filesize(userData.quota) })}</td>
+                  </tr>
+                </tbody>
+              </table>
+              <Typography variant="h3" color="primary">{messages['user-repo-projects']}</Typography>
+              {(userData.projects.length === 0 && <p>{messages['user-repo-no-projects']}</p>) ||
+                <div className={classes['projects']}>
+                  {userData.projects.map((project, n) => (
+                    <ProjectCard {...{ key: n, SLUG, user: userData.id, messages, repoBase: usersBase, project }} >
+                      <div className={classes['cardInfo']}>
+                        <div>{filesize(project.totalSize)}</div>
+                        <IconButton
+                          onClick={(ev) => {
+                            ev.stopPropagation();
+                            deleteProject(project);
+                          }}
+                          aria-label={messages['user-repo-delete-project']}
+                          title={messages['user-repo-delete-project']}
+                          color="primary"
+                        >
+                          <DeleteIcon />
+                        </IconButton>
+                      </div>
+                    </ProjectCard>
+                  ))}
+                </div>
+              }
+              <Divider className={classes['divider']} />
+              <Button variant="contained" onClick={uploadProject}>{messages['user-repo-upload-project']}</Button>
+            </>
           }
         </>
       }

@@ -53,10 +53,11 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-function ProjectCard({ SLUG, user, messages, repoBase, project, ...props }) {
+function ProjectCard({ SLUG, user, messages, repoBase, project, children, ...props }) {
 
   const classes = mergeClasses(props, useStyles());
-  const { path, title = 'Untitled', author = 'Unknown author', langCodes = [], mainFile, cover } = project;
+  const { title = 'Untitled', author = 'Unknown author', langCodes = [], mainFile, cover } = project;
+  const path = project.path || project.basePath;
   const base = `${repoBase}/${user ? `${user}/` : ''}${path}`;
   const projectLink = `${base}/${mainFile.replace(/[^/]*$/, 'index.html')}`;
   const [raised, setRaised] = useState(false);
@@ -84,6 +85,7 @@ function ProjectCard({ SLUG, user, messages, repoBase, project, ...props }) {
         </div>
         <div className={classes['author']}>
           {author}
+          {children}
         </div>
       </Paper>
     </Link>

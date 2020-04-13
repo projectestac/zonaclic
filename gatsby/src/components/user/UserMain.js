@@ -62,7 +62,7 @@ function UserMain({ location, SLUG, intl, usersBase, googleOAuth2Id, userLibApi,
     (loading && <Loading {...{ intl }} />) ||
     (user && project && <Project {...{ intl, user, project, SLUG, jnlpInstaller, location }} />) ||
     (user && projects && <RepoList {...{ intl, user, repoBase: usersBase, projects, listMode, setListMode, setLoading, setError, SLUG, location }} />) ||
-    <UserLib path="/" {...{ intl, SLUG, googleOAuth2Id, userLibApi, userLibInfoNode }} />
+    <UserLib path="/" {...{ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInfoNode }} />
   );
 }
 
