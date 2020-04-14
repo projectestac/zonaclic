@@ -44,7 +44,7 @@ const useStyles = makeStyles(theme => ({
     bottom: 0,
     margin: '0.4rem',
   },
-  author: {
+  cardBottom: {
     whiteSpace: 'nowrap',
     overflow: 'hidden',
     textOverflow: 'ellipsis',
@@ -77,15 +77,17 @@ function ProjectCard({ SLUG, user, messages, repoBase, project, children, ...pro
             className={classes['playBtn']}
             color="primary"
             size="small"
-            onClick={() => window.open(projectLink, '_BLANK')}
+            onClick={ev => {
+              ev.preventDefault();
+              window.open(projectLink, '_BLANK');
+            }}
             title={messages['prj-launch-tooltip']}
           >
             <PlayIcon />
           </Fab>
         </div>
-        <div className={classes['author']}>
-          {author}
-          {children}
+        <div className={classes['cardBottom']}>
+          {children || author}
         </div>
       </Paper>
     </Link>

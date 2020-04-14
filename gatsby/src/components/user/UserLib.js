@@ -10,7 +10,11 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
 import Divider from '@material-ui/core/Divider';
+import AddIcon from '@material-ui/icons/LibraryAdd';
 import DeleteIcon from '@material-ui/icons/Delete';
+import DownloadIcon from '@material-ui/icons/CloudDownload';
+import LoginIcon from '@material-ui/icons/ExitToApp';
+import LogoutIcon from '@material-ui/icons/Eject';
 
 // See: https://github.com/anthonyjgrove/react-google-login
 import { GoogleLogin } from 'react-google-login';
@@ -52,6 +56,7 @@ const useStyles = makeStyles(theme => ({
   },
   cardInfo: {
     display: 'flex',
+    alignItems: 'center',
     "& *:first-child": {
       flexGrow: 1,
     },
@@ -154,6 +159,17 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
     console.log(`Project "${project.title}" should be deleted`);
   }
 
+  const downloadProject = (project) => {
+    console.log(`Project "${project.title}" should be downloaded`);
+    const link = document.createElement("a");
+    link.setAttribute('href', `${userLibApi}/downloadUserProject?prj=${userData.id}/${project.basePath}`);
+    //link.setAttribute('download', `${project.basePath}.jlic.zip`);
+    link.style.display = 'none';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link)
+  }
+
   return (
     <div className={classes.root}>
       <div className={classes['titleGroup']}>
@@ -175,12 +191,13 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
                 isSignedIn={false}
                 cookiePolicy={'single_host_origin'}
                 render={renderProps => (
-                  <Button variant="contained" onClick={renderProps.onClick} disabled={renderProps.disabled}>{messages['user-repo-login']}</Button>
+                  <Button variant="contained" startIcon={<LoginIcon />}
+                    onClick={renderProps.onClick} disabled={renderProps.disabled}>{messages['user-repo-login']}</Button>
                 )}
               />
             }
             {userData &&
-              <Button variant="contained" onClick={logout}>{messages['user-repo-logout']}</Button>
+              <Button variant="contained" startIcon={<LogoutIcon />} onClick={logout}>{messages['user-repo-logout']}</Button>
             }
           </div>
           {userData &&
@@ -211,10 +228,24 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
                   {userData.projects.map((project, n) => (
                     <ProjectCard {...{ key: n, SLUG, user: userData.id, messages, repoBase: usersBase, project }} >
                       <div className={classes['cardInfo']}>
-                        <div>{filesize(project.totalSize)}</div>
+                        <div>
+                          {`${messages['prj-size']}: ${filesize(project.totalSize)}`}<br />
+                          {`${messages['prj-numfiles']}: ${project.files.length}`}
+                        </div>
                         <IconButton
                           onClick={(ev) => {
-                            ev.stopPropagation();
+                            ev.preventDefault();
+                            downloadProject(project);
+                          }}
+                          aria-label={messages['prj-download']}
+                          title={messages['prj-download']}
+                          color="primary"
+                        >
+                          <DownloadIcon />
+                        </IconButton>
+                        <IconButton
+                          onClick={(ev) => {
+                            ev.preventDefault();
                             deleteProject(project);
                           }}
                           aria-label={messages['user-repo-delete-project']}
@@ -229,7 +260,7 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
                 </div>
               }
               <Divider className={classes['divider']} />
-              <Button variant="contained" onClick={uploadProject}>{messages['user-repo-upload-project']}</Button>
+              <Button variant="contained" startIcon={<AddIcon />} onClick={uploadProject}>{messages['user-repo-upload-project']}</Button>
             </>
           }
         </>
