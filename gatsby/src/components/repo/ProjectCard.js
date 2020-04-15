@@ -56,8 +56,7 @@ const useStyles = makeStyles(theme => ({
 function ProjectCard({ SLUG, user, messages, repoBase, project, children, ...props }) {
 
   const classes = mergeClasses(props, useStyles());
-  const { title = 'Untitled', author = 'Unknown author', langCodes = [], mainFile, cover } = project;
-  const path = project.path || project.basePath;
+  const { path, title = 'Untitled', author = 'Unknown author', langCodes = [], mainFile, cover } = project;
   const base = `${repoBase}/${user ? `${user}/` : ''}${path}`;
   const projectLink = `${base}/${mainFile.replace(/[^/]*$/, 'index.html')}`;
   const [raised, setRaised] = useState(false);

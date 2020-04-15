@@ -33,3 +33,16 @@ export const checkFetchResponse = response => {
   return response.json();
 };
 
+/**
+ * Simulates a click on a <a/> element
+ * @param {string} url 
+ */
+export const clickOnLink = (url) => {
+  const link = document.createElement("a");
+  link.setAttribute('href', url);
+  link.style.display = 'none';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link)
+}
+

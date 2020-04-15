@@ -3,7 +3,7 @@ import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { makeStyles } from "@material-ui/core/styles";
 import { Link } from 'gatsby-plugin-intl';
 import filesize from 'filesize';
-import { mergeClasses, checkFetchResponse } from '../../utils/misc';
+import { mergeClasses, checkFetchResponse, clickOnLink } from '../../utils/misc';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import CircularProgress from '@material-ui/core/CircularProgress';
@@ -15,6 +15,7 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import DownloadIcon from '@material-ui/icons/CloudDownload';
 import LoginIcon from '@material-ui/icons/ExitToApp';
 import LogoutIcon from '@material-ui/icons/Eject';
+import DeleteDialog from './DeleteDialog';
 
 // See: https://github.com/anthonyjgrove/react-google-login
 import { GoogleLogin } from 'react-google-login';
@@ -66,7 +67,7 @@ const useStyles = makeStyles(theme => ({
 function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInfoNode, ...props }) {
 
   const classes = mergeClasses(props, useStyles());
-  const { locale, defaultLocale, messages, formatMessage } = intl;
+  const { messages, formatMessage } = intl;
   const { frontmatter, body } = userLibInfoNode;
 
   /**
@@ -88,6 +89,7 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
   const [userData, setUserData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [err, setErr] = useState(null);
+  const [deletePrj, setDeletePrj] = useState(null);
 
   const title = userData ? formatMessage({ id: 'user-repo-title' }, { user: userData.fullUserName || userData.id }) : messages['user-repo'];
 
@@ -119,6 +121,12 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
           if (!data || data.status !== 'validated') {
             throw new Error(data?.error);
           }
+          // Normalize data fields
+          data.projects.forEach(prj => {
+            prj.path = prj.basePath;
+            if (!prj.totalSize)
+              prj.totalSize = prj.totalFileSize;
+          })
           const result = { googleUser, ...data };
           sessionStorage.setItem(AUTH_KEY, JSON.stringify(result));
           setUserData(result);
@@ -152,22 +160,21 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
   }
 
   const uploadProject = () => {
-    console.log('Show the publish project dialog...');
+    console.log('Show the "publish project" dialog...');
   }
 
-  const deleteProject = (project) => {
+  const deleteProject = (project) => (ev) => {
+    ev.preventDefault();
+    setDeletePrj(project);
+  }
+
+  const deleteAction = (project) => {
     console.log(`Project "${project.title}" should be deleted`);
   }
 
-  const downloadProject = (project) => {
-    console.log(`Project "${project.title}" should be downloaded`);
-    const link = document.createElement("a");
-    link.setAttribute('href', `${userLibApi}/downloadUserProject?prj=${userData.id}/${project.basePath}`);
-    //link.setAttribute('download', `${project.basePath}.jlic.zip`);
-    link.style.display = 'none';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link)
+  const downloadProject = (project) => (ev) => {
+    ev.preventDefault();
+    clickOnLink(`${userLibApi}/downloadUserProject?prj=${userData.id}/${project.basePath}`);
   }
 
   return (
@@ -233,10 +240,7 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
                           {`${messages['prj-numfiles']}: ${project.files.length}`}
                         </div>
                         <IconButton
-                          onClick={(ev) => {
-                            ev.preventDefault();
-                            downloadProject(project);
-                          }}
+                          onClick={downloadProject(project)}
                           aria-label={messages['prj-download']}
                           title={messages['prj-download']}
                           color="primary"
@@ -244,10 +248,7 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
                           <DownloadIcon />
                         </IconButton>
                         <IconButton
-                          onClick={(ev) => {
-                            ev.preventDefault();
-                            deleteProject(project);
-                          }}
+                          onClick={deleteProject(project)}
                           aria-label={messages['user-repo-delete-project']}
                           title={messages['user-repo-delete-project']}
                           color="primary"
@@ -265,6 +266,7 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
           }
         </>
       }
+      <DeleteDialog {...{ intl, deletePrj, setDeletePrj, deleteAction }} />
     </div>
   );
 }
