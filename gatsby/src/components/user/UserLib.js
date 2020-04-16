@@ -15,6 +15,7 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import DownloadIcon from '@material-ui/icons/CloudDownload';
 import LoginIcon from '@material-ui/icons/ExitToApp';
 import LogoutIcon from '@material-ui/icons/Eject';
+import InfoIcon from '@material-ui/icons/Info';
 import DeleteDialog from './DeleteDialog';
 
 // See: https://github.com/anthonyjgrove/react-google-login
@@ -169,7 +170,38 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
   }
 
   const deleteAction = (project) => {
+    setDeletePrj('waiting');
     console.log(`Project "${project.title}" should be deleted`);
+
+    fetch(`${userLibApi}/deleteProject`, {
+      method: 'POST',
+      mode: 'cors',
+      cache: 'no-cache',
+      credentials: 'same-origin',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        'Accept': 'application/json',
+      },
+      body: `project=${project.name}`,
+    })
+      .then(checkFetchResponse)
+      .then(response => {
+        if (response.status === 'ok' ||
+          // Workaround for NFS delay when deleting files
+          (response.status === 'error' && response.error && response.error.indexOf('Unable to delete directory') >= 0)) {
+          const updatedUserData = { ...userData };
+          updatedUserData.projects = userData.projects.filter(prj => prj.name !== project.name);
+          setUserData(updatedUserData);
+        }
+        else
+          throw new Error(response.error || messages['unknown-error']);
+      })
+      .catch(error => {
+        alert(formatMessage({ id: 'user-repo-delete-err' }, { error: error?.toString() || messages['generic-error'] }));
+      })
+      .finally(() => {
+        setDeletePrj(null);
+      });
   }
 
   const downloadProject = (project) => (ev) => {
@@ -239,6 +271,13 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
                           {`${messages['prj-size']}: ${filesize(project.totalSize)}`}<br />
                           {`${messages['prj-numfiles']}: ${project.files.length}`}
                         </div>
+                        <IconButton
+                          aria-label={messages['prj-more-info']}
+                          title={messages['prj-more-info']}
+                          color="primary"
+                        >
+                          <InfoIcon />
+                        </IconButton>
                         <IconButton
                           onClick={downloadProject(project)}
                           aria-label={messages['prj-download']}

@@ -5,6 +5,7 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
+import LinearProgress from '@material-ui/core/LinearProgress';
 
 function DeleteDialog({ intl, deletePrj, setDeletePrj, deleteAction }) {
 
@@ -17,14 +18,22 @@ function DeleteDialog({ intl, deletePrj, setDeletePrj, deleteAction }) {
       aria-labelledby="alert-dialog-title"
       aria-describedby="alert-dialog-description"
     >
-      <DialogTitle id="alert-dialog-title">{messages['user-repo-delete-project']}</DialogTitle>
+      <DialogTitle id="alert-dialog-title">{messages['user-repo-delete']}</DialogTitle>
       <DialogContent>
-        <DialogContentText id="alert-dialog-description">{formatMessage({ id: 'user-repo-confirm-delete' }, { project: deletePrj?.title })}</DialogContentText>
+        <DialogContentText id="alert-dialog-description">
+          {deletePrj === 'waiting' ?
+            messages['user-repo-delete-wait'] :
+            formatMessage({ id: 'user-repo-confirm-delete' }, { project: deletePrj?.title })
+          }
+        </DialogContentText>
+        {deletePrj === 'waiting' && <LinearProgress style={{marginTop: '2rem', marginBottom: '3rem'}}/>}
       </DialogContent>
-      <DialogActions>
-        <Button onClick={() => setDeletePrj(null)} color="primary">{messages['cancel']}</Button>
-        <Button onClick={() => { deleteAction(deletePrj); setDeletePrj(null); }} color="primary" autoFocus>{messages['user-repo-delete-project']}</Button>
-      </DialogActions>
+      {deletePrj !== 'waiting' &&
+        <DialogActions>
+          <Button onClick={() => setDeletePrj(null)} color="primary">{messages['cancel']}</Button>
+          <Button onClick={() => deleteAction(deletePrj)} color="primary" autoFocus>{messages['user-repo-delete-project']}</Button>
+        </DialogActions>
+      }
     </Dialog>
   );
 }

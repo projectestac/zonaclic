@@ -304,9 +304,27 @@ const config = {
         path: `${__dirname}/src/intl`,
         languages: supportedLanguages,
         defaultLanguage,
-        // redirect disabled because of erroneus redirections with `static` folder
         redirect: true,
       },
+    },
+  ],
+  // proxy for development server
+  proxy: [
+    {
+      prefix: '/projects',
+      url: 'http://clic.loc'
+    },
+    {
+      prefix: '/users',
+      url: 'http://clic.loc'
+    },
+    {
+      prefix: '/jnlp',
+      url: 'http://clic.loc'
+    },
+    {
+      prefix: '/db',
+      url: 'http://clic.loc'
     },
   ],
 };
