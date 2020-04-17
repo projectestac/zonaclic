@@ -21,6 +21,7 @@ const JCLIC_SEARCH_SERVICE = process.env.JCLIC_SEARCH_SERVICE || 'https://clic.x
 const USERS_BASE = process.env.USERS_BASE || 'https://clic.xtec.cat/users';
 const GOOGLE_OAUTH2_ID = process.env.GOOGLE_OAUTH2_ID || '';
 const USERLIB_API = process.env.USERLIB_API || "https://clic.xtec.cat/db";
+const PROXY_BASE = process.env.PROXY_BASE || "";
 
 // Main metadata settings
 const pathPrefix = PATH_PREFIX;
@@ -308,26 +309,29 @@ const config = {
       },
     },
   ],
-  // proxy for development server
-  proxy: [
+};
+
+// Proxy base with `gatsby develop`
+if (PROXY_BASE) {
+  config.proxy = [
     {
       prefix: '/projects',
-      url: 'http://clic.loc'
+      url: PROXY_BASE
     },
     {
       prefix: '/users',
-      url: 'http://clic.loc'
+      url: PROXY_BASE
     },
     {
       prefix: '/jnlp',
-      url: 'http://clic.loc'
+      url: PROXY_BASE
     },
     {
       prefix: '/db',
-      url: 'http://clic.loc'
+      url: PROXY_BASE
     },
-  ],
-};
+  ];
+}
 
 // Google analytics
 if (ANALYTICS_UA) {

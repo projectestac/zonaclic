@@ -15,12 +15,12 @@ function DeleteDialog({ intl, deletePrj, setDeletePrj, deleteAction }) {
     <Dialog
       open={deletePrj !== null}
       onClose={() => setDeletePrj(null)}
-      aria-labelledby="alert-dialog-title"
-      aria-describedby="alert-dialog-description"
+      aria-labelledby="delete-dialog-title"
+      aria-describedby="delete-dialog-description"
     >
-      <DialogTitle id="alert-dialog-title">{messages['user-repo-delete']}</DialogTitle>
+      <DialogTitle id="delete-dialog-title">{messages['user-repo-delete']}</DialogTitle>
       <DialogContent>
-        <DialogContentText id="alert-dialog-description">
+        <DialogContentText id="delete-dialog-description">
           {deletePrj === 'waiting' ?
             messages['user-repo-delete-wait'] :
             formatMessage({ id: 'user-repo-confirm-delete' }, { project: deletePrj?.title })

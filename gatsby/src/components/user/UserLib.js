@@ -17,7 +17,7 @@ import LoginIcon from '@material-ui/icons/ExitToApp';
 import LogoutIcon from '@material-ui/icons/Eject';
 import InfoIcon from '@material-ui/icons/Info';
 import DeleteDialog from './DeleteDialog';
-
+import UploadDialog from './UploadDialog';
 // See: https://github.com/anthonyjgrove/react-google-login
 import { GoogleLogin } from 'react-google-login';
 import ProjectCard from '../repo/ProjectCard';
@@ -91,6 +91,7 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
   const [loading, setLoading] = useState(false);
   const [err, setErr] = useState(null);
   const [deletePrj, setDeletePrj] = useState(null);
+  const [uploadDlg, setUploadDlg] = useState(false);
 
   const title = userData ? formatMessage({ id: 'user-repo-title' }, { user: userData.fullUserName || userData.id }) : messages['user-repo'];
 
@@ -122,12 +123,7 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
           if (!data || data.status !== 'validated') {
             throw new Error(data?.error);
           }
-          // Normalize data fields
-          data.projects.forEach(prj => {
-            prj.path = prj.basePath;
-            if (!prj.totalSize)
-              prj.totalSize = prj.totalFileSize;
-          })
+          data.projects.forEach(normalizeProjectFields);
           const result = { googleUser, ...data };
           sessionStorage.setItem(AUTH_KEY, JSON.stringify(result));
           setUserData(result);
@@ -145,6 +141,14 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
       setErr(messages['user-repo-login-error']);
   }
 
+  const normalizeProjectFields = project => {
+    if (project.basePath)
+      project.path = project.basePath;
+    if (!project.totalSize)
+      project.totalSize = project.totalFileSize;
+    return project;
+  };
+
   const loginFailed = ({ error, details }) => {
     sessionStorage.removeItem(AUTH_KEY);
     setUserData(null);
@@ -161,7 +165,7 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
   }
 
   const uploadProject = () => {
-    console.log('Show the "publish project" dialog...');
+    setUploadDlg(true);
   }
 
   const deleteProject = (project) => (ev) => {
@@ -191,6 +195,7 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
           (response.status === 'error' && response.error && response.error.indexOf('Unable to delete directory') >= 0)) {
           const updatedUserData = { ...userData };
           updatedUserData.projects = userData.projects.filter(prj => prj.name !== project.name);
+          updatedUserData.currentSize -= project.totalSize;
           setUserData(updatedUserData);
         }
         else
@@ -201,6 +206,42 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
       })
       .finally(() => {
         setDeletePrj(null);
+      });
+  }
+
+  const uploadAction = (file, folder) => {
+    const data = new FormData();
+    data.append('scormFile', file);
+    data.append('project', folder);
+    fetch(`${userLibApi}/uploadUserFile`, {
+      method: 'POST',
+      mode: 'cors',
+      cache: 'no-cache',
+      credentials: 'same-origin',
+      body: data,
+    })
+      .then(checkFetchResponse)
+      .then(response => {
+        if (response.status === 'ok' && response.project) {
+          const project = normalizeProjectFields(response.project);
+          const updatedUserData = { ...userData };
+          const updatedProject = userData.projects.find(prj => prj.name === project.name);
+          if (updatedProject) {
+            updatedUserData.currentSize -= updatedProject.totalSize;
+            updatedUserData.projects = userData.projects.filter(prj => prj.name !== project.name);
+          }
+          updatedUserData.projects.push(project);
+          updatedUserData.currentSize += project.totalSize;
+          setUserData(updatedUserData);
+        }
+        else
+          throw new Error(response.error || messages['unknown-error']);
+      })
+      .catch(error => {
+        alert(formatMessage({ id: 'user-repo-delete-err' }, { error: error?.toString() || messages['generic-error'] }));
+      })
+      .finally(() => {
+        setUploadDlg(false);
       });
   }
 
@@ -306,6 +347,7 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
         </>
       }
       <DeleteDialog {...{ intl, deletePrj, setDeletePrj, deleteAction }} />
+      <UploadDialog {...{ intl, uploadDlg, setUploadDlg, userData, uploadAction }} />
     </div>
   );
 }
