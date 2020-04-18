@@ -75,6 +75,11 @@ h1:hover .anchor svg, h2:hover .anchor svg, h3:hover .anchor svg, h4:hover .anch
   color: red;
 }
 
+.code {
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+
 /* === Data cards === */
 
 .dataCard {

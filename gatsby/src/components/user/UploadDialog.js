@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
+import { graphql, useStaticQuery } from 'gatsby';
+import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { makeStyles } from "@material-ui/core/styles";
-import { mergeClasses, checkFetchResponse } from '../../utils/misc';
+import { mergeClasses } from '../../utils/misc';
+import { getResolvedVersionForLanguage } from '../../utils/node';
 import filesize from 'filesize';
 import Button from '@material-ui/core/Button';
 import Dialog from '@material-ui/core/Dialog';
@@ -11,13 +14,33 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import TextField from '@material-ui/core/TextField';
 import LinearProgress from '@material-ui/core/LinearProgress';
 
+const query = graphql`
+  query {
+    allMdx(filter: {fields: {slug: {eq: "/userlib/upload/"}}}) {
+      edges {
+        node {
+          id
+          body
+          fields {
+            lang
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
+      }
+    }    
+  }
+`;
+
 const useStyles = makeStyles(theme => ({
   root: {
   },
   content: {
     '& > *': {
-      marginTop: theme.spacing(1),
-      marginBottom: theme.spacing(1),
+      marginTop: theme.spacing(2),
+      marginBottom: theme.spacing(2),
     },
   },
   input: {
@@ -37,10 +60,10 @@ const useStyles = makeStyles(theme => ({
     maxWidth: '18rem',
   },
   error: {
-    color: 'red',
+    color: theme.palette.error.dark,
   },
   warning: {
-    color: 'orange',
+    color: theme.palette.warning.dark,
   },
   waiting: {
     marginTop: theme.spacing(2),
@@ -54,7 +77,9 @@ const useStyles = makeStyles(theme => ({
 function UploadDialog({ intl, uploadDlg, setUploadDlg, userData, uploadAction, ...props }) {
 
   const classes = mergeClasses(props, useStyles());
-  const { messages, formatMessage } = intl;
+  const { frontmatter, body } = getResolvedVersionForLanguage(useStaticQuery(query), intl);
+
+  const { messages } = intl;
   const [file, setFile] = useState(null);
   const [folder, setFolder] = useState('');
   const [err, setErr] = useState(null);
@@ -122,22 +147,20 @@ function UploadDialog({ intl, uploadDlg, setUploadDlg, userData, uploadAction, .
       open={uploadDlg}
       onExit={reset}
       aria-labelledby="upload-dialog-title"
-      aria-describedby="upload-dialog-description"
     >
       <DialogTitle id="upload-dialog-title">{messages['user-repo-upload-title']}</DialogTitle>
       <DialogContent className={classes['content']}>
-        <DialogContentText id="upload-dialog-description">
-          {messages['user-repo-upload-body']}
-        </DialogContentText>
+        <MDXRenderer {...{ frontmatter, intl }}>{body}</MDXRenderer>
         <input
+          type="file"
           accept=".scorm.zip"
           className={classes['input']}
           id="input-file"
-          type="file"
           onChange={handleUploadClick}
+          disabled={waiting}
         />
         <label htmlFor="input-file">
-          <Button component="span" variant="contained">{messages['user-repo-upload-select-file']}</Button>
+          <Button component="span" variant="contained" disabled={waiting}>{messages['user-repo-upload-select-file']}</Button>
         </label>
         {file &&
           <>
@@ -149,6 +172,7 @@ function UploadDialog({ intl, uploadDlg, setUploadDlg, userData, uploadAction, .
               label={messages['user-repo-upload-current-directory']}
               value={folder}
               onChange={updateFolder}
+              disabled={waiting}
             />
           </>
         }
@@ -164,8 +188,8 @@ function UploadDialog({ intl, uploadDlg, setUploadDlg, userData, uploadAction, .
         </div>
       </DialogContent>
       <DialogActions>
-        <Button onClick={uploadProject} disabled={!ready} color="primary">{messages['user-repo-upload-publish']}</Button>
-        <Button onClick={() => setUploadDlg(false)} color="primary">{messages['cancel']}</Button>
+        <Button onClick={uploadProject} disabled={!ready || waiting} color="primary">{messages['user-repo-upload-publish']}</Button>
+        <Button onClick={() => setUploadDlg(false)} color="primary" disabled={waiting}>{messages['cancel']}</Button>
       </DialogActions>
     </Dialog>
   );

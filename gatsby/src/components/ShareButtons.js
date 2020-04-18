@@ -92,6 +92,10 @@ const useStyles = makeStyles(_theme => ({
   email: {
     color: '#0a5191',
   },
+  snack: {
+    position: 'absolute',
+    top: '9rem',
+  },
 }));
 
 // Google Classroom icon
@@ -287,7 +291,7 @@ export default function ShareButtons({ shareSites = {}, shareMeta = {}, intl, sl
         </Paper>
       }
       <Snackbar
-        style={{ position: 'relative' }}
+        className={classes['snack']}
         open={snackOpen}
         autoHideDuration={4000}
         onClose={handleSnackClose}

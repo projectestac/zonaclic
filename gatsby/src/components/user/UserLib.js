@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from 'react';
+import { graphql, useStaticQuery } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { makeStyles } from "@material-ui/core/styles";
 import { Link } from 'gatsby-plugin-intl';
 import filesize from 'filesize';
 import { mergeClasses, checkFetchResponse, clickOnLink } from '../../utils/misc';
+import { getResolvedVersionForLanguage } from '../../utils/node';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
-import Divider from '@material-ui/core/Divider';
 import AddIcon from '@material-ui/icons/LibraryAdd';
 import DeleteIcon from '@material-ui/icons/Delete';
 import DownloadIcon from '@material-ui/icons/CloudDownload';
@@ -24,15 +25,31 @@ import ProjectCard from '../repo/ProjectCard';
 
 const AUTH_KEY = '__auth';
 
+const query = graphql`
+  query {
+    allMdx(filter: {fields: {slug: {eq: "/userlib/"}}}) {
+      edges {
+        node {
+          id
+          body
+          fields {
+            lang
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
+      }
+    }    
+  }
+`;
+
 const useStyles = makeStyles(theme => ({
   root: {
   },
-  divider: {
-    marginTop: theme.spacing(3),
-    marginBottom: theme.spacing(3),
-  },
   error: {
-    color: 'red',
+    color: theme.palette.error.dark,
     fontWeight: 'bold',
   },
   titleGroup: {
@@ -46,6 +63,9 @@ const useStyles = makeStyles(theme => ({
   },
   mainButtons: {
     marginTop: theme.spacing(3),
+    '& > *': {
+      marginRight: theme.spacing(2),
+    },
   },
   projects: {
     marginTop: theme.spacing(3),
@@ -65,11 +85,11 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInfoNode, ...props }) {
+function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, ...props }) {
 
   const classes = mergeClasses(props, useStyles());
+  const { frontmatter, body } = getResolvedVersionForLanguage(useStaticQuery(query), intl);
   const { messages, formatMessage } = intl;
-  const { frontmatter, body } = userLibInfoNode;
 
   /**
    * userData fields: {
@@ -276,9 +296,8 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
                 )}
               />
             }
-            {userData &&
-              <Button variant="contained" startIcon={<LogoutIcon />} onClick={logout}>{messages['user-repo-logout']}</Button>
-            }
+            {userData && <Button variant="contained" startIcon={<LogoutIcon />} onClick={logout}>{messages['user-repo-logout']}</Button>}
+            {userData && <Button variant="contained" startIcon={<AddIcon />} onClick={uploadProject}>{messages['user-repo-upload-project']}</Button>}
           </div>
           {userData &&
             <>
@@ -340,8 +359,6 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInf
                   ))}
                 </div>
               }
-              <Divider className={classes['divider']} />
-              <Button variant="contained" startIcon={<AddIcon />} onClick={uploadProject}>{messages['user-repo-upload-project']}</Button>
             </>
           }
         </>

@@ -3,7 +3,6 @@ import { graphql } from 'gatsby';
 import queryString from 'query-string';
 import { useIntl } from 'gatsby-plugin-intl';
 import { makeStyles } from '@material-ui/core/styles';
-import { getResolvedVersionForLanguage } from '../utils/node';
 import Layout from '../components/Layout';
 import UserMain from '../components/user/UserMain';
 
@@ -18,10 +17,9 @@ const useStyles = makeStyles(theme => ({
 
 export default function User({ data, location }) {
 
-  const { site: { siteMetadata: { usersBase, googleOAuth2Id, jnlpInstaller, userLibApi} } } = data;
+  const { site: { siteMetadata: { usersBase, googleOAuth2Id, jnlpInstaller, userLibApi } } } = data;
   const classes = useStyles();
   const intl = useIntl();
-  const userLibInfoNode = getResolvedVersionForLanguage(data, intl);
   const [user, setUser] = useState();
   useMemo(() => setUser(queryString.parse(location.search)['user']), [location]);
   const [act, setAct] = useState();
@@ -32,7 +30,7 @@ export default function User({ data, location }) {
   return (
     <Layout {...{ intl, slug: `${SLUG}${user ? `${user}/` : ''}${act ? `${act}/` : ''}` }}>
       <article className={classes.root}>
-        <UserMain {...{ intl, usersBase, location, SLUG, googleOAuth2Id, userLibApi, jnlpInstaller, userLibInfoNode, user, act }} />
+        <UserMain {...{ intl, usersBase, location, SLUG, googleOAuth2Id, userLibApi, jnlpInstaller, user, act }} />
       </article>
     </Layout>
   );
@@ -48,21 +46,6 @@ export const pageQuery = graphql`
         jnlpInstaller
       }
     }
-    allMdx(filter: {fields: {slug: {eq: "/userlib/"}}}) {
-      edges {
-        node {
-          id
-          body
-          fields {
-            lang
-            slug
-          }
-          frontmatter {
-            title
-          }
-        }
-      }
-    }    
   }
 `;
 

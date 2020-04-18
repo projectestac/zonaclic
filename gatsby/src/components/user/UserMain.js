@@ -5,7 +5,7 @@ import RepoList from '../repo/RepoList';
 import Loading from '../repo/Loading';
 import UserLib from './UserLib';
 
-function UserMain({ location, SLUG, intl, usersBase, googleOAuth2Id, userLibApi, jnlpInstaller, userLibInfoNode, user, act }) {
+function UserMain({ location, SLUG, intl, usersBase, googleOAuth2Id, userLibApi, jnlpInstaller, user, act }) {
 
   const { formatMessage } = intl;
   const [fullProjectList, setFullProjectList] = useState(null);
@@ -36,10 +36,10 @@ function UserMain({ location, SLUG, intl, usersBase, googleOAuth2Id, userLibApi,
       // Load a specific project
       fetch(`${fullPath}/project.json`)
         .then(checkFetchResponse)
-        .then(_project => {
-          _project.path = act;
-          _project.fullPath = fullPath;
-          setProject(_project);
+        .then(project => {
+          project.path = act;
+          project.fullPath = fullPath;
+          setProject(project);
           setLoading(false);
         })
         .catch(err => {
@@ -62,7 +62,7 @@ function UserMain({ location, SLUG, intl, usersBase, googleOAuth2Id, userLibApi,
     (loading && <Loading {...{ intl }} />) ||
     (user && project && <Project {...{ intl, user, project, SLUG, jnlpInstaller, location }} />) ||
     (user && projects && <RepoList {...{ intl, user, repoBase: usersBase, projects, listMode, setListMode, setLoading, setError, SLUG, location }} />) ||
-    <UserLib path="/" {...{ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, userLibInfoNode }} />
+    <UserLib path="/" {...{ intl, SLUG, googleOAuth2Id, usersBase, userLibApi }} />
   );
 }
 
