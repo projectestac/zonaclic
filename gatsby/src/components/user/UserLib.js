@@ -65,6 +65,7 @@ const useStyles = makeStyles(theme => ({
     marginTop: theme.spacing(3),
     '& > *': {
       marginRight: theme.spacing(2),
+      marginBottom: theme.spacing(2),
     },
   },
   projects: {
