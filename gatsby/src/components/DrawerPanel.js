@@ -38,7 +38,7 @@ const query = graphql`
         supportedLanguages
       }
     }
-    allMdx(filter: {fields: {slug: {regex: "/^(?!\\/blog\\/)/"}}}, sort: {fields: frontmatter___order, order: ASC}) {
+    allMdx(filter: {frontmatter: {drawer_pos: {gt: 0}}}, sort: {fields: frontmatter___drawer_pos}) {
       edges {
         node {
           excerpt
@@ -48,7 +48,6 @@ const query = graphql`
           }
           frontmatter {
             title
-            order
             date
             description
             icon

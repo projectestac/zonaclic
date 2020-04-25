@@ -1,10 +1,10 @@
 ---
 title: JClic
-order: 100
 date: '2020-01-07T11:45+01:00'
 description: Información sobre el proyecto JClic
 icon: info-circle
 keywords: jclic, información
+drawer-pos: 10
 ---
 
 ![Logo JClic](/img/jclic_logo.png)
