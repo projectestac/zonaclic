@@ -19,7 +19,7 @@ function UserMain({ location, SLUG, intl, usersBase, googleOAuth2Id, userLibApi,
   useEffect(() => {
 
     function loadFullProjectList() {
-      return fetch(`${usersBase}/${user}/projects.json`)
+      return fetch(`${usersBase}/${user}/projects.json`, { cache: 'no-cache' })
         .then(checkFetchResponse)
         .then(_fullList => setFullProjectList(_fullList))
         .catch(err => setError(err?.toString() || 'Error'));
@@ -34,7 +34,7 @@ function UserMain({ location, SLUG, intl, usersBase, googleOAuth2Id, userLibApi,
       setProjects(null);
       const fullPath = `${usersBase}/${user}/${act}`;
       // Load a specific project
-      fetch(`${fullPath}/project.json`)
+      fetch(`${fullPath}/project.json`, { cache: 'no-cache' })
         .then(checkFetchResponse)
         .then(project => {
           project.path = act;
