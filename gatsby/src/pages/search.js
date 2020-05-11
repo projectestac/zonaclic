@@ -14,7 +14,7 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
 import ListItemText from '@material-ui/core/ListItemText';
 import TablePagination from '@material-ui/core/TablePagination';
-import { FontAwIcon } from '../utils/FontAwIcon';
+import { ReactIcon } from '../utils/ReactIcon';
 import { checkFetchResponse } from '../utils/misc';
 import { repoSlug } from './repo';
 
@@ -154,7 +154,7 @@ export default function Search({ location, data }) {
                       <ListItem button key={n} onClick={() => navigate(slug)}>
                         <ListItemAvatar>
                           <Avatar>
-                            <FontAwIcon icon={icon} size="lg" />
+                            <ReactIcon icon={icon} size="lg" />
                           </Avatar>
                         </ListItemAvatar>
                         <ListItemText primary={title} secondary={description} />

@@ -10,7 +10,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import { getAllResolvedVersionsForLanguage } from '../utils/node';
-import { FontAwIcon } from '../utils/FontAwIcon';
+import { ReactIcon } from '../utils/ReactIcon';
 import { mergeClasses } from '../utils/misc';
 
 const useStyles = makeStyles(theme => ({
@@ -68,7 +68,7 @@ export default function DrawerPanel({ intl, ...props }) {
   return (
     <div {...props}>
       <Toolbar className={classes.toolbar} disableGutters>
-        <Link to='/'><img className={classes.logo} src={withPrefix('/icons/icon-48x48.png')} alt="logo" /></Link>
+        <Link to='/'><ReactIcon icon="jclic" size="3x" className={classes.logo} /></Link>
         <Typography variant="h6" noWrap className={classes.title}>
           {intl.messages['site-title']}
         </Typography>
@@ -76,23 +76,23 @@ export default function DrawerPanel({ intl, ...props }) {
       <Divider />
       <List>
         <ListItem button onClick={() => navigate('/repo/')}>
-          <ListItemIcon className={classes.listItemIcon}><FontAwIcon icon="cubes" size="lg" /></ListItemIcon>
+          <ListItemIcon className={classes.listItemIcon}><ReactIcon icon="cubes" size="lg" /></ListItemIcon>
           <ListItemText primary={messages['repo-title']} />
         </ListItem>
         <ListItem button onClick={() => navigate('/user/')}>
-          <ListItemIcon className={classes.listItemIcon}><FontAwIcon icon="users" size="lg" /></ListItemIcon>
+          <ListItemIcon className={classes.listItemIcon}><ReactIcon icon="users" size="lg" /></ListItemIcon>
           <ListItemText primary={messages['user-repo']} />
         </ListItem>
         {pages.map(({ fields: { slug }, frontmatter: { icon, title } }) => (
           <ListItem button key={slug} onClick={() => navigate(slug)}>
-            <ListItemIcon className={classes.listItemIcon}><FontAwIcon icon={icon} size="lg" /></ListItemIcon>
+            <ListItemIcon className={classes.listItemIcon}><ReactIcon icon={icon} size="lg" /></ListItemIcon>
             <ListItemText primary={title} />
           </ListItem>
         ))}
       </List>
       <Divider />
       <ListItem button onClick={() => navigate('/blog/')}>
-        <ListItemIcon className={classes.listItemIcon}><FontAwIcon icon="rss-square" size="lg" /></ListItemIcon>
+        <ListItemIcon className={classes.listItemIcon}><ReactIcon icon="rss-square" size="lg" /></ListItemIcon>
         <ListItemText primary={messages['blog-index-title']} />
       </ListItem>
     </div>

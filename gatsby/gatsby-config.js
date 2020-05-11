@@ -192,7 +192,7 @@ const config = {
         background_color: themeBackground,
         theme_color: themeColor,
         display: 'standalone',
-        icon: 'content/assets/icons/logo.svg',
+        icon: 'static/img/icons/jclic.svg',
         localize: supportedLanguages.map(lang => ({
           lang,
           start_url: `/${lang}/`,

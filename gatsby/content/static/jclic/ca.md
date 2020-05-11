@@ -2,7 +2,7 @@
 title: JClic
 date: '2020-01-07T11:45+01:00'
 description: Informació sobre el projecte JClic
-icon: info-circle
+icon: jclic
 keywords: jclic, informació
 drawer-pos: 10
 ---

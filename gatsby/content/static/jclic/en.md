@@ -2,7 +2,7 @@
 title: JClic
 date: '2020-01-07T11:45+01:00'
 description: Informaction about the JClic project
-icon: info-circle
+icon: jclic
 # thumbnail: './image.jpg'
 keywords: jclic, informació
 drawer-pos: 10

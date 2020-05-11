@@ -4,7 +4,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import { mergeClasses } from '../utils/misc';
 import MUIBreadcrumbs from '@material-ui/core/Breadcrumbs';
 import { Link } from 'gatsby-plugin-intl';
-import { faIgloo } from '@fortawesome/free-solid-svg-icons';
 
 const query = graphql`
   query {
@@ -29,7 +28,7 @@ const query = graphql`
   }
 `;
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles(_theme => ({
   root: {
     fontFamily: 'monospace',
   },
