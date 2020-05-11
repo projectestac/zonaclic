@@ -24,17 +24,21 @@ const DEFAULT_ITEMS_PER_PAGE = 25;
 // Fuse.js options
 // See: https://fusejs.io/
 const FUSE_OPTIONS = {
-  caseSensitive: false,
-  shouldSort: true,
-  tokenize: true,
-  matchAllTokens: true,
+  isCaseSensitive: false,
   includeScore: false,
   includeMatches: false,
-  threshold: 0.2,
-  location: 0,
-  distance: 4,
-  maxPatternLength: 32,
   minMatchCharLength: 2,
+  shouldSort: true,
+  findAllMatches: false,
+  location: 0,
+  threshold: 0.2,
+  // Provide a big distance to avoid null matches!
+  // distance: 4,
+  distance: 100000,
+  useExtendedSearch: false,
+  tokenize: true,
+  matchAllTokens: true,
+  maxPatternLength: 32,
 };
 
 const useStyles = makeStyles(theme => ({
@@ -98,7 +102,7 @@ export default function Search({ location, data }) {
     // Delay the search operation, so allowing page to be fully rendered
     window.setTimeout(() => {
       const fuse = getFuseEngine(lang);
-      const staticResults = fuse.search(query);
+      const staticResults = fuse.search(query).map(match => match.item);
       setResults(staticResults);
       fetch(`${jclicSearchService}?lang=${lang}&method=boolean&q=${encodeURIComponent(query)}`)
         .then(checkFetchResponse)

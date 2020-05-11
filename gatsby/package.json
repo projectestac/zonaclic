@@ -1,7 +1,7 @@
 {
   "name": "zonaclic-web",
   "title": "Clic Zone",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "JClic project web portal and blog",
   "author": "Francesc Busquets <francesc@gmail.com>",
   "private": true,
@@ -37,7 +37,7 @@
     "file-saver": "^2.0.2",
     "filesize": "^6.1.0",
     "fuse.js": "^5.2.3",
-    "gatsby": "^2.21.21",
+    "gatsby": "^2.21.22",
     "gatsby-image": "^2.4.3",
     "gatsby-plugin-feed-mdx": "^1.0.1",
     "gatsby-plugin-google-analytics": "^2.3.1",
