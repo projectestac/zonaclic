@@ -36,7 +36,7 @@ function PaginatedList({ intl, user, projects, repoBase, SLUG, ...props }) {
       <List dense>
         {projects
           .slice(page * itemsPerPage, (page + 1) * itemsPerPage)
-          .map(({ path, title, author, date, langCodes, levelCodes, mainFile, cover, thumbnail }, n) => (
+          .map(({ path, title, author, cover, thumbnail }, n) => (
             <ListItem button key={n} className={classes.listElements} onClick={() => navigate(`${SLUG}?${user ? `user=${user}&` : ''}act=${path}`, { replace: false })}>
               <ListItemAvatar>
                 <Avatar variant="square" alt={title} src={`${repoBase}/${user ? `${user}/` : ''}${path}/${thumbnail || cover}`} />

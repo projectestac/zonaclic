@@ -1,4 +1,4 @@
-import React, { createRef } from 'react';
+import React from 'react';
 import { makeStyles } from "@material-ui/core/styles";
 import { mergeClasses } from '../../utils/misc';
 import Typography from '@material-ui/core/Typography';

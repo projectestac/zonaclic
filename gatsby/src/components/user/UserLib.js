@@ -151,7 +151,8 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, ...props }
           setErr(null);
         })
         .catch(error => {
-          googleUser?.disconnect();
+          if (googleUser.disconnect)
+            googleUser.disconnect();
           setErr(error?.toString() || messages['generic-error']);
         })
         .finally(() => {

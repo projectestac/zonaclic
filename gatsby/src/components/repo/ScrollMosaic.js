@@ -4,7 +4,7 @@ import { mergeClasses } from '../../utils/misc';
 import InfiniteScroll from 'react-infinite-scroller';
 import ProjectCard from './ProjectCard';
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles(_theme => ({
   root: {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(14rem, 1fr))',

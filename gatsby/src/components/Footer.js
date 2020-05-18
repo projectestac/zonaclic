@@ -1,6 +1,5 @@
 import React from 'react';
-import { useStaticQuery, graphql, withPrefix } from 'gatsby';
-import Image from 'gatsby-image';
+import { useStaticQuery, graphql } from 'gatsby';
 import { Link } from 'gatsby-plugin-intl';
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";

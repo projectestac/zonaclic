@@ -1,5 +1,5 @@
 import React from 'react';
-import { useStaticQuery, graphql, withPrefix } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 import { Link, navigate } from 'gatsby-plugin-intl';
 import { makeStyles } from '@material-ui/core/styles';
 import Toolbar from '@material-ui/core/Toolbar';
