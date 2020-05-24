@@ -4,7 +4,7 @@
 // Import the desired icons
 import { FaBlog, FaStickyNote, FaInfoCircle, FaRssSquare, FaCubes, FaUsers } from 'react-icons/fa';
 import { FcShipped } from 'react-icons/fc';
-import { JClic, JClicAuthor } from './JClicIcons';
+import { JClic, JClicAuthor, JClicReports } from './JClicIcons';
 
 // Associate each icon with a label
 const ICONS = {
@@ -17,6 +17,7 @@ const ICONS = {
   'truck': FcShipped,
   'jclic': JClic,
   'jclic-author': JClicAuthor,
+  'jclic-reports': JClicReports,
   'default': FaBlog,
 };
 
