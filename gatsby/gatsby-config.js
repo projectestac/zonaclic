@@ -288,7 +288,8 @@ const config = {
           fonts: {
             google: [
               { family: 'Roboto', variants: ['300', '400', '500'] },
-              { family: 'Merriweather', variants: ['300', '400', '500'] },
+              // { family: 'Merriweather', variants: ['300', '400', '500'] },
+              { family: 'Lato', variants: ['300', '400', '500'] },
               { family: 'Montserrat', variants: ['800'] },
               // { family: 'Catamaran', variants: ['700', '800','900']},
               // { family: 'Open Sans', variants: ['300', '400', '500'] },

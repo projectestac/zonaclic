@@ -11,7 +11,8 @@ const theme = responsiveFontSizes(
       //error: red,
     },
     typography: {
-      fontFamily: ['"Roboto"', '"Helvetica"', '"Arial"', 'sans-serif'].join(','),
+      fontFamily: ['"Roboto"', 'sans-serif'].join(','),
+      //fontFamily: ['"Lato"', 'sans-serif'].join(','),
       fontDisplay: 'swap',
       h1: {
         fontFamily: ['"Montserrat"', 'sans-serif'].join(','),
@@ -32,9 +33,9 @@ const theme = responsiveFontSizes(
         marginBottom: '0.6rem',
       },
       body3: {
-        fontFamily: ['"Merriweather"', '"Georgia"', 'serif'].join(','),
+        fontFamily: ['"Lato"', 'sans-serif'].join(','),
         fontWeight: 400,
-        fontSize: '1rem',
+        fontSize: '1.25rem',
         lineHeight: 1.5,
         letterSpacing: '0.00938em',
       },
