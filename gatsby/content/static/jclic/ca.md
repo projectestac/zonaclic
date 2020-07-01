@@ -7,7 +7,7 @@ keywords: jclic, informació
 drawer-pos: 10
 ---
 
-![Logo JClic](/img/jclic_logo.png)
+![Logo JClic](../../img/jclic_logo.png)
 
 El JClic és un entorn per a la creació, realització i avaluació d'activitats educatives multimèdia, desenvolupat en la plataforma Java. Es tracta d'una aplicació de programari lliure basada en estàndards oberts que funciona en diversos entorns operatius: Linux, Mac OS i Windows. Un cop creades, les activitats es poden exportar a HTML5 i es poden utilitzar també en Android, iOS i ChromeOS.
 

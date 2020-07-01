@@ -14,17 +14,25 @@ export const mergeClasses = (props, classes, root = 'root') => {
 /**
  * Checks if the given expression is an absolute URL
  * (implemented with a very simple test, not RFC 3987 compliant!)
- * @param {string} text 
+ * @param {string} text - The expression to check
  */
 export const isAbsoluteUrl = (text) => text && /^https?:\/\//.test(text);
+
+/**
+ * Checks if the given expression is an absolute path
+ * (paths starting with '/')
+ * @param {string} text - The expression to check
+ */
+export const isAbsolutePath = (text) => text && /^\//.test(text);
 
 export const htmlContent = (desc = '') => /<\w*>/.test(desc) ? desc : desc.replace(/\n/g, '<p/>\n');
 
 export const getImgUrl = ({ siteMetadata: { baseUrl, pathPrefix, cardFileName }, slug, lang, thumbnail = null }) => {
   return isAbsoluteUrl(thumbnail) ? thumbnail
-    : thumbnail?.childImageSharp?.fluid?.src ? `${baseUrl}${thumbnail.childImageSharp.fluid.src}`
-      : slug ? `${baseUrl}${pathPrefix}/${lang}${slug}${cardFileName}`
-        : null;
+    : isAbsolutePath(thumbnail) ? `${baseUrl}${pathPrefix}${thumbnail}`
+      : thumbnail?.childImageSharp?.fluid?.src ? `${baseUrl}${thumbnail.childImageSharp.fluid.src}`
+        : slug ? `${baseUrl}${pathPrefix}/${lang}${slug}${cardFileName}`
+          : null;
 }
 
 export const checkFetchResponse = response => {
