@@ -188,18 +188,21 @@ const config = {
         name: title,
         short_name: shortTitle,
         description: `${description} (${version})`,
-        start_url: `/`,
         background_color: themeBackground,
         theme_color: themeColor,
         display: 'standalone',
         icon: 'static/img/icons/jclic.svg',
-        localize: supportedLanguages.map(lang => ({
-          lang,
-          start_url: `/${lang}/`,
-          name: localizedTitles[lang],
-          short_name: localizedShortTitles[lang],
-          description: localizedDescriptions[lang],
-        })),
+        lang: defaultLanguage,
+        start_url: `/`,
+        localize: supportedLanguages
+          // .filter(lang => lang !== defaultLanguage)
+          .map(lang => ({
+            lang,
+            start_url: `/${lang}/`,
+            name: localizedTitles[lang],
+            short_name: localizedShortTitles[lang],
+            description: localizedDescriptions[lang],
+          })),
       },
     },
     // Generate social cards

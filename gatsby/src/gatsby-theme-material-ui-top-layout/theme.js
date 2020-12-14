@@ -33,9 +33,9 @@ const theme = responsiveFontSizes(
         marginBottom: '0.6rem',
       },
       body3: {
-        fontFamily: ['"Lato"', 'sans-serif'].join(','),
+        fontFamily: ['"Roboto"', 'sans-serif'].join(','),
         fontWeight: 400,
-        fontSize: '1.25rem',
+        fontSize: '1rem',
         lineHeight: 1.5,
         letterSpacing: '0.00938em',
       },

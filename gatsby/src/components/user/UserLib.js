@@ -119,7 +119,8 @@ function UserLib({ intl, SLUG, googleOAuth2Id, usersBase, userLibApi, ...props }
   useEffect(() => {
     if (!userData) {
       const obj = JSON.parse(sessionStorage.getItem(AUTH_KEY));
-      if (obj && obj.googleUser && obj.expires && Date.now() < new Date(obj.expires))
+      // Consider the authentication code to be valid for the entire session.
+      if (obj && obj.googleUser /* && obj.expires && Date.now() < new Date(obj.expires) */)
         loginSuccess(obj.googleUser);
     }
   });

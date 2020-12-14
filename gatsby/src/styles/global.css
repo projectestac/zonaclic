@@ -99,6 +99,6 @@ h1:hover .anchor svg, h2:hover .anchor svg, h3:hover .anchor svg, h4:hover .anch
 .dataCard td:first-child {
   min-width: 8rem;
   font-weight: bold;
-  padding-right: 4pt;
+  padding-right: 8pt;
   vertical-align: top;
 }
