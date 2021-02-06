@@ -84,7 +84,7 @@ function Project({ intl, user = null, project, SLUG, location, fullProjectList, 
   const {
     path, fullPath, meta_langs,
     title, author, school, date,
-    languages, areas, levels, descriptors, description, license,
+    languages, langCodes, areas, levels, descriptors, description, license,
     relatedTo, mainFile, instFile,
     cover, thumbnail,
     activities, totalSize,
@@ -97,8 +97,8 @@ function Project({ intl, user = null, project, SLUG, location, fullProjectList, 
   const slug = `${SLUG}?${user ? `user=${user}&` : ''}act=${path}`
   const pageTitle = `${user ? formatMessage({ id: 'user-repo-title' }, { user }) : messages['repo-title']} - ${title}`;
   const pageDesc = description[k];
-  const imgPath = cover && `${fullPath}/${cover}`;
-  const moodleLink = `${fullPath}/${mainFile}`;
+  const imgPath = cover && `${location.origin}${fullPath}/${cover}`;
+  const moodleLink = `${location.origin}${fullPath}/${mainFile}`;
   const projectLink = moodleLink.replace(/\/[^/]*$/, '/index.html');
   const instJavaLink = instFile ? jnlpInstaller.replace('%%FILE%%', `${fullPath}/${instFile}`) : null;
   const embedOptions = {
@@ -112,9 +112,24 @@ function Project({ intl, user = null, project, SLUG, location, fullProjectList, 
 
   const [dlgOpen, setDlgOpen] = useState(false);
 
+  // See: https://schema.org/LearningResource
+  const sd = {
+    '@context': 'https://schema.org/',
+    '@type': 'LearningResource',
+    name: title,
+    teaches: areas[locale] || areas[defaultLocale],
+    educationalLevel: levels[locale] || levels[defaultLocale],
+    learningResourceType: 'learning activity',
+    author: author,
+    description: pageDesc,
+    inLanguage: langCodes.join(','),
+    thumbnailUrl: imgPath,
+    url: projectLink,
+  };
+
   return (
     <div {...props} className={classes.root}>
-      <SEO {...{ location, lang: locale, title: pageTitle, description: pageDesc, slug, thumbnail: imgPath }} />
+      <SEO {...{ location, lang: locale, title: pageTitle, description: pageDesc, slug, thumbnail: imgPath, sd }} />
       <h2>{title}</h2>
       <p>{author}</p>
       <ShareButtons {...{ shareSites, intl, link: location?.href, title, description: pageDesc, slug, thumbnail: imgPath || thumbnail, moodleLink, embedOptions }} />

@@ -27,11 +27,12 @@ const query = graphql`
   }
 `;
 
-function SEO({ location, title, description = '', lang = 'en', meta = [], slug = null, thumbnail = null, ...props }) {
+function SEO({ location, title, description = '', lang = 'en', meta = [], slug = null, thumbnail = null, canonical = '', sd = null, ...props }) {
 
   const { site: { siteMetadata } } = useStaticQuery(query);
   const metaDescription = description || siteMetadata.description;
   const alt = (slug && location && lang && getAllVariants(siteMetadata.supportedLanguages, slug, location, lang)) || [];
+  const canonicalUrl = (slug && location && lang && `${location.origin}${__PATH_PREFIX__}/${lang}${canonical || slug}`) || null;
 
   const metaTags = [
     {
@@ -82,19 +83,25 @@ function SEO({ location, title, description = '', lang = 'en', meta = [], slug =
     );
   }
 
+  const links = alt.map(({ lang, href }) => ({
+    rel: 'alternate',
+    hreflang: lang,
+    href,
+  }));
+  if (canonicalUrl)
+    links.push({ rel: 'canonical', content: canonicalUrl });
+
   return (
     <Helmet
       {...props}
-      htmlAttributes={{ lang }}
-      title={title}
       titleTemplate={`%s | ${siteMetadata.title}`}
-      meta={metaTags}
-      link={alt.map(({ lang, href }) => ({
-        rel: 'alternate',
-        hreflang: lang,
-        href,
-      }))}
-    />
+    >
+      <html lang={lang} />
+      <title>{title}</title>
+      {metaTags.map((m, n) => <meta key={n} {...m} />)}
+      {sd && <script type="application/ld+json" className="structured-data-list">{JSON.stringify(sd)}</script>}
+      {links.map((l, n) => <link key={n} {...l} />)}
+    </Helmet>
   );
 }
 

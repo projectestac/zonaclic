@@ -24,7 +24,7 @@ export default function NotFoundPage() {
 
   return (
     <Layout {...{ intl }}>
-      <SEO title="404: Not Found" {...{ lang }} />
+      <SEO title="404: Not Found" {...{ lang, meta: [{ name: 'robots', content: 'noindex' }] }} />
       <article className={classes.root}>
         <h1>{intl.messages['404-not-found']}</h1>
         <p>{formatMessage({ id: 'not-found' }, { path })}</p>
