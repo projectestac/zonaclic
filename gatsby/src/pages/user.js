@@ -5,8 +5,7 @@ import { useIntl } from 'gatsby-plugin-intl';
 import { makeStyles } from '@material-ui/core/styles';
 import Layout from '../components/Layout';
 import UserMain from '../components/user/UserMain';
-
-const SLUG = '/user/';
+import { userSlug } from '../utils/defaults';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -28,9 +27,9 @@ export default function User({ data, location }) {
   // SEO defined in inner elements
 
   return (
-    <Layout {...{ intl, slug: `${SLUG}${user ? `${user}/` : ''}${act ? `${act}/` : ''}` }}>
+    <Layout {...{ intl, slug: `${userSlug}${user ? `${user}/` : ''}${act ? `${act}/` : ''}` }}>
       <article className={classes.root}>
-        <UserMain {...{ intl, usersBase, location, SLUG, googleOAuth2Id, userLibApi, jnlpInstaller, user, act }} />
+        <UserMain {...{ intl, usersBase, location, userSlug, googleOAuth2Id, userLibApi, jnlpInstaller, user, act }} />
       </article>
     </Layout>
   );
@@ -48,5 +47,3 @@ export const pageQuery = graphql`
     }
   }
 `;
-
-export const userSlug = SLUG;

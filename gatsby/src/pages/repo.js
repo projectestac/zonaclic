@@ -5,8 +5,7 @@ import { useIntl } from 'gatsby-plugin-intl';
 import { makeStyles } from '@material-ui/core/styles';
 import Layout from '../components/Layout';
 import RepoMain from '../components/repo/RepoMain';
-
-const SLUG = '/repo/';
+import { repoSlug } from '../utils/defaults';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -26,9 +25,9 @@ export default function Repo({ data, location }) {
   // SEO defined in inner elements
 
   return (
-    <Layout {...{ intl, slug: `${SLUG}${act ? `${act}/` : ''}` }}>
+    <Layout {...{ intl, slug: `${repoSlug}${act ? `${act}/` : ''}` }}>
       <article className={classes.root}>
-        <RepoMain {...{ intl, location, SLUG, repoBase, repoList, jnlpInstaller, jclicSearchService, act }} />
+        <RepoMain {...{ intl, location, repoSlug, repoBase, repoList, jnlpInstaller, jclicSearchService, act }} />
       </article>
     </Layout>
   );
@@ -46,6 +45,3 @@ export const pageQuery = graphql`
     }
   }
 `;
-
-export const repoSlug = SLUG;
-

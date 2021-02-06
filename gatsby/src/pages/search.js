@@ -16,7 +16,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import TablePagination from '@material-ui/core/TablePagination';
 import { ReactIcon } from '../utils/ReactIcon';
 import { checkFetchResponse } from '../utils/misc';
-import { repoSlug } from './repo';
+import { repoSlug } from '../utils/defaults';
 
 const SLUG = '/search/';
 const DEFAULT_ITEMS_PER_PAGE = 25;

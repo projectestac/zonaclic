@@ -17,3 +17,9 @@ export const dateFormat = {
   day: 'numeric',
   year: 'numeric'
 };
+
+// Default app paths
+export const userSlug = '/user/';
+export const repoSlug = '/repo/';
+
+
