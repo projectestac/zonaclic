@@ -29,7 +29,7 @@ export default function User({ data, location }) {
   return (
     <Layout {...{ intl, slug: `${userSlug}${user ? `${user}/` : ''}${act ? `${act}/` : ''}` }}>
       <article className={classes.root}>
-        <UserMain {...{ intl, usersBase, location, userSlug, googleOAuth2Id, userLibApi, jnlpInstaller, user, act }} />
+        <UserMain {...{ intl, usersBase, location, SLUG: userSlug, googleOAuth2Id, userLibApi, jnlpInstaller, user, act }} />
       </article>
     </Layout>
   );

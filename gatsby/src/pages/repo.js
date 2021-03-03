@@ -27,7 +27,7 @@ export default function Repo({ data, location }) {
   return (
     <Layout {...{ intl, slug: `${repoSlug}${act ? `${act}/` : ''}` }}>
       <article className={classes.root}>
-        <RepoMain {...{ intl, location, repoSlug, repoBase, repoList, jnlpInstaller, jclicSearchService, act }} />
+        <RepoMain {...{ intl, location, SLUG: repoSlug, repoBase, repoList, jnlpInstaller, jclicSearchService, act }} />
       </article>
     </Layout>
   );

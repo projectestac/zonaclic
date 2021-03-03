@@ -353,6 +353,9 @@ if (ANALYTICS_UA) {
 if (OFFLINE_PWA)
   config.plugins.push('gatsby-plugin-offline');
 
+// Preserve WebPack cache between builds
+config.flags = { PRESERVE_WEBPACK_CACHE: true };
+
 // Export the resulting object
 module.exports = config;
 
