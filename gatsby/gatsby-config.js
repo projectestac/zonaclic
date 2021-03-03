@@ -135,8 +135,8 @@ const config = {
       options: {
         extensions: ['.mdx', '.md'],
         gatsbyRemarkPlugins: [
-          // Currently disabled because an unknown "persisting state" error
-          // 'gatsby-remark-attr',
+          // Currently disabled because an unknown "persisting state" error --
+          //'gatsby-remark-attr',
           'gatsby-remark-autolink-headers',
           'gatsby-remark-responsive-iframe',
           {

@@ -134,10 +134,18 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
 // See: https://github.com/gatsbyjs/gatsby/issues/564#issuecomment-527891177
 exports.onCreateWebpackConfig = ({ actions: { setWebpackConfig } }) => {
   setWebpackConfig({
+    /*
     node: {
       fs: 'empty',
       net: 'empty',
-    }
+    },
+    */
+    resolve: {
+      fallback: {
+        fs: false,
+        net: false,
+      },
+    },
   })
 };
 
