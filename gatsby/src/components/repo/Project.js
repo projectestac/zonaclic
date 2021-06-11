@@ -79,7 +79,7 @@ const useStyles = makeStyles(theme => ({
 
 const shareSites = { moodle: true, classroom: true, embed: true };
 
-function Project({ intl, user = null, project, SLUG, location, fullProjectList, jnlpInstaller, ...props }) {
+function Project({ intl, user = null, project, SLUG, location, fullProjectList, jnlpInstaller, maxThreads, ...props }) {
 
   const {
     path, fullPath, meta_langs,
@@ -259,7 +259,7 @@ function Project({ intl, user = null, project, SLUG, location, fullProjectList, 
           </Button>
         }
       </div>
-      <ProjectDownload {...{ intl, project, dlgOpen, setDlgOpen }} />
+      <ProjectDownload {...{ intl, project, dlgOpen, setDlgOpen, maxThreads }} />
     </div>
   );
 }

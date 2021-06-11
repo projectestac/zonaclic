@@ -22,6 +22,7 @@ const USERS_BASE = process.env.USERS_BASE || 'https://clic.xtec.cat/users';
 const GOOGLE_OAUTH2_ID = process.env.GOOGLE_OAUTH2_ID || '';
 const USERLIB_API = process.env.USERLIB_API || "https://clic.xtec.cat/db";
 const PROXY_BASE = process.env.PROXY_BASE || "";
+const MAX_THREADS = process.env.MAX_THREADS || 20;
 
 // Main metadata settings
 const pathPrefix = PATH_PREFIX;
@@ -95,6 +96,7 @@ const config = {
     usersBase: USERS_BASE,
     googleOAuth2Id: GOOGLE_OAUTH2_ID,
     userLibApi: USERLIB_API,
+    maxThreads: MAX_THREADS,
   },
   plugins: [
     // Static pages
@@ -137,6 +139,7 @@ const config = {
         gatsbyRemarkPlugins: [
           // Currently disabled because an unknown "persisting state" error --
           //'gatsby-remark-attr',
+          // -------------
           'gatsby-remark-autolink-headers',
           'gatsby-remark-responsive-iframe',
           {
@@ -296,7 +299,7 @@ const config = {
               { family: 'Lato', variants: ['300', '400', '500'] },
               { family: 'Montserrat', variants: ['800'] },
               // { family: 'Catamaran', variants: ['700', '800','900']},
-              // { family: 'Open Sans', variants: ['300', '400', '500'] },
+              { family: 'Open Sans', variants: ['300', '400', '500'] },
             ],
           },
         },

@@ -16,7 +16,7 @@ const useStyles = makeStyles(theme => ({
 
 export default function Repo({ data, location }) {
 
-  const { site: { siteMetadata: { repoBase, repoList, jnlpInstaller, jclicSearchService } } } = data;
+  const { site: { siteMetadata: { repoBase, repoList, jnlpInstaller, jclicSearchService, maxThreads } } } = data;
   const classes = useStyles();
   const intl = useIntl();
   const [act, setAct] = useState();
@@ -27,7 +27,7 @@ export default function Repo({ data, location }) {
   return (
     <Layout {...{ intl, slug: `${repoSlug}${act ? `${act}/` : ''}` }}>
       <article className={classes.root}>
-        <RepoMain {...{ intl, location, SLUG: repoSlug, repoBase, repoList, jnlpInstaller, jclicSearchService, act }} />
+        <RepoMain {...{ intl, location, SLUG: repoSlug, repoBase, repoList, jnlpInstaller, jclicSearchService, act, maxThreads }} />
       </article>
     </Layout>
   );
@@ -41,6 +41,7 @@ export const pageQuery = graphql`
         repoList
         jnlpInstaller
         jclicSearchService
+        maxThreads
       }
     }
   }

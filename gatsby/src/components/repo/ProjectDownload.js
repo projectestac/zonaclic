@@ -11,6 +11,7 @@ import LinearProgress from '@material-ui/core/LinearProgress';
 import { mergeClasses } from '../../utils/misc';
 import DownloadIcon from '@material-ui/icons/CloudDownload';
 import Button from '@material-ui/core/Button';
+import PromisePool from '@supercharge/promise-pool';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -40,8 +41,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-
-function ProjectDownload({ dlgOpen, setDlgOpen, intl, project, ...props }) {
+function ProjectDownload({ dlgOpen, setDlgOpen, intl, project, maxThreads = 20, ...props }) {
 
   const classes = mergeClasses(props, useStyles());
 
@@ -54,6 +54,7 @@ function ProjectDownload({ dlgOpen, setDlgOpen, intl, project, ...props }) {
   const [err, setErr] = useState('error');
   const [progress, setProgress] = useState(0);
   const [zipFile, setZipFile] = useState(null);
+  const [progressZip, setProgressZip] = useState(false);
   // Array of `XMLHttpRequest`, used to abort pending requests
   const _xhrs = [];
   // Get the zip file name from the last part of the project path
@@ -65,6 +66,7 @@ function ProjectDownload({ dlgOpen, setDlgOpen, intl, project, ...props }) {
     setStatus(null);
     setErr(null);
     setProgress(0);
+    setProgressZip(false);
     setZipFile(null);
     _xhrs.forEach(xhr => {
       if (xhr.readyState < 4) {
@@ -143,6 +145,10 @@ function ProjectDownload({ dlgOpen, setDlgOpen, intl, project, ...props }) {
     if (project) {
       setMsg(messages['prj-preparing-scorm']);
 
+      // Max concurrent downloading threads
+      // Usually stored as string in the site metadata, should be converted to number
+      const threads = Number(maxThreads) || 20;
+
       // This is where the ingredients will be stored
       const zip = new JSZip();
 
@@ -167,53 +173,63 @@ function ProjectDownload({ dlgOpen, setDlgOpen, intl, project, ...props }) {
       // Start downloading ingredients
       setMsg(messages['prj-downloading-ingredients']);
 
-      // Build an array of promises, excluding `project.json` (already stored on the zip file)
-      const promises = files.filter(f => f !== 'project.json')
-        .map(file => {
-          return new Promise((resolve, reject) => {
-            // Call the static method `getBinaryContent` (see below), where the promise will be finally fullfilled or rejected
-            const xhr = getBinaryContent(`${fullPath}/${file}`, (err, data) => {
-              if (err)
-                reject(err);
-              else {
-                setStatus(file);
-                // Compress and save the resulting data in `zip`
-                zip.file(file.replace(pathToRemove, ''), data, { binary: true });
-                setProgress((++currentFiles) * 100 / numFiles);
-                resolve(true);
-              }
-            });
-            if (xhr)
-              _xhrs.push(xhr);
+      // Function that creates a download promise for the specified file
+      const getFilePromise = file => {
+        return new Promise((resolve, reject) => {
+          // Call the static method `getBinaryContent` (see below), where the promise will be finally fullfilled or rejected
+          const xhr = getBinaryContent(`${fullPath}/${file}`, (err, data) => {
+            if (err)
+              reject(err);
+            else {
+              setStatus(file);
+              // Compress and save the resulting data in `zip`
+              zip.file(file.replace(pathToRemove, ''), data, { binary: true });
+              setProgress((++currentFiles) * 100 / numFiles);
+              resolve(true);
+            }
           });
+          if (xhr)
+            _xhrs.push(xhr);
         });
+      };
 
-      // Wait for all promises to be fulfilled
-      Promise.all(promises)
-        .then(
-          // Success (_data is an array of `true`, not used)
-          _data => {
-            // The process has successfully finished, so clear all references to XMLHttpRequests
-            _xhrs.length = 0;
-            // Generate a zip BLOB and store it on `zipFile`
-            setMsg(messages['prj-compressing']);
-            setStatus('');
-            zip.generateAsync({ type: 'blob' }).then(
-              // On success
-              blob => {
-                setMsg(messages['prj-zip-available']);
-                setZipFile(blob);
-              },
-              // On error
-              err => setErr(`${messages['prj-zip-err']} - ${err}`)
-            );
-          },
-          // Rejected with error code
-          error => {
-            _xhrs.length = 0;
-            setErr(formatMessage({ id: 'error' }, { error }));
-            setStatus('');
-          });
+      // Function that updates the progress of ZIP compressing
+      const zipUpdateInterval = ({ currentFile, percent }) => {
+        if (currentFile) {
+          setStatus(currentFile);
+          setProgress(percent);
+        }
+      };
+
+      // Function to be executed when all files are downloaded
+      // Generates a zip BLOB and stores it on `zipFile`
+      const generateZip = () => {
+        setMsg(messages['prj-compressing']);
+        setStatus('');
+        setProgress(0);
+        setProgressZip(true);
+        return zip.generateAsync({ type: 'blob' }, zipUpdateInterval)
+          .then(blob => {
+            setMsg(messages['prj-zip-available']);
+            setZipFile(blob);
+          })
+          .catch(err => setErr(`${messages['prj-zip-err']} - ${err}`));
+      };
+
+      console.log(`Downloading with ${threads} threads`);
+
+      // Wait for all promises to be fulfilled, using the async promise pool
+      PromisePool
+        .for(files.filter(f => f !== 'project.json'))
+        .withConcurrency(threads)
+        .process(getFilePromise)
+        .then(generateZip)
+        .catch(error => {
+          setErr(formatMessage({ id: 'error' }, { error }));
+          setStatus('');
+        })
+        // Clear all references to XMLHttpRequests
+        .finally(() => { _xhrs.length = 0; });
     }
   }
 
@@ -231,7 +247,8 @@ function ProjectDownload({ dlgOpen, setDlgOpen, intl, project, ...props }) {
       <DialogTitle>{formatMessage({ id: 'prj-download-title' }, { title })}</DialogTitle>
       <DialogContent className={classes['dlgContent']}>
         {!err && <Typography>{msg}</Typography>}
-        {!err && !zipFile && <LinearProgress value={progress} variant="determinate" />}
+        {!err && !zipFile && !progressZip && <LinearProgress value={progress} variant="determinate" />}
+        {!err && !zipFile && progressZip && <LinearProgress value={progress} variant="determinate" color="secondary" />}
         {!err && !zipFile && <Typography className={classes['status']}>{status}</Typography>}
         {err && <Typography className={classes['error']}>{err}</Typography>}
       </DialogContent>

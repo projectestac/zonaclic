@@ -5,7 +5,7 @@ import RepoList from '../repo/RepoList';
 import Loading from '../repo/Loading';
 import UserLib from './UserLib';
 
-function UserMain({ location, SLUG, intl, usersBase, googleOAuth2Id, userLibApi, jnlpInstaller, user, act }) {
+function UserMain({ location, SLUG, intl, usersBase, googleOAuth2Id, userLibApi, jnlpInstaller, user, act, maxThreads }) {
 
   const { formatMessage } = intl;
   const [fullProjectList, setFullProjectList] = useState(null);
@@ -60,7 +60,7 @@ function UserMain({ location, SLUG, intl, usersBase, googleOAuth2Id, userLibApi,
   return (
     (error && <h2>{formatMessage({ id: 'error' }, { error })}</h2>) ||
     (loading && <Loading {...{ intl }} />) ||
-    (user && project && <Project {...{ intl, user, project, SLUG, jnlpInstaller, location }} />) ||
+    (user && project && <Project {...{ intl, user, project, SLUG, jnlpInstaller, location, maxThreads }} />) ||
     (user && projects && <RepoList {...{ intl, user, repoBase: usersBase, projects, listMode, setListMode, setLoading, setError, SLUG, location }} />) ||
     <UserLib path="/" {...{ intl, SLUG, googleOAuth2Id, usersBase, userLibApi }} />
   );

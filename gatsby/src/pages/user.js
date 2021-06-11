@@ -16,7 +16,7 @@ const useStyles = makeStyles(theme => ({
 
 export default function User({ data, location }) {
 
-  const { site: { siteMetadata: { usersBase, googleOAuth2Id, jnlpInstaller, userLibApi } } } = data;
+  const { site: { siteMetadata: { usersBase, googleOAuth2Id, jnlpInstaller, userLibApi, maxThreads } } } = data;
   const classes = useStyles();
   const intl = useIntl();
   const [user, setUser] = useState();
@@ -29,7 +29,7 @@ export default function User({ data, location }) {
   return (
     <Layout {...{ intl, slug: `${userSlug}${user ? `${user}/` : ''}${act ? `${act}/` : ''}` }}>
       <article className={classes.root}>
-        <UserMain {...{ intl, usersBase, location, SLUG: userSlug, googleOAuth2Id, userLibApi, jnlpInstaller, user, act }} />
+        <UserMain {...{ intl, usersBase, location, SLUG: userSlug, googleOAuth2Id, userLibApi, jnlpInstaller, user, act, maxThreads }} />
       </article>
     </Layout>
   );
@@ -43,6 +43,7 @@ export const pageQuery = graphql`
         googleOAuth2Id
         userLibApi
         jnlpInstaller
+        maxThreads
       }
     }
   }
