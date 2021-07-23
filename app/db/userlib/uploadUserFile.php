@@ -18,6 +18,7 @@
 // TODO: Log actions!
 
 require_once '../config.php';
+require_once '../cors.php';
 require_once '../log.php';
 require_once 'userSpace.php';
 require_once 'userProject.php';
@@ -26,6 +27,7 @@ $result = (object)['status'=>'processing'];
 $userId = 'unknown';
 $projectName = 'noproject';
 
+session_set_cookie_params(['samesite' => 'None', 'secure' => true]); 
 session_start();
 
 try {
@@ -125,6 +127,8 @@ try {
     logMsg('ERR-UPLOAD', $e->getMessage().' user: '.$userId.' project: '.$projectName);
 }
 
-// Set response header and content
+// Set response headers and content
 header('Content-Type: application/json;charset=UTF-8');
+allowOriginHeader();
+
 print json_encode($result);          

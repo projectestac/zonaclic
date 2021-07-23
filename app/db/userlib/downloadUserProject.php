@@ -17,6 +17,7 @@
 // TODO: Log actions!
 
 require_once '../config.php';
+require_once '../cors.php';
 require_once 'userSpace.php';
 
 $errCode = 500;
@@ -74,6 +75,7 @@ try {
     $zip->close();
 
     // Send response
+    allowOriginHeader();
     header('Content-Type: application/zip');
     header('Content-Disposition: attachment; filename="'.$zipFileName.'"');
     header('Content-Length: '.filesize($zipFile));

@@ -41,3 +41,14 @@ define('HD', 'xtec.cat');
 
 // Current process UID
 define('UID', posix_geteuid());
+
+// Valid origins for userlib clients
+define('VALID_ORIGINS', [
+  'https://clic.xtec.cat',
+  'https://projectes.xtec.cat',
+  'https://agora.xtec.cat',
+  'https://educaciodigital.cat',
+  'https://met.xtec.cat',
+  'https://clic.xyz',
+  'http://localhost:8000'
+]);

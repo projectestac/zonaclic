@@ -21,6 +21,7 @@
 // *****************************************************************
 
 require_once '../config.php';
+require_once '../cors.php';
 require_once '../log.php';
 require_once 'userSpace.php';
 
@@ -161,6 +162,7 @@ if (isset($_POST[ID_TOKEN]) && $_POST[ID_TOKEN] !== '') {
                 $result->currentSize = $space->currentSize;
 
                 // Set session data
+                session_set_cookie_params(['samesite' => 'None', 'secure' => true]); 
                 session_start();
                 $_SESSION['userId'] = $result->id;
                 $_SESSION['rootDir'] = $space->rootDir;                
@@ -171,8 +173,9 @@ if (isset($_POST[ID_TOKEN]) && $_POST[ID_TOKEN] !== '') {
             }
         }
 
-        // Set response header and content
+        // Set response headers and content
         header('Content-Type: application/json;charset=UTF-8');
+        allowOriginHeader();
         print json_encode($result);          
 
     } catch (Exception $e) {
