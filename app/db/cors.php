@@ -33,3 +33,16 @@ function allowOriginHeader()
         header('Vary: Origin');
     }
 }
+
+/**
+ * Starts the PHP session with 'SameSite=None; Secure' cookie params
+ * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie/SameSite
+ * @see https://www.chromestatus.com/feature/5633521622188032
+ * 
+ * @return void
+ */
+function startSession()
+{
+    session_set_cookie_params(['SameSite' => 'None', 'Secure' => true]); 
+    session_start();
+}

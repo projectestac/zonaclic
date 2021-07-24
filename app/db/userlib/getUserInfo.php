@@ -162,8 +162,7 @@ if (isset($_POST[ID_TOKEN]) && $_POST[ID_TOKEN] !== '') {
                 $result->currentSize = $space->currentSize;
 
                 // Set session data
-                session_set_cookie_params(['samesite' => 'None', 'secure' => true]); 
-                session_start();
+                startSession();
                 $_SESSION['userId'] = $result->id;
                 $_SESSION['rootDir'] = $space->rootDir;                
                 $_SESSION['quota'] = $result->quota;

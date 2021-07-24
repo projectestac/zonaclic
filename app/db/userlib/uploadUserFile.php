@@ -27,8 +27,7 @@ $result = (object)['status'=>'processing'];
 $userId = 'unknown';
 $projectName = 'noproject';
 
-session_set_cookie_params(['samesite' => 'None', 'secure' => true]); 
-session_start();
+startSession();
 
 try {
     // Check that there is a valid user
