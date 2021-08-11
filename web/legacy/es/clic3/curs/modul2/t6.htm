@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Referencias a contenidos multimedia</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul2.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Referencias a contenidos multimedia</H1>
+Ya hemos visto que se puede mostrar una <B>imagen</B> en cualquier zona de Clic que admita contenido textual (casillas, mensajes inicial y final, definiciones de crucigramas...), escribiendo <B>entre claves</B> el nombre de un archivo BMP o GIF. Esta técnica se utiliza también para activar otros contenidos multimedia como archivos de sonido WAV, MIDI (MID) o vídeo digital (AVI), y también para órdenes especiales como enlazar con otra actividad o paquete, grabar un fragmento de sonido con el micrófono, reproducir un fragmento previamente grabado, activar la interpretación de un CD de música, cerrar Clic o ejecutar programas externos.<P>
+Para una descripción detallada de la sintaxis admitida en las expresiones entre claves recomendamos consultar el apartado Vincular gráficos, recursos multimedia y órdenes especiales de la sección Creación de actividades de la ayuda o el manual de Clic.<P>
+En una misma zona o casilla se puede incluir más de una expresión entre claves, siempre que los archivos utilizados no sean incompatibles. Por ejemplo, se puede combinar un archivo multimedia y un texto (o un gráfico) escribiendo en una misma línea las dos referencias:<P>
+<P CLASS="Literal">
+Bicicleta{bici.wav}<BR>
+{vaca.bmp}{vaca.wav}<BR>
+{leon.gif}{leon.avi}<BR>
+El cuerpo humano{cuhumano.pac}<P>
+<P>
+En el primer caso se mostrará en la casilla el texto "Bicicleta", y al hacer clic en ella se escuchará el archivo "bici.wav". En el segundo se verá la imagen "vaca.bmp", que hará sonar el archivo "vaca.wav", y en el tercer caso se mostrará la imagen "leon.gif" hasta que se active el vídeo "leon.avi". El cuarto ejemplo es el que se acostumbra a utilizar en las pantallas de información que actúan como menús para navegar entre diversos paquetes de actividades.<P>
+<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t7.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="t5.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

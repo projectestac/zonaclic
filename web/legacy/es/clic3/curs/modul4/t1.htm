@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Generación automática de contenidos</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Generación automática de contenidos</H1>
+En la carpeta C:\Clic\Act\Demo hay un archivo llamado <B>ARITH2.DLL</B>. Se trata de un programa especial que actúa como complemento externo de Clic, generando operaciones de cálculo mental al azar a partir de unos determinados criterios fijados en el momento de crear la actividad.<P>
+Ponga en marcha la "demo" de Clic y en los ejemplos de asociaciones vaya hasta la actividad <B>ASS07.ASS</B>. Si activa la ventana de edición (CTRL+E) observará algo curioso: El archivo ARITEXT.TXT se utiliza como contenido de las ventanas A y B, pero si edita su contenido verá que no contiene ningún tipo de operación matemática. ¿Cómo puede ser que el aspecto de la actividad sea tan diferente a lo que inicialmente parece deducirse de los archivos de contenido?<P>
+El secreto está en la ventana de <B>Opciones de la actividad</B>. Si la abre verá que la casilla <B>Regeneración automática</B> se encuentra marcada, y en la lista está seleccionado el archivo <B>ARITH2.DLL</B>. Clic no utiliza para nada los archivos ARITEXT.TXT: Solo están ahí porque en las asociaciones es siempre obligatorio indicar un archivo de contenido para cada ventana, pero el módulo ARITH2 es el responsable de lo que acabará apareciendo en pantalla.<P>
+Los módulos de generación automática se encargan de suministrar a las actividades los contenidos que se muestran en las casillas. Las especificaciones de funcionamiento de las DLL están publicadas en la ayuda y el manual de Clic, y cualquier programador que conozca el lenguaje C++ y sepa hacer una DLL (¡no es el objetivo de este curso!) podría crear módulos adicionales que generaran el contenido de otros tipos de actividades al azar.<P>
+El botón <B>Configuración</B>, que aparece junto a la lista desplegable de módulos, realiza una llamada a ARITH2 para que muestre su pantalla de control:<P>
+&nbsp;<BR>
+<IMG SRC="arith2.gif" WIDTH=500 HEIGHT=334 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+Es aquí donde se decide qué tipo de operaciones de cálculo mental pueden aparecer en la actividad:<P>
+<P CLASS="L">- Cuáles de las cuatro <B>operaciones</B> aritméticas básicas tienen que aparecer.<P>
+<P CLASS="L">- Cuál de los cuatro elementos de una operación (primer operando, operación, segundo operando y resultado) será la <B>incógnita</B>. Normalmente la incógnita es el resultado, como en "3 + 4 = ?", pero se puede plantear la misma operación escribiendo "3 + ? = 7", "? + 4 = 7" o incluso "3 ? 4 = 7". También se puede hacer que las operaciones se escriban empezando por el resultado, en la forma "7 = 3 + 4".<P>
+<P CLASS="L">- Los <B>límites</B> de cada uno de los dos operandos y el resultado.<P>
+<P CLASS="L">- El número de <B>decimales</B> del resultado (ninguno, uno o dos).<P>
+<P CLASS="L">- La posibilidad de plantear sumas y restas <B>"sin llevar"</B>. Esto significa que la operación aplicada dígito a dígito no será nunca superior a 9 ni inferior a 0.<P>
+<P CLASS="L">- La <B>ordenación</B> de las operaciones a partir de sus resultados, que resulta útil para plantear puzzles como los de la actividad PUZ05.PUZ de la demo del Clic.<P>
+El módulo Arith2 intenta generar operaciones al azar a partir de los parámetros establecidos siempre que éstos sean razonables, pero se verá obligado a infringir alguna de las condiciones fijadas si encuentra situaciones irresolubles (por ejemplo, sumas con operandos entre 10 y 20 que den un resultado inferior a 5).<P>
+Para crear actividades que utilicen el módulo Arith2 hay que copiar el archivo <B>ARITH2.DLL</B> (que forma parte de los archivos de la demo de Clic) a la carpeta de trabajo correspondiente.<P>
+<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t2.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="index.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

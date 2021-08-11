@@ -1,0 +1,35 @@
+P  {}
+
+H1  {
+	font-weight : bold;
+	font-size : 10pt;
+	color : Blue;
+}
+
+H2  {}
+
+H3  {}
+
+A  {
+	text-decoration : none;
+	color : Blue;
+}
+
+A:Visited  {
+	color : Navy;
+}
+
+A:Active  {}
+
+A:Hover  {
+	color : Red;
+	font-weight : bold;
+}
+
+BODY  {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	color : Black;
+	background-color : Silver;
+}
+

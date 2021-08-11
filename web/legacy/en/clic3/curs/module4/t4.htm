@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Clic reporting system</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Clic reporting system</H1>
+Clic v3.0 allows a detailed assessment of the students' results in each of the activities they do.<P>
+The evaluated items are:<P>
+<P CLASS="L">- <B>Time </B>used<P>
+<P CLASS="L">- Number of <B>attempts</B><P>
+<P CLASS="L">- Number of <B>correct answers</B><P>
+<P CLASS="L">- Whether an activity has been <B>solved</B> or not<P>
+<P CLASS="L">- <B>Precision</B> obtained. This value is calculated as follows:<P>
+<P CLASS="Enum2">a)	First of all, the minimum amount of attempts necessary to solve the activity is calculated, which we will call "n".<P>
+<P CLASS="Enum2">b)	If the activity has been solved, "n" is divided by the number of attempts made by the user.<P>
+<P CLASS="Enum2">c)	If the activity has not been solved, the square of the correct answers is divided by the product between "n" and the attempts made.<P>
+In both cases the result is multiplied by 100 to express it in percentage form.<P>
+A list of the values of these five items for each activity done can be accessed through the <B>Reports - Show current report</B> menu. A summary of the session, with the totals and average precision obtained can be found at the bottom of the window.<P>
+Certain activities are never evaluated or taken into account for the totals and averages. These are the information screens, explore mode associations and, in general, any activity where the <B>Include in user reports</B> box in <B>Activity options</B> is not marked. It is important to unmark this box when creating activities that should not count in the global report, for example: an association used as a menu to select different packs (like the MENUACT.ASS file in the Clic demo); or a text activity that is only used to present information (e.g. the NOU02.TXA file in the demo).<P>
+The reports can be saved in a <B>database</B>. The system can work on a network so that the results accumulate in a common database for the whole classroom, independently of where the student sits in each session. You can find detailed instructions for configuring the reporting system on a network in the appendix of the<B> Clic manual</B>.<P>
+To register the reports in a database you have to go to <B>Global options</B> and mark the <B>Register activity reports</B> box. You also have to say where the information file is located, which is normally called <B>CLICDB.MDB</B> and found in the Clic folder or, if the computer is linked to a network, in a shared folder that can be written in.<P>
+<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t5.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="t3.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

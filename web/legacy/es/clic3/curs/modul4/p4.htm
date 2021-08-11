@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Práctica 4</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Práctica 4<BR>
+Creación de un menú de paquetes</H1>
+La práctica final consistirá en la creación de un paquete de actividades que sirva de menú de acceso a las actividades realizadas las prácticas de las sesiones anteriores. Crearemos el paquete-menú en la carpeta raíz del curso, para poder realizar desde allí los enlaces a los paquetes que hay en cada una de las carpetas de prácticas.<P>
+<P CLASS="L">- Ponga en marcha Clic y active el menú <B>Archivos - Nueva actividad - Asociación</B>. En este caso la carpeta de trabajo será la raíz de los módulos del curso: <B>C:\Clic\Curso</B><P>
+<P CLASS="L">- Cambie la modalidad a <B>Pantalla de información</B>.<P>
+<P CLASS="L">- Asegúrese que en la ventana <B>A</B> está seleccionado el tipo <B>Texto</B> y haga clic en <B>Editar contenido</B>. El programa pedirá un nombre para el nuevo archivo de texto, que podría ser <B>MENU.TXT</B><P>
+<P CLASS="L">- En la libreta del Windows escriba este texto:<P>
+<P CLASS="LiteralL">
+Planetas{Modulo1\practica\planetas.pac}<BR>
+Animales{Modulo2\practica\animales.pac}<BR>
+Solidaridad{Modulo3\practica\intermon.pac}<BR>
+Cálculo mental{Modulo4\practica\calculo1.pac}<BR>
+</P>
+Dado que los paquetes se encuentran en carpetas diferentes, sus nombres deben ir precedidos de la ubicación relativa al punto de partida (la carpeta raíz del curso), ya que de lo contrario Clic sería incapaz de encontrarlos.<P>
+<P CLASS="L">- Cierre la libreta de Windows guardando los cambios.<P>
+<P CLASS="L">- Fije una distribución de <B>1 columna</B> y <B>4 filas</B>.<P>
+<P CLASS="L">- Escriba en <B>Mensaje Inicial</B> el texto:<P>
+<P CLASS="LiteralL">Prácticas del curso de Clic</P>
+<P CLASS="L">- Haga clic en el botón <B>Opciones</B> y seleccione para la <B>ventana A</B> unas dimensiones de <B>400 x 80</B>. Desmarque los tres <B>contadores</B> y los <B>Marcos sombreados</B>, seleccione <B>Botones pequeños 2</B> y elija para la ventana principal y la ventana de juego el color <B>azul</B>.<P>
+<P CLASS="L">- Confirme las modificaciones y haga clic en el botón <B>Fuentes</B>. Seleccione un tipo <B>Arial de 11 x 26</B>, marque las casillas <B>Negrita</B> y <B>Sombreado</B> y seleccione estos colores: Texto blanco, Fondo azul y Sombra negra. A continuación haga clic en <B>Aplicarlo a las tres zonas</B>.<P>
+<P CLASS="L">- Confirme todo y antes de hacer clic en ninguna casilla de la actividad, guárdela con el nombre <B>MENU.ASS</B>.<P>
+<P CLASS="L">- Active el menú <B>Archivos - Nueva actividad - Paquete de actividades</B>. La carpeta de trabajo vuelve a ser <B>C:\Clic\Curso</B><P>
+<P CLASS="L">- Sitúe la actividad <B>MENU.ASS</B> como único componente del paquete, confirme y guarde el paquete con el nombre <B>CURSO.PAC</B><P>
+Ahora podríamos hacer que cada paquete encadene su final con el menú, de manera que al acabarlo se vuelva a la pantalla de entrada:<P>
+<P CLASS="L">- Haga clic en la primera casilla, donde dice "Planetas". Si todo va bien se pondrá en marcha el paquete que creamos en la primera sesión.<P>
+<P CLASS="L">- Active la edición del paquete de actividades (<B>CTRL+P</B>) y haga clic en el botón <B>Encadenamiento</B>. Marque la casilla <B>Encadenamiento por defecto</B> y escriba en la caja:<P>
+<P CLASS="LiteralL">..\..\curso.pac</P>
+<P CLASS="L">&nbsp; La expresión "..\..\" indica que hay que retroceder dos carpetas para encontrar el paquete "Curso.pac". Eso es debido a que el paquete "planetas.pac" se encuentra en la carpeta C:\Clic\Curso\Modulo1\Practica y el menú está en C:\Clic\Curso, por lo que hay que bajar dos escalones para encontrarlo: de "Práctica" a "Curso" y de "Curso" a "Clic".<P>
+<P CLASS="L">- Confirme todo y guarde el paquete con el mismo nombre y en la misma ubicación.<P>
+<P CLASS="L">- Vaya pasando las actividades del paquete "Planetas". Cuando acabe regresará automáticamente al menú principal.<P>
+<P CLASS="L">- Repita los pasos anteriores con los paquetes <B>Animales</B> y <B>Solidaridad</B>. En ambos casos el encadenamiento será también <B>..\..\Curso.pac</B><P>
+El paquete de cálculo mental es un poco más complicado: tiene ya sus propios encadenamientos y tenemos que enlazarlo con el menú principal sin romper su dinámica de enlaces:<P>
+<P CLASS="L">- Vaya a <B>Archivos - Abrir</B> y busque el paquete <B>FINAL.PAC</B> que hay dentro de la carpeta <B>Modulo4\Practica</B>.<P>
+<P CLASS="L">- Edite el paquete de actividades y encadénelo con <B>..\..\Curso.pac</B><P>
+<P CLASS="L">- Guarde el paquete y compruebe el resultado: para salir de la rama "Cálculo mental" y volver al menú principal será preciso hacer correctamente los ejercicios, ya que en caso contrario se activarán los encadenamientos inferiores y se irán repitiendo las actividades de cálculo.<P>
+Para acabar podríamos crear un acceso directo de Windows con un icono que ponga en marcha el paquete-menú:<P>
+<P CLASS="L">- Haga clic con el <B>botón derecho</B> del ratón en el botón "Inicio" de Windows.<P>
+<P CLASS="L">- En el menú de contexto seleccione <B>Explorar</B>. Eso pondrá en marcha el explorador de Windows.<P>
+<P CLASS="L">- Busque en <B>Programas</B> la carpeta <B>Clic</B> y selecciónela.<P>
+<P CLASS="L">- Haga clic con el botón derecho del ratón en una zona vacía del panel de la derecha del Explorador de Windows.<P>
+<P CLASS="L">- En el menú de contexto seleccione <B>Nuevo - Acceso directo</B>. Se pondrá en marcha el asistente de Windows.<P>
+<P CLASS="L">- En la línea de órdenes escriba <B>C:\Clic\Curso\Curso.pac</B> y pase a la ventana siguiente.<P>
+<P CLASS="L">- En el nombre del acceso directo escriba: <B>Prácticas del curso de Clic</B><P>
+<P CLASS="L">- Confírmelo todo, cierre el explorador de Windows y compruebe el funcionamiento del icono aparecerá en <B>Menú Inicio - Programas - Clic</B>.<P>
+<H2>Práctica complementaria</H2>
+El paquete de rompecabezas en inglés no se ha incluido en el menú porque está en formato compacto (PCC) y eso no nos permitiría entrar directamente a modificar sus propiedades. Para ello debería descompactar el paquete ANIMALES.PCC con ClicPac, modificar la actividad MENU.ASS para aumentar el número de filas a 4, añadir una línea más al archivo MENU.TXT y definir el encadenamiento de regreso desde ANIMALES.PAC hacia CURSO.PAC. Tenga en cuenta que este paquete se encuentra en un nivel más de profundidad, en Curso\Modulo4\Practica\Animales, por lo que  el camino de regreso será "..\..\..\Curso.pac".<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="index.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="p3.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

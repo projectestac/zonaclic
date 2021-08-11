@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Més associacions</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul2.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Més associacions</H1>
+En el mòdul anterior hem vist els dos tipus bàsics d'associacions: les normals i les complexes. El Clic permet realitzar alguns tipus més d'activitats on també intervé implícitament una assignació de relacions entre els elements de dos conjunts diferents.<P>
+<H2>Identificació</H2>
+En aquest tipus d'activitat només cal seleccionar un contingut per a la <B>graella A</B> i passar a la finestra d'assignació de relacions, on s'indicarà per a cada un dels elements d'<B>A</B> si s'assignen a l'expressió <B>Sí</B> o a l'expressió <B>No</B>.<P>
+En les activitats d'identificació és molt important plantejar una pregunta a la caixa de missatges, ja que la tasca de l'usuari serà fer clic damunt les caselles que responguin afirmativament a la qüestió plantejada. Les caselles correctament identificades es mostraran en gris o, alternativament, mostraran el contingut que s'hagi seleccionat en el camp <B>solució a la graella A</B>.<P>
+<H2>Modalitat d'exploració</H2>
+En aquest tipus d'activitat es mostra complet el contingut de la graella <B>A</B> i una sola casella de la <B>B</B>. L'usuari pot anar fent clic damunt les caselles d'<B>A</B> i el programa mostrarà a la casella de <B>B</B> el contingut que tenen associat.<P>
+No cal que l'usuari respongui res: simplement ha d'anar buscant pel seu compte la informació que s'amaga darrera de cada casella d'<B>A</B>.<P>
+Tot i que només es mostra una casella de <B>B</B> el programa fa una divisió virtual en files i columnes del seu contingut. El nombre d'elements de <B>B</B> i la seva distribució es fan a la finestra d'<B>assignació de relacions</B>.<P>
+<H2>Resposta escrita</H2>
+Aquest tipus d'associacions presenten un aspecte visual semblant a les de la modalitat d'exploració: mostren tot el contingut de la graella <B>A</B> i només una casella de la <B>B</B>, on l'usuari haurà d'escriure el text que consideri oportú per a la casella d'<B>A</B> que es trobi seleccionada en cada moment.<P>
+Hi ha d'haver com a mínim una resposta per a cada una de les caselles d'<B>A</B>, i les respostes correctes s'han d'escriure en un fitxer de text que s'assigna a la graella <B>B</B>. Les respostes d'aquest fitxer s'han d'escriure en el mateix ordre que s'hagi seguit per a les preguntes d'<B>A</B>.<P>
+El programa no arriba a mostrar el contingut de <B>B</B> en cap moment: només l'utilitza per a comprovar que les respostes donades per l'usuari siguin correctes.<P>
+Si una casella admet més d'una resposta correcta cal indicar-ho separant totes les possibilitats per una barra vertical dins de la mateixa línia de text. Per exemple, la línia de text:<P>
+<P CLASS="literal">Bici|Bicicleta|Velo<P>
+... farà que el programa doni per bona qualsevol de les tres respostes. La barra vertical s'obté amb la combinació de tecles ALTGR+1.<P>
+Per avaluar les respostes el programa no té en compte si s'han escrit en majúscules o en minúscules. Els accents i els signes de puntuació si que s'han d'escriure correctament.<P>
+La majoria d'associacions de resposta escrita es poden plantejar també com a <B>Activitats de text</B>, que veurem en el mòdul 3.<P>
+<H2>Pantalla d'informació</H2>
+Aquest tipus d'activitat no és ben bé una associació, tot i que per qüestions pràctiques s'ha inclòs en aquest grup. Serveixen per a mostrar una determinada informació que cal que l'usuari llegeixi, miri o escolti abans de continuar amb la resta d'activitats d'un paquet.<P>
+Per crear una pantalla d'informació només cal indicar un contingut per a la <B>graella A</B> i el format de files i columnes en què volem que aparegui. Si el contingut és un text el podem aprofitar per inserir contingut actiu en les caselles: aquesta és una tècnica que es pot utilitzar per a fer "menús" que portin cap a determinats paquets d'activitats. Per exemple, suposem que hem preparat tres paquets d'activitats sobre el cos humà anomenats "digestiu.pac", "circula.pac" i "locomoto.pac", i volem fer una pantalla que permeti a l'usuari elegir-ne un. Una possible manera de fer-ho seria creant una associació del tipus <B>pantalla d'informació</B>, donar-li un format de 3 files i 1 columna i assignar a la graella <B>A</B> un text amb el contingut:<P>
+<P CLASS="literal">
+Aparell digestiu{digestiu.pac}<BR>
+Aparell circulatori{circula.pac}<BR>
+Aparell locomotor{locomoto.pac}<BR>
+<P>
+El resultat serà que quan l'usuari faci clic damunt les caselles el programa posarà en marxa el paquet d'activitats corresponent.<P>
+<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t2.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="index.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

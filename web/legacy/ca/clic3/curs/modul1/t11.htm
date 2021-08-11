@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Els trencaclosques</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul1.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Els trencaclosques</H1>
+Els trencaclosques (o <I>puzles</I>) consisteixen a barrejar un conjunt d'informació que l'usuari haurà de tornar a posar en ordre. Aquest conjunt d'informació pot ser una imatge, una frase desmuntada, un enregistrament sonor fragmentat, una seqüència cronològica...<P>
+Tal com heu vist en els exemples i en la taula que ha aparegut anteriorment, hi ha quatre modalitats diferents de trencaclosques. Les més usuals són la d'<B>intercanvi</B> i la <B>doble</B>, que mostren en pantalla tota la informació que cal ordenar.<P>
+La modalitat <B>forat</B> restringeix els desplaçaments a les peces contigües a la casella buida i per això resulta la més complicada de totes, especialment si el contingut no és gràfic o si té un elevat nombre de peces.<P>
+La modalitat <B>memòria</B> no és ben bé un trencaclosques, ja que aquí no cal reordenar sinó recordar el que hi ha a cada casella per trobar les parelles en el mínim nombre d'intents.<P>
+Algunes consideracions a tenir en compte quan es dissenya un trencaclosques:<P>
+<P CLASS="L">- Si s'utilitzen fitxers de text com a contingut d'un trencaclosques s'assignarà <B>una línia a cada casella</B>. Els retorns de carro dins dels fitxers de text serveixen per a separar el contingut d'una casella del de la següent. Això és aplicable també a les associacions: sempre una línia per casella.
+Apareixeran caselles en blanc si l'activitat es dissenya amb un nombre de files i columnes que dóna una quantitat de caselles superior a les línies que té el fitxer de text.
+<P CLASS="L">- En algunes imatges poden aparèixer <B>zones de fons</B> amb un únic color. Procureu que en la divisió de files i columnes que s'indiqui no apareguin mai dues caselles que tinguin exactament el mateix contingut, ja que podria ser que visualment semblés que el puzle està resolt tot i que el programa detecti que encara hi ha peces fora de lloc. Aquí en teniu un exemple:<BR>
+<BR>
+<IMG SRC="peix.gif" WIDTH=157 HEIGHT=105 BORDER=0><BR>
+<BR>
+En aquest trencaclosques les caselles 1, 5, 6, 19 i 24 (començant a comptar per dalt a l'esquerra) tenen exactament el mateix contingut: el color blanc de fons. Si no modifiquem la imatge o canviem el nombre de files i columnes ens trobarem que resultarà molt difícil que el programa doni per bona la resolució del puzle, ja que aquestes peces poden estar intercanviades entre si sense que visualment es noti cap diferència.
+<P CLASS="L">- Quan es fa un trencaclosques amb una imatge cal que la treballem prèviament amb l'editor gràfic per tal que tingui unes <B>dimensions</B> que càpiguen dins de la finestra de joc del Clic. Si la imatge és massa gran (cosa que acostuma a passar quan prové d'un escàner configurat a alta resolució) tenim dues opcions: fer que el programa la <B>retalli</B>, deixant fora la zona que no cap a la pantalla, o demanar-li que la <B>comprimeixi</B>, forçant un redimensionat que no sempre tindrà l'aspecte desitjat.<P>
+<P>En la modalitat "doble" es poden escollir diferents posicions inicials de les dues graelles: A a l'esquerra de B, B a l'esquerra d'A, A damunt la B i B damunt A. En les del tipus "memòria" es pot optar entre duplicar el nombre de caselles horitzontals (modalitat "AB") o fer-ho amb les verticals (modalitat "BA").<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t12.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="t10.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

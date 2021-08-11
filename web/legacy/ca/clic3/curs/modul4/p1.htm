@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Pràctica 1</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<P>&nbsp;<P>
+<A HREF="prac4.zip"><IMG SRC="../disquet.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="LEFT"></A>Per realitzar les pràctiques d'aquest mòdul cal descarregar el fitxer <A HREF="prac4.zip">prac4.zip</A> i descomprimir el seu contingut dins la carpeta<BR><B>C:\Clic\CursClic\Modul4\Practica</B><P>
+&nbsp;<P>
+<H1>Pràctica 1<BR>
+Creació d'activitats amb ARITH2</H1>
+En aquesta pràctica s'utilitza el mòdul de generació automàtica d'activitats ARITH2 per a crear algunes activitats de càlcul mental.<P>
+El primer pas serà copiar a la carpeta de treball el fitxer ARITH2.DLL, que ve amb la "demo" del Clic:<P>
+<P CLASS="L">- Poseu en marxa l'<B>Explorador</B> del Windows (<B>Botó Inici - Programes - Explorador del Windows</B>).<P>
+<P CLASS="L">- Al pannell esquerre busqueu la carpeta <B>C:\CLIC\ACT\DEMO</B> i seleccioneu-la.<P>
+<P CLASS="L">- Feu clic amb el <B>botó dret</B> del ratolí damunt el fitxer <B>ARITH2.DLL</B>, que hauria d'aparèixer al pannell de la dreta. En el menú de context seleccioneu <B>Copiar</B>.<P>
+<P CLASS="L">- Al pannell esquerre busqueu i seleccioneu la <B>carpeta de pràctiques</B> del mòdul 4 del curs.<P>
+<P CLASS="L">- Feu clic amb el <B>botó dret</B> del ratolí damunt el pannell de la dreta i, en el menú de context, seleccioneu <B>Enganxar</B>.<P>
+Amb això hauríeu d'obtenir una còpia del fitxer ARITH2.DLL dins de la carpeta de treball.<P>
+<P CLASS="L">- Poseu en marxa el Clic, activeu el menú <B>Fitxers - Nova activitat - Associació</B> i seleccioneu la carpeta de treball del mòdul 4.<P>
+<P CLASS="L">- Fixeu una distribució de <B>1 columna</B> i <B>5 files</B>.<P>
+<P CLASS="L">- Seleccioneu per a la graella <B>A</B> el tipus <B>Text</B> , assegureu-vos que a la llista desplegable es troba seleccionada l'opció <B>NOU TEXT</B> i feu clic al botó <B>Editar contingut</B>. El nom del fitxer que crearem és <B>BUIT.TXT</B><P>
+De fet aquest fitxer de text farà un paper purament testimonial: servirà per a crear un esquelet de l'activitat, però el contingut real del que apareixerà a les caselles el controlarem més endavant amb el mòdul ARITH2.<P>
+<P CLASS="L">- Quan s'activi la llibreta del Windows inseriu un parell de <B>retorns</B> dins del text i aneu directament als menús <B>Fitxer - Desar</B> i <B>Fitxer - Sortir</B>.<P>
+<P CLASS="L">- Desplegueu la llista de la graella <B>B</B> i seleccioneu-hi també el fitxer <B>BUIT.TXT</B>.<P>
+<P CLASS="L">- Marqueu la casella <B>Solució a la graella A</B> i seleccioneu novament <B>BUIT.TXT</B>.<P>
+Confirmeu l'edició de l'activitat: tenim una associació simple entre dues graelles en blanc. El pas següent serà activar el mòdul ARITH2 per tal que ompli les caselles de contingut:<P>
+<P CLASS="L">- Aneu a les <B>Opcions de l'activitat</B> (CTRL+O) i <A NAME="this"></A><A HREF="#this" onClick="javascript:window.open('nota2.htm','Nota','width=200,height=200,toolbar=0,location=0,status=0,menubar=0,alwaisRaised=1,dependent=1')">marqueu</A> la casella <B>Regeneració automàtica</B>.<P>
+<P CLASS="L">- A la llista desplegable que hi ha sota aquesta casella seleccioneu-hi el fitxer <B>ARITH2.DLL</B> i feu clic al botó <B>Configuració</B>.<P>
+<P CLASS="L">- En la finestra de configuració d'Arith2 deixeu els valors predeterminats (sumes de valors entre 0 i 10) i confirmeu-ho tot.<P>
+Comproveu el funcionament de l'activitat. Observeu que cada vegada que es fa clic a la bandera verda es carrega de nou l'activitat amb operacions diferents.<P>
+<P CLASS="L">- Editeu l'activitat per escriure a <B>Missatge inicial</B> el text:<P>
+<P CLASS="LiteralL">Resol aquestes operacions</P>
+<P CLASS="L">&nbsp; ... i afegiu-hi un missatge final de felicitació.<P>
+<P CLASS="L">- Enregistreu l'activitat amb el nom <B>SUMES1.ASS</B><P>
+Ara podríem fer algunes modificacions per millorar l'aspecte visual de l'activitat. Farem servir la tècnica de mostrar la finestra de joc dins d'un decorat de fons, tal com es fa en l'activitat TXA06.TXA de la "demo" del Clic:<P>
+<P CLASS="L">- Aneu a les <B>Opcions de l'activitat</B> (CTRL+O) i feu clic al botó <B>Color sòlid</B> de la <B>finestra principal</B>. Seleccioneu-hi el color blanc.<P>
+<P CLASS="L">- Seleccioneu també el color blanc com a fons de la <B>finestra de joc</B>.<P>
+<P CLASS="L">- Marqueu la casella <B>Imatge</B> de la <B>finestra principal</B>, desplegueu la llista i seleccioneu el fitxer <B>FONS.GIF</B><P>
+<P CLASS="L">- Marqueu la casella <B>Centrada</B> i confirmeu els canvis.<P>
+Fins aquí sembla que tot va bé: ha aparegut una imatge de fons, però la finestra de joc té unes dimensions massa grans i no apareix dins del marc que s'havia dibuixat en el decorat de fons. Haurem de fer encara algunes modificacions més:<P>
+<P CLASS="L">- Torneu a les opcions de l'activitat i desmarqueu la casella <B>Centrada</B> de la finestra de joc. Just sota aquesta casella apareixeran dos camps numèrics que serveixen per a especificar les coordenades on s'ha de situar la finestra de joc respecte a la cantonada superior esquerra de la imatge de fons. Canvieu-les a <B>X: 270</B> i <B>Y: 10</B><P>
+<P CLASS="L">- Modifiqueu les <B>mides de les caselles</B> per tal que siguin de <B>164 x 64</B>, tant a la graella <B>A</B> com a la <B>B</B>.<P>
+<P CLASS="L">- Desmarqueu la casella <B>Marcs ombrejats</B> i confirmeu-ho tot.<P>
+Ara sí: la finestra de joc s'ha situat exactament on volíem i té unes dimensions que fan que s'encabeixi dins del rectangle que hi havia dibuixat en la imatge de fons. Fem només uns darrers canvis en l'aspecte visual:<P>
+<P CLASS="L">- Editeu l'activitat (CTRL+E), desmarqueu el botó <B>Delim. Caselles</B> tant per a la graella <B>A</B> com per a la <B>B</B>.<P>
+<P CLASS="L">- Cliqueu al botó <B>Fonts</B>, seleccioneu la zona <B>Caixa de missatges</B> i escolliu el <B>blau marí</B> com a color de <B>fons</B> i el <B>blanc</B> com a color de <B>text</B>. Un cop fet això seleccioneu la zona <B>Graella B</B> i canvieu el color de l'<B>ombra</B> a <B>blanc</B> (el color "ombra" s'utilitza també per a omplir les caselles quan s'ha resolt un aparellament).<P>
+<P CLASS="L">- Torneu a enregistrar l'activitat amb el mateix nom: <B>SUMES1.ASS</B><P>
+Ara aprofitarem l'activitat que acabem de crear per a fer unes quantes variants augmentant el grau de dificultat de les operacions de càlcul:<P>
+<P CLASS="L">- Aneu a les <B>Opcions de l'activitat</B> i cliqueu al botó <B>Configuració</B> de la regeneració automàtica.<P>
+<P CLASS="L">- Modifiqueu el primer operand per tal que estigui en un rang entre <B>10</B> i <B>99</B>, marqueu la casella <B>Sense portar-ne</B> i confirmeu-ho tot.<P>
+<P CLASS="L">- Pitgeu la tecla <B>F12</B> (que equival a activar el menú <B>Fitxers - Desar com a...</B>), canvieu el nom a <B>SUMES2.ASS</B> i confirmeu.<P>
+<P CLASS="L">- Torneu a modificar la configuració d'Arith2 per desmarcar la casella <B>Sense portar-ne</B>.<P>
+<P CLASS="L">- Amb <B>F12</B> enregistreu l'activitat amb el nom <B>SUMES3.ASS</B><P>
+<P CLASS="L">- Continuem el procés d'anar complicant les operacions i enregistrant les activitats amb noms diferents mitjançant F12. Les activitats que hauríeu de crear són aquestes:<BR>
+&nbsp;<BR>
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="5" BORDERCOLOR="#800080">
+<TR CLASS="CTaula">
+	<TD CLASS="CTaula">ACTIVITAT</TD>
+	<TD CLASS="CTaula">CONFIGURACIÓ ARITH2</TD>
+</TR>
+<TR>
+	<TD>SUMES4.ASS</TD>
+	<TD>Segon operand entre <B>10</B> i <B>99</B>, "sense portar-ne"</TD>
+</TR>
+<TR>
+	<TD>SUMES5.ASS</TD>
+	<TD>El mateix que en el cas anterior, però "portant-ne"</TD>
+</TR>
+<TR>
+	<TD>RESTES1.ASS</TD>
+	<TD>Operació: <B>resta</B>. Tots dos operands entre <B>1</B> i <B>10</B></TD>
+</TR>
+<TR>
+	<TD>RESTES2.ASS</TD>
+	<TD>Operació: <B>resta</B>. Primer operand entre <B>10</B> i <B>99</B></TD>
+</TR>
+<TR>
+	<TD>RESTES3.ASS</TD>
+	<TD>Operació: <B>suma</B>. Incògnita: <B>A @ ? = C</B> (deixeu marcada només aquesta opció)</TD>
+</TR>
+</TABLE>
+&nbsp;<BR>
+<P>
+Si heu seguit tots aquests passos tindrem un conjunt d'activitats que ens servirà per a preparar una sèrie de paquets encadenats en la pràctica següent.<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="p2.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="index.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

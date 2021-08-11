@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Practice 2</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Practice 2<BR>
+Creating threaded packs</H1>
+Click allows the setting of "intelligent" threadings between activity packs, moving to one option or another according to the level of accuracy obtained by the student. In this exercise, we will create packs of increasing difficulty based on the activities made above and we will create links between them.<P>
+First of all we will prepare an information screen to show that the sequence of packs has finished:<P>
+<P CLASS="L">- Go to the <B>File - New... - Association</B> menu. Select the practice folder for module 4.<P>
+<P CLASS="L">- Change the kind of activity to <B>Information screen</B>.<P>
+<P CLASS="L">- Click on the <B>Edit contents</B> button for grid <B>A</B>. Call the file <B>FINAL.TXT</B><P>
+<P CLASS="L">- Write the following in the Windows Notepad:<P>
+<P CLASS="LiteralL">
+Congratulations!!!<BR>
+You have reached the end of the addition and subtraction pack<BR>
+{exit}
+</P>
+<P CLASS="L">- Save the file and close Notepad.<P>
+<P CLASS="L">- Unmark the <B>delimit cells</B> option and set a layout of <B>1 column</B> and <B>3 rows</B>.<P>
+<P CLASS="L">- Click on the <B>Options</B> button and cell size for grid <B>A</B> to <B>400 x 60</B>. Deactivate all the <B>counters</B> and <B>buttons</B> and <B>shaded frames</B>. Select <B>BGROUND2.GIF</B> as the image for the <B>Main window</B> and in <B>mosaic</B>. Set <B>background transparent</B> for the <B>Game window</B>.<P>
+<P CLASS="L">- Confirm the options and click on the <B>Fonts</B> button. Select Arial at <B>10 x 25</B> in <B>bold</B> and <B>red</B> for <B>Grid A</B>.<P>
+<P CLASS="L">- Accept everything and save the activity as <B>FINAL.ASS</B><P>
+Note that the "{exit}" command at the end of the text has made the door icon appear, which will close the programme when the student clicks on it.<P>
+The next step is to create the activity packs:<P>
+<P CLASS="L">- Go to the <B>File - New... - Activity pack</B> menu.<P>
+<P CLASS="L">- Put the following activities in the pack ADD1.ASS and ADD2.ASS<P>
+<P CLASS="L">- Accept and save it as <B>CALCUL1.PAC</B><P>
+<P CLASS="L">- Create a second pack with ADD3.ASS and ADD4.ASS, and call it <B>CALCUL2.PAC</B><P>
+<P CLASS="L">- Create <B>CALCUL3.PAC</B>, with ADD5.ASS and SUB1.ASS, and <B>CALCUL4.PAC</B> with SUB2.ASS and SUB3.ASS<P>
+<P CLASS="L">- To finish, create a pack that only contains FINAL.ASS. Save it as <B>FINAL.PAC</B><P>
+The next step is to link the five packs we have just created:<P>
+<P CLASS="L">- Open <B>CALCUL1.PAC</B> and edit it with CTRL+P<P>
+<P CLASS="L">- Click on the <B>Threading</B> button.<P>
+<P CLASS="L">- Mark <B>Default threading</B> and select the same pack: CALCUL1.PAC. That will put the pack in a circular process, when it is finished it will start again.<P>
+<P CLASS="L">- Mark <B>High threading</B>, select CALCUL2.PAC and increase the global assessment to 80%. That will make Clic go to pack 2 if at least 4 of the 5 operations in each activity are solved. If this level is not reached the pack will start again.<P>
+<P CLASS="L">- In this case we will leave <B>low threading</B> unmarked as this is the first pack in the series and it is not possible to go to an easier pack. Nor will we set a minimum time to get maximum and minimum marks.<P>
+<P CLASS="L">- Accept everything and accept the changes.<P>
+<P CLASS="L">- Open <B>CALCUL2.PAC</B>, edit it with CTRL+P and set a <B>default threading</B> with itself, a <B>high threading</B> with CALCUL3.PAC if <B>80%</B> is attained and a <B>low threading</B> with CALCUL1.PAC for scores lower than <B>40%</B>.<P>
+<P CLASS="L">- Do the same with <B>CALCUL3.PAC</B> and <B>CALCUL4.PAC</B>, linking them to their respective higher and lower levels. The higher level for CALCUL4.PAC will be FINAL.PAC.<P>
+When you have finished, open CALCUL1.PAC and try to reach the final screen by solving the operations that appear.<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="p3.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="p1.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

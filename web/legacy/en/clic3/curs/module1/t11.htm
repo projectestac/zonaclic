@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Puzzles</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul1.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Puzzles</H1>
+The puzzles consist of shuffling a set of information that the user has to put back in order. This set of information could be an image, a sentence taken apart, a fragmented sound recording, a chronological sequence, etc.<P>
+As you have seen in the examples and in the table above, there are four different modes of puzzles. The most common are the <B>exchange</B> and the <B>double</B> modes, which show all the information that needs to be ordered on the screen.<P>
+The <B>hole</B> mode restricts movements to the pieces next to the empty cell and is, therefore, the most complicated of all. This is especially so if the content is non-graphic or if there are a lot of pieces.<P>
+The <B>memory</B> mode is not really a puzzle as here you do not have to reorder but remember what there is in each cell to find the pairs in the minimum number of attempts.<P>
+Some things to take into account when designing a puzzle:<P>
+<P CLASS="L">- If text files are used as the content of a puzzle, Clic will assign <B>one line to each cell</B>. The hard returns in text files are used to separate the contents from one cell from the next. This also applies to associations; always one line per cell.<BR>
+Blank cells appear if an activity is designed with more rows and columns than the number of lines in the text file.<P>
+<P CLASS="L">- <B>Background zones</B> with a single colour may appear in some images. When dividing rows and columns, try to make sure that there are never two cells with exactly the same content, as it may visually appear that the puzzle has been solved but the programme detects that there are still two pieces out of place. Here is an example:<BR>
+<BR>
+<IMG SRC="peix.gif" WIDTH=157 HEIGHT=105 BORDER=0><BR>
+<BR>
+The cells 1, 5, 6, 19 and 24 (starting from the top-left) in this puzzle have exactly the same content; the white background colour. If we do not modify the image or change the number of rows and columns, it will be very difficult to place the blocks correctly according to the programme as these pieces can be changed without noticing any visual difference.
+<P CLASS="L">- When a puzzle is made with an image, we need to work on it beforehand with a graphics editor to give it the appropriate <B>dimensions</B> so that it will fit within the Clic game window. If the image is too large (something that usually happens when it comes from a high resolution scanner), we have two options: get the programme to <B>cut</B> the image, leaving out the area which does not fit on the screen or ask it to <B>compress</B> the image, forcing a change in dimensions that does not always give the desired aspect.<P>
+<P>In the "double" mode different initial positions for the grids can be chosen: A to the left of B, B to the left of A, A above B and B above A. In the "memory" types you can choose between duplicating the number of horizontal cells ("AB" mode) or vertical cells ("BA" mode).<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t12.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="t10.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

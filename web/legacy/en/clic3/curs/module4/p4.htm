@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Practice 4</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Practice 4<BR>
+Creating a menu of packs</H1>
+In this last exercise we will make an activity pack that can be used as an access menu to all the packs made in the course. The menu will be saved in the course root directory and will open the packs from each of their folders.<P>
+<P CLASS="L">- Go to <B>File - New... - Association</B>. In this case will use the root directory of the course modules as the working directory: <B>C:\Clic\Course</B><P>
+<P CLASS="L">- Change the type to <B>Information screen</B>.<P>
+<P CLASS="L">- Make sure that <B>Text</B> is selected for grid <B>A</B> and click on <B>Edit contents</B>. The programme will ask for a name for the new text file, which could be <B>MENU.TXT</B><P>
+<P CLASS="L">- Write the following text in the Windows Notepad:<P>
+<P CLASS="LiteralL">
+Planets{module1\practice\planetes.pac}<BR>
+Animals{module2\practice\animals.pac}<BR>
+Solidarity{module3\practice\intermon.pac}<BR>
+Mental arithmetic{module4\practice\calcul1.pac}<BR>
+</P>
+Note that when the packs are in different folders, you also have to give their path or Clic would not be able to find them.<P>
+<P CLASS="L">- Close Notepad and say <B>Yes</B> to save the changes.<P>
+<P CLASS="L">- Set a layout of <B>1 column</B> and <B>4 rows</B>.<P>
+<P CLASS="L">- Write the following in <B>Welcome message</B>:<P>
+<P CLASS="LiteralL">Clic course practices</P>
+<P CLASS="L">- Click on the <B>Options</B> button and set the size of grid <B>A</B> at <B>400x80</B>. Unmark the three <B>counters</B> and the <B>Shaded frames</B>, select <B>Small buttons 2</B> and change the main window<B> </B>and game window <B>colour</B> to <B>blue</B>.<P>
+<P CLASS="L">- Accept the changes in Options and click on the <B>Fonts</B> button. Select <B>Arial</B> at <B>11 x 26</B>, mark the <B>Bold</B> and <B>Shadow</B> buttons and change the following colours: <B>Text</B> to white, <B>Background</B> to blue and <B>Shadow</B> to black. When you have made all these changes click on the <B>Apply to all areas</B> button.<P>
+<P CLASS="L">- Accept everything and, before clicking on any of the cells, save the activity as <B>MENU.ASS</B>.<P>
+<P CLASS="L">- Go to the <B>File - New... - Activity pack</B> menu. The working directory stays as <B>C:\Clic\Course</B><P>
+<P CLASS="L">- Put the <B>MENU.ASS</B> activity as the single component, accept and save the pack as <B>COURSE.PAC</B><P>
+Now we can link each pack to the menu so that the menu appears when a pack is finished with:<P>
+<P CLASS="L">- Click on the first cell, where it says "Planets". If everything goes well, the pack we created in the first session should open.<P>
+<P CLASS="L">- Activate the activity pack edition (CTRL+P) and click on the <B>Threading</B> button. Mark the <B>Default threading</B> box and, in the box below, write:<P>
+<P CLASS="LiteralL">..\..\Course.pac</P>
+<P CLASS="L">&nbsp; The expression "..\..\" tells Clic to go back by two folders to find "Course.pac". We have to do this as "planets.pac" is in the <B>C:\Clic\Course\Module1\practice</B> folder and the menu is in <B>C:\Clic\Course</B>.<P>
+<P CLASS="L">- Accept everything and save the pack with the same name and in the same place.<P>
+<P CLASS="L">- Go through the activities in the "Planets" pack. When you finish, the programme should go back to the main menu.<P>
+<P CLASS="L">- Repeat the same steps with the "Animals" and "Solidarity" packs. The default threading in both cases will also be <B>..\..\Course.pac</B><P>
+The mental arithmetic pack is a little more complicated. As it already has its own links, we will have to find a way linking it without breaking its own links:<P>
+<P CLASS="L">- Go to <B>File - Open</B> and find <B>FINAL.PAC</B> in the <B>Modul4\practice</B> folder.<P>
+<P CLASS="L">- Edit the activity pack and give it a default threading to <B>..\..\Course.pac</B><P>
+<P CLASS="L">- Save the pack, click on the forward button to reach the menu and see what happens. All the exercises have to be solved to leave the "Mental arithmetic" branch and go back to the menu, if not, the inferior threading is activated and will repeat the exercises.<P>
+To finish, create a Windows icon that opens the activity pack we have just made:<P>
+<P CLASS="L">- <B>Right click</B> on the <B>Start button</B> in Windows.<P>
+<P CLASS="L">- Select <B>Explore</B> from the menu. This will open Explorer.<P>
+<P CLASS="L">- Look for the <B>Clic</B> folder in <B>Program files</B> and select it.<P>
+<P CLASS="L">- <B>Right click</B> on a blank space in the <B>right panel</B> of Explorer.<P>
+<P CLASS="L">- Select <B>New...</B> and <B>Shortcut</B>. The shortcut assistant will open.<P>
+<P CLASS="L">- Write <B>C:\Clic\Course\Course.pac</B> on the <B>command line </B>and go to the next screen.<P>
+<P CLASS="L">- Write <B>Clic course practices</B> in shortcut name.<P>
+<P CLASS="L">- Accept everything, close Explorer and test the icon, which should appear in the <B>Start - Program files - Clic</B> menu.<P>
+<H2>Extra exercise</H2>
+The English puzzle pack has not been included in the menu because it is in the compact format (PCC) and this stops us from making changes to the pack. To add it to the menu, we need to separate ANIPUZEN.PCC with ClicPac, change MENU.ASS to increase the number of rows to 4, add an extra line in MENU.TXT and set the return threading from ANIPUZEN.PAC to COURSE.PAC. Remember that this pack is one level deeper in the folder structure: C:\Clic\Course\Module4\practice\Animals. Therefore the return path should be "..\..\..\course.pac".<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="index.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="p3.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Practice 5</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul1.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Practice 5<BR>
+Creating an association with indirect references</H1>
+In this exercise we will make an association between photographs of the planets and their names. The photographs are in some GIF files that you should find in the working directory if you followed the instructions that we gave at the beginning carefully.<P>
+We will not be able to use the select <B>Image</B> type option for grid <B>B</B> in this exercise as there are 9 photographs in 9 separate files rather than just one image and only one file can be selected from the drop list. We will have to use the indirect call technique, writing the file names in a text file.<P>
+<P CLASS="L">- Go to the <B>File - New... - Association</B> menu<B>.</B> We will use the same working directory as before.<P>
+<P CLASS="L">- Select the <B>PLANETS.TXT </B>file from the previous exercises for<B> grid A</B>.<P>
+<P CLASS="L">- You will have to create a <B>NEW TEXT </B>for <B>grid B</B>. Click on the <B>Edit contents</B> button and, when Clic asks, call it <B>IMGPLANE</B><P>
+<P CLASS="L">- In the note pad write the following lines:
+<P CLASS="LiteralL">
+{mercury.gif}<BR>
+{venus.gif}<BR>
+{earth.gif}<BR>
+{mars.gif}<BR>
+{jupiter.gif}<BR>
+{saturn.gif}<BR>
+{uranus.gif}<BR>
+{neptune.gif}<BR>
+{pluto.gif}<P>
+It is important to write the file names between curved brackets "{" and "}" and not to confuse them with square brackets "[" and "]". It is also important not to leave any spaces at the beginning or the end of any of the lines.<P>
+By writing the file names between curved brackets in a text file, Clic will display their contents within the cells rather than the literal expression of each line.<P>
+<P CLASS="L">- Save the file and close the note pad.<P>
+<P CLASS="L">- Set the layout at <B>3 rows</B> and <B>3 columns</B>.<P>
+<P CLASS="L">- In <B>Welcome message</B> write:
+<P CLASS="LiteralL">Match each planet with its photograph
+<P CLASS="L">- ...and in <B>Good bye message</B>:
+<P CLASS="LiteralL">Very good!
+<P CLASS="L">- Click <B>OK</B> and test the activity.<P>
+<P CLASS="L">- Save it as <B>PLANET3.ASS</B><P>
+It works... but some of the photographs are cut off. We could consider changing the cell distribution to improve this, by putting the list of names in a single column on the left and keeping the 3x3 grid for the photographs. Here are the steps to follow: <P>
+<P CLASS="L">- Use <B>CTRL+E</B> to activate the edit window (the shortcut for the <B>Edit - Edit activity</B> menu).<P>
+<P CLASS="L">- Change the <B>Kind</B> to <B>Complex association</B>. You need to make this change because it is not possible to have different cell layouts for the two grids in normal associations.<P>
+<P CLASS="L">- Change the layout to <B>1 column</B> and <B>9 rows</B>. This should affect grid <B>A</B>.<P>
+<P CLASS="L">- Click on the <B>Relationship assignment</B> button   and change the setting to 3 for both <B>B Rows </B>and <B>B Columns</B>.<P>
+<P CLASS="L">- Click on each of the lines in the list on the left to check if the relationship assignment is still correct. The same row on the right should be automatically selected. If this is not the case, mark it.<P>
+Click <B>OK</B> to return to edition and <B>OK</B> again to test it. Indeed, the layout has changed, but the cells in grid A are too big and the ones in grid B are too small.<P>
+Before modifying the cell dimensions, we shall do a few simple calculations:<P>
+The planet images have maximum dimensions of 100x100 pixels (you can check this with PaintShop Pro or another graphic editor). To leave a bit of a margin between the photographs, we could give the cells in grid <B>B</B> dimensions of 120x120. This will give a total of 360x360 for grid <B>B</B>.<P>
+There are now 9 rows in grid <B>A</B>, while <B>B</B> still has 3. For both grids to have the same height, the cells in grid <B>A</B> would have to be a third of those in <B>B</B>. A third of 120 is 40 pixels.<P>
+Here are the steps to modify the cell dimensions:<P>
+<P CLASS="L">- Edit the activity (CTRL+E) and click the <B>Options</B> button.<P>
+<P CLASS="L">- Change the <B>width</B> settings in both grids to <B>120</B> and the height settings to: <B>40</B> in <B>A</B> and <B>120</B> in <B>B</B>.<P>
+<P CLASS="L">- Confirm everything and check how the activity looks. It should now have a more appropriate distribution.<P>
+Grid <B>B</B> would look better if the cells had a black background:<P>
+<P CLASS="L">- Edit the activity (CTRL+E) and click the <B>Fonts</B> button.<P>
+<P CLASS="L">- Mark the <B>Grid B</B> box (it is very important to always select the area <B>before</B> changing colours or fonts).<P>
+<P CLASS="L">- Click on the <B>Background</B> button and select black.<P>
+<P CLASS="L">- Click on <B>Text</B> and select white. Even though there is no text in grid B, it is always a good idea to avoid having the same text and background colour in case the activity is changed at a later date.<P>
+<P CLASS="L">- Confirm everything and check how the activity looks now.<P>
+<P CLASS="L">- To avoid the dividing lines appearing between the cells in grid B, edit the activity and unmark <B>Delimit cells</B>.<P>
+<P CLASS="L">- Save the activity again with the same name, <B>PLANET3.ASS</B><P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="p6.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="p4.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

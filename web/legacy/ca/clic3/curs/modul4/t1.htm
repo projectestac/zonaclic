@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Generació automàtica de continguts</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Generació automàtica de continguts</H1>
+En la carpeta <B>C:\Clic\Act\Demo</B> hi ha un fitxer anomenat <B>ARITH2.DLL</B>. Es tracta d'un programa especial que actua com a complement extern del Clic, generant operacions de càlcul mental a l'atzar a partir d'uns determinats criteris fixats en el moment de crear l'activitat.<P>
+Poseu en marxa la "demo" del Clic i dins dels exemples d'associacions desplaceu-vos fins a l'activitat <B>ASS07.ASS</B>. Si activeu la finestra d'edició (CTRL+E) observareu una cosa curiosa: el fitxer ARITEXT.TXT s'utilitza com a contingut de les graelles <B>A</B> i <B>B</B>, i si cliqueu a <B>Editar contingut</B> veureu que no conté ni rastre de cap mena d'operació matemàtica. ¿Com pot ser que l'aspecte de l'activitat sigui tan diferent al que inicialment sembla deduir-se dels fitxers de contingut?<P>
+El secret és a la finestra d'<B>Opcions de l'activitat</B>. Entreu-hi i observeu que la casella <B>Regeneració automàtica</B> es troba marcada, i a la llista s'ha seleccionat el fitxer <B>ARITH2.DLL</B>. De fet el Clic no utilitza per a res els fitxers ARITEXT.TXT: hi són només perquè en les associacions és sempre obligatori indicar un fitxer de contingut per a cada graella, però el responsable del que acabarà apareixent a la pantalla és el mòdul ARITH2.<P>
+Els mòduls de regeneració automàtica s'encarreguen de proveir les activitats dels continguts que hauran de mostrar a les caselles. Ara per ara només existeix el mòdul de càlcul mental ARITH2, però les especificacions estan publicades a l'ajuda i al manual del Clic i qualsevol programador que conegui el llenguatge C++ i sàpiga com fer una DLL (no és l'objectiu d'aquest curs!) podria crear mòduls addicionals que generessin a l'atzar el contingut d'altres tipus d'activitats.<P>
+El botó <B>Configuració</B>, que apareix al costat de la llista desplegable de mòduls, realitza una crida a l'ARITH2 per tal que mostri la seva pantalla de control:<P>
+&nbsp;<BR>
+<IMG SRC="arith2.gif" WIDTH=500 HEIGHT=334 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+Aquí és on es decideix quin tipus d'operacions de càlcul mental són les que poden aparèixer en l'activitat que s'està editant:<P>
+<P CLASS="L">- Quines de les quatre <B>operacions</B> aritmètiques bàsiques hi han d'aparèixer.<P>
+<P CLASS="L">- Quin dels quatre elements d'una operació (primer operand, operació, segon operand i resultat) serà la <B>incògnita</B>. Normalment la incògnita és el resultat, com a: "3 + 4 = ?", però és possible plantejar la mateixa operació escrivint "3 + ? = 7", "? + 4 = 7" o "3 ? 4 = 7". També es pot fer que les operacions s'escriguin començant pel resultat, en la forma "7 = 3 + 4".<P>
+<P CLASS="L">- Els <B>límits</B> de cadascun dels dos operands i el resultat.<P>
+<P CLASS="L">- El <B>nombre de decimals</B> del resultat (cap, un o dos).<P>
+<P CLASS="L">- La possibilitat de plantejar sumes i restes <B>"sense portar-ne"</B>, és a dir, que l'operació aplicada dígit a dígit no sigui mai superior a 9 ni inferior a 0.<P>
+<P CLASS="L">- La <B>ordenació</B> dels resultats resulta útil per a plantejar puzles com els de l'activitat PUZ05.PUZ de la demo del Clic.<P>
+El mòdul Arith2 intenta generar operacions a l'atzar a partir dels paràmetres establerts sempre que aquests siguin raonables, però si troba situacions irresolubles (per exemple, sumes amb operands entre 10 i 20 que donin un resultat inferior a 5) es veu obligat a infringir alguna de les condicions fixades.<P>
+Per crear activitats que utilitzin el mòdul Arith2 cal copiar el fitxer ARITH2.DLL (que trobareu amb els fitxers de la demo del Clic) a la carpeta de treball corresponent.<P>
+<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t2.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="index.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

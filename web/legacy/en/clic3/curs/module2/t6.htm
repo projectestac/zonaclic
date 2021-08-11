@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Calling multimedia contents from Clic</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul2.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Calling multimedia contents from Clic</H1>
+We have already seen that in any area of Clic where, in principal, text should appear (cells, hello and goodbye messages, crossword definitions, etc.) an image can be made to appear by writing the name of a <B>BMP</B> or a <B>GIF </B>file between curved brackets. This technique is also used to call other types of multimedia content, such as sound (<B>WAV</B>), MIDI (<B>MID</B>) or digital video (<B>AVI</B>) files, and also for special instructions such as: link to another activity or pack; record a fragment of sound with the microphone; reproduce a previously recorded fragment; activate a music CD, close Clic or start up external programmes.<P>
+For a detailed description of the syntax permitted in the calls between curved brackets, we recommend that you consult <B>Import graphics, multimedia resources and other special commands</B> which you will find in the <B>Creating activities</B> section of the help or the Clic manual. <P>
+More than one call between curved brackets can be set in the same area or cell, as long as the files are compatible. For example, a multimedia file and a text (or a graphic) can be combined by writing the two references in the same line, e.g.:
+<P CLASS="LiteralL">
+Bicycle{bike.wav}<BR>
+{cow.bmp}{cow.wav}<BR>
+{lion.gif}{lion.avi}<BR>
+The human body{humanbod.pac}<BR>
+<P>In the first case the text <B>Bicycle</B> will be shown in the cell and when it is activated the <B>bici.wav</B> file will be heard. In the second the <B>cow.bmp</B> image will be seen, which will play the <B>cow.wav</B> file, and in the third case the <B>lion.gif</B> image will be shown until the <B>lion.avi</B> video is activated. The fourth example is the one normally used in information screens that act as menus to activate different activity packs.<P>
+<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t7.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="t5.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

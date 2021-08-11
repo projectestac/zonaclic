@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Las asociaciones simples y complejas</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul1.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Las asociaciones simples y complejas</H1>
+Las asociaciones son uno de los tipos de actividades más versátiles de Clic. En una asociación siempre intervienen dos conjuntos de información denominados <B>A</B> y <B>B</B>, entre los elementos de los cuales se definen unas determinadas relaciones. La única excepción a esta regla es la modalidad <B>Pantalla de información</B>, que no es exactamente una asociación a pesar de estar incluida en este grupo.<P>
+El contenido de las ventanas <B>A</B> y <B>B</B> puede ser un gráfico o un archivo de texto y, como en todas las actividades Clic, los archivos de texto se pueden utilizar para realizar referencias a elementos multimedia escribiendo su nombre entre claves.<P>
+En las asociaciones de <B>respuesta escrita</B> el contenido de <B>B</B> debe ser siempre un texto, y en las de la modalidad <B>identificación</B> siempre es el conjunto formato por las expresiones <B>Sí</B> y <B>No</B>.<P>
+En las modalidades <B>normal</B> y <B>compleja</B> siempre se muestra el contenido completo de ambas ventanas, que el usuario debe relacionar con clics del ratón. En las otras modalidades el contenido de la ventana <B>B</B> no se llega a mostrar nunca al usuario, pero el programa lo utiliza para validar las respuestas (en <B>respuesta escrita</B> e <B>identificación</B>) o decidir qué tipo de mensaje se tiene que mostrar (en las de <B>exploración</B>).<P>
+El número de casillas es el mismo para ambas ventanas en las modalidades <B>normal</B> y <B>respuesta escrita</B>. En las otras modalidades puede ser distinto.<P>
+En las modalidades <B>normal</B>, <B>compleja</B>, <B>identificación</B> y <B>respuesta escrita</B> es posible también hacer entrar en juego un tercer conjunto de información, denominado <B>Solución a la ventana A</B>. La función de éste tercer componente es mostrar información adicional cuando se resuelven cada una de las casillas de la ventana <B>A</B>. Por ejemplo, supongamos una asociación en la que hay que relacionar operaciones aritméticas y resultados. A la izquierda hay una casilla con el texto "2+2", y a la derecha otra con la expresión "4". Cuando el usuario resuelve el emparejamiento la casilla de la izquierda desaparece, mostrando un rectángulo de color gris que indica que ya ha sido resuelta y está inactiva. Utilizando la <B>Solución a la ventana A</B> se puede obtener un efecto más dinámico, haciendo que cuando se resuelva el emparejamiento aparezca la expresión completa "2+2=4".<P>
+<H2>Associación normal</H2>
+En las asociaciones normales siempre hay el mismo número de casillas en ambas ventanas, y tienen la misma disposición de filas y columnas. Los elementos de <B>A</B> y <B>B</B> se relacionan <B>uno a uno</B> a partir del orden en que han sido escritos o dibujados en los archivos de contenido. Por ejemplo, si el contenido de <B>A</B> es un texto con las palabras:<P>
+<P class="literal">
+Francia<BR>
+Grecia<BR>
+Italia<BR>
+Portugal<BR>
+<P>El de <B>B</B> podría ser:<P>
+<P class="literal">
+París<BR>
+Atenas<BR>
+Roma<BR>
+Lisboa<BR>
+<P>
+Clic asumirá automáticamente que la primera palabra de <B>A</B> se relaciona con la primera de <B>B</B>, la segunda de <B>A</B> con la segunda de <B>B</B>, etc. Si se utilizan gráficos la relación se hace también casilla a casilla, empezando a contar por la de arriba a la izquierda.<P>
+Cuando se resuelve un emparejamiento desaparecen las dos casillas que se han relacionado, a no ser que se haya especificado un contenido para la <B>Solución a la ventana A</B>: en este caso aparece en <B>A</B> el contenido alternativo y desaparece el de la casilla <B>B</B>.<P>
+<H2>Associación compleja</H2>
+En las asociaciones complejas el número de elementos de <B>A</B> (filas y columnas) se indica en la pantalla de edición de la actividad, y la distribución de <B>B</B> se hace en la ventana de asignación de relaciones, que se explica más adelante. Dado que pueden tener un número distinto de elementos, resulta imposible para el programa deducir cual es la relación correcta entre los elementos de <B>A</B> y <B>B</B>. Por ello hay que ir siempre a la ventana de <B>asignación de relaciones</B> para definir las relaciones una a una.<P>
+Cuando se resuelve un emparejamiento desaparece el contenido de la ventana <B>A</B> (o aparece el contenido alternativo si se utiliza la <B>Solución a la ventana A</B>), pero el de <B>B</B> queda como estaba ya que podría ser que hubiera algún otro elemento en <B>A</B> que lo necesitara. Por ejemplo, imaginemos una asociación dónde interviene el conjunto "2+2", "3+2", "2x2", "4+1" en la ventana <B>A</B> y las expresiones "4" y "5" en la ventana <B>B</B>. Si al resolver el emparejamiento entre "3+2" y "5" desaparecieran ambas casillas y sería imposible resolver después el elemento "4+1", ya que el "5" habría desaparecido en la jugada anterior.<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t13.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="t11.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

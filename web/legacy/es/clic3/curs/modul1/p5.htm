@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>Práctica 5</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul1.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>Práctica 5<BR>
+Creación de una asociación con referencias indirectas</H1>
+En esta práctica construiremos una asociación entre un conjunto de fotografías de los planetas y sus nombres. Las fotografías están en unos archivos GIF que se deberían encontrar en la carpeta de trabajo si se han seguido correctamente las instrucciones que se dieron al inicio de la práctica.<P>
+En esta práctica no nos servirá seleccionar el tipo <B>Imagen</B> para la ventana <B>B</B>, ya que no se trata de un único gráfico sino de 9 fotografías repartidas en 9 archivos distintos, y en la lista desplegable sólo podríamos escoger una. Tendremos que utilizar a la técnica de crear referencias indirectas a gráficos escribiendo su nombre entre claves dentro de un archivo de texto.<P>
+<P CLASS="L">- Vaya al menú <B>Archivo - Nueva actividad - Asociación</B>. La carpeta de trabajo será la misma que hemos utilizado hasta ahora.<P>
+<P CLASS="L">- Seleccione para la ventana <B>A</B> el archivo <B>PLANETAS.TXT</B> que ya hemos utilizado en las prácticas anteriores.<P>
+<P CLASS="L">- Para la ventana <B>B</B> deberá crear un <B>NUEVO TEXTO</B>. Haga clic en el botón <B>Editar contenido</B> y, cuando el programa lo pregunte, asígnele el nombre <B>IMGPLANE</B><P>
+<P CLASS="L">- En el bloc de notas escriba estas líneas de texto:<P>
+<P CLASS="LiteralL">
+{mercurio.gif}<BR>
+{venus.gif}<BR>
+{tierra.gif}<BR>
+{marte.gif}<BR>
+{jupiter.gif}<BR>
+{saturno.gif}<BR>
+{urano.gif}<BR>
+{neptuno.gif}<BR>
+{pluton.gif}<BR>
+<P>
+Es importante escribir los nombres de los archivos entre claves, que no se deben confundir con los corchetes "[" y "]" (recuerde que en los teclados españoles las claves se obtienen con las combinaciones de teclas <B>AltGr + diéresis</B> y <B>AltGr + Ç</B>). También es importante no dejar ningún espacio en blanco delante o detrás de cada línea, y escribir los nombres sin acentos.<P>
+El hecho de escribir en un archivo de texto nombres de archivos entre claves hará que el Clic muestre su contenido dentro de las casillas en lugar de la expresión literal de cada línea.<P>
+<P CLASS="L">- Guarde el archivo y cierre el bloc de notas.<P>
+<P CLASS="L">- Fije una distribución de <B>3 filas</B> y <B>3 columnas</B>.<P>
+<P CLASS="L">- Escriba en <B>Mensaje inicial</B> el texto:<P>
+<P CLASS="LiteralL">Relaciona cada planeta con su fotografía<P>
+<P CLASS="L">- ...y en <B>Mensaje final</B>:<P>
+<P CLASS="LiteralL">¡Muy bien!<P>
+<P CLASS="L">- Haga clic en <B>Aceptar</B> y compruebe el funcionamiento de la actividad.<P>
+<P CLASS="L">- Guárdela con el nombre <B>PLANETA3.ASS</B><P>
+Funciona bien... pero algunas fotografías salen recortadas. Para mejorar el aspecto de la actividad podríamos plantear una distribución distinta de las casillas: Poner en vertical la lista de nombres en una única columna a la izquierda y mantener la ventana de 3 x 3 para las fotografías. Los pasos a seguir serán:<P>
+<P CLASS="L">- Utilice la combinación de teclas <B>CTRL+E</B> para activar la ventana de edición (equivale a activar el menú <B>Edición - Editar la actividad</B>).<P>
+<P CLASS="L">- Cambie el <B>Tipo</B> a <B>Asociación compleja</B>. Hay que hacer este cambio porque en las asociaciones normales no es posible indicar una distribución de casillas distinta para cada ventana.<P>
+<P CLASS="L">- Cambie la distribución a <B>1 columna</B> y <B>9 filas</B>. Eso afectará en principio a la <B>ventana A</B>.<P>
+<P CLASS="L">- Haga clic en el botón de <B>Asignación de relaciones</B> <IMG SRC="miniassigna.gif" WIDTH=32 HEIGHT=20 BORDER=0 ALT=""> y cambie los valores de <B>Filas B</B> y <B>Columnas B</B> para que ambos indiquen <B>3</B>.<P>
+<P CLASS="L">- Para comprobar que la asignación de relaciones todavía es la correcta vaya haciendo clic en cada una de las líneas de la lista de la izquierda: a la derecha debería aparecer seleccionada de manera automática la misma fila. Si no fuera así, marque la opción correcta.<P>
+Haga clic en <B>Aceptar</B> para volver a la edición de la actividad, y otra vez en <B>Aceptar</B> para probar su funcionamiento. La distribución ha cambiado, pero las casillas de la ventana <B>A</B> son demasiado grandes y las de la <B>B</B> demasiado pequeñas.<P>
+Antes de modificar las dimensiones de las casillas haremos unos cuantos cálculos sencillos:<P>
+Las imágenes de los planetas tienen unas dimensiones máximas de 100 x 100 puntos de pantalla (lo puede comprobar con PaintShop Pro o cualquier otro editor gráfico). Para dejar un poco de margen entre las fotografías podríamos asignar a las casillas de <B>B</B> unas dimensiones de 120 x 120. Eso dará un total de 360 x 360 para la ventana <B>B</B>.<P>
+En la ventana <B>A</B> hay ahora 9 filas, mientras que <B>B</B> continúa con 3. Para que ambas ventanas tengan la misma altura las casillas de <B>A</B> tendrían que medir un tercio de las de <B>B</B>. Un tercio de 120 son 40 puntos.<P>
+Para modificar las dimensiones de las casillas siga estos pasos:<P>
+<P CLASS="L">- Edite la actividad (<B>CTRL+E</B>) y haga clic en el botón <B>Opciones</B>.<P>
+<P CLASS="L">- Cambie los valores de las anchuras a fin de que sean <B>120</B> en ambas ventanas. Para las alturas indique <B>40</B> en <B>A</B> y <B>120</B> en <B>B</B>.<P>
+<P CLASS="L">- Confírmelo todo y compruebe el aspecto de la actividad. Ahora la distribución es más adecuada.<P>
+La ventana <B>B</B> quedaría mejor si las casillas tuvieran el fondo negro:<P>
+<P CLASS="L">- Edite la actividad (<B>CTRL+E</B>) y haga clic en el botón <B>Fuentes</B>.<P>
+<P CLASS="L">- Marque la casilla <B>Ventana B</B>. Es muy importante seleccionar siempre la zona antes de hacer modificaciones de color o tipo de letra.<P>
+<P CLASS="L">- Haga clic en el botón <B>Fondo</B> y seleccione el color negro.<P>
+<P CLASS="L">- Haga clic en <B>Texto</B> y seleccione el color blanco. Aunque no hay texto en la ventana <B>B</B>, siempre es recomendable evitar dejar el mismo color para el texto y el fondo por si más adelante modificáramos la actividad.<P>
+<P CLASS="L">- Confírmelo todo y compruebe el cambio de aspecto.<P>
+<P CLASS="L">- Para evitar que aparezcan las líneas divisorias entre las casillas de <B>B</B> edite la actividad y desmarque <B>Delim. casillas</B>.<P>
+<P CLASS="L">- Vuelva a guardar la actividad con el mismo nombre: <B>PLANETA3.ASS</B><P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="p6.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="p4.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

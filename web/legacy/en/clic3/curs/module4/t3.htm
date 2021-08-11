@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+<TITLE>The ClicPac utility</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="../cursclic.css">
+</HEAD>
+
+<BODY>
+<CENTER>
+<TABLE BORDER=0 WIDTH=600>
+<TR>
+<TD ALIGN="LEFT" VALIGN="TOP">
+<MAP NAME="back">
+<AREA SHAPE="RECT" COORDS="557,22,581,50" HREF="index.htm">
+</MAP> 
+<IMG SRC="modul4.gif" WIDTH=595 HEIGHT=64 BORDER=0 USEMAP="#back">
+<H1>The ClicPac utility</H1>
+As we saw at the beginning of the course, Clic packs can be presented in one of two formats: <B>normal</B> packs (.PAC) and <B>compact</B> packs (.PCC). The basic difference between the two types of packs is in the information contained in the files. The PAC packs only contain references to the activities (we could say they are like a "shopping list"), while the PCC packs contain most of the necessary ingredients to make them work (following the same analogy, they would be the equivalent to a "shopping basket"). Multimedia files can never be put in the "basket" and have to stay as independent elements in the working directory.<P>
+When a compact Clic pack (PCC) is used all the activity edition functions are disabled. To check the "shopping list" and examine or change the contents you have to open the "basket" and spread the ingredients on the table.<P>
+The compact format (PCC) is ideal for distributing Clic applications once they are finished. It has two clear advantages over the normal format:<P>
+<P CLASS="L">- It protects the materials from accidental changes or intentional changes by the students.<P>
+<P CLASS="L">- It facilitates the transfer of materials from one computer to another as most of the components are gathered in one file.<P>
+The ClicPac utility, which is installed with Clic, can be used to <B>pack</B> normal packs or <B>unpack </B>compact Clic packs.<P>
+&nbsp;<BR>
+<IMG SRC="esquema.gif" WIDTH="513" HEIGHT="483" BORDER="0" ALT=""><BR>
+&nbsp;<BR>
+<H2>Compacting packs</H2>
+These are the steps to <B>compact a pack</B>:<P>
+<P CLASS="L">- Start up <B>ClicPac</B>. A screen like the one below will be shown:<BR>
+&nbsp;<BR>
+<IMG SRC="scrclicpac1.gif" WIDTH=500 HEIGHT=376 BORDER=0 ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L">- At the top of the screen select <B>Normal Clic packs (*.PAC)</B><P>
+<P CLASS="L">- Search for the application that you want to compact in the directory list.<P>
+<P CLASS="L">- Select the file for the main pack. The programme will analyse the dependencies between the application's components and will advise of any errors, e.g. a call to a non-existent file. If there are any errors, you will have to close ClicPac, check the activity with the error, fix it and start again.<P>
+<P CLASS="L">- Click on the <B>Compact</B> button.<P>
+<P CLASS="L">- The screen below shows all the files that will be in the compact Clic pack on the left and, on the right, the files that will be left out (WAV, MID, AVI, DLL files, etc.):<BR>
+&nbsp;<BR>
+<IMG SRC="scrclicpac2.gif" WIDTH="500" HEIGHT="262" BORDER="0" ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L">- Click on the <B>Create compact pack</B> button.<P>
+<P CLASS="L">- When the PCC file is created, the programme will ask if you want to delete the component files. It is recommended to say <B>yes</B> to avoid wasting disk space with copies of files that are no longer used.<P>
+<H2>Separating packs</H2>
+Here are the steps to <B>separate a pack</B>:<P>
+<P CLASS="L">- Start up <B>ClicPac</B>.<P>
+<P CLASS="L">- Select <B>Compact Clic packs (*.PCC)</B> on the top-left of the options window.<P>
+<P CLASS="L">- Search for the application that you want to extract in the directory list.<P>
+<P CLASS="L">- Select the appropriate PCC file.<P>
+<P CLASS="L">- Click on the <B>Separate</B> button. A screen will appear with a list of the files in the PCC file. In principal, you should select all of them.<BR>
+&nbsp;<BR>
+<IMG SRC="scrclicpac3.gif" WIDTH="300" HEIGHT="208" BORDER="0" ALT=""><BR>
+&nbsp;<BR>
+<P CLASS="L">- Click on the <B>Extract</B> button. ClicPac will create the files as independent units in the working directory.<P>
+As a last step, we recommend that you <B>delete</B> the PCC file as there is no need to have it on the hard disk once the application has been converted into a PAC. You can delete the file with the Explorer in Windows.<P>
+Some comments on compacting and separating packs:<P>
+<P CLASS="L">- If a pack is separated directly from a <B>CD-ROM</B> or a unit in a network with "Read only" rights, you will have to select an alternative destination on the hard disk where ClicPac can write without restrictions.<P>
+<P CLASS="L">- The <B>icons</B> created by the installers of the Clic activities in the Windows "Start Menu " or "Program Administrator" usually point to a PCC file. If you delete the PCC file after separating it (as suggested in the instructions), the icon will stop working. If you want to keep on using the icon, you will have to change the short-cut properties so that they point directly to the PAC file. In W95, the short cuts are normally found in the <B>C:\Windows\Start menu\Programs\Clic</B> folder.<P>
+While creating activities it is normal to do tests and create different files that may not be used in the end. ClicPac offers the chance to "clean up" by <B>copying</B> all the contents of a normal pack to another folder. Here are the steps:<P>
+<P CLASS="L">- <B>Create </B>a new folder and give it a different name to the folder used to create the activities.<P>
+<P CLASS="L">- <B>Copy</B> the pack from the old working directory to the new one by using ClicPac.<P>
+<P CLASS="L">- <B>Delete</B> the application's original folder.<P>
+From now on the "good" folder will be the new one, which will only contain the necessary components for the activity pack. On deleting the original working directory, all the files that were not being used will have been deleted.<P>
+<P>
+&nbsp;<P>
+<HR CLASS="barraFinal">
+<A HREF="t4.htm"><IMG SRC="../next.gif" WIDTH=40 HEIGHT=39 BORDER=0 ALIGN="RIGHT"></A>
+<A HREF="t2.htm"><IMG SRC="../prev.gif" WIDTH=40 HEIGHT=39 BORDER=0></A>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>
