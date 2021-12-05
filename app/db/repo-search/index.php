@@ -44,7 +44,7 @@ if ($query !== null && strlen($query) > 0) {
 
     $mode = $method === 'natural'
         ? ' IN NATURAL LANGUAGE MODE'
-        : $method === 'boolean' ? ' IN BOOLEAN MODE' : '';
+        : ($method === 'boolean' ? ' IN BOOLEAN MODE' : '');
 
     // Set-up database connection and prepared statements:
     $dbConn = new PDO('mysql:dbname='.DB_NAME.';host='.DB_HOST.';charset=utf8', DB_USER, DB_PASSWORD); 
