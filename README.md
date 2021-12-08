@@ -26,5 +26,6 @@ The clicZone project is organized into four main directories:
 
 - `/vm`: Scripts used to build a [Vagrant](https://www.vagrantup.com/) virtual machine used only in development environments. Check [vm/README.md](https://github.com/projectestac/zonaclic/blob/master/vm/README.md) for details.
 
-- `/devilbox`: Configuration files for the [Devilbox](http://devilbox.org/) LAMP stack, used only in development environments.
+- `/devilbox`: Configuration files for the [Devilbox](http://devilbox.org/) LAMP stack, used only in development.
 
+- `/docker`: Configuration files for an ecosystem of docker images orquested by `Docker-compose`, used in development.

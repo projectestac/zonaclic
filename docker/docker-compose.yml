@@ -1,0 +1,50 @@
+version: "3.7"
+
+services:
+
+  web:
+    image: nginx:1.21
+    container_name: zonaclic-nginx
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ../app:/var/www/app:ro
+      - ../web:/var/www/web:ro
+      - ./nginx/clic-nginx.conf:/etc/nginx/conf.d/clic-nginx.conf:ro
+      - ./nginx/cert:/etc/httpd/cert/clic:ro
+      - ./nginx/log:/var/log/nginx:rw
+    depends_on:
+      - php
+
+  php:
+    build:
+      context: ./php
+    image: zonaclic-php:latest
+    container_name: zonaclic-php
+    volumes:
+      - ../app:/var/www/app:ro
+      - ../web:/var/www/web:rw
+      - ./php/php.ini:/usr/local/etc/php/php.ini:ro
+
+  mysql:
+    image: mysql:5.7
+    container_name: zonaclic-mysql
+    environment:
+      MYSQL_DATABASE: jclicrepo
+      MYSQL_USER: clic
+      MYSQL_PASSWORD: clic
+      MYSQL_ROOT_PASSWORD: password
+    ports:
+      - 3306:3306
+    volumes:
+      - ./mysql/data:/var/lib/mysql:rw
+      - ./mysql/initdb:/docker-entrypoint-initdb.d:ro
+
+  squid:
+    image: ubuntu/squid
+    container_name: zonaclic-squid
+    ports:
+      - 3128:3128
+    volumes:
+      - ./squid/data:/var/spool/squid:rw

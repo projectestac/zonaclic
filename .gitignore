@@ -20,4 +20,10 @@ web/users/*/**
 !web/users/clic/**
 #!web/users/settings.json
 
+# Docker dynamic data
+/docker/mysql/data/**
+/docker/nginx/log/**
+/docker/nginx/cert/**
+/docker/squid/data/**
+!.keepme
 
