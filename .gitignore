@@ -25,5 +25,6 @@ web/users/*/**
 /docker/nginx/log/**
 /docker/nginx/cert/**
 /docker/squid/data/**
+/docker/squid/log/**
 !.keepme
 

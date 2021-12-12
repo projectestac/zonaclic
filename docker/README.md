@@ -8,7 +8,7 @@ In order to provide all the necessary services, four different containers are us
 - __nginx__: Currently, the official [`nginx:1.21`](https://hub.docker.com/_/nginx) image is used. It exposes the static files stored in `/web`, and redirects the special paths(`/db`, `/jnlp`, `/redirect`, `/ca`, `/es` and `/en` to the PHP-FPM container via [fastcgi](https://en.wikipedia.org/wiki/FastCGI). See [`nginx/clic-nginx.conf`](./nginx/clic-nginx.conf) for details.
 - __php__: A specific PHP-FPM container, built upon the official [`php:7.4-fpm`](https://hub.docker.com/_/php) image. See [`php/Dockerfile`](./php/Dockerfile) for details.
 - __mysql__: The official [`mysql:5.7`](https://hub.docker.com/_/mysql) image, initialized with the database scheme needed by the full-text search API. See [`mysql/initdb`](./mysql/initdb) for details.
-- __sqid__: Image [`ubuntu/squid`](https://hub.docker.com/r/ubuntu/squid), used to emulate the production site of `clic.xtec.cat`, where a proxy should used by the PHP engine to establish external connections.
+- __sqid__: Image [`datadog/squid`](https://hub.docker.com/r/datadog/squid), used to emulate the production site of `clic.xtec.cat`, where a proxy should used by the PHP engine to establish external connections.
 
 ## How to use it
 

@@ -42,9 +42,10 @@ services:
       - ./mysql/initdb:/docker-entrypoint-initdb.d:ro
 
   squid:
-    image: ubuntu/squid
+    image: datadog/squid
     container_name: zonaclic-squid
     ports:
       - 3128:3128
     volumes:
       - ./squid/data:/var/spool/squid:rw
+      - ./squid/log:/var/log/squid:rw
