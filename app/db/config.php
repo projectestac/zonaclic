@@ -45,6 +45,7 @@ define('UID', posix_geteuid());
 // Valid origins for userlib clients
 define('VALID_ORIGINS', [
   'https://clic.xtec.cat',
+  'https://preproduccio.clic.xtec.cat',
   'https://projectes.xtec.cat',
   'https://agora.xtec.cat',
   'https://educaciodigital.cat',
