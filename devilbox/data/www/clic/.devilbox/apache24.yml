@@ -139,7 +139,7 @@ features:
 
   alias: |
     # Alias Definition
-    Define base_path ${LOCALDEV}/zonaclic/zonaclic
+    Define base_path ${LOCAL_ZONACLIC}
     Alias "/db/" "${base_path}/app/db/"
     Alias "/jnlp/" "${base_path}/app/jnlp/"
     Alias "/ca/" "${base_path}/app/redirect/"    
