@@ -35,6 +35,8 @@ define('ID_TOKEN', 'id_token');
 
 // ** Endpoint used to validate OAuth tokens sent by Google ** //
 define('CHECK_GOOGLE_TOKEN', 'https://www.googleapis.com/oauth2/v3/tokeninfo?id_token=');
+define('CHECK_GOOGLE_TOKEN_NEW_API', 'https://oauth2.googleapis.com/tokeninfo?id_token=');
+define('USE_NEW_API', 'NEW_API');
 
 // ** Users belonging to this Google Suite organisation are accepted ** //
 define('HD', 'xtec.cat');

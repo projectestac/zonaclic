@@ -10,9 +10,10 @@
       "request": "launch",
       "port": 9000,
       "pathMappings": {
-        "/dades/app": "${workspaceRoot}/app",
-        "/dades/web": "${workspaceRoot}/web"
-      }
+        "/shared/httpd/clic/api": "${workspaceFolder}/app",
+        "/shared/httpd/clic/htdocs": "${workspaceFolder}/web"
+      },
+      "log": true,
     },
     {
       "name": "Launch currently open script",

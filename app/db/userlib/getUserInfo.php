@@ -109,7 +109,8 @@ if (isset($_POST[ID_TOKEN]) && $_POST[ID_TOKEN] !== '') {
         $settings = json_decode(file_get_contents($settingsFileName), false);
     
         // Check token validity (Warning: external call to a Google API!)
-        $raw = getRemoteFile(CHECK_GOOGLE_TOKEN.$_POST[ID_TOKEN]);
+        $GOOGLE_CHECK_ENDPOINT = isset($_POST[USE_NEW_API]) ? CHECK_GOOGLE_TOKEN_NEW_API : CHECK_GOOGLE_TOKEN;
+        $raw = getRemoteFile($GOOGLE_CHECK_ENDPOINT.$_POST[ID_TOKEN]);
         $user = json_decode($raw, false);
 
         if (!isset($user->{'email'}) || $user->{'email'} === '') {
