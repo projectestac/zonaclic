@@ -174,8 +174,11 @@ class UserSpace
             UserSpace::copyAttr($prj, $prjReg, 'author');
             UserSpace::copyAttr($prj, $prjReg, 'date');
             UserSpace::copyAttr($prj, $prjReg, 'langCodes');
+            UserSpace::copyAttr($prj, $prjReg, 'levelCodes');
+            UserSpace::copyAttr($prj, $prjReg, 'areaCodes');
             UserSpace::copyAttr($prj, $prjReg, 'mainFile');
             UserSpace::copyAttr($prj, $prjReg, 'cover');
+            UserSpace::copyAttr($prj, $prjReg, 'coverWebp');
             UserSpace::copyAttr($prj, $prjReg, 'thumbnail');
             array_push($projectList, $prjReg);
         }
