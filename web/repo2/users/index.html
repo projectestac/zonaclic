@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+  <meta charset="utf-8">
+  <title>JClic repo - users library</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="../../dist/repo/jclic-repo.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <p>
+      <a href="../index.html">Main library</a> | <a href="./index.html">Users library</a> | <select
+        onchange="location = './index.html?lang=' + this.value">
+        <option value="">--</option>
+        <option value="ca">ca</option>
+        <option value="es">es</option>
+        <option value="en">en</option>
+      </select>
+    </p>
+  </header>
+  <main>
+    <jclic-user-lib
+      style="background-color: whitesmoke;"
+      data-repo-path="/repo2/index.html"
+      data-repo-base="/projects"
+      data-jnlp-installer="/jnlp/jclic/install.jnlp?argument=%%FILE%%"
+      data-jclic-search-service="/db/repo-search/"
+      data-users-path="/repo2/users/index.html"
+      data-users-base="/users"
+      data-user-lib-api="/db"
+      data-display-title="true"
+      data-display-subtitle="true"
+      data-already-loaded-fonts=""
+      data-lang-off="en"
+      data-share-sites-off='{"twitter":false,"facebook":true,"telegram":false,"whatsapp":true,"pinterest":true,"email":true,"moodle":true,"classroom":true}'
+      data-theme-off='{"palette":{"primary":{"main":"#F00"}}}' ></jclic-user-lib>      
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,2506 @@
+/*!
+
+JSZip v3.10.1 - A JavaScript class for generating and reading zip files
+<http://stuartk.com/jszip>
+
+(c) 2009-2016 Stuart Knightley <stuart [at] stuartk.com>
+Dual licenced under the MIT license or GPLv3. See https://raw.github.com/Stuk/jszip/main/LICENSE.markdown.
+
+JSZip uses the library pako released under the MIT license :
+https://github.com/nodeca/pako/blob/main/LICENSE
+*/
+
+/*!
+  * $script.js JS loader & dependency manager
+  * https://github.com/ded/script.js
+  * (c) Dustin Diaz 2014 | License MIT
+  */
+
+/*!
+ *  File    : JClic.js
+ *  Created : 01/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2021 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/*!
+ * Sizzle CSS Selector Engine v2.3.6
+ * https://sizzlejs.com/
+ *
+ * Copyright JS Foundation and other contributors
+ * Released under the MIT license
+ * https://js.foundation/
+ *
+ * Date: 2021-02-16
+ */
+
+/*!
+ * jQuery JavaScript Library v3.6.0
+ * https://jquery.com/
+ *
+ * Includes Sizzle.js
+ * https://sizzlejs.com/
+ *
+ * Copyright OpenJS Foundation and other contributors
+ * Released under the MIT license
+ * https://jquery.org/license
+ *
+ * Date: 2021-03-02T17:08Z
+ */
+
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+***************************************************************************** */
+
+/**
+ *  File    : AWT.js
+ *  Created : 12/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : Activity.js
+ *  Created : 07/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : JClicPlayer.js
+ *  Created : 28/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2022 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : PlayerHistory.js
+ *  Created : 28/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : Utils.js
+ *  Created : 01/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/associations/ComplexAssociation.js
+ *  Created : 03/06/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/associations/SimpleAssociation.js
+ *  Created : 02/06/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Catalan Educational Telematic Network (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/memory/MemoryGame.js
+ *  Created : 04/06/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/panels/Explore.js
+ *  Created : 04/06/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/panels/Identify.js
+ *  Created : 03/06/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/panels/InformationScreen.js
+ *  Created : 19/05/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/panels/Menu.js
+ *  Created : 20/07/2017
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/puzzles/DoublePuzzle.js
+ *  Created : 22/05/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/puzzles/ExchangePuzzle.js
+ *  Created : 30/05/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/puzzles/HolePuzzle.js
+ *  Created : 01/06/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/text/Complete.js
+ *  Created : 20/06/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/text/Evaluator.js
+ *  Created : 14/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/text/FillInBlanks.js
+ *  Created : 20/06/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Catalan Educational Telematic Network (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/text/Identify.js
+ *  Created : 20/06/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/text/OrderText.js
+ *  Created : 20/06/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/text/TextActivityBase.js
+ *  Created : 16/05/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/text/TextActivityDocument.js
+ *  Created : 14/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/text/WrittenAnswer.js
+ *  Created : 04/06/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/textGrid/CrossWord.js
+ *  Created : 17/06/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : activities/textGrid/WordSearch.js
+ *  Created : 15/06/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : automation/AutoContentProvider.js
+ *  Created : 13/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : automation/arith/Arith.js
+ *  Created : 28/05/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : bags/ActivitySequence.js
+ *  Created : 05/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : bags/ActivitySequenceElement.js
+ *  Created : 05/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : bags/ActivitySequenceJump.js
+ *  Created : 05/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Catalan Educational Telematic Network (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : bags/ConditionalJumpInfo.js
+ *  Created : 05/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Catalan Educational Telematic Network (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : bags/JumpInfo.js
+ *  Created : 05/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Catalan Educational Telematic Network (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : bags/MediaBag.js
+ *  Created : 07/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : bags/MediaBagElement.js
+ *  Created : 07/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : boxes/AbstractBox.js
+ *  Created : 18/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : boxes/ActiveBagContent.js
+ *  Created : 13/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : boxes/ActiveBox.js
+ *  Created : 18/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : boxes/ActiveBoxBag.js
+ *  Created : 21/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : boxes/ActiveBoxContent.js
+ *  Created : 13/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Catalan Educational Telematic Network (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : boxes/ActiveBoxGrid.js
+ *  Created : 19/05/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Catalan Educational Telematic Network (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : boxes/BoxBag.js
+ *  Created : 21/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Catalan Educational Telematic Network (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : boxes/BoxBase.js
+ *  Created : 12/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Catalan Educational Telematic Network (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : boxes/BoxConnector.js
+ *  Created : 26/05/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Catalan Educational Telematic Network (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : boxes/TextGrid.js
+ *  Created : 12/06/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : boxes/TextGridContent.js
+ *  Created : 14/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : media/ActiveMediaBag.js
+ *  Created : 28/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : media/ActiveMediaPlayer.js
+ *  Created : 28/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : media/EventSounds.js
+ *  Created : 01/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : media/EventSoundsElement.js
+ *  Created : 01/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : media/MediaContent.js
+ *  Created : 13/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : media/MidiAudioPlayer.js
+ *  Created : 11/10/2018
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : project/JClicProject.js
+ *  Created : 01/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : project/ProjectSettings.js
+ *  Created : 01/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : report/ActionReg.js
+ *  Created : 17/05/2016
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : report/ActivityReg.js
+ *  Created : 17/05/2016
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : report/Encryption.js
+ *  Created : 18/06/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : report/Reporter.js
+ *  Created : 17/05/2016
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : report/SCORM.js
+ *  Created : 18/07/2016
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : report/SequenceReg.js
+ *  Created : 17/05/2016
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : report/SessionReg.js
+ *  Created : 17/05/2016
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Catalan Educational Telematic Network (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : report/SessionStorageReporter.js
+ *  Created : 06/09/2017
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : report/TCPReporter.js
+ *  Created : 08/06/2016
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Catalan Educational Telematic Network (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : shapers/ClassicJigSaw.js
+ *  Created : 25/05/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : shapers/Holes.js
+ *  Created : 20/05/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : shapers/JigSaw.js
+ *  Created : 01/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : shapers/Rectangular.js
+ *  Created : 19/05/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Catalan Educational Telematic Network (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : shapers/Shaper.js
+ *  Created : 13/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : shapers/TriangularJigSaw.js
+ *  Created : 25/05/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : skins/BlueSkin.js
+ *  Created : 04/07/2016
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : skins/Counter.js
+ *  Created : 07/05/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : skins/CustomSkin.js
+ *  Created : 12/02/2018
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : skins/DefaultSkin.js
+ *  Created : 12/05/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : skins/EmptySkin.js
+ *  Created : 14/03/2017
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : skins/GreenSkin.js
+ *  Created : 04/07/2016
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : skins/MiniSkin.js
+ *  Created : 05/07/2016
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : skins/OrangeSkin.js
+ *  Created : 04/07/2016
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : skins/SimpleSkin.js
+ *  Created : 04/07/2016
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
+
+/**
+ *  File    : skins/Skin.js
+ *  Created : 29/04/2015
+ *  By      : Francesc Busquets <francesc@gmail.com>
+ *
+ *  JClic.js
+ *  An HTML5 player of JClic activities
+ *  https://projectestac.github.io/jclic.js
+ *
+ *  @source https://github.com/projectestac/jclic.js
+ *
+ *  @license EUPL-1.2
+ *  @licstart
+ *  (c) 2000-2020 Educational Telematic Network of Catalonia (XTEC)
+ *
+ *  Licensed under the EUPL, Version 1.1 or -as soon they will be approved by
+ *  the European Commission- subsequent versions of the EUPL (the "Licence");
+ *  You may not use this work except in compliance with the Licence.
+ *
+ *  You may obtain a copy of the Licence at:
+ *  https://joinup.ec.europa.eu/software/page/eupl
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the Licence is distributed on an "AS IS" basis, WITHOUT
+ *  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ *  Licence for the specific language governing permissions and limitations
+ *  under the Licence.
+ *  @licend
+ *  @module
+ */
