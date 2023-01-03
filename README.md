@@ -2,7 +2,7 @@
 
 The site [clic.xtec.cat](http://clic.xtec.cat) hosts a big repository of open educational activities created by teachers of different countries using the open source authoring tool [JClic](https://projectestac.github.io/jclic).
 
-The [main repository of activities](https://clic.xtec.cat/repo) is accessible through a web app build with [Polymer](https://www.polymer-project.org/). Check the [jclic-repo](https://github.com/projectestac/jclic-repo) project on GitHub for more information about this web app.
+The [main repository of activities](https://clic.xtec.cat/repo) is accessible through a web app build with [React](https://reactjs.org). Check the [jclic-repo](https://github.com/projectestac/jclic-repo) project on GitHub for more information about this web app.
 
 The clicZone project is organized into four main directories:
 

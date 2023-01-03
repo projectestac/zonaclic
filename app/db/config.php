@@ -53,5 +53,6 @@ define('VALID_ORIGINS', [
   'https://educaciodigital.cat',
   'https://met.xtec.cat',
   'https://clic.xyz',
-  'http://localhost:8000'
+  'http://localhost:8000',
+  'https://clic.dvl.to'
 ]);

@@ -16,7 +16,7 @@ A SSL key and certificate should be generated. You can use a valid certificate, 
 
 ```bash
 $ cd <project root>/docker/nginx/cert
-$ openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 365 -subj "/CN=clic.xyz" -nodes
+$ openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 365 -subj "/CN=clic.dvl.to" -nodes
 ```
 Another importrant step is to allow the PHP process to read and write into `web/users`, because here is where the API will upload and delete user's projects. This can ve achieved changing the ownership of this directory to the system user (usually `www-data`), or allowing write permissions to all system users:
 
@@ -25,10 +25,10 @@ $ cd <project root>/web
 $ chmod -R og+w users
 ```
 
-In order to access the site, the host name `clic.xyz` should be locally assigned to your _localhost_ IP. This can be achieved by placing this line in `/etc/hosts`:
+In order to access the site, the host name `clic.dvl.to` should be locally assigned to your _localhost_ IP. This can be achieved by placing this line in `/etc/hosts`:
 
 ```
-127.0.0.1    localhost clic.xyz
+127.0.0.1    localhost clic.dvl.to
 ```
 
 The containers can be set up and launched together with [Docker-Compose](https://docs.docker.com/compose/). Just enter this directory and launch:
@@ -38,7 +38,7 @@ $ cd <project root>/docker
 $ docker-compose up --build
 ```
 
-The web site will be then available at: https://clic.xyz/
+The web site will be then available at: https://clic.dvl.to/
 
 If you are using a _fake_ SSL certificate, the browser will warn you of a possible impersonation with the NET::ERR_CERT_AUTHORITY_INVALID error code. You can trust the certificate only for the current session (in advanced settings), or install it as a trusted source in your browser options.
 
