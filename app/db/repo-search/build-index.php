@@ -52,7 +52,7 @@ $stmtQuery = $dbConn->prepare('SELECT path,lastUpdated FROM projects WHERE path=
 $stmtQuery->bindParam(':prj_path', $prj_path);
  
 $stmtInsertProject = $dbConn->prepare(
-    'INSERT INTO projects(path,title,date,author,school,mainFile,cover,thumbnail,zipFile,instFile,clicZoneId,orderId,files) '.
+    'REPLACE INTO projects(path,title,date,author,school,mainFile,cover,thumbnail,zipFile,instFile,clicZoneId,orderId,files) '.
     'VALUES (:prj_path,:title,:prj_date,:author,:school,:mainFile,:cover,:thumbnail,:zipFile,:instFile,:clicZoneId,:orderId,:files)'
 );
 $stmtInsertProject->bindParam(':prj_path', $prj_path);
