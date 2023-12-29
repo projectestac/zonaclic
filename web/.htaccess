@@ -1,2 +1,4 @@
+# Allow the use of JClic from other hosts and domains
 Header set Access-Control-Allow-Origin "*"
-
+# Allow the use of JClic inside iframes also when "x-frame-options" is set to "SAMEORIGIN"
+Header set Content-Security-Policy "frame-ancestors *"
