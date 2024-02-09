@@ -4,27 +4,18 @@
 <head>
   <meta charset="utf-8" />
   <title>Biblioteca de projectes JClic</title>
-  <link rel="shortcut icon" href="../icons/favicon.ico">
   <script>
     const searchParams = new URLSearchParams(window.location.search);
     const lang = searchParams.get('lang') || navigator.language.startsWith('ca') ? 'ca' : navigator.language.startsWith('es') ? 'es' : 'en';
-
-    const buildParam = (srcName, destName = srcName) => {
-      const value = searchParams.get(srcName);
-      return value ? `&${destName}=${encodeURIComponent(value)}` : '';
-    }
-    const prj = searchParams.get('prj');
-    const language = searchParams.get('language');
-    const subject = searchParams.get('subject');
-    const level = searchParams.get('level');
-    
+    const buildParam = (name) => {
+      const value = searchParams.get(name);
+      return value ? `&${name}=${encodeURIComponent(value)}` : '';
+    }    
     const title = searchParams.get('title');
     const author = searchParams.get('author');
     const textParam = title || author ? `&text=${encodeURIComponent(`${title || ''} ${author || ''}`.trim())}` : '';
-
-    const newURL = `https://projectes.xtec.cat/clic/${lang}/repo/?${buildParam('language')}${buildParam('subject')}${buildParam('level')}${buildParam('subject')}${textParam}`;
+    const newURL = `https://projectes.xtec.cat/clic/${lang}/repo/?${buildParam('language')}${buildParam('prj')}${buildParam('subject')}${buildParam('level')}${buildParam('subject')}${textParam}`;
     const redirect = () => window.location.replace(newURL);
-    console.log(`Redirect to: ${newURL}`);
     redirect();
   </script>
 </head>
