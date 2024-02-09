@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Espai per a projectes JClic dels usuaris - Tauler de control</title>
+  <meta name="google-signin-scope" content="profile email" />
+  <meta name="google-signin-client_id"
+    content="628119593973-72bhu9uv9jrlaqv3c7o1h9quf6jocspn.apps.googleusercontent.com" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-indigo.min.css" />
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <script src="https://unpkg.com/dialog-polyfill@0.4.10/dialog-polyfill.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/dialog-polyfill@0.4.10/dialog-polyfill.css" />
+  <script src="https://unpkg.com/clipboard-js@0.3.2/clipboard.min.js"></script>
+  <link href="mylib.css" rel="stylesheet" type="text/css" />
+  <script src="mylib.js"></script>
+  <script src="https://apis.google.com/js/platform.js?onload=gApiLoaded" async defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout__title">La meva zonaClic</span>
+        <div class="mdl-layout-spacer"></div>
+        <div class="mdl-layout-content hidden" id="userIdBox">
+          <img class="avatar">
+        </div>
+      </div>
+    </header>
+
+    <main class="mdl-layout__content">
+
+      <div id="loginBox" class="mdl-card mdl-cell hidden">
+        <div class="mdl-card__supporting-text">
+          <p>Inicieu la sessió amb el vostre identificador XTEC:</p>
+          <div id="gSignInBtn"></div>
+          <div id="loginSpinner" class="mdl-spinner mdl-js-spinner is-active hidden"></div>
+          <p id="loginMsg"></p>
+        </div>
+      </div>
+
+      <div id="mainInfo" class="mdl-card mdl-shadow--2dp mdl-cell hidden">
+        <div class="mdl-card__supporting-text">
+          <h2 class="mdl-card__title-text">Espai per a projectes JClic dels usuaris</h2>
+          <p>L'objectiu d'aquest espai és facilitar-vos la publicació dels vostres projectes JClic que no es trobin disponibles
+            a la <a href="https://clic.xtec.cat/repo" target="_blank">biblioteca de la zonaClic</a>.</p>
+          <p>Per publicar un projecte l'heu d'exportar abans al format HTML5-SCORM amb una versió actualitzada del
+            <a href="https://clic.xtec.cat/ca/jclic/download.htm" target="_blank">JClic Author</a>.</p>
+          <p>Un cop publicats, podeu fer srevir els vostres projectes com a activitat avaluable de Moodle o bé
+            compartir-los al blog, web de centre o xarxes socials fent clic al
+            botó
+            <i class="material-icons small-icon">share</i></p>
+          <p><strong>IMPORTANT:</strong> Cada usuari es fa responsable dels fitxers publicats al seu espai de projectes.
+            Cal respectar sempre el copyright dels components gràfics, textuals o sonors emprats a les activitats. Els
+            projectes publicats en aquest espai són sempre públics i es comparteixen per defecte amb una llicència
+            <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/es/deed.ca">Creative Commons de tipus <em>by-nc-sa</em></a>.</p>
+          <p>Per a qualsevol incidència escriviu a: <a href="mailto:clic@xtec.cat">clic@xtec.cat</a></p>
+          <table class="accountInfo">
+            <tbody>
+              <tr>
+                <td>Usuari:</td>
+                <td id="fullUserName"></td>
+              </tr>
+              <tr>
+                <td>Ubicació de la biblioteca:</td>
+                <td>
+                  <a id="userLibUrl" class="code" target="_blank"></a>
+                </td>
+              </tr>
+              <tr>
+                <td>Projectes publicats:</td>
+                <td id="userNumProjects"></td>
+              </tr>
+              <tr>
+                <td>Espai de disc ocupat:</td>
+                <td><span id="usedBytes">0 MB</span> (de <span id="quota">0 MB</span> disponibles)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <button id="uploadBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Publica un projecte nou</button>
+          <button id="logoutBtn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Tanca la sessió</button>
+        </div>
+      </div>
+
+      <div id="projects"></div>
+
+    </main>
+  </div>
+
+  <dialog id="uploadDlg" class="mdl-dialog">
+    <h4 class="mdl-dialog__title">Publicació de projectes</h4>
+    <div class="mdl-dialog__content">
+      <form id="uploadForm" enctype="multipart/form-data">
+        <p>Per publicar un projecte JClic l'heu d'<strong>exportar</strong> abans al format SCORM HTML5 amb el
+          <a href="https://clic.xtec.cat/ca/jclic/download.htm" target="_blank">JClic Author</a>.<br> El fitxer
+          resultant, que porta l'extensió <span class="code">.scorm.zip</span>, és el que
+          heu de seleccionar fent clic en aquest botó:</p>
+        <p id="fileSelectBlock">
+          <label class="mdl-button mdl-js-button mdl-button--raised">
+            <input id="scormFileInput" type="file" name="scormFile" accept=".scorm.zip" style="display:none" />
+            Seleccioneu un fitxer .scorm.zip
+          </label>
+        </p>
+        <p id="fileInfoBlock" class="hidden">
+          Fitxer seleccionat: <span id="fileNameInfo">nomdelfitxer</span> <span id="fileSizeInfo">(xxx MB)</span><br>
+          <span id="fileWarn" class="warning"></span>
+        </p>
+        <p id="folderNameBlock" class="hidden">
+          <label for="projectNameInput">Directori on es publicarà el projecte: </label>
+          <input id="projectNameInput" type="text" name="project" /><br>
+          <span id="fileNameWarn" class="warning"></span><br>
+        </p>
+      </form>
+      <div id="fileUploadProgressBlock" class="hidden">
+        <p id="uploadMsg">S'està pujant el fitxer...</p>
+        <progress id="upProgress" class="mdl-progress mdl-js-progress"></progress><br>
+      </div>
+    </div>
+    <div class="mdl-dialog__actions">
+      <button id="uploadCancel" type="button" class="mdl-button close">Cancel·la</button>
+      <button id="uploadOK" type="button" class="mdl-button" disabled>Publica el projecte</button>
+    </div>
+  </dialog>
+
+  <dialog id="confirmDeleteDlg" class="mdl-dialog">
+    <h4 class="mdl-dialog__title">Eliminació del projecte "<span class="deleteName"></span>"</h4>
+    <div class="mdl-dialog__content">
+      <p>Heu sol·licitat eliminar completament el projecte "<span class="deleteName"></span>" del
+        servidor.<br><strong>ATENCIÓ: Aquesta operació no es pot desfer!</strong></p>
+      <p>Segur que voleu eliminar el projecte?</p>
+      <p id="deleteMsg" class="hidden warning"></p>
+    </div>
+    <div class="mdl-dialog__actions">
+      <button id="deleteCancel" type="button" class="mdl-button close">Cancel·la l'operació</button>
+      <button id="deleteOK" type="button" class="mdl-button" disabled>Elimina el projecte</button>
+    </div>
+  </dialog>
+
+  <dialog id="shareDlg" class="mdl-dialog">
+    <h4 class="mdl-dialog__title">Comparteix <span id="shareDlgTitle"></span></h4>
+    <div class="mdl-dialog__content">
+      <div class="mdl-cell mdl-shadow--2dp shareItem">
+        <label for="directLink">Enllaç directe a les activitats:</label>
+        <div class="copyInput">
+          <input class="shareText" id="directLink"></input>
+          <button id="linkTextCopy" class="mdl-button mdl-js-button mdl-button--icon"
+            title="Copia-ho al porta-retalls"><i class="material-icons">content_copy</i></button>
+        </div>
+        <div class="shareButtons">
+          <!-- Share buttons from: https://codepen.io/brandonhimpfen/pen/EjpMEZ -->
+          <!-- Twitter -->
+          <a id="shTwitter" title="Comparteix a Twitter" target="_blank">
+            <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet">
+              <g>
+                <path
+                  d="M17.71,9.33C17.64,13.95 14.69,17.11 10.28,17.31C8.46,17.39 7.15,16.81 6,16.08C7.34,16.29 9,15.76 9.9,15C8.58,14.86 7.81,14.19 7.44,13.12C7.82,13.18 8.22,13.16 8.58,13.09C7.39,12.69 6.54,11.95 6.5,10.41C6.83,10.57 7.18,10.71 7.64,10.74C6.75,10.23 6.1,8.38 6.85,7.16C8.17,8.61 9.76,9.79 12.37,9.95C11.71,7.15 15.42,5.63 16.97,7.5C17.63,7.38 18.16,7.14 18.68,6.86C18.47,7.5 18.06,7.97 17.56,8.33C18.1,8.26 18.59,8.13 19,7.92C18.75,8.45 18.19,8.93 17.71,9.33M20,2H4A2,2 0 0,0 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" />
+              </g>
+            </svg>
+          </a>
+          <!-- Facebook -->
+          <a id="shFacebook" title="Comparteix a Facebook" target="_blank">
+            <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet">
+              <g>
+                <path d="M19,4V7H17A1,1 0 0,0 16,8V10H19V13H16V20H13V13H11V10H13V7.5C13,5.56 14.57,4 16.5,4M20,2H4A2,2 0 0,0 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" />
+              </g>
+            </svg>
+          </a>
+          <!-- Google+ -->
+          <a id="shGoogle" title="Comparteix a Google+" target="_blank">
+            <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet">
+              <g>
+                <path d="M20,2A2,2 0 0,1 22,4V20A2,2 0 0,1 20,22H4A2,2 0 0,1 2,20V4C2,2.89 2.9,2 4,2H20M20,12H18V10H17V12H15V13H17V15H18V13H20V12M9,11.29V13H11.86C11.71,13.71 11,15.14 9,15.14C7.29,15.14 5.93,13.71 5.93,12C5.93,10.29 7.29,8.86 9,8.86C10,8.86 10.64,9.29 11,9.64L12.36,8.36C11.5,7.5 10.36,7 9,7C6.21,7 4,9.21 4,12C4,14.79 6.21,17 9,17C11.86,17 13.79,15 13.79,12.14C13.79,11.79 13.79,11.57 13.71,11.29H9Z" />
+              </g>
+            </svg>
+          </a>
+          <!-- Pinterest -->
+          <a id="shPinterest" title="Comparteix a Pinterest" target="_blank">
+            <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet">
+              <g>
+                <path d="M13,16.2C12.2,16.2 11.43,15.86 10.88,15.28L9.93,18.5L9.86,18.69L9.83,18.67C9.64,19 9.29,19.2 8.9,19.2C8.29,19.2 7.8,18.71 7.8,18.1C7.8,18.05 7.81,18 7.81,17.95H7.8L7.85,17.77L9.7,12.21C9.7,12.21 9.5,11.59 9.5,10.73C9.5,9 10.42,8.5 11.16,8.5C11.91,8.5 12.58,8.76 12.58,9.81C12.58,11.15 11.69,11.84 11.69,12.81C11.69,13.55 12.29,14.16 13.03,14.16C15.37,14.16 16.2,12.4 16.2,10.75C16.2,8.57 14.32,6.8 12,6.8C9.68,6.8 7.8,8.57 7.8,10.75C7.8,11.42 8,12.09 8.34,12.68C8.43,12.84 8.5,13 8.5,13.2A1,1 0 0,1 7.5,14.2C7.13,14.2 6.79,14 6.62,13.7C6.08,12.81 5.8,11.79 5.8,10.75C5.8,7.47 8.58,4.8 12,4.8C15.42,4.8 18.2,7.47 18.2,10.75C18.2,13.37 16.57,16.2 13,16.2M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" />
+              </g>
+            </svg>
+          </a>
+          <!-- eMail -->
+          <a id="shEmail" title="Comparteix amb un missatge de correu" target="_blank">
+            <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet">
+              <g>
+                <path d="M 4 2 C 2.895 2 2 2.895 2 4 L 2 20 C 2 21.105 2.895 22 4 22 L 20 22 C 21.105 22 22 21.105 22 20 L 22 4 C 22 2.89 21.1 2 20 2 L 4 2 z M 6.664 6.941 L 17.635 6.941 C 18.389 6.941 19.008 7.498 19.008 8.176 L 19.008 15.574 C 19.008 16.252 18.389 16.807 17.635 16.807 L 6.664 16.807 C 5.910 16.807 5.293 16.252 5.293 15.574 L 5.301 8.176 C 5.301 7.498 5.910 6.941 6.664 6.941 z M 6.664 8.176 L 6.664 9.408 L 12.150 12.490 L 17.635 9.408 L 17.635 8.176 L 12.150 11.258 L 6.664 8.176 z" />
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="mdl-cell mdl-shadow--2dp shareItem">
+        <label for="embedCode">Codi per incrustar les activitats en un blog o pàgina web:</label>
+        <div class="copyInput">
+          <input class="shareText" id="embedCode"></input>
+          <button id="embedCodeCopy" class="mdl-button mdl-js-button mdl-button--icon"
+            title="Copia-ho al porta-retalls"><i class="material-icons">content_copy</i></button>
+        </div>
+      </div>
+      <div class="mdl-cell mdl-shadow--2dp shareItem">
+        <svg id="moodleLogo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 261 70" overflow="visible">
+          <radialGradient id="a" cx="138.243" cy="48.093" r="123.335" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#faaf40" />
+            <stop offset=".043" stop-color="#f9a538" />
+            <stop offset=".112" stop-color="#f89d31" />
+            <stop offset=".227" stop-color="#f89a2f" />
+            <stop offset=".528" stop-color="#f7922d" />
+            <stop offset="1" stop-color="#f37b28" />
+          </radialGradient>
+          <path d="M62.4 65.2V42.4c0-4.8-2-7.2-5.9-7.2-3.9 0-5.9 2.4-5.9 7.2v22.8H38.9V42.4c0-4.8-1.9-7.2-5.8-7.2s-5.9 2.4-5.9 7.2v22.8H15.6V41.1c0-5 1.7-8.7 5.2-11.3 3-2.3 7.2-3.4 12.3-3.4 5.3 0 9.1 1.3 11.6 4 2.1-2.7 6-4 11.7-4 5.2 0 9.3 1.1 12.3 3.4 3.5 2.6 5.2 6.3 5.2 11.3v24.2H62.4z" fill="url(#a)" />
+          <radialGradient id="b" cx="138.243" cy="48.093" r="123.335" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#faaf40" />
+            <stop offset=".043" stop-color="#f9a538" />
+            <stop offset=".112" stop-color="#f89d31" />
+            <stop offset=".227" stop-color="#f89a2f" />
+            <stop offset=".528" stop-color="#f7922d" />
+            <stop offset="1" stop-color="#f37b28" />
+          </radialGradient>
+          <path d="M96 66.2c-5.9 0-10.7-1.9-14.6-5.6-3.8-3.7-5.8-8.5-5.8-14.4s1.9-10.7 5.8-14.4c3.8-3.7 8.7-5.6 14.6-5.6s10.8 1.9 14.6 5.6c3.9 3.7 5.8 8.5 5.8 14.4s-1.9 10.7-5.8 14.4c-3.9 3.7-8.8 5.6-14.6 5.6zm0-30.7c-2.8 0-5 1.1-6.5 3.2s-2.3 4.6-2.3 7.6c0 2.9.7 5.4 2.1 7.4 1.6 2.3 3.8 3.4 6.6 3.4s5-1.1 6.6-3.4c1.5-2 2.2-4.5 2.2-7.4 0-2.9-.7-5.4-2.1-7.4-1.5-2.3-3.8-3.4-6.6-3.4z" fill="url(#b)" />
+          <radialGradient id="c" cx="138.243" cy="48.093" r="123.335" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#faaf40" />
+            <stop offset=".043" stop-color="#f9a538" />
+            <stop offset=".112" stop-color="#f89d31" />
+            <stop offset=".227" stop-color="#f89a2f" />
+            <stop offset=".528" stop-color="#f7922d" />
+            <stop offset="1" stop-color="#f37b28" />
+          </radialGradient>
+          <path d="M138 66.2c-5.9 0-10.7-1.9-14.6-5.6-3.8-3.7-5.8-8.5-5.8-14.4s1.9-10.7 5.8-14.4c3.8-3.7 8.7-5.6 14.6-5.6s10.8 1.9 14.6 5.6c3.9 3.7 5.8 8.5 5.8 14.4s-1.9 10.7-5.8 14.4c-3.9 3.7-8.8 5.6-14.6 5.6zm0-30.7c-2.8 0-5 1.1-6.5 3.2s-2.3 4.6-2.3 7.6c0 2.9.7 5.4 2.1 7.4 1.6 2.3 3.8 3.4 6.6 3.4s5-1.1 6.6-3.4c1.5-2 2.2-4.5 2.2-7.4 0-2.9-.7-5.4-2.1-7.4-1.5-2.3-3.8-3.4-6.6-3.4z" fill="url(#c)" />
+          <radialGradient id="d" cx="138.243" cy="48.093" r="123.336" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#faaf40" />
+            <stop offset=".043" stop-color="#f9a538" />
+            <stop offset=".112" stop-color="#f89d31" />
+            <stop offset=".227" stop-color="#f89a2f" />
+            <stop offset=".528" stop-color="#f7922d" />
+            <stop offset="1" stop-color="#f37b28" />
+          </radialGradient>
+          <path d="M189.8 65.1v-3.8c-1 1.4-2.8 2.5-5.3 3.3-2.2.8-4.3 1.1-6.3 1.1-5.5 0-10-1.9-13.3-5.7-3.4-3.8-5-8.5-5-14.1 0-5.5 1.6-10.2 4.9-13.9 3.3-3.7 7.7-5.6 13.1-5.6 6.2 0 10.1 1.7 11.9 5V0h11.3v65.1h-11.3zm0-21.6c0-2.1-1-4.1-3-6-2-1.9-4-2.9-6.1-2.9-3 0-5.3 1.2-7.1 3.6-1.5 2.1-2.3 4.8-2.3 7.9 0 3 .8 5.6 2.3 7.8 1.7 2.5 4.1 3.7 7.1 3.7 1.8 0 3.7-.8 5.9-2.5 2.1-1.7 3.2-3.4 3.2-5.2v-6.4z" fill="url(#d)" />
+          <radialGradient id="e" cx="138.244" cy="48.093" r="123.334" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#faaf40" />
+            <stop offset=".043" stop-color="#f9a538" />
+            <stop offset=".112" stop-color="#f89d31" />
+            <stop offset=".227" stop-color="#f89a2f" />
+            <stop offset=".528" stop-color="#f7922d" />
+            <stop offset="1" stop-color="#f37b28" />
+          </radialGradient>
+          <path d="M205.2 65.1V0h11.6v65.1h-11.6z" fill="url(#e)" />
+          <radialGradient id="f" cx="138.243" cy="48.093" r="123.335" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#faaf40" />
+            <stop offset=".043" stop-color="#f9a538" />
+            <stop offset=".112" stop-color="#f89d31" />
+            <stop offset=".227" stop-color="#f89a2f" />
+            <stop offset=".528" stop-color="#f7922d" />
+            <stop offset="1" stop-color="#f37b28" />
+          </radialGradient>
+          <path d="M230.7 49.7c.5 2.4 1.7 4.4 3.5 6.1 1.9 1.7 3.9 2.6 6.2 2.6 1.6 0 3.3-.4 5.2-1.2 2.3-1 3.4-2.1 3.4-3.4l12.2-.1c-1.7 4.1-4.7 7.3-8.8 9.5-3.9 2.1-8.1 3.2-12.8 3.2-5.9 0-10.9-1.9-14.8-5.5-3.9-3.7-5.9-8.5-5.9-14.5 0-6.2 2-11 5.9-14.7 3.9-3.6 9-5.4 15.2-5.4 6.8 0 12.1 2.2 15.9 6.7 3.5 4.1 5.3 9.7 5.3 16.7h-30.5zm19-7.2c-.5-2.5-1.5-4.5-3.1-6.1-1.8-1.7-3.9-2.6-6.2-2.6-2.4 0-4.4.8-6.1 2.5-1.6 1.7-2.7 3.7-3.3 6.2h18.7z" fill="url(#f)" />
+          <path d="M16.7 32.2l-1.2 6c11 3.7 21.4.1 26.9-9.5-8.1-5.6-15.6.1-25.7 3.5" fill="#58595b" />
+          <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="15.588" y1="31.877" x2="41.849" y2="31.877">
+            <stop offset="0" stop-color="#929497" />
+            <stop offset=".124" stop-color="#757578" />
+            <stop offset=".279" stop-color="#575658" />
+            <stop offset=".44" stop-color="#403e3f" />
+            <stop offset=".609" stop-color="#302d2e" />
+            <stop offset=".788" stop-color="#262223" />
+            <stop offset="1" stop-color="#231f20" />
+          </linearGradient>
+          <path d="M16.7 30.7c-.4 2.3-.7 4.5-1.1 6.8 10.5 3.6 20.8.5 26.3-8.9-7-8.1-14.8-1.4-25.2 2.1" fill="url(#g)" />
+          <linearGradient id="h" gradientUnits="userSpaceOnUse" x1="20.619" y1="23.111" x2="31.522" y2="38.683">
+            <stop offset="0" stop-color="#231f20" />
+            <stop offset="1" stop-color="#231f20" stop-opacity="0" />
+          </linearGradient>
+          <path d="M29.2 33.4c-4.8-1-10 1.5-13.6 4.1-2.3-16.8 8.1-16.4 21.7-12.2-.9 4.1-2.4 9.6-5 12.9-.1-2.2-1.1-3.7-3.1-4.8" fill="url(#h)" />
+          <linearGradient id="i" gradientUnits="userSpaceOnUse" x1="1.167" y1="23.588" x2="49.166" y2="23.588">
+            <stop offset="0" stop-color="#929497" />
+            <stop offset=".124" stop-color="#757578" />
+            <stop offset=".279" stop-color="#575658" />
+            <stop offset=".44" stop-color="#403e3f" />
+            <stop offset=".609" stop-color="#302d2e" />
+            <stop offset=".788" stop-color="#262223" />
+            <stop offset="1" stop-color="#231f20" />
+          </linearGradient>
+          <path d="M1.2 30.7c17.6-10.6 27.5-12.6 48-14.7-23.8 18.8-24.4 14.7-48 14.7" fill="url(#i)" />
+          <path fill="#383738" stroke="#4a4a4c" stroke-width=".5" d="M49.2 16.1L30.3 29.8" />
+          <path d="M26.7 23.4c.2 2.2-.3-2.1 0 0" opacity=".23" fill="#231f20" />
+          <path fill="#FFF" stroke="#a8abad" stroke-width=".5" d="M1.2 30.7l29.1-.9" />
+          <path d="M24.9 23.6c-5 1.4-21.4 5-21.6 7.1-.5 3.9-.1 10.1-.1 10.1" fill="none" stroke="#f16922" stroke-width=".5" />
+          <path d="M4.7 55.7C2.9 51.2.7 46.2 3.3 40 5 45.8 4.7 50.2 4.7 55.7" fill="#f16922" />
+          <ellipse transform="rotate(-19.61 24.19 23.28)" cx="24.2" cy="23.3" rx=".8" ry=".4" fill="#6d6e70" />
+        </svg>
+        <label for="moodleLink">Enllaç a utilitzar en el mòdul de JClic per a Moodle:</label>
+        <div class="copyInput">
+          <input class="shareText" id="moodleLink"></input>
+          <button id="moodleLinkCopy" class="mdl-button mdl-js-button mdl-button--icon" title="Copia-ho al porta-retalls"><i class="material-icons">content_copy</i></button>
+        </div>
+      </div>
+    </div>
+    <div class="mdl-dialog__actions">
+      <button id="closeShareDlg" type="button" class="mdl-button close">Tanca</button>
+    </div>
+    <div id="copy-toast" class="mdl-js-snackbar mdl-snackbar">
+      <div class="mdl-snackbar__text"></div>
+      <button class="mdl-snackbar__action" type="button"></button>
+    </div>
+  </dialog>
+
+</body>
+
+</html>
