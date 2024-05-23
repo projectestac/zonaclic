@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <title>Biblioteca personal de projectes JClic</title>
   <script>
-    const lang = navigator.language.startsWith('ca') ? 'ca' : navigator.language.startsWith('es') ? 'es' : 'en';
+    const lang = navigator.language.startsWith('ca') ? 'ca' : navigator.language.startsWith('es') ? 'es' : navigator.language.startsWith('en') ? 'en' : 'ca';
     const newURL = `https://projectes.xtec.cat/clic/${lang}/users/`;
     const redirect = () => window.location.replace(newURL);
     redirect();

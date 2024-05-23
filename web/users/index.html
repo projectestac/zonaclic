@@ -17,7 +17,7 @@
       }
     }
     const act = searchParams.get('act');
-    const lang = navigator.language.startsWith('ca') ? 'ca' : navigator.language.startsWith('es') ? 'es' : 'en';
+    const lang = navigator.language.startsWith('ca') ? 'ca' : navigator.language.startsWith('es') ? 'es' : navigator.language.startsWith('en') ? 'en' : 'ca';
     const newURL = `https://projectes.xtec.cat/clic/${lang}/repo/${user ? `?user=${user}${act ? `&prj=${act}` : ''}` : ''}`;
     const redirect = () => window.location.replace(newURL);
     redirect();

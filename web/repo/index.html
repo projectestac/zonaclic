@@ -6,7 +6,7 @@
   <title>Biblioteca de projectes JClic</title>
   <script>
     const searchParams = new URLSearchParams(window.location.search);
-    const lang = searchParams.get('lang') || navigator.language.startsWith('ca') ? 'ca' : navigator.language.startsWith('es') ? 'es' : 'en';
+    const lang = searchParams.get('lang') || navigator.language.startsWith('ca') ? 'ca' : navigator.language.startsWith('es') ? 'es' : navigator.language.startsWith('en') ? 'en' : 'ca';
     const buildParam = (name) => {
       const value = searchParams.get(name);
       return value ? `&${name}=${encodeURIComponent(value)}` : '';
