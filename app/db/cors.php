@@ -29,7 +29,7 @@ function allowOriginHeader()
     // Check against valid origins and set headers (see VALID_ORIGINS in config.php)
     if (in_array($httpOrigin, VALID_ORIGINS)) {
         header('Access-Control-Allow-Credentials: true');
-        header("Access-Control-Allow-Origin: ${httpOrigin}");
+        header("Access-Control-Allow-Origin: {$httpOrigin}");
         header('Vary: Origin');
     }
 }
