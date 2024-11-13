@@ -7,14 +7,23 @@
   <script>
     const searchParams = new URLSearchParams(window.location.search);
     const lang = searchParams.get('lang') || navigator.language.startsWith('ca') ? 'ca' : navigator.language.startsWith('es') ? 'es' : navigator.language.startsWith('en') ? 'en' : 'ca';
+    let amp = '';
     const buildParam = (name) => {
       const value = searchParams.get(name);
-      return value ? `&${name}=${encodeURIComponent(value)}` : '';
-    }    
+      const result = value ? `${amp}${name}=${encodeURIComponent(value)}` : '';
+      if (!amp)
+        amp = value ? '&' : '';
+      return result;
+    }
     const title = searchParams.get('title');
     const author = searchParams.get('author');
-    const textParam = title || author ? `&text=${encodeURIComponent(`${title || ''} ${author || ''}`.trim())}` : '';
-    const newURL = `https://projectes.xtec.cat/clic/${lang}/repo/?${buildParam('language')}${buildParam('prj')}${buildParam('subject')}${buildParam('level')}${buildParam('subject')}${textParam}`;
+    const buildTextParam = () => {
+      const result = title || author ? `${amp}text=${encodeURIComponent(`${title || ''} ${author || ''}`.trim())}` : '';
+      if (!amp)
+        amp = result ? '&' : '';
+      return result;
+    }
+    const newURL = `https://projectes.xtec.cat/clic/${lang}/repo/?${buildParam('language')}${buildParam('prj')}${buildParam('subject')}${buildParam('level')}${buildParam('subject')}${buildTextParam()}`;
     const redirect = () => window.location.replace(newURL);
     redirect();
   </script>
