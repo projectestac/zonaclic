@@ -1,0 +1,101 @@
+{
+  "id": 1552,
+  "title": "Agudas, llanas y esdrújulas (Discapacidad visual baja visión)",
+  "author": "Francisco García-Pozuelo Díaz i Juana Rello Serrano",
+  "school": "CP Luis Vives Alcalá de Henares (Madrid)",
+  "date": "10/11/10",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, ortografia",
+    "es": "lengua castellana, ortografía",
+    "en": "Spanish language, spelling"
+  },
+  "descCodes": [
+    132,
+    146
+  ],
+  "description": {
+    "en": "Set of activities about orthography, the accentuation and the differences between the oxytones, paroxytones and proparoxytones words.\n<p> It is adapted for low vision impaired children. </p>",
+    "ca": "Conjunt d'activitats d'ortografia per a treballar l'accentuació i les diferències entre les paraules agudes, planes i esdrúixoles.\n<p> Adaptat per discapacitat visual baixa visió. </p>",
+    "es": "Conjunto de actividades de ortografía para trabajar la acentuación y las diferencias entre las palabras agudas, llanas y esdrújulas.\n<p> Adaptado para discapacidad visual baja visión. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "agudas"
+  ],
+  "mainFile": "jclic.js/agudasdv.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/agudasdv.jclic.zip",
+  "instFile": "jclic/agudasdv.jclic.inst",
+  "clicZoneId": 3277,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3277",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/agudasdv/jclic/agudasdv.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 26,
+  "mediaFiles": 18,
+  "totalSize": 315824,
+  "files": [
+    "cover.jpg",
+    "jclic.js/agudasdv.jclic",
+    "jclic.js/bear_vb.gif",
+    "jclic.js/bee_vb.gif",
+    "jclic.js/beetle_vt.gif",
+    "jclic.js/caballero.gif",
+    "jclic.js/cat_vt.gif",
+    "jclic.js/cat_wb.gif",
+    "jclic.js/caterpillar_vb.gif",
+    "jclic.js/chicken_vb.gif",
+    "jclic.js/cow_vb.gif",
+    "jclic.js/crab_vb.gif",
+    "jclic.js/crocodile_vb.gif",
+    "jclic.js/deer_vb.gif",
+    "jclic.js/dolphin_wb.gif",
+    "jclic.js/duck_vb.gif",
+    "jclic.js/elephant_vb.gif",
+    "jclic.js/mariposa.gif",
+    "jclic.js/squirrel_vb.gif",
+    "jclic.js/supermercado.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/agudasdv.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

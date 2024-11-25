@@ -1,0 +1,125 @@
+{
+  "id": 2303,
+  "title": "Recursos de geometria (Descobrim els polígons amb la Muca i en Buba!)",
+  "author": "Mónica Cano Lorente",
+  "date": "16/10/13",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geometria",
+    "es": "geometría",
+    "en": "geometry"
+  },
+  "descCodes": [
+    708
+  ],
+  "description": {
+    "en": "Two project of Jclic activities about geometry addressed to primary education: \n<ul> \n <li>Descobrim els polígons amb la Muca i en Buba! (plane figures). </li>\n <li>La Muca ens explica la geometria (angles and straights). </li>\n</ul>",
+    "ca": "Dos projectes d'activitats JCLic de geometria adreçats a cicle mitjà d'eduació primària: \n<ul> \n <li>Descobrim els polígons amb la Muca i en Buba! (figures planes). </li>\n <li>La Muca ens explica la geometria (angles i rectes). </li>\n</ul>",
+    "es": "Dos proyectos de actividades Jclic sobre geometría dirigidos a ciclo medio de educación primaria: \n<ul> \n <li>Descobrim els polígons amb la Muca i en Buba! (figuras planas). </li>\n <li>La Muca ens explica la geometria (ángulos y rectas). </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "ang_rec"
+  ],
+  "mainFile": "jclic.js/fig_plan.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fig_plan.jclic.zip",
+  "instFile": "jclic/fig_plan.jclic.inst",
+  "clicZoneId": 3814,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3814",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fig_plan/jclic/fig_plan.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 44,
+  "totalSize": 3308125,
+  "files": [
+    "cover.png",
+    "jclic.js/0_resized.jpg",
+    "jclic.js/10.c.jpg",
+    "jclic.js/10h.jpg",
+    "jclic.js/10p.jpg",
+    "jclic.js/10t.jpg",
+    "jclic.js/1aa.jpg",
+    "jclic.js/2013_05_13_12.04.56_resized.jpg",
+    "jclic.js/2_resized.jpg",
+    "jclic.js/3_resized.jpg",
+    "jclic.js/92092913_resized1.jpg",
+    "jclic.js/a.........jpg",
+    "jclic.js/a.......jpg",
+    "jclic.js/a.....jpg",
+    "jclic.js/a...jpg",
+    "jclic.js/a..jpg",
+    "jclic.js/a.jpg",
+    "jclic.js/anillo.jpg",
+    "jclic.js/circumferencia.jpg",
+    "jclic.js/comedor.jpg",
+    "jclic.js/correcto.wav",
+    "jclic.js/fig_plan.jclic",
+    "jclic.js/habitacio_muca.jpg",
+    "jclic.js/hexagon.jpg",
+    "jclic.js/hexagono_resized.jpg",
+    "jclic.js/incorrecto.mp3",
+    "jclic.js/mosquito1.wav",
+    "jclic.js/pentagon.jpg",
+    "jclic.js/pentagono.jpg",
+    "jclic.js/puzle_final_resized.jpg",
+    "jclic.js/quadrilater.jpg",
+    "jclic.js/triangle.jpg",
+    "jclic.js/triangle_equilater__3__resized.jpg",
+    "jclic.js/triangle_equilater__4__resized.jpg",
+    "jclic.js/triangle_equilater__5__resized.jpg",
+    "jclic.js/triangle_equilater__6__resized.jpg",
+    "jclic.js/z1._resized.jpg",
+    "jclic.js/z1_resized.jpg",
+    "jclic.js/z2._resized.jpg",
+    "jclic.js/z2_resized.jpg",
+    "jclic.js/z3_resized.jpg",
+    "jclic.js/z4_resized.jpg",
+    "jclic.js/z5_resized.jpg",
+    "jclic.js/z6._resized.jpg",
+    "jclic.js/z6_resized.jpg",
+    "jclic.js/z_3.4.5.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fig_plan.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

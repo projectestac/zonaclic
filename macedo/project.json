@@ -1,0 +1,120 @@
+{
+  "id": 905,
+  "title": "Fem una macedònia?",
+  "author": "Candelaria Mingorance Martín",
+  "school": "Escola Can Vidalet Esplugues de Llobregat (Baix Llobregat)",
+  "date": "16/12/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales",
+    "en": "Experimental sciences"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aliments, arbres",
+    "es": "alimentos, árboles",
+    "en": "foods, trees"
+  },
+  "descCodes": [
+    49,
+    55
+  ],
+  "description": {
+    "en": "Package of activities about the indirect observation of the fruits looking at the fruit trees and fruit salad.",
+    "ca": "Paquet d'activitats que té com a objectiu principal l'observació indirecta de les fruites que es fan servir per fer la macedònia i dels arbres d'on provenen.\n<br> Al final del paquet també trobem la recepta per fer aquestes postres.",
+    "es": "Paquete de actividades que tiene como objetivo principal la observación indirecta de las frutas que se utilizan para hacer la macedonia y de los árboles de donde proceden.\n<br> Al final del paquete también encontramos la receta para hacer este postre."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/macedo.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/macedo.jclic.zip",
+  "instFile": "jclic/macedo.jclic.inst",
+  "clicZoneId": 2019,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2019",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/macedo/jclic/macedo.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 40,
+  "totalSize": 2153949,
+  "files": [
+    "cover.gif",
+    "jclic.js/can__.wav",
+    "jclic.js/cirer.wav",
+    "jclic.js/cirerer.jpg",
+    "jclic.js/cireres.gif",
+    "jclic.js/cireres1.gif",
+    "jclic.js/cireres2.wav",
+    "jclic.js/cireres3.gif",
+    "jclic.js/fi.jpg",
+    "jclic.js/fruite_1.gif",
+    "jclic.js/kiwi.gif",
+    "jclic.js/kiwi2.wav",
+    "jclic.js/kiwi3.gif",
+    "jclic.js/macedo.jclic",
+    "jclic.js/madu.gif",
+    "jclic.js/madu.wav",
+    "jclic.js/madu3.gif",
+    "jclic.js/pera1.gif",
+    "jclic.js/pera2.wav",
+    "jclic.js/pera3.gif",
+    "jclic.js/perer.wav",
+    "jclic.js/perera.jpg",
+    "jclic.js/platans2.wav",
+    "jclic.js/platans3.gif",
+    "jclic.js/poma1.gif",
+    "jclic.js/poma2.wav",
+    "jclic.js/poma3.gif",
+    "jclic.js/pomer.wav",
+    "jclic.js/pomera.jpg",
+    "jclic.js/pressec1.gif",
+    "jclic.js/pressec2.wav",
+    "jclic.js/pressec3.gif",
+    "jclic.js/presseg.jpg",
+    "jclic.js/presser.wav",
+    "jclic.js/raim2.wav",
+    "jclic.js/raim3.gif",
+    "jclic.js/tapa1.gif",
+    "jclic.js/taroer.wav",
+    "jclic.js/tarong.jpg",
+    "jclic.js/taronja1.gif",
+    "jclic.js/taronja2.wav",
+    "jclic.js/taronja3.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/macedo.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

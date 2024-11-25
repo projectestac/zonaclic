@@ -1,0 +1,122 @@
+{
+  "id": 457,
+  "title": "La acentuación",
+  "author": "Manuel Catalán",
+  "school": "Escuela Estela Segura Puente Alto (Xile)",
+  "date": "23/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, ortografia",
+    "es": "lengua castellana, ortografía",
+    "en": "Spanish language, spelling"
+  },
+  "descCodes": [
+    132,
+    146
+  ],
+  "description": {
+    "en": "Clic activities destined to learn Spanish language. The activity has only one package where we learn the different kinds of words in Spanish: \n<ul> \n <li>oxytones </li>\n <li>paroxytones </li>\n <li>proparoxytones </li>\n</ul> \n<p> It is adapted for low vision impaired children. </p>",
+    "ca": "Paquet d'activitats per treballar l'accentuació en Llengua Castellana. L'activitat té un sol paquet on es treballen els diferents tipus de paraules segons la síl·laba tònica: \n<ul> \n <li>agudes </li>\n <li>planes </li>\n <li>esdrúixoles \n  <ul> \n   <p> Adaptat per discapacitat visual baixa visió. </p>\n  </ul></li>\n</ul>",
+    "es": "Paquete de actividades para trabajar la acentuación en Lengua Castellana. La actividad tiene un solo paquete dónde se trabajan los diferentes tipos de palabras según la sílaba tónica: \n<ul> \n <li>agudas </li>\n <li>graves </li>\n <li>esdrújulas </li>\n</ul> \n<p> Adaptado para discapacidad visual baja visión. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "acen2_dv"
+  ],
+  "mainFile": "jclic.js/acento2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/acento2.jclic.zip",
+  "instFile": "jclic/acento2.jclic.inst",
+  "clicZoneId": 1280,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1280",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/acento2/jclic/acento2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 33,
+  "mediaFiles": 39,
+  "totalSize": 275667,
+  "files": [
+    "cover.gif",
+    "jclic.js/acento2.jclic",
+    "jclic.js/avion.gif",
+    "jclic.js/barco.gif",
+    "jclic.js/bufalo.gif",
+    "jclic.js/buho.gif",
+    "jclic.js/bus.gif",
+    "jclic.js/camion.gif",
+    "jclic.js/caracol.gif",
+    "jclic.js/castor.gif",
+    "jclic.js/coliflor.gif",
+    "jclic.js/delfin.gif",
+    "jclic.js/dragon.gif",
+    "jclic.js/erizo.gif",
+    "jclic.js/fin.gif",
+    "jclic.js/fosforo.gif",
+    "jclic.js/gallo.gif",
+    "jclic.js/globo.gif",
+    "jclic.js/hipo.gif",
+    "jclic.js/inicio.gif",
+    "jclic.js/jirafa.gif",
+    "jclic.js/leon.gif",
+    "jclic.js/limon.gif",
+    "jclic.js/manzana.gif",
+    "jclic.js/mapache.gif",
+    "jclic.js/murci.gif",
+    "jclic.js/payaso.gif",
+    "jclic.js/pimenton.gif",
+    "jclic.js/pinguino.gif",
+    "jclic.js/platano.gif",
+    "jclic.js/raton.gif",
+    "jclic.js/romp3.jpg",
+    "jclic.js/rompe1.gif",
+    "jclic.js/rompe2.gif",
+    "jclic.js/sandia.gif",
+    "jclic.js/tambor.gif",
+    "jclic.js/taxi.gif",
+    "jclic.js/tiburon.gif",
+    "jclic.js/tren.gif",
+    "jclic.js/uva.gif",
+    "jclic.js/volcan.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/acento2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

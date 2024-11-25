@@ -1,0 +1,140 @@
+{
+  "id": 1481,
+  "title": "La Granada",
+  "author": "Francesc Figueras Tutusaus",
+  "school": "Escola Jacint Verdaguer La Granada (Alt Penedès)",
+  "date": "14/10/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "Alt Penedès, La Granada",
+    "es": "Alt Penedès, La Granada",
+    "en": "Alt Penedès, La Granada"
+  },
+  "descCodes": [
+    454,
+    1344
+  ],
+  "description": {
+    "en": "Clic activities about La Granada, a town in Catalonia. The package has 7 parts: \n<ul> \n <li>places </li>\n <li>the train station </li>\n <li>our region </li>\n <li>maps and planes </li>\n <li>from la Granada to Universe </li>\n <li>history and celebrities </li>\n <li>miscellaneous </li>\n</ul>",
+    "ca": "Diferents activitats relacionades amb la població de La Granada i la seva comarca. Hi ha set apartats \n<ul> \n <li>llocs de la Granada </li>\n <li>l'estació del tren </li>\n <li>la nostra comarca </li>\n <li>mapes i plànols </li>\n <li>de la Granada fins l'Univers </li>\n <li>història i personatges </li>\n <li>olla barrejada </li>\n</ul>",
+    "es": "Diferentes actividades relacionadas con la población de La Granada y su comarca. Hay siete apartados: \n<ul> \n <li>lugares de la Granada </li>\n <li>la estación del tren </li>\n <li>nuestra comarca </li>\n <li>mapas y planos </li>\n <li>de la Granada al Universo </li>\n <li>historia y personajes </li>\n <li>de todo un poco </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/lgranada.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/lgranada.jclic.zip",
+  "instFile": "jclic/lgranada.jclic.inst",
+  "clicZoneId": 3193,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3193",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/lgranada/jclic/lgranada.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 94,
+  "mediaFiles": 46,
+  "totalSize": 3219210,
+  "files": [
+    "cover.jpg",
+    "jclic.js/altpened/altpened.jclic",
+    "jclic.js/altpened/escuts.gif",
+    "jclic.js/altpened/limitcat.gif",
+    "jclic.js/altpened/mapaaltp.gif",
+    "jclic.js/histpers/histpers.jclic",
+    "jclic.js/histpers/lletres.gif",
+    "jclic.js/histpers/persona.gif",
+    "jclic.js/histpers/persona1.gif",
+    "jclic.js/histpers/persona2.gif",
+    "jclic.js/histpers/persona3.gif",
+    "jclic.js/indexz.gif",
+    "jclic.js/lagranad/ajuntame.gif",
+    "jclic.js/lagranad/lagranad.jclic",
+    "jclic.js/lagranad/llocs.gif",
+    "jclic.js/lagranad/llocs1.gif",
+    "jclic.js/lagranad/llocs2.gif",
+    "jclic.js/lagranad/llocs4.gif",
+    "jclic.js/lagranad/nuvols.gif",
+    "jclic.js/lagrauni/altpene1.gif",
+    "jclic.js/lagrauni/altpened.gif",
+    "jclic.js/lagrauni/catalun.gif",
+    "jclic.js/lagrauni/catalun1.gif",
+    "jclic.js/lagrauni/espanya.gif",
+    "jclic.js/lagrauni/espanya1.gif",
+    "jclic.js/lagrauni/europa.gif",
+    "jclic.js/lagrauni/europa1.gif",
+    "jclic.js/lagrauni/lagrauni.jclic",
+    "jclic.js/lagrauni/mundo.gif",
+    "jclic.js/lagrauni/planogr1.gif",
+    "jclic.js/lagrauni/planogr2.gif",
+    "jclic.js/lagrauni/ssolar.gif",
+    "jclic.js/lagrauni/tierra.gif",
+    "jclic.js/lagrauni/universo.gif",
+    "jclic.js/lgranada.jclic",
+    "jclic.js/mapaplan/1.gif",
+    "jclic.js/mapaplan/2.gif",
+    "jclic.js/mapaplan/3.gif",
+    "jclic.js/mapaplan/limits.gif",
+    "jclic.js/mapaplan/limits1.gif",
+    "jclic.js/mapaplan/mapaplan.jclic",
+    "jclic.js/mapaplan/planogra.gif",
+    "jclic.js/ollabar/campfutb.gif",
+    "jclic.js/ollabar/fesmajor.gif",
+    "jclic.js/ollabar/gegants.gif",
+    "jclic.js/ollabar/granada.gif",
+    "jclic.js/ollabar/negocis.gif",
+    "jclic.js/ollabar/nuvols.gif",
+    "jclic.js/ollabar/ollabar.jclic",
+    "jclic.js/portada.gif",
+    "jclic.js/trens/cercle.gif",
+    "jclic.js/trens/esttren.gif",
+    "jclic.js/trens/esttren2.gif",
+    "jclic.js/trens/platren.gif",
+    "jclic.js/trens/trens.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/lgranada.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/altpened/altpened.jclic.js",
+    "jclic.js/histpers/histpers.jclic.js",
+    "jclic.js/lagranad/lagranad.jclic.js",
+    "jclic.js/lagrauni/lagrauni.jclic.js",
+    "jclic.js/mapaplan/mapaplan.jclic.js",
+    "jclic.js/ollabar/ollabar.jclic.js",
+    "jclic.js/trens/trens.jclic.js",
+    "cover.webp"
+  ]
+}

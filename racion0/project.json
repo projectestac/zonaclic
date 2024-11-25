@@ -1,0 +1,124 @@
+{
+  "id": 578,
+  "title": "Activitats amb nombres racionals",
+  "author": "Innocent De Marchi",
+  "school": "IES Albuhaira Mallorca (Balears)",
+  "date": "25/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "càlcul",
+    "es": "cálculo",
+    "en": "calculation"
+  },
+  "descCodes": [
+    702
+  ],
+  "description": {
+    "en": "Activity pack about rational numbers and their fractions. The exercises try to inculcate on the student the basics for the understanding of fractions. The exercises go from the simplest graphic-text to the more complex associations and cross-words (numbers!) where the calculations are done both horizontally and vertically.",
+    "ca": "Paquet d'activitats sobre els nombres racionals i les fraccions. Els exercicis van des de les simples associacions entre gràfics i textos fins a exemples complexes com els mots encreuats de nombres que s'han de resoldre amb operacions horitzontals i verticals.",
+    "es": "Paquete de actividades sobre los números racionales y las fracciones. Los ejercicios intentan llevar al estudiante a obtener un conocimiento básico sobre las fracciones y sus partes. Los ejercicios van desde las simples asociaciones grafico-textuales a ejemplos complejos como los crucigramas de números donde las operaciones son a la vez horizontales y verticales."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "espraci0"
+  ],
+  "mainFile": "jclic.js/racion0.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/racion0.jclic.zip",
+  "instFile": "jclic/racion0.jclic.inst",
+  "clicZoneId": 1319,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1319",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/racion0/jclic/racion0.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 45,
+  "mediaFiles": 42,
+  "totalSize": 324677,
+  "files": [
+    "cover.gif",
+    "jclic.js/cinc10.gif",
+    "jclic.js/cinc6.gif",
+    "jclic.js/cinc7.gif",
+    "jclic.js/cinc8.gif",
+    "jclic.js/cinc9.gif",
+    "jclic.js/dos2.gif",
+    "jclic.js/dos3.gif",
+    "jclic.js/dos4.gif",
+    "jclic.js/dos5.gif",
+    "jclic.js/dos6.gif",
+    "jclic.js/dos8.gif",
+    "jclic.js/genial.gif",
+    "jclic.js/girafes.gif",
+    "jclic.js/lleo.gif",
+    "jclic.js/moto.gif",
+    "jclic.js/multicre.gif",
+    "jclic.js/pirata.gif",
+    "jclic.js/quatre10.gif",
+    "jclic.js/quatre5.gif",
+    "jclic.js/quatre6.gif",
+    "jclic.js/quatre7.gif",
+    "jclic.js/quatre8.gif",
+    "jclic.js/racion0.jclic",
+    "jclic.js/set10.gif",
+    "jclic.js/set8.gif",
+    "jclic.js/sis10.gif",
+    "jclic.js/sis6.gif",
+    "jclic.js/sis7.gif",
+    "jclic.js/sis8.gif",
+    "jclic.js/sis9.gif",
+    "jclic.js/tres10.gif",
+    "jclic.js/tres4.gif",
+    "jclic.js/tres5.gif",
+    "jclic.js/tres6.gif",
+    "jclic.js/tres8.gif",
+    "jclic.js/tres9.gif",
+    "jclic.js/un10.gif",
+    "jclic.js/un2.gif",
+    "jclic.js/un3.gif",
+    "jclic.js/un4.gif",
+    "jclic.js/un6.gif",
+    "jclic.js/un8.gif",
+    "jclic.js/vuit10.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/racion0.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

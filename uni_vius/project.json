@@ -1,0 +1,83 @@
+{
+  "id": 2573,
+  "title": "Els éssers vius",
+  "author": "Pedro Miguel Gómez (autor)",
+  "school": "CEEDCV",
+  "date": "05/10/18",
+  "langCodes": [
+    "ca"
+  ],
+  "languages": {
+    "ca": "català",
+    "es": "catalán",
+    "en": "Catalan"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales",
+    "en": "Experimental sciences"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16), E.S.O. i FBPA",
+    "es": "Secundaria (12-16), E.S.O. i FBPA",
+    "en": "Secondary school (12-16), E.S.O. i FBPA"
+  },
+  "description": {
+    "ca": "Projecte dirigit a la formació de persones adultes en el graduat de secundària.\nS'hi treballen els conceptes d'ésser viu i estructura cel·lular.",
+    "es": "Proyecto dirigido a la formación de personas adultas en el graduado de secundaria.\nTrabaja los conceptos de ser vivo y estructura celular.",
+    "en": "Project aimed at the formation of adults in the high school graduate.\nContains exercises on living beings and cellular structure."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "relatedTo": [
+    "seresvivos"
+  ],
+  "cover": "portada.png",
+  "coverWebp": "portada.webp",
+  "thumbnail": "portada100.png",
+  "mainFile": "jclic.js/uni_vius.jclic",
+  "activities": 12,
+  "mediaFiles": 17,
+  "totalSize": 1785191,
+  "instFile": "jclic/uni_vius.jclic.inst",
+  "zipFile": "jclic/uni_vius.jclic.zip",
+  "files": [
+    "jclic.js/512px_bacteria_photomicrograph.jpg",
+    "jclic.js/640px_hairy_cell_leukemia_smear_2009_08_20.jpg",
+    "jclic.js/celula.jpg",
+    "jclic.js/estomas.jpg",
+    "jclic.js/favicon.ico",
+    "jclic.js/gallo_resized.jpg",
+    "jclic.js/gambas.jpg",
+    "jclic.js/hongos.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/llamantol_portada.jpg",
+    "jclic.js/llamantol_resized.jpg",
+    "jclic.js/mitosis.jpg",
+    "jclic.js/pudinga_resized.jpg",
+    "jclic.js/raw_egg.jpg",
+    "jclic.js/uni_vius.jclic",
+    "jclic.js/uni_vius.jclic.js",
+    "portada.png",
+    "portada100.png",
+    "project.json",
+    "portada.webp"
+  ]
+}

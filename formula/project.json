@@ -1,0 +1,85 @@
+{
+  "id": 1058,
+  "title": "Formulación",
+  "author": "María Luisa Sancho",
+  "school": "Colegio Enrique de Ossó Telde (Islas Canarias)",
+  "date": "13/06/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "química",
+    "es": "química",
+    "en": "chemistry"
+  },
+  "descCodes": [
+    97
+  ],
+  "description": {
+    "en": "Package of activities about inorganic chemistry addressed to higher levels of secondary school.",
+    "ca": "Paquet d'activitats sobre formulació inorgànica adreçat a 3r d'ESO: àcids, òxids, hidròxids, anhídrids, metalls, no-metalls, sals, cations, anions...",
+    "es": "Paquete de actividades sobre formulación inorgánica dirigido a 3º de ESO: ácidos, óxidos, hidróxidos, anhídridos, metales, no-metales, sales, cationes, aniones..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/formula.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/formula.jclic.zip",
+  "instFile": "jclic/formula.jclic.inst",
+  "clicZoneId": 2228,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2228",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/formula/jclic/formula.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 6,
+  "totalSize": 663076,
+  "files": [
+    "cover.gif",
+    "jclic.js/ap.wav",
+    "jclic.js/formula.jclic",
+    "jclic.js/itsonly.mid",
+    "jclic.js/nowhere.mid",
+    "jclic.js/quimica1.gif",
+    "jclic.js/sulfur_1.gif",
+    "jclic.js/test8.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/formula.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

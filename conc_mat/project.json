@@ -1,0 +1,113 @@
+{
+  "id": 2238,
+  "title": "Conceptes matemàtics",
+  "author": "Tere Bravo Balbastre",
+  "school": "Escola Rocabruna Les Borges del Camp (Baix Camp)",
+  "date": "04/04/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "espai, orientació espacial",
+    "es": "espacio, orientación espacial",
+    "en": "space, orientation in the space"
+  },
+  "descCodes": [
+    705,
+    924
+  ],
+  "description": {
+    "en": "Project of activities addressed to kindergarten about: \n<ul> \n <li>space </li>\n <li>size </li>\n <li>quantity </li>\n</ul>",
+    "ca": "Projecte d'activitats adreçat als més menuts amb activitats sobre: \n<ul> \n <li>l'espai </li>\n <li>el tamany </li>\n <li>la quantitat </li>\n</ul>",
+    "es": "Proyecto de actividades dirigido a los más pequeños sobre: \n<ul> \n <li>el espacio </li>\n <li>el tamaño </li>\n <li>la cantidad </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/conc_mat.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/conc_mat.jclic.zip",
+  "instFile": "jclic/conc_mat.jclic.inst",
+  "clicZoneId": 3757,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3757",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/conc_mat/jclic/conc_mat.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 33,
+  "totalSize": 940204,
+  "files": [
+    "cover.png",
+    "jclic.js/bonsai.jpg",
+    "jclic.js/cipres_alt.jpg",
+    "jclic.js/cireres2.jpg",
+    "jclic.js/conc_mat.jclic",
+    "jclic.js/darrere.mp3",
+    "jclic.js/davant.mp3",
+    "jclic.js/davant2_resized.jpg",
+    "jclic.js/davant3_resized.jpg",
+    "jclic.js/dins_peixera.jpg",
+    "jclic.js/dreta_resized.jpg",
+    "jclic.js/escalera_curt.jpg",
+    "jclic.js/escalera_llarg.jpg",
+    "jclic.js/esquerra_resized.jpg",
+    "jclic.js/fora.jpg",
+    "jclic.js/llapis_prim.png",
+    "jclic.js/mandarina.jpg",
+    "jclic.js/modificat_baix_tobogan_resized1.jpg",
+    "jclic.js/munecas_rusas_gran.jpg",
+    "jclic.js/munecas_rusasmija.jpg",
+    "jclic.js/munecas_rusaspetit.jpg",
+    "jclic.js/pencil_lapiz_gruixut.png",
+    "jclic.js/pezpaiaso_1.jpg",
+    "jclic.js/pezpaiaso_2.jpg",
+    "jclic.js/platano.jpg",
+    "jclic.js/pomes_s.jpg",
+    "jclic.js/rinxols_d_or.jpg",
+    "jclic.js/snt_hablando.png",
+    "jclic.js/sobre.jpg",
+    "jclic.js/sota.jpg",
+    "jclic.js/tapa_projecte.jpg",
+    "jclic.js/tren__curt_ani_.gif",
+    "jclic.js/tren_anim_curtgif.gif",
+    "jclic.js/tren_curt_anim.gif",
+    "jclic.js/trenes_llarg_animac.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/conc_mat.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

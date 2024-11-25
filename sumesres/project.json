@@ -1,0 +1,88 @@
+{
+  "id": 1934,
+  "title": "Sumes i restes",
+  "author": "Antonio Díez Roma i Joan Carles Fiol Colomar",
+  "school": "Institut Almenar Almenar (Segrià)",
+  "date": "08/07/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "càlcul, nombres odinals",
+    "es": "cálculo, números ordinales",
+    "en": "calculation, ordinal numbers"
+  },
+  "descCodes": [
+    702,
+    946
+  ],
+  "description": {
+    "en": "Project of activities addressed to firs cycle of primary education: \n<ul> \n <li>Numeration unit one hundred </li>\n <li>Sums </li>\n <li>Rests </li>\n</ul>",
+    "ca": "Projecte d'activitats per a cicle inicial on es treballen diferents qüestions matemàtiques: \n<ul> \n <li>Numeració fins al 100 </li>\n <li>Sumes </li>\n <li>Restes </li>\n</ul>",
+    "es": "Proyecto de actividades para ciclo inicial donde se trabajan diferentes cuestiones matemáticas:\n<ul> \n <li>Numeración hasta el 100 </li>\n <li>Sumas </li>\n <li>Restas </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sumesres.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sumesres.jclic.zip",
+  "instFile": "jclic/sumesres.jclic.inst",
+  "clicZoneId": 3560,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3560",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sumesres/jclic/sumesres.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 51,
+  "mediaFiles": 8,
+  "totalSize": 736488,
+  "files": [
+    "cover.jpg",
+    "jclic.js/fondoactividades.jpg",
+    "jclic.js/imagen1.jpg",
+    "jclic.js/numeros.jpg",
+    "jclic.js/restes.jpg",
+    "jclic.js/subtraction.png",
+    "jclic.js/sumando_pollitos.gif",
+    "jclic.js/sumes.jpg",
+    "jclic.js/sumesres.jclic",
+    "jclic.js/sumires.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sumesres.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

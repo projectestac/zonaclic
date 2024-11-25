@@ -1,0 +1,109 @@
+{
+  "id": 846,
+  "title": "Els Firals de Bellvís",
+  "author": "Jordi Aumedes Castells",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "cultura popular, lectura comprensiva",
+    "es": "cultura popular, lectura comprensiva",
+    "en": "popular culture, comprehensive reading"
+  },
+  "descCodes": [
+    196,
+    937
+  ],
+  "description": {
+    "en": "Clic activities about \"Els firals de Bellvís\" a popular celebration in Bellvís (Catalonia)",
+    "ca": "Paquet d'activitats sobre \"Els Firals de Bellvís\". Aquesta festa popular que es fa cap a finals de juliol a la localitat de Bellvís, i la llegenda de l'anella de cal bufalà ens serveix com a centre d'interès per treballar la lectura comprensiva al cicle superior de Primària.",
+    "es": "Paquete de actividades sobre \"Els firals de Bellvís\". Esta fiesta popular que se hace a finales de julio en la localidad de Bellvís (Lleida), nos sirve como centro de interés para trabajar la lectura comprensiva en el ciclo superior de Primaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/firals.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/firals.jclic.zip",
+  "instFile": "jclic/firals.jclic.inst",
+  "clicZoneId": 1477,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1477",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/firals/jclic/firals.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 29,
+  "totalSize": 6909824,
+  "files": [
+    "cover.jpg",
+    "jclic.js/anella.jpg",
+    "jclic.js/ballad_1.jpg",
+    "jclic.js/ballada1.jpg",
+    "jclic.js/bate1.jpg",
+    "jclic.js/bateig.jpg",
+    "jclic.js/bou.wav",
+    "jclic.js/bousfoc2.wav",
+    "jclic.js/bressol.mid",
+    "jclic.js/bufal1.jpg",
+    "jclic.js/dansa2.wav",
+    "jclic.js/danses1.jpg",
+    "jclic.js/ferriol.mid",
+    "jclic.js/firals.jclic",
+    "jclic.js/firals.wav",
+    "jclic.js/focs1.jpg",
+    "jclic.js/gegants.wav",
+    "jclic.js/joan1.jpg",
+    "jclic.js/joanim_1.jpg",
+    "jclic.js/judi1.jpg",
+    "jclic.js/judici.jpg",
+    "jclic.js/malabars2.wav",
+    "jclic.js/mozart.mid",
+    "jclic.js/nobles1.jpg",
+    "jclic.js/novena.mid",
+    "jclic.js/prote1.jpg",
+    "jclic.js/saltin.jpg",
+    "jclic.js/sol.gif",
+    "jclic.js/sorti1.jpg",
+    "jclic.js/titep.jpg",
+    "jclic.js/titol1.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/firals.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

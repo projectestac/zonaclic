@@ -1,0 +1,123 @@
+{
+  "id": 2117,
+  "title": "Bim, bam, bum... música",
+  "author": "Cristina García Cano",
+  "school": "Escola Poble Nou Pineda de Mar (Maresme)",
+  "date": "29/01/14",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la música, instrument musical",
+    "es": "aprendizaje de la música, instrumento musical",
+    "en": "learning of music, musical instrument"
+  },
+  "descCodes": [
+    717,
+    724
+  ],
+  "description": {
+    "en": "Project of activities about music education. Along the JClic we can find different type of activities like association activities, memory, puzzles and word searches about eight different instruments: cello, piano, voice, trumpet, accordion, violin, drum and guitar.",
+    "ca": "Projecte d'activitats pels més petits per a l'educació musical. Al llarg del JClic es troben activitats de relacionar, de memòria, trencaclosques i sopes de lletres sobre vuit instruments diferents: violoncel, piano, veu, trompeta, acordió, violí, tambor i guitarra.",
+    "es": "Proyecto de actividades para los más pequeños para el área de educación musical. A lo largo del JClic se encuentran actividades de relacionar, de memoria, rompecabezas y sopas de letras sobre ocho instrumentos diferentes: violonchelo, piano, voz, trompeta, acordeón, violín, tambor y guitarra."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "bim_bam"
+  ],
+  "mainFile": "jclic.js/bim_ba_eu.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/bim_ba_eu.jclic.zip",
+  "instFile": "jclic/bim_ba_eu.jclic.inst",
+  "clicZoneId": 3673,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3673",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/bim_ba_eu/jclic/bim_ba_eu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 40,
+  "totalSize": 5643281,
+  "files": [
+    "cover.gif",
+    "jclic.js/5016.gif",
+    "jclic.js/accordion.jpg",
+    "jclic.js/acordeon.mp3",
+    "jclic.js/acordio.mp3",
+    "jclic.js/bim_ba_eu.jclic",
+    "jclic.js/c12.gif",
+    "jclic.js/c6.gif",
+    "jclic.js/c7.gif",
+    "jclic.js/cello.mp3",
+    "jclic.js/cello_pa602_front_sm.jpg",
+    "jclic.js/corneta.jpg",
+    "jclic.js/corneta.mp3",
+    "jclic.js/guitarra.jpg",
+    "jclic.js/guitarra.mp3",
+    "jclic.js/guitarra_espanyola.mp3",
+    "jclic.js/images10.jpg",
+    "jclic.js/images11.jpg",
+    "jclic.js/images12.jpg",
+    "jclic.js/images14.jpg",
+    "jclic.js/images15.jpg",
+    "jclic.js/images3.jpg",
+    "jclic.js/images5.jpg",
+    "jclic.js/images6.jpg",
+    "jclic.js/images9.jpg",
+    "jclic.js/neil.mp3",
+    "jclic.js/oreja_en_trasero.jpg",
+    "jclic.js/orquestra.jpg",
+    "jclic.js/piano.jpg",
+    "jclic.js/piano.mp3",
+    "jclic.js/piano2.mp3",
+    "jclic.js/pictures_of_musical_instruments_1.jpg",
+    "jclic.js/tambor.mp3",
+    "jclic.js/tambors_militars.mp3",
+    "jclic.js/timbaler.jpg",
+    "jclic.js/trompeta.mp3",
+    "jclic.js/violi.gif",
+    "jclic.js/violi.mp3",
+    "jclic.js/violin.mp3",
+    "jclic.js/violin_concerto_in_e_mov_1.mp3",
+    "jclic.js/violon.gif",
+    "jclic.js/violoncel.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/bim_ba_eu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

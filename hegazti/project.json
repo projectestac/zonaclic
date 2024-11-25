@@ -1,0 +1,127 @@
+{
+  "id": 903,
+  "title": "Hegaztiak",
+  "author": "Llanos Navalón Yeste",
+  "date": "11/11/03",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales",
+    "en": "Experimental sciences"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "ocells, llengua francesa, llengua francesa",
+    "es": "pájaros, lengua francesa, lengua francesa",
+    "en": "birds, French language, French language"
+  },
+  "descCodes": [
+    92,
+    136,
+    669
+  ],
+  "description": {
+    "en": "Clic activities in French about the name of birds: \n<i>hibou, perroquet, moineau, pie, mouette, pigeon, hirondelle, pivert, pélican, aigle</i>.",
+    "ca": "Paquet d'activitats per a l'aprenentatge de vocabulari en llengua francesa sobre els ocells: \n<i>hibou, perroquet, moineau, pie, mouette, pigeon, hirondelle, pivert, pélican, aigle</i>.",
+    "es": "Paquete de actividades para el aprendizaje de vocabulario en lengua francesa sobre pájaros: \n<i>hibou, perroquet, moineau, pie, mouette, pigeon, hirondelle, pivert, pélican, aigle</i>."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "oiseaux"
+  ],
+  "mainFile": "jclic.js/hegazti.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/hegazti.jclic.zip",
+  "instFile": "jclic/hegazti.jclic.inst",
+  "clicZoneId": 2018,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2018",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/hegazti/jclic/hegazti.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 31,
+  "mediaFiles": 44,
+  "totalSize": 1481874,
+  "files": [
+    "cover.gif",
+    "jclic.js/aguila.jpg",
+    "jclic.js/aigle.jpg",
+    "jclic.js/aigle.wav",
+    "jclic.js/aigleb.jpg",
+    "jclic.js/buho.jpg",
+    "jclic.js/carpint.jpg",
+    "jclic.js/finoix.jpg",
+    "jclic.js/fonma.jpg",
+    "jclic.js/gaviota.jpg",
+    "jclic.js/golomar.jpg",
+    "jclic.js/gorrion.jpg",
+    "jclic.js/hegazti.jclic",
+    "jclic.js/hibou.jpg",
+    "jclic.js/hibou.wav",
+    "jclic.js/hiboub.jpg",
+    "jclic.js/hiron.jpg",
+    "jclic.js/hironb.jpg",
+    "jclic.js/hirond.wav",
+    "jclic.js/inioix.wav",
+    "jclic.js/loro.jpg",
+    "jclic.js/moineau.jpg",
+    "jclic.js/moineau.wav",
+    "jclic.js/moineaub.jpg",
+    "jclic.js/mouette.jpg",
+    "jclic.js/mouette.wav",
+    "jclic.js/mouetteb.jpg",
+    "jclic.js/palomas.jpg",
+    "jclic.js/pelican.jpg",
+    "jclic.js/pelican.wav",
+    "jclic.js/pelicanb.jpg",
+    "jclic.js/pelicano.jpg",
+    "jclic.js/perro.jpg",
+    "jclic.js/perrob.jpg",
+    "jclic.js/perroq.wav",
+    "jclic.js/pie.jpg",
+    "jclic.js/pie.wav",
+    "jclic.js/pieb.jpg",
+    "jclic.js/pigeon.jpg",
+    "jclic.js/pigeon.wav",
+    "jclic.js/pigeonb.jpg",
+    "jclic.js/pivert.jpg",
+    "jclic.js/pivert.wav",
+    "jclic.js/pivertb.jpg",
+    "jclic.js/poroix.jpg",
+    "jclic.js/urraca.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/hegazti.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

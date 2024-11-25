@@ -1,0 +1,115 @@
+{
+  "id": 5,
+  "title": "Nadal 96",
+  "author": "Miren Garralda",
+  "school": "Escola Mas Casanovas Barcelona",
+  "date": "08/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "costums i tradicions, conte, nadal",
+    "es": "costumbres y tradiciones, cuento, navidad",
+    "en": "customs and traditions, story, christmas"
+  },
+  "descCodes": [
+    191,
+    614,
+    882
+  ],
+  "description": {
+    "en": "Two Christmas stories. \n<i>L'aranya de Natzaret</i> and another about popular Christmas refrains.",
+    "ca": "Dos paquets d'activitats sobre les festes de Nadal: un sobre el conte \n<i>L'aranya de Natzaret</i> i l'altre sobre dites populars de Nadal.",
+    "es": "Dos paquetes de actividades sobre las fiestas de Navidad: una sobre el cuento \n<i>L'aranya de Natzaret</i> y otro sobre refranes populares de Navidad."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/nadal96.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/nadal96.jclic.zip",
+  "instFile": "jclic/nadal96.jclic.inst",
+  "clicZoneId": 1002,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1002",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/nadal96/jclic/nadal96.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 41,
+  "mediaFiles": 34,
+  "totalSize": 505787,
+  "files": [
+    "cover.gif",
+    "jclic.js/baltasar.gif",
+    "jclic.js/betlem1.gif",
+    "jclic.js/betlem2.gif",
+    "jclic.js/betlem3.gif",
+    "jclic.js/bonnadal.gif",
+    "jclic.js/brasa.gif",
+    "jclic.js/conte1.gif",
+    "jclic.js/conte2.gif",
+    "jclic.js/conte3.gif",
+    "jclic.js/conte4.gif",
+    "jclic.js/conte5.gif",
+    "jclic.js/conte6.gif",
+    "jclic.js/corona1.gif",
+    "jclic.js/corona2.gif",
+    "jclic.js/corona3.gif",
+    "jclic.js/corral.gif",
+    "jclic.js/dites.gif",
+    "jclic.js/dites1.gif",
+    "jclic.js/dites2.gif",
+    "jclic.js/dites3.gif",
+    "jclic.js/gaspar.gif",
+    "jclic.js/lo3reyes.gif",
+    "jclic.js/losreyes.gif",
+    "jclic.js/melchor.gif",
+    "jclic.js/nadal96.jclic",
+    "jclic.js/neunadal.gif",
+    "jclic.js/orient.gif",
+    "jclic.js/porta.gif",
+    "jclic.js/pupur2.gif",
+    "jclic.js/pupurri2.gif",
+    "jclic.js/rei1.gif",
+    "jclic.js/rei2.gif",
+    "jclic.js/rei3.gif",
+    "jclic.js/reyes.gif",
+    "jclic.js/somera.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/nadal96.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

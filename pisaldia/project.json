@@ -1,0 +1,128 @@
+{
+  "id": 657,
+  "title": "Pesa pensant",
+  "author": "Toni Miquel Mollà",
+  "school": "CP Crist de la Pau Sant Joan d'Alacant (Alacantí)",
+  "date": "29/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)",
+    "en": "Primary school (6-12), Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "càlcul, problemes matemàtics",
+    "es": "cálculo, problemas matemáticos",
+    "en": "calculation, mathematic problems"
+  },
+  "descCodes": [
+    702,
+    926
+  ],
+  "description": {
+    "en": "In this package of activities the students must deduce the weight of different objects from three situations where a certain combination of objects and weights balance the balance.",
+    "ca": "Sis paquets d'activitats on cal deduir el pes de tres objectes diferents, a partir de les pistes donades en tres situacions on una determinada combinació d'objectes i peses equilibra la balança.",
+    "es": "Seis paquetes de actividades en las que hay que deducir el peso de tres objetos distintos, a partir de las pistas dadas en tres situaciones donde una determinada combinación de objetos y pesas equilibra la balanza."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "pesaesp",
+    "pesagal",
+    "pesapens"
+  ],
+  "mainFile": "jclic.js/pisaldia.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pisaldia.jclic.zip",
+  "instFile": "jclic/pisaldia.jclic.inst",
+  "clicZoneId": 1348,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1348",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pisaldia/jclic/pisaldia.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 42,
+  "totalSize": 337788,
+  "files": [
+    "cover.gif",
+    "jclic.js/peses01a.gif",
+    "jclic.js/peses01s.gif",
+    "jclic.js/peses02a.gif",
+    "jclic.js/peses02s.gif",
+    "jclic.js/peses03a.gif",
+    "jclic.js/peses03s.gif",
+    "jclic.js/peses04a.gif",
+    "jclic.js/peses04s.gif",
+    "jclic.js/peses05a.gif",
+    "jclic.js/peses05s.gif",
+    "jclic.js/peses06a.gif",
+    "jclic.js/peses06s.gif",
+    "jclic.js/peses07a.gif",
+    "jclic.js/peses07s.gif",
+    "jclic.js/peses08a.gif",
+    "jclic.js/peses08s.gif",
+    "jclic.js/peses09a.gif",
+    "jclic.js/peses09s.gif",
+    "jclic.js/peses10a.gif",
+    "jclic.js/peses10s.gif",
+    "jclic.js/peses11a.gif",
+    "jclic.js/peses11s.gif",
+    "jclic.js/peses12a.gif",
+    "jclic.js/peses12s.gif",
+    "jclic.js/peses13a.gif",
+    "jclic.js/peses13s.gif",
+    "jclic.js/peses14a.gif",
+    "jclic.js/peses14s.gif",
+    "jclic.js/peses15a.gif",
+    "jclic.js/peses15s.gif",
+    "jclic.js/peses16a.gif",
+    "jclic.js/peses16s.gif",
+    "jclic.js/peses17a.gif",
+    "jclic.js/peses17s.gif",
+    "jclic.js/peses18a.gif",
+    "jclic.js/peses18s.gif",
+    "jclic.js/peses19a.gif",
+    "jclic.js/peses19s.gif",
+    "jclic.js/peses20a.gif",
+    "jclic.js/peses20s.gif",
+    "jclic.js/pisaldia.jclic",
+    "jclic.js/presepes.gif",
+    "jclic.js/triapesa.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pisaldia.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

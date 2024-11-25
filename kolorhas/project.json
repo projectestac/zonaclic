@@ -1,0 +1,118 @@
+{
+  "id": 1067,
+  "title": "Koloreak",
+  "author": "Aitxiber Etxarri i Santiago Palacios Navarro",
+  "school": "Euskal Herriko Unibertsitatea - EHU / UPV - Universidad del País Vasco Euzkadi",
+  "date": "16/06/03",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa",
+    "es": "lengua inglesa",
+    "en": "English language"
+  },
+  "descCodes": [
+    130
+  ],
+  "description": {
+    "en": "In this package we find the colours and its Basque's name. It's an easy package addressed to lower levels in primary school or at the end of the kindergarten. \n<br> There are 4 options: \n<ul> \n <li>Ikasi ( to learn the name of the colours) </li>\n <li>Oroimena (to train the memory by paring activities) </li>\n <li>Lotu ( association activities) </li>\n <li>Idatzi ( to train the writing) \n  <ul> \n  </ul></li>\n</ul>",
+    "ca": "En aquest paquet es treballen els colors i el seu nom en basc. És un paquet molt senzill i adreçat als nens de primer cicle d'Educació Primària o en acabar l'Educació Infantil. \n<br> Conté 4 possibles entrades: \n<ul> \n <li>Ikasi (per aprendre els noms dels colors) </li>\n <li>Oroimena (per treballar la memòria mitjançant parelles) </li>\n <li>Lotu (activitats d'associació) </li>\n <li>Idatzi (per treballar l'escriptura) </li>\n</ul>",
+    "es": "En este paquete se trabajan los colores y su nombre en eusquera. Es un paquete muy sencillo y dirigido a los niños de primer ciclo de Educación Primaria o al finalizar la Educación Infantil. \n<br> Contienen cuatro posibles entradas: \n<ul> \n <li>Ikasi (para aprender los nombres de los colores) </li>\n <li>Oroimena (para trabajar la memoria mediante parejas) </li>\n <li>Lotu (actividades de asociación) </li>\n <li>Idatzi (para trabajar la escritura) </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/kolorhas.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/kolorhas.jclic.zip",
+  "instFile": "jclic/kolorhas.jclic.inst",
+  "clicZoneId": 2245,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2245",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/kolorhas/jclic/kolorhas.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 41,
+  "mediaFiles": 38,
+  "totalSize": 375848,
+  "files": [
+    "cover.gif",
+    "jclic.js/arbelama.jpg",
+    "jclic.js/arrosale.gif",
+    "jclic.js/arrosama.jpg",
+    "jclic.js/azala.gif",
+    "jclic.js/azenma.jpg",
+    "jclic.js/bakerma.jpg",
+    "jclic.js/belama.jpg",
+    "jclic.js/beltzale.gif",
+    "jclic.js/beltzama.jpg",
+    "jclic.js/berdeale.gif",
+    "jclic.js/berdeama.jpg",
+    "jclic.js/gaztma.jpg",
+    "jclic.js/gerezma.jpg",
+    "jclic.js/gorriale.gif",
+    "jclic.js/gorriama.jpg",
+    "jclic.js/hodeiama.jpg",
+    "jclic.js/horiale.gif",
+    "jclic.js/horiama.gif",
+    "jclic.js/hostoama.jpg",
+    "jclic.js/idatzi.gif",
+    "jclic.js/ikasi.gif",
+    "jclic.js/inuama.jpg",
+    "jclic.js/itsasma.jpg",
+    "jclic.js/kolor.gif",
+    "jclic.js/kolorhas.jclic",
+    "jclic.js/larroma.jpg",
+    "jclic.js/limoiama.jpg",
+    "jclic.js/lotu.gif",
+    "jclic.js/lrnjale.gif",
+    "jclic.js/lrnjma.gif",
+    "jclic.js/lrnjzkma.jpg",
+    "jclic.js/marma.jpg",
+    "jclic.js/marrama.gif",
+    "jclic.js/marrole.gif",
+    "jclic.js/oroimena.gif",
+    "jclic.js/txitama.jpg",
+    "jclic.js/txkltma.jpg",
+    "jclic.js/urdinale.gif",
+    "jclic.js/urdinama.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/kolorhas.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": 1734,
+  "title": "El bosc a la tardor",
+  "author": "Marta Nebot Vilaseca",
+  "school": "Escola Canigó Sant Just Desvern (Baix Llobregat)",
+  "date": "05/02/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "arbres, botànica, fruits",
+    "es": "árboles, botánica, frutas",
+    "en": "trees, botany, fruits"
+  },
+  "descCodes": [
+    55,
+    59,
+    844
+  ],
+  "description": {
+    "en": "Project of JClic complementary activities about the autum. The project begins with an excursion to a nearest forest to write down the trees and the fruits. The aim of this project is to kwnow writing the most commons tree's names and it's fruits.",
+    "ca": "JClic d'activitats complementaries al projecte de treball de la tardor. El projecte comença amb una sortida al bosc on s'observen els arbres i fruits dels nostres boscos. Aquest conjunt d'activitats té els objectius de conèixer i saber escriure els noms dels arbres més característics dels nostres boscos i els seus fruits de tardor.",
+    "es": "JClic de actividades complementarias al proyecto de trabajo del otoño. El proyecto empieza con una salida al bosque donde se observan los árboles y frutos de nuestros bosques. Actividades para conocer y saber escribir los nombres de los árboles más característicos de nuestros bosques y sus frutos de otoño."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/bosc.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/bosc.jclic.zip",
+  "instFile": "jclic/bosc.jclic.inst",
+  "clicZoneId": 3436,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3436",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/bosc/jclic/bosc.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 47,
+  "mediaFiles": 36,
+  "totalSize": 2383817,
+  "files": [
+    "cover.jpg",
+    "jclic.js/agla.jpg",
+    "jclic.js/aglans.mp3",
+    "jclic.js/alzina.jpg",
+    "jclic.js/alzina.mp3",
+    "jclic.js/ametlla.mp3",
+    "jclic.js/ametller.jpg",
+    "jclic.js/ametller.mp3",
+    "jclic.js/ametlles.jpg",
+    "jclic.js/bosc.jclic",
+    "jclic.js/castana.jpg",
+    "jclic.js/castanya.mp3",
+    "jclic.js/castanyer.jpg",
+    "jclic.js/castanyer.mp3",
+    "jclic.js/cireres.jpg",
+    "jclic.js/fulles.jpg",
+    "jclic.js/fullesalzina.jpg",
+    "jclic.js/fullespi.jpg",
+    "jclic.js/garrofa.jpg",
+    "jclic.js/garrofa.mp3",
+    "jclic.js/garrofer.jpg",
+    "jclic.js/garrofer.mp3",
+    "jclic.js/noguera.jpg",
+    "jclic.js/noguera.mp3",
+    "jclic.js/nou.mp3",
+    "jclic.js/nueces.jpg",
+    "jclic.js/pi.jpg",
+    "jclic.js/pi.mp3",
+    "jclic.js/pinones1.jpg",
+    "jclic.js/pinya.jpg",
+    "jclic.js/pinya.mp3",
+    "jclic.js/pinyons.gif",
+    "jclic.js/platan.jpg",
+    "jclic.js/poma.jpg",
+    "jclic.js/tardor.jpg",
+    "jclic.js/xiprer.jpg",
+    "jclic.js/xiprer.mp3",
+    "jclic.js/xiprerfulla.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/bosc.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

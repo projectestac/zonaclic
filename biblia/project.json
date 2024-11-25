@@ -1,0 +1,95 @@
+{
+  "id": 89,
+  "title": "La Bíblia",
+  "author": "David González Martínez",
+  "school": "Escola Pau Casals Rubí (Vallès Occidental)",
+  "date": "09/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "La bíblia",
+    "es": "La biblia",
+    "en": "The bible"
+  },
+  "descCodes": [
+    947
+  ],
+  "description": {
+    "en": "Clic activities about The Bible: \n<ul> \n <li>formation </li>\n <li>authors </li>\n <li>literary styles </li>\n <li>subdivisions </li>\n <li>abbreviations </li>\n <li>citation... </li>\n</ul>",
+    "ca": "En aquest paquet d'activitats es treballa l'origen i l'estructura de la Bíblia: \n<ul> \n <li>formació </li>\n <li>autors </li>\n <li>estils literaris </li>\n <li>subdivisions </li>\n <li>abreviatures </li>\n <li>citació... </li>\n</ul>",
+    "es": "En este paquete de actividades se trabaja el origen y la estructura de la Biblia: \n<ul> \n <li>formación </li>\n <li>autores </li>\n <li>estilos literarios </li>\n <li>subdivisiones </li>\n <li>abreviaturas </li>\n <li>citación... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/biblia.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/biblia.jclic.zip",
+  "instFile": "jclic/biblia.jclic.inst",
+  "clicZoneId": 1042,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1042",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/biblia/jclic/biblia.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 15,
+  "totalSize": 628623,
+  "files": [
+    "cover.jpg",
+    "jclic.js/autors.gif",
+    "jclic.js/biblia.jclic",
+    "jclic.js/biblos.gif",
+    "jclic.js/cita.gif",
+    "jclic.js/contra.gif",
+    "jclic.js/forma1.gif",
+    "jclic.js/forma2.gif",
+    "jclic.js/forma3.gif",
+    "jclic.js/forma4.gif",
+    "jclic.js/papir1.gif",
+    "jclic.js/papir2.gif",
+    "jclic.js/papir3.gif",
+    "jclic.js/papir4.gif",
+    "jclic.js/papir5.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/text.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/biblia.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

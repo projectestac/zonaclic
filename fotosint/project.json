@@ -1,0 +1,103 @@
+{
+  "id": 2415,
+  "title": "La fotosíntesis",
+  "author": "Marian Riquelme Toledo",
+  "date": "12/11/15",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "biologia, botànica, plantes, vocabulari",
+    "es": "biología, botánica, plantas, vocabulario",
+    "en": "biology, botany, plants, vocabulary"
+  },
+  "descCodes": [
+    58,
+    59,
+    96,
+    150
+  ],
+  "description": {
+    "en": "In these activities is to make a review about the process of photosynthesis and plant reproduction.",
+    "ca": "En aquestes activitats es pretén fer un repàs sobre el procés de la fotosíntesi i de la reproducció de les plantes.",
+    "es": "En estas actividades se pretende hacer un repaso acerca del proceso de la fotosíntesis y de la reproducción de las plantas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/fotosint.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fotosint.jclic.zip",
+  "instFile": "jclic/fotosint.jclic.inst",
+  "clicZoneId": 3923,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3923",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fotosint/jclic/fotosint.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 22,
+  "totalSize": 939002,
+  "files": [
+    "cover.png",
+    "jclic.js/11740712_plantas_agricolas_en_el_campo_con_la_luz_del_sol.jpg",
+    "jclic.js/aguaimage003.jpg",
+    "jclic.js/bruta.jpg",
+    "jclic.js/cagada.mp3",
+    "jclic.js/caliz.jpg",
+    "jclic.js/corola.gif",
+    "jclic.js/corola.jpg",
+    "jclic.js/dioxido_de_carbono.jpg",
+    "jclic.js/elaborada.jpg",
+    "jclic.js/estambre.jpg",
+    "jclic.js/estambres2.jpg",
+    "jclic.js/formula_de_oxigeno__resized.jpg",
+    "jclic.js/fotosint.jclic",
+    "jclic.js/fotosintesis.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/ovulos.jpg",
+    "jclic.js/partes_flor.gif",
+    "jclic.js/petalos_resized.jpg",
+    "jclic.js/polen.jpg",
+    "jclic.js/polen2.jpg",
+    "jclic.js/raiz.gif",
+    "jclic.js/risa_de_pajaro_loco.mp3",
+    "jclic.js/sales_minerales.jpg",
+    "jclic.js/sepalos.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fotosint.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

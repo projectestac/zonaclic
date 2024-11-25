@@ -1,0 +1,106 @@
+{
+  "id": 832,
+  "title": "Euskadi (euskaraz)",
+  "author": "Blanca Besga",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia, País Basc",
+    "es": "geografía, País Vasco",
+    "en": "geography, Basque Country"
+  },
+  "descCodes": [
+    235,
+    544
+  ],
+  "description": {
+    "en": "Clic activities about the Basque Country: mountains, rivers, cities, etc.",
+    "ca": "Aquest paquet d'activitats està indicat per a alumnes del 2on i 3er cicles de primària. Treballa la geografia del País Basc (muntanyes, rius, ciutats...) partint de la seva localització en el globus de la terra. Tota l'activitat s'ha realitzat utilitzant coneguts personatges per a fer més agradable la seva utilització a l'alumnat a qui va dirigit.",
+    "es": "Esta actividad está indicada para el alumnado de 2º y 3º ciclo de primaria. Trabaja la geografía del País Vasco (montes, ríos, ciudades...) partiendo de su localización en el globo terráqueo. Toda la actividad se ha realizado utilizando conocidos personajes para hacer más agradable su utilización al alumnado al que va dirigido"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "paisvasc"
+  ],
+  "mainFile": "jclic.js/euskadi.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/euskadi.jclic.zip",
+  "instFile": "jclic/euskadi.jclic.inst",
+  "clicZoneId": 1464,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1464",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/euskadi/jclic/euskadi.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 24,
+  "totalSize": 1648930,
+  "files": [
+    "cover.gif",
+    "jclic.js/basepan1.jpg",
+    "jclic.js/bastie1.jpg",
+    "jclic.js/bastie2.jpg",
+    "jclic.js/bastie3.jpg",
+    "jclic.js/bastie4.jpg",
+    "jclic.js/bastie5.jpg",
+    "jclic.js/bien.wav",
+    "jclic.js/estre.gif",
+    "jclic.js/euskadi.jclic",
+    "jclic.js/fonciu.gif",
+    "jclic.js/fondark.jpg",
+    "jclic.js/fonfinal.gif",
+    "jclic.js/fonmaest.jpg",
+    "jclic.js/fonmonte.jpg",
+    "jclic.js/fonnav01.jpg",
+    "jclic.js/fonnav02.jpg",
+    "jclic.js/fonnav03.jpg",
+    "jclic.js/fonrios.jpg",
+    "jclic.js/mal.wav",
+    "jclic.js/mappolit.gif",
+    "jclic.js/pvciumud.jpg",
+    "jclic.js/pvciunom.jpg",
+    "jclic.js/pvmonmud.jpg",
+    "jclic.js/pvriomud.jpg",
+    "jclic.js/swintro.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/euskadi.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": 290,
+  "title": "Lectura comprensiva: El futbol",
+  "author": "David Beltrán Dumont i M. Núria Torrents Gallés",
+  "school": "Escola Baró de Viver Barcelona",
+  "date": "15/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, llengua catalana, esports",
+    "es": "lengua castellana, lengua catalana, deportes",
+    "en": "Spanish language, Catalan language, sports"
+  },
+  "descCodes": [
+    132,
+    133,
+    424
+  ],
+  "description": {
+    "en": "Activity pack that centres on football to help stimulate the student's reading habits, as well as a practice ground for reading comprehension exercises.",
+    "ca": "Conjunt d'activitats que pren el tema del futbol (jugadors, equips, reglament...) com a centre d'interès per a estimular la lectura i plantejar exercicis de comprensió dels textos.\n<br> El paquet és una continuació de les \n<a href=\"act34.htm\">activitats de lectura comprensiva</a>, dels mateixos autors.",
+    "es": "Conjunto de actividades que toma el fútbol (jugadores, equipos, reglamento...) como centro de interés para estimular la lectura y plantear ejercicios de comprensión de los textos.\n<br> El paquete es una continuación de las \n<a href=\"act34.htm\">actividades de lectura comprensiva</a>, de los mismos autores."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "futboles"
+  ],
+  "mainFile": "jclic.js/futbol.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/futbol.jclic.zip",
+  "instFile": "jclic/futbol.jclic.inst",
+  "clicZoneId": 1156,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1156",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/futbol/jclic/futbol.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 41,
+  "totalSize": 1130994,
+  "files": [
+    "cover.jpg",
+    "jclic.js/arbitre.gif",
+    "jclic.js/banqueta.gif",
+    "jclic.js/bar_a.gif",
+    "jclic.js/bar_a1.wav",
+    "jclic.js/basket.gif",
+    "jclic.js/bilbao.gif",
+    "jclic.js/camp.gif",
+    "jclic.js/cuenta.avi",
+    "jclic.js/entre.gif",
+    "jclic.js/escut1.gif",
+    "jclic.js/espanyol.gif",
+    "jclic.js/figura1.gif",
+    "jclic.js/figura2.gif",
+    "jclic.js/figura3.gif",
+    "jclic.js/fjugador.gif",
+    "jclic.js/frase1.gif",
+    "jclic.js/futbol.gif",
+    "jclic.js/futbol.jclic",
+    "jclic.js/imatge1.gif",
+    "jclic.js/imatge6.gif",
+    "jclic.js/imatge7.gif",
+    "jclic.js/jugador1.gif",
+    "jclic.js/mallorca.gif",
+    "jclic.js/music.wav",
+    "jclic.js/nfinal.gif",
+    "jclic.js/pilota.gif",
+    "jclic.js/porter.gif",
+    "jclic.js/realsoc.gif",
+    "jclic.js/rmadrid.gif",
+    "jclic.js/s1.gif",
+    "jclic.js/s2.gif",
+    "jclic.js/s3.gif",
+    "jclic.js/s4.gif",
+    "jclic.js/silueta1.gif",
+    "jclic.js/silueta2.gif",
+    "jclic.js/silueta3.gif",
+    "jclic.js/tapa.gif",
+    "jclic.js/tapaf.gif",
+    "jclic.js/tennis.gif",
+    "jclic.js/valencia.gif",
+    "jclic.js/volei.gif",
+    "jclic.js/xiulet.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/futbol.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": 410,
+  "title": "Foods and clothes",
+  "author": "Domingo Méndez",
+  "school": "Colegio Jaime Balmes Cieza (Murcia)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, vocabulari",
+    "es": "lengua inglesa, vocabulario",
+    "en": "English language, vocabulary"
+  },
+  "descCodes": [
+    667,
+    673
+  ],
+  "description": {
+    "en": "English activities about the vocabulary related to foods and clothes.",
+    "ca": "En aquest paquet d'activitats de llengua anglesa per a 4t de primària, es treballa vocabulari relacionat amb els aliments i les peces de roba, així com l'expressió de les hores en anglès. \n<br> Per a més informació visiteu la web del \n<a href=\"http://www.cieza.net/educacion/jbalmes\">C.P. Jaime Balmes</a>.",
+    "es": "En este paquete de actividades de lengua inglesa para 4º de primaria se trabaja vocabulario relacionado con los alimentos y las prendas de vestir, así como la expresión de las horas en inglés. \n<br> Para más información visitad la web del \n<a href=\"http://www.cieza.net/education/jbalmes\">C.P. Jaime Balmes</a>."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/foods.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/foods.jclic.zip",
+  "instFile": "jclic/foods.jclic.inst",
+  "clicZoneId": 1237,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1237",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/foods/jclic/foods.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 30,
+  "totalSize": 533208,
+  "files": [
+    "cover.gif",
+    "jclic.js/cena.gif",
+    "jclic.js/cereales.gif",
+    "jclic.js/chica.gif",
+    "jclic.js/chico.gif",
+    "jclic.js/comida.gif",
+    "jclic.js/comilona.jpg",
+    "jclic.js/desayuno.gif",
+    "jclic.js/el.gif",
+    "jclic.js/ella.gif",
+    "jclic.js/ensalada.gif",
+    "jclic.js/foods.jclic",
+    "jclic.js/foto.jpg",
+    "jclic.js/fotot.txt",
+    "jclic.js/huevo.gif",
+    "jclic.js/lascuatr.gif",
+    "jclic.js/lasdiez.gif",
+    "jclic.js/lasdoce.gif",
+    "jclic.js/lasocho.gif",
+    "jclic.js/lasseis.gif",
+    "jclic.js/lastres.gif",
+    "jclic.js/leche.gif",
+    "jclic.js/mision_imposible.mid",
+    "jclic.js/naranja.gif",
+    "jclic.js/pan.gif",
+    "jclic.js/pareja.gif",
+    "jclic.js/patatas.gif",
+    "jclic.js/perrito.gif",
+    "jclic.js/pollo.gif",
+    "jclic.js/sopa.gif",
+    "jclic.js/testsnd.mid",
+    "jclic.js/titulo1.jpg",
+    "jclic.js/zumo.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/foods.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

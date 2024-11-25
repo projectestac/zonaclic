@@ -1,0 +1,135 @@
+{
+  "id": 1740,
+  "title": "Our pets",
+  "author": "Leonor A. Fernández González",
+  "school": "CP Asturias Gijón (Asturias)",
+  "date": "18/02/08",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa",
+    "es": "lengua inglesa",
+    "en": "English language"
+  },
+  "descCodes": [
+    130
+  ],
+  "description": {
+    "en": "Project of activities about pets: vocabulary, descriptions and riddles. This project is based on a unit of the book \n<i>Galaxy 4</i> of Oxford Publishing house.",
+    "ca": "Projecte d'activitats sobre els animals domèstics: vocabulari, descripcions i endevinalles. Aquest projecte serveix per ampliar el tema de les mascotes que apareix com a contingut del llibre de text \n<i>Galaxy 4</i> de l'editorial Oxford.",
+    "es": "Proyecto de actividades sobre las mascotas: vocabulario, descripciones y adivinanzas. Este proyecto sirve para ampliar el tema de las mascotas que figura como contenido en el libro de texto \n<i>Galaxy 4</i> de la editorial Oxford."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/pets.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pets.jclic.zip",
+  "instFile": "jclic/pets.jclic.inst",
+  "clicZoneId": 3442,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3442",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pets/jclic/pets.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 56,
+  "totalSize": 1663603,
+  "files": [
+    "cover.jpg",
+    "jclic.js/altavoz.gif",
+    "jclic.js/big.mp3",
+    "jclic.js/big1.jpg",
+    "jclic.js/big_dog.mp3",
+    "jclic.js/camaleon.mp3",
+    "jclic.js/camaleon0.jpg",
+    "jclic.js/cat.jpg",
+    "jclic.js/cat.mp3",
+    "jclic.js/cerdo0.jpg",
+    "jclic.js/conejo.jpg",
+    "jclic.js/conejo4.jpg",
+    "jclic.js/curly.mp3",
+    "jclic.js/curly1.jpg",
+    "jclic.js/curly_tail.mp3",
+    "jclic.js/dog.mp3",
+    "jclic.js/f__pets_sonidos_thin.mp3",
+    "jclic.js/fat.mp3",
+    "jclic.js/fat1.jpg",
+    "jclic.js/fat_dog.mp3",
+    "jclic.js/goldfish.mp3",
+    "jclic.js/goldfish4.jpg",
+    "jclic.js/hamster.mp3",
+    "jclic.js/hamster0.jpg",
+    "jclic.js/hamster4.jpg",
+    "jclic.js/interrogacion.gif",
+    "jclic.js/little.mp3",
+    "jclic.js/little1.jpg",
+    "jclic.js/little_dog.mp3",
+    "jclic.js/long.mp3",
+    "jclic.js/long1.jpg",
+    "jclic.js/long_tail.mp3",
+    "jclic.js/mascota1.jpg",
+    "jclic.js/mora2.jpg",
+    "jclic.js/mouse.mp3",
+    "jclic.js/parrot.mp3",
+    "jclic.js/parrot4.jpg",
+    "jclic.js/perro2.jpg",
+    "jclic.js/perro4.jpg",
+    "jclic.js/pets.jclic",
+    "jclic.js/pig.mp3",
+    "jclic.js/pig_description.mp3",
+    "jclic.js/rabbit.mp3",
+    "jclic.js/rat0.jpg",
+    "jclic.js/rat1.mp3",
+    "jclic.js/raton4.jpg",
+    "jclic.js/short.mp3",
+    "jclic.js/short1.jpg",
+    "jclic.js/short_tail.mp3",
+    "jclic.js/snake.jpg",
+    "jclic.js/snake.mp3",
+    "jclic.js/straight.mp3",
+    "jclic.js/straight1.jpg",
+    "jclic.js/straight_tail.mp3",
+    "jclic.js/thin1.jpg",
+    "jclic.js/thin_dog.mp3",
+    "jclic.js/tortoise.mp3",
+    "jclic.js/tortoise0.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pets.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

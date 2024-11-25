@@ -1,0 +1,108 @@
+{
+  "id": 2392,
+  "title": "Els vikings",
+  "author": "M. Rosa Vilaró Morato",
+  "school": "C Casals-Gràcia Manlleu (Osona)",
+  "date": "03/09/15",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "història, història antiga",
+    "es": "historia, historia antigua",
+    "en": "history, old history"
+  },
+  "descCodes": [
+    246,
+    247
+  ],
+  "description": {
+    "en": "Package of activities related to the Vikings: puzzles, memory, sorting letters to build words, scrambled letters...",
+    "ca": "Paquet d'activitats relacionades amb els víkings: trencaclosques, activitats de memòria, d'ordenar lletres per trobar paraules, sopa de lletres.",
+    "es": "Paquete de actividades relacionadas con los vikingos: rompecabezas, memory, ordenar letras para encontrar palabras, sopa de letras..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/vikings.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/vikings.jclic.zip",
+  "instFile": "jclic/vikings.jclic.inst",
+  "clicZoneId": 3899,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3899",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/vikings/jclic/vikings.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 28,
+  "totalSize": 1060023,
+  "files": [
+    "cover.png",
+    "jclic.js/71523.jpg",
+    "jclic.js/754813.jpg",
+    "jclic.js/81b9a6af324469da9227e51e5662feee.jpg",
+    "jclic.js/casa.gif",
+    "jclic.js/casc.jpg",
+    "jclic.js/collaret.jpg",
+    "jclic.js/cuerno.jpg",
+    "jclic.js/drakar.jpg",
+    "jclic.js/escut_viking__1__resized.jpg",
+    "jclic.js/espada_caballero_estrella.jpg",
+    "jclic.js/fax.gif",
+    "jclic.js/gorm.gif",
+    "jclic.js/halvar.gif",
+    "jclic.js/hum7pv__1_.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/ilva.gif",
+    "jclic.js/lvi.gif",
+    "jclic.js/portada.jpg",
+    "jclic.js/snorre.gif",
+    "jclic.js/tejure.gif",
+    "jclic.js/teler2.jpg",
+    "jclic.js/ulme.gif",
+    "jclic.js/urobe.gif",
+    "jclic.js/vaixell.gif",
+    "jclic.js/vicky_01.jpg",
+    "jclic.js/vikings.jclic",
+    "jclic.js/wallpaper_vicky_el_vikingo2_resized.jpg",
+    "jclic.js/wickie.gif",
+    "jclic.js/wickie_ausmalbild_von_studio_100_resized.jpg",
+    "jclic.js/wood_runes.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/vikings.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

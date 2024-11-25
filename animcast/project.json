@@ -1,0 +1,132 @@
+{
+  "id": 7,
+  "title": "Trencaclosques d'animals (es - con sonidos)",
+  "author": "Pilar Codina Laso",
+  "school": "Escola Francesc Burniol Argentona (Maresme)",
+  "date": "15/05/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Diversos",
+    "es": "Diversos",
+    "en": "Miscellaneous"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)",
+    "en": "Kindergarten (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "zoologia",
+    "es": "zoología",
+    "en": "zoology"
+  },
+  "descCodes": [
+    108
+  ],
+  "description": {
+    "en": "Animal puzzles of 4, 6, 12 pieces addressed to kindergarten in order to help them to use the mouse.",
+    "ca": "Trencaclosques d'animals de 4, 6 i 12 peces adreçats a nens i nenes d'Educació Infantil que comencen a fer us del ratolí i de CI que els poden utilitzar com a racó lúdic.",
+    "es": "Rompecabezas de animales de 4, 6 y 12 piezas dirigidos a alumnos de educación infantil que empiezan a utilizar el ratón del ordenador, y para ser utilizado como rincón lúdico en el ciclo inicial de primaria. Algunos dibujos pierden calidad a 16 colores, por lo que es recomendable trabajar a 256."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "animals",
+    "animeus"
+  ],
+  "mainFile": "jclic.js/animcast.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/animcast.jclic.zip",
+  "instFile": "jclic/animcast.jclic.inst",
+  "clicZoneId": 1003,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1003",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/animcast/jclic/animcast.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 49,
+  "totalSize": 3374858,
+  "files": [
+    "cover.gif",
+    "jclic.js/animcast.jclic",
+    "jclic.js/balena.gif",
+    "jclic.js/ball2.wav",
+    "jclic.js/ballena.wav",
+    "jclic.js/boing1.wav",
+    "jclic.js/boing3.wav",
+    "jclic.js/camel.gif",
+    "jclic.js/camello.wav",
+    "jclic.js/caracol.wav",
+    "jclic.js/cargol.gif",
+    "jclic.js/coco.wav",
+    "jclic.js/cocodril.gif",
+    "jclic.js/elefant.gif",
+    "jclic.js/elefante.wav",
+    "jclic.js/foca.gif",
+    "jclic.js/foca.wav",
+    "jclic.js/fx9.wav",
+    "jclic.js/gato.wav",
+    "jclic.js/gfx1.wav",
+    "jclic.js/gfx2.wav",
+    "jclic.js/gfx3.wav",
+    "jclic.js/gfx4.wav",
+    "jclic.js/jugar.wav",
+    "jclic.js/laser.wav",
+    "jclic.js/leon.wav",
+    "jclic.js/lleo.gif",
+    "jclic.js/marieta.gif",
+    "jclic.js/mariposa.wav",
+    "jclic.js/mariqui.wav",
+    "jclic.js/misi.gif",
+    "jclic.js/music.wav",
+    "jclic.js/os.gif",
+    "jclic.js/oso.wav",
+    "jclic.js/panda.gif",
+    "jclic.js/panda.wav",
+    "jclic.js/papallo.gif",
+    "jclic.js/pingui.gif",
+    "jclic.js/pinguino.wav",
+    "jclic.js/pop.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/pulpo.wav",
+    "jclic.js/ratoli.gif",
+    "jclic.js/raton.wav",
+    "jclic.js/samba.wav",
+    "jclic.js/slither.wav",
+    "jclic.js/tortuga.gif",
+    "jclic.js/tortuga.wav",
+    "jclic.js/toucan.gif",
+    "jclic.js/tucan.wav",
+    "jclic.js/verde.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/animcast.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": 1192,
+  "title": "Computación 5 años",
+  "author": "Juan Manuel Pacherre Rodríguez",
+  "school": "Colegio Inglés Nuevo Mundo Lima (Perú)",
+  "date": "16/11/04",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la tecnologia, informàtica",
+    "es": "aprendizaje de la tecnología, informática",
+    "en": "learning of the technology, computer science"
+  },
+  "descCodes": [
+    728,
+    737
+  ],
+  "description": {
+    "en": "Clic activities destined to infantile education about computers.",
+    "ca": "Activitats per a educació infantil sobre les parts de l'ordinador.",
+    "es": "Actividades para educación infantil sobre las partes del ordenador."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/inforinf.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/inforinf.jclic.zip",
+  "instFile": "jclic/inforinf.jclic.inst",
+  "clicZoneId": 2780,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2780",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/inforinf/jclic/inforinf.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 29,
+  "mediaFiles": 58,
+  "totalSize": 1081358,
+  "files": [
+    "cover.gif",
+    "jclic.js/ai.gif",
+    "jclic.js/buena.gif",
+    "jclic.js/cpu14.gif",
+    "jclic.js/cpu25.gif",
+    "jclic.js/cpu26.gif",
+    "jclic.js/cpu27.gif",
+    "jclic.js/cpus.gif",
+    "jclic.js/cpuss.gif",
+    "jclic.js/cpuss20.gif",
+    "jclic.js/fondo90.gif",
+    "jclic.js/fondo95.gif",
+    "jclic.js/fondo97.gif",
+    "jclic.js/impreso1.gif",
+    "jclic.js/inforinf.jclic",
+    "jclic.js/logoxp.gif",
+    "jclic.js/logoxp1.gif",
+    "jclic.js/monit1.gif",
+    "jclic.js/monit3.gif",
+    "jclic.js/monit5.gif",
+    "jclic.js/monit6.gif",
+    "jclic.js/monit8.gif",
+    "jclic.js/monit800.gif",
+    "jclic.js/mouse.gif",
+    "jclic.js/mouse21.gif",
+    "jclic.js/mouse22.gif",
+    "jclic.js/mouse23.gif",
+    "jclic.js/mouse26.gif",
+    "jclic.js/mouse29.gif",
+    "jclic.js/mouse36.gif",
+    "jclic.js/mouse38.gif",
+    "jclic.js/mouses.gif",
+    "jclic.js/muybien.wav",
+    "jclic.js/nopense.mid",
+    "jclic.js/pantas.gif",
+    "jclic.js/parla1.gif",
+    "jclic.js/parla2.gif",
+    "jclic.js/parla3.gif",
+    "jclic.js/parla4.gif",
+    "jclic.js/parla5.gif",
+    "jclic.js/parlan4.gif",
+    "jclic.js/parlas.gif",
+    "jclic.js/parlas60.gif",
+    "jclic.js/print1.gif",
+    "jclic.js/print10.gif",
+    "jclic.js/print2.gif",
+    "jclic.js/print3.gif",
+    "jclic.js/print4.gif",
+    "jclic.js/print5.gif",
+    "jclic.js/print500.gif",
+    "jclic.js/print6.gif",
+    "jclic.js/tecla2.gif",
+    "jclic.js/tecla3.gif",
+    "jclic.js/tecla300.gif",
+    "jclic.js/tecla5.gif",
+    "jclic.js/tecla6.gif",
+    "jclic.js/tecla7.gif",
+    "jclic.js/tecladit.gif",
+    "jclic.js/teclado.gif",
+    "jclic.js/teclita.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/inforinf.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

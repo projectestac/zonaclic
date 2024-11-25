@@ -1,0 +1,91 @@
+{
+  "id": 265,
+  "title": "Sílabas y acentuación (Adaptación a las variaciones dialectales argentinas)",
+  "author": "Ester Castejón, Claudia Chamudis",
+  "school": "Institut Torre Roja Viladecans (Baix Llobregat)",
+  "date": "17/11/16",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua castellana",
+    "es": "gramática, lengua castellana",
+    "en": "grammar, Spanish language"
+  },
+  "descCodes": [
+    123,
+    132
+  ],
+  "description": {
+    "en": "Activity pack about syllable separation and accentuation in Spanish.",
+    "ca": "Activitats per a treballar la separació de síl·labes, diftongs, triftongs, hiatus, identificació de la síl·laba tònica i repàs a les normes d'accentuació de l'espanyol.",
+    "es": "Actividades para trabajar la separación de sílabas, diptongos, triptongos, hiatos, identificación de la sílaba tónica y repaso a las normas de acentuación del español."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "silacen"
+  ],
+  "mainFile": "jclic.js/sil_ace.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sil_ace.jclic.zip",
+  "instFile": "jclic/sil_ace.jclic.inst",
+  "clicZoneId": 1139,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1139",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sil_ace/jclic/sil_ace.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 60,
+  "mediaFiles": 7,
+  "totalSize": 313939,
+  "files": [
+    "cover.gif",
+    "jclic.js/bici.gif",
+    "jclic.js/camio.gif",
+    "jclic.js/casa.gif",
+    "jclic.js/funes.gif",
+    "jclic.js/lampara.gif",
+    "jclic.js/lapiz.gif",
+    "jclic.js/sil_ace.jclic",
+    "jclic.js/sil_ace.jclic.js",
+    "jclic.js/tenedor.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

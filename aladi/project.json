@@ -1,0 +1,103 @@
+{
+  "id": 2196,
+  "title": "Aladí",
+  "author": "Mònica Ricart i Llach",
+  "school": "Escola Rosa Oriol Anguera Lliçà d'Amunt (Vallès Oriental)",
+  "date": "18/11/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Design & technology, Languages, Miscellaneous",
+    "ca": "Tecnologies, Llengües, Diversos",
+    "es": "Tecnología, Lenguas, Diversos"
+  },
+  "areaCodes": [
+    "tec",
+    "lleng",
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "Project of activities about the children's Aladdin Network municipal libraries: \n<ul> \n <li>Title </li>\n <li>Author </li>\n <li>Topic </li>\n <li>Keyword  </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre l'ús del catàleg infantil Aladí de la Xarxa de Biblioteques Municipals, utilitzant els diferents camps de consulta: \n<ul> \n <li>Títol </li>\n <li>Autor </li>\n <li>Tema </li>\n <li>Paraula clau </li>\n</ul>",
+    "es": "Proyecto de actividades sobre el uso del catálogo infantil Aladí de la Xarxa de Biblioteques Municipals, utilizando los diferentes campos de consulta: \n<ul> \n <li>Título </li>\n <li>Autor </li>\n <li>Tema </li>\n <li>Palabra clave </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/aladi.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/aladi.jclic.zip",
+  "instFile": "jclic/aladi.jclic.inst",
+  "clicZoneId": 3730,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3730",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/aladi/jclic/aladi.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 30,
+  "totalSize": 1237593,
+  "files": [
+    "cover.png",
+    "jclic.js/1arecuperacio.png",
+    "jclic.js/2arecuperacio.png",
+    "jclic.js/aladi.jclic",
+    "jclic.js/autor.png",
+    "jclic.js/autor1.png",
+    "jclic.js/ben.gif",
+    "jclic.js/cdu.png",
+    "jclic.js/dadespublicacio.png",
+    "jclic.js/descripcio.png",
+    "jclic.js/descripcio1.png",
+    "jclic.js/descripciofis.png",
+    "jclic.js/disponible.png",
+    "jclic.js/estat1.png",
+    "jclic.js/imatgealadi_resized.jpg",
+    "jclic.js/imatgetema.png",
+    "jclic.js/isbn.png",
+    "jclic.js/nom.png",
+    "jclic.js/nota.png",
+    "jclic.js/portada.png",
+    "jclic.js/portalinvents_resized1.jpg",
+    "jclic.js/publicacio.png",
+    "jclic.js/publicacio1.png",
+    "jclic.js/resultats.png",
+    "jclic.js/sapsautorenorme.png",
+    "jclic.js/sapsparaulaenorme.png",
+    "jclic.js/sapstitolenorme.png",
+    "jclic.js/signatura1.png",
+    "jclic.js/signatura2.png",
+    "jclic.js/tema.png",
+    "jclic.js/titol.png",
+    "jclic.js/titol1.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/aladi.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

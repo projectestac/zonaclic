@@ -1,0 +1,105 @@
+{
+  "id": 2242,
+  "title": "El Vendrell (El Vendrell I)",
+  "school": "ESC Teresina Martorell El Vendrell (Baix Penedès), Escola Sant Julià L'Arboç (Baix Penedès)",
+  "date": "17/04/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "Two projects of activities about El Vendrell, a town in Catalonia.",
+    "ca": "Lloc de pas ja a l'època dels Romans, El Vendrell no ha fet sinó enriquir la seva cultura amb personatges il·lustres i tradicions populars pròpies i úniques a Catalunya. Amb aquest dos JClic podrem \"gratar\" una mica de tot el coneixement que ens guarda aquesta ciutat.",
+    "es": "Lugar de paso en la época de los Romanos, El Vendrell no ha hecho más que enriquecer su cultura con personajes ilustres y tradiciones populares propias y únicas en Catalunya. Con estos dos JClic podremos \"rascar\" un poco de todo el conocimiento que nos esconde esta ciudad."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "vendrell2"
+  ],
+  "mainFile": "jclic.js/vendrell1.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/vendrell1.jclic.zip",
+  "instFile": "jclic/vendrell1.jclic.inst",
+  "clicZoneId": 3761,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3761",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/vendrell1/jclic/vendrell1.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 30,
+  "mediaFiles": 32,
+  "totalSize": 1766069,
+  "files": [
+    "cover.png",
+    "jclic.js/23531__10_a_1.jpg",
+    "jclic.js/23663__10_a_1.jpg",
+    "jclic.js/23687__10_a_1.jpg",
+    "jclic.js/23853__10_a_1.jpg",
+    "jclic.js/angelguimera_600.jpg",
+    "jclic.js/angelsgarriga_600.jpg",
+    "jclic.js/c__documents_and_settings_lidia_mis_documentos_copia_de_pag_21_color_amb_rius.jpg",
+    "jclic.js/calafell_2.jpg",
+    "jclic.js/copia_de_p1040583.jpg",
+    "jclic.js/dibujo2.jpg",
+    "jclic.js/dibujo3.jpg",
+    "jclic.js/el_vendrell_2.jpg",
+    "jclic.js/escolasagratcor_600.jpg",
+    "jclic.js/escut_a_b_n.jpg",
+    "jclic.js/escut_a_color.jpg",
+    "jclic.js/imagen1.jpg",
+    "jclic.js/martamata_600.jpg",
+    "jclic.js/p1040571.jpg",
+    "jclic.js/p1040575.jpg",
+    "jclic.js/p1040576.jpg",
+    "jclic.js/p1040606.jpg",
+    "jclic.js/p_agraiments_vendrell_1.jpg",
+    "jclic.js/pantalla_1_bis.jpg",
+    "jclic.js/pantalla_2.jpg",
+    "jclic.js/paucasals_600.jpg",
+    "jclic.js/plademar_600.jpg",
+    "jclic.js/santa_oliva_2.jpg",
+    "jclic.js/secallets_600.jpg",
+    "jclic.js/sectors.jpg",
+    "jclic.js/teresinamartorell_600.jpg",
+    "jclic.js/termino_municipal.jpg",
+    "jclic.js/termino_municipal_2.jpg",
+    "jclic.js/vendrell1.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/vendrell1.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

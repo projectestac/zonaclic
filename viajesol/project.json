@@ -1,0 +1,109 @@
+{
+  "id": 2063,
+  "title": "De viaje por el sistema solar",
+  "author": "Marta Meilán Fuentes",
+  "school": "CEIP Martagona Melide - A Coruña (Galiza)",
+  "date": "15/07/10",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "astronomia",
+    "es": "astronomía",
+    "en": "astronomy"
+  },
+  "descCodes": [
+    57
+  ],
+  "description": {
+    "en": "Project activities to commemorate the International Year of Astronomy, which will bring two children to the elements that make up the universe: \n<ul> \n <li>The Sun </li>\n <li>The constellations </li>\n <li>The planets </li>\n <li>The the Solar System ...  </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre la commemoració de l'Any internacional de l'Astronomia, i que servirà per apropar als nens i nenes als elements que conformen l'Univers: \n<ul> \n <li>el Sol </li>\n <li>les constel·lacions </li>\n <li>ess planetes </li>\n <li>el Sistema Solar... </li>\n</ul>",
+    "es": "Proyecto de actividades sobre la conmemoración del Año Internacional de la Astronomía, y que servirá par acercar a los niños y niñas a los elemntos que conforman el Universo: \n<ul> \n <li>el Sol </li>\n <li>las constelaciones </li>\n <li>los planetas </li>\n <li>el Sistema Solar... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/viajesol.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/viajesol.jclic.zip",
+  "instFile": "jclic/viajesol.jclic.inst",
+  "clicZoneId": 3629,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3629",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/viajesol/jclic/viajesol.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 29,
+  "totalSize": 4039232,
+  "files": [
+    "cover.jpg",
+    "jclic.js/a.jpg",
+    "jclic.js/asteroide.jpg",
+    "jclic.js/astronauta.jpg",
+    "jclic.js/cometa.jpg",
+    "jclic.js/constelaciones.gif",
+    "jclic.js/constelaciones_2.jpg",
+    "jclic.js/espacio_2.jpg",
+    "jclic.js/jupiter.jpg",
+    "jclic.js/jupiter_0001.gif",
+    "jclic.js/luna.jpg",
+    "jclic.js/lune.gif",
+    "jclic.js/mars.gif",
+    "jclic.js/marte.jpg",
+    "jclic.js/mercurio_large.jpg",
+    "jclic.js/mercury.gif",
+    "jclic.js/nave.gif",
+    "jclic.js/neptune2.gif",
+    "jclic.js/neptuno.jpg",
+    "jclic.js/saturn_blk.gif",
+    "jclic.js/saturno.gif",
+    "jclic.js/sig05_010_medium.jpg",
+    "jclic.js/sol.jpg",
+    "jclic.js/sun2.gif",
+    "jclic.js/terre.gif",
+    "jclic.js/tierra.gif",
+    "jclic.js/urano_2.jpg",
+    "jclic.js/uranus.gif",
+    "jclic.js/venu2s.gif",
+    "jclic.js/venus1.jpg",
+    "jclic.js/viajesol.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/viajesol.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": 1051,
+  "title": "Fundamentos de computación (Teclat i ratolí - Nova adaptació)",
+  "author": "Juan Manuel Pacherre Rodríguez",
+  "school": "Colegio Inglés Nuevo Mundo Lima (Perú)",
+  "date": "02/07/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Design & technology",
+    "ca": "Tecnologies",
+    "es": "Tecnología"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "informàtica, maquinari",
+    "es": "informática, hardware",
+    "en": "computer science, hardware"
+  },
+  "descCodes": [
+    737,
+    739
+  ],
+  "description": {
+    "en": "Activities about Informatics in a broad sense : hardware, software, computer elements, peripherals and its classification, the keyboard, the mouse and its parts and so on. These activities are addressed to pupils from the 4th level of primary school.",
+    "ca": "Activitats sobre temes relacionats amb el maquinari i el programari: les parts de l'ordinador, els perifèrics, tipus de programes, el teclat i el ratolí, etc.",
+    "es": "Actividades sobre temas relacionados con el hardware y el software: Las partes del computador, los periféricos, tipos de programas, el teclado y el mouse, etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "compucat",
+    "computad"
+  ],
+  "mainFile": "jclic.js/teclrato.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/teclrato.jclic.zip",
+  "instFile": "jclic/teclrato.jclic.inst",
+  "clicZoneId": 2222,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2222",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/teclrato/jclic/teclrato.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 36,
+  "totalSize": 649373,
+  "files": [
+    "cover.gif",
+    "jclic.js/aprobad1.gif",
+    "jclic.js/avpag.gif",
+    "jclic.js/avpag1.gif",
+    "jclic.js/bloqmaj1.gif",
+    "jclic.js/bloqmaju.gif",
+    "jclic.js/bloqnum.gif",
+    "jclic.js/bloqnum1.gif",
+    "jclic.js/comienzo.wav",
+    "jclic.js/esc.gif",
+    "jclic.js/esc1.gif",
+    "jclic.js/fi.gif",
+    "jclic.js/fi1.gif",
+    "jclic.js/fondo.gif",
+    "jclic.js/inici.gif",
+    "jclic.js/inici1.gif",
+    "jclic.js/intro.gif",
+    "jclic.js/intro1.gif",
+    "jclic.js/logo15.gif",
+    "jclic.js/majuscl1.gif",
+    "jclic.js/majuscul.gif",
+    "jclic.js/moltbe.wav",
+    "jclic.js/mous4.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/repag.gif",
+    "jclic.js/repag1.gif",
+    "jclic.js/shift.gif",
+    "jclic.js/shift1.gif",
+    "jclic.js/supr.gif",
+    "jclic.js/supr1.gif",
+    "jclic.js/teclad4.gif",
+    "jclic.js/teclado1.gif",
+    "jclic.js/teclado2.gif",
+    "jclic.js/teclado3.gif",
+    "jclic.js/teclas.gif",
+    "jclic.js/teclrato.jclic",
+    "jclic.js/wind.gif",
+    "jclic.js/wind1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/teclrato.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

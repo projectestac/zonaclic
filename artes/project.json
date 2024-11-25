@@ -1,0 +1,96 @@
+{
+  "id": 2358,
+  "title": "Itinerari geològic d'Artés",
+  "author": "Montse Sebastián Roca",
+  "school": "IES Miquel Bosch i Jover Artés (Bages)",
+  "date": "12/02/15",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geologia",
+    "es": "geología",
+    "en": "geology"
+  },
+  "descCodes": [
+    78
+  ],
+  "description": {
+    "en": "Starting with basic knowledge of geology (geological ages) puppils will study sedimentary rocks: coral reef, rock types, forming marl, limestone, fossils...",
+    "ca": "Partint de coneixements bàsics de geologia (edats geològiques) s'incidirà en les roques sedimentaries: escull coral·lí, tipus de roques, formació de les margues, roques calcaries, fòssils... Anirà acompanyat de fotografies fetes per alumnes. Aquest és un itinerari que fem des del nostre institut amb la col·laboració del Camp d'Aprenentatge del Bages (La Culla).",
+    "es": "Partiendo de conocimientos básicos de geología (edades geológicas) incidirá en las rocas sedimentarias: arrecife coralino, tipos de rocas, formación de las margas, rocas calcáreas, fósiles... Irá acompañado de fotografías hechas por alumnos. Este es un itinerario que hacemos desde nuestro instituto con la colaboración del Campo de Aprendizaje del Bages (La Culla)."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/artes.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/artes.jclic.zip",
+  "instFile": "jclic/artes.jclic.inst",
+  "clicZoneId": 3864,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3864",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/artes/jclic/artes.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 17,
+  "totalSize": 1870089,
+  "files": [
+    "cover.png",
+    "jclic.js/aplaudiments.mp3",
+    "jclic.js/artes.jclic",
+    "jclic.js/artes_esquema_font_tapies.png",
+    "jclic.js/bages__actualitat__resized.jpg",
+    "jclic.js/cassoletes_erosio_resized.jpg",
+    "jclic.js/dscf0886__font_tapies_portada__resized.jpg",
+    "jclic.js/img_3284_resized.jpg",
+    "jclic.js/img_3286_resized.jpg",
+    "jclic.js/img_3290_resized2.jpg",
+    "jclic.js/img_3313_resized.jpg",
+    "jclic.js/img_3316_resized.jpg",
+    "jclic.js/img_3316_resized1.jpg",
+    "jclic.js/img_3320_resized.jpg",
+    "jclic.js/img_3327_resized1.jpg",
+    "jclic.js/img_3328_resized.jpg",
+    "jclic.js/img_3331_resized.jpg",
+    "jclic.js/mapa_bages_a_l_eoce.jpg",
+    "jclic.js/pedra_sorrenca.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/artes.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": 75,
+  "title": "Uns dies de pasqua",
+  "author": "Pep Vinyó Dibuixos: Ma. Creu Esteban",
+  "school": "CP El Romeral Alcoi (Alcoià)",
+  "date": "09/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "pasqua",
+    "es": "pascua",
+    "en": "easterday's"
+  },
+  "descCodes": [
+    931
+  ],
+  "description": {
+    "en": "Activity package of \"Easter day 's\" puzzles for children at preschool education.",
+    "ca": "Aquest paquet d'activitats consta de 6 trencaclosques molt senzills amb dibuixos i frases curtes sobre una sortida al camp per pasqua, per menjar la mona i gaudir de la primavera.",
+    "es": "Este paquete de actividades consta de 6 puzzles muy sencillos con dibujos y frases cortas sobre una salida al campo por pascua, para comer la \"mona\" y gozar de la primavera."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/pasqua.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pasqua.jclic.zip",
+  "instFile": "jclic/pasqua.jclic.inst",
+  "clicZoneId": 1032,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1032",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pasqua/jclic/pasqua.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 8,
+  "mediaFiles": 8,
+  "totalSize": 777091,
+  "files": [
+    "cover.gif",
+    "jclic.js/ad_u1.jpg",
+    "jclic.js/iaio1.jpg",
+    "jclic.js/pasq1.jpg",
+    "jclic.js/pasq2.jpg",
+    "jclic.js/pasq3.jpg",
+    "jclic.js/pasq4.jpg",
+    "jclic.js/pasqua.jclic",
+    "jclic.js/portpasq.jpg",
+    "jclic.js/primav_1.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pasqua.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

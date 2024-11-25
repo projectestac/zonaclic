@@ -1,0 +1,129 @@
+{
+  "id": 789,
+  "title": "Bellpuig",
+  "author": "Ignasi Gómez Farreres i Jordi Aumedes Castells",
+  "school": "Escola Valeri Serra Bellpuig (Urgell)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geografia, Urgell",
+    "es": "geografía, Urgell",
+    "en": "geography, Urgell"
+  },
+  "descCodes": [
+    235,
+    601
+  ],
+  "description": {
+    "en": "Activities about the city of Bellpuig: Geographic location, festivities, neighbourhoods, buildings, economy...",
+    "ca": "Paquet d'activitats sobre la localitat de Bellpuig: localització, festes, barris, edificis singulars, economia, etc.",
+    "es": "Paquete de actividades sobre la localidad de Bellpuig: localización, fiestas, barrios, edificios singulares, economía, etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/bellpuig.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/bellpuig.jclic.zip",
+  "instFile": "jclic/bellpuig.jclic.inst",
+  "clicZoneId": 1431,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1431",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/bellpuig/jclic/bellpuig.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 42,
+  "totalSize": 3129702,
+  "files": [
+    "cover.jpg",
+    "jclic.js/bellpuig.jclic",
+    "jclic.js/nose.gif",
+    "jclic.js/nuvols.jpg",
+    "jclic.js/primer/ban1.gif",
+    "jclic.js/primer/ban2.gif",
+    "jclic.js/primer/bande.gif",
+    "jclic.js/primer/esc2b.gif",
+    "jclic.js/primer/escalesp.jpg",
+    "jclic.js/primer/escola_1.jpg",
+    "jclic.js/primer/esglesia.jpg",
+    "jclic.js/primer/mapa2.gif",
+    "jclic.js/primer/mapa22.gif",
+    "jclic.js/primer/nuvols.jpg",
+    "jclic.js/primer/parcp.jpg",
+    "jclic.js/primer/primer.jclic",
+    "jclic.js/primer/titol.gif",
+    "jclic.js/pripart.gif",
+    "jclic.js/segon/ajunta_1.jpg",
+    "jclic.js/segon/aplauso1.wav",
+    "jclic.js/segon/blau.gif",
+    "jclic.js/segon/coscol_1.gif",
+    "jclic.js/segon/esbel.gif",
+    "jclic.js/segon/esc2b.gif",
+    "jclic.js/segon/groc.gif",
+    "jclic.js/segon/mapa1.gif",
+    "jclic.js/segon/mapa11.gif",
+    "jclic.js/segon/santroc.jpg",
+    "jclic.js/segon/segon.jclic",
+    "jclic.js/segon/vallbona.jpg",
+    "jclic.js/segon/verd.gif",
+    "jclic.js/segon/vermell.gif",
+    "jclic.js/separt.gif",
+    "jclic.js/tercer.gif",
+    "jclic.js/tercer/aplauso1.wav",
+    "jclic.js/tercer/bandera.gif",
+    "jclic.js/tercer/bellpuig.wav",
+    "jclic.js/tercer/castell.jpg",
+    "jclic.js/tercer/castellp.jpg",
+    "jclic.js/tercer/convent.jpg",
+    "jclic.js/tercer/diablesp.jpg",
+    "jclic.js/tercer/dibujo.jpg",
+    "jclic.js/tercer/dolorsp.jpg",
+    "jclic.js/tercer/minialt2.gif",
+    "jclic.js/tercer/nuvols.jpg",
+    "jclic.js/tercer/roset_.jpg",
+    "jclic.js/tercer/tercer.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/bellpuig.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/primer/primer.jclic.js",
+    "jclic.js/segon/segon.jclic.js",
+    "jclic.js/tercer/tercer.jclic.js",
+    "cover.webp"
+  ]
+}

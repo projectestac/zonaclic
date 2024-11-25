@@ -1,0 +1,134 @@
+{
+  "id": 1624,
+  "title": "Homenaje a Mozart",
+  "author": "Carlos Medina Viedma",
+  "school": "Escuelas profesionales SA.FA - Alcalá de los Gazules Alcalá de los Gazules - Cádiz (Andalucía)",
+  "date": "30/11/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "Mozart",
+    "es": "Mozart",
+    "en": "Mozart"
+  },
+  "descCodes": [
+    1369
+  ],
+  "description": {
+    "en": "Project of activities about Mozart: \n<ul> \n <li>Biography </li>\n <li>Pastimes </li>\n <li>Musical instruments </li>\n <li>Musical concepts </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre la vida i obra de Mozart. Podem trobar quatre parts: \n<ul> \n <li>Biografía </li>\n <li>Pasatiempos </li>\n <li>Instrumentos musicales </li>\n <li>Conceptos musicales </li>\n</ul>",
+    "es": "Proyecto de actividades sobre la vida y obra de Mozart. Encontramos cuatro partes: \n<ul> \n <li>Biografía </li>\n <li>Pasatiempos </li>\n <li>Instrumentos musicales </li>\n <li>Conceptos musicales </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/mozart.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mozart.jclic.zip",
+  "instFile": "jclic/mozart.jclic.inst",
+  "clicZoneId": 3332,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3332",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/mozart/jclic/mozart.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 55,
+  "totalSize": 2373996,
+  "files": [
+    "cover.gif",
+    "jclic.js/anna_maria_01_madre.jpg",
+    "jclic.js/aplausos.mp3",
+    "jclic.js/arpa.jpg",
+    "jclic.js/arpa.mp3",
+    "jclic.js/busto.jpg",
+    "jclic.js/busto2.jpg",
+    "jclic.js/carl_thomas_hijo.jpg",
+    "jclic.js/clarinete.mp3",
+    "jclic.js/clarinete7.jpg",
+    "jclic.js/conciert_para_clar_y_orqu_adagio.mid",
+    "jclic.js/concierto_arpa_flauta.mid",
+    "jclic.js/constanze_01esposa.jpg",
+    "jclic.js/contrabajo.jpg",
+    "jclic.js/contrabajo.mp3",
+    "jclic.js/don_giovanni.mid",
+    "jclic.js/estatua2.jpg",
+    "jclic.js/fagot.7.jpg",
+    "jclic.js/fagot.mp3",
+    "jclic.js/firma.jpg",
+    "jclic.js/flauta.jpg",
+    "jclic.js/flauta.mp3",
+    "jclic.js/franz_xaver_mozart__wolfgang_jr__1825.jpg",
+    "jclic.js/la_flauta_magica_reina_de_la_noche.mid",
+    "jclic.js/las_bodas_de_figaro.mid",
+    "jclic.js/leopold_01.jpg",
+    "jclic.js/marcha_alla_turca.mid",
+    "jclic.js/mozart.gif",
+    "jclic.js/mozart.jclic",
+    "jclic.js/mozart_misa_coronacion_gloria.mid",
+    "jclic.js/mozart_wolfgang_amadeus_sonata_en_do_mayor_k6.mid",
+    "jclic.js/nannerl_01_hermana.jpg",
+    "jclic.js/oboe.mp3",
+    "jclic.js/oboe7.jpg",
+    "jclic.js/oohhh.mp3",
+    "jclic.js/piano.jpg",
+    "jclic.js/piano.mp3",
+    "jclic.js/portada.jpg",
+    "jclic.js/requiem.mid",
+    "jclic.js/saxo.7.jpg",
+    "jclic.js/saxofon.mp3",
+    "jclic.js/sinfonia_no_41_jupiter.mid",
+    "jclic.js/sonata_en_d.mp3",
+    "jclic.js/trombon.mp3",
+    "jclic.js/trombon7.jpg",
+    "jclic.js/trompa.mp3",
+    "jclic.js/trompa7.jpg",
+    "jclic.js/trompeta.mp3",
+    "jclic.js/trompeta7.jpg",
+    "jclic.js/tuba.mp3",
+    "jclic.js/tuba7.jpg",
+    "jclic.js/viola.jpg",
+    "jclic.js/viola.mp3",
+    "jclic.js/violin.jpg",
+    "jclic.js/violin.mp3",
+    "jclic.js/violoncello.mp3",
+    "jclic.js/violonchelo.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/mozart.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

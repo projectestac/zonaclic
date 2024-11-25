@@ -1,0 +1,108 @@
+{
+  "id": 231,
+  "title": "La cocina",
+  "author": "Juanjo Gómez Píriz i Montserrat Ruiz López",
+  "date": "12/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua catalana",
+    "es": "lengua catalana",
+    "en": "Catalan language"
+  },
+  "descCodes": [
+    133
+  ],
+  "description": {
+    "en": "Activity pack about the kitchen and kitchenware.",
+    "ca": "Activitats Clic sobre la cuina i els aparells i estris que hi podem trobar, adreçades a l'educació Primària. Inclou imatges i sons.",
+    "es": "Actividades Clic sobre la cocina y su utillaje, dirigidas a educación primaria. Incluye imágenes y sonidos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "cuina",
+    "cuinagal",
+    "sukalde"
+  ],
+  "mainFile": "jclic.js/cocina.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cocina.jclic.zip",
+  "instFile": "jclic/cocina.jclic.inst",
+  "clicZoneId": 1118,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1118",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cocina/jclic/cocina.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 8,
+  "mediaFiles": 25,
+  "totalSize": 1671465,
+  "files": [
+    "cover.gif",
+    "jclic.js/aigua.wav",
+    "jclic.js/bol.gif",
+    "jclic.js/cocina.jclic",
+    "jclic.js/cuina00.gif",
+    "jclic.js/cullera.gif",
+    "jclic.js/cullerot.gif",
+    "jclic.js/escuma.gif",
+    "jclic.js/estiso.gif",
+    "jclic.js/forqui.gif",
+    "jclic.js/gani.gif",
+    "jclic.js/ganipa.gif",
+    "jclic.js/ganiper.gif",
+    "jclic.js/gos.wav",
+    "jclic.js/moltbe.wav",
+    "jclic.js/obreamp.gif",
+    "jclic.js/obrella.gif",
+    "jclic.js/ocell.wav",
+    "jclic.js/olla.wav",
+    "jclic.js/portada.gif",
+    "jclic.js/radio.wav",
+    "jclic.js/rellotge.wav",
+    "jclic.js/rentado.wav",
+    "jclic.js/tallant.gif",
+    "jclic.js/taula.gif",
+    "jclic.js/tirabui.gif",
+    "jclic.js/trinxa.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cocina.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": 808,
+  "title": "Lan egiten dugu...",
+  "author": "Juan José Mateo Molina",
+  "school": "CP El Olivar Rivas - Vaciamadrid (Madrid)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "producció, professions",
+    "es": "producción, profesiones",
+    "en": "production, professions"
+  },
+  "descCodes": [
+    316,
+    317
+  ],
+  "description": {
+    "en": "Activities based on the textbook Conocimiento del Medio de 3º de E. Primaria, \"El libro de las preguntas\", de la editorial Santillana.\n<br> There are three units to the application:\n<br> \n<ul><li>In the field<br> </li>\n<li>In the industry<br> </li>\n<li>In the sea<br> You'll find more information in the pages <b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">\"Aplicaciones educativas\"</a></b>. </li></ul>",
+    "ca": "Aquesta aplicació es va dissenyar a partir del llibre de text de Coneixement del Medi de 3er de primària, \"El libro de las preguntas\", de l'editorial Santillana.\n<br> L'aplicació consta de tres unitats:\n<br> \n<ul><li>Al camp<br> </li>\n<li>A la indústria<br> </li>\n<li>Al mar<br> Trobareu més informació a la web d'<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo. </li></ul>",
+    "es": "Esta aplicación se diseñó a partir del libro de texto de Conocimiento del Medio de 3º de E. Primaria, \"El libro de las preguntas\", de la editorial Santillana.\n<br> La aplicación consta de tres unidades:\n<br> \n<ul><li>En el campo.<br> </li>\n<li>En la industria.<br> </li>\n<li>En el mar.<br> Encontraréis más información en la web de <b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo. </li></ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "trabajo"
+  ],
+  "mainFile": "jclic.js/trabajo.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/trabajo.jclic.zip",
+  "instFile": "jclic/trabajo.jclic.inst",
+  "clicZoneId": 1446,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1446",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/lan/jclic/trabajo.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 48,
+  "mediaFiles": 43,
+  "totalSize": 928761,
+  "files": [
+    "cover.gif",
+    "jclic.js/autor.gif",
+    "jclic.js/ca/barraca.jpg",
+    "jclic.js/ca/ca.jclic",
+    "jclic.js/ca/campo.gif",
+    "jclic.js/ca/caserio.jpg",
+    "jclic.js/ca/cortijo.jpg",
+    "jclic.js/ca/eight.mid",
+    "jclic.js/ca/indus.jpg",
+    "jclic.js/ca/mar.gif",
+    "jclic.js/ca/masia.jpg",
+    "jclic.js/ca/paisajes.gif",
+    "jclic.js/ca7.txt",
+    "jclic.js/campo.gif",
+    "jclic.js/ci/campo.gif",
+    "jclic.js/ci/ci.jclic",
+    "jclic.js/ci/cobre.gif",
+    "jclic.js/ci/cuero.gif",
+    "jclic.js/ci/eight.mid",
+    "jclic.js/ci/eolica.jpg",
+    "jclic.js/ci/hidro.jpg",
+    "jclic.js/ci/hierro.gif",
+    "jclic.js/ci/indus.jpg",
+    "jclic.js/ci/lana.gif",
+    "jclic.js/ci/leche.gif",
+    "jclic.js/ci/madera.gif",
+    "jclic.js/ci/mar.gif",
+    "jclic.js/ci/nuclear.jpg",
+    "jclic.js/ci/sal.gif",
+    "jclic.js/ci/solar.jpg",
+    "jclic.js/ci/termica.jpg",
+    "jclic.js/ci/tomate.gif",
+    "jclic.js/ci/trigo.gif",
+    "jclic.js/eight.mid",
+    "jclic.js/indus.gif",
+    "jclic.js/ma/acanti.jpg",
+    "jclic.js/ma/campo.gif",
+    "jclic.js/ma/costas.gif",
+    "jclic.js/ma/eight.mid",
+    "jclic.js/ma/espa_a.gif",
+    "jclic.js/ma/indus.jpg",
+    "jclic.js/ma/ma.jclic",
+    "jclic.js/ma/mar.gif",
+    "jclic.js/ma/mundo.gif",
+    "jclic.js/ma/playa.jpg",
+    "jclic.js/ma/puerto.gif",
+    "jclic.js/ma10b.txt",
+    "jclic.js/mar.gif",
+    "jclic.js/titulo.gif",
+    "jclic.js/trabajo.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/trabajo.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/ca/ca.jclic.js",
+    "jclic.js/ci/ci.jclic.js",
+    "jclic.js/ma/ma.jclic.js",
+    "cover.webp"
+  ]
+}

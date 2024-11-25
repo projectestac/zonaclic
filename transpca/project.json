@@ -1,0 +1,132 @@
+{
+  "id": 783,
+  "title": "Los medios de transporte",
+  "author": "Teresa Pérez Fracés",
+  "school": "CP Juan Ramón Jiménez Sant Vicent del Raspeig (Alacantí)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "història, transport, educació vial",
+    "es": "historia, transporte, educación vial",
+    "en": "history, transport, road safety"
+  },
+  "descCodes": [
+    246,
+    354,
+    790
+  ],
+  "description": {
+    "en": "Activities about the knowledge of our environment. The areas worked on are: \n<ul> \n <li>Order of arrival in time of the different ways of transport </li>\n <li>Classification: Terrestrial, aerial or maritime </li>\n <li>Uses of these </li>\n <li>Main circulation signals </li>\n <li>Ways of circulation </li>\n</ul> It is adapted for low vision impaired children.",
+    "ca": "Activitats de coneixement del medi per al segon cicle de primària on es treballen: \n<ul> \n <li>Ordre d'aparició en el temps dels mitjans de transport. </li>\n <li>Classificació d'aquests mitjans en terrestres, aeris o marítims. </li>\n <li>Utilitat dels mitjans de transport. </li>\n <li>Senyals de circulació més importants. </li>\n <li>Vies de circulació. </li>\n</ul> Adaptat per discapacitat visual baixa visió.",
+    "es": "Actividades de Conocimiento del Medio para el segundo ciclo de Primaria en las que se trabajan: \n<ul> \n <li>Orden de aparición en el tiempo de los medios de transporte. </li>\n <li>Clasificación de esos medios en terrestres, aéreos o marítimos. </li>\n <li>Utilidad de esos medios. </li>\n <li>Señales de circulación más importantes. </li>\n <li>Vías de circulación </li>\n</ul> Adaptado para discapacidad visual baja visión."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "garraio",
+    "transp",
+    "transpdv"
+  ],
+  "mainFile": "jclic.js/transpca.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/transpca.jclic.zip",
+  "instFile": "jclic/transpca.jclic.inst",
+  "clicZoneId": 1428,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1428",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/transpca/jclic/transpca.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 46,
+  "totalSize": 684868,
+  "files": [
+    "cover.gif",
+    "jclic.js/acamp.jpg",
+    "jclic.js/adelan.jpg",
+    "jclic.js/anim.jpg",
+    "jclic.js/aplauso.wav",
+    "jclic.js/arrast.jpg",
+    "jclic.js/auto.jpg",
+    "jclic.js/autopist.jpg",
+    "jclic.js/avion.jpg",
+    "jclic.js/bici.jpg",
+    "jclic.js/bici1.jpg",
+    "jclic.js/burro.jpg",
+    "jclic.js/cacao1a.jpg",
+    "jclic.js/cacao2a.jpg",
+    "jclic.js/cacao3a.jpg",
+    "jclic.js/cacao4a.jpg",
+    "jclic.js/cacao5a.jpg",
+    "jclic.js/cacao6a.jpg",
+    "jclic.js/camion1.jpg",
+    "jclic.js/carro.jpg",
+    "jclic.js/ceda.jpg",
+    "jclic.js/coche.jpg",
+    "jclic.js/cohete.jpg",
+    "jclic.js/descans.jpg",
+    "jclic.js/desped1.jpg",
+    "jclic.js/direc_p.jpg",
+    "jclic.js/doblar.jpg",
+    "jclic.js/estrech.jpg",
+    "jclic.js/fabrica1.jpg",
+    "jclic.js/giro.jpg",
+    "jclic.js/globo1.jpg",
+    "jclic.js/globoc.jpg",
+    "jclic.js/kiosco1.jpg",
+    "jclic.js/moltbe.wav",
+    "jclic.js/moto1.jpg",
+    "jclic.js/ni_os.jpg",
+    "jclic.js/oblig.jpg",
+    "jclic.js/obras.jpg",
+    "jclic.js/portad.jpg",
+    "jclic.js/restau.jpg",
+    "jclic.js/socors.jpg",
+    "jclic.js/stop.jpg",
+    "jclic.js/telef.jpg",
+    "jclic.js/transpca.jclic",
+    "jclic.js/tren.jpg",
+    "jclic.js/ultima2.jpg",
+    "jclic.js/ultima2a.jpg",
+    "jclic.js/vapor.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/transpca.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": 343,
+  "title": "Hilabeteak",
+  "author": "José Manuel Mikelez i Karmele Barandiaran Ors",
+  "school": "Donostiako PAT Donostia (Guipuzcoa)",
+  "date": "18/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua basca",
+    "es": "lengua vasca",
+    "en": "Basque language"
+  },
+  "descCodes": [
+    922
+  ],
+  "description": {
+    "en": "Activity pack that works on the months of the year in Euskera.",
+    "ca": "Mitjançant aquest paquet d'activitats podem aprendre els noms dels mesos de l'any en euskera. Per a cada mes es treballa també una frase.\n<br> Jarduera honen bidez urteko 12 hilabeteen izenak lantzeko aukera daukagu. Hilabete bakoitzari dagokion esaera bat ere lantzen da.",
+    "es": "Por medio de este paquete de actividades tenemos la oportunidad de trabajar los meses del año en eusquera. Con cada mes se trabaja también una frase.\n<br> Jarduera honen bidez urteko 12 hilabeteen izenak lantzeko aukera daukagu. Hilabete bakoitzari dagokion esaera bat ere lantzen da."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/hilabete.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/hilabete.jclic.zip",
+  "instFile": "jclic/hilabete.jclic.inst",
+  "clicZoneId": 1190,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1190",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/hilabete/jclic/hilabete.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 41,
+  "mediaFiles": 14,
+  "totalSize": 221703,
+  "files": [
+    "cover.gif",
+    "jclic.js/abendua.gif",
+    "jclic.js/abuztua.gif",
+    "jclic.js/apirila.gif",
+    "jclic.js/azala.gif",
+    "jclic.js/azaroa.gif",
+    "jclic.js/ekaina.gif",
+    "jclic.js/hilabete.jclic",
+    "jclic.js/iraila.gif",
+    "jclic.js/maiatza.gif",
+    "jclic.js/martxoa.gif",
+    "jclic.js/ondo.gif",
+    "jclic.js/otsaila.gif",
+    "jclic.js/urria.gif",
+    "jclic.js/urta.gif",
+    "jclic.js/uztaila.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/hilabete.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

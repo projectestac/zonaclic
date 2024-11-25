@@ -1,0 +1,119 @@
+{
+  "id": 2179,
+  "title": "Cantar, tocar, escoltar",
+  "author": "Neus Creus Escusa",
+  "school": "Escola Las Seguidillas Badia del Vallès (Vallès Occidental)",
+  "date": "03/10/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la música, audició musical, instrument musical",
+    "es": "aprendizaje de la música, audición musical, instrumento musical",
+    "en": "learning of music, musical hearing, musical instrument"
+  },
+  "descCodes": [
+    717,
+    718,
+    724
+  ],
+  "description": {
+    "en": "JClic Project to work on the music classroom. This project consists of 14 activities classified into three diferent sections: \n<ul> \n <li><b>Sing</b>This section contains activities related to traditional songs for children. </li>\n <li><b>Play</b>This section has activities related to the presentation and recognition (timbre and visual) of small percussion instruments. </li>\n <li><b>Listen</b>This section presents activities related to the hearing of an excerpt from the musical \"The carnival of the animals\": listening a fragment of it and explaining some features of the composer's biography and work. </li>\n</ul>",
+    "ca": "Projecte JClic per a treballar a l'aula de música. Aquest projecte consta de catorze activitats classificades en tres blocs diferents: \n<ul> \n <li><b>CANTAR</b>: En aquest bloc es presenten activitats relacionades amb cançons tradicionals infantils. </li>\n <li><b>TOCAR</b>: En aquest bloc hi ha activitats relacionades amb la presentació i reconeixement (tímbric i visual) d'instruments de petita percussió. </li>\n <li><b>ESCOLTAR</b>: En aquest apartat es presenten activitats relacionades amb l'audició d'un fragment de l'obra musical \"El carnaval dels animals\": s'escolta el fragment musical i se'n tracta algun tret característic de la vida i/o obra del seu compositor. </li>\n</ul>",
+    "es": "Proyecto JClic para trabajar en el aula de música. Este proyecto consta de catorce actividades clasificadas en tres bloques diferentes: \n<ul> \n <li><b>CANTAR</b>: En este bloque se presentan actividades relacionadas con canciones tradicionales infantiles. </li>\n <li><b>TOCAR</b>: En este bloque hay actividades relacionadas con la presentación y reconocimiento (tímbrico y visual) de instrumentos de pequeña percusión. </li>\n <li><b>ESCUCHAR</b>: En este apartado se presentan actividades relacionadas con la audición de un fragmento de la obra musical \"El carnaval de los animales\": se escucha el fragmento musical y se trata algún rasgo característico de la vida y/o obra de su compositor. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/musinfa2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/musinfa2.jclic.zip",
+  "instFile": "jclic/musinfa2.jclic.inst",
+  "clicZoneId": 3715,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3715",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/musinfa2/jclic/musinfa2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 38,
+  "totalSize": 3029763,
+  "files": [
+    "cover.png",
+    "jclic.js/aplaudiments_m.mp3",
+    "jclic.js/arpegi_do.mp3",
+    "jclic.js/campana.jpg",
+    "jclic.js/campana.mp3",
+    "jclic.js/cantaires_pintat.jpg",
+    "jclic.js/cargol_cant.mp3",
+    "jclic.js/cargol_cascavells.mp3",
+    "jclic.js/cargol_pals_b.mp3",
+    "jclic.js/cargol_pintat.jpg",
+    "jclic.js/cargol_triangle.mp3",
+    "jclic.js/cascavells.mp3",
+    "jclic.js/cascavells_foto.jpg",
+    "jclic.js/contrabaix_r.jpg",
+    "jclic.js/elefant_r.mp3",
+    "jclic.js/elefant_rp.jpg",
+    "jclic.js/error_parelles.mp3",
+    "jclic.js/escoltar_pintat.jpg",
+    "jclic.js/lluna_cant.mp3",
+    "jclic.js/lluna_pintada.jpg",
+    "jclic.js/mapa_franca.jpg",
+    "jclic.js/maraques.jpg",
+    "jclic.js/maraques.mp3",
+    "jclic.js/musinfa2.jclic",
+    "jclic.js/pals.mp3",
+    "jclic.js/pals_foto.jpg",
+    "jclic.js/pandereta.jpg",
+    "jclic.js/pandereta.mp3",
+    "jclic.js/peix_peixet_cant.mp3",
+    "jclic.js/peix_peixet_pintat.jpg",
+    "jclic.js/peix_pintat.jpg",
+    "jclic.js/piano.jpg",
+    "jclic.js/resoldre_parelles.mp3",
+    "jclic.js/saint_saens.jpg",
+    "jclic.js/sol_pintat_b.jpg",
+    "jclic.js/sol_solet3.mp3",
+    "jclic.js/sol_solet_pintat.jpg",
+    "jclic.js/tocar_pintat.jpg",
+    "jclic.js/triangle.mp3",
+    "jclic.js/trianglef.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/musinfa2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

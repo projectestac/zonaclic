@@ -1,0 +1,95 @@
+{
+  "id": 2427,
+  "title": "El virus de la Chikungunya",
+  "author": "Carlos Toro",
+  "school": "U.E.E. Prisco Pérez Monasterio (Centro Bolivariano de Informática y Telemática \"Roxana M. de Hernández\") Villa de Cura, Estado Aragua (Venezuela)",
+  "date": "04/02/16",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "biologia, insectes, salut, sanitat",
+    "es": "biología, insectos, salud, sanidad",
+    "en": "biology, insects, health, health care"
+  },
+  "descCodes": [
+    58,
+    81,
+    101,
+    102
+  ],
+  "description": {
+    "en": "JClic activities addressed to primary education about the Chikungunya virus, symptoms, prevention and treatment to fight it.",
+    "ca": "Material dirigit a estudiants de 4t a 6è de primària que té com a objectiu conèixer el virus de la Chikungunya, els símptomes, prevenció i tractament per combatre'l.",
+    "es": "Material dirigido a estudiantes de ciclo superior que tiene como objetivo conocer el virus del Chikungunya, los síntomas, prevención y tratamiento para combatirlo."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ve_chi.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ve_chi.jclic.zip",
+  "instFile": "jclic/ve_chi.jclic.inst",
+  "clicZoneId": 3936,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3936",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ve_chi/jclic/ve_chi.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 9,
+  "mediaFiles": 13,
+  "totalSize": 749081,
+  "files": [
+    "cover.png",
+    "jclic.js/chicu2.jpg",
+    "jclic.js/chicu3.jpg",
+    "jclic.js/cichun1.jpg",
+    "jclic.js/final.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/nauceas.jpg",
+    "jclic.js/portada1.jpg",
+    "jclic.js/sintomas2.jpg",
+    "jclic.js/sintomas_01.jpg",
+    "jclic.js/texture6.gif",
+    "jclic.js/vacuna.jpg",
+    "jclic.js/ve_chi.jclic",
+    "jclic.js/virus01.jpg",
+    "jclic.js/zancudo1.jpg",
+    "jclic.js/zancudo2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ve_chi.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

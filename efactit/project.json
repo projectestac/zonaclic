@@ -1,0 +1,102 @@
+{
+  "id": 1359,
+  "title": "Actitudes, valores y noviolencia en la educación física y el deporte",
+  "author": "Daniel Martín Crespo",
+  "school": "CRA Bajo Martín La Puebla de Híjar - Teruel (Aragón)",
+  "date": "28/04/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "joc esportiu",
+    "es": "juego deportivo",
+    "en": "sport game"
+  },
+  "descCodes": [
+    426
+  ],
+  "description": {
+    "en": "Clic activities about attitudes and values in physical education addressed to primary school.",
+    "ca": "Paquet d'activitats que persegueix una sèrie d'objectius tots ells al voltant de les actituds i valors que s'han de tenir sempre present en qualsevol esport. Alguns d'aquests objectius són els següents: \n<ul> \n <li>Aprendre a saber guanyar i perdre </li>\n <li>Respectar als companys i les companyes </li>\n <li>Destacar i potenciar les conductes del joc net </li>\n <li>Valora la competició com a forma de divertir-se </li>\n <li>etc.... </li>\n</ul>",
+    "es": "Paquete de actividades que persigue una serie de objetivos, todos ellos giran entorno a las actitudes y los valores que se deben tener presente en cualquier deporte. Algunos de estos objetivos son los siguientes: \n<ul> \n <li>Aprender a saber ganar y perder </li>\n <li>Respetar a los compañeros y compañeras </li>\n <li>Destacar y potenciar las conductas de juego limpio </li>\n <li>Valorar la competición como forma de divertirse </li>\n <li>etc... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/efactit.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/efactit.jclic.zip",
+  "instFile": "jclic/efactit.jclic.inst",
+  "clicZoneId": 3100,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3100",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/efactit/jclic/efactit.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 23,
+  "totalSize": 4237482,
+  "files": [
+    "cover.gif",
+    "jclic.js/adios.wav",
+    "jclic.js/bravo.wav",
+    "jclic.js/ciclismo.gif",
+    "jclic.js/cinco.wav",
+    "jclic.js/cuatro.wav",
+    "jclic.js/dictado.wav",
+    "jclic.js/dos.wav",
+    "jclic.js/efactit.jclic",
+    "jclic.js/error.wav",
+    "jclic.js/esqui.gif",
+    "jclic.js/mb.wav",
+    "jclic.js/minialt.gif",
+    "jclic.js/moto.gif",
+    "jclic.js/music.wav",
+    "jclic.js/nueve.wav",
+    "jclic.js/ocho.wav",
+    "jclic.js/rugby.gif",
+    "jclic.js/seis.wav",
+    "jclic.js/siete.wav",
+    "jclic.js/surfista.gif",
+    "jclic.js/titulo.gif",
+    "jclic.js/tres.wav",
+    "jclic.js/triston.gif",
+    "jclic.js/uno.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/efactit.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": 450,
+  "title": "Ortografía",
+  "author": "Reinaldo Carrascosa Vallejo",
+  "school": "CP Lorenzo Goicoa Villava (Navarra)",
+  "date": "23/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "ortografia, vocabulari",
+    "es": "ortografía, vocabulario",
+    "en": "spelling, vocabulary"
+  },
+  "descCodes": [
+    146,
+    150
+  ],
+  "description": {
+    "en": "Clic activities about Spanish orthography. This package has fifteen lessons: \n<ul> \n <li>The alphabet and to order words </li>\n <li>Capital letters </li>\n <li>M before p and b </li>\n <li>ca, que, qui , co, cu, ce, ci </li>\n <li>c, d, z </li>\n <li>r, rr </li>\n <li>g, j, gu, gü </li>\n <li>b, v </li>\n <li>s, x </li>\n <li>y, ll </li>\n <li>h </li>\n <li>Homonymous words </li>\n <li>Orthographic rules </li>\n <li>I learn words </li>\n <li>Antonymous and synonymous words </li>\n</ul> The package includes document of Word with basic orthographic rules of the Spanish language.",
+    "ca": "Paquet d'activitats de ortografia de la llengua castellana organitzat en quinze temes: \n<ul> \n <li>Abecedari i ordenar paraules </li>\n <li>Majúscules </li>\n <li>M abans de p i b </li>\n <li>ca, que, qui, co, cu, ce, ci </li>\n <li>c, d, z </li>\n <li>r, rr </li>\n <li>g, j, gu, gü </li>\n <li>b, v </li>\n <li>s, x </li>\n <li>y, ll </li>\n <li>h </li>\n <li>Homònims </li>\n <li>Regles ortogràfiques </li>\n <li>Aprenc paraules </li>\n <li>Antònims i sinònims </li>\n</ul> El paquet inclou un document de Word amb les normes ortogràfiques bàsiques de la llengua castellana.",
+    "es": "Paquete de actividades de ortografía, organizado en quince temas: \n<ul> \n <li>Abecedario y ordenar palabras </li>\n <li>Mayúsculas </li>\n <li>M antes de p y b </li>\n <li>ca, que, qui, co, cu, ce, ci </li>\n <li>c, d, z </li>\n <li>r, rr </li>\n <li>g, j, gu, gü </li>\n <li>b, v </li>\n <li>s, x </li>\n <li>y, ll </li>\n <li>h </li>\n <li>Homónimos </li>\n <li>Reglas ortográficas </li>\n <li>Aprendo palabras </li>\n <li>Antónimos y sinónimos </li>\n</ul> El paquete incluye un documento de Word con las normas ortográficas básicas de la lengua castellana."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ortogra.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ortogra.jclic.zip",
+  "instFile": "jclic/ortogra.jclic.inst",
+  "clicZoneId": 1273,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1273",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ortogra/jclic/ortogra.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 121,
+  "mediaFiles": 0,
+  "totalSize": 909633,
+  "files": [
+    "cover.gif",
+    "jclic.js/infor3.pdf",
+    "jclic.js/ortogra.jclic",
+    "jclic.js/ortogra.pdf",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ortogra.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

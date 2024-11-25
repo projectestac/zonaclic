@@ -1,0 +1,97 @@
+{
+  "id": 1817,
+  "title": "English activities (To be)",
+  "author": "Mª Jesús Bernabeu",
+  "school": "CP Eliseu Vidal Valencia (Horta)",
+  "date": "01/12/08",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, vocabulari, verbs",
+    "es": "lengua inglesa, vocabulario, verbos",
+    "en": "English language, vocabulary, verbs"
+  },
+  "descCodes": [
+    130,
+    150,
+    905
+  ],
+  "description": {
+    "en": "Three projects of activities about English language addressed to pupils at last courses of primary education: \n<ul> \n <li>To be </li>\n <li>To have got </li>\n <li>Comparatives and superlatives </li>\n</ul>",
+    "ca": "Tres projectes d'activitats per a l'àrea de llengua anglesa adreçades a cicle superior d'educació primària: \n<ul> \n <li>To be </li>\n <li>To have got </li>\n <li>Comparatives and superlatives </li>\n</ul>",
+    "es": "Tres proyectos de actividades para el área de lengua inglesa dirigidas a ciclo superior de educación primaria: \n<ul> \n <li>To be </li>\n <li>To have got </li>\n <li>Comparatives and superlatives </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "compsup",
+    "havegot"
+  ],
+  "mainFile": "jclic.js/be.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/be.jclic.zip",
+  "instFile": "jclic/be.jclic.inst",
+  "clicZoneId": 3512,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3512",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/be/jclic/be.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 12,
+  "totalSize": 794946,
+  "files": [
+    "cover.jpg",
+    "jclic.js/am.wav",
+    "jclic.js/are.wav",
+    "jclic.js/be.jclic",
+    "jclic.js/heis.wav",
+    "jclic.js/iam.wav",
+    "jclic.js/is.wav",
+    "jclic.js/itis.wav",
+    "jclic.js/sheis.wav",
+    "jclic.js/theyare.wav",
+    "jclic.js/tiger.jpg",
+    "jclic.js/weare.wav",
+    "jclic.js/youare.wav",
+    "jclic.js/zebra.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/be.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

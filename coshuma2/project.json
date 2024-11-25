@@ -1,0 +1,127 @@
+{
+  "id": 1648,
+  "title": "El nostre cos",
+  "author": "Marc Gil Boté",
+  "school": "Escola Pau Boada Vilafranca del Penedès (Alt Penedès)",
+  "date": "21/02/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages",
+    "ca": "Ciències experimentals, Llengües",
+    "es": "Ciencias experimentales, Lenguas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua catalana, cos humà",
+    "es": "aprendizaje de la lengua, lengua catalana, cuerpo humano",
+    "en": "learning of the language, Catalan language, human body"
+  },
+  "descCodes": [
+    110,
+    133,
+    822
+  ],
+  "description": {
+    "en": "Project of activities addressed to immigrant pupils that have just come about the human body.",
+    "ca": "Projecte d'activitats per utilitzar a l'aula d'acollida sobre les parts del cos humà, identificació d'aquestes parts i escriptura de les parts més importatns.",
+    "es": "Proyecto de actividades para utilizar en el aula de acogida sobre las partes del cuerpo humano, identificación de estas partes y escritura de las partes más importantes."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/coshuma2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/coshuma2.jclic.zip",
+  "instFile": "jclic/coshuma2.jclic.inst",
+  "clicZoneId": 3359,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3359",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/coshuma2/jclic/coshuma2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 45,
+  "totalSize": 2202233,
+  "files": [
+    "cover.gif",
+    "jclic.js/brac.jpg",
+    "jclic.js/brac.wav",
+    "jclic.js/cama.jpg",
+    "jclic.js/cama.wav",
+    "jclic.js/cap.jpg",
+    "jclic.js/cap.wav",
+    "jclic.js/cara.jpg",
+    "jclic.js/cara.wav",
+    "jclic.js/colze.jpg",
+    "jclic.js/colze.wav",
+    "jclic.js/cos.jpg",
+    "jclic.js/cos.wav",
+    "jclic.js/coshuma2.jclic",
+    "jclic.js/dent.jpg",
+    "jclic.js/dent.wav",
+    "jclic.js/dit.jpg",
+    "jclic.js/dit.wav",
+    "jclic.js/esquena.jpg",
+    "jclic.js/esquena.wav",
+    "jclic.js/front.jpg",
+    "jclic.js/front.wav",
+    "jclic.js/genoll.jpg",
+    "jclic.js/genoll.wav",
+    "jclic.js/llavis.jpg",
+    "jclic.js/llavis.wav",
+    "jclic.js/ma.jpg",
+    "jclic.js/ma.wav",
+    "jclic.js/nas.jpg",
+    "jclic.js/nas.wav",
+    "jclic.js/orella.wav",
+    "jclic.js/panxa.jpg",
+    "jclic.js/panxa.wav",
+    "jclic.js/peu.jpg",
+    "jclic.js/peu.wav",
+    "jclic.js/pit.jpg",
+    "jclic.js/pit.wav",
+    "jclic.js/prella.jpg",
+    "jclic.js/puzzle1.jpg",
+    "jclic.js/puzzle2.jpg",
+    "jclic.js/titol.jpg",
+    "jclic.js/turmell.jpg",
+    "jclic.js/turmell.wav",
+    "jclic.js/ull.jpg",
+    "jclic.js/ull.wav",
+    "jclic.js/ungla.jpg",
+    "jclic.js/ungla.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/coshuma2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

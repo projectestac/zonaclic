@@ -1,0 +1,124 @@
+{
+  "id": 1024,
+  "title": "Escacs",
+  "author": "Rafael Delcazo Aced",
+  "school": "CFA Jacint Verdaguer Castelldefels (Baix Llobregat)",
+  "date": "05/06/03",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "escacs",
+    "es": "chess",
+    "en": "ajedrez"
+  },
+  "descCodes": [
+    1060
+  ],
+  "description": {
+    "en": "Package of activities about chess. We can find 6 sections : \n<ul> \n <li>Introduction </li>\n <li>The chessboard </li>\n <li>The pieces </li>\n <li>Algebraic notation </li>\n <li>How to move the pieces </li>\n <li>Basic lessons </li>\n</ul>",
+    "ca": "Paquet d'activitats sobre el joc dels escacs. Hi trobem 6 parts: \n<ul> \n <li>Introducció </li>\n <li>El tauler </li>\n <li>Les peces </li>\n <li>Notació algebraica </li>\n <li>Moviment de les peces </li>\n <li>Lliçons elementals </li>\n</ul>",
+    "es": "Paquete de actividades sobre el juego del ajedrez. Encontramos 6 partes: \n<ul> \n <li>Introducción </li>\n <li>El tablero </li>\n <li>Las piezas </li>\n <li>Notación algebraica </li>\n <li>Movimiento de las piezas </li>\n <li>Lecciones elementales </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/escacs.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/escacs.jclic.zip",
+  "instFile": "jclic/escacs.jclic.inst",
+  "clicZoneId": 2160,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2160",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/escacs/jclic/escacs.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 52,
+  "mediaFiles": 44,
+  "totalSize": 2850515,
+  "files": [
+    "cover.jpg",
+    "jclic.js/coorde.gif",
+    "jclic.js/coorde2.gif",
+    "jclic.js/corta2.gif",
+    "jclic.js/corta5.gif",
+    "jclic.js/elem1.gif",
+    "jclic.js/elem2.gif",
+    "jclic.js/elem3.gif",
+    "jclic.js/elem4.gif",
+    "jclic.js/elem5.gif",
+    "jclic.js/escacs.jclic",
+    "jclic.js/fotoa.gif",
+    "jclic.js/fotoc.gif",
+    "jclic.js/fotoca.gif",
+    "jclic.js/fotocol.gif",
+    "jclic.js/fotod.gif",
+    "jclic.js/fotop.gif",
+    "jclic.js/fotor.gif",
+    "jclic.js/fotot.gif",
+    "jclic.js/mateca.gif",
+    "jclic.js/matere.gif",
+    "jclic.js/mateto.gif",
+    "jclic.js/mateto2.gif",
+    "jclic.js/mateto3.gif",
+    "jclic.js/moval.gif",
+    "jclic.js/moval2.gif",
+    "jclic.js/movca.gif",
+    "jclic.js/movca2.gif",
+    "jclic.js/movda.gif",
+    "jclic.js/movda2.gif",
+    "jclic.js/movpe.gif",
+    "jclic.js/movpe2.gif",
+    "jclic.js/movre.gif",
+    "jclic.js/movre2.gif",
+    "jclic.js/movto.gif",
+    "jclic.js/movto1.gif",
+    "jclic.js/piezas.gif",
+    "jclic.js/portadaa.gif",
+    "jclic.js/senyal2.gif",
+    "jclic.js/senyal3.gif",
+    "jclic.js/senyal4.gif",
+    "jclic.js/senyal5.gif",
+    "jclic.js/table1.gif",
+    "jclic.js/table4.gif",
+    "jclic.js/tablelim.gif",
+    "jclic.js/trofeo3.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/escacs.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

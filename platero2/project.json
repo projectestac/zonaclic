@@ -1,0 +1,120 @@
+{
+  "id": 2345,
+  "title": "Centenario Platero y yo",
+  "author": "Rafael Junco Navarro",
+  "school": "CEIP Santos Mártires de Córdoba Córdoba (Córdoba), CEIP Victoria Díez de Hornachuelos Córdoba (Córdoba)",
+  "date": "15/01/15",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana",
+    "es": "lengua castellana",
+    "en": "Spanish language"
+  },
+  "descCodes": [
+    132
+  ],
+  "description": {
+    "en": "This projects was made for leveraging the book's centenary \n<b>Platero y yo</b>, de Juan Ramón Jiménez.",
+    "ca": "Aquest JClic es va realitzar per al Dia del llibre aprofitant el centenari del llibre \n<b>Platero y yo</b>, de Juan Ramón Jiménez.",
+    "es": "Este JClic se realizó para el Día del libro aprovechando el centenario del libro\n<b>Platero y yo</b>, de Juan Ramón Jiménez."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/platero2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/platero2.jclic.zip",
+  "instFile": "jclic/platero2.jclic.inst",
+  "clicZoneId": 3853,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3853",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/platero2/jclic/platero2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 41,
+  "totalSize": 2486160,
+  "files": [
+    "cover.png",
+    "jclic.js/20100608162545_002318.jpg",
+    "jclic.js/978_84_96257_55_9.jpg",
+    "jclic.js/alegria_infantil.mp3",
+    "jclic.js/aplausos.mp3",
+    "jclic.js/bien_voz_femenina.mp3",
+    "jclic.js/biennnnn.mp3",
+    "jclic.js/caballo_resized.jpg",
+    "jclic.js/cebra.jpg",
+    "jclic.js/centenario_de_fondo_resized.jpg",
+    "jclic.js/correcto_voz_femenina_computarizada.mp3",
+    "jclic.js/fuegos_artificiales.wav",
+    "jclic.js/ij00218901.jpg",
+    "jclic.js/imagen222.jpg",
+    "jclic.js/imagen3.jpg",
+    "jclic.js/imagen4.jpg",
+    "jclic.js/imagen5.jpg",
+    "jclic.js/imagen6.jpg",
+    "jclic.js/imagen7.jpg",
+    "jclic.js/julioromerodetorres.jpg",
+    "jclic.js/la_nina_dibujo_corregida.jpg",
+    "jclic.js/logo_ano_platero_resized.jpg",
+    "jclic.js/mujer_sorprendida.mp3",
+    "jclic.js/noticia1_11.jpg",
+    "jclic.js/objetivocumplido.mp3",
+    "jclic.js/ohhh_y_aplausos.mp3",
+    "jclic.js/ohhhhhhhh_voz_masculina.mp3",
+    "jclic.js/platero.jpg",
+    "jclic.js/platero2.jclic",
+    "jclic.js/platero_e_io_4f3bb7fda59d5.jpg",
+    "jclic.js/platero_logo.jpg",
+    "jclic.js/platero_y_yo__1__resized.jpg",
+    "jclic.js/platero_y_yo_ramon_jimenez__mlc_f_2737562069_052012_resized.jpg",
+    "jclic.js/platero_y_yo_resized.jpg",
+    "jclic.js/plateromoguer.jpg",
+    "jclic.js/que_nooooo_nina_pequena.mp3",
+    "jclic.js/risas_infantiles.mp3",
+    "jclic.js/seleccion_espanola.jpg",
+    "jclic.js/surprise_dj_b_8476_hifi.mp3",
+    "jclic.js/timthumb_resized.jpg",
+    "jclic.js/vivaaaaa__voz_masculina.mp3",
+    "jclic.js/wrong_public_d_269_hifi.mp3",
+    "jclic.js/yujuuuuuuu.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/platero2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

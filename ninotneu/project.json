@@ -1,0 +1,111 @@
+{
+  "id": 1821,
+  "title": "El ninot de neu",
+  "author": "Carmen González Moratilla",
+  "school": "CEIP Aitana Benidorm - Alacant (Marina Baixa)",
+  "date": "11/12/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, nadal",
+    "es": "aprendizaje de la lengua, navidad",
+    "en": "learning of the language, christmas"
+  },
+  "descCodes": [
+    110,
+    882
+  ],
+  "description": {
+    "en": "Project of activities with typical vocabulary about Christmas, the winter and the snowman \n<ul> \n <li>Christmas: typical elements of Christmas, stars, toys, zambomba, gifts, Christmas tree ... </li>\n <li>Parts of the snowman... </li>\n <li>Winter: cold, snow, gloves, scar... </li>\n</ul>",
+    "ca": "Projecte d'activitats per als més petits amb vocabulari típic del Nadal, l'hivern i els ninots de neu: \n<ul> \n <li>Nadal: elements típics de Nadal, estrella, joguines, simbomba, regals, avet... </li>\n <li>Ninot de neu: parts del ninot... </li>\n <li>Hivern: fred, flocs de neu, guants, bufanda... </li>\n</ul>",
+    "es": "Proyecto de actividades para los más pequeños con vocabulario típico sobre la Navidad, el invierno y los muñecos de nieve: \n<ul> \n <li>Navidad: elementos típicos de Navidad, estrella, juguetes, zambomba, regalos, abeto... </li>\n <li>Muñeco de nieve: partes del muñeco... </li>\n <li>Invierno: frio, copos de nieve, guantes, bufanda... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ninotneu.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ninotneu.jclic.zip",
+  "instFile": "jclic/ninotneu.jclic.inst",
+  "clicZoneId": 3515,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3515",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ninotneu/jclic/ninotneu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 44,
+  "mediaFiles": 30,
+  "totalSize": 1706909,
+  "files": [
+    "cover.gif",
+    "jclic.js/avet.gif",
+    "jclic.js/barret.jpg",
+    "jclic.js/bolagran.jpg",
+    "jclic.js/bolesavet.jpg",
+    "jclic.js/bufanda.jpg",
+    "jclic.js/camell.jpg",
+    "jclic.js/carlota.gif",
+    "jclic.js/deshielo1.jpg",
+    "jclic.js/entero.jpg",
+    "jclic.js/estrela.jpg",
+    "jclic.js/estrela2.jpg",
+    "jclic.js/flocs1.jpg",
+    "jclic.js/fred.gif",
+    "jclic.js/granera.jpg",
+    "jclic.js/guants.jpg",
+    "jclic.js/hivern.gif",
+    "jclic.js/joguines.jpg",
+    "jclic.js/mantegades.jpg",
+    "jclic.js/nina.jpg",
+    "jclic.js/ninotneu.jclic",
+    "jclic.js/regals.jpg",
+    "jclic.js/reis.jpg",
+    "jclic.js/roscon.jpg",
+    "jclic.js/sensebarret.jpg",
+    "jclic.js/sensebotons.jpg",
+    "jclic.js/sensebufanda.jpg",
+    "jclic.js/sensecarlota.jpg",
+    "jclic.js/sensegranera.jpg",
+    "jclic.js/senseulls.jpg",
+    "jclic.js/simbomba.jpg",
+    "jclic.js/torro.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ninotneu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

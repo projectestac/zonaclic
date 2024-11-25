@@ -1,0 +1,87 @@
+{
+  "id": 1683,
+  "title": "Els tractors",
+  "author": "Eva Isabel Morillo",
+  "school": "Escola Sant Climent Sant Climent de Llobregat (Baix Llobregat)",
+  "date": "06/06/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "tractor",
+    "es": "tractor",
+    "en": "tractor"
+  },
+  "descCodes": [
+    1378
+  ],
+  "description": {
+    "en": "Project of activities addressed to kindergarten and primary education about tractors.",
+    "ca": "Projecte d'activitats adreçat a educació infantil i primer cicle de primària sobre els tractors: què són, tipus (de camp, mixte, recol·lectora, de granja, sembladora i de jardí). Al projecte trobem també altres activitats sobre els mitjans de transport de terra, mar i aire.",
+    "es": "Proyecto de actividades dirigido a educación infantil y primer ciclo de primaria sobre los tractores: qué son, tipos (de campo, mixto, recolectora, de granja, sembradora y de jardín). A lo largo del projecto encontramos también actividades sobre los medios de transporte de tierra, mar y aire."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/tractors.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tractors.jclic.zip",
+  "instFile": "jclic/tractors.jclic.inst",
+  "clicZoneId": 3391,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3391",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/tractors/jclic/tractors.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 7,
+  "totalSize": 891789,
+  "files": [
+    "cover.jpg",
+    "jclic.js/pregunta.gif",
+    "jclic.js/recol.lectora.jpg",
+    "jclic.js/tractor_granja.jpg",
+    "jclic.js/tractor_mixte.jpg",
+    "jclic.js/tractor_pel_camp.jpg",
+    "jclic.js/tractor_per_jardi.jpg",
+    "jclic.js/tractor_sembradora.jpg",
+    "jclic.js/tractors.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/tractors.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

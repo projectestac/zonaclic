@@ -1,0 +1,117 @@
+{
+  "id": 389,
+  "title": "La vie en famille",
+  "author": "Julio Nieto",
+  "date": "22/07/02",
+  "languages": {
+    "en": "French",
+    "ca": "francès",
+    "es": "francés"
+  },
+  "langCodes": [
+    "fr"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua francesa",
+    "es": "gramática, lengua francesa",
+    "en": "grammar, French language"
+  },
+  "descCodes": [
+    665,
+    669
+  ],
+  "description": {
+    "en": "Clic activities about the family in french. Good for students with an intermidiate level of this langage.",
+    "ca": "En aquest paquet d'activitats de francès com a llengua estrangera es treballa el vocabulari relacionats amb la família (pare, mare, avi, àvia...). El paquet inclou també activitats sobre els nombres, els noms dels idiomes, els pronoms (quel, quelle, quels, quelles) i el verb \"avoir\".",
+    "es": "En este paquete de actividades de francés como lengua extranjera se trabaja el vocabulario relacionado con la familia (padre, madre, abuelo, abuela...). El paquete incluye también actividades sobre los números, los nombres de los idiomas, los pronombres (quel, quelle, quels, quelles) y el verbo \"avoir\"."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/familia2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/familia2.jclic.zip",
+  "instFile": "jclic/familia2.jclic.inst",
+  "clicZoneId": 1221,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1221",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/familia2/jclic/familia2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 38,
+  "totalSize": 1788132,
+  "files": [
+    "cover.gif",
+    "jclic.js/bravo.gif",
+    "jclic.js/clicbe_1.gif",
+    "jclic.js/familia2.jclic",
+    "jclic.js/famille.gif",
+    "jclic.js/fille.gif",
+    "jclic.js/fils.gif",
+    "jclic.js/grandmer.gif",
+    "jclic.js/grandmer.wav",
+    "jclic.js/grandper.gif",
+    "jclic.js/grandper.wav",
+    "jclic.js/inicio.gif",
+    "jclic.js/list11.gif",
+    "jclic.js/list110.gif",
+    "jclic.js/list111.gif",
+    "jclic.js/list112.gif",
+    "jclic.js/list113.gif",
+    "jclic.js/list114.gif",
+    "jclic.js/list115.gif",
+    "jclic.js/list116.gif",
+    "jclic.js/list117.gif",
+    "jclic.js/list118.gif",
+    "jclic.js/list119.gif",
+    "jclic.js/list12.gif",
+    "jclic.js/list120.gif",
+    "jclic.js/list13.gif",
+    "jclic.js/list14.gif",
+    "jclic.js/list15.gif",
+    "jclic.js/list16.gif",
+    "jclic.js/list17.gif",
+    "jclic.js/list18.gif",
+    "jclic.js/list19.gif",
+    "jclic.js/mamer.wav",
+    "jclic.js/mere.gif",
+    "jclic.js/moi.wav",
+    "jclic.js/monfrer.wav",
+    "jclic.js/monper.wav",
+    "jclic.js/parfait.gif",
+    "jclic.js/pere.gif",
+    "jclic.js/reussi.bmp",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/familia2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": 416,
+  "title": "10 Esaera Zahar",
+  "author": "José Javier Zozalla Leacha",
+  "school": "CEIP Xabier Zubiri Zubiri (Navarra)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "comprensió escrita, dites",
+    "es": "comprensión escrita, refranes",
+    "en": "written understanding, proverbs"
+  },
+  "descCodes": [
+    111,
+    936
+  ],
+  "description": {
+    "en": "Clic activities about proverbs in Basque",
+    "ca": "Paquet d'activitats on es treballen 10 refranys d'ús habitual en euskera.",
+    "es": "Paquete de actividades dónde se trabajan 10 refranes de uso habitual en eusquera."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/esaera.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/esaera.jclic.zip",
+  "instFile": "jclic/esaera.jclic.inst",
+  "clicZoneId": 1242,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1242",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/esaera/jclic/esaera.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 16,
+  "totalSize": 834538,
+  "files": [
+    "cover.gif",
+    "jclic.js/aldapa.gif",
+    "jclic.js/aldapa.wav",
+    "jclic.js/arrats.wav",
+    "jclic.js/azeparea.wav",
+    "jclic.js/barea.gif",
+    "jclic.js/belar.gif",
+    "jclic.js/belarri.wav",
+    "jclic.js/bista.wav",
+    "jclic.js/ederki.wav",
+    "jclic.js/esaera.jclic",
+    "jclic.js/excelen.wav",
+    "jclic.js/hartzeko.wav",
+    "jclic.js/itsu.gif",
+    "jclic.js/kanpoan.wav",
+    "jclic.js/osongi.wav",
+    "jclic.js/primeran.wav",
+    "jclic.js/su.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/esaera.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

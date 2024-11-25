@@ -1,0 +1,94 @@
+{
+  "id": 1664,
+  "title": "El Cid Campeador",
+  "author": "Roberto Rodríguez Blanco",
+  "school": "Colegio San Agustín Valladolid (Castilla y León)",
+  "date": "03/05/07",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "Project of activities about Don Rodrigo Díaz de Vivar - El Cid Campeador in motive of the eight centenary of the \n<i>Cantar del Mío Cid</i>. The project is addressed to primary education.",
+    "ca": "Projecte d'activitats sobre Don Rodrigo Díaz de Vivar - El Cid Campeador en motiu del vuitè centenari del \n<i>Cantar del Mío Cid</i>. El projecte ha estat creat per a alumnat de segon i tercer cicle d'educació primària per ser utilitzat a les àrees de Llengua castellana i Coneixement del medi.",
+    "es": "Proyecto de actividades sobre Don Rodrigo Díaz de Vivar - El Cid Campeador en motivo del octavo centenario del \n<i>Cantar del Mío Cid</i>. El proyecto ha sido creado para alumnado de segundo y tercer ciclo de educación primara para ser utilizado en las áreas de Lengua castellana y Conocimiento del medio."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cid.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cid.jclic.zip",
+  "instFile": "jclic/cid.jclic.inst",
+  "clicZoneId": 3372,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3372",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cid/jclic/cid.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 26,
+  "mediaFiles": 23,
+  "totalSize": 1015122,
+  "files": [
+    "cover.jpg",
+    "jclic.js/anadad_1.gif",
+    "jclic.js/caballo.bmp",
+    "jclic.js/caballo2.gif",
+    "jclic.js/cantar.bmp",
+    "jclic.js/cantar.gif",
+    "jclic.js/castillo.bmp",
+    "jclic.js/cid.bmp",
+    "jclic.js/cid.gif",
+    "jclic.js/cid.jclic",
+    "jclic.js/cid1.bmp",
+    "jclic.js/cid1.gif",
+    "jclic.js/cid_cr_1.gif",
+    "jclic.js/cidcab_1.gif",
+    "jclic.js/cidcine.bmp",
+    "jclic.js/cidd.gif",
+    "jclic.js/cidpic2.bmp",
+    "jclic.js/cidpic2.gif",
+    "jclic.js/cidrey.bmp",
+    "jclic.js/cidyre_1.gif",
+    "jclic.js/fotosv_1.gif",
+    "jclic.js/soldados.gif",
+    "jclic.js/spain1_1.gif",
+    "jclic.js/tizona.bmp",
+    "jclic.js/tizona_1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cid.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": 237,
+  "title": "Actividades de literatura castellana",
+  "author": "Carme Muñoz Gimeno i Silvano Andrés de la Morena",
+  "school": "Institut Ernest Lluch Barcelona, Institut Terra Roja Santa Coloma de Gramenet (Barcelonès)",
+  "date": "12/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, poesia",
+    "es": "lengua castellana, poesía",
+    "en": "Spanish language, poetry"
+  },
+  "descCodes": [
+    132,
+    650
+  ],
+  "description": {
+    "en": "Group of three activity packs in which are explained the workings of sonnets, metric, rhetorical figures and literary topics in poetry.",
+    "ca": "Conjunt de tres paquets d'activitats per treballar els sonets, temes de mètrica (versos, rimes i estrofes), figures retòriques i tòpics literaris.",
+    "es": "Conjunto de tres paquetes de actividades para trabajar los sonetos, temas de métrica (versos, rimas y estrofas), figuras retóricas y tópicos literarios."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/litecast.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/litecast.jclic.zip",
+  "instFile": "jclic/litecast.jclic.inst",
+  "clicZoneId": 1122,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1122",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/litecast/jclic/litecast.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 21,
+  "totalSize": 302675,
+  "files": [
+    "cover.gif",
+    "jclic.js/autores.gif",
+    "jclic.js/fig.gif",
+    "jclic.js/figuras.gif",
+    "jclic.js/lira.gif",
+    "jclic.js/litecast.jclic",
+    "jclic.js/litera.gif",
+    "jclic.js/metr.gif",
+    "jclic.js/metrica.gif",
+    "jclic.js/pareado.gif",
+    "jclic.js/petrarc2.gif",
+    "jclic.js/solea.gif",
+    "jclic.js/son.gif",
+    "jclic.js/sonconts.gif",
+    "jclic.js/soneto.gif",
+    "jclic.js/sontestr.gif",
+    "jclic.js/structur.gif",
+    "jclic.js/villan.gif",
+    "jclic.js/zejel1.gif",
+    "jclic.js/zejel2.gif",
+    "jclic.js/zejel3.gif",
+    "jclic.js/zejel4.gif",
+    "jclic.js/zejel5.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/litecast.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

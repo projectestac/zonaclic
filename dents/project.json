@@ -1,0 +1,117 @@
+{
+  "id": 1756,
+  "title": "Les dents",
+  "author": "María José Cervelló Pérez",
+  "school": "Escola Enric Grau i Fontserè Flix (Ribera d'Ebre)",
+  "date": "15/04/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "description": {
+    "en": "Project of activities with puzzles, numbers, reading and writinG activities, matchING activities... about teeth and dental hygiene as well as nutrinional habits.",
+    "ca": "Conjunt d'activitats que inclouen puzzles, numeració, lectura, escriptura, associacions, relacions... Es pretén que els nens i les nenes entenguin la importància de la higiene dental i els bons hàbits en alimentació.",
+    "es": "Conjunto de actividades que incluyen puzzles, numeración, lectura, escritura, asociaciones, relaciones... Se pretende que los niños y niñas entiendan la importancia de la higiene dental y los buenos hábitos en la alimentación."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/dents.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/dents.jclic.zip",
+  "instFile": "jclic/dents.jclic.inst",
+  "clicZoneId": 3453,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3453",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/dents/jclic/dents.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 46,
+  "totalSize": 942624,
+  "files": [
+    "cover.gif",
+    "jclic.js/33_2.jpg",
+    "jclic.js/34_1.jpg",
+    "jclic.js/5ratolina.gif",
+    "jclic.js/6queixals.gif",
+    "jclic.js/7caries.gif",
+    "jclic.js/8dent.jpg",
+    "jclic.js/9pasta.gif",
+    "jclic.js/barrufet_dents.jpg",
+    "jclic.js/busca_paraules.mp3",
+    "jclic.js/busca_parella.mp3",
+    "jclic.js/caries.gif",
+    "jclic.js/dent_1.gif",
+    "jclic.js/dent_2.gif",
+    "jclic.js/dent_3.gif",
+    "jclic.js/dent_4.gif",
+    "jclic.js/dent_5.gif",
+    "jclic.js/dent_6.gif",
+    "jclic.js/denta.jpg",
+    "jclic.js/dentist1.gif",
+    "jclic.js/dentista_3.gif",
+    "jclic.js/dents.jclic",
+    "jclic.js/dents_1.jpg",
+    "jclic.js/dents_brutes.gif",
+    "jclic.js/dents_netes.jpg",
+    "jclic.js/dents_sanes_2.mp3",
+    "jclic.js/encertat2.mp3",
+    "jclic.js/escriu.mp3",
+    "jclic.js/fantastic1.mp3",
+    "jclic.js/fantastic_2.mp3",
+    "jclic.js/fes_el_puzzle2.mp3",
+    "jclic.js/fes_el_puzzle_1.mp3",
+    "jclic.js/fes_el_puzzle_3.mp3",
+    "jclic.js/logotip_definitiu.gif",
+    "jclic.js/molt_be.mp3",
+    "jclic.js/molt_be_3.mp3",
+    "jclic.js/molt_be_4.mp3",
+    "jclic.js/molt_be_5.mp3",
+    "jclic.js/ordena1.mp3",
+    "jclic.js/pasta_1.jpg",
+    "jclic.js/raspall.gif",
+    "jclic.js/ratoliperezg.jpg",
+    "jclic.js/relaciona.mp3",
+    "jclic.js/sin_titulo_4.gif",
+    "jclic.js/sin_titulo_5.gif",
+    "jclic.js/sopa_de_lletres.mp3",
+    "jclic.js/superbe.mp3",
+    "jclic.js/torna_ho_a_provar.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/dents.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

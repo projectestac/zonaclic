@@ -1,0 +1,84 @@
+{
+  "id": 2432,
+  "title": "Multiplicar",
+  "author": "Paulí Pérez Calabuig",
+  "school": "CP Felicidad Bernabeu IBI - Alacant (L'Alcoià)",
+  "date": "11/02/16",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la matemàtica, didàctica de la matemàtica",
+    "es": "aprendizaje de la matemática, didáctica de la matemática",
+    "en": "learning of the mathematical one, Didactics of the mathematics"
+  },
+  "descCodes": [
+    700,
+    704
+  ],
+  "description": {
+    "en": "Learning and Assessment multiplication tables to start progressively students in memorizing the tables. Recommended for primary school.",
+    "ca": "Aprenentatge i autoavaluació de les TAULES DE MULTIPLICAR per a iniciar els alumnes progresivament en la memorització de les taules. Recomanat a partir de segon de primària.",
+    "es": "Aprendizaje y evaluación de las TABLAS DE MULTIPLICAR para iniciar a los alumnos progresivamente en la memorización de las tablas. Recomendado a partir de segundo de primaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/multi.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/multi.jclic.zip",
+  "instFile": "jclic/multi.jclic.inst",
+  "clicZoneId": 3941,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3941",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/multi/jclic/multi.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 195,
+  "mediaFiles": 4,
+  "totalSize": 2206983,
+  "files": [
+    "cover.png",
+    "jclic.js/bien.jpg",
+    "jclic.js/fletxa.gif",
+    "jclic.js/multi.jclic",
+    "jclic.js/mussol.jpg",
+    "jclic.js/palmes.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/multi.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

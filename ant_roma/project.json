@@ -1,0 +1,106 @@
+{
+  "id": 1906,
+  "title": "Antiga Roma",
+  "author": "Montse Alsius",
+  "school": "Institut Viladecavalls Viladecavalls (Vallès Occidental)",
+  "date": "25/03/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales",
+    "en": "Social sciences"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)",
+    "en": "Primary school (6-12), Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "història de roma",
+    "es": "historia de roma",
+    "en": "history of blunt"
+  },
+  "descCodes": [
+    253
+  ],
+  "description": {
+    "en": "Set activities about the ancient history of Rome, easy resolution to work with students of secondary education. There are activities to review the basic content of the item.",
+    "ca": "Conjunt d'activitats sobre la història de l'Antiga Roma, de molt fàcil resolució, per treballar amb alumnes de 1r d'ESO i també de primària. Són activitats pensades per repassar continguts bàsics d'aquest tema.",
+    "es": "Conjunto de actividades sobre la historia antigua de Roma, de muy fácil resolución, para trabajar con alumnos de 1º de ESO y también de primaria. Son actividades para repasar contenidos básicos de este tema."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ant_roma.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ant_roma.jclic.zip",
+  "instFile": "jclic/ant_roma.jclic.inst",
+  "clicZoneId": 3532,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3532",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ant_roma/jclic/ant_roma.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 26,
+  "totalSize": 2173252,
+  "files": [
+    "cover.jpg",
+    "jclic.js/amfiteatre1.jpg",
+    "jclic.js/ant_roma.jclic",
+    "jclic.js/aqueducte.jpg",
+    "jclic.js/circ1.jpg",
+    "jclic.js/croquis_ciutat.jpg",
+    "jclic.js/deus.gif",
+    "jclic.js/divisio_imperi.jpg",
+    "jclic.js/esclau1.jpg",
+    "jclic.js/esclaus2.jpg",
+    "jclic.js/esquema_imperi.jpg",
+    "jclic.js/esquema_roma.jpg",
+    "jclic.js/exercit.jpg",
+    "jclic.js/funcionaris.jpg",
+    "jclic.js/gent1.jpg",
+    "jclic.js/imatges_tarraco.png",
+    "jclic.js/imperio_romano_1_.jpg",
+    "jclic.js/mapamutlat.jpg",
+    "jclic.js/patrici.gif",
+    "jclic.js/patricia.jpg",
+    "jclic.js/patricis.jpg",
+    "jclic.js/plebeia.jpg",
+    "jclic.js/plebeus2.jpg",
+    "jclic.js/romul_rem.jpg",
+    "jclic.js/soldatcavall.gif",
+    "jclic.js/tarraco.png",
+    "jclic.js/teatre1.jpg",
+    "jclic.js/temple.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ant_roma.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

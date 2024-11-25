@@ -1,0 +1,82 @@
+{
+  "id": 433,
+  "title": "Estimulación del lenguaje",
+  "author": "José Pedro Roda Martínez",
+  "school": "CP Santo Negro Elda (Valls del Vinalopó)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, comprensió escrita, fonètica",
+    "es": "aprendizaje de la lengua, comprensión escrita, fonética",
+    "en": "learning of the language, written understanding, phonetics"
+  },
+  "descCodes": [
+    110,
+    111,
+    121
+  ],
+  "description": {
+    "en": "Clic activities about language stimulation in Spanish. In the package there are different kinds of activities: \n<ul> \n <li>Spelling. </li>\n <li>Problems of reasoning, opposites and analogies. </li>\n <li>Confusion of phonemes, graphemes, associations, analogies, put in order. </li>\n <li>The months of the year and the days of the week. </li>\n <li>Temporary notions, to put in order and definitions. </li>\n <li>Situations, comparisons and classes. </li>\n <li>Similarities, synonymous, antonyms... </li>\n <li>Associations, sentences and riddles. </li>\n <li>Absurds, texts, rhymes and riddles. </li>\n <li>Different words. </li>\n <li>Temporary sequence. </li>\n <li>Alphabetical order. </li>\n <li>Reading understanding, descriptions and definitions. </li>\n</ul>",
+    "ca": "Paquet d'activitats per a l'estimulació del llenguatge. Hi ha diferents tipus d'exercicis: \n<ul> \n <li>Ortografia bàsica. </li>\n <li>Problemes de raonament, analogies, oposats. </li>\n <li>Confusió de fonemes, grafemes, associacions, analogies, ordenar. </li>\n <li>Els mesos de l'any i els dies de la setmana. </li>\n <li>Nocions temporals, ordenar, definicions. </li>\n <li>Situacions, categories, comparacions. </li>\n <li>Semblances, sinònims, antònims... </li>\n <li>Associacions, frases, endevinalles. </li>\n <li>Absurds, text, rimes, endevinalles. </li>\n <li>Paraules diferents. </li>\n <li>Seqüència temporal. </li>\n <li>Ordre alfabètic. </li>\n <li>Comprensió lectora, descripció, definició. </li>\n</ul>",
+    "es": "Paquete de actividades para la estimulación del lenguaje. Hay diferentes tipos de ejercicios: \n<ul> \n <li>Ortografía básica. </li>\n <li>Problemas de razonamiento, analogías, opuestos. </li>\n <li>Confusión de fonemas, grafemas, asociaciones, analogías, ordenar. </li>\n <li>Los meses del año y los días de la semana. </li>\n <li>Nociones temporales, ordenar, definiciones. </li>\n <li>Situaciones, categorías, comparaciones. </li>\n <li>Semejanzas, sinónimos, antónimos... </li>\n <li>Asociaciones, frases, adivinanzas. </li>\n <li>Absurdos, texto, rimas, adivinanzas. </li>\n <li>Palabras diferentes. </li>\n <li>Secuencia temporal. </li>\n <li>Orden alfabético. </li>\n <li>Comprensión lectora, descripción, definición. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/estimlen.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/estimlen.jclic.zip",
+  "instFile": "jclic/estimlen.jclic.inst",
+  "clicZoneId": 1258,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1258",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/estimlen/jclic/estimlen.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 50,
+  "mediaFiles": 1,
+  "totalSize": 393096,
+  "files": [
+    "cover.gif",
+    "jclic.js/estimlen.jclic",
+    "jclic.js/presenta.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/estimlen.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": 2146,
+  "title": "Ortografia i gramàtica catalana",
+  "author": "Joana Morales",
+  "school": "C Mare del Diví Pastor Capellades (Anoia)",
+  "date": "12/05/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, gramàtica, llengua catalana, ortografia",
+    "es": "aprendizaje de la lengua, gramática, lengua catalana, ortografía",
+    "en": "learning of the language, grammar, Catalan language, spelling"
+  },
+  "descCodes": [
+    110,
+    123,
+    133,
+    146
+  ],
+  "description": {
+    "en": "Project of activities about Catalan language addressed to 3th cycle of primary education: \n<ul> \n <li>Spelling: accentuation rules </li>\n <li>Grammar: determinants, contractions, prepositions and conjunctions, verbs ... </li>\n</ul>",
+    "ca": "Projecte d'activitats per repassar la llengua catalana a cicle superior de primària: \n<ul> \n <li>Ortografia: normes d'accentuació, \"essa\" sorda i \"essa\" sonora... </li>\n <li>Gramàtica: determinants, contraccions, preposicions i conjuncions, verbs... </li>\n</ul>",
+    "es": "Proyecto de actividades para repasar la lengua catalana en ciclo superior de primaria: \n<ul> \n <li>Ortografía: normas de acentuación, \"ese\" sorda y \"ese\" sonora... </li>\n <li>Gramática: determinantes, contracciones, preposiciones y conjunciones, verbos... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ortogram.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ortogram.jclic.zip",
+  "instFile": "jclic/ortogram.jclic.inst",
+  "clicZoneId": 3685,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3685",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ortogram/jclic/ortogram.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 4,
+  "totalSize": 333773,
+  "files": [
+    "cover.png",
+    "jclic.js/cole.jpg",
+    "jclic.js/llibres_en_catala_resized.jpg",
+    "jclic.js/nomo.gif",
+    "jclic.js/ortogram.jclic",
+    "jclic.js/puzzle.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ortogram.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

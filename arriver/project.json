@@ -1,0 +1,97 @@
+{
+  "id": 420,
+  "title": "Arriver",
+  "author": "Llanos Navalón Yeste",
+  "school": "CP Juan Ramón Jiménez Sant Vicent del Raspeig (Alacantí)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "French",
+    "ca": "francès",
+    "es": "francés"
+  },
+  "langCodes": [
+    "fr"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua francesa",
+    "es": "lengua francesa",
+    "en": "French language"
+  },
+  "descCodes": [
+    669
+  ],
+  "description": {
+    "en": "Clic activities in French with dialogues and some activities about: \n<br> \n<li>Présent des verbes avoir, être, s¿appeler et habiter. </li>\n<li>Féminins irréguliers des adjectifs. </li>\n<li>Pronoms personnels toniques. </li>\n<li>C¿est/ il est. </li>\n<li>Les salutations et la politesse. </li>\n<li>Les professions. </li>\n<li>Les établissements scolaires français. </li>",
+    "ca": "Paquet de 23 activitats de francès, amb diàlegs i diverses activitats sobre: \n<br> \n<li>Présent des verbes avoir, être, s¿appeler et habiter. </li>\n<li>Féminins irréguliers des adjectifs. </li>\n<li>Pronoms personnels toniques. </li>\n<li>C¿est/ il est. </li>\n<li>Les salutations et la politesse </li>\n<li>Les professions </li>\n<li>Les établissements scolaires français <br> Les activitats estan basades en el llibre de Francès d'Anaya per a 1r dESO. </li>",
+    "es": "Paquete de 23 actividades de francés, con diálogos y diversas actividades sobre:\n<br> \n<li>Présent des verbes avoir, être, s¿appeler et habiter. </li>\n<li>Féminins irréguliers des adjectifs. </li>\n<li>Pronoms personnels toniques. </li>\n<li>C¿est/ il est. </li>\n<li>Les salutations et la politesse. </li>\n<li>Les professions. </li>\n<li>Les établissements scolaires français <br> Las actividades están basadas en el libro de Francés de Anaya para 1º ESO. </li>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/arriver.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/arriver.jclic.zip",
+  "instFile": "jclic/arriver.jclic.inst",
+  "clicZoneId": 1246,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1246",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/arriver/jclic/arriver.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 18,
+  "totalSize": 3244576,
+  "files": [
+    "cover.gif",
+    "jclic.js/3_8.wav",
+    "jclic.js/3_9.wav",
+    "jclic.js/arriver.jclic",
+    "jclic.js/chan3.wav",
+    "jclic.js/chauffer.gif",
+    "jclic.js/del.gif",
+    "jclic.js/ense.gif",
+    "jclic.js/fon3.wav",
+    "jclic.js/i1.gif",
+    "jclic.js/i2.gif",
+    "jclic.js/i3.gif",
+    "jclic.js/l3.wav",
+    "jclic.js/medec.gif",
+    "jclic.js/minialt.gif",
+    "jclic.js/orden.gif",
+    "jclic.js/ouvrier.gif",
+    "jclic.js/port.gif",
+    "jclic.js/rapid.gif",
+    "jclic.js/revoir.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/arriver.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

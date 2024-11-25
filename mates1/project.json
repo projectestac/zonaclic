@@ -1,0 +1,106 @@
+{
+  "id": 2043,
+  "title": "Matemáticas 1º de primaria",
+  "author": "Juan Antonio Punzano Sirvent",
+  "school": "CEIP Alhambra Madrid (Madrid)",
+  "date": "09/04/10",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la matemàtica, càlcul",
+    "es": "aprendizaje de la matemática, cálculo",
+    "en": "learning of the mathematical one, calculation"
+  },
+  "descCodes": [
+    700,
+    702
+  ],
+  "description": {
+    "en": "Project of activities about Maths addressed to first course of primary education. Throughout the project we find activities of addition, subtraction and problem-solving. The project is divided into two parts: \n<ul> \n <li>Review </li>\n <li>Activities </li>\n</ul>",
+    "ca": "Projecte d'activitats adreçat a primer d'educació primària sobre la desena i la unitat. Al llarg del projecte es troben activitats de sumes, restes i resolució de problemes senzills. El projecte consta de dues parts: \n<ul> \n <li>Repàs </li>\n <li>Activitats </li>\n</ul>",
+    "es": "Proyecto de actividades dirigidas a primero de educación primaria sobre la decena y la unidad. A lo largo del proyecto encontramos actividades de sumas, restas y resolución de problemas. El proyecto está dividido en dos partes: \n<ul> \n <li>Repaso </li>\n <li>Actividades </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "mates1b"
+  ],
+  "mainFile": "jclic.js/mates1.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mates1.jclic.zip",
+  "instFile": "jclic/mates1.jclic.inst",
+  "clicZoneId": 3613,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3613",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/mates1/jclic/mates1.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 19,
+  "totalSize": 2224717,
+  "files": [
+    "cover.gif",
+    "jclic.js/mates1.jclic",
+    "jclic.js/mates1a/mates1a.jclic",
+    "jclic.js/mates1a/punzanosirvent_abaco.jpg",
+    "jclic.js/mates1a/punzanosirvent_abaco2.png",
+    "jclic.js/mates1a/punzanosirvent_cancion.png",
+    "jclic.js/mates1a/punzanosirvent_cerrada_abierta.png",
+    "jclic.js/mates1a/punzanosirvent_lessons.png",
+    "jclic.js/mates1a/punzanosirvent_lineas.png",
+    "jclic.js/mates1a/punzanosirvent_poligonos.png",
+    "jclic.js/mates1b/mates1b.jclic",
+    "jclic.js/mates1b/punzanosirvent_12.jpg",
+    "jclic.js/mates1b/punzanosirvent_24.jpg",
+    "jclic.js/mates1b/punzanosirvent_abaco.jpg",
+    "jclic.js/mates1b/punzanosirvent_abacom.png",
+    "jclic.js/mates1b/punzanosirvent_abierta_cerrada2.png",
+    "jclic.js/mates1b/punzanosirvent_cubo.png",
+    "jclic.js/mates1b/punzanosirvent_curva.png",
+    "jclic.js/mates1b/punzanosirvent_images1.png",
+    "jclic.js/mates1b/punzanosirvent_recta.png",
+    "jclic.js/mates1b/punzanosirvent_triangulo.png",
+    "jclic.js/punzanosirvent_abaco.jpg",
+    "jclic.js/punzanosirvent_portadaprincipal.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/mates1.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/mates1a/mates1a.jclic.js",
+    "jclic.js/mates1b/mates1b.jclic.js",
+    "cover.webp"
+  ]
+}

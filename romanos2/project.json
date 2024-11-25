@@ -1,0 +1,89 @@
+{
+  "id": 624,
+  "title": "Números romanos",
+  "author": "Juan José Mateo Molina",
+  "school": "CP El Olivar Rivas - Vaciamadrid (Madrid)",
+  "date": "26/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "fonaments de les matemàtiques, numeració romana",
+    "es": "fundamentos de las matemáticas, numeración romana",
+    "en": "foundations of the mathematics, roman numerals"
+  },
+  "descCodes": [
+    707,
+    913
+  ],
+  "description": {
+    "en": "Application based on the text book \"Matemáticas de 4º de E. Primaria\" edited by Santillana.\n<br> You'll find more information in the pages \n<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">\"Aplicaciones educativas\"</a></b>.",
+    "ca": "Aquesta aplicació s'ha dissenyat a partir del llibre de text de matemàtiques de 4t de primària de l'editorial Santillana, per a facilitar l'aprenentatge dels nombres romans.\n<br> Trobareu més informació a la web d'\n<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo.",
+    "es": "Esta pequeña aplicación se ha diseñado, a partir del libro de texto de Matemáticas de 4º de E. Primaria, de la editorial Santillana, para facilitar el aprendizaje de los números romanos.\n<br> Encontraréis más información en la web de \n<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "erromata"
+  ],
+  "mainFile": "jclic.js/romanos2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/romanos2.jclic.zip",
+  "instFile": "jclic/romanos2.jclic.inst",
+  "clicZoneId": 1337,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1337",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/romanos2/jclic/romanos2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 6,
+  "totalSize": 356909,
+  "files": [
+    "cover.gif",
+    "jclic.js/autor.gif",
+    "jclic.js/clic3.gif",
+    "jclic.js/imagine.mid",
+    "jclic.js/olivos.gif",
+    "jclic.js/puzzle.wav",
+    "jclic.js/romanos.gif",
+    "jclic.js/romanos2.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/romanos2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

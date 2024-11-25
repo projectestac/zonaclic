@@ -1,0 +1,120 @@
+{
+  "id": 702,
+  "title": "Simetria",
+  "author": "Rafael Rodríguez Martín",
+  "school": "CP Alejandro Rubio Guadalix de la Sierra (Madrid)",
+  "date": "10/11/03",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "simetries",
+    "es": "simetrías",
+    "en": "symmetrys"
+  },
+  "descCodes": [
+    945
+  ],
+  "description": {
+    "en": "Clic activities about symmetries with three difficulty levels.",
+    "ca": "Paquet amb 12 exercicis de simetries. El programa està estructurat en tres nivells de diferent dificultat.",
+    "es": "Paquete con 12 ejercicios de simetrías. El programa está estructurado en tres niveles de diferente dificultad."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "sim_fra",
+    "simetria"
+  ],
+  "mainFile": "jclic.js/simetreu.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/simetreu.jclic.zip",
+  "instFile": "jclic/simetreu.jclic.inst",
+  "clicZoneId": 1368,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1368",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/simetreu/jclic/simetreu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 31,
+  "totalSize": 276919,
+  "files": [
+    "cover.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/sima/amari.gif",
+    "jclic.js/sima/azul.gif",
+    "jclic.js/sima/rojo.gif",
+    "jclic.js/sima/sima.jclic",
+    "jclic.js/sima/sima1.gif",
+    "jclic.js/sima/sima1v.gif",
+    "jclic.js/sima/sima2.gif",
+    "jclic.js/sima/sima2v.gif",
+    "jclic.js/sima/sima3.gif",
+    "jclic.js/sima/sima3v.gif",
+    "jclic.js/sima/verde.gif",
+    "jclic.js/simb/amari.gif",
+    "jclic.js/simb/azul.gif",
+    "jclic.js/simb/rojo.gif",
+    "jclic.js/simb/simb.jclic",
+    "jclic.js/simb/simb1.gif",
+    "jclic.js/simb/simb1v.gif",
+    "jclic.js/simb/simb2.gif",
+    "jclic.js/simb/simb2v.gif",
+    "jclic.js/simb/simb3.gif",
+    "jclic.js/simb/simb3v.gif",
+    "jclic.js/simb/verde.gif",
+    "jclic.js/simc/amari.gif",
+    "jclic.js/simc/azul.gif",
+    "jclic.js/simc/rojo.gif",
+    "jclic.js/simc/simc.jclic",
+    "jclic.js/simc/simc1.gif",
+    "jclic.js/simc/simc1v.gif",
+    "jclic.js/simc/simc2.gif",
+    "jclic.js/simc/simc2v.gif",
+    "jclic.js/simc/simc3.gif",
+    "jclic.js/simc/simc3v.gif",
+    "jclic.js/simc/verde.gif",
+    "jclic.js/simetreu.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/simetreu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/sima/sima.jclic.js",
+    "jclic.js/simb/simb.jclic.js",
+    "jclic.js/simc/simc.jclic.js",
+    "cover.webp"
+  ]
+}

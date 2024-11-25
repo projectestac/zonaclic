@@ -1,0 +1,99 @@
+{
+  "id": 1517,
+  "title": "Clases de sustantivos",
+  "author": "Virgilio Gonzales Alzamora",
+  "school": "Institución educativa estatal \"Mariano Melgar\" Villa María del Triunfo - Lima (Perú)",
+  "date": "03/01/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "lèxic, llengua castellana",
+    "es": "léxico, lengua castellana",
+    "en": "lexicon, Spanish language"
+  },
+  "descCodes": [
+    126,
+    132
+  ],
+  "description": {
+    "en": "Project of activities about different nouns in Spanish.",
+    "ca": "Projecte d'activitats sobre els diferents tipus de substantius en llengua castellana: comú, concret, individual...",
+    "es": "Proyecto de actividades sobre los diferentes tipos de sustantivos en lengua castellana: común, concreto, individual..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sustanti.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sustanti.jclic.zip",
+  "instFile": "jclic/sustanti.jclic.inst",
+  "clicZoneId": 3231,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3231",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sustanti/jclic/sustanti.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 19,
+  "totalSize": 1480565,
+  "files": [
+    "cover.gif",
+    "jclic.js/animales1.jpg",
+    "jclic.js/aplauso.wav",
+    "jclic.js/arma.wav",
+    "jclic.js/bandada2.gif",
+    "jclic.js/caballo.gif",
+    "jclic.js/chino.gif",
+    "jclic.js/condor.mp3",
+    "jclic.js/gatos2.gif",
+    "jclic.js/gotito3.gif",
+    "jclic.js/hombre.gif",
+    "jclic.js/hombre2.gif",
+    "jclic.js/insignia_6019.gif",
+    "jclic.js/lavadora.gif",
+    "jclic.js/loro2.gif",
+    "jclic.js/miperu.mid",
+    "jclic.js/olla.gif",
+    "jclic.js/peces2.gif",
+    "jclic.js/rela.wav",
+    "jclic.js/saturno.gif",
+    "jclic.js/sustanti.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sustanti.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": 98,
+  "title": "Les aus del Delta de l'Ebre",
+  "author": "Camp d'aprenentatge del Delta de l'Ebre",
+  "date": "09/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "ecosistema, ocells, Baix Ebre, Montsià",
+    "es": "ecosistema, pájaros, Baix Ebre, Montsià",
+    "en": "ecosystem, birds, Baix Ebre, Montsià"
+  },
+  "descCodes": [
+    66,
+    92,
+    471,
+    535
+  ],
+  "description": {
+    "en": "Activity pack about the birds that live in the Ebro river's delta. Their habitat and the ecological problems that affect their survival.",
+    "ca": "Paquet d'activitats sobre les aus del Delta de l'Ebre, el seu hàbitat, l'adaptació al medi de cada espècie i els problemes ecològics que afecten la seva supervivència. Conté imatges i sons de les aus, i un plànol dels diferents espais naturals del Delta.",
+    "es": "Paquete de actividades sobre las aves del Delta del Ebro, su hábitat, la adaptación al medio de cada especie y los problemas ecológicos que afectan a su supervivencia. Contiene imágenes y sonidos de las aves, y un plano de los espacios naturales del Delta."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ausdelta.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ausdelta.jclic.zip",
+  "instFile": "jclic/ausdelta.jclic.inst",
+  "clicZoneId": 1047,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1047",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ausdelta/jclic/ausdelta.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 34,
+  "mediaFiles": 41,
+  "totalSize": 1871226,
+  "files": [
+    "cover.gif",
+    "jclic.js/3ocells.gif",
+    "jclic.js/4aus1.gif",
+    "jclic.js/4aus2.gif",
+    "jclic.js/4aus3.gif",
+    "jclic.js/4potes.gif",
+    "jclic.js/6aus.gif",
+    "jclic.js/6aus2.gif",
+    "jclic.js/6aus3.gif",
+    "jclic.js/6becs.gif",
+    "jclic.js/acvinf.gif",
+    "jclic.js/ausdelta.jclic",
+    "jclic.js/avoinf.gif",
+    "jclic.js/bass6.gif",
+    "jclic.js/becalena.wav",
+    "jclic.js/bernat.wav",
+    "jclic.js/bito.wav",
+    "jclic.js/bitoinf.gif",
+    "jclic.js/bpinf.gif",
+    "jclic.js/collverd.gif",
+    "jclic.js/collverd.wav",
+    "jclic.js/corbmari.wav",
+    "jclic.js/corrinf.gif",
+    "jclic.js/corriol.wav",
+    "jclic.js/deltama6.gif",
+    "jclic.js/final.gif",
+    "jclic.js/flamenc.gif",
+    "jclic.js/flamenc.wav",
+    "jclic.js/flaminf.gif",
+    "jclic.js/gambaroj.wav",
+    "jclic.js/gavia.wav",
+    "jclic.js/gavinf.gif",
+    "jclic.js/index.html",
+    "jclic.js/martinet.wav",
+    "jclic.js/martinf.gif",
+    "jclic.js/p2.gif",
+    "jclic.js/polla.gif",
+    "jclic.js/polla.wav",
+    "jclic.js/pollinf.gif",
+    "jclic.js/present.gif",
+    "jclic.js/puput.wav",
+    "jclic.js/puputinf.gif",
+    "jclic.js/tringa.gif",
+    "jclic.js/tringinf.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/ausdelta.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

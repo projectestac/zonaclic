@@ -1,0 +1,137 @@
+{
+  "id": 170,
+  "title": "Plantes superiors",
+  "author": "Ernest Rodríguez Romaní",
+  "school": "Institut Campclar Tarragona (Torreforta) (Tarragonès)",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "botànica, plantes",
+    "es": "botánica, plantas",
+    "en": "botany, plants"
+  },
+  "descCodes": [
+    59,
+    96
+  ],
+  "description": {
+    "en": "Classification and identification of some superior plants using a collection of 40 pictures of leaves.",
+    "ca": "Amb una col·lecció de 40 fotografies de mostres de fulles de plantes superiors, es pretén que l'alumne:\n<br> - Memoritzi aquestes mostres.\n<br> - Les associï a les diferents famílies segons les seves característiques.\n<br> - Classifiqui les famílies, segons siguin gimnospermes o angiospermes.\n<br> - Conegui els seus noms científics.",
+    "es": "Con una colección de 40 fotografías de muestras de hojas de plantas superiores, se pretende que el alumno:\n<br> - Memorice estas muestras.\n<br> - Las asocie a las diferentes familias según sus características.\n<br> - Clasifique las familias, según sean gimnoespermas o angioespermas.\n<br> - Conozca sus nombres científicos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/plansup.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/plansup.jclic.zip",
+  "instFile": "jclic/plansup.jclic.inst",
+  "clicZoneId": 1087,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1087",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/plansup/jclic/plansup.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 47,
+  "mediaFiles": 57,
+  "totalSize": 1231091,
+  "files": [
+    "cover.gif",
+    "jclic.js/angi.gif",
+    "jclic.js/angi1.gif",
+    "jclic.js/gim.gif",
+    "jclic.js/gim1.gif",
+    "jclic.js/maduix.jpg",
+    "jclic.js/p10bis.jpg",
+    "jclic.js/p11bis.jpg",
+    "jclic.js/p12bis.jpg",
+    "jclic.js/p15.jpg",
+    "jclic.js/p16.jpg",
+    "jclic.js/p17.jpg",
+    "jclic.js/p18.jpg",
+    "jclic.js/p19.jpg",
+    "jclic.js/p20.jpg",
+    "jclic.js/p21.jpg",
+    "jclic.js/p22.jpg",
+    "jclic.js/p23.jpg",
+    "jclic.js/p24.jpg",
+    "jclic.js/p25.jpg",
+    "jclic.js/p26.jpg",
+    "jclic.js/p27.jpg",
+    "jclic.js/p28.jpg",
+    "jclic.js/p28b.jpg",
+    "jclic.js/p29.jpg",
+    "jclic.js/p29b.jpg",
+    "jclic.js/p30.jpg",
+    "jclic.js/p30b.jpg",
+    "jclic.js/p31.jpg",
+    "jclic.js/p31b.jpg",
+    "jclic.js/p32.jpg",
+    "jclic.js/p33.jpg",
+    "jclic.js/p34.jpg",
+    "jclic.js/p35.jpg",
+    "jclic.js/p36.jpg",
+    "jclic.js/p37.jpg",
+    "jclic.js/p38.jpg",
+    "jclic.js/p39.jpg",
+    "jclic.js/p40.jpg",
+    "jclic.js/p41.jpg",
+    "jclic.js/p42.jpg",
+    "jclic.js/p43.jpg",
+    "jclic.js/p44.jpg",
+    "jclic.js/p45.jpg",
+    "jclic.js/p46.jpg",
+    "jclic.js/p47.jpg",
+    "jclic.js/p48.jpg",
+    "jclic.js/p49.jpg",
+    "jclic.js/p5.jpg",
+    "jclic.js/p6.jpg",
+    "jclic.js/p7.jpg",
+    "jclic.js/p8bis.jpg",
+    "jclic.js/p9b.jpg",
+    "jclic.js/pipinyer.jpg",
+    "jclic.js/plansup.jclic",
+    "jclic.js/pres1.gif",
+    "jclic.js/pres3.jpg",
+    "jclic.js/primav.wav",
+    "jclic.js/ve_a.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/plansup.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

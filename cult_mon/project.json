@@ -1,0 +1,107 @@
+{
+  "id": 2371,
+  "title": "Cultures del món",
+  "author": "Albert Verjaga Aguilera, Anna March Corominas, Marta Gorgoll Bosacoma i Mireia Muñoz Pradell",
+  "school": "Universitat de Vic - Universitat Central de Catalunya Vic (Osona)",
+  "date": "26/02/15",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "cultura, vida quotidiana",
+    "es": "cultura, vida cotidiana",
+    "en": "culture, daily life"
+  },
+  "descCodes": [
+    195,
+    361
+  ],
+  "description": {
+    "en": "Project of activities about four different cultures of the world: \n<ul> \n <li>Catalan culture </li>\n <li>Chinese culture </li>\n <li>American culture </li>\n <li>Moroccan culture </li>\n</ul>",
+    "ca": "Projecte d'activitats JClic sobre quatre cultures del món ben diferents: \n<ul> \n <li>Catalana </li>\n <li>Xinesa </li>\n <li>Americana </li>\n <li>Marroquina </li>\n</ul>",
+    "es": "Proyecto de actividades JClic sobre cuatro culturas del mundo bien diferentes: \n<ul> \n <li>Catalana </li>\n <li>China </li>\n <li>Americana </li>\n <li>Marroquina </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cult_mon.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cult_mon.jclic.zip",
+  "instFile": "jclic/cult_mon.jclic.inst",
+  "clicZoneId": 3874,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3874",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cult_mon/jclic/cult_mon.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 27,
+  "totalSize": 1321029,
+  "files": [
+    "cover.png",
+    "jclic.js/10865130_political_map_of_china_with_the_several_provinces_where_anhui_is_highlighted.jpg",
+    "jclic.js/14414978_map_of_catalonia_a_region_of_spain.jpg",
+    "jclic.js/196572_2842008_hamburguesamc1.jpg",
+    "jclic.js/201202_w_most_visited_monuments_mount_rushmore.jpg",
+    "jclic.js/2250689_morocco_outline_map_with_shadow_detailed_mercator_projection.jpg",
+    "jclic.js/baixa.jpg",
+    "jclic.js/bandera_cataluna.png",
+    "jclic.js/bandera_de_xina.png",
+    "jclic.js/bandera_marroc.gif",
+    "jclic.js/barcelona_gaudi_cathedral.jpg",
+    "jclic.js/cult_mon.jclic",
+    "jclic.js/dansesxineses.jpg",
+    "jclic.js/descarga_resized.jpg",
+    "jclic.js/eeuu.jpg",
+    "jclic.js/ensalada_cuscus_resized.jpg",
+    "jclic.js/estatua_libertad_resized.jpg",
+    "jclic.js/g45285607e3805.jpg",
+    "jclic.js/halloweencity_resized.jpg",
+    "jclic.js/im40.gif",
+    "jclic.js/images__1_.jpg",
+    "jclic.js/marroc.jpg",
+    "jclic.js/meca.jpg",
+    "jclic.js/muralla_china.jpg",
+    "jclic.js/pa_amb_tomaquet.jpg",
+    "jclic.js/reptil_parc_guell_barcelona_resized.jpg",
+    "jclic.js/sardanes.jpg",
+    "jclic.js/timthumb.jpg",
+    "jclic.js/xina.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cult_mon.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

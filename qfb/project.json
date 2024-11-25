@@ -1,0 +1,98 @@
+{
+  "id": 1996,
+  "title": "Qualitats físiques bàsiques",
+  "author": "Joan Puig Llort",
+  "school": "Escola Montoliu - ZER Baix Gaià La Riera de Gaià (Tarragonès)",
+  "date": "19/10/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de l'educació física",
+    "es": "aprendizaje de la educación física",
+    "en": "learning of the physical education"
+  },
+  "descCodes": [
+    422
+  ],
+  "description": {
+    "en": "JClic activitites about the theoretical training on basic physical qualities: \n<ul> \n <li>flexibility </li>\n <li>speed </li>\n <li>force </li>\n <li>resistance </li>\n</ul>",
+    "ca": "Projecte d'activitats JClic sobre les qualitats físiques bàsiques. El projecte treballa 4 conceptes: \n<ul> \n <li>felixibilitat </li>\n <li>velocitat </li>\n <li>força </li>\n <li>resistència </li>\n</ul>",
+    "es": "Proyecto de actividades JClic sobre las cualidades físicas básicas. El proyecto trabaja 4 conceptos: \n<ul> \n <li>felixibilidad </li>\n <li>velocidad </li>\n <li>fuerza </li>\n <li>resistencia </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/qfb.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/qfb.jclic.zip",
+  "instFile": "jclic/qfb.jclic.inst",
+  "clicZoneId": 3576,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3576",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/qfb/jclic/qfb.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 19,
+  "totalSize": 289861,
+  "files": [
+    "cover.gif",
+    "jclic.js/artista.gif",
+    "jclic.js/fotint02.mp3",
+    "jclic.js/pc1.gif",
+    "jclic.js/qfb.jclic",
+    "jclic.js/runner_athlete_running_md_wht.gif",
+    "jclic.js/spatcor2001.gif",
+    "jclic.js/spatcor2003.gif",
+    "jclic.js/spbbzzr1002.gif",
+    "jclic.js/spcozzr1002.gif",
+    "jclic.js/spcozzr1004.gif",
+    "jclic.js/spdizzr1003.gif",
+    "jclic.js/spenzzr1004.gif",
+    "jclic.js/spgyzzr2002.gif",
+    "jclic.js/spgyzzr2004.gif",
+    "jclic.js/spgyzzr2005.gif",
+    "jclic.js/spgyzzr2008.gif",
+    "jclic.js/spgyzzr2009.gif",
+    "jclic.js/spnazzr2001.gif",
+    "jclic.js/tenappl1.mp3",
+    "jclic.js/thski.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/qfb.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

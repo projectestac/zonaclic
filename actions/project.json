@@ -1,0 +1,107 @@
+{
+  "id": 319,
+  "title": "Actions",
+  "author": "Mª Isabel Báguena Bueso i Rosa Mª García Dolz",
+  "school": "CEIP San Miguel Mora de Rubielos (Teruel)",
+  "date": "16/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa",
+    "es": "lengua inglesa",
+    "en": "English language"
+  },
+  "descCodes": [
+    130
+  ],
+  "description": {
+    "en": "Activity pack in English for non-native speakers. It uses graphic and textual associations as well as other activities in order to show a vocabulary based on verbs that show an action.",
+    "ca": "Paquet d'activitats en anglès per a estudiants de nivell bàsic. Utilitza associacions gràfiques i de text, sopes de lletres i altres activitats amb l'objectiu de practicar un vocabulari relacionat en els verbs d'acció.",
+    "es": "Paquete de actividades en inglés para estudiantes de nivel básico. Utiliza asociaciones gráficas y de texto, sopas de letras y otras actividades con el fin de practicar un vocabulario basado en verbos de acción."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/actions.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/actions.jclic.zip",
+  "instFile": "jclic/actions.jclic.inst",
+  "clicZoneId": 1174,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1174",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/actions/jclic/actions.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 28,
+  "totalSize": 171036,
+  "files": [
+    "cover.gif",
+    "jclic.js/abrir.gif",
+    "jclic.js/actions.jclic",
+    "jclic.js/andar.gif",
+    "jclic.js/bailar.gif",
+    "jclic.js/bici.gif",
+    "jclic.js/cantar.gif",
+    "jclic.js/cocinar.gif",
+    "jclic.js/conducir.gif",
+    "jclic.js/correr.gif",
+    "jclic.js/cortar.gif",
+    "jclic.js/escribir.gif",
+    "jclic.js/escuchar.gif",
+    "jclic.js/esquiar.gif",
+    "jclic.js/futbol.gif",
+    "jclic.js/hablar.gif",
+    "jclic.js/leer.gif",
+    "jclic.js/llorar.gif",
+    "jclic.js/llover.gif",
+    "jclic.js/nadar.gif",
+    "jclic.js/pensar.gif",
+    "jclic.js/pescar.gif",
+    "jclic.js/pintar.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/pregunta.gif",
+    "jclic.js/reir.gif",
+    "jclic.js/saltar.gif",
+    "jclic.js/sol.gif",
+    "jclic.js/telefono.gif",
+    "jclic.js/tenis.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/actions.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

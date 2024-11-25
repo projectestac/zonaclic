@@ -1,0 +1,130 @@
+{
+  "id": 350,
+  "title": "Trabatuak lantzen",
+  "author": "Iñaki Mundiñano Larraza",
+  "school": "Andra Mari Ikastola Echarri Aranaz (Navarra)",
+  "date": "18/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "lectura, llengua basca",
+    "es": "lectura, lengua vasca",
+    "en": "reading, Basque language"
+  },
+  "descCodes": [
+    125,
+    922
+  ],
+  "description": {
+    "en": "Activity pack in euskera to help students in working with syllables in the early stages of reading-writing.",
+    "ca": "Irakurketa/idazketa prozesuan horrenbeste buruhauste sortzen duten silaba trabatuak lantzeko sortu da programa hau. Haur Hezkuntzako azken urterako eta Lehen Hezkuntza lehenengo zikloko ikasleei dago zuzendurik.\n<br> Programa en euskera per a treballar les síl·labes dins del procés d'aprenentatge de la lectura i l'escriptura. Està dirigit als alumnes del darrer curs d'educació infantil i primer cicle de primària.",
+    "es": "Irakurketa/idazketa prozesuan horrenbeste buruhauste sortzen duten silaba trabatuak lantzeko sortu da programa hau. Haur Hezkuntzako azken urterako eta Lehen Hezkuntza lehenengo zikloko ikasleei dago zuzendurik.\n<br> Es un programa en eusquera para trabajar las sílabas trabadas dentro del proceso de aprendizaje de la lectura y la escritura. Está dirigido a los alumnos del último curso de Educación Infantil y primer ciclo de Primaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/trabatua.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/trabatua.jclic.zip",
+  "instFile": "jclic/trabatua.jclic.inst",
+  "clicZoneId": 1197,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1197",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/trabatua/jclic/trabatua.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 83,
+  "mediaFiles": 49,
+  "totalSize": 447641,
+  "files": [
+    "cover.gif",
+    "jclic.js/adreilu.gif",
+    "jclic.js/azukrea.gif",
+    "jclic.js/bizikle.gif",
+    "jclic.js/bloka.gif",
+    "jclic.js/bolia.gif",
+    "jclic.js/deabrua.gif",
+    "jclic.js/diploma.gif",
+    "jclic.js/dragoia.gif",
+    "jclic.js/drome.gif",
+    "jclic.js/fla_1.gif",
+    "jclic.js/flamen.gif",
+    "jclic.js/flana.gif",
+    "jclic.js/flota.gif",
+    "jclic.js/frailea.gif",
+    "jclic.js/freno.gif",
+    "jclic.js/frontoi.gif",
+    "jclic.js/globo.gif",
+    "jclic.js/grapa.gif",
+    "jclic.js/istripua.gif",
+    "jclic.js/kartak.gif",
+    "jclic.js/klarion.gif",
+    "jclic.js/klaxona.gif",
+    "jclic.js/klinika.gif",
+    "jclic.js/klipa.gif",
+    "jclic.js/klipak.gif",
+    "jclic.js/kobra.gif",
+    "jclic.js/korbata.gif",
+    "jclic.js/kroko.gif",
+    "jclic.js/mikros.gif",
+    "jclic.js/ostruka.gif",
+    "jclic.js/palmera.gif",
+    "jclic.js/platano.gif",
+    "jclic.js/platera.gif",
+    "jclic.js/plbuka.gif",
+    "jclic.js/pluto.gif",
+    "jclic.js/printze.gif",
+    "jclic.js/tarta.gif",
+    "jclic.js/termom.gif",
+    "jclic.js/tigre_1.gif",
+    "jclic.js/tigrea.gif",
+    "jclic.js/trabatu.gif",
+    "jclic.js/trabatua.jclic",
+    "jclic.js/trakto.gif",
+    "jclic.js/trapua.gif",
+    "jclic.js/trena.gif",
+    "jclic.js/triku.gif",
+    "jclic.js/trikua_1.gif",
+    "jclic.js/trineoa.gif",
+    "jclic.js/tronpeta.gif",
+    "jclic.js/zebra.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/trabatua.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

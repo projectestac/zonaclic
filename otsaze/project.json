@@ -1,0 +1,127 @@
+{
+  "id": 438,
+  "title": "Otsoa eta Azeria",
+  "author": "César Martínez Iturralde",
+  "school": "CP Bermeo-San Frantzisko LHI Bermeo (Bizkaia)",
+  "date": "23/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, ortografia, eusquera",
+    "es": "aprendizaje de la lengua, ortografía, euskera",
+    "en": "learning of the language, spelling, euskera"
+  },
+  "descCodes": [
+    110,
+    146,
+    918
+  ],
+  "description": {
+    "en": "Clic activities for to learn Basque. After reading a story child can do different activities about: \n<ul> \n <li>understanding </li>\n <li>spelling </li>\n <li>writing </li>\n <li>the story and its parts </li>\n <li>particle use (omen and ote) </li>\n <li>verbs </li>\n</ul>",
+    "ca": "Treball de llengua basca basat en el sistema pedagògic Amara Berri. Partint de la lectura d'un conte es realitzen diverses activitats de: \n<ul> \n <li>comprensió </li>\n <li>ortografia ts, tx, tz, z, s, etc. </li>\n <li>redacció </li>\n <li>el conte i les seves parts </li>\n <li>ús de les partícules Omen y Ote </li>\n <li>verbs sintètics </li>\n</ul>",
+    "es": "Trabajo de lengua vasca basado en el sistema pedagógico Amara Berri. Apoyándose en la lectura de un cuento se realizan diversas actividades de: \n<ul> \n <li>comprensión </li>\n <li>ortografía ts, tx, tz, z, s, etc. </li>\n <li>redacción </li>\n <li>el cuento y sus partes </li>\n <li>uso de las partículas Omen y Ote </li>\n <li>verbos sintéticos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/otsaze.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/otsaze.jclic.zip",
+  "instFile": "jclic/otsaze.jclic.inst",
+  "clicZoneId": 1263,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1263",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/otsaze/jclic/otsaze.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 37,
+  "totalSize": 912228,
+  "files": [
+    "cover.gif",
+    "jclic.js/aditzak.gif",
+    "jclic.js/aditzak.txt",
+    "jclic.js/aharienc.jpg",
+    "jclic.js/ahunt.jpg",
+    "jclic.js/ani2.gif",
+    "jclic.js/ardi.gif",
+    "jclic.js/ardien.jpg",
+    "jclic.js/ardien1.jpg",
+    "jclic.js/ardien2.jpg",
+    "jclic.js/argi05.txt",
+    "jclic.js/astoa.gif",
+    "jclic.js/azeenc1.jpg",
+    "jclic.js/azeria.jpg",
+    "jclic.js/azeria11.gif",
+    "jclic.js/behienc.jpg",
+    "jclic.js/gogora.gif",
+    "jclic.js/gurutz~1.txt",
+    "jclic.js/idazlan.txt",
+    "jclic.js/ipuini~1.txt",
+    "jclic.js/ipunia1.jpg",
+    "jclic.js/karatula.gif",
+    "jclic.js/oilarenc.jpg",
+    "jclic.js/oiloa.gif",
+    "jclic.js/oiloenc.jpg",
+    "jclic.js/omen_ote.gif",
+    "jclic.js/otsaze.jclic",
+    "jclic.js/otso.gif",
+    "jclic.js/otsoa.jpg",
+    "jclic.js/otsoa1.jpg",
+    "jclic.js/otsoa11.gif",
+    "jclic.js/otsoaze1.gif",
+    "jclic.js/otsoaze2.gif",
+    "jclic.js/otsoaze3.gif",
+    "jclic.js/testoa.txt",
+    "jclic.js/testoa1.txt",
+    "jclic.js/testoa2.txt",
+    "jclic.js/txekor.jpg",
+    "jclic.js/txerria.gif",
+    "jclic.js/txoria.gif",
+    "jclic.js/zaldia.gif",
+    "jclic.js/zaldien.jpg",
+    "jclic.js/zaldien1.jpg",
+    "jclic.js/zaldien2.jpg",
+    "jclic.js/zeinda.txt",
+    "jclic.js/zezena.gif",
+    "jclic.js/zezenc.jpg",
+    "jclic.js/zezenc1.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/otsaze.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

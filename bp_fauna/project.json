@@ -1,0 +1,131 @@
+{
+  "id": 2215,
+  "title": "El Baix Penedès: flora i fauna (fauna)",
+  "author": "Francesc Sánchez Guerrero",
+  "school": "Escola Sant Julià L'Arboç (Baix Penedès)",
+  "date": "24/01/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "fauna, flora",
+    "es": "fauna, flora",
+    "en": "fauna, flora"
+  },
+  "descCodes": [
+    857,
+    858
+  ],
+  "description": {
+    "en": "Two projects of activities on the flora and fauna more characteristic of the Baix Penedès in Catalonia: \n<ul> \n <li>Flora: shrubs, herbs, creepers ... </li>\n <li>Fauna: amphibians, crustaceans, mammals, fish, birds ... </li>\n</ul>",
+    "ca": "Dos projectes d'activitats sobre la flora i la fauna més característica de la comarca del Baix Penedès: \n<ul> \n <li>Flora: arbustos, plantes aromàtiques, enfiladisses... </li>\n <li>Fauna: amfibis, crustacis, mamífers, peixos, aus... </li>\n</ul>",
+    "es": "Dos proyectos de actividades sobre la flora y la fauna más característica de la comarca del Baix Penedès en Catalunya: \n<ul> \n <li>Flora: arbustos, plantas aromáticas, enredaderas... </li>\n <li>Fauna: anfibios, crustáceos, mamíferos, peces, aves... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "bp_flora"
+  ],
+  "mainFile": "jclic.js/bp_fauna.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/bp_fauna.jclic.zip",
+  "instFile": "jclic/bp_fauna.jclic.inst",
+  "clicZoneId": 3741,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3741",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/bp_fauna/jclic/bp_fauna.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 37,
+  "mediaFiles": 48,
+  "totalSize": 2763464,
+  "files": [
+    "cover.jpg",
+    "jclic.js/abella.jpg",
+    "jclic.js/agraiments_fauna.jpg",
+    "jclic.js/aguila.jpg",
+    "jclic.js/aranya.jpg",
+    "jclic.js/bp_fauna.jclic",
+    "jclic.js/cadernera.jpg",
+    "jclic.js/conill.jpg",
+    "jclic.js/erico.jpg",
+    "jclic.js/escamarlans.jpg",
+    "jclic.js/escarbat.jpg",
+    "jclic.js/escurco.jpg",
+    "jclic.js/esparver.jpg",
+    "jclic.js/formiga.jpg",
+    "jclic.js/gamba.jpg",
+    "jclic.js/garsa.jpg",
+    "jclic.js/gavina.jpg",
+    "jclic.js/granota.jpg",
+    "jclic.js/grill.jpg",
+    "jclic.js/gripau.jpg",
+    "jclic.js/guineu.jpg",
+    "jclic.js/llangardaix.jpg",
+    "jclic.js/llebre.jpg",
+    "jclic.js/llenguado.jpg",
+    "jclic.js/llobarro.jpg",
+    "jclic.js/mosca.jpg",
+    "jclic.js/mosquit.jpg",
+    "jclic.js/musaranyes.jpg",
+    "jclic.js/mussol.jpg",
+    "jclic.js/oliva.jpg",
+    "jclic.js/orada.jpg",
+    "jclic.js/oreneta.jpg",
+    "jclic.js/papallona_del_gerani.jpg",
+    "jclic.js/papallona_monarca.jpg",
+    "jclic.js/papallona_vulcana.jpg",
+    "jclic.js/pardal.jpg",
+    "jclic.js/porc_senglar.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/puzle_final.jpg",
+    "jclic.js/rap.jpg",
+    "jclic.js/rat_penat.jpg",
+    "jclic.js/saltamarti.jpg",
+    "jclic.js/sardina.jpg",
+    "jclic.js/sargantana.jpg",
+    "jclic.js/seito.jpg",
+    "jclic.js/serp.jpg",
+    "jclic.js/teixo.jpg",
+    "jclic.js/tonyina.jpg",
+    "jclic.js/verat.jpg",
+    "jclic.js/vespa.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/bp_fauna.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

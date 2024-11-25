@@ -1,0 +1,96 @@
+{
+  "id": 1412,
+  "title": "Vertebrados e invertebrados",
+  "author": "Francisco García-Pozuelo Díaz i Juana Rello Serrano",
+  "school": "CP Luis Vives Alcalá de Henares (Madrid)",
+  "date": "15/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "invertebrats, vertebrats",
+    "es": "invertebrados, vertebrados",
+    "en": "invertebrates, vertebrates"
+  },
+  "descCodes": [
+    82,
+    107
+  ],
+  "description": {
+    "en": "Package of activities about the invertebrate animals (mammalian, birds, fish, reptilian and amphibian) and the invertebrates (insects and their anatomy).",
+    "ca": "Paquet d'activitats sobre els animals vertebrats (mamífers, aus, peixos, rèptils i amfibis) i els invertebrats (insectes i la seva anatomia).",
+    "es": "Paquete de actividades sobre los animales invertebrados (mamíferos, aves, peces, reptiles y anfibios) y los invertebrados (insectos y su anatomía)."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/vertebr2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/vertebr2.jclic.zip",
+  "instFile": "jclic/vertebr2.jclic.inst",
+  "clicZoneId": 3148,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3148",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/vertebr2/jclic/vertebr2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 16,
+  "totalSize": 379116,
+  "files": [
+    "cover.jpg",
+    "jclic.js/butterfly2.gif",
+    "jclic.js/caiman1.jpg",
+    "jclic.js/d__juani_imagenes_aves_agapornis2.jpg",
+    "jclic.js/ins_24_25.jpg",
+    "jclic.js/mapache.jpg",
+    "jclic.js/max_sociales1.gif",
+    "jclic.js/mochuelo.jpg",
+    "jclic.js/osohormiguero.jpg",
+    "jclic.js/patocolorado.jpg",
+    "jclic.js/pecari.jpg",
+    "jclic.js/petirrojo.jpg",
+    "jclic.js/pezgramm.jpg",
+    "jclic.js/pezloro.jpg",
+    "jclic.js/ranadorada.jpg",
+    "jclic.js/ranavol.jpg",
+    "jclic.js/serpverd.jpg",
+    "jclic.js/vertebr2.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/vertebr2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

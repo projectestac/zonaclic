@@ -1,0 +1,116 @@
+{
+  "id": 2401,
+  "title": "Emocions",
+  "author": "Lara Martínez Montero noengel2010@gmail.com",
+  "date": "08/10/15",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "salut, sanitat, vocabulari",
+    "es": "salud, sanidad, vocabulario",
+    "en": "health, health care, vocabulary"
+  },
+  "descCodes": [
+    101,
+    102,
+    150
+  ],
+  "description": {
+    "en": "JClic project activities work the knowledge of simple and complex emotions.",
+    "ca": "Conjunt de tasques per treballar el coneixements d'emocions simples i complexes.",
+    "es": "Grupo de tareas para trabajar el conocimiento de emociones simples y complejas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/emocion2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/emocion2.jclic.zip",
+  "instFile": "jclic/emocion2.jclic.inst",
+  "clicZoneId": 3909,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3909",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/emocion2/jclic/emocion2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 36,
+  "totalSize": 433481,
+  "files": [
+    "cover.png",
+    "jclic.js/0carino.jpg",
+    "jclic.js/abuelodormido.jpg",
+    "jclic.js/aburrida.jpg",
+    "jclic.js/aburrido.jpg",
+    "jclic.js/adormit.jpg",
+    "jclic.js/asco.jpg",
+    "jclic.js/asustado.jpg",
+    "jclic.js/bebedormido.jpg",
+    "jclic.js/carino.jpg",
+    "jclic.js/content.jpg",
+    "jclic.js/emocion2.jclic",
+    "jclic.js/emotions_photography_resized.jpg",
+    "jclic.js/enfadat1.jpg",
+    "jclic.js/gelat.php.jpg",
+    "jclic.js/gos.jpg",
+    "jclic.js/i.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/images.jpg",
+    "jclic.js/images1.jpg",
+    "jclic.js/images2.jpg",
+    "jclic.js/interesante.jpg",
+    "jclic.js/monstre.jpg",
+    "jclic.js/mujerdormida.jpg",
+    "jclic.js/nervioso.jpg",
+    "jclic.js/nina_dormida.jpg",
+    "jclic.js/nino_en_el_suelo.jpg",
+    "jclic.js/nino_enfadado.jpg",
+    "jclic.js/ninoavergonzado.jpg",
+    "jclic.js/ninodespierto.jpg",
+    "jclic.js/papadormido.jpg",
+    "jclic.js/perdon.jpg",
+    "jclic.js/perdon1.jpg",
+    "jclic.js/sorpres.jpg",
+    "jclic.js/thumbnail.php.jpg",
+    "jclic.js/trist.jpg",
+    "jclic.js/vampir.jpg",
+    "jclic.js/vaso.jpg",
+    "jclic.js/verguenza.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/emocion2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

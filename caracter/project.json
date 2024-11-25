@@ -1,0 +1,90 @@
+{
+  "id": 2004,
+  "title": "El niño que tenía mal carácter",
+  "author": "Antonio Ortiz Santana",
+  "school": "CEO Omayra Sánchez Las Palmas de Gran Canaria (Islas Canarias)",
+  "date": "20/11/09",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "conte, comprensió lectora",
+    "es": "cuento, comprensión lectora",
+    "en": "story, reading comprehension"
+  },
+  "descCodes": [
+    614,
+    1329
+  ],
+  "description": {
+    "en": "JClic activities about reading comprehension based on the anonymous tale \n<i>El niño que tenía mal caracter</i>. The project has two different parts: \n<ul> \n <li>2º ciclo de educación primaria </li>\n <li>3º ciclo de educación primaria </li>\n</ul>",
+    "ca": "Conjunt d'activitats JClic per a la comprensió lectora sobre el conte \n<i>El niño que tenía mal carácter</i> d'autor anònim, per a alumnat d'educació primària. El projecte està dividit en dues parts: \n<ul> \n <li>2º ciclo de educación primaria </li>\n <li>3º ciclo de educación primaria </li>\n</ul>",
+    "es": "Conjunto de actividades JClic para la comprensión lectora sobre el cuento\n<i>El niño que tenía mal caracter</i> de autor anónimo, pera alumnado de educación primaria. El proyecto está dividido en dos partes: \n<ul> \n <li>2º ciclo de educación primaria </li>\n <li>3º ciclo de educación primaria </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/caracter.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/caracter.jclic.zip",
+  "instFile": "jclic/caracter.jclic.inst",
+  "clicZoneId": 3582,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3582",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/caracter/jclic/caracter.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 51,
+  "mediaFiles": 10,
+  "totalSize": 3970838,
+  "files": [
+    "cover.jpg",
+    "jclic.js/caracter.jclic",
+    "jclic.js/carlosdibuj.jpg",
+    "jclic.js/cuento.jpg",
+    "jclic.js/img0166.jpg",
+    "jclic.js/img018.jpg",
+    "jclic.js/img023.jpg",
+    "jclic.js/img025.jpg",
+    "jclic.js/img029.jpg",
+    "jclic.js/musadibuj.jpg",
+    "jclic.js/omayra_s._copia.jpg",
+    "jclic.js/santi2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/caracter.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

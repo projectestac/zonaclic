@@ -1,0 +1,98 @@
+{
+  "id": 849,
+  "title": "El 9 d'octubre: Diada dels valencians i valencianes",
+  "author": "Joan Barres i Sanz",
+  "school": "CP Trullàs Benifaió (Ribera Alta)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "costums i tradicions, història",
+    "es": "costumbres y tradiciones, historia",
+    "en": "customs and traditions, history"
+  },
+  "descCodes": [
+    191,
+    246
+  ],
+  "description": {
+    "en": "Clic activities about the celebrations of \"9th of October\", anniversary of the conquest of the city of Valencia, in 1238.",
+    "ca": "Paquet d'activitats sobre la diada del 9 d'octubre, en el que es commemora l'aniversari de la conquesta de la ciutat de València per Jaume I el 1238. S'hi treballen aspectes de la història del País Valencià, la vida de Jaume I, els furs, l'arquitectura civil de l'època i les festes populars que encara avui rememoren les disputes entre \"moros i cristians\".",
+    "es": "Paquete de actividades sobre la \"diada\" del 9 de octubre, en el que se conmemora la conquista de la ciudad de Valencia por Jaime I en 1238. Se trabajan aspectos de la historia del País Valenciano, la vida de Jaime I, los fueros, la arquitectura civil de la época y las fiestas populares que todavía hoy rememoran las disputas entre \"moros y cristianos\"."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/9octubre.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/9octubre.jclic.zip",
+  "instFile": "jclic/9octubre.jclic.inst",
+  "clicZoneId": 1479,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1479",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/9octubre/jclic/9octubre.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 18,
+  "totalSize": 701431,
+  "files": [
+    "cover.gif",
+    "jclic.js/1238.gif",
+    "jclic.js/9octubre.jclic",
+    "jclic.js/corts.jpg",
+    "jclic.js/cristian.jpg",
+    "jclic.js/escut.jpg",
+    "jclic.js/jaume.jpg",
+    "jclic.js/jaume2.jpg",
+    "jclic.js/jaumei.jpg",
+    "jclic.js/llotja.jpg",
+    "jclic.js/moros.jpg",
+    "jclic.js/oroneta.gif",
+    "jclic.js/palau.jpg",
+    "jclic.js/palau2.jpg",
+    "jclic.js/peno.jpg",
+    "jclic.js/portada.gif",
+    "jclic.js/presenta.gif",
+    "jclic.js/seny_esc.jpg",
+    "jclic.js/senyera.jpg",
+    "jclic.js/sinfonie.mid",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/9octubre.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

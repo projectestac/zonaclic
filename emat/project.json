@@ -1,0 +1,97 @@
+{
+  "id": 1025,
+  "title": "Estats de la matèria",
+  "author": "Enric Peiris Poch",
+  "school": "Escola Mn. Baldiri Rexach Banyoles (Pla de l'Estany)",
+  "date": "05/06/03",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "física",
+    "es": "física",
+    "en": "physics"
+  },
+  "descCodes": [
+    72
+  ],
+  "description": {
+    "en": "Package of activities about the three states of matter: \n<ul> \n <li>Solid </li>\n <li>Liquid </li>\n <li>Gas </li>\n</ul>",
+    "ca": "Paquet d'activitats sobre els tres estats de la matèria: \n<ul> \n <li>Sòlid </li>\n <li>Líquid </li>\n <li>Gasós </li>\n</ul>",
+    "es": "Paquete de actividades sobre los tres estados de la materia: \n<ul> \n <li>Sólido </li>\n <li>Líquido </li>\n <li>Gaseoso </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/emat.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/emat.jclic.zip",
+  "instFile": "jclic/emat.jclic.inst",
+  "clicZoneId": 2161,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2161",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/emat/jclic/emat.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 18,
+  "totalSize": 1186127,
+  "files": [
+    "cover.gif",
+    "jclic.js/anatrans.gif",
+    "jclic.js/bravo.wav",
+    "jclic.js/c_muls.gif",
+    "jclic.js/cafe.gif",
+    "jclic.js/emat.jclic",
+    "jclic.js/estats.gif",
+    "jclic.js/estats1.gif",
+    "jclic.js/fruita.gif",
+    "jclic.js/gas.wav",
+    "jclic.js/iody.gif",
+    "jclic.js/l_quid.wav",
+    "jclic.js/mar1.gif",
+    "jclic.js/moltbe.wav",
+    "jclic.js/monedes.gif",
+    "jclic.js/nuvols.gif",
+    "jclic.js/pa.gif",
+    "jclic.js/rocky.gif",
+    "jclic.js/s_lid.wav",
+    "jclic.js/veles.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/emat.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

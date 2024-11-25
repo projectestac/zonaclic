@@ -1,0 +1,144 @@
+{
+  "id": 519,
+  "title": "Circunferencias y cuerpos geométricos",
+  "author": "Miquel Clavería Abizanda i Ricard Saz Ferrer",
+  "school": "Escola La Rosella Rosselló (Segrià)",
+  "date": "25/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geometria",
+    "es": "geometría",
+    "en": "geometry"
+  },
+  "descCodes": [
+    708
+  ],
+  "description": {
+    "en": "Geometry activity pack for elementary school. Divided into two sections, the first deals with circle, while the other treats a few other geometrical figures and shapes.",
+    "ca": "Dos paquets d'activitats de geometria per a primària. En un es treballa la circumferència i en l'altre es presenten activitats sobre diferents tipus de políedres i altres cossos geomètrics.",
+    "es": "Dos paquetes de actividades de geometría para primaria. En uno se trabaja la circunferencia y en el otro se presentan actividades sobre distintos tipos de poliedros y otros cuerpos geométricos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "eusgeom",
+    "geom",
+    "geomgal"
+  ],
+  "mainFile": "jclic.js/geomes.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/geomes.jclic.zip",
+  "instFile": "jclic/geomes.jclic.inst",
+  "clicZoneId": 1303,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1303",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/geomes/jclic/geomes.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 59,
+  "totalSize": 266732,
+  "files": [
+    "cover.gif",
+    "jclic.js/becosos.gif",
+    "jclic.js/cer_cir1.gif",
+    "jclic.js/co_camp.gif",
+    "jclic.js/co_capsa.gif",
+    "jclic.js/co_cilin.gif",
+    "jclic.js/co_con10.gif",
+    "jclic.js/co_con11.gif",
+    "jclic.js/co_con12.gif",
+    "jclic.js/co_con13.gif",
+    "jclic.js/co_con14.gif",
+    "jclic.js/co_con15.gif",
+    "jclic.js/co_con17.gif",
+    "jclic.js/co_con18.gif",
+    "jclic.js/co_con19.gif",
+    "jclic.js/co_con20.gif",
+    "jclic.js/co_con8.gif",
+    "jclic.js/co_con9.gif",
+    "jclic.js/co_cono.gif",
+    "jclic.js/co_cucur.gif",
+    "jclic.js/co_dau.gif",
+    "jclic.js/co_depip.gif",
+    "jclic.js/co_depiq.gif",
+    "jclic.js/co_deprp.gif",
+    "jclic.js/co_desci.gif",
+    "jclic.js/co_desco.gif",
+    "jclic.js/co_descu.gif",
+    "jclic.js/co_deste.gif",
+    "jclic.js/co_dode.gif",
+    "jclic.js/co_encil.gif",
+    "jclic.js/co_encon.gif",
+    "jclic.js/co_enesf.gif",
+    "jclic.js/co_esf.gif",
+    "jclic.js/co_gerra.gif",
+    "jclic.js/co_hexa.gif",
+    "jclic.js/co_ico.gif",
+    "jclic.js/co_octa.gif",
+    "jclic.js/co_piare.gif",
+    "jclic.js/co_pibas.gif",
+    "jclic.js/co_picar.gif",
+    "jclic.js/co_pihex.gif",
+    "jclic.js/co_pilot.gif",
+    "jclic.js/co_pipen.gif",
+    "jclic.js/co_piqua.gif",
+    "jclic.js/co_piver.gif",
+    "jclic.js/co_prare.gif",
+    "jclic.js/co_prbas.gif",
+    "jclic.js/co_prcar.gif",
+    "jclic.js/co_prhex.gif",
+    "jclic.js/co_prpen.gif",
+    "jclic.js/co_prqua.gif",
+    "jclic.js/co_prver.gif",
+    "jclic.js/co_tetra.gif",
+    "jclic.js/ele_cir1.gif",
+    "jclic.js/geomes.jclic",
+    "jclic.js/obj_cir.gif",
+    "jclic.js/obj_cir1.gif",
+    "jclic.js/por_clic.gif",
+    "jclic.js/pre_cer.gif",
+    "jclic.js/to_cir_1.gif",
+    "jclic.js/tot_el.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/geomes.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

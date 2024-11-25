@@ -1,0 +1,102 @@
+{
+  "id": 1178,
+  "title": "Thanksgiving day",
+  "author": "Carmen Conde Santos",
+  "date": "14/06/04",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa",
+    "es": "lengua inglesa",
+    "en": "English language"
+  },
+  "descCodes": [
+    667
+  ],
+  "description": {
+    "en": "English activities about \n<i>Thanksgiving day</i>, addressed to students of Primary School.",
+    "ca": "Paquet d'activitats en anglès sobre la festa tradicional nord-americana del \n<i>Dia d'acció de gràcies</i>, adreçat a alumnes del tercer cicle d'educació primària.",
+    "es": "Paquete de actividades en inglés sobre la fiesta tradicional norteamericana del \n<i>Día de acción de gracias</i>, dirigido a alumnos de tercer ciclo de educación primaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/thanks.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/thanks.jclic.zip",
+  "instFile": "jclic/thanks.jclic.inst",
+  "clicZoneId": 2682,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2682",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/thanks/jclic/thanks.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 24,
+  "totalSize": 1764546,
+  "files": [
+    "cover.jpg",
+    "jclic.js/balloon.wav",
+    "jclic.js/balloon2.gif",
+    "jclic.js/corn.wav",
+    "jclic.js/family.wav",
+    "jclic.js/family2.gif",
+    "jclic.js/fondo.gif",
+    "jclic.js/indcornp.gif",
+    "jclic.js/indian.wav",
+    "jclic.js/indian2.gif",
+    "jclic.js/mayf.gif",
+    "jclic.js/mayf.wav",
+    "jclic.js/pavo.gif",
+    "jclic.js/pie2.gif",
+    "jclic.js/pilgrim.wav",
+    "jclic.js/pilgrim2.gif",
+    "jclic.js/portal2.gif",
+    "jclic.js/poster2.gif",
+    "jclic.js/pump.wav",
+    "jclic.js/ricofo_1.gif",
+    "jclic.js/thanks.jclic",
+    "jclic.js/turkey.wav",
+    "jclic.js/turkey2.gif",
+    "jclic.js/usa.gif",
+    "jclic.js/usa.wav",
+    "jclic.js/welco.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/thanks.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

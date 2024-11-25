@@ -1,0 +1,106 @@
+{
+  "id": 1783,
+  "title": "El nom",
+  "author": "Agustí Puig i Masip",
+  "school": "Institut Pau Casals Badalona (Barcelonès)",
+  "date": "19/06/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua catalana, morfologia",
+    "es": "lengua catalana, morfología",
+    "en": "Catalan language, morphology"
+  },
+  "descCodes": [
+    133,
+    144
+  ],
+  "description": {
+    "en": "Set of activities in Catalan about \"names\". The project is addressed to secondary education. The images and sounds have been extracted of the \n<a href=\"http://recursos.cnice.mec.es/bancoimagenes4/\">Banco de imágenes del MECD</a> website.",
+    "ca": "Conjunt d'activitats diverses de Llengua Catalana. L'eix del projecte és l'estudi i pràctica sobre el nom. Adreçat a alumnes de 1er d'ESO. Totes Les imatges i sons han estat obtingudes de la pàgina web \n<a href=\"http://recursos.cnice.mec.es/bancoimagenes4/\">Banco de imágenes del MECD</a> que facilita imatges d'ús lliure per a finalitats didàctiques i sense ànim de lucre.",
+    "es": "Conjunto de actividades diversas de Lengua Catalana. El eje del proyecto es el estudio y la práctica sobre el nombre. Dirigido a alumnos de 1º de ESO. Todas las imágenes han sido obtenidas de la página web \n<a href=\"http://recursos.cnice.mec.es/bancoimagenes4/\">Banco de imágenes del MECD</a> que facilita imágenes de uso libre para finalidades didácticas y sin ánimo de lucro."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/elnom.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/elnom.jclic.zip",
+  "instFile": "jclic/elnom.jclic.inst",
+  "clicZoneId": 3479,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3479",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/elnom/jclic/elnom.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 26,
+  "totalSize": 3161279,
+  "files": [
+    "cover.jpg",
+    "jclic.js/abella.jpg",
+    "jclic.js/aigua.jpg",
+    "jclic.js/alegria.jpg",
+    "jclic.js/amor.jpg",
+    "jclic.js/aplaudiment.wav",
+    "jclic.js/ballena.jpg",
+    "jclic.js/bomber.jpg",
+    "jclic.js/cadira.jpg",
+    "jclic.js/catala.jpg",
+    "jclic.js/cavaller.jpg",
+    "jclic.js/classes_def.jpg",
+    "jclic.js/cotxe.jpg",
+    "jclic.js/dentadura.jpg",
+    "jclic.js/elnom.jclic",
+    "jclic.js/gat.jpg",
+    "jclic.js/genere.jpg",
+    "jclic.js/guau.wav",
+    "jclic.js/josep.jpg",
+    "jclic.js/justicia.jpg",
+    "jclic.js/nau_i_cordillera.jpg",
+    "jclic.js/nena.jpg",
+    "jclic.js/nom3.jpg",
+    "jclic.js/numero_def.jpg",
+    "jclic.js/peonza.jpg",
+    "jclic.js/pissarra4.jpg",
+    "jclic.js/poble.jpg",
+    "jclic.js/present.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/elnom.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": 1065,
+  "title": "The colors (mensaxes en galego)",
+  "author": "Hugo Pérez Becker",
+  "school": "Colegio Luterano Concordia Viña del Mar",
+  "date": "10/11/03",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa",
+    "es": "lengua inglesa",
+    "en": "English language"
+  },
+  "descCodes": [
+    130
+  ],
+  "description": {
+    "en": "Clic activities about the name of the colours in English.",
+    "ca": "Paquet d'activitats sobre els noms dels colors en anglès.",
+    "es": "Paquete de actividades sobre los nombres de los colores en inglés."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "colors"
+  ],
+  "mainFile": "jclic.js/colorsga.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/colorsga.jclic.zip",
+  "instFile": "jclic/colorsga.jclic.inst",
+  "clicZoneId": 2243,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2243",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/colorsga/jclic/colorsga.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 33,
+  "totalSize": 210663,
+  "files": [
+    "cover.gif",
+    "jclic.js/amarillo.gif",
+    "jclic.js/amarillo2.gif",
+    "jclic.js/azul.gif",
+    "jclic.js/azul2.gif",
+    "jclic.js/azulm2.gif",
+    "jclic.js/azulma.gif",
+    "jclic.js/blanco.gif",
+    "jclic.js/cafe.gif",
+    "jclic.js/cafe2.gif",
+    "jclic.js/celeste.gif",
+    "jclic.js/celeste2.gif",
+    "jclic.js/colorsga.jclic",
+    "jclic.js/fin.gif",
+    "jclic.js/inicio.gif",
+    "jclic.js/lila.gif",
+    "jclic.js/lila2.gif",
+    "jclic.js/morado.gif",
+    "jclic.js/morado2.gif",
+    "jclic.js/mus1.mid",
+    "jclic.js/naranja2.gif",
+    "jclic.js/naranjo.gif",
+    "jclic.js/negro.gif",
+    "jclic.js/negro2.gif",
+    "jclic.js/plomo.gif",
+    "jclic.js/plomo2.gif",
+    "jclic.js/rojo.gif",
+    "jclic.js/rojo2.gif",
+    "jclic.js/rosado.gif",
+    "jclic.js/rosado2.gif",
+    "jclic.js/vercla.gif",
+    "jclic.js/vercla2.gif",
+    "jclic.js/verde.gif",
+    "jclic.js/verde2.gif",
+    "jclic.js/welcome.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/colorsga.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

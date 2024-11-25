@@ -1,0 +1,131 @@
+{
+  "id": 286,
+  "title": "Endevinalles (amb sons)",
+  "author": "Antoni Prim i Magda Gil Argemí",
+  "school": "Escola Llorens i Artigas Badalona (Barcelonès)",
+  "date": "15/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "comprensió escrita, llengua catalana",
+    "es": "comprensión escrita, lengua catalana",
+    "en": "written understanding, Catalan language"
+  },
+  "descCodes": [
+    111,
+    133
+  ],
+  "description": {
+    "en": "Activity pack for elementary school children in which they have to solve a series of riddles.\n<p> There is an animation at the end of each one. </p>",
+    "ca": "Paquet adreçat al cicle inicial de primària on es presenten quinze endevinalles que cal resoldre escrivint la resposta. Quan s'encerten es mostra una animació.\n<br> Hi ha dues versions del paquet: una amb sons, que permet escoltar tots els textos, i l'altra muda.",
+    "es": "Paquete dirigido al ciclo inicial de primaria en el que se presentan quince adivinanzas que se deben resolver escribiendo la respuesta. Al acertarlas se muestra una animación.\n<br> Hay dos versiones del paquete: una con sonidos, que permite escuchar todos los textos, y otra muda."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "endevin"
+  ],
+  "mainFile": "jclic.js/endeso.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/endeso.jclic.zip",
+  "instFile": "jclic/endeso.jclic.inst",
+  "clicZoneId": 1153,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1153",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/endeso/jclic/endeso.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 48,
+  "totalSize": 3248608,
+  "files": [
+    "cover.gif",
+    "jclic.js/1.wav",
+    "jclic.js/10.wav",
+    "jclic.js/11.wav",
+    "jclic.js/12.wav",
+    "jclic.js/13.wav",
+    "jclic.js/14.wav",
+    "jclic.js/15.wav",
+    "jclic.js/2.wav",
+    "jclic.js/3.wav",
+    "jclic.js/4.wav",
+    "jclic.js/5.wav",
+    "jclic.js/6.wav",
+    "jclic.js/7.wav",
+    "jclic.js/8.wav",
+    "jclic.js/9.wav",
+    "jclic.js/e1a.gif",
+    "jclic.js/e1apsa.gif",
+    "jclic.js/e1argol.gif",
+    "jclic.js/e1aya.gif",
+    "jclic.js/e1ayes.gif",
+    "jclic.js/e1cell.gif",
+    "jclic.js/e1ens.gif",
+    "jclic.js/e1erra.gif",
+    "jclic.js/e1lengue.gif",
+    "jclic.js/e1ligat.gif",
+    "jclic.js/e1lla.gif",
+    "jclic.js/e1onedes.gif",
+    "jclic.js/e1ormatg.gif",
+    "jclic.js/e1osc.gif",
+    "jclic.js/e1rbre.gif",
+    "jclic.js/endeso.jclic",
+    "jclic.js/foto.gif",
+    "jclic.js/lluna.gif",
+    "jclic.js/wbaldufa.gif",
+    "jclic.js/wbarret1.gif",
+    "jclic.js/wcampana.gif",
+    "jclic.js/westels.gif",
+    "jclic.js/wfanal.gif",
+    "jclic.js/wformig.gif",
+    "jclic.js/wgall.gif",
+    "jclic.js/wgrill.gif",
+    "jclic.js/wllengua.gif",
+    "jclic.js/wlluna.gif",
+    "jclic.js/wou2.gif",
+    "jclic.js/wparaigu.gif",
+    "jclic.js/wplatan.gif",
+    "jclic.js/wsabates.gif",
+    "jclic.js/wtisores.gif",
+    "jclic.js/yaya1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/endeso.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": 399,
+  "title": "Tipos de oracións",
+  "author": "Gerardo Valero Pozuelo",
+  "school": "IES Las tres culturas Córdoba (Andalucía)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, sintaxi",
+    "es": "lengua castellana, sintaxis",
+    "en": "Spanish language, syntax"
+  },
+  "descCodes": [
+    132,
+    148
+  ],
+  "description": {
+    "en": "Clic activities about Spanish language - Sentences.",
+    "ca": "\"Tipos de oraciones\" és un reduït nombre d'activitats de llengua espanyola que gira entorn a les actituds del parlant (informar, preguntar, manar...) i els tipus d'oracions (enunciativa, interrogativa, imperativa...) que els corresponen.\n<br> Hem fet servir la terminologia que utilitza Anaya en el seu llibre per a 5è d'EGB. Som conscients que altres autors prefereixen anomenar les oracions d'una altra manera; així que qui ho desitgi només ha de desempaquetar i modificar les activitats al seu gust.",
+    "es": "\"Tipos de Oraciones\" es un reducido grupo de actividades de lengua española que gira en torno a las actitudes de hablante (informar, preguntar, ordenar...) y los tipos de oraciones (enunciativa, interrogativa, imperativa...) que le corresponden.\n<br> Hemos usado la terminología que utiliza Anaya en su libro para 5º de EGB. Somos conscientes de que otros autores prefieren llamar a las oraciones de diferente modo; así que el que lo desee, no tiene más que desempaquetar y editar las actividades."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "tiporac"
+  ],
+  "mainFile": "jclic.js/tiporaga.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tiporaga.jclic.zip",
+  "instFile": "jclic/tiporaga.jclic.inst",
+  "clicZoneId": 1229,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1229",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/tiporaga/jclic/tiporaga.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 1,
+  "totalSize": 117975,
+  "files": [
+    "cover.gif",
+    "jclic.js/tiporaga.jclic",
+    "jclic.js/trescu_2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/tiporaga.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

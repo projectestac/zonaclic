@@ -1,0 +1,116 @@
+{
+  "id": 957,
+  "title": "Los números en mapudungun",
+  "author": "Verónica Cares Gallardo",
+  "school": "Colegio Talcahuano Talcahuano (Xile)",
+  "date": "16/12/02",
+  "languages": {
+    "en": "Spanish, Araucanian",
+    "ca": "espanyol, araucà",
+    "es": "español, mapudungun"
+  },
+  "langCodes": [
+    "es",
+    "arn"
+  ],
+  "areas": {
+    "ca": "Llengües, Matemàtiques",
+    "es": "Lenguas, Matemáticas",
+    "en": "Languages, Mathematics"
+  },
+  "areaCodes": [
+    "lleng",
+    "mat"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "The Mapudungun (Araucanian) is the language of the Mapuche people, one of the major original group from the south of Chile. This package teaches the name of the numbers from 1 to 10.",
+    "ca": "El mapudungun, o Araucà, és la llengua del poble Maputxe, una de les principals ètnies originàries del sud de Xile. És una llengua originalment sense grafia, és per això que s'acostumen a trobar diferències en la forma d'escriure algunes paraules.\n<br> Aquest paquet ensenya el nom dels nombre de l'1 al 10.",
+    "es": "El Mapudungun es el idioma del pueblo Mapuche, una de las principales etnias originarias del sur de Chile. Es un lenguaje originalmente ágrafo, por lo que suelen encontrarse diferencias en la forma de escribir algunas palabras.\n<br> Este paquete enseña el nombre de los números del 1 al 10 en esta hermosa lengua."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/mapu.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mapu.jclic.zip",
+  "instFile": "jclic/mapu.jclic.inst",
+  "clicZoneId": 2056,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2056",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/mapu/jclic/mapu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 33,
+  "mediaFiles": 43,
+  "totalSize": 186838,
+  "files": [
+    "cover.gif",
+    "jclic.js/1.gif",
+    "jclic.js/10.gif",
+    "jclic.js/10_est.gif",
+    "jclic.js/1_ovej.gif",
+    "jclic.js/2.gif",
+    "jclic.js/2_gat.gif",
+    "jclic.js/3.gif",
+    "jclic.js/3_cone.gif",
+    "jclic.js/4.gif",
+    "jclic.js/4_arbo.gif",
+    "jclic.js/5.gif",
+    "jclic.js/5_vac.gif",
+    "jclic.js/6.gif",
+    "jclic.js/6_hoja.gif",
+    "jclic.js/7.gif",
+    "jclic.js/7_flor.gif",
+    "jclic.js/8.gif",
+    "jclic.js/8_poll.gif",
+    "jclic.js/9.gif",
+    "jclic.js/9_limo.gif",
+    "jclic.js/ailla9.gif",
+    "jclic.js/cayu6.gif",
+    "jclic.js/dice1.gif",
+    "jclic.js/dice10.gif",
+    "jclic.js/dice2.gif",
+    "jclic.js/dice3.gif",
+    "jclic.js/dice4.gif",
+    "jclic.js/dice5.gif",
+    "jclic.js/dice6.gif",
+    "jclic.js/dice7.gif",
+    "jclic.js/dice8.gif",
+    "jclic.js/dice9.gif",
+    "jclic.js/epu2.gif",
+    "jclic.js/fin_110.gif",
+    "jclic.js/ini_110.gif",
+    "jclic.js/kechu5.gif",
+    "jclic.js/ki_e1.gif",
+    "jclic.js/kila3.gif",
+    "jclic.js/mapu.jclic",
+    "jclic.js/marri10.gif",
+    "jclic.js/meli4.gif",
+    "jclic.js/moltbe.gif",
+    "jclic.js/purra8.gif",
+    "jclic.js/regle7.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/mapu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

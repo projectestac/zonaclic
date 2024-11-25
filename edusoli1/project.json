@@ -1,0 +1,117 @@
+{
+  "id": 858,
+  "title": "Educación para la solidaridad",
+  "author": "Moncho Marín Calvo",
+  "school": "CP San Lorenzo de Ezcaray Ezcaray (La Rioja)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "diversitat, tolèrancia, solidaritat",
+    "es": "diversidad, tolerancia, solidaridad",
+    "en": "diversity, tolerance, solidarity"
+  },
+  "descCodes": [
+    789,
+    819,
+    949
+  ],
+  "description": {
+    "en": "Clic activities about solidarity based on the magazine: \n<b><i>Jatun Sunqu \"Corazón Grande\"</i></b>. These activities about solidarity have some texts, images, crosswords and puzzles with the aim to educate children to live in a more shared and common world.",
+    "ca": "Paquet d'activitats basat en la revista \n<b><i>Jatun Sunqu \"Corazón Grande\"</i></b>. Aquestes activitats sobre la solidaritat recullen una sèrie de textos, imatges, mots encreuats i trencaclosques amb l'objectiu d'educar els alumnes per a viure en un món més solidari.",
+    "es": "Paquete de actividades basado en la revista \n<b><i>Jatun Sunqu \"Corazón Grande\"</i></b>. Estas actividades sobre la solidaridad recogen una serie de textos, imágenes, crucigramas y rompecabezas con el objetivo de educar a los alumnos para vivir en un mundo más solidario."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/edusoli1.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/edusoli1.jclic.zip",
+  "instFile": "jclic/edusoli1.jclic.inst",
+  "clicZoneId": 1486,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1486",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/edusoli1/jclic/edusoli1.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 35,
+  "totalSize": 1344861,
+  "files": [
+    "cover.jpg",
+    "jclic.js/07puz.gif",
+    "jclic.js/colorpuz.gif",
+    "jclic.js/comerjus.jpg",
+    "jclic.js/contami.jpg",
+    "jclic.js/coopera.jpg",
+    "jclic.js/dedo1.gif",
+    "jclic.js/dedos1.gif",
+    "jclic.js/edusoli1.jclic",
+    "jclic.js/escla1.jpg",
+    "jclic.js/fin.gif",
+    "jclic.js/fuego.jpg",
+    "jclic.js/injus1.jpg",
+    "jclic.js/injus11.jpg",
+    "jclic.js/injus12.jpg",
+    "jclic.js/injus1a.jpg",
+    "jclic.js/injus3.jpg",
+    "jclic.js/injus4.jpg",
+    "jclic.js/injus5.jpg",
+    "jclic.js/injus6.jpg",
+    "jclic.js/injus7.jpg",
+    "jclic.js/injus9.jpg",
+    "jclic.js/insoli2.jpg",
+    "jclic.js/jus1.jpg",
+    "jclic.js/perdondd.jpg",
+    "jclic.js/pres.jpg",
+    "jclic.js/recipap.jpg",
+    "jclic.js/romeu.gif",
+    "jclic.js/soli1.jpg",
+    "jclic.js/soli2.jpg",
+    "jclic.js/soli3.jpg",
+    "jclic.js/soli4.jpg",
+    "jclic.js/soli6.jpg",
+    "jclic.js/ti1.jpg",
+    "jclic.js/ti2.jpg",
+    "jclic.js/ti3.jpg",
+    "jclic.js/ti4puz.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/edusoli1.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

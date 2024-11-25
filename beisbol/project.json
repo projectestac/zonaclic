@@ -1,0 +1,85 @@
+{
+  "id": 1023,
+  "title": "Introducció al beisbol",
+  "author": "Agustí Cuevas i Emili Escolà",
+  "school": "C Sant Josep Igualada (Anoia)",
+  "date": "02/06/03",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "esports",
+    "es": "deportes",
+    "en": "sports"
+  },
+  "descCodes": [
+    424
+  ],
+  "description": {
+    "en": "Activities intended to discover Baseball in the school context. This package includes: \n<ul> \n <li>Rules </li>\n <li>Brief history of baseball </li>\n <li>Questionnaires </li>\n <li>Entertainments, . . . </li>\n</ul>",
+    "ca": "Activitats adreçades al descobriment del Beisbol dins l'àmbit escolar. El paquet inclou: \n<ul> \n <li>reglament </li>\n <li>breu història d'aquest esport </li>\n <li>qüestionaris </li>\n <li>entreteniments, ... </li>\n</ul>",
+    "es": "Actividades dirigidas al descubrimiento del Béisbol dentro del ámbito escolar. El paquete incluye: \n<ul> \n <li>reglamento </li>\n <li>breve historia de este deporte </li>\n <li>cuestionarios </li>\n <li>entretenimientos, ... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/beisbol.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/beisbol.jclic.zip",
+  "instFile": "jclic/beisbol.jclic.inst",
+  "clicZoneId": 2148,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2148",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/beisbol/jclic/beisbol.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 6,
+  "totalSize": 204224,
+  "files": [
+    "cover.gif",
+    "jclic.js/bases.gif",
+    "jclic.js/beisbol.jclic",
+    "jclic.js/camp.gif",
+    "jclic.js/camp2.gif",
+    "jclic.js/equip.gif",
+    "jclic.js/llan.gif",
+    "jclic.js/mat.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/beisbol.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": 584,
+  "title": "Zenbakiekin jolasean",
+  "author": "José Manuel Mikelez i Karmele Barandiaran Ors",
+  "school": "Donostiako PAT Donostia (Guipuzcoa)",
+  "date": "25/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "fonaments de les matemàtiques, llengua basca",
+    "es": "fundamentos de las matemáticas, lengua vasca",
+    "en": "foundations of the mathematics, Basque language"
+  },
+  "descCodes": [
+    707,
+    922
+  ],
+  "description": {
+    "en": "Math activities in euskera t work on the first ten numbers.",
+    "ca": "Material per a treballar els deu primers nombres en euskera. S'utilitzen també deu frases, una amb cada número.\n<br> Zenbakiekin jolasean lehenengo hamar zenbakiak lantzeko materiala daukagu. Zenbakiekin batera hamar esaera lantzen dira.",
+    "es": "Material para trabajar los diez primeros números en eusquera. Se utilizan también diez frases, una con cada número.\n<br> Zenbakiekin jolasean lehenengo hamar zenbakiak lantzeko materiala daukagu. Zenbakiekin batera hamar esaera lantzen dira."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/zenbaki2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/zenbaki2.jclic.zip",
+  "instFile": "jclic/zenbaki2.jclic.inst",
+  "clicZoneId": 1323,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1323",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/zenbaki2/jclic/zenbaki2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 30,
+  "mediaFiles": 57,
+  "totalSize": 473219,
+  "files": [
+    "cover.gif",
+    "jclic.js/1.gif",
+    "jclic.js/10.gif",
+    "jclic.js/10hsin_n.gif",
+    "jclic.js/10pilota.gif",
+    "jclic.js/1csin_n_.gif",
+    "jclic.js/1pilota.gif",
+    "jclic.js/2.gif",
+    "jclic.js/2hsin_n_.gif",
+    "jclic.js/2pilotes.gif",
+    "jclic.js/3.gif",
+    "jclic.js/3csin_n_.gif",
+    "jclic.js/3pilotes.gif",
+    "jclic.js/4.gif",
+    "jclic.js/4dsin_n_.gif",
+    "jclic.js/4pilotes.gif",
+    "jclic.js/5.gif",
+    "jclic.js/5csin_n_.gif",
+    "jclic.js/5pilota.gif",
+    "jclic.js/6.gif",
+    "jclic.js/6hsin_n_.gif",
+    "jclic.js/6pilota.gif",
+    "jclic.js/7.gif",
+    "jclic.js/7dsin_n_.gif",
+    "jclic.js/7pilota.gif",
+    "jclic.js/8.gif",
+    "jclic.js/8dsin_n_.gif",
+    "jclic.js/8pilota.gif",
+    "jclic.js/9.gif",
+    "jclic.js/9hsin_n_.gif",
+    "jclic.js/9pilota.gif",
+    "jclic.js/amaiera.gif",
+    "jclic.js/azalzenb.gif",
+    "jclic.js/dinklk01.gif",
+    "jclic.js/dinklk06.gif",
+    "jclic.js/dinklk14.gif",
+    "jclic.js/final3.gif",
+    "jclic.js/men_may2.gif",
+    "jclic.js/n1.gif",
+    "jclic.js/n10.gif",
+    "jclic.js/n10_10.gif",
+    "jclic.js/n1_1.gif",
+    "jclic.js/n2.gif",
+    "jclic.js/n2_2.gif",
+    "jclic.js/n3.gif",
+    "jclic.js/n3_3.gif",
+    "jclic.js/n4.gif",
+    "jclic.js/n4_4.gif",
+    "jclic.js/n5.gif",
+    "jclic.js/n5_5.gif",
+    "jclic.js/n6.gif",
+    "jclic.js/n6_6.gif",
+    "jclic.js/n7.gif",
+    "jclic.js/n7_7.gif",
+    "jclic.js/n8.gif",
+    "jclic.js/n8_8.gif",
+    "jclic.js/n9.gif",
+    "jclic.js/n9_9.gif",
+    "jclic.js/zenbaki2.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/zenbaki2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

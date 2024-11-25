@@ -1,0 +1,102 @@
+{
+  "id": 1096,
+  "title": "Els números romans",
+  "author": "Ferran Estruch Mascarell",
+  "school": "CP Verge del Remei Castelló de Rugat (La Vall d'Albaida)",
+  "date": "10/11/03",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "numeració romana",
+    "es": "numeración romana",
+    "en": "roman numerals"
+  },
+  "descCodes": [
+    913
+  ],
+  "description": {
+    "en": "Clic activities about roman numbers: rules, equivalences between decimal and roman numbers, current expressions where roman numbers are used, etc.",
+    "ca": "Paquet d'activitats sobre l'ús dels números romans: regles per a construir els nombres, equivalències entre el sistema decimal i el romà, expressions en les que actualment fem servir els números romans, etc.",
+    "es": "Paquete de actividades sobre el uso de los números romanos: reglas para construir los números, equivalencias entre el sistema romano y el decimal, expresiones que se utilizan actualmente los números romanos, etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/romans2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/romans2.jclic.zip",
+  "instFile": "jclic/romans2.jclic.inst",
+  "clicZoneId": 2362,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2362",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/romans2/jclic/romans2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 23,
+  "totalSize": 692542,
+  "files": [
+    "cover.jpg",
+    "jclic.js/atenes.gif",
+    "jclic.js/benxiii.gif",
+    "jclic.js/carlesv.gif",
+    "jclic.js/imperi.gif",
+    "jclic.js/jaume.gif",
+    "jclic.js/juxxiii.gif",
+    "jclic.js/llibres.gif",
+    "jclic.js/llig1.gif",
+    "jclic.js/llig2.gif",
+    "jclic.js/llig3.gif",
+    "jclic.js/present.gif",
+    "jclic.js/re_1.gif",
+    "jclic.js/re_10.gif",
+    "jclic.js/re_11.gif",
+    "jclic.js/re_12.gif",
+    "jclic.js/re_2.gif",
+    "jclic.js/re_3.gif",
+    "jclic.js/re_4.gif",
+    "jclic.js/re_5.gif",
+    "jclic.js/re_6.gif",
+    "jclic.js/re_7.gif",
+    "jclic.js/re_8.gif",
+    "jclic.js/re_9.gif",
+    "jclic.js/romans2.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/romans2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

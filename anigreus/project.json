@@ -1,0 +1,147 @@
+{
+  "id": 1220,
+  "title": "Baserriko animaliak",
+  "author": "Enric J. López, Imma Palahí i Maria Borrell Veu: Nil López",
+  "school": "Escola Especial Concha Espina Barcelona, Escola Salvador Espriu Montgat (Maresme)",
+  "date": "22/09/10",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "animals domèstics, animals de granja",
+    "es": "animales domésticos, animales de granja",
+    "en": "domestic animals, farm animals"
+  },
+  "descCodes": [
+    52,
+    1280
+  ],
+  "description": {
+    "en": "Package of activities about farm animals structured in two sections: \n<ul> \n <li>Know </li>\n <li>Recognize </li>\n</ul>Know, there are several activities of letter ordering and puzzles supported by the animal sound.\n<p> In the section <i>Recognize</i> we can find relationships name-image and word puzzles. </p>",
+    "ca": "Paquet d'activitats sobre els animals de la granja dividit en dos apartats: \n<ul> \n <li>conèixer </li>\n <li>reconèixer </li>\n</ul> A l'apartat de \n<i>conèixer</i> es troben diferents activitats d'ordenar lletres i de trencaclosques reforçades amb el so del nom de l'animal.\n<p> Al segon apartat, el de <i>reconèixer</i> es troben associacions nom - imatge i trencaclosques de paraules. </p>",
+    "es": "Paquete de actividades sobre los animales de la granja dividido en dos apartados: \n<ul> \n <li>conocer </li>\n <li>reconocer </li>\n</ul> En el apartado de \n<i>conocer</i> se encuentran actividades de ordenar letras y de rompecabezas reforzadas con el sonido del nombre del anima.\n<p> En el segundo apartado, el de <i>reconocer</i> se encuentran asociaciones nombre - imagen y rompecabezas de parejas. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "anigranj"
+  ],
+  "mainFile": "jclic.js/anigreus.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/anigreus.jclic.zip",
+  "instFile": "jclic/anigreus.jclic.inst",
+  "clicZoneId": 3000,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3000",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/anigreus/jclic/anigreus.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 42,
+  "mediaFiles": 64,
+  "totalSize": 6887138,
+  "files": [
+    "cover.gif",
+    "jclic.js/1apart.gif",
+    "jclic.js/2apart.gif",
+    "jclic.js/2apartp.gif",
+    "jclic.js/agranja1.gif",
+    "jclic.js/anecs.gif",
+    "jclic.js/anecs.wav",
+    "jclic.js/anigreus.jclic",
+    "jclic.js/arbre.gif",
+    "jclic.js/arnau.gif",
+    "jclic.js/axel.gif",
+    "jclic.js/bens.gif",
+    "jclic.js/bens.wav",
+    "jclic.js/bensr.gif",
+    "jclic.js/burro.gif",
+    "jclic.js/burror.gif",
+    "jclic.js/cavall.gif",
+    "jclic.js/cavall.wav",
+    "jclic.js/cavallr.gif",
+    "jclic.js/conill.gif",
+    "jclic.js/conill.wav",
+    "jclic.js/conillr.gif",
+    "jclic.js/dinar.gif",
+    "jclic.js/flor.gif",
+    "jclic.js/gall.gif",
+    "jclic.js/gallin1.wav",
+    "jclic.js/galliner.gif",
+    "jclic.js/gallines.gif",
+    "jclic.js/granjat.wav",
+    "jclic.js/icon.gif",
+    "jclic.js/janecs.gif",
+    "jclic.js/jbens.gif",
+    "jclic.js/jcavall.gif",
+    "jclic.js/jconill.gif",
+    "jclic.js/jg.gif",
+    "jclic.js/joca.gif",
+    "jclic.js/jruc.gif",
+    "jclic.js/jvaca.gif",
+    "jclic.js/kaixo.wav",
+    "jclic.js/lanecs.gif",
+    "jclic.js/lbens.gif",
+    "jclic.js/lcavall.gif",
+    "jclic.js/lconill.gif",
+    "jclic.js/lg.gif",
+    "jclic.js/lidia.gif",
+    "jclic.js/loca.gif",
+    "jclic.js/lruc.gif",
+    "jclic.js/lvaca.gif",
+    "jclic.js/nenes.gif",
+    "jclic.js/nens.gif",
+    "jclic.js/oca.gif",
+    "jclic.js/oca.wav",
+    "jclic.js/ocar.gif",
+    "jclic.js/panecs.gif",
+    "jclic.js/pbens.gif",
+    "jclic.js/pburro.gif",
+    "jclic.js/pcavall.gif",
+    "jclic.js/pconill.gif",
+    "jclic.js/pg.gif",
+    "jclic.js/poca.gif",
+    "jclic.js/pvaca.gif",
+    "jclic.js/ruc.wav",
+    "jclic.js/vaca.gif",
+    "jclic.js/vaca.wav",
+    "jclic.js/vacar.gif",
+    "jclic.js/visca.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/anigreus.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

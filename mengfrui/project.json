@@ -1,0 +1,137 @@
+{
+  "id": 2052,
+  "title": "Mengem fruita (1a part)",
+  "author": "Maria Torres Español",
+  "school": "Escola Gaspar de Portolà Balaguer (Noguera)",
+  "date": "14/05/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages, Mathematics",
+    "ca": "Ciències experimentals, Llengües, Matemàtiques",
+    "es": "Ciencias experimentales, Lenguas, Matemáticas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng",
+    "mat"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, sèries",
+    "es": "aprendizaje de la lengua, series",
+    "en": "learning of the language, series"
+  },
+  "descCodes": [
+    110,
+    944
+  ],
+  "description": {
+    "en": "Activities to do with kindergarten children based on \n<i>Fruit eating at school programme</i>. The project consists of two parts: \n<ul> \n <li>Language games (16 activities) </li>\n <li>Maths games (16 activities) </li>\n</ul>",
+    "ca": "Activitats per fer amb els nens d'educació infantil a partir del \n<i>Programa de consum de fruita a l'escola</i>. El Projecte consta de dues parts: \n<ul> \n <li>Jocs de llengua (16 activitats) </li>\n <li>Jocs de matemàtica (16 activitats) </li>\n</ul>",
+    "es": "Actividades para hacer con los niños de educación infantil a partir del \n<i>Programa de consum de fruita a l'escola</i>. El proyecto consta de dos partes: \n<ul> \n <li>Juegos de lengua (16 actividades) </li>\n <li>Juegos de matemática (16 actividades) </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "meng2_eu",
+    "menge_eu",
+    "mengfru2"
+  ],
+  "mainFile": "jclic.js/mengfrui.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mengfrui.jclic.zip",
+  "instFile": "jclic/mengfrui.jclic.inst",
+  "clicZoneId": 3621,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3621",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/mengfrui/jclic/mengfrui.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 34,
+  "mediaFiles": 50,
+  "totalSize": 3339962,
+  "files": [
+    "cover.png",
+    "jclic.js/1_mandarina.jpg",
+    "jclic.js/1_mandarinessss.jpg",
+    "jclic.js/1_platansss.jpg",
+    "jclic.js/1_pomessss.jpg",
+    "jclic.js/1_tarongessss.jpg",
+    "jclic.js/1peresss.jpg",
+    "jclic.js/2_mandarinessss.jpg",
+    "jclic.js/2_peres.jpg",
+    "jclic.js/2_peres_grogues.jpg",
+    "jclic.js/2_peresss.jpg",
+    "jclic.js/2_platansss.jpg",
+    "jclic.js/2_pomessss.jpg",
+    "jclic.js/3_mandarinesssssss.jpg",
+    "jclic.js/3_platans.jpg",
+    "jclic.js/3_pomes_rogesssss.jpg",
+    "jclic.js/3_pomes_vermellesssss.jpg",
+    "jclic.js/3_tarongessss.jpg",
+    "jclic.js/4_mandarinessss.jpg",
+    "jclic.js/5_fruites.jpg",
+    "jclic.js/5_taronges_resized.jpg",
+    "jclic.js/6_platans.jpg",
+    "jclic.js/endev_platan.mp3",
+    "jclic.js/endev_poma.mp3",
+    "jclic.js/endevinalla_mandarina.mp3",
+    "jclic.js/endevinalla_pera.mp3",
+    "jclic.js/endevinalla_taronja.mp3",
+    "jclic.js/mandarina.mp3",
+    "jclic.js/mandarina_bona.jpg",
+    "jclic.js/mandarina_pelada.jpg",
+    "jclic.js/mandarina_peladaaaa.jpg",
+    "jclic.js/mb.mp3",
+    "jclic.js/mengfrui.jclic",
+    "jclic.js/molts_plantnas.jpg",
+    "jclic.js/molts_platanss.jpg",
+    "jclic.js/pera.mp3",
+    "jclic.js/pera_poma_2.jpg",
+    "jclic.js/pera_v_.jpg",
+    "jclic.js/platan.mp3",
+    "jclic.js/platan_platan_pelat.jpg",
+    "jclic.js/platan_taronja.jpg",
+    "jclic.js/platano_petit.jpg",
+    "jclic.js/platano_sneser.jpg",
+    "jclic.js/poma.mp3",
+    "jclic.js/poma_rojaj.jpg",
+    "jclic.js/ruites_montatge.jpg",
+    "jclic.js/so.gif",
+    "jclic.js/taronj.jpg",
+    "jclic.js/taronja.mp3",
+    "jclic.js/taronja_mandarina_2.jpg",
+    "jclic.js/taronja_pera_poma.jpg",
+    "jclic.js/taronjjaaaaa.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/mengfrui.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

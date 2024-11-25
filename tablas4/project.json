@@ -1,0 +1,84 @@
+{
+  "id": 2582,
+  "title": "Tablas de multiplicar",
+  "author": "Ing. Jesús Franco Sánchez",
+  "school": "CREI José María Lafragua 2181 (San Francisco de Borja)",
+  "date": "29/01/19",
+  "langCodes": [
+    "es"
+  ],
+  "languages": {
+    "es": "español",
+    "ca": "espanyol",
+    "en": "Spanish"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "areas": {
+    "es": "Matemáticas",
+    "ca": "Matemàtiques",
+    "en": "Mathematics"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "levels": {
+    "es": "Primaria (6-12)",
+    "ca": "Primària (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "description": {
+    "es": "Conjunto de actividades que pretende reforzar los aprendizajes acerca de las tablas de multiplicar en los alumnos de primaria. El objetivo es memorizarlas ya que se utilizan diariamente en diferentes problemas y se pueden distraer tratando de recordarlas.",
+    "ca": "Conjunt d'activitats que pretén reforçar els aprenentatges sobre les taules de multiplicar en els alumnes de primària. L'objectiu és memoritzar-les ja que s'utilitzen diàriament en diferents problemes i es poden distreure tractant de recordar-les.",
+    "en": "Set of activities that wants to reinforce learning about multiplication tables in primary school students. The objective is to memorize them since they are used daily in different problems and can be distracted trying to remember them."
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "es",
+    "ca",
+    "en"
+  ],
+  "cover": "caratula.png",
+  "coverWebp": "caratula.webp",
+  "thumbnail": "desc_miniatura.png",
+  "mainFile": "jclic.js/tablas4.jclic",
+  "activities": 45,
+  "mediaFiles": 21,
+  "totalSize": 1038989,
+  "instFile": "jclic/tablas4.jclic.inst",
+  "zipFile": "jclic/tablas4.jclic.zip",
+  "files": [
+    "caratula.png",
+    "desc_miniatura.png",
+    "jclic.js/aprobacion.png",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/mult1.png",
+    "jclic.js/mult2.png",
+    "jclic.js/mult4.png",
+    "jclic.js/parcela.png",
+    "jclic.js/tabla-del-1.png",
+    "jclic.js/tabla-multiplicar-5-resized.jpg",
+    "jclic.js/tabla_del_10.png",
+    "jclic.js/tabla_del_2.jpg",
+    "jclic.js/tabla_del_3-resized.jpg",
+    "jclic.js/tabla_del_4-resized.jpg",
+    "jclic.js/tabla_del_6-resized.jpg",
+    "jclic.js/tabla_del_7.jpg",
+    "jclic.js/tabla_del_8.png",
+    "jclic.js/tabla_del_9.jpg",
+    "jclic.js/tablas4.jclic",
+    "jclic.js/tablas4.jclic.js",
+    "jclic.js/the_end-resized.jpg",
+    "project.json",
+    "caratula.webp"
+  ]
+}

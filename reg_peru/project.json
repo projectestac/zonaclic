@@ -1,0 +1,97 @@
+{
+  "id": 2406,
+  "title": "Las Ecorregiones Naturales del Perú",
+  "author": "Luis Miguel Espino Delgado",
+  "school": "Institución Educativa Emblemática \"Santa Teresita\" Cajamarca - Perú",
+  "date": "15/10/15",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16), High school (16-18)",
+    "ca": "Secundària (12-16), Batxillerat (16-18)",
+    "es": "Secundaria (12-16), Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "SEC",
+    "BTX"
+  ],
+  "descriptors": {
+    "ca": "geografia, paisatge",
+    "es": "geografía, paisaje",
+    "en": "geography, landscape"
+  },
+  "descCodes": [
+    235,
+    296
+  ],
+  "description": {
+    "en": "JClic activities designed to publicize the eleven Ecoregions of Peru and some definitions.",
+    "ca": "Activitats JClic pensades per donar a conèixer les onze Ecoregions del Perú i algunes definicions.",
+    "es": "Actividades JClic pensadas para dar a conocer las once Ecorregiones de Perú y algunas definiciones."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/reg_peru.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/reg_peru.jclic.zip",
+  "instFile": "jclic/reg_peru.jclic.inst",
+  "clicZoneId": 3914,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3914",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/reg_peru/jclic/reg_peru.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 8,
+  "mediaFiles": 16,
+  "totalSize": 2403603,
+  "files": [
+    "cover.png",
+    "jclic.js/bosque_seco_ecuatorial.jpg",
+    "jclic.js/bosque_tropical_del_pacifico.jpg",
+    "jclic.js/definicion_ecorregion.jpg",
+    "jclic.js/desierto_del_pacifico.jpg",
+    "jclic.js/ecorregiones.jpg",
+    "jclic.js/ecorregiones1__resized.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imagen_diicionario.jpg",
+    "jclic.js/la_puna.jpg",
+    "jclic.js/las_ecorregiones_del_peru.jpg",
+    "jclic.js/mar_frio.jpg",
+    "jclic.js/mar_tropical.jpg",
+    "jclic.js/paramo.jpg",
+    "jclic.js/reg_peru.jclic",
+    "jclic.js/sabana_de_palmeras.jpg",
+    "jclic.js/selva_alta.jpg",
+    "jclic.js/selva_baja.jpg",
+    "jclic.js/serrania_esteparia.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/reg_peru.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": 1618,
+  "title": "Brown bear",
+  "author": "Cristina Santamaría Marín",
+  "school": "Escola Josep Maria Jujol Barcelona",
+  "date": "06/11/06",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa",
+    "es": "lengua inglesa",
+    "en": "English language"
+  },
+  "descCodes": [
+    130
+  ],
+  "description": {
+    "en": "Project of activities about the tale \"What do you see?\" by Bill Martin Junior and Eric Carle.",
+    "ca": "Projecte d'activitats en anglès per a cicle inicial per a l'aprenentatge dels colors i els animals basats en el conte \"What do you see?\" d'en Bill Martin Junior i Eric Carle.",
+    "es": "Proyecto de actividades en inglés para ciclo inicial para el aprendizaje de los colores y los animales basados en el cuento \"What do you see?\" de Bill Martin Junior y Eric Carle."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/bbear.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/bbear.jclic.zip",
+  "instFile": "jclic/bbear.jclic.inst",
+  "clicZoneId": 3329,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3329",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/bbear/jclic/bbear.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 44,
+  "mediaFiles": 60,
+  "totalSize": 1807504,
+  "files": [
+    "cover.gif",
+    "jclic.js/atus.mp3",
+    "jclic.js/bbear.jclic",
+    "jclic.js/bear.jpg",
+    "jclic.js/bear.mp3",
+    "jclic.js/bearblue.jpg",
+    "jclic.js/beartale.mp3",
+    "jclic.js/bird.mp3",
+    "jclic.js/birdblue.jpg",
+    "jclic.js/birdtale.mp3",
+    "jclic.js/black.mp3",
+    "jclic.js/blacksheep.mp3",
+    "jclic.js/blue.mp3",
+    "jclic.js/bluehorse.mp3",
+    "jclic.js/brown.mp3",
+    "jclic.js/brownbear.mp3",
+    "jclic.js/cat.mp3",
+    "jclic.js/catblue.jpg",
+    "jclic.js/cattale.mp3",
+    "jclic.js/childrentale.mp3",
+    "jclic.js/childrentot1.jpg",
+    "jclic.js/dog.mp3",
+    "jclic.js/dogblue.jpg",
+    "jclic.js/dogtale.mp3",
+    "jclic.js/duck.mp3",
+    "jclic.js/duckblue.jpg",
+    "jclic.js/ducktale.mp3",
+    "jclic.js/excelent.mp3",
+    "jclic.js/fantastic.mp3",
+    "jclic.js/fish.mp3",
+    "jclic.js/fishblue3.jpg",
+    "jclic.js/fishtale.mp3",
+    "jclic.js/frog.mp3",
+    "jclic.js/frogblue.jpg",
+    "jclic.js/frogttale.mp3",
+    "jclic.js/green.mp3",
+    "jclic.js/greenfrog.mp3",
+    "jclic.js/horse.mp3",
+    "jclic.js/horseblue.jpg",
+    "jclic.js/horsetale.mp3",
+    "jclic.js/isee.mp3",
+    "jclic.js/monkey.mp3",
+    "jclic.js/monkeyblue.jpg",
+    "jclic.js/monkeytale.mp3",
+    "jclic.js/ohoh.mp3",
+    "jclic.js/orange.mp3",
+    "jclic.js/orangefish.mp3",
+    "jclic.js/portada.mp3",
+    "jclic.js/purple.mp3",
+    "jclic.js/purplecat.mp3",
+    "jclic.js/red.mp3",
+    "jclic.js/redbird.mp3",
+    "jclic.js/sheep.mp3",
+    "jclic.js/sheepblue7.jpg",
+    "jclic.js/sheeptale.mp3",
+    "jclic.js/verygood.mp3",
+    "jclic.js/wesee.mp3",
+    "jclic.js/whatwesee.mp3",
+    "jclic.js/white.mp3",
+    "jclic.js/whitedog.mp3",
+    "jclic.js/yellow.mp3",
+    "jclic.js/yellowduck.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/bbear.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

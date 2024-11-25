@@ -1,0 +1,122 @@
+{
+  "id": 2498,
+  "title": "Electrical appliances",
+  "author": "María Luisa Íñigo Toledano",
+  "school": "CEIP Jarama Rivas Rivas-Vaciamadrid - Madrid (Madrid)",
+  "date": "21/03/17",
+  "languages": {
+    "en": "English, Spanish",
+    "ca": "anglès, espanyol",
+    "es": "inglés, español"
+  },
+  "langCodes": [
+    "en",
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, vocabulari",
+    "es": "lengua inglesa, vocabulario",
+    "en": "English language, vocabulary"
+  },
+  "descCodes": [
+    667,
+    673
+  ],
+  "description": {
+    "en": "Activities to expand vocabulary in English about some electrical appliances. Instructions are in Spanish.",
+    "ca": "Activitats per ampliar el vocabulari en llengua anglesa amb el noms d'alguns electrodomèstics. Les instruccions són en castellà.",
+    "es": "Actividades para ampliar el vocabulario en lengua inglesa con los nombres de algunos electrodomésticos. Las instrucciones están en castellano."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/electr.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/electr.jclic.zip",
+  "instFile": "jclic/electr.jclic.inst",
+  "clicZoneId": 4007,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=4007",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/electr/jclic/electr.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 40,
+  "totalSize": 1868013,
+  "files": [
+    "cover.png",
+    "jclic.js/aspiradora.png",
+    "jclic.js/batidora.png",
+    "jclic.js/blender_licuadora.mp3",
+    "jclic.js/cafetera.png",
+    "jclic.js/clasica.mp3",
+    "jclic.js/cocina.png",
+    "jclic.js/coffee_maker.mp3",
+    "jclic.js/computer.mp3",
+    "jclic.js/dish_washer.mp3",
+    "jclic.js/electr.jclic",
+    "jclic.js/electr.jclic.js",
+    "jclic.js/electric_whisk.mp3",
+    "jclic.js/electrical_appliances.mp3",
+    "jclic.js/electrodomesticos1_resized.jpg",
+    "jclic.js/electrodomesticos_resized.jpg",
+    "jclic.js/estufa.png",
+    "jclic.js/fan_ventilador.mp3",
+    "jclic.js/fridge.mp3",
+    "jclic.js/frigorifico.png",
+    "jclic.js/hair_dryer.mp3",
+    "jclic.js/heater.mp3",
+    "jclic.js/horno.png",
+    "jclic.js/impresora.png",
+    "jclic.js/iron.mp3",
+    "jclic.js/lavadora.png",
+    "jclic.js/lavavajillas.png",
+    "jclic.js/licuadora.png",
+    "jclic.js/microondas.png",
+    "jclic.js/microwave_oven.mp3",
+    "jclic.js/ordenador.png",
+    "jclic.js/oven.mp3",
+    "jclic.js/plancha.png",
+    "jclic.js/printer.mp3",
+    "jclic.js/secador.png",
+    "jclic.js/stove.mp3",
+    "jclic.js/television_set.mp3",
+    "jclic.js/televisor.png",
+    "jclic.js/toaster.mp3",
+    "jclic.js/tostadora.png",
+    "jclic.js/vacuum_cleaner.mp3",
+    "jclic.js/ventilador.png",
+    "jclic.js/washing_machine.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

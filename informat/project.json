@@ -1,0 +1,112 @@
+{
+  "id": 1173,
+  "title": "Informática básica (Informática básica)",
+  "author": "Gayle Almonte",
+  "school": "Instituto de Capacitación Informática San Pedro de Macoris (República Dominicana)",
+  "date": "14/06/04",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Tecnologies",
+    "es": "Tecnología",
+    "en": "Design & technology"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "informàtica, maquinari, windows, internet",
+    "es": "informática, hardware, windows, internet",
+    "en": "computer science, hardware, windows, internet"
+  },
+  "descCodes": [
+    737,
+    739,
+    1352,
+    1353
+  ],
+  "description": {
+    "en": "Clic activities about the main parts of the computer: central unit, peripherals, software... and some things about interenet and Windows.",
+    "ca": "En aquests paquet d'activitats es repassen els noms del principals components d'un ordinador: unitat central, perifèrics, programari... i també aspectes d'internet i del Windows.",
+    "es": "En estos paquetes de actividades se repasan los principales componentes de un ordenador: unidad central, periféricos, software... i también aspectos sobre internet y Windows."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "internet",
+    "ventanas",
+    "windows"
+  ],
+  "mainFile": "jclic.js/informat.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/informat.jclic.zip",
+  "instFile": "jclic/informat.jclic.inst",
+  "clicZoneId": 2660,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2660",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/informat/jclic/informat.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 25,
+  "totalSize": 486000,
+  "files": [
+    "cover.gif",
+    "jclic.js/1.gif",
+    "jclic.js/aaee.gif",
+    "jclic.js/aaee2.gif",
+    "jclic.js/aaee3.gif",
+    "jclic.js/bocinas.gif",
+    "jclic.js/captur7.gif",
+    "jclic.js/captur_1.gif",
+    "jclic.js/captur_2.gif",
+    "jclic.js/cdr.gif",
+    "jclic.js/cpu2.gif",
+    "jclic.js/dibujo.gif",
+    "jclic.js/diss45.gif",
+    "jclic.js/hayhumoentusojos.mid",
+    "jclic.js/imaclic.gif",
+    "jclic.js/impres.gif",
+    "jclic.js/informat.jclic",
+    "jclic.js/logord.gif",
+    "jclic.js/m.wav",
+    "jclic.js/mar.wav",
+    "jclic.js/miacc.gif",
+    "jclic.js/monitor.gif",
+    "jclic.js/mouse45.gif",
+    "jclic.js/soft078.gif",
+    "jclic.js/softwor.gif",
+    "jclic.js/teclado.gif",
+    "jclic.js/teclado2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/informat.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

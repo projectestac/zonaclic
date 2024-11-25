@@ -1,0 +1,104 @@
+{
+  "id": 854,
+  "title": "La constitución para niños",
+  "author": "María Ángel de Prado",
+  "school": "CP San Ignacio de Loyola Palencia (Castilla y León)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "constitució",
+    "es": "constitución",
+    "en": "constitution"
+  },
+  "descCodes": [
+    941
+  ],
+  "description": {
+    "en": "Clic activities about the 1978 Spanish Constitution.",
+    "ca": "Paquet d'activitats basat en una publicació de la diputació de Palència i destinat a educació primària, on es treballen alguns dels continguts més significatius de la constitució espanyola de 1978: els drets i deures dels ciutadans, l'organització en comunitats autònomes, les cambres de representació, la bandera, l'escut, etc.",
+    "es": "Paquete de actividades basado en una publicación de la diputación de Palencia y destinado a educación primaria, en el que se trabajan algunos de los contenidos más significativos de la constitución española de 1978: los derechos y deberes de los ciudadanos, la organización en comunidades autónomas, las cámaras de representación, la bandera, el escudo, etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/consti.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/consti.jclic.zip",
+  "instFile": "jclic/consti.jclic.inst",
+  "clicZoneId": 1483,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1483",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/consti/jclic/consti.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 25,
+  "totalSize": 1178073,
+  "files": [
+    "cover.gif",
+    "jclic.js/1.gif",
+    "jclic.js/1ban.gif",
+    "jclic.js/2.gif",
+    "jclic.js/3.gif",
+    "jclic.js/4.gif",
+    "jclic.js/a_o.gif",
+    "jclic.js/ban.gif",
+    "jclic.js/bandera.gif",
+    "jclic.js/ccaa.gif",
+    "jclic.js/congreso.gif",
+    "jclic.js/consti.jclic",
+    "jclic.js/cortes.gif",
+    "jclic.js/escu.gif",
+    "jclic.js/escudo.gif",
+    "jclic.js/gobi.gif",
+    "jclic.js/himno.gif",
+    "jclic.js/mec_min.gif",
+    "jclic.js/paloma.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/rey.gif",
+    "jclic.js/reyes.gif",
+    "jclic.js/senado.gif",
+    "jclic.js/simbolo.gif",
+    "jclic.js/tarta.gif",
+    "jclic.js/tribu.gif",
+    "jclic.js/zarzu.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/consti.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

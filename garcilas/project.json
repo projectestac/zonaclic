@@ -1,0 +1,98 @@
+{
+  "id": 1413,
+  "title": "Garcilaso de la Vega y el soneto número XXIII",
+  "author": "Víctor J. Ronda",
+  "school": "Institut Terra Roja Santa Coloma de Gramenet (Barcelonès)",
+  "date": "15/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "literatura espanyola, Garcilaso de la Vega",
+    "es": "literatura española, Garcilaso de la Vega",
+    "en": "Spanish Literature, Garcilaso de la Vega"
+  },
+  "descCodes": [
+    630,
+    1333
+  ],
+  "description": {
+    "en": "This package of activities has two parts: the first one is centred in the review of the most significant characteristics of the poetry of Garcilaso and the second one is dedicated to do exercises about the sonnet number XXIII of this author.",
+    "ca": "Aquest paquet d'activitats consta de dues parts: la primera es centra en el repàs de les característiques més significatives de la poesia de Garcilaso i la segona es dedica a realitzar uns exercicis sobre el sonet número XXIII de l'esmentat autor.",
+    "es": "Este paquete de actividades consta de dos partes: la primera se centra en el repaso de las características más significativas de la poesía de Garcilaso y la segunda se dedica a realizar unos ejercicios sobre el soneto número XXIII de dicho autor."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/garcilas.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/garcilas.jclic.zip",
+  "instFile": "jclic/garcilas.jclic.inst",
+  "clicZoneId": 3149,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3149",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/garcilas/jclic/garcilas.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 17,
+  "totalSize": 3964723,
+  "files": [
+    "cover.jpg",
+    "jclic.js/2garcil.gif",
+    "jclic.js/aplaudir.wav",
+    "jclic.js/capture.wav",
+    "jclic.js/castle.wav",
+    "jclic.js/coged.gif",
+    "jclic.js/entanto.gif",
+    "jclic.js/garcil_1.gif",
+    "jclic.js/garcila2.gif",
+    "jclic.js/garcilas.jclic",
+    "jclic.js/garcilas.pdf",
+    "jclic.js/ifever.wav",
+    "jclic.js/lira.gif",
+    "jclic.js/marchita.gif",
+    "jclic.js/octava.gif",
+    "jclic.js/prithee.wav",
+    "jclic.js/promote.wav",
+    "jclic.js/silva.gif",
+    "jclic.js/soneto.gif",
+    "jclic.js/yentanto.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/garcilas.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

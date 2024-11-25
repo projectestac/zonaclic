@@ -1,0 +1,120 @@
+{
+  "id": 2609,
+  "title": "STEM en Femení",
+  "author": "Alícia Roca Aso (Estudiant de 2n de batxillerat)",
+  "date": "06/09/19",
+  "langCodes": [
+    "ca"
+  ],
+  "languages": {
+    "ca": "català",
+    "es": "catalán",
+    "en": "Catalan"
+  },
+  "areaCodes": [
+    "mat",
+    "soc",
+    "exp",
+    "tec"
+  ],
+  "areas": {
+    "ca": "Matemàtiques, Ciències socials, Ciències experimentals, Tecnologies",
+    "es": "Matemáticas, Ciencias sociales, Ciencias experimentales, Tecnología",
+    "en": "Mathematics, Social sciences, Experimental sciences, Design & technology"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "levels": {
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)",
+    "en": "Primary school (6-12), Secondary school (12-16)"
+  },
+  "description": {
+    "ca": "Conjunt d'activitats per conèixer professions STEM (Ciències, Tecnologia, Enginyeria i Matemàtiques) així com algunes de les dones referents en aquests àmbits i els seus invents i descobriments, amb l'objectiu d'empoderar les nenes i augmentar la seva presència en aquestes professions de cara al futur.\n\n<a href=\"https://sites.google.com/view/stemenfemeni\" target=\"_blank\" >https://sites.google.com/view/stemenfemeni</a>",
+    "es": "Conjunto de actividades para conocer profesiones STEM (Ciencias, Tecnología, Ingeniería y Matemáticas) así como algunas de las mujeres referentes en estos ámbitos y sus inventos y descubrimientos, con el objetivo de empoderar a las chicas y aumentar su presencia en estas profesiones de cara al futuro.\n\n<a href=\"https://sites.google.com/view/stemenfemeni\" target=\"_blank\" >https://sites.google.com/view/stemenfemeni</a>",
+    "en": "JClic activities to know the STEM professions (Science, Technology, Engineering and Mathematics) as well as some of the women leaders in these areas and their discoveries, aiming to empower girls and increase their presence in these profession on the future.\n\n<a href=\"https://sites.google.com/view/stemenfemeni\" target=\"_blank\" >https://sites.google.com/view/stemenfemeni</a>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "cover": "caratula.png",
+  "coverWebp": "caratula.webp",
+  "thumbnail": "thumb.png",
+  "mainFile": "jclic.js/stem_en_femeni.jclic",
+  "activities": 23,
+  "mediaFiles": 54,
+  "totalSize": 1686559,
+  "instFile": "jclic/stem_en_femeni.jclic.inst",
+  "zipFile": "jclic/stem_en_femeni.jclic.zip",
+  "files": [
+    "caratula.png",
+    "jclic.js/architecture.png",
+    "jclic.js/arquitecta_01.mp3",
+    "jclic.js/astronoma_01.mp3",
+    "jclic.js/astronomer.png",
+    "jclic.js/avatar.png",
+    "jclic.js/bibliotecaria_01.mp3",
+    "jclic.js/bombera_01.mp3",
+    "jclic.js/bossa_de_paper.png",
+    "jclic.js/bulquer.png",
+    "jclic.js/cambrera_01.mp3",
+    "jclic.js/cientifica_01.mp3",
+    "jclic.js/coffee-maker.png",
+    "jclic.js/copy-machine.png",
+    "jclic.js/doctor__1_.png",
+    "jclic.js/ebook.png",
+    "jclic.js/economista_01.mp3",
+    "jclic.js/eixugaparabrises.png",
+    "jclic.js/electrician.png",
+    "jclic.js/electricista_01.mp3",
+    "jclic.js/fork-in-diagonal.png",
+    "jclic.js/girl.png",
+    "jclic.js/guard.png",
+    "jclic.js/hairdresser.png",
+    "jclic.js/icona.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/informatica_01.mp3",
+    "jclic.js/jclic_final-resized.jpg",
+    "jclic.js/judge.png",
+    "jclic.js/jutgessa_01.mp3",
+    "jclic.js/librarian.png",
+    "jclic.js/maquina_de_fer_gelats.png",
+    "jclic.js/mecanica_01.mp3",
+    "jclic.js/mechanic.png",
+    "jclic.js/metgesa_01.mp3",
+    "jclic.js/nevera.png",
+    "jclic.js/perruquera_01.mp3",
+    "jclic.js/policia_01.mp3",
+    "jclic.js/politica_01.mp3",
+    "jclic.js/presentation.png",
+    "jclic.js/puzzle_stem-resized.jpg",
+    "jclic.js/rentavaixelles.png",
+    "jclic.js/scientist.png",
+    "jclic.js/secretaria_01.mp3",
+    "jclic.js/secretary.png",
+    "jclic.js/sostenidor.png",
+    "jclic.js/speaker.png",
+    "jclic.js/stem_en_femeni.jclic",
+    "jclic.js/stem_en_femeni.jclic.js",
+    "jclic.js/switch.png",
+    "jclic.js/taula_de_planxar.png",
+    "jclic.js/thumbs-up_editada_perf-resized.jpg",
+    "jclic.js/tipp-ex.png",
+    "jclic.js/turings-test.png",
+    "jclic.js/wifi.png",
+    "jclic.js/xeringa.png",
+    "project.json",
+    "thumb.png",
+    "caratula.webp"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": 344,
+  "title": "Actividades de comprensión lectora",
+  "author": "Juan Manuel García Fernández",
+  "school": "Colegio Alemán Alberto Durero Sevilla (Andalucía)",
+  "date": "18/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "comprensió escrita, lectura, llengua castellana",
+    "es": "comprensión escrita, lectura, lengua castellana",
+    "en": "written understanding, reading, Spanish language"
+  },
+  "descCodes": [
+    111,
+    125,
+    132
+  ],
+  "description": {
+    "en": "Reading comprehension activities.",
+    "ca": "Paquet d'activitats per a millorar la comprensió lectora dels alumnes mitjançant la lectura de cinc històries curtes. Un cop llegides els alumnes han de respondre a diverses qüestions relacionades amb la lectura.",
+    "es": "Paquete de actividades para mejorar la comprensión lectora de los alumnos a través de la lectura de 5 pequeñas historias. Los estudiantes deben utilizar su memoria para responder a diferentes cuestiones relacionadas con la lectura de estas historias."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/colec1.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/colec1.jclic.zip",
+  "instFile": "jclic/colec1.jclic.inst",
+  "clicZoneId": 1191,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1191",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/colec1/jclic/colec1.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 42,
+  "mediaFiles": 18,
+  "totalSize": 828906,
+  "files": [
+    "cover.gif",
+    "jclic.js/2pupille.mid",
+    "jclic.js/ap.wav",
+    "jclic.js/belldorm.mid",
+    "jclic.js/claro1.gif",
+    "jclic.js/colec1.jclic",
+    "jclic.js/dc1.gif",
+    "jclic.js/dc2.gif",
+    "jclic.js/dc3.gif",
+    "jclic.js/dc4.gif",
+    "jclic.js/dc5.gif",
+    "jclic.js/f2.gif",
+    "jclic.js/f3.gif",
+    "jclic.js/f4.gif",
+    "jclic.js/f5.gif",
+    "jclic.js/mb.wav",
+    "jclic.js/mozart.mid",
+    "jclic.js/pres1.gif",
+    "jclic.js/puerta.gif",
+    "jclic.js/puzzle.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/colec1.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

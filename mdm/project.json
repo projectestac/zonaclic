@@ -1,0 +1,137 @@
+{
+  "id": 1819,
+  "title": "Multiplicación y división de monomios",
+  "author": "Leonid Medina Trejo",
+  "school": "Colegio Reina Elizabeth México",
+  "date": "02/12/08",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la matemàtica",
+    "es": "aprendizaje de la matemática",
+    "en": "learning of the mathematical one"
+  },
+  "descCodes": [
+    700
+  ],
+  "description": {
+    "en": "Project activities addressed to secondary education about the operations with monomials. The project has two parts: \n<ul> \n <li>Multiplying monomials </li>\n <li>Dividing monomials </li>\n</ul>",
+    "ca": "Projecte d'activitats per a educació secundària sobre les operacions amb monomis. El projecte està dividit en dues parts: \n<ul> \n <li>Multiplicar monomis </li>\n <li>Dividir monomis </li>\n</ul>",
+    "es": "Proyecto de actividades para educación secundaria sobre las operaciones con monomios. El proyecto está dividido en dos partes: \n<ul> \n <li>Multiplicar monomios </li>\n <li>Dividir monomios </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/mdm.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mdm.jclic.zip",
+  "instFile": "jclic/mdm.jclic.inst",
+  "clicZoneId": 3513,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3513",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/mdm/jclic/mdm.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 58,
+  "totalSize": 118255,
+  "files": [
+    "cover.jpg",
+    "jclic.js/ej1.gif",
+    "jclic.js/ej10.gif",
+    "jclic.js/ej11.gif",
+    "jclic.js/ej12.gif",
+    "jclic.js/ej13.gif",
+    "jclic.js/ej14.gif",
+    "jclic.js/ej15.gif",
+    "jclic.js/ej16.gif",
+    "jclic.js/ej17.gif",
+    "jclic.js/ej18.gif",
+    "jclic.js/ej19.gif",
+    "jclic.js/ej2.gif",
+    "jclic.js/ej20.gif",
+    "jclic.js/ej21.gif",
+    "jclic.js/ej22.gif",
+    "jclic.js/ej23.gif",
+    "jclic.js/ej24.gif",
+    "jclic.js/ej25.gif",
+    "jclic.js/ej26.gif",
+    "jclic.js/ej27.gif",
+    "jclic.js/ej28.gif",
+    "jclic.js/ej3.gif",
+    "jclic.js/ej4.gif",
+    "jclic.js/ej5.gif",
+    "jclic.js/ej6.gif",
+    "jclic.js/ej7.gif",
+    "jclic.js/ej8.gif",
+    "jclic.js/ej9.gif",
+    "jclic.js/ley1.gif",
+    "jclic.js/ley2.gif",
+    "jclic.js/mdm.jclic",
+    "jclic.js/re1.gif",
+    "jclic.js/re10.gif",
+    "jclic.js/re11.gif",
+    "jclic.js/re12.gif",
+    "jclic.js/re13.gif",
+    "jclic.js/re14.gif",
+    "jclic.js/re15.gif",
+    "jclic.js/re16.gif",
+    "jclic.js/re17.gif",
+    "jclic.js/re18.gif",
+    "jclic.js/re19.gif",
+    "jclic.js/re2.gif",
+    "jclic.js/re20.gif",
+    "jclic.js/re21.gif",
+    "jclic.js/re22.gif",
+    "jclic.js/re23.gif",
+    "jclic.js/re24.gif",
+    "jclic.js/re25.gif",
+    "jclic.js/re26.gif",
+    "jclic.js/re27.gif",
+    "jclic.js/re28.gif",
+    "jclic.js/re3.gif",
+    "jclic.js/re4.gif",
+    "jclic.js/re5.gif",
+    "jclic.js/re6.gif",
+    "jclic.js/re7.gif",
+    "jclic.js/re8.gif",
+    "jclic.js/re9.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/mdm.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

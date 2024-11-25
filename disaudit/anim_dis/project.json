@@ -1,0 +1,131 @@
+{
+  "id": 1742,
+  "title": "Actividades de discriminación auditiva (1. Animais)",
+  "author": "Belén Gómez Flores",
+  "school": "CEIP Flavia Padrón (Galiza)",
+  "date": "25/02/08",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, comprensió oral",
+    "es": "aprendizaje de la lengua, comprensión oral",
+    "en": "learning of the language, oral understanding"
+  },
+  "descCodes": [
+    110,
+    112
+  ],
+  "description": {
+    "en": "Three projects of activities about aural comprehension. There are activities to associate sounds with images, to imitate sounds, to identify sounds and to ordering a sequence of sounds.",
+    "ca": "Tres projectes d'activitats per treballar la comprensió a través de sons propers al nen o nena. Primer podrà escoltar els sons per després fer les activitats relacionades amb ells: associar sons amb imatges, imitar sons i després escoltar-los, identificar sons emmascarats i produïts simultàniament i finalment, ordenar els sons segons la seqüència escoltada.",
+    "es": "Tres proyectos de actividades para trabajar la comprensión a través de sonidos cercanos al niño o niña. Primero podrá escuchar los sonidos para luego realizar actividades relacionadas con ellos: asociar sonidos con imagen, imitar sonidos y luego escucharlos, identificar sonidos enmascarados y producidos simultáneamente y finalmente, ordenar los sonidos según la secuencia escuchada."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "disaudit/inst_dis",
+    "disaudit/tran_dis"
+  ],
+  "mainFile": "jclic.js/anim_dis.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/anim_dis.jclic.zip",
+  "instFile": "jclic/anim_dis.jclic.inst",
+  "clicZoneId": 3444,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3444",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/disaudit/jclic/anim_dis.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 50,
+  "mediaFiles": 47,
+  "totalSize": 1618675,
+  "files": [
+    "cover.jpg",
+    "jclic.js/ab_va_gat.mp3",
+    "jclic.js/abeja.jpg",
+    "jclic.js/abella.mp3",
+    "jclic.js/altavoz.jpg",
+    "jclic.js/anim_dis.jclic",
+    "jclic.js/burro.jpg",
+    "jclic.js/burro.mp3",
+    "jclic.js/ca_ca_pa.mp3",
+    "jclic.js/cabalo.jpg",
+    "jclic.js/cabalo.mp3",
+    "jclic.js/cabalo_puz.jpg",
+    "jclic.js/can.jpg",
+    "jclic.js/discrim.png",
+    "jclic.js/discrim.xml",
+    "jclic.js/discrim_port.xml",
+    "jclic.js/error.mp3",
+    "jclic.js/ga_ov_por_can.mp3",
+    "jclic.js/gal_bu_ra.mp3",
+    "jclic.js/galo.jpg",
+    "jclic.js/galo.mp3",
+    "jclic.js/gato.jpg",
+    "jclic.js/gato.mp3",
+    "jclic.js/micro.jpg",
+    "jclic.js/nonesc.mp3",
+    "jclic.js/orella.jpg",
+    "jclic.js/ovella.jpg",
+    "jclic.js/ovella.mp3",
+    "jclic.js/paloma.jpg",
+    "jclic.js/paloma.mp3",
+    "jclic.js/pato.jpg",
+    "jclic.js/patos.mp3",
+    "jclic.js/perro.mp3",
+    "jclic.js/porco.jpg",
+    "jclic.js/porco.mp3",
+    "jclic.js/portada.jpg",
+    "jclic.js/rato.jpg",
+    "jclic.js/rato.mp3",
+    "jclic.js/sel_can.mp3",
+    "jclic.js/sel_gal.mp3",
+    "jclic.js/sel_gat.mp3",
+    "jclic.js/sel_pat.mp3",
+    "jclic.js/sel_por.mp3",
+    "jclic.js/sele.mp3",
+    "jclic.js/va_pal_ov_cab.mp3",
+    "jclic.js/vaca.jpg",
+    "jclic.js/vaca.mp3",
+    "jclic.js/xogar.jpg",
+    "jclic.js/yoooh.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/anim_dis.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

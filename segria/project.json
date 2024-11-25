@@ -1,0 +1,105 @@
+{
+  "id": 787,
+  "title": "El Segrià",
+  "author": "Ricard Saz Ferrer",
+  "school": "Escola La Rosella Rosselló (Segrià)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia, Segrià",
+    "es": "geografía, Segrià",
+    "en": "geography, Segrià"
+  },
+  "descCodes": [
+    235,
+    592
+  ],
+  "description": {
+    "en": "Activities about the Catalan region of Segrià: geography, climate, population, communications...",
+    "ca": "En aquest paquet d'activitats es treballen diversos aspectes de la comarca del Segrià: geografia, clima, població, localitats, comunicacions...",
+    "es": "En este paquete de actividades se trabajan distintos aspectos de la comarca catalana del Segrià: geografía, clima, población, localidades, comunicaciones..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/segria.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/segria.jclic.zip",
+  "instFile": "jclic/segria.jclic.inst",
+  "clicZoneId": 1429,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1429",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/segria/jclic/segria.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 31,
+  "mediaFiles": 25,
+  "totalSize": 463923,
+  "files": [
+    "cover.jpg",
+    "jclic.js/cli2.gif",
+    "jclic.js/f_segria.jpg",
+    "jclic.js/mitjana.jpg",
+    "jclic.js/mont2.gif",
+    "jclic.js/s_agri.jpg",
+    "jclic.js/s_com.jpg",
+    "jclic.js/s_llei.jpg",
+    "jclic.js/s_mon.jpg",
+    "jclic.js/s_mon1.jpg",
+    "jclic.js/s_po4.gif",
+    "jclic.js/s_pob1.gif",
+    "jclic.js/s_pob2.gif",
+    "jclic.js/s_pob3.gif",
+    "jclic.js/s_pob5.gif",
+    "jclic.js/s_pob6.gif",
+    "jclic.js/s_seu.jpg",
+    "jclic.js/seg_com2.gif",
+    "jclic.js/seg_com3.gif",
+    "jclic.js/seg_fon.gif",
+    "jclic.js/seg_lim.gif",
+    "jclic.js/seg_limm.gif",
+    "jclic.js/seg_riu1.gif",
+    "jclic.js/segria.jclic",
+    "jclic.js/segriu2.gif",
+    "jclic.js/sit_seg.gif",
+    "jclic.js/sit_seg1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/segria.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

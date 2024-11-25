@@ -1,0 +1,144 @@
+{
+  "id": 779,
+  "title": "Euro: a new currency",
+  "author": "Luis Ignacio García-Alzórriz Pardo",
+  "school": "Escola Mas Casanovas Barcelona",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "economia, UE",
+    "es": "economía, UE",
+    "en": "economy, EU"
+  },
+  "descCodes": [
+    211,
+    356
+  ],
+  "description": {
+    "en": "Activities about the euro. Divided into two sections: A new currency and Euro countries.",
+    "ca": "L'aplicació consta de dos paquets d'activitats: \"Una nova moneda\" i \"Europaïsos\". S'hi treballen les característiques de la nova moneda europea, monedes i bitllets, conversions euro-pesseta, països que l'adoptaran i calendari d'implantació.\n<br> Inclou una taula descriptiva de les activitats en format Adobe Acrobat (PDF)",
+    "es": "La aplicación consta de dos paquetes de actividades: \"Una nueva moneda\" y \"Europaïsos\". Se trabajan las características de la nueva moneda europea, monedas y billetes, conversiones euro-peseta, países que lo adoptarán y el calendario de implantación.\n<br> Incluye una tabla descriptiva de las actividades en formato Adobe Acrobat (PDF)"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "euro2",
+    "euro2esp",
+    "euro2ing"
+  ],
+  "mainFile": "jclic.js/euseuro.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/euseuro.jclic.zip",
+  "instFile": "jclic/euseuro.jclic.inst",
+  "clicZoneId": 1424,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1424",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/euseuro/jclic/euseuro.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 58,
+  "totalSize": 362607,
+  "files": [
+    "cover.gif",
+    "jclic.js/100euro.gif",
+    "jclic.js/10cent.gif",
+    "jclic.js/10euro.gif",
+    "jclic.js/1cent.gif",
+    "jclic.js/1euro.gif",
+    "jclic.js/200euro.gif",
+    "jclic.js/20cent.gif",
+    "jclic.js/20euro.gif",
+    "jclic.js/2cent.gif",
+    "jclic.js/2euro.gif",
+    "jclic.js/500euro.gif",
+    "jclic.js/50cent.gif",
+    "jclic.js/50euro.gif",
+    "jclic.js/5cent.gif",
+    "jclic.js/5euro.gif",
+    "jclic.js/austmap.gif",
+    "jclic.js/austria.gif",
+    "jclic.js/austvien.jpg",
+    "jclic.js/belbruse.jpg",
+    "jclic.js/belgica.gif",
+    "jclic.js/belgimap.gif",
+    "jclic.js/cigonya.gif",
+    "jclic.js/cigonya1.gif",
+    "jclic.js/espamadr.jpg",
+    "jclic.js/espanmap.gif",
+    "jclic.js/espanyol.gif",
+    "jclic.js/eurolog.gif",
+    "jclic.js/euros.gif",
+    "jclic.js/eurosimb.gif",
+    "jclic.js/euseuro.jclic",
+    "jclic.js/finhels.jpg",
+    "jclic.js/finlamap.gif",
+    "jclic.js/finlandi.gif",
+    "jclic.js/france.gif",
+    "jclic.js/francmap.gif",
+    "jclic.js/franpari.jpg",
+    "jclic.js/franpari2.jpg",
+    "jclic.js/gerberli.jpg",
+    "jclic.js/germamap.gif",
+    "jclic.js/germany.gif",
+    "jclic.js/holamst.jpg",
+    "jclic.js/hollamap.gif",
+    "jclic.js/holland.gif",
+    "jclic.js/irelamap.gif",
+    "jclic.js/ireland.gif",
+    "jclic.js/ireldubl.jpg",
+    "jclic.js/italia.gif",
+    "jclic.js/italimap.gif",
+    "jclic.js/italroma.jpg",
+    "jclic.js/luxeluxe.jpg",
+    "jclic.js/luxemapa.gif",
+    "jclic.js/luxembur.gif",
+    "jclic.js/maeures.gif",
+    "jclic.js/mapeures.gif",
+    "jclic.js/mapeurop.gif",
+    "jclic.js/mapeurpa.gif",
+    "jclic.js/portlisb.jpg",
+    "jclic.js/portugal.gif",
+    "jclic.js/portumap.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/euseuro.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

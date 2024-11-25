@@ -1,0 +1,82 @@
+{
+  "id": 899,
+  "title": "Química Elemental",
+  "author": "Juan Carlos Ferreras González",
+  "school": "CRA Villayón Villayón (Asturias)",
+  "date": "17/12/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales",
+    "en": "Experimental sciences"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "química",
+    "es": "química",
+    "en": "chemistry"
+  },
+  "descCodes": [
+    97
+  ],
+  "description": {
+    "en": "Package of activities about chemistry: \n<ul> \n <li>Atom </li>\n <li>Periodic Table </li>\n <li>Chemical Elements </li>\n <li>Chemical Bonds </li>\n <li>Properties and Chemical reactions </li>\n</ul>",
+    "ca": "Paquet d'activitats sobre conceptes bàsics de química treballats a partir de llibres de text de les editorials Akal i Oxford: \n<ul> \n <li>Àtom </li>\n <li>Taula periòdica </li>\n <li>Elements químics </li>\n <li>Enllaços químics, propietats </li>\n <li>Reaccions químiques </li>\n</ul>",
+    "es": "Paquete de actividades sobre conceptos básicos de química trabajados a partir de libros de texto de las editoriales Akal y Oxford: \n<ul> \n <li>Átomo </li>\n <li>Tabla periódica </li>\n <li>Elementos químicos </li>\n <li>Enlaces químicos, propiedades </li>\n <li>Reacciones químicas </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sspp.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sspp.jclic.zip",
+  "instFile": "jclic/sspp.jclic.inst",
+  "clicZoneId": 2015,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2015",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sspp/jclic/sspp.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 37,
+  "mediaFiles": 3,
+  "totalSize": 287922,
+  "files": [
+    "cover.gif",
+    "jclic.js/sp3.gif",
+    "jclic.js/spp.gif",
+    "jclic.js/sspp.gif",
+    "jclic.js/sspp.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sspp.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

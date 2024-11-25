@@ -1,0 +1,123 @@
+{
+  "id": 1659,
+  "title": "As nosas granxas",
+  "school": "CEIP Galán Oseiro (Galiza)",
+  "date": "09/03/07",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "animals, animals de granja",
+    "es": "animales, animales de granja",
+    "en": "animales, farm animals"
+  },
+  "descCodes": [
+    1160,
+    1280
+  ],
+  "description": {
+    "en": "JClic activities addressed to infantile education about four farm animals: the pig, the cow, the sheep and the hen.",
+    "ca": "Activitats JClic per a educació infantil sobre els animals de granja. Al llarg del projecte és treballen quatre animals: el porc, la vaca, l'ovella i la gallina.",
+    "es": "Actividades JClic para educación infantil sobre los animales de granja. A lo largo del proyecto se trabajan cuatro animales: el cerdo, la vaca, la oveja y la gallina."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/granxaei.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/granxaei.jclic.zip",
+  "instFile": "jclic/granxaei.jclic.inst",
+  "clicZoneId": 3368,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3368",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/granxaei/jclic/granxaei.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 44,
+  "totalSize": 1319766,
+  "files": [
+    "cover.jpg",
+    "jclic.js/benfei.mp3",
+    "jclic.js/cerdo1.gif",
+    "jclic.js/clidebu.mp3",
+    "jclic.js/digran_1.gif",
+    "jclic.js/faiclim.mp3",
+    "jclic.js/faicre.mp3",
+    "jclic.js/fenomeno.mp3",
+    "jclic.js/fondolaranxa2.jpg",
+    "jclic.js/gali.mp3",
+    "jclic.js/galina.mp3",
+    "jclic.js/galina2.gif",
+    "jclic.js/galina2p.gif",
+    "jclic.js/galina3.gif",
+    "jclic.js/gallina1.gif",
+    "jclic.js/granxa.gif",
+    "jclic.js/granxaei.jclic",
+    "jclic.js/memima_n1.ttf",
+    "jclic.js/memima_n2.ttf",
+    "jclic.js/moiben.mp3",
+    "jclic.js/non.gif",
+    "jclic.js/ove.mp3",
+    "jclic.js/oveja1.gif",
+    "jclic.js/ovella.mp3",
+    "jclic.js/ovella2.gif",
+    "jclic.js/ovella3.gif",
+    "jclic.js/porc.mp3",
+    "jclic.js/porco.mp3",
+    "jclic.js/porco2.gif",
+    "jclic.js/porco3.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/prueba1.gif",
+    "jclic.js/prueba2.gif",
+    "jclic.js/quenson.mp3",
+    "jclic.js/queres.mp3",
+    "jclic.js/quereslaranxa.jpg",
+    "jclic.js/ranino.mp3",
+    "jclic.js/renode.mp3",
+    "jclic.js/resoan.mp3",
+    "jclic.js/si.gif",
+    "jclic.js/sonaga.mp3",
+    "jclic.js/vac.mp3",
+    "jclic.js/vaca.mp3",
+    "jclic.js/vaca1.gif",
+    "jclic.js/vaca2.gif",
+    "jclic.js/vaca3.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/granxaei.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

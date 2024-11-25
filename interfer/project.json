@@ -1,0 +1,83 @@
+{
+  "id": 236,
+  "title": "Interferències castellà - català",
+  "author": "Roser Tomàs Folch",
+  "school": "Institut Emperador Carles Barcelona",
+  "date": "12/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, llengua catalana, vocabulari",
+    "es": "lengua castellana, lengua catalana, vocabulario",
+    "en": "Spanish language, Catalan language, vocabulary"
+  },
+  "descCodes": [
+    132,
+    133,
+    150
+  ],
+  "description": {
+    "en": "This activities are designed to heighten the awareness of Catalan speakers about the influence of Spanish in their language.",
+    "ca": "Aquestes activitats pretenen ser un instrument per a detectar les possibles interferències del castellà en l'ús del català dels alumnes de secundària.",
+    "es": "Estas actividades pretenden ser un instrumento para detectar las posibles interferencias del castellano en el uso del catalán, y van dirigidas a los alumnos de secundaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/interfer.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/interfer.jclic.zip",
+  "instFile": "jclic/interfer.jclic.inst",
+  "clicZoneId": 1121,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1121",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/interfer/jclic/interfer.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 138,
+  "mediaFiles": 1,
+  "totalSize": 829345,
+  "files": [
+    "cover.gif",
+    "jclic.js/interfer.gif",
+    "jclic.js/interfer.jclic",
+    "jclic.js/interfer.pdf",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/interfer.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

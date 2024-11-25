@@ -1,0 +1,119 @@
+{
+  "id": 2044,
+  "title": "Matemáticas 1º de primaria (Segunda parte)",
+  "author": "Juan Antonio Punzano Sirvent",
+  "school": "CEIP Alhambra Madrid (Madrid)",
+  "date": "03/11/10",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la matemàtica, càlcul",
+    "es": "aprendizaje de la matemática, cálculo",
+    "en": "learning of the mathematical one, calculation"
+  },
+  "descCodes": [
+    700,
+    702
+  ],
+  "description": {
+    "en": "Project of activities about Maths addressed to first course of primary education. Throughout the project we find activities of addition, subtraction and problem-solving. The project is divided into two parts: \n<ul> \n <li>Review </li>\n <li>Activities </li>\n</ul>",
+    "ca": "Projecte d'activitats adreçat a primer d'educació primària sobre la desena i la unitat. Al llarg del projecte es troben activitats de sumes, restes i resolució de problemes senzills. El projecte consta de dues parts: \n<ul> \n <li>Repàs </li>\n <li>Activitats </li>\n</ul>",
+    "es": "Proyecto de actividades dirigidas a primero de educación primaria sobre la decena y la unidad. A lo largo del proyecto encontramos actividades de sumas, restas y resolución de problemas. El proyecto está dividido en dos partes: \n<ul> \n <li>Repaso </li>\n <li>Actividades </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "mates1"
+  ],
+  "mainFile": "jclic.js/mates1b.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mates1b.jclic.zip",
+  "instFile": "jclic/mates1b.jclic.inst",
+  "clicZoneId": 3613,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3613",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/mates1b/jclic/mates1b.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 31,
+  "mediaFiles": 36,
+  "totalSize": 3231096,
+  "files": [
+    "cover.gif",
+    "jclic.js/husky_10___foto_carnet2.jpg",
+    "jclic.js/mates1b.jclic",
+    "jclic.js/punzanosirvent_barras1.mp3",
+    "jclic.js/punzanosirvent_barras1_resized.jpg",
+    "jclic.js/punzanosirvent_barras2.mp3",
+    "jclic.js/punzanosirvent_barras2_2_resized.jpg",
+    "jclic.js/punzanosirvent_barras_animales_resized.jpg",
+    "jclic.js/punzanosirvent_cilindro.jpg",
+    "jclic.js/punzanosirvent_cubo.jpg",
+    "jclic.js/punzanosirvent_esfera.jpg",
+    "jclic.js/punzanosirvent_figuras1_resized.jpg",
+    "jclic.js/punzanosirvent_figuras2_resized.jpg",
+    "jclic.js/punzanosirvent_figuras3_1_resized.jpg",
+    "jclic.js/punzanosirvent_figuras4_1_resized.jpg",
+    "jclic.js/punzanosirvent_fin2_resized.jpg",
+    "jclic.js/punzanosirvent_fin_resized.jpg",
+    "jclic.js/punzanosirvent_husky_gorro.jpg",
+    "jclic.js/punzanosirvent_lados_resized.jpg",
+    "jclic.js/punzanosirvent_mayor1_2_resized.jpg",
+    "jclic.js/punzanosirvent_mayor2_resized.jpg",
+    "jclic.js/punzanosirvent_numordinal1_resized.jpg",
+    "jclic.js/punzanosirvent_numordinal2_resized.jpg",
+    "jclic.js/punzanosirvent_numordinal3.jpg",
+    "jclic.js/punzanosirvent_piramide.jpg",
+    "jclic.js/punzanosirvent_portada_actividades_resized.jpg",
+    "jclic.js/punzanosirvent_portada_lecciones_resized.jpg",
+    "jclic.js/punzanosirvent_presentacion_resized.jpg",
+    "jclic.js/punzanosirvent_prisma.jpg",
+    "jclic.js/punzanosirvent_suma_con_llevadas2.mp3",
+    "jclic.js/punzanosirvent_sumas1_resized.jpg",
+    "jclic.js/punzanosirvent_sumas2_resized.jpg",
+    "jclic.js/punzanosirvent_sumas3_resized.jpg",
+    "jclic.js/punzanosirvent_sumas_llevadas_op_resized.jpg",
+    "jclic.js/punzanosirvent_triangulos_lados.jpg",
+    "jclic.js/punzanosirvent_vertices_aristas_cara_resized.jpg",
+    "jclic.js/punzansirvent_ralf1_2_resized.jpg",
+    "jclic.js/punzansirvent_ralf1_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/mates1b.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

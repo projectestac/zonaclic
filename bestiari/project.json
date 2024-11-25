@@ -1,0 +1,98 @@
+{
+  "id": 2081,
+  "title": "El bestiari històric de Barcelona",
+  "author": "Antoni Prim",
+  "school": "Escola Miquel Bleach Barcelona",
+  "date": "21/10/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "The \n<i>Gegants del Pi i de la Ciutat</i> presents us the historic beasts of Barcelona: The Lion, the Mule, the Eagle, the Bull, the Tarasca, the Dragon, The Viper and the Cottony Horses. There is also present some elements of the beasts of the districts of Barcelona. The project is accompanied by links to videos of dances of the elements of this bestiary.",
+    "ca": "Els Gegants del Pi i de la Ciutat ens presenten el bestiari històric de Barcelona: El lleó, la mulassa, l'àliga, el bou, la tarasca, el drac, la víbria i finalment els cavallets cotoners.\n<p> També hi ha presents alguns elements del bestiari dels barris de Barcelona. El projecte va acompanyat d'enllaços a vídeos de balls dels elements d'aquest bestiari. </p>",
+    "es": "Los \n<i>Gegants del pi de la Ciutat</i> nos presentan el bestiario histórico de Barcelona: El león, la mula, el águila, el buey, el monstruo, la bibria y finalmente los caballos algodoneros.\n<p> También hay presentes elementos del bestiario de los barrios de Barcelona. El proyecto va acompañado de enlaces a los vídeos de bailes de los elementos de este bestiario. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/bestiari.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/bestiari.jclic.zip",
+  "instFile": "jclic/bestiari.jclic.inst",
+  "clicZoneId": 3645,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3645",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/bestiari/jclic/bestiari.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 27,
+  "totalSize": 3826651,
+  "files": [
+    "cover.jpg",
+    "jclic.js/aligagif.gif",
+    "jclic.js/bestiari.jclic",
+    "jclic.js/bou2.jpg",
+    "jclic.js/boucaragif.gif",
+    "jclic.js/cavalletgif.gif",
+    "jclic.js/clot2.jpg",
+    "jclic.js/dofi2.jpg",
+    "jclic.js/dracgif.gif",
+    "jclic.js/dracgracia2.jpg",
+    "jclic.js/drachorta2_resized.jpg",
+    "jclic.js/dracpoblenou2.jpg",
+    "jclic.js/dracsants2.jpg",
+    "jclic.js/dracx2.jpg",
+    "jclic.js/gegantpi2.jpg",
+    "jclic.js/gegantsciutat.jpg",
+    "jclic.js/lleo2.jpg",
+    "jclic.js/lleogif.gif",
+    "jclic.js/mulacaragif.gif",
+    "jclic.js/mulassa2.jpg",
+    "jclic.js/porca2_resized.jpg",
+    "jclic.js/porgegantpi2.jpg",
+    "jclic.js/porgegantsciutat.jpg",
+    "jclic.js/presen2.jpg",
+    "jclic.js/tarascagif.gif",
+    "jclic.js/vibria.gif",
+    "jclic.js/xdofi2.jpg",
+    "jclic.js/xgegantx2.jpg",
+    "jclic.js/xporca2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/bestiari.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

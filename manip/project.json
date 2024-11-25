@@ -1,0 +1,90 @@
+{
+  "id": 41,
+  "title": "Normes de manipulació d'aliments",
+  "author": "Ester Castejón",
+  "school": "Institut Torre Roja Viladecans (Baix Llobregat)",
+  "date": "08/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aliments, salut",
+    "es": "alimentos, salud",
+    "en": "foods, health"
+  },
+  "descCodes": [
+    49,
+    101
+  ],
+  "description": {
+    "en": "Activity pack about the necessary care in handling food.",
+    "ca": "Paquet d'activitats basat en un text del Departament de Sanitat adreçat a la preparació de l'examen per a obtenir el carnet de manipulador d'aliments.",
+    "es": "Paquete de actividades basado en un texto de Departamento de Sanidad de la Generalitat de Cataluña dirigido a la preparación del examen para obtener el carné de manipulador de alimentos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/manip.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/manip.jclic.zip",
+  "instFile": "jclic/manip.jclic.inst",
+  "clicZoneId": 1016,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1016",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/manip/jclic/manip.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 89,
+  "mediaFiles": 10,
+  "totalSize": 961024,
+  "files": [
+    "cover.gif",
+    "jclic.js/dib1.gif",
+    "jclic.js/dib10.gif",
+    "jclic.js/dib11.gif",
+    "jclic.js/dib3.gif",
+    "jclic.js/dib4.gif",
+    "jclic.js/dib5.gif",
+    "jclic.js/dib6.gif",
+    "jclic.js/dib7.gif",
+    "jclic.js/dib8.gif",
+    "jclic.js/dib9.gif",
+    "jclic.js/manip.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/manip.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

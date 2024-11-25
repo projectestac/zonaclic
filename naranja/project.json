@@ -1,0 +1,100 @@
+{
+  "id": 320,
+  "title": "La naranja",
+  "author": "Llanos Navalón Yeste",
+  "school": "CP Juan Ramón Jiménez Sant Vicent del Raspeig (Alacantí)",
+  "date": "16/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua castellana",
+    "es": "gramática, lengua castellana",
+    "en": "grammar, Spanish language"
+  },
+  "descCodes": [
+    123,
+    132
+  ],
+  "description": {
+    "en": "Activity pack about language and grammar using the orange \"La naranja\" as the main theme. It makes use of dictations, puzzles, graphic and word associations.",
+    "ca": "Paquet d'activitats de gramàtica y llengua on s'utilitza la taronja com a centre d'interès. Hi apareixen dictats, sopes de lletres, associacions gràfiques i de paraules. Adreçat a estudiants de 1er i 2on d'ESO.",
+    "es": "Paquete de actividades de gramática y lengua utilizando el tema de la naranja como idea principal. Hace uso de dictados, sopas de letras, asociaciones gráficas y de palabras. Para estudiantes de 1º y 2º de ESO."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/naranja.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/naranja.jclic.zip",
+  "instFile": "jclic/naranja.jclic.inst",
+  "clicZoneId": 1175,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1175",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/naranja/jclic/naranja.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 19,
+  "totalSize": 2653009,
+  "files": [
+    "cover.gif",
+    "jclic.js/cruci.gif",
+    "jclic.js/despe.gif",
+    "jclic.js/dictado.wav",
+    "jclic.js/lapiz4.gif",
+    "jclic.js/lee.wav",
+    "jclic.js/m1.wav",
+    "jclic.js/minialt.gif",
+    "jclic.js/nar.gif",
+    "jclic.js/naranj1.jpg",
+    "jclic.js/naranj2.jpg",
+    "jclic.js/naranj5.jpg",
+    "jclic.js/naranja.doc",
+    "jclic.js/naranja.jclic",
+    "jclic.js/nasim.gif",
+    "jclic.js/nasim2.gif",
+    "jclic.js/nasim3.gif",
+    "jclic.js/ovacion.wav",
+    "jclic.js/piza.gif",
+    "jclic.js/porta2.gif",
+    "jclic.js/puzle.gif",
+    "jclic.js/quij1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/naranja.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

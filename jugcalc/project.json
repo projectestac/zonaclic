@@ -1,0 +1,95 @@
+{
+  "id": 1995,
+  "title": "Juguem a calcular",
+  "author": "Francesc Figueras Tutusaus",
+  "school": "Escola Jacint Verdaguer La Granada (Alt Penedès)",
+  "date": "16/10/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "càlcul",
+    "es": "cálculo",
+    "en": "calculation"
+  },
+  "descCodes": [
+    702
+  ],
+  "description": {
+    "en": "Project of activities addressed to primary education. The project has six parts: \n<ul> \n <li>First course </li>\n <li>Second course </li>\n <li>Third course </li>\n <li>Fourth course </li>\n <li>Fifth course </li>\n <li>Sixth course </li>\n</ul>",
+    "ca": "Projecte d'activitats per als cicles inicial, mitjà i superior de primària inspirat en els exercicis del Quinzet. Ss generen operacions aritmètiques automàticament amb l'eina Arith. El projecte està dividit en sis parts: \n<ul> \n <li>CI Primer </li>\n <li>CI Segon </li>\n <li>CM Tercer </li>\n <li>CM Quart </li>\n <li>CS Cinquè </li>\n <li>CS Sisè </li>\n</ul>",
+    "es": "Proyecto de actividades para los ciclos inicial, medio y superior de primaria inspirado en los ejercicios del Quinzet. Se generan operaciones aritméticas con la herramienta Arith. El proyecto está dividido en seis partes: \n<ul> \n <li>CI Primero </li>\n <li>CI Segundo </li>\n <li>CM Tercero </li>\n <li>CM Cuarto </li>\n <li>CS Quinto </li>\n <li>CS Sexto </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/jugcalc.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/jugcalc.jclic.zip",
+  "instFile": "jclic/jugcalc.jclic.inst",
+  "clicZoneId": 3575,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3575",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/jugcalc/jclic/jugcalc.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 16,
+  "totalSize": 496031,
+  "files": [
+    "cover.gif",
+    "jclic.js/botons_cusos.gif",
+    "jclic.js/botons_primer.gif",
+    "jclic.js/botonscinque.gif",
+    "jclic.js/botonsquart.gif",
+    "jclic.js/botonssegon.gif",
+    "jclic.js/botonssise.gif",
+    "jclic.js/botonstercer.gif",
+    "jclic.js/follet.gif",
+    "jclic.js/gat.gif",
+    "jclic.js/gos.gif",
+    "jclic.js/jugcalc.jclic",
+    "jclic.js/mag1.gif",
+    "jclic.js/mag2.gif",
+    "jclic.js/nan.gif",
+    "jclic.js/nenjugant.gif",
+    "jclic.js/numeros.gif",
+    "jclic.js/portada.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/jugcalc.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

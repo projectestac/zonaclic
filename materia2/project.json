@@ -1,0 +1,141 @@
+{
+  "id": 922,
+  "title": "Els materials",
+  "author": "Lluís Xancó",
+  "school": "C La Salle Santa Coloma de Farners (Selva)",
+  "date": "16/12/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales",
+    "en": "Experimental sciences"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la tecnologia",
+    "es": "aprendizaje de la tecnología",
+    "en": "learning of the technology"
+  },
+  "descCodes": [
+    728
+  ],
+  "description": {
+    "en": "The main goal of this package is to enforce and evaluate the knowledge acquired about materials.\n<br> The package is structured in four groups : \n<ul> \n <li>Wood </li>\n <li>Plastics </li>\n <li>Metals </li>\n <li>Building blocks </li>\n</ul>",
+    "ca": "L'objectiu fonamental del paquet és reforçar i avaluar els coneixements adquirits sobre materials. \n<br> El paquet s'estructura en quatre grups d'activitats: \n<ul> \n <li>la fusta </li>\n <li>els plàstics </li>\n <li>els metalls </li>\n <li>materials de construcció. </li>\n</ul>",
+    "es": "El objetivo fundamental del paquete es reforzar y evaluar los conocimientos adquiridos sobre materiales.\n<br> El paquete se estructura en cuatro grupos de actividades: \n<ul> \n <li>madera </li>\n <li>los plásticos </li>\n <li>los metales </li>\n <li>materiales de construcción </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/materia2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/materia2.jclic.zip",
+  "instFile": "jclic/materia2.jclic.inst",
+  "clicZoneId": 2033,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2033",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/materia2/jclic/materia2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 49,
+  "mediaFiles": 54,
+  "totalSize": 856686,
+  "files": [
+    "cover.gif",
+    "jclic.js/ceramic2/apisona.jpg",
+    "jclic.js/ceramic2/bolquet.jpg",
+    "jclic.js/ceramic2/bovedill.jpg",
+    "jclic.js/ceramic2/ceramic2.jclic",
+    "jclic.js/ceramic2/encadell.jpg",
+    "jclic.js/ceramic2/excavado.jpg",
+    "jclic.js/ceramic2/fonstotx.jpg",
+    "jclic.js/ceramic2/formig1.jpg",
+    "jclic.js/ceramic2/formig2.jpg",
+    "jclic.js/ceramic2/gero.jpg",
+    "jclic.js/ceramic2/grua.jpg",
+    "jclic.js/ceramic2/mitjatox.jpg",
+    "jclic.js/ceramic2/moltbe.wav",
+    "jclic.js/ceramic2/rajola.jpg",
+    "jclic.js/ceramic2/teularab.jpg",
+    "jclic.js/ceramic2/totxana.jpg",
+    "jclic.js/ceramic2/totxo.jpg",
+    "jclic.js/fonspa_1.jpg",
+    "jclic.js/fusta2/esmolad.jpg",
+    "jclic.js/fusta2/fonsfu_1.jpg",
+    "jclic.js/fusta2/fregad.jpg",
+    "jclic.js/fusta2/fregad2.jpg",
+    "jclic.js/fusta2/fusta2.jclic",
+    "jclic.js/fusta2/moltbe.wav",
+    "jclic.js/fusta2/polidora.jpg",
+    "jclic.js/fusta2/ribot.jpg",
+    "jclic.js/fusta2/ribotmaq.jpg",
+    "jclic.js/fusta2/serracal.jpg",
+    "jclic.js/fusta2/serraci2.jpg",
+    "jclic.js/fusta2/serracin.jpg",
+    "jclic.js/fusta2/serracir.jpg",
+    "jclic.js/fusta2/serrata2.jpg",
+    "jclic.js/fusta2/serratau.jpg",
+    "jclic.js/fusta2/tornfust.jpg",
+    "jclic.js/fusta2/trepador.jpg",
+    "jclic.js/materia2.jclic",
+    "jclic.js/metall2/engranat.jpg",
+    "jclic.js/metall2/fresad.jpg",
+    "jclic.js/metall2/fresad3.jpg",
+    "jclic.js/metall2/metall2.jclic",
+    "jclic.js/metall2/torn3.jpg",
+    "jclic.js/metall2/torn4.jpg",
+    "jclic.js/metall2/trepant1.jpg",
+    "jclic.js/metall2/trepant3.jpg",
+    "jclic.js/plastic2/bufatge.gif",
+    "jclic.js/plastic2/buit.gif",
+    "jclic.js/plastic2/calandra.jpg",
+    "jclic.js/plastic2/colada.gif",
+    "jclic.js/plastic2/compres.gif",
+    "jclic.js/plastic2/conforma.gif",
+    "jclic.js/plastic2/emmolla.jpg",
+    "jclic.js/plastic2/escumeig.gif",
+    "jclic.js/plastic2/extrusio.jpg",
+    "jclic.js/plastic2/injeccio.jpg",
+    "jclic.js/plastic2/laminat.gif",
+    "jclic.js/plastic2/minjecci.jpg",
+    "jclic.js/plastic2/moltbe.wav",
+    "jclic.js/plastic2/plastic2.jclic",
+    "jclic.js/portada.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/materia2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/ceramic2/ceramic2.jclic.js",
+    "jclic.js/fusta2/fusta2.jclic.js",
+    "jclic.js/metall2/metall2.jclic.js",
+    "jclic.js/plastic2/plastic2.jclic.js",
+    "cover.webp"
+  ]
+}

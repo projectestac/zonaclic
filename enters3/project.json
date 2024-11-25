@@ -1,0 +1,80 @@
+{
+  "id": 2292,
+  "title": "Operacions amb els nombres enters",
+  "author": "Francesc Casassas Canals",
+  "school": "Institut Aubenç Oliana (Alt Urgell)",
+  "date": "13/05/13",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "càlcul, nombres enters",
+    "es": "cálculo, números enteros",
+    "en": "calculation, integers"
+  },
+  "descCodes": [
+    702,
+    1321
+  ],
+  "description": {
+    "en": "Project of activities about calculation with integers: \n<ul> \n <li>Addition, subtraction, multiplication and division </li>\n <li>Positive and negative </li>\n <li>integers operations rules </li>\n</ul>",
+    "ca": "Activitats destinades a consolidar el càlcul amb els nombres enters: \n<ul> \n <li>Suma, resta, multiplicació i divisió </li>\n <li>Positius i negatius </li>\n <li>Regles d'operacions amb enters </li>\n</ul>",
+    "es": "Actividades destinadas a consolidar el cálculo con los números enteros: \n<ul> \n <li>Suma, resta, multiplicación y división </li>\n <li>Positivos y negativos </li>\n <li>Reglas de operaciones con enteros </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/enters3.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/enters3.jclic.zip",
+  "instFile": "jclic/enters3.jclic.inst",
+  "clicZoneId": 3806,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3806",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/enters3/jclic/enters3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 0,
+  "totalSize": 142711,
+  "files": [
+    "cover.png",
+    "jclic.js/enters3.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/enters3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": 2455,
+  "title": "Edward Jenner",
+  "author": "Esther Bernabeu Guil",
+  "school": "Escola Els Cossetans Cunit",
+  "date": "07/07/16",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages",
+    "ca": "Ciències experimentals, Llengües",
+    "es": "Ciencias experimentales, Lenguas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "biologia, higiene, malaltia, medicina preventiva, salut, sanitat, vocabulari, comprensió lectora",
+    "es": "biología, higiene, enfermedad, medicina preventiva, salud, sanidad, vocabulario, comprensión lectora",
+    "en": "biology, hygiene, disease, preventive medicine, health, health care, vocabulary, reading comprehension"
+  },
+  "descCodes": [
+    58,
+    80,
+    84,
+    88,
+    101,
+    102,
+    150,
+    1329
+  ],
+  "description": {
+    "en": "The activity project is divided into four parts: life, work camps , discovery and play. In the first section examines the biography , the second block is working the various fields of work for which moved this historical figure, the third section focuses on the discovery and the last block is a set of activities where there crosswords, reading, solving mathematical problems or job specific vocabulary among others.",
+    "ca": "El projecte d'activitats està dividit en 4 blocs: vida, camps de treball, descobriment i juguem. Al primer bloc s'estudia la biografia, al segon bloc es treballen els diversos camps de treball pels quals es va moure aquest personatge històric, el tercer bloc se centra en el seu descobriment i a l'últim bloc hi ha un conjunt d'activitats on hi ha mots encreuats, comprensió lectora, resolució de problemes matemàtics o treball de vocabulari específic entre d'altres.&nbsp;",
+    "es": "El proyecto de actividades está dividido en 4 bloques: vida, campos de trabajo, descubrimiento y jugamos. En el primer bloque se estudia la biografía, el segundo bloque se trabajan los diversos campos de trabajo por los que se movió este personaje histórico, el tercer bloque se centra en su descubrimiento y en el último bloque hay un conjunto de actividades donde hay crucigramas, lectura , resolución de problemas matemáticos o trabajo de vocabulario específico entre otros."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ejenner.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ejenner.jclic.zip",
+  "instFile": "jclic/ejenner.jclic.inst",
+  "clicZoneId": 3963,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3963",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ejenner/jclic/ejenner.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 25,
+  "totalSize": 5669863,
+  "files": [
+    "cover.png",
+    "jclic.js/190a1601.jpg",
+    "jclic.js/brujula.png",
+    "jclic.js/c__users_esther_desktop_edward_jenner_jclic_enfermera_hospital_gigante_01.png",
+    "jclic.js/cor.png",
+    "jclic.js/edward_jenner_i_nen.jpg",
+    "jclic.js/edward_jenner_resized.jpg",
+    "jclic.js/edwardjenner.jpg",
+    "jclic.js/edwardjenner___copia.jpg",
+    "jclic.js/ejenner.jclic",
+    "jclic.js/ejenner.jclic.js",
+    "jclic.js/enfermera_hospital_gigante_01.png",
+    "jclic.js/folis.png",
+    "jclic.js/hammer.png",
+    "jclic.js/hospital_icon.png",
+    "jclic.js/images.jpg",
+    "jclic.js/jeringa_plastica_de_3_ml.png",
+    "jclic.js/jeringuilla_con_aguja_2ml_enfa.jpg",
+    "jclic.js/lupa.png",
+    "jclic.js/microscopi.png",
+    "jclic.js/plaga_infecciosa_resized.jpg",
+    "jclic.js/ploma_escriure.png",
+    "jclic.js/poema_2.png",
+    "jclic.js/probeta2.png",
+    "jclic.js/pustula.jpg",
+    "jclic.js/tiritas.png",
+    "jclic.js/vacunacion.jpg",
+    "jclic.js/vacunas.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": 1797,
+  "title": "Microorganismes i malalties",
+  "author": "Sheila Chacon Flores",
+  "date": "15/10/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "High school (16-18)",
+    "ca": "Batxillerat (16-18)",
+    "es": "Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "BTX"
+  ],
+  "descriptors": {
+    "ca": "malaltia, microorganismes",
+    "es": "enfermedad, microorganismos",
+    "en": "disease, micro-organisms"
+  },
+  "descCodes": [
+    84,
+    952
+  ],
+  "description": {
+    "en": "Set of activities about micro-organisms and infectious diseases. It's aimed to explain the agents that can cause illnesses and the different ways to get an infection. The activities also deal with the immune system and how it works and how to prevent and treat infectious diseases.",
+    "ca": "Projecte d'activitats sobre microorganismes i malalties infeccioses per a conèixer els agents que les poden causar i les maneres en què es pot produir un contagi. \n<p>Al llarg del projecte també trobem activitats per a conèixer com funciona el sistema immunitari i aprendre la manera de prevenir i tractar malalties infeccioses. </p>",
+    "es": "Proyecto de actividades sobre microorganismos y enfermedades infecciosas para conocer los agentes que las pueden causar y los modos en que se puede producir un contagio.\n<p> A lo largo del proyecto también encontramos actividades para conocer como funciona el sistema inmunitario y aprender la forma de prevenir y tratar enfermedades infecciosas. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/malalties.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/malalties.jclic.zip",
+  "instFile": "jclic/malalties.jclic.inst",
+  "clicZoneId": 3493,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3493",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/malalties/jclic/malalties.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 38,
+  "mediaFiles": 23,
+  "totalSize": 2256038,
+  "files": [
+    "cover.jpg",
+    "jclic.js/avaluacioinicial/avaluacioinicial.jclic",
+    "jclic.js/avaluacioinicial/portada.jpg",
+    "jclic.js/avaluacioinicial/pregunta3.jpg",
+    "jclic.js/bloc1/a.jpg",
+    "jclic.js/bloc1/b.jpg",
+    "jclic.js/bloc1/bacteria.jpg",
+    "jclic.js/bloc1/bloc1.jclic",
+    "jclic.js/bloc1/fong.jpg",
+    "jclic.js/bloc1/legionelosi.jpg",
+    "jclic.js/bloc1/legionelosi.mp3",
+    "jclic.js/bloc1/lepra.jpg",
+    "jclic.js/bloc1/lepra.mp3",
+    "jclic.js/bloc1/mapaconceptual.gif",
+    "jclic.js/bloc1/portada.jpg",
+    "jclic.js/bloc1/protozoo.jpg",
+    "jclic.js/bloc1/tetan.jpg",
+    "jclic.js/bloc1/tetan3.mp3",
+    "jclic.js/bloc1/virus.jpg",
+    "jclic.js/bloc1/xarampio.jpg",
+    "jclic.js/bloc1/xarampio.mp3",
+    "jclic.js/bloc2/bloc2.jclic",
+    "jclic.js/bloc2/i01_a.jpg",
+    "jclic.js/bloc2/i01_b.jpg",
+    "jclic.js/bloc2/mapa.jpg",
+    "jclic.js/bloc2/portada.jpg",
+    "jclic.js/malalties.jclic",
+    "jclic.js/portada.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/malalties.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/avaluacioinicial/avaluacioinicial.jclic.js",
+    "jclic.js/bloc1/bloc1.jclic.js",
+    "jclic.js/bloc2/bloc2.jclic.js",
+    "cover.webp"
+  ]
+}

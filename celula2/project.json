@@ -1,0 +1,104 @@
+{
+  "id": 1671,
+  "title": "La cèl·lula",
+  "author": "Núria Laudo i Brió",
+  "date": "14/05/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "cèl.lula",
+    "es": "célula",
+    "en": "cell"
+  },
+  "descCodes": [
+    810
+  ],
+  "description": {
+    "en": "Project of activities about the structure of the cell and its functions: type of cells, components...",
+    "ca": "Projecte d'activitats sobre l'estructura de la cèl·lula i les seves funcions: tipus de cèl·lules, components (orgànics i inorgànics), parts i diferències de les cèl·lules animals i vegetals, diferències entre cèl·lules procariotes i cèl·lules eucariotes, organismes unicel·lulars i organismes pluricel·lulars...",
+    "es": "Proyecto de actividades sobre la estructura de la célula y sus funciones: tipos de células, componentes (orgánicos e inorgánicos), partes y diferencias de las células animales y vegetales, diferencias entre células procariotas y eucariotas, organismos unicelulares y organismos pluricelulares..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/celula2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/celula2.jclic.zip",
+  "instFile": "jclic/celula2.jclic.inst",
+  "clicZoneId": 3381,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3381",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/celula2/jclic/celula2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 26,
+  "totalSize": 1014289,
+  "files": [
+    "cover.jpg",
+    "jclic.js/alga_pluri.jpg",
+    "jclic.js/ameba.jpg",
+    "jclic.js/aparelldegolgi.jpg",
+    "jclic.js/calamar.jpg",
+    "jclic.js/cel_vegetal.jpg",
+    "jclic.js/celula2.jclic",
+    "jclic.js/celula_portadaok.jpg",
+    "jclic.js/celvegetalok.jpg",
+    "jclic.js/celvegetalokk.jpg",
+    "jclic.js/centrosoma.jpg",
+    "jclic.js/ceratium_hirundinella._organisme_unicel.jpg",
+    "jclic.js/coloroplastos.jpg",
+    "jclic.js/components_celok.jpg",
+    "jclic.js/detalls_componentsokk.jpg",
+    "jclic.js/diferenciesokk.jpg",
+    "jclic.js/lisosomes.jpg",
+    "jclic.js/medusa.jpg",
+    "jclic.js/membrana.jpg",
+    "jclic.js/mitocondris.jpg",
+    "jclic.js/nucli.jpg",
+    "jclic.js/parts_celula.jpg",
+    "jclic.js/procariotes_i_eucarok.jpg",
+    "jclic.js/reticle.jpg",
+    "jclic.js/ribosomes.jpg",
+    "jclic.js/tigre.jpg",
+    "jclic.js/unicel_i_pluricelok.jpg",
+    "jclic.js/vacuol.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/celula2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

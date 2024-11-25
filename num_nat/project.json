@@ -1,0 +1,134 @@
+{
+  "id": 2500,
+  "title": "Los números naturales",
+  "author": "Lola Cobos",
+  "school": "IES Ben al Jatib La Cala del Moral - Málaga (Andalucía)",
+  "date": "21/03/17",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la matemàtica, càlcul, nombres enters",
+    "es": "aprendizaje de la matemática, cálculo, números enteros",
+    "en": "learning of the mathematical one, calculation, integers"
+  },
+  "descCodes": [
+    700,
+    702,
+    1321
+  ],
+  "description": {
+    "en": "Pack of activities with different exercises and problems about natural numbers. \n<ul> \n <li> Identification of natural numbers </li>\n <li> Properties </li>\n <li>Common factor </li>\n <li> Division </li>\n <li> Square root </li>\n <li> Power </li>\n <li> Multiplication </li>\n <li> Problems resolution </li>\n</ul>",
+    "ca": "Aquest paquet d'activitats conté diferents exercicis i problemes referents als nombres naturals. \n<ul> \n <li> Identificació dels nombres naturals </li>\n <li> Propietats </li>\n <li> Factor comú </li>\n <li> Divisió </li>\n <li> Arrel quadrada </li>\n <li> Potències </li>\n <li> Multiplicacions </li>\n <li> Resolució de problemes </li>\n</ul>",
+    "es": "Este paquete de actividades contiene diferentes ejercicios y problemas referentes a los números naturales. \n<ul> \n <li> Identificación de los números naturales </li>\n <li> Propiedades </li>\n <li> Factor común </li>\n <li> División </li>\n <li> Raíz cuadrada </li>\n <li> Potencias </li>\n <li> Multiplicaciones </li>\n <li> Resolución de problemas </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/num_nat.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/num_nat.jclic.zip",
+  "instFile": "jclic/num_nat.jclic.inst",
+  "clicZoneId": 4009,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=4009",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/num_nat/jclic/num_nat.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 40,
+  "mediaFiles": 53,
+  "totalSize": 1530081,
+  "files": [
+    "cover.png",
+    "jclic.js/100quintos.jpg",
+    "jclic.js/3tercios_1.jpg",
+    "jclic.js/6tercios.jpg",
+    "jclic.js/aplausos.gif",
+    "jclic.js/bicicleta.gif",
+    "jclic.js/billete50.gif",
+    "jclic.js/billetes.gif",
+    "jclic.js/camion04.gif",
+    "jclic.js/division_1.jpg",
+    "jclic.js/dosquintos.jpg",
+    "jclic.js/huevosproblema.gif",
+    "jclic.js/lapiz.gif",
+    "jclic.js/leer_potencias_1.png",
+    "jclic.js/num_nat.jclic",
+    "jclic.js/num_nat.jclic.js",
+    "jclic.js/operacion1_1.png",
+    "jclic.js/operacion2_1.png",
+    "jclic.js/operacion_3_1.png",
+    "jclic.js/operacion_4_1.png",
+    "jclic.js/operacion_5_1.png",
+    "jclic.js/operacion_6_1.png",
+    "jclic.js/operaciones_combinadas1_1.png",
+    "jclic.js/operaciones_combinadas2_1.png",
+    "jclic.js/operaciones_combinadas3_1.png",
+    "jclic.js/operaciones_combinadas4_1.png",
+    "jclic.js/operaciones_combinadas5_1.png",
+    "jclic.js/operaciones_combinadas6_1.png",
+    "jclic.js/patatas2.png",
+    "jclic.js/potencia10_1.png",
+    "jclic.js/potencia3_1.png",
+    "jclic.js/potencia5_1.png",
+    "jclic.js/potencia6_1.png",
+    "jclic.js/potencia7_1.png",
+    "jclic.js/potencia8_1.png",
+    "jclic.js/potencia_1_3_.jpg",
+    "jclic.js/potencia_4_1.png",
+    "jclic.js/potencia_9_1.png",
+    "jclic.js/potencias11_1.png",
+    "jclic.js/potencias12_1.png",
+    "jclic.js/potencias13_1.png",
+    "jclic.js/potencias14_1.png",
+    "jclic.js/potencias15_1.png",
+    "jclic.js/potencias16_1.png",
+    "jclic.js/potencias17_1.png",
+    "jclic.js/potencias18_1.png",
+    "jclic.js/potencias19_1.png",
+    "jclic.js/potencias20_1.png",
+    "jclic.js/potencias21_1.png",
+    "jclic.js/problema_4.gif",
+    "jclic.js/raices2_1.png",
+    "jclic.js/raices_1.png",
+    "jclic.js/raiz16_1.jpg",
+    "jclic.js/raiz25_1.jpg",
+    "jclic.js/rosas.gif",
+    "jclic.js/un_tercio_1.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

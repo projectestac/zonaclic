@@ -1,0 +1,95 @@
+{
+  "id": 1748,
+  "title": "Gimnàstica artística",
+  "author": "Montserrat Casas Bul",
+  "school": "Escola Pompeu Fabra El Pont de Vilomara i Rocafort (El Pont de Vilomara) (Bages)",
+  "date": "29/02/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "gimnàstica artística",
+    "es": "gimnasia artística",
+    "en": "artistic gymnastics"
+  },
+  "descCodes": [
+    1386
+  ],
+  "description": {
+    "en": "Project of activities about artistic gymnastic addressed to primary school. The project has activities about: rings, jump, asymmetric bars, parallel bars, balance bar, bar sets...",
+    "ca": "Conjunt d'activitats JClic sobre la gimnàstica artística y els aparells que es fan servir en cadascuna de les seves modalitats, tant femenina com masculina: cavall d'arcs, anelles, salt, barres asimètriques, barres paral·leles, barra d'equilibri, barra fixa, etc.",
+    "es": "Conjunto de actividades JClic sobre gimnasia artística y los aparatos que se utilizan en cada una de sus modalidades, tanto masculina como femenina: anillas, salto, barras asimétricas, barras paralelas, barra de equilibrio, barra fija, etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/artistic.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/artistic.jclic.zip",
+  "instFile": "jclic/artistic.jclic.inst",
+  "clicZoneId": 3447,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3447",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/artistic/jclic/artistic.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 16,
+  "totalSize": 1064748,
+  "files": [
+    "cover.jpg",
+    "jclic.js/artistic.jclic",
+    "jclic.js/barres_assimetriques.jpg",
+    "jclic.js/credits.gif",
+    "jclic.js/i01_aneles.jpg",
+    "jclic.js/i01_barra_fixe.jpg",
+    "jclic.js/i01_barrafixemasc.jpg",
+    "jclic.js/i01_barres_paral.leles.jpg",
+    "jclic.js/i01_cavall_d_arcs.jpg",
+    "jclic.js/i01_dv00002.jpg",
+    "jclic.js/i01_gim_fem.jpg",
+    "jclic.js/i01_gim_masc.jpg",
+    "jclic.js/i01_imagen_004.jpg",
+    "jclic.js/i01_imagen_007.jpg",
+    "jclic.js/i01_imagen_009.jpg",
+    "jclic.js/i01_imagen_011.jpg",
+    "jclic.js/i01_imagen_015.jpg",
+    "jclic.js/i01_terra.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/artistic.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

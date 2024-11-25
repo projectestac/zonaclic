@@ -1,0 +1,81 @@
+{
+  "id": 2222,
+  "title": "Els aparells meteorològics",
+  "author": "Margarita Moret Ferron",
+  "school": "C Thau Barcelona",
+  "date": "16/03/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "Project activities that aims to meet some machines used for the study of meteorology, what they are used for, what they are and their units of measure. The devices are: \n<ul> \n <li>Weather vane </li>\n <li>Anemometer </li>\n <li>Thermometer </li>\n <li>Rain gauge </li>\n <li>Hygrometer </li>\n <li>Barometer </li>\n</ul>",
+    "ca": "Projecte d'activitats que té com a finalitat conèixer alguns aparells utilitzats per a l'estudi de la meteorologia per a què s'utilitzen, què són i quines unitats es fan servir. Els aparells que es treballen són: \n<ul> \n <li>Penell </li>\n <li>Anemòmetre </li>\n <li>Termòmetre </li>\n <li>Pluviòmetre </li>\n <li>Higròmetre </li>\n <li>Baròmetre </li>\n</ul>",
+    "es": "Proyecto de actividades que tiene como finalidad conocer algunos aparatos utilizados para el estudio de la meteorología, para qué se utilizan, qué son y qué unidades utilizan. Los aparatos que se trabajan son: \n<ul> \n <li>Penell </li>\n <li>Anemómetro </li>\n <li>Termómetro </li>\n <li>Pluviòmetro </li>\n <li>Higrómetro </li>\n <li>Barómetro </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/meteo.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/meteo.jclic.zip",
+  "instFile": "jclic/meteo.jclic.inst",
+  "clicZoneId": 3747,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3747",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/meteo/jclic/meteo.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 10,
+  "totalSize": 8638047,
+  "files": [
+    "cover.png",
+    "jclic.js/anemorepenelltocat_resized.jpg",
+    "jclic.js/anemorepetit.jpg",
+    "jclic.js/barometre.mp3",
+    "jclic.js/barometrertitol_1_resized.jpg",
+    "jclic.js/curt1.gif",
+    "jclic.js/higrometreretocat.jpg",
+    "jclic.js/meteo.jclic",
+    "jclic.js/penell_modern.jpg",
+    "jclic.js/penellantic.jpg",
+    "jclic.js/pluviometrepetitjpg_resized.jpg",
+    "jclic.js/termometrertitol.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/meteo.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

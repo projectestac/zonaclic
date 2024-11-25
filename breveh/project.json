@@ -1,0 +1,97 @@
+{
+  "id": 810,
+  "title": "Breve historia del mundo",
+  "author": "Ester Castejón",
+  "school": "Institut Torre Roja Viladecans (Baix Llobregat)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "història",
+    "es": "historia",
+    "en": "history"
+  },
+  "descCodes": [
+    246
+  ],
+  "description": {
+    "en": "Activities about history. Divided in five packs: \n<ul><li>Major inventors of all time </li>\n<li>The country of the Nile </li>\n<li>Sunday, monday </li>\n<li>P.U.E.D.E.S. L.E.E.R. </li>\n<li>Heroes and their weapons </li></ul>",
+    "ca": "Paquet d'activitats de comprensió lectora de texts basats en el llibre \"Breve historia del mundo\" de Ernst H. Gombrich. Les activitats estan dividides en cinc seccions, que corresponen a diferents moments històrics de la humanitat. Els temes tractats són:\n <ul><li>Los mayores inventores de todos los tiempos </li>\n <li>El pais del Nilo </li>\n <li>Domingo, lunes... </li>\n <li>P.U.E.D.E.S. L.E.E.R. </li>\n <li>Los héroes y sus armas. </li>\n</ul> El paquet d'activitats s'ha dissenyat per a alumnes de 3er d'ESO",
+    "es": "Paquete de actividades de comprensión lectora de textos basados en el libro \"Breve historia del mundo\" de Ernst H. Gombrich. Estas están divididas en cinco secciones que corresponden a diferentes momentos históricos de la humanidad. Los temas tratados son: \n<ul> \n <li>Los mayores inventores de todos los tiempos </li>\n <li>El país del Nilo </li>\n <li>Domingo, lunes... </li>\n <li>P.U.E.D.E.S. L.E.E.R. </li>\n <li>Los héroes y sus armas. </li>\n</ul> El paquete de actividades fue diseñado para estudiantes del 3º de ESO."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/breveh.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/breveh.jclic.zip",
+  "instFile": "jclic/breveh.jclic.inst",
+  "clicZoneId": 1448,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1448",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/breveh/jclic/breveh.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 121,
+  "mediaFiles": 18,
+  "totalSize": 1562735,
+  "files": [
+    "cover.gif",
+    "jclic.js/asirio.gif",
+    "jclic.js/asirio2.gif",
+    "jclic.js/breveh.jclic",
+    "jclic.js/cueva.gif",
+    "jclic.js/iraq1.gif",
+    "jclic.js/iraq4.gif",
+    "jclic.js/leer1.gif",
+    "jclic.js/leer2.gif",
+    "jclic.js/leer3.gif",
+    "jclic.js/leer4.gif",
+    "jclic.js/leer5.gif",
+    "jclic.js/libro2.gif",
+    "jclic.js/momia.gif",
+    "jclic.js/nefert_1.gif",
+    "jclic.js/nilo.gif",
+    "jclic.js/palafi_1.gif",
+    "jclic.js/pareja.gif",
+    "jclic.js/ramses.gif",
+    "jclic.js/titulo.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/breveh.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

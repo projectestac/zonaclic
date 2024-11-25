@@ -1,0 +1,131 @@
+{
+  "id": 2428,
+  "title": "Conociendo al municipio Zamora-Edo",
+  "author": "Lisbeth Seijas",
+  "school": "U.E.E. Prisco Pérez Monasterio (Centro Bolivariano de Informática y Telemática \"Roxana M. de Hernández\") Villa de Cura, Estado Aragua (Venezuela)",
+  "date": "04/02/16",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia, geografia física, geografia urbana, història local",
+    "es": "geografía, geografía física, geografía urbana, historia local",
+    "en": "geography, physical geography, urban geography, local history"
+  },
+  "descCodes": [
+    235,
+    237,
+    240,
+    255
+  ],
+  "description": {
+    "en": "JClic activities addressed to primary education about Zamora, Edo. Aragua, Venezuela, location, parishes that comprise, historic and tourist sites, economic and religious through partnership activities, puzzles, word searches and identification activities.",
+    "ca": "Material dirigit a estudiants de primària que té com a objectiu conèixer el municipi Zamora, Edo. Aragua, Veneçuela, la ubicació, les parròquies que la integren, els llocs històrics i turístics, les activitats econòmiques i religioses a través d'activitats d'associació, trencaclosques, sopes de lletres i identificació.",
+    "es": "Material dirigido a estudiantes de primaria que tiene como objetivo conocer a el municipio Zamora, Edo. Aragua, Venezuela, su ubicación, las parroquias que la integran, los sitios históricos y turísticos, las actividades económicas y religiosas a través de actividades de asociación, rompecabezas, sopas de letras e identificación."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ve_cura.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ve_cura.jclic.zip",
+  "instFile": "jclic/ve_cura.jclic.inst",
+  "clicZoneId": 3937,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3937",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ve_cura/jclic/ve_cura.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 49,
+  "totalSize": 14419813,
+  "files": [
+    "cover.png",
+    "jclic.js/alcaldia.png",
+    "jclic.js/cana.jpg",
+    "jclic.js/caribay.png",
+    "jclic.js/carita_feliz.png",
+    "jclic.js/casasanto.jpg",
+    "jclic.js/casasanto1_resized.jpg",
+    "jclic.js/creditos01.mp3",
+    "jclic.js/ezequiel_zamora_2.jpg",
+    "jclic.js/felicitaciones_sonido.mp3",
+    "jclic.js/fondovilla.png",
+    "jclic.js/fondovilla2.png",
+    "jclic.js/grutalourdes.png",
+    "jclic.js/guitarra_resized.jpg",
+    "jclic.js/i01_magdaleno.png",
+    "jclic.js/i01_sanfco2_resized.jpg",
+    "jclic.js/i02_magdaleno.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/iglesia1_resized.jpg",
+    "jclic.js/iglesia_resized.jpg",
+    "jclic.js/intentalo.mp3",
+    "jclic.js/la_puerta_resized.jpg",
+    "jclic.js/lampara_resized.jpg",
+    "jclic.js/magdaleno.png",
+    "jclic.js/maiz.png",
+    "jclic.js/mango.png",
+    "jclic.js/mapa00.png",
+    "jclic.js/mapa1.png",
+    "jclic.js/mapa2.png",
+    "jclic.js/mesa.png",
+    "jclic.js/muy_bien.mp3",
+    "jclic.js/ninos2.jpg",
+    "jclic.js/ninos_cantore.png",
+    "jclic.js/plancha_resized.jpg",
+    "jclic.js/plaza_bolivar_1.jpg",
+    "jclic.js/portada01.jpg",
+    "jclic.js/portada02.png",
+    "jclic.js/portada03.png",
+    "jclic.js/portada04.jpg",
+    "jclic.js/portada06_resized.jpg",
+    "jclic.js/san_francisco_asis_8.jpg",
+    "jclic.js/san_luis_resized.jpg",
+    "jclic.js/sanfco1.png",
+    "jclic.js/sanfco2_resized.jpg",
+    "jclic.js/sepulcro.png",
+    "jclic.js/tomates.png",
+    "jclic.js/vallealto.jpg",
+    "jclic.js/ve_cura.jclic",
+    "jclic.js/vitral1_resized.jpg",
+    "jclic.js/vitral_resized.jpg",
+    "jclic.js/viva_venezuela.mp3",
+    "jclic.js/zamora_1.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ve_cura.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

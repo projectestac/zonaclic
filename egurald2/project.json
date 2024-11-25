@@ -1,0 +1,121 @@
+{
+  "id": 1068,
+  "title": "Ekosistemak - Eguraldia (eguraldia)",
+  "author": "Emiliano Taldeo i Ricardo Totrika",
+  "school": "Ongarai Eskola Ermua (Euzkadi)",
+  "date": "17/06/03",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "ecosistema, meteorologia",
+    "es": "ecosistema, meteorología",
+    "en": "ecosystem, meteorology"
+  },
+  "descCodes": [
+    66,
+    89
+  ],
+  "description": {
+    "en": "Package of activities about ecosystems and meteorology following the text book of the Giltza-Edebé publishing house..",
+    "ca": "Paquets d'activitats sobre els ecosistemes i la meteorologia basats en els temes 6 i 8 del llibre de text de l'Editorial Giltza-Edebé.\n<p> </p>",
+    "es": "Paquete de actividades sobre los escosistemas y la meteorología basados en los temas 6 y 8 del libro de texto de la Editorial Giltza-Edebé.\n<p> </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "ekosist2"
+  ],
+  "mainFile": "jclic.js/egurald2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/egurald2.jclic.zip",
+  "instFile": "jclic/egurald2.jclic.inst",
+  "clicZoneId": 2260,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2260",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/egurald2/jclic/egurald2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 32,
+  "totalSize": 787055,
+  "files": [
+    "cover.gif",
+    "jclic.js/482.jpg",
+    "jclic.js/493.jpg",
+    "jclic.js/egurald2.jclic",
+    "jclic.js/haize/493.jpg",
+    "jclic.js/haize/515.jpg",
+    "jclic.js/haize/516.jpg",
+    "jclic.js/haize/517.jpg",
+    "jclic.js/haize/518.jpg",
+    "jclic.js/haize/520.jpg",
+    "jclic.js/haize/521.jpg",
+    "jclic.js/haize/522.jpg",
+    "jclic.js/haize/523.jpg",
+    "jclic.js/haize/542.jpg",
+    "jclic.js/haize/543.jpg",
+    "jclic.js/haize/544.jpg",
+    "jclic.js/haize/haize.jclic",
+    "jclic.js/ikurrak/529.jpg",
+    "jclic.js/ikurrak/529b.jpg",
+    "jclic.js/ikurrak/530.jpg",
+    "jclic.js/ikurrak/531.jpg",
+    "jclic.js/ikurrak/535.jpg",
+    "jclic.js/ikurrak/539.jpg",
+    "jclic.js/ikurrak/ikurrak.jclic",
+    "jclic.js/ikurrak/ikurrak3.gif",
+    "jclic.js/ikurrak/mapa.jpg",
+    "jclic.js/tresnak/528.jpg",
+    "jclic.js/tresnak/anemo1.jpg",
+    "jclic.js/tresnak/anemo2.jpg",
+    "jclic.js/tresnak/haize_o1.jpg",
+    "jclic.js/tresnak/haize_o2.jpg",
+    "jclic.js/tresnak/haize_o3.jpg",
+    "jclic.js/tresnak/plubi1.jpg",
+    "jclic.js/tresnak/plubi2.jpg",
+    "jclic.js/tresnak/termo1.jpg",
+    "jclic.js/tresnak/termo2.jpg",
+    "jclic.js/tresnak/tresnak.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/egurald2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/haize/haize.jclic.js",
+    "jclic.js/ikurrak/ikurrak.jclic.js",
+    "jclic.js/tresnak/tresnak.jclic.js",
+    "cover.webp"
+  ]
+}

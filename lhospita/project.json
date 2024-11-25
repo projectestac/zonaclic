@@ -1,0 +1,110 @@
+{
+  "id": 782,
+  "title": "L'Hospitalet de Llobregat",
+  "author": "Ramon Font",
+  "school": "Centre de Normalització Lingüística d'Hospitalet de Llobregat L'Hospitalet de Llobregat (Baix Llobregat)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geografia, Barcelonès",
+    "es": "geografía, Barcelonés",
+    "en": "geography, Barcelonés"
+  },
+  "descCodes": [
+    235,
+    476
+  ],
+  "description": {
+    "en": "Activities about the city of L'Hospitalet de Llobregat: Geographic location, neighbourhoods, buildings, monuments, history...",
+    "ca": "Paquet d'activitats per a conèixer l'Hospitalet de Llobregat: localització geogràfica, barris, edificis, monuments, història...",
+    "es": "Paquete de actividades para conocer la ciudad de L'Hospitalet de Llobregat: localización geográfica, barrios, edificios, monumentos, historia..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/lhospita.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/lhospita.jclic.zip",
+  "instFile": "jclic/lhospita.jclic.inst",
+  "clicZoneId": 1427,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1427",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/lhospita/jclic/lhospita.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 29,
+  "totalSize": 1263352,
+  "files": [
+    "cover.jpg",
+    "jclic.js/bellvitg.wav",
+    "jclic.js/caespany.gif",
+    "jclic.js/camimig.wav",
+    "jclic.js/canser.wav",
+    "jclic.js/centre.wav",
+    "jclic.js/collbla.wav",
+    "jclic.js/delta.gif",
+    "jclic.js/deltalim.gif",
+    "jclic.js/ermbell.gif",
+    "jclic.js/escut.gif",
+    "jclic.js/florida.wav",
+    "jclic.js/fotdelt.gif",
+    "jclic.js/gornal.wav",
+    "jclic.js/granvias.wav",
+    "jclic.js/harmonia.gif",
+    "jclic.js/lhospita.jclic",
+    "jclic.js/mapbarri.gif",
+    "jclic.js/marinsam.gif",
+    "jclic.js/pcases.gif",
+    "jclic.js/pedrosa.wav",
+    "jclic.js/planes.wav",
+    "jclic.js/pubilla.wav",
+    "jclic.js/sanfeliu.wav",
+    "jclic.js/seulalia.wav",
+    "jclic.js/sjosep.wav",
+    "jclic.js/staeul.gif",
+    "jclic.js/talaia.gif",
+    "jclic.js/teclasa.gif",
+    "jclic.js/torrassa.wav",
+    "jclic.js/vilumara.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/lhospita.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": 64,
+  "title": "Jesús de Natzaret",
+  "author": "David González Martínez",
+  "school": "Escola Pau Casals Rubí (Vallès Occidental)",
+  "date": "08/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "història, religió",
+    "es": "historia, religión",
+    "en": "history, religion"
+  },
+  "descCodes": [
+    246,
+    323
+  ],
+  "description": {
+    "en": "Clic activities about Jesus of Nazareth.",
+    "ca": "En aquest paquet d'activitats, adreçat al Cicle Superior de Primària, es treballen els principals esdeveniments de la vida de Jesús de Natzaret. Les activitats consisteixen a identificar la geografia on va viure Jesús, trencaclosques, sopa de lletres, ordenar textos, completar text, etc.",
+    "es": "Paquete de actividades donde se trabajan los principales acontecimientos de la vida de Jesús de Nazaret, dirigido al ciclo superior de educación primaria.\n<br> Identificación de la geografía donde nació Jesús, rompecabezas, sopas de letras, ordenar textos, completar textos..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "jesusesp"
+  ],
+  "mainFile": "jclic.js/jesus.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/jesus.jclic.zip",
+  "instFile": "jclic/jesus.jclic.inst",
+  "clicZoneId": 1025,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1025",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/jesus/jclic/jesus.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 13,
+  "totalSize": 798148,
+  "files": [
+    "cover.gif",
+    "jclic.js/baptisme.gif",
+    "jclic.js/captura.gif",
+    "jclic.js/fariseu.gif",
+    "jclic.js/final.gif",
+    "jclic.js/inici.gif",
+    "jclic.js/jesus.jclic",
+    "jclic.js/mapamu.gif",
+    "jclic.js/moltbe.wav",
+    "jclic.js/rams.gif",
+    "jclic.js/resurre2.gif",
+    "jclic.js/romans.gif",
+    "jclic.js/sacuceos.gif",
+    "jclic.js/sopar.gif",
+    "jclic.js/zelotas.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/jesus.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

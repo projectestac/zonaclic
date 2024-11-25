@@ -1,0 +1,83 @@
+{
+  "id": 2567,
+  "title": "Los seres vivos",
+  "author": "Pedro Miguel Gómez (autor)",
+  "school": "CEEDCV (València)",
+  "date": "05/10/18",
+  "langCodes": [
+    "es"
+  ],
+  "languages": {
+    "ca": "espanyol",
+    "es": "español",
+    "en": "Spanish"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales",
+    "en": "Experimental sciences"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16), E.S.O. y F.B.P.A.",
+    "es": "Secundaria (12-16), E.S.O. y F.B.P.A.",
+    "en": "Secondary school (12-16), E.S.O. y F.B.P.A."
+  },
+  "description": {
+    "ca": "Projecte dirigit a la formació de persones adultes en el graduat de secundària.\nEs treballa el concepte d'ésser viu i l'estructura cel·lular.",
+    "es": "Proyecto dirigido a la formación de personas adultas en el graduado de secundaria.\nSe trabaja el concepto de ser vivo y la estructura celular.",
+    "en": "Project aimed at the formation of adults in the high school graduate.\nThe concept of living being and cellular structure is worked on."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "relatedTo": [
+    "uni_vius"
+  ],
+  "cover": "portada.png",
+  "coverWebp": "portada.webp",
+  "thumbnail": "portada100.png",
+  "mainFile": "jclic.js/seresvivos.jclic",
+  "activities": 12,
+  "mediaFiles": 17,
+  "totalSize": 2076810,
+  "instFile": "jclic/seresvivos.jclic.inst",
+  "zipFile": "jclic/seresvivos.jclic.zip",
+  "files": [
+    "jclic.js/512px_bacteria_photomicrograph.jpg",
+    "jclic.js/640px_hairy_cell_leukemia_smear_2009_08_20.jpg",
+    "jclic.js/celula.jpg",
+    "jclic.js/estomas.jpg",
+    "jclic.js/favicon.ico",
+    "jclic.js/gallo_resized.jpg",
+    "jclic.js/gambas.jpg",
+    "jclic.js/hongos.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/llamantol_resized.jpg",
+    "jclic.js/mitosis.jpg",
+    "jclic.js/portada_jclic.png",
+    "jclic.js/pudinga_resized.jpg",
+    "jclic.js/raw_egg.jpg",
+    "jclic.js/seresvivos.jclic",
+    "jclic.js/seresvivos.jclic.js",
+    "portada.png",
+    "portada100.png",
+    "project.json",
+    "portada.webp"
+  ]
+}

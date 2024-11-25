@@ -1,0 +1,114 @@
+{
+  "id": 1660,
+  "title": "O noso mar",
+  "school": "CEIP Galán Oseiro (Galiza)",
+  "date": "12/03/07",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "mar, animals",
+    "es": "mar, animales",
+    "en": "sea, animales"
+  },
+  "descCodes": [
+    809,
+    1160
+  ],
+  "description": {
+    "en": "Project of activities in Galician addressed to infantile education about four animals that live in the sea: the mussel, the crab, the octopus and the sardine.",
+    "ca": "Projecte d'activitats en gallec per a educació infantil per aprendre els noms de quatre animals que viuen al mar: el musclo, la nècora, el pop i la sardina.",
+    "es": "Proyecto de actividades en gallego para educación infantil para aprender los nombres de cuatro animales que viven en el mar: el mejillón, la nécora, el pulpo y la sardina."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/marei.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/marei.jclic.zip",
+  "instFile": "jclic/marei.jclic.inst",
+  "clicZoneId": 3369,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3369",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/marei/jclic/marei.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 35,
+  "totalSize": 1169954,
+  "files": [
+    "cover.jpg",
+    "jclic.js/barco2.gif",
+    "jclic.js/benfei.mp3",
+    "jclic.js/clidebu.mp3",
+    "jclic.js/dimar2.gif",
+    "jclic.js/faiclim.mp3",
+    "jclic.js/faicre.mp3",
+    "jclic.js/fenomeno.mp3",
+    "jclic.js/fondoazul.jpg",
+    "jclic.js/marei.jclic",
+    "jclic.js/memima_n1.ttf",
+    "jclic.js/memima_n2.ttf",
+    "jclic.js/mexilon.mp3",
+    "jclic.js/mexilon1b.jpg",
+    "jclic.js/mexilon2b.jpg",
+    "jclic.js/moiben.mp3",
+    "jclic.js/necora.mp3",
+    "jclic.js/necora1b.jpg",
+    "jclic.js/necora2b.jpg",
+    "jclic.js/necorb.jpg",
+    "jclic.js/non.gif",
+    "jclic.js/polbo.mp3",
+    "jclic.js/polbo1b.jpg",
+    "jclic.js/polbo2b.jpg",
+    "jclic.js/portada.gif",
+    "jclic.js/prueba1.gif",
+    "jclic.js/quenson.mp3",
+    "jclic.js/queres.gif",
+    "jclic.js/queres.mp3",
+    "jclic.js/ranino.mp3",
+    "jclic.js/renode.mp3",
+    "jclic.js/sardi_a.mp3",
+    "jclic.js/sardina.mp3",
+    "jclic.js/sardina1b.gif",
+    "jclic.js/sardina2b.gif",
+    "jclic.js/si.gif",
+    "jclic.js/sonnec.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/marei.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

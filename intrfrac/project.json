@@ -1,0 +1,86 @@
+{
+  "id": 1469,
+  "title": "Introducción a las fracciones",
+  "author": "José Ignacio Leiva",
+  "school": "Mackay School Viña del mar (Chile)",
+  "date": "06/10/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "fraccions",
+    "es": "fracciones",
+    "en": "fractions"
+  },
+  "descCodes": [
+    909
+  ],
+  "description": {
+    "en": "Clic activities with examples, definitions and exercises about fractions. The package is addressed to introduce and review introduce the pupils in this area.",
+    "ca": "Paquet amb exemples, definicions i exercicis de fraccions per repassar o introduir als alumnes en les fraccions.",
+    "es": "Paquete con ejemplos, definiciones y ejercicios de fracciones para repasar o introducir al alumno en las fracciones."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/intrfrac.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/intrfrac.jclic.zip",
+  "instFile": "jclic/intrfrac.jclic.inst",
+  "clicZoneId": 3181,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3181",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/intrfrac/jclic/intrfrac.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 7,
+  "totalSize": 91229,
+  "files": [
+    "cover.gif",
+    "jclic.js/im1.gif",
+    "jclic.js/im2.gif",
+    "jclic.js/im5.gif",
+    "jclic.js/im6.gif",
+    "jclic.js/imin4.gif",
+    "jclic.js/info3.gif",
+    "jclic.js/intrfrac.jclic",
+    "jclic.js/intro.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/intrfrac.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

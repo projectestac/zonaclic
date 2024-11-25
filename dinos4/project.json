@@ -1,0 +1,122 @@
+{
+  "id": 2015,
+  "title": "Dinosaures P5",
+  "author": "Càrol Bujaldón Roig",
+  "school": "Escola Els Til·lers - ZER El Francolí La Masó (Alt Camp)",
+  "date": "03/12/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "prehistòria, animals, dinosaures",
+    "es": "prehistoria, animales, dinosaurios",
+    "en": "prehistory, animales, dinosaurs"
+  },
+  "descCodes": [
+    314,
+    1160,
+    1381
+  ],
+  "description": {
+    "en": "Project of activities addressed to kindergarten about dinosaurs, we can find several activities about: \n<ul> \n <li>The name of the different dinosaurs </li>\n <li>Feed </li>\n <li>Body parts and skeleton  </li>\n</ul>",
+    "ca": "Projecte d'activitats per a educació infantil sobre els dinosaures, hi podem trobar activitats sobre: \n<ul> \n <li>El nom dels diferents dinosaures </li>\n <li>L'alimentació </li>\n <li>Les parts del cos i de l'esquelet </li>\n</ul>",
+    "es": "Proyecto de actividades para educación infantil sobre los dinosaurios, podemos encontrar actividades sobre: \n<ul> \n <li>El nombre de los diferentes dinosaurios </li>\n <li>La alimentación </li>\n <li>Las partes del cuerpo y el esqueleto </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/dinos4.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/dinos4.jclic.zip",
+  "instFile": "jclic/dinos4.jclic.inst",
+  "clicZoneId": 3589,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3589",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/dinos4/jclic/dinos4.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 30,
+  "mediaFiles": 41,
+  "totalSize": 1615129,
+  "files": [
+    "cover.jpg",
+    "jclic.js/0diplodocus_ii.gif",
+    "jclic.js/0tricerartops.mp3",
+    "jclic.js/0triceratops_vi.gif",
+    "jclic.js/30037731.jpg",
+    "jclic.js/astegosaure.gif",
+    "jclic.js/banyes.mp3",
+    "jclic.js/cap.mp3",
+    "jclic.js/carn.jpg",
+    "jclic.js/coll.mp3",
+    "jclic.js/cua.mp3",
+    "jclic.js/dinos4.jclic",
+    "jclic.js/diplodocus.mp3",
+    "jclic.js/diplodocus_ii.gif",
+    "jclic.js/diplodocus_ii.jpg",
+    "jclic.js/espines.mp3",
+    "jclic.js/esquelet_iii.jpg",
+    "jclic.js/esquelet_xii.jpg",
+    "jclic.js/estegosaure_.mp3",
+    "jclic.js/estegosaure_i.jpg",
+    "jclic.js/estegosaure_x.jpg",
+    "jclic.js/estegosaure_xi.jpg",
+    "jclic.js/herba_iv.jpg",
+    "jclic.js/jurassic_park.mid",
+    "jclic.js/nariu.mp3",
+    "jclic.js/neteja.jpg",
+    "jclic.js/plaques.mp3",
+    "jclic.js/portada.jpg",
+    "jclic.js/potes.mp3",
+    "jclic.js/stegosaurus.jpg",
+    "jclic.js/tiranosaure_rex.mp3",
+    "jclic.js/tiranosaure_rex_ii.jpg",
+    "jclic.js/tiranosaure_rex_iii.gif",
+    "jclic.js/transport.jpg",
+    "jclic.js/tricer.jpg",
+    "jclic.js/tricerartops.mp3",
+    "jclic.js/triceratops_i.jpg",
+    "jclic.js/triceratops_v.jpg",
+    "jclic.js/triceratops_vi.gif",
+    "jclic.js/troballa.jpg",
+    "jclic.js/tyrannosaurus_rex.jpg",
+    "jclic.js/tyrannosaurus_rex_i.jpg",
+    "jclic.js/urpes.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/dinos4.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": 1208,
+  "title": "Mariposas",
+  "author": "Isabel Moro Moro",
+  "school": "CP Liceo Mierense Mieres (Asturias)",
+  "date": "21/01/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "insectes, papallones",
+    "es": "insectos, butterflies",
+    "en": "insects, mariposas"
+  },
+  "descCodes": [
+    81,
+    1221
+  ],
+  "description": {
+    "en": "This package of activities allows to recognize some butterflies, to learn its evolutionary cycle, as well as the name of some of its parts.",
+    "ca": "Aquest paquet d'activitats permet reconèixer algunes papallones, aprendre el seu cicle evolutiu, així com el nom d'algunes de les seves parts. Conté trencaclosques, activitats de memòria, etc.",
+    "es": "Este paquete de actividades permite reconocer algunas mariposas, aprender su ciclo evolutivo, así como el nombre de algunas de sus partes. Contiene puzzles, actividades de memoria, etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/mariposa.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mariposa.jclic.zip",
+  "instFile": "jclic/mariposa.jclic.inst",
+  "clicZoneId": 2922,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2922",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/mariposa/jclic/mariposa.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 25,
+  "totalSize": 998916,
+  "files": [
+    "cover.jpg",
+    "jclic.js/abeja.gif",
+    "jclic.js/abeja3.gif",
+    "jclic.js/bg.gif",
+    "jclic.js/bravo.wav",
+    "jclic.js/crisc1.gif",
+    "jclic.js/dibujo.gif",
+    "jclic.js/escar.gif",
+    "jclic.js/estupend.wav",
+    "jclic.js/genial.wav",
+    "jclic.js/gitana.gif",
+    "jclic.js/gitana4.gif",
+    "jclic.js/grillo.gif",
+    "jclic.js/huevos.gif",
+    "jclic.js/macaon.gif",
+    "jclic.js/macaon4.gif",
+    "jclic.js/maripoc.gif",
+    "jclic.js/mariposa.gif",
+    "jclic.js/mariposa.jclic",
+    "jclic.js/monarca3.gif",
+    "jclic.js/monarca4.gif",
+    "jclic.js/muybien.wav",
+    "jclic.js/orugc.gif",
+    "jclic.js/pavore4.gif",
+    "jclic.js/pavoreal.gif",
+    "jclic.js/portad2.gif",
+    "jclic.js/sonidfin.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/mariposa.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

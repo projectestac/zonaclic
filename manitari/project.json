@@ -1,0 +1,118 @@
+{
+  "id": 2499,
+  "title": "μανιτάρια",
+  "author": "Kostas Mavromatakis",
+  "school": "Alekati Thessaloniki (Greece)",
+  "date": "21/03/17",
+  "languages": {
+    "en": "Greek",
+    "ca": "grec",
+    "es": "griego"
+  },
+  "langCodes": [
+    "el"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16), High school (16-18)",
+    "ca": "Secundària (12-16), Batxillerat (16-18)",
+    "es": "Secundaria (12-16), Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "SEC",
+    "BTX"
+  ],
+  "descriptors": {
+    "ca": "aliments, micologia",
+    "es": "alimentos, micología",
+    "en": "foods, mycology"
+  },
+  "descCodes": [
+    49,
+    1478
+  ],
+  "description": {
+    "en": "Activities in Greek about mushrooms, for mushroom hunters.",
+    "ca": "Activitats en grec destinades a conèixer els bolets per a la seva recol·lecció.",
+    "es": "Actividades en griego destinadas a conocer las setas para su recolección."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/manitari.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/manitari.jclic.zip",
+  "instFile": "jclic/manitari.jclic.inst",
+  "clicZoneId": 4008,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=4008",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/manitari/jclic/manitari.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 37,
+  "totalSize": 851927,
+  "files": [
+    "cover.png",
+    "jclic.js/400px_laetiporus_sulphureus_big.jpg",
+    "jclic.js/74115110.jpg",
+    "jclic.js/_mg_8257.jpg",
+    "jclic.js/_mg_8776.jpg",
+    "jclic.js/_mg_8784.jpg",
+    "jclic.js/amanita_caesarea.jpg",
+    "jclic.js/arxiki.jpg",
+    "jclic.js/dscn2592.2.jpg",
+    "jclic.js/dscn2638.jpg",
+    "jclic.js/dscn2689_edit.3.jpg",
+    "jclic.js/dscn2695.3.jpg",
+    "jclic.js/dscn2699.2.jpg",
+    "jclic.js/dscn3089.2.jpg",
+    "jclic.js/dscn3269.jpg",
+    "jclic.js/dscn3345.2.jpg",
+    "jclic.js/dscn3358.2.jpg",
+    "jclic.js/dscn3375.jpg",
+    "jclic.js/dscn3384.jpg",
+    "jclic.js/dscn3601.jpg",
+    "jclic.js/dscn3689.jpg",
+    "jclic.js/dscn3715.jpg",
+    "jclic.js/dscn3743.2.jpg",
+    "jclic.js/ggfgf.jpg",
+    "jclic.js/hte1.jpg",
+    "jclic.js/iska.jpg",
+    "jclic.js/kratitiskos.jpg",
+    "jclic.js/lactarius_salmonicolor.jpg",
+    "jclic.js/leprechaun_discovery.png",
+    "jclic.js/luk.jpg",
+    "jclic.js/manitari.jclic",
+    "jclic.js/manitari.jclic.js",
+    "jclic.js/marasmius.jpg",
+    "jclic.js/morchela.jpg",
+    "jclic.js/nifa.jpg",
+    "jclic.js/pa010359.jpg",
+    "jclic.js/panther.jpg",
+    "jclic.js/panther_amanita_pantherina.jpg",
+    "jclic.js/pleurotus_ostreatus_jpg6.jpg",
+    "jclic.js/poroi.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

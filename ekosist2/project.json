@@ -1,0 +1,133 @@
+{
+  "id": 1069,
+  "title": "Ekosistemak - Eguraldia (ekosistemak)",
+  "author": "Emiliano Taldeo i Ricardo Totrika",
+  "school": "Ongarai Eskola Ermua (Euzkadi)",
+  "date": "17/06/03",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "ecosistema, meteorologia",
+    "es": "ecosistema, meteorología",
+    "en": "ecosystem, meteorology"
+  },
+  "descCodes": [
+    66,
+    89
+  ],
+  "description": {
+    "en": "Package of activities about ecosystems and meteorology following the text book of the Giltza-Edebé publishing house..",
+    "ca": "Paquets d'activitats sobre els ecosistemes i la meteorologia basats en els temes 6 i 8 del llibre de text de l'Editorial Giltza-Edebé.\n<p> </p>",
+    "es": "Paquete de actividades sobre los escosistemas y la meteorología basados en los temas 6 y 8 del libro de texto de la Editorial Giltza-Edebé.\n<p> </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "egurald2"
+  ],
+  "mainFile": "jclic.js/ekosist2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ekosist2.jclic.zip",
+  "instFile": "jclic/ekosist2.jclic.inst",
+  "clicZoneId": 2260,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2260",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ekosist2/jclic/ekosist2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 36,
+  "mediaFiles": 38,
+  "totalSize": 888892,
+  "files": [
+    "cover.gif",
+    "jclic.js/baso/baso.jclic",
+    "jclic.js/baso/basoa2.jpg",
+    "jclic.js/baso/erbi.jpg",
+    "jclic.js/baso/gurbi.jpg",
+    "jclic.js/baso/harri.jpg",
+    "jclic.js/baso/katag.jpg",
+    "jclic.js/baso/otso.jpg",
+    "jclic.js/basoa.jpg",
+    "jclic.js/eko/basam.jpg",
+    "jclic.js/eko/basoa2.jpg",
+    "jclic.js/eko/basoa3.jpg",
+    "jclic.js/eko/eko.jclic",
+    "jclic.js/eko/itsas.jpg",
+    "jclic.js/eko/oihan.jpg",
+    "jclic.js/ekosist2.jclic",
+    "jclic.js/elika/belar.jpg",
+    "jclic.js/elika/elika.jclic",
+    "jclic.js/elika/gari.jpg",
+    "jclic.js/elika/inurri.jpg",
+    "jclic.js/elika/kate1a.jpg",
+    "jclic.js/elika/kate1b.jpg",
+    "jclic.js/elika/kate1c.jpg",
+    "jclic.js/elika/otso2.jpg",
+    "jclic.js/elika/urretx.jpg",
+    "jclic.js/estrateg/estrateg.jclic",
+    "jclic.js/estrateg/igela.jpg",
+    "jclic.js/estrateg/jerbo.jpg",
+    "jclic.js/estrateg/kardu.jpg",
+    "jclic.js/estrateg/liana.jpg",
+    "jclic.js/estrateg/makil.jpg",
+    "jclic.js/estrateg/makil2.jpg",
+    "jclic.js/estrateg/olagar.jpg",
+    "jclic.js/estrateg/zikoin.jpg",
+    "jclic.js/oreka/ore22bai.gif",
+    "jclic.js/oreka/ore22ez.gif",
+    "jclic.js/oreka/ore23bai.gif",
+    "jclic.js/oreka/ore23ez.gif",
+    "jclic.js/oreka/oreka.jclic",
+    "jclic.js/oreka/orekabai.gif",
+    "jclic.js/oreka/orekaez.gif",
+    "jclic.js/zaindu/zaindu.jclic",
+    "jclic.js/zaindu/zaindu1.jpg",
+    "jclic.js/zaindu/zaindu2.jpg",
+    "jclic.js/zaindu/zaindu3.jpg",
+    "jclic.js/zaindu/zaindu4.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ekosist2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/baso/baso.jclic.js",
+    "jclic.js/eko/eko.jclic.js",
+    "jclic.js/elika/elika.jclic.js",
+    "jclic.js/estrateg/estrateg.jclic.js",
+    "jclic.js/oreka/oreka.jclic.js",
+    "jclic.js/zaindu/zaindu.jclic.js",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": 1172,
+  "title": "Informática básica (El escritorio de MS Windows)",
+  "author": "Gayle Almonte",
+  "school": "Instituto de Capacitación Informática San Pedro de Macoris (República Dominicana)",
+  "date": "09/11/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Tecnologies",
+    "es": "Tecnología",
+    "en": "Design & technology"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "informàtica, maquinari, windows, internet",
+    "es": "informática, hardware, windows, internet",
+    "en": "computer science, hardware, windows, internet"
+  },
+  "descCodes": [
+    737,
+    739,
+    1352,
+    1353
+  ],
+  "description": {
+    "en": "Clic activities about the main parts of the computer: central unit, peripherals, software... and some things about interenet and Windows.",
+    "ca": "En aquests paquet d'activitats es repassen els noms del principals components d'un ordinador: unitat central, perifèrics, programari... i també aspectes d'internet i del Windows.",
+    "es": "En estos paquetes de actividades se repasan los principales componentes de un ordenador: unidad central, periféricos, software... i también aspectos sobre internet y Windows."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "informat",
+    "internet",
+    "ventanas"
+  ],
+  "mainFile": "jclic.js/windows.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/windows.jclic.zip",
+  "instFile": "jclic/windows.jclic.inst",
+  "clicZoneId": 2660,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2660",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/windows/jclic/windows.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 30,
+  "totalSize": 345667,
+  "files": [
+    "cover.gif",
+    "jclic.js/22.gif",
+    "jclic.js/23.gif",
+    "jclic.js/25.gif",
+    "jclic.js/26.gif",
+    "jclic.js/adios.gif",
+    "jclic.js/barr2.gif",
+    "jclic.js/barra2.gif",
+    "jclic.js/barra3.gif",
+    "jclic.js/botini.gif",
+    "jclic.js/captu1.gif",
+    "jclic.js/captur2.gif",
+    "jclic.js/desk.gif",
+    "jclic.js/desk2.gif",
+    "jclic.js/desk4.gif",
+    "jclic.js/dialogp.gif",
+    "jclic.js/directo.gif",
+    "jclic.js/gif.gif",
+    "jclic.js/hay.mid",
+    "jclic.js/iniciora.gif",
+    "jclic.js/internet.gif",
+    "jclic.js/je.gif",
+    "jclic.js/logord.gif",
+    "jclic.js/no.gif",
+    "jclic.js/notifica.gif",
+    "jclic.js/pc.gif",
+    "jclic.js/presen_1.gif",
+    "jclic.js/so.gif",
+    "jclic.js/ta.gif",
+    "jclic.js/tor.gif",
+    "jclic.js/win.gif",
+    "jclic.js/windows.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/windows.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

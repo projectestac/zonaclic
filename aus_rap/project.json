@@ -1,0 +1,133 @@
+{
+  "id": 2377,
+  "title": "Les aus rapinyaires",
+  "author": "Vanessa Quintana Mourelle",
+  "school": "Escola Taxonera Barcelona",
+  "date": "26/03/15",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "ecologia, ocells, vertebrats, aire, animals",
+    "es": "ecología, pájaros, vertebrados, aire, animals",
+    "en": "ecology, birds, vertebrates, air, animales"
+  },
+  "descCodes": [
+    65,
+    92,
+    107,
+    1347,
+    1456
+  ],
+  "description": {
+    "en": "This JClic about raptors is a project of twenty activities focused in the characteristics that distinguish birds from raptors. Different groups of raptors and its main characteristics are also presented.",
+    "ca": "Aquest JClic sobre les aus rapinyaires és un projecte d'unes vint activitats on s'intenta mostrar quines són les característiques que diferencien les aus rapinyaires de la resta d'aus. També es presenten els diferents grups d'aus rapinyaires i quines són les seves principals característiques.",
+    "es": "Este JClic sobre las aves rapaces es un proyecto de unas veinte actividades donde se intenta mostrar cuáles son las características que diferencian las aves rapaces del resto de aves. También se presentan los diferentes grupos de aves rapaces y cuáles son sus principales características."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/aus_rap.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/aus_rap.jclic.zip",
+  "instFile": "jclic/aus_rap.jclic.inst",
+  "clicZoneId": 3882,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3882",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/aus_rap/jclic/aus_rap.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 50,
+  "totalSize": 3556212,
+  "files": [
+    "cover.png",
+    "jclic.js/090915animalsnit.jpg",
+    "jclic.js/090915animalsnit2.jpg",
+    "jclic.js/260px_zopilote_negro1.jpg",
+    "jclic.js/2987888969_81a36365c4_o.jpg",
+    "jclic.js/3522341499_ba9c452590_z.jpg",
+    "jclic.js/8408468_resized.jpg",
+    "jclic.js/_home_usuari_escriptori_aus_rapg.png",
+    "jclic.js/aguila.jpg",
+    "jclic.js/aliga_daurada.gif",
+    "jclic.js/aliga_reial_2.jpg",
+    "jclic.js/aliga_reial_3.png",
+    "jclic.js/aufrany.png",
+    "jclic.js/aus_rap.jclic",
+    "jclic.js/buitre_leonado.jpg",
+    "jclic.js/buitre_leonado5.jpg",
+    "jclic.js/buitre_leonado_3.jpg",
+    "jclic.js/condor.jpg",
+    "jclic.js/duc.jpg",
+    "jclic.js/duc3.png",
+    "jclic.js/duc_3.jpg",
+    "jclic.js/duc_4.gif",
+    "jclic.js/envergadura_aguila.png",
+    "jclic.js/envergadura_buitre.png",
+    "jclic.js/envergadura_duc.png",
+    "jclic.js/envergadura_falco.png",
+    "jclic.js/envergadura_oliba.png",
+    "jclic.js/falco.jpg",
+    "jclic.js/falco_2.jpg",
+    "jclic.js/falco_3.png",
+    "jclic.js/falco_4.gif",
+    "jclic.js/falco_ratoli.jpg",
+    "jclic.js/halcon.jpg",
+    "jclic.js/images__1_.jpg",
+    "jclic.js/images__2_.jpg",
+    "jclic.js/la_aguila_real.jpg",
+    "jclic.js/lechuza.jpg",
+    "jclic.js/lechuza3.jpg",
+    "jclic.js/mussol1_1.jpg",
+    "jclic.js/mussol_foto.jpg",
+    "jclic.js/nan_brooks_la_bruixa_i_els_animals.jpg",
+    "jclic.js/oliba_3.png",
+    "jclic.js/oliba_4.gif",
+    "jclic.js/patas_mandarin.png",
+    "jclic.js/pataspiquero.jpg",
+    "jclic.js/pelicano.png",
+    "jclic.js/picos.jpg",
+    "jclic.js/rapaces_y_felinos_021.jpg",
+    "jclic.js/tyto_alba.jpg",
+    "jclic.js/voltor_3.png",
+    "jclic.js/voltor_4.gif",
+    "jclic.js/wallpapers_cabeza_de_aguila_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/aus_rap.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

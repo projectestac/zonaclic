@@ -1,0 +1,105 @@
+{
+  "id": 934,
+  "title": "The human body",
+  "author": "Beatriz Dávila",
+  "school": "Colegio Orvalle Las Rozas (Madrid)",
+  "date": "16/12/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "ca": "Llengües",
+    "es": "Lenguas",
+    "en": "Languages"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, vocabulari",
+    "es": "lengua inglesa, vocabulario",
+    "en": "English language, vocabulary"
+  },
+  "descCodes": [
+    130,
+    673
+  ],
+  "description": {
+    "en": "Brief review of the vocabulary related to the human boy. The activities have sounds. Some of them are puzzles that can be used as a classroom documents when completed and printed.",
+    "ca": "Breu repàs del vocabulari de llengua anglesa relacionat amb algunes parts del cos humà. Hi ha arxius de so, activitats variades i fitxes de contingut en forma de trencaclosques que es poden imprimir per treballs posteriors a l'aula.",
+    "es": "Breve repaso de algunas partes del cuerpo humano. Contiene archivos de sonido, actividades variadas y fichas de contenido a modo de puzzles que pueden imprimirse para trabajo posterior en el aula."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/humanbod.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/humanbod.jclic.zip",
+  "instFile": "jclic/humanbod.jclic.inst",
+  "clicZoneId": 2043,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2043",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/humanbod/jclic/humanbod.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 25,
+  "totalSize": 783399,
+  "files": [
+    "cover.gif",
+    "jclic.js/copy.gif",
+    "jclic.js/corazon.gif",
+    "jclic.js/escudo.gif",
+    "jclic.js/escudo2.gif",
+    "jclic.js/eye.wav",
+    "jclic.js/eye4.gif",
+    "jclic.js/fin.gif",
+    "jclic.js/finger.wav",
+    "jclic.js/hand.wav",
+    "jclic.js/heart.wav",
+    "jclic.js/humanbod.jclic",
+    "jclic.js/indice.gif",
+    "jclic.js/labios.gif",
+    "jclic.js/lengua.gif",
+    "jclic.js/mano.gif",
+    "jclic.js/minuet1.mid",
+    "jclic.js/mouth.wav",
+    "jclic.js/nariz.gif",
+    "jclic.js/ni_o1.gif",
+    "jclic.js/ojos.gif",
+    "jclic.js/pelo.gif",
+    "jclic.js/piel.gif",
+    "jclic.js/t_tulo2.gif",
+    "jclic.js/t_tulo3.gif",
+    "jclic.js/tele_ec.mid",
+    "jclic.js/u_as.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/humanbod.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

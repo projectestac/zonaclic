@@ -1,0 +1,101 @@
+{
+  "id": 1155,
+  "title": "Poesía para educación primaria (Rubén Darío)",
+  "author": "Maite Parada Alberdi",
+  "school": "CP Sant Josep de Calassanç Elx (Baix Vinalopó)",
+  "date": "14/06/04",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, poesia",
+    "es": "lengua castellana, poesía",
+    "en": "Spanish language, poetry"
+  },
+  "descCodes": [
+    132,
+    650
+  ],
+  "description": {
+    "en": "Two packages of activities about poets in order to practise the reading comprehension at the Primary school. The major aim is the memory training through the poetry. \n<ul> \n <li>The first package contains the Ruben Darío poetry </li>\n <li>The second has José Ángel Valiente and Camilo José Cela poetry. </li>\n</ul>",
+    "ca": "Dos paquets d'activitats sobre poetes per a la pràctica de la comprensió lectora en llengua castellana per alumnes de primària amb la finalitat d'exercitar la memòria a través de la poesia. \n<ul> \n <li>Al primer paquet treballem una poesia de Rubén Darío. </li>\n <li>Al segon paquet treballem textos de José Ángel Valiente i Camilo José Cela. </li>\n</ul>",
+    "es": "Dos paquetes de actividades sobre poetas para la práctica de la comprensión lectora para alumnos de Primaria con el fin de ejercitar la memoria a través del encanto poético. \n<ul> \n <li>El primer paquete trabajamos una poesía de Rubén Darío. </li>\n <li>En el segundo paquete trabajamos textos de José Ángel Valiente y Camilo José Cela. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "poesiap2"
+  ],
+  "mainFile": "jclic.js/poesiap1.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/poesiap1.jclic.zip",
+  "instFile": "jclic/poesiap1.jclic.inst",
+  "clicZoneId": 2600,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2600",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/poesiap1/jclic/poesiap1.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 80,
+  "mediaFiles": 18,
+  "totalSize": 559384,
+  "files": [
+    "cover.gif",
+    "jclic.js/blando_1.gif",
+    "jclic.js/flor.gif",
+    "jclic.js/hoja.gif",
+    "jclic.js/libros1.gif",
+    "jclic.js/mar.gif",
+    "jclic.js/margar_1.gif",
+    "jclic.js/ni_a.gif",
+    "jclic.js/ni_a1.gif",
+    "jclic.js/ni_agl_1.gif",
+    "jclic.js/ni_agr_1.gif",
+    "jclic.js/padre.gif",
+    "jclic.js/padreg.gif",
+    "jclic.js/plan.gif",
+    "jclic.js/plan01.gif",
+    "jclic.js/poesiap1.jclic",
+    "jclic.js/princesa.gif",
+    "jclic.js/rosag.gif",
+    "jclic.js/trineo.gif",
+    "jclic.js/volcan.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/poesiap1.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

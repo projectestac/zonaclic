@@ -1,0 +1,127 @@
+{
+  "id": 2518,
+  "title": "Comarca de Ordes",
+  "author": "Xan Ferreiro Boquete",
+  "school": "CEIP Mesón do Vento Ardemil - A Coruña (Galiza)",
+  "date": "20/04/17",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "demografia, geografia política, relleu, clima",
+    "es": "demografía, geografía política, relieve, clima",
+    "en": "demography, political geography, relief, climate"
+  },
+  "descCodes": [
+    199,
+    239,
+    776,
+    1482
+  ],
+  "description": {
+    "en": "Package of activities about Ordes region, province of La Corunna. We will find activities about relief, hydrography, weather, towns and population. There are also activities about Ordes town, where is CEIP Mesón do Vento is located.",
+    "ca": "Conjunt d'activitats sobre la comarca d'Ordes, província de La Corunya. Trobem activitats sobre el relleu, la hidrografia, el clima, els municipis que la integren i la població. També hi ha activitats sobre el municipi d'ordes, on està ubicat el CEIP Mesón do Vento.",
+    "es": "Conjunto de actividades sobre la comarca de Ordes, provincia de La Coruña. Encontramos actividades sobre el relieve, la hidrografía, el clima, los municipios que la integran y la población. También hay actividades sobre el municipio de Ordes, donde está ubicado el CEIP Mesón do Vento."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ordes.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ordes.jclic.zip",
+  "instFile": "jclic/ordes.jclic.inst",
+  "clicZoneId": 4028,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=4028",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ordes/jclic/ordes.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 64,
+  "mediaFiles": 45,
+  "totalSize": 1452159,
+  "files": [
+    "cover.png",
+    "jclic.js/aplauso.mp3",
+    "jclic.js/cerceda.gif",
+    "jclic.js/cerceda0.gif",
+    "jclic.js/cerceda2.gif",
+    "jclic.js/concel_1.gif",
+    "jclic.js/concelt.gif",
+    "jclic.js/concelt3.gif",
+    "jclic.js/concll1.gif",
+    "jclic.js/concll2.gif",
+    "jclic.js/cor01.gif",
+    "jclic.js/cor02.gif",
+    "jclic.js/dedo.gif",
+    "jclic.js/dedos.gif",
+    "jclic.js/frades.gif",
+    "jclic.js/frades0.gif",
+    "jclic.js/frades2.gif",
+    "jclic.js/mesia.gif",
+    "jclic.js/mesia0.gif",
+    "jclic.js/mesia2.gif",
+    "jclic.js/ordes.gif",
+    "jclic.js/ordes.jclic",
+    "jclic.js/ordes.jclic.js",
+    "jclic.js/ordes0.gif",
+    "jclic.js/ordes2.gif",
+    "jclic.js/ordesp.gif",
+    "jclic.js/ordesp2.gif",
+    "jclic.js/oroso.gif",
+    "jclic.js/oroso0.gif",
+    "jclic.js/oroso2.gif",
+    "jclic.js/pob.gif",
+    "jclic.js/pres.gif",
+    "jclic.js/pres2.gif",
+    "jclic.js/tordoia.gif",
+    "jclic.js/tordoia0.gif",
+    "jclic.js/tordoia2.gif",
+    "jclic.js/trast1.gif",
+    "jclic.js/trast2.gif",
+    "jclic.js/trast3.gif",
+    "jclic.js/trast3b.gif",
+    "jclic.js/trast4.gif",
+    "jclic.js/trastf_1.gif",
+    "jclic.js/trastf_2.gif",
+    "jclic.js/trastf_3.gif",
+    "jclic.js/trastf_4.gif",
+    "jclic.js/trazo.gif",
+    "jclic.js/trazo0.gif",
+    "jclic.js/trazo2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": 1426,
+  "title": "El ingenioso hidalgo Don Quijote de la Mancha",
+  "author": "Carlos Medina Viedma",
+  "school": "Escuelas profesionales SA.FA - Alcalá de los Gazules Alcalá de los Gazules - Cádiz (Andalucía)",
+  "date": "19/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aventura, literatura espanyola, Quixot",
+    "es": "aventura, literatura española, Quijote",
+    "en": "adventure, Spanish Literature, Quijote"
+  },
+  "descCodes": [
+    612,
+    630,
+    1320
+  ],
+  "description": {
+    "en": "Clic activities about El Quijote. This project has 4 parts: \n<ul> \n <li>Author / Works </li>\n <li>Characters </li>\n <li>Vocabulary / Proverbs </li>\n <li>Grammar </li>\n</ul>",
+    "ca": "Paquet d'activitats sobre el Quixot. Aquest projecte està dividit en 4 parts: \n<ul> \n <li>Autor / Obres </li>\n <li>Personatges </li>\n <li>Vocabulari / Refranys </li>\n <li>Gramàtica </li>\n</ul>",
+    "es": "Paquete de actividades sobre el Quijote. Este proyecto está dividido en 4 partes: \n<ul> \n <li>Author / Obras </li>\n <li>Personajes </li>\n <li>Vocabulario / Refranes </li>\n <li>Gramática </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/quijote3.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/quijote3.jclic.zip",
+  "instFile": "jclic/quijote3.jclic.inst",
+  "clicZoneId": 3159,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3159",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/quijote3/jclic/quijote3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 41,
+  "totalSize": 5649611,
+  "files": [
+    "cover.jpg",
+    "jclic.js/6.jpg",
+    "jclic.js/agraviar.gif",
+    "jclic.js/alforja.gif",
+    "jclic.js/asombrado.wav",
+    "jclic.js/barb.gif",
+    "jclic.js/beethoven.mp3",
+    "jclic.js/cer.gif",
+    "jclic.js/cura.gif",
+    "jclic.js/dulci.gif",
+    "jclic.js/en_un_lugar.wav",
+    "jclic.js/eresmuybueno.wav",
+    "jclic.js/eresmuybueno2.wav",
+    "jclic.js/fabuloso.wav",
+    "jclic.js/fenomeno.wav",
+    "jclic.js/hola.mp3",
+    "jclic.js/mari.gif",
+    "jclic.js/muybien.wav",
+    "jclic.js/muybien2.wav",
+    "jclic.js/no.wav",
+    "jclic.js/no_no.wav",
+    "jclic.js/ohhh.mp3",
+    "jclic.js/ok.mp3",
+    "jclic.js/perfec_to.wav",
+    "jclic.js/presta_atencion.wav",
+    "jclic.js/pruebaotravez.wav",
+    "jclic.js/quijo.gif",
+    "jclic.js/quijote3.jclic",
+    "jclic.js/quijote_leyendo.jpg",
+    "jclic.js/rapido.wav",
+    "jclic.js/risasaplausos.mp3",
+    "jclic.js/rocinante.gif",
+    "jclic.js/rucio.gif",
+    "jclic.js/sancho1.jpg",
+    "jclic.js/sobri.gif",
+    "jclic.js/sorprendido.wav",
+    "jclic.js/tencuidado.wav",
+    "jclic.js/tosiendo.mp3",
+    "jclic.js/ventero.gif",
+    "jclic.js/vizca.gif",
+    "jclic.js/vozdemujerguau.mp3",
+    "jclic.js/yelmo.gif",
+    "jclic.js/yuhuuu.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/quijote3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

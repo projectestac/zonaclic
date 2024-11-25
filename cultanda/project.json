@@ -1,0 +1,122 @@
+{
+  "id": 1545,
+  "title": "Cultura andaluza",
+  "author": "Benito García Peinado",
+  "school": "C.P.PR Pablo de Olavide Prado del Rey - Cádiz (Andalucía)",
+  "date": "16/02/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "Andalusia",
+    "es": "Andalucía",
+    "en": "Andalusia"
+  },
+  "descCodes": [
+    461
+  ],
+  "description": {
+    "en": "Project of activities about Andalusia. The activities are based on the questions of the game &lt; I&gt;Conoce Andalucía, published by the Council of Education and Science of Andalusia.",
+    "ca": "Projecte d'activitats per repassar continguts sobre Andalusia. Les activitats es basen basades a les preguntes del joc \n<i>Conoce Andalucía</i>, editat per la Consejería de Educación y Ciencia de la Junta de Andalucía.",
+    "es": "Proyecto de actividades para repasar contenidos sobre Andalucía. Las actividades están basadas en las preguntas del juego \n<i>Conoce Andalucía</i>, editado por la Consejería de Educación y Ciencia de la Junta de Andalucía."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cultanda.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cultanda.jclic.zip",
+  "instFile": "jclic/cultanda.jclic.inst",
+  "clicZoneId": 3271,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3271",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cultanda/jclic/cultanda.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 93,
+  "mediaFiles": 43,
+  "totalSize": 4592676,
+  "files": [
+    "cover.gif",
+    "jclic.js/alhambr2.jpg",
+    "jclic.js/almeria.jpg",
+    "jclic.js/almeria4.gif",
+    "jclic.js/and.jpg",
+    "jclic.js/andafisi.jpg",
+    "jclic.js/andalu3.jpg",
+    "jclic.js/arabian.jpg",
+    "jclic.js/ba012t.gif",
+    "jclic.js/ba032t.gif",
+    "jclic.js/ba055t.gif",
+    "jclic.js/ba064t.gif",
+    "jclic.js/ba276t.gif",
+    "jclic.js/ba283t.gif",
+    "jclic.js/ba293t.gif",
+    "jclic.js/bandera.jpg",
+    "jclic.js/bien1.wav",
+    "jclic.js/blas.jpg",
+    "jclic.js/bolonia_ruinas_vista_600.jpg",
+    "jclic.js/cadiz4.gif",
+    "jclic.js/cadiz_pferd.jpg",
+    "jclic.js/capanda1.jpg",
+    "jclic.js/cazorla.jpg",
+    "jclic.js/cgata2.jpg",
+    "jclic.js/cordoba4.gif",
+    "jclic.js/cultanda.jclic",
+    "jclic.js/escudo.gif",
+    "jclic.js/esp.jpg",
+    "jclic.js/estupend.wav",
+    "jclic.js/fondoinformacion8.mp3",
+    "jclic.js/gallery34_k.jpg",
+    "jclic.js/granada4.gif",
+    "jclic.js/guadaltoro2.jpg",
+    "jclic.js/himno_mp3.mp3",
+    "jclic.js/huelva2.jpg",
+    "jclic.js/huelva4.gif",
+    "jclic.js/j0232133.jpg",
+    "jclic.js/jaen4.gif",
+    "jclic.js/jda_santelmo.jpg",
+    "jclic.js/la_linea_penon_barco_600.jpg",
+    "jclic.js/limiteand.jpg",
+    "jclic.js/malaga4.gif",
+    "jclic.js/resuelve.wav",
+    "jclic.js/sevilla4.gif",
+    "jclic.js/torero.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cultanda.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

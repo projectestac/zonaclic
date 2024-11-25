@@ -1,0 +1,84 @@
+{
+  "id": 79,
+  "title": "Herramintak",
+  "author": "José Luis Muñoa",
+  "school": "Mariaren Bihotza Ikastola Donostia (Euzkadi)",
+  "date": "09/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Design & technology",
+    "ca": "Tecnologies",
+    "es": "Tecnología"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la tecnologia",
+    "es": "aprendizaje de la tecnología",
+    "en": "learning of the technology"
+  },
+  "descCodes": [
+    728
+  ],
+  "description": {
+    "en": "Clic activities destined to Secondary School about technology.",
+    "ca": "Paquet d'activitats Clic en basc per al 1r cicle d'ESO, sobre l'ús d'algunes eines del taller de tecnologia.",
+    "es": "Paquete de actividades Clic en vasco para el 1r ciclo de ESO, sobre el uso de algunas herramientas del taller de tecnología."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/herramin.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/herramin.jclic.zip",
+  "instFile": "jclic/herramin.jclic.inst",
+  "clicZoneId": 1036,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1036",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/herramin/jclic/herramin.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 5,
+  "totalSize": 124959,
+  "files": [
+    "cover.gif",
+    "jclic.js/burniz_1.jpg",
+    "jclic.js/errami_1.jpg",
+    "jclic.js/herramin.jclic",
+    "jclic.js/mailua.jpg",
+    "jclic.js/sargenta.jpg",
+    "jclic.js/tenazak.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/herramin.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

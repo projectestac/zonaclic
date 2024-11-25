@@ -1,0 +1,106 @@
+{
+  "id": 235,
+  "title": "Els pirates",
+  "author": "Eva Ma. Sanvicens i Vicenç Calaf Mateu",
+  "school": "Escola Pompeu Fabra Vallirana (Baix Llobregat)",
+  "date": "12/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua catalana, conte",
+    "es": "lengua catalana, cuento",
+    "en": "Catalan language, story"
+  },
+  "descCodes": [
+    133,
+    614
+  ],
+  "description": {
+    "en": "Activity pack about word processing using the world of pirates as a theme. This pack belongs to the programming unit \n<b><a href=\"http://www.xtec.cat/recursos/curricul/llengua/textos.htm\" target=\"_blank\">\"L'ús dels sistemes informàtics en el treball de textos\"</a></b>.",
+    "ca": "Conjunt d'activitats corresponents a la unitat de programació \n<b><a href=\"http://www.xtec.cat/recursos/curricul/llengua/textos.htm\" target=\"_blank\">\"L'ús dels sistemes informàtics en el treball de textos\"</a></b>, on es proposen diferents activitats prenent com a centre d'interès el món dels pirates. És important considerar l'ús d'aquest paquet en el context de la unitat de programació a la que pertany.",
+    "es": "Conjunto de actividades correspondientes a la unidad de programación \n<b><a href=\"http://www.xtec.cat/recursos/curricul/llengua/textos.htm\" target=\"_blank\">\"L'ús dels sistemes informàtics en el treball de textos\"</a></b>, donde se proponen distintas actividades tomando como centro de interés el mundo de los piratas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/pirata.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pirata.jclic.zip",
+  "instFile": "jclic/pirata.jclic.inst",
+  "clicZoneId": 1120,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1120",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pirata/jclic/pirata.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 34,
+  "mediaFiles": 26,
+  "totalSize": 683642,
+  "files": [
+    "cover.gif",
+    "jclic.js/associa.gif",
+    "jclic.js/barbap.gif",
+    "jclic.js/barbapuz.gif",
+    "jclic.js/barbass.gif",
+    "jclic.js/barfor.gif",
+    "jclic.js/cano.gif",
+    "jclic.js/closques.gif",
+    "jclic.js/cova.gif",
+    "jclic.js/creuats.gif",
+    "jclic.js/forcapuz.gif",
+    "jclic.js/forcass.gif",
+    "jclic.js/guaita.gif",
+    "jclic.js/illapuz.gif",
+    "jclic.js/mapa.gif",
+    "jclic.js/naufra.gif",
+    "jclic.js/nedar.gif",
+    "jclic.js/pantvaix.gif",
+    "jclic.js/pirata.jclic",
+    "jclic.js/raipuz.gif",
+    "jclic.js/sang.gif",
+    "jclic.js/santabar.gif",
+    "jclic.js/sopes.gif",
+    "jclic.js/tempes.gif",
+    "jclic.js/tresor.gif",
+    "jclic.js/tretroba.gif",
+    "jclic.js/vaixell.gif",
+    "jclic.js/vaixells.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pirata.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

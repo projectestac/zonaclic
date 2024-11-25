@@ -1,0 +1,131 @@
+{
+  "id": 1520,
+  "title": "Los sinfones trabados",
+  "author": "José Manuel Pastor Palomo",
+  "school": "Centro Docente Privado Ruemy Sevilla (Andalucía)",
+  "date": "10/01/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua castellana",
+    "es": "aprendizaje de la lengua, lengua castellana",
+    "en": "learning of the language, Spanish language"
+  },
+  "descCodes": [
+    110,
+    132
+  ],
+  "description": {
+    "en": "These applications are specially addressed to children with difficulties in learning to read and write. It's also advisable for general learning as well. \n<br> The aim is to get the right pronunciation of difficult syllabus.",
+    "ca": "Aquestes aplicacions van adreçades especialment a nens i nenes que estan adquirint l'aprenentatge de la lectoescriptura, així com per alumnes que troben dificultats en l'adquisició de dit aprenentatge.\n<br> L'objectiu es aconseguir aprendre la pronúncia de les síl·labes travades.",
+    "es": "Estas aplicaciones van dirigidas especialmente para niños y niñas que están adquiriendo la lectoescritura, así como para alumnos/as con dificultades en la adquisición de la misma.\n<br> El objetivo es conseguir aprender la pronunciación de las sílabas trabadas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sinfones.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sinfones.jclic.zip",
+  "instFile": "jclic/sinfones.jclic.inst",
+  "clicZoneId": 3242,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3242",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sinfones/jclic/sinfones.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 50,
+  "totalSize": 1213786,
+  "files": [
+    "cover.gif",
+    "jclic.js/abrigo.jpg",
+    "jclic.js/ancla.jpg",
+    "jclic.js/biblioteca.jpg",
+    "jclic.js/blusa.jpg",
+    "jclic.js/boligrafo.jpg",
+    "jclic.js/bravo.wav",
+    "jclic.js/brazo.jpg",
+    "jclic.js/cebra.jpg",
+    "jclic.js/clarinete.jpg",
+    "jclic.js/clavel.jpg",
+    "jclic.js/clip.jpg",
+    "jclic.js/cocodrilo.jpg",
+    "jclic.js/cofre.gif",
+    "jclic.js/compra.jpg",
+    "jclic.js/crema.jpg",
+    "jclic.js/cruz.jpg",
+    "jclic.js/cuatro.jpg",
+    "jclic.js/dragon1.jpg",
+    "jclic.js/filedone.wav",
+    "jclic.js/flan.jpg",
+    "jclic.js/flauta.gif",
+    "jclic.js/flecha.jpg",
+    "jclic.js/flor.gif",
+    "jclic.js/fraile.jpg",
+    "jclic.js/fruta.jpg",
+    "jclic.js/granja.jpg",
+    "jclic.js/grua.jpg",
+    "jclic.js/hablar.gif",
+    "jclic.js/iglu.jpg",
+    "jclic.js/infla.gif",
+    "jclic.js/j0354497.gif",
+    "jclic.js/ladrillo.jpg",
+    "jclic.js/letras.jpg",
+    "jclic.js/microfono.gif",
+    "jclic.js/mueble.jpg",
+    "jclic.js/noche.gif",
+    "jclic.js/planta.jpg",
+    "jclic.js/portada.gif",
+    "jclic.js/precio.jpg",
+    "jclic.js/princesa.jpg",
+    "jclic.js/prismaticos.jpg",
+    "jclic.js/profesor.jpg",
+    "jclic.js/pueblo.jpg",
+    "jclic.js/sinfones.jclic",
+    "jclic.js/tigre.gif",
+    "jclic.js/tigre1.jpg",
+    "jclic.js/tractor.jpg",
+    "jclic.js/tres.jpg",
+    "jclic.js/trigo.jpg",
+    "jclic.js/trompeta.jpg",
+    "jclic.js/winter.mid",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sinfones.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

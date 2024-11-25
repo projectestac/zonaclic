@@ -1,0 +1,86 @@
+{
+  "id": 2048,
+  "title": "Les paraules sinònimes",
+  "author": "Ariadna Martín Plana i M. Carmen Fernández Lavadiño",
+  "date": "04/05/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua catalana, sinònims",
+    "es": "lengua catalana, sinónimos",
+    "en": "Catalan language, sinonyms"
+  },
+  "descCodes": [
+    133,
+    892
+  ],
+  "description": {
+    "en": "Set of activities about Catalan words synonymous with association activities, identifications, text activities, etc...",
+    "ca": "Conjunt d'activitats per treballar les paraules sinònimes de la llengua catalana mitjançant activitats d'associació, identificacions, activitats de text, etc...",
+    "es": "Conjunto de actividades para trabajar las palabras sinónimas en lengua catalana mediante actividades de asociación, identificación, actividades de texto..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sinonims.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sinonims.jclic.zip",
+  "instFile": "jclic/sinonims.jclic.inst",
+  "clicZoneId": 3617,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3617",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sinonims/jclic/sinonims.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 7,
+  "totalSize": 190987,
+  "files": [
+    "cover.gif",
+    "jclic.js/clic.png",
+    "jclic.js/clic2.png",
+    "jclic.js/clic3.png",
+    "jclic.js/clic4.png",
+    "jclic.js/clic5.png",
+    "jclic.js/clic6.png",
+    "jclic.js/pastis_aniversari.gif",
+    "jclic.js/sinonims.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sinonims.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

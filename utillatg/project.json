@@ -1,0 +1,117 @@
+{
+  "id": 1927,
+  "title": "Utillatge químic",
+  "author": "M. Lluïsa Abad Roses",
+  "school": "Servei de Tecnologies per a l'Aprenentatge i el Coneixement Barcelona",
+  "date": "22/06/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "química, laboratori",
+    "es": "química, laboratorio",
+    "en": "chemistry, laboratory"
+  },
+  "descCodes": [
+    97,
+    837
+  ],
+  "description": {
+    "en": "JClic project about 36 materials that are used in the laboratory. \n<ul> \n <li>metal </li>\n <li>glass </li>\n <li>porcelain </li>\n <li>... </li>\n</ul>",
+    "ca": "Projecte JClic per a l'aprenentatge dels materials que fem servir al laboratori. Un total de 36 utillatges diferents: \n<ul> \n <li>de metall </li>\n <li>de vidre </li>\n <li>de plàstic </li>\n <li>... </li>\n</ul>",
+    "es": "Proyecto JClic para el aprendizaje de los materiales que se utilizan en el laboratorio. Un total de 36 útiles diferentes: \n<ul> \n <li>de metal </li>\n <li>de cristal </li>\n <li>de plástico </li>\n <li>... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/utillatg.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/utillatg.jclic.zip",
+  "instFile": "jclic/utillatg.jclic.inst",
+  "clicZoneId": 3553,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3553",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/utillatg/jclic/utillatg.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 37,
+  "totalSize": 529812,
+  "files": [
+    "cover.jpg",
+    "jclic.js/balanca2.jpg",
+    "jclic.js/bec.jpg",
+    "jclic.js/bureta.jpg",
+    "jclic.js/capsula.jpg",
+    "jclic.js/cercol.jpg",
+    "jclic.js/columna.jpg",
+    "jclic.js/compta.jpg",
+    "jclic.js/cristal.jpg",
+    "jclic.js/decant.jpg",
+    "jclic.js/destil.jpg",
+    "jclic.js/embut.jpg",
+    "jclic.js/erlen.jpg",
+    "jclic.js/escalfa.jpg",
+    "jclic.js/escovill.jpg",
+    "jclic.js/espatula.jpg",
+    "jclic.js/filtres.jpg",
+    "jclic.js/gradeta.jpg",
+    "jclic.js/matras.jpg",
+    "jclic.js/nou.jpg",
+    "jclic.js/paperind.jpg",
+    "jclic.js/ph_neu.jpg",
+    "jclic.js/pinces.jpg",
+    "jclic.js/pipeteja.jpg",
+    "jclic.js/pipetes.jpg",
+    "jclic.js/placa.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/provetes.jpg",
+    "jclic.js/refrige2.jpg",
+    "jclic.js/reixeta.jpg",
+    "jclic.js/rentador.jpg",
+    "jclic.js/suport.jpg",
+    "jclic.js/termomet.jpg",
+    "jclic.js/tripode.jpg",
+    "jclic.js/tubs.jpg",
+    "jclic.js/utillatg.jclic",
+    "jclic.js/varetes.jpg",
+    "jclic.js/vaspp.jpg",
+    "jclic.js/vidre.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/utillatg.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

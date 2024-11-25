@@ -1,0 +1,143 @@
+{
+  "id": 2260,
+  "title": "La tardor",
+  "author": "Anna Tàpia Valverde",
+  "school": "C Arrels I Solsona (Solsonès)",
+  "date": "20/06/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences, Languages",
+    "ca": "Ciències socials, Llengües",
+    "es": "Ciencias sociales, Lenguas"
+  },
+  "areaCodes": [
+    "soc",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "aliments, tardor",
+    "es": "alimentos, otoño",
+    "en": "foods, autum"
+  },
+  "descCodes": [
+    49,
+    1437
+  ],
+  "description": {
+    "en": "The following project about autumn presents a set of 16 activities which combine memory games, associations, puzzle, word search puzzles... These activities are structured in three parts: \n<ul> \n <li>environment </li>\n <li>aliments and animals </li>\n <li>music </li>\n</ul>",
+    "ca": "El projecte següent sobre la tardor presenta un conjunt de 16 activitats en les quals es combinen els jocs de memòria, les associacions, els puzles, las sopes de lletres... Aquestes activitats s'estructuren a partir de tres grans blocs: \n<ul> \n <li>l'entorn </li>\n <li>els aliments i els animals </li>\n <li>música </li>\n</ul> A partir d'aquest blocs i les seves activitats es pretén treballar l'estació de la tardor tot observant l'entorn més proper i alhora conèixer i ampliar el vocabulari relacionat amb aquesta estació.",
+    "es": "El siguiente proyecto presenta un conjunto de 16 actividades en las cuales se combinan los juegos de memoria, las asociaciones, los puzzle, las sopas de letras... Estas actividades se estructuran a partir de tres grandes bloques: \n<ul> \n <li>el entorno </li>\n <li>los alimentos y los animales </li>\n <li>música </li>\n</ul> A partir de estos bloques y sus actividades se pretende trabajar la estación del otoño observando el entorno más cercano y a la vez conocer y ampliar vocabulario relacionado con esta estación."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/tardor4.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tardor4.jclic.zip",
+  "instFile": "jclic/tardor4.jclic.inst",
+  "clicZoneId": 3778,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3778",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/tardor4/jclic/tardor4.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 62,
+  "totalSize": 2139681,
+  "files": [
+    "cover.png",
+    "jclic.js/174011_jpg_1_resized.jpg",
+    "jclic.js/arbre_2.gif",
+    "jclic.js/atmella.jpg",
+    "jclic.js/avellana.jpg",
+    "jclic.js/bolet.jpg",
+    "jclic.js/camagroc.jpg",
+    "jclic.js/camell.jpg",
+    "jclic.js/carbassa.jpg",
+    "jclic.js/cargol.mp3",
+    "jclic.js/cargol2.jpg",
+    "jclic.js/cargol_3.png",
+    "jclic.js/castanyera.jpg",
+    "jclic.js/castanyes.jpg",
+    "jclic.js/catiuskes.jpg",
+    "jclic.js/clau_de_sol.jpg",
+    "jclic.js/curs2.gif",
+    "jclic.js/desembre_marc.mp3",
+    "jclic.js/erico.jpg",
+    "jclic.js/erico.mp3",
+    "jclic.js/esquirol.jpg",
+    "jclic.js/esquirol.mp3",
+    "jclic.js/figa.jpg",
+    "jclic.js/fredolic.jpg",
+    "jclic.js/fulla.gif",
+    "jclic.js/i01_bolet.jpg",
+    "jclic.js/i01_fulla.gif",
+    "jclic.js/i01_logo.gif",
+    "jclic.js/i01_smile.png",
+    "jclic.js/i02_smile.png",
+    "jclic.js/kaki_2.jpg",
+    "jclic.js/la_castanyera_2.mp3",
+    "jclic.js/la_tardor_1.mp3",
+    "jclic.js/llanega.jpg",
+    "jclic.js/logo.gif",
+    "jclic.js/magrana.jpg",
+    "jclic.js/mangrana.jpg",
+    "jclic.js/marrameu_2.mp3",
+    "jclic.js/moniato.jpg",
+    "jclic.js/neu.jpg",
+    "jclic.js/nou.jpg",
+    "jclic.js/nous_2.jpg",
+    "jclic.js/novembre.jpg",
+    "jclic.js/novembre_pol.mp3",
+    "jclic.js/octubre_marc.mp3",
+    "jclic.js/ovella.jpg",
+    "jclic.js/paraigua.png",
+    "jclic.js/pera.jpg",
+    "jclic.js/pica_soques.jpg",
+    "jclic.js/picasoques.mp3",
+    "jclic.js/poma.jpg",
+    "jclic.js/porc_senglar.jpg",
+    "jclic.js/porc_senglar.mp3",
+    "jclic.js/portada_arbre_resized.jpg",
+    "jclic.js/raim.jpg",
+    "jclic.js/raim_negre.jpg",
+    "jclic.js/ratoli1.mp3",
+    "jclic.js/rovello.jpg",
+    "jclic.js/setembre.jpg",
+    "jclic.js/setembre_pol.mp3",
+    "jclic.js/smile.png",
+    "jclic.js/tardor.gif",
+    "jclic.js/tardor4.jclic",
+    "jclic.js/untitled.bmp",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/tardor4.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

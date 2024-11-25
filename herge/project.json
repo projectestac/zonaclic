@@ -1,0 +1,112 @@
+{
+  "id": 1718,
+  "title": "Hergé - Tintín",
+  "author": "Anna Boix i Moradell",
+  "school": "Escola Doctor Carulla Arbúcies (Selva)",
+  "date": "26/11/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "biografia, literatura juvenil, Hergé",
+    "es": "biografía, literatura juvenil, Hergé",
+    "en": "biography, youthful Literature, Hergé"
+  },
+  "descCodes": [
+    613,
+    636,
+    1382
+  ],
+  "description": {
+    "en": "Project about Hergé in motive of the centenary of his birth. In this package there are activities about his biography and about his characters: Tintin, Castafiore, The Thompsons, Haddock captain, Professor Calculus, Snowy... \n<p class=\"avislpi\"> The reproduction of the illustrations by Hergé in this activity use the right to quote with educational puposes established in the article 32 of the legal decree 1/1996 from the 12th of April (<a href=\"http://www.boe.es/g/es/bases_datos/doc.php?coleccion=iberlex&amp;id=1996/08930&amp;txtlen=1000\">BOE n. 97, April 22nd</a>). The Departmen of Education does not own the authoring right derived.</p>",
+    "ca": "Projecte sobre la vida i l'obra d'Hergé en motiu del centenari del seu naixement. Al llarg de les activitats es repassa tant la seva biografia, com el seu personatge més conegut: en Tintín i la resta de protagonistes de les històries d'aquest jove aventurer, Castafiore, Dupont i Dupond, el capità Haddock, en Tornassol, Milú... \n<p class=\"avislpi\"> La reproducció de les il·lustracions i textos d'Hergé emprats en aquesta activitat <strong>s'acull al dret de cita amb finalitats docents establert a l'article 32 del Reial decret legislatiu 1/1996</strong>, de 12 d'abril (<a href=\"http://www.boe.es/g/es/bases_datos/doc.php?coleccion=iberlex&amp;id=1996/08930&amp;txtlen=1000\">BOE número 97, de 22 d'abril</a>). El Departament d'Educació no és el titular dels drets d'autoria que se'n deriven. </p>",
+    "es": "Proyecto sobre la vida y la obra d'Hergé en motivo del centenario de su nacimiento. A lo largo de las actividades se repasa tanto su biografía, como su personaje más conocido: Tintín y el resto de protagonistas de las historias de este joven aventurero, Castafiore, Hernández y Fernández, el capitán Haddock, Tornassol, Milú... \n<p class=\"avislpi\"> La reproducción de las ilustraciones y textos de Hergé utilizados en esta actividad <strong>se acoge al derecho de cita con finalidades docentes establecido en el artículo 32 del Real decreto legislativo 1/1996</strong>, de 12 de abril (<a href=\"http://www.boe.es/g/es/bases_datos/doc.php?coleccion=iberlex&amp;id=1996/08930&amp;txtlen=1000\">BOE número 97, de 22 d'abril</a>). El Departament d'Educació no es el titular de los derechos de autoría que se derivan.</p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/herge.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/herge.jclic.zip",
+  "instFile": "jclic/herge.jclic.inst",
+  "clicZoneId": 3425,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3425",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/herge/jclic/herge.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 31,
+  "totalSize": 1018977,
+  "files": [
+    "cover.gif",
+    "jclic.js/1179736226_1_1980.jpg",
+    "jclic.js/2407664_6895_5.jpg",
+    "jclic.js/2_anys.jpg",
+    "jclic.js/84_261_0275_1.jpg",
+    "jclic.js/84_261_0278_6.jpg",
+    "jclic.js/84_261_0381_2.jpg",
+    "jclic.js/84_261_0382_0.jpg",
+    "jclic.js/84_261_0816_4.jpg",
+    "jclic.js/84_261_0837_7.jpg",
+    "jclic.js/84_261_0964_0.jpg",
+    "jclic.js/84_261_1036_3.jpg",
+    "jclic.js/84_261_1046_0.jpg",
+    "jclic.js/9782203324084v1.jpg",
+    "jclic.js/bianca_castafiore1.jpg",
+    "jclic.js/castafiore.jpg",
+    "jclic.js/dupond_i_dupont1.jpg",
+    "jclic.js/dupont_i_dupond.jpg",
+    "jclic.js/europa.jpg",
+    "jclic.js/haddock.jpg",
+    "jclic.js/haddock1.jpg",
+    "jclic.js/herge.jclic",
+    "jclic.js/hergf10_amb_els_boy_scouts.jpg",
+    "jclic.js/hergf2_1949.jpg",
+    "jclic.js/hergf8.jpg",
+    "jclic.js/hergf9_1933.jpg",
+    "jclic.js/jo_zette_jocko_manitoba_wallpaper_fond_d_ecran.jpg",
+    "jclic.js/milu.jpg",
+    "jclic.js/milu1.jpg",
+    "jclic.js/tintin.jpg",
+    "jclic.js/tintin1.jpg",
+    "jclic.js/tornassol.jpg",
+    "jclic.js/tornassol2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/herge.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

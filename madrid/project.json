@@ -1,0 +1,94 @@
+{
+  "id": 2172,
+  "title": "Un paseo por Madrid",
+  "author": "Juan Antonio Punzano Sirvent i María Luisa Sirvent Latorre",
+  "date": "02/08/11",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "JClic project to know the city of Madrid. It's addressed to students at the third cycle of primary education, secondary education and new students. This is a set of puzzles that are used for understanding the municipality of Madrid (the most representative places), while students have fun and develop their spatial orientation.",
+    "ca": "Projecte d'activitats JClic per al coneixement de la ciutat de Madrid adreçat a alumnes de tercer cicle d'educació primària, educació secundària i alumnat nouvingut.\n<p> Es tracta d'un conjunt de trencaclosques que serveixen per al coneixement del municipi de Madrid (els llocs més representatius), mentre els alumnes es diverteixen i desenvolupen la seva orientació espaial. </p>",
+    "es": "Proyecto de actividades JClic para el conocimiento de la ciudad de Madrid dirigido a alumnos de educación primaria (tercer ciclo), educación secundaria y alumnado recién llegado.\n<p> Se trata de un conjunto de puzzles que sirven para el conocimiento del municipio de Madrid (los lugares más representativos), mientras los alumnos se divierten y desarrollan su organización espacial. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/madrid.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/madrid.jclic.zip",
+  "instFile": "jclic/madrid.jclic.inst",
+  "clicZoneId": 3708,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3708",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/madrid/jclic/madrid.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 24,
+  "totalSize": 1597926,
+  "files": [
+    "cover.png",
+    "jclic.js/madrid.jclic",
+    "jclic.js/punzanosirvent_cibeles2_resized.jpg",
+    "jclic.js/punzanosirvent_cielomadrid_resized.jpg",
+    "jclic.js/punzanosirvent_congreso_diputados.jpg",
+    "jclic.js/punzanosirvent_correos_ayuntamiento_resized.jpg",
+    "jclic.js/punzanosirvent_empanada_resized.jpg",
+    "jclic.js/punzanosirvent_escudo_madrid_resized.jpg",
+    "jclic.js/punzanosirvent_i_cervantes_resized.jpg",
+    "jclic.js/punzanosirvent_isabel_la_catolica2_resized.jpg",
+    "jclic.js/punzanosirvent_metro.jpg",
+    "jclic.js/punzanosirvent_museo_america3_resized.jpg",
+    "jclic.js/punzanosirvent_nuevosministerios_resized.jpg",
+    "jclic.js/punzanosirvent_palacioreal2_resized.jpg",
+    "jclic.js/punzanosirvent_plazadelavilla_resized.jpg",
+    "jclic.js/punzanosirvent_puertasol2_resized.jpg",
+    "jclic.js/punzanosirvent_sirventlatorre_anotaciones_resized.jpg",
+    "jclic.js/punzanosirvent_sirventlatorre_portada3_resized.jpg",
+    "jclic.js/sirvent_catedral_almudena.jpg",
+    "jclic.js/sirventlatorre_arco_moncloa2.jpg",
+    "jclic.js/sirventlatorre_faro_moncloa2_resized.jpg",
+    "jclic.js/sirventlatorre_iglesiasantiago_resized.jpg",
+    "jclic.js/sirventlatorre_km0__resized.jpg",
+    "jclic.js/sirventlatorre_oso_madrono2_resized.jpg",
+    "jclic.js/sirventlatorre_plzamayor_resized.jpg",
+    "jclic.js/sirventlatorre_teatroreal2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/madrid.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

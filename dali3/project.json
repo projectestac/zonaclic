@@ -1,0 +1,140 @@
+{
+  "id": 1201,
+  "title": "Dalí 3 (català)",
+  "author": "Juan Palomino Reinoso",
+  "school": "Escola Joan Juncadella Sant Vicenç dels Horts (Baix Llobregat)",
+  "date": "14/01/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Art & design",
+    "ca": "Visual i plàstica",
+    "es": "Plástica y visual"
+  },
+  "areaCodes": [
+    "vip"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "patrimoni artístic, Salvador Dalí",
+    "es": "patrimonio artístico, Salvador Dalí",
+    "en": "artistic patrimony, Salvador Dalí"
+  },
+  "descCodes": [
+    439,
+    1200
+  ],
+  "description": {
+    "en": "Package of activities about Salvador Dali addressed to children at infantile and primary school. The major aim is to observe the pictures, discover details and find differences.",
+    "ca": "Paquet d'activitats sobre Salvador Dalí adreçat a nens i nenes d'infantil i primer cicle de primària on l'objectiu principal és la observació de quadres, la cerca de detalls i la cerca de diferències.",
+    "es": "Paquete de actividades sobre Salvador Dalí para niños y niñas de infantil y primer ciclo de primaria dónde el objetivo principal es la observación de cuadros, la búsqueda de detalles y la búsqueda de diferencias."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "dali3eus"
+  ],
+  "mainFile": "jclic.js/dali3.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/dali3.jclic.zip",
+  "instFile": "jclic/dali3.jclic.inst",
+  "clicZoneId": 2901,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2901",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/dali3/jclic/dali3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 56,
+  "totalSize": 1285250,
+  "files": [
+    "cover.jpg",
+    "jclic.js/actapa_1.jpg",
+    "jclic.js/aparatoz.jpg",
+    "jclic.js/atletes.jpg",
+    "jclic.js/atletes1.jpg",
+    "jclic.js/atletes2.jpg",
+    "jclic.js/atletes3.jpg",
+    "jclic.js/atletes4.jpg",
+    "jclic.js/atletes5.jpg",
+    "jclic.js/atletes6.jpg",
+    "jclic.js/atletesz.jpg",
+    "jclic.js/atomica3.jpg",
+    "jclic.js/atomica4.jpg",
+    "jclic.js/atomicaz.jpg",
+    "jclic.js/bunuel.jpg",
+    "jclic.js/bunuelz.jpg",
+    "jclic.js/cristo.jpg",
+    "jclic.js/cristoz.jpg",
+    "jclic.js/dali3.jclic",
+    "jclic.js/madonna.jpg",
+    "jclic.js/madonna0.jpg",
+    "jclic.js/madonna1.jpg",
+    "jclic.js/madonna2.jpg",
+    "jclic.js/madonna3.jpg",
+    "jclic.js/madonna4.jpg",
+    "jclic.js/madonna5.jpg",
+    "jclic.js/madonna6.jpg",
+    "jclic.js/madonna7.jpg",
+    "jclic.js/madonna8.jpg",
+    "jclic.js/madonna9.jpg",
+    "jclic.js/madonnaz.jpg",
+    "jclic.js/maewest.jpg",
+    "jclic.js/maewestz.jpg",
+    "jclic.js/memoria.jpg",
+    "jclic.js/memoria1.jpg",
+    "jclic.js/memoria2.jpg",
+    "jclic.js/memoria3.jpg",
+    "jclic.js/memoria4.jpg",
+    "jclic.js/memoria5.jpg",
+    "jclic.js/memoria6.jpg",
+    "jclic.js/memoriab.jpg",
+    "jclic.js/memoriaz.jpg",
+    "jclic.js/muerta.jpg",
+    "jclic.js/muerta0.jpg",
+    "jclic.js/muerta1.jpg",
+    "jclic.js/muerta2.jpg",
+    "jclic.js/muerta3.jpg",
+    "jclic.js/muerta4.jpg",
+    "jclic.js/muerta5.jpg",
+    "jclic.js/muerta6.jpg",
+    "jclic.js/muerta7.jpg",
+    "jclic.js/muerta8.jpg",
+    "jclic.js/muerta9.jpg",
+    "jclic.js/muertaz.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/solapa_1.jpg",
+    "jclic.js/ventana.jpg",
+    "jclic.js/ventanaz.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/dali3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

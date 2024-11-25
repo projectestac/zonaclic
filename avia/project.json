@@ -1,0 +1,128 @@
+{
+  "id": 2355,
+  "title": "El meu poble Avià",
+  "author": "Carme Freixa i Escriu",
+  "school": "Escola Santa Maria d'Avià Avià (Berguedà)",
+  "date": "12/02/15",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences, Languages",
+    "ca": "Ciències socials, Llengües",
+    "es": "Ciencias sociales, Lenguas"
+  },
+  "areaCodes": [
+    "soc",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "societat, urbanisme",
+    "es": "sociedad, urbanismo",
+    "en": "society, urbanism"
+  },
+  "descCodes": [
+    344,
+    359
+  ],
+  "description": {
+    "en": "Project of activities about Avià (a little town in Barcelona) . \n<ul> \n <li>The villages </li>\n <li>Old town and trendy </li>\n <li>Natural and architectural heritage </li>\n <li>The origin of Avià </li>\n <li>The shield </li>\n <li>St. Martin's legend </li>\n</ul>",
+    "ca": "Projecte JClic sobre el poble d'Avià (Barcelona). \n<ul> \n <li>Els nuclis de població </li>\n <li>Barri antic i barri modern </li>\n <li>Patrimoni natural i arquitectònic </li>\n <li>Origen d'Avià </li>\n <li>L'escut </li>\n <li>La llegenda de Sant Martí </li>\n</ul>",
+    "es": "Proyecto de actividades sobre el pueblo de Avià (Barcelona). \n<ul> \n <li>Los núcleos de población </li>\n <li>Barrio antiguo y barrio moderno </li>\n <li>Patrimonio natural y arquitectónico </li>\n <li>Origen de Avià </li>\n <li>El escudo </li>\n <li>La leyenda de San Martín </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/avia.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/avia.jclic.zip",
+  "instFile": "jclic/avia.jclic.inst",
+  "clicZoneId": 3861,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3861",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/avia/jclic/avia.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 31,
+  "mediaFiles": 47,
+  "totalSize": 3134641,
+  "files": [
+    "cover.png",
+    "jclic.js/avia.jclic",
+    "jclic.js/aviapoble_resized.jpg",
+    "jclic.js/creu1__1__resized.jpg",
+    "jclic.js/creu_copia_resized.jpg",
+    "jclic.js/dsc00895_resized.jpg",
+    "jclic.js/escut_copia_resized.jpg",
+    "jclic.js/i01_avia.mp3",
+    "jclic.js/i01_barri_de_la_creu.mp3",
+    "jclic.js/i01_dsc00898_resized.jpg",
+    "jclic.js/i01_grauges.mp3",
+    "jclic.js/i01_la_plana.mp3",
+    "jclic.js/i01_moli_del_castell.mp3",
+    "jclic.js/i01_moli_del_castell_resized.jpg",
+    "jclic.js/i01_obiols.mp3",
+    "jclic.js/i01_p1010966_resized.jpg",
+    "jclic.js/i01_p1010969_resized.jpg",
+    "jclic.js/i01_p1010970_resized.jpg",
+    "jclic.js/i01_p1010975_resized.jpg",
+    "jclic.js/i01_p1010984_resized.jpg",
+    "jclic.js/i01_p1010985_resized.jpg",
+    "jclic.js/i01_p1010993_resized.jpg",
+    "jclic.js/i01_p1010996_resized.jpg",
+    "jclic.js/i01_p1020001_resized.jpg",
+    "jclic.js/i01_p1020006_resized.jpg",
+    "jclic.js/i01_p1020012_resized.jpg",
+    "jclic.js/i02_p1010966_resized.jpg",
+    "jclic.js/la_plana1_resized.jpg",
+    "jclic.js/p1010966_resized.jpg",
+    "jclic.js/p1010970_resized.jpg",
+    "jclic.js/p1010981_resized.jpg",
+    "jclic.js/p1010990_resized.jpg",
+    "jclic.js/p1010994_resized.jpg",
+    "jclic.js/p1010996_resized.jpg",
+    "jclic.js/p1020001_resized.jpg",
+    "jclic.js/p1020006_resized.jpg",
+    "jclic.js/p1020012_resized.jpg",
+    "jclic.js/p1020922_resized.jpg",
+    "jclic.js/p1020924_resized.jpg",
+    "jclic.js/p1030142_resized.jpg",
+    "jclic.js/p1030146_resized.jpg",
+    "jclic.js/p1030153_resized.jpg",
+    "jclic.js/p1030154_resized.jpg",
+    "jclic.js/p1030155_resized.jpg",
+    "jclic.js/p1030166_resized.jpg",
+    "jclic.js/p1030173_resized.jpg",
+    "jclic.js/p1030177_resized.jpg",
+    "jclic.js/presentacio_1_copia_resized.jpg",
+    "jclic.js/xemenia_la_plana_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/avia.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

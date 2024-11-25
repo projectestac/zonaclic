@@ -1,0 +1,114 @@
+{
+  "id": 2071,
+  "title": "Historia del pueblo gitano 2",
+  "school": "Asociación Barró Madrid (Madrid)",
+  "date": "30/09/10",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "etnologia, diversitat",
+    "es": "etnología, diversidad",
+    "en": "etnología, diversity"
+  },
+  "descCodes": [
+    221,
+    789
+  ],
+  "description": {
+    "en": "JClic activity about the history and the culture of the Gypsy: \n<ul> \n <li>geography </li>\n <li>music </li>\n <li>the language </li>\n <li>anthem </li>\n <li>professions </li>\n <li> ...  </li>\n</ul>",
+    "ca": "Activitat d'introducció a la història i cultura del poble gitano a través de diferents activitats sobre: \n<ul> \n <li>geografia </li>\n <li>música </li>\n <li>caló </li>\n <li>himne </li>\n <li>professions </li>\n <li>... </li>\n</ul>",
+    "es": "Actividad de introducción a la historia y cultura del pueblo gitano a través de diferentes actividades sobre: \n<ul> \n <li>geografía </li>\n <li>música </li>\n <li>caló </li>\n <li>himno </li>\n <li>profesiones </li>\n <li>... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/histpueb.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/histpueb.jclic.zip",
+  "instFile": "jclic/histpueb.jclic.inst",
+  "clicZoneId": 3637,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3637",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/histpueb/jclic/histpueb.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 26,
+  "mediaFiles": 35,
+  "totalSize": 4250413,
+  "files": [
+    "cover.gif",
+    "jclic.js/0portada.jpg",
+    "jclic.js/amor_de_san_juan_cotada.mp3",
+    "jclic.js/aplausos.gif",
+    "jclic.js/bandera_gitana.jpg",
+    "jclic.js/bibliografia_hp.jpg",
+    "jclic.js/colores5.gif",
+    "jclic.js/colores_0.gif",
+    "jclic.js/colores_2.gif",
+    "jclic.js/colores_3.gif",
+    "jclic.js/colores_4.gif",
+    "jclic.js/colores_6.gif",
+    "jclic.js/colores_7.gif",
+    "jclic.js/colores_8.gif",
+    "jclic.js/colores_9.gif",
+    "jclic.js/colores_9__8_.gif",
+    "jclic.js/constitucion_espanola.jpg",
+    "jclic.js/continente_asiatico.gif",
+    "jclic.js/continente_europeo.gif",
+    "jclic.js/continente_oceanico.gif",
+    "jclic.js/continentes.jpg",
+    "jclic.js/continete_africano.gif",
+    "jclic.js/continete_americano.gif",
+    "jclic.js/dibujo.jpg",
+    "jclic.js/historia_gitano_2.jpg",
+    "jclic.js/historia_gitano_3.jpg",
+    "jclic.js/historia_gitano_5.jpg",
+    "jclic.js/historia_gitano_6.jpg",
+    "jclic.js/historia_gitanos_1.jpg",
+    "jclic.js/historia_gitanos_4.jpg",
+    "jclic.js/histpueb.jclic",
+    "jclic.js/la_leyenda_del_tiempo_cortada.mp3",
+    "jclic.js/las_grecas_cortado.mp3",
+    "jclic.js/los_chunguitos_cortado.mp3",
+    "jclic.js/no_estamos_locos_cortada.mp3",
+    "jclic.js/notas_musicales.jpg",
+    "jclic.js/portada.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/histpueb.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

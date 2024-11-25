@@ -1,0 +1,106 @@
+{
+  "id": 2600,
+  "title": "El sistema solar i la Terra",
+  "author": "Júlia Fullana, Dámaris García, Adrián Molina, Itziar Román, Irene Sánchez, Carmen Valenzuela",
+  "date": "03/04/19",
+  "langCodes": [
+    "ca"
+  ],
+  "languages": {
+    "es": "catalán",
+    "ca": "català",
+    "en": "Catalan"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "areas": {
+    "es": "Ciencias experimentales",
+    "ca": "Ciències experimentals",
+    "en": "Experimental sciences"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "levels": {
+    "es": "Primaria (6-12)",
+    "ca": "Primària (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "description": {
+    "es": "Conjunto de actividades para profundizar en el aprendizaje del Sistema Solar y el conocimiento del medio. Encontraréis actividades para relacionar, describir y ordenar.",
+    "ca": "Conjunt d'activitats per a aprofundir en l'aprenentatge del Sistema Solar i el coneixement del mitjà. Trobareu activitats per a relacionar, descriure i ordenar.",
+    "en": "Set of activities to deepen the learning of the Solar System and knowledge of the environment. You will find activities to relate, describe and put things in order."
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "es",
+    "ca",
+    "en"
+  ],
+  "cover": "portada.jpg",
+  "coverWebp": "portada.webp",
+  "thumbnail": "portada100.jpg",
+  "mainFile": "jclic.js/solarterr.jclic",
+  "activities": 14,
+  "mediaFiles": 44,
+  "totalSize": 3122010,
+  "instFile": "jclic/solarterr.jclic.inst",
+  "zipFile": "jclic/solarterr.jclic.zip",
+  "files": [
+    "jclic.js/benfet.mp3",
+    "jclic.js/castanya-resized.jpg",
+    "jclic.js/catlantic-resized.jpg",
+    "jclic.js/climacontinentalmed.jpg",
+    "jclic.js/climamuntanya-resized.jpg",
+    "jclic.js/cmedit-resized.jpg",
+    "jclic.js/correct-ding.mp3",
+    "jclic.js/ebiomassa.png",
+    "jclic.js/ecarbon-resized.jpg",
+    "jclic.js/eeolica-resized.jpg",
+    "jclic.js/egasnatural-resized.jpg",
+    "jclic.js/egeotermica-resized.jpg",
+    "jclic.js/ehidroelectrica-resized.jpg",
+    "jclic.js/emareomotriz.jpg",
+    "jclic.js/enuclear-resized.jpg",
+    "jclic.js/epetroleo-resized.jpg",
+    "jclic.js/esolar-resized.jpg",
+    "jclic.js/falgueresimolses-resized.jpg",
+    "jclic.js/favicon.ico",
+    "jclic.js/fondo_3-resized.jpg",
+    "jclic.js/fondos-resized.jpg",
+    "jclic.js/fulla_caduca-resized.jpg",
+    "jclic.js/garriga-resized.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/jupiterrrrr.png",
+    "jclic.js/mapaultim-resized.jpg",
+    "jclic.js/marte-resized.jpg",
+    "jclic.js/mercurio-resized.jpg",
+    "jclic.js/musica-espera-separador-musical-.mp3",
+    "jclic.js/musical001.mp3",
+    "jclic.js/neptuno-resized.jpg",
+    "jclic.js/perder-incorrecto-no-valido.mp3",
+    "jclic.js/pins-resized.jpg",
+    "jclic.js/planeta-resized.jpg",
+    "jclic.js/prat_natural-resized.jpg",
+    "jclic.js/sautrnoo.png",
+    "jclic.js/smiley-485195_640.png",
+    "jclic.js/solarterr.jclic",
+    "jclic.js/solarterr.jclic.js",
+    "jclic.js/subtropical-resized.jpg",
+    "jclic.js/tierra-resized.jpg",
+    "jclic.js/ura-resized.jpg",
+    "jclic.js/venus-resized.jpg",
+    "portada.jpg",
+    "portada100.jpg",
+    "project.json",
+    "portada.webp"
+  ]
+}

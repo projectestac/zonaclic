@@ -1,0 +1,94 @@
+{
+  "id": 1380,
+  "title": "Treballem amb la Closcaneta",
+  "author": "Roser Casas Bou",
+  "school": "Escola Mare de Déu de Montserrat Súria (Bages)",
+  "date": "10/06/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "ecologia",
+    "es": "ecología",
+    "en": "ecology"
+  },
+  "descCodes": [
+    65
+  ],
+  "description": {
+    "en": "Activities focused on jobs related with the environment. The leading role of these activities is a turtle named \"Closcaneta\", who is the mascot of an environment campaign.",
+    "ca": "Activitats sobre oficis relacionats amb el Medi Ambient. Tenen com a protagonista la tortuga Closcaneta, mascota de la campanya medi ambiental de Súria.",
+    "es": "Actividades sobre oficios relacionados con el Medio Ambiente. Tienen como protagonista la tortuga Closcaneta, mascota de una campaña medio ambiental de Súria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/treballs.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/treballs.jclic.zip",
+  "instFile": "jclic/treballs.jclic.inst",
+  "clicZoneId": 3119,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3119",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/treballs/jclic/treballs.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 14,
+  "totalSize": 1737990,
+  "files": [
+    "cover.gif",
+    "jclic.js/adf.gif",
+    "jclic.js/autor1.gif",
+    "jclic.js/caracon.gif",
+    "jclic.js/hortg.gif",
+    "jclic.js/jardiner.gif",
+    "jclic.js/manguebo.gif",
+    "jclic.js/meteoro.gif",
+    "jclic.js/miner.gif",
+    "jclic.js/ocellru.gif",
+    "jclic.js/page.gif",
+    "jclic.js/port2r.gif",
+    "jclic.js/portada1.gif",
+    "jclic.js/rosa.gif",
+    "jclic.js/treballs.jclic",
+    "jclic.js/veteri_1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/treballs.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

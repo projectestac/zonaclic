@@ -1,0 +1,98 @@
+{
+  "id": 772,
+  "title": "Les grans religions",
+  "author": "José A. Pérez Morales i Maribel Rivero",
+  "school": "Escola Andreu Castells Sabadell (Vallès Occidental), Institut Sant Quirze del Vallès Sant Quirze del Vallès (Vallès Occidental)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "història, religió",
+    "es": "historia, religión",
+    "en": "history, religion"
+  },
+  "descCodes": [
+    246,
+    323
+  ],
+  "description": {
+    "en": "Activities about the religions of the world. Beliefs, geographic location, symbols, rites, holy books, habits...",
+    "ca": "Paquet adreçat al segon cicle d'ESO on es treballen les grans religions del món: creences, implantació geogràfica, simbologia, ritus, llibres sagrats, costums...",
+    "es": "Paquete dirigido al segundo ciclo de ESO en el que se trabajan las grandes religiones del mundo: creencias, implantación geográfica, simbología, ritos, libros sagrados, costumbres..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/reli.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/reli.jclic.zip",
+  "instFile": "jclic/reli.jclic.inst",
+  "clicZoneId": 1422,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1422",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/reli/jclic/reli.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 34,
+  "mediaFiles": 18,
+  "totalSize": 202713,
+  "files": [
+    "cover.gif",
+    "jclic.js/mapa.gif",
+    "jclic.js/new_1.gif",
+    "jclic.js/new_11.gif",
+    "jclic.js/new_12.gif",
+    "jclic.js/new_13.gif",
+    "jclic.js/new_14.gif",
+    "jclic.js/new_15.gif",
+    "jclic.js/new_2.gif",
+    "jclic.js/new_3.gif",
+    "jclic.js/new_4.gif",
+    "jclic.js/new_5.gif",
+    "jclic.js/new_6.gif",
+    "jclic.js/new_7.gif",
+    "jclic.js/new_8.gif",
+    "jclic.js/new_9.gif",
+    "jclic.js/reli.jclic",
+    "jclic.js/relig.gif",
+    "jclic.js/sectes.gif",
+    "jclic.js/titol1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/reli.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

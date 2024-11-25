@@ -1,0 +1,121 @@
+{
+  "id": 1805,
+  "title": "Christmas",
+  "author": "Marta Nebot Vilaseca",
+  "school": "Escola Canigó Sant Just Desvern (Baix Llobregat)",
+  "date": "04/11/08",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa",
+    "es": "lengua inglesa",
+    "en": "English language"
+  },
+  "descCodes": [
+    130
+  ],
+  "description": {
+    "en": "Project of activities in English language about Christmas. The package has different types of activities about: \n<ul> \n <li>Reading </li>\n <li>Listening </li>\n <li>Writing </li>\n</ul>",
+    "ca": "Projecte d'activitats en llengua anglesa adreçat a cicle superior d'educació primària. Al llarg del projecte trobem activitats de diferents tipus: \n<ul> \n <li>Reading </li>\n <li>Listening </li>\n <li>Writing </li>\n</ul>",
+    "es": "Proyecto de actividades en lengua inglesa dirigida a ciclo superior de educación primaria. A lo largo del proyecto encontramos diferentes tipos de actividades. \n<ul> \n <li>Reading </li>\n <li>Listening </li>\n <li>Writing </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/xtmas.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/xtmas.jclic.zip",
+  "instFile": "jclic/xtmas.jclic.inst",
+  "clicZoneId": 3502,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3502",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/xtmas/jclic/xtmas.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 53,
+  "mediaFiles": 42,
+  "totalSize": 2598867,
+  "files": [
+    "cover.jpg",
+    "jclic.js/031121_santa.gif",
+    "jclic.js/corona.gif",
+    "jclic.js/dictat1.mp3",
+    "jclic.js/dictat2.mp3",
+    "jclic.js/dictat3.mp3",
+    "jclic.js/dictat4.mp3",
+    "jclic.js/dictat5.mp3",
+    "jclic.js/dictat6.mp3",
+    "jclic.js/estrella.gif",
+    "jclic.js/fireplace.gif",
+    "jclic.js/holly.gif",
+    "jclic.js/hollybar.gif",
+    "jclic.js/jinglebells.mp3",
+    "jclic.js/jolynight.mp3",
+    "jclic.js/kings.gif",
+    "jclic.js/letitsnow.mp3",
+    "jclic.js/living.jpg",
+    "jclic.js/mincepies.gif",
+    "jclic.js/nativity.gif",
+    "jclic.js/notes_w.gif",
+    "jclic.js/present3.gif",
+    "jclic.js/pudding.gif",
+    "jclic.js/reindeers.gif",
+    "jclic.js/rudolph.mp3",
+    "jclic.js/rudolph1.gif",
+    "jclic.js/santa.gif",
+    "jclic.js/santa.mp3",
+    "jclic.js/santaiscoming.mp3",
+    "jclic.js/singers.gif",
+    "jclic.js/sleigh.gif",
+    "jclic.js/snowman.gif",
+    "jclic.js/stocking.gif",
+    "jclic.js/tobe.gif",
+    "jclic.js/warisover.mp3",
+    "jclic.js/wewishyou.mp3",
+    "jclic.js/whitexmas.mp3",
+    "jclic.js/xmasbells1.gif",
+    "jclic.js/xmascandle4.gif",
+    "jclic.js/xmascard.gif",
+    "jclic.js/xmascracker1.gif",
+    "jclic.js/xmastree2.gif",
+    "jclic.js/xmasturkey.gif",
+    "jclic.js/xtmas.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/xtmas.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

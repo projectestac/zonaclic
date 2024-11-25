@@ -1,0 +1,120 @@
+{
+  "id": 1596,
+  "title": "Judo (iniciació)",
+  "author": "Miguel Àngel Lira Quina",
+  "school": "Escola Ocata El Masnou (Maresme)",
+  "date": "12/06/06",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "joc esportiu, judo",
+    "es": "juego deportivo, judo",
+    "en": "sport game, judo"
+  },
+  "descCodes": [
+    426,
+    1367
+  ],
+  "description": {
+    "en": "Project of activities about judo: a Japanese system of unarmed combat, now primarily a sport. The rules of the sport of judo are complex; the objective is to cleanly throw, to pin, or to master the opponent, the latter being done by applying pressure to arm joints or to the neck to cause the opponent to yield.",
+    "ca": "Dos projectes d'activitats adreçats a cicle mitjà i cicle superior sobre el Judo: esport-lluita de mans nues que té com a principi aprofitar la força del contrari per a desequilibrar-lo i vèncer-lo amb un esforç mínim.",
+    "es": "Dos proyectos de actividades dirigidos a ciclo medio y superior de educación primaria sobre el Judo: sistema japonés de lucha, que hoy se practica también como deporte, y que tiene por objeto principal defenderse sin armas mediante llaves y movimientos aplicados con destreza."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "judo2"
+  ],
+  "mainFile": "jclic.js/judo1.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/judo1.jclic.zip",
+  "instFile": "jclic/judo1.jclic.inst",
+  "clicZoneId": 3310,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3310",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/judo1/jclic/judo1.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 33,
+  "mediaFiles": 37,
+  "totalSize": 2202021,
+  "files": [
+    "cover.jpg",
+    "jclic.js/cinto_blanc.bmp",
+    "jclic.js/cinto_blanc_vermell.bmp",
+    "jclic.js/cinto_blau.bmp",
+    "jclic.js/cinto_groc.bmp",
+    "jclic.js/cinto_marro.bmp",
+    "jclic.js/cinto_negre.bmp",
+    "jclic.js/cinto_taronja.bmp",
+    "jclic.js/cinto_verd.bmp",
+    "jclic.js/cinto_vermell.bmp",
+    "jclic.js/clas_kesa.jpg",
+    "jclic.js/clas_shiho.jpg",
+    "jclic.js/feli_groc.jpg",
+    "jclic.js/feli_taronja.jpg",
+    "jclic.js/feli_verd.jpg",
+    "jclic.js/fondo_judo.jpg",
+    "jclic.js/honkesa_gatame1.jpg",
+    "jclic.js/imagen8.jpg",
+    "jclic.js/judo1.jclic",
+    "jclic.js/kami00.jpg",
+    "jclic.js/kami01.jpg",
+    "jclic.js/kano.jpg",
+    "jclic.js/kesa_gatame.jpg",
+    "jclic.js/kuzure_kesa_gatame.jpg",
+    "jclic.js/makura_kesa_gatame.jpg",
+    "jclic.js/nage_waza00.jpg",
+    "jclic.js/nage_waza01.jpg",
+    "jclic.js/nage_waza02.jpg",
+    "jclic.js/nen_exlama.gif",
+    "jclic.js/newaza00.jpg",
+    "jclic.js/newaza01.jpg",
+    "jclic.js/newaza04.jpg",
+    "jclic.js/osaekomi00.jpg",
+    "jclic.js/presentacio.jpg",
+    "jclic.js/rei02.jpg",
+    "jclic.js/tate00.jpg",
+    "jclic.js/ushiro_kesa_gatame.jpg",
+    "jclic.js/ushiro_kesa_gatame2.jpg",
+    "jclic.js/yoko_shio_gatame.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/judo1.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

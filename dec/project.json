@@ -1,0 +1,119 @@
+{
+  "id": 1376,
+  "title": "Pruebas combinadas de atletismo I: Decatlón",
+  "author": "Mario Bermúdez, Óscar González i Samuel Urbano",
+  "school": "CEIP Ricardo León Málaga (Andalucía)",
+  "date": "03/06/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "esports",
+    "es": "deportes",
+    "en": "sports"
+  },
+  "descCodes": [
+    424
+  ],
+  "description": {
+    "en": "JClic project about the decathlon. The project has 3 parts: \n<ul> \n <li>The tests </li>\n <li>Activities </li>\n <li>Do you want to compete? </li>\n</ul>",
+    "ca": "Projecte JClic sobre les proves del decatló i algunes de les seves característiques. El projecte consta de 3 parts: \n<ul> \n <li>Coneix les proves </li>\n <li>Activitats </li>\n <li>Vols competir? </li>\n</ul>",
+    "es": "Proyecto JClic sobre las pruebas del decatlón y algunas de sus características. El proyecto consta de 3 partes: \n<ul> \n <li>Conoce las pruebas </li>\n <li>Actividades </li>\n <li>¿Quieres competir? </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/dec.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/dec.jclic.zip",
+  "instFile": "jclic/dec.jclic.inst",
+  "clicZoneId": 3116,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3116",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/dec/jclic/dec.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 46,
+  "mediaFiles": 39,
+  "totalSize": 1258205,
+  "files": [
+    "cover.jpg",
+    "jclic.js/1002.jpg",
+    "jclic.js/1500.jpg",
+    "jclic.js/4002.jpg",
+    "jclic.js/alt31.jpg",
+    "jclic.js/altura.jpg",
+    "jclic.js/alturac.jpg",
+    "jclic.js/carrera.jpg",
+    "jclic.js/cronometro.jpg",
+    "jclic.js/dec.jclic",
+    "jclic.js/decathlonianos.jpg",
+    "jclic.js/dic5.jpg",
+    "jclic.js/disco.jpg",
+    "jclic.js/discoc.jpg",
+    "jclic.js/jabalina.jpg",
+    "jclic.js/jabalinac.jpg",
+    "jclic.js/jabalinac2.jpg",
+    "jclic.js/long1.gif",
+    "jclic.js/long1.jpg",
+    "jclic.js/longitud.jpg",
+    "jclic.js/longitudc.jpg",
+    "jclic.js/per4.jpg",
+    "jclic.js/pertiga.jpg",
+    "jclic.js/pertiga1.jpg",
+    "jclic.js/pertiga2.jpg",
+    "jclic.js/peso.jpg",
+    "jclic.js/peso22.jpg",
+    "jclic.js/pesoc.jpg",
+    "jclic.js/pista2.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/pruebas33.gif",
+    "jclic.js/salida.jpg",
+    "jclic.js/salida2.jpg",
+    "jclic.js/salida3.jpg",
+    "jclic.js/salidac.jpg",
+    "jclic.js/salidao.jpg",
+    "jclic.js/trofeo.jpg",
+    "jclic.js/vallas.jpg",
+    "jclic.js/vallas2.jpg",
+    "jclic.js/vallas4.jpg",
+    "jclic.js/vallasc.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/dec.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

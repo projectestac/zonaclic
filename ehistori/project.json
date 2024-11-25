@@ -1,0 +1,102 @@
+{
+  "id": 1496,
+  "title": "Etapas de la historia",
+  "author": "Manuel Payán Cortés",
+  "school": "IES Dolmen de Soto Trigueros - Huelva (Andalucía)",
+  "date": "01/12/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "edat dels metalls, història, edat antiga",
+    "es": "edad de los metales, historia, edad antigua",
+    "en": "age of metals, history, ancient ages"
+  },
+  "descCodes": [
+    214,
+    246,
+    1346
+  ],
+  "description": {
+    "en": "Project of activities about the history ages: \n<ul> \n <li>The Prehistory </li>\n <li>The History </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre les etapes de la història: \n<ul> \n <li>La Prehistòria: Edat de pedra i dels metalls. </li>\n <li>La Història: Edat antiga, mitja, moderna i contemporània. </li>\n</ul>",
+    "es": "Proyecto de actividades sobre las etapas de la historia: \n<ul> \n <li>La Prehistoria: Edad de piedra y de los metales. </li>\n <li>La Historia: Edad antigua, media, moderna y contemporánea. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ehistori.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ehistori.jclic.zip",
+  "instFile": "jclic/ehistori.jclic.inst",
+  "clicZoneId": 3216,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3216",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ehistori/jclic/ehistori.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 37,
+  "mediaFiles": 21,
+  "totalSize": 754415,
+  "files": [
+    "cover.jpg",
+    "jclic.js/c__documents_and_settings_usuario_mis_documentos_mi_musica_interprete_desconocido_album_desconocido__07_09_2005_21_03_00__111.ogg",
+    "jclic.js/c__documents_and_settings_usuario_mis_documentos_mi_musica_interprete_desconocido_album_desconocido__07_09_2005_21_03_00__888.ogg",
+    "jclic.js/c__documents_and_settings_usuario_mis_documentos_papa_megalitos_1999_01_23_nuevo.jpg",
+    "jclic.js/c__documents_and_settings_victor_mis_documentos_papa_nueva_carpeta_esquema_copia_1.jpg",
+    "jclic.js/c__documents_and_settings_victor_mis_documentos_papa_nueva_carpeta_esquema_copia_2.jpg",
+    "jclic.js/c__documents_and_settings_victor_mis_documentos_papa_nueva_carpeta_flash_imagenes_dolmendegradado1.jpg",
+    "jclic.js/c__documents_and_settings_victor_mis_documentos_papa_nueva_carpeta_historia1.jpg",
+    "jclic.js/ehistori.jclic",
+    "jclic.js/f__hacha_de_piedra_pulimentada_smallaaa.jpg",
+    "jclic.js/g__megalitos_bifaz_cenice.jpg",
+    "jclic.js/megalitos_1999_01_23_eje.jpg",
+    "jclic.js/megalitos_1999_01_23_eje_paso1.jpg",
+    "jclic.js/megalitos_1999_01_23_eje_paso2.jpg",
+    "jclic.js/megalitos_1999_01_23_eje_paso3.jpg",
+    "jclic.js/megalitos_arcabuz.jpg",
+    "jclic.js/megalitos_colosseum.jpg",
+    "jclic.js/megalitos_cruzados.jpg",
+    "jclic.js/megalitos_hachas_de_bronce_small.jpg",
+    "jclic.js/megalitos_locomotora.jpg",
+    "jclic.js/megalitos_molino.jpg",
+    "jclic.js/megalitos_ordenador.jpg",
+    "jclic.js/megalitos_quijote.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ehistori.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

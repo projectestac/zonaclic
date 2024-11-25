@@ -1,0 +1,97 @@
+{
+  "id": 2263,
+  "title": "Prehistòria",
+  "author": "Cristina Muñoz, Cristina Vázquez i Kenti Robles",
+  "date": "28/06/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "Prehistòria",
+    "es": "Prehistoria",
+    "en": "Prehistory"
+  },
+  "descCodes": [
+    1439
+  ],
+  "description": {
+    "en": "Project of activities about Prehistory. The activities are designed for children in sixth grade:\n<ul>\n<li>definition</li>\n<li>Stages</li>\n<li>Archaeological</li>\n<li>Constructions</li>\n</ul>",
+    "ca": "Projecte d'activitats sobre la Prehistòria. Les activitats estan pensades per a nens i nenes de sisè de primària: \n<ul> \n <li>Definició </li>\n <li>Etapes </li>\n <li>Restes arqueològiques </li>\n <li>Construccions </li>\n</ul>",
+    "es": "Proyecto de actividades sobre la Prehistoria. Las actividades están pensadas para niños y niñas de sexto de primaria: \n<ul> \n <li>Definición </li>\n <li>Etapas </li>\n <li>Restos arqueológicos </li>\n <li>Construcciones </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/prehist2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/prehist2.jclic.zip",
+  "instFile": "jclic/prehist2.jclic.inst",
+  "clicZoneId": 3781,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3781",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/prehist2/jclic/prehist2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 19,
+  "totalSize": 743750,
+  "files": [
+    "cover.jpg",
+    "jclic.js/agricultura.jpg",
+    "jclic.js/alfareria.jpg",
+    "jclic.js/aradomano.jpg",
+    "jclic.js/caza.jpg",
+    "jclic.js/cromlech.jpg",
+    "jclic.js/dolmen.jpg",
+    "jclic.js/edatmetalls.jpg",
+    "jclic.js/evolucion.jpg",
+    "jclic.js/evolucion_resized.jpg",
+    "jclic.js/fuego.jpg",
+    "jclic.js/mehir.jpg",
+    "jclic.js/paleolitic_mig.jpg",
+    "jclic.js/pergamino.jpg",
+    "jclic.js/pinturas.jpg",
+    "jclic.js/prehist2.jclic",
+    "jclic.js/prehistoria.jpg",
+    "jclic.js/restosarq.jpg",
+    "jclic.js/rodaneo.jpg",
+    "jclic.js/tallarpiedra.png",
+    "jclic.js/telar.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/prehist2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

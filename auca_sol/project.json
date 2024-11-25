@@ -1,0 +1,134 @@
+{
+  "id": 2325,
+  "title": "Implica't + amb l'auca de la solidaritat",
+  "author": "Montserrat Pons Balcells i Noemí Munné Reig",
+  "school": "CEE Esperança Lleida, EAP L-01 Segrià (Sector A) Lleida",
+  "date": "07/05/14",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages, Miscellaneous",
+    "ca": "Llengües, Diversos",
+    "es": "Lenguas, Diversos"
+  },
+  "areaCodes": [
+    "lleng",
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "comprensió lectora",
+    "es": "comprensión lectora",
+    "en": "reading comprehension"
+  },
+  "descCodes": [
+    1329
+  ],
+  "description": {
+    "en": "This JClic is a part of a set of activities within the project IMPLICA'T +, which is the result of a team of people involved in education with the objective of solidarity work in the classroom. \n<p> The project covers all areas and levels of education and its based on the materials of the web page <a href=\"http://www.xtec.cat/~mlluelle/implicat/\">http://www.xtec.cat/~mlluelle/implicat/</a>. </p>\n<p> </p>",
+    "ca": "Aquest JClic foma part d'un conjunt d'activitats dins del projecte IMPLICA'T +, que és fruit d'un equip de persones vinculades al món de l'educació amb l'objectiu fonamental de treballar la solidaritat a les aules. \n<p> El projecte abraça totes les arees i nivells educatius, a la vegada que presenta un ampli ventall de materials de la pgina <a href=\"http://www.xtec.cat/~mlluelle/implicat/\">http://www.xtec.cat/~mlluelle/implicat/</a>. </p>\n<p> Per treballar aquest JClic cal partir de la informació que dóna \" l'Auca de la Solidaritat\". </p>",
+    "es": "Este JClic foma parte de un conjunto de actividades dentro del proyecto IMPLICA'T +, que es fruto de un equipo de personas vinculadas al mundo de la educación con el objetivo fundamental de trabajar la solidaridad en las aulas. \n<p> El proyecto abarca todas las áreas y niveles educativos, a la vez que presenta un amplio abanico de materiales de la página <a href=\"http://www.xtec.cat/~mlluelle/implicat/\">http://www.xtec.cat/~mlluelle/implicat/</a>. </p>\n<p> Para trabajar este JClic hay que partir de la información que nos da el \"Auca de la Solidaridad\". </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/auca_sol.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/auca_sol.jclic.zip",
+  "instFile": "jclic/auca_sol.jclic.inst",
+  "clicZoneId": 3834,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3834",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/auca_sol/jclic/auca_sol.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 54,
+  "totalSize": 4231536,
+  "files": [
+    "cover.png",
+    "jclic.js/activitats.jpg",
+    "jclic.js/auca_1.mp3",
+    "jclic.js/auca_1.petitajpg.jpg",
+    "jclic.js/auca_10.mp3",
+    "jclic.js/auca_10_resized.jpg",
+    "jclic.js/auca_11.mp3",
+    "jclic.js/auca_11_resized.jpg",
+    "jclic.js/auca_12.mp3",
+    "jclic.js/auca_12_resized.jpg",
+    "jclic.js/auca_1_resized.jpg",
+    "jclic.js/auca_2.mp3",
+    "jclic.js/auca_2_resized.jpg",
+    "jclic.js/auca_2petita.jpg",
+    "jclic.js/auca_3.mp3",
+    "jclic.js/auca_3_resized.jpg",
+    "jclic.js/auca_4.mp3",
+    "jclic.js/auca_4_resized.jpg",
+    "jclic.js/auca_5.mp3",
+    "jclic.js/auca_5_resized.jpg",
+    "jclic.js/auca_6.mp3",
+    "jclic.js/auca_6_resized.jpg",
+    "jclic.js/auca_6petita.jpg",
+    "jclic.js/auca_7.mp3",
+    "jclic.js/auca_7_resized.jpg",
+    "jclic.js/auca_8.mp3",
+    "jclic.js/auca_8_resized.jpg",
+    "jclic.js/auca_9.mp3",
+    "jclic.js/auca_9_resized.jpg",
+    "jclic.js/auca_complerta_resized.jpg",
+    "jclic.js/auca_sol.jclic",
+    "jclic.js/comencar.mp3",
+    "jclic.js/compartit.mp3",
+    "jclic.js/conscienciar.mp3",
+    "jclic.js/cooperacio.mp3",
+    "jclic.js/credits_resized.jpg",
+    "jclic.js/diapositiva1_resized1.jpg",
+    "jclic.js/escola.mp3",
+    "jclic.js/fondo_blau_resized.jpg",
+    "jclic.js/fondo_flors_auca_11_resized.jpg",
+    "jclic.js/fondo_gotes_aigua_resized.jpg",
+    "jclic.js/fondo_gotes_aigua_resized2.jpg",
+    "jclic.js/fondo_paper_marro_arrugat_resized.jpg",
+    "jclic.js/fondo_tela_auca_4_resized.jpg",
+    "jclic.js/fraternitat.mp3",
+    "jclic.js/fraternitat_1.mp3",
+    "jclic.js/grup_mestres.mp3",
+    "jclic.js/presentacio.mp3",
+    "jclic.js/projecte_integral.mp3",
+    "jclic.js/proverbi.mp3",
+    "jclic.js/responsable.mp3",
+    "jclic.js/senyal.mp3",
+    "jclic.js/solidari.mp3",
+    "jclic.js/solidaritat.mp3",
+    "jclic.js/solidati_ideal.mp3",
+    "jclic.js/web.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/auca_sol.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

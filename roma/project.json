@@ -1,0 +1,134 @@
+{
+  "id": 752,
+  "title": "El món clàssic: Roma",
+  "author": "Agustí Planells Gutiérrez i Gabriel Herrero",
+  "school": "CEIP Sa Graduada Eivissa (Balears)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "arqueologia, civilització clàssica, classes socials, història",
+    "es": "arqueología, civilización clásica, clases sociales, historia",
+    "en": "archaeology, classic civilization, social classes, history"
+  },
+  "descCodes": [
+    163,
+    178,
+    179,
+    246
+  ],
+  "description": {
+    "en": "Activities about ancient Rome. \n<ul><li>Rome-Government institutions, emperors, gods... </li>\n<li>Hispania-Pre-Romanic peoples, Roman cities... </li>\n<li>Art-Architecture, sculpture, public works... </li></ul>",
+    "ca": "Tres paquets d'activitats sobre la Roma antiga: \n<ul> \n <li><b>Roma</b><br> Les institucions de govern, els emperadors, els déus, l'imperi romà, la vil·la... <br> </li>\n <li><b>Hispània</b><br> Els pobles preromans, les ciutats romanes a la península... <br> </li>\n <li><b>L'art</b><br> Arquitectura, obres públiques, escultura... </li>\n</ul>",
+    "es": "Tres paquetes de actividades sobre la Roma antigua: \n<ul> \n <li><b>Roma</b><br> Las instituciones de gobierno, los emperadores, los dioses, el imperio romano, la villa... <br> </li>\n <li><b>Hispania</b><br> Los pueblos pre-romanos, las ciudades romanas en la península... <br> </li>\n <li><b>El arte</b><br> Arquitectura, obras públicas, escultura... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/roma.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/roma.jclic.zip",
+  "instFile": "jclic/roma.jclic.inst",
+  "clicZoneId": 1409,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1409",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/roma/jclic/roma.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 34,
+  "mediaFiles": 51,
+  "totalSize": 1261731,
+  "files": [
+    "cover.jpg",
+    "jclic.js/acue.gif",
+    "jclic.js/anfora.gif",
+    "jclic.js/aplaus.wav",
+    "jclic.js/aqua.gif",
+    "jclic.js/arco.gif",
+    "jclic.js/armadu.gif",
+    "jclic.js/arti.gif",
+    "jclic.js/august.gif",
+    "jclic.js/augusto.jpg",
+    "jclic.js/bust01.jpg",
+    "jclic.js/calzada.jpg",
+    "jclic.js/cameo01.jpg",
+    "jclic.js/casa.gif",
+    "jclic.js/dama.gif",
+    "jclic.js/ephesus.jpg",
+    "jclic.js/escud.gif",
+    "jclic.js/espasa.gif",
+    "jclic.js/fresc2.gif",
+    "jclic.js/fresco03.gif",
+    "jclic.js/fronto.gif",
+    "jclic.js/gale.gif",
+    "jclic.js/hispai.gif",
+    "jclic.js/interior.jpg",
+    "jclic.js/mapuzz.gif",
+    "jclic.js/marq.jpg",
+    "jclic.js/meda.jpg",
+    "jclic.js/metal.jpg",
+    "jclic.js/mosai2.gif",
+    "jclic.js/mosaic01.jpg",
+    "jclic.js/mosapuz.jpg",
+    "jclic.js/pendient.jpg",
+    "jclic.js/pompeia.gif",
+    "jclic.js/portada.jpg",
+    "jclic.js/portada.wav",
+    "jclic.js/portada1.gif",
+    "jclic.js/premap.gif",
+    "jclic.js/puente1.jpg",
+    "jclic.js/puente2.jpg",
+    "jclic.js/relief02.gif",
+    "jclic.js/roma.jclic",
+    "jclic.js/romai.gif",
+    "jclic.js/sarco02.gif",
+    "jclic.js/sesterci.gif",
+    "jclic.js/statue01.jpg",
+    "jclic.js/statue02.jpg",
+    "jclic.js/tarraco.gif",
+    "jclic.js/teatro8.jpg",
+    "jclic.js/templo8.jpg",
+    "jclic.js/toro.gif",
+    "jclic.js/venus.jpg",
+    "jclic.js/venust.jpg",
+    "jclic.js/vies.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/roma.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

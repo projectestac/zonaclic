@@ -1,0 +1,103 @@
+{
+  "id": 2214,
+  "title": "De l'oliva a l'oli",
+  "author": "Francesc Sánchez Guerrero",
+  "school": "Escola Sant Julià L'Arboç (Baix Penedès)",
+  "date": "20/01/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "oli d'oliva",
+    "es": "aceite de oliva",
+    "en": "olive oil"
+  },
+  "descCodes": [
+    1429
+  ],
+  "description": {
+    "en": "JClic activities on the process of extraction of the oil through the olives. Throughout the project activities will also find: \n<ul> \n <li> Parts of the olive </li>\n <li> Parts of the olive tree </li>\n</ul>",
+    "ca": "Activitats JClic sobre el procés d'extracció de l'oli a partir de les olives. Al llarg del projecte també trobarem activitats sobre: \n<ul> \n <li>parts de l'oliva </li>\n <li>parts de l'olivera </li>\n</ul>",
+    "es": "Actividades JClic sobre el proceso de extracción del aceite a través de las olivas. A lo largo del proyecto también encontraremos actividades sobre: \n<ul> \n <li>partes de la oliva </li>\n <li>partes de la olivera </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/olioliva.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/olioliva.jclic.zip",
+  "instFile": "jclic/olioliva.jclic.inst",
+  "clicZoneId": 3740,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3740",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/olioliva/jclic/olioliva.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 24,
+  "totalSize": 986266,
+  "files": [
+    "cover.png",
+    "jclic.js/aglans.jpg",
+    "jclic.js/ametlles.jpg",
+    "jclic.js/avellana.jpg",
+    "jclic.js/comparacio_olives.jpg",
+    "jclic.js/fer_oli_1.jpg",
+    "jclic.js/fer_oli_2.jpg",
+    "jclic.js/fer_oli_3.jpg",
+    "jclic.js/fer_oli_4.jpg",
+    "jclic.js/final.jpg",
+    "jclic.js/frase_1.jpg",
+    "jclic.js/fulles.jpg",
+    "jclic.js/olioliva.jclic",
+    "jclic.js/oliva.jpg",
+    "jclic.js/oliva_en_branca.jpg",
+    "jclic.js/oliva_mitja.jpg",
+    "jclic.js/oliva_mitja_2.jpg",
+    "jclic.js/oliva_mitja_2_polpa.jpg",
+    "jclic.js/oliva_mitja_llavor.jpg",
+    "jclic.js/oliva_mitja_pell.jpg",
+    "jclic.js/olivera.jpg",
+    "jclic.js/olivera_2.jpg",
+    "jclic.js/olivera_detall_1.jpg",
+    "jclic.js/olivera_detall_2.jpg",
+    "jclic.js/olivera_detall_3.jpg",
+    "jclic.js/olivera_detall_4.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/olioliva.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": 2545,
+  "title": "Mujer y ciencia",
+  "author": "Genoveva González",
+  "school": "CPEIPS Nuestra Señora del Rosario (Agüimes - Gran Canaria)",
+  "date": "04/05/17",
+  "langCodes": [
+    "es"
+  ],
+  "languages": {
+    "es": "español",
+    "ca": "espanyol",
+    "en": "Spanish"
+  },
+  "areaCodes": [
+    "soc",
+    "exp"
+  ],
+  "areas": {
+    "es": "Ciencias sociales, Ciencias experimentales, Física, Química, Biología y Geología",
+    "ca": "Ciències socials, Ciències experimentals, Física, Química, Biología y Geología",
+    "en": "Social sciences, Experimental sciences, Física, Química, Biología y Geología"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "levels": {
+    "es": "Secundaria (12-16)",
+    "ca": "Secundària (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "description": {
+    "es": "Proyecto sobre el papel de doce mujeres científicas a lo largo de la historia, las ramas científicas en las que destacaron, su principal contribución a la ciencia, lugares de nacimiento y reconocimiento recibido.",
+    "ca": "Projecte sobre el paper de dotze dones científiques al llarg de la història, les àrees en què varen destacar, la seva principal contribució a la ciència, lloc de naixement i reconeixement rebut.",
+    "en": "Project about twelve scientists women through the history, branch of science where they stand out, teir main contribution to science, birthplaces ans recognition received."
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "es",
+    "ca",
+    "en"
+  ],
+  "cover": "cienciam.png",
+  "coverWebp": "cienciam.webp",
+  "thumbnail": "cienciam100.png",
+  "mainFile": "jclic.js/cienciam.jclic",
+  "activities": 9,
+  "mediaFiles": 24,
+  "totalSize": 6461105,
+  "instFile": "jclic/cienciam.jclic.inst",
+  "zipFile": "jclic/cienciam.jclic.zip",
+  "files": [
+    "cienciam.png",
+    "cienciam100.png",
+    "jclic.js/1._carpenter_portrait_of_ada_lovelace_-_detail-resized.jpg",
+    "jclic.js/10._jane_goodall.jpg",
+    "jclic.js/11._elena_garcia.jpg",
+    "jclic.js/12._margarita_salas_falgueras.jpg",
+    "jclic.js/18._el_nacimiento.mp3",
+    "jclic.js/2._lise_meitner.jpg",
+    "jclic.js/3._sophie_germain.jpg",
+    "jclic.js/4._dorothy_crowfood.jpg",
+    "jclic.js/5._hypatia_portrait-resized.jpg",
+    "jclic.js/6._rosalind_franklin-resized.jpg",
+    "jclic.js/7._marie_curie-resized.jpg",
+    "jclic.js/acierto.mp3",
+    "jclic.js/aplausoscut.mp3",
+    "jclic.js/cienciam.jclic",
+    "jclic.js/cienciam.jclic.js",
+    "jclic.js/error.mp3",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/jocelyn_bell.-resized.jpg",
+    "jclic.js/no-2069849_640.png",
+    "jclic.js/rachel-carson-resized.jpg",
+    "jclic.js/scientist-with-microscope-996187_1280-resized.jpg",
+    "jclic.js/yes-2069851_640.png",
+    "project.json",
+    "cienciam.webp"
+  ]
+}

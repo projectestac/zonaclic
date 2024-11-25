@@ -1,0 +1,119 @@
+{
+  "id": 514,
+  "title": "La manzana",
+  "author": "Miren Garralda",
+  "school": "Escola Mas Casanovas Barcelona",
+  "date": "24/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aritmètica, fonaments de les matemàtiques, lectoescriptura",
+    "es": "aritmética, fundamentos de las matemáticas, lectoescritura",
+    "en": "Arithmetic, foundations of the mathematics, reading and writting skills"
+  },
+  "descCodes": [
+    701,
+    707,
+    920
+  ],
+  "description": {
+    "en": "Math activities that have as a goal the initiation of elementary school children in the basic operations of sums and subtractions. This activity uses the \"Cinco manzanas en el árbol hay\" song as the central theme.",
+    "ca": "Activitats d'introducció a la suma i la resta per a educació infantil i cicle inicial de primària, basades en la cançó \"cinc pometes té el pomer\".",
+    "es": "Actividades de introducción a la suma y a la resta para educación infantil y ciclo inicial de primaria basadas en la canción \"cinco manzanas en el árbol hay\"."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "pomer",
+    "sagar"
+  ],
+  "mainFile": "jclic.js/manzana.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/manzana.jclic.zip",
+  "instFile": "jclic/manzana.jclic.inst",
+  "clicZoneId": 1300,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1300",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/manzana/jclic/manzana.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 7,
+  "mediaFiles": 33,
+  "totalSize": 1729213,
+  "files": [
+    "cover.gif",
+    "jclic.js/caen.wav",
+    "jclic.js/manzana.jclic",
+    "jclic.js/manzana.wav",
+    "jclic.js/pomer0a.gif",
+    "jclic.js/pomer0s.gif",
+    "jclic.js/pomer1a.gif",
+    "jclic.js/pomer1b.avi",
+    "jclic.js/pomer1s.gif",
+    "jclic.js/pomer1t.gif",
+    "jclic.js/pomer2a.gif",
+    "jclic.js/pomer2b.avi",
+    "jclic.js/pomer2s.gif",
+    "jclic.js/pomer2t.gif",
+    "jclic.js/pomer3a.gif",
+    "jclic.js/pomer3b.avi",
+    "jclic.js/pomer3s.gif",
+    "jclic.js/pomer3t.gif",
+    "jclic.js/pomer4a.gif",
+    "jclic.js/pomer4b.avi",
+    "jclic.js/pomer4s.gif",
+    "jclic.js/pomer4t.gif",
+    "jclic.js/pomer5b.avi",
+    "jclic.js/pomer5t.gif",
+    "jclic.js/pomerbe.gif",
+    "jclic.js/pomertit.gif",
+    "jclic.js/pomes0.gif",
+    "jclic.js/pomes1.gif",
+    "jclic.js/pomes2.gif",
+    "jclic.js/pomes3.gif",
+    "jclic.js/pomes4.gif",
+    "jclic.js/pomesin.gif",
+    "jclic.js/pometot.gif",
+    "jclic.js/pregunta.gif",
+    "jclic.js/quedan.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/manzana.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

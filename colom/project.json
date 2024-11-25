@@ -1,0 +1,107 @@
+{
+  "id": 739,
+  "title": "Els descobriments geogràfics a l'edat moderna",
+  "author": "Jorge Balta Moner i Remei Hoyos Marco",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales",
+    "en": "Social sciences"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geografia, història contemporània, viatges",
+    "es": "geografía, historia contemporánea, viajes",
+    "en": "geography, contemporary history, trips"
+  },
+  "descCodes": [
+    235,
+    248,
+    360
+  ],
+  "description": {
+    "en": "Clic activities about travel, navigation and the historical characters associated with geographical discoveries. This application belongs to \n<b><a href=\"http://www.xtec.cat/recursos/curricul/socials/colom/index.htm\" target=\"_blank\">\"Els descobriments geogràfics a l'edat moderna\"</a></b>.",
+    "ca": "Activitats sobre els viatges, la navegació i els personatges històrics relacionats amb els descobriments geogràfics. Aquest material forma part del crèdit variable \n<b><a href=\"http://www.xtec.cat/recursos/curricul/socials/colom/index.htm\" target=\"_blank\">\"Els descobriments geogràfics a l'edat moderna\"</a></b>.",
+    "es": "Actividades sobre los viajes, la navegación y los personajes históricos relacionados con los descubrimientos geográficos. Este material forma parte del crédito variable \n<b><a href=\"http://www.xtec.cat/recursos/curricul/socials/colom/index.htm\" target=\"_blank\">\"Els descobriments geogràfics a l'edat moderna\"</a></b>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/colom.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/colom.jclic.zip",
+  "instFile": "jclic/colom.jclic.inst",
+  "clicZoneId": 1398,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1398",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/colom/jclic/colom.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 27,
+  "totalSize": 281352,
+  "files": [
+    "cover.gif",
+    "jclic.js/01.gif",
+    "jclic.js/02.gif",
+    "jclic.js/03.gif",
+    "jclic.js/04.gif",
+    "jclic.js/bandera1.gif",
+    "jclic.js/bandera2.gif",
+    "jclic.js/bandera3.gif",
+    "jclic.js/bandera4.gif",
+    "jclic.js/bandera5.gif",
+    "jclic.js/colom.jclic",
+    "jclic.js/dibu1.gif",
+    "jclic.js/dibu10.gif",
+    "jclic.js/dibu2.gif",
+    "jclic.js/dibu5.gif",
+    "jclic.js/dibu8.gif",
+    "jclic.js/indi.gif",
+    "jclic.js/mapa1.gif",
+    "jclic.js/mapa2.gif",
+    "jclic.js/mapa3.gif",
+    "jclic.js/mapa4.gif",
+    "jclic.js/mapapuz.gif",
+    "jclic.js/mapind.gif",
+    "jclic.js/pirat.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/present.gif",
+    "jclic.js/soldat.gif",
+    "jclic.js/soluci1.gif",
+    "jclic.js/vaixell.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/colom.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": 994,
+  "title": "La revolució industrial",
+  "author": "Fernando Mallach i Juan A. Bayona",
+  "school": "IES Santa Maria d'Eivissa Eivissa (Balears)",
+  "date": "23/12/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales",
+    "en": "Social sciences"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "Revolució industrial    ",
+    "es": "revolución industrial",
+    "en": "industrial revolution"
+  },
+  "descCodes": [
+    331
+  ],
+  "description": {
+    "en": "Activities about the Industrial Revolution based on the book de \n<i><b>Ciències Socials. 3r d'ESO. Editorial: Edebé. Barcelona 95</b></i>.\n<br> This package contains 30 activities grouped in two blocks. Inside these activities we can find the first work with vapour, Watt¿s vapour machine, the development of the industry,¿",
+    "ca": "Activitats sobre la Revolució Industrial basades en el llibre \n<i><b>Ciències Socials - 3r d'ESO</b></i> de l'Editorial Edebé (1995).\n<br> El paquet consta de 30 activitats, on es treballen els descobriments que van fer possible la maquina de vapor de Watt, el desenvolupament de la indústria i les transformacions socials i econòmiques que va provocar.",
+    "es": "Actividades sobre la Revolución Industrial basadas en el libro \n<i><b>Ciències Socials - 3r d'ESO.</b></i> de la editorial Edebé (1995).\n<br> Consta de 30 actividades en las que se trabajan los descubrimientos que hicieron posible la máquina de vapor de Watt, el desarrollo de la industria y las transformaciones sociales y económicas que provocó."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/revolind.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/revolind.jclic.zip",
+  "instFile": "jclic/revolind.jclic.inst",
+  "clicZoneId": 2076,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2076",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/revolind/jclic/revolind.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 34,
+  "mediaFiles": 13,
+  "totalSize": 647886,
+  "files": [
+    "cover.gif",
+    "jclic.js/broma/broma.jclic",
+    "jclic.js/menu.gif",
+    "jclic.js/pantini.gif",
+    "jclic.js/revol1/cochep.jpg",
+    "jclic.js/revol1/esquema.gif",
+    "jclic.js/revol1/filad.jpg",
+    "jclic.js/revol1/labor.jpg",
+    "jclic.js/revol1/maqvap3.gif",
+    "jclic.js/revol1/maqvapor.gif",
+    "jclic.js/revol1/mwatt.jpg",
+    "jclic.js/revol1/revol1.jclic",
+    "jclic.js/revol2/coche.jpg",
+    "jclic.js/revol2/maqvap2.jpg",
+    "jclic.js/revol2/maqvap4.gif",
+    "jclic.js/revol2/pantfin2.gif",
+    "jclic.js/revol2/revol2.jclic",
+    "jclic.js/revolind.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/revolind.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/broma/broma.jclic.js",
+    "jclic.js/revol1/revol1.jclic.js",
+    "jclic.js/revol2/revol2.jclic.js",
+    "cover.webp"
+  ]
+}

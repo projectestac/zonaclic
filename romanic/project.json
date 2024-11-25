@@ -1,0 +1,106 @@
+{
+  "id": 1933,
+  "title": "El Romànic",
+  "author": "Àngels Blàzquez Martínez",
+  "school": "Escola Mas Maria Cabrils (Maresme)",
+  "date": "07/07/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "història de l'art, Art romànic",
+    "es": "historia del arte, Arte románico",
+    "en": "history of the art, Romanesque art"
+  },
+  "descCodes": [
+    252,
+    1397
+  ],
+  "description": {
+    "en": "Project activities on Romanesque art for infantile education (P4-P5). These activities serve to strengthen and complement the work done in the classroom. It deals with mathematical language (sets, puzzles, associations, relations ...) and verbal and written language (sort letters, write names, words and sounds related ...).",
+    "ca": "Projecte d'activitats sobre l'art romànic per a Educació Infantil (P4-P5). Aquestes activitats serveixen de reforç i completen la tasca feta a l'aula. Treballem el llenguatge matemàtic (sèries, trencaclosques, associacions, relacions...) i el llenguatge verbal i escrit (ordenar lletres, escriure noms, relacionar sons i paraules...).",
+    "es": "Proyecto de actividades sobre el arte románico para educación infantil (P4 y P5). Estas actividades sirven de refuerzo y complementan la tarea hecha en el aula. Trabajamos el lenguaje matemático (series, rompecabezas, asociaciones, relaciones...) y el lenguaje verbal y escrito (ordenar letras, escribir nombres, relacionar sonidos y palabras...)."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/romanic.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/romanic.jclic.zip",
+  "instFile": "jclic/romanic.jclic.inst",
+  "clicZoneId": 3559,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3559",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/romanic/jclic/romanic.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 26,
+  "totalSize": 643033,
+  "files": [
+    "cover.gif",
+    "jclic.js/3siluetas_smiley.gif",
+    "jclic.js/cenefa1.jpg",
+    "jclic.js/cenefa2.jpg",
+    "jclic.js/cenefes.jpg",
+    "jclic.js/cristaull.mp3",
+    "jclic.js/flauta1.jpg",
+    "jclic.js/flauta2.jpg",
+    "jclic.js/frontal_avia.gif",
+    "jclic.js/genial.mp3",
+    "jclic.js/griu.mp3",
+    "jclic.js/griu1.jpg",
+    "jclic.js/jeroni1.jpg",
+    "jclic.js/jeroni1.mp3",
+    "jclic.js/jeroni2.jpg",
+    "jclic.js/joglars1.jpg",
+    "jclic.js/joglars2.jpg",
+    "jclic.js/joglars3.jpg",
+    "jclic.js/joglars5.jpg",
+    "jclic.js/joglars6.jpg",
+    "jclic.js/moltbe1.mp3",
+    "jclic.js/romanic.jclic",
+    "jclic.js/romanic.jpg",
+    "jclic.js/sant_climent_taull.jpg",
+    "jclic.js/serafi.mp3",
+    "jclic.js/serafi2.jpg",
+    "jclic.js/serie2.jpg",
+    "jclic.js/super_be.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/romanic.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

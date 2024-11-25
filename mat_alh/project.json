@@ -1,0 +1,112 @@
+{
+  "id": 2487,
+  "title": "Matemáticas en la Alhambra",
+  "author": "Jaime Cabrera Galera",
+  "school": "CEIP Atalaya Atarfe - Granada (Andalucía)",
+  "date": "28/02/17",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la història de l'art, arquitectura, art islàmic, geometria, matemàtica recreativa",
+    "es": "aprendizaje de la historia del arte, arquitectura, arte islámico, geometría, matemática recreativa",
+    "en": "learning of the history of the art, architecture, Islamic art, geometry, recreational mathematics"
+  },
+  "descCodes": [
+    1,
+    2,
+    14,
+    708,
+    713
+  ],
+  "description": {
+    "en": "The Alhambra and its decoration of geometric mosaics is the transversal axis of this didactic unit that pretends to mix mathematics content, with other historic and artistic contents, and make our students improve their predisposition of mathematics and increase their knowledge and appreciation for the andalusi legacy, so present in our environment.",
+    "ca": "L'Alhambra i la seva decoració de mosaics geomètrics és l'eix transversal d'aquesta unitat didàctica que pretén unir el treball sobre continguts merament matemàtics, amb altres de caràcter històric i artístic que faci que els nostres alumnes millorin la seva predisposició davant les matemàtiques i augmentin el seu coneixement i estima pel llegat andalusí tan present en el nostre entorn.",
+    "es": "La Alhambra y su decoración de mosaicos geométricos es el eje transversal de esta unidad didáctica que pretende aunar el trabajo sobre el contenido meramente matemáticos, con otros de carácter histórico y artístico que haga, que nuestros alumnos mejoren su predisposición ante las matemáticas y aumentar su conocimiento y aprecio por el legado andalusí tan presente en nuestro entorno."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/mat_alh.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mat_alh.jclic.zip",
+  "instFile": "jclic/mat_alh.jclic.inst",
+  "clicZoneId": 3996,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3996",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/mat_alh/jclic/mat_alh.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 29,
+  "totalSize": 1534025,
+  "files": [
+    "cover.png",
+    "jclic.js/circulo.jpg",
+    "jclic.js/cuadrado.jpg",
+    "jclic.js/hexagono.jpg",
+    "jclic.js/linea_curva_abierta.jpg",
+    "jclic.js/linea_cuva_cerrada_resized.jpg",
+    "jclic.js/linea_poligonal_abierta.jpg",
+    "jclic.js/linea_poligonal_cerrada.jpg",
+    "jclic.js/lineas.jpg",
+    "jclic.js/mat_alh.jclic",
+    "jclic.js/mat_alh.jclic.js",
+    "jclic.js/no_tesela.jpg",
+    "jclic.js/no_tesela_2.jpg",
+    "jclic.js/pentagono.jpg",
+    "jclic.js/poligono.jpg",
+    "jclic.js/poligono_avion.jpg",
+    "jclic.js/poligono_hueso.jpg",
+    "jclic.js/poligono_pajarita.jpg",
+    "jclic.js/presentacion_1.jpg",
+    "jclic.js/puzzle_alhambra.jpg",
+    "jclic.js/puzzle_avion.jpg",
+    "jclic.js/puzzle_hueso.jpg",
+    "jclic.js/puzzle_pajarita.jpg",
+    "jclic.js/tesela_avion.jpg",
+    "jclic.js/tesela_hueso.jpg",
+    "jclic.js/tesela_no_regular_1.jpg",
+    "jclic.js/tesela_no_regular_2.jpg",
+    "jclic.js/tesela_no_regular_3.jpg",
+    "jclic.js/tesela_pajarita.jpg",
+    "jclic.js/tesela_regular_1.png",
+    "jclic.js/tesela_regular_2.jpg",
+    "jclic.js/triangulo.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": 2605,
+  "title": "Onde hai unha biblioteca hai unha luz",
+  "author": "Begoña Iglesias Cao (Autora)",
+  "school": "IES Ramón Menéndez Pidal - Zalaeta - Biblioteca",
+  "date": "04/01/19",
+  "langCodes": [
+    "gl"
+  ],
+  "languages": {
+    "gl": "Gallegan",
+    "ca": "gallec",
+    "es": "gallego",
+    "en": "Gallegan"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "areas": {
+    "gl": "div",
+    "ca": "Diversos",
+    "es": "Diversos",
+    "en": "Miscellaneous"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "levels": {
+    "gl": "SEC, ESO",
+    "ca": "Secundària (12-16), ESO",
+    "es": "Secundaria (12-16), ESO",
+    "en": "Secondary school (12-16), ESO"
+  },
+  "description": {
+    "gl": "Como funciona la biblioteca escolar. Normas. CDU.",
+    "ca": "Projecte JClic per aprendre com funciona la biblioteca escolar: normes i classificació CDU.",
+    "es": "Proyecto JClic para aprender como funciona la biblioteca escolar: normas y clasificación CDU.",
+    "en": "JClic Project to learn how the school library works: Rules and CDU classification."
+  },
+  "license": {
+    "gl": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "gl",
+    "ca",
+    "es",
+    "en"
+  ],
+  "cover": "formbib300.png",
+  "coverWebp": "formbib300.webp",
+  "thumbnail": "formbib100.png",
+  "mainFile": "jclic.js/formbib.jclic",
+  "activities": 20,
+  "mediaFiles": 35,
+  "totalSize": 2403035,
+  "instFile": "jclic/formbib.jclic.inst",
+  "zipFile": "jclic/formbib.jclic.zip",
+  "files": [
+    "formbib100.png",
+    "formbib300.png",
+    "jclic.js/978048628211.gif",
+    "jclic.js/bibliotecario-escolar-resized.jpg",
+    "jclic.js/brooklyn-follies-6.jpg",
+    "jclic.js/correo.jpg",
+    "jclic.js/facebook.jpg",
+    "jclic.js/formbib.jclic",
+    "jclic.js/formbib.jclic.js",
+    "jclic.js/i01-gran_torino.jpg",
+    "jclic.js/i02-aula_multimedia.jpg",
+    "jclic.js/i02-biblioteca_escolar_01.jpg",
+    "jclic.js/i02-cd2.jpg",
+    "jclic.js/i02-cine.jpg",
+    "jclic.js/i02-comic.jpg",
+    "jclic.js/i02-diccionarios.jpg",
+    "jclic.js/i02-exposicions.jpg",
+    "jclic.js/i02-libros.jpg",
+    "jclic.js/i02-musica.jpg",
+    "jclic.js/i02-prensa.jpg",
+    "jclic.js/i02-revistas.jpg",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/instagram.jpg",
+    "jclic.js/libros_002-resized.jpg",
+    "jclic.js/logo-resized.jpg",
+    "jclic.js/mitos-resized.jpg",
+    "jclic.js/ok.bmp",
+    "jclic.js/ollo_white_rgb-copy.png",
+    "jclic.js/partes-dun-libro-4-639.jpg",
+    "jclic.js/partes-dun-libro-6-638.jpg",
+    "jclic.js/partesdolibro-resized.jpg",
+    "jclic.js/preston3-597bc2923df78cbb7a2603dd-resized.jpg",
+    "jclic.js/sancion-resized.jpg",
+    "jclic.js/twitter.jpg",
+    "jclic.js/www.edu.xunta.gal.jpg",
+    "jclic.js/xg00273301.jpg",
+    "jclic.js/zalaetabiblio.jpg",
+    "jclic.js/zalaetadecine-resized.jpg",
+    "project.json",
+    "formbib300.webp"
+  ]
+}

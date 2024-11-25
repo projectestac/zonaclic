@@ -1,0 +1,111 @@
+{
+  "id": 1788,
+  "title": "El cos",
+  "author": "Olga Roig Giménez",
+  "school": "Escola Circell Olèrdola (Moja) (Alt Penedès)",
+  "date": "07/07/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "cos humà",
+    "es": "cuerpo humano",
+    "en": "human body"
+  },
+  "descCodes": [
+    822
+  ],
+  "description": {
+    "en": "JClic project with some activities about the human body. Through the package there are activities about associations, puzzles, identification, memory activities...",
+    "ca": "Projecte JClic on hi ha diverses activitats relacionades amb el coneixement d'algunes parts bàsiques del cos, a partir de les quals es van desenvolupant les diferents activitats: associacions, puzzles, sopa de lletres, exploració, identificació d'elements, activitat de memòria...",
+    "es": "Proyecto Jclic dónde hay diversas actividades relacionadas con el conocimiento de algunas partes básicas del cuerpo, a partir de las cuales se van desarrollando las diferentes actividades: asociaciones, puzzles, sopa de letras, exploración, identificación de elementos, actividad de memoria..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cos.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cos.jclic.zip",
+  "instFile": "jclic/cos.jclic.inst",
+  "clicZoneId": 3484,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3484",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cos/jclic/cos.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 31,
+  "totalSize": 1338038,
+  "files": [
+    "cover.jpg",
+    "jclic.js/altaveu.jpg",
+    "jclic.js/aplau.mp3",
+    "jclic.js/bracreduit.jpg",
+    "jclic.js/cabellredu.jpg",
+    "jclic.js/camaredu2.jpg",
+    "jclic.js/canco_cos.mp3",
+    "jclic.js/clau.gif",
+    "jclic.js/cos.jclic",
+    "jclic.js/dentsredu.jpg",
+    "jclic.js/ju_minieredu.jpg",
+    "jclic.js/llaviredui2t.jpg",
+    "jclic.js/ma23redu.jpg",
+    "jclic.js/nasredu1.jpg",
+    "jclic.js/ojo1.jpg",
+    "jclic.js/orella.jpg",
+    "jclic.js/orellareduida.jpg",
+    "jclic.js/panxa.jpg",
+    "jclic.js/pestanyesredu.jpg",
+    "jclic.js/peureduit.jpg",
+    "jclic.js/sense_titol.jpg",
+    "jclic.js/seredured.jpg",
+    "jclic.js/sergijuredu.jpg",
+    "jclic.js/ullreduit.jpg",
+    "jclic.js/veu_fantastic.mp3",
+    "jclic.js/veu_moltbe.mp3",
+    "jclic.js/veuboca.mp3",
+    "jclic.js/veucama.mp3",
+    "jclic.js/veudents.mp3",
+    "jclic.js/veunas1.mp3",
+    "jclic.js/veupanxa.mp3",
+    "jclic.js/veuperfecte.wav",
+    "jclic.js/veupeu.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cos.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": 157,
+  "title": "Tectónica de placas",
+  "author": "Carme Cloquells Tudurí i Llorenç Pons Madrid",
+  "school": "IES Josep Miquel Guàrdia Alaior (Menorca)",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geomorfologia",
+    "es": "geomorfología",
+    "en": "geomorphology"
+  },
+  "descCodes": [
+    79
+  ],
+  "description": {
+    "en": "Activity pack based on the textbook \"Un món que cambia\"(a changing world) published by Teide. The topics dealt with are:\n<br> \n<li>Earth's structure </li>\n<li>Continental drift </li>\n<li>Plaque movement </li>\n<li>Tectonic plaques </li>",
+    "ca": "Paquet d'activitats basat en el llibre de text \"Un món que canvia\" de l'editorial Teide. Està dissenyat per a alumnes de quart d'ESO. Les activitats intenten complementar el que s'ha treballat a classe mitjançant diversos exercicis basats en texts i gràfics. El paquet s'organitza en quatre seccions:\n<br> \n<li>Estructura de la terra </li>\n<li>Deriva dels continents </li>\n<li>Moviment de les plaques </li>\n<li>Tectònica de les plaques </li>",
+    "es": "Paquete de actividades basado en el libro de texto \"Un món que canvia\" de la editorial Teide. Esta diseñado para alumnos de cuarto de ESO. Las actividades intentan complementar lo enseñado en clase mediante diferentes ejercicios basados en textos y gráficos. El paquete está dividido en cuatro secciones:\n<br> \n<li>Estructura de la tierra </li>\n<li>Deriva de los continentes </li>\n<li>Movimiento de las placas </li>\n<li>Tectónica de las placas </li>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "tp"
+  ],
+  "mainFile": "jclic.js/tpes.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tpes.jclic.zip",
+  "instFile": "jclic/tpes.jclic.inst",
+  "clicZoneId": 1078,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1078",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/tpes/jclic/tpes.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 39,
+  "mediaFiles": 19,
+  "totalSize": 917781,
+  "files": [
+    "cover.gif",
+    "jclic.js/arcill_1.jpg",
+    "jclic.js/arcilles.jpg",
+    "jclic.js/astenl_1.gif",
+    "jclic.js/cc2.gif",
+    "jclic.js/convec1.gif",
+    "jclic.js/divact.jpg",
+    "jclic.js/dorsal1.jpg",
+    "jclic.js/dorsal1b.jpg",
+    "jclic.js/esq1.gif",
+    "jclic.js/evopang.gif",
+    "jclic.js/fonsoc1.jpg",
+    "jclic.js/fullll_1.gif",
+    "jclic.js/mapapl_1.gif",
+    "jclic.js/mapapl_2.gif",
+    "jclic.js/pangea1.gif",
+    "jclic.js/presen_1.gif",
+    "jclic.js/subdu1.jpg",
+    "jclic.js/subdu2.jpg",
+    "jclic.js/tpes.jclic",
+    "jclic.js/tresxocs.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/tpes.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

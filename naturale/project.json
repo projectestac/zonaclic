@@ -1,0 +1,116 @@
+{
+  "id": 195,
+  "title": "Seres vivos y microorganismos",
+  "author": "Rosa Ana Santiago Vicario",
+  "school": "IES Santa Catalina El Burgo de Osma (Soria)",
+  "date": "11/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "evolució, microorganismes",
+    "es": "evolución, microorganismos",
+    "en": "evolution, micro-organisms"
+  },
+  "descCodes": [
+    70,
+    952
+  ],
+  "description": {
+    "en": "Clic activities for secondary school. This package has two parts: \n<ul> \n <li>Stages of live </li>\n <li>Micro organisms </li>\n</ul> Some of the contents and activities are based on the book \"Ciencias de la Naturaleza de 2º de E.S.0.\" by Editorial Santillana.",
+    "ca": "Aquesta aplicació, adreçada a 2on d'ESO, es divideix en dos grans blocs: \n<ul> \n <li>Etapes a la vida dels éssers vius. </li>\n <li>Microorganismes. </li>\n</ul> Alguns dels continguts i activitats es basen en el llibre de Ciències Naturals de 2n d'ESO de l'Editorial Santillana.",
+    "es": "Esta aplicación, dirigida a 2º de ESO, se divide en dos grandes bloques: \n<ul> \n <li>Etapas en la vida de los seres vivos. </li>\n <li>Microorganismos. </li>\n</ul> Algunos de los contenidos y actividades se basan en el libro de Ciencias de la Naturaleza de 2º de E.S.0. de la Editorial Santillana."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/naturale.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/naturale.jclic.zip",
+  "instFile": "jclic/naturale.jclic.inst",
+  "clicZoneId": 1102,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1102",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/naturale/jclic/naturale.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 36,
+  "totalSize": 2597055,
+  "files": [
+    "cover.gif",
+    "jclic.js/1.wav",
+    "jclic.js/2.wav",
+    "jclic.js/3.wav",
+    "jclic.js/4.wav",
+    "jclic.js/5.wav",
+    "jclic.js/alga.jpg",
+    "jclic.js/alga1.jpg",
+    "jclic.js/alga2.jpg",
+    "jclic.js/bacterf.jpg",
+    "jclic.js/bacteri2.jpg",
+    "jclic.js/bacteria.jpg",
+    "jclic.js/blowing.mid",
+    "jclic.js/bravo.wav",
+    "jclic.js/brnbricb.jpg",
+    "jclic.js/cianoba2.jpg",
+    "jclic.js/cianobac.jpg",
+    "jclic.js/cianobf.jpg",
+    "jclic.js/close.mid",
+    "jclic.js/cloud.jpg",
+    "jclic.js/cuaderno.jpg",
+    "jclic.js/hongo.jpg",
+    "jclic.js/hongo1.jpg",
+    "jclic.js/hongo12.jpg",
+    "jclic.js/marbpale.jpg",
+    "jclic.js/marbteal.jpg",
+    "jclic.js/minialt.jpg",
+    "jclic.js/naturale.jclic",
+    "jclic.js/nuvols.jpg",
+    "jclic.js/protozf.jpg",
+    "jclic.js/protozo2.jpg",
+    "jclic.js/protozoo.jpg",
+    "jclic.js/simfon40.wav",
+    "jclic.js/virusgf.jpg",
+    "jclic.js/virusgr2.jpg",
+    "jclic.js/virusgri.jpg",
+    "jclic.js/virusgripe.jpg",
+    "jclic.js/wowoy.mid",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/naturale.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": 2009,
+  "title": "Trigonometría (Reducción al 1º cuadrante)",
+  "author": "Mª Carmen Felipe Hernández",
+  "school": "IES Alhama de Corella Corella (Navarra)",
+  "date": "03/12/09",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "trigonometria",
+    "es": "trigonometría",
+    "en": "trigonometry"
+  },
+  "descCodes": [
+    716
+  ],
+  "description": {
+    "en": "Two projects of activities addressed to secondary education about trigonometry: \n<ul> \n <li>definitions of trigonometry </li>\n <li>reduction to first quadrant </li>\n</ul>",
+    "ca": "Dos projectes d'activitats adreçats a 4t curs d'educació secundària obligatòria sobre trigonometria: \n<ul> \n <li>Definicions de Trigonometria </li>\n <li>Reducció al 1r quadrant </li>\n</ul>",
+    "es": "Dos proyectos de actividades dirigidos a 4º curso de educación secundaria obligatoria sobre trigonometría: \n<ul> \n <li>Definiciones de Trigonometría </li>\n <li>Reducción al 1º cuadrante </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "trigo2"
+  ],
+  "mainFile": "jclic.js/cuadrant.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cuadrant.jclic.zip",
+  "instFile": "jclic/cuadrant.jclic.inst",
+  "clicZoneId": 3586,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3586",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cuadrant/jclic/cuadrant.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 20,
+  "totalSize": 186734,
+  "files": [
+    "cover.gif",
+    "jclic.js/cuadrant.jclic",
+    "jclic.js/redu130.gif",
+    "jclic.js/redu150.gif",
+    "jclic.js/redu210.gif",
+    "jclic.js/redu250.gif",
+    "jclic.js/redu300.gif",
+    "jclic.js/redu340.gif",
+    "jclic.js/tri12a.gif",
+    "jclic.js/tri12b.gif",
+    "jclic.js/tri13a.gif",
+    "jclic.js/tri13b.gif",
+    "jclic.js/tri13c.gif",
+    "jclic.js/tri14a.gif",
+    "jclic.js/tri14b.gif",
+    "jclic.js/tri14c.gif",
+    "jclic.js/tri15a.gif",
+    "jclic.js/tri15b.gif",
+    "jclic.js/tri15c.gif",
+    "jclic.js/tri4.gif",
+    "jclic.js/tri4a.gif",
+    "jclic.js/tri4b.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cuadrant.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

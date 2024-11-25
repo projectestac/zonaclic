@@ -1,0 +1,122 @@
+{
+  "id": 2435,
+  "title": "Els arbres fruiters",
+  "author": "Santi Oms Soler",
+  "date": "17/03/16",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "arbres",
+    "es": "árboles",
+    "en": "trees"
+  },
+  "descCodes": [
+    55
+  ],
+  "description": {
+    "en": "It is a project for literacy work cycle starting from the fruit trees we have in the garden of the initial cycle of the school Pinetons The Garriga (Barcelona). It also will help us better understand and fruit trees that give fruits. At the time, try different times of the year and the fruits can be found each time.",
+    "ca": "És un projecte per treballar la lecto-escriptura a cicle inicial a partir dels arbres fruiters que tenim al jardinet de cicle inicial de l'escola Els Pinetons de la Garriga. També ens servirà per conèixer millor els arbres fruiters i els fruits que donen. A l'hora, tractarem diferents èpoques de l'any i els fruits que podem trobar a cada època.",
+    "es": "Es un proyecto para trabajar la lectoescritura ciclo inicial a partir de los árboles frutales que tenemos en el jardín de ciclo inicial de la escuela Los Pinetons de la Garriga (Barcelona). También nos servirá para conocer mejor los árboles frutales y los frutos que dan. A la hora, trataremos diferentes épocas del año y los frutos que podemos encontrar en cada época."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/arbres3.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/arbres3.jclic.zip",
+  "instFile": "jclic/arbres3.jclic.inst",
+  "clicZoneId": 3944,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3944",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/arbres3/jclic/arbres3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 44,
+  "totalSize": 2309833,
+  "files": [
+    "cover.png",
+    "jclic.js/ametller.jpg",
+    "jclic.js/ametller.mp3",
+    "jclic.js/ametller_escola_resized.jpg",
+    "jclic.js/arbres3.jclic",
+    "jclic.js/arbres3.jclic.js",
+    "jclic.js/associacio_compl__enun.mp3",
+    "jclic.js/associacio_sim_enunciat.mp3",
+    "jclic.js/cirerer.jpg",
+    "jclic.js/cirerer.mp3",
+    "jclic.js/cireres_gran.jpg",
+    "jclic.js/dibuix_jardinet__1__resized.jpg",
+    "jclic.js/felicitats.mp3",
+    "jclic.js/fotoj.jpg",
+    "jclic.js/fruit_ametller.jpg",
+    "jclic.js/fruit_cirerer.jpg",
+    "jclic.js/fruit_llimona_escola_resized.jpg",
+    "jclic.js/fruit_magraner.jpg",
+    "jclic.js/fruit_perera.jpg",
+    "jclic.js/fruit_pomera.jpg",
+    "jclic.js/fruita_magrana.jpg",
+    "jclic.js/fruita_poma_definitiva.jpg",
+    "jclic.js/i01_cirerer.jpg",
+    "jclic.js/i01_fruit_ametller.jpg",
+    "jclic.js/i01_fruit_magraner.jpg",
+    "jclic.js/i01_magraner.jpg",
+    "jclic.js/i01_pomera.jpg",
+    "jclic.js/i02_dibuix_jardinet__1__resized.jpg",
+    "jclic.js/llimoner.jpg",
+    "jclic.js/llimoner.mp3",
+    "jclic.js/llimoner_escola_sencer_resized.jpg",
+    "jclic.js/magraner.jpg",
+    "jclic.js/magraner.mp3",
+    "jclic.js/pera2_resized.jpg",
+    "jclic.js/pera_conference.jpg",
+    "jclic.js/perera.jpg",
+    "jclic.js/perera.mp3",
+    "jclic.js/perera_escola_resized.jpg",
+    "jclic.js/perfecte.mp3",
+    "jclic.js/pomera.jpg",
+    "jclic.js/pomera.mp3",
+    "jclic.js/so_estiu.mp3",
+    "jclic.js/so_negre.jpg",
+    "jclic.js/so_primavera.mp3",
+    "jclic.js/so_tardor.mp3",
+    "jclic.js/so_tot_l_any.mp3",
+    "jclic.js/tinc_un_arbre_amic.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": 1055,
+  "title": "Taller del cuento \"El príncipe feliz\"",
+  "author": "Miriam Castillo Castillo",
+  "school": "Escuela Cardenal José María Caro Coquimbo (Xile)",
+  "date": "13/06/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, conte",
+    "es": "lengua castellana, cuento",
+    "en": "Spanish language, story"
+  },
+  "descCodes": [
+    132,
+    614
+  ],
+  "description": {
+    "en": "Activities based on the educational software \n<a href=\"http://www.redenlaces.cl/lenguaje/principefeliz/principefeliz.html\"><b>El príncipe feliz</b></a>, published by the \n<a href=\"http://www.redenlaces.cl\">Enlaces</a> network of the \"Ministerio de Educación y Cultura\" of Chile.",
+    "ca": "Guia didàctica per al desenvolupament del taller del conte \n<a href=\"http://www.redenlaces.cl/lenguaje/principefeliz/principefeliz.html\"><b>El príncipe feliz</b></a>, a partir d'un programa desenvolupat per la xarxa \n<a href=\"http://www.redenlaces.cl\">Enlaces</a> del Ministeri d'Educació i Cultura de Xile.",
+    "es": "Clic de guía didáctica para el desarrollo del taller del cuento \n<a href=\"http://www.redenlaces.cl/lenguaje/principefeliz/principefeliz.html\"><b>El príncipe feliz</b></a> a partir de un programa desarrollado por la red \n<a href=\"http://www.redenlaces.cl\">Enlaces</a> del Ministerio de Educación y Cultura de Chile."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/principe.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/principe.jclic.zip",
+  "instFile": "jclic/principe.jclic.inst",
+  "clicZoneId": 2225,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2225",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/principe/jclic/principe.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 12,
+  "totalSize": 967847,
+  "files": [
+    "cover.gif",
+    "jclic.js/alcaldey.gif",
+    "jclic.js/angel.gif",
+    "jclic.js/estudiante.gif",
+    "jclic.js/fantast.wav",
+    "jclic.js/genial.wav",
+    "jclic.js/golondrina.gif",
+    "jclic.js/grande.wav",
+    "jclic.js/madre.gif",
+    "jclic.js/muybien.wav",
+    "jclic.js/perfec.wav",
+    "jclic.js/principe.gif",
+    "jclic.js/principe.jclic",
+    "jclic.js/tepasas.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/principe.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

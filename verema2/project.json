@@ -1,0 +1,104 @@
+{
+  "id": 2461,
+  "title": "La verema",
+  "author": "Marina Romà Mangriñan",
+  "school": "Escola Sant Jeroni Sant Pere de Riudebitlles (Alt Penedès)",
+  "date": "17/11/16",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Social sciences",
+    "ca": "Ciències experimentals, Ciències socials",
+    "es": "Ciencias experimentales, Ciencias sociales"
+  },
+  "areaCodes": [
+    "exp",
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "arts i oficis, societat, verema",
+    "es": "arte y oficios, sociedad, vintage",
+    "en": "art and offices, society, vendimia"
+  },
+  "descCodes": [
+    166,
+    344,
+    1473
+  ],
+  "description": {
+    "en": "This package provides help on learning the different parts of the grape, vine and wine production as well.",
+    "ca": "Activitats sobre la verema al Penedès, on es treballen les parts del cep, la verema tradicional i mecanitzada, les parts i varietats del raïm, així com els principals productes que obtenim d'aquest procés. Recomanat per a Cicle Inicial.",
+    "es": "Actividades sobre la vendimia en el Penedès, donde se trabajan las partes de la cepa, la vendimia tradicional y mecanizada, las partes y variedades de la uva, así como los principales productos que obtenemos de este proceso. Recomendado para Ciclo Inicial."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/verema2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/verema2.jclic.zip",
+  "instFile": "jclic/verema2.jclic.inst",
+  "clicZoneId": 3969,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3969",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/verema2/jclic/verema2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 9,
+  "mediaFiles": 22,
+  "totalSize": 1160214,
+  "files": [
+    "cover.png",
+    "jclic.js/bota.jpg",
+    "jclic.js/carrega_tradicional.jpg",
+    "jclic.js/celler_trad_resized.jpg",
+    "jclic.js/embotellado_a_mano_resized.jpg",
+    "jclic.js/embotellado_mecanico.jpg",
+    "jclic.js/etiquetatge.jpg",
+    "jclic.js/garnatxa.jpg",
+    "jclic.js/macabeu.jpg",
+    "jclic.js/merlot.jpg",
+    "jclic.js/parellada.jpg",
+    "jclic.js/parts_del_cep.png",
+    "jclic.js/parts_raim.png",
+    "jclic.js/parts_raim2.png",
+    "jclic.js/portada_resized.jpg",
+    "jclic.js/premsa_tradicional.jpg",
+    "jclic.js/prensa_moderna.jpg",
+    "jclic.js/recoleccio_manual_resized.jpg",
+    "jclic.js/recoleccio_maquina.jpg",
+    "jclic.js/tina_acer_fermenta.jpg",
+    "jclic.js/trepitjar_resized.jpg",
+    "jclic.js/ull_de_llebre.jpg",
+    "jclic.js/verema2.jclic",
+    "jclic.js/verema2.jclic.js",
+    "jclic.js/xarel_lo_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

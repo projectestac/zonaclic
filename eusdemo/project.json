@@ -1,0 +1,108 @@
+{
+  "id": 245,
+  "title": "Eusdemo (demo euskera)",
+  "author": "Donostiako PAT",
+  "date": "12/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua basca",
+    "es": "lengua vasca",
+    "en": "Basque language"
+  },
+  "descCodes": [
+    922
+  ],
+  "description": {
+    "en": "Activities in Euskera about grammar and related topics (Synonyms, antonyms,...)",
+    "ca": "Aditz laguntzailea, sinonimoak, antonimoak, esaera zaharrak, testuaren koherentzia (puzzleen bitartez) eta aditzaren laguntzailea irudien bidez lantzen da. Inguruaren ezaguerari buruzko adibeetan giza-gorputzaren atalak jorratzen dira. \n<br> Exemples d'activitats Clic en euskera. S'hi treballa l'auxiliar del verb, sinònims, antònims, refranys, coherència en un text (mitjançant trencaclosques), l'ús de l'auxiliar del verb recolzat per imatges que signifiquen la persona i la seva acció (tant el subjecte com els objectes directe i indirecte). Pel que fa a l'àrea del coneixement del medi, es presenten alguns exercicis que treballen les parts del cos humà.",
+    "es": "Aditz laguntzailea, sinonimoak, antonimoak, esaera zaharrak, testuaren koherentzia (puzzleen bitartez) eta aditzaren laguntzailea irudien bidez lantzen da. Inguruaren ezaguerari buruzko adibeetan giza-gorputzaren atalak jorratzen dira. \n<br> Ejemplos de actividades clic en euskera. Trabajan el auxiliar del verbo, sinónimos, antónimos, refranes, coherencia en un texto (por medio de puzzles), el uso del auxiliar del verbo apoyado por imágenes que significan la persona y su acción (tanto el sujeto, como el objeto directo e indirecto). Referente al área del conocimiento del medio se han presentado algunos ejercicios que trabajan partes del cuerpo humano."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/eusdemo.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/eusdemo.jclic.zip",
+  "instFile": "jclic/eusdemo.jclic.inst",
+  "clicZoneId": 1125,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1125",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/eusdemo/jclic/eusdemo.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 29,
+  "totalSize": 198327,
+  "files": [
+    "cover.gif",
+    "jclic.js/ama.gif",
+    "jclic.js/amah.gif",
+    "jclic.js/amak.gif",
+    "jclic.js/amakei.gif",
+    "jclic.js/amakh.gif",
+    "jclic.js/amari.gif",
+    "jclic.js/amarih.gif",
+    "jclic.js/clicaurk.gif",
+    "jclic.js/eusdemo.jclic",
+    "jclic.js/gu.gif",
+    "jclic.js/guk.gif",
+    "jclic.js/guri.gif",
+    "jclic.js/lagunak.gif",
+    "jclic.js/lagunei.gif",
+    "jclic.js/lagunek.gif",
+    "jclic.js/ni.gif",
+    "jclic.js/nik.gif",
+    "jclic.js/nikamari.gif",
+    "jclic.js/nikei.gif",
+    "jclic.js/nikzuei.gif",
+    "jclic.js/nikzuri.gif",
+    "jclic.js/niri.gif",
+    "jclic.js/zu.gif",
+    "jclic.js/zuei.gif",
+    "jclic.js/zuek.gif",
+    "jclic.js/zuekk.gif",
+    "jclic.js/zuk.gif",
+    "jclic.js/zukamari.gif",
+    "jclic.js/zukniri.gif",
+    "jclic.js/zuri.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/eusdemo.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

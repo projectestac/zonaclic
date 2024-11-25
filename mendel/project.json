@@ -1,0 +1,89 @@
+{
+  "id": 2324,
+  "title": "El mundo de Gregor",
+  "author": "Wolfang Andrés Rodríguez Soto",
+  "date": "07/04/14",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "genètica",
+    "es": "genética",
+    "en": "genetics"
+  },
+  "descCodes": [
+    77
+  ],
+  "description": {
+    "en": "Project of activities about Mendel's laws and some of its basic concepts.",
+    "ca": "Projecte d'activitats JClic sobre les Lleis de Mendel i alguns dels seus conceptes bàsics.",
+    "es": "Proyecto de actividades JClic sobre las Leyes de Mendel y alguno de sus conceptos básicos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/mendel.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mendel.jclic.zip",
+  "instFile": "jclic/mendel.jclic.inst",
+  "clicZoneId": 3833,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3833",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/mendel/jclic/mendel.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 8,
+  "mediaFiles": 11,
+  "totalSize": 704832,
+  "files": [
+    "cover.png",
+    "jclic.js/1_ley.jpg",
+    "jclic.js/2_ley.jpg",
+    "jclic.js/3_ley.jpg",
+    "jclic.js/cromosomas.jpg",
+    "jclic.js/mendel.jclic",
+    "jclic.js/mendel_objetivos.jpg",
+    "jclic.js/molecula_adn_resized.jpg",
+    "jclic.js/pantalla_portada_resized.jpg",
+    "jclic.js/primera_ley.jpg",
+    "jclic.js/segunda_ley_de_mendel.jpg",
+    "jclic.js/semillas_mendel.jpg",
+    "jclic.js/tercera_ley.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/mendel.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

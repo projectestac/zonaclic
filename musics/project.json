@@ -1,0 +1,121 @@
+{
+  "id": 253,
+  "title": "Els músics de Bremen",
+  "author": "Miren Garralda",
+  "school": "Escola Mas Casanovas Barcelona",
+  "date": "12/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, llengua catalana, llengua basca",
+    "es": "lengua castellana, lengua catalana, lengua vasca",
+    "en": "Spanish language, Catalan language, Basque language"
+  },
+  "descCodes": [
+    132,
+    133,
+    922
+  ],
+  "description": {
+    "en": "Activity pack about the \"Musicians of Bremen\". The story, onomatopoeia, vocabulary, reading comprehension and name-article concordance.",
+    "ca": "Diverses activitats relacionades amb el conte \"Els músics de Bremen\": narració del conte, onomatopeies, vocabulari, comprensió lectora i concordança article-nom. Inclou una guia d'ús en format Acrobat (PDF). \n<p> Convé configurar la pantalla a 256 colors. </p>",
+    "es": "Diversas actividades relacionadas con el cuento \"Los músicos de Bremen\": narración del cuento, onomatopeyas, vocabulario, comprensión lectora y concordancia atrículo-nombre. Incluye una guía en formato Adobe Acrobat. \n<p> Conviene configurar la pantalla a 256 colores. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "eubremen",
+    "musicos"
+  ],
+  "mainFile": "jclic.js/musics.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/musics.jclic.zip",
+  "instFile": "jclic/musics.jclic.inst",
+  "clicZoneId": 1131,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1131",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/musics/jclic/musics.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 34,
+  "totalSize": 3231083,
+  "files": [
+    "cover.gif",
+    "jclic.js/ase.gif",
+    "jclic.js/ase.wav",
+    "jclic.js/frases.gif",
+    "jclic.js/frases1.gif",
+    "jclic.js/gall.gif",
+    "jclic.js/gall.wav",
+    "jclic.js/gat.gif",
+    "jclic.js/gat.wav",
+    "jclic.js/gos.gif",
+    "jclic.js/gos.wav",
+    "jclic.js/guitarr.gif",
+    "jclic.js/guitarra.wav",
+    "jclic.js/lladres.gif",
+    "jclic.js/lladres.wav",
+    "jclic.js/monstre.wav",
+    "jclic.js/musicbe.gif",
+    "jclic.js/musics.jclic",
+    "jclic.js/musics.pdf",
+    "jclic.js/musics0.gif",
+    "jclic.js/musics1.gif",
+    "jclic.js/musics10.gif",
+    "jclic.js/musics2.gif",
+    "jclic.js/musics20.gif",
+    "jclic.js/musics3.gif",
+    "jclic.js/musics30.gif",
+    "jclic.js/musics4.gif",
+    "jclic.js/musics5.gif",
+    "jclic.js/musics6.gif",
+    "jclic.js/musics7.gif",
+    "jclic.js/perebe.gif",
+    "jclic.js/tbales.gif",
+    "jclic.js/tbales.wav",
+    "jclic.js/veu.gif",
+    "jclic.js/veu.wav",
+    "jclic.js/violi.gif",
+    "jclic.js/violi.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/musics.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

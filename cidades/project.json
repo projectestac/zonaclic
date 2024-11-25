@@ -1,0 +1,109 @@
+{
+  "id": 1669,
+  "title": "Cidades",
+  "author": "José Alberto Armada Rodríguez",
+  "school": "CPI Aurelio M. Rey García Cuntis - Pontevedra (Galiza)",
+  "date": "11/05/07",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "ciutat",
+    "es": "ciudad",
+    "en": "city"
+  },
+  "descCodes": [
+    176
+  ],
+  "description": {
+    "en": "Set of activities about cities. It starts from the Galicia provincial capital and ends up with several European capitals.",
+    "ca": "Conjunt d'activitats sobre ciutats, es parteix de la capital de Galícia i altres ciutats gallegues (A Coruña, Santiago, Ourense, Lugo y Pontevedra) i s'acaba mirant altres ciutats d'Europa (Amsterdam, París, Moscou, Madrid i Roma).",
+    "es": "Conjunto de actividades sobre ciudades, se parte de la capital de Galicia y otras ciudades gallegas (A Coruña, Santiago, Ourense, Lugo y Pontevedra) y se acaba mirando en algunas ciudades de Europa (Amsterdam, París, Moscú, Madrid y Roma)."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cidades.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cidades.jclic.zip",
+  "instFile": "jclic/cidades.jclic.inst",
+  "clicZoneId": 3379,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3379",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cidades/jclic/cidades.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 30,
+  "totalSize": 1430213,
+  "files": [
+    "cover.jpg",
+    "jclic.js/a_coruna.jpg",
+    "jclic.js/amsterdam.jpg",
+    "jclic.js/cidades.jclic",
+    "jclic.js/coruna.wav",
+    "jclic.js/coruna1.jpg",
+    "jclic.js/coruna1bn.jpg",
+    "jclic.js/coruna2.jpg",
+    "jclic.js/lugo.jpg",
+    "jclic.js/lugo.wav",
+    "jclic.js/lugo1.jpg",
+    "jclic.js/lugo1bn.jpg",
+    "jclic.js/lugo2.jpg",
+    "jclic.js/madrid.jpg",
+    "jclic.js/moscu.jpg",
+    "jclic.js/ourense.jpg",
+    "jclic.js/ourense.wav",
+    "jclic.js/ourense1.jpg",
+    "jclic.js/ourense1bn.jpg",
+    "jclic.js/ourense2.jpg",
+    "jclic.js/paris.jpg",
+    "jclic.js/pontevedra.jpg",
+    "jclic.js/pontevedra.wav",
+    "jclic.js/pontevedra1.jpg",
+    "jclic.js/pontevedra1bn.jpg",
+    "jclic.js/pontevedra2.jpg",
+    "jclic.js/roma.jpg",
+    "jclic.js/santiago.jpg",
+    "jclic.js/santiago.wav",
+    "jclic.js/santiago1.jpg",
+    "jclic.js/santiago2.jpg",
+    "jclic.js/vigo2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cidades.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

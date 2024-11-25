@@ -1,0 +1,117 @@
+{
+  "id": 1501,
+  "title": "El humanismo",
+  "author": "Miren Felisa Mateo Ciluaga",
+  "school": "IES Dolmen de Soto Trigueros - Huelva (Andalucía)",
+  "date": "12/12/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "història de la literatura, humanisme, Renaixement",
+    "es": "historia de la literatura, humanismo, Renacimiento",
+    "en": "history of Literature, humanism, Renaissance"
+  },
+  "descCodes": [
+    620,
+    1349,
+    1350
+  ],
+  "description": {
+    "en": "Activities about political, religious and scientific Humanism, as well as a review about the literature in the Humanism and the Renaissance.",
+    "ca": "Activitats per repassar les principals característiques de l'Humanisme polític, religiós i científic, així com una breu repàs per la literatura de l'Humanisme i el Renaixement.",
+    "es": "Actividades para repasar las principales características del Humanismo político, religioso y científico, así como un breve repaso por la literatura del Humanismo y el Renacimiento."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/humanism.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/humanism.jclic.zip",
+  "instFile": "jclic/humanism.jclic.inst",
+  "clicZoneId": 3220,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3220",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/humanism/jclic/humanism.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 36,
+  "totalSize": 1267782,
+  "files": [
+    "cover.jpg",
+    "jclic.js/ana3.jpg",
+    "jclic.js/ana8.jpg",
+    "jclic.js/anon_allemande_loreyne.mid",
+    "jclic.js/anonym_packington_s_pound.mid",
+    "jclic.js/anonyme_dancebrand.mid",
+    "jclic.js/attaignant___tourdion.mid",
+    "jclic.js/ballesta.jpg",
+    "jclic.js/calvino.jpg",
+    "jclic.js/carroarmato.jpg",
+    "jclic.js/casas.jpg",
+    "jclic.js/cisneros.gif",
+    "jclic.js/copernico.jpg",
+    "jclic.js/dante.jpg",
+    "jclic.js/enrique_viii_p.jpg",
+    "jclic.js/erasmo.jpg",
+    "jclic.js/fachada.gif",
+    "jclic.js/galileo.jpg",
+    "jclic.js/girl.gif",
+    "jclic.js/greco1.jpg",
+    "jclic.js/guttenberg4.gif",
+    "jclic.js/humanism.jclic",
+    "jclic.js/leo.gif",
+    "jclic.js/leonardo.jpg",
+    "jclic.js/martin_lutero.jpg",
+    "jclic.js/nat1.jpg",
+    "jclic.js/nat2.jpg",
+    "jclic.js/nebrija.jpg",
+    "jclic.js/poetalonso.jpg",
+    "jclic.js/press.gif",
+    "jclic.js/protes.gif",
+    "jclic.js/rotor.jpg",
+    "jclic.js/servet.jpg",
+    "jclic.js/tartaglia_1.jpg",
+    "jclic.js/tomas_moro.jpg",
+    "jclic.js/vitruvi.jpg",
+    "jclic.js/vives.jpg",
+    "jclic.js/zwinglio.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/humanism.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

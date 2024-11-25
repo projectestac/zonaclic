@@ -1,0 +1,91 @@
+{
+  "id": 1348,
+  "title": "Personajes del Quijote",
+  "author": "Francisco Daniel Sánchez Vázquez",
+  "school": "CEIP Príncipe Felipe Motril (Granada) (Andalucía)",
+  "date": "24/02/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "Quixot",
+    "es": "Quijote",
+    "en": "Quijote"
+  },
+  "descCodes": [
+    1320
+  ],
+  "description": {
+    "en": "Clic activities in Spanish about the Don Quixote's characters.",
+    "ca": "Aquestes activitats pretenen apropar l'alumnat als personatges més importants del Quixot. Dotze personatges són presentats per a realitzar trencaclosques, reconeixements, identificacions, sopes de lletres, associacions i mots encreuats.",
+    "es": "Estas actividades pretenden acercar al alumnado los personajes más relevantes y cercanos a ellos. Doce personajes son presentados para que realicen puzzles, reconocimientos, identificaciones, sopa de letras, asociaciones y crucigramas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/quijote.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/quijote.jclic.zip",
+  "instFile": "jclic/quijote.jclic.inst",
+  "clicZoneId": 3090,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3090",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/quijote/jclic/quijote.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 12,
+  "totalSize": 241746,
+  "files": [
+    "cover.gif",
+    "jclic.js/ama.gif",
+    "jclic.js/barbero.gif",
+    "jclic.js/cura.gif",
+    "jclic.js/dulcinea.gif",
+    "jclic.js/galgo.gif",
+    "jclic.js/molino.gif",
+    "jclic.js/quijote.gif",
+    "jclic.js/quijote.jclic",
+    "jclic.js/rocinante.gif",
+    "jclic.js/rucio.gif",
+    "jclic.js/sancho.gif",
+    "jclic.js/sobrina.gif",
+    "jclic.js/ventero.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/quijote.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

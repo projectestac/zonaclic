@@ -1,0 +1,143 @@
+{
+  "id": 2177,
+  "title": "Hoquei",
+  "author": "Marc Gómez Cotano i Montse Ribera Mercader",
+  "school": "Escola Sant Esteve Caldes de Malavella (Selva)",
+  "date": "16/09/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "esports, hoquei",
+    "es": "deportes, hockey",
+    "en": "sports, hockey"
+  },
+  "descCodes": [
+    424,
+    1423
+  ],
+  "description": {
+    "en": "Project activities addressed to upper primary education about hockey: \n<ul> \n <li>types of hockey </li>\n <li>kits </li>\n <li>basic rules </li>\n</ul>",
+    "ca": "Projecte d'activitats adreçat a cicle superior d'educació primària sobre l'hoquei: \n<ul> \n <li>tipus d'hoquei </li>\n <li>equipament </li>\n <li>normes bàsiques </li>\n</ul>",
+    "es": "Proyecto de actividades dirigido a ciclo superior de educación primaria sobre el hockey: \n<ul> \n <li>tipos de hockey </li>\n <li>equipaciones </li>\n <li>normas básicas </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/hoquei.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/hoquei.jclic.zip",
+  "instFile": "jclic/hoquei.jclic.inst",
+  "clicZoneId": 3713,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3713",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/hoquei/jclic/hoquei.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 63,
+  "totalSize": 6039601,
+  "files": [
+    "cover.png",
+    "jclic.js/5e_a_resized.jpg",
+    "jclic.js/6e_a_resized.jpg",
+    "jclic.js/agafar_estic_resized.jpg",
+    "jclic.js/bambes_herba500x1300_resized.jpg",
+    "jclic.js/casc170.jpg",
+    "jclic.js/coquillera170.jpg",
+    "jclic.js/costat_cullera_resized.jpg",
+    "jclic.js/costat_pala_resized.jpg",
+    "jclic.js/cullera_resized.jpg",
+    "jclic.js/dsc01770_resized.jpg",
+    "jclic.js/dsc01788_resized.jpg",
+    "jclic.js/dsc01903_resized1.jpg",
+    "jclic.js/dsc01924_resized.jpg",
+    "jclic.js/espinilleres_170.jpg",
+    "jclic.js/estic1500x1300_resized.jpg",
+    "jclic.js/esticgel1500x1300_resized.jpg",
+    "jclic.js/esticherba1500x1300_resized.jpg",
+    "jclic.js/gel1500x1300_resized.jpg",
+    "jclic.js/genollera.jpg",
+    "jclic.js/guants170.jpg",
+    "jclic.js/guardes170.jpg",
+    "jclic.js/herba_1500x1300_resized.jpg",
+    "jclic.js/hoquei.jclic",
+    "jclic.js/mal._escombra_resized.jpg",
+    "jclic.js/mal_abaix_resized.jpg",
+    "jclic.js/mal_creuades_resized.jpg",
+    "jclic.js/mal_iguals_2_resized.jpg",
+    "jclic.js/mal_juntes_resized.jpg",
+    "jclic.js/mal_separades_resized.jpg",
+    "jclic.js/p10100025b_resized.jpg",
+    "jclic.js/p10100026b_resized.jpg",
+    "jclic.js/p1010002_resized1.jpg",
+    "jclic.js/p1010006_resized.jpg",
+    "jclic.js/p1010008_resized.jpg",
+    "jclic.js/p1010010_resized.jpg",
+    "jclic.js/p1010012_resized.jpg",
+    "jclic.js/p1010014_resized.jpg",
+    "jclic.js/p1010015_resized.jpg",
+    "jclic.js/p1010018_resized.jpg",
+    "jclic.js/p1010020_resized.jpg",
+    "jclic.js/p1010025_resized.jpg",
+    "jclic.js/p1010027_resized.jpg",
+    "jclic.js/pala_resized.jpg",
+    "jclic.js/patigel1500x1300_resized.jpg",
+    "jclic.js/patins.png",
+    "jclic.js/patins1500x1300_resized.jpg",
+    "jclic.js/patirodes500x1300_resized.jpg",
+    "jclic.js/peto170.jpg",
+    "jclic.js/pilota170.jpg",
+    "jclic.js/portada.gif",
+    "jclic.js/rdsc01788.jpg",
+    "jclic.js/rdsc01869_resized.jpg",
+    "jclic.js/rdsc01887.jpg",
+    "jclic.js/rdsc01915.jpg",
+    "jclic.js/restic_be_2.jpg",
+    "jclic.js/rimgp3983_resized.jpg",
+    "jclic.js/rp1010004.jpg",
+    "jclic.js/rp1010013.jpg",
+    "jclic.js/rp1010019.jpg",
+    "jclic.js/rp1010026.jpg",
+    "jclic.js/stick_fondo_blanc.jpg",
+    "jclic.js/totelgrup5ec_resized.jpg",
+    "jclic.js/xdsc01795.jpg",
+    "jclic.js/xdsc01839.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/hoquei.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

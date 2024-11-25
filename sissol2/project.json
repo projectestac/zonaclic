@@ -1,0 +1,137 @@
+{
+  "id": 168,
+  "title": "El sistema solar - 3",
+  "author": "Agnès Conesa, Anna Torregrosa, Jaume Bosch Pérez, Montse Costa i Robert Diez",
+  "school": "Escola Sant Andreu de Llavaneres Sant Andreu de Llavaneres (Maresme)",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "sistema solar",
+    "es": "sistema solar",
+    "en": "Solar System"
+  },
+  "descCodes": [
+    104
+  ],
+  "description": {
+    "en": "Clic activities about the solar system.",
+    "ca": "Paquet d'activitats sobre els planetes del sistema solar on es treballa l'origen mitològic del nom dels planetes, la seva mida i posició, els seus satèl·lits, etc.",
+    "es": "Paquete de actividades sobre los planetas del sistema solar en el que se trabaja el origen mitológico del nombre de los planetas, su tamaño y posición, sus satélites, etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "sisolesp"
+  ],
+  "mainFile": "jclic.js/sissol2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sissol2.jclic.zip",
+  "instFile": "jclic/sissol2.jclic.inst",
+  "clicZoneId": 1086,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1086",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sissol2/jclic/sissol2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 55,
+  "totalSize": 1640035,
+  "files": [
+    "cover.gif",
+    "jclic.js/adeusiau.mid",
+    "jclic.js/aet1.mid",
+    "jclic.js/ajura1.mid",
+    "jclic.js/aleluya.wav",
+    "jclic.js/astar1.mid",
+    "jclic.js/astron1.jpg",
+    "jclic.js/astron2.jpg",
+    "jclic.js/be01.wav",
+    "jclic.js/bladerun.mid",
+    "jclic.js/deujupit.gif",
+    "jclic.js/deumart.gif",
+    "jclic.js/deumercu.gif",
+    "jclic.js/deuneptu.gif",
+    "jclic.js/deupluto.gif",
+    "jclic.js/deusatu.gif",
+    "jclic.js/deuura.gif",
+    "jclic.js/deuvenus.gif",
+    "jclic.js/dum1.mid",
+    "jclic.js/elmati.mid",
+    "jclic.js/entra.mid",
+    "jclic.js/grand__3.jpg",
+    "jclic.js/j_piterp.gif",
+    "jclic.js/jupiter.wav",
+    "jclic.js/llunap.gif",
+    "jclic.js/lunera.jpg",
+    "jclic.js/mart.wav",
+    "jclic.js/martp.gif",
+    "jclic.js/mb.wav",
+    "jclic.js/mercuri.wav",
+    "jclic.js/mercurip.gif",
+    "jclic.js/moltbe.wav",
+    "jclic.js/nept_p.gif",
+    "jclic.js/neptu.wav",
+    "jclic.js/novena.mid",
+    "jclic.js/perfecte.wav",
+    "jclic.js/plut_p.gif",
+    "jclic.js/pluto.wav",
+    "jclic.js/saturn.wav",
+    "jclic.js/saturnp.gif",
+    "jclic.js/sissol2.jclic",
+    "jclic.js/sistema3.gif",
+    "jclic.js/sol.gif",
+    "jclic.js/sol2.gif",
+    "jclic.js/ssortir2.gif",
+    "jclic.js/ssporta.gif",
+    "jclic.js/terra.wav",
+    "jclic.js/terra1.jpg",
+    "jclic.js/terrami.gif",
+    "jclic.js/terrap.gif",
+    "jclic.js/textfin.gif",
+    "jclic.js/ur_p.gif",
+    "jclic.js/ura2.wav",
+    "jclic.js/venus.wav",
+    "jclic.js/venusp.gif",
+    "jclic.js/vialac1.jpg",
+    "jclic.js/wars.mid",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sissol2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

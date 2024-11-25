@@ -1,0 +1,94 @@
+{
+  "id": 2430,
+  "title": "Conociendo Venezuela, los estados y sus capitales",
+  "author": "Carlos Toro",
+  "school": "U.E.E. Prisco Pérez Monasterio (Centro Bolivariano de Informática y Telemática \"Roxana M. de Hernández\") Villa de Cura, Estado Aragua (Venezuela)",
+  "date": "04/02/16",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia física",
+    "es": "geografía física",
+    "en": "physical geography"
+  },
+  "descCodes": [
+    237
+  ],
+  "description": {
+    "en": "JClic activities about Venezuela, their states and capitals.",
+    "ca": "Material adreçat a estudiants de primària que té com a objectiu conèixer a Veneçuela, els seus estats i capitals a través d'activitats d'associació, resposta escrita, trencaclosques, sopes de lletres i identificació.",
+    "es": "Material dirigido a estudiantes de primaria, que tiene como objetivo conocer a Venezuela, sus estados y capitales a través de actividades de asociación, respuesta escrita, rompecabezas, sopas de letras e identificación."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ve_ve.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ve_ve.jclic.zip",
+  "instFile": "jclic/ve_ve.jclic.inst",
+  "clicZoneId": 3939,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3939",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ve_ve/jclic/ve_ve.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 15,
+  "totalSize": 1273132,
+  "files": [
+    "cover.png",
+    "jclic.js/aragua.jpg",
+    "jclic.js/falcon.jpg",
+    "jclic.js/feliz00.png",
+    "jclic.js/final.png",
+    "jclic.js/guarico.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/mapa_venezuela.png",
+    "jclic.js/mapa_vez01.png",
+    "jclic.js/mapa_vez1.png",
+    "jclic.js/mapa_vez3.png",
+    "jclic.js/merida.jpg",
+    "jclic.js/monagas.jpg",
+    "jclic.js/portada.png",
+    "jclic.js/texture6.gif",
+    "jclic.js/ve_ve.jclic",
+    "jclic.js/yaracuy.jpg",
+    "jclic.js/zulia.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ve_ve.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

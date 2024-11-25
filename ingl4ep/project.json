@@ -1,0 +1,121 @@
+{
+  "id": 444,
+  "title": "Inlgés 4º EP",
+  "author": "Domingo Méndez",
+  "school": "Colegio Jaime Balmes Cieza (Murcia)",
+  "date": "23/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua anglesa, vocabulari",
+    "es": "gramática, lengua inglesa, vocabulario",
+    "en": "grammar, English language, vocabulary"
+  },
+  "descCodes": [
+    123,
+    130,
+    150
+  ],
+  "description": {
+    "en": "Clic activities for primary school about the modal verb \n<i>can/can't</i>, description of landscapes and situation on maps.",
+    "ca": "Aplicació Clic per a anglès de 4rt de Primària on es treballa fonamentalment el verb modal \n<i>can/can't</i>, la descripció de paisatges i l'orientació en mapes.",
+    "es": "Aplicación Clic para inglés de 4º de Primaria donde se trabaja fundamentalmente el verbo modal \n<i>can/can't</i> , la descripción de paisajes y la orientación en mapas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ingl4ep.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ingl4ep.jclic.zip",
+  "instFile": "jclic/ingl4ep.jclic.inst",
+  "clicZoneId": 1267,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1267",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ingl4ep/jclic/ingl4ep.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 40,
+  "totalSize": 3224626,
+  "files": [
+    "cover.gif",
+    "jclic.js/balonces.gif",
+    "jclic.js/beach.wav",
+    "jclic.js/caminar.gif",
+    "jclic.js/cantar.gif",
+    "jclic.js/city.wav",
+    "jclic.js/clap.wav",
+    "jclic.js/correr.gif",
+    "jclic.js/dibujar.gif",
+    "jclic.js/dogs.wav",
+    "jclic.js/draw.wav",
+    "jclic.js/escribir.gif",
+    "jclic.js/fish.wav",
+    "jclic.js/fly.wav",
+    "jclic.js/foxes.wav",
+    "jclic.js/futbol.gif",
+    "jclic.js/ingl4ep.jclic",
+    "jclic.js/jump.wav",
+    "jclic.js/jungla.gif",
+    "jclic.js/leer.gif",
+    "jclic.js/lions.wav",
+    "jclic.js/listen.wav",
+    "jclic.js/mapa.gif",
+    "jclic.js/match.wav",
+    "jclic.js/mountain.wav",
+    "jclic.js/nadar.gif",
+    "jclic.js/paisaje.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/read.wav",
+    "jclic.js/run.wav",
+    "jclic.js/saltar.gif",
+    "jclic.js/sants.mid",
+    "jclic.js/sing.wav",
+    "jclic.js/sky.gif",
+    "jclic.js/snakes.wav",
+    "jclic.js/swim.wav",
+    "jclic.js/tenis.gif",
+    "jclic.js/tigers.wav",
+    "jclic.js/trees.wav",
+    "jclic.js/true.wav",
+    "jclic.js/volar.gif",
+    "jclic.js/walk.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ingl4ep.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": 1089,
+  "title": "Els arbres de la nostra escola",
+  "author": "Àngels Surís Jordà i Mª Josep Guzmán",
+  "school": "Escola Jungfrau Badalona (Barcelonès)",
+  "date": "05/11/03",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "arbres",
+    "es": "árboles",
+    "en": "trees"
+  },
+  "descCodes": [
+    55
+  ],
+  "description": {
+    "en": "Package of activities for kindergarten and primary school about the school's trees. The package is divided into 6 sections: \n<ul> \n <li>The trees </li>\n <li>Tale </li>\n <li>Song </li>\n <li>Word search </li>\n <li>Riddle </li>\n <li>Poem </li>\n</ul>",
+    "ca": "Activitats per a educació infantil i primària sobre els arbres de l'escola. El paquet s'organitza en 6 blocs: \n<ul> \n <li>Conèixer els arbres </li>\n <li>Conte </li>\n <li>Cançó </li>\n <li>Sopa de lletres </li>\n <li>Endevinalla </li>\n <li>Poema </li>\n</ul>",
+    "es": "Actividades para educación infantil y primaria sobre los árboles de la escuela. El paquete se organiza en 6 bloques: \n<ul> \n <li>Conocer los árboles </li>\n <li>Cuento </li>\n <li>Canción </li>\n <li>Sopa de letras </li>\n <li>Adivinanza </li>\n <li>Poema </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/arbres.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/arbres.jclic.zip",
+  "instFile": "jclic/arbres.jclic.inst",
+  "clicZoneId": 2329,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2329",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/arbres/jclic/arbres.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 49,
+  "totalSize": 5129002,
+  "files": [
+    "cover.jpg",
+    "jclic.js/arbres.jclic",
+    "jclic.js/arbres2/arbrepuz.jpg",
+    "jclic.js/arbres2/arbres2.jclic",
+    "jclic.js/arbres2/b_.wav",
+    "jclic.js/arbres2/cara1.jpg",
+    "jclic.js/arbres2/cara2.jpg",
+    "jclic.js/arbres2/catarbre.jpg",
+    "jclic.js/arbres2/catflor.jpg",
+    "jclic.js/arbres2/catfruit.jpg",
+    "jclic.js/arbres2/catfulla.jpg",
+    "jclic.js/arbres2/estimem1.jpg",
+    "jclic.js/arbres2/estimem2.jpg",
+    "jclic.js/arbres2/estimem3.jpg",
+    "jclic.js/arbres2/estimem4.jpg",
+    "jclic.js/arbres2/micarb.jpg",
+    "jclic.js/arbres2/micflor.jpg",
+    "jclic.js/arbres2/micfruit.jpg",
+    "jclic.js/arbres2/micfulla.jpg",
+    "jclic.js/arbres2/oliarbre.jpg",
+    "jclic.js/arbres2/olifrui1.jpg",
+    "jclic.js/arbres2/olifulla.jpg",
+    "jclic.js/arbres2/olivflor.jpg",
+    "jclic.js/arbres2/tiparbre.jpg",
+    "jclic.js/arbres2/tipflor.jpg",
+    "jclic.js/arbres2/tipfruit.jpg",
+    "jclic.js/arbres2/tipfulla.jpg",
+    "jclic.js/cantar/arbramic.gif",
+    "jclic.js/cantar/cancasse.wav",
+    "jclic.js/cantar/cantar.jclic",
+    "jclic.js/conte/conte.jclic",
+    "jclic.js/conte/conte1.wav",
+    "jclic.js/conte/conte11.gif",
+    "jclic.js/conte/conte2.wav",
+    "jclic.js/conte/conte22.gif",
+    "jclic.js/conte/conte3.wav",
+    "jclic.js/conte/conte33.gif",
+    "jclic.js/conte/conte4.wav",
+    "jclic.js/conte/conte44.gif",
+    "jclic.js/conte/conte5.wav",
+    "jclic.js/conte/ocell.gif",
+    "jclic.js/conte/portcont.gif",
+    "jclic.js/conte/titolconte.wav",
+    "jclic.js/endevina/bravo.wav",
+    "jclic.js/endevina/cames.gif",
+    "jclic.js/endevina/endevina.jclic",
+    "jclic.js/endevina/repetir.wav",
+    "jclic.js/patiport.gif",
+    "jclic.js/poema/b_.wav",
+    "jclic.js/poema/dia.gif",
+    "jclic.js/poema/nit.gif",
+    "jclic.js/poema/poema.jclic",
+    "jclic.js/portada.wav",
+    "jclic.js/sopa/bravo.wav",
+    "jclic.js/sopa/patiport.gif",
+    "jclic.js/sopa/portada.wav",
+    "jclic.js/sopa/sopa.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/arbres.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/arbres2/arbres2.jclic.js",
+    "jclic.js/cantar/cantar.jclic.js",
+    "jclic.js/conte/conte.jclic.js",
+    "jclic.js/endevina/endevina.jclic.js",
+    "jclic.js/poema/poema.jclic.js",
+    "jclic.js/sopa/sopa.jclic.js",
+    "cover.webp"
+  ]
+}

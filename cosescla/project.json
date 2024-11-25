@@ -1,0 +1,131 @@
+{
+  "id": 1784,
+  "title": "26 coses de la classe",
+  "author": "Immaculada Vilatersana Lluch",
+  "school": "CFA Els Tarongers Mataró (Maresme)",
+  "date": "25/06/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, vocabulari",
+    "es": "aprendizaje de la lengua, vocabulario",
+    "en": "learning of the language, vocabulary"
+  },
+  "descCodes": [
+    110,
+    150
+  ],
+  "description": {
+    "en": "Project of activities addressed to adults education about 26 different class objects in Catalan. \n<ul> \n <li>pencil </li>\n <li>draft </li>\n <li>chalk </li>\n <li>computer... </li>\n</ul>",
+    "ca": "Projecte d'activitats adreçat a persones adultes que estudien primer nivell de català sobre 26 objectes que es poden trobar a una aula. \n<ul> \n <li>llapis </li>\n <li>esborrador </li>\n <li>guixos </li>\n <li>ordinador... </li>\n</ul>",
+    "es": "Proyecto de actividades dirigido a personas adultas que estudian primer nivel de catalán sobre 26 objetos que se pueden encontrar en el aula. \n<ul> \n <li>lápiz </li>\n <li>borrador </li>\n <li>tizas </li>\n <li>ordenador... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cosescla.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cosescla.jclic.zip",
+  "instFile": "jclic/cosescla.jclic.inst",
+  "clicZoneId": 3480,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3480",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cosescla/jclic/cosescla.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 50,
+  "totalSize": 1729831,
+  "files": [
+    "cover.jpg",
+    "jclic.js/boli.jpg",
+    "jclic.js/boli.mp3",
+    "jclic.js/cadira.jpg",
+    "jclic.js/cadira.mp3",
+    "jclic.js/calendari.jpg",
+    "jclic.js/calendari.mp3",
+    "jclic.js/carpeta.jpg",
+    "jclic.js/carpeta.mp3",
+    "jclic.js/classe.jpg",
+    "jclic.js/classe.mp3",
+    "jclic.js/colors.jpg",
+    "jclic.js/colors.mp3",
+    "jclic.js/cosescla.jclic",
+    "jclic.js/cosescla.pdf",
+    "jclic.js/dibuix.jpg",
+    "jclic.js/dibuix.mp3",
+    "jclic.js/esborra.jpg",
+    "jclic.js/esborra.mp3",
+    "jclic.js/full.jpg",
+    "jclic.js/full.mp3",
+    "jclic.js/goma.jpg",
+    "jclic.js/goma.mp3",
+    "jclic.js/guixos_c.mp3",
+    "jclic.js/llapis.jpg",
+    "jclic.js/llapis.mp3",
+    "jclic.js/llibre.jpg",
+    "jclic.js/llibre.mp3",
+    "jclic.js/llibreta.mp3",
+    "jclic.js/llibrta.jpg",
+    "jclic.js/maquineta.mp3",
+    "jclic.js/maquineta1.jpg",
+    "jclic.js/paperera.jpg",
+    "jclic.js/paperera.mp3",
+    "jclic.js/pc.mp3",
+    "jclic.js/pc3.jpg",
+    "jclic.js/pedrera2.jpg",
+    "jclic.js/pissarra.jpg",
+    "jclic.js/pissarra.mp3",
+    "jclic.js/portada2.jpg",
+    "jclic.js/prestatge.mp3",
+    "jclic.js/prestatgeria_2.jpg",
+    "jclic.js/ratoli.mp3",
+    "jclic.js/ratoli_9.jpg",
+    "jclic.js/rellotge.jpg",
+    "jclic.js/rellotge.mp3",
+    "jclic.js/taula.jpg",
+    "jclic.js/taula.mp3",
+    "jclic.js/tauler.jpg",
+    "jclic.js/tauler.mp3",
+    "jclic.js/teclat.mp3",
+    "jclic.js/teclat2.png",
+    "jclic.js/tizas.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cosescla.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

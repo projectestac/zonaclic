@@ -1,0 +1,82 @@
+{
+  "id": 1473,
+  "title": "Verbos latinos",
+  "author": "Paloma Garrido Medina",
+  "school": "IES Siete Palmas Las Palmas de Gran Canaria (Islas Canarias)",
+  "date": "10/10/05",
+  "languages": {
+    "en": "Spanish, Latin",
+    "ca": "espanyol, llatí",
+    "es": "español, latín"
+  },
+  "langCodes": [
+    "es",
+    "la"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "High school (16-18)",
+    "ca": "Batxillerat (16-18)",
+    "es": "Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "BTX"
+  ],
+  "descriptors": {
+    "ca": "llengua llatina",
+    "es": "lengua latina",
+    "en": "Latin language"
+  },
+  "descCodes": [
+    139
+  ],
+  "description": {
+    "en": "Set of activities to practice and to learn the five Latin conjugations.",
+    "ca": "Conjunt d'activitats per a practicar i aprendre les 5 conjugacions llatines en el temps indicatiu.",
+    "es": "Conjunto de actividades para practicar y aprender las 5 conjugaciones latinas en el tiempo indicativo."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/verblati.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/verblati.jclic.zip",
+  "instFile": "jclic/verblati.jclic.inst",
+  "clicZoneId": 3185,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3185",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/verblati/jclic/verblati.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 2,
+  "totalSize": 426989,
+  "files": [
+    "cover.gif",
+    "jclic.js/actores.jpg",
+    "jclic.js/libros.gif",
+    "jclic.js/verblati.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/verblati.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

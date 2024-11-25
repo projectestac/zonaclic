@@ -1,0 +1,103 @@
+{
+  "id": 1463,
+  "title": "Xeografía de Galicia",
+  "author": "Xoán X. Ferreiro Boquete",
+  "school": "CEIP de Sigüeiro Oroso - Sigüeiro (Galiza)",
+  "date": "04/10/05",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia",
+    "es": "geografía",
+    "en": "geography"
+  },
+  "descCodes": [
+    235
+  ],
+  "description": {
+    "en": "Twenty activities addressed to primary school about the relief, the coasts, the population, etc. about Galize.",
+    "ca": "Conjunt de 20 activitats senzilles per a 5è d'educació primària sobre el relleu, costes, població, etc. de la comunitat autònoma de Galícia.",
+    "es": "Conjunto de 20 actividades sencillas para 5º de educación primaria sobre el relieve, costas, población, etc. de la comunidad autónoma de Galicia."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/xeogal.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/xeogal.jclic.zip",
+  "instFile": "jclic/xeogal.jclic.inst",
+  "clicZoneId": 3176,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3176",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/xeogal/jclic/xeogal.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 24,
+  "totalSize": 911234,
+  "files": [
+    "cover.jpg",
+    "jclic.js/aplauso.wav",
+    "jclic.js/astur2.gif",
+    "jclic.js/canta2.gif",
+    "jclic.js/coleal.gif",
+    "jclic.js/desp_bea.wav",
+    "jclic.js/escban.gif",
+    "jclic.js/gal1.gif",
+    "jclic.js/gal2.gif",
+    "jclic.js/gal3.gif",
+    "jclic.js/gal4.gif",
+    "jclic.js/galfis.gif",
+    "jclic.js/galfis2.gif",
+    "jclic.js/galfis3.gif",
+    "jclic.js/galfisr.gif",
+    "jclic.js/galici2.gif",
+    "jclic.js/galpres.gif",
+    "jclic.js/mapa1.gif",
+    "jclic.js/mapamod.gif",
+    "jclic.js/nava2.gif",
+    "jclic.js/pavas2.gif",
+    "jclic.js/pres_bea.wav",
+    "jclic.js/rioja2.gif",
+    "jclic.js/sonrisa.gif",
+    "jclic.js/sonrisas.gif",
+    "jclic.js/xeogal.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/xeogal.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

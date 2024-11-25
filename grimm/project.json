@@ -1,0 +1,120 @@
+{
+  "id": 1994,
+  "title": "Hermanos Grimm",
+  "author": "Isidoro Buenaga Saiz",
+  "school": "Colegio Santa Teresa de Jesús (Oviedo) Oviedo (Asturias)",
+  "date": "15/10/09",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "conte, Grimm",
+    "es": "cuento, Grimm",
+    "en": "story, Grimm"
+  },
+  "descCodes": [
+    614,
+    1399
+  ],
+  "description": {
+    "en": "Project of activities about the Brothers Grimm and their work. Besides learning details of his biography, containing two stories of German authors and some exercises to work on them.",
+    "ca": "Projecte d'activitats per profunditzar a la vida dels germans Grimm i la seva obra. A més d'aprendre detalls de la seva biografia, conté dos contes dels autors alemanys i alguns exercicis per treballar sobre ells. \n<ul> \n <li>La camisa de l'home feliç </li>\n <li>El rei granota </li>\n</ul>",
+    "es": "Proyecto de actividades que profundiza en la vida de los hermanos Grimm y en su obra. Además de aprender algunos retazos de su biografía, contiene dos cuentos de los autores alemanes y algunos ejercicios para trabajar sobre ellos. \n<ul> \n <li>La camisa del hombre feliz </li>\n <li>El rey rana </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/grimm.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/grimm.jclic.zip",
+  "instFile": "jclic/grimm.jclic.inst",
+  "clicZoneId": 3574,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3574",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/grimm/jclic/grimm.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 40,
+  "totalSize": 1945313,
+  "files": [
+    "cover.jpg",
+    "jclic.js/bella_durmiente.jpg",
+    "jclic.js/blancanieves.gif",
+    "jclic.js/cabritillos.jpg",
+    "jclic.js/cabritillos2.jpg",
+    "jclic.js/caperu1.jpg",
+    "jclic.js/caperu2.jpg",
+    "jclic.js/caperu_3.jpg",
+    "jclic.js/caperu_4.jpg",
+    "jclic.js/caperu_5.jpg",
+    "jclic.js/caperucita.jpg",
+    "jclic.js/caperucita6.jpg",
+    "jclic.js/cenicienta.jpg",
+    "jclic.js/cerillera.jpg",
+    "jclic.js/duende.jpg",
+    "jclic.js/enano_saltarin.jpg",
+    "jclic.js/grimm.jclic",
+    "jclic.js/grimm_book.jpg",
+    "jclic.js/grimm_hermanos.jpg",
+    "jclic.js/hansel_y_gretel.jpg",
+    "jclic.js/hermanos_grimm.jpg",
+    "jclic.js/hueso_cantor.jpg",
+    "jclic.js/lobo.jpg",
+    "jclic.js/map3.gif",
+    "jclic.js/mapa_de_hanau.png",
+    "jclic.js/mercado_de_hanau.jpg",
+    "jclic.js/monumento_a_los_grimm_en_hanau.jpg",
+    "jclic.js/musicos_bremen.jpg",
+    "jclic.js/no_caperu1.jpg",
+    "jclic.js/no_caperu3.jpg",
+    "jclic.js/no_caperu4.gif",
+    "jclic.js/no_caperu_2.jpg",
+    "jclic.js/no_duckling.jpg",
+    "jclic.js/no_pulgarcita1.gif",
+    "jclic.js/no_reina_nieves_1_.jpg",
+    "jclic.js/no_ruisenor_comun.jpg",
+    "jclic.js/no_soldadito_1_.jpg",
+    "jclic.js/pajaro_de_oro.jpg",
+    "jclic.js/portada_libro_espanol.jpg",
+    "jclic.js/rana.jpg",
+    "jclic.js/rinkrank.gif",
+    "jclic.js/sastrecillo.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/grimm.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

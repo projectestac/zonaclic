@@ -1,0 +1,126 @@
+{
+  "id": 28,
+  "title": "Introducción al mini-handbol",
+  "author": "Sebastià Capella Priu Col·laboració: Federació Catalana d'Handbol",
+  "school": "C Estel Barcelona",
+  "date": "08/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "esports",
+    "es": "deportes",
+    "en": "sports"
+  },
+  "descCodes": [
+    424
+  ],
+  "description": {
+    "en": "Five activity packs about the mini-handball rules.",
+    "ca": "Cinc paquets d'activitats per conèixer el reglament del mini-handbol:\n<p> - Els jugadors.<br> - La porteria, el camp, l'àrea i la pilota.<br> - L'àrbitre. Què es permet i què no es permet.<br> - El gol, el penal i els serveis.<br> - Cop franc, temps mort i defensa mixta.</p>\n<p> En les activitats s'expliquen primer els aspectes més importants del reglament i a continuació es plantegen diversos exercicis per a comprovar que s'hagin entès correctament. </p>",
+    "es": "Cinco paquetes de actividades para conocer el reglamento del mini-balonmano:\n<p> - Los jugadores.<br> - La portería, el campo, el área y la pelota.<br> - El árbitro. Qué está permitido y qué no.<br> - El gol, el penalti y los servicios.<br> - Golpe franco, tiempo muerto y defensa mixta.</p>\n<p> En las actividades se explican primero los aspectos más importantes del reglamento y a continuación se plantean diversos ejercicios para comprobar que se hayan entendido correctamente. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "handbol"
+  ],
+  "mainFile": "jclic.js/balonma.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/balonma.jclic.zip",
+  "instFile": "jclic/balonma.jclic.inst",
+  "clicZoneId": 1012,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1012",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/balonma/jclic/balonma.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 107,
+  "mediaFiles": 44,
+  "totalSize": 1121981,
+  "files": [
+    "cover.gif",
+    "jclic.js/arbitre.gif",
+    "jclic.js/are1.gif",
+    "jclic.js/are2.gif",
+    "jclic.js/balonma.jclic",
+    "jclic.js/dm.gif",
+    "jclic.js/gol1.gif",
+    "jclic.js/h11.gif",
+    "jclic.js/h111.gif",
+    "jclic.js/image1.gif",
+    "jclic.js/image13.gif",
+    "jclic.js/image16.gif",
+    "jclic.js/image18.gif",
+    "jclic.js/image19.gif",
+    "jclic.js/image2.gif",
+    "jclic.js/image3.gif",
+    "jclic.js/image4.gif",
+    "jclic.js/image5.gif",
+    "jclic.js/image6.gif",
+    "jclic.js/image7.gif",
+    "jclic.js/jnet.gif",
+    "jclic.js/no1.gif",
+    "jclic.js/no2.gif",
+    "jclic.js/no3.gif",
+    "jclic.js/p1.gif",
+    "jclic.js/p2.gif",
+    "jclic.js/pen1.gif",
+    "jclic.js/pilota.gif",
+    "jclic.js/porteria.gif",
+    "jclic.js/r1.gif",
+    "jclic.js/r2.gif",
+    "jclic.js/r3.gif",
+    "jclic.js/r4.gif",
+    "jclic.js/serv1.gif",
+    "jclic.js/serv2.gif",
+    "jclic.js/serv3.gif",
+    "jclic.js/si1.gif",
+    "jclic.js/si2.gif",
+    "jclic.js/si3.gif",
+    "jclic.js/si4.gif",
+    "jclic.js/terr1.gif",
+    "jclic.js/terr2.gif",
+    "jclic.js/terr3.gif",
+    "jclic.js/tm1.gif",
+    "jclic.js/trenca1.gif",
+    "jclic.js/trenca2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/balonma.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

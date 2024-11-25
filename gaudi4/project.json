@@ -1,0 +1,127 @@
+{
+  "id": 1358,
+  "title": "Gaudí",
+  "author": "Gemma Grifé, Montse Sitjes, Rosa M. Obradors Puigdellívol i Teresa Esteban",
+  "school": "Escola Mare de Déu de Montserrat Súria (Bages)",
+  "date": "27/04/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Art & design, Social sciences",
+    "ca": "Visual i plàstica, Ciències socials",
+    "es": "Plástica y visual, Ciencias sociales"
+  },
+  "areaCodes": [
+    "vip",
+    "soc"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "modernisme, Antoni Gaudí",
+    "es": "modernismo, Antoni Gaudí",
+    "en": "catalan modern style, Antoni Gaudí"
+  },
+  "descCodes": [
+    42,
+    1322
+  ],
+  "description": {
+    "en": "Set of association activities focused on the learning and recognizing some of the most important works of Antoni Gaudi.",
+    "ca": "Conjunt d'activitats d'associació que tenen com a objectiu l'aprenentatge i el reconeixement d'algunes de les obres més importants d'Antoni Gaudí.",
+    "es": "Conjunto de actividades de asociación que tienen como objetivo el aprendizaje y el reconocimiento de algunas de las obras más importantes de Antoni Gaudí."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/gaudi4.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/gaudi4.jclic.zip",
+  "instFile": "jclic/gaudi4.jclic.inst",
+  "clicZoneId": 3099,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3099",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/gaudi4/jclic/gaudi4.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 45,
+  "totalSize": 556903,
+  "files": [
+    "cover.jpg",
+    "jclic.js/balco2.jpg",
+    "jclic.js/banc3.jpg",
+    "jclic.js/bancg.jpg",
+    "jclic.js/batllo.jpg",
+    "jclic.js/bolet.jpg",
+    "jclic.js/cargol.jpg",
+    "jclic.js/diparc.jpg",
+    "jclic.js/enamorat.jpg",
+    "jclic.js/epedrera.jpg",
+    "jclic.js/escalesg.jpg",
+    "jclic.js/fpedrera.jpg",
+    "jclic.js/gaudi.jpg",
+    "jclic.js/gaudi4.jclic",
+    "jclic.js/llangp_1.jpg",
+    "jclic.js/llparc.jpg",
+    "jclic.js/mascara.jpg",
+    "jclic.js/menjador.jpg",
+    "jclic.js/moltbe.gif",
+    "jclic.js/natura.jpg",
+    "jclic.js/ndiparc.gif",
+    "jclic.js/nogaudi.jpg",
+    "jclic.js/npedrera.jpg",
+    "jclic.js/palcat.jpg",
+    "jclic.js/parcgue.jpg",
+    "jclic.js/pcgaudi1.jpg",
+    "jclic.js/pedrera.jpg",
+    "jclic.js/plat.jpg",
+    "jclic.js/plat1.jpg",
+    "jclic.js/portapar.jpg",
+    "jclic.js/porterb.jpg",
+    "jclic.js/rampanat.jpg",
+    "jclic.js/ratapala.jpg",
+    "jclic.js/reixapal.jpg",
+    "jclic.js/sagfamil.jpg",
+    "jclic.js/sagrada.jpg",
+    "jclic.js/sarganta.jpg",
+    "jclic.js/saure.jpg",
+    "jclic.js/serp.jpg",
+    "jclic.js/seu.jpg",
+    "jclic.js/sillons.jpg",
+    "jclic.js/taull.jpg",
+    "jclic.js/tfamilia.jpg",
+    "jclic.js/tpedrera.jpg",
+    "jclic.js/viaduc.jpg",
+    "jclic.js/xemeneia.jpg",
+    "jclic.js/xvidres.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/gaudi4.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

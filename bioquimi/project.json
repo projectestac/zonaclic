@@ -1,0 +1,93 @@
+{
+  "id": 2151,
+  "title": "Biomoléculas inorgánicas y orgánicas",
+  "author": "Erich Velásquez Pebe",
+  "school": "IE Elias Aguirre 7224 Lima (Perú)",
+  "date": "20/05/11",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "biologia, bioquímica",
+    "es": "biología, bioquímica",
+    "en": "biology, biochemical"
+  },
+  "descCodes": [
+    58,
+    1418
+  ],
+  "description": {
+    "en": "Project of activities about inorganic and organic biomolecules: \n<ul> \n <li>Protein </li>\n <li>Carbohydrates </li>\n <li>Lipids </li>\n <li>Nucleic Acids </li>\n <li>Water  </li>\n</ul>",
+    "ca": "Projecte d'activitats que té com a objectiu l'aprenentatge de les característiques i funcions de les principals biomolècules inorgàniques i orgàniques: \n<ul> \n <li>Proteïnes </li>\n <li>Carbohidrats </li>\n <li>Lípids </li>\n <li>Àcids nucleics </li>\n <li>Aigua </li>\n</ul>",
+    "es": "Proyecto de actividades tiene como objetivo el aprendizaje de las características y funciones de las principales biomoléculas inorgánicas y orgánicas: \n<ul> \n <li>Proteínas </li>\n <li>Carbohidratos </li>\n <li>Lípidos </li>\n <li>Ácidos nucleicos </li>\n <li>Agua </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/bioquimi.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/bioquimi.jclic.zip",
+  "instFile": "jclic/bioquimi.jclic.inst",
+  "clicZoneId": 3689,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3689",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/bioquimi/jclic/bioquimi.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 13,
+  "totalSize": 7275410,
+  "files": [
+    "cover.jpg",
+    "jclic.js/acido03.bmp",
+    "jclic.js/acido04.bmp",
+    "jclic.js/agua.bmp",
+    "jclic.js/banjo.wav",
+    "jclic.js/biomoleculas.bmp",
+    "jclic.js/bioquimi.jclic",
+    "jclic.js/cuadrocomparativo.bmp",
+    "jclic.js/cuadrocomparativo2.bmp",
+    "jclic.js/desoxirribosa.bmp",
+    "jclic.js/filedone.wav",
+    "jclic.js/pelicula5.avi",
+    "jclic.js/ribosa.bmp",
+    "jclic.js/untitled.bmp",
+    "jclic.js/untitled.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/bioquimi.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

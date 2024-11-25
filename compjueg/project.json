@@ -1,0 +1,85 @@
+{
+  "id": 1169,
+  "title": "Comp-Juega",
+  "author": "Viviana Alejandra Vergara Fernández",
+  "school": "Universidad.de Concepción Concepción (Xile)",
+  "date": "14/06/04",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, verbs",
+    "es": "aprendizaje de la lengua, verbos",
+    "en": "learning of the language, verbs"
+  },
+  "descCodes": [
+    110,
+    905
+  ],
+  "description": {
+    "en": "\"Comp-Jugar\" contains theory and activities about the conjugation of the Spanish regular verbs: personal and non-personal forms, model verb conjugation.\n<br>It¿s addressed to secondary school.",
+    "ca": "\"Comp-Jugar\" consta de teoria i activitats sobre la conjugació dels verbs regulars en espanyol: formes no personals, formes personals, conjugació dels verbs models.\n<br> El paquet s'adreça a alumnes d'ensenyament secundari i batxillerat.",
+    "es": "\"Comp-Jugar\" consta de teoría y actividades sobre la conjugación de los verbos regulares del español: formas no-personales, formas personales, conjugación de los verbos modelos.\n<br> Es recomendable para alumnos de enseñanza secundaria y bachillerato."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/compjueg.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/compjueg.jclic.zip",
+  "instFile": "jclic/compjueg.jclic.inst",
+  "clicZoneId": 2647,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2647",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/compjueg/jclic/compjueg.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 83,
+  "mediaFiles": 5,
+  "totalSize": 1291017,
+  "files": [
+    "cover.jpg",
+    "jclic.js/biblio.gif",
+    "jclic.js/compjueg.jclic",
+    "jclic.js/cont.gif",
+    "jclic.js/index.gif",
+    "jclic.js/musica.gif",
+    "jclic.js/persona.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/compjueg.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

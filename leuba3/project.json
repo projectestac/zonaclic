@@ -1,0 +1,116 @@
+{
+  "id": 1049,
+  "title": "Actividades de lecto-escritura",
+  "author": "Edith Johana Barón, Flor Alba Olaya i Pablo Amaya",
+  "school": "Unidad de educación básica \"Las Américas\" Bogotá DC (Colombia)",
+  "date": "13/06/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, ortografia",
+    "es": "lengua castellana, ortografía",
+    "en": "Spanish language, spelling"
+  },
+  "descCodes": [
+    132,
+    146
+  ],
+  "description": {
+    "en": "Package of activities thought to train the usage of the letters \"V\" and \"B\" and the combinations \"mp\" and \"mb\" in Spanish. This package is for the first and the second level of primary school.",
+    "ca": "Paquet d'activitats d'activitats per practicar l'ús de les lletres \"V\" i \"B\" i les combinacions \"mp\" i \"mb\" en castellà, per primer i segon de primària.",
+    "es": "Paquete de actividades para practicar el uso de las letras \"V\" y \"B\" y las combinaciones \"mp\" y \"mb\", para primero y segundo de primaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/leuba3.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/leuba3.jclic.zip",
+  "instFile": "jclic/leuba3.jclic.inst",
+  "clicZoneId": 2221,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2221",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/leuba3/jclic/leuba3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 26,
+  "mediaFiles": 36,
+  "totalSize": 354355,
+  "files": [
+    "cover.gif",
+    "jclic.js/ang.gif",
+    "jclic.js/b.gif",
+    "jclic.js/bananot.gif",
+    "jclic.js/besog.gif",
+    "jclic.js/bocat.gif",
+    "jclic.js/bombip.gif",
+    "jclic.js/botat.gif",
+    "jclic.js/busg.gif",
+    "jclic.js/byv.gif",
+    "jclic.js/byv2.gif",
+    "jclic.js/campesi.gif",
+    "jclic.js/campo.gif",
+    "jclic.js/campp.gif",
+    "jclic.js/euba4.gif",
+    "jclic.js/huevo.gif",
+    "jclic.js/huevof.gif",
+    "jclic.js/leuba3.jclic",
+    "jclic.js/mp.gif",
+    "jclic.js/navet.gif",
+    "jclic.js/nubet.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/rv.gif",
+    "jclic.js/sombrep.gif",
+    "jclic.js/sombret.gif",
+    "jclic.js/sombrip.gif",
+    "jclic.js/sombrit.gif",
+    "jclic.js/uvasg.gif",
+    "jclic.js/v.gif",
+    "jclic.js/vacap.gif",
+    "jclic.js/vacat.gif",
+    "jclic.js/vasot.gif",
+    "jclic.js/velap.gif",
+    "jclic.js/velat.gif",
+    "jclic.js/venadop.gif",
+    "jclic.js/venadot.gif",
+    "jclic.js/vinog.gif",
+    "jclic.js/vinop.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/leuba3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

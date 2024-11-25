@@ -1,0 +1,121 @@
+{
+  "id": 2250,
+  "title": "El sonido",
+  "author": "Begoña García Fernández",
+  "school": "IES Ciudad de Melilla Málaga (Andalucía)",
+  "date": "18/05/12",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "so",
+    "es": "sonido",
+    "en": "sound"
+  },
+  "descCodes": [
+    1357
+  ],
+  "description": {
+    "en": "JClic project about the sound with activities about the concepts of wave, wave mechanics, sound, frequency and propagation speed, qualities of sound, ultrasound and infrasound, echo and reverb, as well as the physiology and functioning of the ear.",
+    "ca": "Projecte Jclic sobre el so amb activitats de tot tipus sobre els conceptes d'ona, ona mecànica, so, freqüència i velocitat de propagació, qualitats del so, utrasons i infrasons, eco i reverberació, així com la fisiologia i el funcionament de l'oïda.",
+    "es": "Proyecto JClic sobre el sonido con actividades de todo tipo sobre los conceptos de onda, onda mecánica, sonido, frecuencia y velocidad de propagación, cualidades del sonido, ultrasonidos e infrasonidos, eco y reverberación, así como la fisiología y funcionamiento del oído."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/elsonido.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/elsonido.jclic.zip",
+  "instFile": "jclic/elsonido.jclic.inst",
+  "clicZoneId": 3768,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3768",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/elsonido/jclic/elsonido.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 42,
+  "totalSize": 3193501,
+  "files": [
+    "cover.png",
+    "jclic.js/boto0102.gif",
+    "jclic.js/c14.gif",
+    "jclic.js/campana.jpg",
+    "jclic.js/campana.mp3",
+    "jclic.js/cascabeles.mp3",
+    "jclic.js/cascabeles4.jpg",
+    "jclic.js/contam_acust.jpg",
+    "jclic.js/cuerda_guitarra_vibrando.bmp",
+    "jclic.js/db.jpg",
+    "jclic.js/delfin2.jpg",
+    "jclic.js/eco.jpg",
+    "jclic.js/eco.mp3",
+    "jclic.js/ecografia.jpg",
+    "jclic.js/ecolocallizacion.jpg",
+    "jclic.js/elefante3.jpg",
+    "jclic.js/elsonido.jclic",
+    "jclic.js/emo11.gif",
+    "jclic.js/fleaazul17.gif",
+    "jclic.js/gong.jpg",
+    "jclic.js/gong.mp3",
+    "jclic.js/guitarra.jpg",
+    "jclic.js/hercio.jpg",
+    "jclic.js/hombre.jpg",
+    "jclic.js/intensidad2.jpg",
+    "jclic.js/lobo.jpg",
+    "jclic.js/murcielago.jpg",
+    "jclic.js/murcielagop.jpg",
+    "jclic.js/musica.mp3",
+    "jclic.js/musica_guitarra.mp3",
+    "jclic.js/notas_musicales.jpg",
+    "jclic.js/oido2.jpg",
+    "jclic.js/ondas.jpg",
+    "jclic.js/ondas_sonido.jpg",
+    "jclic.js/ondasagua.bmp",
+    "jclic.js/pin_rojo.gif",
+    "jclic.js/reverberacion2.mp3",
+    "jclic.js/sonar.png",
+    "jclic.js/sonido.jpg",
+    "jclic.js/stars.jpg",
+    "jclic.js/timbre.gif",
+    "jclic.js/tono.gif",
+    "jclic.js/xilofono.jpg",
+    "jclic.js/xilofono.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/elsonido.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

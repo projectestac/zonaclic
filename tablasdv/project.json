@@ -1,0 +1,95 @@
+{
+  "id": 642,
+  "title": "Las tablas de multiplicar - 2 (Discapacidad visual baja visión)",
+  "author": "Reinaldo Carrascosa Vallejo",
+  "school": "CP Lorenzo Goicoa Villava (Navarra)",
+  "date": "21/11/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aritmètica, fonaments de les matemàtiques",
+    "es": "aritmética, fundamentos de las matemáticas",
+    "en": "Arithmetic, foundations of the mathematics"
+  },
+  "descCodes": [
+    701,
+    707
+  ],
+  "description": {
+    "en": "Activity pack about the multiplication tables. The student can practice the tables from two to nine.\n<br> It is adapted for low vision impaired children.",
+    "ca": "Paquet sobre les taules de multiplicar. Conté activitats d'exercitació sobre les taules del 2 al 9, tres activitats d'avaluació i un bloc amb exercicis diversos de càlcul.\n<br> Adaptat per discapacitat visual baixa visió.",
+    "es": "Paquete sobre las tablas de multiplicar. Contiene actividades de ejercitación con las tablas del 2 al 9, tres actividades de evaluación y un bloque con ejercicios diversos de cálculo.\n<br> Adaptado para discapacidad visual baja visión."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "biderket",
+    "tablamul"
+  ],
+  "mainFile": "jclic.js/tablasdv.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tablasdv.jclic.zip",
+  "instFile": "jclic/tablasdv.jclic.inst",
+  "clicZoneId": 1343,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1343",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/tablasdv/jclic/tablasdv.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 71,
+  "mediaFiles": 11,
+  "totalSize": 1403065,
+  "files": [
+    "cover.gif",
+    "jclic.js/s2x0.wav",
+    "jclic.js/s2x1.wav",
+    "jclic.js/s2x10.wav",
+    "jclic.js/s2x2.wav",
+    "jclic.js/s2x3.wav",
+    "jclic.js/s2x4.wav",
+    "jclic.js/s2x5.wav",
+    "jclic.js/s2x6.wav",
+    "jclic.js/s2x7.wav",
+    "jclic.js/s2x8.wav",
+    "jclic.js/s2x9.wav",
+    "jclic.js/tablasdv.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/tablasdv.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

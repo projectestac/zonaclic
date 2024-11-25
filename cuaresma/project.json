@@ -1,0 +1,83 @@
+{
+  "id": 1527,
+  "title": "La Cuaresma",
+  "school": "CEIP Juan Carlos I Torredelcampo (Jaén) (Andalucía)",
+  "date": "17/01/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "religió",
+    "es": "religión",
+    "en": "religion"
+  },
+  "descCodes": [
+    1358
+  ],
+  "description": {
+    "en": "Project of activities about catholic religion about Lent, 40 days before Easter.",
+    "ca": "Projecte d'activitats de religió sobre la Quaresma, període de 40 dies que precedeix a la festa de Pasqua.",
+    "es": "Proyecto de actividades de religión católica sobre La Cuaresma, periodo de 40 días que precede a la fiesta de Pascua."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cuaresma.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cuaresma.jclic.zip",
+  "instFile": "jclic/cuaresma.jclic.inst",
+  "clicZoneId": 3255,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3255",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cuaresma/jclic/cuaresma.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 5,
+  "totalSize": 814648,
+  "files": [
+    "cover.jpg",
+    "jclic.js/cena.gif",
+    "jclic.js/colegio.gif",
+    "jclic.js/cruci.gif",
+    "jclic.js/cuaresma.jclic",
+    "jclic.js/ramos2.gif",
+    "jclic.js/resu.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cuaresma.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

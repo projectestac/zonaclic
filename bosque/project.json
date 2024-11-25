@@ -1,0 +1,93 @@
+{
+  "title": "Juguemos en el bosque",
+  "author": "Patricia Plada (Autor)",
+  "date": "21/11/19",
+  "langCodes": [
+    "es"
+  ],
+  "languages": {
+    "es": "español",
+    "ca": "espanyol",
+    "en": "Spanish"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "areas": {
+    "es": "Lenguas",
+    "ca": "Llengües",
+    "en": "Languages"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "levels": {
+    "es": "Infantil (3-6)",
+    "ca": "Infantil (3-6)",
+    "en": "Kindergarten (3-6)"
+  },
+  "description": {
+    "es": "Actividades de lectoescritura con palabras relacionadas al tema, pensado para nivel preescolar y primer año de primaria. \r\nContiene juegos de memoria, actividades para asociar dibujos con palabras, armar palabras y puzzles entre otras.",
+    "ca": "Activitats de lectoescriptura amb paraules relacionades amb el tema del bosc, pensat per a nivell preescolar i primer any de primària.\nConté jocs de memòria, activitats per associar dibuixos amb paraules, construir paraules i puzles, entre d'altres.",
+    "en": "Reading and writing activities with words related to the theme of the forest, designed for preschool and first year of primary school.\nContains memory games, activities to associate pictures with words, build words and puzzles, among others."
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "es",
+    "ca",
+    "en"
+  ],
+  "cover": "cover.png",
+  "thumbnail": "thumb.png",
+  "mainFile": "jclic.js/bosque.jclic",
+  "activities": 38,
+  "mediaFiles": 34,
+  "totalSize": 8875910,
+  "instFile": "jclic/bosque.jclic.inst",
+  "zipFile": "jclic/bosque.jclic.zip",
+  "files": [
+    "cover.png",
+    "jclic.js/arbol-esq.bmp",
+    "jclic.js/arbol.bmp",
+    "jclic.js/bosque.jclic",
+    "jclic.js/bosque.jclic.js",
+    "jclic.js/caratula.bmp",
+    "jclic.js/favicon.ico",
+    "jclic.js/fin.bmp",
+    "jclic.js/flor-esq.bmp",
+    "jclic.js/flor.bmp",
+    "jclic.js/fruto-esq.bmp",
+    "jclic.js/fruto.bmp",
+    "jclic.js/frutogde.bmp",
+    "jclic.js/hojas-esq.bmp",
+    "jclic.js/hojas.bmp",
+    "jclic.js/hornero-esq.bmp",
+    "jclic.js/hornero.bmp",
+    "jclic.js/horngde.bmp",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/inicio.bmp",
+    "jclic.js/nido-esq.bmp",
+    "jclic.js/nido.bmp",
+    "jclic.js/nidogde.bmp",
+    "jclic.js/raicegde.bmp",
+    "jclic.js/raices-esq.bmp",
+    "jclic.js/raices.bmp",
+    "jclic.js/rama-esq.bmp",
+    "jclic.js/rama.bmp",
+    "jclic.js/ramagde.bmp",
+    "jclic.js/sol-esq.bmp",
+    "jclic.js/sol.bmp",
+    "jclic.js/solgde.bmp",
+    "jclic.js/tronco-esq.bmp",
+    "jclic.js/tronco.bmp",
+    "project.json",
+    "thumb.png"
+  ]
+}

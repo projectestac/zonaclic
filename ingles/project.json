@@ -1,0 +1,123 @@
+{
+  "id": 369,
+  "title": "Inglés para 3º de primaria",
+  "author": "Domingo Méndez",
+  "school": "Colegio Jaime Balmes Cieza (Murcia)",
+  "date": "19/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa",
+    "es": "lengua inglesa",
+    "en": "English language"
+  },
+  "descCodes": [
+    667
+  ],
+  "description": {
+    "en": "English vocabulary activities that deal with: The body, sports and numbers.",
+    "ca": "Activitats de vocabulari anglès per a alumnes de 3er de primària on es treballen les parts de cos, els esports i els nombres. Les activitats tenen fitxers de so per tal que els alumnes puguin escoltar com es pronuncien les paraules.",
+    "es": "Actividades de vocabulario inglés para alumnos de 3º de primaria en las que se revisan las partes del cuerpo, los deportes y los números. Las actividades contienen ficheros de sonido para que así pueda el alumno escuchar la pronunciación de las palabras."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ingles.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ingles.jclic.zip",
+  "instFile": "jclic/ingles.jclic.inst",
+  "clicZoneId": 1208,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1208",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ingles/jclic/ingles.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 44,
+  "totalSize": 1580311,
+  "files": [
+    "cover.gif",
+    "jclic.js/balonces.gif",
+    "jclic.js/baseb.gif",
+    "jclic.js/be.wav",
+    "jclic.js/bm.wav",
+    "jclic.js/boca.gif",
+    "jclic.js/boca.wav",
+    "jclic.js/brazo.gif",
+    "jclic.js/brazo.wav",
+    "jclic.js/cabeza.gif",
+    "jclic.js/cabeza.wav",
+    "jclic.js/circulo.gif",
+    "jclic.js/cuadrado.gif",
+    "jclic.js/cuerpo.gif",
+    "jclic.js/elc.gif",
+    "jclic.js/elp.gif",
+    "jclic.js/elp2.gif",
+    "jclic.js/enelpelo.gif",
+    "jclic.js/futbol.gif",
+    "jclic.js/ingles.jclic",
+    "jclic.js/la.wav",
+    "jclic.js/lf.wav",
+    "jclic.js/ll.wav",
+    "jclic.js/ln.wav",
+    "jclic.js/mano.gif",
+    "jclic.js/nariz.gif",
+    "jclic.js/ojos.gif",
+    "jclic.js/ojos.wav",
+    "jclic.js/oreja.gif",
+    "jclic.js/oreja.wav",
+    "jclic.js/picture.gif",
+    "jclic.js/picture2.gif",
+    "jclic.js/picture3.gif",
+    "jclic.js/picture6.gif",
+    "jclic.js/pie.gif",
+    "jclic.js/piernas.gif",
+    "jclic.js/piernas.wav",
+    "jclic.js/pies.gif",
+    "jclic.js/portada.jpg",
+    "jclic.js/rect.gif",
+    "jclic.js/running.gif",
+    "jclic.js/sa.wav",
+    "jclic.js/sh.wav",
+    "jclic.js/tenis.gif",
+    "jclic.js/tri.gif",
+    "jclic.js/voley.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ingles.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": 1217,
+  "title": "Aus rapinyaires nocturnes",
+  "author": "Anselm Alàs",
+  "school": "Escola Mossèn Jacint Verdaguer Sant Sadurní d'Anoia (Alt Penedès)",
+  "date": "27/01/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "recurs natural, aus rapinyàires",
+    "es": "recurso natural, bird of prey",
+    "en": "natural resource, aves rapaces"
+  },
+  "descCodes": [
+    98,
+    1240
+  ],
+  "description": {
+    "en": "Clic activities about the birds of pray.",
+    "ca": "Paquet d'activitats sobre les aus rapinyaires nocturnes que forma part d'una \n<a href=\"http://www.xtec.cat/~aalas/webquest/nocturnes.html\">WebQuest</a> sobre el mateix tema.",
+    "es": "Paquete de actividades sobre las aves rapaces que forma parte de una \n<a href=\"http://www.xtec.cat/~aalas/webquest/nocturnes.html\">WebQuest</a> del mismo tema."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ausnoc.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ausnoc.jclic.zip",
+  "instFile": "jclic/ausnoc.jclic.inst",
+  "clicZoneId": 2963,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2963",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ausnoc/jclic/ausnoc.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 45,
+  "totalSize": 5452357,
+  "files": [
+    "cover.jpg",
+    "jclic.js/1.jpg",
+    "jclic.js/11.jpg",
+    "jclic.js/1banyut.jpg",
+    "jclic.js/1gamarus.jpg",
+    "jclic.js/1mussol.jpg",
+    "jclic.js/1oliba.jpg",
+    "jclic.js/1xot.jpg",
+    "jclic.js/2.jpg",
+    "jclic.js/3.jpg",
+    "jclic.js/4.jpg",
+    "jclic.js/5.jpg",
+    "jclic.js/6.jpg",
+    "jclic.js/ausnoc.jclic",
+    "jclic.js/banut2.jpg",
+    "jclic.js/banyut.jpg",
+    "jclic.js/banyut.wav",
+    "jclic.js/cbanyut.jpg",
+    "jclic.js/cduc.jpg",
+    "jclic.js/cgamarus.jpg",
+    "jclic.js/cmussol.jpg",
+    "jclic.js/coliba.jpg",
+    "jclic.js/cxot.jpg",
+    "jclic.js/duc.jpg",
+    "jclic.js/duc.wav",
+    "jclic.js/duc2.jpg",
+    "jclic.js/elbanyut.gif",
+    "jclic.js/elduc.gif",
+    "jclic.js/elmussol.gif",
+    "jclic.js/elxot.gif",
+    "jclic.js/gamarus.jpg",
+    "jclic.js/gamarus.wav",
+    "jclic.js/gamarus2.jpg",
+    "jclic.js/gamarus3.gif",
+    "jclic.js/gfx4.wav",
+    "jclic.js/loliba.gif",
+    "jclic.js/music.wav",
+    "jclic.js/mussol.jpg",
+    "jclic.js/mussol.wav",
+    "jclic.js/mussol2.jpg",
+    "jclic.js/oliba.wav",
+    "jclic.js/oliba2.jpg",
+    "jclic.js/oliba3.jpg",
+    "jclic.js/presen.gif",
+    "jclic.js/xot.jpg",
+    "jclic.js/xot.wav",
+    "jclic.js/xot2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ausnoc.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

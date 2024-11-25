@@ -1,0 +1,107 @@
+{
+  "id": 1803,
+  "title": "Volem pa amb oli!",
+  "author": "Maria Torres Español",
+  "school": "Escola Els Planells Artesa de Segre (Noguera)",
+  "date": "28/10/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Miscellaneous",
+    "ca": "Ciències experimentals, Diversos",
+    "es": "Ciencias experimentales, Diversos"
+  },
+  "areaCodes": [
+    "exp",
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "aliments, salut",
+    "es": "alimentos, salud",
+    "en": "foods, health"
+  },
+  "descCodes": [
+    49,
+    101
+  ],
+  "description": {
+    "en": "Project of JClic activities focused on healthy nutrition, traditional and home-made food to teach it at kindergarten, P3 level, and to do a practical and written work at the classroom. In the next kindergarten level, P4, the activities are done at the computer classroom.",
+    "ca": "Projecte d'activitats JClic on partint de l'alimentació saludable, casolana i tradicional per treballar aquests tastets a P3, i fer-ne un treball pràctic i de paper a l'aula. Després, a P4 poden fer les activitats a l'aula d'informàtica.",
+    "es": "Proyecto de actividades JClic donde partiendo de la alimentación saludable, casera y tradicional para trabajar en P3 y hacer un trabajo práctico y de papel en el aula. Después, en P4, pueden hacer las actividades en el aula de informática."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/pamboli.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pamboli.jclic.zip",
+  "instFile": "jclic/pamboli.jclic.inst",
+  "clicZoneId": 3499,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3499",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pamboli/jclic/pamboli.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 26,
+  "totalSize": 3271903,
+  "files": [
+    "cover.jpg",
+    "jclic.js/barra.jpg",
+    "jclic.js/busca_foto_nom.mp3",
+    "jclic.js/busca_fotos_amagades.mp3",
+    "jclic.js/clica_la_foto.mp3",
+    "jclic.js/escolta_el_nom_i_relaciona.mp3",
+    "jclic.js/escolta_i_escriu.mp3",
+    "jclic.js/fes_aquest_puzzle.mp3",
+    "jclic.js/ja_has_acabat.mp3",
+    "jclic.js/molt_be.mp3",
+    "jclic.js/oli.jpg",
+    "jclic.js/oli.mp3",
+    "jclic.js/opcio_correcta.mp3",
+    "jclic.js/pa.wav",
+    "jclic.js/pa_amb_oli__14_3_07_064.jpg",
+    "jclic.js/pa_amb_xocolata.wav",
+    "jclic.js/pamboli.jclic",
+    "jclic.js/relaciona_foto_nom.mp3",
+    "jclic.js/sal.jpg",
+    "jclic.js/sal.mp3",
+    "jclic.js/sopa_de_lletres.mp3",
+    "jclic.js/sucre.jpg",
+    "jclic.js/sucre.mp3",
+    "jclic.js/tomates.jpg",
+    "jclic.js/tomates.mp3",
+    "jclic.js/tria.mp3",
+    "jclic.js/xocolata.mp3",
+    "jclic.js/xocolate.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pamboli.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

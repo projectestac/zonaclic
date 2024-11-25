@@ -1,0 +1,80 @@
+{
+  "id": 1526,
+  "title": "Andalucía",
+  "school": "CEIP Juan Carlos I Torredelcampo (Jaén) (Andalucía)",
+  "date": "17/01/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "Projects of activities about Andalusia.\n<ul> \n <li>cities </li>\n <li>geographical features </li>\n <li>hymn </li>\n <li>shield </li>\n <li>monuments </li>\n</ul>",
+    "ca": "Projecte d'activitats per treballar diferents temes sobre la comunitat autònoma d'Andalusia. \n<ul> \n <li>ciutats </li>\n <li>accidents geogràfics </li>\n <li>himne </li>\n <li>escut </li>\n <li>monuments </li>\n</ul>",
+    "es": "Proyecto de actividades para trabajar diferentes temas sobre la comunidad autónoma de Andalucía. \n<ul> \n <li>ciudades </li>\n <li>accidentes geográficos </li>\n <li>himno </li>\n <li>escudo </li>\n <li>monumentos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/andaluz.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/andaluz.jclic.zip",
+  "instFile": "jclic/andaluz.jclic.inst",
+  "clicZoneId": 3254,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3254",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/andaluz/jclic/andaluz.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 10,
+  "totalSize": 804119,
+  "files": [
+    "cover.jpg",
+    "jclic.js/alhambr1.gif",
+    "jclic.js/andalu.gif",
+    "jclic.js/andaluz.jclic",
+    "jclic.js/catedr.gif",
+    "jclic.js/colegio.gif",
+    "jclic.js/escole.gif",
+    "jclic.js/escudo.gif",
+    "jclic.js/giralda.gif",
+    "jclic.js/mapa1.gif",
+    "jclic.js/mapafi1.gif",
+    "jclic.js/mapamudo.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/andaluz.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": 1670,
+  "title": "Miguel de Cervantes Saavedra",
+  "author": "David Jurado Muñoz",
+  "school": "Colegio \"El Atabal\" Mälaga (Andalucía)",
+  "date": "11/05/07",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "literatura castellana, Cervantes",
+    "es": "literatura castellana, Cervantes",
+    "en": "Castilian Literature, Cervantes"
+  },
+  "descCodes": [
+    626,
+    1377
+  ],
+  "description": {
+    "en": "Project of activities about Cervantes. The activities are addressed to primary education and they have ten parts.",
+    "ca": "Projecte d'activitats sobre la vida de Cervantes. Les activitats estan adreçades a sisè d'educació primària i estan dividides en deu parts, una per cada una de les etapes de la vida de l'escriptor: Infància, la batalla de Lepant, El Quixot...",
+    "es": "Proyecto de actividades sobre la vida de Cervantes. Las actividades están dirigidas a sexto de educación primaria y están divididas en diez partes, una por cada una de las etapas de la vida del escritor: Infancia, la batalla de Lepanto, El Quijote..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cervant2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cervant2.jclic.zip",
+  "instFile": "jclic/cervant2.jclic.inst",
+  "clicZoneId": 3380,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3380",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cervant2/jclic/cervant2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 62,
+  "mediaFiles": 14,
+  "totalSize": 1020217,
+  "files": [
+    "cover.jpg",
+    "jclic.js/0004.jpg",
+    "jclic.js/0017.jpg",
+    "jclic.js/200px.jpg",
+    "jclic.js/cervan2.gif",
+    "jclic.js/cervan3.jpg",
+    "jclic.js/cervan_1.gif",
+    "jclic.js/cervant2.jclic",
+    "jclic.js/copiad_2.jpg",
+    "jclic.js/d4.gif",
+    "jclic.js/dibujo.gif",
+    "jclic.js/images.jpg",
+    "jclic.js/lapida.jpg",
+    "jclic.js/montblanc.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/untitled.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cervant2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": 120,
+  "title": "Prevención de drogodependencias",
+  "author": "Ester Castejón",
+  "school": "Institut Torre Roja Viladecans (Baix Llobregat)",
+  "date": "09/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "medicina preventiva, salut",
+    "es": "medicina preventiva, salud",
+    "en": "preventive medicine, health"
+  },
+  "descCodes": [
+    88,
+    101
+  ],
+  "description": {
+    "en": "Activity pack about the social and physiological effects of drug addiction. It covers both legal and illegal drugs.",
+    "ca": "Paquet on es plantegen activitats relacionades amb els efectes fisiològics i socials de les drogues més comunes, tant les legals com les no legals, amb especial atenció al tabac i l'alcohol. En la nova versió s'hi afegeix un paquet dedicat a treballar estratègies personals per combatre les drogodependències.",
+    "es": "Paquete en el que se plantean actividades relacionadas con los efectos fisiológicos y sociales de las drogas más comunes, tanto las legales como las no legales, con especial atención al tabaco y al alcohol. En la nueva versión se ha añadido un paquete dedicado a estrategias personales para combatir las drogodependencias."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "prevenci"
+  ],
+  "mainFile": "jclic.js/prevesp.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/prevesp.jclic.zip",
+  "instFile": "jclic/prevesp.jclic.inst",
+  "clicZoneId": 1057,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1057",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/prevesp/jclic/prevesp.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 51,
+  "mediaFiles": 8,
+  "totalSize": 660514,
+  "files": [
+    "cover.gif",
+    "jclic.js/alveol.jpg",
+    "jclic.js/grup.jpg",
+    "jclic.js/joves.gif",
+    "jclic.js/mafalda.gif",
+    "jclic.js/passiu.jpg",
+    "jclic.js/prevesp.jclic",
+    "jclic.js/salut.gif",
+    "jclic.js/sinapsi.jpg",
+    "jclic.js/stop.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/prevesp.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

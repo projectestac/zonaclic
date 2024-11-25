@@ -1,0 +1,105 @@
+{
+  "id": 2181,
+  "title": "La Prehistoria",
+  "author": "Mª Ángeles Morales",
+  "school": "CEIP Jacarandá Sevilla Sevilla (Andalucía)",
+  "date": "06/10/11",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "prehistòria",
+    "es": "prehistoria",
+    "en": "prehistory"
+  },
+  "descCodes": [
+    314
+  ],
+  "description": {
+    "en": "JClic activities about Prehistory addressed to pupils at primary school: \n<ul> \n <li>Prehistory definition </li>\n <li>Prehistory periods </li>\n <li>Prehistoric art </li>\n <li> Prehistoric sites </li>\n</ul>",
+    "ca": "Projecte d'activitats JClic sobre la Prehistòria adreçat a alumnes de cicle superior de primària: \n<ul> \n <li>Definició de Prehistòria </li>\n <li>Etapes de la Prehistòria (Neolític, Edat de pedra, Paleolític) </li>\n <li>Art prehistòric </li>\n <li>Llocs amb restes prehistòriques </li>\n</ul>",
+    "es": "Proyecto de actividades JClic sobre la Prehistoria dirigido a alumnos de ciclo superior de primaria: \n<ul> \n <li>Definición de Prehistoria </li>\n <li>Etapas de la Prehistoria (Neolítico, Edad de piedra, Paleolítico) </li>\n <li>Arte prehistórico </li>\n <li>Lugares con restos prehistóricos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "prehi_eu"
+  ],
+  "mainFile": "jclic.js/prehisto.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/prehisto.jclic.zip",
+  "instFile": "jclic/prehisto.jclic.inst",
+  "clicZoneId": 3717,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3717",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/prehisto/jclic/prehisto.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 23,
+  "totalSize": 1187834,
+  "files": [
+    "cover.jpg",
+    "jclic.js/alarma_para_fallo.wav",
+    "jclic.js/bambam.gif",
+    "jclic.js/betty_picapiedra.gif",
+    "jclic.js/campana_para_acierto.mp3",
+    "jclic.js/cilma_picapiedra.gif",
+    "jclic.js/dolmen.jpg",
+    "jclic.js/hacha_de_mano.jpg",
+    "jclic.js/herramientas_para_la_caza_y_recoleccion.jpg",
+    "jclic.js/menhir.jpg",
+    "jclic.js/owl.mp3",
+    "jclic.js/pablo_picapiedra.gif",
+    "jclic.js/paleolitico_cueva..jpg",
+    "jclic.js/pebelspicapiedra.gif",
+    "jclic.js/pedro_picapiedra.gif",
+    "jclic.js/pintura_neolitico.jpg",
+    "jclic.js/pintura_paleolitico.jpg",
+    "jclic.js/prehisto.jclic",
+    "jclic.js/prehistoria_escenas_de_caza.jpg",
+    "jclic.js/sonido_de_arroyo_y_bosque.mp3",
+    "jclic.js/sonido_de_grillos.mp3",
+    "jclic.js/sonido_selva.mp3",
+    "jclic.js/stonehenge.jpg",
+    "jclic.js/tarea_final_resized.jpg",
+    "jclic.js/venus.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/prehisto.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

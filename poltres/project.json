@@ -1,0 +1,130 @@
+{
+  "id": 1905,
+  "title": "Duc, el poltre de Sebes",
+  "author": "María José Cervelló Pérez",
+  "school": "Escola Enric Grau i Fontserè Flix (Ribera d'Ebre)",
+  "date": "25/03/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages, Mathematics, Miscellaneous",
+    "ca": "Ciències experimentals, Llengües, Matemàtiques, Diversos",
+    "es": "Ciencias experimentales, Lenguas, Matemáticas, Diversos"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng",
+    "mat",
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "mamífers, aprenentatge de la llengua, aprenentatge de la matemàtica, cavalls",
+    "es": "mamíferos, aprendizaje de la lengua, aprendizaje de la matemática, cavallos",
+    "en": "mammals, learning of the language, learning of the mathematical one, horses"
+  },
+  "descCodes": [
+    85,
+    110,
+    700,
+    1394
+  ],
+  "description": {
+    "en": "Set of activities about horses with puzzles, numbers, reading and writing, etc. The activities are addressed to kindergarten.",
+    "ca": "Conjunt d'activitats basades en el centre d'interès dels cavalls al poble de Sebes. EL projecte inclou puzles, numeració, càlcul, lectura, escriptura, relacions, associacions... \n<br>Es pretén apropar el món dels cavalls salvatges als nens i nenes d'educació infantil.",
+    "es": "Conjunto de actividades basadas en el centro de interés de los caballos en el pueblo de Sebes. El proyecto incluye puzzles, numeración, cálculo, lectura, escritura, relaciones, asociaciones... \n<br> Se pretende acercar el mundo de los caballos salvajes a los niños y niñas de educación infantil."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/poltres.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/poltres.jclic.zip",
+  "instFile": "jclic/poltres.jclic.inst",
+  "clicZoneId": 3531,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3531",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/poltres/jclic/poltres.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 45,
+  "totalSize": 2847677,
+  "files": [
+    "cover.jpg",
+    "jclic.js/3.1.png",
+    "jclic.js/4.png",
+    "jclic.js/5.png",
+    "jclic.js/6.png",
+    "jclic.js/7.png",
+    "jclic.js/8.png",
+    "jclic.js/9.png",
+    "jclic.js/blanc.png",
+    "jclic.js/blanc_sol.jpg",
+    "jclic.js/busca_noms_cavalls.mp3",
+    "jclic.js/busca_parella.mp3",
+    "jclic.js/caballo35.gif",
+    "jclic.js/clr.gif",
+    "jclic.js/d__busca_paraules.mp3",
+    "jclic.js/dscn3443.jpg",
+    "jclic.js/duc.jpg",
+    "jclic.js/duc.png",
+    "jclic.js/encertat2.mp3",
+    "jclic.js/endevinalla.mp3",
+    "jclic.js/fantastic1.mp3",
+    "jclic.js/fes_el_puzzle2.mp3",
+    "jclic.js/fondo16.jpeg.jpg.gif",
+    "jclic.js/gris.png",
+    "jclic.js/informacio.mp3",
+    "jclic.js/llegeix.mp3",
+    "jclic.js/llegeix_i_relaciona.mp3",
+    "jclic.js/marro.png",
+    "jclic.js/molt_be.mp3",
+    "jclic.js/molt_be_3.mp3",
+    "jclic.js/molt_be_4.mp3",
+    "jclic.js/molt_be_5.mp3",
+    "jclic.js/molt_be_7.mp3",
+    "jclic.js/ordena.mp3",
+    "jclic.js/p5180061.jpg",
+    "jclic.js/p5180062.jpg",
+    "jclic.js/p5180063.jpg",
+    "jclic.js/pintat.gif",
+    "jclic.js/poltre.1.jpg",
+    "jclic.js/poltre.jpg",
+    "jclic.js/poltres.jclic",
+    "jclic.js/presentacio.mp3",
+    "jclic.js/relaciona.mp3",
+    "jclic.js/relaciona1.mp3",
+    "jclic.js/resta.mp3",
+    "jclic.js/suma.mp3",
+    "jclic.js/superbe.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/poltres.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

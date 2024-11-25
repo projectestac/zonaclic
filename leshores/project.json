@@ -1,0 +1,111 @@
+{
+  "id": 2252,
+  "title": "Treballem les hores",
+  "author": "Mercè Pons i Mundet i Roser Soria Martín",
+  "school": "Escola Ardenya Sant Feliu de Guíxols (Baix Empordà)",
+  "date": "31/05/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "temps",
+    "es": "hora",
+    "en": "time"
+  },
+  "descCodes": [
+    907
+  ],
+  "description": {
+    "en": "Project of activities about the hours in first cycle of primary education: \n<ul> \n <li>the hours </li>\n <li>the quarters </li>\n</ul>",
+    "ca": "Projecte d'activitats per treballar les hores a cicle inicial: \n<ul> \n <li>les hores </li>\n <li>els quarts </li>\n</ul>",
+    "es": "Proyecto de actividades para trabajar las horas en ciclo inicial: \n<ul> \n <li>las horas </li>\n <li>los cuartos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/leshores.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/leshores.jclic.zip",
+  "instFile": "jclic/leshores.jclic.inst",
+  "clicZoneId": 3770,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3770",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/leshores/jclic/leshores.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 32,
+  "totalSize": 1334019,
+  "files": [
+    "cover.png",
+    "jclic.js/20120211224334.png",
+    "jclic.js/20120214204315.png",
+    "jclic.js/buscasisnomshores.mp3",
+    "jclic.js/colocalarespostaenellloc.mp3",
+    "jclic.js/dos_quarts_de_dotze.png",
+    "jclic.js/dos_quarts_de_nou.mp3",
+    "jclic.js/dos_quarts_de_tres.mp3",
+    "jclic.js/encaixalespeces.mp3",
+    "jclic.js/escriu_la_resposta.ogg",
+    "jclic.js/fezelpuzzle.mp3",
+    "jclic.js/les_onze_en_punt.mp3",
+    "jclic.js/leshores.jclic",
+    "jclic.js/moltbe.mp3",
+    "jclic.js/presentacio.mp3",
+    "jclic.js/relaciona_cada_rellotge_amb_l_hora.ogg",
+    "jclic.js/rellotge_castor.png",
+    "jclic.js/rellotge_roser.png",
+    "jclic.js/rellotge_roser_2.png",
+    "jclic.js/rellotgethumbnail.php.jpg",
+    "jclic.js/relojes_23.gif",
+    "jclic.js/son_dos_quarts_de_dotze.mp3",
+    "jclic.js/son_les_cinc.mp3",
+    "jclic.js/son_les_dues.mp3",
+    "jclic.js/son_les_quatre.mp3",
+    "jclic.js/son_les_vuit.mp3",
+    "jclic.js/son_un_quart_de_nou.mp3",
+    "jclic.js/tornahoaprovar.mp3",
+    "jclic.js/tres_quarts_de_dues.mp3",
+    "jclic.js/tres_quarts_de_set.mp3",
+    "jclic.js/trialarespostacorrecte.mp3",
+    "jclic.js/trobalesparelles.mp3",
+    "jclic.js/un_quart_de_nou.png",
+    "jclic.js/un_quart_de_sis.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/leshores.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

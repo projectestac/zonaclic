@@ -1,0 +1,93 @@
+{
+  "id": 2036,
+  "title": "Essen und Trinken",
+  "author": "Andrea Mattes",
+  "school": "EOI Vélez-Málaga Vélez-Málaga (Andalucía)",
+  "date": "04/03/10",
+  "languages": {
+    "en": "German",
+    "ca": "alemany",
+    "es": "alemán"
+  },
+  "langCodes": [
+    "de"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua alemanya",
+    "es": "lengua alemana",
+    "en": "German language"
+  },
+  "descCodes": [
+    666
+  ],
+  "description": {
+    "en": "Project of activities in German aimed to learn vocabulary about food and drink. Throughout project also practice modal verbs in German.",
+    "ca": "Projecte d'activitats en alemany per treballar vocabulari sobre el menjar i la beguda. Al llarg de les activitats també es practiquen els verbs modals en alemany.",
+    "es": "Proyecto de actividades en alemán para trabajar vocabulario sobre la comida y la bebida. A lo largo del proyecto también se practican los verbos modales en alemán."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/essenund.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/essenund.jclic.zip",
+  "instFile": "jclic/essenund.jclic.inst",
+  "clicZoneId": 3606,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3606",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/essenund/jclic/essenund.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 14,
+  "totalSize": 482456,
+  "files": [
+    "cover.jpg",
+    "jclic.js/250px_kartoffelsalat.jpg",
+    "jclic.js/800px_obst_supermarkt.jpg",
+    "jclic.js/bier.jpg",
+    "jclic.js/essenund.jclic",
+    "jclic.js/huhnchen.jpg",
+    "jclic.js/kaffee.jpg",
+    "jclic.js/leerer_teller.jpg",
+    "jclic.js/milch.jpg",
+    "jclic.js/mineralwasser.jpg",
+    "jclic.js/saft.jpg",
+    "jclic.js/tee.jpg",
+    "jclic.js/torte.jpg",
+    "jclic.js/wdc_016c.jpg",
+    "jclic.js/wein.jpg",
+    "jclic.js/whisky.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/essenund.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

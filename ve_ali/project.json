@@ -1,0 +1,101 @@
+{
+  "id": 2426,
+  "title": "El trompo de los alimentos",
+  "author": "Carlos Toro",
+  "school": "U.E.E. Prisco Pérez Monasterio (Centro Bolivariano de Informática y Telemática \"Roxana M. de Hernández\") Villa de Cura, Estado Aragua (Venezuela)",
+  "date": "04/02/16",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aliments",
+    "es": "alimentos",
+    "en": "foods"
+  },
+  "descCodes": [
+    49
+  ],
+  "description": {
+    "en": "JClic activities addressed to infantile education about the food pyramid and its parts through memory activities, identification activities and puzzles.",
+    "ca": "Projecte d'activitats adreçades a nens i nenes d'educació infantil que té com objectiu conèixer la piràmide alimentària i les seves parts a través d'activitats de memòria, identificació i trencaclosques. Projecte d'activitats educatives adreçats a nenes i nens d'educació infantil que té com a objectiu conèixer la virolla alimentari i les seves parts, a través d'activitats de memòria, trencaclosques i identificació. Projecte d'activitats educatives adreçats a nenes i nens d'educació infantil que té com a objectiu conèixer la virolla alimentari i les seves parts, a través d'activitats de memòria, trencaclosques i identificació.",
+    "es": "Proyecto de actividades educativas dirigidas a niñas y niños de educación infantil que tiene como objetivo conocer el trompo alimenticio y sus partes, a través de actividades de memoria, identificación y rompecabezas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ve_ali.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ve_ali.jclic.zip",
+  "instFile": "jclic/ve_ali.jclic.inst",
+  "clicZoneId": 3935,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3935",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ve_ali/jclic/ve_ali.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 9,
+  "mediaFiles": 22,
+  "totalSize": 2864612,
+  "files": [
+    "cover.png",
+    "jclic.js/cambur1.jpg",
+    "jclic.js/caraotas2.jpg",
+    "jclic.js/carnes.png",
+    "jclic.js/feliz.png",
+    "jclic.js/fresa.jpg",
+    "jclic.js/guayaba.jpg",
+    "jclic.js/huevo.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/leche.png",
+    "jclic.js/maiz.jpg",
+    "jclic.js/mango.png",
+    "jclic.js/pabellon.jpg",
+    "jclic.js/papa.jpg",
+    "jclic.js/pescado.png",
+    "jclic.js/pina1.jpg",
+    "jclic.js/pollo.png",
+    "jclic.js/portada02.png",
+    "jclic.js/portada1_trompo.jpg",
+    "jclic.js/texture6.gif",
+    "jclic.js/tomate1.jpg",
+    "jclic.js/trompo1.jpg",
+    "jclic.js/trompoalimenticio01.png",
+    "jclic.js/ve_ali.jclic",
+    "jclic.js/zanahorias_1.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ve_ali.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

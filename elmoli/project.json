@@ -1,0 +1,109 @@
+{
+  "id": 1140,
+  "title": "Els molins fariners",
+  "author": "Núria Coma",
+  "school": "Escola Sant Marc Calldetenes (Osona)",
+  "date": "09/06/04",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "història",
+    "es": "historia",
+    "en": "history"
+  },
+  "descCodes": [
+    246
+  ],
+  "description": {
+    "en": "Clic activities destined to primary school. The activities are about the evolution of the grind technology, and about the operation of a hydraulic mill.",
+    "ca": "Paquet d'activitats Clic adreçades als cicles mitjà i superior de primària. S'hi explica l'evolució de les tècniques emprades al llarg de la història per a moldre el gra, i el funcionament d'un molí fariner hidràulic.",
+    "es": "Paquete de actividades Clic dirigidas a los ciclos medio y superior de primaria. En él se explica la evolución de las técnicas empleadas a lo largo de la historia para moler el grano, así como el funcionamiento de un molino harinero hidráulico."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/elmoli.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/elmoli.jclic.zip",
+  "instFile": "jclic/elmoli.jclic.inst",
+  "clicZoneId": 2543,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2543",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/elmoli/jclic/elmoli.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 30,
+  "totalSize": 3444856,
+  "files": [
+    "cover.gif",
+    "jclic.js/1bassa3.jpg",
+    "jclic.js/1molib.jpg",
+    "jclic.js/arbre.wav",
+    "jclic.js/bassa3a.jpg",
+    "jclic.js/bassax.wav",
+    "jclic.js/cadir3a.jpg",
+    "jclic.js/cadirx.wav",
+    "jclic.js/canal.wav",
+    "jclic.js/canot.wav",
+    "jclic.js/carc1.wav",
+    "jclic.js/carc2.wav",
+    "jclic.js/carc2a.wav",
+    "jclic.js/carc3.wav",
+    "jclic.js/carcab1a.jpg",
+    "jclic.js/carcab2.jpg",
+    "jclic.js/carcabx.wav",
+    "jclic.js/elmoli.jclic",
+    "jclic.js/enda.wav",
+    "jclic.js/esqaig1.gif",
+    "jclic.js/farin.wav",
+    "jclic.js/histor1a.jpg",
+    "jclic.js/histor2a.jpg",
+    "jclic.js/mola.wav",
+    "jclic.js/molbe.wav",
+    "jclic.js/molcol2.gif",
+    "jclic.js/molib2.jpg",
+    "jclic.js/molib3.jpg",
+    "jclic.js/resclo2a.jpg",
+    "jclic.js/resclox.wav",
+    "jclic.js/rodet.wav",
+    "jclic.js/trem.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/elmoli.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

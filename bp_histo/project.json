@@ -1,0 +1,126 @@
+{
+  "id": 2210,
+  "title": "El Baix Penedès (El Baix Penedès: la seva història)",
+  "school": "Escola Sant Julià L'Arboç (Baix Penedès), ESC Teresina Martorell El Vendrell (Baix Penedès)",
+  "date": "20/01/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "història, Baix Penedès, població",
+    "es": "historia, Baix Penedès, población",
+    "en": "history, Baix Penedès, population"
+  },
+  "descCodes": [
+    246,
+    474,
+    802
+  ],
+  "description": {
+    "en": "Eight projects of activities about Baix Penedès in Catalonia: \n<ul> \n <li>Famous people </li>\n <li>History </li>\n <li>Population </li>\n <li>Festes tradicionals </li>\n <li>Economy </li>\n <li>Climate </li>\n <li>Situation </li>\n <li>Relieve </li>\n</ul>",
+    "ca": "Vuit projectes d'activitats sobre la comarca del Baix Penedès: \n<ul> \n <li>Personatges il·lustres </li>\n <li>Història </li>\n <li>Població </li>\n <li>Festes tradicionals </li>\n <li>Economia </li>\n <li>Clima </li>\n <li>Situació </li>\n <li>Relleu </li>\n</ul>",
+    "es": "Ocho proyectos de actividades sobre la comarca de el Baix Penedès: \n<ul> \n <li>Personajes ilustres </li>\n <li>Historia </li>\n <li>Población </li>\n <li>Fiestas tradicionales </li>\n <li>Economía </li>\n <li>Clima </li>\n <li>Situación </li>\n <li>Relieve </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "b_penede",
+    "bp_clima",
+    "bp_econo",
+    "bp_festes",
+    "bp_pobla",
+    "bp_relleu",
+    "bp_situa"
+  ],
+  "mainFile": "jclic.js/bp_histo.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/bp_histo.jclic.zip",
+  "instFile": "jclic/bp_histo.jclic.inst",
+  "clicZoneId": 3739,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3739",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/bp_histo/jclic/bp_histo.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 37,
+  "totalSize": 2083814,
+  "files": [
+    "cover.png",
+    "jclic.js/aplaudiments_3_seg.mp3",
+    "jclic.js/aqueducte_roma.jpg",
+    "jclic.js/aqueducte_roma_2.jpg",
+    "jclic.js/arabs.jpg",
+    "jclic.js/barbar.jpg",
+    "jclic.js/bp_histo.jclic",
+    "jclic.js/castell_de_calafell.jpg",
+    "jclic.js/castell_de_la_muga.jpg",
+    "jclic.js/castell_manmellar__la_juncosa_de_montmell.jpg",
+    "jclic.js/castell_mas_llorenc.jpg",
+    "jclic.js/castell_santa_oliva.jpg",
+    "jclic.js/castellet_i_la_gornal.jpg",
+    "jclic.js/ciutadela_iberica_1.jpg",
+    "jclic.js/contraportada_historia.jpg",
+    "jclic.js/cova_de_vall_major.jpg",
+    "jclic.js/estris_iberics_d1.jpg",
+    "jclic.js/estris_iberics_d2.jpg",
+    "jclic.js/i01_aplaudiments_5seg.mp3",
+    "jclic.js/ibers.jpg",
+    "jclic.js/informacio_actualitat.jpg",
+    "jclic.js/informacio_barbars.jpg",
+    "jclic.js/informacio_ibers.jpg",
+    "jclic.js/informacio_prehistoria.jpg",
+    "jclic.js/informacio_reconquesta.jpg",
+    "jclic.js/informacio_romans.jpg",
+    "jclic.js/legionaris.jpg",
+    "jclic.js/monestir_de_sant_cugat_del_valles.jpg",
+    "jclic.js/poblat.jpg",
+    "jclic.js/portada_historia.jpg",
+    "jclic.js/prehistoria_2.jpg",
+    "jclic.js/prehistoria_4.jpg",
+    "jclic.js/prehistoria_estris_1.jpg",
+    "jclic.js/prehistoria_estris_2.jpg",
+    "jclic.js/quadriga.jpg",
+    "jclic.js/raim.jpg",
+    "jclic.js/roma.jpg",
+    "jclic.js/roma_4.jpg",
+    "jclic.js/senyor_medieval_2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/bp_histo.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

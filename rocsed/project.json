@@ -1,0 +1,114 @@
+{
+  "id": 1078,
+  "title": "Classifiquem roques sedimentàries",
+  "author": "Josep Mas Raguer",
+  "school": "Institut Ventura Gassol Badalona (Barcelonès)",
+  "date": "04/11/03",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geologia",
+    "es": "geología",
+    "en": "geology"
+  },
+  "descCodes": [
+    78
+  ],
+  "description": {
+    "en": "Package of activities about sedimentary rocks. The package has two sections: \n<ul> \n <li>The first one it's a introduction to the sedimentary rocks: main groups (dendritic, bio-chemical and organic rocks), how the rocks of these groups were created and its classification. <p> </p></li>\n <li>The second section is a set of exercises about the learned concepts. </li>\n</ul>",
+    "ca": "Paquet d'activitats sobre les roques sedimentàries. El paquet té dos apartats: \n<ul> \n <li>El primer fa una introducció teòrica al món de les roques sedimentàries: grups principals, formació de cada grup i classificació. S¿analitzen els tres grans grups d'aquestes roques: les detrítiques, les d¿origen químic i bioquímic, i per últim les orgàniques. <p> </p></li>\n <li>El segon apartat és una bateria d¿exercicis molt variats i amens que repassen els continguts anteriors. </li>\n</ul>",
+    "es": "Paquete de actividades sobre las rocas sedimentarias. El paquete tiene dos apartados: \n<ul> \n <li>El primero hace una introducción teórica al mundo de las rocas sedimentarias: grupos principales, formación de cada grupo y clasificación. Se analizan los tres grandes grupos en los que se clasifican las rocas de este tipo: detríticas, de origen químico y bioquímico y por último las orgánicas.<p> </p></li>\n <li>El segundo apartado es una batería de ejercicios muy variados y amenos que repasan los contenidos anteriores. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/rocsed.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/rocsed.jclic.zip",
+  "instFile": "jclic/rocsed.jclic.inst",
+  "clicZoneId": 2301,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2301",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/rocsed/jclic/rocsed.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 34,
+  "totalSize": 2758080,
+  "files": [
+    "cover.gif",
+    "jclic.js/antraci1.gif",
+    "jclic.js/arci1.gif",
+    "jclic.js/argilit.gif",
+    "jclic.js/bravo.wav",
+    "jclic.js/c_com1.gif",
+    "jclic.js/c_coral1.gif",
+    "jclic.js/c_num1.gif",
+    "jclic.js/cal_fos1.gif",
+    "jclic.js/cal_sal1.gif",
+    "jclic.js/carbo1.gif",
+    "jclic.js/carbo2.gif",
+    "jclic.js/carnal1.gif",
+    "jclic.js/codol1.gif",
+    "jclic.js/conglom1.gif",
+    "jclic.js/dictat.wav",
+    "jclic.js/eferv.avi",
+    "jclic.js/eferv.gif",
+    "jclic.js/efervno.gif",
+    "jclic.js/error.wav",
+    "jclic.js/es_con.gif",
+    "jclic.js/gres1.gif",
+    "jclic.js/gres2.gif",
+    "jclic.js/guix1.gif",
+    "jclic.js/guix2.gif",
+    "jclic.js/halita1.gif",
+    "jclic.js/lumaqu1.gif",
+    "jclic.js/lupa.gif",
+    "jclic.js/minialt.gif",
+    "jclic.js/moltbe.wav",
+    "jclic.js/rocsed.jclic",
+    "jclic.js/sorra.gif",
+    "jclic.js/sorra11.gif",
+    "jclic.js/sorra2.gif",
+    "jclic.js/sorra3.gif",
+    "jclic.js/torba1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/rocsed.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

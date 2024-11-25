@@ -1,0 +1,138 @@
+{
+  "id": 2286,
+  "title": "Manlleu, capital del Ter",
+  "author": "Maria Josep Palomar González",
+  "school": "Escola Puig-Agut Manlleu (Osona)",
+  "date": "14/02/13",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "Osona",
+    "es": "Osona",
+    "en": "Osona"
+  },
+  "descCodes": [
+    919
+  ],
+  "description": {
+    "en": "JClic project about Manlleu, a city in Catalonia. The project has four different parts: \n<ul> \n <li>The city </li>\n <li>The giants </li>\n <li>Manlleu, Capital of Ter river </li>\n <li>The legend of Manlleu </li>\n</ul>",
+    "ca": "Projecte JClic sobre la ciutat de Manlleu, municipi d'Osona. El projecte consta de quatre blocs temàtics: \n<ul> \n <li>Manlleu, la Ciutat&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </li>\n <li>Els Gegants </li>\n <li>Manlleu, Capital del Ter&nbsp; </li>\n <li>La llegenda del Serpent de Manlleu </li>\n</ul>",
+    "es": "Proyecto de actividades JClic sobre la ciudad de Manlleu, situada en la comarca de Osona. El proyecto consta de cuatro bloques temáticos: \n<ul> \n <li>Manlleu, la ciudad </li>\n <li>Los gigantes </li>\n <li>Manlleu, capital del Ter&nbsp; </li>\n <li>La leyenda de la serpiente de Manlleu </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/manlleu.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/manlleu.jclic.zip",
+  "instFile": "jclic/manlleu.jclic.inst",
+  "clicZoneId": 3800,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3800",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/manlleu/jclic/manlleu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 50,
+  "totalSize": 5369136,
+  "files": [
+    "cover.png",
+    "jclic.js/155px_localitzacio_de_manlleu_respecte_d_osona.svg.png",
+    "jclic.js/348px_escut_de_manlleu_svg.png",
+    "jclic.js/capital4/boiraplana.jpg",
+    "jclic.js/capital4/canal.jpg",
+    "jclic.js/capital4/capital4.jclic",
+    "jclic.js/capital4/mit1_gran.jpg",
+    "jclic.js/capital4/parc.jpg",
+    "jclic.js/capital4/pont2.jpg",
+    "jclic.js/capital4/rentants.jpg",
+    "jclic.js/capital4/rosinol.jpg",
+    "jclic.js/ciutat2/443.jpg",
+    "jclic.js/ciutat2/445.jpg",
+    "jclic.js/ciutat2/576_1344969507_adri_costa_mg_8842_estelada_ajuntament_manlleu_2012_781547.jpg",
+    "jclic.js/ciutat2/barrismapanoms_resized.jpg",
+    "jclic.js/ciutat2/canpuget.jpg",
+    "jclic.js/ciutat2/ciutat2.jclic",
+    "jclic.js/ciutat2/maiescut.jpg",
+    "jclic.js/ciutat2/placa.jpg",
+    "jclic.js/ciutat2/s_maria_manlleu_02.jpg",
+    "jclic.js/familiagegants.jpg",
+    "jclic.js/gegant3/0331.mp3",
+    "jclic.js/gegant3/applause_fx_03.aiff",
+    "jclic.js/gegant3/eloi.jpg",
+    "jclic.js/gegant3/galderic.jpg",
+    "jclic.js/gegant3/gegant3.jclic",
+    "jclic.js/gegant3/i__mellotro__flute_a3.au",
+    "jclic.js/gegant3/jordi.jpg",
+    "jclic.js/gegant3/mariaassumpta.jpg",
+    "jclic.js/gegant3/mariagleva.jpg",
+    "jclic.js/gegant3/mariagleva.mp3",
+    "jclic.js/gegant3/montserrat.jpg",
+    "jclic.js/gegant3/montserrat.mp3",
+    "jclic.js/gegant3/veu027.mp3",
+    "jclic.js/gegant3/veu029.mp3",
+    "jclic.js/gegant3/veu030.mp3",
+    "jclic.js/gegant3/veu031.mp3",
+    "jclic.js/gegant3/veu0311.mp3",
+    "jclic.js/gegant3/veu032.mp3",
+    "jclic.js/gegant3/veu0321.mp3",
+    "jclic.js/gegant3/veu033.mp3",
+    "jclic.js/gegant3/veu0341.mp3",
+    "jclic.js/manlleu.jclic",
+    "jclic.js/p1010707.jpg",
+    "jclic.js/serpen5/2007.jpg",
+    "jclic.js/serpen5/3475_resized.jpg",
+    "jclic.js/serpen5/adria_costa_img_9339_serpent.jpg",
+    "jclic.js/serpen5/baixa__1_.jpg",
+    "jclic.js/serpen5/baixa__2_.jpg",
+    "jclic.js/serpen5/conteserpok.mp3",
+    "jclic.js/serpen5/images.jpg",
+    "jclic.js/serpen5/serpen5.jclic",
+    "jclic.js/serpen5/serpent_de_manlleu_portada2008.jpg",
+    "jclic.js/serpen5/serpent_dels_menuts_cop_mort.jpg",
+    "jclic.js/serpentlogo.jpg",
+    "jclic.js/tapaprojecte_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/manlleu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/capital4/capital4.jclic.js",
+    "jclic.js/ciutat2/ciutat2.jclic.js",
+    "jclic.js/gegant3/gegant3.jclic.js",
+    "jclic.js/serpen5/serpen5.jclic.js",
+    "cover.webp"
+  ]
+}

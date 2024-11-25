@@ -1,0 +1,99 @@
+{
+  "id": 1811,
+  "title": "Ramon Llull",
+  "author": "Margalida Fontanet",
+  "school": "IES Guillem Colom Casasnovas Sóller (Balears)",
+  "date": "20/11/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "literatura catalana",
+    "es": "literatura catalana",
+    "en": "Catalan Literature"
+  },
+  "descCodes": [
+    627
+  ],
+  "description": {
+    "en": "Project of activities about the live and the work of Ramon Llull: \n<ul> \n <li>Blanquerna </li>\n <li>Llibre de les bèsties </li>\n <li>Llibre de gentil i tres savis </li>\n <li>Arbre de ciència </li>\n <li>Llibre d'amic i amat </li>\n <li>... </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre la vida i l'obra de Ramon Llull: \n<ul> \n <li>Blanquerna </li>\n <li>Llibre de les bèsties </li>\n <li>Llibre de gentil i tres savis </li>\n <li>Arbre de ciència </li>\n <li>Llibre d'amic i amat </li>\n <li>... </li>\n</ul>",
+    "es": "Proyecto de actividades sobre la vida y la obra de Ramon Llull: \n<ul> \n <li>Blanquerna </li>\n <li>Llibre de les bèsties </li>\n <li>Llibre de gentil i tres savis </li>\n <li>Arbre de ciència </li>\n <li>Llibre d'amic i amat </li>\n <li>... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/llull.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/llull.jclic.zip",
+  "instFile": "jclic/llull.jclic.inst",
+  "clicZoneId": 3508,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3508",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/llull/jclic/llull.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 20,
+  "totalSize": 1012895,
+  "files": [
+    "cover.gif",
+    "jclic.js/1587m4_mapa.jpg",
+    "jclic.js/250px_ars_magna_de_ramon_llull_gran.jpg",
+    "jclic.js/amic_i_amatjpg.jpg",
+    "jclic.js/animals2.jpg",
+    "jclic.js/arbre_de_ciencia.jpg",
+    "jclic.js/ars_magna.jpg",
+    "jclic.js/besties.jpg",
+    "jclic.js/blanquerna.jpg",
+    "jclic.js/cara_llull_paint.jpg",
+    "jclic.js/cova_randa_llull_gran.jpg",
+    "jclic.js/cova_randa_llull_visio_divina.jpg",
+    "jclic.js/estatua_llull_la_real_10_anys.jpg",
+    "jclic.js/ilustracion_medieval_vida_ramon_llull.jpg",
+    "jclic.js/llibre_de_gentil_e_tres_savis.jpg",
+    "jclic.js/llull.jclic",
+    "jclic.js/llull3.gif",
+    "jclic.js/mini01gran.jpg",
+    "jclic.js/miramar.jpg",
+    "jclic.js/perg_paint_lletr.jpg",
+    "jclic.js/randa.jpg",
+    "jclic.js/tomba_llull.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/llull.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

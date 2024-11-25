@@ -1,0 +1,77 @@
+{
+  "id": 1479,
+  "title": "Hitz25",
+  "author": "Hur Ezeiza",
+  "school": "La Salle - Beasain Beasain - Guipúzcoa (Euzkadi)",
+  "date": "13/10/05",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "<b>Hitz25</b> is a package of clic activities in Vasque about vocabulary. The package has 25 words, phrases and images.",
+    "ca": "<b>Hitz25</b> es un paquet d'activitats per treballar vocabulari bàsic. Consta de 25 paraules totes elles amb la seva corresponent imatge. \n<br> A més de treballar el vocabulari també s'aprenen 25 frases de 3 i 4 paraules, que corresponen amb cada imatge. D'aquesta forma s'aprenen també alguns continguts gramaticals i semàntics elementals.\n<br> Les activitats han estat pensades per a alumnes emigrants que comencen a aprendre basc.",
+    "es": "<b>Hitz25</b> es un paquete de actividades clic para trabajar vocabulario básico. Consta de 25 palabras todas ellas con su correspondiente imagen. \n<br> Además de trabajar el vocabulario también se aprenden 25 oraciones de 3 y 4 palabras, que corresponden con cada imagen. De este modo se aprenden algunos contenidos gramaticales y semánticos elementales. \n<br> Las actividades están pensadas para alumnos emigrantes que empiezan a aprender euskera."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/hitz25.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/hitz25.jclic.zip",
+  "instFile": "jclic/hitz25.jclic.inst",
+  "clicZoneId": 3191,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3191",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/hitz25/jclic/hitz25.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 5,
+  "totalSize": 623642,
+  "files": [
+    "cover.gif",
+    "jclic.js/fondo.gif",
+    "jclic.js/haurrak.mid",
+    "jclic.js/hitz25.gif",
+    "jclic.js/hitz25.jclic",
+    "jclic.js/hitz25.pdf",
+    "jclic.js/txartel1.gif",
+    "jclic.js/txartel2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/hitz25.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

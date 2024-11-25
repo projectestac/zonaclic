@@ -1,0 +1,99 @@
+{
+  "id": 2502,
+  "title": "Tectònica de plaques. Els marges.",
+  "author": "Patrícia Roca i Roigé",
+  "school": "La Salle Girona",
+  "date": "21/03/17",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geologia, terra , Tectònica de plaques",
+    "es": "geología, tierra, Tectónica de placas",
+    "en": "geology, earth, Plate tectonic"
+  },
+  "descCodes": [
+    78,
+    105,
+    1479
+  ],
+  "description": {
+    "en": "Activities that review what happens between the edges of plate tectonics.",
+    "ca": "Activitats que permeten repassar què succeeix entre els marges de les plaques tectòniques.",
+    "es": "Actividades que permiten repasar qué sucede entre los márgenes de las placas tectónicas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/plaques.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/plaques.jclic.zip",
+  "instFile": "jclic/plaques.jclic.inst",
+  "clicZoneId": 4011,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=4011",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/plaques/jclic/plaques.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 18,
+  "totalSize": 575764,
+  "files": [
+    "cover.png",
+    "jclic.js/california.jpg",
+    "jclic.js/esquema_lc_lc.jpg",
+    "jclic.js/esquema_lo_lc.jpg",
+    "jclic.js/esquema_lo_lo.jpg",
+    "jclic.js/esquema_resum_marges_plaques_resized.jpg",
+    "jclic.js/falla.jpg",
+    "jclic.js/imatge_lc_lc.jpg",
+    "jclic.js/imatge_lo_lc.jpg",
+    "jclic.js/imatge_lo_lo.jpg",
+    "jclic.js/imatge_marge_divergent_1.jpg",
+    "jclic.js/imatge_marge_divergent_2.jpg",
+    "jclic.js/imatge_marge_divergent_3.jpg",
+    "jclic.js/mapa_plaques_tectoniques_resized.jpg",
+    "jclic.js/marge_divergent_1.jpg",
+    "jclic.js/marge_divergent_2.jpg",
+    "jclic.js/marge_divergent_3.jpg",
+    "jclic.js/marges_3d_numeros_2_resized.jpg",
+    "jclic.js/plaques.jclic",
+    "jclic.js/plaques.jclic.js",
+    "jclic.js/portada_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

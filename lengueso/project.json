@@ -1,0 +1,110 @@
+{
+  "id": 1503,
+  "title": "Lengua castellana y literatura para secundaria",
+  "author": "Ángel Prieto Lino",
+  "date": "15/12/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, gramàtica, lèxic, ortografia, aprenentatge de la literatura",
+    "es": "aprendizaje de la lengua, gramática, léxico, ortografía, aprendizaje de la literatura",
+    "en": "learning of the language, grammar, lexicon, spelling, learning of Literature"
+  },
+  "descCodes": [
+    110,
+    123,
+    126,
+    146,
+    611
+  ],
+  "description": {
+    "en": "Project of activities about Spanish language and literature. More than 200 activities about: \n<ul> \n <li>Communication </li>\n <li>Grammar </li>\n <li>Vocabulary </li>\n <li>Orthography </li>\n <li>Literature </li>\n <li>Language </li>\n</ul>",
+    "ca": "Projecte d'activitats de l'àrea de Llengua castellana i literatura per a secundària. Més de 200 activitats sobre: \n<ul> \n <li>Comunicació </li>\n <li>Gramàtica </li>\n <li>Lèxic </li>\n <li>Ortografia </li>\n <li>Literatura </li>\n <li>Llenguatge </li>\n</ul>",
+    "es": "Proyecto de actividades del área de Lengua Castellana y Literatura para Secundaria. Más de 200 actividades sobre: \n<ul> \n <li>Comunicación </li>\n <li>Gramática </li>\n <li>Léxico </li>\n <li>Ortografía </li>\n <li>Literatura </li>\n <li>Lenguaje </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/lengueso.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/lengueso.jclic.zip",
+  "instFile": "jclic/lengueso.jclic.inst",
+  "clicZoneId": 3222,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3222",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/lengueso/jclic/lengueso.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 248,
+  "mediaFiles": 28,
+  "totalSize": 1893875,
+  "files": [
+    "cover.jpg",
+    "jclic.js/248646906_1_.jpg",
+    "jclic.js/caa789mj.jpg",
+    "jclic.js/cas523ol.jpg",
+    "jclic.js/inf_educacion_min__1_.jpg",
+    "jclic.js/j0174857.jpg",
+    "jclic.js/j0174867.jpg",
+    "jclic.js/j0174983.jpg",
+    "jclic.js/j0174985.jpg",
+    "jclic.js/j0175572.jpg",
+    "jclic.js/j0177857.jpg",
+    "jclic.js/j0177858.jpg",
+    "jclic.js/j0177861.jpg",
+    "jclic.js/j0178497.jpg",
+    "jclic.js/j0308890.jpg",
+    "jclic.js/j0309015.jpg",
+    "jclic.js/j0309263.jpg",
+    "jclic.js/j0309604.jpg",
+    "jclic.js/j0309608.jpg",
+    "jclic.js/j0309609.jpg",
+    "jclic.js/j0309615.jpg",
+    "jclic.js/j0309617.jpg",
+    "jclic.js/j0309628.jpg",
+    "jclic.js/j0309629.jpg",
+    "jclic.js/j0309630.jpg",
+    "jclic.js/j0309659.jpg",
+    "jclic.js/j0341585.jpg",
+    "jclic.js/lengueso.jclic",
+    "jclic.js/libros_1_.jpg",
+    "jclic.js/ph02966j.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/lengueso.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

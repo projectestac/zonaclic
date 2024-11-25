@@ -1,0 +1,93 @@
+{
+  "id": 968,
+  "title": "Fractions",
+  "author": "Eduardo Timón Moliner",
+  "school": "IES Juan de Herrera San Lorenzo del Escorial (Madrid)",
+  "date": "28/02/07",
+  "languages": {
+    "en": "French",
+    "ca": "francès",
+    "es": "francés"
+  },
+  "langCodes": [
+    "fr"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aritmètica, representació gràfica",
+    "es": "aritmética, representación gráfica",
+    "en": "Arithmetic, graphical representation"
+  },
+  "descCodes": [
+    701,
+    715
+  ],
+  "description": {
+    "en": "Package of activities about fractions with three sections: \n<ul> \n <li>Initial properties ( definition, concept of fraction, equivalent fractions) </li>\n <li>Basic operations (sum, subtraction, product and division) </li>\n <li>Power fractions ( definition and properties) </li>\n</ul>",
+    "ca": "Aquest paquet d'activitats està constituït per tres blocs d'activitats de fraccions: \n<ul> \n <li>Propietats inicials (definició, concepte de fracció, fraccions equivalents...) </li>\n <li>Operacions bàsiques (suma, resta, producte i divisió de fraccions) </li>\n <li>Potenciació de fraccions (definició i propietats) </li>\n</ul>",
+    "es": "Este paquete de actividades está constituido por tres bloques de actividades de fracciones: \n<ul> \n <li>Propiedades iniciales (definición, concepto de fracción, fracciones equivalentes...) </li>\n <li>Operaciones básicas (suma, resta, producto y división de fracciones) </li>\n <li>Potenciación de fracciones (definición y propiedades) </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "fracc",
+    "fraccat",
+    "fraccg"
+  ],
+  "mainFile": "jclic.js/fraccfra.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fraccfra.jclic.zip",
+  "instFile": "jclic/fraccfra.jclic.inst",
+  "clicZoneId": 2060,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2060",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fraccfra/jclic/fraccfra.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 8,
+  "totalSize": 594656,
+  "files": [
+    "cover.gif",
+    "jclic.js/entrada.jpg",
+    "jclic.js/fraccfra.jclic",
+    "jclic.js/fracci01.png",
+    "jclic.js/fracci02.png",
+    "jclic.js/fracci05.png",
+    "jclic.js/fracci06.jpg",
+    "jclic.js/fracci10.gif",
+    "jclic.js/fracci11.jpg",
+    "jclic.js/fracci13.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fraccfra.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

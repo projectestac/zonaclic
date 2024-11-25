@@ -1,0 +1,101 @@
+{
+  "id": 2398,
+  "title": "Menjar bé!",
+  "author": "Comissió de medi ambientb del Sagrat Cor",
+  "school": "C Sagrat Cor de Jesús Vic (Osona)",
+  "date": "17/09/15",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aliments",
+    "es": "alimentos",
+    "en": "foods"
+  },
+  "descCodes": [
+    49
+  ],
+  "description": {
+    "en": "JClic activities to help to improve nutrition throw some fun activities.",
+    "ca": "Projecte d'activitats que té com objectiu ajudar a qui hi juga a millorar la seva alimentació a través d'activitats divertides.",
+    "es": "Ayuda a quien juega a mejorar su alimentación a través de actividades divertidas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/menjabe.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/menjabe.jclic.zip",
+  "instFile": "jclic/menjabe.jclic.inst",
+  "clicZoneId": 3906,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3906",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/menjabe/jclic/menjabe.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 8,
+  "mediaFiles": 22,
+  "totalSize": 933273,
+  "files": [
+    "cover.png",
+    "jclic.js/aigua.jpg",
+    "jclic.js/amanida_resized.jpg",
+    "jclic.js/botifarra.jpg",
+    "jclic.js/cigrons.jpg",
+    "jclic.js/coses_saludables.jpg",
+    "jclic.js/donut.jpg",
+    "jclic.js/entrepafrankfurt.jpg",
+    "jclic.js/formatge.jpg",
+    "jclic.js/fuet.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/iogurt.jpg",
+    "jclic.js/llenties.jpg",
+    "jclic.js/menjabe.jclic",
+    "jclic.js/pa.jpg",
+    "jclic.js/paambtomaquet.jpg",
+    "jclic.js/patata.jpg",
+    "jclic.js/patates_bossa.jpg",
+    "jclic.js/piramide_alimentacio_jclic_resized.jpg",
+    "jclic.js/platan.jpg",
+    "jclic.js/pollastre_brasa.jpg",
+    "jclic.js/portada_jclic.jpg",
+    "jclic.js/salmo.jpg",
+    "jclic.js/tomaquet.jpg",
+    "jclic.js/xocolata.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/menjabe.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

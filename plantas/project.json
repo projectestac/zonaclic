@@ -1,0 +1,107 @@
+{
+  "id": 116,
+  "title": "Las plantas",
+  "author": "Juan José Mateo Molina",
+  "school": "CP El Olivar Rivas - Vaciamadrid (Madrid)",
+  "date": "09/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "botànica, plantes",
+    "es": "botánica, plantas",
+    "en": "botany, plants"
+  },
+  "descCodes": [
+    59,
+    96
+  ],
+  "description": {
+    "en": "Activity pack based on a textbook about environment knowledge for elementary school students. The basic concepts treated are:\n<br> \n<li>Grass-bushes-trees </li>\n<li>Fruit-flower-seed </li>\n<li>Cereals-vegetables-orchards </li>\n<li>Fruit trees </li>\n<li>Edible parts </li>",
+    "ca": "Aplicació realitzada a partir del llibre de text de coneixement del medi de 3er de primària de l'editorial Santillana (aquesta edició ja no és vigent) \n<p> S'hi tracten els següents conceptes: </p>\n<ol> \n <li>Herbes, arbusts i arbres </li>\n <li>Fruit, flor i llavor </li>\n <li>Cereals, llegums i hortalisses </li>\n <li>Arbres fruiters </li>\n <li>Parts comestibles </li>\n</ol> \n<p> Trobareu més informació a la web d'<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo. </p>",
+    "es": "Aplicación realizada a partir del libro de texto de Conocimiento del Medio de 3º de E. Primaria, de la editorial Santillana (esta edición ya no es vigente) \n<p> Se tratan los siguientes conceptos: </p>\n<ol> \n <li>Hierbas - Arbustos - Árboles. </li>\n <li>Fruto - Flor - Semilla. </li>\n <li>Cereales - Legumbres - Hortalizas - </li>\n <li>Árboles frutales. </li>\n <li>Partes comestibles. </li>\n</ol> \n<p> Encontraréis más información en la web de <b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "landare",
+    "plantaga"
+  ],
+  "mainFile": "jclic.js/plantas.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/plantas.jclic.zip",
+  "instFile": "jclic/plantas.jclic.inst",
+  "clicZoneId": 1056,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1056",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/plantas/jclic/plantas.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 23,
+  "totalSize": 412651,
+  "files": [
+    "cover.jpg",
+    "jclic.js/abeto.gif",
+    "jclic.js/arroz.gif",
+    "jclic.js/autor.gif",
+    "jclic.js/casta_o.gif",
+    "jclic.js/cerezo.gif",
+    "jclic.js/flor.gif",
+    "jclic.js/fruto.gif",
+    "jclic.js/habas.gif",
+    "jclic.js/jara.gif",
+    "jclic.js/jud_as.gif",
+    "jclic.js/lechuga.gif",
+    "jclic.js/manzano.gif",
+    "jclic.js/musica.mid",
+    "jclic.js/patata.gif",
+    "jclic.js/perejil.gif",
+    "jclic.js/plantas.gif",
+    "jclic.js/plantas.jclic",
+    "jclic.js/puzzle.wav",
+    "jclic.js/rosal.gif",
+    "jclic.js/semilla.gif",
+    "jclic.js/tomate.gif",
+    "jclic.js/trigo.gif",
+    "jclic.js/violeta.gif",
+    "jclic.js/zanahor.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/plantas.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

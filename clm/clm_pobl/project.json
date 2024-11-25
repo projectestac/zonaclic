@@ -1,0 +1,125 @@
+{
+  "id": 1508,
+  "title": "Castilla La Mancha: mi comunidad (Población)",
+  "author": "María Feliciana Lara Romero",
+  "school": "CEIP Eduardo Sanchiz Tarazona de la Mancha - Albacete (Castilla - La Mancha)",
+  "date": "15/12/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "Castella-la Manxa",
+    "es": "Castilla - la mancha",
+    "en": "Castilla - la mancha"
+  },
+  "descCodes": [
+    485
+  ],
+  "description": {
+    "en": "Six packages of activities about the Spanish region of \"Castilla-La Mancha\": \n<ul> \n <li>Location, institutions and culture </li>\n <li>Economy </li>\n <li>Nature </li>\n <li>History </li>\n <li>Population </li>\n <li>Climate and relief </li>\n</ul>",
+    "ca": "Un extens conjunt d'activitats sobre la comunitat de Castella-La Manxa. Conté un total de 6 paquets que tracten de: \n<ul> \n <li>Situació, composició, institucions, cultura i patrimoni. </li>\n <li>Economia. </li>\n <li>Espais naturals. Flora i fauna. </li>\n <li>Història. </li>\n <li>Població. </li>\n <li>Relleu, rius i clima. </li>\n</ul>",
+    "es": "Extenso conjunto de actividades sobre la comunidad de Castilla-La Mancha. Contiene seis paquetes que tratan de: \n<ul> \n <li>Situación, composición, instituciones, cultura y patrimonio. </li>\n <li>Economía. </li>\n <li>Espacios naturales. Flora y fauna. </li>\n <li>Historia. </li>\n <li>Población. </li>\n <li>Relieve, ríos y clima. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "clm/clm_econ",
+    "clm/clm_espa",
+    "clm/clm_gene",
+    "clm/clm_hist",
+    "clm/clm_reli"
+  ],
+  "mainFile": "jclic.js/clm_pobl.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/clm_pobl.jclic.zip",
+  "instFile": "jclic/clm_pobl.jclic.inst",
+  "clicZoneId": 3223,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3223",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/clm/clm_pobl/jclic/clm_pobl.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 36,
+  "mediaFiles": 36,
+  "totalSize": 6105056,
+  "files": [
+    "cover.jpg",
+    "jclic.js/21b.gif",
+    "jclic.js/ana.gif",
+    "jclic.js/clm_pobl.jclic",
+    "jclic.js/denspro.gif",
+    "jclic.js/emig.wav",
+    "jclic.js/emigrac.wav",
+    "jclic.js/image10.gif",
+    "jclic.js/image11.gif",
+    "jclic.js/image14.gif",
+    "jclic.js/image15.gif",
+    "jclic.js/image9.gif",
+    "jclic.js/info/migrac.doc",
+    "jclic.js/info/poblaclm.doc",
+    "jclic.js/inmig.gif",
+    "jclic.js/inmig.wav",
+    "jclic.js/jose.gif",
+    "jclic.js/juansin.gif",
+    "jclic.js/luis.gif",
+    "jclic.js/mapapob.gif",
+    "jclic.js/maria3.gif",
+    "jclic.js/maribel.gif",
+    "jclic.js/migra5.gif",
+    "jclic.js/mort2.wav",
+    "jclic.js/nat2.wav",
+    "jclic.js/pob.gif",
+    "jclic.js/pob1.gif",
+    "jclic.js/pob4.gif",
+    "jclic.js/pobact3.gif",
+    "jclic.js/pobacti1.gif",
+    "jclic.js/pobclm2.gif",
+    "jclic.js/pobl1.gif",
+    "jclic.js/poblac.gif",
+    "jclic.js/poblac.wav",
+    "jclic.js/poblac2.wav",
+    "jclic.js/poblac3.gif",
+    "jclic.js/portada1.gif",
+    "jclic.js/rocio.gif",
+    "jclic.js/salmig1.gif",
+    "jclic.js/victor.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/clm_pobl.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

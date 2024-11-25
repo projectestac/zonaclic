@@ -1,0 +1,94 @@
+{
+  "id": 2383,
+  "title": "Tablas de multiplicar",
+  "author": "Noel Jesús León Rodríguez",
+  "school": "Humberto Ramos Lozano Calle Porfirio Díaz Norte S/N, Centro,",
+  "date": "09/04/15",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la matemàtica, taules de multiplicar",
+    "es": "aprendizaje de la matemática, tablas de multiplicar",
+    "en": "learning of the mathematical one, multiplication tables"
+  },
+  "descCodes": [
+    700,
+    908
+  ],
+  "description": {
+    "en": "Project of JClic activities to practice multiplication tables 2 to 9.",
+    "ca": "Projecte d'activitats JClic per practicar les taules de multiplicar del 2 al 9.",
+    "es": "Proyecto de actividades JClic para practicar las tablas de multiplicar del 2 al 9."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/tablas3.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tablas3.jclic.zip",
+  "instFile": "jclic/tablas3.jclic.inst",
+  "clicZoneId": 3888,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3888",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/tablas3/jclic/tablas3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 38,
+  "mediaFiles": 14,
+  "totalSize": 831855,
+  "files": [
+    "cover.png",
+    "jclic.js/2_resized.jpg",
+    "jclic.js/3_resized.jpg",
+    "jclic.js/4_resized.jpg",
+    "jclic.js/6_resized.jpg",
+    "jclic.js/7_resized.jpg",
+    "jclic.js/9.jpg",
+    "jclic.js/aplausos.gif",
+    "jclic.js/felicidades.gif",
+    "jclic.js/fondo_resized.jpg",
+    "jclic.js/greenstars.gif",
+    "jclic.js/ojos.gif",
+    "jclic.js/star.gif",
+    "jclic.js/t8.jpg",
+    "jclic.js/tablas3.jclic",
+    "jclic.js/x.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/tablas3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

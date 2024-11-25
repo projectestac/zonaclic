@@ -1,0 +1,100 @@
+{
+  "id": 1633,
+  "title": "Picasso",
+  "author": "Sònia Hurtado Pérez",
+  "school": "C Nazaret Esplugues de Llobregat (Baix Llobregat)",
+  "date": "15/12/06",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Art & design",
+    "ca": "Visual i plàstica",
+    "es": "Plástica y visual"
+  },
+  "areaCodes": [
+    "vip"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "pintura, Picasso",
+    "es": "pintura, Picasso",
+    "en": "painting, Picasso"
+  },
+  "descCodes": [
+    1370,
+    1371
+  ],
+  "description": {
+    "en": "Project of activities about life and works of Pablo Ruiz Picasso.",
+    "ca": "Projecte d'activitats sobre la vida i l'obra de Pablo Ruiz Picasso.",
+    "es": "Proyecto de actividades sobre la vida y la obra de Pablo Ruiz Picasso."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/picasso.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/picasso.jclic.zip",
+  "instFile": "jclic/picasso.jclic.inst",
+  "clicZoneId": 3341,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3341",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/picasso/jclic/picasso.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 20,
+  "totalSize": 1482967,
+  "files": [
+    "cover.jpg",
+    "jclic.js/1895_premiere_communion_copia.gif",
+    "jclic.js/1901_arlequin_copia.gif",
+    "jclic.js/1903_la_tragedie_copia.gif",
+    "jclic.js/1904_la_celestine_copia.gif",
+    "jclic.js/1905_famille_de_saltimbanques_copia.gif",
+    "jclic.js/1906_autoportrait_a_la_palette_copia.gif",
+    "jclic.js/1907_autoportrait_copia.gif",
+    "jclic.js/1907_les_demoiselles_d_avignon_2_copia.gif",
+    "jclic.js/1917_femme_en_tenue_espagnole_copia.gif",
+    "jclic.js/1921_femme_et_enfant_copia.gif",
+    "jclic.js/1922_deux_femmes_courrant_sur_la_plage_copia.gif",
+    "jclic.js/1924_paulo_en_arlequin_copia.gif",
+    "jclic.js/1932_fille_devant_un_mirroir_copia.gif",
+    "jclic.js/1937_femme_qui_pleure_copia.gif",
+    "jclic.js/1937_guernica_copia.gif",
+    "jclic.js/1937_portrait_de_dora_maar_2_copia.gif",
+    "jclic.js/1938_maya_tenant_une_poupee_copia.gif",
+    "jclic.js/las_meninas_1957_copia.gif",
+    "jclic.js/picasso.gif",
+    "jclic.js/picasso.jclic",
+    "jclic.js/picassoindex_copia.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/picasso.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

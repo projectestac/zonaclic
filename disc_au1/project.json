@@ -1,0 +1,130 @@
+{
+  "id": 2447,
+  "title": "Discriminación auditiva de los animales",
+  "author": "Paula González",
+  "date": "09/06/16",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "comprensió oral, vocabulari",
+    "es": "comprensión oral, vocabulario",
+    "en": "oral understanding, vocabulary"
+  },
+  "descCodes": [
+    112,
+    150
+  ],
+  "description": {
+    "en": "Auditory discrimination work through the sound-image association. auditory sequential memory 3 elements, sound-noise identification and auditory memory also works.",
+    "ca": "Projecte d'activitats on es treballa la discriminació auditiva per mitjà de l'associació so-imatge. També es treballa la memòria seqüencial auditiva de 3 elements, identificació so-soroll i memòria auditiva.",
+    "es": "Proyecto de actvidades donde se trabaja la discriminación auditiva por medio de la asociación sonido-imagen. También se trabaja la memoria secuencial auditiva de 3 elementos, identificación sonido-ruido y memoria auditiva."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/disc_au1.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/disc_au1.jclic.zip",
+  "instFile": "jclic/disc_au1.jclic.inst",
+  "clicZoneId": 3955,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3955",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/disc_au1/jclic/disc_au1.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 55,
+  "mediaFiles": 52,
+  "totalSize": 5143242,
+  "files": [
+    "cover.png",
+    "jclic.js/abeja.mp3",
+    "jclic.js/abeja_buho_perro.mp3",
+    "jclic.js/abeja_perro_tigre.mp3",
+    "jclic.js/aedes_aegypti_1351001_640.png",
+    "jclic.js/bee_1296273_640.png",
+    "jclic.js/buho.mp3",
+    "jclic.js/buho.png",
+    "jclic.js/buho_caballo_cerdo.mp3",
+    "jclic.js/caballo.mp3",
+    "jclic.js/caballo.png",
+    "jclic.js/caballo_cerdo_lobo.mp3",
+    "jclic.js/caballo_pato_tigre.mp3",
+    "jclic.js/cerdo.mp3",
+    "jclic.js/cerdo.png",
+    "jclic.js/cow_159893_640.png",
+    "jclic.js/disc_au1.jclic",
+    "jclic.js/disc_au1.jclic.js",
+    "jclic.js/elefante.mp3",
+    "jclic.js/elefante.png",
+    "jclic.js/empieza_a_jugar.mp3",
+    "jclic.js/encuentra_el_animal_correspondiente.mp3",
+    "jclic.js/error.mp3",
+    "jclic.js/gallo.jpg",
+    "jclic.js/gallo.mp3",
+    "jclic.js/gallo_oveja_rana.mp3",
+    "jclic.js/gato.jpg",
+    "jclic.js/gato.mp3",
+    "jclic.js/leon.jpg",
+    "jclic.js/leon.mp3",
+    "jclic.js/lo_has_hecho_muy_bien.mp3",
+    "jclic.js/lobo.mp3",
+    "jclic.js/lobo.png",
+    "jclic.js/loudspeaker_309554_640.png",
+    "jclic.js/microfono.png",
+    "jclic.js/mosquito.mp3",
+    "jclic.js/oreja.png",
+    "jclic.js/oveja.mp3",
+    "jclic.js/oveja.png",
+    "jclic.js/oveja_lobo_vaca.mp3",
+    "jclic.js/pato.mp3",
+    "jclic.js/pato.png",
+    "jclic.js/pato_perro_tigre.mp3",
+    "jclic.js/perro.jpg",
+    "jclic.js/perro.mp3",
+    "jclic.js/portada_resized.jpg",
+    "jclic.js/puzzle.png",
+    "jclic.js/rana.mp3",
+    "jclic.js/rana.png",
+    "jclic.js/rana_gallo_gato.mp3",
+    "jclic.js/tigre.mp3",
+    "jclic.js/tigre.png",
+    "jclic.js/une_con_flechas.mp3",
+    "jclic.js/vaca.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

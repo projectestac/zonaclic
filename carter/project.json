@@ -1,0 +1,107 @@
+{
+  "id": 1820,
+  "title": "El carter",
+  "author": "Raquel Martos Enseñat",
+  "school": "Escola Enric Grau i Fontserè Flix (Ribera d'Ebre)",
+  "date": "09/12/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "description": {
+    "en": "Project of activities addressed to kindergarten about the postman. The project has nine activities of different types like associations, puzzles, relations, numeration... about this job.",
+    "ca": "Projecte d'activitats per a treballar amb els més petits a l'àrea de Descoberta de l'entorn. Aquest projecte està compost per un conjunt de 9 activitats que inclouen associacions, lectura, puzles, relacions, numeració. Es pretén que els nens i les nenes coneguin més a fons l'ofici del carter.",
+    "es": "Proyecto de actividades para trabajar con los más pequeños en el área de Conocimiento del entorno. Este proyecto está compuesto por un conjunto de 9 actividades que incluyen asociaciones, lectura, puzzles, relaciones, numeración... Se pretende que los niños y niñas conozcan más a fondo el oficio de cartero."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/carter.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/carter.jclic.zip",
+  "instFile": "jclic/carter.jclic.inst",
+  "clicZoneId": 3514,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3514",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/carter/jclic/carter.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 36,
+  "totalSize": 3190870,
+  "files": [
+    "cover.gif",
+    "jclic.js/4_sobres.png",
+    "jclic.js/bosa_carter.jpg",
+    "jclic.js/bossa_carter.png",
+    "jclic.js/brocha1.png",
+    "jclic.js/bustia_4.png",
+    "jclic.js/bustia_nou.png",
+    "jclic.js/carros_3.png",
+    "jclic.js/cartas_de_navidad_10.png",
+    "jclic.js/carter.jclic",
+    "jclic.js/carter_3.gif",
+    "jclic.js/cartera3.png",
+    "jclic.js/cartero_casa.png",
+    "jclic.js/cartero_p.jpg",
+    "jclic.js/cartes_grans.png",
+    "jclic.js/casco_bomberos.jpg",
+    "jclic.js/classificar_cartes_nou_1.png",
+    "jclic.js/dos_busties.png",
+    "jclic.js/encertat2.mp3",
+    "jclic.js/fantastic_2.mp3",
+    "jclic.js/fes_el_puzzle_1.mp3",
+    "jclic.js/gorro_cocinero.jpg",
+    "jclic.js/letter.gif",
+    "jclic.js/molt_be.mp3",
+    "jclic.js/motocat.jpg",
+    "jclic.js/nenabustia.png",
+    "jclic.js/ordena1.mp3",
+    "jclic.js/postman666.png",
+    "jclic.js/postman_2.jpg",
+    "jclic.js/presentacio_carter_2.png",
+    "jclic.js/relaciona.mp3",
+    "jclic.js/relaciona1.mp3",
+    "jclic.js/segell_nou.png",
+    "jclic.js/sin_titulo_1.png",
+    "jclic.js/sobre_4_nou.png",
+    "jclic.js/sopa_de_lletres.mp3",
+    "jclic.js/superbe.mp3",
+    "jclic.js/tijeras.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/carter.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

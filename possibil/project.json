@@ -1,0 +1,111 @@
+{
+  "id": 1499,
+  "title": "Possibile? Poesía di Giani Rodari (Una formica andava in bicicletta)",
+  "author": "Cristina Lezama",
+  "school": "Escuela Edmondo de Amicis Buenos Aires (Argentina)",
+  "date": "07/12/05",
+  "languages": {
+    "en": "Italian",
+    "ca": "italià",
+    "es": "italiano"
+  },
+  "langCodes": [
+    "it"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua italiana, bicicleta, formiga",
+    "es": "lengua italiana, bicicleta, hormiga",
+    "en": "Italian language, bicycle, ant"
+  },
+  "descCodes": [
+    138,
+    1359,
+    1360
+  ],
+  "description": {
+    "en": "Clic activities based on the poem \"Possibile\" by Gianni Rodari in Italian, about an ant that walks in bicycle. In the package there are also activities about vocabulary related to ants and bicycles.",
+    "ca": "Activitats en llengua italiana basades en la poesia \"Possibile\" de Gianni Rodari, que parla d'una formiga que passejava en bicicleta. S'hi treballa també vocabulari relacionat amb les formigues i amb les bicicletes.",
+    "es": "Actividades en lengua italana relacionadas con la poesía \"Possibile\" de Gianni Rodari, que habla de una hormiga que paseaba en bicicleta. En las actividades se trabaja también vocabulario relacionado con las hormigas y las bicicletas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "possibi2"
+  ],
+  "mainFile": "jclic.js/possibil.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/possibil.jclic.zip",
+  "instFile": "jclic/possibil.jclic.inst",
+  "clicZoneId": 3218,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3218",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/possibil/jclic/possibil.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 27,
+  "totalSize": 1324700,
+  "files": [
+    "cover.jpg",
+    "jclic.js/abc.gif",
+    "jclic.js/addome.wav",
+    "jclic.js/animal.gif",
+    "jclic.js/antenn.wav",
+    "jclic.js/bici.gif",
+    "jclic.js/capo.wav",
+    "jclic.js/caten.wav",
+    "jclic.js/diam.wav",
+    "jclic.js/fana.wav",
+    "jclic.js/fonbic.gif",
+    "jclic.js/fonfor.gif",
+    "jclic.js/foninset.gif",
+    "jclic.js/for_dibu.gif",
+    "jclic.js/for_par.gif",
+    "jclic.js/formica.gif",
+    "jclic.js/inset.gif",
+    "jclic.js/manu.wav",
+    "jclic.js/para.wav",
+    "jclic.js/peda.wav",
+    "jclic.js/pezio.wav",
+    "jclic.js/possibil.jclic",
+    "jclic.js/pres.gif",
+    "jclic.js/ragg.wav",
+    "jclic.js/ruota.wav",
+    "jclic.js/sella.wav",
+    "jclic.js/telaio.wav",
+    "jclic.js/torace.wav",
+    "jclic.js/zamp.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/possibil.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

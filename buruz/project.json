@@ -1,0 +1,79 @@
+{
+  "id": 1399,
+  "title": "Matematikasco programarekin asko ikasiko dugu",
+  "author": "Cristina Conde Martín",
+  "date": "13/09/05",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "Clic activities about maths addressed to primary school.",
+    "ca": "Activitats Clic de matemàtiques dirigides a 3r curs d'educació primària que treballa diferents continguts del curs.",
+    "es": "Actividades Clic de matemáticas dirigidas a 3r curso de educación primaria que trabaja diferentes contenidos del curso."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/buruz.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/buruz.jclic.zip",
+  "instFile": "jclic/buruz.jclic.inst",
+  "clicZoneId": 3135,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3135",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/buruz/jclic/buruz.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 9,
+  "totalSize": 577288,
+  "files": [
+    "cover.gif",
+    "jclic.js/autobus1.gif",
+    "jclic.js/balanza.gif",
+    "jclic.js/buruz.jclic",
+    "jclic.js/canari_1.gif",
+    "jclic.js/cred_i_1.gif",
+    "jclic.js/cromos.gif",
+    "jclic.js/matema_1.gif",
+    "jclic.js/ni_os.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/ratonc_1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/buruz.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

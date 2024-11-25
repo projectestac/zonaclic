@@ -1,0 +1,96 @@
+{
+  "id": 1638,
+  "title": "Els cargols",
+  "author": "Adriana Castells Gallart",
+  "school": "C Cor de Maria Barcelona",
+  "date": "11/01/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "Educació en valors",
+    "es": "Educación en valores",
+    "en": "Values"
+  },
+  "descCodes": [
+    1372
+  ],
+  "description": {
+    "en": "Activities to work the diversity in the classroom from a story where the protagonists are the snails there are comprehensive activities.",
+    "ca": "Activitats per a treballar la diversitat a l'aula. A partir d'un conte on els protagonistes són els cargols es proposen activitats comprensives, complementàries i lúdiques.",
+    "es": "Actividades para trabajar la diversidad en el aula. A partir de un cuento dónde los protagonistas son los caracoles se proponen actividades comprensivas, complementáreas y lúdicas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cargols.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cargols.jclic.zip",
+  "instFile": "jclic/cargols.jclic.inst",
+  "clicZoneId": 3346,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3346",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cargols/jclic/cargols.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 17,
+  "totalSize": 936874,
+  "files": [
+    "cover.gif",
+    "jclic.js/blau_copia.jpg",
+    "jclic.js/cargolblau_copia.jpg",
+    "jclic.js/cargolcec_copia.jpg",
+    "jclic.js/cargols.jclic",
+    "jclic.js/cargolverd_copia.jpg",
+    "jclic.js/closca_copia.jpg",
+    "jclic.js/dibuix_2.jpg",
+    "jclic.js/diversid_2_copia.jpg",
+    "jclic.js/diversid_3_copia.jpg",
+    "jclic.js/diversidad1_copia.jpg",
+    "jclic.js/image002.jpg",
+    "jclic.js/nens.jpg",
+    "jclic.js/presen2.jpg",
+    "jclic.js/rosa_copia.jpg",
+    "jclic.js/simbols_copia.jpg",
+    "jclic.js/sol_copia.jpg",
+    "jclic.js/tots.jpg",
+    "jclic.js/viu.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cargols.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

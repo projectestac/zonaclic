@@ -1,0 +1,106 @@
+{
+  "id": 2209,
+  "title": "El Baix Penedès (El Baix Penedès: la població)",
+  "school": "Escola Sant Julià L'Arboç (Baix Penedès), ESC Teresina Martorell El Vendrell (Baix Penedès)",
+  "date": "20/01/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "història, Baix Penedès, població",
+    "es": "historia, Baix Penedès, población",
+    "en": "history, Baix Penedès, population"
+  },
+  "descCodes": [
+    246,
+    474,
+    802
+  ],
+  "description": {
+    "en": "Eight projects of activities about Baix Penedès in Catalonia: \n<ul> \n <li>Famous people </li>\n <li>History </li>\n <li>Population </li>\n <li>Festes tradicionals </li>\n <li>Economy </li>\n <li>Climate </li>\n <li>Situation </li>\n <li>Relieve </li>\n</ul>",
+    "ca": "Vuit projectes d'activitats sobre la comarca del Baix Penedès: \n<ul> \n <li>Personatges il·lustres </li>\n <li>Història </li>\n <li>Població </li>\n <li>Festes tradicionals </li>\n <li>Economia </li>\n <li>Clima </li>\n <li>Situació </li>\n <li>Relleu </li>\n</ul>",
+    "es": "Ocho proyectos de actividades sobre la comarca de el Baix Penedès: \n<ul> \n <li>Personajes ilustres </li>\n <li>Historia </li>\n <li>Población </li>\n <li>Fiestas tradicionales </li>\n <li>Economía </li>\n <li>Clima </li>\n <li>Situación </li>\n <li>Relieve </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "b_penede",
+    "bp_clima",
+    "bp_econo",
+    "bp_festes",
+    "bp_histo",
+    "bp_relleu",
+    "bp_situa"
+  ],
+  "mainFile": "jclic.js/bp_pobla.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/bp_pobla.jclic.zip",
+  "instFile": "jclic/bp_pobla.jclic.inst",
+  "clicZoneId": 3739,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3739",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/bp_pobla/jclic/bp_pobla.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 17,
+  "totalSize": 1903000,
+  "files": [
+    "cover.png",
+    "jclic.js/bp_pobla.jclic",
+    "jclic.js/contraportada.jpg",
+    "jclic.js/densitat.jpg",
+    "jclic.js/fons_100_x_700_densitat.jpg",
+    "jclic.js/fons_100_x_700_termes_amb_nom.jpg",
+    "jclic.js/fons_100_x_700_termes_amb_relleu.jpg",
+    "jclic.js/nuclis.jpg",
+    "jclic.js/nuclis_amb_relleu.jpg",
+    "jclic.js/nuclis_rurals.jpg",
+    "jclic.js/nuclis_urbans.jpg",
+    "jclic.js/pantalla_informacio_1.jpg",
+    "jclic.js/pantalla_informacio_2.jpg",
+    "jclic.js/pantalla_informacio_3.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/termes_amb_relleu.jpg",
+    "jclic.js/termes_municipals.jpg",
+    "jclic.js/termes_municipals_amb_noms.jpg",
+    "jclic.js/tot.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/bp_pobla.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

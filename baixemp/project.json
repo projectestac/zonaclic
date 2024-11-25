@@ -1,0 +1,129 @@
+{
+  "id": 761,
+  "title": "El Baix Empordà",
+  "author": "Carme Roca Palahí, Ma. Lluïsa Roca Roger i Ricard Roca Roger Col·laboració: Luís Pérez Lacueva",
+  "school": "ICE Universitat de Girona Girona",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geografia, Baix Empordà",
+    "es": "geografía, Baix Empordà",
+    "en": "geography, Baix Empordà"
+  },
+  "descCodes": [
+    235,
+    472
+  ],
+  "description": {
+    "en": "Activities about the province of Baix Empordà: \n<br> \n<ul><li>Location </li>\n<li>Landscape </li>\n<li>Rivers and coasts </li>\n<li>Economy and population </li>\n<li>traditions and culture </li></ul>",
+    "ca": "Sis paquets d'activitats sobre la comarca del Baix Empordà:\n<br> \n<ul> \n <li>Situació </li>\n <li>Relleu </li>\n <li>Rius i costes </li>\n <li>Clima i vegetació </li>\n <li>Economia i població </li>\n <li>Tradicions i cultura </li>\n</ul>",
+    "es": "Seis paquetes de actividades sobre la comarca del Baix Empordà:\n<br> \n<ul> \n <li>Situación </li>\n <li>Relieve </li>\n <li>Ríos y costas </li>\n <li>Clima y vegetación </li>\n <li>Economía y población </li>\n <li>Tradiciones y cultura </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/baixemp.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/baixemp.jclic.zip",
+  "instFile": "jclic/baixemp.jclic.inst",
+  "clicZoneId": 1414,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1414",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/baixemp/jclic/baixemp.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 54,
+  "mediaFiles": 48,
+  "totalSize": 1371268,
+  "files": [
+    "cover.gif",
+    "jclic.js/aiguamo.jpg",
+    "jclic.js/altemp.gif",
+    "jclic.js/alzina.gif",
+    "jclic.js/baixemp.jclic",
+    "jclic.js/bebur.jpg",
+    "jclic.js/bemp.gif",
+    "jclic.js/cerdan.gif",
+    "jclic.js/clima0.gif",
+    "jclic.js/comgir.gif",
+    "jclic.js/costaa.jpg",
+    "jclic.js/costab.jpg",
+    "jclic.js/cuiner.gif",
+    "jclic.js/cuiner1.gif",
+    "jclic.js/dansa.gif",
+    "jclic.js/emporda.wav",
+    "jclic.js/escorca.gif",
+    "jclic.js/fisic1.gif",
+    "jclic.js/fisic2.gif",
+    "jclic.js/fisic3.gif",
+    "jclic.js/formiga1.jpg",
+    "jclic.js/garrot.gif",
+    "jclic.js/gavarres.jpg",
+    "jclic.js/gicomcol.gif",
+    "jclic.js/girones.gif",
+    "jclic.js/jpla.gif",
+    "jclic.js/medes.jpg",
+    "jclic.js/medes1.jpg",
+    "jclic.js/mis1.gif",
+    "jclic.js/mis2.gif",
+    "jclic.js/mis3.gif",
+    "jclic.js/montgri.jpg",
+    "jclic.js/pescador.gif",
+    "jclic.js/pi.gif",
+    "jclic.js/plaest.gif",
+    "jclic.js/pobles.jpg",
+    "jclic.js/porcli.gif",
+    "jclic.js/porcom.gif",
+    "jclic.js/poreco.gif",
+    "jclic.js/porrell.gif",
+    "jclic.js/porrius.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/portra.gif",
+    "jclic.js/psemin.jpg",
+    "jclic.js/ripoll.gif",
+    "jclic.js/rosavent.gif",
+    "jclic.js/selva.gif",
+    "jclic.js/surera.gif",
+    "jclic.js/ter.jpg",
+    "jclic.js/terrissa.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/baixemp.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

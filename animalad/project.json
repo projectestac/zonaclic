@@ -1,0 +1,107 @@
+{
+  "id": 282,
+  "title": "Animaladas",
+  "author": "Daniel María López Arroyo i Pascual Colón",
+  "school": "C San Francisco de Paula Sevilla (Andalucía), CP El Llano Monesterio (Extremadura)",
+  "date": "15/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana",
+    "es": "lengua castellana",
+    "en": "Spanish language"
+  },
+  "descCodes": [
+    132
+  ],
+  "description": {
+    "en": "Activity pack of games with animals.",
+    "ca": "En aquest paquet d'activitats hi trobareu diversos jocs relacionats amb els animals: endevinalles, jeroglífics, mots encreuats, curiositats...",
+    "es": "En este paquete de actividades encontraréis diversos juegos relacionados con los animales: adivinanzas, jeroglíficos, crucigramas, curiosidades..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/animalad.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/animalad.jclic.zip",
+  "instFile": "jclic/animalad.jclic.inst",
+  "clicZoneId": 1151,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1151",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/animalad/jclic/animalad.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 28,
+  "totalSize": 2468977,
+  "files": [
+    "cover.gif",
+    "jclic.js/animalad.jclic",
+    "jclic.js/bressol.mid",
+    "jclic.js/burro.gif",
+    "jclic.js/burro.wav",
+    "jclic.js/caballo.gif",
+    "jclic.js/caballo.wav",
+    "jclic.js/cerdo.gif",
+    "jclic.js/cerdo.wav",
+    "jclic.js/gallina.gif",
+    "jclic.js/gallina.wav",
+    "jclic.js/gato.gif",
+    "jclic.js/gato.wav",
+    "jclic.js/leon.gif",
+    "jclic.js/leon.wav",
+    "jclic.js/lobo.gif",
+    "jclic.js/lobo.wav",
+    "jclic.js/oso.gif",
+    "jclic.js/oso.wav",
+    "jclic.js/oveja.gif",
+    "jclic.js/oveja.wav",
+    "jclic.js/perro.gif",
+    "jclic.js/perro.wav",
+    "jclic.js/pezu_a.gif",
+    "jclic.js/rana.gif",
+    "jclic.js/rana.wav",
+    "jclic.js/vaca.gif",
+    "jclic.js/vaca.wav",
+    "jclic.js/valkyrie.mid",
+    "jclic.js/viva.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/animalad.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

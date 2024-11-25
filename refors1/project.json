@@ -1,0 +1,136 @@
+{
+  "id": 1433,
+  "title": "Exercicis de reforç",
+  "author": "Rosa Maria Trias",
+  "school": "Institut Manuel Blancafort La Garriga (Vallès Oriental)",
+  "date": "20/09/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "taules de multiplicar, numeració romana, potència, arrel",
+    "es": "tablas de multiplicar, numeración romana, potencia, raíz",
+    "en": "multiplication tables, roman numerals, power, root"
+  },
+  "descCodes": [
+    908,
+    913,
+    1336,
+    1337
+  ],
+  "description": {
+    "en": "Clic activities about Maths addressed to secondary school.",
+    "ca": "Paquet d'activitats per a repassar els conceptes matemàtics bàsics que s'han de tenir assolits a 1r d'ESO",
+    "es": "Paquete de actividades para repasar los conceptos matemáticos básicos que se deben tener asimilados en 1º de ESO."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/refors1.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/refors1.jclic.zip",
+  "instFile": "jclic/refors1.jclic.inst",
+  "clicZoneId": 3166,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3166",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/refors1/jclic/refors1.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 46,
+  "totalSize": 399104,
+  "files": [
+    "cover.gif",
+    "jclic.js/arrels/arr1.gif",
+    "jclic.js/arrels/arr100.gif",
+    "jclic.js/arrels/arr144.gif",
+    "jclic.js/arrels/arr16.gif",
+    "jclic.js/arrels/arr16p.gif",
+    "jclic.js/arrels/arr25.gif",
+    "jclic.js/arrels/arr25p.gif",
+    "jclic.js/arrels/arr36.gif",
+    "jclic.js/arrels/arr36p.gif",
+    "jclic.js/arrels/arr4.gif",
+    "jclic.js/arrels/arr49.gif",
+    "jclic.js/arrels/arr49p.gif",
+    "jclic.js/arrels/arr4p.gif",
+    "jclic.js/arrels/arr64.gif",
+    "jclic.js/arrels/arr64p.gif",
+    "jclic.js/arrels/arr81.gif",
+    "jclic.js/arrels/arr81p.gif",
+    "jclic.js/arrels/arr9.gif",
+    "jclic.js/arrels/arr9p.gif",
+    "jclic.js/arrels/arrels.jclic",
+    "jclic.js/arrels/infarr1.gif",
+    "jclic.js/arrels/infarr2.gif",
+    "jclic.js/arrels/quadrat.gif",
+    "jclic.js/portada3.gif",
+    "jclic.js/poten/10cua.gif",
+    "jclic.js/poten/10cuarta.gif",
+    "jclic.js/poten/10cubo.gif",
+    "jclic.js/poten/10el6tot.gif",
+    "jclic.js/poten/10oct.gif",
+    "jclic.js/poten/10quinta.gif",
+    "jclic.js/poten/10septim.gif",
+    "jclic.js/poten/10sexta.gif",
+    "jclic.js/poten/3el5tot.gif",
+    "jclic.js/poten/5el3tot.gif",
+    "jclic.js/poten/9el3tot.gif",
+    "jclic.js/poten/cinc2.gif",
+    "jclic.js/poten/deu2.gif",
+    "jclic.js/poten/dos3.gif",
+    "jclic.js/poten/dos6.gif",
+    "jclic.js/poten/infpot2.gif",
+    "jclic.js/poten/infpot3.gif",
+    "jclic.js/poten/poten.jclic",
+    "jclic.js/poten/sis4.gif",
+    "jclic.js/poten/tres2.gif",
+    "jclic.js/poten/tres4.gif",
+    "jclic.js/poten/u7.gif",
+    "jclic.js/refinf2.gif",
+    "jclic.js/refors1.jclic",
+    "jclic.js/romans/ajudrom.gif",
+    "jclic.js/romans/romans.jclic",
+    "jclic.js/taules/taules.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/refors1.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/arrels/arrels.jclic.js",
+    "jclic.js/poten/poten.jclic.js",
+    "jclic.js/romans/romans.jclic.js",
+    "jclic.js/taules/taules.jclic.js",
+    "cover.webp"
+  ]
+}

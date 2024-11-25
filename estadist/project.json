@@ -1,0 +1,114 @@
+{
+  "id": 1088,
+  "title": "Estadística en 3º de ESO",
+  "author": "Gabriel Sosa Felipe",
+  "school": "Proyecto Medusa",
+  "date": "05/11/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "estadística",
+    "es": "estadística",
+    "en": "statistic"
+  },
+  "descCodes": [
+    706
+  ],
+  "description": {
+    "en": "This package of activities starts with a review of some basic concepts needed for start working on statistics, and continues with easy problems about interpretation of data.",
+    "ca": "En aquest paquet d'activitats es repassen alguns conceptes bàsics necessaris per començar a treballar la estadística (fraccions, sistemes de coordenades, angles... ) i es plantegen uns quants problemes senzills d'interpretació de dades.",
+    "es": "En este paquete de actividades se repasan algunos conceptos básicos necesarios para empezar a trabajar la estadística (fracciones, sistemas de coordenadas, ángulos...) y se plantean unos cuantos problemas sencillos de interpretación de datos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/estadist.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/estadist.jclic.zip",
+  "instFile": "jclic/estadist.jclic.inst",
+  "clicZoneId": 2328,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2328",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/estadist/jclic/estadist.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 35,
+  "totalSize": 2488935,
+  "files": [
+    "cover.gif",
+    "jclic.js/blutextb.gif",
+    "jclic.js/boliches.gif",
+    "jclic.js/catorce.gif",
+    "jclic.js/coor13.gif",
+    "jclic.js/coor2662.gif",
+    "jclic.js/coor3210.gif",
+    "jclic.js/coor62.gif",
+    "jclic.js/coor_0_1.gif",
+    "jclic.js/coor_1_1.gif",
+    "jclic.js/copasfut.gif",
+    "jclic.js/cuatro_t.gif",
+    "jclic.js/dos_ii.gif",
+    "jclic.js/dos_v.gif",
+    "jclic.js/estadist.jclic",
+    "jclic.js/mano.gif",
+    "jclic.js/minialt.gif",
+    "jclic.js/nueve_a.gif",
+    "jclic.js/nueve_b.gif",
+    "jclic.js/ocho_a.gif",
+    "jclic.js/ocho_b.gif",
+    "jclic.js/ocho_c.gif",
+    "jclic.js/ocho_d.gif",
+    "jclic.js/once.gif",
+    "jclic.js/seis_i.gif",
+    "jclic.js/seis_ii.gif",
+    "jclic.js/seis_iii.gif",
+    "jclic.js/siete.gif",
+    "jclic.js/sis_ref.gif",
+    "jclic.js/sis_ref2.gif",
+    "jclic.js/statist.gif",
+    "jclic.js/statist.wav",
+    "jclic.js/tres_i.gif",
+    "jclic.js/tres_iii.gif",
+    "jclic.js/tres_iv.gif",
+    "jclic.js/tres_vi.gif",
+    "jclic.js/vacas.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/estadist.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": 371,
+  "title": "Literatura Galega",
+  "author": "Manuel Veiga Díaz i Sabela Núñez Singala",
+  "school": "IES Fontem Albei Fonsagrada (Lugo)",
+  "date": "19/07/02",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "literatura gallega",
+    "es": "literatura gallega",
+    "en": "Galician Literature"
+  },
+  "descCodes": [
+    633
+  ],
+  "description": {
+    "en": "Galician literature activities that deal with some of the newest writers to have emerged from this lands.",
+    "ca": "Paquet d'activitats sobre literatura gallega on apareixen diversos escriptors/es contemporanis: Suso de Toro, Marina Mayoral, Manolo Rivas, X. L. Méndez Ferrín, Darío X. Cabana i Fina Casaldelrey. En les activitats es treballen aspectes biogràfics dels escriptors/es i fragments de les seves obres.",
+    "es": "Paquete de actividades sobre literatura gallega en el que aparecen diversos autores y autoras contemporáneos: Suso de Toro, Marina Mayoral, Manolo Rivas, X. L. Méndez Ferrín, Darío X. Cabana y Fina Casaldelrey. En las actividades se trabajan aspectos biográficos de los escritores y fragmentos de algunas de sus obras."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/litergal.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/litergal.jclic.zip",
+  "instFile": "jclic/litergal.jclic.inst",
+  "clicZoneId": 1210,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1210",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/litergal/jclic/litergal.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 26,
+  "mediaFiles": 14,
+  "totalSize": 313679,
+  "files": [
+    "cover.gif",
+    "jclic.js/biblio.gif",
+    "jclic.js/biblio_1.gif",
+    "jclic.js/error.wav",
+    "jclic.js/ferrin1.jpg",
+    "jclic.js/fonsagra.mid",
+    "jclic.js/image1.jpg",
+    "jclic.js/image2.jpg",
+    "jclic.js/image3.jpg",
+    "jclic.js/image4.jpg",
+    "jclic.js/image5.jpg",
+    "jclic.js/image6.jpg",
+    "jclic.js/litergal.jclic",
+    "jclic.js/mapa.gif",
+    "jclic.js/mapa11.gif",
+    "jclic.js/suso11.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/litergal.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": 435,
+  "title": "The animal",
+  "author": "Vicente Ferrer Rubio",
+  "school": "Centro de Profesores y Recursos de Teruel Teruel (Aragón)",
+  "date": "23/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, vocabulari",
+    "es": "lengua inglesa, vocabulario",
+    "en": "English language, vocabulary"
+  },
+  "descCodes": [
+    130,
+    150
+  ],
+  "description": {
+    "en": "Clic activities in English about the names of animals. In the package we find association activities, puzzles, text activities, and crosswords.",
+    "ca": "Paquet d'activitats en anglès sobre els noms dels animals. Al paquet trobem activitats d'associació, trencaclosques, de text, sopes de lletres i mots encreuats.",
+    "es": "Paquete de actividades en inglés sobre los nombres de los animales. En el paquete encontramos actividades de asociación, rompecabezas, de texto, sopas de letras y crucigramas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/animals2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/animals2.jclic.zip",
+  "instFile": "jclic/animals2.jclic.inst",
+  "clicZoneId": 1260,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1260",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/animals2/jclic/animals2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 35,
+  "mediaFiles": 53,
+  "totalSize": 1725380,
+  "files": [
+    "cover.gif",
+    "jclic.js/agle.gif",
+    "jclic.js/agle.wav",
+    "jclic.js/ani1famr.gif",
+    "jclic.js/animals2.jclic",
+    "jclic.js/bear.gif",
+    "jclic.js/bearg.gif",
+    "jclic.js/beer.wav",
+    "jclic.js/bull.wav",
+    "jclic.js/butrflg.gif",
+    "jclic.js/cango.wav",
+    "jclic.js/cangoroo.gif",
+    "jclic.js/cock.wav",
+    "jclic.js/congratu.wav",
+    "jclic.js/cow.wav",
+    "jclic.js/dolphin.wav",
+    "jclic.js/donkey.wav",
+    "jclic.js/dove.gif",
+    "jclic.js/dove.wav",
+    "jclic.js/duck.gif",
+    "jclic.js/duck.wav",
+    "jclic.js/duckg.gif",
+    "jclic.js/fantas.wav",
+    "jclic.js/fondo2.gif",
+    "jclic.js/frog.gif",
+    "jclic.js/frog.wav",
+    "jclic.js/frogg.gif",
+    "jclic.js/horse.gif",
+    "jclic.js/horse.wav",
+    "jclic.js/liong.gif",
+    "jclic.js/monkey.gif",
+    "jclic.js/monkey.wav",
+    "jclic.js/ok.wav",
+    "jclic.js/parrot.gif",
+    "jclic.js/parrot.wav",
+    "jclic.js/parrotg.gif",
+    "jclic.js/penguin.gif",
+    "jclic.js/penguin.wav",
+    "jclic.js/perfect.wav",
+    "jclic.js/pig.wav",
+    "jclic.js/portada.gif",
+    "jclic.js/rabbit.wav",
+    "jclic.js/seal.gif",
+    "jclic.js/seal.wav",
+    "jclic.js/shark.gif",
+    "jclic.js/sheep.wav",
+    "jclic.js/spider.gif",
+    "jclic.js/spider.wav",
+    "jclic.js/spider2.gif",
+    "jclic.js/tiger.gif",
+    "jclic.js/tiger.wav",
+    "jclic.js/wasp.gif",
+    "jclic.js/wasp.wav",
+    "jclic.js/whale.gif",
+    "jclic.js/whale.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/animals2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": 738,
+  "title": "Què passa a l'institut?",
+  "author": "Ester Castejón",
+  "school": "Institut Torre Roja Viladecans (Baix Llobregat)",
+  "date": "29/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Diversos",
+    "es": "Diversos",
+    "en": "Miscellaneous"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)",
+    "en": "Primary school (6-12), Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "ensenyament secundari , nivells educatius, reforma educativa",
+    "es": "enseñanza secundaria, niveles educativos, reforma educativa",
+    "en": "secondary education, educative levels, educative reform"
+  },
+  "descCodes": [
+    407,
+    411,
+    419
+  ],
+  "description": {
+    "en": "Clic activities about ESO, the Secondary School in Spain. The package has three parts: \n<ul> \n <li>A new stage: The ESO </li>\n <li>And after? </li>\n <li>The coexistence in the institute </li>\n</ul>",
+    "ca": "Paquet d'activitats per als alumnes que comencen l'Institut amb l'objectiu d'introduir-los a aquesta nova etapa, organització de l'ESO, matèries, tipus de crèdits, què passa després de l'ESO, drets i deures del alumnes, el consell escolar, etc. El paquet està dividit en tres parts: \n<ul> \n <li>Una nova etapa: l'ESO </li>\n <li>I després què? </li>\n <li>La convivència a l'institut </li>\n</ul>",
+    "es": "Paquete de actividades para los alumnos que empiezan el instituto con el objetivo de introducir-los en esta nueva etapa, organización de la ESO, materias, tipos de créditos, qué pasa después de la ESO, derechos y deberes de los alumnos, el consejo escolar, etc. El paquete está dividido en tres partes: \n<ul> \n <li>Una nueva etapa: La ESO </li>\n <li>¿Y después qué? </li>\n <li>La convivencia en el instituto </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/eso.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/eso.jclic.zip",
+  "instFile": "jclic/eso.jclic.inst",
+  "clicZoneId": 1389,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1389",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/eso/jclic/eso.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 44,
+  "mediaFiles": 5,
+  "totalSize": 253975,
+  "files": [
+    "cover.gif",
+    "jclic.js/dib1.gif",
+    "jclic.js/dib2.gif",
+    "jclic.js/dib4.gif",
+    "jclic.js/dib5.gif",
+    "jclic.js/dib9.gif",
+    "jclic.js/eso.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/eso.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

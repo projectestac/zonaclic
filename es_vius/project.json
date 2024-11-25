@@ -1,0 +1,107 @@
+{
+  "id": 2509,
+  "title": "Els éssers vius",
+  "author": "Albiol Minguell Roquer",
+  "school": "Escola Els Cingles L'Ametlla del Vallès (Vallès Oriental)",
+  "date": "28/03/17",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "High school (16-18)",
+    "ca": "Batxillerat (16-18)",
+    "es": "Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "BTX"
+  ],
+  "descriptors": {
+    "ca": "invertebrats, rèptils, vertebrats, éssers vius",
+    "es": "invertebrados, reptiles, vertebrados, seres vivos",
+    "en": "invertebrates, reptiles, vertebrates, alive beings"
+  },
+  "descCodes": [
+    82,
+    100,
+    107,
+    1348
+  ],
+  "description": {
+    "en": "Pack of activities to work living beings classifications and main characteristics; from the first cell to the present.",
+    "ca": "Paquet d'activitats per treballar la classificació dels éssers vius i les seves característiques principals; des de la primera cèl·lula fins l'actualitat.",
+    "es": "Paquete de actividades para trabajar la clasificación de los seres vivos y sus características principales; desde la primera célula hasta la actualidad."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/es_vius.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/es_vius.jclic.zip",
+  "instFile": "jclic/es_vius.jclic.inst",
+  "clicZoneId": 4018,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=4018",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/es_vius/jclic/es_vius.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 25,
+  "totalSize": 258369,
+  "files": [
+    "cover.jpg",
+    "jclic.js/a1.jpg",
+    "jclic.js/a2.jpg",
+    "jclic.js/a3.jpg",
+    "jclic.js/a4.jpg",
+    "jclic.js/a5.jpg",
+    "jclic.js/a6.jpg",
+    "jclic.js/amfibi1.jpg",
+    "jclic.js/amfibi2.jpg",
+    "jclic.js/amfibi3.jpg",
+    "jclic.js/artropode1.jpg",
+    "jclic.js/cel_lula1.jpg",
+    "jclic.js/celenterats.jpg",
+    "jclic.js/cucterra1.jpg",
+    "jclic.js/equinoderm.jpg",
+    "jclic.js/es_vius.jclic",
+    "jclic.js/es_vius.jclic.js",
+    "jclic.js/esponja1.jpg",
+    "jclic.js/mamifer1.jpg",
+    "jclic.js/mamifer2.jpg",
+    "jclic.js/mol_lusc1.jpg",
+    "jclic.js/ocell1.jpg",
+    "jclic.js/proves_resized.jpg",
+    "jclic.js/reptil1.jpg",
+    "jclic.js/reptil2.jpg",
+    "jclic.js/reptil3.jpg",
+    "jclic.js/reptil4.jpg",
+    "jclic.js/reptil5.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

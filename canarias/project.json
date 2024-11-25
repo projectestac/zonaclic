@@ -1,0 +1,127 @@
+{
+  "id": 1914,
+  "title": "Islas Canarias",
+  "author": "Daniel Martín Castellano",
+  "school": "CEIP Los caserones Los Caserones - Telde (Islas Canarias)",
+  "date": "12/05/09",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia, Canàries",
+    "es": "geografía, Canarias",
+    "en": "geography, Canary Islands"
+  },
+  "descCodes": [
+    235,
+    483
+  ],
+  "description": {
+    "en": "Clic activities about the Canary Islands, which are them, which are they symbols, etc.",
+    "ca": "Projecte d'activitats sobre les Illes Canàries, quines són, com s'organitzen, quins són els seus símbols, etc.",
+    "es": "Proyecto de actividades sobre las Islas Canarias, cuáles son, como se organizan, cuáles son sus símbolos, etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/canarias.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/canarias.jclic.zip",
+  "instFile": "jclic/canarias.jclic.inst",
+  "clicZoneId": 3540,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3540",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/canarias/jclic/canarias.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 47,
+  "totalSize": 1462132,
+  "files": [
+    "cover.jpg",
+    "jclic.js/acierto.mp3",
+    "jclic.js/aireslima.mp3",
+    "jclic.js/ambientemarino.mp3",
+    "jclic.js/azulabajo.jpg",
+    "jclic.js/bailedelavirgen.mp3",
+    "jclic.js/bandera7estrellas.jpg",
+    "jclic.js/banderacata.jpg",
+    "jclic.js/canarias.jclic",
+    "jclic.js/correctomuje.mp3",
+    "jclic.js/cuchillo.jpg",
+    "jclic.js/dama.jpg",
+    "jclic.js/error.mp3",
+    "jclic.js/esco.jpg",
+    "jclic.js/escudo.jpg",
+    "jclic.js/fuerte.gif",
+    "jclic.js/fuerteventuraazul.gif",
+    "jclic.js/galice_horreo.jpg",
+    "jclic.js/gomera.gif",
+    "jclic.js/granca.gif",
+    "jclic.js/grancanariaazul.gif",
+    "jclic.js/hierro.gif",
+    "jclic.js/hierroazul.gif",
+    "jclic.js/islas_portada.jpg",
+    "jclic.js/islasinicio.jpg",
+    "jclic.js/islasiniciopeques.jpg",
+    "jclic.js/islaspuzzle2.gif",
+    "jclic.js/islaspuzzle22.gif",
+    "jclic.js/islaspuzzle222.jpg",
+    "jclic.js/lagarto_gigante.jpg",
+    "jclic.js/lagomeraazul.gif",
+    "jclic.js/lanza.gif",
+    "jclic.js/lanzaazul.gif",
+    "jclic.js/lapalmaazul.gif",
+    "jclic.js/mar1.mp3",
+    "jclic.js/negativo.mp3",
+    "jclic.js/palma.gif",
+    "jclic.js/pintadera1.gif",
+    "jclic.js/pintadera2.gif",
+    "jclic.js/provincia_de_las_palmas.jpg",
+    "jclic.js/provincia_de_tenerife.jpg",
+    "jclic.js/puzzle_roque.jpg",
+    "jclic.js/sorondongo.mp3",
+    "jclic.js/sorondongo1.mp3",
+    "jclic.js/tara1.gif",
+    "jclic.js/teneazul.gif",
+    "jclic.js/tenerife.gif",
+    "jclic.js/tijarafe.mp3",
+    "jclic.js/timple.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/canarias.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

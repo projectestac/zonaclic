@@ -1,0 +1,99 @@
+{
+  "id": 2354,
+  "title": "La Tierra a vista de satélite (Instrumentos)",
+  "author": "Albert Llastarri Rezola, Daniel Vivancos Bermejo, Jordi Vivancos Martí i Mònica Grau Prieto",
+  "date": "09/02/15",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16), High school (16-18)",
+    "ca": "Secundària (12-16), Batxillerat (16-18)",
+    "es": "Secundaria (12-16), Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "SEC",
+    "BTX"
+  ],
+  "description": {
+    "en": "Self-assessed activities about the project \n<a href=\"http://concurso.cnice.mec.es/cnice2006/material121/\">La Tierra a vista de satélite</a>: \n<ul> \n <li>Fundamentals </li>\n <li>Applications </li>\n <li>Instruments  </li>\n</ul>",
+    "ca": "Activitats d'autoavaluació sobre els materials \n<a href=\"http://concurso.cnice.mec.es/cnice2006/material121/\">La Tierra a vista de satélite</a>. Cadascuna de les activitats fa referència a un dels àmbits de la Teledetecció: \n<ul> \n <li>Fonaments </li>\n <li>Aplicacions </li>\n <li>Instruments </li>\n</ul>",
+    "es": "Actividades de autoevaluación sobre los materials \n<a href=\"http://concurso.cnice.mec.es/cnice2006/material121/\">La Tierra a vista de satélite</a>. Cada una de las actividades hace referencia a uno de los ámbitos de la Teledetección: \n<ul> \n <li>Fundamentos </li>\n <li>Aplicaciones </li>\n <li>Instrumentos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "teledete/unidad1",
+    "teledete/unidad2"
+  ],
+  "mainFile": "jclic.js/unidad3.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/unidad3.jclic.zip",
+  "instFile": "jclic/unidad3.jclic.inst",
+  "clicZoneId": 3860,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3860",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/teledete/jclic/unidad3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 24,
+  "totalSize": 700030,
+  "files": [
+    "cover.png",
+    "jclic.js/act3fons.gif",
+    "jclic.js/baja.gif",
+    "jclic.js/eliptica.gif",
+    "jclic.js/eo1.jpg",
+    "jclic.js/eo1g.jpg",
+    "jclic.js/geostacionaria.gif",
+    "jclic.js/goes.jpg",
+    "jclic.js/goesb.jpg",
+    "jclic.js/ikonos.jpg",
+    "jclic.js/ikonosg.jpg",
+    "jclic.js/irs_p6.gif",
+    "jclic.js/irs_p6g.gif",
+    "jclic.js/landsat5.jpg",
+    "jclic.js/landsat5g.jpg",
+    "jclic.js/meteosat2g.jpg",
+    "jclic.js/meteosat2gb.jpg",
+    "jclic.js/noaa12.jpg",
+    "jclic.js/noaa12b.jpg",
+    "jclic.js/partes_meteo.jpg",
+    "jclic.js/partes_meteob.jpg",
+    "jclic.js/polar.gif",
+    "jclic.js/spot5.jpg",
+    "jclic.js/spot5g.jpg",
+    "jclic.js/teled.xml",
+    "jclic.js/unidad3.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/unidad3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

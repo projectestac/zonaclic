@@ -1,0 +1,113 @@
+{
+  "id": 1539,
+  "title": "Herramientas",
+  "author": "Iñaki Navas Arbaizar",
+  "school": "Colegio Siglo XXI Moratalaz (Madrid)",
+  "date": "03/02/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Design & technology",
+    "ca": "Tecnologies",
+    "es": "Tecnología"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "eines",
+    "es": "herramientas",
+    "en": "tools"
+  },
+  "descCodes": [
+    896
+  ],
+  "description": {
+    "en": "Project of activities about tools addressed to pupils of secondary education.",
+    "ca": "Projecte d'activitats per a reconèixer les eines de treball més freqüents que s'utilitzen a l'aula de Tecnologia. Adreçat a alumnes d'Educació Secundària.",
+    "es": "Proyecto de actividades para reconocer las herramientas de trabajo más frecuentes que se usan en el taller de Tecnología. Dirigido a alumnado de Educación Secundaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/herramie.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/herramie.jclic.zip",
+  "instFile": "jclic/herramie.jclic.inst",
+  "clicZoneId": 3265,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3265",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/herramie/jclic/herramie.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 9,
+  "mediaFiles": 34,
+  "totalSize": 1321089,
+  "files": [
+    "cover.jpg",
+    "jclic.js/ccoperativa.jpg",
+    "jclic.js/fin.jpg",
+    "jclic.js/herramie.jclic",
+    "jclic.js/herramientas006.jpg",
+    "jclic.js/herramientas009.jpg",
+    "jclic.js/herramientas011.jpg",
+    "jclic.js/herramientas012.jpg",
+    "jclic.js/herramientas014.jpg",
+    "jclic.js/herramientas016.jpg",
+    "jclic.js/herramientas017.jpg",
+    "jclic.js/herramientas018.jpg",
+    "jclic.js/herramientas023.jpg",
+    "jclic.js/herramientas028.jpg",
+    "jclic.js/herramientas030.jpg",
+    "jclic.js/herramientas032.jpg",
+    "jclic.js/herramientas035.jpg",
+    "jclic.js/herramientas038.jpg",
+    "jclic.js/herramientas039.jpg",
+    "jclic.js/herramientas040.jpg",
+    "jclic.js/herramientas045.jpg",
+    "jclic.js/herramientas053.jpg",
+    "jclic.js/herramientas066.jpg",
+    "jclic.js/herramientas067.jpg",
+    "jclic.js/herramientas071.jpg",
+    "jclic.js/herramientas076.jpg",
+    "jclic.js/herramientas078.jpg",
+    "jclic.js/herramientas084.jpg",
+    "jclic.js/herramientas089.jpg",
+    "jclic.js/herramientas090.jpg",
+    "jclic.js/herramientas118.jpg",
+    "jclic.js/herramientas202.jpg",
+    "jclic.js/herramientas206.jpg",
+    "jclic.js/herramientas224.jpg",
+    "jclic.js/logo.jpg",
+    "jclic.js/plano_situacion.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/herramie.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

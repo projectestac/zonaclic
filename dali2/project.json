@@ -1,0 +1,100 @@
+{
+  "id": 1129,
+  "title": "Dalí: trencaclosques",
+  "author": "Jaume Rubio",
+  "school": "Escola Tibidabo Barcelona",
+  "date": "07/06/04",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Art & design",
+    "ca": "Visual i plàstica",
+    "es": "Plástica y visual"
+  },
+  "areaCodes": [
+    "vip"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "patrimoni artístic",
+    "es": "patrimonio artístico",
+    "en": "artistic patrimony"
+  },
+  "descCodes": [
+    439
+  ],
+  "description": {
+    "en": "This package has been though for Secondary school. It contains several puzzles, after its resolution a biographic piece of information about the painter is provided. Several soup letters are also included where",
+    "ca": "Aquest paquet està pensat per ser treballat a cicle superior. Consta d'un seguit de trencaclosques on la seva resolució aporta una dada de la vida del pintor. \n<br> A continuació trobem sopes de lletres on localitzar estris i eines de pintor així com diferents noms de pintors importantíssims de la pintura catalana.\n<br> Per últim hi ha un joc de mots encreuats on les dades donades en els missatges de final de puzzle permeten completar l'esmentat joc de mots encreuats.",
+    "es": "Este paquete de actividades está pensado para trabajar en Ciclo Superior de Primaria. Consta de un conjunto de rompecabezas donde su resolución aporta un dato de la vida del pintor.\n<br> A continuación encontramos sopas de letras donde localizar herramientas del pintor así como diferentes nombres de pintores importantísimos de la pintura catalana.\n<br> Por último hay un juego de crucigrama donde los datos encontrados al realizar correctamente los rompecabezas permiten completar el juego."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/dali2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/dali2.jclic.zip",
+  "instFile": "jclic/dali2.jclic.inst",
+  "clicZoneId": 2500,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2500",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/dali2/jclic/dali2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 21,
+  "totalSize": 1146971,
+  "files": [
+    "cover.jpg",
+    "jclic.js/10mesa.jpg",
+    "jclic.js/11enigma.jpg",
+    "jclic.js/12gala.jpg",
+    "jclic.js/13cristo.jpg",
+    "jclic.js/14trozos.jpg",
+    "jclic.js/15auto_1.jpg",
+    "jclic.js/16gala_1.jpg",
+    "jclic.js/17velo_1.jpg",
+    "jclic.js/18rosa.jpg",
+    "jclic.js/19aurora.jpg",
+    "jclic.js/1mucha_1.jpg",
+    "jclic.js/20auto_1.jpg",
+    "jclic.js/2hora.jpg",
+    "jclic.js/3pa.jpg",
+    "jclic.js/4galatea.jpg",
+    "jclic.js/5bu_uel.jpg",
+    "jclic.js/6monum_1.jpg",
+    "jclic.js/7fuente.jpg",
+    "jclic.js/8persi_1.jpg",
+    "jclic.js/9vesti_1.jpg",
+    "jclic.js/dali2.jclic",
+    "jclic.js/rosa_t_1.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/dali2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

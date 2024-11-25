@@ -1,0 +1,94 @@
+{
+  "id": 689,
+  "title": "Iniciación a problemas - 2º ciclo",
+  "author": "Ramiro Garijo Tarancón",
+  "school": "CRA Pinares Altos Vinuesa (Soria)",
+  "date": "29/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "problemes matemàtics",
+    "es": "problemas matemáticos",
+    "en": "mathematic problems"
+  },
+  "descCodes": [
+    926
+  ],
+  "description": {
+    "en": "Clic activities about mathematic problems where children must choose the good answer or procedure.\n<br> It is adapted for low vision impaired children.",
+    "ca": "Paquet d'activitats per a 2n cicle de Primària de problemes de matemàtiques. El paquet es divideix en quatre sessions on hi ha diferents problemes on l'alumne ha de triar la solució correcta o bé el procediment correcte.\n<br> Adaptat per discapacitat visual baixa visió.",
+    "es": "Paquete de actividades para 2º ciclo de Primaria de problemas de matemáticas. El paquete se divide en cuatro sesiones dónde hay diferentes problemas en los que el alumno debe elegir la solución o el procedimiento correcto.\n<br> Adaptado para discapacidad visual baja visión."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "probledv",
+    "problgal"
+  ],
+  "mainFile": "jclic.js/problems.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/problems.jclic.zip",
+  "instFile": "jclic/problems.jclic.inst",
+  "clicZoneId": 1361,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1361",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/problems/jclic/problems.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 37,
+  "mediaFiles": 11,
+  "totalSize": 237746,
+  "files": [
+    "cover.gif",
+    "jclic.js/clase2.gif",
+    "jclic.js/clase3.gif",
+    "jclic.js/clase4.gif",
+    "jclic.js/clase5.gif",
+    "jclic.js/clase7.gif",
+    "jclic.js/clase8.gif",
+    "jclic.js/diapo1.gif",
+    "jclic.js/madera2.gif",
+    "jclic.js/papiro1.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/problems.jclic",
+    "jclic.js/proyecto.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/problems.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

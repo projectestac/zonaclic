@@ -1,0 +1,125 @@
+{
+  "id": 2093,
+  "title": "Flors i plantes de Nadal",
+  "author": "Maria Torres Español",
+  "school": "Escola Gaspar de Portolà Balaguer (Noguera)",
+  "date": "17/12/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Social sciences, Languages",
+    "ca": "Ciències experimentals, Ciències socials, Llengües",
+    "es": "Ciencias experimentales, Ciencias sociales, Lenguas"
+  },
+  "areaCodes": [
+    "exp",
+    "soc",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "botànica, vocabulari, nadal",
+    "es": "botánica, vocabulario, navidad",
+    "en": "botany, vocabulary, christmas"
+  },
+  "descCodes": [
+    59,
+    150,
+    882
+  ],
+  "description": {
+    "en": "JClic activities about the most popular Christmas flowers and plants: \n<ul> \n <li>holly </li>\n <li>fir tree </li>\n <li>poinsenttia </li>\n <li>... </li>\n</ul>",
+    "ca": "Projecte d'activitats JClic per conèixer les flors i les plantes típiques del Nadal, treballar el vocabulari i algunes de les seves caràcteristiques. \n<ul> \n <li>grèvol </li>\n <li>avet </li>\n <li>poinsenttia </li>\n <li>... </li>\n</ul>",
+    "es": "Proyecto de actividades JClic para conocer las flores y las plantas típicas de Navidad, trabajar el vocabulario y algunas de sus características: \n<ul> \n <li>acebo </li>\n <li>abeto </li>\n <li>poinsenttia </li>\n <li>... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/p_nadal.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/p_nadal.jclic.zip",
+  "instFile": "jclic/p_nadal.jclic.inst",
+  "clicZoneId": 3653,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3653",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/p_nadal/jclic/p_nadal.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 41,
+  "totalSize": 3461404,
+  "files": [
+    "cover.png",
+    "jclic.js/2_ponsenties.jpg",
+    "jclic.js/3_abets_resized2.jpg",
+    "jclic.js/3_fulles_grevol.jpg",
+    "jclic.js/abet_amb_sac.jpg",
+    "jclic.js/abet_amb_sac_400.jpg",
+    "jclic.js/abet_i_vesc.jpg",
+    "jclic.js/acebo.jpg",
+    "jclic.js/acebo_blanc.jpg",
+    "jclic.js/acebo_molt_bonic.jpg",
+    "jclic.js/acebo_soriano.jpg",
+    "jclic.js/avet.mp3",
+    "jclic.js/avet_angels.mp3",
+    "jclic.js/avet_roger.mp3",
+    "jclic.js/be.jpg",
+    "jclic.js/boix_grevol.mp3",
+    "jclic.js/boix_grevol_angels.mp3",
+    "jclic.js/boix_ranom_1_resized1.jpg",
+    "jclic.js/flor_de_pascua.jpg",
+    "jclic.js/galzeran.mp3",
+    "jclic.js/galzeran_angels.mp3",
+    "jclic.js/galzeran_boni.jpg",
+    "jclic.js/gazern_amagat.jpg",
+    "jclic.js/molsa.jpg",
+    "jclic.js/molsa.mp3",
+    "jclic.js/molsa_016_resized.jpg",
+    "jclic.js/molsa_aangels.mp3",
+    "jclic.js/molsa_roger.mp3",
+    "jclic.js/muerdago.jpg",
+    "jclic.js/nou.jpg",
+    "jclic.js/p_nadal.jclic",
+    "jclic.js/poinsnttia.jpg",
+    "jclic.js/ponsentia_angels.mp3",
+    "jclic.js/ponsentia_roger.mp3",
+    "jclic.js/ponsenttia.mp3",
+    "jclic.js/portada_defintiva_nom_resized.jpg",
+    "jclic.js/untitled3_resized2.jpg",
+    "jclic.js/vesc4.jpg",
+    "jclic.js/vesc_angels_3.mp3",
+    "jclic.js/vesc_bo.jpg",
+    "jclic.js/vesc_bonic_girat.jpg",
+    "jclic.js/vesc_i_pi_2.jpg",
+    "jclic.js/vesc_roger.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/p_nadal.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

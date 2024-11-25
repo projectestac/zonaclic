@@ -1,0 +1,94 @@
+{
+  "id": 907,
+  "title": "Animais 3",
+  "author": "Maria Inês O. Schaeffner",
+  "date": "11/12/02",
+  "languages": {
+    "en": "Portuguese",
+    "ca": "portuguès",
+    "es": "portugués"
+  },
+  "langCodes": [
+    "pt"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales",
+    "en": "Experimental sciences"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "zoologia",
+    "es": "zoología",
+    "en": "zoology"
+  },
+  "descCodes": [
+    108
+  ],
+  "description": {
+    "en": "Clic activities in Portuguese about animals.",
+    "ca": "Paquet d'activitats en llengua portuguesa sobre els animals. El paquet treballa les lletres, síl·labes, i paraules de manera motivadora, amb l'objectiu de complementar les activitats de l'aula.",
+    "es": "Paquete de actividades en lengua portuguesa sobre los animales. El paquete trabaja las letras, sílabas y palabras de manera motivadora con el objetivo de complementar las actividades del aula."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "eusanim3"
+  ],
+  "mainFile": "jclic.js/animais3.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/animais3.jclic.zip",
+  "instFile": "jclic/animais3.jclic.inst",
+  "clicZoneId": 2020,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2020",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/animais3/jclic/animais3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 26,
+  "mediaFiles": 13,
+  "totalSize": 205579,
+  "files": [
+    "cover.gif",
+    "jclic.js/abelha.gif",
+    "jclic.js/animais3.jclic",
+    "jclic.js/beijo.avi",
+    "jclic.js/cao.gif",
+    "jclic.js/capa.gif",
+    "jclic.js/carneiro.gif",
+    "jclic.js/cavalin.gif",
+    "jclic.js/coelho.gif",
+    "jclic.js/galinha.gif",
+    "jclic.js/macaco.gif",
+    "jclic.js/parabens.gif",
+    "jclic.js/peixe.gif",
+    "jclic.js/porco.gif",
+    "jclic.js/todos.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/animais3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": 2203,
+  "title": "Jocs de paraules",
+  "author": "Anna Fontelles Terrés",
+  "school": "CREDA Lleida Lleida",
+  "date": "01/12/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua catalana",
+    "es": "aprendizaje de la lengua, lengua catalana",
+    "en": "learning of the language, Catalan language"
+  },
+  "descCodes": [
+    110,
+    133
+  ],
+  "description": {
+    "en": "Playing with words and syllables we can find other words. This project contains some hieroglyph and other games to work comprehension and reading and writing.",
+    "ca": "Jugant amb les paraules i les síl·labes en trobem d'altres. Mitjançant jeroglífics i altres jocs s'arriba a una reflexió sobre les paraules que facilita la consciència fonològica, la comprensió i la lectoescriptura.",
+    "es": "Jugando con las palabras y las sílabas se encuentran otras palabras. Mediante jeroglíficos y otros juegos se llega a una reflexión sobre las palabras que facilita la conciencia fonológica, la comprensión y la lectoescritura."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/jocspara.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/jocspara.jclic.zip",
+  "instFile": "jclic/jocspara.jclic.inst",
+  "clicZoneId": 3736,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3736",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/jocspara/jclic/jocspara.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 43,
+  "totalSize": 1785443,
+  "files": [
+    "cover.png",
+    "jclic.js/am_poll_a..jpg",
+    "jclic.js/ampolla.gif",
+    "jclic.js/bar_ca.jpg",
+    "jclic.js/barca.gif",
+    "jclic.js/bolet_aire.jpg",
+    "jclic.js/boletaire.jpg",
+    "jclic.js/ca_mis_a.jpg",
+    "jclic.js/cadira.jpg",
+    "jclic.js/camisa.jpg",
+    "jclic.js/cap.jpg",
+    "jclic.js/capa.jpg",
+    "jclic.js/cara.jpg",
+    "jclic.js/cara_bassa.jpg",
+    "jclic.js/cara_gol.jpg",
+    "jclic.js/cara_mel.jpg",
+    "jclic.js/carabassa.jpg",
+    "jclic.js/caragol.jpg",
+    "jclic.js/caramel.jpg",
+    "jclic.js/casa.jpg",
+    "jclic.js/cola.jpg",
+    "jclic.js/escola.jpg",
+    "jclic.js/euro_pa.jpg",
+    "jclic.js/europa.jpg",
+    "jclic.js/foc_a.jpg",
+    "jclic.js/foca.gif",
+    "jclic.js/galeta.jpg",
+    "jclic.js/gallina.jpg",
+    "jclic.js/gana.jpg",
+    "jclic.js/gata_maria_rodas.jpg",
+    "jclic.js/jerog.jpg",
+    "jclic.js/jocspara.jclic",
+    "jclic.js/maneta.jpg",
+    "jclic.js/maquineta.jpg",
+    "jclic.js/os_ona.jpg",
+    "jclic.js/osona.jpg",
+    "jclic.js/pa_n_talo.jpg",
+    "jclic.js/pala_n_gana.jpg",
+    "jclic.js/palangana.jpg",
+    "jclic.js/panet.jpg",
+    "jclic.js/pantalo.jpg",
+    "jclic.js/patinet.jpg",
+    "jclic.js/pes.jpg",
+    "jclic.js/pessic.jpg",
+    "jclic.js/titol.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/jocspara.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

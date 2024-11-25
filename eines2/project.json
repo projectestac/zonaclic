@@ -1,0 +1,95 @@
+{
+  "id": 1780,
+  "title": "Les eines de l'hort",
+  "author": "Genoveva Rosa i Gregori",
+  "school": "Escola Llacuna Barcelona",
+  "date": "18/06/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "hort",
+    "es": "huerto",
+    "en": "orchard"
+  },
+  "descCodes": [
+    1380
+  ],
+  "description": {
+    "en": "Project of activities that deals with the vocabulary of the farming tools used at school's vegetable garden. It includes information pages and puzzles supported by images and sounds of the different farming tools.",
+    "ca": "Projecte d'activitats per treballar el vocabulari de les eines que fem servir per treballar l'hort a l'escola a partir de pantalles d'informació i de trencaclosques amb el suport visual i sonor del nom de les diferents eines.",
+    "es": "Proyecto de actividades para trabajar el vocabulario de las herramientas que utilizamos en el huerto de la escuela a partir de pantallas de información y de rompecabezas con el soporte visual y sonoro del nombre de las diferentes herramientas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/eines2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/eines2.jclic.zip",
+  "instFile": "jclic/eines2.jclic.inst",
+  "clicZoneId": 3477,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3477",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/eines2/jclic/eines2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 16,
+  "totalSize": 1880120,
+  "files": [
+    "cover.jpg",
+    "jclic.js/1.wav",
+    "jclic.js/2.wav",
+    "jclic.js/3.wav",
+    "jclic.js/4.wav",
+    "jclic.js/5.wav",
+    "jclic.js/6.wav",
+    "jclic.js/7.wav",
+    "jclic.js/8.wav",
+    "jclic.js/cavac.gif",
+    "jclic.js/contra.gif",
+    "jclic.js/eines2.jclic",
+    "jclic.js/forca.gif",
+    "jclic.js/pala.gif",
+    "jclic.js/planta_1.gif",
+    "jclic.js/rampins.gif",
+    "jclic.js/regadora.gif",
+    "jclic.js/tapa.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/eines2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

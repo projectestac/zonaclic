@@ -1,0 +1,82 @@
+{
+  "id": 952,
+  "title": "Gentilicios",
+  "author": "Ramiro Garijo Tarancón",
+  "school": "CRA Pinares Altos Vinuesa (Soria)",
+  "date": "12/12/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Llengües",
+    "es": "Lenguas",
+    "en": "Languages"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)",
+    "en": "Primary school (6-12), Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "description": {
+    "en": "Learning and relation activities about the more common Spanish gentiles of cities, counties, autonomous communities and European countries",
+    "ca": "Activitats d'aprenentatge i de relació sobre els gentilicis espanyols més corrents de localitats, províncies, comunitats i països europeus.",
+    "es": "Actividades de aprendizaje y de relación sobre los gentilicios españoles más corrientes de localidades, provincias, comunidades y países europeos."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/gentili.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/gentili.jclic.zip",
+  "instFile": "jclic/gentili.jclic.inst",
+  "clicZoneId": 2053,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2053",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/gentili/jclic/gentili.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 10,
+  "totalSize": 466817,
+  "files": [
+    "cover.gif",
+    "jclic.js/clase.gif",
+    "jclic.js/clase6.gif",
+    "jclic.js/espgenti.gif",
+    "jclic.js/estrella.gif",
+    "jclic.js/fin.gif",
+    "jclic.js/gentili.jclic",
+    "jclic.js/marbel.gif",
+    "jclic.js/marble.gif",
+    "jclic.js/marble2.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/positive.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/gentili.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": 1370,
+  "title": "Geometría plana (español)",
+  "author": "Ferran Estruch Mascarell",
+  "school": "CP Verge del Remei Castelló de Rugat (La Vall d'Albaida)",
+  "date": "22/05/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geometria",
+    "es": "geometría",
+    "en": "geometry"
+  },
+  "descCodes": [
+    708
+  ],
+  "description": {
+    "en": "Project of activities about geometry. There are activities about angles, polygons, lines, triangles, the perimeter...",
+    "ca": "Projecte d'activitats sobre geometria plana. Al llarg d'ell podem treballar tipus d'angles, tipus de polígons, parts dels polígons, tipus de línies, els triangles, el perímetre...",
+    "es": "Proyecto de actividades sobre geometría plana. A lo largo de la actividad podemos trabajar distintos conceptos de la geometría: tipos de ángulos, tipos de polígonos, tipos de líneas, los triángulos, el perímetro..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "poligons"
+  ],
+  "mainFile": "jclic.js/poligoes.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/poligoes.jclic.zip",
+  "instFile": "jclic/poligoes.jclic.inst",
+  "clicZoneId": 3111,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3111",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/poligoes/jclic/poligoes.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 34,
+  "mediaFiles": 31,
+  "totalSize": 1298193,
+  "files": [
+    "cover.jpg",
+    "jclic.js/al_tri01.jpg",
+    "jclic.js/al_tri02.jpg",
+    "jclic.js/al_tri03.jpg",
+    "jclic.js/al_tri04.jpg",
+    "jclic.js/al_tri05.jpg",
+    "jclic.js/al_tri06.jpg",
+    "jclic.js/al_tri07.jpg",
+    "jclic.js/al_tri08.jpg",
+    "jclic.js/linies01.jpg",
+    "jclic.js/miro.jpg",
+    "jclic.js/paral01.jpg",
+    "jclic.js/paral02.jpg",
+    "jclic.js/perim2_s.jpg",
+    "jclic.js/perimet1.jpg",
+    "jclic.js/perimet2.jpg",
+    "jclic.js/pol01.jpg",
+    "jclic.js/pol_s.jpg",
+    "jclic.js/polig.jpg",
+    "jclic.js/polig1.jpg",
+    "jclic.js/poligoes.jclic",
+    "jclic.js/poligons01.jpg",
+    "jclic.js/poligreg01.jpg",
+    "jclic.js/quadiclas.jpg",
+    "jclic.js/quadiclas1.jpg",
+    "jclic.js/quadiclas2.jpg",
+    "jclic.js/quadiclas3.jpg",
+    "jclic.js/quadiclas3s.jpg",
+    "jclic.js/trian_alt.jpg",
+    "jclic.js/trian_alt_s.jpg",
+    "jclic.js/trian_alts.jpg",
+    "jclic.js/trianclas.jpg",
+    "jclic.js/triang.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/poligoes.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": 1457,
+  "title": "Actividades para la rehabilitación cognitiva (07 - Texto: Siglo de oro)",
+  "author": "Esther Blasco Tamarit i Rut Antón Castellote",
+  "school": "Unidad de Daño Cerebral Nuestra Señora del Carmen València (Horta)",
+  "date": "21/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "",
+    "ca": "",
+    "es": ""
+  },
+  "levelCodes": [
+    ""
+  ],
+  "description": {
+    "en": "These activities have been designed for the interdisciplinary rehabilitation of brain injured adults caused by tumours, encephalocranial injury, brain stroke or haemorrhage). There 7 different activities: \n<ul> \n <li>Spatial concepts </li>\n <li>Phrase ordering </li>\n <li>M and N phonemes </li>\n <li>Prepositions </li>\n <li>Sayings </li>\n <li>Sequences </li>\n <li>Text: Golden century. </li>\n</ul>",
+    "ca": "Aquestes activitats han estat dissenyades per ser utilitzades a la rehabilitació interdisciplinar d'adults amb lesions cerebrals adquirides per diferents causes (traumatismes craneoencefàlics, tumors, encefalitis, hemorràgies i infarts cerebrals, etc). Trobem 7 activitats diferents: \n<ul> \n <li>Conceptes espacials </li>\n <li>Ordenar frases </li>\n <li>Fonemes M y N </li>\n <li>Preposicions </li>\n <li>Refranys </li>\n <li>Seqüències </li>\n <li>Text: Siglo de oro </li>\n</ul>",
+    "es": "Estas actividades han sido diseñadas para ser utilizadas en la rehabilitación interdisciplinar de adultos con daño cerebral adquirido de diferentes causas (traumatismos craneoencefálicos, tumores, encefalitis, hemorragias e infartos cerebrales, etc). Encontramos 7 actividades diferentes: \n<ul> \n <li>Conceptos espaciales </li>\n <li>Ordenar frases </li>\n <li>Fonemas M y N </li>\n <li>Preposiciones </li>\n <li>Refranes </li>\n <li>Secuencias </li>\n <li>Texto: Siglo de oro </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "espacio",
+    "espazioa",
+    "frases2",
+    "mn",
+    "prepos",
+    "refranes",
+    "secuenci"
+  ],
+  "mainFile": "jclic.js/sigdeoro.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sigdeoro.jclic.zip",
+  "instFile": "jclic/sigdeoro.jclic.inst",
+  "clicZoneId": 3171,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3171",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sigdeoro/jclic/sigdeoro.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 5,
+  "totalSize": 650981,
+  "files": [
+    "cover.jpg",
+    "jclic.js/aplauso.wav",
+    "jclic.js/contra_1.gif",
+    "jclic.js/marques1.gif",
+    "jclic.js/sigdeoro.jclic",
+    "jclic.js/siglop_1.gif",
+    "jclic.js/tapasi_1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sigdeoro.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

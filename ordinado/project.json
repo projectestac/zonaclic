@@ -1,0 +1,129 @@
+{
+  "id": 1629,
+  "title": "L'ordinador i les seves parts",
+  "author": "Sònia Hurtado Pérez",
+  "school": "C Nazaret Esplugues de Llobregat (Baix Llobregat)",
+  "date": "05/12/06",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "informàtica",
+    "es": "informática",
+    "en": "computer science"
+  },
+  "descCodes": [
+    737
+  ],
+  "description": {
+    "en": "<i>L'ordinador</i> is a set of activities about the computers, its functions and its parts. They are addressed to primary education.",
+    "ca": "<i>L'ordinador</i> és un conjunt d'activitats on es presenten les diferents parts que formen un ordinador i les seves funcions. Apropen a l'alumnat a les actuals versions que existeixen: des del ratolí fins a la webcam o la memòria extraïble USB. \n<br> Està dirigit als alumnes de cicle inicial que comencen a entrar en contacte amb l'ordinador i que necessiten anomenar les coses pel seu nom. Són activitats senzilles amb una explicació i posteriorment uns exercicis tant didàctics com lúdics.",
+    "es": "<i>L'ordinador</i> es un conjunto de actividades dónde se presentan las diferentes partes que forman un ordenador y sus funciones. Acercan al alumnado a las actuales versiones que existen: desde el ratón hasta la webcam o la memoria extraíble USB.\n<br> Está dirigido a los alumnos de ciclo inicial que empiezan a entrar en contacto con el ordenador y que necesitan llamar las cosas por su nombre. Son actividades sencillas con una explicación y posteriormente unos ejercicios tanto didácticos como lúdicos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ordinado.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ordinado.jclic.zip",
+  "instFile": "jclic/ordinado.jclic.inst",
+  "clicZoneId": 3337,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3337",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ordinado/jclic/ordinado.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 26,
+  "mediaFiles": 50,
+  "totalSize": 4061708,
+  "files": [
+    "cover.gif",
+    "jclic.js/altaveus.wav",
+    "jclic.js/altavoces.jpg",
+    "jclic.js/altavoces2.jpg",
+    "jclic.js/audio.jpg",
+    "jclic.js/audio70.gif",
+    "jclic.js/bonafeina.wav",
+    "jclic.js/camera.wav",
+    "jclic.js/camera_digital.jpg",
+    "jclic.js/cd.png",
+    "jclic.js/cdrom.wav",
+    "jclic.js/cpu2.jpg",
+    "jclic.js/disquet.wav",
+    "jclic.js/disquette.png",
+    "jclic.js/escaner.wav",
+    "jclic.js/etiquette_cd_rom_01.png",
+    "jclic.js/hundyx_715.jpg",
+    "jclic.js/imagen.gif",
+    "jclic.js/impresora.jpg",
+    "jclic.js/impressora.wav",
+    "jclic.js/memoriaextra.wav",
+    "jclic.js/microfon.wav",
+    "jclic.js/microfono.jpg",
+    "jclic.js/moltbe.wav",
+    "jclic.js/monitor.wav",
+    "jclic.js/monitor_1.png",
+    "jclic.js/monitor_2.png",
+    "jclic.js/mouse_1.png",
+    "jclic.js/mousedibujo.png",
+    "jclic.js/ordenador1.gif",
+    "jclic.js/ordenador2.gif",
+    "jclic.js/ordenador2.jpg",
+    "jclic.js/ordinado.jclic",
+    "jclic.js/ordinadors.wav",
+    "jclic.js/parts.jpg",
+    "jclic.js/pc_tower.png",
+    "jclic.js/perfecte.wav",
+    "jclic.js/portadaordinador.jpg",
+    "jclic.js/portatil.wav",
+    "jclic.js/portatil_acer_.jpg",
+    "jclic.js/printer_1.png",
+    "jclic.js/ratoli.wav",
+    "jclic.js/scanner.bmp",
+    "jclic.js/scanner_foto.jpg",
+    "jclic.js/sobretaula.wav",
+    "jclic.js/teclado2.jpg",
+    "jclic.js/teclat.wav",
+    "jclic.js/torre.wav",
+    "jclic.js/usb_flash_drive.png",
+    "jclic.js/usb_memory_stick.png",
+    "jclic.js/webcam.png",
+    "jclic.js/webcam.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ordinado.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

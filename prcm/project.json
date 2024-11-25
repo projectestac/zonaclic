@@ -1,0 +1,90 @@
+{
+  "id": 517,
+  "title": "Problemes de càlcul mental basats en \"El quinzet\" - 2",
+  "author": "José Ruiz Bustos",
+  "school": "Escola Enric Casassas Sabadell (Vallès Occidental)",
+  "date": "24/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aritmètica, càlcul, fonaments de les matemàtiques, problemes matemàtics",
+    "es": "aritmética, cálculo, fundamentos de las matemáticas, problemas matemáticos",
+    "en": "Arithmetic, calculation, foundations of the mathematics, mathematic problems"
+  },
+  "descCodes": [
+    701,
+    702,
+    707,
+    926
+  ],
+  "description": {
+    "en": "Mental calculation activities based on the book \n<i>El Quinzet</i> by Lluís Segarra and David Barba. There are three levels of difficulty with eight problems each.",
+    "ca": "Dos paquets d'activitats de càlcul mental basats en \n<i>el Quinzet</i> de Lluís Segarra i David Barba, adreçats als cicles mitjà i superior de primària. S'organitzen en vuit paquets d'activitats per a cada cicle.",
+    "es": "Dos paquetes de actividades de cálculo mental basados en \n<i>El Quinzet</i> de Lluís Segarra i David barba, dirigidos a los ciclos medio, inicial y superior de primaria. Se organizan en ocho paquetes de actividades para cada ciclo."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/prcm.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/prcm.jclic.zip",
+  "instFile": "jclic/prcm.jclic.inst",
+  "clicZoneId": 1302,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1302",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/prcm/jclic/prcm.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 91,
+  "mediaFiles": 8,
+  "totalSize": 502145,
+  "files": [
+    "cover.gif",
+    "jclic.js/calculcm_nota.gif",
+    "jclic.js/calculcm_prbfin.gif",
+    "jclic.js/calculcm_problema.gif",
+    "jclic.js/calculcm_quinzet.gif",
+    "jclic.js/calculcs_nota.gif",
+    "jclic.js/calculcs_prbfin.gif",
+    "jclic.js/calculcs_problema.gif",
+    "jclic.js/calculcs_quinzet.gif",
+    "jclic.js/prcm.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/prcm.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

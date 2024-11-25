@@ -1,0 +1,100 @@
+{
+  "id": 90,
+  "title": "Deportes",
+  "author": "Antonio Blasco, Clementina Bargalló i Pedro Otero",
+  "school": "CEIP Rio Ebro Zaragoza (Aragón)",
+  "date": "09/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "esports",
+    "es": "deportes",
+    "en": "sports"
+  },
+  "descCodes": [
+    424
+  ],
+  "description": {
+    "en": "Clic activities about different sport modalities, and puzzles of spanish football teams.",
+    "ca": "Paquet d'activitats relacionades amb diferents modalitats esportives per a alumnes d'Educació Primària, i trencaclosques dels escuts de diversos equips de futbol.",
+    "es": "Paquete de actividades relacionadas con distintas modalidades deportivas para alumnos / as de Educación Primaria y rompecabezas de escudos de diversos equipos españoles de fútbol."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/deportes.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/deportes.jclic.zip",
+  "instFile": "jclic/deportes.jclic.inst",
+  "clicZoneId": 1043,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1043",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/deportes/jclic/deportes.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 21,
+  "totalSize": 424030,
+  "files": [
+    "cover.gif",
+    "jclic.js/atmadr_1.gif",
+    "jclic.js/balonman.gif",
+    "jclic.js/barcel_1.gif",
+    "jclic.js/beisbol.gif",
+    "jclic.js/celta.gif",
+    "jclic.js/ciclis_1.gif",
+    "jclic.js/coru_a.gif",
+    "jclic.js/deportes.jclic",
+    "jclic.js/golf.gif",
+    "jclic.js/hipica.gif",
+    "jclic.js/hockey.gif",
+    "jclic.js/m_laga.gif",
+    "jclic.js/natacion.gif",
+    "jclic.js/numancia.gif",
+    "jclic.js/present.gif",
+    "jclic.js/realma_1.gif",
+    "jclic.js/rugby.gif",
+    "jclic.js/tenis.gif",
+    "jclic.js/valencia.gif",
+    "jclic.js/villar_1.gif",
+    "jclic.js/voley.gif",
+    "jclic.js/zaragbis.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/deportes.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": 1365,
+  "title": "I aleshores no en quedà cap (Deu negrets)",
+  "author": "Empar Serrano i Catalina",
+  "school": "Institut Deltebre Deltebre (La Cava) (Baix Ebre)",
+  "date": "17/05/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la literatura, novel·la",
+    "es": "aprendizaje de la literatura, novela",
+    "en": "learning of Literature, novel"
+  },
+  "descCodes": [
+    611,
+    648
+  ],
+  "description": {
+    "en": "Clic activities about Agatha Christie's \n<i>Ten Little Niggers</i>.",
+    "ca": "Aquest material, basat en la novel·la d'Agatha Christie \"Deu negrets\", pretén ser un recolzament a la tasca del foment de la lectura i alhora un possible mecanisme complementari d'autoavaluació.\n<p> L'estructura del paquet aprofita totes les modalitats bàsiques del Clic per a aconseguir donar una visió sumària de la novel·la que han llegit i de l'imaginari de la seva autora. </p>",
+    "es": "Este material, basado en la novela de Agatha Christie \"Diez negritos\", pretende ser un apoyo en el fomento de la lectura y a la vez, un posible mecanismo complementario de autoevaluación. \n<p> La estructura del paquete aprovecha todas las modalidades básicas de Clic para conseguir dar una visión de la novela que han leído. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/agatha.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/agatha.jclic.zip",
+  "instFile": "jclic/agatha.jclic.inst",
+  "clicZoneId": 3107,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3107",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/agatha/jclic/agatha.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 7,
+  "totalSize": 1914330,
+  "files": [
+    "cover.gif",
+    "jclic.js/10negr_1.gif",
+    "jclic.js/agata2.gif",
+    "jclic.js/agatha.jclic",
+    "jclic.js/christie.gif",
+    "jclic.js/hp.gif",
+    "jclic.js/marple2.gif",
+    "jclic.js/poirot.gif",
+    "jclic.js/trovat.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/agatha.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

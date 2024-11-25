@@ -1,0 +1,120 @@
+{
+  "id": 1134,
+  "title": "Astremania",
+  "author": "Toni Díaz",
+  "school": "C Mare de Déu del Carme Terrassa (Vallès Occidental)",
+  "date": "08/06/04",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "astronomia",
+    "es": "astronomía",
+    "en": "astronomy"
+  },
+  "descCodes": [
+    57
+  ],
+  "description": {
+    "en": "Package of activities about the space, heavenly bodies, planets... for the first level of Primary education. This package can be used as a review tool in higher levels.",
+    "ca": "Paquet d'activitats per al cicle inicial de primària sobre l'espai, els astres, els planetes... El paquet pot ser utilitzat a cursos més elevats com a repàs del tema.",
+    "es": "Paquete de actividades para Ciclo Inicial de primaria sobre el espacio, los astros, los planetas... El paquete pude ser utilizado también en cursos más elevados como repaso del tema."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/astres.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/astres.jclic.zip",
+  "instFile": "jclic/astres.jclic.inst",
+  "clicZoneId": 2521,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2521",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/astres/jclic/astres.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 41,
+  "totalSize": 2419934,
+  "files": [
+    "cover.jpg",
+    "jclic.js/astres.jclic",
+    "jclic.js/astrona.gif",
+    "jclic.js/aterra_1.mpeg",
+    "jclic.js/comiat.gif",
+    "jclic.js/dextrat.gif",
+    "jclic.js/dibju.gif",
+    "jclic.js/dibma.gif",
+    "jclic.js/dibme.gif",
+    "jclic.js/dibne.gif",
+    "jclic.js/dibpl.gif",
+    "jclic.js/dibsa.gif",
+    "jclic.js/dibsol.gif",
+    "jclic.js/dibte.gif",
+    "jclic.js/dibur.gif",
+    "jclic.js/dibve.gif",
+    "jclic.js/enlair_1.mpeg",
+    "jclic.js/estrella.gif",
+    "jclic.js/imlluna.gif",
+    "jclic.js/jupiter.gif",
+    "jclic.js/lluna.jpg",
+    "jclic.js/luna.gif",
+    "jclic.js/mart.gif",
+    "jclic.js/mercuri.gif",
+    "jclic.js/nau1.gif",
+    "jclic.js/nau2.gif",
+    "jclic.js/nau3.gif",
+    "jclic.js/nau4.gif",
+    "jclic.js/nauprinc.jpg",
+    "jclic.js/neptu.gif",
+    "jclic.js/planeta.gif",
+    "jclic.js/pluto.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/portapri.jpg",
+    "jclic.js/puzpla.jpg",
+    "jclic.js/saturn.gif",
+    "jclic.js/sol.gif",
+    "jclic.js/tamplan.jpg",
+    "jclic.js/telesc.gif",
+    "jclic.js/terra.jpg",
+    "jclic.js/trip.mid",
+    "jclic.js/ura.gif",
+    "jclic.js/venus.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/astres.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

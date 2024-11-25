@@ -1,0 +1,65 @@
+{
+  "title": "Contabilizar gastos e ingresos",
+  "author": "Ángel M. López Cameán",
+  "date": "25/02/12",
+  "langCodes": [
+    "gl"
+  ],
+  "languages": {
+    "ca": "gallec",
+    "es": "gallego",
+    "en": "Galician"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "areas": {
+    "ca": "Diversos, ó",
+    "es": "Diversos, ó",
+    "en": "Miscellaneous, ó"
+  },
+  "levelCodes": [
+    "BTX"
+  ],
+  "levels": {
+    "ca": "Batxillerat (16-18), FP",
+    "es": "Bachillerato (16-18), FP",
+    "en": "High school (16-18), FP"
+  },
+  "description": {
+    "ca": "Amb aquest recurs digital reforçarem l'aprenentatge sobre la comptabilització de les diferents despeses i ingressos que es fan a les empreses.\nFixa't bé en les instruccions per fer correctament les activitats proposades i contribuir així a millorar el teu aprenentatge sobre els continguts d'aquest tema.",
+    "es": "Con este recurso digital reforzaremos el aprendizaje sobre la contabilización de los diferentes gastos e ingresos que se realizan en las empresas.\nFíjate bien en las instrucciones para realizar correctamente las actividades propuestas y contribuir así a mejorar tu aprendizaje sobre los contenidos de este tema.\n",
+    "en": "With this digital resource we will reinforce the learning about the accounting of the different expenses and income that are made in companies.\nPay close attention to the instructions to correctly carry out the proposed activities and thus contribute to improving your learning about the contents of this topic."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "cover": "portada.jpg",
+  "mainFile": "jclic.js/contabilidade.jclic",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 11,
+  "mediaFiles": 6,
+  "totalSize": 141912,
+  "instFile": "jclic/contabilidade.jclic.inst",
+  "zipFile": "jclic/contabilidade.jclic.zip",
+  "files": [
+    "jclic.js/contabilidade.jclic",
+    "jclic.js/contabilidade.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/libro_diario3.jpg",
+    "portada.jpg",
+    "project-thumb.jpg",
+    "project.json"
+  ]
+}

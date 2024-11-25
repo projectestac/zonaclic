@@ -1,0 +1,116 @@
+{
+  "id": 1366,
+  "title": "Nivelación restitutiva",
+  "author": "Héctor Arancibia i Margarita Farias",
+  "school": "Centro Educativo Liceo Municipal \"Joaquín Edwards Bello\" Comuna de Macul (Xile), Colegio \"Alcántara de los Altos de Peñalolen\" Peñalolen (Xile)",
+  "date": "18/05/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la matemàtica, càlcul",
+    "es": "aprendizaje de la matemática, cálculo",
+    "en": "learning of the mathematical one, calculation"
+  },
+  "descCodes": [
+    700,
+    702
+  ],
+  "description": {
+    "en": "Package of activities which belongs to the Program \n<a href=\"http://lpt.mineduc.cl/index_sub0.php?id_portal=42\">Secondary School for everyone</a> developed by \n<a href=\"http://www.mineduc.cl/\">Chilean Ministry of Education</a>. This program aims to keep young people at secondary school in order to reach a broader offer in education as well as to get the 12 years of schooling. The program \n<a href=\"http://lpt.mineduc.cl/index_sub0.php?id_portal=42\">Secondary School for everyone</a> is carried out at the most problematic schools.\n<p> This package contains several mathematical problems to be solved by pupils. </p>",
+    "ca": "Paquet d'activitats que pertany al Programa \n<a href=\"http://lpt.mineduc.cl/index_sub0.php?id_portal=42\">Liceo para todos</a> desenvolupat pel \n<a href=\"http://www.mineduc.cl/\">Ministerio de Educación de Chile</a>, aquest programa procura la permanència dels joves a l'Ensenyament Mitjà, arribant així als dotze anys d'escolaritat i accedint d'aquesta manera a una oferta educativa de qualitat. El programa \n<a href=\"http://lpt.mineduc.cl/index_sub0.php?id_portal=42\">Liceo para todos</a> es desenvolupa als centres que concentren més dificultats educatives i socials.\n<p> El paquet presenta una sèrie de problemes matemàtics que els alumnes han de resoldre. </p>",
+    "es": "Paquete de actividades cuyo contenido es parte del Programa \n<a href=\"http://lpt.mineduc.cl/index_sub0.php?id_portal=42\">Liceo para todos</a> desarrollado por el \n<a href=\"http://www.mineduc.cl/\">Ministerio de Educación de Chile</a>, este programa apunta a que los jóvenes permanezcan en la Enseñanza Media, alcanzando los doce años de escolaridad y accedan a una oferta educativa de calidad. El Programa \n<a href=\"http://lpt.mineduc.cl/index_sub0.php?id_portal=42\">Liceo para todos</a> se desarrolla en los establecimientos que concentran mayores dificultades educativas y sociales.\n<p> El paquete presenta una serie de problemas matemáticos para que los alumnos resuelvan. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/nivelmat.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/nivelmat.jclic.zip",
+  "instFile": "jclic/nivelmat.jclic.inst",
+  "clicZoneId": 3108,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3108",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/nivelmat/jclic/nivelmat.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 56,
+  "mediaFiles": 36,
+  "totalSize": 1867933,
+  "files": [
+    "cover.jpg",
+    "jclic.js/aplauso.wav",
+    "jclic.js/balon.gif",
+    "jclic.js/carat.gif",
+    "jclic.js/congratu.wav",
+    "jclic.js/excel.wav",
+    "jclic.js/experto.wav",
+    "jclic.js/fantasti.wav",
+    "jclic.js/good.wav",
+    "jclic.js/guan.gif",
+    "jclic.js/guar.gif",
+    "jclic.js/huac.gif",
+    "jclic.js/juan.gif",
+    "jclic.js/lluehhhb.gif",
+    "jclic.js/mario.gif",
+    "jclic.js/meno.wav",
+    "jclic.js/muybien.wav",
+    "jclic.js/muybien2.wav",
+    "jclic.js/nivelmat.jclic",
+    "jclic.js/polic.gif",
+    "jclic.js/prob03.gif",
+    "jclic.js/prob10.gif",
+    "jclic.js/prob11.gif",
+    "jclic.js/prob24.gif",
+    "jclic.js/prob25.gif",
+    "jclic.js/refere_1.gif",
+    "jclic.js/sol03.gif",
+    "jclic.js/sol10.gif",
+    "jclic.js/sol11.gif",
+    "jclic.js/sol24.gif",
+    "jclic.js/sol25.gif",
+    "jclic.js/sol26.gif",
+    "jclic.js/super.wav",
+    "jclic.js/tenison.gif",
+    "jclic.js/tulio.gif",
+    "jclic.js/verygood.wav",
+    "jclic.js/verywell.wav",
+    "jclic.js/viva.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/nivelmat.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

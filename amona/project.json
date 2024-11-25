@@ -1,0 +1,97 @@
+{
+  "id": 1665,
+  "title": "Amona Josepa",
+  "author": "César Martínez Iturralde",
+  "school": "CP San Frantzisko Herri Ikastetxea Bermeo (Euzkadi)",
+  "date": "08/05/07",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua basca",
+    "es": "lengua vasca",
+    "en": "Basque language"
+  },
+  "descCodes": [
+    922
+  ],
+  "description": {
+    "en": "Project of Basque language based the Amara Berri pedagogical system. There are activities about: \n<ul> \n <li>Comprehension </li>\n <li>Vocabulary </li>\n <li>Spelling </li>\n <li>Synonymous and antonyms </li>\n <li>Adjectives </li>\n</ul>",
+    "ca": "Prejecte de llengua basca basat en el sistema pedagògic Amara Berri. A partir de la lectura d'un conte es realitzen activitats de: \n<ul> \n <li>Comprensió </li>\n <li>Vocabulari </li>\n <li>Ortografia h, z, s,tz, tx, ts,... </li>\n <li>Sinònims i antònims </li>\n <li>Adjectius </li>\n</ul>",
+    "es": "Proyecto de lengua vasca basado el sistema pedagógico Amara Berri. Apoyándose en la lectura de un cuento se realizan diversas actividades de: \n<ul> \n <li>Comprensión </li>\n <li>Vocabulario </li>\n <li>Ortografía h, z, s,tz, tx, ts,... </li>\n <li>Sinónimos y antónimos </li>\n <li>Adjetivos (cualidades) </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/amona.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/amona.jclic.zip",
+  "instFile": "jclic/amona.jclic.inst",
+  "clicZoneId": 3373,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3373",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/amona/jclic/amona.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 29,
+  "mediaFiles": 18,
+  "totalSize": 671260,
+  "files": [
+    "cover.jpg",
+    "jclic.js/aitona.jpg",
+    "jclic.js/amona.jclic",
+    "jclic.js/amona_joxapaikonoa.jpg",
+    "jclic.js/amona_joxepa.jpg",
+    "jclic.js/amona_joxepa1.jpg",
+    "jclic.js/amona_joxepa2.jpg",
+    "jclic.js/amonairakur.gif",
+    "jclic.js/atea.jpg",
+    "jclic.js/begia1.jpg",
+    "jclic.js/ca8rnq3p.jpg",
+    "jclic.js/heldua.jpg",
+    "jclic.js/imagen10.gif",
+    "jclic.js/imagen3.gif",
+    "jclic.js/imagen4.gif",
+    "jclic.js/imagen5.gif",
+    "jclic.js/imagen7.gif",
+    "jclic.js/ipuina.jpg",
+    "jclic.js/pastel.jpg",
+    "jclic.js/zapatos.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/amona.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

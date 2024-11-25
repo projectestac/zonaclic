@@ -1,0 +1,103 @@
+{
+  "id": 796,
+  "title": "Què és i com funciona la biblioteca",
+  "author": "Luis Ignacio García-Alzórriz Pardo",
+  "school": "Escola Mas Casanovas Barcelona",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "biblioteconomia",
+    "es": "biblioteconomía",
+    "en": "library science"
+  },
+  "descCodes": [
+    479
+  ],
+  "description": {
+    "en": "Activities about the library, the proper use of it, how to understand the book records, the different book clasifications, etc. The activities are divided between the purely informative and the ones that demand an answer from the student.",
+    "ca": "Activitats sobre la biblioteca: com fer-ne ús, com entendre les fitxes bibliogràfiques, les diferents classificacions bibliotecàries, etc.\n<br>Les activitats estan dividides en dos blocs: les purament informatives i les que requereixen una resposta per part de l'alumne.",
+    "es": "Actividades sobre la biblioteca, como hacer uso de ella, cómo entender los ficheros de información, las diferentes clasificaciones bibliotecarias, etc. \n<br>Las actividades están divididas entre las puramente informativas y las que requieren respuesta del alumno."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/bibliote.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/bibliote.jclic.zip",
+  "instFile": "jclic/bibliote.jclic.inst",
+  "clicZoneId": 1438,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1438",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/bibliote/jclic/bibliote.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 24,
+  "totalSize": 173386,
+  "files": [
+    "cover.gif",
+    "jclic.js/asir.gif",
+    "jclic.js/bibli.gif",
+    "jclic.js/bibliote.jclic",
+    "jclic.js/catal.gif",
+    "jclic.js/egip.gif",
+    "jclic.js/emmit.gif",
+    "jclic.js/fitxaa2.gif",
+    "jclic.js/fitxaaut.gif",
+    "jclic.js/fitxacdu.gif",
+    "jclic.js/fitxamat.gif",
+    "jclic.js/fitxanov.gif",
+    "jclic.js/fitxatit.gif",
+    "jclic.js/fitxes.gif",
+    "jclic.js/gomets.gif",
+    "jclic.js/grec.gif",
+    "jclic.js/i0.gif",
+    "jclic.js/i1.gif",
+    "jclic.js/i2.gif",
+    "jclic.js/i3.gif",
+    "jclic.js/jn.gif",
+    "jclic.js/obre.gif",
+    "jclic.js/obre1.gif",
+    "jclic.js/obrem.gif",
+    "jclic.js/obremon2.gif",
+    "jclic.js/obremons.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/bibliote.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

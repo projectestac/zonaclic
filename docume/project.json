@@ -1,0 +1,81 @@
+{
+  "id": 788,
+  "title": "El rincón de los documentos",
+  "author": "Juan Andrés Guirado Pérez",
+  "school": "Facultad de Ciencias de la Documentación Alcalá de Henares (Madrid)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "biblioteconomia",
+    "es": "biblioteconomía",
+    "en": "library science"
+  },
+  "descCodes": [
+    479
+  ],
+  "description": {
+    "en": "Pack that deals with research methodology, types of documents and the access to this information. Directed mainly for high-school and college students.",
+    "ca": "Paquet que tracta sobre la metodologia de la investigació i les diferents tipologies documentals i d'accés a la informació.",
+    "es": "Paquete que trata sobre la metodología de la investigación y las diferentes tipologías documentales y de acceso a la información."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/docume.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/docume.jclic.zip",
+  "instFile": "jclic/docume.jclic.inst",
+  "clicZoneId": 1430,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1430",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/docume/jclic/docume.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 2,
+  "totalSize": 124412,
+  "files": [
+    "cover.gif",
+    "jclic.js/docume.jclic",
+    "jclic.js/portada.gif",
+    "jclic.js/v_alca_2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/docume.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

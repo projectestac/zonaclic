@@ -1,0 +1,83 @@
+{
+  "id": 2197,
+  "title": "Cervantes",
+  "author": "Ana Carretero Jiménez, Bernat Cabrera, Biel Cervera i Mariona Moliner",
+  "school": "Institut Alexandre Deulofeu Figueres (Alt Empordà)",
+  "date": "18/11/11",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la literatura, literatura castellana, Cervantes",
+    "es": "aprendizaje de la literatura, literatura castellana, Cervantes",
+    "en": "learning of Literature, Castilian Literature, Cervantes"
+  },
+  "descCodes": [
+    611,
+    626,
+    1377
+  ],
+  "description": {
+    "en": "Project of activities about Cervantes and his works: \n<ul> \n <li>Works </li>\n <li>Don Quixote </li>\n <li>Characters </li>\n <li>Biography </li>\n</ul>",
+    "ca": "Projecte d'activitats JClic sobre Cervantes i la seva obra: \n<ul> \n <li>Obres de Cervantes </li>\n <li>El Quixot </li>\n <li>Personatges </li>\n <li>Biografia </li>\n</ul>",
+    "es": "Proyecto de actividades JClic sobre Cervantes y su obra: \n<ul> \n <li>Obras de Cervantes </li>\n <li>El Quijote </li>\n <li>Personajes </li>\n <li>Biografía </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cervant3.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cervant3.jclic.zip",
+  "instFile": "jclic/cervant3.jclic.inst",
+  "clicZoneId": 3731,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3731",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cervant3/jclic/cervant3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 8,
+  "mediaFiles": 2,
+  "totalSize": 200021,
+  "files": [
+    "cover.jpg",
+    "jclic.js/_users_annamariajuanolapellicer_desktop_cervantes_mural_resized.jpg",
+    "jclic.js/cervant3.jclic",
+    "jclic.js/cervantes2_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cervant3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

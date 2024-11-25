@@ -1,0 +1,103 @@
+{
+  "id": 502,
+  "title": "Numeració romana",
+  "author": "Luís Pérez Gutiérrez",
+  "school": "Escola Can Massallera Sant Boi de Llobregat (Baix Llobregat)",
+  "date": "18/01/07",
+  "languages": {
+    "en": "French",
+    "ca": "francès",
+    "es": "francés"
+  },
+  "langCodes": [
+    "fr"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "fonaments de les matemàtiques",
+    "es": "fundamentos de las matemáticas",
+    "en": "foundations of the mathematics"
+  },
+  "descCodes": [
+    707
+  ],
+  "description": {
+    "en": "Roman numeral activities. It explains the basic concepts involved in roman numbers and contains a good amount of levelled exercises.",
+    "ca": "Cinc paquets d'activitats per a treballar la numeració romana: en el primer s'expliquen els conceptes bàsics per a entendre el seu funcionament, i en els altres quatre es proposen activitats classificades per nivells:\n<br> \n<ul> \n <li>De l'I al XX </li>\n <li>Del XX al C </li>\n <li>del C al M </li>\n <li>del M al MMMCMXCIX </li>\n</ul>",
+    "es": "Cinco paquetes de actividades para trabajar la numeración romana: en el primero se explican los conceptos básicos para entender su funcionamiento, y en los otros cuatro se proponen actividades clasificadas por niveles:\n<br> \n<ul> \n <li>Del I al XX </li>\n <li>Del XX al C </li>\n <li>del C al M </li>\n <li>del M al MMMCMXCIX </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "eusroman",
+    "romangal",
+    "romanos",
+    "romans"
+  ],
+  "mainFile": "jclic.js/romains.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/romains.jclic.zip",
+  "instFile": "jclic/romains.jclic.inst",
+  "clicZoneId": 1296,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1296",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/romains/jclic/romains.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 51,
+  "mediaFiles": 17,
+  "totalSize": 612136,
+  "files": [
+    "cover.gif",
+    "jclic.js/arc.jpg",
+    "jclic.js/cap.png",
+    "jclic.js/coliseum.gif",
+    "jclic.js/merida.jpg",
+    "jclic.js/nivell0.jpg",
+    "jclic.js/nivell0a.gif",
+    "jclic.js/nivell0b.png",
+    "jclic.js/nivell0c.png",
+    "jclic.js/nivell0d.png",
+    "jclic.js/nivell0e.png",
+    "jclic.js/nivell0f.png",
+    "jclic.js/nivell1.jpg",
+    "jclic.js/nivell2.jpg",
+    "jclic.js/nivell3.jpg",
+    "jclic.js/nivell4.jpg",
+    "jclic.js/rellotge.gif",
+    "jclic.js/romains.jclic",
+    "jclic.js/segovia1.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/romains.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

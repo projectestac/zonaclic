@@ -1,0 +1,119 @@
+{
+  "id": 2463,
+  "title": "El otoño y la vendimia",
+  "author": "Pilar Serrano García",
+  "school": "Colegio Público Divino Maestro Argamasilla de Alba - Ciudad Real (Castilla - La Mancha)",
+  "date": "17/11/16",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Social sciences",
+    "ca": "Ciències experimentals, Ciències socials",
+    "es": "Ciencias experimentales, Ciencias sociales"
+  },
+  "areaCodes": [
+    "exp",
+    "soc"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "societat, verema",
+    "es": "sociedad, vintage",
+    "en": "society, vendimia"
+  },
+  "descCodes": [
+    344,
+    1473
+  ],
+  "description": {
+    "en": "Different activities for children at kindergarden to work on the activities of autumn: the process of wine, characteristics and fruits of autumn.",
+    "ca": "Diferents activitats perquè els nens d'educació infantil treballin sobre les activitats de la tardor: el procés del vi, característiques i fruits de tardor.",
+    "es": "Diferentes actividades para que los niños de educación infantil trabajen sobre las actividades del otoño: el proceso del vino,características y frutos de otoño."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/vendimia.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/vendimia.jclic.zip",
+  "instFile": "jclic/vendimia.jclic.inst",
+  "clicZoneId": 3971,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3971",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/vendimia/jclic/vendimia.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 8,
+  "mediaFiles": 38,
+  "totalSize": 1748098,
+  "files": [
+    "cover.png",
+    "jclic.js/almendra.jpg",
+    "jclic.js/arbol_a.jpg",
+    "jclic.js/arbol_b.jpg",
+    "jclic.js/arbol_en_primavera.jpg",
+    "jclic.js/arbol_otono.png",
+    "jclic.js/avellanas_668x400x80xx.jpg",
+    "jclic.js/cacahuete.jpg",
+    "jclic.js/carita_feliz.jpg",
+    "jclic.js/castanas.jpg",
+    "jclic.js/coger_uva_resized.jpg",
+    "jclic.js/embotellar.jpg",
+    "jclic.js/envejecer.jpg",
+    "jclic.js/flores.png",
+    "jclic.js/hoja.png",
+    "jclic.js/hoja_a.jpg",
+    "jclic.js/hoja_b.jpg",
+    "jclic.js/hoja_otono.jpg",
+    "jclic.js/manzanas.jpg",
+    "jclic.js/nueces.jpg",
+    "jclic.js/otono.jpg",
+    "jclic.js/paraguas2_resized.jpg",
+    "jclic.js/paraguas_a_resized.jpg",
+    "jclic.js/paraguas_b_resized.jpg",
+    "jclic.js/paraguas_resized.jpg",
+    "jclic.js/primavera.jpg",
+    "jclic.js/proceso2.jpg",
+    "jclic.js/proceso3_resized.jpg",
+    "jclic.js/proceso4.jpg",
+    "jclic.js/proceso5.jpg",
+    "jclic.js/proceso6.jpg",
+    "jclic.js/racimo_de_uvas_verdes.jpg",
+    "jclic.js/recoger.jpg",
+    "jclic.js/sol.jpg",
+    "jclic.js/triturar.jpg",
+    "jclic.js/uvas_a.jpg",
+    "jclic.js/uvas_b.jpg",
+    "jclic.js/vendimia.jclic",
+    "jclic.js/vendimia.jclic.js",
+    "jclic.js/vendimia1_resized.jpg",
+    "jclic.js/viento.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

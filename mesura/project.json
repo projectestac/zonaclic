@@ -1,0 +1,91 @@
+{
+  "id": 1928,
+  "title": "Aparells de mesura",
+  "author": "M. Lluïsa Abad Roses",
+  "school": "Servei de Tecnologies per a l'Aprenentatge i el Coneixement Barcelona",
+  "date": "22/06/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "química, laboratori",
+    "es": "química, laboratorio",
+    "en": "chemistry, laboratory"
+  },
+  "descCodes": [
+    97,
+    837
+  ],
+  "description": {
+    "en": "<ul> \n <li>balance </li>\n <li>test-tube </li>\n <li>burette </li>\n <li>pipette </li>\n <li>thermometer </li>\n <li>... </li>\n</ul>",
+    "ca": "Projecte JClic sobre els aparells de mesura d'un laboratori químic: \n<ul> \n <li>balances </li>\n <li>provetes </li>\n <li>buretes </li>\n <li>pipetes </li>\n <li>termòmetres </li>\n <li>... </li>\n</ul>",
+    "es": "Proyecto JClic sobre los aparatos de medición de un laboratorio químico: \n<ul> \n <li>balanzas </li>\n <li>probetas </li>\n <li>buretas </li>\n <li>pipetas </li>\n <li>termómetros </li>\n <li>... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/mesura.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mesura.jclic.zip",
+  "instFile": "jclic/mesura.jclic.inst",
+  "clicZoneId": 3554,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3554",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/mesura/jclic/mesura.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 11,
+  "totalSize": 234943,
+  "files": [
+    "cover.jpg",
+    "jclic.js/balanca1.jpg",
+    "jclic.js/balanca2.jpg",
+    "jclic.js/balanca3.jpg",
+    "jclic.js/bureta1.jpg",
+    "jclic.js/matras.jpg",
+    "jclic.js/mesura.jclic",
+    "jclic.js/phmetre.jpg",
+    "jclic.js/pipetes.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/provetes.jpg",
+    "jclic.js/roberval.jpg",
+    "jclic.js/termomet.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/mesura.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

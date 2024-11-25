@@ -1,0 +1,88 @@
+{
+  "id": 2148,
+  "title": "Introducció a la Probabilitat",
+  "author": "Mónica da Silva",
+  "school": "Institut Parets del Vallès Parets del Vallès (Vallès Oriental)",
+  "date": "19/05/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "probabilitat",
+    "es": "probabilidad",
+    "en": "probability"
+  },
+  "descCodes": [
+    714
+  ],
+  "description": {
+    "en": "Project activities for students to be introduced into the calculus of probabilities: \n<ul> \n <li>Experiments </li>\n <li>Events </li>\n <li>Chance </li>\n <li>Sample Space </li>\n <li>Laplace Rule  </li>\n</ul>",
+    "ca": "Projecte d'activitats per a que l'alumne s'introdueixi de forma autònoma en el càlcul de probabilitats. Al llarg del projecte es treballen diferents conceptes com: \n<ul> \n <li>Experiments </li>\n <li>Esdeveniments </li>\n <li>Probabilitat </li>\n <li>Espai mostral </li>\n <li>Regla de Laplace </li>\n</ul>",
+    "es": "Proyecto de actividades para que el alumno se introduzca en el cálculo de probabilidades. A lo largo del proyecto se trabajan diferentes conceptos como: \n<ul> \n <li>Experimentos </li>\n <li>Acontecimientos </li>\n <li>Probabilidad </li>\n <li>Espacio muestral </li>\n <li>Regla de Laplace </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/probabil.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/probabil.jclic.zip",
+  "instFile": "jclic/probabil.jclic.inst",
+  "clicZoneId": 3687,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3687",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/probabil/jclic/probabil.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 9,
+  "totalSize": 500361,
+  "files": [
+    "cover.png",
+    "jclic.js/esta6.gif",
+    "jclic.js/esta7.gif",
+    "jclic.js/fondo_carta_resized2.jpg",
+    "jclic.js/fondo_dado_resized1.jpg",
+    "jclic.js/fondo_domino_resized1.jpg",
+    "jclic.js/fondo_resized.jpg",
+    "jclic.js/fondo_urna_resized2.jpg",
+    "jclic.js/formula.gif",
+    "jclic.js/portada_resized.jpg",
+    "jclic.js/probabil.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/probabil.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

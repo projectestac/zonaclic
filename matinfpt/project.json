@@ -1,0 +1,134 @@
+{
+  "id": 1931,
+  "title": "Matemática na Educação Infantil",
+  "author": "Vânia Petrizzo",
+  "school": "Instituto das Filhas de São José São Paulo (Brasil)",
+  "date": "01/07/09",
+  "languages": {
+    "en": "Portuguese",
+    "ca": "portuguès",
+    "es": "portugués"
+  },
+  "langCodes": [
+    "pt"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "nombres enters",
+    "es": "números enteros",
+    "en": "integers"
+  },
+  "descCodes": [
+    1321
+  ],
+  "description": {
+    "en": "Project activities to develop the concept of numerical sequence, relating mathematics as a spatial dimension of intelligence and develop skills for resolving problems.",
+    "ca": "Projecte d'activitats que pretén desenvolupar el concepte de seqüència numèrica, relacionar la matemàtica com una dimensió espacial de la intel·ligència i desenvolupar habilitats de resolució de problemes.",
+    "es": "Proyecto de actividades que pretenden desarrollar el concepto de secuencia numérica, relacionar la matemática como una dimensión espacial de la inteligencia y desarrollar habilidades de resolución de problemas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/matinfpt.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/matinfpt.jclic.zip",
+  "instFile": "jclic/matinfpt.jclic.inst",
+  "clicZoneId": 3557,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3557",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/matinfpt/jclic/matinfpt.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 7,
+  "mediaFiles": 55,
+  "totalSize": 605538,
+  "files": [
+    "cover.jpg",
+    "jclic.js/0imagem_2.gif",
+    "jclic.js/1.jpg",
+    "jclic.js/2n.jpg",
+    "jclic.js/3n.jpg",
+    "jclic.js/4.jpg",
+    "jclic.js/5.jpg",
+    "jclic.js/6.jpg",
+    "jclic.js/981412_1_.jpg",
+    "jclic.js/arara1.jpg",
+    "jclic.js/baleia.jpg",
+    "jclic.js/cao.jpg",
+    "jclic.js/capa.jpg",
+    "jclic.js/copia_de_document.jpg",
+    "jclic.js/document.jpg",
+    "jclic.js/document__2_.jpg",
+    "jclic.js/elefante1.jpg",
+    "jclic.js/foca1.jpg",
+    "jclic.js/fruta_1.jpg",
+    "jclic.js/fruta_2n.jpg",
+    "jclic.js/fruta_3.jpg",
+    "jclic.js/fruta_4.jpg",
+    "jclic.js/fruta_5.jpg",
+    "jclic.js/fruta_6.jpg",
+    "jclic.js/fruta_7n.jpg",
+    "jclic.js/fruta_8.jpg",
+    "jclic.js/fruta_9.jpg",
+    "jclic.js/girafa1.jpg",
+    "jclic.js/i01_4.jpg",
+    "jclic.js/imagem.jpg",
+    "jclic.js/imagem_1.gif",
+    "jclic.js/imagem_2.gif",
+    "jclic.js/imagem_3.gif",
+    "jclic.js/imagem_4.gif",
+    "jclic.js/imagem_5.gif",
+    "jclic.js/imagem_6.gif",
+    "jclic.js/leao2.jpg",
+    "jclic.js/letra_a1.jpg",
+    "jclic.js/letra_b1.jpg",
+    "jclic.js/letra_c1.jpg",
+    "jclic.js/letra_e1.jpg",
+    "jclic.js/letra_f1.jpg",
+    "jclic.js/letra_g1.jpg",
+    "jclic.js/letra_l1.jpg",
+    "jclic.js/letra_m1.jpg",
+    "jclic.js/letra_r1.jpg",
+    "jclic.js/letra_z1.jpg",
+    "jclic.js/macaco1.jpg",
+    "jclic.js/matinfpt.jclic",
+    "jclic.js/numero_1.jpg",
+    "jclic.js/numero_5.jpg",
+    "jclic.js/numero_6.jpg",
+    "jclic.js/numero_7.jpg",
+    "jclic.js/numero_8.jpg",
+    "jclic.js/numero_9.jpg",
+    "jclic.js/rato1.jpg",
+    "jclic.js/zebra1.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/matinfpt.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

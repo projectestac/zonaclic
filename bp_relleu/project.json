@@ -1,0 +1,102 @@
+{
+  "id": 2211,
+  "title": "El Baix Penedès (El Baix Penedès: relleu)",
+  "school": "Escola Sant Julià L'Arboç (Baix Penedès), ESC Teresina Martorell El Vendrell (Baix Penedès)",
+  "date": "17/05/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "història, Baix Penedès, població",
+    "es": "historia, Baix Penedès, población",
+    "en": "history, Baix Penedès, population"
+  },
+  "descCodes": [
+    246,
+    474,
+    802
+  ],
+  "description": {
+    "en": "Eight projects of activities about Baix Penedès in Catalonia: \n<ul> \n <li>Famous people </li>\n <li>History </li>\n <li>Population </li>\n <li>Festes tradicionals </li>\n <li>Economy </li>\n <li>Climate </li>\n <li>Situation </li>\n <li>Relieve </li>\n</ul>",
+    "ca": "Vuit projectes d'activitats sobre la comarca del Baix Penedès: \n<ul> \n <li>Personatges il·lustres </li>\n <li>Història </li>\n <li>Població </li>\n <li>Festes tradicionals </li>\n <li>Economia </li>\n <li>Clima </li>\n <li>Situació </li>\n <li>Relleu </li>\n</ul>",
+    "es": "Ocho proyectos de actividades sobre la comarca de el Baix Penedès: \n<ul> \n <li>Personajes ilustres </li>\n <li>Historia </li>\n <li>Población </li>\n <li>Fiestas tradicionales </li>\n <li>Economía </li>\n <li>Clima </li>\n <li>Situación </li>\n <li>Relieve </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "b_penede",
+    "bp_clima",
+    "bp_econo",
+    "bp_festes",
+    "bp_histo",
+    "bp_pobla",
+    "bp_situa"
+  ],
+  "mainFile": "jclic.js/bp_relleu.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/bp_relleu.jclic.zip",
+  "instFile": "jclic/bp_relleu.jclic.inst",
+  "clicZoneId": 3739,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3739",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/bp_relleu/jclic/bp_relleu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 13,
+  "totalSize": 888421,
+  "files": [
+    "cover.png",
+    "jclic.js/0.gif",
+    "jclic.js/agraiments.jpg",
+    "jclic.js/bp_relleu.jclic",
+    "jclic.js/depressi__del_pened_s.jpg",
+    "jclic.js/informacio_primera_pantalla.jpg",
+    "jclic.js/informacio_quarta_pantalla.jpg",
+    "jclic.js/informacio_segona_pantalla.jpg",
+    "jclic.js/informacio_tercera_pantalla.jpg",
+    "jclic.js/muntanyes_de_calafell.jpg",
+    "jclic.js/pag_21_color.jpg",
+    "jclic.js/pag_21_color_amb_rius_2.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/serra_d_albinyana.jpg",
+    "jclic.js/serra_de_montmell.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/bp_relleu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

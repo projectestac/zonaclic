@@ -1,0 +1,89 @@
+{
+  "id": 2105,
+  "title": "PC - Persondatorer. Processor",
+  "author": "Cristian D. Blendea",
+  "school": "Cybergymnasiet Odenplan Campus Stockholm (Sweden)",
+  "date": "04/02/11",
+  "languages": {
+    "en": "Swedish",
+    "ca": "suec",
+    "es": "sueco"
+  },
+  "langCodes": [
+    "sv"
+  ],
+  "areas": {
+    "en": "Design & technology",
+    "ca": "Tecnologies",
+    "es": "Tecnología"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16), High school (16-18)",
+    "ca": "Secundària (12-16), Batxillerat (16-18)",
+    "es": "Secundaria (12-16), Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "SEC",
+    "BTX"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la tecnologia, informàtica, maquinari",
+    "es": "aprendizaje de la tecnología, informática, hardware",
+    "en": "learning of the technology, computer science, hardware"
+  },
+  "descCodes": [
+    728,
+    737,
+    739
+  ],
+  "description": {
+    "en": "Project of JClic activities about computers: \n<ul> \n <li>history </li>\n <li>manufacturers </li>\n <li>processor package </li>\n</ul>",
+    "ca": "Projecte d'activitats JClic sobre els ordinadors: \n<ul> \n <li>història </li>\n <li>fabricants </li>\n <li>processadors </li>\n</ul>",
+    "es": "Proyecto de actividades JClic sobre los ordenadores: \n<ul> \n <li>historia </li>\n <li>fabricantes </li>\n <li>procesadores </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/pcperson.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pcperson.jclic.zip",
+  "instFile": "jclic/pcperson.jclic.inst",
+  "clicZoneId": 3664,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3664",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pcperson/jclic/pcperson.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 6,
+  "mediaFiles": 7,
+  "totalSize": 215282,
+  "files": [
+    "cover.png",
+    "jclic.js/addemoticons04211.gif",
+    "jclic.js/addemoticons04255.gif",
+    "jclic.js/addemoticons04264.gif",
+    "jclic.js/addemoticons04269.gif",
+    "jclic.js/addemoticons0427.gif",
+    "jclic.js/addemoticons04275.gif",
+    "jclic.js/blue800.jpg",
+    "jclic.js/pcperson.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pcperson.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": 1084,
+  "title": "La Grecia antigua",
+  "author": "Isidoro Gómez Navarro",
+  "school": "CRA Sexma de la Sierra Checa - Guadalajara (Castilla - La Mancha)",
+  "date": "05/11/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "història de grècia",
+    "es": "historia de Grecia",
+    "en": "history of Greece"
+  },
+  "descCodes": [
+    249
+  ],
+  "description": {
+    "en": "Package of activities about the ancient Greece, with exercises about: \n<ul> \n <li>The regions of Greece </li>\n <li>The theatre </li>\n <li>The architecture </li>\n <li>The mythology </li>\n <li>The language </li>\n</ul>",
+    "ca": "Paquet d'activitats sobre la Grècia antiga. Al paquet hi ha exercicis sobre: \n<ul> \n <li>Les regions de Grècia </li>\n <li>El teatre </li>\n <li>L'arquitectura </li>\n <li>La mitologia </li>\n <li>La llengua </li>\n</ul>",
+    "es": "Paquete de actividades sobre la Grecia antigua. El paquete contiene ejercicios sobre: \n<ul> \n <li>Las regiones de Grecia </li>\n <li>El teatro </li>\n <li>La arquitectura </li>\n <li>La mitología </li>\n <li>La lengua </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/grecia2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/grecia2.jclic.zip",
+  "instFile": "jclic/grecia2.jclic.inst",
+  "clicZoneId": 2325,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2325",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/grecia2/jclic/grecia2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 23,
+  "totalSize": 820702,
+  "files": [
+    "cover.jpg",
+    "jclic.js/ceram2.gif",
+    "jclic.js/col_com.gif",
+    "jclic.js/col_cor.gif",
+    "jclic.js/col_dor.gif",
+    "jclic.js/col_jon.gif",
+    "jclic.js/col_tos.gif",
+    "jclic.js/column1b.gif",
+    "jclic.js/column1c.gif",
+    "jclic.js/cra_g.gif",
+    "jclic.js/filos.gif",
+    "jclic.js/g_mapa1.gif",
+    "jclic.js/g_mapa2.gif",
+    "jclic.js/g_mapa3.gif",
+    "jclic.js/g_mapa4.gif",
+    "jclic.js/g_parte1.gif",
+    "jclic.js/g_parte2.gif",
+    "jclic.js/g_teat.gif",
+    "jclic.js/grecia2.jclic",
+    "jclic.js/mates.gif",
+    "jclic.js/mp_ate.gif",
+    "jclic.js/t_aten.gif",
+    "jclic.js/teatro.gif",
+    "jclic.js/teatro1.gif",
+    "jclic.js/teatro2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/grecia2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": 1179,
+  "title": "Welcome to London",
+  "author": "Ana Mª Navas Estrada",
+  "school": "CEIP San Bernardo San Roque (Estación Ferrea)",
+  "date": "14/06/04",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua estrangera",
+    "es": "aprendizaje de la lengua, lengua extranjera",
+    "en": "learning of the language, foreign language"
+  },
+  "descCodes": [
+    110,
+    135
+  ],
+  "description": {
+    "en": "Clic activities in English about London: The package has 5 parts: \n<ul> \n <li>Map of central London </li>\n <li>Places to go </li>\n <li>Parks and gardens </li>\n <li>Shops, eating, theatres, music and sport </li>\n <li>Museums and galleries </li>\n</ul>",
+    "ca": "Paquet d'activitats en llengua anglesa sobre la ciutat de Londres. El paquet consta de 5 parts: \n<ul> \n <li>Mapa de Londres </li>\n <li>Llocs on anar </li>\n <li>Parcs i jardins </li>\n <li>Botigues, menjar, teatres, música... </li>\n <li>Museus </li>\n</ul>",
+    "es": "Paquete de actividades en lengua inglesa sobre la ciudad de Londres. El paquete consta de 5 partes: \n<ul> \n <li>Mapa de Londres </li>\n <li>Lugares donde ir </li>\n <li>Parques y jardines </li>\n <li>Tiendas, comida, teatros, música... </li>\n <li>Museos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/london2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/london2.jclic.zip",
+  "instFile": "jclic/london2.jclic.inst",
+  "clicZoneId": 2683,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2683",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/london2/jclic/london2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 9,
+  "mediaFiles": 17,
+  "totalSize": 809406,
+  "files": [
+    "cover.gif",
+    "jclic.js/bckpalac.gif",
+    "jclic.js/bigben.gif",
+    "jclic.js/bridge.gif",
+    "jclic.js/clap.wav",
+    "jclic.js/flagfon3.gif",
+    "jclic.js/fondo.gif",
+    "jclic.js/fondo2.gif",
+    "jclic.js/hsespar.gif",
+    "jclic.js/london2.jclic",
+    "jclic.js/map75.gif",
+    "jclic.js/papiro.gif",
+    "jclic.js/paz.gif",
+    "jclic.js/police.gif",
+    "jclic.js/star.mid",
+    "jclic.js/stpauls.gif",
+    "jclic.js/tours.gif",
+    "jclic.js/uk.mid",
+    "jclic.js/wstmnstr.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/london2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

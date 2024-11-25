@@ -1,0 +1,87 @@
+{
+  "id": 59,
+  "title": "Tecladit (mekanografia ikastaroa)",
+  "author": "Manuel V. Tortajada",
+  "school": "Escola Ponent Granollers (Vallès Oriental)",
+  "date": "08/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Design & technology, Miscellaneous",
+    "ca": "Tecnologies, Diversos",
+    "es": "Tecnología, Diversos"
+  },
+  "areaCodes": [
+    "tec",
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "mecanografia",
+    "es": "mecanografía",
+    "en": "types"
+  },
+  "descCodes": [
+    925
+  ],
+  "description": {
+    "en": "This activity pack works on typewriting skills.",
+    "ca": "Tecladit es un programa de mecanografia que ensinistra progressivament l'alumne a la perfecta utilització del teclat, a fer servir tots els dits de les dues mans, a que cada dit \"memoritzi\" les tecles que li corresponen i que es pugui escriure sense mirar-les.\n<p> Es treballen primerament les línies del mig, la superior i la inferior per passar després a l'exercici dels dits exteriors i interiors. Uns petits Controls ens donaran compte de si l'alumne ha superat o no aquella o aquelles lliçons. </p>",
+    "es": "Tecladit es un programa de mecanografía que enseña progresivamente al alumno la perfecta utilización del teclado para hacer uso de todos los dedos de las dos manos, que cada uno memorice las teclas que le corresponden y que puedan escribir sin mirarlas.\n<br> Se trabajan primeramente las líneas del medio, la superior y la inferior para pasar después a los ejercicios de los dedos exteriores e interiores. Unos pequeños controles darán cuenta de si el alumno ha superado o no aquella o aquellas lecciones."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "tecladit",
+    "teclafr",
+    "teclaga"
+  ],
+  "mainFile": "jclic.js/teclaeus.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/teclaeus.jclic.zip",
+  "instFile": "jclic/teclaeus.jclic.inst",
+  "clicZoneId": 1023,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1023",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/teclaeus/jclic/teclaeus.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 63,
+  "mediaFiles": 1,
+  "totalSize": 358714,
+  "files": [
+    "cover.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/teclaeus.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/teclaeus.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

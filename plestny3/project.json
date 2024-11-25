@@ -1,0 +1,134 @@
+{
+  "id": 839,
+  "title": "El Pla de l'Estany",
+  "author": "Carme Haro, Enric Peiris Poch, Fina Vidal, Isabel Álvarez, Rafael Ponsatí i Teresa Estany",
+  "school": "Escola Mn. Baldiri Rexach Banyoles (Pla de l'Estany)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geografia física, geografia humana, geografia política",
+    "es": "geografía física, geografía humana, geografía política",
+    "en": "physical geography, human geography, political geography"
+  },
+  "descCodes": [
+    237,
+    238,
+    239
+  ],
+  "description": {
+    "en": "Clic activities about the \"pla de l'Estany\" county, in Catalonia. This is a trilogy whith two more activities: \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=3291\">Banyoles ciutat</a> i a \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=2561\">L'estany de Banyoles</a>",
+    "ca": "Paquet d'activitats sobre la comarca del Pla de l'Estany on es treballa: \n<ul> \n <li>Història de la comarca </li>\n <li>Els municipis </li>\n <li>Geografia física i política </li>\n <li>La població </li>\n <li>L'estany de Banyoles </li>\n</ul> Aquesta és una trilogia que consta de dos activitats més: \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=3291\">Banyoles ciutat</a> i a \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=2561\">L'estany de Banyoles</a>",
+    "es": "Paquete de actividades sobre la comarca de El Pla de l'Estany (en Cataluña), en la que se trabaja: \n<ul> \n <li>Historia de la comarca </li>\n <li>Los municipios </li>\n <li>Geografía física y política </li>\n <li>La población </li>\n <li>El lago de Banyoles </li>\n</ul> Esta es una trilogía con dos actividades más: \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=3291\">Banyoles ciutat</a> i a \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=2561\">L'estany de Banyoles</a>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/plestny3.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/plestny3.jclic.zip",
+  "instFile": "jclic/plestny3.jclic.inst",
+  "clicZoneId": 1471,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1471",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/plestny3/jclic/plestny3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 34,
+  "mediaFiles": 52,
+  "totalSize": 1852416,
+  "files": [
+    "cover.gif",
+    "jclic.js/ban2.jpg",
+    "jclic.js/ban3.gif",
+    "jclic.js/banyoles.jpg",
+    "jclic.js/banyoles.wav",
+    "jclic.js/bravo.wav",
+    "jclic.js/cam2.jpg",
+    "jclic.js/cam3.gif",
+    "jclic.js/camos.wav",
+    "jclic.js/carr1.gif",
+    "jclic.js/cor3.gif",
+    "jclic.js/cornella.jpg",
+    "jclic.js/cornella.wav",
+    "jclic.js/cr1.jpg",
+    "jclic.js/cr2.jpg",
+    "jclic.js/cre3.gif",
+    "jclic.js/crespia.wav",
+    "jclic.js/en2.gif",
+    "jclic.js/es1.jpg",
+    "jclic.js/es2.jpg",
+    "jclic.js/esp3.gif",
+    "jclic.js/esponella.wav",
+    "jclic.js/fantastic.wav",
+    "jclic.js/font1.jpg",
+    "jclic.js/font3.gif",
+    "jclic.js/fontcoberta.wav",
+    "jclic.js/genial.wav",
+    "jclic.js/m1.jpg",
+    "jclic.js/map4.jpg",
+    "jclic.js/map8.jpg",
+    "jclic.js/mapaco_1.gif",
+    "jclic.js/mapaco_2.gif",
+    "jclic.js/moltb_.wav",
+    "jclic.js/pal1.jpg",
+    "jclic.js/pal3.gif",
+    "jclic.js/palol.wav",
+    "jclic.js/pesque1.jpg",
+    "jclic.js/plestny3.jclic",
+    "jclic.js/por2.jpg",
+    "jclic.js/por3.gif",
+    "jclic.js/porque_1.jpg",
+    "jclic.js/porqueres.wav",
+    "jclic.js/s1.jpg",
+    "jclic.js/s2.jpg",
+    "jclic.js/santmiquel.wav",
+    "jclic.js/ser3.gif",
+    "jclic.js/serinya.wav",
+    "jclic.js/sm1.jpg",
+    "jclic.js/sm2.jpg",
+    "jclic.js/sm3.gif",
+    "jclic.js/v2.jpg",
+    "jclic.js/vil1.jpg",
+    "jclic.js/vil3.gif",
+    "jclic.js/vilademuls.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/plestny3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

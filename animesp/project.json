@@ -1,0 +1,144 @@
+{
+  "id": 103,
+  "title": "Animales salvajes",
+  "author": "Assumpta Pau Ricart, Esther Casademunt Rodríguez, Rosa Belda Freixa, Roser Mir Cuatrecasas i Teresa Aymerich",
+  "school": "Escola Mare de Déu de Núria Ribes de Freser (Ripollès)",
+  "date": "09/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "zoologia",
+    "es": "zoología",
+    "en": "zoology"
+  },
+  "descCodes": [
+    108
+  ],
+  "description": {
+    "en": "Activity pack about wild animals. The featured animals are: The guacamay, the wolf, the dolphin, the elephant, the fish and the lion.",
+    "ca": "Paquet d'activitats dividits en dos nivells i adreçades a l'Educació Infantil. Se centra en els següents animals: el guacamai, el llop, el dofí, l'elefant, el peix i el lleó. Es treballen grafies, números i sons.",
+    "es": "Paquete de actividades divididos en dos niveles y dirigidos a educación infantil. Se centra en los siguientes animales: el guacamayo, el lobo, el delfín, el elefante, el pez y el león. Se trabajan grafías, números y sonidos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "animalia",
+    "animalsa"
+  ],
+  "mainFile": "jclic.js/animesp.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/animesp.jclic.zip",
+  "instFile": "jclic/animesp.jclic.inst",
+  "clicZoneId": 1050,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1050",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/animesp/jclic/animesp.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 49,
+  "mediaFiles": 61,
+  "totalSize": 1614192,
+  "files": [
+    "cover.gif",
+    "jclic.js/1.gif",
+    "jclic.js/2.gif",
+    "jclic.js/3.gif",
+    "jclic.js/4.gif",
+    "jclic.js/5.gif",
+    "jclic.js/6.gif",
+    "jclic.js/7.gif",
+    "jclic.js/8.gif",
+    "jclic.js/9.gif",
+    "jclic.js/animesp.jclic",
+    "jclic.js/dofi.wav",
+    "jclic.js/dofi1.wav",
+    "jclic.js/dofi2.gif",
+    "jclic.js/dofi7.gif",
+    "jclic.js/dofii1.gif",
+    "jclic.js/dofip1.gif",
+    "jclic.js/elefanp.gif",
+    "jclic.js/elefant.wav",
+    "jclic.js/elefant1.gif",
+    "jclic.js/elefant1.wav",
+    "jclic.js/elefant4.gif",
+    "jclic.js/elefant8.gif",
+    "jclic.js/elefantp.gif",
+    "jclic.js/guaca3.gif",
+    "jclic.js/guacaii1.gif",
+    "jclic.js/guacaii2.gif",
+    "jclic.js/guacama1.wav",
+    "jclic.js/guacamai.wav",
+    "jclic.js/guacap1.gif",
+    "jclic.js/lleo.wav",
+    "jclic.js/lleo1.wav",
+    "jclic.js/lleoi1.gif",
+    "jclic.js/llop.wav",
+    "jclic.js/llop1.wav",
+    "jclic.js/llop6.gif",
+    "jclic.js/llopi.gif",
+    "jclic.js/llopp1.gif",
+    "jclic.js/nens.gif",
+    "jclic.js/nivell1.gif",
+    "jclic.js/nivell2.gif",
+    "jclic.js/pdofi.gif",
+    "jclic.js/peix.wav",
+    "jclic.js/peix1.wav",
+    "jclic.js/peix5.gif",
+    "jclic.js/peix9.gif",
+    "jclic.js/peixi1.gif",
+    "jclic.js/peixp1.gif",
+    "jclic.js/pguaca.gif",
+    "jclic.js/pilotap1.gif",
+    "jclic.js/plleo.gif",
+    "jclic.js/plleo1.gif",
+    "jclic.js/portad33.gif",
+    "jclic.js/portada0.gif",
+    "jclic.js/portada1.gif",
+    "jclic.js/portada2.gif",
+    "jclic.js/portada3.gif",
+    "jclic.js/portada4.gif",
+    "jclic.js/portada5.gif",
+    "jclic.js/portada6.gif",
+    "jclic.js/portada7.gif",
+    "jclic.js/ppeix.gif",
+    "jclic.js/ppilota.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/animesp.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": 304,
+  "title": "Frases hechas, dichos y modismos (II)",
+  "author": "José A. Ferrández Mora i José M. Mancebo Ibáñez",
+  "date": "16/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, llengua oral",
+    "es": "lengua castellana, lengua oral",
+    "en": "Spanish language, oral language"
+  },
+  "descCodes": [
+    132,
+    142
+  ],
+  "description": {
+    "en": "Second part of the activity pack \n<a href=\"act40.htm\">\"Frases hechas, dichos y modismos\"</a>.",
+    "ca": "Segona part del paquet \n<a href=\"act40.htm\">\"Frases hechas, dichos y modismos\"</a>, on es combinen activitats de llengua amb trencaclosques d'imatges.",
+    "es": "Segunda parte del paquete \n<a href=\"act40.htm\">\"Frases hechas, dichos y modismos\"</a>, en el que se combinan las actividades de lengua con puzzles de imágenes."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/dichos2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/dichos2.jclic.zip",
+  "instFile": "jclic/dichos2.jclic.inst",
+  "clicZoneId": 1162,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1162",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/dichos2/jclic/dichos2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 44,
+  "mediaFiles": 4,
+  "totalSize": 316877,
+  "files": [
+    "cover.jpg",
+    "jclic.js/cuadro1.jpg",
+    "jclic.js/cuadro3.jpg",
+    "jclic.js/dichos2.jclic",
+    "jclic.js/final.gif",
+    "jclic.js/inicio.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/dichos2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

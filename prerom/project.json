@@ -1,0 +1,109 @@
+{
+  "id": 1482,
+  "title": "La prehistoria y la edad antigua",
+  "author": "Inma Sánchez Barat",
+  "school": "Colegio Santa María Jaca",
+  "date": "17/10/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "prehistòria, edat antiga",
+    "es": "prehistoria, edad antigua",
+    "en": "prehistory, ancient ages"
+  },
+  "descCodes": [
+    314,
+    1346
+  ],
+  "description": {
+    "en": "Package of activities about the prehistory and its two great periods: Palaeolithic and Neolithic.\n<br> The package has a second part about the Roman Empire.",
+    "ca": "Paquet d'activitats per a conèixer les característiques de la manera de viure dels homes de la Prehistòria i distingir els seus dos grans períodes: Paleolític i Neolític.\n<br> El projecte consta també d'una segona part que té com a objectiu conèixer els pobles que habitaven la Península Ibèrica a l'Edat Antiga i reconèixer la importància que tingué l'Imperi Romà al nostre passat i la nostra cultura.",
+    "es": "Paquete de actividades para conocer las características del modo de vida de los hombres de la Prehistoria y distinguir sus dos grandes períodos: Paleolítico y Neolítico.\n<br> El proyecto consta también de una segunda parte que tiene como objetivo conocer los pueblos que habitaban la Península Ibérica en la Edad Antigua y reconocer la importancia que tuvo el imperio romano en nuestro pasado y nuestra cultura."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/prerom.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/prerom.jclic.zip",
+  "instFile": "jclic/prerom.jclic.inst",
+  "clicZoneId": 3195,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3195",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/prerom/jclic/prerom.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 28,
+  "totalSize": 1846043,
+  "files": [
+    "cover.gif",
+    "jclic.js/acueduc1.gif",
+    "jclic.js/arco1.gif",
+    "jclic.js/bravo.wav",
+    "jclic.js/caballo1.gif",
+    "jclic.js/calzada1.gif",
+    "jclic.js/cara.gif",
+    "jclic.js/coliseo.gif",
+    "jclic.js/domus2.gif",
+    "jclic.js/foro.gif",
+    "jclic.js/genial.gif",
+    "jclic.js/legi.gif",
+    "jclic.js/mapa3.gif",
+    "jclic.js/neol1.gif",
+    "jclic.js/neol2.gif",
+    "jclic.js/neol3.gif",
+    "jclic.js/neol3bis.gif",
+    "jclic.js/ok.gif",
+    "jclic.js/paleol1.gif",
+    "jclic.js/paleol2.gif",
+    "jclic.js/paleol3.gif",
+    "jclic.js/panteon.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/prerom.jclic",
+    "jclic.js/prerom.pdf",
+    "jclic.js/puente.gif",
+    "jclic.js/roma1.wav",
+    "jclic.js/romanos2.gif",
+    "jclic.js/teatro1.gif",
+    "jclic.js/templo1.gif",
+    "jclic.js/termas.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/prerom.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

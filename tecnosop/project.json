@@ -1,0 +1,87 @@
+{
+  "id": 2191,
+  "title": "Vocabulario de tecnología con sopas de letras",
+  "author": "Ginés P. Toral Pérez",
+  "school": "IES Enrique de Arfe Villacañas (Castilla - La Mancha)",
+  "date": "21/10/11",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Design & technology",
+    "ca": "Tecnologies",
+    "es": "Tecnología"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "vocabulari, aprenentatge de la tecnologia",
+    "es": "vocabulario, aprendizaje de la tecnología",
+    "en": "vocabulary, learning of the technology"
+  },
+  "descCodes": [
+    150,
+    728
+  ],
+  "description": {
+    "en": "Wordsearch activities addressed to secondary education, organized by courses and contents. This JClic project aims is to learn the vocabulary used in the area of technology.",
+    "ca": "Activitats de sopes de lletres per a educació secundària obligatòria, organitzades per cursos i continguts. Aquest projecte JClic té com objectiu aprendre el vocabulari més utilitzat a l'àrea de tecnologia.",
+    "es": "Actividades de sopas de letras para educación secundaria obligatoria, organizadas por cursos y contenidos. Este proyecto JClic tiene como objetivo aprender el vocabulario más utilizado en el área de tecnología."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/tecnosop.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tecnosop.jclic.zip",
+  "instFile": "jclic/tecnosop.jclic.inst",
+  "clicZoneId": 3725,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3725",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/tecnosop/jclic/tecnosop.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 52,
+  "mediaFiles": 7,
+  "totalSize": 562517,
+  "files": [
+    "cover.png",
+    "jclic.js/electricidad.jpg",
+    "jclic.js/electronica.jpg",
+    "jclic.js/energias.jpg",
+    "jclic.js/maderas.jpg",
+    "jclic.js/proyectos.jpg",
+    "jclic.js/robotica.jpg",
+    "jclic.js/tecnosecundaria.png",
+    "jclic.js/tecnosop.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/tecnosop.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": 2348,
+  "title": "Archivo de la ciudad",
+  "author": "David Zufía Rivas i Susana Torreguitart Búa",
+  "school": "Ajuntamiento de San Fernando de Henares Madrid",
+  "date": "22/01/15",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences, Languages",
+    "ca": "Ciències socials, Llengües",
+    "es": "Ciencias sociales, Lenguas"
+  },
+  "areaCodes": [
+    "soc",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "ciutat, cultura, cultura popular, història",
+    "es": "ciudad, cultura, cultura popular, historia",
+    "en": "city, culture, popular culture, history"
+  },
+  "descCodes": [
+    176,
+    195,
+    196,
+    246
+  ],
+  "description": {
+    "en": "JClic activities about the archives of the city: Content, shots, photographs, posters and other important documents that the city has.",
+    "ca": "Projecte d'activitats JClic per conèixer l'arxiu de la ciutat: \n<ul> \n <li>Contingut </li>\n <li>Planells </li>\n <li>Fotografies </li>\n <li>Cartells publicitaris </li>\n <li>Altres documents importants </li>\n</ul>",
+    "es": "Conoce el archivo de la ciudad. Contenido, planos, fotografías, carteles publicitarios y otros documentos importantes que tiene la ciudad. \n<ul> \n <li>Contenido </li>\n <li>Planos </li>\n <li>Fotografías </li>\n <li>Carteles publicitarios </li>\n <li>Otros documentos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/archivo.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/archivo.jclic.zip",
+  "instFile": "jclic/archivo.jclic.inst",
+  "clicZoneId": 3856,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3856",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/archivo/jclic/archivo.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 29,
+  "totalSize": 7833736,
+  "files": [
+    "cover.png",
+    "jclic.js/10.png",
+    "jclic.js/11.png",
+    "jclic.js/12.png",
+    "jclic.js/1mapa.png",
+    "jclic.js/2.png",
+    "jclic.js/3.png",
+    "jclic.js/4.png",
+    "jclic.js/5.png",
+    "jclic.js/6.png",
+    "jclic.js/7.png",
+    "jclic.js/9.bmp",
+    "jclic.js/9.png",
+    "jclic.js/angeldem.png",
+    "jclic.js/archivo.jclic",
+    "jclic.js/casa.png",
+    "jclic.js/cosas_archivo_resized1.jpg",
+    "jclic.js/educarinicio.png",
+    "jclic.js/final_resized.jpg",
+    "jclic.js/ganador.mp3",
+    "jclic.js/hospicio_resized.jpg",
+    "jclic.js/i01_aplausos_4.mp3",
+    "jclic.js/i01_textfin.bmp",
+    "jclic.js/intro_ninos_para_ninos.mp3",
+    "jclic.js/mal.png",
+    "jclic.js/memori.png",
+    "jclic.js/nino.png",
+    "jclic.js/papel.bmp",
+    "jclic.js/planosf.jpg",
+    "jclic.js/planta1.bmp",
+    "jclic.js/toros.bmp",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/archivo.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

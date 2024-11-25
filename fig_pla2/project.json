@@ -1,0 +1,137 @@
+{
+  "id": 2378,
+  "title": "Las figura geométricas planas",
+  "author": "Gema Guerrero Suárez",
+  "date": "26/03/15",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geometria",
+    "es": "geometría",
+    "en": "geometry"
+  },
+  "descCodes": [
+    708
+  ],
+  "description": {
+    "en": "This project is a set of activities with information and exercises in which students can learn easily plane figures. Includes defining polygon, parts, calculating the perimeter, sorting of polygons according to their sides, triangles classification (by its sides and angles) and finally classifying quadrilaterals (parallelograms not parallelograms), all this with their respective information and activities. \n<p>They have tried to use objects in the environment, so that students learn to associate objects with different plane figures and thus leave aside the static geometry has always been taught in the area of mathematics. </p>",
+    "ca": "El projecte està format per un conjunt d'activitats tant d'informació com exercicis, en què els estudiants podran aprendre de forma senzilla les figures planes. Inclou la definició de polígon, les seves parts, el càlcul del perímetre, la classificació dels polígons segons els costats, classificació de triangles (segons els costats i els angles) i finalment, la classificació de quadrilàters (paral·lelograms i no paral·lelograms), tot això amb la seva respectiva informació i activitats. \n<p>S'han pretès utilitzar objectes de l'entorn, perquè l'alumne aprengui a associar els diferents objectes amb les figures planes i així deixar de banda la geometria estàtica que sempre s'ha impartit en l'àrea de matemàtiques. </p>",
+    "es": "El proyecto está formado por un conjunto de actividades tanto de información como ejercicios, en las que los alumnos podrán aprender de forma sencilla las figuras planas. Incluye la definición de polígono, sus partes, el cálculo del perímetro, la clasificación de los polígonos según sus lados, clasificación de triángulos (según sus lados y sus ángulos) y por último, la clasificación de cuadriláteros (paralelogramos y no paralelogramos), todo esto con su respectiva información y actividades.\n<p> Se han pretendido utilizar objetos del entorno, para que el estudiante aprenda a asociar los diferentes objetos con las figuras planas y así dejar a un lado la geometría estática que siempre se ha impartido en el área de matemáticas. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/fig_pla2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fig_pla2.jclic.zip",
+  "instFile": "jclic/fig_pla2.jclic.inst",
+  "clicZoneId": 3883,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3883",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fig_pla2/jclic/fig_pla2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 59,
+  "totalSize": 1248614,
+  "files": [
+    "cover.png",
+    "jclic.js/angulos_resized.jpg",
+    "jclic.js/balon_resized.jpg",
+    "jclic.js/bancoserrano.jpg",
+    "jclic.js/cd.jpg",
+    "jclic.js/corte_trafico_trap._rect.1.jpg",
+    "jclic.js/cuad.png",
+    "jclic.js/cuadrado_paral..jpg",
+    "jclic.js/cuadro.jpg",
+    "jclic.js/decagono.jpg",
+    "jclic.js/descarga.jpg",
+    "jclic.js/descarga__1_.jpg",
+    "jclic.js/diagonales_resized.jpg",
+    "jclic.js/eee.jpg",
+    "jclic.js/eneagono_moneda.jpg",
+    "jclic.js/eptagono_imagen.jpg",
+    "jclic.js/equilatero.jpg",
+    "jclic.js/escaleno.jpg",
+    "jclic.js/fig_pla2.jclic",
+    "jclic.js/flecha.png",
+    "jclic.js/fondo.jpg",
+    "jclic.js/heptagono_ventana_resized.jpg",
+    "jclic.js/imagen_exagono.jpg",
+    "jclic.js/imagenes_octogono.jpg",
+    "jclic.js/images.jpg",
+    "jclic.js/isosceles.png",
+    "jclic.js/logotipomitsubishi_resized.jpg",
+    "jclic.js/mueble_trap._isos.jpg",
+    "jclic.js/octogono_2.jpg",
+    "jclic.js/partes.gif",
+    "jclic.js/pentagono_imagen.jpg",
+    "jclic.js/perimetro.jpg",
+    "jclic.js/perimetro_act.3.jpg",
+    "jclic.js/perimetro_act.4.jpg",
+    "jclic.js/perimetro_act._2.jpg",
+    "jclic.js/perimetro_act._5.jpg",
+    "jclic.js/perimetro_act._6.jpg",
+    "jclic.js/perimetro_act_7.jpg",
+    "jclic.js/piscina_pentagonal_del_verano_afuera_32726988_resized1.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/rectangulo.jpg",
+    "jclic.js/rectangulo_paral..jpg",
+    "jclic.js/rombo_paral..gif",
+    "jclic.js/romboide.1_paral..gif",
+    "jclic.js/sandwich.jpg",
+    "jclic.js/senal__triangulo_.jpg",
+    "jclic.js/sin_titulo_resized.jpg",
+    "jclic.js/tablet.png",
+    "jclic.js/trapecio_escaleno.jpg",
+    "jclic.js/trapecio_escaleno_2.jpg",
+    "jclic.js/trapecio_isosceles..jpg",
+    "jclic.js/trapecio_rectangulo_no_parl..png",
+    "jclic.js/trapezoide.jpg",
+    "jclic.js/trapezoide_905_bolso_resized.jpg",
+    "jclic.js/triang._equil..jpg",
+    "jclic.js/triang._isos..jpg",
+    "jclic.js/triangulo_equilatero_fotomat_11_05_201311.jpg",
+    "jclic.js/trianguloacutangulo.png",
+    "jclic.js/trianguloobtusangulo.png",
+    "jclic.js/ventana.jpg",
+    "jclic.js/vertices_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fig_pla2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

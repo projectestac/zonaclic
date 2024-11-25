@@ -1,0 +1,93 @@
+{
+  "id": 2425,
+  "title": "Día de la independencia indígena",
+  "author": "Carlos Toro",
+  "school": "U.E.E. Prisco Pérez Monasterio (Centro Bolivariano de Informática y Telemática \"Roxana M. de Hernández\") Villa de Cura, Estado Aragua (Venezuela)",
+  "date": "28/01/16",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "història",
+    "es": "historia",
+    "en": "history"
+  },
+  "descCodes": [
+    246
+  ],
+  "description": {
+    "en": "JClic activities addressed to students of preschool education that aims to commemorate the Day of Indigenous Resistance, through memory activities, puzzles and identification exercises.",
+    "ca": "Material adreçat a estudiants d'educació infantil que té com a objectiu commemorar el dia de la resistència indígena, a través d'activitats de memòria, trencaclosques i identificació.",
+    "es": "Material dirigido a estudiantes de educación infantil que tiene como objetivo conmemorar el día de la resistencia indígena, a través de actividades de memoria, rompecabezas e identificación."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ve_1oct.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ve_1oct.jclic.zip",
+  "instFile": "jclic/ve_1oct.jclic.inst",
+  "clicZoneId": 3933,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3933",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ve_1oct/jclic/ve_1oct.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 7,
+  "mediaFiles": 14,
+  "totalSize": 925562,
+  "files": [
+    "cover.png",
+    "jclic.js/abeja11.gif",
+    "jclic.js/caballo.jpg",
+    "jclic.js/colon.jpg",
+    "jclic.js/feliz.png",
+    "jclic.js/gato.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/indigena1.jpg",
+    "jclic.js/indigena2.jpg",
+    "jclic.js/indigena3.jpg",
+    "jclic.js/indigena4.jpg",
+    "jclic.js/indigena5.jpg",
+    "jclic.js/indigenas.jpg",
+    "jclic.js/perro.jpg",
+    "jclic.js/portada_resi.jpg",
+    "jclic.js/texture6.gif",
+    "jclic.js/ve_1oct.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ve_1oct.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

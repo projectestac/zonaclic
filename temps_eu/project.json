@@ -1,0 +1,116 @@
+{
+  "id": 2113,
+  "title": "Zer eguraldi dugu?",
+  "author": "Ruth Serra Molins",
+  "school": "Escola El Tormo - Zer Ribera d'Ebre Nord La Torre de l'Espanyol (Ribera d'Ebre)",
+  "date": "02/04/14",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages",
+    "ca": "Ciències experimentals, Llengües",
+    "es": "Ciencias experimentales, Lenguas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "meteorologia, aprenentatge de la llengua",
+    "es": "meteorología, aprendizaje de la lengua",
+    "en": "meteorology, learning of the language"
+  },
+  "descCodes": [
+    89,
+    110
+  ],
+  "description": {
+    "en": "Project of activities addressd to kindergarden about the wheather observation. The project has two parts: \n<ul> \n <li>games </li>\n <li>proberbs </li>\n</ul>",
+    "ca": "Activitat adreçada als alumnes d'Educació Infantil, per a treballar la rutina diària de l'observació del temps. Consta de dos apartats: \n<ul> \n <li>jocs </li>\n <li>dites </li>\n</ul>",
+    "es": "Actividad dirigida a alumnos de Educación infantil para trabajar la rutina diaria de la observación del tiempo. Consta de dos apartados: \n<ul> \n <li>juegos </li>\n <li>refranes </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "q_temps"
+  ],
+  "mainFile": "jclic.js/temps_eu.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/temps_eu.jclic.zip",
+  "instFile": "jclic/temps_eu.jclic.inst",
+  "clicZoneId": 3670,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3670",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/temps_eu/jclic/temps_eu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 32,
+  "totalSize": 2461733,
+  "files": [
+    "cover.jpg",
+    "jclic.js/abric.jpg",
+    "jclic.js/azala_resized.jpg",
+    "jclic.js/barret.jpg",
+    "jclic.js/botes.jpg",
+    "jclic.js/elurra.jpg",
+    "jclic.js/euria2.jpg",
+    "jclic.js/eurieguzki.jpg",
+    "jclic.js/gorri.jpg",
+    "jclic.js/guants.jpg",
+    "jclic.js/lortu_duzu.wav",
+    "jclic.js/neu.gif",
+    "jclic.js/ninot.jpg",
+    "jclic.js/orella.jpg",
+    "jclic.js/ortzadarra2.jpg",
+    "jclic.js/oso_ondo.wav",
+    "jclic.js/pantalocurt.jpg",
+    "jclic.js/paraigues.jpg",
+    "jclic.js/pluja.jpg",
+    "jclic.js/primeran.wav",
+    "jclic.js/ratoli1.gif",
+    "jclic.js/ratoli2.gif",
+    "jclic.js/robaabric.jpg",
+    "jclic.js/so_pluja.mp3",
+    "jclic.js/so_tro.mp3",
+    "jclic.js/so_vent.mp3",
+    "jclic.js/sol.jpg",
+    "jclic.js/sol1_resized.jpg",
+    "jclic.js/solinuvol.jpg",
+    "jclic.js/temps_eu.jclic",
+    "jclic.js/trons.jpg",
+    "jclic.js/vent.jpg",
+    "jclic.js/ventot.jpg",
+    "jclic.js/xancles.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/temps_eu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": 133,
+  "title": "L'Estany de Nules",
+  "author": "Pascual Arenós",
+  "school": "CP Pio XII Nules (Plana Baixa)",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "botànica, ecosistema, ocells, País Valencià",
+    "es": "botánica, ecosistema, pájaros, País Valenciano",
+    "en": "botany, ecosystem, birds, Valencian Country"
+  },
+  "descCodes": [
+    59,
+    66,
+    92,
+    545
+  ],
+  "description": {
+    "en": "Activity pack concerning the ecosystem of the Nules pond in Plana Baixa (Castelló).",
+    "ca": "Paquet per conèixer l'ecosistema de l'Estany de Nules, a la Plana Baixa. Conté moltes fotografies de les aus que hi habiten, així com diverses activitats sobre la toponímia de la regió, vegetació, història de l'estany...\n<p> El paquet es complementa amb un document de consulta en format PDF, amb abundant informació i imatges de l'estany. </p>",
+    "es": "Paquete para conocer el ecosistema de la laguna de Nules, en la Plana Baixa (Castelló). Contiene muchas fotografías de las aves que lo habitan, así como diversas actividades sobre la toponimia de la región, vegetación, historia...\n<p> El paquete se complementa con un documento de consulta en formato PDF, con abundante información e imágenes de la laguna. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/estnu.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/estnu.jclic.zip",
+  "instFile": "jclic/estnu.jclic.inst",
+  "clicZoneId": 1064,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1064",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/estnu/jclic/estnu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 33,
+  "mediaFiles": 21,
+  "totalSize": 1706990,
+  "files": [
+    "cover.jpg",
+    "jclic.js/_nec10.jpg",
+    "jclic.js/_necs1.jpg",
+    "jclic.js/_necs11.jpg",
+    "jclic.js/_necs12.jpg",
+    "jclic.js/_necs2.jpg",
+    "jclic.js/_necs3.jpg",
+    "jclic.js/_necs4.jpg",
+    "jclic.js/_necs5.jpg",
+    "jclic.js/_necs6.jpg",
+    "jclic.js/_necs7.jpg",
+    "jclic.js/_necs8.jpg",
+    "jclic.js/_necs9.jpg",
+    "jclic.js/annamin1.mid",
+    "jclic.js/estany.jpg",
+    "jclic.js/estany2.jpg",
+    "jclic.js/estany3.jpg",
+    "jclic.js/estnu.jclic",
+    "jclic.js/estnu.pdf",
+    "jclic.js/llissa.jpg",
+    "jclic.js/pestany1.jpg",
+    "jclic.js/pestany2.jpg",
+    "jclic.js/pestany3.jpg",
+    "jclic.js/vaereae.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/estnu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

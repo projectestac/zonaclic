@@ -1,0 +1,89 @@
+{
+  "id": 1532,
+  "title": "Sistema binario",
+  "author": "Félix Manuel Redondo Templado",
+  "school": "IES Complutense Alcalá de Henares (Madrid)",
+  "date": "27/01/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Design & technology",
+    "ca": "Tecnologies",
+    "es": "Tecnología"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16), High school (16-18)",
+    "ca": "Secundària (12-16), Batxillerat (16-18)",
+    "es": "Secundaria (12-16), Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "SEC",
+    "BTX"
+  ],
+  "description": {
+    "en": "Activities related to the conversion between numeration systems: binary to decimal, decimal to binari, hexadecimal to binary, etc...",
+    "ca": "Activitats relacionades amb la conversió entre sistemes de numeració: de binari a decimal, de decimal a binari, d'hexadecimal a binari, etc...",
+    "es": "Actividades relacionadas con la conversión entre sistemas de numeración: de binario a decimal, de decimal a binario, de hexadecimal a binario, etc..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/binario.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/binario.jclic.zip",
+  "instFile": "jclic/binario.jclic.inst",
+  "clicZoneId": 3259,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3259",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/binario/jclic/binario.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 17,
+  "totalSize": 328923,
+  "files": [
+    "cover.gif",
+    "jclic.js/16.gif",
+    "jclic.js/2.gif",
+    "jclic.js/2hex1.gif",
+    "jclic.js/2hex2.gif",
+    "jclic.js/2hex3.gif",
+    "jclic.js/2n.gif",
+    "jclic.js/bdh.gif",
+    "jclic.js/bin2dec.gif",
+    "jclic.js/bin2hex.gif",
+    "jclic.js/binario.jclic",
+    "jclic.js/dec2bin.gif",
+    "jclic.js/dec2hex.gif",
+    "jclic.js/hex2dec.gif",
+    "jclic.js/hexa.gif",
+    "jclic.js/multiplo.gif",
+    "jclic.js/sisbin.gif",
+    "jclic.js/tabla8.gif",
+    "jclic.js/tecno.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/binario.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

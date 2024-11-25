@@ -1,0 +1,97 @@
+{
+  "id": 1702,
+  "title": "Música del segle XIX",
+  "author": "Assumpta Fernàndez Sastre",
+  "school": "Institut Eugeni d'Ors Vilafranca del Penedès (Alt Penedès)",
+  "date": "03/10/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la música, audició musical, història de la música",
+    "es": "aprendizaje de la música, audición musical, historia de la música",
+    "en": "learning of music, musical hearing, history of music"
+  },
+  "descCodes": [
+    717,
+    718,
+    723
+  ],
+  "description": {
+    "en": "Project of activities about the music of the 19th century. The activities deal with orchestral pieces (symphony, symphonic poem, ballet, and suite), musical instruments found in the orchestras. composers (Beethoven, Chopin, Liszt, Schumann and Mendelssohn) and five opera (Aida, La Traviata, Carmen, The barber of Sevilla and Tannhäuser).",
+    "ca": "Projecte d'activitats sobre la música del segle XIX. Al llarg de les activitats es treballen formes orquestrals (simfonia, poema simfònic, ballet i suite), instruments que trobem a les orquestres, compositors (Beethoven, Chopin, Liszt, Schumann i Mendelssohn) i cinc audicions d'òperes (Aida, La traviata, Carmen, El barber de Sevilla i Tannhäuser).",
+    "es": "Proyecto de actividades sobre la música del siglo XIX. A lo largo de las actividades se trabajan formas orquestales (sinfonía, poema sinfónico, ballet y suite), instrumentos que encontramos en las orquestas, compositores (Beethoven, Chopin, Liszt, Shumann y Mendelssohn) y cinco audiciones de operas (Aída, La traviata, Carmen, El barber de Sevilla y Tannhäuser)."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/musicxix.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/musicxix.jclic.zip",
+  "instFile": "jclic/musicxix.jclic.inst",
+  "clicZoneId": 3411,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3411",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/musicxix/jclic/musicxix.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 16,
+  "totalSize": 4021347,
+  "files": [
+    "cover.jpg",
+    "jclic.js/5_sinfonia_beethoven.mp3",
+    "jclic.js/aida__verdi.mp3",
+    "jclic.js/ballet__el_llac_dels_cignes_txaikovski.mp3",
+    "jclic.js/beethoven.jpg",
+    "jclic.js/brindis__traviata__verdi.mp3",
+    "jclic.js/chopin3.jpg",
+    "jclic.js/havanera__carmen_bizet.mp3",
+    "jclic.js/liszt.jpg",
+    "jclic.js/mati_grieg.mp3",
+    "jclic.js/mendelssohn.jpg",
+    "jclic.js/musicxix.jclic",
+    "jclic.js/obertura__el_barbero_de_sevilla_rossini.mp3",
+    "jclic.js/obertura__tanhauser_wagner.mp3",
+    "jclic.js/orquestra.jpg",
+    "jclic.js/schumann.jpg",
+    "jclic.js/simfonia_fantastica_5o_moviment_de_berlioz.mp3",
+    "jclic.js/verdi.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/musicxix.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

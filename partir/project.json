@@ -1,0 +1,108 @@
+{
+  "id": 347,
+  "title": "Partir",
+  "author": "Llanos Navalón Yeste",
+  "school": "CP Juan Ramón Jiménez Sant Vicent del Raspeig (Alacantí)",
+  "date": "18/07/02",
+  "languages": {
+    "en": "French",
+    "ca": "francès",
+    "es": "francés"
+  },
+  "langCodes": [
+    "fr"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua francesa",
+    "es": "gramática, lengua francesa",
+    "en": "grammar, French language"
+  },
+  "descCodes": [
+    123,
+    136
+  ],
+  "description": {
+    "en": "French activities. Second part of \"France\". The sections are: \n<li>Countries and nationalities </li>\n<li>Verb \"être\" </li>\n<li>Determinate and indeterminate articles </li>\n<li>Gender and number </li>\n<li>The time </li>\n<li>States and french language across the globe </li>",
+    "ca": "Paquet format per 25 activitats de francès, optativa de 1er d'ESO. Basat en el llibre d'Anaya - Unité 2 (Partir). S'hi treballen els següents continguts:\n<br> \n<li>Països i nacionalitats<br> </li>\n<li>Verb \"être\"<br> </li>\n<li>Article determinat i indeterminat<br> </li>\n<li>El gènere i el nombre<br> </li>\n<li>L'hora<br> </li>\n<li>Estats i la llengua francesa al món<br> <br>Inclou exercicis de vocabulari, dictat i alguna sopa de lletres. </li>",
+    "es": "Paquete compuesto por 25 actividades de francés, optativa de 1º ESO. Basado en el libro de Anaya - Unité 2 (Partir) y que trabaja como estructuras básicas:\n<br> \n<li>Países y nacionalidades<br> </li>\n<li>Verbo être<br> </li>\n<li>Artículo determinado e indeterminado<br> </li>\n<li>El género y el número<br> </li>\n<li>La hora<br> </li>\n<li>Estados y lengua francesa en el mundo<br> <br>Incluye ejercicios de vocabulario, dictado y alguna sopa de letras.. </li>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/partir.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/partir.jclic.zip",
+  "instFile": "jclic/partir.jclic.inst",
+  "clicZoneId": 1194,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1194",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/partir/jclic/partir.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 28,
+  "totalSize": 2890238,
+  "files": [
+    "cover.gif",
+    "jclic.js/bientot.gif",
+    "jclic.js/chan.wav",
+    "jclic.js/eif.gif",
+    "jclic.js/etre.wav",
+    "jclic.js/globo.gif",
+    "jclic.js/globo2.gif",
+    "jclic.js/h1b.gif",
+    "jclic.js/h2b.gif",
+    "jclic.js/h3b.gif",
+    "jclic.js/h4b.gif",
+    "jclic.js/h4c.gif",
+    "jclic.js/h5b.gif",
+    "jclic.js/h6b.gif",
+    "jclic.js/heure.gif",
+    "jclic.js/i1.gif",
+    "jclic.js/i10.gif",
+    "jclic.js/i2b.gif",
+    "jclic.js/i3b.gif",
+    "jclic.js/i4b.gif",
+    "jclic.js/i5.gif",
+    "jclic.js/i6.gif",
+    "jclic.js/i7.gif",
+    "jclic.js/i8b.gif",
+    "jclic.js/i9.gif",
+    "jclic.js/minialt.gif",
+    "jclic.js/mundo.gif",
+    "jclic.js/partir.jclic",
+    "jclic.js/port2.gif",
+    "jclic.js/tierra.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/partir.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

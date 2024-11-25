@@ -1,0 +1,136 @@
+{
+  "id": 2524,
+  "title": "La vaca",
+  "author": "Rita Massaguer",
+  "school": "Escola Doctor Carulla Arbúcies (Selva)",
+  "date": "21/04/17",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "mamífers, animals, vaca",
+    "es": "mamíferos, animals, vaca",
+    "en": "mammals, animales, cow"
+  },
+  "descCodes": [
+    85,
+    1456,
+    1486
+  ],
+  "description": {
+    "en": "This project shows the main features of cows: parts of the cow, family of the cow, places where they live, their sound and the products that they gives to us.",
+    "ca": "Aquest projecte mostra les característiques principals de la vaca: parts de la vaca, la família de la vaca, els llocs on viu, el so i els productes que ens dona.",
+    "es": "Este proyecto muestra las características principales de la vaca: partes de la vaca, la familia de la vaca, lugares donde vive, el sonido y los productos que nos da."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/vaca.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/vaca.jclic.zip",
+  "instFile": "jclic/vaca.jclic.inst",
+  "clicZoneId": 4034,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=4034",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/vaca/jclic/vaca.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 64,
+  "totalSize": 3079939,
+  "files": [
+    "cover.png",
+    "jclic.js/53_lleo_487x198.jpg",
+    "jclic.js/beef_1814638_1920_resized.jpg",
+    "jclic.js/busca.mp3",
+    "jclic.js/busca_nom_animals.mp3",
+    "jclic.js/busca_paraules.mp3",
+    "jclic.js/cavall.mp3",
+    "jclic.js/cow_1079417_1280_resized.jpg",
+    "jclic.js/cow_1715829_1920_resized.jpg",
+    "jclic.js/cow_234835_1920_resized.jpg",
+    "jclic.js/cow_425164_1920_resized.jpg",
+    "jclic.js/cows_1029077_1920_resized.jpg",
+    "jclic.js/cua.mp3",
+    "jclic.js/cua_resized.jpg",
+    "jclic.js/desert_1270345_1920_resized.jpg",
+    "jclic.js/dog_1210559_1280_resized.jpg",
+    "jclic.js/download.jpg",
+    "jclic.js/escolta.mp3",
+    "jclic.js/escolta2.mp3",
+    "jclic.js/familia.mp3",
+    "jclic.js/fes_el_puzzle.mp3",
+    "jclic.js/gall.mp3",
+    "jclic.js/gall2.mp3",
+    "jclic.js/giraffes_1724251_1920_resized.jpg",
+    "jclic.js/gos.mp3",
+    "jclic.js/gos2.mp3",
+    "jclic.js/granja.mp3",
+    "jclic.js/ho_has_fet_molt_be.mp3",
+    "jclic.js/landscape_403165_1920_resized.jpg",
+    "jclic.js/llengua.mp3",
+    "jclic.js/llengua_resized.jpg",
+    "jclic.js/lleo.mp3",
+    "jclic.js/mamella.mp3",
+    "jclic.js/mamelles_resized.jpg",
+    "jclic.js/meadow_1509257_1920_resized.jpg",
+    "jclic.js/meadow_1509257_1920_resized1.jpg",
+    "jclic.js/milk_can_1990072_1920_resized.jpg",
+    "jclic.js/molt_be.mp3",
+    "jclic.js/on_poden_viure.mp3",
+    "jclic.js/on_viuen.mp3",
+    "jclic.js/parts.mp3",
+    "jclic.js/porc.mp3",
+    "jclic.js/pota.mp3",
+    "jclic.js/potes_resized.jpg",
+    "jclic.js/power_vaca_3_728.jpg",
+    "jclic.js/power_vaca_4_728.jpg",
+    "jclic.js/projecte.mp3",
+    "jclic.js/rain_forest_273780_1920_resized.jpg",
+    "jclic.js/rooster_1284283_1920_resized.jpg",
+    "jclic.js/selva.mp3",
+    "jclic.js/sheep_275928_1920_resized.jpg",
+    "jclic.js/taques_resized.jpg",
+    "jclic.js/vaca.jclic",
+    "jclic.js/vaca.jclic.js",
+    "jclic.js/vaca.mp3",
+    "jclic.js/vaca2.mp3",
+    "jclic.js/wisconsin_1808158_1280_resized.jpg",
+    "jclic.js/zebra_1076328_1280_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": 609,
+  "title": "Problemas variados (ciclo superior)",
+  "author": "Enric Peiris Poch",
+  "school": "Escola Mn. Baldiri Rexach Banyoles (Pla de l'Estany)",
+  "date": "22/12/04",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "càlcul, fonaments de les matemàtiques, problemes matemàtics",
+    "es": "cálculo, fundamentos de las matemáticas, problemas matemáticos",
+    "en": "calculation, foundations of the mathematics, mathematic problems"
+  },
+  "descCodes": [
+    702,
+    707,
+    926
+  ],
+  "description": {
+    "en": "Math activities for elementary school students in the higher grades. The answer has to be written.",
+    "ca": "Paquet d'activitats Clic organitzat en quatre seccions de problemes, dirigit a alumnes del cicle superior de primària.",
+    "es": "Paquete de actividades de Clic organizado en cuatro secciones de problemas. Los problemas son variados aunque la respuesta siempre ha de ser escrita. Destinado a alumnos de ciclo superior de educación primaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "probgal",
+    "probleme"
+  ],
+  "mainFile": "jclic.js/probcast.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/probcast.jclic.zip",
+  "instFile": "jclic/probcast.jclic.inst",
+  "clicZoneId": 1331,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1331",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/probcast/jclic/probcast.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 42,
+  "mediaFiles": 3,
+  "totalSize": 278420,
+  "files": [
+    "cover.gif",
+    "jclic.js/dedo1.gif",
+    "jclic.js/dedos1.gif",
+    "jclic.js/mb.gif",
+    "jclic.js/probcast.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/probcast.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

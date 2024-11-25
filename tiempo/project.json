@@ -1,0 +1,95 @@
+{
+  "id": 648,
+  "title": "Medimos el tiempo",
+  "author": "Carme de las Heras Juanpere",
+  "school": "Escola General Prim Reus (Baix Camp)",
+  "date": "29/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "matemàtica aplicada",
+    "es": "matemática aplicada",
+    "en": "applied mathematics"
+  },
+  "descCodes": [
+    712
+  ],
+  "description": {
+    "en": "Clic activities about the correct way to tell time in Catalan.",
+    "ca": "En aquest paquet d'activitats es treballen els dies de la setmana, els mesos i les estacions de l'any.\n<br> Els objectius de les activitats són:\n<br> \n<ul><li>Saber situar-se en el temps. </li>\n<li>Saber que ve després de.. </li>\n<li>Saber que ve abans de... </li>\n<li>Saber ordenar els dies, els mesos o les estacions començant per qualsevol d'ells. </li>\n<li>Escriure correctament les dates. </li>\n<li>Resoldre problemes de dies de la setmana utilitzant la taula del 7 </li>\n<li>Donat un fet ordenar-lo cronològicament </li>\n<li>Poder distingir característiques pròpies de cada època. </li></ul>",
+    "es": "En este paquete de actividades se trabajan los días de la semana, los meses y las estaciones del año.\n<br> Las actividades tiene como objetivo:\n<br> \n<ul><li>Saber situarse en el tiempo </li>\n<li>Saber que viene después de... </li>\n<li>Saber que viene antes de... </li>\n<li>Saber ordenar los días, los meses o las estaciones comenzando por cualquiera de ellas </li>\n<li>Escribir correctamente las fechas </li>\n<li>Resolver problemas con los días de la semana utilizando la tabla del 7 </li>\n<li>Poder distinguir características propias de cada época </li></ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "denbora",
+    "temps"
+  ],
+  "mainFile": "jclic.js/tiempo.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tiempo.jclic.zip",
+  "instFile": "jclic/tiempo.jclic.inst",
+  "clicZoneId": 1346,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1346",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/tiempo/jclic/tiempo.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 12,
+  "totalSize": 634187,
+  "files": [
+    "cover.gif",
+    "jclic.js/domingo.wav",
+    "jclic.js/estiu2.jpg",
+    "jclic.js/hivern.jpg",
+    "jclic.js/jueves.wav",
+    "jclic.js/lunes.wav",
+    "jclic.js/martes.wav",
+    "jclic.js/miercole.wav",
+    "jclic.js/portada.gif",
+    "jclic.js/primaver.jpg",
+    "jclic.js/sabado.wav",
+    "jclic.js/tardor.jpg",
+    "jclic.js/tiempo.jclic",
+    "jclic.js/viernes.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/tiempo.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

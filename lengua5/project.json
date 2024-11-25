@@ -1,0 +1,132 @@
+{
+  "id": 425,
+  "title": "Lengua castellana 5º (nueva versión)",
+  "author": "Jesús Sánchez Aguado",
+  "school": "Colegio Cervantes Canals (La Costera)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Llengües",
+    "es": "Lenguas",
+    "en": "Languages"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana",
+    "es": "lengua castellana",
+    "en": "Spanish language"
+  },
+  "descCodes": [
+    132
+  ],
+  "description": {
+    "en": "Clic activities about Spanish language for primary school, based on the text book \"Lengua Castellana 5º\" (ANAYA).\n<p> The package has 18 lessons (as the book) and the activities can be carried out by one or two players. </p>",
+    "ca": "Paquet d'activitats de llengua castellana per a 5è de primària dissenyat com a material complementari al llibre de text de Lengua 5 del projecte ABRE LA PUERTA de l'editorial ANAYA. \n<br> El paquet es composa de 15 temes (com el llibre) i està pensat per poder ser realitzat per 1 o 2 jugadors.",
+    "es": "Paquete de actividades de lengua castellana para 5º de primaria diseñado como material complementario al libro de texto LENGUA 5 del proyecto ABRE LA PUERTA de la editorial ANAYA.\n<p> El paquete se compone de 15 temas (como el libro) y está pensado para poder ser realizado por 1 o 2 jugadores. </p>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/lengua5.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/lengua5.jclic.zip",
+  "instFile": "jclic/lengua5.jclic.inst",
+  "clicZoneId": 1250,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1250",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/lengua5/jclic/lengua5.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 366,
+  "mediaFiles": 25,
+  "totalSize": 3054703,
+  "files": [
+    "cover.gif",
+    "jclic.js/bach.mid",
+    "jclic.js/dedo1.gif",
+    "jclic.js/dedos1.gif",
+    "jclic.js/dieresis.gif",
+    "jclic.js/guay.gif",
+    "jclic.js/i01_dedo1.gif",
+    "jclic.js/i01_dedos1.gif",
+    "jclic.js/i01_espgenti.gif",
+    "jclic.js/i01_guay.gif",
+    "jclic.js/i01_i03_guay.gif",
+    "jclic.js/i01_mb1.gif",
+    "jclic.js/i02_dedos1.gif",
+    "jclic.js/i03_dedo1.gif",
+    "jclic.js/i03_dedos1.gif",
+    "jclic.js/i04_dedo1.gif",
+    "jclic.js/i04_dedos1.gif",
+    "jclic.js/i04_guay.gif",
+    "jclic.js/i05_dedo1.gif",
+    "jclic.js/i06_dedo1.gif",
+    "jclic.js/leng.gif",
+    "jclic.js/leng2.gif",
+    "jclic.js/lengua5.jclic",
+    "jclic.js/mb1.gif",
+    "jclic.js/quijote.gif",
+    "jclic.js/tema01.jclic",
+    "jclic.js/tema02.jclic",
+    "jclic.js/tema03.jclic",
+    "jclic.js/tema04.jclic",
+    "jclic.js/tema05.jclic",
+    "jclic.js/tema06.jclic",
+    "jclic.js/tema07.jclic",
+    "jclic.js/tema08.jclic",
+    "jclic.js/tema09.jclic",
+    "jclic.js/tema10.jclic",
+    "jclic.js/tema11.jclic",
+    "jclic.js/tema12.jclic",
+    "jclic.js/tema13.jclic",
+    "jclic.js/tema14.jclic",
+    "jclic.js/tema15.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/lengua5.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/tema01.jclic.js",
+    "jclic.js/tema02.jclic.js",
+    "jclic.js/tema03.jclic.js",
+    "jclic.js/tema04.jclic.js",
+    "jclic.js/tema05.jclic.js",
+    "jclic.js/tema06.jclic.js",
+    "jclic.js/tema07.jclic.js",
+    "jclic.js/tema08.jclic.js",
+    "jclic.js/tema09.jclic.js",
+    "jclic.js/tema10.jclic.js",
+    "jclic.js/tema11.jclic.js",
+    "jclic.js/tema12.jclic.js",
+    "jclic.js/tema13.jclic.js",
+    "jclic.js/tema14.jclic.js",
+    "jclic.js/tema15.jclic.js",
+    "cover.webp"
+  ]
+}

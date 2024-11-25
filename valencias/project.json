@@ -1,0 +1,79 @@
+{
+  "id": 2037,
+  "title": "Las valencias",
+  "author": "Fernando Maíllo Calama",
+  "school": "Colexio Don Bosco Vigo (Galiza)",
+  "date": "16/03/10",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales",
+    "en": "Experimental sciences"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "química",
+    "es": "química",
+    "en": "chemistry"
+  },
+  "descCodes": [
+    97
+  ],
+  "description": {
+    "en": "Three exercises to review the symbols of the main elements of the periodic table used in formulation work and also the inorganic valence of these elements.",
+    "ca": "Tres exercicis per repassar els símbols dels principals elements de la taula periòdica utilitzats en formulació inorgànica i per treballar també les valències d'aquests elements.",
+    "es": "Tres ejercicios para repasar los símbolos de los principales elementos utilizados en formulación inorgánica, y para repasar las valencias de éstos."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/valencias.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/valencias.jclic.zip",
+  "instFile": "jclic/valencias.jclic.inst",
+  "clicZoneId": 3607,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3607",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/valencias/jclic/valencias.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 4,
+  "mediaFiles": 0,
+  "totalSize": 49523,
+  "files": [
+    "cover.gif",
+    "jclic.js/valencias.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/valencias.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

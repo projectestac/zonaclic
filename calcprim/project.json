@@ -1,0 +1,99 @@
+{
+  "id": 516,
+  "title": "Problemes de càlcul mental basats en \"El quinzet\" - 1",
+  "author": "Ramon Ministral Fita",
+  "school": "Escola Doctor Sobrequés Bescanó (Gironès)",
+  "date": "24/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aritmètica, fonaments de les matemàtiques, problemes matemàtics",
+    "es": "aritmética, fundamentos de las matemáticas, problemas matemáticos",
+    "en": "Arithmetic, foundations of the mathematics, mathematic problems"
+  },
+  "descCodes": [
+    701,
+    707,
+    926
+  ],
+  "description": {
+    "en": "Mental calculation activities based on the book \n<i>El Quinzet</i> by Lluís Segarra and David Barba. There are three levels of difficulty with five problems each.",
+    "ca": "Paquets d'activitats que contenen problemes de càlcul mental per a Primària basats en \n<i>El Quinzet</i> de Lluís Segarra i David Barba. Les activitats s'ofereixen per cicles: inicial, mitjà i superior, amb 5 grups de problemes per a cada cicle.",
+    "es": "Paquete de actividades que contienen problemas de cálculo mental basados en \n<i>El Quinzet</i> de Lluís Segarra y David Barba. Las actividades se ofrecen por ciclos: inicial, medio y superior, con 5 grupos de problemas para cada ciclo."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/calcprim.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/calcprim.jclic.zip",
+  "instFile": "jclic/calcprim.jclic.inst",
+  "clicZoneId": 1301,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1301",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/calcprim/jclic/calcprim.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 207,
+  "mediaFiles": 17,
+  "totalSize": 1158585,
+  "files": [
+    "cover.gif",
+    "jclic.js/calcmen.pdf",
+    "jclic.js/calcpre2.gif",
+    "jclic.js/calcprim.jclic",
+    "jclic.js/ini_calmein1_calpre13.gif",
+    "jclic.js/ini_calmein2_calpre14.gif",
+    "jclic.js/ini_calmein3_calpre15.gif",
+    "jclic.js/ini_calmein4_calpre16.gif",
+    "jclic.js/ini_calmein5_calpre17.gif",
+    "jclic.js/mit_calmemi1_calcpre8.gif",
+    "jclic.js/mit_calmemi2_calcpre9.gif",
+    "jclic.js/mit_calmemi3_calpre10.gif",
+    "jclic.js/mit_calmemi4_calpre11.gif",
+    "jclic.js/mit_calmemi5_calpre12.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/sup_calmesu1_calcpre3.gif",
+    "jclic.js/sup_calmesu2_calcpre4.gif",
+    "jclic.js/sup_calmesu3_calcpre5.gif",
+    "jclic.js/sup_calmesu4_calcpre6.gif",
+    "jclic.js/sup_calmesu5_calcpre7.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/calcprim.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

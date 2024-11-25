@@ -1,0 +1,113 @@
+{
+  "id": 1642,
+  "title": "La madera",
+  "author": "Concha Giovanetti Fdez de Henestrosa",
+  "school": "IES Tamujal Arroyo de San Serván (Extremadura)",
+  "date": "13/02/07",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Design & technology",
+    "ca": "Tecnologies",
+    "es": "Tecnología"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "description": {
+    "en": "Project of activities about the wood: classification, characteristics and applications of the wood. The project is based on a book of Oxford Publishing house.",
+    "ca": "Projecte d'activitats sobre l'obtenció, classificació, característiques i aplicacions de la fusta. Al llarg del projecte es treballen les parts del tronc d'un arbre, passos a seguir per a l'obtenció de la fusta, passos per a la seva producció, identificació de diferents tipus d'arbres i fustes i les seves posteriors aplicacions, diferents tipus de materials fets a partir de la fusta i finalment diferents tipus d'eines per treballar la fusta.\n<br> Les activitats serveixen de suport al llibre de text de l'editorial Oxford que utilitzen els alumnes.",
+    "es": "Proyecto de actividades sobre la obtención, clasificación, características y aplicaciones de la madera. A lo largo del proyecto se trabajan las partes del tronco de un árbol, pasos a seguir para la obtención de la madera, pasos para su producción, identificación de diferentes tipos de árboles y maderas y sus posteriores aplicaciones, diferentes tipos de materiales hechos a partir de la madera y finalmente diferentes tipos de herramientas para trabajar la madera. \n<br> Sirven de apoyo al libro de texto de la editorial Oxford que usan los alumnos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/madera2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/madera2.jclic.zip",
+  "instFile": "jclic/madera2.jclic.inst",
+  "clicZoneId": 3354,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3354",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/madera2/jclic/madera2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 35,
+  "mediaFiles": 43,
+  "totalSize": 2402795,
+  "files": [
+    "cover.jpg",
+    "jclic.js/aglomerado.jpg",
+    "jclic.js/apliabblanco.jpg",
+    "jclic.js/apliabrojo.jpg",
+    "jclic.js/apliaglomerado.jpg",
+    "jclic.js/aplicaoba.jpg",
+    "jclic.js/aplicerezo.jpg",
+    "jclic.js/aplichopo.jpg",
+    "jclic.js/aplicontrachapado.jpg",
+    "jclic.js/aplifibra.jpg",
+    "jclic.js/aplihaya.jpg",
+    "jclic.js/aplipino.jpg",
+    "jclic.js/apliroble.jpg",
+    "jclic.js/aplitablex.jpg",
+    "jclic.js/arbolabetoblanco.jpg",
+    "jclic.js/arbolabetorojo.jpg",
+    "jclic.js/arbolcaoba.jpg",
+    "jclic.js/arbolcerezo.jpg",
+    "jclic.js/arbolhaya.jpg",
+    "jclic.js/arbolpino.jpg",
+    "jclic.js/arbolroble.jpg",
+    "jclic.js/atornillar1.jpg",
+    "jclic.js/atornillar2.jpg",
+    "jclic.js/cepillado.jpg",
+    "jclic.js/clavar.jpg",
+    "jclic.js/contrachapado.jpg",
+    "jclic.js/cortar.jpg",
+    "jclic.js/debastar.jpg",
+    "jclic.js/descortezado.jpg",
+    "jclic.js/fibra.jpg",
+    "jclic.js/madera2.jclic",
+    "jclic.js/medir1.jpg",
+    "jclic.js/medir2.jpg",
+    "jclic.js/partestronco.jpg",
+    "jclic.js/perforar.jpg",
+    "jclic.js/poda.jpg",
+    "jclic.js/puzlepapel.jpg",
+    "jclic.js/rebajar.jpg",
+    "jclic.js/secado.jpg",
+    "jclic.js/sujetar.jpg",
+    "jclic.js/tablex.jpg",
+    "jclic.js/tala.jpg",
+    "jclic.js/transporte.jpg",
+    "jclic.js/troceado.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/madera2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

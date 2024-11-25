@@ -1,0 +1,90 @@
+{
+  "id": 2389,
+  "title": "Descartes",
+  "author": "Mª José Collado Cornillón",
+  "school": "IES Jorge Guillén Torrox - Málaga (Andalucía)",
+  "date": "08/07/15",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "High school (16-18)",
+    "ca": "Batxillerat (16-18)",
+    "es": "Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "BTX"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la filosofia, història de la filosofia",
+    "es": "aprendizaje de la filosofía, historia de la filosofía",
+    "en": "learning of the philosophy, history of the philosophy"
+  },
+  "descCodes": [
+    443,
+    447
+  ],
+  "description": {
+    "en": "JClic activities about Descartes and his philosophy.",
+    "ca": "Activitats per repassar la Filosofia de Descartes.",
+    "es": "Actividades para repasar la filosofía de Descartes."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/descart.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/descart.jclic.zip",
+  "instFile": "jclic/descart.jclic.inst",
+  "clicZoneId": 3896,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3896",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/descart/jclic/descart.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 10,
+  "totalSize": 454811,
+  "files": [
+    "cover.png",
+    "jclic.js/descart.jclic",
+    "jclic.js/descart.jclic.js",
+    "jclic.js/descartes10.jpg",
+    "jclic.js/descartes11.jpg",
+    "jclic.js/descartes1_resized.jpg",
+    "jclic.js/descartes2.jpg",
+    "jclic.js/descartes4.jpg",
+    "jclic.js/descartes5.jpg",
+    "jclic.js/descartes6.jpg",
+    "jclic.js/descartes7.gif",
+    "jclic.js/descartes8.jpg",
+    "jclic.js/descartes9.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

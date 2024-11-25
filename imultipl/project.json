@@ -1,0 +1,112 @@
+{
+  "id": 1721,
+  "title": "La multiplicació",
+  "author": "Carme Gutiérrez Galo, Elia Maixe Sopeña i Montserrat Cabré Cabré",
+  "school": "C Puigcerver Reus (Baix Camp)",
+  "date": "29/11/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "taules de multiplicar",
+    "es": "tablas de multiplicar",
+    "en": "multiplication tables"
+  },
+  "descCodes": [
+    908
+  ],
+  "description": {
+    "en": "Project of activities about the multiplication. \n<ul> \n <li> Introduction to the multiplication </li>\n <li> Need for the multiplication table </li>\n <li> Introduction to Tables </li>\n <li> Construction of tables  </li>\n</ul>",
+    "ca": "Projecte d'activitats per a l'aprenentatge de la multiplicació. Al llarg del projecte es treballen els següents conceptes: \n<ul> \n <li>Introducció a la multiplicació </li>\n <li>Necessitat de les taules de multiplicar </li>\n <li>Introducció a les taules </li>\n <li>Construcció i breu treball de les taules del 2, 3, 4 i 5 </li>\n</ul>",
+    "es": "Proyecto de actividades para el aprendizaje de la multiplicación. A lo largo del proyecto se trabajan los siguientes conceptos: \n<ul> \n <li>Introducción a la multiplicación </li>\n <li>Necesidad de las tablas de multiplicar </li>\n <li>Introducción a las tablas </li>\n <li>Construcción y trabajo de las tablas del 2, 3, 4 y 5 </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/imultipl.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/imultipl.jclic.zip",
+  "instFile": "jclic/imultipl.jclic.inst",
+  "clicZoneId": 3427,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3427",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/imultipl/jclic/imultipl.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 59,
+  "mediaFiles": 33,
+  "totalSize": 1975075,
+  "files": [
+    "cover.gif",
+    "jclic.js/2_broxes_de_5.jpg",
+    "jclic.js/2_cotxes.jpg",
+    "jclic.js/3_colors_de_4.jpg",
+    "jclic.js/3_pinzells_de_5.jpg",
+    "jclic.js/4_gomes_de_3.jpg",
+    "jclic.js/4_tisores_de_2.jpg",
+    "jclic.js/5_llapis_de_6.jpg",
+    "jclic.js/activitat_1.jpg",
+    "jclic.js/activitat_2.jpg",
+    "jclic.js/activitat_3.jpg",
+    "jclic.js/activitat_4.jpg",
+    "jclic.js/activitat_5.jpg",
+    "jclic.js/activitat_6.jpg",
+    "jclic.js/activitat_7.jpg",
+    "jclic.js/astronauta.jpg",
+    "jclic.js/bicicleta.jpg",
+    "jclic.js/clic.jpg",
+    "jclic.js/cotxe.jpg",
+    "jclic.js/cotxe_petit.jpg",
+    "jclic.js/cuina.jpg",
+    "jclic.js/imultipl.jclic",
+    "jclic.js/inici.jpg",
+    "jclic.js/llapis.jpg",
+    "jclic.js/missatge_3.jpg",
+    "jclic.js/nina.jpg",
+    "jclic.js/nina_petita.jpg",
+    "jclic.js/os.jpg",
+    "jclic.js/os_petit.jpg",
+    "jclic.js/pensa_2.jpg",
+    "jclic.js/rap_de_les_taules.mp3",
+    "jclic.js/robot.gif",
+    "jclic.js/robot.jpg",
+    "jclic.js/sr_enric_balla.jpg",
+    "jclic.js/titol.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/imultipl.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

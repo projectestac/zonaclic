@@ -1,0 +1,119 @@
+{
+  "id": 809,
+  "title": "Monedas de Gran Bretaña y de EUA",
+  "author": "María Ángel de Prado",
+  "school": "CP San Ignacio de Loyola Palencia (Castilla y León)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, economia",
+    "es": "lengua inglesa, economía",
+    "en": "English language, economy"
+  },
+  "descCodes": [
+    130,
+    211
+  ],
+  "description": {
+    "en": "Clic activity pack about foreign coins (American and English). The activities' goal is to introduce the student to the different coins used in these countries, what is the exchange rate with respect to the peseta and what are the different sub-divisions of the basic monetary units (dollar and pound). The activities make use of graphics representing all the different coins for easy recognition for the student. The activities are varied and include text and graphic associations, written response, crosswords,...",
+    "ca": "Paquet d'activitats Clic sobre les monedes americanes i angleses. En les activitats es treballa el aspecte físic de les monedes, el valor respecte a la pesseta i les divisions de les unitats bàsiques (dòlar i lliura esterlina).",
+    "es": "Paquete de actividades de Clic sobre las monedas americanas e inglesas. En las actividades se trabaja el aspecto físico de las monedas, el valor respecto a la peseta y las divisiones de las unidades básicas (dólar y libra esterlina)."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/mone1.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mone1.jclic.zip",
+  "instFile": "jclic/mone1.jclic.inst",
+  "clicZoneId": 1447,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1447",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/money/jclic/mone1.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 49,
+  "mediaFiles": 35,
+  "totalSize": 570175,
+  "files": [
+    "cover.gif",
+    "jclic.js/1.gif",
+    "jclic.js/2.gif",
+    "jclic.js/euros.jpg",
+    "jclic.js/ingles/10p.jpg",
+    "jclic.js/ingles/1p.jpg",
+    "jclic.js/ingles/1pp.jpg",
+    "jclic.js/ingles/20p.jpg",
+    "jclic.js/ingles/2p.jpg",
+    "jclic.js/ingles/50p.jpg",
+    "jclic.js/ingles/5p.jpg",
+    "jclic.js/ingles/aguaazu2.gif",
+    "jclic.js/ingles/aguaverd.gif",
+    "jclic.js/ingles/gs.jpg",
+    "jclic.js/ingles/ingles.jclic",
+    "jclic.js/ingles/lcara.jpg",
+    "jclic.js/ingles/lcruz.jpg",
+    "jclic.js/ingles/li2.gif",
+    "jclic.js/ingles/libras.jpg",
+    "jclic.js/ingles/penny.jpg",
+    "jclic.js/ingles/pine.gif",
+    "jclic.js/ingles/ptas.gif",
+    "jclic.js/mone1.jclic",
+    "jclic.js/pine.gif",
+    "jclic.js/usa/aguaazu2.gif",
+    "jclic.js/usa/aguaverd.gif",
+    "jclic.js/usa/cent1.jpg",
+    "jclic.js/usa/cent2.jpg",
+    "jclic.js/usa/cent3.jpg",
+    "jclic.js/usa/cent4.jpg",
+    "jclic.js/usa/cent5.jpg",
+    "jclic.js/usa/cent6.gif",
+    "jclic.js/usa/do1.gif",
+    "jclic.js/usa/do2.gif",
+    "jclic.js/usa/dolar1.jpg",
+    "jclic.js/usa/euros.jpg",
+    "jclic.js/usa/gw.jpg",
+    "jclic.js/usa/pine.gif",
+    "jclic.js/usa/usa.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/mone1.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/ingles/ingles.jclic.js",
+    "jclic.js/usa/usa.jclic.js",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": 911,
+  "title": "Som amics dels animals",
+  "author": "María José Domingo",
+  "school": "Col·legi Domus Godella (Horta Nord)",
+  "date": "18/12/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales",
+    "en": "Experimental sciences"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "animals domèstics, vertebrats",
+    "es": "animales domésticos, vertebrados",
+    "en": "domestic animals, vertebrates"
+  },
+  "descCodes": [
+    52,
+    107
+  ],
+  "description": {
+    "en": "Package of activities about the vertebrates based on the theme 4 of the book \n<b><i>Coneixement del Medi de 4t de primària.</i></b> Editorial SM.",
+    "ca": "Paquet d'activitats d'animals vertebrats, dissenyat a partir del tema 4 del llibre de \n<b><i>Coneixement del Medi de 4t.</i></b> de Primària de l'Editorial SM.",
+    "es": "Paquete de actividades de animales vertebrados, diseñado a partir del tema 4 del libro de \n<b><i>Coneixement del Medi de 4t.</i></b> de la Editorial SM."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/vertebra.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/vertebra.jclic.zip",
+  "instFile": "jclic/vertebra.jclic.inst",
+  "clicZoneId": 2024,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2024",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/vertebra/jclic/vertebra.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 55,
+  "totalSize": 2761572,
+  "files": [
+    "cover.gif",
+    "jclic.js/amican_2.jpg",
+    "jclic.js/caballo.wav",
+    "jclic.js/cabaso.jpg",
+    "jclic.js/cerdo.wav",
+    "jclic.js/cerso.jpg",
+    "jclic.js/ciervo.jpg",
+    "jclic.js/culebra.jpg",
+    "jclic.js/delfin.jpg",
+    "jclic.js/delfines.jpg",
+    "jclic.js/elefant.jpg",
+    "jclic.js/elefante.jpg",
+    "jclic.js/fonpolli.gif",
+    "jclic.js/galli2.jpg",
+    "jclic.js/gallina.jpg",
+    "jclic.js/gat.jpg",
+    "jclic.js/gato.wav",
+    "jclic.js/genial.gif",
+    "jclic.js/gos2.jpg",
+    "jclic.js/lagarti.jpg",
+    "jclic.js/lagarto.jpg",
+    "jclic.js/leon.wav",
+    "jclic.js/leonso2.jpg",
+    "jclic.js/leopardo.jpg",
+    "jclic.js/letrade.jpg",
+    "jclic.js/lobo.jpg",
+    "jclic.js/mapaver.gif",
+    "jclic.js/moltbe.gif",
+    "jclic.js/oveja.jpg",
+    "jclic.js/oveja.wav",
+    "jclic.js/paisa_12.jpg",
+    "jclic.js/paisa_15.jpg",
+    "jclic.js/paisa_20.jpg",
+    "jclic.js/paisa_21.jpg",
+    "jclic.js/paisaj_3.jpg",
+    "jclic.js/paisaj_5.jpg",
+    "jclic.js/paisaj_8.jpg",
+    "jclic.js/paisaje1.jpg",
+    "jclic.js/paisaje6.jpg",
+    "jclic.js/paisaje9.jpg",
+    "jclic.js/pajarit.jpg",
+    "jclic.js/pajaros.wav",
+    "jclic.js/pajaso.jpg",
+    "jclic.js/pato.jpg",
+    "jclic.js/pato.wav",
+    "jclic.js/pollitos.jpg",
+    "jclic.js/portada3.jpg",
+    "jclic.js/rana.jpg",
+    "jclic.js/rana.wav",
+    "jclic.js/sercas2.jpg",
+    "jclic.js/serpcas.wav",
+    "jclic.js/tigre.jpg",
+    "jclic.js/tigre.wav",
+    "jclic.js/tortuga.jpg",
+    "jclic.js/vaca.gif",
+    "jclic.js/vaca.wav",
+    "jclic.js/vertebra.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/vertebra.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": 383,
+  "title": "Foods and the weather",
+  "author": "Domingo Méndez",
+  "school": "Colegio Jaime Balmes Cieza (Murcia)",
+  "date": "19/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, ortografia",
+    "es": "lengua inglesa, ortografía",
+    "en": "English language, spelling"
+  },
+  "descCodes": [
+    667,
+    672
+  ],
+  "description": {
+    "en": "English activities that deal with the vocabulary of foods and the weather.",
+    "ca": "En aquest paquet d'activitats de llengua anglesa es treballa el vocabulari relacionat amb els aliments i el temps atmosfèric, així com la construcció de frases interrogatives amb la partícula \"do\".\n<p> Per a més informació visiteu la web del <a href=\"http://www.cieza.net/educacion/jbalmes\">C.P. Jaime Balmes</a>. </p>",
+    "es": "En este paquete de actividades de inglés se trabaja el vocabulario relacionado con los alimentos y el tiempo atmosférico, así como la construcción de frases interrogativas con la partícula \"do\".\n<p> Para más información se recomienda visitar la web del <a href=\"http://www.cieza.net/educacion/jbalmes\">C.P. Jaime Balmes</a>. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/food2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/food2.jclic.zip",
+  "instFile": "jclic/food2.jclic.inst",
+  "clicZoneId": 1217,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1217",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/food2/jclic/food2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 29,
+  "totalSize": 1018984,
+  "files": [
+    "cover.gif",
+    "jclic.js/carne.gif",
+    "jclic.js/carne.wav",
+    "jclic.js/comiendo.gif",
+    "jclic.js/corrien.gif",
+    "jclic.js/food2.jclic",
+    "jclic.js/jugando.gif",
+    "jclic.js/leche.gif",
+    "jclic.js/leche.wav",
+    "jclic.js/lloviendo.wav",
+    "jclic.js/lluvioso.gif",
+    "jclic.js/manzanas.gif",
+    "jclic.js/manzanas.wav",
+    "jclic.js/naranjas.gif",
+    "jclic.js/naranjas.wav",
+    "jclic.js/nevado.gif",
+    "jclic.js/nevando.wav",
+    "jclic.js/nublado.gif",
+    "jclic.js/nublado.wav",
+    "jclic.js/pan.gif",
+    "jclic.js/pan.wav",
+    "jclic.js/pescado.gif",
+    "jclic.js/pescado.wav",
+    "jclic.js/portada.jpg",
+    "jclic.js/queso.gif",
+    "jclic.js/queso.wav",
+    "jclic.js/saltando.gif",
+    "jclic.js/soleado.gif",
+    "jclic.js/soleado.wav",
+    "jclic.js/tomates.gif",
+    "jclic.js/tomates.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/food2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": 1407,
+  "title": "Jugamos con los animales",
+  "author": "Francisco García-Pozuelo Díaz i Juana Rello Serrano",
+  "school": "CP Luis Vives Alcalá de Henares (Madrid)",
+  "date": "14/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "animals",
+    "es": "animales",
+    "en": "animales"
+  },
+  "descCodes": [
+    1160
+  ],
+  "description": {
+    "en": "Project of 14 activities focused to stir up the interest of the students by the nature.",
+    "ca": "Projecte de 14 activitats enfocat a despertar l'interès dels alumnes per la natura.",
+    "es": "Proyecto de 14 actividades enfocado a despertar el interés de los alumnos por la naturaleza."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/aves.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/aves.jclic.zip",
+  "instFile": "jclic/aves.jclic.inst",
+  "clicZoneId": 3143,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3143",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/aves/jclic/aves.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 24,
+  "totalSize": 1238443,
+  "files": [
+    "cover.jpg",
+    "jclic.js/agapornis2.jpg",
+    "jclic.js/aves.jclic",
+    "jclic.js/avestruz.jpg",
+    "jclic.js/ballena1.jpg",
+    "jclic.js/bebefoca.jpg",
+    "jclic.js/condor.jpg",
+    "jclic.js/criafoca.jpg",
+    "jclic.js/delfi.jpg",
+    "jclic.js/delfin.jpg",
+    "jclic.js/delfinamazona.jpg",
+    "jclic.js/delfines2.jpg",
+    "jclic.js/delfines3.jpg",
+    "jclic.js/delfintwist2.jpg",
+    "jclic.js/dromedario1.jpg",
+    "jclic.js/flamencos7.jpg",
+    "jclic.js/frailecillo.jpg",
+    "jclic.js/leoncachorros.jpg",
+    "jclic.js/orca.jpg",
+    "jclic.js/pelicula2.avi",
+    "jclic.js/pelicula3.avi",
+    "jclic.js/pelicula5.avi",
+    "jclic.js/periquitoaustral.jpg",
+    "jclic.js/pezestan.jpg",
+    "jclic.js/provincias2.gif",
+    "jclic.js/zapatero.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/aves.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

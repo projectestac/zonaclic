@@ -1,0 +1,109 @@
+{
+  "id": 1686,
+  "title": "Els esports",
+  "author": "Jose María Esquinas Ruiz",
+  "school": "Escola Rafael Casanova Sant Boi de Llobregat (Baix Llobregat)",
+  "date": "28/06/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "esports",
+    "es": "deportes",
+    "en": "sports"
+  },
+  "descCodes": [
+    424
+  ],
+  "description": {
+    "en": "Ten activitites about the sports.\n<br> Along the activities the difference between collective sports is explained like handbol, water polo, volleyball, football, hockey, basketball... and the individual ones like esgrima, athletics, swimming, rhythmic and artistic gymnastics, tenis. Also we find a manifesto for the education and the sport.",
+    "ca": "Projecte format per deu activitats relacionades amb els esports.\n<br> Al llarg de les activitats s'explica la diferència entre esports col·lectius com l'handbol, bàsquet, hoquei, futbol, voleibol, waterpolo, ... i els individuals com l'esgrima, atletisme, natació, gimnàstica rítmica i artística, tenis. També trobem un manifest per a l'educació i l'esport.",
+    "es": "Proyecto formado por diez actividades relacionadas con los deportes.\n<br> A lo largo de las actividades se explica la diferencia entre depotes colectivos como el handbol, básquet, hoquei, fútbol, voleibol, waterpolo..., y los individuales como esgrima, atletismo, natación, gimnasia rítmica y artística, tenis... También encontramos al final del proyecto un manifiesto para la educación y el deporte."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/els_esports.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/els_esports.jclic.zip",
+  "instFile": "jclic/els_esports.jclic.inst",
+  "clicZoneId": 3394,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3394",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/els_esports/jclic/els_esports.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 30,
+  "totalSize": 753067,
+  "files": [
+    "cover.gif",
+    "jclic.js/atletisme.gif",
+    "jclic.js/badminton.gif",
+    "jclic.js/balonmano_2.gif",
+    "jclic.js/basquet.gif",
+    "jclic.js/basquet.mp3",
+    "jclic.js/basquet3.gif",
+    "jclic.js/beisbol.gif",
+    "jclic.js/ciclismo.gif",
+    "jclic.js/els_esports.jclic",
+    "jclic.js/esgrima.gif",
+    "jclic.js/esports1.gif",
+    "jclic.js/esports3.gif",
+    "jclic.js/esports_4.gif",
+    "jclic.js/futbol.gif",
+    "jclic.js/gimnastica_artistica.gif",
+    "jclic.js/handbol.gif",
+    "jclic.js/handbol.mp3",
+    "jclic.js/hoquei.gif",
+    "jclic.js/hoquei.mp3",
+    "jclic.js/judo.gif",
+    "jclic.js/natacion.gif",
+    "jclic.js/olimpiades2.gif",
+    "jclic.js/pregunta.gif",
+    "jclic.js/ritmica.gif",
+    "jclic.js/rugby2.gif",
+    "jclic.js/tennis.gif",
+    "jclic.js/triatlon.gif",
+    "jclic.js/voleibol.gif",
+    "jclic.js/waterpolo.gif",
+    "jclic.js/waterpolo.mp3",
+    "jclic.js/waterpolo1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/els_esports.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

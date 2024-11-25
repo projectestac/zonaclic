@@ -1,0 +1,106 @@
+{
+  "id": 1494,
+  "title": "Al-Ándalus",
+  "author": "Manuel Payán Cortés",
+  "school": "IES Dolmen de Soto Trigueros - Huelva (Andalucía)",
+  "date": "01/12/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "description": {
+    "en": "Project of activities about Al-Ándalus. \n<ul> \n <li>Situation </li>\n <li>The dependent emirate </li>\n <li>The independent emirate </li>\n <li>The Cordoba caliphate </li>\n <li>The taifa's kingdom </li>\n <li>The Christian resistance </li>\n <li>The caliph art and the caliph art </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre l'Al-Ándalus. Al llarg de les activitats es treballen diferents continguts: \n<ul> \n <li>Situació de la Hispània premusulmana </li>\n <li>L'Emirat dependent </li>\n <li>L'Emirat independent </li>\n <li>El Califat de Córdoba </li>\n <li>Els regnes de taifes </li>\n <li>La resistència cristiana </li>\n <li>L'art califal i el califa </li>\n <li>Relacions de l'Espanya actual amb el món islàmic </li>\n</ul>",
+    "es": "Proyecto de actividades sobre Al-Ándalus. A lo largo de las actividades se trebajan diferentes contenidos: \n<ul> \n <li>Situación de la Hispania premusulmana </li>\n <li>El Emirato dependiente </li>\n <li>El Emirato independiente </li>\n <li>El Califato de Córdoba </li>\n <li>Los reinos de taifas </li>\n <li>La resistencia cristiana </li>\n <li>El arte califal y el caifa </li>\n <li>Relaciones de la España actual con el mundo islámico </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/alandalu.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/alandalu.jclic.zip",
+  "instFile": "jclic/alandalu.jclic.inst",
+  "clicZoneId": 3214,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3214",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/alandalu/jclic/alandalu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 52,
+  "mediaFiles": 35,
+  "totalSize": 1349694,
+  "files": [
+    "cover.jpg",
+    "jclic.js/alandalu.jclic",
+    "jclic.js/alcazaba_almeria.jpg",
+    "jclic.js/aljaferia2.jpg",
+    "jclic.js/aljaferia2_b.jpg",
+    "jclic.js/almonaster.jpg",
+    "jclic.js/andalusi2.wav",
+    "jclic.js/aplausos.wav",
+    "jclic.js/c__documents_and_settings_victor_mis_documentos_papa_curso_jclic_musica_wav_proyecto_andalusi5.wav",
+    "jclic.js/e__mis_documentos_mis_imagenes_2004_09_20_1999_01_01_map._iberica.jpg",
+    "jclic.js/f__mapa_almohade_mini.jpg",
+    "jclic.js/f__mapa_almohades_txt.jpg",
+    "jclic.js/f__mapa_almoraviides_st.jpg",
+    "jclic.js/f__projects_imagenes_decoracion.jpg",
+    "jclic.js/h__peninsula_iberica_1100.jpg",
+    "jclic.js/m_abderraman_iii.jpg",
+    "jclic.js/m_almanzor.jpg",
+    "jclic.js/m_don_pelayo.jpg",
+    "jclic.js/m_martel_carlos.jpg",
+    "jclic.js/m_moneda_epoca_hixem.jpg",
+    "jclic.js/m_rodrigo.jpg",
+    "jclic.js/m_tariq.jpg",
+    "jclic.js/mapa.jpg",
+    "jclic.js/mapa_cordoba.jpg",
+    "jclic.js/mapa_granada.jpg",
+    "jclic.js/mapa_huelva.jpg",
+    "jclic.js/mapa_sevilla.jpg",
+    "jclic.js/mapa_toledo.jpg",
+    "jclic.js/mapa_zaragoza.jpg",
+    "jclic.js/mezquita_cristo_de_la_luz_toledo3.jpg",
+    "jclic.js/planta_mezquita1.jpg",
+    "jclic.js/planta_mezquita3.jpg",
+    "jclic.js/torre_del_oro.jpg",
+    "jclic.js/walhambra.jpg",
+    "jclic.js/walhambra__partal.jpg",
+    "jclic.js/wla_giralda.jpg",
+    "jclic.js/wmezquita.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/alandalu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

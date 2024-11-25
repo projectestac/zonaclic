@@ -1,0 +1,126 @@
+{
+  "id": 2069,
+  "title": "Els enters",
+  "author": "Xevi Altesa Amils",
+  "school": "Institut Domènec Perramon Arenys de Munt (Maresme)",
+  "date": "17/09/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "nombres enters",
+    "es": "números enteros",
+    "en": "integers"
+  },
+  "descCodes": [
+    1321
+  ],
+  "description": {
+    "en": "Project of activities addressed to 1st and 2nd level of secondary education about integers: \n<ul> \n <li>Integers' related concepts </li>\n <li>Basic operations: addition, substraction, multiplication and division </li>\n <li>Combined operations </li>\n</ul> In these pages you will find the other parts of this serie: \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=3599\">Descomposició en factors primers</a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=3634\">Fraccions</a> i \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=3636\">Divisibilitat</a>.",
+    "ca": "Projecte d'activitats per a 1r i 2n curs d'educació secundària obligatòria sobre els nombres enters: \n<ul> \n <li>Conceptes relacionats amb els enters. </li>\n <li>Operacions bàsiques: suma, resta, multiplicació i divisió d'enters. </li>\n <li>Operacions combinades. </li>\n</ul> En aquestes pàgines es troben altres activitats d'aquesta sèrie matemàtica: \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=3599\">Descomposició en factors primers</a>, \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=3634\">Fraccions</a> i \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=3636\">Divisibilitat</a>.",
+    "es": "Proyecto de actividades para 1º y 2º curso de educación secundaria obligatoria sobre los números enteros: \n<ul> \n <li>Conceptos relacionados con los enteros </li>\n <li>Operaciones básicas: suma, resta, multiplicación y división de enteros </li>\n <li>Operaciones combinadas </li>\n</ul> En estas páginas se encuentran otras actividades de esta serie matemática: \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=3599\">Descomposició en factors primers</a>, \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=3634\">Fraccions</a> i \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=3636\">Divisibilitat</a>."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/enters2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/enters2.jclic.zip",
+  "instFile": "jclic/enters2.jclic.inst",
+  "clicZoneId": 3635,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3635",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/enters2/jclic/enters2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 44,
+  "mediaFiles": 39,
+  "totalSize": 2336061,
+  "files": [
+    "cover.jpg",
+    "jclic.js/comen.jpg",
+    "jclic.js/comensar/comensar.jclic",
+    "jclic.js/comensar/compnombres.jpg",
+    "jclic.js/comensar/compnombresol.jpg",
+    "jclic.js/comensar/fons.jpg",
+    "jclic.js/comensar/rectabcde.jpg",
+    "jclic.js/comensar/rectabcde2.jpg",
+    "jclic.js/comensar/rectanum.jpg",
+    "jclic.js/comensar/taula.jpg",
+    "jclic.js/comensar/taulasolucio.jpg",
+    "jclic.js/enters2.jclic",
+    "jclic.js/fons.jpg",
+    "jclic.js/multidiv.jpg",
+    "jclic.js/multidivi/aspes.jpg",
+    "jclic.js/multidivi/aspesol.jpg",
+    "jclic.js/multidivi/fletxesx.jpg",
+    "jclic.js/multidivi/fletxesxi.jpg",
+    "jclic.js/multidivi/fons.jpg",
+    "jclic.js/multidivi/multidivi.jclic",
+    "jclic.js/multidivi/tauladiv.jpg",
+    "jclic.js/multidivi/tauladivsol.jpg",
+    "jclic.js/multidivi/taulamult.jpg",
+    "jclic.js/multidivi/taulamultsol.jpg",
+    "jclic.js/opcomb.jpg",
+    "jclic.js/opcombi/combi.jpg",
+    "jclic.js/opcombi/combisol.jpg",
+    "jclic.js/opcombi/fons.jpg",
+    "jclic.js/opcombi/opcombi.jclic",
+    "jclic.js/sumares.jpg",
+    "jclic.js/sumres/fletxes.jpg",
+    "jclic.js/sumres/fletxes1.jpg",
+    "jclic.js/sumres/fons.jpg",
+    "jclic.js/sumres/piramide1.jpg",
+    "jclic.js/sumres/piramide1sol.jpg",
+    "jclic.js/sumres/piramide2.jpg",
+    "jclic.js/sumres/piramide2sol.jpg",
+    "jclic.js/sumres/quadrat.jpg",
+    "jclic.js/sumres/quadratsol.jpg",
+    "jclic.js/sumres/sumres.jclic",
+    "jclic.js/sumres/taularesta.jpg",
+    "jclic.js/sumres/taularestasol.jpg",
+    "jclic.js/sumres/taulasuma.jpg",
+    "jclic.js/sumres/taulasumasol.jpg",
+    "jclic.js/titol2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/enters2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/comensar/comensar.jclic.js",
+    "jclic.js/multidivi/multidivi.jclic.js",
+    "jclic.js/opcombi/opcombi.jclic.js",
+    "jclic.js/sumres/sumres.jclic.js",
+    "cover.webp"
+  ]
+}

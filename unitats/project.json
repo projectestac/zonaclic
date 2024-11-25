@@ -1,0 +1,119 @@
+{
+  "id": 2522,
+  "title": "Canvi d'unitats",
+  "author": "Pedro Miguel Gómez",
+  "school": "IES Guillem d'Alcalà La Pobla de Farnals (Horta Nord)",
+  "date": "21/04/17",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "anàlisi matemàtica, càlcul, unitats",
+    "es": "análisis matemático, cálculo, unidades",
+    "en": "mathematical analysis, calculation, unit"
+  },
+  "descCodes": [
+    698,
+    702,
+    1485
+  ],
+  "description": {
+    "en": "Package of activities to work unit changes and movement problems. These activities are proposed for secondary level.",
+    "ca": "Paquet d'activitats per treballar el canvi d'unitats i problemes de moviment. Aquestes activitats estan pensades per al nivell de 2on d'ESO.",
+    "es": "Paquete de actividades para trabajar el cambio de unidades y problemas de movimiento. Estas actividades están pensadas para el nivel de 2º de ESO."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/unitats.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/unitats.jclic.zip",
+  "instFile": "jclic/unitats.jclic.inst",
+  "clicZoneId": 4032,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=4032",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/unitats/jclic/unitats.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 38,
+  "totalSize": 738009,
+  "files": [
+    "cover.jpg",
+    "jclic.js/accidente2.jpg",
+    "jclic.js/avioniberia.jpg",
+    "jclic.js/caidalliure.jpg",
+    "jclic.js/cotxeantic.jpg",
+    "jclic.js/espacio1.png",
+    "jclic.js/espacio2.png",
+    "jclic.js/espacio3.png",
+    "jclic.js/fc1.png",
+    "jclic.js/fc10.png",
+    "jclic.js/fc11.png",
+    "jclic.js/fc12.png",
+    "jclic.js/fc14.png",
+    "jclic.js/fc15.png",
+    "jclic.js/fc19.png",
+    "jclic.js/fc2.png",
+    "jclic.js/fc3.png",
+    "jclic.js/fc4.png",
+    "jclic.js/fc5.png",
+    "jclic.js/fc6.png",
+    "jclic.js/fc7.png",
+    "jclic.js/fc8.png",
+    "jclic.js/fc9.png",
+    "jclic.js/fc_error1.png",
+    "jclic.js/fc_error2.png",
+    "jclic.js/formula1.jpg",
+    "jclic.js/guardiacivil.jpg",
+    "jclic.js/kawasaki.jpg",
+    "jclic.js/montanarusa_resized.jpg",
+    "jclic.js/motociclismo.jpg",
+    "jclic.js/mov_circular.jpg",
+    "jclic.js/puntos_trafico_foro.jpg",
+    "jclic.js/tiempo1.png",
+    "jclic.js/tiempo2.png",
+    "jclic.js/tiempo3.png",
+    "jclic.js/triangulo.png",
+    "jclic.js/unitats.jclic",
+    "jclic.js/unitats.jclic.js",
+    "jclic.js/velocidad1.png",
+    "jclic.js/velocidad2.png",
+    "jclic.js/velocidad3.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

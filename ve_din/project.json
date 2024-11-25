@@ -1,0 +1,105 @@
+{
+  "id": 2429,
+  "title": "Conociendo los dinosaurios",
+  "author": "Carlos Toro",
+  "school": "U.E.E. Prisco Pérez Monasterio (Centro Bolivariano de Informática y Telemática \"Roxana M. de Hernández\") Villa de Cura, Estado Aragua (Venezuela)",
+  "date": "04/02/16",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "paleontologia, vertebrats, animals, dinosauris",
+    "es": "paleontología, vertebrados, animals, dinosaurs",
+    "en": "paleontology, vertebrates, animales, dinosaurios"
+  },
+  "descCodes": [
+    94,
+    107,
+    1456,
+    1465
+  ],
+  "description": {
+    "en": "JClic activities addressed to students of infantile education about the first dinosaurs that existed on the Earth through identification activities, puzzles, memory and exploratory activities.",
+    "ca": "Material adreçat a estudiants d'educació infantil que té com a objectiu conèixer els primers dinosaures que van existir a la terra a través d'activitats d'identificació, trencaclosques, memòria i d'exploració.",
+    "es": "Material dirigido a estudiantes de educación infantil que tiene como objetivo conocer los primeros dinosaurios que existieron en la tierra a través de actividades de identificación, rompecabezas, memoria y de exploración."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ve_din.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ve_din.jclic.zip",
+  "instFile": "jclic/ve_din.jclic.inst",
+  "clicZoneId": 3938,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3938",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ve_din/jclic/ve_din.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 23,
+  "totalSize": 4171306,
+  "files": [
+    "cover.png",
+    "jclic.js/caballo.jpg",
+    "jclic.js/cardenalito.jpg",
+    "jclic.js/chivo01.jpg",
+    "jclic.js/dino01.jpg",
+    "jclic.js/dinos02.jpg",
+    "jclic.js/dinosario2.jpg",
+    "jclic.js/dinosario3.jpg",
+    "jclic.js/dinosario6.jpg",
+    "jclic.js/dinosaurio.png",
+    "jclic.js/dinosaurio1.jpg",
+    "jclic.js/dinosaurio_estegosaurio.jpg",
+    "jclic.js/dinosaurios_voladores.jpg",
+    "jclic.js/feliz.png",
+    "jclic.js/fotos_t_rex.jpg",
+    "jclic.js/gallina.jpg",
+    "jclic.js/gato.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/menu2.png",
+    "jclic.js/ninios19.gif",
+    "jclic.js/osofrontino.jpg",
+    "jclic.js/patos.jpg",
+    "jclic.js/perro.jpg",
+    "jclic.js/texture6.gif",
+    "jclic.js/triceratops1.jpg",
+    "jclic.js/ve_din.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ve_din.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

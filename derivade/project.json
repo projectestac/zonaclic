@@ -1,0 +1,113 @@
+{
+  "id": 1094,
+  "title": "Regles de derivació",
+  "author": "Catalina Mayol",
+  "date": "07/11/03",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la matemàtica",
+    "es": "aprendizaje de la matemática",
+    "en": "learning of the mathematical one"
+  },
+  "descCodes": [
+    700
+  ],
+  "description": {
+    "en": "Package of activities about the derivation rules. It's been thought for secondary education as a tool to review and learn these rules.",
+    "ca": "Paquet d'activitats sobre les regles de derivació. Adreçat a Batxillerat intenta ser una eina per repassar i assolir aquestes normes.",
+    "es": "Paquete de actividades sobre las reglas de derivación. Dirigido a Bachillerato intenta ser un mecanismo de repaso de estas normas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/derivade.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/derivade.jclic.zip",
+  "instFile": "jclic/derivade.jclic.inst",
+  "clicZoneId": 2344,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2344",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/derivade/jclic/derivade.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 35,
+  "totalSize": 1498104,
+  "files": [
+    "cover.jpg",
+    "jclic.js/deriv0.gif",
+    "jclic.js/deriv1.gif",
+    "jclic.js/deriv10.gif",
+    "jclic.js/deriv14a.gif",
+    "jclic.js/deriv14b.gif",
+    "jclic.js/deriv15a.gif",
+    "jclic.js/deriv15b.gif",
+    "jclic.js/deriv16.gif",
+    "jclic.js/deriv17a.gif",
+    "jclic.js/deriv17b.gif",
+    "jclic.js/deriv18a.gif",
+    "jclic.js/deriv18b.gif",
+    "jclic.js/deriv19a.gif",
+    "jclic.js/deriv19b.gif",
+    "jclic.js/deriv20.gif",
+    "jclic.js/deriv21a.gif",
+    "jclic.js/deriv21b.gif",
+    "jclic.js/deriv22a.gif",
+    "jclic.js/deriv22b.gif",
+    "jclic.js/deriv23a.gif",
+    "jclic.js/deriv23b.gif",
+    "jclic.js/deriv2a.gif",
+    "jclic.js/deriv2b.gif",
+    "jclic.js/deriv3a.gif",
+    "jclic.js/deriv3b.gif",
+    "jclic.js/deriv4a.gif",
+    "jclic.js/deriv4b.gif",
+    "jclic.js/deriv5a.gif",
+    "jclic.js/deriv5b.gif",
+    "jclic.js/deriv6a.gif",
+    "jclic.js/deriv6b.gif",
+    "jclic.js/deriv7.gif",
+    "jclic.js/deriv8a.gif",
+    "jclic.js/deriv8b.gif",
+    "jclic.js/deriv9.gif",
+    "jclic.js/derivade.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/derivade.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

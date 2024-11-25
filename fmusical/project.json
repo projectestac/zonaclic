@@ -1,0 +1,124 @@
+{
+  "id": 2028,
+  "title": "Las familias instrumentales",
+  "author": "Margarita Hernandez Serrano",
+  "date": "05/02/10",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "instrument musical",
+    "es": "instrumento musical",
+    "en": "musical instrument"
+  },
+  "descCodes": [
+    724
+  ],
+  "description": {
+    "en": "Project of activities about the main families of instruments: \n<ul> \n <li>wind </li>\n <li>rope </li>\n <li>drums </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre les principals famílies d'instruments: \n<ul> \n <li>vent </li>\n <li>corda </li>\n <li>percussió </li>\n</ul>",
+    "es": "Proyecto de actividades sobre las principales familias de instrumentos: \n<ul> \n <li>viento </li>\n <li>cuerda </li>\n <li>percusión </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/fmusical.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fmusical.jclic.zip",
+  "instFile": "jclic/fmusical.jclic.inst",
+  "clicZoneId": 3598,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3598",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fmusical/jclic/fmusical.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 46,
+  "totalSize": 1265147,
+  "files": [
+    "cover.gif",
+    "jclic.js/91_sdrumw2.gif",
+    "jclic.js/acordeon.gif",
+    "jclic.js/arpa.mp3",
+    "jclic.js/arpa2.gif",
+    "jclic.js/bateria.gif",
+    "jclic.js/caja.mp3",
+    "jclic.js/campana.gif",
+    "jclic.js/clarinete.gif",
+    "jclic.js/clarinete.mp3",
+    "jclic.js/contrabajo.mp3",
+    "jclic.js/contrabajo2.gif",
+    "jclic.js/diapositiva1.jpg",
+    "jclic.js/flau.gif",
+    "jclic.js/flauta.mp3",
+    "jclic.js/fmusical.jclic",
+    "jclic.js/fondo_suave_con_pentagrama.gif",
+    "jclic.js/gong.mp3",
+    "jclic.js/gongos.gif",
+    "jclic.js/guitarra.2gif.gif",
+    "jclic.js/guitarra.mp3",
+    "jclic.js/imagen3.gif",
+    "jclic.js/inst019.gif",
+    "jclic.js/instrumentos_musicales.jpg",
+    "jclic.js/mara.gif",
+    "jclic.js/maracas.gif",
+    "jclic.js/maracas.mp3",
+    "jclic.js/pandereta.gif",
+    "jclic.js/pandereta.mp3",
+    "jclic.js/pandero.gif",
+    "jclic.js/pian.gif",
+    "jclic.js/piano.mp3",
+    "jclic.js/platillos.gif",
+    "jclic.js/platillos.mp3",
+    "jclic.js/presentacion2.jpg",
+    "jclic.js/saxofon.gif",
+    "jclic.js/saxofon.mp3",
+    "jclic.js/timbales.gif",
+    "jclic.js/todos_los_instrumentos.gif",
+    "jclic.js/triangulo.gif",
+    "jclic.js/trometa.gif",
+    "jclic.js/trompa.gif",
+    "jclic.js/tuba.gif",
+    "jclic.js/tuba.mp3",
+    "jclic.js/vio.gif",
+    "jclic.js/violin.mp3",
+    "jclic.js/xilofono.gif",
+    "jclic.js/xilofono.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fmusical.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

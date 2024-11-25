@@ -1,0 +1,126 @@
+{
+  "id": 2026,
+  "title": "Font Roja",
+  "author": "Jesus Grau i Garcia, Mònica Domínguez Botella i Norman García i Guardiola",
+  "school": "CEIP La Vallverda Vallverda - Elx (Baix Vinalopó)",
+  "date": "25/01/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Social sciences",
+    "ca": "Ciències experimentals, Ciències socials",
+    "es": "Ciencias experimentales, Ciencias sociales"
+  },
+  "areaCodes": [
+    "exp",
+    "soc"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "biologia, botànica",
+    "es": "biología, botánica",
+    "en": "biology, botany"
+  },
+  "descCodes": [
+    58,
+    59
+  ],
+  "description": {
+    "en": "JClic activities about the \n<i>Parc Natural de la Font Roja d'Alcoy (Alacant)</i>. The project is divided into two parts, the first one for kindergarten and the second one addressed to primary education.",
+    "ca": "Projecte d'activitats interactives al voltant del Parc Natural de la Font Roja d'Alcoi. És molt útil per a treballar el bosc, la tardor, la muntanya, plantes i animals, herbes medicinals, etc.\n<p> El projecte està dividit en dues parts, una per educació infantil i l'altra per educació primària. </p>",
+    "es": "Proyecto de actividades interactivas sobre el Parc Natural de la Font Roja d'Alcoi. Es muy útil para trabajar el bosque, el otoño, la montaña, plantas y animales, hierbas medicinales, etc.\n<p> El proyecto está dividido en dos partes, una para educación infantil y otra para educación primaria. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/fontroja.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fontroja.jclic.zip",
+  "instFile": "jclic/fontroja.jclic.inst",
+  "clicZoneId": 3596,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3596",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fontroja/jclic/fontroja.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 54,
+  "mediaFiles": 44,
+  "totalSize": 2379688,
+  "files": [
+    "cover.jpg",
+    "jclic.js/0aranya.jpg",
+    "jclic.js/0mussol_mr_guapet_m.jpg",
+    "jclic.js/0porcsenglarenfons.jpg",
+    "jclic.js/0serp1.jpg",
+    "jclic.js/aranya.jpg",
+    "jclic.js/arbre__en_tronc_fulles_i_tija_sense_linees.jpg",
+    "jclic.js/arbre_en_fons1.jpg",
+    "jclic.js/arbust1.jpg",
+    "jclic.js/auro_en_fulles.jpg",
+    "jclic.js/aus2.jpg",
+    "jclic.js/carbonera.jpg",
+    "jclic.js/carrasca2.jpg",
+    "jclic.js/carrasca__fulles.jpg",
+    "jclic.js/cava.jpg",
+    "jclic.js/coscolla2.jpg",
+    "jclic.js/cova_gelada4.jpg",
+    "jclic.js/dibuix_font1.jpg",
+    "jclic.js/dibuix_ou_gallina1.jpg",
+    "jclic.js/dibuixdia.jpg",
+    "jclic.js/dibuixlupa.jpg",
+    "jclic.js/dibuixnit.jpg",
+    "jclic.js/estepa_blanca1.jpg",
+    "jclic.js/fleix.jpg",
+    "jclic.js/font1.jpg",
+    "jclic.js/fontroja.jclic",
+    "jclic.js/forn_de_calc.jpg",
+    "jclic.js/galer1.jpg",
+    "jclic.js/i01__home_monica_desktop_fotos_modificades_clic_jpg_petjadarabosa1.jpg",
+    "jclic.js/lligabosc.jpg",
+    "jclic.js/marfull.jpg",
+    "jclic.js/mas_de_tetuan.jpg",
+    "jclic.js/mussol_mr_guapet_m.jpg",
+    "jclic.js/paelleros3.jpg",
+    "jclic.js/petjadagardunya1.jpg",
+    "jclic.js/petjadagat1.jpg",
+    "jclic.js/petjadaporc1.jpg",
+    "jclic.js/petjadarabosa1.jpg",
+    "jclic.js/petjadesmam1.jpg",
+    "jclic.js/pitroig.jpg",
+    "jclic.js/pollet1.jpg",
+    "jclic.js/porcsenglarenfons.jpg",
+    "jclic.js/rastres_animals.jpg",
+    "jclic.js/serp1.jpg",
+    "jclic.js/teix1.jpg",
+    "jclic.js/timo1.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fontroja.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

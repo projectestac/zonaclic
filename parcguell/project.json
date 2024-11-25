@@ -1,0 +1,132 @@
+{
+  "id": 2187,
+  "title": "Gaudí i el Parc Güell",
+  "author": "Teresa Sagarra Busquets",
+  "school": "Escola Sant Baldiri Lliçà d'Amunt (Vallès Oriental)",
+  "date": "14/10/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Art & design, Languages",
+    "ca": "Visual i plàstica, Llengües",
+    "es": "Plástica y visual, Lenguas"
+  },
+  "areaCodes": [
+    "vip",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "Antoni Gaudí",
+    "es": "Antoni Gaudí",
+    "en": "Antoni Gaudí"
+  },
+  "descCodes": [
+    1322
+  ],
+  "description": {
+    "en": "Project of activities about the Parc Güell addressed to kindergarten. The project is divided into two parts: \n<ul> \n <li>Story </li>\n <li>Activities </li>\n</ul>",
+    "ca": "Projecte d'activitats creat per donar a conèixer el Parc Güell a alumnes d'educació infantil. El projecte està dividit en dues parts: \n<ul> \n <li>Conte </li>\n <li>Activitats </li>\n</ul>",
+    "es": "Proyecto de actividades creado para dar a conocer el Parc Güell a alumnos de educación infantil. El proyecto está dividido en dos partes: \n<ul> \n <li>Cuento </li>\n <li>Actividades </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/parcguell.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/parcguell.jclic.zip",
+  "instFile": "jclic/parcguell.jclic.inst",
+  "clicZoneId": 3722,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3722",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/parcguell/jclic/parcguell.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 26,
+  "mediaFiles": 52,
+  "totalSize": 8236199,
+  "files": [
+    "cover.jpg",
+    "jclic.js/253_cova_elefant.jpg",
+    "jclic.js/264boca_balena.jpg",
+    "jclic.js/268placa.jpg",
+    "jclic.js/275porta_papallona.jpg",
+    "jclic.js/625columnes.jpg",
+    "jclic.js/altavoz_antideflagrante_46951.jpg",
+    "jclic.js/amanita_muscaria.jpg",
+    "jclic.js/antoni_gaudi.jpg",
+    "jclic.js/asset_402.jpg",
+    "jclic.js/asset_481banc.jpg",
+    "jclic.js/asset_823.jpg",
+    "jclic.js/balena.mp3",
+    "jclic.js/ballena_jorobada.jpg",
+    "jclic.js/bancs.mp3",
+    "jclic.js/barcelona1.mp3",
+    "jclic.js/barcelona_parc_guell_tc1.jpg",
+    "jclic.js/bcn2.mp3",
+    "jclic.js/bcn_2.jpg",
+    "jclic.js/caseta_de_xocoljpg.jpg",
+    "jclic.js/casetes.jpg",
+    "jclic.js/casetes.mp3",
+    "jclic.js/columnes.jpg",
+    "jclic.js/columnes.mp3",
+    "jclic.js/drac.mp3",
+    "jclic.js/drac_porta.jpg",
+    "jclic.js/el_mag.mp3",
+    "jclic.js/el_parc.mp3",
+    "jclic.js/elefant.jpg",
+    "jclic.js/elefant.mp3",
+    "jclic.js/fi.mp3",
+    "jclic.js/img_0612.jpg",
+    "jclic.js/mag.jpg",
+    "jclic.js/magic_butterfly.jpg",
+    "jclic.js/margallo.jpg",
+    "jclic.js/mini_p1010404.jpg",
+    "jclic.js/parc_foto_inici.jpg",
+    "jclic.js/parc_guell2.jpg",
+    "jclic.js/parc_guell_09.jpg",
+    "jclic.js/parc_guell_banc.jpg",
+    "jclic.js/parcguell.jclic",
+    "jclic.js/placa.mp3",
+    "jclic.js/pop.jpg",
+    "jclic.js/porta_margallo.jpg",
+    "jclic.js/presentacio.mp3",
+    "jclic.js/sargantana.jpg",
+    "jclic.js/serp.jpg",
+    "jclic.js/serp.mp3",
+    "jclic.js/sol.jpg",
+    "jclic.js/sols.jpg",
+    "jclic.js/sols.mp3",
+    "jclic.js/teulada_de_bolet.jpg",
+    "jclic.js/titol.mp3",
+    "jclic.js/tria.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/parcguell.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

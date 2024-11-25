@@ -1,0 +1,115 @@
+{
+  "id": 2254,
+  "title": "La casa on vivim",
+  "author": "Francesc Sánchez Guerrero",
+  "school": "Escola Sant Julià L'Arboç (Baix Penedès)",
+  "date": "01/06/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences, Music",
+    "ca": "Ciències socials, Música",
+    "es": "Ciencias sociales, Música"
+  },
+  "areaCodes": [
+    "soc",
+    "mus"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "casa",
+    "es": "casa",
+    "en": "home"
+  },
+  "descCodes": [
+    781
+  ],
+  "description": {
+    "en": "Project of activities about the house: \n<ul> \n <li>parts of the house </li>\n <li>household objects </li>\n <li>tasks you do at home </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre la casa: \n<ul> \n <li>parts de la casa </li>\n <li>objectes de la casa </li>\n <li>tasques que es fan a casa </li>\n</ul>",
+    "es": "Proyecto de actividades sobre la casa: \n<ul> \n <li>partes de la casa </li>\n <li>objetos de la casa </li>\n <li>tareas que se hacen en casa </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/la_casa.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/la_casa.jclic.zip",
+  "instFile": "jclic/la_casa.jclic.inst",
+  "clicZoneId": 3772,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3772",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/la_casa/jclic/la_casa.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 35,
+  "totalSize": 1669152,
+  "files": [
+    "cover.png",
+    "jclic.js/cadira.jpg",
+    "jclic.js/cafetera.jpg",
+    "jclic.js/coixi.jpg",
+    "jclic.js/cuina_1.jpg",
+    "jclic.js/cuina_2.jpg",
+    "jclic.js/cullera.jpg",
+    "jclic.js/edifici.jpg",
+    "jclic.js/edifici_petit.jpg",
+    "jclic.js/feines_comprar.jpg",
+    "jclic.js/feines_cuinar.jpg",
+    "jclic.js/feines_endrecar.jpg",
+    "jclic.js/feines_llit.jpg",
+    "jclic.js/feines_netejar.jpg",
+    "jclic.js/feines_planxar.jpg",
+    "jclic.js/feines_posar_taula.jpg",
+    "jclic.js/feines_vaixella.jpg",
+    "jclic.js/final.png",
+    "jclic.js/habitacio_1.jpg",
+    "jclic.js/habitacio_2.jpg",
+    "jclic.js/la_casa.jclic",
+    "jclic.js/lampara.jpg",
+    "jclic.js/menjador_1.jpg",
+    "jclic.js/menjador_2.jpg",
+    "jclic.js/olla.jpg",
+    "jclic.js/osset.jpg",
+    "jclic.js/paella.jpg",
+    "jclic.js/pasta.jpg",
+    "jclic.js/pinta.jpg",
+    "jclic.js/portada_amb_nom.jpg",
+    "jclic.js/rellotge.jpg",
+    "jclic.js/sabo.jpg",
+    "jclic.js/sofa.jpg",
+    "jclic.js/telefon.jpg",
+    "jclic.js/televisor.jpg",
+    "jclic.js/wc_1.jpg",
+    "jclic.js/wc_2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/la_casa.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

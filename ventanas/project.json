@@ -1,0 +1,144 @@
+{
+  "id": 1175,
+  "title": "Informática básica (Las ventanas de MS Windows)",
+  "author": "Gayle Almonte",
+  "school": "Instituto de Capacitación Informática San Pedro de Macoris (República Dominicana)",
+  "date": "09/11/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Tecnologies",
+    "es": "Tecnología",
+    "en": "Design & technology"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "informàtica, maquinari, windows, internet",
+    "es": "informática, hardware, windows, internet",
+    "en": "computer science, hardware, windows, internet"
+  },
+  "descCodes": [
+    737,
+    739,
+    1352,
+    1353
+  ],
+  "description": {
+    "en": "Clic activities about the main parts of the computer: central unit, peripherals, software... and some things about interenet and Windows.",
+    "ca": "En aquests paquet d'activitats es repassen els noms del principals components d'un ordinador: unitat central, perifèrics, programari... i també aspectes d'internet i del Windows.",
+    "es": "En estos paquetes de actividades se repasan los principales componentes de un ordenador: unidad central, periféricos, software... i también aspectos sobre internet y Windows."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "informat",
+    "internet",
+    "windows"
+  ],
+  "mainFile": "jclic.js/ventanas.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ventanas.jclic.zip",
+  "instFile": "jclic/ventanas.jclic.inst",
+  "clicZoneId": 2660,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2660",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ventanas/jclic/ventanas.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 37,
+  "mediaFiles": 57,
+  "totalSize": 606990,
+  "files": [
+    "cover.gif",
+    "jclic.js/777777.gif",
+    "jclic.js/98_2b.gif",
+    "jclic.js/98_2c.gif",
+    "jclic.js/98_2v.gif",
+    "jclic.js/98_7.gif",
+    "jclic.js/98_78.gif",
+    "jclic.js/98_panel.gif",
+    "jclic.js/adios.gif",
+    "jclic.js/barr1p.gif",
+    "jclic.js/barra1.gif",
+    "jclic.js/barra1p.gif",
+    "jclic.js/barrades.gif",
+    "jclic.js/barrex_1.gif",
+    "jclic.js/barrex_2.gif",
+    "jclic.js/barrex_3.gif",
+    "jclic.js/captur7.gif",
+    "jclic.js/cerrar.gif",
+    "jclic.js/explor_1.gif",
+    "jclic.js/explora2.gif",
+    "jclic.js/explora3.gif",
+    "jclic.js/explora4.gif",
+    "jclic.js/explora5.gif",
+    "jclic.js/herram.gif",
+    "jclic.js/logord.gif",
+    "jclic.js/men.gif",
+    "jclic.js/mini.gif",
+    "jclic.js/opc01.gif",
+    "jclic.js/opc02.gif",
+    "jclic.js/pane11.gif",
+    "jclic.js/pane12.gif",
+    "jclic.js/pane13.gif",
+    "jclic.js/pane14.gif",
+    "jclic.js/pane165.gif",
+    "jclic.js/pane18.gif",
+    "jclic.js/pane19.gif",
+    "jclic.js/pane22.gif",
+    "jclic.js/panei.gif",
+    "jclic.js/panel1.gif",
+    "jclic.js/panel2.gif",
+    "jclic.js/panel3.gif",
+    "jclic.js/panel4.gif",
+    "jclic.js/panel5.gif",
+    "jclic.js/panel7.gif",
+    "jclic.js/panel8.gif",
+    "jclic.js/panel9.gif",
+    "jclic.js/panell_1.gif",
+    "jclic.js/panem.gif",
+    "jclic.js/panepan.gif",
+    "jclic.js/panes.gif",
+    "jclic.js/presenta.gif",
+    "jclic.js/resta.gif",
+    "jclic.js/restau.gif",
+    "jclic.js/sin.gif",
+    "jclic.js/sin5.gif",
+    "jclic.js/ventanas.jclic",
+    "jclic.js/ventaw_1.gif",
+    "jclic.js/ventaw_2.gif",
+    "jclic.js/winopba2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ventanas.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

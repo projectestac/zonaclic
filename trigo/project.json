@@ -1,0 +1,129 @@
+{
+  "id": 1375,
+  "title": "Introducció a la trigonometria",
+  "author": "Cristina Mora Lobato",
+  "school": "Institut Rafael Casanova Sant Boi de Llobregat (Baix Llobregat)",
+  "date": "02/06/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "trigonometria",
+    "es": "trigonometría",
+    "en": "trigonometry"
+  },
+  "descCodes": [
+    716
+  ],
+  "description": {
+    "en": "Package of activities addressed to students of secondary education about concepts on trigonometric reasons and trigonometry.",
+    "ca": "Paquet d'activitats adreçat a alumnes de 4t d'ESO on es treballen conceptes sobre raons trigonomètriques i trigonometria en general.",
+    "es": "Paquete de actividades dirigido a alumnos de 4º de ESO dónde se trabajan conceptos sobre razones trigonométricas y trigonometría en general."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/trigo.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/trigo.jclic.zip",
+  "instFile": "jclic/trigo.jclic.inst",
+  "clicZoneId": 3115,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3115",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/trigo/jclic/trigo.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 50,
+  "totalSize": 704763,
+  "files": [
+    "cover.jpg",
+    "jclic.js/2onquada.gif",
+    "jclic.js/2onquadb.gif",
+    "jclic.js/2onquadc.gif",
+    "jclic.js/3erquada.gif",
+    "jclic.js/3erquadb.gif",
+    "jclic.js/3erquadc.gif",
+    "jclic.js/4rtquada.gif",
+    "jclic.js/4rtquadb.gif",
+    "jclic.js/4rtquadc.gif",
+    "jclic.js/angb135.gif",
+    "jclic.js/angb180.gif",
+    "jclic.js/angb240.gif",
+    "jclic.js/angb270.gif",
+    "jclic.js/angb30.gif",
+    "jclic.js/angb300.gif",
+    "jclic.js/angb45.gif",
+    "jclic.js/angb90.gif",
+    "jclic.js/angle135.gif",
+    "jclic.js/angle180.gif",
+    "jclic.js/angle240.gif",
+    "jclic.js/angle270.gif",
+    "jclic.js/angle30.gif",
+    "jclic.js/angle300.gif",
+    "jclic.js/angle45.gif",
+    "jclic.js/angle90.gif",
+    "jclic.js/cosinu_1.gif",
+    "jclic.js/fi.wav",
+    "jclic.js/gonio.gif",
+    "jclic.js/invraona.gif",
+    "jclic.js/invraonc.gif",
+    "jclic.js/mates.gif",
+    "jclic.js/moltbe.wav",
+    "jclic.js/puzzle.gif",
+    "jclic.js/qquad2a.gif",
+    "jclic.js/qquada.gif",
+    "jclic.js/quadsa.gif",
+    "jclic.js/quadsc.gif",
+    "jclic.js/raons2a.gif",
+    "jclic.js/raons2c.gif",
+    "jclic.js/redu130.gif",
+    "jclic.js/redu150.gif",
+    "jclic.js/redu210.gif",
+    "jclic.js/redu250.gif",
+    "jclic.js/redu300.gif",
+    "jclic.js/redu340.gif",
+    "jclic.js/tabraona.gif",
+    "jclic.js/tabraonb.gif",
+    "jclic.js/tabraonc.gif",
+    "jclic.js/text1.gif",
+    "jclic.js/text2.gif",
+    "jclic.js/trigo.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/trigo.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

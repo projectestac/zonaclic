@@ -1,0 +1,143 @@
+{
+  "id": 764,
+  "title": "Geografia d'Espanya",
+  "author": "Juan Palomino Reinoso",
+  "school": "Escola Santa Maria de Cervelló Cervelló (Baix Llobregat)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia, Espanya",
+    "es": "geografía, España",
+    "en": "geography, Spain"
+  },
+  "descCodes": [
+    235,
+    499
+  ],
+  "description": {
+    "en": "Activities about the political and physical geography of Spain.",
+    "ca": "Dos paquets d'activitats sobre geografia física i política d'Espanya. Per a cada aspecte es proposen unes activitats inicials d'exploració, activitats de relació i identificació de conceptes, i algues sopes de lletres i puzzles complementaris.",
+    "es": "Dos paquetes de actividades dedicados a la geografía física y política de España. Para cada aspecto se proponen unas actividades iniciales de exploración, actividades de relación e identificación de conceptos, y algunas sopas de letras y puzzles complementarios."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/geoespan.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/geoespan.jclic.zip",
+  "instFile": "jclic/geoespan.jclic.inst",
+  "clicZoneId": 1416,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1416",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/geoespan/jclic/geoespan.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 50,
+  "mediaFiles": 62,
+  "totalSize": 535866,
+  "files": [
+    "cover.gif",
+    "jclic.js/andaluci.gif",
+    "jclic.js/arago.gif",
+    "jclic.js/asturies.gif",
+    "jclic.js/balears.gif",
+    "jclic.js/bananda.gif",
+    "jclic.js/banarag.gif",
+    "jclic.js/banastu.gif",
+    "jclic.js/banbale.gif",
+    "jclic.js/banbasc.gif",
+    "jclic.js/bancall.gif",
+    "jclic.js/bancama.gif",
+    "jclic.js/bancana.gif",
+    "jclic.js/bancant.gif",
+    "jclic.js/bancata.gif",
+    "jclic.js/banceme.gif",
+    "jclic.js/banextr.gif",
+    "jclic.js/bangali.gif",
+    "jclic.js/banmadr.gif",
+    "jclic.js/banmurc.gif",
+    "jclic.js/bannava.gif",
+    "jclic.js/banrioj.gif",
+    "jclic.js/banvale.gif",
+    "jclic.js/canaries.gif",
+    "jclic.js/cantabri.gif",
+    "jclic.js/castlleo.gif",
+    "jclic.js/castmanx.gif",
+    "jclic.js/cataluny.gif",
+    "jclic.js/ceutmeli.gif",
+    "jclic.js/europa.gif",
+    "jclic.js/extremad.gif",
+    "jclic.js/fis375.gif",
+    "jclic.js/fisic011.gif",
+    "jclic.js/fisic022.gif",
+    "jclic.js/fisic032.gif",
+    "jclic.js/fisic041.gif",
+    "jclic.js/fisic052.gif",
+    "jclic.js/fisic072.gif",
+    "jclic.js/fisic082.gif",
+    "jclic.js/fisic101.gif",
+    "jclic.js/fisic112.gif",
+    "jclic.js/fisic122.gif",
+    "jclic.js/fisic131.gif",
+    "jclic.js/fisic161.gif",
+    "jclic.js/fisic172.gif",
+    "jclic.js/fisic191.gif",
+    "jclic.js/galicia.gif",
+    "jclic.js/geoespan.jclic",
+    "jclic.js/geoespan.pdf",
+    "jclic.js/instruc.gif",
+    "jclic.js/intro0.gif",
+    "jclic.js/intro501.gif",
+    "jclic.js/madrid.gif",
+    "jclic.js/mapamund.gif",
+    "jclic.js/murcia.gif",
+    "jclic.js/navarra.gif",
+    "jclic.js/paisbasc.gif",
+    "jclic.js/polit01a.gif",
+    "jclic.js/polit01b.gif",
+    "jclic.js/polit022.gif",
+    "jclic.js/polit032.gif",
+    "jclic.js/polit042.gif",
+    "jclic.js/polit051.gif",
+    "jclic.js/rioja.gif",
+    "jclic.js/valencia.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/geoespan.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

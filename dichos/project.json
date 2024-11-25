@@ -1,0 +1,137 @@
+{
+  "id": 396,
+  "title": "Dichos",
+  "author": "Trinitat Colomer Font",
+  "school": "Escola Pere Torrent Lloret de Mar (Selva)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "comprensió escrita, llengua catalana",
+    "es": "comprensión escrita, lengua catalana",
+    "en": "written understanding, Catalan language"
+  },
+  "descCodes": [
+    111,
+    133
+  ],
+  "description": {
+    "en": "Clic activities about refrains in Catalan.",
+    "ca": "Paquet amb activitats basades en dites sobre els mesos del curs escolar (de setembre a juny) i els dies de la setmana, adreçades al cicle inicial de primària.",
+    "es": "Actividades Clic en catalán basadas en dichos sobre los meses del curso escolar (de septiembre a junio) y los días de la semana, para el ciclo inicial de primaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "dites"
+  ],
+  "mainFile": "jclic.js/dichos.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/dichos.jclic.zip",
+  "instFile": "jclic/dichos.jclic.inst",
+  "clicZoneId": 1227,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1227",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/dichos/jclic/dichos.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 39,
+  "mediaFiles": 54,
+  "totalSize": 1046224,
+  "files": [
+    "cover.gif",
+    "jclic.js/dichos.jclic",
+    "jclic.js/escola.gif",
+    "jclic.js/escola1.gif",
+    "jclic.js/febrer.gif",
+    "jclic.js/febrer1.gif",
+    "jclic.js/febrer3.gif",
+    "jclic.js/fred.gif",
+    "jclic.js/fred2.gif",
+    "jclic.js/granito.gif",
+    "jclic.js/jun.gif",
+    "jclic.js/jun1.gif",
+    "jclic.js/llampec.gif",
+    "jclic.js/llit.gif",
+    "jclic.js/llit2.gif",
+    "jclic.js/llit3.gif",
+    "jclic.js/lluna.gif",
+    "jclic.js/lluna1.gif",
+    "jclic.js/lluna2.gif",
+    "jclic.js/lluna3.gif",
+    "jclic.js/lluna4.gif",
+    "jclic.js/lluna5.gif",
+    "jclic.js/maig.gif",
+    "jclic.js/maig1.gif",
+    "jclic.js/mar_.gif",
+    "jclic.js/mar_1.gif",
+    "jclic.js/mar_3.gif",
+    "jclic.js/miss.gif",
+    "jclic.js/miss1.gif",
+    "jclic.js/miss2.gif",
+    "jclic.js/miss3.gif",
+    "jclic.js/miss4.gif",
+    "jclic.js/miss5.gif",
+    "jclic.js/miss6.gif",
+    "jclic.js/negre.gif",
+    "jclic.js/neu.gif",
+    "jclic.js/parasol.gif",
+    "jclic.js/plorar.gif",
+    "jclic.js/plorar1.gif",
+    "jclic.js/pluja.gif",
+    "jclic.js/pluja1.gif",
+    "jclic.js/pluja2.gif",
+    "jclic.js/pluja3.gif",
+    "jclic.js/pluja4.gif",
+    "jclic.js/pluja5.gif",
+    "jclic.js/pluja6.gif",
+    "jclic.js/portada3.gif",
+    "jclic.js/sol.gif",
+    "jclic.js/sol1.gif",
+    "jclic.js/sol2.gif",
+    "jclic.js/vent.gif",
+    "jclic.js/vent1.gif",
+    "jclic.js/vent2.gif",
+    "jclic.js/vent3.gif",
+    "jclic.js/vent4.gif",
+    "jclic.js/venta.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/dichos.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

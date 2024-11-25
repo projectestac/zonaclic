@@ -1,0 +1,98 @@
+{
+  "id": 2284,
+  "title": "La música del Renaixement",
+  "author": "Anna Pantinat Hernandez",
+  "school": "INS Montgròs Sant Pere de Ribes (Garraf)",
+  "date": "10/01/13",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "educació musical",
+    "es": "educación musical",
+    "en": "musical education"
+  },
+  "descCodes": [
+    721
+  ],
+  "description": {
+    "en": "Project of activities about the Renaissance, addressed to secondary education. Throughout the project, pupil will learn some concepts as: \n<ul> \n <li>What is Renaissance? </li>\n <li>Instruments </li>\n <li>Dances </li>\n</ul>",
+    "ca": "Projecte d'activitats JClic que pretén acostar l'alumnat al món del Renaixement, des d'una visió general de l'art i el pensament per anar, mica en mica, endinsant-los en la música renaixentista. Al llarg del projecte es treballen conceptes com: \n<ul> \n <li>Què és? </li>\n <li>Instruments </li>\n <li>Danses </li>\n</ul>",
+    "es": "Proyecto de actividades JClic que pretende acercar al alumnado al mundo del Renacimiento, desde una visión general del arte y el pensamiento para ir, poco a poco, introduciéndolos a la música renacentista. A lo largo del proyecto se trabajan conceptos como: \n<ul> \n <li>¿Qué es? </li>\n <li>Instrumentos </li>\n <li>Danzas </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/renaixem.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/renaixem.jclic.zip",
+  "instFile": "jclic/renaixem.jclic.inst",
+  "clicZoneId": 3798,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3798",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/renaixem/jclic/renaixem.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 19,
+  "totalSize": 2243906,
+  "files": [
+    "cover.png",
+    "jclic.js/300px_meister_aus_tahull_001.jpg",
+    "jclic.js/418px_birth_of_venus_detail.jpg",
+    "jclic.js/430px_leonardo_da_vinci_051.jpg",
+    "jclic.js/441px_da_vinci_vitruve_luc_viatour.jpg",
+    "jclic.js/450px_michelangelos_david.jpg",
+    "jclic.js/480px_firenze_duomo.jpg",
+    "jclic.js/524px_self_portrait_at_the_clavichord_with_a_servant_by_lavinia_fontana.jpg",
+    "jclic.js/amicus.mp3",
+    "jclic.js/cabezon_caballero_beginning_meantone.ogg",
+    "jclic.js/cromorm.jpg",
+    "jclic.js/galliard.jpg",
+    "jclic.js/identificador_m2_resized.jpg",
+    "jclic.js/meister_der_weiblichen_halbfiguren_001_resized.jpg",
+    "jclic.js/monteverdi___combattimento___battle_music.mp3",
+    "jclic.js/rausch_sopalt1_resized.jpg",
+    "jclic.js/rebec_fiddle_resized.jpg",
+    "jclic.js/reinassancelute.jpg",
+    "jclic.js/renaissancetischpositiv.jpg",
+    "jclic.js/renaixem.jclic",
+    "jclic.js/ruckers_virginal.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/renaixem.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

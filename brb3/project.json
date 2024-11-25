@@ -1,0 +1,120 @@
+{
+  "id": 439,
+  "title": "What are they doing?",
+  "author": "Celia Sánchez Albarracín, Francisco José Sánchez García i José Antonio Guerao Navarro",
+  "school": "CEIP Torrecilla Lorca (Murcia), CEIP Alfonso X El Sabio Lorca (Murcia), CEIP San Juan de las Águilas Águilas (Murcia)",
+  "date": "23/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua anglesa, vocabulari",
+    "es": "gramática, lengua inglesa, vocabulario",
+    "en": "grammar, English language, vocabulary"
+  },
+  "descCodes": [
+    123,
+    130,
+    150
+  ],
+  "description": {
+    "en": "Clic activities about English grammar destined to Primary School. The objective is practice the Present Continuous: The package has the following contents: \n<ul> \n <li>Verbs: write, dance, play, laugh, swim, read, run, rain. </li>\n <li>Personal pronouns. </li>\n <li>Sentences in present continuous with the 8 previous verbs. </li>\n <li>Oral and written structure of sentences and pronouns. </li>\n <li>Yes/No questions and Short answers. \n  <ul>\n    Some images are from the book \"Big Red Bus 3\", by Ma José Lobo and Pepita Subirà (Ed. McMillan - Heinemann). \n  </ul></li>\n</ul>",
+    "ca": "Paquet d'activitats de llengua anglesa per al 3r cicle de primària. L'objectiu és practicar la forma afirmativa del present continu de forma molt bàsica. \n<br> Es treballen els següents continguts: \n<ul> \n <li>Verbs: write, dance, play, laugh, swim, read, run, rain. </li>\n <li>Pronoms personals, 3a persona del singular i plural. </li>\n <li>Oracions en present continu amb els vuit verbs anteriors. </li>\n <li>Formes oral i escrita de les oracions i dels pronoms. </li>\n <li>Yes/No questions y Short answers. </li>\n</ul> En les activitats s'utilitzen materials del llibre \"Big Red Bus 3\", de Ma José Lobo i Pepita Subirà (Ed. McMillan - Heinemann).",
+    "es": "Paquete de actividades de inglés para el tercer ciclo de primaria. El objetivo es practicar la forma afirmativa del presente continuo de forma muy básica. \n<br> Se trabajan los siguientes contenidos: \n<ul> \n <li>Verbos write, dance, play, laugh, swim, read, run, rain. </li>\n <li>Pronombres personales. 3º persona singular y plural. </li>\n <li>Oraciones en presente continuo con los 8 verbos anteriores. </li>\n <li>Forma oral y escrita de las oraciones y los pronombres. </li>\n <li>Yes/No questions y Short answers. \n  <ul>\n    En las actividades se utilizan materiales del libro \"Big Red Bus 3\", de Ma. José Lobo y Pepita Subirà (Ed. McMillan - Heinemann). \n  </ul></li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/brb3.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/brb3.jclic.zip",
+  "instFile": "jclic/brb3.jclic.inst",
+  "clicZoneId": 1264,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1264",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/brb3/jclic/brb3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 53,
+  "mediaFiles": 39,
+  "totalSize": 1509277,
+  "files": [
+    "cover.gif",
+    "jclic.js/brb3.jclic",
+    "jclic.js/da.gif",
+    "jclic.js/da.wav",
+    "jclic.js/da2.gif",
+    "jclic.js/dasm.gif",
+    "jclic.js/fabul.gif",
+    "jclic.js/he.wav",
+    "jclic.js/it.wav",
+    "jclic.js/la.gif",
+    "jclic.js/la.wav",
+    "jclic.js/la2.gif",
+    "jclic.js/lasm.gif",
+    "jclic.js/mok.gif",
+    "jclic.js/mvic.gif",
+    "jclic.js/ovaroj.gif",
+    "jclic.js/pl.gif",
+    "jclic.js/pl.wav",
+    "jclic.js/pl2.gif",
+    "jclic.js/plsm.gif",
+    "jclic.js/qmsm.gif",
+    "jclic.js/ra.gif",
+    "jclic.js/ra.wav",
+    "jclic.js/rasm.gif",
+    "jclic.js/re.gif",
+    "jclic.js/re.wav",
+    "jclic.js/re2.gif",
+    "jclic.js/resm.gif",
+    "jclic.js/ru.gif",
+    "jclic.js/ru.wav",
+    "jclic.js/ru2.gif",
+    "jclic.js/rusm.gif",
+    "jclic.js/she.wav",
+    "jclic.js/sw.gif",
+    "jclic.js/sw.wav",
+    "jclic.js/sw2.gif",
+    "jclic.js/swsm.gif",
+    "jclic.js/they.wav",
+    "jclic.js/wr.gif",
+    "jclic.js/wr.wav",
+    "jclic.js/wrsm.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/brb3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

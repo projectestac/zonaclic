@@ -1,0 +1,139 @@
+{
+  "id": 185,
+  "title": "Formaciones vegetales del litoral mediterráneo",
+  "author": "Llanos Navalón Yeste",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "botànica, plantes",
+    "es": "botánica, plantas",
+    "en": "botany, plants"
+  },
+  "descCodes": [
+    59,
+    96
+  ],
+  "description": {
+    "en": "Package of activities about the plants and vegetal groups of the Mediterranean coast.",
+    "ca": "En aquest paquet d'activitats es treballen les formacions vegetals més importants del litoral mediterrani. Comença amb uns conceptes bàsics sobre la identificació de les plantes i es presenten les espècies pròpies dels dos hàbitats més freqüents a la mediterrània: zones rocoses i sorrals.",
+    "es": "En este paquete de actividades se trabajan las formaciones vegetales más importantes del litoral mediterráneo. Empieza con unos conceptos básicos sobre la identificación de las plantas y presenta a continuación las especies propias de los dos hábitats más frecuentes en el Mediterráneo: zonas rocosas y arenales."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/meditpla.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/meditpla.jclic.zip",
+  "instFile": "jclic/meditpla.jclic.inst",
+  "clicZoneId": 1093,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1093",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/meditpla/jclic/meditpla.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 49,
+  "mediaFiles": 60,
+  "totalSize": 1358532,
+  "files": [
+    "cover.gif",
+    "jclic.js/alcap.gif",
+    "jclic.js/alhel.gif",
+    "jclic.js/aspara.jpg",
+    "jclic.js/asparap.jpg",
+    "jclic.js/barro.gif",
+    "jclic.js/calys.jpg",
+    "jclic.js/calysp.jpg",
+    "jclic.js/card.gif",
+    "jclic.js/correhu.gif",
+    "jclic.js/cuern.gif",
+    "jclic.js/daucus.jpg",
+    "jclic.js/daucusp.jpg",
+    "jclic.js/dflor1.gif",
+    "jclic.js/dflor2.gif",
+    "jclic.js/dflors.gif",
+    "jclic.js/esparr.gif",
+    "jclic.js/espart.gif",
+    "jclic.js/espartp.jpg",
+    "jclic.js/falcapa.jpg",
+    "jclic.js/falcapp.jpg",
+    "jclic.js/fbarron.jpg",
+    "jclic.js/fbarrop.jpg",
+    "jclic.js/fcardo.jpg",
+    "jclic.js/fcardop.jpg",
+    "jclic.js/fcorrehp.jpg",
+    "jclic.js/fespart.jpg",
+    "jclic.js/fhinomap.jpg",
+    "jclic.js/fhinomar.jpg",
+    "jclic.js/flimoram.jpg",
+    "jclic.js/flimorap.jpg",
+    "jclic.js/flirio.jpg",
+    "jclic.js/fliriop.jpg",
+    "jclic.js/fmielcp.jpg",
+    "jclic.js/fmielga.jpg",
+    "jclic.js/fmielga2.jpg",
+    "jclic.js/fonver.jpg",
+    "jclic.js/frucam.gif",
+    "jclic.js/frucam2p.gif",
+    "jclic.js/gavina.wav",
+    "jclic.js/hinoj.gif",
+    "jclic.js/lechet.gif",
+    "jclic.js/lechetb.gif",
+    "jclic.js/limoni.gif",
+    "jclic.js/liri.gif",
+    "jclic.js/litor2.gif",
+    "jclic.js/lleterap.jpg",
+    "jclic.js/llettera.jpg",
+    "jclic.js/lotus.jpg",
+    "jclic.js/lotusp.jpg",
+    "jclic.js/matiolap.jpg",
+    "jclic.js/mattiola.jpg",
+    "jclic.js/mattiolap.gif",
+    "jclic.js/meditpla.jclic",
+    "jclic.js/mezcla.jpg",
+    "jclic.js/mielg.gif",
+    "jclic.js/pronto.gif",
+    "jclic.js/rucama.gif",
+    "jclic.js/unade.gif",
+    "jclic.js/unadeg.jpg",
+    "jclic.js/unadegp.jpg",
+    "jclic.js/zana.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/meditpla.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": 733,
+  "title": "Instrumentos de pequeña percusión",
+  "author": "Conchita Barraqueta Serrano",
+  "date": "29/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "instrument musical, oïda musical",
+    "es": "instrumento musical, oído musical",
+    "en": "musical instrument, musical ear"
+  },
+  "descCodes": [
+    724,
+    727
+  ],
+  "description": {
+    "en": "Clic activities for primary school about little instruments of percussion.",
+    "ca": "Aquest paquet d'activitats pretén apropar els nens i nenes de primer i segon cicle de primària als instruments de petita percussió que normalment tenim a l'aula.\n<br> Quan els instruments estiguin a l'aula, s'utilitzarà com una activitat de reforç ja que no hi ha res com la exploració i la manipulació per conèixer-los. Es comença realitzant activitats directes amb els instruments de l'aula, per passar a realitzar les activitats amb el Clic.\n<br> Hi haurà, però, escoles on per diverses causes no puguem comptar amb aquests instruments musicals. En aquest cas, aquest paquet d'activitats esdevé el camí perquè els nens i nenes de la classe els puguin conèixer.",
+    "es": "Este paquete de actividades pretende acercar a los niños/as de primer y segundo ciclo de Primaria a los instrumentos de pequeña percusión que normalmente tenemos en clase.\n<br> Cuando los instrumentos estén en clase, se usará como una actividad de apoyo, de refuerzo..., ya que no hay nada como la exploración y la manipulación para conocerlos. Se comenzará realizando actividades directas con los instrumentos de clase, para pasar a realizar las actividades con el Clic.\n<br> No obstante, habrá escuelas en las que por diferentes causas no podamos contar con estos instrumentos musicales, bien por encontrarse en mal estado, por no tener suficientes recursos... En este caso, este paquete de actividades adquiere un sentido propio, un valor en sí mismo y lo utilizaremos para que los niños/as los conozcan."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "musperga"
+  ],
+  "mainFile": "jclic.js/muspercu.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/muspercu.jclic.zip",
+  "instFile": "jclic/muspercu.jclic.inst",
+  "clicZoneId": 1384,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1384",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/muspercu/jclic/muspercu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 26,
+  "mediaFiles": 34,
+  "totalSize": 3541477,
+  "files": [
+    "cover.gif",
+    "jclic.js/bongoes.jpg",
+    "jclic.js/bongoes.wav",
+    "jclic.js/caja.wav",
+    "jclic.js/cajachi.jpg",
+    "jclic.js/cascabel.jpg",
+    "jclic.js/cascabel.wav",
+    "jclic.js/casta.jpg",
+    "jclic.js/casta.wav",
+    "jclic.js/cencerro.jpg",
+    "jclic.js/cencerro.wav",
+    "jclic.js/chinchin.jpg",
+    "jclic.js/chinchin.wav",
+    "jclic.js/claves.jpg",
+    "jclic.js/claves.wav",
+    "jclic.js/g_iro.jpg",
+    "jclic.js/g_iro.wav",
+    "jclic.js/madera.jpg",
+    "jclic.js/maracas.jpg",
+    "jclic.js/maracas.wav",
+    "jclic.js/metal.jpg",
+    "jclic.js/muspercu.jclic",
+    "jclic.js/pandere.jpg",
+    "jclic.js/pandere.wav",
+    "jclic.js/pandero.jpg",
+    "jclic.js/pandero.wav",
+    "jclic.js/percusi1.jpg",
+    "jclic.js/rascador.jpg",
+    "jclic.js/rascador.wav",
+    "jclic.js/sonajas.jpg",
+    "jclic.js/sonajas.wav",
+    "jclic.js/tambor.jpg",
+    "jclic.js/tambor.wav",
+    "jclic.js/tower.mid",
+    "jclic.js/tri_ngu.jpg",
+    "jclic.js/tri_ngu.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/muspercu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": 829,
+  "title": "Plantación de arroz en Cerro Largo, Uruguay",
+  "author": "Óscar Cabrera",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "agricultura, Uruguai",
+    "es": "agricultura, Uruguay",
+    "en": "agriculture, Uruguay"
+  },
+  "descCodes": [
+    154,
+    602
+  ],
+  "description": {
+    "en": "Clic activities about a rice plantation in Cerro Largo, Uruguay.",
+    "ca": "Paquet d'activitats sobre una plantació d'arròs a Cerro Largo, Uruguai. En les activitats es treballen les diferents fases del conreu de l'arròs, des que es llauren els camps fins que s'omplen els sils.",
+    "es": "Paquete de actividades sobre una plantación de arroz en Cerro Largo (Uruguay). En las actividades se trabajan las distintas fases del cultivo del arroz, desde el laboreo de la tierra hasta el ensilaje."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/arroz.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/arroz.jclic.zip",
+  "instFile": "jclic/arroz.jclic.inst",
+  "clicZoneId": 1462,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1462",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/arroz/jclic/arroz.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 29,
+  "mediaFiles": 25,
+  "totalSize": 704213,
+  "files": [
+    "cover.gif",
+    "jclic.js/arroz.jclic",
+    "jclic.js/arroz01.jpg",
+    "jclic.js/arroz02.jpg",
+    "jclic.js/arroz03.jpg",
+    "jclic.js/arroz1.jpg",
+    "jclic.js/arroz2.jpg",
+    "jclic.js/arroz3.jpg",
+    "jclic.js/arroz4.jpg",
+    "jclic.js/arroz5.jpg",
+    "jclic.js/arroz6.jpg",
+    "jclic.js/arroz7.jpg",
+    "jclic.js/arroza.jpg",
+    "jclic.js/camiones.jpg",
+    "jclic.js/cerrol.gif",
+    "jclic.js/clase1.jpg",
+    "jclic.js/clase2.jpg",
+    "jclic.js/dibujo.gif",
+    "jclic.js/genial.gif",
+    "jclic.js/granos.jpg",
+    "jclic.js/paises.gif",
+    "jclic.js/produc.gif",
+    "jclic.js/regiones.jpg",
+    "jclic.js/silos.jpg",
+    "jclic.js/taipa.jpg",
+    "jclic.js/trabaja.jpg",
+    "jclic.js/vi_eta7.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/arroz.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

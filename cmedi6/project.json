@@ -1,0 +1,83 @@
+{
+  "id": 1557,
+  "title": "Història de 6è de primària",
+  "author": "Joan Xamena Galmés",
+  "school": "Cooperativa d'Ensenyament \"Es Lledoner\" Felanitx - Mallorca (Balears)",
+  "date": "24/02/06",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "història, història contemporània",
+    "es": "historia, historia contemporánea",
+    "en": "history, contemporary history"
+  },
+  "descCodes": [
+    246,
+    248
+  ],
+  "description": {
+    "en": "Package of activities about History based on a book of Anaya publishing house. The package has activities about what is history, parts, Greece, Rome, Spain History, Europe...",
+    "ca": "Paquet d'activitats d'història basat en els continguts del llibre coneixement del medi social de l'editorial Anaya sobre què és la història, etapes de la història, Grècia, Roma, història d'Espanya, Europa...",
+    "es": "Paquete de actividades de historia basado en los contenidos del libro de conocimiento del medio social de la editorial Anaya sobre qué es la historia, etapas de la historia, Grecia, Roma, historia de España, Europa..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cmedi6.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cmedi6.jclic.zip",
+  "instFile": "jclic/cmedi6.jclic.inst",
+  "clicZoneId": 3281,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3281",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cmedi6/jclic/cmedi6.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 3,
+  "totalSize": 206823,
+  "files": [
+    "cover.gif",
+    "jclic.js/cmedi6.jclic",
+    "jclic.js/espanya.gif",
+    "jclic.js/europa.gif",
+    "jclic.js/portada.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cmedi6.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

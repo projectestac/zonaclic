@@ -1,0 +1,137 @@
+{
+  "id": 2005,
+  "title": "Animales invertebrados 2",
+  "author": "Nancy Salazar",
+  "school": "Colegio La Unión Pueblo Libre - Lima (Perú)",
+  "date": "20/11/09",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "invertebrats",
+    "es": "invertebrados",
+    "en": "invertebrates"
+  },
+  "descCodes": [
+    82
+  ],
+  "description": {
+    "en": "This activity is aimed at students of 1st or 2nd year of secondary education who are studying animals: \n<ul> \n <li>invertebrates </li>\n <li>definition </li>\n <li>features </li>\n <li>classification </li>\n <li>species recognition </li>\n</ul>",
+    "ca": "Aquesta activitat va adreçada a alumnat de 1r o 2n d'educació secundària que estiguin estudiant els animals: \n<ul> \n <li>invertebrados </li>\n <li>definición </li>\n <li>características </li>\n <li>clasificación </li>\n <li>reconocimiento de especies </li>\n</ul>",
+    "es": "Esta actividad va dirigida a alumnos de 1º o 2º año de educación secundaria que se encuentren estudiando a los animales: \n<ul> \n <li>invertebrados </li>\n <li>definición </li>\n <li>características </li>\n <li>clasificación </li>\n <li>reconocimiento de especies </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/inverte2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/inverte2.jclic.zip",
+  "instFile": "jclic/inverte2.jclic.inst",
+  "clicZoneId": 3583,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3583",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/inverte2/jclic/inverte2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 58,
+  "totalSize": 1176723,
+  "files": [
+    "cover.jpg",
+    "jclic.js/1.jpg",
+    "jclic.js/10.jpg",
+    "jclic.js/11.jpg",
+    "jclic.js/12.jpg",
+    "jclic.js/14.jpg",
+    "jclic.js/15.jpg",
+    "jclic.js/16.jpg",
+    "jclic.js/18.jpg",
+    "jclic.js/2.jpg",
+    "jclic.js/20.jpg",
+    "jclic.js/23.jpg",
+    "jclic.js/25.jpg",
+    "jclic.js/26.jpg",
+    "jclic.js/3.jpg",
+    "jclic.js/30.jpg",
+    "jclic.js/33.jpg",
+    "jclic.js/34.jpg",
+    "jclic.js/35.jpg",
+    "jclic.js/36.jpg",
+    "jclic.js/37.jpg",
+    "jclic.js/39.jpg",
+    "jclic.js/43.jpg",
+    "jclic.js/44.jpg",
+    "jclic.js/45.jpg",
+    "jclic.js/46.jpg",
+    "jclic.js/48.jpg",
+    "jclic.js/6.jpg",
+    "jclic.js/7.jpg",
+    "jclic.js/acaro.jpg",
+    "jclic.js/almejas.jpg",
+    "jclic.js/amarilo.gif",
+    "jclic.js/arana.jpg",
+    "jclic.js/cangrejo.jpg",
+    "jclic.js/caracol.jpg",
+    "jclic.js/cienpies.jpg",
+    "jclic.js/colores2.gif",
+    "jclic.js/coral.jpg",
+    "jclic.js/erizo1.jpg",
+    "jclic.js/escorpion.jpg",
+    "jclic.js/fotomariposa.jpg",
+    "jclic.js/gusano2.jpg",
+    "jclic.js/hidra.jpg",
+    "jclic.js/imagen1.jpg",
+    "jclic.js/imagen2.jpg",
+    "jclic.js/insecto8.gif",
+    "jclic.js/inverte2.jclic",
+    "jclic.js/leon.jpg",
+    "jclic.js/lombriz.jpg",
+    "jclic.js/mantis.jpg",
+    "jclic.js/milpies.jpg",
+    "jclic.js/moluscos.jpg",
+    "jclic.js/molusctx.gif",
+    "jclic.js/nematodos.jpg",
+    "jclic.js/polipo.jpg",
+    "jclic.js/rosa3.gif",
+    "jclic.js/taenia_lifecycle.gif",
+    "jclic.js/tri_ng_1.gif",
+    "jclic.js/verde2.gif",
+    "jclic.js/zapatero.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/inverte2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

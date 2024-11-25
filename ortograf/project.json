@@ -1,0 +1,110 @@
+{
+  "id": 1206,
+  "title": "Ortografía: Uso de la H, LL, Y",
+  "author": "Miriam Castillo Castillo",
+  "school": "Escuela Cardenal José María Caro Coquimbo (Xile)",
+  "date": "21/01/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "ortografia",
+    "es": "ortografía",
+    "en": "spelling"
+  },
+  "descCodes": [
+    146
+  ],
+  "description": {
+    "en": "Clic activities in Spanish language to learn the spelling of the following letters: \n<ul> \n <li>H </li>\n <li>LL </li>\n <li>Y </li>\n</ul>",
+    "ca": "Paquet d'activitats en llengua espanyola per treballar la ortografia de les següents lletres tot realitzant activitats d'associació, de text... \n<ul> \n <li>H </li>\n <li>LL </li>\n <li>Y </li>\n</ul>",
+    "es": "Paquete de actividades en lengua española para trabajar la ortografía de las siguientes letras a partir de la realización de actividades de asociación, de texto... \n<ul> \n <li>H </li>\n <li>LL </li>\n <li>Y </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ortograf.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ortograf.jclic.zip",
+  "instFile": "jclic/ortograf.jclic.inst",
+  "clicZoneId": 2920,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2920",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ortograf/jclic/ortograf.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 30,
+  "mediaFiles": 31,
+  "totalSize": 1144785,
+  "files": [
+    "cover.gif",
+    "jclic.js/ache.gif",
+    "jclic.js/anillo.gif",
+    "jclic.js/argolla.gif",
+    "jclic.js/caballo.gif",
+    "jclic.js/genial.wav",
+    "jclic.js/grande.wav",
+    "jclic.js/helado.gif",
+    "jclic.js/helecho.gif",
+    "jclic.js/helicop.gif",
+    "jclic.js/hipopot.gif",
+    "jclic.js/hoja.gif",
+    "jclic.js/hombre.gif",
+    "jclic.js/hormiga.gif",
+    "jclic.js/hotdog.gif",
+    "jclic.js/huevo.gif",
+    "jclic.js/joyas.gif",
+    "jclic.js/llave.gif",
+    "jclic.js/lluvia.gif",
+    "jclic.js/muybien.wav",
+    "jclic.js/ortograf.jclic",
+    "jclic.js/payaso.gif",
+    "jclic.js/perfec.wav",
+    "jclic.js/playa.gif",
+    "jclic.js/pollito.gif",
+    "jclic.js/silla.gif",
+    "jclic.js/talleres_genial.wav",
+    "jclic.js/talleres_tepasas.wav",
+    "jclic.js/tepasas.wav",
+    "jclic.js/y.gif",
+    "jclic.js/yate.gif",
+    "jclic.js/yema.gif",
+    "jclic.js/zapallo.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ortograf.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

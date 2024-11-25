@@ -1,0 +1,111 @@
+{
+  "id": 2033,
+  "title": "28 de febrero día de Andalucía",
+  "school": "Celegio San Rafael Córdoba (Andalucía)",
+  "date": "24/02/10",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "Andalusia",
+    "es": "Andalucía",
+    "en": "Andalusia"
+  },
+  "descCodes": [
+    461
+  ],
+  "description": {
+    "en": "Project of activities about Andalusia to be used in the day of the community, the 28th of February. The package has activities like puzzles, text, associations... about Andalusian community.",
+    "ca": "Pojecte d'activitats sobre la comunitat autònoma d'Andalusia pensat per a ser utilitzat en el dia de la comunitat, el 28 de febrer. El projecte consta de trencaclosques, activitats de text, associacions... sobre Anadusia.",
+    "es": "Proyecto de actividades sobre la comunidad autónoma de Andalucía pensado para ser utilizado en el día de la comunidad, el 28 de febrero. El proyecto consta de rompecabezas, actividades de texto, asociaciones... sobre Andalucía."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/diandal2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/diandal2.jclic.zip",
+  "instFile": "jclic/diandal2.jclic.inst",
+  "clicZoneId": 3603,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3603",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/diandal2/jclic/diandal2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 33,
+  "totalSize": 1436626,
+  "files": [
+    "cover.jpg",
+    "jclic.js/alcazaba_resized.jpg",
+    "jclic.js/alcazabaalmeria.jpg",
+    "jclic.js/alhambra_resized.jpg",
+    "jclic.js/andalucia_bandera.jpg",
+    "jclic.js/angeles_munoz.jpg",
+    "jclic.js/angelnormal.gif",
+    "jclic.js/banderaandalucia.jpg",
+    "jclic.js/calahorra_resized.jpg",
+    "jclic.js/calahorracordoba.jpg",
+    "jclic.js/caneroigualdad.jpg",
+    "jclic.js/carmengalan.jpg",
+    "jclic.js/castillo_santa_catalina_resized.jpg",
+    "jclic.js/cenachero.jpg",
+    "jclic.js/cenachero_resized.jpg",
+    "jclic.js/diandal2.jclic",
+    "jclic.js/francisca_diaz_torres.jpg",
+    "jclic.js/i01_andalucia_bandera.jpg",
+    "jclic.js/i01_banderaandalucia.jpg",
+    "jclic.js/i02_andalucia_bandera.jpg",
+    "jclic.js/i02_banderaandalucia.jpg",
+    "jclic.js/i03_andalucia_bandera.jpg",
+    "jclic.js/mayojusticia.jpg",
+    "jclic.js/monumento_colon_resized.jpg",
+    "jclic.js/monumetocolonhuelva.jpg",
+    "jclic.js/morenoeducacion.jpg",
+    "jclic.js/patioleonesgranada.jpg",
+    "jclic.js/puerta_tierra_resized.jpg",
+    "jclic.js/puertadetierracadiz.jpg",
+    "jclic.js/reyeseducacion.jpg",
+    "jclic.js/rosa_aguilar.jpg",
+    "jclic.js/santacatalinajaen.jpg",
+    "jclic.js/teofila.jpg",
+    "jclic.js/torre_del_oro_resized.jpg",
+    "jclic.js/torredelorosevilla.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/diandal2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

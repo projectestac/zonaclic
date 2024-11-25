@@ -1,0 +1,100 @@
+{
+  "id": 1530,
+  "title": "Actividades sobre El Quijote (Los molinos de viento)",
+  "author": "Mª. Carmen Jiménez, Mayte Mezcua i Reyes Aragón",
+  "date": "19/01/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "lectura, llengua castellana, literatura castellana",
+    "es": "lectura, lengua castellana, literatura castellana",
+    "en": "reading, Spanish language, Castilian Literature"
+  },
+  "descCodes": [
+    125,
+    132,
+    626
+  ],
+  "description": {
+    "en": "Two projects of activities about \n<i>Don Quixote</i>, the first one about Cervantes and its work. \n<br> The second one about the VIII chapter: Of the good fortune which the valiant don Quixote had in the terrible and undreamt-of adventure of the windmills, with other occurrences worthy to be fitly recorded.",
+    "ca": "Dos projectes d'activitats sobre \n<i>El Quijote</i>, el primer d'ells per introduir la figura de Cervantes i la seva gran obra. \n<br> El segon d'ells tracta en concret el capítol del molins de vent: \n<i>Del buen suceso que el valeroso don Quijote tuvo en la espantable y jamás imaginada aventura de los molinos de viento, con otros sucesos dignos de felice recordación.</i>",
+    "es": "Dos proyectos de actividades sobre \n<i>El Quijote</i>, el primero de ellos para introducir la figura de Cervantes y su gran obra.\n<br> El segundo de ellos trata en concreto del capítulo de los molinos de viento: \n<i>Del buen suceso que el valeroso don Quijote tuvo en la espantable y jamás imaginada aventura de los molinos de viento, con otros sucesos dignos de felice recordación.</i>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "quijote5"
+  ],
+  "mainFile": "jclic.js/molinos.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/molinos.jclic.zip",
+  "instFile": "jclic/molinos.jclic.inst",
+  "clicZoneId": 3257,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3257",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/molinos/jclic/molinos.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 17,
+  "totalSize": 1362924,
+  "files": [
+    "cover.jpg",
+    "jclic.js/en_negrita.jpg",
+    "jclic.js/eres_genial.wav",
+    "jclic.js/explorar000.jpg",
+    "jclic.js/fantastico.wav",
+    "jclic.js/fondo.jpg",
+    "jclic.js/laida2.jpg",
+    "jclic.js/lohashecho.wav",
+    "jclic.js/molino22bis.jpg",
+    "jclic.js/molino4.jpg",
+    "jclic.js/molinos.jclic",
+    "jclic.js/molinos10.jpg",
+    "jclic.js/molinos55.jpg",
+    "jclic.js/molinos8.jpg",
+    "jclic.js/molinos9bis.jpg",
+    "jclic.js/molinoscas.jpg",
+    "jclic.js/molinosnuevobis1.jpg",
+    "jclic.js/muybien.wav",
+    "jclic.js/nuevomolinos2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/molinos.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

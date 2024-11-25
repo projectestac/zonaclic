@@ -1,0 +1,93 @@
+{
+  "id": 455,
+  "title": "Sinónimos y antónimos",
+  "author": "Rafael Rodríguez Martín",
+  "school": "CP Alejandro Rubio Guadalix de la Sierra (Madrid)",
+  "date": "23/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, sinònims, antònims",
+    "es": "lengua castellana, sinónimos, antónimos",
+    "en": "Spanish language, sinonyms, antonyms"
+  },
+  "descCodes": [
+    132,
+    892,
+    893
+  ],
+  "description": {
+    "en": "Clic activities about Spanish language destined to learn synonymous and antonyms.",
+    "ca": "Paquet d'activitats que es divideix en 5 seccions on es treballa a cadascuna d'elles paraules i els seus antònims.",
+    "es": "Paquete de actividades que se divide en 5 secciones donde se trabaja en cada una de ellas palabras y sus sinónimos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/antosino.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/antosino.jclic.zip",
+  "instFile": "jclic/antosino.jclic.inst",
+  "clicZoneId": 1278,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1278",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/antosino/jclic/antosino.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 12,
+  "totalSize": 1166599,
+  "files": [
+    "cover.gif",
+    "jclic.js/aleluya.wav",
+    "jclic.js/antosino.jclic",
+    "jclic.js/aplauso2.wav",
+    "jclic.js/bravo.wav",
+    "jclic.js/muybien.gif",
+    "jclic.js/pajaro.gif",
+    "jclic.js/perro.wav",
+    "jclic.js/portada.gif",
+    "jclic.js/raton.gif",
+    "jclic.js/risita.wav",
+    "jclic.js/tambor.wav",
+    "jclic.js/trompet.wav",
+    "jclic.js/vaca.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/antosino.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

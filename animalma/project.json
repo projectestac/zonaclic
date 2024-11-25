@@ -1,0 +1,102 @@
+{
+  "id": 305,
+  "title": "Lectura comprensiva: Animalmania",
+  "author": "David Beltrán Dumont i M. Núria Torrents Gallés",
+  "school": "Escola Baró de Viver Barcelona",
+  "date": "16/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "zoologia, comprensió escrita, llengua catalana",
+    "es": "zoología, comprensión escrita, lengua catalana",
+    "en": "zoology, written understanding, Catalan language"
+  },
+  "descCodes": [
+    108,
+    111,
+    133
+  ],
+  "description": {
+    "en": "Reading comprehension activities that centre on the world of animals.",
+    "ca": "Activitats de lectura comprensiva que prenen com a centre d'interès el món dels animals.\n<p> Funciona amb la versió 3.0 del Clic i incorpora una animació en format Vídeo for Windows (AVI). </p>",
+    "es": "Actividades de lectura comprensiva que toman el mundo de los animales como centro de interés.\n<p> Funciona con la versión 3.0 de Clic e incorpora una animación en formato Vídeo for Windows (AVI). </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "animaleu",
+    "espanima"
+  ],
+  "mainFile": "jclic.js/animalma.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/animalma.jclic.zip",
+  "instFile": "jclic/animalma.jclic.inst",
+  "clicZoneId": 1163,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1163",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/animalma/jclic/animalma.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 17,
+  "totalSize": 2976283,
+  "files": [
+    "cover.jpg",
+    "jclic.js/animalma.jclic",
+    "jclic.js/aplaudim.wav",
+    "jclic.js/cargol3.jpg",
+    "jclic.js/elefant.wav",
+    "jclic.js/granota.wav",
+    "jclic.js/grill.wav",
+    "jclic.js/hola1.avi",
+    "jclic.js/lle_.wav",
+    "jclic.js/llop.wav",
+    "jclic.js/mico.wav",
+    "jclic.js/mussol1.wav",
+    "jclic.js/nfinal.gif",
+    "jclic.js/panda11.jpg",
+    "jclic.js/papall1.jpg",
+    "jclic.js/pintada.wav",
+    "jclic.js/ruc.wav",
+    "jclic.js/t1.gif",
+    "jclic.js/tapa.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/animalma.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": 834,
+  "title": "Besalú",
+  "author": "Jesús Batlle Auguet",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la història de l'art",
+    "es": "aprendizaje de la historia del arte",
+    "en": "learning of the history of the art"
+  },
+  "descCodes": [
+    1
+  ],
+  "description": {
+    "en": "Clic activities package from the town of Basalú (Catalonia). It contains Breslaú's origins, tradition, history and mainly its historical monument, art, churches, monasteries...",
+    "ca": "Paquet d'activitats sobre la localitat de Besalú, a la comarca de la Garrotxa. S'hi treballen els seus orígens, costums i història, fent especial esment als seus monuments medievals: la plaça de la Llibertat, l'església de Sant Vicenç, l'església de Sant Pere, l'hospital de Sant Julià, l'església de Santa Maria, la casa Cornellà, el barri jueu i el pont vell.\n<br> Amb el paquet d'activitats s'inclou una guia didàctica en format PDF.",
+    "es": "Paquete de actividades sobre la localidad de Besalú, en la provincia de Girona.\n<br> En él se trabajan sus orígenes, costumbres e historia, dedicando especial atención a sus monumentos medievales: la plaza de la Llibertat, la iglesia de Sant Vicenç, la iglesia de Sant Pere, el hospital de Sant Julià, la iglesia de Santa Maria, la casa Cornellà, el barrio judío y el pont vell.\n<br> El paquete contiene también una guía didáctica en formato PDF."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/besalu.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/besalu.jclic.zip",
+  "instFile": "jclic/besalu.jclic.inst",
+  "clicZoneId": 1466,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1466",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/besalu/jclic/besalu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 32,
+  "totalSize": 1054629,
+  "files": [
+    "cover.gif",
+    "jclic.js/besalu.doc",
+    "jclic.js/besalu.jclic",
+    "jclic.js/besalu.pdf",
+    "jclic.js/besalu_1.jpg",
+    "jclic.js/capite_1.jpg",
+    "jclic.js/comarq_1.jpg",
+    "jclic.js/dibupont.jpg",
+    "jclic.js/escut.jpg",
+    "jclic.js/intersp.jpg",
+    "jclic.js/intersv.jpg",
+    "jclic.js/llaudes.jpg",
+    "jclic.js/llaudes1.jpg",
+    "jclic.js/lleons.jpg",
+    "jclic.js/lleons1.jpg",
+    "jclic.js/lletga_1.jpg",
+    "jclic.js/logo2.jpg",
+    "jclic.js/mapsitu.jpg",
+    "jclic.js/mikwe.jpg",
+    "jclic.js/nombes.jpg",
+    "jclic.js/planol1.jpg",
+    "jclic.js/planol2.jpg",
+    "jclic.js/planta_1.jpg",
+    "jclic.js/plantasv.jpg",
+    "jclic.js/pont.jpg",
+    "jclic.js/pont1.jpg",
+    "jclic.js/pont2.jpg",
+    "jclic.js/sjulia.jpg",
+    "jclic.js/smaria.jpg",
+    "jclic.js/smaria1.jpg",
+    "jclic.js/smaria2.jpg",
+    "jclic.js/spere.jpg",
+    "jclic.js/spere1.jpg",
+    "jclic.js/svicen_.jpg",
+    "jclic.js/svicen_1.jpg",
+    "jclic.js/svicen_2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/besalu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

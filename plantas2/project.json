@@ -1,0 +1,92 @@
+{
+  "id": 1410,
+  "title": "Las plantas",
+  "author": "Francisco García-Pozuelo Díaz i Juana Rello Serrano",
+  "school": "CP Luis Vives Alcalá de Henares (Madrid)",
+  "date": "14/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "plantes",
+    "es": "plantas",
+    "en": "plants"
+  },
+  "descCodes": [
+    96
+  ],
+  "description": {
+    "en": "Clic activities addressed to primary school about plants and its parts.",
+    "ca": "Paquet d'activitats adreçat a 3r de primària sobre les plantes, les seves parts, tipus de plantes, com creixen...",
+    "es": "Paquete de actividades dirigido a 3º de primaria sobre las plantas, sus partes, tipos de plantas, como crecen..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/plantas2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/plantas2.jclic.zip",
+  "instFile": "jclic/plantas2.jclic.inst",
+  "clicZoneId": 3146,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3146",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/plantas2/jclic/plantas2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 13,
+  "totalSize": 764976,
+  "files": [
+    "cover.jpg",
+    "jclic.js/brezo01.gif",
+    "jclic.js/chopo.gif",
+    "jclic.js/flor02.gif",
+    "jclic.js/flor04.gif",
+    "jclic.js/flores02.gif",
+    "jclic.js/hoja05.gif",
+    "jclic.js/judia01.gif",
+    "jclic.js/judia02.gif",
+    "jclic.js/maceta00.gif",
+    "jclic.js/melon01.gif",
+    "jclic.js/plantas2.jclic",
+    "jclic.js/raiz01.gif",
+    "jclic.js/tocon01.gif",
+    "jclic.js/trigo01.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/plantas2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

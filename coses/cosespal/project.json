@@ -1,0 +1,128 @@
+{
+  "id": 209,
+  "title": "Coses de classe (català - lletra de pal)",
+  "author": "Joan A. Sánchez Valero i Ma. Lourdes Tolo Pallarés",
+  "school": "Escola Germans Amat i Targa Viladecans (Baix Llobregat), Escola Pompeu Fabra Vallirana (Baix Llobregat)",
+  "date": "12/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "lectura, lèxic, llengua catalana, vocabulari, lectoescriptura, llengua gallega, llengua basca",
+    "es": "lectura, léxico, lengua catalana, vocabulario, lectoescritura, lengua gallega, lengua vasca",
+    "en": "reading, lexicon, Catalan language, vocabulary, reading and writting skills, Galician language, Basque language"
+  },
+  "descCodes": [
+    125,
+    126,
+    133,
+    150,
+    920,
+    921,
+    922
+  ],
+  "description": {
+    "en": "Activity pack for parbulary and elementary school children in which classroom objects are spotlighted.",
+    "ca": "Activitats adreçades a educació infantil i cicle inicial de primària, que prenen com a centre d'interès els objectes que normalment es troben a la classe. \n<br> Hi ha dues versions, una de lletra lligada i una de lletra de pal.",
+    "es": "Actividades dirigidas a educación infantil y ciclo inicial de primaria que toman como centro de interés los objetos que normalmente se encuentran en la clase."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "coses/cosesllig",
+    "cousas/cousasll",
+    "cousas/cousasp",
+    "ikasgauz"
+  ],
+  "mainFile": "jclic.js/cosespal.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cosespal.jclic.zip",
+  "instFile": "jclic/cosespal.jclic.inst",
+  "clicZoneId": 1108,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1108",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/coses/jclic/cosespal.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 35,
+  "totalSize": 1514510,
+  "files": [
+    "cover.gif",
+    "jclic.js/adiosa.wav",
+    "jclic.js/borrado2.gif",
+    "jclic.js/borrador.wav",
+    "jclic.js/carpe2a.gif",
+    "jclic.js/carpeta.wav",
+    "jclic.js/colo.wav",
+    "jclic.js/color.gif",
+    "jclic.js/cosasc.wav",
+    "jclic.js/coses.pdf",
+    "jclic.js/cosespal.jclic",
+    "jclic.js/estuch2.gif",
+    "jclic.js/estuche.wav",
+    "jclic.js/frpint.wav",
+    "jclic.js/frsac.wav",
+    "jclic.js/frtij.wav",
+    "jclic.js/lib2ro.gif",
+    "jclic.js/libret3.gif",
+    "jclic.js/libreta.wav",
+    "jclic.js/libro.wav",
+    "jclic.js/maqui2.gif",
+    "jclic.js/maqui4.gif",
+    "jclic.js/mb.wav",
+    "jclic.js/mes2.gif",
+    "jclic.js/mesa.wav",
+    "jclic.js/pince2.gif",
+    "jclic.js/pincel.wav",
+    "jclic.js/pintur3.gif",
+    "jclic.js/pintura.gif",
+    "jclic.js/pintura.wav",
+    "jclic.js/pizarra.gif",
+    "jclic.js/pizarra.wav",
+    "jclic.js/portad2.gif",
+    "jclic.js/portad3.gif",
+    "jclic.js/sacapu.wav",
+    "jclic.js/tijera3.gif",
+    "jclic.js/tijeras.gif",
+    "jclic.js/tijeras.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cosespal.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

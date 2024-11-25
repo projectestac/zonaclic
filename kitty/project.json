@@ -1,0 +1,113 @@
+{
+  "id": 947,
+  "title": "Unit 5: Kitty the kangaroo",
+  "author": "Francisco Esteve Herrero",
+  "school": "CP El Paseo Caudete (Albacete)",
+  "date": "16/12/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "ca": "Llengües",
+    "es": "Lenguas",
+    "en": "Languages"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, vocabulari, llengua anglesa, vocabulari",
+    "es": "lengua inglesa, vocabulario, lengua inglesa, vocabulario",
+    "en": "English language, vocabulary, English language, vocabulary"
+  },
+  "descCodes": [
+    130,
+    150,
+    667,
+    673
+  ],
+  "description": {
+    "en": "Package of activities used to remind the vocabulary of the unit 5 \"Kitty the Kangaroo\", from the book Minibus 1. The drawings are from the book Minibus 1 Heinemann editor, and the sounds are from the interactive dictionary Oxford.",
+    "ca": "Paquet d'activitats que serveix de repàs del vocabulari de la unitat 5, \"Kitty the Kangaroo\", del llibre Minibus 1. Els dibuixos son del llibre Minibus 1 Editorial Heinemann, i els sons del diccionari interactiu Oxford.",
+    "es": "Paquete de actividades que sirve de repaso del vocabulario de la unidad 5, \"Kitty the kangaroo\", del libro Minibus 1. Los dibujos son del libro Minibus 1 Editorial Heinemann y los sonidos del diccionario interactivo Oxford."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/kitty.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/kitty.jclic.zip",
+  "instFile": "jclic/kitty.jclic.inst",
+  "clicZoneId": 2049,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2049",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/kitty/jclic/kitty.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 38,
+  "mediaFiles": 31,
+  "totalSize": 814927,
+  "files": [
+    "cover.gif",
+    "jclic.js/apple.jpg",
+    "jclic.js/apple.wav",
+    "jclic.js/appleb.jpg",
+    "jclic.js/banag.jpg",
+    "jclic.js/banana.jpg",
+    "jclic.js/banana.wav",
+    "jclic.js/book.jpg",
+    "jclic.js/book.wav",
+    "jclic.js/bookb.jpg",
+    "jclic.js/colegio.jpg",
+    "jclic.js/f.jpg",
+    "jclic.js/kitty.jclic",
+    "jclic.js/lemon.jpg",
+    "jclic.js/lemon.wav",
+    "jclic.js/lemonb.jpg",
+    "jclic.js/orange.jpg",
+    "jclic.js/orange.wav",
+    "jclic.js/orangeb.jpg",
+    "jclic.js/pear.jpg",
+    "jclic.js/pear.wav",
+    "jclic.js/pearb.jpg",
+    "jclic.js/pen.jpg",
+    "jclic.js/pen.wav",
+    "jclic.js/penb.jpg",
+    "jclic.js/pencil.jpg",
+    "jclic.js/pencil.wav",
+    "jclic.js/pencilb.jpg",
+    "jclic.js/schb.jpg",
+    "jclic.js/school.wav",
+    "jclic.js/schoolba.jpg",
+    "jclic.js/schoolbag.jpg",
+    "jclic.js/u5.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/kitty.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

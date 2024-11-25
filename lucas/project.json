@@ -1,0 +1,123 @@
+{
+  "id": 1480,
+  "title": "Lucas",
+  "author": "Bernardita Muñoz Chereau",
+  "date": "13/10/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua castellana",
+    "es": "aprendizaje de la lengua, lengua castellana",
+    "en": "learning of the language, Spanish language"
+  },
+  "descCodes": [
+    110,
+    132
+  ],
+  "description": {
+    "en": "Clic activities about language: \n<ol> \n <li>Reading a tale </li>\n <li>Let's us demonstrate the learned thing </li>\n <li>Let's us reinforce our writing </li>\n <li>Let's us listen with attention </li>\n</ol>",
+    "ca": "Paquet d'activitats per a l'aprenentatge de la llengua que consta de 4 parts: \n<ol> \n <li>Llegim un conte </li>\n <li>Demostrem el que hem après </li>\n <li>Reforcem la nostra escriptura </li>\n <li>Escoltem amb atenció </li>\n</ol>",
+    "es": "Paquete de actividades para el aprendizaje de la lengua que consta de 4 partes: \n<ol> \n <li>Leamos un cuento </li>\n <li>Demostremos lo aprendido </li>\n <li>Reforcemos nuestra escritura </li>\n <li>Escuchemos con atención </li>\n</ol>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/lucas.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/lucas.jclic.zip",
+  "instFile": "jclic/lucas.jclic.inst",
+  "clicZoneId": 3192,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3192",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/lucas/jclic/lucas.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 43,
+  "mediaFiles": 36,
+  "totalSize": 2563542,
+  "files": [
+    "cover.jpg",
+    "jclic.js/lucas.jclic",
+    "jclic.js/lucompr/lucompr.jclic",
+    "jclic.js/lucompr/pajaro1.gif",
+    "jclic.js/lucompr/pajaro10.gif",
+    "jclic.js/lucompr/pajaro2.gif",
+    "jclic.js/lucompr/pajaro3.gif",
+    "jclic.js/lucompr/pajaro4.gif",
+    "jclic.js/lucompr/pajaro5.gif",
+    "jclic.js/lucompr/pajaro6.gif",
+    "jclic.js/lucompr/pajaro7.gif",
+    "jclic.js/lucompr/pajaro8.gif",
+    "jclic.js/lucompr/pregu1.gif",
+    "jclic.js/lucprodu/lucprodu.jclic",
+    "jclic.js/lucprodu/pajaro10.gif",
+    "jclic.js/lucprodu/pajaro3.gif",
+    "jclic.js/lucprodu/pajaro4.gif",
+    "jclic.js/lucprodu/pajaro5.gif",
+    "jclic.js/lucprodu/pajaro6.gif",
+    "jclic.js/lucprodu/pajaro7.gif",
+    "jclic.js/lucprodu/pajaro9.gif",
+    "jclic.js/lucuento/lucuento.jclic",
+    "jclic.js/lucuento/pajaro1.gif",
+    "jclic.js/lucuento/pajaro10.gif",
+    "jclic.js/lucuento/pajaro2.gif",
+    "jclic.js/lucuento/pajaro3.gif",
+    "jclic.js/lucuento/pajaro4.gif",
+    "jclic.js/lucuento/pajaro5.gif",
+    "jclic.js/lucuento/pajaro6.gif",
+    "jclic.js/lucuento/pajaro7.gif",
+    "jclic.js/lucuento/pajaro8.gif",
+    "jclic.js/lucuento/pajaro9.gif",
+    "jclic.js/luescu/ave1.wav",
+    "jclic.js/luescu/ave2.wav",
+    "jclic.js/luescu/ave3.wav",
+    "jclic.js/luescu/foca.wav",
+    "jclic.js/luescu/gato.wav",
+    "jclic.js/luescu/luescu.jclic",
+    "jclic.js/luescu/oveja.wav",
+    "jclic.js/luescu/pajaro10.gif",
+    "jclic.js/luescu/vaca.wav",
+    "jclic.js/pajaro10.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/lucas.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/lucompr/lucompr.jclic.js",
+    "jclic.js/lucprodu/lucprodu.jclic.js",
+    "jclic.js/lucuento/lucuento.jclic.js",
+    "jclic.js/luescu/luescu.jclic.js",
+    "cover.webp"
+  ]
+}

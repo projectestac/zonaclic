@@ -1,0 +1,120 @@
+{
+  "id": 55,
+  "title": "Coneixement del Medi",
+  "author": "Salvador Martinez i Boscà",
+  "school": "CP Beata Agnés Benigànim (La Vall d'Albaida)",
+  "date": "08/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Social sciences, Languages",
+    "ca": "Ciències experimentals, Ciències socials, Llengües",
+    "es": "Ciencias experimentales, Ciencias sociales, Lenguas"
+  },
+  "areaCodes": [
+    "exp",
+    "soc",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "medi ambient, societat, llengua anglesa",
+    "es": "medio ambiente, sociedad, lengua inglesa",
+    "en": "environment, society, English language"
+  },
+  "descCodes": [
+    87,
+    344,
+    667
+  ],
+  "description": {
+    "en": "Activity pack that deals with getting to know the social and natural medium in which we live. It also works on English as a second language for elementary school children. The main themes of this pack are: The cell, prehistory, English, the universe and living healthy.",
+    "ca": "Paquet d'activitats Clic de coneixement del medi social i natural i llengua estrangera (anglès), adreçades al tercer cicle de primària. Les activitats estan dividides en sis paquets que tracten temes diferents: la cèl·lula, la prehistòria, anglès, l'univers i viure en salut.",
+    "es": "Paquete de actividades de Clic sobre el conocimiento del medio social y natural y lengua extranjera (inglés), dirigidas al tercer ciclo de primaria. Las actividades están divididas en seis paquetes que tratan diferentes temas como: La célula, la prehistoria, el inglés, el universo y vivir en salud."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/coneixem.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/coneixem.jclic.zip",
+  "instFile": "jclic/coneixem.jclic.inst",
+  "clicZoneId": 1021,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1021",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/coneixem/jclic/coneixem.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 68,
+  "mediaFiles": 37,
+  "totalSize": 1343001,
+  "files": [
+    "cover.gif",
+    "jclic.js/camp.mid",
+    "jclic.js/cantabri.gif",
+    "jclic.js/celula1.gif",
+    "jclic.js/celula2.gif",
+    "jclic.js/celula3.gif",
+    "jclic.js/coneixem.jclic",
+    "jclic.js/cos_va.gif",
+    "jclic.js/finish1.jpg",
+    "jclic.js/globus52.gif",
+    "jclic.js/globus53.gif",
+    "jclic.js/globus62.gif",
+    "jclic.js/globus63.gif",
+    "jclic.js/levantin.gif",
+    "jclic.js/love1.jpg",
+    "jclic.js/medi2.gif",
+    "jclic.js/medi3.gif",
+    "jclic.js/musculs1.gif",
+    "jclic.js/neoli.gif",
+    "jclic.js/ossos1.gif",
+    "jclic.js/paleo.jpg",
+    "jclic.js/phone1.jpg",
+    "jclic.js/prehis1.gif",
+    "jclic.js/prehis2.gif",
+    "jclic.js/start.jpg",
+    "jclic.js/stonhng.gif",
+    "jclic.js/study.gif",
+    "jclic.js/temas5c.gif",
+    "jclic.js/temas5v.gif",
+    "jclic.js/temas6c.gif",
+    "jclic.js/temas6v.gif",
+    "jclic.js/uni1.jpg",
+    "jclic.js/univ1_2.jpg",
+    "jclic.js/univ2_2.jpg",
+    "jclic.js/univ3_3.jpg",
+    "jclic.js/univ4_2.gif",
+    "jclic.js/visit.jpg",
+    "jclic.js/visit1.jpg",
+    "jclic.js/war2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/coneixem.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

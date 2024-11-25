@@ -1,0 +1,100 @@
+{
+  "id": 2586,
+  "title": "El nostre riu somriu",
+  "author": "Esther Molés",
+  "school": "Escola Pompeu Fabra (Vilanova del Camí)",
+  "date": "17/03/19",
+  "langCodes": [
+    "ca"
+  ],
+  "languages": {
+    "es": "catalán",
+    "ca": "català",
+    "en": "Catalan"
+  },
+  "areaCodes": [
+    "exp",
+    "div"
+  ],
+  "areas": {
+    "es": "Ciencias experimentales, Diversos",
+    "ca": "Ciències experimentals, Diversos",
+    "en": "Experimental sciences, Miscellaneous"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "levels": {
+    "es": "Infantil (3-6), Primaria (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "en": "Kindergarten (3-6), Primary school (6-12)"
+  },
+  "description": {
+    "es": "Pequeño JClic para aprender cuestiones básicas sobre el río Anoia. encontraréis actividades memory, puzzles y de información.",
+    "ca": "Petit JClic per aprendre qüestions bàsiques sobre el riu Anoia. Hi trobareu activitats memory, puzles i d'informació. ",
+    "en": "Small JClic to learn basic questions about the Anoia River. You will find memory, puzzles and information activities."
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "es",
+    "ca",
+    "en"
+  ],
+  "cover": "portada.jpg",
+  "coverWebp": "portada.webp",
+  "thumbnail": "portada100.jpg",
+  "mainFile": "jclic.js/somriu.jclic",
+  "activities": 22,
+  "mediaFiles": 35,
+  "totalSize": 1971179,
+  "instFile": "jclic/somriu.jclic.inst",
+  "zipFile": "jclic/somriu.jclic.zip",
+  "files": [
+    "jclic.js/87564363-peces-muertos-en-el-lago-contaminacion-por-estanque-de-productos-quimicos-resized.jpg",
+    "jclic.js/anec.jpg",
+    "jclic.js/blauet-resized.jpg",
+    "jclic.js/canada-2243443_960_720-resized.jpg",
+    "jclic.js/cranc_america-resized.jpg",
+    "jclic.js/el-riu-anoia-2-728.jpg",
+    "jclic.js/fauna__2_-resized.jpg",
+    "jclic.js/favicon.ico",
+    "jclic.js/fotos_jclic_riu_anoia_bernat_pescaire.jpg",
+    "jclic.js/granota_verda.jpg",
+    "jclic.js/gripau.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/llobregat.jpg",
+    "jclic.js/logo-resized.jpg",
+    "jclic.js/logo_infantil-resized1.jpg",
+    "jclic.js/mallerengacuallarga01.jpg",
+    "jclic.js/merla.jpg",
+    "jclic.js/mosquiter_comu-resized.jpg",
+    "jclic.js/musaranya_comuna.jpg",
+    "jclic.js/mussol.jpg",
+    "jclic.js/papallones.jpg",
+    "jclic.js/polla_d_aigua.jpg",
+    "jclic.js/riu2-resized.jpg",
+    "jclic.js/riu_anoia3-resized.jpg",
+    "jclic.js/riu_ebre.jpg",
+    "jclic.js/riuanoia.jpg",
+    "jclic.js/sany2776-resized.jpg",
+    "jclic.js/somriu.jclic",
+    "jclic.js/somriu.jclic.js",
+    "jclic.js/talpo_comu.jpg",
+    "jclic.js/tortuga_de_florida.jpg",
+    "jclic.js/tortuga_rierol.jpg",
+    "jclic.js/viso-america.jpg",
+    "jclic.js/xivita-resized.jpg",
+    "portada.jpg",
+    "portada100.jpg",
+    "project.json",
+    "portada.webp"
+  ]
+}

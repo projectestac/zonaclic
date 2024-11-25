@@ -1,0 +1,96 @@
+{
+  "id": 859,
+  "title": "Els llops de mar",
+  "author": "Josep Planas i Gamundi",
+  "school": "Escola Silvestre Santaló Salt (Gironès)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "vocabulari, mitjans marítims",
+    "es": "vocabulario, medios marítimos",
+    "en": "vocabulary, sea ways"
+  },
+  "descCodes": [
+    150,
+    801
+  ],
+  "description": {
+    "en": "Package of activities destined to learn vocabulary related to the sea and the boats. It contains text activities, association, soups of letters and puzzle.",
+    "ca": "Paquet d'activitats que treballa l'adquisició de vocabulari senzill relacionat amb temes de la mar i dels vaixells. Conté activitats de text, associació, sopes de lletres i trencaclosques.",
+    "es": "Paquete de actividades que trabaja la adquisición de vocabulario relacionado con temas del mar y de los barcos. Contiene actividades de texto, asociación, sopas de letras y rompecabezas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/llopsmar.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/llopsmar.jclic.zip",
+  "instFile": "jclic/llopsmar.jclic.inst",
+  "clicZoneId": 1487,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1487",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/llopsmar/jclic/llopsmar.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 16,
+  "totalSize": 750891,
+  "files": [
+    "cover.gif",
+    "jclic.js/barna.jpg",
+    "jclic.js/berganti.jpg",
+    "jclic.js/carrega.jpg",
+    "jclic.js/corbeta.jpg",
+    "jclic.js/creuer.jpg",
+    "jclic.js/faina.jpg",
+    "jclic.js/final.jpg",
+    "jclic.js/fonsmar.jpg",
+    "jclic.js/galeon.jpg",
+    "jclic.js/llopsmar.jclic",
+    "jclic.js/mollviu2.jpg",
+    "jclic.js/popa.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/portavi2.jpg",
+    "jclic.js/trencage.jpg",
+    "jclic.js/unicorn.jpg",
+    "jclic.js/vapor.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/llopsmar.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

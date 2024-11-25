@@ -1,0 +1,108 @@
+{
+  "id": 2171,
+  "title": "Matemáticas 1º de primaria II",
+  "author": "Juan Antonio Punzano Sirvent",
+  "date": "02/08/11",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "càlcul",
+    "es": "cálculo",
+    "en": "calculation"
+  },
+  "descCodes": [
+    702
+  ],
+  "description": {
+    "en": "Project of activities about Maths addressed to first course of primary education. Throughout the project we find activities of addition, subtraction and problem-solving. The project is divided into two parts: \n<ul> \n <li>Review </li>\n <li>Activities </li>\n</ul>",
+    "ca": "Projecte d'activitats adreçat a primer d'educació primària sobre sumes i restes amb desenes. Al llarg del projecte es troben activitats de sumes, restes i resolució de problemes senzills. El projecte consta de dues parts: \n<ul> \n <li>Repàs </li>\n <li>Activitats </li>\n</ul>",
+    "es": "Proyecto de actividades dirigidas a primero de educación primaria sobre sumas y restas con decenas. A lo largo del proyecto encontramos actividades de sumas, restas y resolución de problemas. El proyecto está dividido en dos partes: \n<ul> \n <li>Repaso </li>\n <li>Actividades </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/mates1p.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mates1p.jclic.zip",
+  "instFile": "jclic/mates1p.jclic.inst",
+  "clicZoneId": 3707,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3707",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/mates1p/jclic/mates1p.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 30,
+  "totalSize": 2282184,
+  "files": [
+    "cover.png",
+    "jclic.js/husky_10___foto_carnet2.jpg",
+    "jclic.js/mates1p.jclic",
+    "jclic.js/punzanosirvent_100.jpg",
+    "jclic.js/punzanosirvent_actividades_portada2_resized.jpg",
+    "jclic.js/punzanosirvent_aprendematematicas_husky_resized.jpg",
+    "jclic.js/punzanosirvent_aprendematematicas_ralf_resized.jpg",
+    "jclic.js/punzanosirvent_fin_proyecto_resized.jpg",
+    "jclic.js/punzanosirvent_husky1.jpg",
+    "jclic.js/punzanosirvent_husky_gorro.jpg",
+    "jclic.js/punzanosirvent_lecciones_anteriorposterior2_resized.jpg",
+    "jclic.js/punzanosirvent_lecciones_anteriorposterior_resized.jpg",
+    "jclic.js/punzanosirvent_lecciones_ayermananahoy2_resized.jpg",
+    "jclic.js/punzanosirvent_lecciones_ayermananahoy_resized.jpg",
+    "jclic.js/punzanosirvent_lecciones_diassemana2_resized.jpg",
+    "jclic.js/punzanosirvent_lecciones_diassemana_resized.jpg",
+    "jclic.js/punzanosirvent_lecciones_meses_resized.jpg",
+    "jclic.js/punzanosirvent_lecciones_repaso_resized.jpg",
+    "jclic.js/punzanosirvent_lecciones_restas_resized.jpg",
+    "jclic.js/punzanosirvent_lecciones_sumas1_resized1.jpg",
+    "jclic.js/punzanosirvent_lecciones_sumas2_resized.jpg",
+    "jclic.js/punzanosirvent_lecciones_sumas3_resized.jpg",
+    "jclic.js/punzanosirvent_portada3_resized.jpg",
+    "jclic.js/punzanosirvent_ralf2_resized.jpg",
+    "jclic.js/punzanosirvent_resta1.jpg",
+    "jclic.js/punzanosirvent_resta2.jpg",
+    "jclic.js/punzanosirvent_resta3.jpg",
+    "jclic.js/punzanosirvent_resta4.jpg",
+    "jclic.js/punzanosirvent_sumas4_1.jpg",
+    "jclic.js/punzanosirvent_sumas4_2.jpg",
+    "jclic.js/punzanosirvent_sumas4_3_1.jpg",
+    "jclic.js/punzansirvent_ralf1_2_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/mates1p.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

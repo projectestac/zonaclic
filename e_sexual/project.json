@@ -1,0 +1,114 @@
+{
+  "id": 2457,
+  "title": "Educación Sexual Integral (ESI)",
+  "author": "Andrea Sosa",
+  "school": "Liceo Nº1 \"José Figueroa Alcorta\" - Ciudad Autónoma de Buenos Aires (Argentina)",
+  "date": "25/07/16",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16), High school (16-18)",
+    "ca": "Secundària (12-16), Batxillerat (16-18)",
+    "es": "Secundaria (12-16), Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "SEC",
+    "BTX"
+  ],
+  "descriptors": {
+    "ca": "anatomia, sexualitat",
+    "es": "anatomía, sexualidad",
+    "en": "anatomy, sexuality"
+  },
+  "descCodes": [
+    51,
+    103
+  ],
+  "description": {
+    "en": "Play with the contents of comprehensive sex education. It includes the rights of children and adolescents.",
+    "ca": "Joc amb els continguts d'Educació Sexual Integral. Inclou els drets de nens, nenes i adolescents.",
+    "es": "Juego con los contenidos de Educación Sexual Integral. Incluye los derechos de niños, niñas y adolescentes."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/e_sexual.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/e_sexual.jclic.zip",
+  "instFile": "jclic/e_sexual.jclic.inst",
+  "clicZoneId": 3965,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3965",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/e_sexual/jclic/e_sexual.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 33,
+  "totalSize": 923418,
+  "files": [
+    "cover.png",
+    "jclic.js/amor_y_familia.png",
+    "jclic.js/aparato_genital_femenino.jpg",
+    "jclic.js/aparato_genital_femenino0.jpg",
+    "jclic.js/buena_alimentacion.png",
+    "jclic.js/e_sexual.jclic",
+    "jclic.js/e_sexual.jclic.js",
+    "jclic.js/educacion.png",
+    "jclic.js/flujo_tricomoniasis.jpg",
+    "jclic.js/genital_mujer.jpg",
+    "jclic.js/genital_varon.jpg",
+    "jclic.js/gonorrea.jpg",
+    "jclic.js/herpes_genital.jpg",
+    "jclic.js/i01_sifilis.jpg",
+    "jclic.js/i01_sintomas_gonorrea.jpg",
+    "jclic.js/i01_vih_drogas_contagio.png",
+    "jclic.js/i01_vih_leche_materna.jpg",
+    "jclic.js/i01_vih_nocontagio1.jpg",
+    "jclic.js/i01_vih_nocontagio2.jpg",
+    "jclic.js/i01_vih_nocontagio3.jpg",
+    "jclic.js/i01_vih_relaciones_sexuales_contagio.jpg",
+    "jclic.js/i01_vih_semen.jpg",
+    "jclic.js/i02_genital_mujer.jpg",
+    "jclic.js/i02_sintomas_gonorrea.jpg",
+    "jclic.js/i03_verrugas_genitales.jpg",
+    "jclic.js/jugar.png",
+    "jclic.js/metodos_anticonceptivos.jpg",
+    "jclic.js/preservativo_1.png",
+    "jclic.js/preservativo_2.png",
+    "jclic.js/preservativo_3.png",
+    "jclic.js/preservativo_4.png",
+    "jclic.js/preswervativo_5.png",
+    "jclic.js/proteccion_contra_discriminacion.png",
+    "jclic.js/salud_y_cuidados.png",
+    "jclic.js/sense_titol.png",
+    "jclic.js/verrugas_genitales.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

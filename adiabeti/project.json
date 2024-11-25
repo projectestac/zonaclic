@@ -1,0 +1,123 @@
+{
+  "id": 172,
+  "title": "Descobrim la diabetes \"Conceptes bàsics\"",
+  "author": "Antònia M. Gorgas Bargay, Eugènia Abadal i Inmaculada Estela Prat Col·laboració: Consell Assessor de la Diabetis a Catalunya i Hospital General de Manresa",
+  "school": "UEH Hospital S. Joan de Déu - ALTHAIA - Xarxa assistencial de Manresa Manresa (Bages)",
+  "date": "13/01/05",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "salut",
+    "es": "salud",
+    "en": "health"
+  },
+  "descCodes": [
+    101
+  ],
+  "description": {
+    "en": "Activities about diabetes type I: causes of the disease, effects on the health and habits to follow to prevent them.",
+    "ca": "En aquest paquet d'activitats s'expliquen les característiques de la diabetis de tipus I: causes de la malaltia, els seus efectes i els hàbits que cal seguir per prevenir-los. Va adreçat principalment als infants que pateixen diabetis, i també a totes aquelles persones que conviuen amb ells: companys, educadors, i familiars.",
+    "es": "En este paquete de actividades se explican las características de la diabetes de tipo I: causas de la enfermedad, sus efectos y los hábitos que hay que seguir para prevenirlos. Va dirigido principalmente a los niños y niñas que sufren diabetes, y también a todas aquellas personas que conviven con ellos: compañeros, educadores y familiares."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "diabetis",
+    "ediabeti",
+    "fdiabeti"
+  ],
+  "mainFile": "jclic.js/adiabeti.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/adiabeti.jclic.zip",
+  "instFile": "jclic/adiabeti.jclic.inst",
+  "clicZoneId": 1088,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1088",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/adiabeti/jclic/adiabeti.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 37,
+  "totalSize": 1374036,
+  "files": [
+    "cover.jpg",
+    "jclic.js/a.gif",
+    "jclic.js/adiabeti.jclic",
+    "jclic.js/althaiab.gif",
+    "jclic.js/b.gif",
+    "jclic.js/baskfood.gif",
+    "jclic.js/boca.gif",
+    "jclic.js/carbs.gif",
+    "jclic.js/carn2.gif",
+    "jclic.js/cerrad.gif",
+    "jclic.js/d.gif",
+    "jclic.js/digestio.gif",
+    "jclic.js/e.gif",
+    "jclic.js/ebis.gif",
+    "jclic.js/efct085c.gif",
+    "jclic.js/final.gif",
+    "jclic.js/fruita2.gif",
+    "jclic.js/glucosa.gif",
+    "jclic.js/greixos2.gif",
+    "jclic.js/i2.gif",
+    "jclic.js/insulin6.gif",
+    "jclic.js/milk2.gif",
+    "jclic.js/nen5.gif",
+    "jclic.js/nutrient.txt",
+    "jclic.js/nutriti.gif",
+    "jclic.js/oli2.gif",
+    "jclic.js/pan.gif",
+    "jclic.js/pancreas.gif",
+    "jclic.js/pasta2.gif",
+    "jclic.js/peix2.gif",
+    "jclic.js/plat.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/pyr.gif",
+    "jclic.js/reflect.gif",
+    "jclic.js/s.gif",
+    "jclic.js/scircul.gif",
+    "jclic.js/stomach.gif",
+    "jclic.js/super.gif",
+    "jclic.js/t.gif",
+    "jclic.js/triste3.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/adiabeti.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": 2495,
+  "title": "Los verbos",
+  "author": "Cristina Manzanedo Lara",
+  "school": "IES Sancti Petri San Fernando - Cádiz (Andalucía)",
+  "date": "14/03/17",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, verbs",
+    "es": "gramática, verbs",
+    "en": "grammar, verbos"
+  },
+  "descCodes": [
+    123,
+    1474
+  ],
+  "description": {
+    "en": "Set of activities to work the verb, attending the person, number, time and modus.",
+    "ca": "Conjunt d'activitats per treballar el verb, atenent a la persona, nombre, temps y mode que el defineix. També s'hi treballen les formes no personals.",
+    "es": "Conjunto de actividades para trabajar el verbo, atendiendo a la persona, número, tiempo y modo que lo define. También se trabajan las formas no personales."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/verbos5.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/verbos5.jclic.zip",
+  "instFile": "jclic/verbos5.jclic.inst",
+  "clicZoneId": 4004,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=4004",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/verbos5/jclic/verbos5.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 1,
+  "totalSize": 163679,
+  "files": [
+    "cover.png",
+    "jclic.js/verbos5.jclic",
+    "jclic.js/verbos5.jclic.js",
+    "jclic.js/yoamo2.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

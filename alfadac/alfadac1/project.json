@@ -1,0 +1,142 @@
+{
+  "id": 2306,
+  "title": "Practica el alfabeto dactilológico (1ª parte)",
+  "author": "Pepa Vilches Vilela",
+  "school": "Centro de Magisterio Sagrado Corazón, adscrito a la Universidad de Córdoba Córdoba (Andalucía)",
+  "date": "16/10/13",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16), High school (16-18)",
+    "ca": "Primària (6-12), Secundària (12-16), Batxillerat (16-18)",
+    "es": "Primaria (6-12), Secundaria (12-16), Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC",
+    "BTX"
+  ],
+  "descriptors": {
+    "ca": "llengua de signes",
+    "es": "sign language",
+    "en": "lengua de signos"
+  },
+  "descCodes": [
+    1180
+  ],
+  "description": {
+    "en": "Two project of activities addressed to practice the manual alphabet belonging to the Spanish Sign Language (LSE).",
+    "ca": "Dos projectes d'actividats per practicar l'alfabet manual de la Llengua de Signes espanyola (LSE).",
+    "es": "Dos proyectos de actividades para practicar el alfabeto manual perteneciente a la Lengua de Signos española (LSE)."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "alfadac/alfadac2"
+  ],
+  "mainFile": "jclic.js/alfadac1.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/alfadac1.jclic.zip",
+  "instFile": "jclic/alfadac1.jclic.inst",
+  "clicZoneId": 3816,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3816",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/alfadac/jclic/alfadac1.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 58,
+  "totalSize": 1038816,
+  "files": [
+    "cover.png",
+    "jclic.js/alfadac1.jclic",
+    "jclic.js/arana.jpg",
+    "jclic.js/buho.jpg",
+    "jclic.js/burro.jpg",
+    "jclic.js/caballo.jpg",
+    "jclic.js/camello.jpg",
+    "jclic.js/cerdo.jpg",
+    "jclic.js/dac_a.gif",
+    "jclic.js/dac_b.gif",
+    "jclic.js/dac_c.gif",
+    "jclic.js/dac_ch.gif",
+    "jclic.js/dac_d.gif",
+    "jclic.js/dac_e.gif",
+    "jclic.js/dac_f.gif",
+    "jclic.js/dac_g.gif",
+    "jclic.js/dac_h.gif",
+    "jclic.js/dac_i.gif",
+    "jclic.js/dac_j.gif",
+    "jclic.js/dac_k.gif",
+    "jclic.js/dac_l.gif",
+    "jclic.js/dac_ll.gif",
+    "jclic.js/dac_m.gif",
+    "jclic.js/dac_n.gif",
+    "jclic.js/dac_nie.gif",
+    "jclic.js/dac_o.gif",
+    "jclic.js/dac_p.gif",
+    "jclic.js/dac_q.gif",
+    "jclic.js/dac_r.gif",
+    "jclic.js/dac_rr.gif",
+    "jclic.js/dac_s.gif",
+    "jclic.js/dac_t.gif",
+    "jclic.js/dac_u.gif",
+    "jclic.js/dac_v.gif",
+    "jclic.js/dac_w.gif",
+    "jclic.js/dac_x.gif",
+    "jclic.js/dac_y.gif",
+    "jclic.js/dac_z.gif",
+    "jclic.js/dl_arana.gif",
+    "jclic.js/dl_buho.gif",
+    "jclic.js/dl_burro.gif",
+    "jclic.js/dl_camello.gif",
+    "jclic.js/dl_cerdo.gif",
+    "jclic.js/dl_elefante.gif",
+    "jclic.js/dl_kiwi.gif",
+    "jclic.js/dl_mariquita.gif",
+    "jclic.js/dl_oveja.gif",
+    "jclic.js/dl_perro.gif",
+    "jclic.js/dl_tortuga.gif",
+    "jclic.js/dl_zorro.gif",
+    "jclic.js/fin.png",
+    "jclic.js/hamster.jpg",
+    "jclic.js/intro_jclic_dactilologia1.gif",
+    "jclic.js/kiwi.jpg",
+    "jclic.js/mariquita.jpg",
+    "jclic.js/oveja.jpg",
+    "jclic.js/perro.jpg",
+    "jclic.js/rana.jpg",
+    "jclic.js/tortuga.jpg",
+    "jclic.js/zorro.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/alfadac1.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

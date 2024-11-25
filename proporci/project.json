@@ -1,0 +1,85 @@
+{
+  "id": 2039,
+  "title": "Proporcionalidad",
+  "author": "Francisco Martín Garzón",
+  "school": "IES La Pedrera Blanca Chiclana (Andalucía)",
+  "date": "18/03/10",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "Proporcionalitat",
+    "es": "Proporcionalidad",
+    "en": "proportionality"
+  },
+  "descCodes": [
+    1406
+  ],
+  "description": {
+    "en": "Three exercises to review the symbols of the main elements of the periodic table used in inorganic chemistry formulations and to work with the valence of these elements.",
+    "ca": "Projecte d'activitats amb diferents exercicis sobre la proporcionalitat directa i inversa i la seva aplicació en diferents problemes d'aplicació a la vida real.",
+    "es": "Diferentes actividades que abarcan tanto la proporcionalidad directa e inversa y su aplicación en diferentes problemas de aplicación en la vida real."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/proporci.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/proporci.jclic.zip",
+  "instFile": "jclic/proporci.jclic.inst",
+  "clicZoneId": 3609,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3609",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/proporci/jclic/proporci.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 6,
+  "totalSize": 3769274,
+  "files": [
+    "cover.gif",
+    "jclic.js/logoies4.png",
+    "jclic.js/mp4.jpg",
+    "jclic.js/portada1.jpg",
+    "jclic.js/proporci.jclic",
+    "jclic.js/regladetresdirecta1.avi",
+    "jclic.js/regladetresinversa1.avi",
+    "jclic.js/tortuga.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/proporci.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": 933,
+  "title": "Latín",
+  "author": "Jesús María Salcedo Torrealday",
+  "school": "Colegio Santa Teresa Calahorra (La Rioja)",
+  "date": "16/12/02",
+  "languages": {
+    "en": "Spanish, Latin",
+    "ca": "espanyol, llatí",
+    "es": "español, latín"
+  },
+  "langCodes": [
+    "es",
+    "la"
+  ],
+  "areas": {
+    "ca": "Llengües",
+    "es": "Lenguas",
+    "en": "Languages"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua llatina, sintaxi, cultura",
+    "es": "lengua latina, sintaxis, cultura",
+    "en": "Latin language, syntax, culture"
+  },
+  "descCodes": [
+    139,
+    148,
+    195
+  ],
+  "description": {
+    "en": "Package of activities about Latin for High school. The activities are classified into 4 parts : \n<ul> \n <li>Declensions </li>\n <li>Verbs </li>\n <li>Syntax </li>\n <li>Culture </li>\n</ul>",
+    "ca": "En aquest paquet es troba bona part del programa de llatí de 1r de Batxillerat. Les activitats estan classificades en quatre apartats: \n<ul> \n <li>Declinacions </li>\n <li>Verbs </li>\n <li>Sintaxi </li>\n <li>Cultura </li>\n</ul>",
+    "es": "En este paquete se aborda buena parte del programa de Latín de 1º de Bachillerato. Las actividades están clasificadas en cuatro apartados: \n<ul> \n <li>Declinaciones </li>\n <li>Verbos </li>\n <li>Sintaxis </li>\n <li>Cultura </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/latin.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/latin.jclic.zip",
+  "instFile": "jclic/latin.jclic.inst",
+  "clicZoneId": 2042,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2042",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/latin/jclic/latin.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 74,
+  "mediaFiles": 25,
+  "totalSize": 1012310,
+  "files": [
+    "cover.jpg",
+    "jclic.js/cultura/acue.jpg",
+    "jclic.js/cultura/arco.jpg",
+    "jclic.js/cultura/ceres.jpg",
+    "jclic.js/cultura/coliseo.jpg",
+    "jclic.js/cultura/cultura.jclic",
+    "jclic.js/cultura/diana.gif",
+    "jclic.js/cultura/esparciu.jpg",
+    "jclic.js/cultura/esparom3.jpg",
+    "jclic.js/cultura/esparoma.jpg",
+    "jclic.js/cultura/esparr1.jpg",
+    "jclic.js/cultura/esparro2.jpg",
+    "jclic.js/cultura/esparro22.jpg",
+    "jclic.js/cultura/euro_rom.gif",
+    "jclic.js/cultura/juno.gif",
+    "jclic.js/cultura/jupiter.gif",
+    "jclic.js/cultura/mercurio.gif",
+    "jclic.js/cultura/merida.jpg",
+    "jclic.js/cultura/minerva.gif",
+    "jclic.js/cultura/puente.jpg",
+    "jclic.js/cultura/vesta.jpg",
+    "jclic.js/fondor_2.jpg",
+    "jclic.js/greek.jpg",
+    "jclic.js/latin.jclic",
+    "jclic.js/loba3.jpg",
+    "jclic.js/padecli/padecli.jclic",
+    "jclic.js/portada9.gif",
+    "jclic.js/sintaxis/fondor_1.jpg",
+    "jclic.js/sintaxis/sintaxis.jclic",
+    "jclic.js/stj.jpg",
+    "jclic.js/verbos/verbos.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/latin.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/cultura/cultura.jclic.js",
+    "jclic.js/padecli/padecli.jclic.js",
+    "jclic.js/sintaxis/sintaxis.jclic.js",
+    "jclic.js/verbos/verbos.jclic.js",
+    "cover.webp"
+  ]
+}

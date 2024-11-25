@@ -1,0 +1,128 @@
+{
+  "id": 1136,
+  "title": "Lectoescriptura amb els fruits de la tardor",
+  "author": "José Luis Lázaro Cantabrana",
+  "school": "Escola Serrallo Tarragona",
+  "date": "09/06/04",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua",
+    "es": "aprendizaje de la lengua",
+    "en": "learning of the language"
+  },
+  "descCodes": [
+    110
+  ],
+  "description": {
+    "en": "Package of activities for the reading/writting learning based on the autumn fruits: almond, hazelnut, chestnut, grenade, grape, pine nut, quince and khaki.",
+    "ca": "Paquet d'activitats per a l'aprenentatge de la lectoescriptura que pren com a centre d'interès els fruits de la tardor: ametlla, avellana, castanya, magrana, raïm, pinyons, codony i caqui.",
+    "es": "Paquete de actividades para el aprendizaje de la lecto-escritura que toma como centro de interés las frutas del otoño: almendra, avellana, castaña, granada, uva, piñones, membrillo y caqui."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/tardor2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tardor2.jclic.zip",
+  "instFile": "jclic/tardor2.jclic.inst",
+  "clicZoneId": 2540,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2540",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/tardor2/jclic/tardor2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 35,
+  "mediaFiles": 48,
+  "totalSize": 2722662,
+  "files": [
+    "cover.gif",
+    "jclic.js/11ame.wav",
+    "jclic.js/11ave.wav",
+    "jclic.js/11cast.wav",
+    "jclic.js/11mag.wav",
+    "jclic.js/12caq.wav",
+    "jclic.js/12cod.wav",
+    "jclic.js/12pin.wav",
+    "jclic.js/12rai.wav",
+    "jclic.js/ametlla.jpg",
+    "jclic.js/ametlla.wav",
+    "jclic.js/avellan.jpg",
+    "jclic.js/avellan.wav",
+    "jclic.js/caqui.jpg",
+    "jclic.js/caqui.wav",
+    "jclic.js/castan.jpg",
+    "jclic.js/castan.wav",
+    "jclic.js/codony.jpg",
+    "jclic.js/codony.wav",
+    "jclic.js/copia.wav",
+    "jclic.js/m1.wav",
+    "jclic.js/magran.jpg",
+    "jclic.js/magran.wav",
+    "jclic.js/mbe.wav",
+    "jclic.js/n_ame.jpg",
+    "jclic.js/n_ave.jpg",
+    "jclic.js/n_caq.jpg",
+    "jclic.js/n_cast.jpg",
+    "jclic.js/n_cod.jpg",
+    "jclic.js/n_mag.jpg",
+    "jclic.js/n_pin.jpg",
+    "jclic.js/n_rai.jpg",
+    "jclic.js/nb_ame.jpg",
+    "jclic.js/nb_ave.jpg",
+    "jclic.js/nb_caq.jpg",
+    "jclic.js/nb_cast.jpg",
+    "jclic.js/nb_cod.jpg",
+    "jclic.js/nb_mag.jpg",
+    "jclic.js/nb_pin.jpg",
+    "jclic.js/nb_rai.jpg",
+    "jclic.js/p03.wav",
+    "jclic.js/p05.wav",
+    "jclic.js/p06.wav",
+    "jclic.js/p19.wav",
+    "jclic.js/pinyons.jpg",
+    "jclic.js/pinyons.wav",
+    "jclic.js/portada.jpg",
+    "jclic.js/raim.jpg",
+    "jclic.js/raim.wav",
+    "jclic.js/tardor2.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/tardor2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": 152,
+  "title": "El tiempo atmosférico",
+  "author": "Juan Antonio Arizcun Arizcun",
+  "school": "CP Monteagudo Murcia",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "meteorologia",
+    "es": "meteorología",
+    "en": "meteorology"
+  },
+  "descCodes": [
+    89
+  ],
+  "description": {
+    "en": "Activity pack about atmospheric phenomena, including: temperature, humidity, atmospheric pressure and the instruments used to measure this different variables.",
+    "ca": "Paquet d'activitats basat en el llibre de text de coneixement del medi de 4t de primària de l'editorial SC. S'hi treballen els fenòmens atmosfèrics, la temperatura, la humitat, la pressió atmosfèrica i els instruments utilitzats en la mesura de les diferents variables.",
+    "es": "Paquete de actividades de Clic basado en el libro de texto \"Conocimiento del medio\" de 4º de primaria de la Editorial SC. Trabaja los fenómenos atmosféricos, la temperatura, la humedad, la presión atmosférica y los instrumentos utilizados en la medición de las distintas variables."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "eguraldi"
+  ],
+  "mainFile": "jclic.js/atmosfer.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/atmosfer.jclic.zip",
+  "instFile": "jclic/atmosfer.jclic.inst",
+  "clicZoneId": 1075,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1075",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/atmosfer/jclic/atmosfer.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 7,
+  "totalSize": 138966,
+  "files": [
+    "cover.gif",
+    "jclic.js/anemome.gif",
+    "jclic.js/atmosfer.jclic",
+    "jclic.js/barome.gif",
+    "jclic.js/mapa.gif",
+    "jclic.js/pluviome.gif",
+    "jclic.js/portada2.gif",
+    "jclic.js/termome.gif",
+    "jclic.js/veleta.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/atmosfer.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

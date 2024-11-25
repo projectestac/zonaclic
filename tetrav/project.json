@@ -1,0 +1,94 @@
+{
+  "id": 1086,
+  "title": "TETRAVEX: Rompecabezas numéricos",
+  "author": "Luis Alejandro Sánchez Cortés",
+  "school": "Instituto San Bernardo de la Salle Bogotá (Colombia)",
+  "date": "05/11/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "lògica",
+    "es": "lógica",
+    "en": "logic"
+  },
+  "descCodes": [
+    711
+  ],
+  "description": {
+    "en": "Numeric puzzles using squares with one number in each side. In order to solve it, all the neighbouring sides must have the same number.",
+    "ca": "Activitat de trencaclosques numèrics amb fitxes quadrades que tenen escrita una xifra a cada costat. L'objectiu és que tots els costats veïns immediats tinguin el mateix número.",
+    "es": "Actividad donde se presentan rompecabezas numéricos con fichas cuadradas que tienen escrita una cifra en cada lado. El objetivo es que todos los lados vecinos inmediatos tengan el mismo número."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "tetraveus"
+  ],
+  "mainFile": "jclic.js/tetrav.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tetrav.jclic.zip",
+  "instFile": "jclic/tetrav.jclic.inst",
+  "clicZoneId": 2327,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2327",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/tetrav/jclic/tetrav.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 12,
+  "totalSize": 318661,
+  "files": [
+    "cover.gif",
+    "jclic.js/carre.gif",
+    "jclic.js/carre1.gif",
+    "jclic.js/carre2.gif",
+    "jclic.js/escudo3.gif",
+    "jclic.js/fondo.gif",
+    "jclic.js/portada2.gif",
+    "jclic.js/portada3.gif",
+    "jclic.js/tet21.gif",
+    "jclic.js/tet22.gif",
+    "jclic.js/tet31.gif",
+    "jclic.js/tet4.gif",
+    "jclic.js/tetra.gif",
+    "jclic.js/tetrav.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/tetrav.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

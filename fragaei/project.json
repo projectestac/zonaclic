@@ -1,0 +1,139 @@
+{
+  "id": 1657,
+  "title": "As nosas fragas",
+  "school": "CEIP Galán Oseiro (Galiza)",
+  "date": "08/03/07",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages",
+    "ca": "Ciències experimentals, Llengües",
+    "es": "Ciencias experimentales, Lenguas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "plantes, vocabulari, animals",
+    "es": "plantas, vocabulario, animales",
+    "en": "plants, vocabulary, animales"
+  },
+  "descCodes": [
+    96,
+    150,
+    1160
+  ],
+  "description": {
+    "en": "Project of activities about some animals and trees that we can found in the forest: fox, squirrel, wolf, pine...",
+    "ca": "Conjunt d'activitats sobre els boscos. Al llarg de l'activitat els alumnes aprenen el nom de quatre animals que viuen al bosc: la guineu, el llop, el porc senglar i l'esquirol i també el d'alguns arbres i els seus fruits: el pi, el castanyer i el roure.",
+    "es": "Conjunto de actividades sobre los bosques. A lo largo de la actividad los alumnos aprenden el nombre de cuatro animales que viven en el bosque: el zorro, el lobo, el jabalí y la ardilla y también el de algunos árboles y sus frutos: el pino, el castaño y el roble."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/fragaei.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fragaei.jclic.zip",
+  "instFile": "jclic/fragaei.jclic.inst",
+  "clicZoneId": 3366,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3366",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fragaei/jclic/fragaei.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 58,
+  "totalSize": 2007152,
+  "files": [
+    "cover.jpg",
+    "jclic.js/benfei.mp3",
+    "jclic.js/bosque1.gif",
+    "jclic.js/carbal2.gif",
+    "jclic.js/carbal3.gif",
+    "jclic.js/carballo.mp3",
+    "jclic.js/castan2.gif",
+    "jclic.js/castana.mp3",
+    "jclic.js/castana2.gif",
+    "jclic.js/castana3.gif",
+    "jclic.js/castano3.gif",
+    "jclic.js/catineir.mp3",
+    "jclic.js/clidebu.mp3",
+    "jclic.js/dibos.gif",
+    "jclic.js/esquio.mp3",
+    "jclic.js/esquio2.gif",
+    "jclic.js/esquiob2.gif",
+    "jclic.js/estupend.mp3",
+    "jclic.js/faiclim.mp3",
+    "jclic.js/faiclima.mp3",
+    "jclic.js/faicre.mp3",
+    "jclic.js/fenomeno.mp3",
+    "jclic.js/fondo2.jpg",
+    "jclic.js/fragaei.jclic",
+    "jclic.js/landra.mp3",
+    "jclic.js/landra2.gif",
+    "jclic.js/landra3.gif",
+    "jclic.js/lobo.mp3",
+    "jclic.js/lobo2b.gif",
+    "jclic.js/memima_n1.ttf",
+    "jclic.js/memima_n2.ttf",
+    "jclic.js/moiben.mp3",
+    "jclic.js/non.gif",
+    "jclic.js/ofrocarb.mp3",
+    "jclic.js/ofrocast.mp3",
+    "jclic.js/ofropino.mp3",
+    "jclic.js/pina.mp3",
+    "jclic.js/pine2.gif",
+    "jclic.js/pine3.gif",
+    "jclic.js/pineiro.gif",
+    "jclic.js/pineiro.mp3",
+    "jclic.js/pineiro3.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/prueba1.gif",
+    "jclic.js/quenson.mp3",
+    "jclic.js/queres.mp3",
+    "jclic.js/queresverde.jpg",
+    "jclic.js/ranino.mp3",
+    "jclic.js/raposo.mp3",
+    "jclic.js/raposo2.gif",
+    "jclic.js/rarbnom.mp3",
+    "jclic.js/renode.mp3",
+    "jclic.js/si.gif",
+    "jclic.js/sonesq.mp3",
+    "jclic.js/todocarb.gif",
+    "jclic.js/todocast.gif",
+    "jclic.js/todopino.gif",
+    "jclic.js/unarfro.mp3",
+    "jclic.js/xabari2.gif",
+    "jclic.js/xabarin.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fragaei.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

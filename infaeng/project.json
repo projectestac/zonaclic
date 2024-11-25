@@ -1,0 +1,144 @@
+{
+  "id": 2226,
+  "title": "Learn English with Ralf!",
+  "author": "Juan Antonio Punzano Sirvent i María Luisa Sirvent Latorre",
+  "date": "30/03/12",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua anglesa, llengua castellana",
+    "es": "aprendizaje de la lengua, lengua inglesa, lengua castellana",
+    "en": "learning of the language, English language, Spanish language"
+  },
+  "descCodes": [
+    110,
+    130,
+    132
+  ],
+  "description": {
+    "en": "Two projects in Spanish and English with activities addressed to kindergarten with vocabulary about: \n<ul> \n <li>seasons </li>\n <li>body parts </li>\n <li>moods </li>\n <li>animals </li>\n</ul>",
+    "ca": "Dos projectes d'activitats en castellà i anglès adreçat a alumnes d'educació infantil amb vocabulari sobre: \n<ul> \n <li>estacions </li>\n <li>parts del cos </li>\n <li>estats d'ànim </li>\n <li>animals </li>\n</ul>",
+    "es": "Dos proyectos de actividades en español e inglés dirigido a alumnos de educación infantil con vocabulario sobre: \n<ul> \n <li>estaciones </li>\n <li>partes del cuerpo </li>\n <li>estados de ánimo </li>\n <li>animales </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "infaespa"
+  ],
+  "mainFile": "jclic.js/infaeng.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/infaeng.jclic.zip",
+  "instFile": "jclic/infaeng.jclic.inst",
+  "clicZoneId": 3751,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3751",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/infaeng/jclic/infaeng.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 59,
+  "mediaFiles": 61,
+  "totalSize": 2702086,
+  "files": [
+    "cover.png",
+    "jclic.js/infaeng.jclic",
+    "jclic.js/punzanosirvent_activities.mp3",
+    "jclic.js/punzanosirvent_activities_resized.jpg",
+    "jclic.js/punzanosirvent_arms.jpg",
+    "jclic.js/punzanosirvent_arms.mp3",
+    "jclic.js/punzanosirvent_autumn.mp3",
+    "jclic.js/punzanosirvent_autumn_resized.jpg",
+    "jclic.js/punzanosirvent_barking.mp3",
+    "jclic.js/punzanosirvent_black.mp3",
+    "jclic.js/punzanosirvent_blue.mp3",
+    "jclic.js/punzanosirvent_boy_resized.jpg",
+    "jclic.js/punzanosirvent_cat.jpg",
+    "jclic.js/punzanosirvent_cat_cat2.mp3",
+    "jclic.js/punzanosirvent_cloud_resized.jpg",
+    "jclic.js/punzanosirvent_cloudy.mp3",
+    "jclic.js/punzanosirvent_dog.jpg",
+    "jclic.js/punzanosirvent_dog.mp3",
+    "jclic.js/punzanosirvent_ear.jpg",
+    "jclic.js/punzanosirvent_ear.mp3",
+    "jclic.js/punzanosirvent_eyes.jpg",
+    "jclic.js/punzanosirvent_eyes.mp3",
+    "jclic.js/punzanosirvent_front2_resized.jpg",
+    "jclic.js/punzanosirvent_girl_resized.jpg",
+    "jclic.js/punzanosirvent_green.mp3",
+    "jclic.js/punzanosirvent_happy.jpg",
+    "jclic.js/punzanosirvent_happy.mp3",
+    "jclic.js/punzanosirvent_learnenglishwithralf.mp3",
+    "jclic.js/punzanosirvent_legs.mp3",
+    "jclic.js/punzanosirvent_legs2.jpg",
+    "jclic.js/punzanosirvent_lessons.mp3",
+    "jclic.js/punzanosirvent_lessons2_resized.jpg",
+    "jclic.js/punzanosirvent_lessons_activities.mp3",
+    "jclic.js/punzanosirvent_man.mp3",
+    "jclic.js/punzanosirvent_memorygame.mp3",
+    "jclic.js/punzanosirvent_mouth.jpg",
+    "jclic.js/punzanosirvent_mouth.mp3",
+    "jclic.js/punzanosirvent_nose.mp3",
+    "jclic.js/punzanosirvent_nose.png",
+    "jclic.js/punzanosirvent_pink.mp3",
+    "jclic.js/punzanosirvent_puzzle.mp3",
+    "jclic.js/punzanosirvent_rain_resized.jpg",
+    "jclic.js/punzanosirvent_raining.mp3",
+    "jclic.js/punzanosirvent_ralf3_end_resized.jpg",
+    "jclic.js/punzanosirvent_red.mp3",
+    "jclic.js/punzanosirvent_sad.jpg",
+    "jclic.js/punzanosirvent_sad.mp3",
+    "jclic.js/punzanosirvent_seeu.mp3",
+    "jclic.js/punzanosirvent_spring.mp3",
+    "jclic.js/punzanosirvent_spring_resized.jpg",
+    "jclic.js/punzanosirvent_summer.mp3",
+    "jclic.js/punzanosirvent_summer_resized.jpg",
+    "jclic.js/punzanosirvent_sun_resized.jpg",
+    "jclic.js/punzanosirvent_sunny.mp3",
+    "jclic.js/punzanosirvent_welldone.mp3",
+    "jclic.js/punzanosirvent_white.mp3",
+    "jclic.js/punzanosirvent_wind_resized.jpg",
+    "jclic.js/punzanosirvent_windy.mp3",
+    "jclic.js/punzanosirvent_winter.mp3",
+    "jclic.js/punzanosirvent_winter_resized.jpg",
+    "jclic.js/punzanosirvent_woman.mp3",
+    "jclic.js/punzanosirvent_yellow.mp3",
+    "jclic.js/punzansirvent_ralf1_2_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/infaeng.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

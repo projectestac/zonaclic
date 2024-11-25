@@ -1,0 +1,138 @@
+{
+  "id": 1925,
+  "title": "Ortografía literal",
+  "author": "Miriam Castillo Castillo",
+  "school": "Escuela Cardenal José María Caro Coquimbo (Xile)",
+  "date": "15/06/09",
+  "languages": {
+    "en": "Esperanto",
+    "ca": "esperanto",
+    "es": "esperanto"
+  },
+  "langCodes": [
+    "eo"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, ortografia",
+    "es": "lengua castellana, ortografía",
+    "en": "Spanish language, spelling"
+  },
+  "descCodes": [
+    132,
+    146
+  ],
+  "description": {
+    "en": "Project of activities about orthography in Spanish: \n<ul> \n <li>C </li>\n <li>G </li>\n <li>R </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre ortografia en llengua castellana. Al projecte es treballa l'ortografia de tres lletres: \n<ul> \n <li>C </li>\n <li>G </li>\n <li>R </li>\n</ul>",
+    "es": "Proyecto de actividades sobre ortografía en lengua castellana. A lo largo del proyecto se trabajan tres letras: \n<ul> \n <li>C </li>\n <li>G </li>\n <li>R </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ortocrg.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ortocrg.jclic.zip",
+  "instFile": "jclic/ortocrg.jclic.inst",
+  "clicZoneId": 3551,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3551",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ortocrg/jclic/ortocrg.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 46,
+  "mediaFiles": 58,
+  "totalSize": 1017810,
+  "files": [
+    "cover.gif",
+    "jclic.js/acuarel.gif",
+    "jclic.js/america.gif",
+    "jclic.js/angel.gif",
+    "jclic.js/arana.gif",
+    "jclic.js/camio.gif",
+    "jclic.js/canasto.gif",
+    "jclic.js/carreta.gif",
+    "jclic.js/carrucel.gif",
+    "jclic.js/carrucg.gif",
+    "jclic.js/ce.gif",
+    "jclic.js/cebolla.gif",
+    "jclic.js/cerezas.gif",
+    "jclic.js/ciervo.gif",
+    "jclic.js/ciguena.gif",
+    "jclic.js/cinco.gif",
+    "jclic.js/circo.gif",
+    "jclic.js/cisne.gif",
+    "jclic.js/conejo.gif",
+    "jclic.js/copas.gif",
+    "jclic.js/correr.gif",
+    "jclic.js/cuchillo.gif",
+    "jclic.js/culebra.gif",
+    "jclic.js/erre.gif",
+    "jclic.js/gallo.gif",
+    "jclic.js/gatito.gif",
+    "jclic.js/ge.gif",
+    "jclic.js/gelatina.gif",
+    "jclic.js/genial.wav",
+    "jclic.js/gorro.gif",
+    "jclic.js/grande.wav",
+    "jclic.js/guagua.gif",
+    "jclic.js/guitarra.gif",
+    "jclic.js/gusano.gif",
+    "jclic.js/hamburg.gif",
+    "jclic.js/hoguera.gif",
+    "jclic.js/lapice5.gif",
+    "jclic.js/lorito.gif",
+    "jclic.js/macetero.gif",
+    "jclic.js/manguera.gif",
+    "jclic.js/muybien.wav",
+    "jclic.js/ortocrg.jclic",
+    "jclic.js/paisaje.gif",
+    "jclic.js/perfec.wav",
+    "jclic.js/perro.gif",
+    "jclic.js/pinguino.gif",
+    "jclic.js/ramo.gif",
+    "jclic.js/raton.gif",
+    "jclic.js/regadera.gif",
+    "jclic.js/regalo.gif",
+    "jclic.js/reloj.gif",
+    "jclic.js/remolino.gif",
+    "jclic.js/reno.gif",
+    "jclic.js/rio.gif",
+    "jclic.js/talleres_perfec.wav",
+    "jclic.js/tepasas.wav",
+    "jclic.js/tetera.gif",
+    "jclic.js/tijera.gif",
+    "jclic.js/tococo.gif",
+    "jclic.js/torta.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ortocrg.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": 1745,
+  "title": "Concert de Santa Cecília",
+  "author": "Montserrat Casas Bul",
+  "school": "Escola Pompeu Fabra El Pont de Vilomara i Rocafort (El Pont de Vilomara) (Bages)",
+  "date": "28/02/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la música, instrument musical, oïda musical",
+    "es": "aprendizaje de la música, instrumento musical, oído musical",
+    "en": "learning of music, musical instrument, musical ear"
+  },
+  "descCodes": [
+    717,
+    724,
+    727
+  ],
+  "description": {
+    "en": "Project of activities about wind instruments: \n<ul> \n <li>Trombone </li>\n <li>Horn </li>\n <li>Trumpet </li>\n</ul>",
+    "ca": "Projecte d'activitats per a alumnat de cicle inicial per a l'àrea de música. El projecte té activitats per a l'aprenentatge dels instruments de vent i la formació d'un quartet. Els instruments que apareixen a l'activitat són els següents: \n<ul> \n <li>Trombó de vares </li>\n <li>Trompa </li>\n <li>Trompeta </li>\n</ul>",
+    "es": "Proyecto de actividades para alumnado de ciclo inicial para el área de música. El proyecto tiene actividades ara el aprendizaje de los instrumentos de viento y la formación de un cuarteto. Los instrumentos que aparecen en la actividad son lo siguientes: \n<ul> \n <li>Trombón de varas </li>\n <li>Trompa </li>\n <li>Trompeta </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/scecilia.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/scecilia.jclic.zip",
+  "instFile": "jclic/scecilia.jclic.inst",
+  "clicZoneId": 3445,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3445",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/scecilia/jclic/scecilia.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 38,
+  "totalSize": 14552093,
+  "files": [
+    "cover.jpg",
+    "jclic.js/arpa.jpg",
+    "jclic.js/arpa.wav",
+    "jclic.js/bateria.jpg",
+    "jclic.js/clarinet.jpg",
+    "jclic.js/clarinet.wav",
+    "jclic.js/drum.mp3",
+    "jclic.js/elgar1.wav",
+    "jclic.js/fagot.gif",
+    "jclic.js/fagot.wav",
+    "jclic.js/flauta.jpg",
+    "jclic.js/flauta.wav",
+    "jclic.js/guitarra.jpg",
+    "jclic.js/guitarra.wav",
+    "jclic.js/oboe.jpg",
+    "jclic.js/oboe.wav",
+    "jclic.js/orquesta.jpg",
+    "jclic.js/piano.jpg",
+    "jclic.js/quartet1.jpg",
+    "jclic.js/quartet_2.jpg",
+    "jclic.js/saxo.gif",
+    "jclic.js/saxo.wav",
+    "jclic.js/scecilia.jclic",
+    "jclic.js/trombo.jpg",
+    "jclic.js/trombo.wav",
+    "jclic.js/trombo_de_bares2.jpg",
+    "jclic.js/trompa.jpg",
+    "jclic.js/trompa.wav",
+    "jclic.js/trompa1.jpg",
+    "jclic.js/trompeta.jpg",
+    "jclic.js/trompeta.wav",
+    "jclic.js/trompeta1.jpg",
+    "jclic.js/trompeta2.jpg",
+    "jclic.js/tuba.jpg",
+    "jclic.js/tuba.wav",
+    "jclic.js/var5.wav",
+    "jclic.js/violi.jpg",
+    "jclic.js/violi.wav",
+    "jclic.js/violoncel.gif",
+    "jclic.js/violoncel.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/scecilia.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

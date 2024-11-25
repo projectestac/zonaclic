@@ -1,0 +1,88 @@
+{
+  "id": 683,
+  "title": "Zenbakiak ordenatu",
+  "author": "Enric Peiris Poch",
+  "school": "Escola Mn. Baldiri Rexach Banyoles (Pla de l'Estany)",
+  "date": "10/11/03",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "anàlisi numèrica",
+    "es": "análisis numérico",
+    "en": "numerical analysis"
+  },
+  "descCodes": [
+    699
+  ],
+  "description": {
+    "en": "Activities consisting in to put in order numbers from 0 to 1,000 and use of the symbols &lt;, = and &gt;.",
+    "ca": "Paquet d'activitats destinat a nens i nenes de 2n curs de Cicle Inicial de Primària. Amb aquest paquet es treballa l'ordre dels nombres del 0 al 1.000 i l'ús dels signes &lt;, = i &gt;.",
+    "es": "Paquete de actividades destinado a niños y niñas de 2º curso de Ciclo Inicial de Primaria. Con este paquete se trabaja el orden de los números de 0 a 1.000 y el uso de los signos &lt;, = y &gt;"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "ordenar"
+  ],
+  "mainFile": "jclic.js/ordeneus.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ordeneus.jclic.zip",
+  "instFile": "jclic/ordeneus.jclic.inst",
+  "clicZoneId": 1357,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1357",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ordeneus/jclic/ordeneus.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 42,
+  "mediaFiles": 6,
+  "totalSize": 583680,
+  "files": [
+    "cover.gif",
+    "jclic.js/camio.bmp",
+    "jclic.js/cartera.gif",
+    "jclic.js/fruita.gif",
+    "jclic.js/gat.gif",
+    "jclic.js/ordeneus.jclic",
+    "jclic.js/piano.gif",
+    "jclic.js/tresor.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ordeneus.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

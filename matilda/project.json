@@ -1,0 +1,129 @@
+{
+  "id": 1758,
+  "title": "Xogando con Matilda",
+  "author": "Joaquina Pérez Alonso i Marga Tarrío Pillado",
+  "school": "IES As Mariñas Betanzos (Galiza)",
+  "date": "18/04/08",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "literatura juvenil, Roald Dahl",
+    "es": "literatura juvenil, Roald Dahl",
+    "en": "youthful Literature, Roald Dahl"
+  },
+  "descCodes": [
+    636,
+    1387
+  ],
+  "description": {
+    "en": "Set of activities based on the book \n<i>Matilda</i> by Roald Dahl addressed to pupil of secondary education. \n<p class=\"avislpi\"> The reproduction of the illustrations and texts in this activity use the right to quote with educational purposes established in the article 32 of the legal decree 1/1996 from the 12th of April (<a href=\"http://www.boe.es/g/es/bases_datos/doc.php?coleccion=iberlex&amp;id=1996/08930&amp;txtlen=1000\">BOE n. 97, April 22nd</a>). The Department of Education does not own the authoring right derived. </p>",
+    "ca": "Conjunt d'activitats sobre el llibre \n<i>Matilda</i> de Roald Dahl adreçades a alumnat de 1r i 2n de l'ESO que formen part d'un club de lectura per la biblioteca de l'institut. \n<p class=\"avislpi\"> La reproducció de les il·lustracions i textos emprades en aquesta activitat <strong>s'acull al dret de cita amb finalitats docents establert a l'article 32 del Reial decret legislatiu 1/1996</strong>, de 12 d'abril (<a href=\"http://www.boe.es/g/es/bases_datos/doc.php?coleccion=iberlex&amp;id=1996/08930&amp;txtlen=1000\">BOE número 97, de 22 d'abril</a>). El Departament d'Educació no és el titular dels drets d'autoria que se'n deriven. </p>",
+    "es": "Conjunto de actividades sobre el libro \n<i>Matilda</i> de Roald Dahl dirigidas a alumnado de 1º y 2º de ESO que forman parte de un club de lectura creado por la biblioteca del instituto. \n<p class=\"avislpi\"> La reproducción de las ilustraciones y textos utilizados en esta actividad <strong>se acoge al derecho de cita con finalidades docentes establecido en el artículo 32 del Real decreto legislativo 1/1996</strong>, de 12 de abril (<a href=\"http://www.boe.es/g/es/bases_datos/doc.php?coleccion=iberlex&amp;id=1996/08930&amp;txtlen=1000\">BOE número 97, de 22 d'abril</a>). El Departament d'Educació no es el titular de los derechos de autoría que se derivan. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/matilda.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/matilda.jclic.zip",
+  "instFile": "jclic/matilda.jclic.inst",
+  "clicZoneId": 3455,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3455",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/matilda/jclic/matilda.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 49,
+  "totalSize": 1687378,
+  "files": [
+    "cover.jpg",
+    "jclic.js/bethoven.gif",
+    "jclic.js/bingo.gif",
+    "jclic.js/blueguestbook.gif",
+    "jclic.js/c_arana_pollito.jpg",
+    "jclic.js/clapbord.gif",
+    "jclic.js/coche.gif",
+    "jclic.js/dahl.jpg",
+    "jclic.js/dahl__roald.jpg",
+    "jclic.js/danny_de_vito.jpg",
+    "jclic.js/dhal_brujas.jpg",
+    "jclic.js/dibujo_libro.gif",
+    "jclic.js/dickens.jpg",
+    "jclic.js/dickens_060621091932018_wideweb__300x300.jpg",
+    "jclic.js/dostoyevsky_1862.jpg",
+    "jclic.js/escritura.jpg",
+    "jclic.js/flaubert.jpg",
+    "jclic.js/gimnasio.jpg",
+    "jclic.js/gusano.gif",
+    "jclic.js/hamburguesa.jpg",
+    "jclic.js/hemingway.jpg",
+    "jclic.js/hulk.jpg",
+    "jclic.js/ines1.jpg",
+    "jclic.js/jane_austen.jpg",
+    "jclic.js/kipling.jpg",
+    "jclic.js/lagartija3.gif",
+    "jclic.js/leer.jpg",
+    "jclic.js/letras.gif",
+    "jclic.js/libro_matilda.jpg",
+    "jclic.js/libros.jpg",
+    "jclic.js/maestra.jpg",
+    "jclic.js/matilda.jclic",
+    "jclic.js/matilda.jpg",
+    "jclic.js/matilda1.jpg",
+    "jclic.js/matilda2.jpg",
+    "jclic.js/matilda_1.jpg",
+    "jclic.js/matilda_2.jpg",
+    "jclic.js/miel.jpg",
+    "jclic.js/mozart.gif",
+    "jclic.js/ninalibroranny_22ok.jpg",
+    "jclic.js/orwell.jpg",
+    "jclic.js/partitura.jpg",
+    "jclic.js/pintega.jpg",
+    "jclic.js/quentin_blake.jpg",
+    "jclic.js/rd15.jpg",
+    "jclic.js/readingmaniacs.gif",
+    "jclic.js/roald_dahl.jpg",
+    "jclic.js/secretaria.jpg",
+    "jclic.js/tronco.jpg",
+    "jclic.js/vivaldi.jpg",
+    "jclic.js/wp_mafalda_1.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/matilda.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

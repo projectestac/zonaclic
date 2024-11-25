@@ -1,0 +1,100 @@
+{
+  "id": 2544,
+  "title": "Introducción a la robótica",
+  "author": "Gayle Almonte",
+  "date": "21/12/17",
+  "langCodes": [
+    "es"
+  ],
+  "languages": {
+    "ca": "espanyol",
+    "es": "español",
+    "en": "Spanish"
+  },
+  "areaCodes": [
+    "exp",
+    "tec"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals, Tecnologies",
+    "es": "Ciencias experimentales, Tecnología",
+    "en": "Experimental sciences, Design & technology"
+  },
+  "levelCodes": [
+    "SEC",
+    "BTX"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16), Batxillerat (16-18)",
+    "es": "Secundaria (12-16), Bachillerato (16-18)",
+    "en": "Secondary school (12-16), High school (16-18)"
+  },
+  "description": {
+    "ca": "Amb les següents activitats es pretén que l'alumnat aprengui els aspectes bàsics de la robòtica i que després practiquin allò que han après.",
+    "es": "A través de las siguientes actividades se pretende que los alumnos y alumnas aprendan los aspectos básicos de la robótica y luego practiquen lo aprendido.",
+    "en": "Through the following activities it is intended that students learn the basics of robotics and then practice what they have learned."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "cover": "robots.jpg",
+  "coverWebp": "robots.webp",
+  "thumbnail": "robots100.jpg",
+  "mainFile": "jclic.js/robots.jclic",
+  "activities": 19,
+  "mediaFiles": 36,
+  "totalSize": 1561154,
+  "instFile": "jclic/robots.jclic.inst",
+  "zipFile": "jclic/robots.jclic.zip",
+  "files": [
+    "jclic.js/01__13_.jpg",
+    "jclic.js/01__15_.jpg",
+    "jclic.js/01__17_.jpg",
+    "jclic.js/01__21_.jpg",
+    "jclic.js/01__23_.jpg",
+    "jclic.js/01__24_.jpg",
+    "jclic.js/01__27_.jpg",
+    "jclic.js/01__28_.jpg",
+    "jclic.js/01__31_.jpg",
+    "jclic.js/01__32_.jpg",
+    "jclic.js/01__33_.jpg",
+    "jclic.js/01__34_.jpg",
+    "jclic.js/01__36_.jpg",
+    "jclic.js/01__37_.jpg",
+    "jclic.js/01__38_.jpg",
+    "jclic.js/01__3_.jpg",
+    "jclic.js/01__41_.jpg",
+    "jclic.js/01__42_.jpg",
+    "jclic.js/01__49_.jpg",
+    "jclic.js/01__4_.jpg",
+    "jclic.js/12__11_.jpg",
+    "jclic.js/12__16_.jpg",
+    "jclic.js/12__19_.jpg",
+    "jclic.js/12__1_.jpg",
+    "jclic.js/12__21_.jpg",
+    "jclic.js/12__6_.jpg",
+    "jclic.js/12rt.jpg",
+    "jclic.js/a02d.jpg",
+    "jclic.js/favicon.ico",
+    "jclic.js/fffffffffff22ff_resized.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/mas_datosss.jpg",
+    "jclic.js/ret5.jpg",
+    "jclic.js/robots.jclic",
+    "jclic.js/robots.jclic.js",
+    "project.json",
+    "robots.jpg",
+    "robots100.jpg",
+    "robots.webp"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": 1583,
+  "title": "Festivals",
+  "author": "Margarita Galofré Fortuny",
+  "school": "Escola Pompeu Fabra Reus (Baix Camp)",
+  "date": "03/05/06",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa",
+    "es": "lengua inglesa",
+    "en": "English language"
+  },
+  "descCodes": [
+    130
+  ],
+  "description": {
+    "en": "Project of activities in English about: \n<ul> \n <li>Halloween </li>\n <li>Christmas </li>\n <li>Easter </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre tres festes típiques anglosaxones: \n<ul> \n <li>Halloween </li>\n <li>Christmas </li>\n <li>Easter </li>\n</ul>",
+    "es": "Proyecto de actividades sobre tres fiestas típicas anglosajonas: \n<ul> \n <li>Halloween </li>\n <li>Christmas </li>\n <li>Easter </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/festival.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/festival.jclic.zip",
+  "instFile": "jclic/festival.jclic.inst",
+  "clicZoneId": 3299,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3299",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/festival/jclic/festival.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 43,
+  "totalSize": 1537485,
+  "files": [
+    "cover.gif",
+    "jclic.js/basket.jpg",
+    "jclic.js/basket.wav",
+    "jclic.js/bat.jpg",
+    "jclic.js/bat.wav",
+    "jclic.js/black_cat.jpg",
+    "jclic.js/black_cat.wav",
+    "jclic.js/bunny.jpg",
+    "jclic.js/bunny.wav",
+    "jclic.js/chick.jpg",
+    "jclic.js/chick.wav",
+    "jclic.js/chocolate.jpg",
+    "jclic.js/chocolates.wav",
+    "jclic.js/christmas_tree.jpg",
+    "jclic.js/christmas_tree.wav",
+    "jclic.js/cracker.jpg",
+    "jclic.js/cracker.wav",
+    "jclic.js/eggs.jpg",
+    "jclic.js/eggs.wav",
+    "jclic.js/escoltar.jpg",
+    "jclic.js/father_christmas.jpg",
+    "jclic.js/father_christmas.wav",
+    "jclic.js/festival.jclic",
+    "jclic.js/imatge_christmas_2.jpg",
+    "jclic.js/imatge_christmas_5.gif",
+    "jclic.js/imatge_easter_1.jpg",
+    "jclic.js/imatge_easter_2.jpg",
+    "jclic.js/imatge_halloween_1.jpg",
+    "jclic.js/imatge_halloween_3.jpg",
+    "jclic.js/jack_o_lantern.jpg",
+    "jclic.js/jack_o_lantern.wav",
+    "jclic.js/present.jpg",
+    "jclic.js/present.wav",
+    "jclic.js/reindeer.jpg",
+    "jclic.js/reindeer.wav",
+    "jclic.js/skeleton.jpg",
+    "jclic.js/skeleton.wav",
+    "jclic.js/spider.jpg",
+    "jclic.js/spider.wav",
+    "jclic.js/stocking.jpg",
+    "jclic.js/stocking.wav",
+    "jclic.js/tulips.jpg",
+    "jclic.js/tulips.wav",
+    "jclic.js/witch.jpg",
+    "jclic.js/witch.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/festival.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

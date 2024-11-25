@@ -1,0 +1,141 @@
+{
+  "id": 1431,
+  "title": "Conozcamos San Luis",
+  "author": "Paola Allendes",
+  "school": "Universidad Nacional de San Luis San Luis (Argentina)",
+  "date": "20/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia, geografia física, geografia política, història",
+    "es": "geografía, geografía física, geografía política, historia",
+    "en": "geography, physical geography, political geography, history"
+  },
+  "descCodes": [
+    235,
+    237,
+    239,
+    246
+  ],
+  "description": {
+    "en": "This package contains activities destined to students of primary school, throughout the activities they will learn the political division of the province of San Luis (Argentina) as well as a brief historical review, the relief, its rivers, the flora and fauna.",
+    "ca": "Aquest paquet conté una sèrie d'activitats adreçada a alumnes d'educació primària (9 anys aproximadament), on podran conèixer la divisió política, la ressenya històrica, relleu, rius, flora i fauna de la província de San Luis (Argentina). Dit paquet d'activitats va ser creat especialment per a l'Escola \"Bernardino Rivadavia\".",
+    "es": "Este paquete contiene una serie de actividades destinada a alumnos de educación primaria (9 años de edad aproximadamente), en el que podrán conocer la división política, la reseña histórica, relieve, ríos, flora y fauna de la provincia de San Luis (Argentina). Dicho paquete de actividades fue realizado especialmente para la Escuela \"Bernardino Rivadavia\"."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sanluis.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sanluis.jclic.zip",
+  "instFile": "jclic/sanluis.jclic.inst",
+  "clicZoneId": 3164,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3164",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sanluis/jclic/sanluis.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 66,
+  "mediaFiles": 47,
+  "totalSize": 1236505,
+  "files": [
+    "cover.jpg",
+    "jclic.js/cartel.gif",
+    "jclic.js/fauna/cartel11.gif",
+    "jclic.js/fauna/fauna.jclic",
+    "jclic.js/flora/cartel10.gif",
+    "jclic.js/flora/flora.jclic",
+    "jclic.js/historia/cartel3.gif",
+    "jclic.js/historia/cartel4.gif",
+    "jclic.js/historia/cartel5.gif",
+    "jclic.js/historia/cartel5a.gif",
+    "jclic.js/historia/cartel5b.gif",
+    "jclic.js/historia/cartel5c.gif",
+    "jclic.js/historia/cartel5d.gif",
+    "jclic.js/historia/cartel7.gif",
+    "jclic.js/historia/historia.jclic",
+    "jclic.js/politico/aya.gif",
+    "jclic.js/politico/aya1.gif",
+    "jclic.js/politico/aya2.gif",
+    "jclic.js/politico/bel.gif",
+    "jclic.js/politico/bel1.gif",
+    "jclic.js/politico/bel2.gif",
+    "jclic.js/politico/capi.gif",
+    "jclic.js/politico/capi1.gif",
+    "jclic.js/politico/capi2.gif",
+    "jclic.js/politico/capit.gif",
+    "jclic.js/politico/cartel1.gif",
+    "jclic.js/politico/cartel2.gif",
+    "jclic.js/politico/dup.gif",
+    "jclic.js/politico/dup1.gif",
+    "jclic.js/politico/dup2.gif",
+    "jclic.js/politico/escudo2.gif",
+    "jclic.js/politico/jun.gif",
+    "jclic.js/politico/jun1.gif",
+    "jclic.js/politico/jun2.gif",
+    "jclic.js/politico/limites1.gif",
+    "jclic.js/politico/ped.gif",
+    "jclic.js/politico/ped1.gif",
+    "jclic.js/politico/ped2.gif",
+    "jclic.js/politico/politic2.gif",
+    "jclic.js/politico/politico.jclic",
+    "jclic.js/politico/prin.gif",
+    "jclic.js/politico/prin2.gif",
+    "jclic.js/politico/san.gif",
+    "jclic.js/politico/san1.gif",
+    "jclic.js/politico/san2.gif",
+    "jclic.js/relieve/cartel8.gif",
+    "jclic.js/relieve/cartel8a.gif",
+    "jclic.js/relieve/cartel8b.gif",
+    "jclic.js/relieve/relieve.jclic",
+    "jclic.js/rios/cartel9b.gif",
+    "jclic.js/rios/rios.gif",
+    "jclic.js/rios/rios.jclic",
+    "jclic.js/rios/rios2.gif",
+    "jclic.js/sanluis.jclic",
+    "jclic.js/sanluis3.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sanluis.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/fauna/fauna.jclic.js",
+    "jclic.js/flora/flora.jclic.js",
+    "jclic.js/historia/historia.jclic.js",
+    "jclic.js/politico/politico.jclic.js",
+    "jclic.js/relieve/relieve.jclic.js",
+    "jclic.js/rios/rios.jclic.js",
+    "cover.webp"
+  ]
+}

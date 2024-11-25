@@ -1,0 +1,136 @@
+{
+  "id": 692,
+  "title": "Geometria a la Seu Vella de Lleida",
+  "author": "Germán Arbiol Oliver",
+  "school": "Institut Escola del Treball Lleida",
+  "date": "29/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "història de l'art, geometria",
+    "es": "historia del arte, geometría",
+    "en": "history of the art, geometry"
+  },
+  "descCodes": [
+    40,
+    708
+  ],
+  "description": {
+    "en": "Geometry activities about the figures seen in la Seu Vella (old cathedral) of Lleida, in Catalonia.",
+    "ca": "Paquet d'activitats sobre la Seu Vella de Lleida. El programa proposa una passejada per la Seu i tot fixant-nos en alguns elements arquitectònics dels claustre cal distingir diverses figures geomètriques i descobrir els passos que s'han de seguir per a construir-les.",
+    "es": "Paquete de actividades sobre la Seu Vella (catedral) de Lleida. El programa propone un recorrido por la Seu y fijándonos en algunos elementos arquitectónicos del claustro debemos distinguir diversas figuras geométricas y descubrir los pasos que hay que seguir para construirlas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/seumat.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/seumat.jclic.zip",
+  "instFile": "jclic/seumat.jclic.inst",
+  "clicZoneId": 1362,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1362",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/seumat/jclic/seumat.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 56,
+  "totalSize": 2107597,
+  "files": [
+    "cover.gif",
+    "jclic.js/1.wav",
+    "jclic.js/10.wav",
+    "jclic.js/11.wav",
+    "jclic.js/12.wav",
+    "jclic.js/13.wav",
+    "jclic.js/135i.gif",
+    "jclic.js/14.wav",
+    "jclic.js/2.wav",
+    "jclic.js/3.wav",
+    "jclic.js/4.wav",
+    "jclic.js/45c.gif",
+    "jclic.js/45e.gif",
+    "jclic.js/5.wav",
+    "jclic.js/6.wav",
+    "jclic.js/7.wav",
+    "jclic.js/8.wav",
+    "jclic.js/9.wav",
+    "jclic.js/cimbor_1.jpg",
+    "jclic.js/cimborri.jpg",
+    "jclic.js/cimborri2.jpg",
+    "jclic.js/clau_2_.jpg",
+    "jclic.js/claust_1.jpg",
+    "jclic.js/compos1.gif",
+    "jclic.js/full3.gif",
+    "jclic.js/full3_2_.gif",
+    "jclic.js/motius_1.jpg",
+    "jclic.js/octo1.gif",
+    "jclic.js/octo3.gif",
+    "jclic.js/planolse.jpg",
+    "jclic.js/porta1_2.jpg",
+    "jclic.js/porta2_1.gif",
+    "jclic.js/presen.gif",
+    "jclic.js/qua1.gif",
+    "jclic.js/qua2.gif",
+    "jclic.js/qua3.gif",
+    "jclic.js/qua4.gif",
+    "jclic.js/rosequat.gif",
+    "jclic.js/rosesis_.gif",
+    "jclic.js/rosetres.gif",
+    "jclic.js/seumat.jclic",
+    "jclic.js/seunit2.jpg",
+    "jclic.js/seunu.jpg",
+    "jclic.js/sis1.gif",
+    "jclic.js/sis2.gif",
+    "jclic.js/sis3.gif",
+    "jclic.js/sis4.gif",
+    "jclic.js/trian0.gif",
+    "jclic.js/trian1.gif",
+    "jclic.js/trian2.gif",
+    "jclic.js/trian3.gif",
+    "jclic.js/trian4.gif",
+    "jclic.js/trian5.gif",
+    "jclic.js/trian6.gif",
+    "jclic.js/trian7.gif",
+    "jclic.js/trian8.gif",
+    "jclic.js/trianf.gif",
+    "jclic.js/vista.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/seumat.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

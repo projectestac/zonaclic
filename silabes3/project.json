@@ -1,0 +1,110 @@
+{
+  "id": 1830,
+  "title": "Treballem les síl·labes",
+  "author": "Juanjo Martínez Puerta",
+  "school": "C Maristes Valldemia Mataró (Maresme)",
+  "date": "29/01/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua catalana",
+    "es": "lengua catalana",
+    "en": "Catalan language"
+  },
+  "descCodes": [
+    133
+  ],
+  "description": {
+    "en": "Project of activities about Catalan language: \n<ul> \n <li>the separation of syllables </li>\n <li>the separation of digraph </li>\n <li>the identification of the tonic syllable of a word </li>\n</ul>",
+    "ca": "Projecte de llengua catalana per a cicle mitjà de primària per a reforçar: \n<ul> \n <li>la separació sil·làbica </li>\n <li>la separació de dígrafs </li>\n <li>la identificació de la síl·laba tònica d'una paraula </li>\n</ul>",
+    "es": "Proyecto de lengua catalana para ciclo medio de primaria para reforzar: \n<ul> \n <li>la separación silábica </li>\n <li>la separación de dígrafos </li>\n <li>la identificación de la sílaba tónica de una palabra </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/silabes3.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/silabes3.jclic.zip",
+  "instFile": "jclic/silabes3.jclic.inst",
+  "clicZoneId": 3519,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3519",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/silabes3/jclic/silabes3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 31,
+  "totalSize": 2988884,
+  "files": [
+    "cover.jpg",
+    "jclic.js/12_aranya.mp3",
+    "jclic.js/12_catala.mp3",
+    "jclic.js/12_entrepa.mp3",
+    "jclic.js/12_maquina.mp3",
+    "jclic.js/12_musica.mp3",
+    "jclic.js/12_tortuga.mp3",
+    "jclic.js/cops_casa.mp3",
+    "jclic.js/cops_catala.mp3",
+    "jclic.js/cops_dinar.mp3",
+    "jclic.js/cops_equip.mp3",
+    "jclic.js/cops_fabrica.mp3",
+    "jclic.js/cops_porter.mp3",
+    "jclic.js/cops_primavera.mp3",
+    "jclic.js/cops_tercer.mp3",
+    "jclic.js/cops_tortuga.mp3",
+    "jclic.js/no_separen.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/puzzlefinal.jpg",
+    "jclic.js/silabes3.jclic",
+    "jclic.js/veu4a.mp3",
+    "jclic.js/veu8_casa.mp3",
+    "jclic.js/veu8_espelma.mp3",
+    "jclic.js/veu8_finestra.mp3",
+    "jclic.js/veu8_mati.mp3",
+    "jclic.js/veu8_pebrot.mp3",
+    "jclic.js/veu_11bona.mp3",
+    "jclic.js/veu_13.mp3",
+    "jclic.js/veu_4b.mp3",
+    "jclic.js/veu_5.mp3",
+    "jclic.js/veu_5b.mp3",
+    "jclic.js/veu_8.mp3",
+    "jclic.js/veu_8_musica.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/silabes3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

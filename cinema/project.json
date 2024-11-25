@@ -1,0 +1,111 @@
+{
+  "id": 2262,
+  "title": "El cinema",
+  "author": "Ruth Lizancos Fernández",
+  "school": "Escola Joan Maragall Sant Andreu de la Barca (Baix Llobregat)",
+  "date": "28/06/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Art & design, Miscellaneous",
+    "ca": "Visual i plàstica, Diversos",
+    "es": "Plástica y visual, Diversos"
+  },
+  "areaCodes": [
+    "vip",
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "cinema",
+    "es": "cine",
+    "en": "cinema"
+  },
+  "descCodes": [
+    1440
+  ],
+  "description": {
+    "en": "JClic project about the cinema. Activities are grouped in four different themes: \n<ul> \n <li>film history </li>\n <li>stages of making a film </li>\n <li>genres </li>\n <li>crew </li>\n</ul>",
+    "ca": "Projecte JClic sobre el món del cinema. Les activitats estan agrupades en quatre temàtiques diferents: \n<ul> \n <li>La història del cinema </li>\n <li>Les fases de realització d'una pel·lícula </li>\n <li>Els gèneres cinematogràfics </li>\n <li>L'equip tècnic </li>\n</ul>",
+    "es": "Proyecto JClic sobre el mundo del cine. Las actividades están agrupadas en cuatro temáticas diferentes: \n<ul> \n <li>La historia del cine </li>\n <li>Las fases de realización de una película </li>\n <li>Los géneros cinematográficos </li>\n <li>El equipo técnico </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cinema.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cinema.jclic.zip",
+  "instFile": "jclic/cinema.jclic.inst",
+  "clicZoneId": 3780,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3780",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cinema/jclic/cinema.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 31,
+  "totalSize": 1829737,
+  "files": [
+    "cover.jpg",
+    "jclic.js/10465__81_a_1_resized.jpg",
+    "jclic.js/13898__43_a_1_1__resized.jpg",
+    "jclic.js/14159__43_a_1_resized.jpg",
+    "jclic.js/173707_jpg_1_resized1.jpg",
+    "jclic.js/174139_jpg_1_resized1.jpg",
+    "jclic.js/177961_a_1_resized.jpg",
+    "jclic.js/189318_a_1_resized.jpg",
+    "jclic.js/191588_a_1_resized.jpg",
+    "jclic.js/199047_jpg_1.jpg",
+    "jclic.js/23546__10_a_1.jpg",
+    "jclic.js/25535__155_a_1_resized.jpg",
+    "jclic.js/2_resized.jpg",
+    "jclic.js/30559__172_a_2_resized.jpg",
+    "jclic.js/3299262647_27d4c820f0.jpg",
+    "jclic.js/5233__35_a_12_resized.jpg",
+    "jclic.js/5272__35_a_12_resized.jpg",
+    "jclic.js/7171__82_a_1_resized1.jpg",
+    "jclic.js/cinema.jclic",
+    "jclic.js/cinta2.jpg",
+    "jclic.js/claqueta.jpg",
+    "jclic.js/content.gif",
+    "jclic.js/content_2.jpg",
+    "jclic.js/director_resized.jpg",
+    "jclic.js/director_resized1.jpg",
+    "jclic.js/dsc03888_resized.jpg",
+    "jclic.js/dsc03889_resized.jpg",
+    "jclic.js/dsc03896_resized1.jpg",
+    "jclic.js/dsc03898_resized.jpg",
+    "jclic.js/h16341_a_resized.jpg",
+    "jclic.js/h3008_a_resized.jpg",
+    "jclic.js/i01_content_2.jpg",
+    "jclic.js/rlizanco_m2.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cinema.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

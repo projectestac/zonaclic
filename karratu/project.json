@@ -1,0 +1,153 @@
+{
+  "id": 587,
+  "title": "Quadrats màgics",
+  "author": "Toni Miquel Mollà",
+  "school": "CP Crist de la Pau Sant Joan d'Alacant (Alacantí)",
+  "date": "25/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aritmètica, fonaments de les matemàtiques, problemes matemàtics",
+    "es": "aritmética, fundamentos de las matemáticas, problemas matemáticos",
+    "en": "Arithmetic, foundations of the mathematics, mathematic problems"
+  },
+  "descCodes": [
+    701,
+    707,
+    926
+  ],
+  "description": {
+    "en": "In this activity the student must complete the number cells so that the same result is obtained from the sum of the cells in the files, columns and diagonals. All the squares have nine cells.",
+    "ca": "En aquest paquet d'activitats cal completar les graelles de números per tal que s'obtingui el mateix valor en la suma de les caselles que formen cadascuna de les files, columnes i diagonals.\n<br> Es plantegen quatre tipus de quadrats que sumen 15, 18, 21 i 24. Tots els quadrats tenen 9 caselles.",
+    "es": "En este paquete de actividades hay que completar las parrillas de números para que se obtenga el mismo valor en la suma de las casillas que forman cada una de las filas, columnas y diagonales.\n<br> Se plantean cuatro tipos de cuadrados que suman 15, 18, 21 y 24. Todos los cuadrados tienen 9 casillas."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "cua_fr",
+    "cuadrads",
+    "quadrati",
+    "quadrats"
+  ],
+  "mainFile": "jclic.js/karratu.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/karratu.jclic.zip",
+  "instFile": "jclic/karratu.jclic.inst",
+  "clicZoneId": 1324,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1324",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/karratu/jclic/karratu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 34,
+  "mediaFiles": 66,
+  "totalSize": 526460,
+  "files": [
+    "cover.gif",
+    "jclic.js/karratu.jclic",
+    "jclic.js/portqua.gif",
+    "jclic.js/qua1501i.gif",
+    "jclic.js/qua1501s.gif",
+    "jclic.js/qua1502i.gif",
+    "jclic.js/qua1502s.gif",
+    "jclic.js/qua1503i.gif",
+    "jclic.js/qua1503s.gif",
+    "jclic.js/qua1504i.gif",
+    "jclic.js/qua1504s.gif",
+    "jclic.js/qua1505i.gif",
+    "jclic.js/qua1505s.gif",
+    "jclic.js/qua1506i.gif",
+    "jclic.js/qua1506s.gif",
+    "jclic.js/qua1507i.gif",
+    "jclic.js/qua1507s.gif",
+    "jclic.js/qua1508i.gif",
+    "jclic.js/qua1508s.gif",
+    "jclic.js/qua1801i.gif",
+    "jclic.js/qua1801s.gif",
+    "jclic.js/qua1802i.gif",
+    "jclic.js/qua1802s.gif",
+    "jclic.js/qua1803i.gif",
+    "jclic.js/qua1803s.gif",
+    "jclic.js/qua1804i.gif",
+    "jclic.js/qua1804s.gif",
+    "jclic.js/qua1805i.gif",
+    "jclic.js/qua1805s.gif",
+    "jclic.js/qua1806i.gif",
+    "jclic.js/qua1806s.gif",
+    "jclic.js/qua1807i.gif",
+    "jclic.js/qua1807s.gif",
+    "jclic.js/qua1808i.gif",
+    "jclic.js/qua1808s.gif",
+    "jclic.js/qua2101i.gif",
+    "jclic.js/qua2101s.gif",
+    "jclic.js/qua2102i.gif",
+    "jclic.js/qua2102s.gif",
+    "jclic.js/qua2103i.gif",
+    "jclic.js/qua2103s.gif",
+    "jclic.js/qua2104i.gif",
+    "jclic.js/qua2104s.gif",
+    "jclic.js/qua2105i.gif",
+    "jclic.js/qua2105s.gif",
+    "jclic.js/qua2106i.gif",
+    "jclic.js/qua2106s.gif",
+    "jclic.js/qua2107i.gif",
+    "jclic.js/qua2107s.gif",
+    "jclic.js/qua2108i.gif",
+    "jclic.js/qua2108s.gif",
+    "jclic.js/qua2401i.gif",
+    "jclic.js/qua2401s.gif",
+    "jclic.js/qua2402i.gif",
+    "jclic.js/qua2402s.gif",
+    "jclic.js/qua2403i.gif",
+    "jclic.js/qua2403s.gif",
+    "jclic.js/qua2404i.gif",
+    "jclic.js/qua2404s.gif",
+    "jclic.js/qua2405i.gif",
+    "jclic.js/qua2405s.gif",
+    "jclic.js/qua2406i.gif",
+    "jclic.js/qua2406s.gif",
+    "jclic.js/qua2407i.gif",
+    "jclic.js/qua2407s.gif",
+    "jclic.js/qua2408i.gif",
+    "jclic.js/qua2408s.gif",
+    "jclic.js/triarqua.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/karratu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

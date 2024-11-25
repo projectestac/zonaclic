@@ -1,0 +1,125 @@
+{
+  "id": 902,
+  "title": "Les animaux marins",
+  "author": "Llanos Navalón Yeste",
+  "date": "11/12/02",
+  "languages": {
+    "en": "French",
+    "ca": "francès",
+    "es": "francés"
+  },
+  "langCodes": [
+    "fr"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales",
+    "en": "Experimental sciences"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "zoologia",
+    "es": "zoología",
+    "en": "zoology"
+  },
+  "descCodes": [
+    108
+  ],
+  "description": {
+    "en": "Clic activities in French about the names of marine animals: \n<i>crabe, thon, étoile de mer, hippocampe, requin, pieuvre, sardine, dauphin, moules, anguille</i>.",
+    "ca": "Paquet d'activitats per a l'aprenentatge de vocabulari en llengua francesa sobre els animals marins: \n<i>crabe, thon, étoile de mer, hippocampe, requin, pieuvre, sardine, dauphin, moules, anguille</i>.",
+    "es": "Paquete de actividades para el aprendizaje de vocabulario en lengua francesa sobre los animales marinos: \n<i>crabe, thon, étoile de mer, hippocampe, requin, pieuvre, sardine, dauphin, moules, anguille</i>."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "urtarrak"
+  ],
+  "mainFile": "jclic.js/a_marins.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/a_marins.jclic.zip",
+  "instFile": "jclic/a_marins.jclic.inst",
+  "clicZoneId": 2017,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2017",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/a_marins/jclic/a_marins.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 31,
+  "mediaFiles": 44,
+  "totalSize": 1665054,
+  "files": [
+    "cover.gif",
+    "jclic.js/a_marins.jclic",
+    "jclic.js/anguilaw.jpg",
+    "jclic.js/anguillb.jpg",
+    "jclic.js/anguille.jpg",
+    "jclic.js/anguille.wav",
+    "jclic.js/atun.jpg",
+    "jclic.js/caballo.jpg",
+    "jclic.js/cangrejo.jpg",
+    "jclic.js/crabe.jpg",
+    "jclic.js/crabe.wav",
+    "jclic.js/crabeb.jpg",
+    "jclic.js/dauphin.jpg",
+    "jclic.js/dauphin.wav",
+    "jclic.js/dauphinb.jpg",
+    "jclic.js/delf_n.jpg",
+    "jclic.js/estrella.jpg",
+    "jclic.js/etoile.jpg",
+    "jclic.js/etoile.wav",
+    "jclic.js/etoileb.jpg",
+    "jclic.js/findelfi.jpg",
+    "jclic.js/fonesc7.jpg",
+    "jclic.js/hippo.jpg",
+    "jclic.js/hippo.wav",
+    "jclic.js/hippob.jpg",
+    "jclic.js/mar.wav",
+    "jclic.js/meji.jpg",
+    "jclic.js/moule.wav",
+    "jclic.js/moules.jpg",
+    "jclic.js/moulesb.jpg",
+    "jclic.js/pieuvre.jpg",
+    "jclic.js/pieuvre.wav",
+    "jclic.js/pieuvreb.jpg",
+    "jclic.js/ptdelfin.jpg",
+    "jclic.js/pulpo.jpg",
+    "jclic.js/requin.jpg",
+    "jclic.js/requin.wav",
+    "jclic.js/requinb.jpg",
+    "jclic.js/sardina.jpg",
+    "jclic.js/sardine.jpg",
+    "jclic.js/sardine.wav",
+    "jclic.js/sardineb.jpg",
+    "jclic.js/thon.jpg",
+    "jclic.js/thon.wav",
+    "jclic.js/thonb.jpg",
+    "jclic.js/tiburon.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/a_marins.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

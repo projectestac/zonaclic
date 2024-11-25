@@ -1,0 +1,95 @@
+{
+  "id": 751,
+  "title": "Què saps de Granollers?",
+  "author": "Pau Córdoba",
+  "school": "C Escola Pia de Granollers Granollers (Vallès Oriental)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geografia, història, Vallès Oriental",
+    "es": "geografía, historia, Vallès Oriental",
+    "en": "geography, history, Vallès Oriental"
+  },
+  "descCodes": [
+    235,
+    246,
+    605
+  ],
+  "description": {
+    "en": "Activities about the province of Vallès Oriental. Meet the most representative buildings in the capital of this province.",
+    "ca": "Activitats per a conèixer la història i els edificis més representatius de la capital del Vallès Oriental.",
+    "es": "Actividades para conocer la historia y los edificios más representativos de la capital del Vallès Oriental."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/granolle.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/granolle.jclic.zip",
+  "instFile": "jclic/granolle.jclic.inst",
+  "clicZoneId": 1408,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1408",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/granolle/jclic/granolle.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 13,
+  "totalSize": 225377,
+  "files": [
+    "cover.jpg",
+    "jclic.js/ajuntam.jpg",
+    "jclic.js/capstana.jpg",
+    "jclic.js/escut2.jpg",
+    "jclic.js/facana.jpg",
+    "jclic.js/granolle.jclic",
+    "jclic.js/graplano.gif",
+    "jclic.js/moltbe.gif",
+    "jclic.js/porchad1.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/porxada1.jpg",
+    "jclic.js/porxada3.jpg",
+    "jclic.js/stespera.jpg",
+    "jclic.js/stesteve.jpg",
+    "jclic.js/stmetges.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/granolle.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

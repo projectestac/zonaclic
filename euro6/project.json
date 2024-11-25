@@ -1,0 +1,129 @@
+{
+  "id": 700,
+  "title": "El Euro",
+  "author": "Pilar Suárez Martínez",
+  "school": "CEIP EUROPA La Pedraja de Portillo (Castilla y León)",
+  "date": "29/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "UE, aritmètica",
+    "es": "UE, aritmética",
+    "en": "EU, Arithmetic"
+  },
+  "descCodes": [
+    356,
+    701
+  ],
+  "description": {
+    "en": "Package of 63 activities about the Euro: \n<ul> \n <li>General information about the Euro </li>\n <li>Information about coins. </li>\n <li>Information about bills. </li>\n <li>Euro's countries </li>\n <li>Activities about coins and bills. </li>\n</ul>",
+    "ca": "Paquet de 63 activitats sobre l'Euro i els països de l'Euro. L'aplicació conté 6 blocs diferents: \n<ul> \n <li>Informació general de l'Euro. </li>\n <li>Informació monedes. </li>\n <li>Informació bitllets. </li>\n <li>Països de l'Euro. </li>\n <li>Activitats de monedes i bitllets. </li>\n <li>Problemes amb Euros. </li>\n</ul>",
+    "es": "Paquete de 63 actividades sobre el euro y países del Euro. La aplicación contiene 6 bloques diferentes: \n<ul> \n <li>Información general sobre el Euro. </li>\n <li>Información monedas. </li>\n <li>Información billetes. </li>\n <li>Países del Euro. </li>\n <li>Actividades monedas y billetes. </li>\n <li>Problemas Euro. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/euro6.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/euro6.jclic.zip",
+  "instFile": "jclic/euro6.jclic.inst",
+  "clicZoneId": 1367,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1367",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/euro6/jclic/euro6.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 61,
+  "mediaFiles": 48,
+  "totalSize": 1180889,
+  "files": [
+    "cover.gif",
+    "jclic.js/100e.gif",
+    "jclic.js/10ce.gif",
+    "jclic.js/10cem.gif",
+    "jclic.js/10e.gif",
+    "jclic.js/1ceb.gif",
+    "jclic.js/1e.gif",
+    "jclic.js/1em.gif",
+    "jclic.js/200e.gif",
+    "jclic.js/20ce.gif",
+    "jclic.js/20cem.gif",
+    "jclic.js/20e.gif",
+    "jclic.js/2ce.gif",
+    "jclic.js/2e.gif",
+    "jclic.js/2em.gif",
+    "jclic.js/500e.gif",
+    "jclic.js/50ce.gif",
+    "jclic.js/50cem.gif",
+    "jclic.js/50e.gif",
+    "jclic.js/5ce.gif",
+    "jclic.js/5cem.gif",
+    "jclic.js/5e.gif",
+    "jclic.js/bloc.gif",
+    "jclic.js/brujula.gif",
+    "jclic.js/euro6.jclic",
+    "jclic.js/europa.gif",
+    "jclic.js/fondog_1.gif",
+    "jclic.js/gafas.gif",
+    "jclic.js/jaja.gif",
+    "jclic.js/m1.gif",
+    "jclic.js/m102050.gif",
+    "jclic.js/m2.gif",
+    "jclic.js/m3.gif",
+    "jclic.js/m4.gif",
+    "jclic.js/m5.gif",
+    "jclic.js/m6.gif",
+    "jclic.js/mapa.gif",
+    "jclic.js/mapae.gif",
+    "jclic.js/menu3.gif",
+    "jclic.js/mochila.gif",
+    "jclic.js/mon125.gif",
+    "jclic.js/monedas.gif",
+    "jclic.js/portada2.gif",
+    "jclic.js/pris.gif",
+    "jclic.js/redond_1.gif",
+    "jclic.js/regadera.gif",
+    "jclic.js/simlog_1.gif",
+    "jclic.js/tosta.gif",
+    "jclic.js/vill2.gif",
+    "jclic.js/yuu.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/euro6.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

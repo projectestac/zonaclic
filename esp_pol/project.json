@@ -1,0 +1,94 @@
+{
+  "id": 2491,
+  "title": "España política",
+  "author": "Antonio González jiménez",
+  "school": "CEIP Cándido Nogales Jaén",
+  "date": "09/03/17",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "estat, geografia política",
+    "es": "estado, geografía política",
+    "en": "state, political geography"
+  },
+  "descCodes": [
+    217,
+    239
+  ],
+  "description": {
+    "en": "Activities about population, production sectors and political organization of Spain, based on the text \"Environment knowledge\" - project Mundo Agua (Water World). Alhucemas editorial - Edelvives 6th levels of Primary education.",
+    "ca": "Activitats sobre la població, sectors de producció i l'organització política d'Espanya, basats en el text \"Coneixement del medi\" - Projecte Món Aigua. Editorial Alhucemas - Edelvives de 6è de Primària",
+    "es": "Actividades sobre la población, sectores de producción y la organización política de España, basados en el texto \"Conocimiento del medio\" - Proyecto mundo Agua. Editorial Alhucemas - Edelvives de 6º de Primaria"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/esp_pol.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/esp_pol.jclic.zip",
+  "instFile": "jclic/esp_pol.jclic.inst",
+  "clicZoneId": 4000,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=4000",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/esp_pol/jclic/esp_pol.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 14,
+  "totalSize": 1010544,
+  "files": [
+    "cover.png",
+    "jclic.js/division_de_poderes_sin_nombres.jpg",
+    "jclic.js/esp_pol.jclic",
+    "jclic.js/esp_pol.jclic.js",
+    "jclic.js/mapa_mudo_de_aragon.gif",
+    "jclic.js/mapa_mudo_de_autonomias.jpg",
+    "jclic.js/mapa_mudo_de_c._valenciana.gif",
+    "jclic.js/mapa_mudo_de_canarias.png",
+    "jclic.js/mapa_mudo_de_castilla_la_mancha.jpg",
+    "jclic.js/mapa_mudo_de_castilla_leon.gif",
+    "jclic.js/mapa_mudo_de_cataluna.gif",
+    "jclic.js/mapa_mudo_de_extremadura.gif",
+    "jclic.js/mapa_mudo_de_galicia.gif",
+    "jclic.js/mapa_mudo_de_pais_vasco.gif",
+    "jclic.js/mapa_mudo_de_provincias_de_andalucia.jpg",
+    "jclic.js/titulo.jpg",
+    "jclic.js/titulo___t._8.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

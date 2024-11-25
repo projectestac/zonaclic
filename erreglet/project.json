@@ -1,0 +1,141 @@
+{
+  "id": 569,
+  "title": "Regletes Cuisènaire",
+  "author": "Miren Garralda",
+  "school": "Escola Mas Casanovas Barcelona",
+  "date": "25/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aritmètica, fonaments de les matemàtiques",
+    "es": "aritmética, fundamentos de las matemáticas",
+    "en": "Arithmetic, foundations of the mathematics"
+  },
+  "descCodes": [
+    701,
+    707
+  ],
+  "description": {
+    "en": "Activity pack based on the Cuisènaire rules: Ordering, sum, complementarities and numerical equivalences.",
+    "ca": "En aquest paquet d'activitats es plantegen diferents exercicis amb les regletes Cuisènaire: ordenació, suma, complementarietat i equivalències numèriques.",
+    "es": "En este paquete de actividades se plantean distintos ejercicios con las regletas Cuisènaire: ordenación, suma, complementariedad y equivalencias numéricas."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "reglega",
+    "regleta",
+    "regletas"
+  ],
+  "mainFile": "jclic.js/erreglet.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/erreglet.jclic.zip",
+  "instFile": "jclic/erreglet.jclic.inst",
+  "clicZoneId": 1316,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1316",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/erreglet/jclic/erreglet.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 56,
+  "totalSize": 264909,
+  "files": [
+    "cover.gif",
+    "jclic.js/10naranj.gif",
+    "jclic.js/1blanco.gif",
+    "jclic.js/2rojo.gif",
+    "jclic.js/2tit5.gif",
+    "jclic.js/3tit5.gif",
+    "jclic.js/3verde.gif",
+    "jclic.js/4rosa.gif",
+    "jclic.js/4tit5.gif",
+    "jclic.js/5groc.gif",
+    "jclic.js/5tit5.gif",
+    "jclic.js/6tit5.gif",
+    "jclic.js/6verde.gif",
+    "jclic.js/7negro.gif",
+    "jclic.js/7tit5.gif",
+    "jclic.js/8marron.gif",
+    "jclic.js/8tit5.gif",
+    "jclic.js/9azul.gif",
+    "jclic.js/9tit5.gif",
+    "jclic.js/azul9.gif",
+    "jclic.js/cincoi1.gif",
+    "jclic.js/cuatroi1.gif",
+    "jclic.js/dosi1.gif",
+    "jclic.js/erreglet.jclic",
+    "jclic.js/grae5f.gif",
+    "jclic.js/grae5fb.gif",
+    "jclic.js/groc5.gif",
+    "jclic.js/marron8.gif",
+    "jclic.js/naranj10.gif",
+    "jclic.js/negro7.gif",
+    "jclic.js/ochoi1.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/r1i1.gif",
+    "jclic.js/r2i1.gif",
+    "jclic.js/r3i1.gif",
+    "jclic.js/r4i1.gif",
+    "jclic.js/r5i1.gif",
+    "jclic.js/r6i1.gif",
+    "jclic.js/r7i1.gif",
+    "jclic.js/r8i1.gif",
+    "jclic.js/r9i1.gif",
+    "jclic.js/rojo2.gif",
+    "jclic.js/rosa4.gif",
+    "jclic.js/seisi1.gif",
+    "jclic.js/sietei1.gif",
+    "jclic.js/tit1.gif",
+    "jclic.js/tit2.gif",
+    "jclic.js/tit3.gif",
+    "jclic.js/tit4.gif",
+    "jclic.js/tit5.gif",
+    "jclic.js/tit6.gif",
+    "jclic.js/tit7.gif",
+    "jclic.js/tit8.gif",
+    "jclic.js/tresi1.gif",
+    "jclic.js/unoi1.gif",
+    "jclic.js/varios1.gif",
+    "jclic.js/verde3.gif",
+    "jclic.js/verde6.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/erreglet.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

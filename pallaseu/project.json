@@ -1,0 +1,115 @@
+{
+  "id": 882,
+  "title": "Pailasoak",
+  "author": "Francisco Salcedo Torres",
+  "school": "CEIP Montroi Montroi (Ribera Alta)",
+  "date": "10/11/03",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "ca": "Diversos",
+    "es": "Diversos",
+    "en": "Miscellaneous"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)",
+    "en": "Kindergarten (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "description": {
+    "en": "Package of activities with jigsaws, pairing shapes, paring their shadows and distinguish what element is different in a group.",
+    "ca": "Paquet amb activitats de trencaclosques, d'aparellar imatges iguals, d'aparellar amb les respectives ombres, i de discriminar el diferent dins un grup.",
+    "es": "Paquete de actividades de rompecabezas, de emparejar imágenes iguales, de emparejar con las respectivas sombras y de discriminar el objeto diferente en un grupo."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "pallasso"
+  ],
+  "mainFile": "jclic.js/pallaseu.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pallaseu.jclic.zip",
+  "instFile": "jclic/pallaseu.jclic.inst",
+  "clicZoneId": 2009,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2009",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pallaseu/jclic/pallaseu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 41,
+  "totalSize": 1159541,
+  "files": [
+    "cover.gif",
+    "jclic.js/aplauso1.wav",
+    "jclic.js/arg_clown0.avi",
+    "jclic.js/beso.avi",
+    "jclic.js/bpeu.gif",
+    "jclic.js/bpino.gif",
+    "jclic.js/btromp_1.gif",
+    "jclic.js/bufesd.gif",
+    "jclic.js/bufesd1.gif",
+    "jclic.js/bufesd2.gif",
+    "jclic.js/cap2.gif",
+    "jclic.js/cap2v.gif",
+    "jclic.js/cap3.gif",
+    "jclic.js/cap4.gif",
+    "jclic.js/cap4r.gif",
+    "jclic.js/cap5.gif",
+    "jclic.js/corbata.gif",
+    "jclic.js/corneta.gif",
+    "jclic.js/corneta2.gif",
+    "jclic.js/cornetar.gif",
+    "jclic.js/cornetav.gif",
+    "jclic.js/fin1.gif",
+    "jclic.js/flors.avi",
+    "jclic.js/hola.avi",
+    "jclic.js/holabe.mpg",
+    "jclic.js/nbufese.gif",
+    "jclic.js/npeu.gif",
+    "jclic.js/npeu1.gif",
+    "jclic.js/npino.gif",
+    "jclic.js/npino2.gif",
+    "jclic.js/ntrom.gif",
+    "jclic.js/ntrompet.gif",
+    "jclic.js/pallaseu.jclic",
+    "jclic.js/petardo.gif",
+    "jclic.js/peu.gif",
+    "jclic.js/peu1.gif",
+    "jclic.js/pino.gif",
+    "jclic.js/pino2.gif",
+    "jclic.js/presen_1.gif",
+    "jclic.js/trompe_1.gif",
+    "jclic.js/trompeta.gif",
+    "jclic.js/trompetr.gif",
+    "jclic.js/trompetv.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pallaseu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

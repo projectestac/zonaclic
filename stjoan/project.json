@@ -1,0 +1,94 @@
+{
+  "id": 2258,
+  "title": "La coca de Sant Joan",
+  "author": "Maria Torres Español",
+  "school": "Escola Gaspar de Portolà Balaguer (Noguera)",
+  "date": "15/06/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences, Miscellaneous",
+    "ca": "Ciències socials, Diversos",
+    "es": "Ciencias sociales, Diversos"
+  },
+  "areaCodes": [
+    "soc",
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "folklore, Sant Joan",
+    "es": "folklore, San Juan",
+    "en": "folklore, Saint John"
+  },
+  "descCodes": [
+    804,
+    1435
+  ],
+  "description": {
+    "en": "Project of activities where from our traditions, children learn the vocabulary about the festival of San Juan and the beginning of summer. The project is divided into three parts: \n<ul> \n <li>Puzzles </li>\n <li>Associations </li>\n <li>Memory games </li>\n</ul>",
+    "ca": "Projecte d'activitats JClic on partint de les nostres tradicions, treballem el vocabulari de les festes de Sant Joan i l'inici de l'estiu. El treball està distribuït en tres parts: \n<ul> \n <li>trencaclosques </li>\n <li>associacions </li>\n <li>jocs de memòria </li>\n</ul>",
+    "es": "Proyecto de actividades JClic donde partiendo de nuestras tradiciones, trabajamos el vocabulario de las fiestas de San Juan y el inicio del verano. El trabajo está distribuido en tres partes:\n<ul> \n <li>rompecabezas </li>\n <li>asociaciones </li>\n <li>juegos de memoria </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/stjoan.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/stjoan.jclic.zip",
+  "instFile": "jclic/stjoan.jclic.inst",
+  "clicZoneId": 3776,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3776",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/stjoan/jclic/stjoan.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 13,
+  "totalSize": 1185424,
+  "files": [
+    "cover.jpg",
+    "jclic.js/041_coca_de_sant_joan_1.jpg",
+    "jclic.js/coca_amb_correu.jpg",
+    "jclic.js/coca_crema_cireres_resized.jpg",
+    "jclic.js/coca_de_san_juan.jpg",
+    "jclic.js/coca_de_sempre_600.jpg",
+    "jclic.js/coca_de_sempre_resized.jpg",
+    "jclic.js/coca_sant_joan_600.jpg",
+    "jclic.js/fireworks_resized.jpg",
+    "jclic.js/foguera2.jpg",
+    "jclic.js/hoguera_san_juan.jpg",
+    "jclic.js/img_9630_thumb_2_.jpg",
+    "jclic.js/nen_per_sant_joan.jpg",
+    "jclic.js/petardos.jpg",
+    "jclic.js/stjoan.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/stjoan.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": 771,
+  "title": "Els rius de Catalunya",
+  "author": "M. Teresa Grau Algarra",
+  "school": "C Escola Pia de Sarrià-Calassanç Barcelona",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "recurs natural, geografia física, Catalunya",
+    "es": "recurso natural, geografía física, Cataluña",
+    "en": "natural resource, physical geography, Catalonia"
+  },
+  "descCodes": [
+    98,
+    237,
+    487
+  ],
+  "description": {
+    "en": "Activities about the main rivers in Catalunya. Divided by region: Meditarreneous, Ebro and the Pyrenees.",
+    "ca": "En aquest paquet s'hi treballen els noms i la localització en el mapa dels principals rius i afluents de les tres xarxes hidrogràfiques de Catalunya: Mediterrània, Ebre i Pirineus mediterranis.",
+    "es": "En este paquete se trabajan los nombres y la localización en el mapa de los principales ríos y afluentes de las tres redes hidrográficas de Cataluña: Mediterránea, Ebro y Pirineo mediterráneo."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/rius.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/rius.jclic.zip",
+  "instFile": "jclic/rius.jclic.inst",
+  "clicZoneId": 1421,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1421",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/rius/jclic/rius.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 8,
+  "totalSize": 499277,
+  "files": [
+    "cover.jpg",
+    "jclic.js/imape.jpg",
+    "jclic.js/imapm.jpg",
+    "jclic.js/imappm.jpg",
+    "jclic.js/mapxa4.jpg",
+    "jclic.js/rius.jclic",
+    "jclic.js/smape.jpg",
+    "jclic.js/smapm.jpg",
+    "jclic.js/smappm.jpg",
+    "jclic.js/tapa2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/rius.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

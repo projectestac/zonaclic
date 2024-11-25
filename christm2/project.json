@@ -1,0 +1,121 @@
+{
+  "id": 2283,
+  "title": "Christmas time II",
+  "author": "Elena González Alonso",
+  "school": "IES Aramo Oviedo (Asturias)",
+  "date": "20/12/12",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, llengua anglesa, nadal",
+    "es": "lengua inglesa, lengua inglesa, navidad",
+    "en": "English language, English language, christmas"
+  },
+  "descCodes": [
+    130,
+    667,
+    882
+  ],
+  "description": {
+    "en": "JClic activities about Christmas: \n<ul> \n <li>Traditions </li>\n <li>Dates to the celebrations </li>\n <li>Vocabulary </li>\n</ul>",
+    "ca": "Projecte d'activitats JClic sobre el Nadal en anglès: \n<ul> \n <li>Tradicions </li>\n <li>Dates de celebració </li>\n <li>Vocabulari </li>\n</ul>",
+    "es": "Proyecto de actividades JClic sobre la Navidad en inglés: \n<ul> \n <li>Tradiciones </li>\n <li>Fechas de celebración </li>\n <li>Vocabulario </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/christm2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/christm2.jclic.zip",
+  "instFile": "jclic/christm2.jclic.inst",
+  "clicZoneId": 3797,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3797",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/christm2/jclic/christm2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 40,
+  "totalSize": 1743544,
+  "files": [
+    "cover.png",
+    "jclic.js/24th_december.jpg",
+    "jclic.js/25th_december.gif",
+    "jclic.js/acierto_ascendente.wav",
+    "jclic.js/bedtime_6.jpg",
+    "jclic.js/boxing_day.jpg",
+    "jclic.js/candles.gif",
+    "jclic.js/cane.gif",
+    "jclic.js/carols.gif",
+    "jclic.js/christm2.jclic",
+    "jclic.js/christmas_greetings.jpg",
+    "jclic.js/christmasstree_3.png",
+    "jclic.js/click.wav",
+    "jclic.js/crackers.jpg",
+    "jclic.js/crackers_3.jpg",
+    "jclic.js/decorations.gif",
+    "jclic.js/design_3_resized.jpg",
+    "jclic.js/elf.gif",
+    "jclic.js/error.wav",
+    "jclic.js/fireplace.gif",
+    "jclic.js/happy_2013.jpg",
+    "jclic.js/holly.gif",
+    "jclic.js/holly_2.jpg",
+    "jclic.js/mistletoe.gif",
+    "jclic.js/mistletoe_3.jpg",
+    "jclic.js/new_year_s_day.png",
+    "jclic.js/new_year_s_eve.jpg",
+    "jclic.js/pantomime_xmas.jpg",
+    "jclic.js/presents_4.gif",
+    "jclic.js/reindeer.gif",
+    "jclic.js/risa_santaclaus.wav",
+    "jclic.js/santa_s_gif.gif",
+    "jclic.js/santa_s_gif_3.gif",
+    "jclic.js/shopping_2.png",
+    "jclic.js/snowman2.gif",
+    "jclic.js/stocking.gif",
+    "jclic.js/wreath.gif",
+    "jclic.js/xmas_dinner.jpg",
+    "jclic.js/xmas_time_3.png",
+    "jclic.js/xmas_time_4.jpg",
+    "jclic.js/xmas_time_5.jpg",
+    "jclic.js/xmas_tree.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/christm2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

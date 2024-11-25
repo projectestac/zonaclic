@@ -1,0 +1,82 @@
+{
+  "id": 1523,
+  "title": "L'alfabet 2",
+  "author": "Catalina Homar Florit, Ferran Casbas, Francisca Giner i Margalida Pons",
+  "school": "CP Sant Bartomeu Alaró (Mallorca)",
+  "date": "16/01/06",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua catalana, alfabet",
+    "es": "aprendizaje de la lengua, lengua catalana, alfabeto",
+    "en": "learning of the language, Catalan language, alphabet"
+  },
+  "descCodes": [
+    110,
+    133,
+    950
+  ],
+  "description": {
+    "en": "A project sent by Francisca Giner, Catalina Homar, Margalida Pons and Ferran Casbas addressed to primary education about the alphabet and the alphabetical order.",
+    "ca": "Dos paquets d'activitats per a 3r i 4t de primària que comencen treballant el nom de les lletres i el seu ordre a l'alfabet, per a continuació ordenar paraules que comencin per lletres diferents i anar augmentant el grau de dificultat fins ordenar paraules de la mateixa família.",
+    "es": "Dos paquetes de actividades para 3º y 4º de primaria que empiezan trabajando el nombre de las letras y su orden en el abecedario, para a continuación ordenar palabras que empiecen por letras diferentes e ir aumentando el grado de dificultad hasta ordenar palabras de la misma familia."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/alfabet2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/alfabet2.jclic.zip",
+  "instFile": "jclic/alfabet2.jclic.inst",
+  "clicZoneId": 3251,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3251",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/alfabet2/jclic/alfabet2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 38,
+  "mediaFiles": 1,
+  "totalSize": 320683,
+  "files": [
+    "cover.jpg",
+    "jclic.js/alfabet2.jclic",
+    "jclic.js/blocks.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/alfabet2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

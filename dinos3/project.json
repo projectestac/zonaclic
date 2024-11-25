@@ -1,0 +1,121 @@
+{
+  "id": 1710,
+  "title": "Coneixem els dinosaures",
+  "author": "Isabel Massó",
+  "school": "Escola Andreu Castells Sabadell (Vallès Occidental)",
+  "date": "31/10/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "prehistòria, animals, dinosaures",
+    "es": "prehistoria, animales, dinosaurios",
+    "en": "prehistory, animales, dinosaurs"
+  },
+  "descCodes": [
+    314,
+    1160,
+    1381
+  ],
+  "description": {
+    "en": "Project of activities prepared as a working complement for the projects performed at the classroom \n<br> The package of activities contains association and exploration activities, puzzles ... all of them are addressed to learn the most known dinosaur's names like \n<i> Rex </i>, \n<i> Brontosaur </i>, \n<i> Tryceratops</i>, \n<i>Pterodactyl </i>... and also learn its parts.",
+    "ca": "Projecte d'activitats realitzat com a complement del treball per projectes que es realitza a l'aula.\n<br> El projecte té activitats d'associació, d'exploració, trencaclosques... totes elles adreçades a treballar els noms dels dinosaures més coneguts com el \n<i>Rex</i>, el \n<i>Brontosaure</i>, el \n<i>Triceratops</i>, el \n<i>Pterodactil</i>... així com les seves parts.",
+    "es": "Proyecto de actividades realizado como complemento del trabajo por proyectos que se realiza en el aula.\n<br> El paquete de actividades contiene actividades de asociación, exploración, rompecabezas... todas ellas dirigidas a trabajar los nombres de los dinosaurios más conocidos como el \n<i>Rex</i>, el \n<i>Brontosaure</i>, el \n<i>Triceratops</i>, el \n<i>Pterodactil</i>... así como sus partes."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/dinos3.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/dinos3.jclic.zip",
+  "instFile": "jclic/dinos3.jclic.inst",
+  "clicZoneId": 3419,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3419",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/dinos3/jclic/dinos3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 40,
+  "totalSize": 1399816,
+  "files": [
+    "cover.jpg",
+    "jclic.js/ankiosaurus2.jpg",
+    "jclic.js/brachiosaurus2.jpg",
+    "jclic.js/carn1.jpg",
+    "jclic.js/cocodril2.jpg",
+    "jclic.js/dent.jpg",
+    "jclic.js/dino.gif",
+    "jclic.js/dino23.gif",
+    "jclic.js/dinos3.jclic",
+    "jclic.js/europasaurus2.jpg",
+    "jclic.js/gorila2.jpg",
+    "jclic.js/gos2.jpg",
+    "jclic.js/granota2.jpg",
+    "jclic.js/herba1.jpg",
+    "jclic.js/microraptor2.jpg",
+    "jclic.js/mvc_865s.jpg",
+    "jclic.js/mvc_867s.jpg",
+    "jclic.js/mvc_868s.jpg",
+    "jclic.js/mvc_869s.jpg",
+    "jclic.js/mvc_870s.jpg",
+    "jclic.js/mvc_871s.jpg",
+    "jclic.js/mvc_873s.jpg",
+    "jclic.js/mvc_874s.jpg",
+    "jclic.js/mvc_875s.jpg",
+    "jclic.js/mvc_876s.jpg",
+    "jclic.js/no_dino.jpg",
+    "jclic.js/ou.jpg",
+    "jclic.js/peix2.jpg",
+    "jclic.js/petjades.jpg",
+    "jclic.js/portada1.jpg",
+    "jclic.js/raptor2.jpg",
+    "jclic.js/rex.jpg",
+    "jclic.js/rex3.jpg",
+    "jclic.js/serp.jpg",
+    "jclic.js/smile1.jpg",
+    "jclic.js/smile2.jpg",
+    "jclic.js/smile3.jpg",
+    "jclic.js/smile4.jpg",
+    "jclic.js/smile5.jpg",
+    "jclic.js/stegosaurus2.jpg",
+    "jclic.js/triceratops2.jpg",
+    "jclic.js/vertebra.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/dinos3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

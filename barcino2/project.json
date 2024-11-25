@@ -1,0 +1,81 @@
+{
+  "id": 2527,
+  "title": "Barcino",
+  "author": "Ana Juez Balaguer",
+  "date": "11/06/17",
+  "langCodes": [
+    "es"
+  ],
+  "languages": {
+    "ca": "espanyol",
+    "es": "español",
+    "en": "Spanish"
+  },
+  "areaCodes": [
+    "soc",
+    "div"
+  ],
+  "areas": {
+    "ca": "Ciències socials, Diversos",
+    "es": "Ciencias sociales, Diversos",
+    "en": "Social sciences, Miscellaneous"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "description": {
+    "ca": "Aquest projecte tracta sobre la Barcelona romana. Consta d'activitats de memorització i de relació amb imatges de monuments de l'antiga Barcino.",
+    "es": "Este prpyecto trata sobre la Barecelona romana. Consta de actividades de memorización y de relación con imágenes de monumentos de la antigua Barcino.",
+    "en": "This project is about the roman Barcelona. Consists of memorizing and relation activities with images of monuments of Barcino."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "cover": "barcino2.png",
+  "coverWebp": "barcino2.webp",
+  "thumbnail": "barcino2100.png",
+  "mainFile": "jclic.js/barcino2.jclic",
+  "activities": 8,
+  "mediaFiles": 18,
+  "totalSize": 1105644,
+  "instFile": "jclic/barcino2.jclic.inst",
+  "zipFile": "jclic/barcino2.jclic.zip",
+  "files": [
+    "barcino2.png",
+    "barcino2100.png",
+    "jclic.js/acueducto-barcino-resized.jpg",
+    "jclic.js/agbar.jpg",
+    "jclic.js/barcino-resized.jpg",
+    "jclic.js/barcino2.jclic",
+    "jclic.js/barcino2.jclic.js",
+    "jclic.js/barcino_plano.jpg",
+    "jclic.js/camp_nou.jpg",
+    "jclic.js/catedral-barcelona-fb-001-resized.jpg",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/necro-resized.jpg",
+    "jclic.js/parc.jpg",
+    "jclic.js/paseo-muralla-romana-barcino.jpg",
+    "jclic.js/pedrera_visor2_22.jpg",
+    "jclic.js/sagrada_familia_01.jpg",
+    "jclic.js/temploaugusto-resized.jpg",
+    "jclic.js/termas-romanas-300x199.jpg",
+    "project.json",
+    "barcino2.webp"
+  ]
+}

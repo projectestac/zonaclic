@@ -1,0 +1,135 @@
+{
+  "id": 1735,
+  "title": "Art al carrer",
+  "author": "Laura Bartrons Caminal",
+  "school": "CRP La Selva II Blanes (Selva)",
+  "date": "04/02/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "arquitectura, escultura, Blanes",
+    "es": "arquitectura, escultura, Blanes",
+    "en": "architecture, sculpture, Blanes"
+  },
+  "descCodes": [
+    2,
+    37,
+    1385
+  ],
+  "description": {
+    "en": "Project of activities about the sculptures of Blanes and its authors. This activity is a part of a didactic web page about Blanes: \n<a href=\"http://www.xtec.cat/~lbartron/\">\"L'art al carrer. Itinerari didàctic per les escultures de Blanes\"</a>",
+    "ca": "Projecte d'activitats sobre les escultures de Blanes, els seus autors i personatges emblemàtics de la vila.\n<p> Forma part d'una web molt més àmplia, <a href=\"http://www.xtec.cat/~lbartron/\">\"L'art al carrer. Itinerari didàctic per les escultures de Blanes\"</a>, amb propostes de diferents àrees del currículum a partir de l'element motivador de l'art al carrer. </p>",
+    "es": "Proyecto de actividades sobre las esculturas de Blanes, los autores y personajes emblemáticos del pueblo. \n<p> Forma parte de una web mucho más amplia, <a href=\"http://www.xtec.cat/~lbartron/\">\"L'art al carrer. Itinerari didàctic per les escultures de Blanes\"</a>, con propuestas de diferentes áreas del currículum a partir del elemento motivador del arte en la calle. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/blanes.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/blanes.jclic.zip",
+  "instFile": "jclic/blanes.jclic.inst",
+  "clicZoneId": 3437,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3437",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/blanes/jclic/blanes.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 54,
+  "totalSize": 1851879,
+  "files": [
+    "cover.gif",
+    "jclic.js/adeu.gif",
+    "jclic.js/agermanament.jpg",
+    "jclic.js/agermanament.mp3",
+    "jclic.js/agermanament_jpg_jpg_jpg.jpg",
+    "jclic.js/akfaust.mp3",
+    "jclic.js/altaveu.jpg",
+    "jclic.js/aruyra.jpg",
+    "jclic.js/aruyra_jpg_jpg_jpg.jpg",
+    "jclic.js/avi.jpg",
+    "jclic.js/avibague_jpg_jpg_jpg.jpg",
+    "jclic.js/bague.mp3",
+    "jclic.js/blanes.jclic",
+    "jclic.js/carlfaust.mp3",
+    "jclic.js/coixi.mp3",
+    "jclic.js/estel.mp3",
+    "jclic.js/estel_jpg_jpg_jpg.jpg",
+    "jclic.js/faust.gif",
+    "jclic.js/faust.jpg",
+    "jclic.js/faust_jpg_jpg.jpg",
+    "jclic.js/focs.jpg",
+    "jclic.js/focs.mp3",
+    "jclic.js/focs_jpg_jpg_jpg.jpg",
+    "jclic.js/font.mp3",
+    "jclic.js/font_gotica.jpg",
+    "jclic.js/fontgotica_jpg_jpg_jpg.jpg",
+    "jclic.js/homenatge.mp3",
+    "jclic.js/homenatge_jpg_jpg_jpg.jpg",
+    "jclic.js/itinerari.mp3",
+    "jclic.js/joaquimruyra.mp3",
+    "jclic.js/junceda.jpg",
+    "jclic.js/llavor.jpg",
+    "jclic.js/llavor.mp3",
+    "jclic.js/llavor_jpg_jpg_jpg.jpg",
+    "jclic.js/planells.jpg",
+    "jclic.js/porta.jpg",
+    "jclic.js/porta.mp3",
+    "jclic.js/portada.gif",
+    "jclic.js/portal_jpg_jpg_jpg.jpg",
+    "jclic.js/pun.mp3",
+    "jclic.js/puntaire.jpg",
+    "jclic.js/puntaire_jpg_jpg_jpg.jpg",
+    "jclic.js/puntaires.mp3",
+    "jclic.js/rem34.mp3",
+    "jclic.js/ruyra.jpg",
+    "jclic.js/ruyra_jpg_jpg_jpg.jpg",
+    "jclic.js/ruyrainterior2.jpg",
+    "jclic.js/sardan.mp3",
+    "jclic.js/sardanista_jpg_jpg_jpg.jpg",
+    "jclic.js/sillo.jpg",
+    "jclic.js/sillo.mp3",
+    "jclic.js/sillo_jpg_jpg_jpg.jpg",
+    "jclic.js/solidaritat.jpg",
+    "jclic.js/unio.jpg",
+    "jclic.js/unio.mp3",
+    "jclic.js/unio_jpg_jpg_jpg.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/blanes.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": 1401,
+  "title": "Activitats d'energies alternatives",
+  "author": "M. Teresa Montalvà Bosch",
+  "school": "CEFIRE d'Alzira Alzira (Ribera Alta)",
+  "date": "13/09/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "energia",
+    "es": "energía",
+    "en": "energy"
+  },
+  "descCodes": [
+    68
+  ],
+  "description": {
+    "en": "Package of activities about the most important renewable energies.",
+    "ca": "Paquet d'activitats que vol donar a conèixer els elements i tipus de centrals energètiques relacionades amb les energies renovables més importants.",
+    "es": "Paquete de actividades que quiere dar a conocer los elementos y tipos de centrales energéticas relacionadas con las energías renovables más importantes."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ealterna.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ealterna.jclic.zip",
+  "instFile": "jclic/ealterna.jclic.inst",
+  "clicZoneId": 3137,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3137",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ealterna/jclic/ealterna.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 13,
+  "totalSize": 790902,
+  "files": [
+    "cover.jpg",
+    "jclic.js/aerogene.gif",
+    "jclic.js/aerogif.gif",
+    "jclic.js/censolar.gif",
+    "jclic.js/colector.gif",
+    "jclic.js/ealterna.jclic",
+    "jclic.js/esqsolar.gif",
+    "jclic.js/geoterm1.gif",
+    "jclic.js/geoterm2.gif",
+    "jclic.js/hidrauli.gif",
+    "jclic.js/maremotr.gif",
+    "jclic.js/pansolar.gif",
+    "jclic.js/projsol1.gif",
+    "jclic.js/projsola.gif",
+    "jclic.js/turbmare.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ealterna.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

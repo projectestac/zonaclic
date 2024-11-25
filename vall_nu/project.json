@@ -1,0 +1,106 @@
+{
+  "id": 2482,
+  "title": "Els animals de la Vall de Núria",
+  "author": "Rosa Belda Freixa",
+  "school": "Escola Mare de Déu de Núria Ribes de Freser (Ripollès)",
+  "date": "09/02/17",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "biologia, éssers vius",
+    "es": "biología, seres vivos",
+    "en": "biology, alive beings"
+  },
+  "descCodes": [
+    58,
+    1348
+  ],
+  "description": {
+    "en": "Jclic Núria Valley, consists of three activity packs one for each level of Primary Education, raised in an increasing degree of difficulty. the activities are based on the study of four animals most significant Vall de Nuria: chamois, marmots, red frog and ptarmigan.",
+    "ca": "El JClic de la Vall de Núria consta de tres paquets d'activitats, un per a cada nivell d'educació infantil, plantejades en un grau de dificultat creixent. Les activitats estan basades en l'estudi de quatre dels animals més significatius de la Vall de Núria: l'isard, la marmota, la granota vermella i la perdiu blanca.",
+    "es": "El JClic de La Vall de Núria consta de tres paquetes de actividades uno para cada nivel de Educación Infantil, planteadas en un grado de dificultad creciente. Las actividades están basadas en el estudio de cuatro de los animales más significativos del valle: la gamuza, la marmota, la rana roja y la perdiz blanca."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/vall_nu.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/vall_nu.jclic.zip",
+  "instFile": "jclic/vall_nu.jclic.inst",
+  "clicZoneId": 3991,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3991",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/vall_nu/jclic/vall_nu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 30,
+  "mediaFiles": 40,
+  "totalSize": 1341966,
+  "files": [
+    "cover.png",
+    "jclic.js/dues_marmotes.jpg",
+    "jclic.js/fotos_animals_projecte_isard1.jpg",
+    "jclic.js/granota_vermella1.jpg",
+    "jclic.js/granota_vermella2.jpg",
+    "jclic.js/granota_vermella3.jpg",
+    "jclic.js/isard1.jpg",
+    "jclic.js/isard_1.jpg",
+    "jclic.js/isard_cara.jpg",
+    "jclic.js/isard_dibuix.jpg",
+    "jclic.js/isardon.jpg",
+    "jclic.js/marmota.jpg",
+    "jclic.js/marmota__cau__flors.jpg",
+    "jclic.js/marmota_asseguda.jpg",
+    "jclic.js/marmota_dibuix.jpg",
+    "jclic.js/perdiu_blanca.jpg",
+    "jclic.js/perdiu_blanca1.jpg",
+    "jclic.js/perdiu_blanca2.jpg",
+    "jclic.js/perdius_blanques.jpg",
+    "jclic.js/perdiz_nival.jpg",
+    "jclic.js/santuari1.jpg",
+    "jclic.js/santuari2.jpg",
+    "jclic.js/santuari_nevat.jpg",
+    "jclic.js/vall_nu.jclic",
+    "jclic.js/vall_nu.jclic.js",
+    "jclic.js/vall_nu2.jclic",
+    "jclic.js/vall_nu2.jclic.js",
+    "jclic.js/vall_nu3.jclic",
+    "jclic.js/vall_nu3.jclic.js",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

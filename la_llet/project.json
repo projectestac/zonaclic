@@ -1,0 +1,127 @@
+{
+  "id": 2062,
+  "title": "La llet",
+  "author": "Maria Altadill Boquera i Maria Roda Fuentes",
+  "date": "02/06/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "la llet",
+    "es": "la leche",
+    "en": "the milk"
+  },
+  "descCodes": [
+    1411
+  ],
+  "description": {
+    "en": "Project activities for children about \n<i>milk to know where the milk comes from and the animals that produce it: cow, goat and sheep; identify some dairy products: yogurt, cheese, butter and cream, and finally recognize the different recycling containers and act accordingly, respecting the classification of materials. </i>",
+    "ca": "Projecte d'activitats per als més petits sobre \n<i>La llet</i> per a conèixer la seva procedència i els animals que la produeixen: vaca, cabra i ovella; identificar alguns dels productes derivats de la llet: iogurt, formatge, mantega i nata; i finalment reconèixer els diferents contenidors de reciclatge i actuar en conseqüència, tot respectant les classificacions de materials.",
+    "es": "Proyecto de actividades para los más pequeños sobre \n<i>La leche</i> para conocer su procedencia y los animales que la producen: vaca, cabra y oveja; identificar algunos de los productos derivados de la leche: yougur, queso, mantequilla y nata; y fuinalmente reconocer los diferentes contenedores de reciclage y actuar en consecuencia, respetando las clasificaciones de materiales."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/la_llet.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/la_llet.jclic.zip",
+  "instFile": "jclic/la_llet.jclic.inst",
+  "clicZoneId": 3628,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3628",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/la_llet/jclic/la_llet.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 52,
+  "totalSize": 2322694,
+  "files": [
+    "cover.jpg",
+    "jclic.js/2gotsdellet.jpg",
+    "jclic.js/4jerres.jpg",
+    "jclic.js/actimel.mp3",
+    "jclic.js/actimel21.jpg",
+    "jclic.js/aixi_es_fa.mp3",
+    "jclic.js/auvella.jpg",
+    "jclic.js/blanca.mp3",
+    "jclic.js/blava.mp3",
+    "jclic.js/botella_leche.jpg",
+    "jclic.js/botella_plastic.jpg",
+    "jclic.js/busca_les_paraules_vaca__ovella_i_cabra_a_la_sopa_de_lletres_.mp3",
+    "jclic.js/cabra.jpg",
+    "jclic.js/cabra.mp3",
+    "jclic.js/cacaus.jpg",
+    "jclic.js/clica_per_escoltar_el_nom_dels_derivats_de_la_llet.mp3",
+    "jclic.js/clica_per_veure_els_animals_que_fan_llet.mp3",
+    "jclic.js/contenedor_azul.jpg",
+    "jclic.js/contenedor_groc.jpg",
+    "jclic.js/de_quin_color_es_la_llet.mp3",
+    "jclic.js/els_cacaus_son_un_fruit_sec_i_no_un_derivat_de_la_llet.mp3",
+    "jclic.js/en_saps_molt_.mp3",
+    "jclic.js/formatge.jpg",
+    "jclic.js/formatge.mp3",
+    "jclic.js/gelat.jpg",
+    "jclic.js/gelat_de_nata.mp3",
+    "jclic.js/groga.mp3",
+    "jclic.js/iogur.jpg",
+    "jclic.js/iogurt.mp3",
+    "jclic.js/l_ovella.mp3",
+    "jclic.js/la_cabra.mp3",
+    "jclic.js/la_llet.jclic",
+    "jclic.js/la_vaca__.mp3",
+    "jclic.js/leche_concentrada_y_entera.jpg",
+    "jclic.js/leche_prolonga_la_vida.jpg",
+    "jclic.js/les_maduixes_son_una_fruita.mp3",
+    "jclic.js/llet_nostra.jpg",
+    "jclic.js/maduxia.jpg",
+    "jclic.js/mantega.jpg",
+    "jclic.js/mantega.mp3",
+    "jclic.js/mmmm_...que_bons_.mp3",
+    "jclic.js/nata.jpg",
+    "jclic.js/nata.mp3",
+    "jclic.js/ovella.mp3",
+    "jclic.js/quin_animal_es.mp3",
+    "jclic.js/relaciona_els_envasos_amb_el_contenidor_correcte.mp3",
+    "jclic.js/relciona_el_nombre_amb_la_imatge_que_li_correspon.mp3",
+    "jclic.js/roja.mp3",
+    "jclic.js/rosa.mp3",
+    "jclic.js/troba_els_derivats_de_la_llet.mp3",
+    "jclic.js/vaca.jpg",
+    "jclic.js/vacaburra.mp3",
+    "jclic.js/verd.jpg",
+    "jclic.js/verda.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/la_llet.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

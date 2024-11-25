@@ -1,0 +1,110 @@
+{
+  "id": 83,
+  "title": "Ordenagailuak",
+  "author": "Sergio Blanché",
+  "school": "Centro Regional de Profesores Florida Uruguay",
+  "date": "28/09/05",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Design & technology",
+    "ca": "Tecnologies",
+    "es": "Tecnología"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "informàtica",
+    "es": "informática",
+    "en": "computer science"
+  },
+  "descCodes": [
+    737
+  ],
+  "description": {
+    "en": "Clic activities about computers: \n<ul> \n <li>Software </li>\n <li>Hardware </li>\n <li>Kinds of memory </li>\n <li>Peripheral unit </li>\n <li>Storage units </li>\n</ul>",
+    "ca": "Paquet d'activitats on es treballen les parts de l'ordinador: \n<ul> \n <li>Software </li>\n <li>Hardware </li>\n <li>Tipus de memòria </li>\n <li>Perifèrics </li>\n <li>Unitats d'emmagatzematge </li>\n</ul>",
+    "es": "Paquete de actividades donde se trabajan las partes del ordenador: \n<ul> \n <li>Software </li>\n <li>Hardware </li>\n <li>Tipos de memoria </li>\n <li>Periféricos </li>\n <li>Unidades de almacenamiento </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "pc"
+  ],
+  "mainFile": "jclic.js/eupc.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/eupc.jclic.zip",
+  "instFile": "jclic/eupc.jclic.inst",
+  "clicZoneId": 1038,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1038",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/eupc/jclic/eupc.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 27,
+  "totalSize": 202847,
+  "files": [
+    "cover.gif",
+    "jclic.js/cd.gif",
+    "jclic.js/chip.gif",
+    "jclic.js/cinta.gif",
+    "jclic.js/clic.gif",
+    "jclic.js/cpu.gif",
+    "jclic.js/cpurota.gif",
+    "jclic.js/disco.gif",
+    "jclic.js/disquet.gif",
+    "jclic.js/disquete.gif",
+    "jclic.js/disquete1.gif",
+    "jclic.js/dos.gif",
+    "jclic.js/eupc.jclic",
+    "jclic.js/impr.gif",
+    "jclic.js/memoria.gif",
+    "jclic.js/modem.gif",
+    "jclic.js/monitor.gif",
+    "jclic.js/monitor1.gif",
+    "jclic.js/monitor2.gif",
+    "jclic.js/mouse1.gif",
+    "jclic.js/parl.gif",
+    "jclic.js/partes.gif",
+    "jclic.js/placa.gif",
+    "jclic.js/ploter.gif",
+    "jclic.js/scaner.gif",
+    "jclic.js/teclado.gif",
+    "jclic.js/windows.gif",
+    "jclic.js/word.gif",
+    "jclic.js/zip.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/eupc.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

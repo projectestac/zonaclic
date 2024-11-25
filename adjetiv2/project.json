@@ -1,0 +1,123 @@
+{
+  "id": 1924,
+  "title": "Clases de adjetivos",
+  "author": "Miriam Castillo Castillo",
+  "school": "Escuela Cardenal José María Caro Coquimbo (Xile)",
+  "date": "15/06/09",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua castellana",
+    "es": "gramática, lengua castellana",
+    "en": "grammar, Spanish language"
+  },
+  "descCodes": [
+    123,
+    132
+  ],
+  "description": {
+    "en": "Project of JClic activities about adjectives in Spanish: \n<ul> \n <li>qualifying adjectives </li>\n <li>demonstrative adjectives </li>\n <li>possessive adjectives </li>\n <li>numeral adjectives </li>\n <li>indefinite adjectives </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre els adjectius en llengua castellana: \n<ul> \n <li>adjectius qualificatius </li>\n <li>adjectius demostratius </li>\n <li>adjectius possessius </li>\n <li>adjectius numerals </li>\n <li>adjectius indefinits </li>\n</ul>",
+    "es": "Proyecto de actividades sobre los adjetivos en lengua castellana: \n<ul> \n <li>adjetivos calificativos </li>\n <li>adjetivos demostrativos </li>\n <li>adjetivos posesivos </li>\n <li>adjetivos numerales </li>\n <li>adjetivos indefinidos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/adjetiv2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/adjetiv2.jclic.zip",
+  "instFile": "jclic/adjetiv2.jclic.inst",
+  "clicZoneId": 3550,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3550",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/adjetiv2/jclic/adjetiv2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 38,
+  "mediaFiles": 43,
+  "totalSize": 888036,
+  "files": [
+    "cover.gif",
+    "jclic.js/adjetiv2.jclic",
+    "jclic.js/adjnum.gif",
+    "jclic.js/alcachof.gif",
+    "jclic.js/amigos.gif",
+    "jclic.js/aqchbl.gif",
+    "jclic.js/arbfr.gif",
+    "jclic.js/auto.gif",
+    "jclic.js/banana.gif",
+    "jclic.js/bastcom.gif",
+    "jclic.js/bastona.gif",
+    "jclic.js/bastonan.gif",
+    "jclic.js/botong.gif",
+    "jclic.js/botonp.gif",
+    "jclic.js/burro.gif",
+    "jclic.js/coche.gif",
+    "jclic.js/edifici.gif",
+    "jclic.js/ehbond.gif",
+    "jclic.js/esmele.gif",
+    "jclic.js/estlap.gif",
+    "jclic.js/estperr.gif",
+    "jclic.js/fantasma.gif",
+    "jclic.js/genial.wav",
+    "jclic.js/grande.wav",
+    "jclic.js/hamburg.gif",
+    "jclic.js/lcsmia.gif",
+    "jclic.js/letrero.gif",
+    "jclic.js/lirica.gif",
+    "jclic.js/llave.gif",
+    "jclic.js/manos.gif",
+    "jclic.js/martillo.gif",
+    "jclic.js/mgtang.gif",
+    "jclic.js/milverd.gif",
+    "jclic.js/monedas.gif",
+    "jclic.js/muybien.wav",
+    "jclic.js/namgent.gif",
+    "jclic.js/nuvols.gif",
+    "jclic.js/perfec.wav",
+    "jclic.js/pirata.bmp",
+    "jclic.js/pollito.gif",
+    "jclic.js/rosa.gif",
+    "jclic.js/senores.gif",
+    "jclic.js/spanta.gif",
+    "jclic.js/tepasas.wav",
+    "jclic.js/uslero.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/adjetiv2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

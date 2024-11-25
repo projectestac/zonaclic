@@ -1,0 +1,88 @@
+{
+  "id": 2438,
+  "title": "Corfbol / Korfbal",
+  "author": "David Paredes Calabuig",
+  "school": "Escola d'Avinyonet del Penedès - ZER Font del Cuscó Avinyonet del Penedès (Alt Penedès)",
+  "date": "07/04/16",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "esports, Korfbal",
+    "es": "deportes, kortfball",
+    "en": "sports, korfbal"
+  },
+  "descCodes": [
+    424,
+    1470
+  ],
+  "description": {
+    "en": "The project is a tool to support the work of the unit Korfball, within the area of physical education. It is a reinforcement of sports-related content from the aspect of technology for learning and communication.\n<p> The JClic activities consists of three parts: history, definition and regulation. Each part contains korfball related activities, puzzles, word searches, activities fill spaces... </p>",
+    "ca": "El projecte és una eina de suport a la unitat de treball del Korfbal, dintre de l'àrea d'educació física. És un reforç dels continguts relacionats amb la pràctica esportiva des de la vessant de les tecnologies de l'aprenentatge i la comunicació. \n<p> El JClic s'estructura en tres parts: la història, definició i reglament. Cadascuna de les parts conté activitats relacionades amb el corfbol, puzzles, sopes de lletres, activitats d'omplir espais... </p>",
+    "es": "El proyecto es una herramienta de apoyo a la unidad de trabajo del Korfbal, dentro del área de educación física. Es un refuerzo de los contenidos relacionados con la práctica deportiva desde la vertiente de las tecnologías del aprendizaje y la comunicación. \n<p> El JClic se estructura en tres partes: la historia, definición y reglamento. Cada una de las partes contiene actividades relacionadas con el corfbol, puzzles, sopas de letras, actividades de llenar espacios... </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/korfbal.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/korfbal.jclic.zip",
+  "instFile": "jclic/korfbal.jclic.inst",
+  "clicZoneId": 3947,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3947",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/korfbal/jclic/korfbal.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 8,
+  "totalSize": 256743,
+  "files": [
+    "cover.png",
+    "jclic.js/4bkorf.jpg",
+    "jclic.js/area_penal_300x258.png",
+    "jclic.js/image001.png",
+    "jclic.js/korfbal.jclic",
+    "jclic.js/korfbal.jclic.js",
+    "jclic.js/korfball_basket_with_ball_size_5.jpg",
+    "jclic.js/korfball_cartoon.jpg",
+    "jclic.js/korfball_corfbol_resized1.jpg",
+    "jclic.js/korfball_forma_de_juego_resized.jpg",
+    "jclic.js/korfball_shooting.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

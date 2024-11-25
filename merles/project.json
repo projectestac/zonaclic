@@ -1,0 +1,102 @@
+{
+  "id": 2332,
+  "title": "Els animalons de la riera de Merlès",
+  "author": "Pay Bayer i Xavier Bayer Fotografies: Núria Valls",
+  "date": "24/07/14",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "amfibis, peixos, rèptils, aigua",
+    "es": "anfibios, peces, reptiles, agua",
+    "en": "amphibians, fish, reptiles, water"
+  },
+  "descCodes": [
+    50,
+    95,
+    100,
+    1341
+  ],
+  "description": {
+    "en": "Activities to know the fauna (fish, amphibians and reptiles) of the stream of Merlés and other Catalan rivers and invasive species that harm the ecosystem.",
+    "ca": "Activitats per conèixer la fauna (peixos, amfibis i rèptils) de la riera de Merlès i també d'altres rius catalans així com altres espècies invasores que perjudiquen l'ecosistema.",
+    "es": "Actividades para conocer la fauna (peces, anfibios y reptiles) de la riera de Merlès y también de otros ríos catalanes así como especies invasoras que perjudican el ecosistema."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/merles.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/merles.jclic.zip",
+  "instFile": "jclic/merles.jclic.inst",
+  "clicZoneId": 3841,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3841",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/merles/jclic/merles.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 21,
+  "totalSize": 1496764,
+  "files": [
+    "cover.png",
+    "jclic.js/3_peixos_resized.jpg",
+    "jclic.js/4_tortugues_resized.jpg",
+    "jclic.js/9_peixos_resized.jpg",
+    "jclic.js/apeu_merles_c.jpg",
+    "jclic.js/merles.jclic",
+    "jclic.js/merles.png",
+    "jclic.js/nom_3085.jpg",
+    "jclic.js/nom_3289.jpg",
+    "jclic.js/nom_4662.jpg",
+    "jclic.js/nom_5902.jpg",
+    "jclic.js/nom_6054.jpg",
+    "jclic.js/nom_6174.jpg",
+    "jclic.js/nom_6193.jpg",
+    "jclic.js/nom_7294.jpg",
+    "jclic.js/nom_8817.jpg",
+    "jclic.js/nom_8972.jpg",
+    "jclic.js/nom_9353.jpg",
+    "jclic.js/nom_a076.jpg",
+    "jclic.js/noms_9_peixos2.jpg",
+    "jclic.js/peixos_03_resized.jpg",
+    "jclic.js/prova_joc2_resized1.jpg",
+    "jclic.js/prova_joc_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/merles.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

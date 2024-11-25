@@ -1,0 +1,100 @@
+{
+  "id": 2513,
+  "title": "Animals everywhere",
+  "author": "Tina Merino",
+  "date": "30/03/17",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, vocabulari, animals",
+    "es": "lengua inglesa, vocabulario, animals",
+    "en": "English language, vocabulary, animales"
+  },
+  "descCodes": [
+    667,
+    673,
+    1456
+  ],
+  "description": {
+    "en": "Pack of activities that pretends: \n<ul> \n <li>Identify different animals and body parts of these animals. </li>\n <li>Describe the appearance of animals. </li>\n <li>Identify the sound emitted of each animal. </li>\n <li>Use the verb \"to have\". </li>\n</ul>",
+    "ca": "Conjunt d'activitats que pretenen: \n<ul> \n <li>Identificar diferents animals i les parts del cos dels mateixos. </li>\n <li>Descriure l'aparença dels animals. </li>\n <li>Identificar els sons que emet cada animal. </li>\n <li>Utilitzar el verb \"to have\". </li>\n</ul>",
+    "es": "Conjunto de actividades que pretenden: \n<ul> \n <li>Identificar diferentes animales y las partes del cuerpo de los mismos. </li>\n <li>Describir la apariencia de los animales. </li>\n <li>Identificar los sonidos que emite cada animal. </li>\n <li>Utilizar el verbo \"to have\". </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/anim_en.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/anim_en.jclic.zip",
+  "instFile": "jclic/anim_en.jclic.inst",
+  "clicZoneId": 4023,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=4023",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/anim_en/jclic/anim_en.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 8,
+  "mediaFiles": 20,
+  "totalSize": 937655,
+  "files": [
+    "cover.jpg",
+    "jclic.js/abeja_resized.jpg",
+    "jclic.js/anim_en.jclic",
+    "jclic.js/anim_en.jclic.js",
+    "jclic.js/buho.jpg",
+    "jclic.js/burro_resized.jpg",
+    "jclic.js/caballo_resized.jpg",
+    "jclic.js/cerdo.png",
+    "jclic.js/conejo_resized.jpg",
+    "jclic.js/elefante.jpg",
+    "jclic.js/gallo.png",
+    "jclic.js/gato.jpg",
+    "jclic.js/leon_resized.jpg",
+    "jclic.js/lots_of_animals_resized.jpg",
+    "jclic.js/oso.jpg",
+    "jclic.js/oveja_resized.jpg",
+    "jclic.js/pajaro.png",
+    "jclic.js/pato.jpg",
+    "jclic.js/perro.jpg",
+    "jclic.js/rana.jpg",
+    "jclic.js/raton.jpg",
+    "jclic.js/serpiente.png",
+    "jclic.js/vaca_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

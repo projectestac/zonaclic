@@ -1,0 +1,97 @@
+{
+  "id": 1158,
+  "title": "La tortuga taruga",
+  "author": "Miriam Castillo Castillo",
+  "school": "Escuela Cardenal José María Caro Coquimbo (Xile)",
+  "date": "14/06/04",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua",
+    "es": "aprendizaje de la lengua",
+    "en": "learning of the language"
+  },
+  "descCodes": [
+    110
+  ],
+  "description": {
+    "en": "Package of activities based on the educational resources software developed by the Chile Education Ministry. Inside this package there are grammar and reading comprehension activities.\n<br> It is adapted for low vision impaired children.",
+    "ca": "Paquet d'activitats basat en un software de recursos educatius del 2001 del Ministeri d'Educació de Xile. Al paquet trobem activitats de gramàtica i de comprensió lectora.\n<br> Adaptat per discapacitat visual baixa visió.",
+    "es": "Paquete de actividades basado en un software de recursos educativos del 2001 del Ministerio de Educación de Chile. En el paquete encontramos actividades de gramática y de comprensión lectora.\n<br> Adaptado para discapadidad visual baja visión."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "tarugadv"
+  ],
+  "mainFile": "jclic.js/taruga.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/taruga.jclic.zip",
+  "instFile": "jclic/taruga.jclic.inst",
+  "clicZoneId": 2621,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2621",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/taruga/jclic/taruga.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 15,
+  "totalSize": 1343074,
+  "files": [
+    "cover.gif",
+    "jclic.js/animales.gif",
+    "jclic.js/animtaru.gif",
+    "jclic.js/carac.gif",
+    "jclic.js/chinit.gif",
+    "jclic.js/elefant.gif",
+    "jclic.js/genial.wav",
+    "jclic.js/grande.wav",
+    "jclic.js/maripo.gif",
+    "jclic.js/muybien.wav",
+    "jclic.js/perfec.wav",
+    "jclic.js/rata.gif",
+    "jclic.js/taruga.gif",
+    "jclic.js/taruga.jclic",
+    "jclic.js/tepasas.wav",
+    "jclic.js/tortug.gif",
+    "jclic.js/tortuga.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/taruga.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

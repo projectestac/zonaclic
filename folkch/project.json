@@ -1,0 +1,136 @@
+{
+  "id": 732,
+  "title": "El folklore musical de Chile",
+  "author": "Miriam Castillo Castillo",
+  "school": "Escuela Cardenal José María Caro Coquimbo (Xile)",
+  "date": "29/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "audició musical",
+    "es": "audición musical",
+    "en": "musical hearing"
+  },
+  "descCodes": [
+    718
+  ],
+  "description": {
+    "en": "Activities about Chilean folk music classified by zones: North, South, Centre and Island of Pascua.\n<br> Some of the dances and songs included are cueca, trote, cachimbo taquirari, tonada, corrido, vals, mapuche music, pericona and polinesian songs.",
+    "ca": "En aquest paquet d'activitats es presenten les formes musicals del folklore de Xile organitzades per zones: Zona nord, zona central, zona sud i zona insular (illa de Pasqua).\n<br> Entre altre es treballen la cueca, el trote, el cachimbo el taquirari, la tonada, el corrido, el vals, la música araucana mapuche, la pericona i els cants d'origen polinesi.\n<br> També es presenten alguns dels instruments populars utilitzats per a interpretar la música.",
+    "es": "En este paquete de actividades se presentan las formas musicales del folklore Chileno organizadas por zonas: Zona norte, zona central, zona sur y zona insular (isla de Pascua).\n<br> Entre otras se trabajan la cueca, el trote, el cachimbo el taquirari, la tonada, el corrido, el vals, la música araucana mapuche, la pericona y los cantos de origen polinesio.\n<br> También se presentan algunos de los instrumentos populares utilizados para interpretar la música."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/folkch.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/folkch.jclic.zip",
+  "instFile": "jclic/folkch.jclic.inst",
+  "clicZoneId": 1382,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1382",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/folkch/jclic/folkch.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 43,
+  "mediaFiles": 46,
+  "totalSize": 5122227,
+  "files": [
+    "cover.gif",
+    "jclic.js/dancueca.gif",
+    "jclic.js/evaluar/cacharpa.bmp",
+    "jclic.js/evaluar/corrido.wav",
+    "jclic.js/evaluar/cueca.wav",
+    "jclic.js/evaluar/evaluar.jclic",
+    "jclic.js/evaluar/genial.wav",
+    "jclic.js/evaluar/musica.bmp",
+    "jclic.js/evaluar/muybien.wav",
+    "jclic.js/evaluar/perfec.wav",
+    "jclic.js/evaluar/trote.wav",
+    "jclic.js/evaluar/vals.wav",
+    "jclic.js/folkch.jclic",
+    "jclic.js/zcentral/acordeon.gif",
+    "jclic.js/zcentral/arpa.gif",
+    "jclic.js/zcentral/cueca1_.gif",
+    "jclic.js/zcentral/cueca2.gif",
+    "jclic.js/zcentral/dancueca.gif",
+    "jclic.js/zcentral/genial.wav",
+    "jclic.js/zcentral/grande.wav",
+    "jclic.js/zcentral/guitarrac.gif",
+    "jclic.js/zcentral/instcent.gif",
+    "jclic.js/zcentral/muybien.wav",
+    "jclic.js/zcentral/pandero.gif",
+    "jclic.js/zcentral/perfec.wav",
+    "jclic.js/zcentral/tormento.gif",
+    "jclic.js/zcentral/zcentral.jclic",
+    "jclic.js/zinsular/dansaus.gif",
+    "jclic.js/zinsular/islapasc.gif",
+    "jclic.js/zinsular/muybien.wav",
+    "jclic.js/zinsular/perfec.wav",
+    "jclic.js/zinsular/zinsular.jclic",
+    "jclic.js/znorte/bombo3.gif",
+    "jclic.js/znorte/caja2.gif",
+    "jclic.js/znorte/charango3.gif",
+    "jclic.js/znorte/danznort.gif",
+    "jclic.js/znorte/genial.wav",
+    "jclic.js/znorte/guitarra.gif",
+    "jclic.js/znorte/instrn_1.gif",
+    "jclic.js/znorte/matraca.gif",
+    "jclic.js/znorte/muybien.wav",
+    "jclic.js/znorte/perfec.wav",
+    "jclic.js/znorte/quena3.gif",
+    "jclic.js/znorte/tambor2.gif",
+    "jclic.js/znorte/zampona2.gif",
+    "jclic.js/znorte/znorte.jclic",
+    "jclic.js/zonasur/choipurr.gif",
+    "jclic.js/zonasur/danzsur.gif",
+    "jclic.js/zonasur/danzzsur.gif",
+    "jclic.js/zonasur/instarau.gif",
+    "jclic.js/zonasur/muybien.wav",
+    "jclic.js/zonasur/perfec.wav",
+    "jclic.js/zonasur/zonasur.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/folkch.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/evaluar/evaluar.jclic.js",
+    "jclic.js/zcentral/zcentral.jclic.js",
+    "jclic.js/zinsular/zinsular.jclic.js",
+    "jclic.js/znorte/znorte.jclic.js",
+    "jclic.js/zonasur/zonasur.jclic.js",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": 2124,
+  "title": "Joguines",
+  "author": "Esther Mayor Fontarnau",
+  "school": "Escola La Florida Santa Perpètua de Mogoda (Vallès Occidental)",
+  "date": "01/04/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "joguines",
+    "es": "juguetes",
+    "en": "toys"
+  },
+  "descCodes": [
+    1415
+  ],
+  "description": {
+    "en": "Project of activities about toys addressed to kindergarden with connection activities based on pictures of toys ( name-photo, sound-photo), puzzles...",
+    "ca": "Projecte d'activitats per a nens i nenes de P4 sobre les joguines on a través de fotos de joguines es presenten activitats de relació (nom-foto, so-foto...), puzles...",
+    "es": "Proyecto de actividades para los niños y niñas de P4 sobre los juguetes donde a través de fotos de juguetes se presentan actividades de relación (nombre-foto, sonido-foto...), puzzles..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/joguine2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/joguine2.jclic.zip",
+  "instFile": "jclic/joguine2.jclic.inst",
+  "clicZoneId": 3678,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3678",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/joguine2/jclic/joguine2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 17,
+  "totalSize": 652103,
+  "files": [
+    "cover.gif",
+    "jclic.js/avio.mp3",
+    "jclic.js/construccions.jpg",
+    "jclic.js/construccions.mp3",
+    "jclic.js/cotxe.jpg",
+    "jclic.js/cotxe.mp3",
+    "jclic.js/cuineta.jpg",
+    "jclic.js/cuineta.mp3",
+    "jclic.js/joguine2.jclic",
+    "jclic.js/nina.mp3",
+    "jclic.js/nina4.jpg",
+    "jclic.js/ns5p1v1296344679.gif",
+    "jclic.js/patinet.jpg",
+    "jclic.js/patinet.mp3",
+    "jclic.js/pilota.jpg",
+    "jclic.js/pilota.mp3",
+    "jclic.js/plane.jpg",
+    "jclic.js/titelles.jpg",
+    "jclic.js/titelles.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/joguine2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

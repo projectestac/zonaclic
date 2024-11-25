@@ -1,0 +1,96 @@
+{
+  "id": 1538,
+  "title": "Aprendiendo castellano",
+  "author": "David Pérez",
+  "school": "Associació Cultura Tretze L'Hospitalet del Llobregat (Baix Llobregat)",
+  "date": "03/02/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua castellana",
+    "es": "aprendizaje de la lengua, lengua castellana",
+    "en": "learning of the language, Spanish language"
+  },
+  "descCodes": [
+    110,
+    132
+  ],
+  "description": {
+    "en": "Set of activities to learn Spanish: adjectives, verbs, reading comprehension...",
+    "ca": "Diferents activitats per l'aprenentatge de la llengua castellana: adjectius, femení i masculí, verbs en present, comprensió lectora...",
+    "es": "Diferentes actividades para el aprendizaje de la lengua de la lengua castellana: adjetivos, femenino y masculino, verbos en presente, comprensión lectora..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/castella.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/castella.jclic.zip",
+  "instFile": "jclic/castella.jclic.inst",
+  "clicZoneId": 3264,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3264",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/castella/jclic/castella.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 16,
+  "totalSize": 348353,
+  "files": [
+    "cover.jpg",
+    "jclic.js/berengena.jpg",
+    "jclic.js/castella.jclic",
+    "jclic.js/coliflor.gif",
+    "jclic.js/elefante.gif",
+    "jclic.js/foto_lechuga.jpg",
+    "jclic.js/ing_cebolla.jpg",
+    "jclic.js/lleo.gif",
+    "jclic.js/llimona.jpg",
+    "jclic.js/macaco.jpg",
+    "jclic.js/pastanaga.jpg",
+    "jclic.js/poma.jpg",
+    "jclic.js/pressec.jpg",
+    "jclic.js/rana_esculenta_500.jpg",
+    "jclic.js/rata_noruega.jpg",
+    "jclic.js/sindria.jpg",
+    "jclic.js/taronja.jpg",
+    "jclic.js/tigre.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/castella.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

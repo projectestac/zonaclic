@@ -1,0 +1,93 @@
+{
+  "id": 408,
+  "title": "Let's have fun possessives!",
+  "author": "Herminia de Juana i M. Carmen Mcdonald",
+  "school": "Colegio Orvalle Las Rozas (Madrid)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua anglesa",
+    "es": "gramática, lengua inglesa",
+    "en": "grammar, English language"
+  },
+  "descCodes": [
+    665,
+    667
+  ],
+  "description": {
+    "en": "Package of activities to work the possessive pronoun in English. This activities are destined to Secondary school.",
+    "ca": "Paquet d'activitats per treballar els pronoms possessius en anglès. Aquestes activitats estan destinades per a ESO. Al paquet trobem 8 activitats de:\n<br> \n<ul> \n <li>Relacionar </li>\n <li>Discriminació </li>\n <li>Omplir buits </li>\n <li>Sopes de lletres </li>\n</ul>",
+    "es": "Paquete de actividades para trabajar los pronombres posesivos en inglés. Estas actividades están destinadas para la ESO. En el paquete encontramos 8 actividades sobre:\n<br> \n<ul> \n <li>Relacionar </li>\n <li>Discriminación </li>\n <li>Llenar espacios </li>\n <li>Sopas de letras </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/posesive.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/posesive.jclic.zip",
+  "instFile": "jclic/posesive.jclic.inst",
+  "clicZoneId": 1235,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1235",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/posesive/jclic/posesive.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 8,
+  "mediaFiles": 13,
+  "totalSize": 2101518,
+  "files": [
+    "cover.gif",
+    "jclic.js/alf.mid",
+    "jclic.js/escudo2.gif",
+    "jclic.js/great_.wav",
+    "jclic.js/hers.wav",
+    "jclic.js/l_usa.gif",
+    "jclic.js/mary.wav",
+    "jclic.js/mine.wav",
+    "jclic.js/minuet1.mid",
+    "jclic.js/orv.gif",
+    "jclic.js/posesive.jclic",
+    "jclic.js/their.wav",
+    "jclic.js/united_1.gif",
+    "jclic.js/your.wav",
+    "jclic.js/yours.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/posesive.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

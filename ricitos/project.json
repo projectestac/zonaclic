@@ -1,0 +1,129 @@
+{
+  "id": 276,
+  "title": "Ricitos de oro",
+  "author": "Miren Garralda Dibuixos: Ainhoa Corbera Garralda",
+  "school": "Escola Mas Casanovas Barcelona",
+  "date": "15/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua catalana, conte",
+    "es": "lengua catalana, cuento",
+    "en": "Catalan language, story"
+  },
+  "descCodes": [
+    133,
+    614
+  ],
+  "description": {
+    "en": "Activity pack about the children's story \"Goldy Locks\". Created for elementary school children.",
+    "ca": "Tres paquets d'activitats sobre el conte de na Rínxols d'Or, adreçades al cicle superior d'educació infantil i l'inicial de primària. En el primer paquet s'explica el conte mitjançant dibuixos, textos i sons, en el segon es proposen alguns trencaclosques fets a partir de les imatges i en el tercer es plantegen activitats de lectura comprensiva.",
+    "es": "Tres paquetes de actividades sobre el cuento de Ricitos de Oro, dirigidas al ciclo superior de educación infantil y el inicial de primaria. En el primer paquete se explica el cuento mediante dibujos, textos y sonido, en el segundo se proponen algunos puzzles a partir de las imágenes y en el tercero se plantean actividades de lectura comprensiva."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "rinxols"
+  ],
+  "mainFile": "jclic.js/ricitos.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ricitos.jclic.zip",
+  "instFile": "jclic/ricitos.jclic.inst",
+  "clicZoneId": 1148,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1148",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ricitos/jclic/ricitos.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 47,
+  "mediaFiles": 45,
+  "totalSize": 400504,
+  "files": [
+    "cover.gif",
+    "jclic.js/bosc.gif",
+    "jclic.js/cadir_.gif",
+    "jclic.js/cadira.gif",
+    "jclic.js/cadirgr.gif",
+    "jclic.js/cadirmi.gif",
+    "jclic.js/cadirpe.gif",
+    "jclic.js/casa.gif",
+    "jclic.js/dorm.gif",
+    "jclic.js/finestra.gif",
+    "jclic.js/llitgran.gif",
+    "jclic.js/llitmitj.gif",
+    "jclic.js/llitpeti.gif",
+    "jclic.js/menja.gif",
+    "jclic.js/os.gif",
+    "jclic.js/osa.gif",
+    "jclic.js/osdiu.gif",
+    "jclic.js/plordorm.gif",
+    "jclic.js/plorsopa.gif",
+    "jclic.js/porta21.gif",
+    "jclic.js/porta22.gif",
+    "jclic.js/porta23.gif",
+    "jclic.js/ricitos.jclic",
+    "jclic.js/rinx1.gif",
+    "jclic.js/rinx2.gif",
+    "jclic.js/rinxocru.gif",
+    "jclic.js/rinxol.gif",
+    "jclic.js/rinxol5b.gif",
+    "jclic.js/rinxolbe.gif",
+    "jclic.js/rinxols0.gif",
+    "jclic.js/rinxols1.gif",
+    "jclic.js/rinxols2.gif",
+    "jclic.js/rinxols3.gif",
+    "jclic.js/rinxols4.gif",
+    "jclic.js/rinxols5.gif",
+    "jclic.js/rinxols6.gif",
+    "jclic.js/rinxols7.gif",
+    "jclic.js/rinxols8.gif",
+    "jclic.js/rinxolti.gif",
+    "jclic.js/sillrota.gif",
+    "jclic.js/sopa.gif",
+    "jclic.js/sopami.gif",
+    "jclic.js/sopape.gif",
+    "jclic.js/sopgran.gif",
+    "jclic.js/sopmitja.gif",
+    "jclic.js/soppeti.gif",
+    "jclic.js/xemene.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ricitos.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

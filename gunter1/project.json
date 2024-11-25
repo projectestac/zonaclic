@@ -1,0 +1,115 @@
+{
+  "id": 1160,
+  "title": "Lengua castellana",
+  "author": "Maite Parada Alberdi",
+  "school": "CP Sant Josep de Calassanç Elx (Baix Vinalopó)",
+  "date": "14/06/04",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua",
+    "es": "aprendizaje de la lengua",
+    "en": "learning of the language"
+  },
+  "descCodes": [
+    110
+  ],
+  "description": {
+    "en": "Spanish activities about some works of three writers: \n<ul> \n <li>Günter Grass </li>\n <li>Antonio Machado </li>\n <li>Lope de Vega </li>\n</ul>",
+    "ca": "Pràctica de la Llengua castellana per alumnes de primària amb la finalitat d'exercitar la memòria a través de l'encant de tres escriptors: \n<ul> \n <li>Günter Grass: \"El tambor de hojalata\" </li>\n <li>Antonio Machado </li>\n <li>Lope de Vega </li>\n</ul>",
+    "es": "Práctica de la lengua castellana para alumnos de primaria con el fin de ejercitar la memoria a través del encanto de tres escritores: \n<ul> \n <li>Günter Grass: \"El tambor de hojalata\" </li>\n <li>Antonio Machado </li>\n <li>Lope de Vega </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/gunter1.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/gunter1.jclic.zip",
+  "instFile": "jclic/gunter1.jclic.inst",
+  "clicZoneId": 2640,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2640",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/gunter1/jclic/gunter1.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 55,
+  "mediaFiles": 30,
+  "totalSize": 516040,
+  "files": [
+    "cover.gif",
+    "jclic.js/8.gif",
+    "jclic.js/am/am.jclic",
+    "jclic.js/am/caba.gif",
+    "jclic.js/am/caball.gif",
+    "jclic.js/am/caballo.gif",
+    "jclic.js/am/libros1.gif",
+    "jclic.js/caball.gif",
+    "jclic.js/gato.gif",
+    "jclic.js/gunter1.jclic",
+    "jclic.js/gunter2/1.gif",
+    "jclic.js/gunter2/18.gif",
+    "jclic.js/gunter2/33.gif",
+    "jclic.js/gunter2/8.gif",
+    "jclic.js/gunter2/a.gif",
+    "jclic.js/gunter2/animail.gif",
+    "jclic.js/gunter2/auric.gif",
+    "jclic.js/gunter2/bb.gif",
+    "jclic.js/gunter2/bxcgbfgh.gif",
+    "jclic.js/gunter2/ddd.gif",
+    "jclic.js/gunter2/ga.gif",
+    "jclic.js/gunter2/gbb.gif",
+    "jclic.js/gunter2/gc.gif",
+    "jclic.js/gunter2/gll.gif",
+    "jclic.js/gunter2/grandes.gif",
+    "jclic.js/gunter2/gunter2.jclic",
+    "jclic.js/gunter2/mis.gif",
+    "jclic.js/gunter2/mugra.gif",
+    "jclic.js/gunter2/musico.gif",
+    "jclic.js/gunter2/nbvchg.gif",
+    "jclic.js/gunter2/not.gif",
+    "jclic.js/gunter2/tromb.gif",
+    "jclic.js/lope/gui.gif",
+    "jclic.js/lope/lope.jclic",
+    "jclic.js/violin1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/gunter1.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/am/am.jclic.js",
+    "jclic.js/gunter2/gunter2.jclic.js",
+    "jclic.js/lope/lope.jclic.js",
+    "cover.webp"
+  ]
+}

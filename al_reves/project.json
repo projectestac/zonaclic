@@ -1,0 +1,116 @@
+{
+  "id": 2158,
+  "title": "Al revés",
+  "author": "Anna Fontelles Terrés",
+  "school": "CREDA Lleida Lleida",
+  "date": "16/06/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, lectura, llengua catalana",
+    "es": "aprendizaje de la lengua, lectura, lengua catalana",
+    "en": "learning of the language, reading, Catalan language"
+  },
+  "descCodes": [
+    110,
+    125,
+    133
+  ],
+  "description": {
+    "en": "There are words that are transformed in others by turning. This project can be found JClic activities related to phonological awareness of words and sounds: \n<ul> \n <li>arròs - sorra </li>\n <li>roc - cor </li>\n <li>plat - talp </li>\n <li>... </li>\n</ul>",
+    "ca": "Hi ha paraules que capgirant-les es transformen en unes altres. En aquest projecte JClic es poden trobar activitats relacionades amb la consciència fonològica de les paraules i els sons: \n<ul> \n <li>arròs - sorra </li>\n <li>roc - cor </li>\n <li>plat - talp </li>\n <li>... </li>\n</ul>",
+    "es": "Hay palabras que girándolas se transforman en otras. En este proyecto JClic se pueden encontrar actividades relacionadas con la conciencia fonológica de las palabras y los sonidos: \n<ul> \n <li>arròs - sorra </li>\n <li>roc - cor </li>\n <li>plat - talp </li>\n <li>... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/al_reves.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/al_reves.jclic.zip",
+  "instFile": "jclic/al_reves.jclic.inst",
+  "clicZoneId": 3696,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3696",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/al_reves/jclic/al_reves.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 39,
+  "totalSize": 917367,
+  "files": [
+    "cover.png",
+    "jclic.js/0tos.jpg",
+    "jclic.js/adob.jpg",
+    "jclic.js/ajup.jpg",
+    "jclic.js/al_reves.jclic",
+    "jclic.js/alreves1.jpg",
+    "jclic.js/anim_resized1.jpg",
+    "jclic.js/arros.jpg",
+    "jclic.js/ataca.jpg",
+    "jclic.js/boda.jpg",
+    "jclic.js/coll.jpg",
+    "jclic.js/cor.jpg",
+    "jclic.js/illa.jpg",
+    "jclic.js/lloc.jpg",
+    "jclic.js/llom.jpg",
+    "jclic.js/llop.jpg",
+    "jclic.js/mar.jpg",
+    "jclic.js/mart.jpg",
+    "jclic.js/mina.jpg",
+    "jclic.js/moll.jpg",
+    "jclic.js/mon.jpg",
+    "jclic.js/nom.jpg",
+    "jclic.js/ous.jpg",
+    "jclic.js/pit.jpg",
+    "jclic.js/plat.jpg",
+    "jclic.js/poll.jpg",
+    "jclic.js/puja.jpg",
+    "jclic.js/ram.jpg",
+    "jclic.js/reves.jpg",
+    "jclic.js/roc.jpg",
+    "jclic.js/sever.jpg",
+    "jclic.js/sorra_resized.jpg",
+    "jclic.js/suc.jpg",
+    "jclic.js/talp.jpg",
+    "jclic.js/tip.gif",
+    "jclic.js/tos.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/al_reves.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

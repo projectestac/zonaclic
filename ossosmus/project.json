@@ -1,0 +1,108 @@
+{
+  "id": 2121,
+  "title": "Òssos i músculs",
+  "author": "Albert Mayans Garcia",
+  "school": "CP Gabriel Comas i Ribas Esporles - Mallorca (Serra de Tramuntana)",
+  "date": "31/03/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de les ciències naturals, Aparell locomotor",
+    "es": "aprendizaje de las ciencias naturales, Aparato locomotor",
+    "en": "learning of natural sciences, Locomotor"
+  },
+  "descCodes": [
+    53,
+    1414
+  ],
+  "description": {
+    "en": "Project of activities about locomotors: \n<ul> \n <li>Knowledge and identification of bones: skull, spine, collarbone ... </li>\n <li>Knowledge and identification of muscles: biceps, triceps, quadriceps... </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre l'aparell locomotor: \n<ul> \n <li>Coneixement i identificació d'ossos: crani, columna, clavícula... </li>\n <li>Coneixement i identificació de Músculs: bíceps, tríceps, quàdriceps... </li>\n</ul>",
+    "es": "Proyecto de actividades sobre el aparato locomotor: \n<ul> \n <li>Conocimiento e identificación de huesos: cráneo, columna, clavícula... </li>\n <li>Conocimiento e identificación de músculos: bíceps, tríceps, cuadriceps... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "ossos_eu"
+  ],
+  "mainFile": "jclic.js/ossosmus.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ossosmus.jclic.zip",
+  "instFile": "jclic/ossosmus.jclic.inst",
+  "clicZoneId": 3676,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3676",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ossosmus/jclic/ossosmus.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 31,
+  "mediaFiles": 25,
+  "totalSize": 856240,
+  "files": [
+    "cover.png",
+    "jclic.js/101esqueleto_amb_noms_ossos_resized.jpg",
+    "jclic.js/102perone_resized.jpg",
+    "jclic.js/103tibia.gif",
+    "jclic.js/10femur_resized.jpg",
+    "jclic.js/11rotula_resized.jpg",
+    "jclic.js/1biceps_resized.jpg",
+    "jclic.js/1clavicula.gif",
+    "jclic.js/2crani_resized.jpg",
+    "jclic.js/2triceps_resized.jpg",
+    "jclic.js/3columna_resized.jpg",
+    "jclic.js/3quadriceps_resized.jpg",
+    "jclic.js/4costelles_resized.jpg",
+    "jclic.js/4pectorals_resized.jpg",
+    "jclic.js/5abdominals_resized.jpg",
+    "jclic.js/5radi_resized.jpg",
+    "jclic.js/6bessons_resized.jpg",
+    "jclic.js/7isquiotibials_resized.jpg",
+    "jclic.js/8glutis_resized.jpg",
+    "jclic.js/8humer_resized.jpg",
+    "jclic.js/9pelvis_resized.jpg",
+    "jclic.js/esqueleto_humano_resized.jpg",
+    "jclic.js/festa_.jpg",
+    "jclic.js/musculs_amb_nom_definitiu_resized.jpg",
+    "jclic.js/ossosmus.jclic",
+    "jclic.js/portada.png",
+    "jclic.js/z604_nutricion.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ossosmus.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

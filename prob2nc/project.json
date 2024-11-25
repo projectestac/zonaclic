@@ -1,0 +1,113 @@
+{
+  "id": 1018,
+  "title": "Problemes de càlcul mental",
+  "author": "Ferran Estruch Mascarell",
+  "school": "CP Verge del Remei Castelló de Rugat (La Vall d'Albaida)",
+  "date": "02/06/03",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la matemàtica, càlcul mental",
+    "es": "aprendizaje de la matemática, cálculo mental",
+    "en": "learning of the mathematical one, mental arithmetic"
+  },
+  "descCodes": [
+    700,
+    930
+  ],
+  "description": {
+    "en": "122 simple problems distributed into 4 packages thought to enforce mental calculus in the second and third cycle of Primary school. These problems are oriented to work with simple operations.",
+    "ca": "Un total de 122 problemes senzills distribuïts en quatre paquets per reforçar el càlcul mental al segon i tercer cicle de Primària. Són problemes per treballar les operacions bàsiques, gairebé tots amb només una operació.",
+    "es": "Un total de 122 problemas sencillos distribuidos en cuatro paquetes para reforzar el cálculo mental en el segundo y tercer ciclo de Primaria. Son problemas para trabajar las operaciones básicas, casi todos con solo una operación."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/prob2nc.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/prob2nc.jclic.zip",
+  "instFile": "jclic/prob2nc.jclic.inst",
+  "clicZoneId": 2143,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2143",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/prob2nc/jclic/prob2nc.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 38,
+  "mediaFiles": 25,
+  "totalSize": 688251,
+  "files": [
+    "cover.jpg",
+    "jclic.js/1/1.jclic",
+    "jclic.js/1/present2.gif",
+    "jclic.js/1/prob11.gif",
+    "jclic.js/1/prob12.gif",
+    "jclic.js/1/prob13.gif",
+    "jclic.js/1/prob14.gif",
+    "jclic.js/2/2.jclic",
+    "jclic.js/2/present2.gif",
+    "jclic.js/2/prob15.gif",
+    "jclic.js/2/prob16.gif",
+    "jclic.js/2/prob17.gif",
+    "jclic.js/2/prob18.gif",
+    "jclic.js/3/3.jclic",
+    "jclic.js/3/present2.gif",
+    "jclic.js/3/prob19.gif",
+    "jclic.js/3/prob20.gif",
+    "jclic.js/3/prob21.gif",
+    "jclic.js/3/prob22.gif",
+    "jclic.js/4/4.jclic",
+    "jclic.js/4/present2.gif",
+    "jclic.js/4/prob23.gif",
+    "jclic.js/4/prob24.gif",
+    "jclic.js/4/prob25.gif",
+    "jclic.js/4/prob29.gif",
+    "jclic.js/present1.gif",
+    "jclic.js/prob1.gif",
+    "jclic.js/prob2.gif",
+    "jclic.js/prob2nc.jclic",
+    "jclic.js/prob3.gif",
+    "jclic.js/prob4.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/prob2nc.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/1/1.jclic.js",
+    "jclic.js/2/2.jclic.js",
+    "jclic.js/3/3.jclic.js",
+    "jclic.js/4/4.jclic.js",
+    "cover.webp"
+  ]
+}

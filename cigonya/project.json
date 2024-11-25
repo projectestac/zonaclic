@@ -1,0 +1,132 @@
+{
+  "id": 2450,
+  "title": "La cigonya",
+  "author": "Sílvia Oliva",
+  "date": "16/06/16",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "ocells, vertebrats, animals",
+    "es": "pájaros, vertebrados, animals",
+    "en": "birds, vertebrates, animales"
+  },
+  "descCodes": [
+    92,
+    107,
+    1456
+  ],
+  "description": {
+    "en": "The stork is a project aimed at children nursery and initial cycle for gaining a migratory bird: Stork, deeply rooted in the Aiguamolls. Work different aspects characteristic of this bird: their parts, where they live, what to eat, measure, weight, how they communicate...",
+    "ca": "La cigonya és un projecte dirigit a nens i nenes d'infantil i cicle inicial, per aprofundir en una au migratòria: la cigonya, molt arrelada als Aiguamolls de l'Empordà. Treballa els diferents aspectes més característics d'aquesta au: les seves parts, on viuen, de què s'alimenten, mesura, pes, com es comuniquen...",
+    "es": "La cigüeña es un proyecto dirigido a niños y niñas de infantil y ciclo inicial, para profundizar en un ave migratoria: la cigüeña, muy arraigada en los Aiguamolls del Empordà. Trabaja los diferentes aspectos más característicos de esta ave: sus partes, donde viven, de qué se alimentan, medida, peso, cómo se comunican..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cigonya.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cigonya.jclic.zip",
+  "instFile": "jclic/cigonya.jclic.inst",
+  "clicZoneId": 3958,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3958",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cigonya/jclic/cigonya.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 51,
+  "totalSize": 1530170,
+  "files": [
+    "cover.png",
+    "jclic.js/ales.jpg",
+    "jclic.js/ales.mp3",
+    "jclic.js/arbre.mp3",
+    "jclic.js/arros.mp3",
+    "jclic.js/bec.jpg",
+    "jclic.js/bec.mp3",
+    "jclic.js/blat.mp3",
+    "jclic.js/campanar.jpg",
+    "jclic.js/campanar.mp3",
+    "jclic.js/cap.mp3",
+    "jclic.js/cap_o_bec.jpg",
+    "jclic.js/cavall.jpg",
+    "jclic.js/cavall.wav",
+    "jclic.js/ciconia.ciconia.wav",
+    "jclic.js/cigonya.jclic",
+    "jclic.js/cigonya.jclic.js",
+    "jclic.js/cigonya.png",
+    "jclic.js/cigonya_puzzle.jpg",
+    "jclic.js/claqueig.jpg",
+    "jclic.js/fantastic.mp3",
+    "jclic.js/gall.jpg",
+    "jclic.js/gall.wav",
+    "jclic.js/gavines.mp3",
+    "jclic.js/genial.mp3",
+    "jclic.js/gos.jpg",
+    "jclic.js/gos.wav",
+    "jclic.js/granotes_i_gripaus.mp3",
+    "jclic.js/ho_has_fet_molt_be.mp3",
+    "jclic.js/ho_has_fet_molt_i_molt_be.mp3",
+    "jclic.js/i03_ciguena.jpg",
+    "jclic.js/images__1_.jpg",
+    "jclic.js/images__3_.jpg",
+    "jclic.js/insectes.mp3",
+    "jclic.js/menjar.jpg",
+    "jclic.js/no_menjar.jpg",
+    "jclic.js/ordi.mp3",
+    "jclic.js/penya_segat.mp3",
+    "jclic.js/penyasegat.jpg",
+    "jclic.js/perfecte.mp3",
+    "jclic.js/plomes.jpg",
+    "jclic.js/plomes.mp3",
+    "jclic.js/porc.jpg",
+    "jclic.js/porc.wav",
+    "jclic.js/pota_anella.jpg",
+    "jclic.js/potes.jpg",
+    "jclic.js/potes.mp3",
+    "jclic.js/ratolins.mp3",
+    "jclic.js/reptils.mp3",
+    "jclic.js/sardines.mp3",
+    "jclic.js/taulada.jpg",
+    "jclic.js/teulada.mp3",
+    "jclic.js/xemeneia.jpg",
+    "jclic.js/xemeneia.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

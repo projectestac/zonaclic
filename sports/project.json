@@ -1,0 +1,96 @@
+{
+  "id": 315,
+  "title": "English through sports",
+  "author": "Emilia Falco i Pascual R. Huedo",
+  "school": "CEIP Cervantes Nules (Plana Baixa)",
+  "date": "16/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, esports",
+    "es": "lengua inglesa, deportes",
+    "en": "English language, sports"
+  },
+  "descCodes": [
+    130,
+    424
+  ],
+  "description": {
+    "en": "Activity pack that works on English vocabulary using the theme of sports.",
+    "ca": "Paquet d'activitats on es treballa vocabulari i frases senzilles relacionades amb diversos esports.",
+    "es": "Paquete de actividades en el que se trabaja vocabulario y frases sencillas relacionadas con diversos deportes."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sports.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sports.jclic.zip",
+  "instFile": "jclic/sports.jclic.inst",
+  "clicZoneId": 1170,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1170",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sports/jclic/sports.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 16,
+  "totalSize": 2296817,
+  "files": [
+    "cover.jpg",
+    "jclic.js/baseball.jpg",
+    "jclic.js/baseball.wav",
+    "jclic.js/basket.jpg",
+    "jclic.js/basket.wav",
+    "jclic.js/basket2.gif",
+    "jclic.js/carreras.wav",
+    "jclic.js/cricket.jpg",
+    "jclic.js/cricket.wav",
+    "jclic.js/horse_ri.jpg",
+    "jclic.js/horse_ri.wav",
+    "jclic.js/nataci_n.wav",
+    "jclic.js/pinpon.wav",
+    "jclic.js/ski.jpg",
+    "jclic.js/ski.wav",
+    "jclic.js/sports.jclic",
+    "jclic.js/voley.jpg",
+    "jclic.js/voley1.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sports.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

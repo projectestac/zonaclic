@@ -1,0 +1,91 @@
+{
+  "id": 1932,
+  "title": "Orienta't",
+  "author": "Xavier Rodríguez Quevedo",
+  "school": "Institut Sant Andreu de Llavaneres Sant Andreu de Llavaneres (Maresme)",
+  "date": "07/07/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "ensenyament secundari , nivells educatius",
+    "es": "enseñanza secundaria, niveles educativos",
+    "en": "secondary education, educative levels"
+  },
+  "descCodes": [
+    407,
+    411
+  ],
+  "description": {
+    "en": "Project of activities about academic guidance, the project has three parts: \n<ul> \n <li>You </li>\n <li>Your options </li>\n <li>Job search strategies </li>\n</ul>",
+    "ca": "Activitats d'orientació acadèmica i professional dividit en tres parts: \n<ul> \n <li>Tu </li>\n <li>Les teves opcions </li>\n <li>Estratègies per buscar feina </li>\n</ul>",
+    "es": "Actividades de orientación académica y profesional dividida en tres partes: \n<ul> \n <li>Tu </li>\n <li>Tus opciones </li>\n <li>Estrategias para buscar trabajo </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/orientat.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/orientat.jclic.zip",
+  "instFile": "jclic/orientat.jclic.inst",
+  "clicZoneId": 3558,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3558",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/orientat/jclic/orientat.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 11,
+  "totalSize": 866989,
+  "files": [
+    "cover.gif",
+    "jclic.js/aplaudiment_5s.mp3",
+    "jclic.js/correcte.png",
+    "jclic.js/diploma.jpg",
+    "jclic.js/eysenck.jpg",
+    "jclic.js/incorrecte.png",
+    "jclic.js/llibres_gris.jpg",
+    "jclic.js/moc.mp3",
+    "jclic.js/organigrama_sistema_educatiu_600x450.gif",
+    "jclic.js/orienta_t_400x100.gif",
+    "jclic.js/orientat.jclic",
+    "jclic.js/portada_orienta_t.gif",
+    "jclic.js/sintonia_inicial.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/orientat.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

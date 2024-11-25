@@ -1,0 +1,118 @@
+{
+  "id": 187,
+  "title": "La Célula",
+  "author": "Andrea Carolina González Muñoz i Mónica Patricia Genet Guerrero",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "biologia, cèl.lula",
+    "es": "biología, célula",
+    "en": "biology, cell"
+  },
+  "descCodes": [
+    58,
+    810
+  ],
+  "description": {
+    "en": "This package of activities has been thought to understand the cellular structures and functions, whose activity originates all the processes that we can see in all the live organisms.",
+    "ca": "Aquest paquet d'activitats ha estat pensat amb l'objectiu de comprendre les estructures i funcions cel·lulars, l'activitat de les quals origina tots els processos que veiem a diari en tots els organismes vius.",
+    "es": "Este paquete de actividades ha sido pensado para comprender las estructuras y funciones celulares, cuya actividad origina todos los procesos que vemos a diario en todos los organismos vivos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/celula.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/celula.jclic.zip",
+  "instFile": "jclic/celula.jclic.inst",
+  "clicZoneId": 1095,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1095",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/celula/jclic/celula.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 39,
+  "totalSize": 2857344,
+  "files": [
+    "cover.jpg",
+    "jclic.js/animce_1.gif",
+    "jclic.js/animcell.gif",
+    "jclic.js/bactce_1.gif",
+    "jclic.js/bacteria.gif",
+    "jclic.js/capsula.wav",
+    "jclic.js/cel_proc.wav",
+    "jclic.js/celani.wav",
+    "jclic.js/celula.jclic",
+    "jclic.js/centriolos.wav",
+    "jclic.js/cilios.wav",
+    "jclic.js/citoes.wav",
+    "jclic.js/citoplas.wav",
+    "jclic.js/cloroplastos.wav",
+    "jclic.js/crom_pro.wav",
+    "jclic.js/flagelo.wav",
+    "jclic.js/fotos.gif",
+    "jclic.js/golgi.wav",
+    "jclic.js/liso.wav",
+    "jclic.js/mb.wav",
+    "jclic.js/mem.wav",
+    "jclic.js/membrana.wav",
+    "jclic.js/mitoc.wav",
+    "jclic.js/mitocondrias.wav",
+    "jclic.js/nabkgnd.gif",
+    "jclic.js/nucleo.wav",
+    "jclic.js/organ__1.gif",
+    "jclic.js/organ__2.gif",
+    "jclic.js/organ__3.gif",
+    "jclic.js/organe_1.gif",
+    "jclic.js/ovacion.wav",
+    "jclic.js/paredcel.wav",
+    "jclic.js/peroxi.wav",
+    "jclic.js/plntce_1.gif",
+    "jclic.js/plntcell.gif",
+    "jclic.js/polirrribo.wav",
+    "jclic.js/presen_1.gif",
+    "jclic.js/retic.wav",
+    "jclic.js/reticulo.wav",
+    "jclic.js/vacuola.wav",
+    "jclic.js/vesic.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/celula.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

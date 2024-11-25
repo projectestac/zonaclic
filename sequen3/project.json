@@ -1,0 +1,134 @@
+{
+  "id": 2031,
+  "title": "Seqüències 3",
+  "author": "Emilia Alcaraz Delgado i Mercedes Alcaraz Delgado",
+  "school": "Escola Ferran Agulló Molins de Rei (Baix Llobregat), Escola Pere Lliscart L'Hospitalet de Llobregat (Barcelonès)",
+  "date": "12/02/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "educació especial , lògica",
+    "es": "educación especial, lógica",
+    "en": "special education, logic"
+  },
+  "descCodes": [
+    401,
+    711
+  ],
+  "description": {
+    "en": "Project of activities which must be sorted sequences of images in three different situations of everyday life. \n<p> The project is also addressed at children with special educational needs. </p>",
+    "ca": "Projecte d'activitats on s'han d'ordenar seqüències de tres imatges en diferents situacions de la vida quotidiana. \n<p> El projecte està adreçat també a nens i nenes amb necessitats educatives especials. </p>",
+    "es": "Proyecto de actividades donde se han de ordenar secuencias de imágenes en diferentes situaciones de la vida cotidiana. \n<p> El proyecto está dirigido también a niños y niñas con necesidades educativas especiales. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sequen3.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sequen3.jclic.zip",
+  "instFile": "jclic/sequen3.jclic.inst",
+  "clicZoneId": 3601,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3601",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sequen3/jclic/sequen3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 54,
+  "totalSize": 2756923,
+  "files": [
+    "cover.gif",
+    "jclic.js/abric1.jpg",
+    "jclic.js/abric2.jpg",
+    "jclic.js/abric3.jpg",
+    "jclic.js/avet1.jpg",
+    "jclic.js/avet2.jpg",
+    "jclic.js/avet3.jpg",
+    "jclic.js/bocata1.jpg",
+    "jclic.js/bocata2.jpg",
+    "jclic.js/bocata3.jpg",
+    "jclic.js/bufa1.jpg",
+    "jclic.js/bufa2.jpg",
+    "jclic.js/bufa3.jpg",
+    "jclic.js/cabell1.jpg",
+    "jclic.js/cabell2.jpg",
+    "jclic.js/cabell3.jpg",
+    "jclic.js/credits.jpg",
+    "jclic.js/espelma1.jpg",
+    "jclic.js/espelma2.jpg",
+    "jclic.js/espelma3.jpg",
+    "jclic.js/espelma4.jpg",
+    "jclic.js/espelma5.jpg",
+    "jclic.js/globus1.jpg",
+    "jclic.js/globus2.jpg",
+    "jclic.js/globus3.jpg",
+    "jclic.js/ima0.jpg",
+    "jclic.js/nocilla1.jpg",
+    "jclic.js/nocilla2.jpg",
+    "jclic.js/nocilla3.jpg",
+    "jclic.js/ous1.jpg",
+    "jclic.js/ous2.jpg",
+    "jclic.js/ous3.jpg",
+    "jclic.js/pa1.jpg",
+    "jclic.js/pa2.jpg",
+    "jclic.js/pa3.jpg",
+    "jclic.js/paret.jpg",
+    "jclic.js/patina1.jpg",
+    "jclic.js/patina2.jpg",
+    "jclic.js/patina3.jpg",
+    "jclic.js/piruleta1.jpg",
+    "jclic.js/piruleta2.jpg",
+    "jclic.js/piruleta3.jpg",
+    "jclic.js/sabo1.jpg",
+    "jclic.js/sabo2.jpg",
+    "jclic.js/sabo3.jpg",
+    "jclic.js/salta1.jpg",
+    "jclic.js/salta2.jpg",
+    "jclic.js/salta3.jpg",
+    "jclic.js/sequen3.jclic",
+    "jclic.js/suc1.jpg",
+    "jclic.js/suc2.jpg",
+    "jclic.js/suc3.jpg",
+    "jclic.js/tio1.jpg",
+    "jclic.js/tio2.jpg",
+    "jclic.js/tio3.jpg",
+    "jclic.js/tren.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sequen3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

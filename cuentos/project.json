@@ -1,0 +1,112 @@
+{
+  "id": 361,
+  "title": "Once upon a time",
+  "author": "María Ángel de Prado",
+  "school": "CP San Ignacio de Loyola Palencia (Castilla y León)",
+  "date": "19/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua anglesa",
+    "es": "gramática, lengua inglesa",
+    "en": "grammar, English language"
+  },
+  "descCodes": [
+    665,
+    667
+  ],
+  "description": {
+    "en": "Clic activity pack in English. Based on characters of famous children stories (Cinderella, Sleeping beauty, Asterix and Obelix, among others) which pretend to stimulate the young student into learning a series of basic words in English, as well as the names of these characters in English. The exercises are varied and have plenty of clever graphics showing the characters of these stories. The activities are directed towards elementary school children.",
+    "ca": "Paquet d'activitats de llengua estrangera - anglès, basat en personatges de contes famosos (La ventafocs, la bella dorment, Asterix i Obelix... entre altres) amb els que es pretén estimular l'alumne a aprendre un conjunt de paraules bàsiques així com els noms d'aquests personatges en anglès. Les activitats s'adrecen al primer cicle de primària.",
+    "es": "Paquete de actividades de lengua extranjera -inglés-. Basado en personajes de cuentos famosos (Cenicienta, la Bella durmiente, Asterix y Obelix, entre otros) con los cuales se pretende estimular al alumno a aprender una serie de palabras básicas, además de los nombre de estos personajes en inglés. Las actividades están dirigidas a los alumnos de primer ciclo de educación primaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cuentos.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cuentos.jclic.zip",
+  "instFile": "jclic/cuentos.jclic.inst",
+  "clicZoneId": 1203,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1203",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cuentos/jclic/cuentos.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 39,
+  "mediaFiles": 32,
+  "totalSize": 1059251,
+  "files": [
+    "cover.gif",
+    "jclic.js/aste1.gif",
+    "jclic.js/asterix.gif",
+    "jclic.js/bien.gif",
+    "jclic.js/cenici.gif",
+    "jclic.js/cuentos.jclic",
+    "jclic.js/donald.gif",
+    "jclic.js/dumbo.gif",
+    "jclic.js/flinston.gif",
+    "jclic.js/garfield.gif",
+    "jclic.js/littlred.gif",
+    "jclic.js/mafalda.gif",
+    "jclic.js/mickey.gif",
+    "jclic.js/morta.gif",
+    "jclic.js/obe1.gif",
+    "jclic.js/obelix.gif",
+    "jclic.js/peterpan.gif",
+    "jclic.js/pinocho.gif",
+    "jclic.js/pluto.gif",
+    "jclic.js/popeye.gif",
+    "jclic.js/porta1.gif",
+    "jclic.js/porta2.gif",
+    "jclic.js/pretty.gif",
+    "jclic.js/snowhite.gif",
+    "jclic.js/superman.gif",
+    "jclic.js/tarzan.gif",
+    "jclic.js/tele1.gif",
+    "jclic.js/tele2.gif",
+    "jclic.js/tele3.gif",
+    "jclic.js/tele4.gif",
+    "jclic.js/tele5.gif",
+    "jclic.js/tele6.gif",
+    "jclic.js/varios.gif",
+    "jclic.js/zipi.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cuentos.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

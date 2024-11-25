@@ -1,0 +1,112 @@
+{
+  "id": 93,
+  "title": "El cos humà - 1",
+  "author": "Seminari d'Informàtica Educativa del Pla d'Urgell",
+  "date": "09/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "anatomia",
+    "es": "anatomía",
+    "en": "anatomy"
+  },
+  "descCodes": [
+    51
+  ],
+  "description": {
+    "en": "Activity pack about the human body: Digestive, respiratory, reproductive and circulatory systems are studied. This material corresponds to the programming unit\n<b><a href=\"http://www.xtec.cat/recursos/curricul/experim/coshuma.htm\" target=\"_blank\">\"El cos humà\"</a></b>.",
+    "ca": "Paquet d'activitats sobre el cos humà: els aparells digestiu, excretor, locomotor, respiratori, reproductor i circulatori. Aquest material correspon a la unitat de programació \n<b><a href=\"http://www.xtec.cat/recursos/curricul/experim/coshuma.htm\" target=\"_blank\">\"El cos humà\"</a></b>.",
+    "es": "Paquete de actividades sobre el cuerpo humano: los aparatos digestivo, excretor, locomotor, respiratorio, reproductor y circulatorio. Este material corresponde a la unidad de programación \n<b><a href=\"http://www.xtec.cat/recursos/curricul/experim/coshuma.htm\" target=\"_blank\">\"El cos humà\"</a></b>."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "huma",
+    "humangal",
+    "humano"
+  ],
+  "mainFile": "jclic.js/soina.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/soina.jclic.zip",
+  "instFile": "jclic/soina.jclic.inst",
+  "clicZoneId": 1044,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1044",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/soina/jclic/soina.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 31,
+  "mediaFiles": 28,
+  "totalSize": 243894,
+  "files": [
+    "cover.gif",
+    "jclic.js/circu.gif",
+    "jclic.js/circula_circu.gif",
+    "jclic.js/dige.gif",
+    "jclic.js/digestiu_digestiu.gif",
+    "jclic.js/digestiu_estomac.gif",
+    "jclic.js/digestiu_fetge.gif",
+    "jclic.js/digestiu_intestin.gif",
+    "jclic.js/digestiu_pancreas.gif",
+    "jclic.js/excre.gif",
+    "jclic.js/excretor_diges1.gif",
+    "jclic.js/excretor_pell1.gif",
+    "jclic.js/excretor_pulmo1.gif",
+    "jclic.js/excretor_ronyo.gif",
+    "jclic.js/excretor_urinar1.gif",
+    "jclic.js/excretor_urinar2.gif",
+    "jclic.js/loco.gif",
+    "jclic.js/locomot_crani.gif",
+    "jclic.js/locomot_crani2.gif",
+    "jclic.js/locomot_muscara.gif",
+    "jclic.js/locomot_musctot.gif",
+    "jclic.js/pulmo.gif",
+    "jclic.js/repro.gif",
+    "jclic.js/reproduc_penis.gif",
+    "jclic.js/reproduc_reproduc.gif",
+    "jclic.js/reproduc_vagina.gif",
+    "jclic.js/respira_organs.gif",
+    "jclic.js/respira_pultra.gif",
+    "jclic.js/respira_respir.gif",
+    "jclic.js/soina.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/soina.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

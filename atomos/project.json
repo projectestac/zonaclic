@@ -1,0 +1,81 @@
+{
+  "id": 919,
+  "title": "Átomos",
+  "author": "Virgilio Pedraz Hernández",
+  "school": "CRA Vía de la Plata La Garganta (Cáceres)",
+  "date": "11/12/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales",
+    "en": "Experimental sciences"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "química",
+    "es": "química",
+    "en": "chemistry"
+  },
+  "descCodes": [
+    97
+  ],
+  "description": {
+    "en": "Package of activities about the atoms : \n<ul> \n <li>Simple and composed substances </li>\n <li>Atom components </li>\n <li>Symbols </li>\n</ul>",
+    "ca": "Paquet d'activitats sobre els àtoms: \n<ul> \n <li>substàncies simples i compostes </li>\n <li>constitució de l'àtom </li>\n <li>símbols </li>\n</ul>",
+    "es": "Paquete de actividades sobre los átomos: \n<ul> \n <li>sustancias simples y compuestas </li>\n <li>constitución del átomo </li>\n <li>símbolos... </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/atomos.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/atomos.jclic.zip",
+  "instFile": "jclic/atomos.jclic.inst",
+  "clicZoneId": 2030,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2030",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/atomos/jclic/atomos.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 2,
+  "totalSize": 233006,
+  "files": [
+    "cover.jpg",
+    "jclic.js/atomo.gif",
+    "jclic.js/atomos.jclic",
+    "jclic.js/modelo.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/atomos.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

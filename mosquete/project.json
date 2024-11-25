@@ -1,0 +1,81 @@
+{
+  "id": 2223,
+  "title": "Los tres mosqueteros",
+  "author": "Pau Miret Puig",
+  "school": "Institut Miquel Martí i Pol Cornellà de Llobregat (Baix Llobregat)",
+  "date": "16/03/12",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la literatura, novel·la",
+    "es": "aprendizaje de la literatura, novela",
+    "en": "learning of Literature, novel"
+  },
+  "descCodes": [
+    611,
+    648
+  ],
+  "description": {
+    "en": "Project of activities based on the novel \n<i>The Three Musketeers</i> by Alexandre Dumas: \n  <ul> \n   <li>Novel's characters </li>\n   <li>Novel's scenarios </li>\n   <li>Representative sentences </li>\n  </ul>",
+    "ca": "Projecte d'activitats basat en la novel·la \n<i>Els tres mosqueters</i> d'Alexandre Dumas: \n<ul> \n <li>Personatges de la novel·la </li>\n <li>Escenaris de la novel·la </li>\n <li>Frases representatives </li>\n</ul>",
+    "es": "Proyecto de actividades sobre \n<i>Los tres mosqueteros</i> de Alejandro Dumas: \n<ul> \n <li>Personajes de la novela </li>\n <li>Escenarios de la novela </li>\n <li>Frases representativas </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/mosquete.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mosquete.jclic.zip",
+  "instFile": "jclic/mosquete.jclic.inst",
+  "clicZoneId": 3748,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3748",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/mosquete/jclic/mosquete.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 4,
+  "totalSize": 436870,
+  "files": [
+    "cover.png",
+    "jclic.js/cartel_resized.jpg",
+    "jclic.js/dumas.jpg",
+    "jclic.js/i01_grabado.jpg",
+    "jclic.js/mapa_resized1.jpg",
+    "jclic.js/mosquete.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/mosquete.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

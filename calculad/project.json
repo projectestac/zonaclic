@@ -1,0 +1,116 @@
+{
+  "id": 679,
+  "title": "Calcula, calculadora",
+  "author": "Eduard Orge",
+  "school": "Escola Pit Roig Barcelona",
+  "date": "29/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "càlcul, llenguatge matemàtic, ús calculadora",
+    "es": "cálculo, lenguaje matemático, uso calculadora",
+    "en": "calculation, mathematical language, calculator use"
+  },
+  "descCodes": [
+    702,
+    710,
+    932
+  ],
+  "description": {
+    "en": "Clic activities about the use of the calculator at the school. In this package we can also found information about the main functions of the calculator and mental arithmetic exercises.",
+    "ca": "Conjunt d'activitats per treballar els aspectes relacionats amb l'ús de la calculadora, element integrant de la programació de matemàtiques del cicle superior d'educació primària.\n<br> L'activitat consisteix en una seqüència de pantalles d'informació i exercicis en els quals es desenvolupen de manera sistemàtica el coneixement i ús de les calculadores electròniques. A mesura que s'avança en el coneixement de les diferents funcions, es proposen una bateria de problemes de càlcul.",
+    "es": "Conjunto de actividades para trabajar aspectos relacionados con el uso de la calculadora, elemento integrado en la programación de matemáticas del ciclo superior de educación primaria.\n<br> En el paquete encontramos pantallas de información y ejercicios en los que se desarrolla de manera sistemática el conocimiento y uso de las calculadoras electrónicas. Encontramos también una batería de problemas de cálculo."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/calculad.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/calculad.jclic.zip",
+  "instFile": "jclic/calculad.jclic.inst",
+  "clicZoneId": 1354,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1354",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/calculad/jclic/calculad.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 39,
+  "mediaFiles": 33,
+  "totalSize": 555199,
+  "files": [
+    "cover.gif",
+    "jclic.js/4opera.gif",
+    "jclic.js/arrel.gif",
+    "jclic.js/bolsreg3.gif",
+    "jclic.js/c.gif",
+    "jclic.js/calcien.gif",
+    "jclic.js/calcu12.gif",
+    "jclic.js/calcula1.gif",
+    "jclic.js/calculad.doc",
+    "jclic.js/calculad.jclic",
+    "jclic.js/calculad.pdf",
+    "jclic.js/ce.gif",
+    "jclic.js/coma.gif",
+    "jclic.js/des1.gif",
+    "jclic.js/des2.gif",
+    "jclic.js/des3.gif",
+    "jclic.js/des4.gif",
+    "jclic.js/digits.gif",
+    "jclic.js/divi.gif",
+    "jclic.js/exptec.gif",
+    "jclic.js/factura.gif",
+    "jclic.js/factura2.gif",
+    "jclic.js/igual.gif",
+    "jclic.js/imagen1.gif",
+    "jclic.js/imagen2.gif",
+    "jclic.js/imagen3.gif",
+    "jclic.js/memoria.gif",
+    "jclic.js/multi.gif",
+    "jclic.js/negatiu.gif",
+    "jclic.js/opemem.gif",
+    "jclic.js/pripas.gif",
+    "jclic.js/resta.gif",
+    "jclic.js/suma.gif",
+    "jclic.js/suma15.gif",
+    "jclic.js/tetr.gif",
+    "jclic.js/trofeo.gif",
+    "jclic.js/zero.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/calculad.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

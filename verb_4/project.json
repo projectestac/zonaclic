@@ -1,0 +1,117 @@
+{
+  "id": 2465,
+  "title": "Los tiempos verbales",
+  "author": "Yolanda Vicente Jericó",
+  "date": "24/11/16",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, verbs",
+    "es": "aprendizaje de la lengua, verbs",
+    "en": "learning of the language, verbos"
+  },
+  "descCodes": [
+    110,
+    1474
+  ],
+  "description": {
+    "en": "Activities related to Spanish tenses: \n<ul> \n <li>Simple and compound </li>\n <li>Pasts, present and future </li>\n <li>Perfect and imperfect </li>\n <li>Forms of tenses </li>\n</ul>",
+    "ca": "Activitats relacionades amb els temps verbals en castellà: \n<ul> \n <li>Simples i compostos </li>\n <li>Pretèrits, presents i futurs </li>\n <li>Perfectes i imperfectes </li>\n <li>Formes dels temps verbals </li>\n</ul>",
+    "es": "Actividades relacionadas con los tiempos verbales: \n<ul> \n <li>Simples y compuestos </li>\n <li>Pretéritos, presentes y futuros </li>\n <li>Perfectos e imperfectos </li>\n <li>Formas de los tiempos verbales </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/primerapantalla.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/primerapantalla.jclic.zip",
+  "instFile": "jclic/verb_4.jclic.inst",
+  "clicZoneId": 3973,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3973",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/verb_4/jclic/primerapantalla.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 30,
+  "totalSize": 1150434,
+  "files": [
+    "cover.png",
+    "jclic.js/batman.jpg",
+    "jclic.js/condicional.jpg",
+    "jclic.js/el_duerme-modulotiemposverbales.mp3",
+    "jclic.js/el_duerme.mp3",
+    "jclic.js/el_duerme_final-modulotiemposverbales.jpg",
+    "jclic.js/el_duerme_final.jpg",
+    "jclic.js/el_ha_nacido-modulotiemposverbales.mp3",
+    "jclic.js/el_ha_nacido.mp3",
+    "jclic.js/el_ha_nacido_final-modulotiemposverbales.jpg",
+    "jclic.js/el_ha_nacido_final.jpg",
+    "jclic.js/el_habia_nadado_final-modulotiemposverbales.jpg",
+    "jclic.js/el_habia_nadado_final.jpg",
+    "jclic.js/el_habra_leido-modulotiemposverbales.mp3",
+    "jclic.js/el_habra_leido.mp3",
+    "jclic.js/el_habra_leido_final-modulotiemposverbales.jpg",
+    "jclic.js/el_habra_leido_final.jpg",
+    "jclic.js/ellos_bailaban.mp3",
+    "jclic.js/ellos_bailaban_final3-modulotiemposverbales.jpg",
+    "jclic.js/ellos_bailaban_final3.jpg",
+    "jclic.js/ellos_habian_nadado.mp3",
+    "jclic.js/futuro.jpg",
+    "jclic.js/images.jpg",
+    "jclic.js/imperfecto.jpg",
+    "jclic.js/modulotiemposverbales.jclic",
+    "jclic.js/modulotiemposverbales.jclic.js",
+    "jclic.js/perfecto.jpg",
+    "jclic.js/perfectos_e_imperfectos.jclic",
+    "jclic.js/perfectos_e_imperfectos.jclic.js",
+    "jclic.js/pregunta-simples_y_compuestos_final.gif",
+    "jclic.js/pregunta.gif",
+    "jclic.js/presente.jpg",
+    "jclic.js/presentes_pasados_futuros.jclic",
+    "jclic.js/presentes_pasados_futuros.jclic.js",
+    "jclic.js/primerapantalla.jclic",
+    "jclic.js/primerapantalla.jclic.js",
+    "jclic.js/simples_y_compuestos_final.jclic",
+    "jclic.js/simples_y_compuestos_final.jclic.js",
+    "jclic.js/yo_entrare.mp3",
+    "jclic.js/yo_entrare.png",
+    "jclic.js/yo_entrare_final.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

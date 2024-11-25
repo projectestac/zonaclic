@@ -1,0 +1,142 @@
+{
+  "id": 2376,
+  "title": "El modelatge del relleu. Agents i processos geològics externs",
+  "author": "Pere Petrús Robert",
+  "school": "CRP Reus Reus (Baix Camp)",
+  "date": "19/03/15",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16), High school (16-18)",
+    "ca": "Secundària (12-16), Batxillerat (16-18)",
+    "es": "Secundaria (12-16), Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "SEC",
+    "BTX"
+  ],
+  "descriptors": {
+    "ca": "geologia, terra ",
+    "es": "geología, tierra",
+    "en": "geology, earth"
+  },
+  "descCodes": [
+    78,
+    105
+  ],
+  "description": {
+    "en": "JClic project about external geomorphology and the changes in the modelling of the relief caused by the hydrosphere, atmosphere and biosphere. About the influence of external geological agents and the description of the different geological processes involved. The influence of lithology is also described in the evolution of a relief. \n<ul> \n <li>External geological agents associated with the hydrosphere, atmosphere and biosphere. </li>\n <li>External geological processes associated with each of the agents: weathering, erosion, transport and deposition. </li>\n <li>Modelled relief: fluvial, glacial, coastal and wind. </li>\n <li>Weathering: mechanical, chemical and biological. </li>\n</ul>",
+    "ca": "Aquest projecte JClic tracta de la geomorfologia externa, els canvis en el modelatge del relleu causades per la hidrosfera, l'atmosfera i la biosfera. De la influència dels agents geològics externs i la descripció dels diferents processos geològics implicats. També es descriu la influència de la litologia en l'evolució d'un relleu. \n<ul> \n <li>Els agents geològics externs associats a la hidrosfera, a l'atmosfera i a la biosfera. </li>\n <li>Els processos geològics externs associats a cadascun dels agents: meteorització, erosió, transport i sedimentació. </li>\n <li>Modelatges del relleu: fluvial, glacial, litoral i eòlic. </li>\n <li>Meteorització: mecànica, química i biològica. </li>\n</ul>",
+    "es": "Este proyecto JClic trata de la geomorfología externa, los cambios en el modelado del relieve causadas por la hidrosfera, la atmósfera y la biosfera. De la influencia de los agentes geológicos externos y la descripción de los diferentes procesos geológicos implicados. También se describe la influencia de la litología en la evolución de un relleu.Els agentes geológicos externos asociados a la hidrosfera, la atmósfera y la biosfera. \n<ul> \n <li>Los procesos geológicos externos asociados a cada uno de los agentes: meteorización, erosión, transporte y sedimentación. </li>\n <li>Modelados del relieve: fluvial, glacial, litoral y eólico. </li>\n <li>Meteorización: mecánica, química y biológica. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/relleu.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/relleu.jclic.zip",
+  "instFile": "jclic/relleu.jclic.inst",
+  "clicZoneId": 3881,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3881",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/relleu/jclic/relleu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 61,
+  "totalSize": 10431356,
+  "files": [
+    "cover.png",
+    "jclic.js/800px_glacial_cirque_formation_en.svg.png",
+    "jclic.js/algaerocks_copia.jpg",
+    "jclic.js/arbustos.jpg",
+    "jclic.js/atmosfera.png",
+    "jclic.js/beach.mp3",
+    "jclic.js/beach3.jpg",
+    "jclic.js/bioclasticitat.mp3",
+    "jclic.js/biosfera.png",
+    "jclic.js/by_petit.png",
+    "jclic.js/by_sa_petit.png",
+    "jclic.js/byncsa.png",
+    "jclic.js/carstificacio.mp3",
+    "jclic.js/cave.jpg",
+    "jclic.js/cave.mp3",
+    "jclic.js/cliff.mp3",
+    "jclic.js/deflacio.mp3",
+    "jclic.js/dissolucio.mp3",
+    "jclic.js/dolina.jpg",
+    "jclic.js/dune.mp3",
+    "jclic.js/galeries.jpg",
+    "jclic.js/gelifraccio.jpg",
+    "jclic.js/gelivacio.mp3",
+    "jclic.js/glacera0.jpg",
+    "jclic.js/glacera1.jpg",
+    "jclic.js/glacera2.jpg",
+    "jclic.js/glacera3.jpg",
+    "jclic.js/glacera4.jpg",
+    "jclic.js/glacera5.jpg",
+    "jclic.js/glacera6.jpg",
+    "jclic.js/headland.jpg",
+    "jclic.js/headland.mp3",
+    "jclic.js/hidrosfera2.png",
+    "jclic.js/hidrosfera3.png",
+    "jclic.js/i01_dune.jpg",
+    "jclic.js/i01_hamades.jpg",
+    "jclic.js/i01_mar1.jpg",
+    "jclic.js/i01_riu1.jpg",
+    "jclic.js/i02_glacera3.jpg",
+    "jclic.js/lapiaz.jpg",
+    "jclic.js/liquens.jpg",
+    "jclic.js/liquensmolsa_copia.jpg",
+    "jclic.js/memalveolar.jpg",
+    "jclic.js/membolets.jpg",
+    "jclic.js/memdunes.jpg",
+    "jclic.js/mempedregos.jpg",
+    "jclic.js/meteobio2.jpg",
+    "jclic.js/naturalarch.mp3",
+    "jclic.js/pedrera.jpg",
+    "jclic.js/penyasegat2.jpg",
+    "jclic.js/portadarelleu.png",
+    "jclic.js/public0.png",
+    "jclic.js/rabbits.jpg",
+    "jclic.js/relleu.jclic",
+    "jclic.js/sandisland.jpg",
+    "jclic.js/sandisland.mp3",
+    "jclic.js/sandspit.jpg",
+    "jclic.js/sandspit.mp3",
+    "jclic.js/seastack.jpg",
+    "jclic.js/seastacks.mp3",
+    "jclic.js/tombolo.jpg",
+    "jclic.js/tombolo.mp3",
+    "jclic.js/xemeneiesfades.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/relleu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

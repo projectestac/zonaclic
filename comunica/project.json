@@ -1,0 +1,92 @@
+{
+  "id": 1203,
+  "title": "Comunicación",
+  "author": "Aurora Mesía Tello",
+  "school": "IE Manuel Segundo del Aguila Velasquez Rioja - San Martín (Perú)",
+  "date": "14/01/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "comunicació",
+    "es": "comunicación",
+    "en": "communication"
+  },
+  "descCodes": [
+    113
+  ],
+  "description": {
+    "en": "This package of activities is designed to secondary school pupils. The package allows to get abilities in reading comprehension, consolidation and evaluation of the taught topics.",
+    "ca": "Aquest paquet d'activitats està dirigit a alumnes d'educació secundària i permet arribar a assolir capacitats de comprensió lectora, reforç, consolidació i avaluació dels temes tractats.",
+    "es": "Este paquete de actividades está dirigido a alumnos de Educación Secundaria, y permite lograr capacidades de comprensión lectora, reforzamiento, afianzamiento y evaluación de temas tratados."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/comunica.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/comunica.jclic.zip",
+  "instFile": "jclic/comunica.jclic.inst",
+  "clicZoneId": 2902,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2902",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/comunica/jclic/comunica.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 13,
+  "totalSize": 300888,
+  "files": [
+    "cover.gif",
+    "jclic.js/bach.mid",
+    "jclic.js/comunica.jclic",
+    "jclic.js/lolo1.gif",
+    "jclic.js/lolo10.gif",
+    "jclic.js/lolo11.gif",
+    "jclic.js/lolo2.gif",
+    "jclic.js/lolo3.gif",
+    "jclic.js/lolo4.gif",
+    "jclic.js/lolo5.gif",
+    "jclic.js/lolo6.gif",
+    "jclic.js/lolo7.gif",
+    "jclic.js/lolo8.gif",
+    "jclic.js/lolo9.gif",
+    "jclic.js/presen_1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/comunica.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

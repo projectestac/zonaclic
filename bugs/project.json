@@ -1,0 +1,93 @@
+{
+  "id": 1568,
+  "title": "Bugs",
+  "author": "Mónica Bayetto Lechuga Veu: Rafael Añez Garrido",
+  "school": "CEIP San José de Calasanz Aranjuez (Madrid)",
+  "date": "16/03/06",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua anglesa",
+    "es": "aprendizaje de la lengua, lengua inglesa",
+    "en": "learning of the language, English language"
+  },
+  "descCodes": [
+    110,
+    130
+  ],
+  "description": {
+    "en": "Project of activities addressed to primary school based on the book \n<i>Bugs</i> by Macmillan publishing house.",
+    "ca": "Projecte d'activitats adreçades a primer cicle d'educació primària que serveix com a reforç al primer tema del llibre de text \n<i>Bugs</i> de Macmillan.",
+    "es": "Proyecto de actividades dirigidas a primer ciclo de educación primaria que sirve como refuerzo al primer tema del libro de texto \n<i>Bugs</i> de Macmillan."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/bugs.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/bugs.jclic.zip",
+  "instFile": "jclic/bugs.jclic.inst",
+  "clicZoneId": 3288,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3288",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/bugs/jclic/bugs.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 13,
+  "totalSize": 860663,
+  "files": [
+    "cover.gif",
+    "jclic.js/bee.jpg",
+    "jclic.js/bee.wav",
+    "jclic.js/bugs.jclic",
+    "jclic.js/butter.jpg",
+    "jclic.js/butterfly.wav",
+    "jclic.js/carter.jpg",
+    "jclic.js/caterpillar.wav",
+    "jclic.js/lady.jpg",
+    "jclic.js/ladybird.wav",
+    "jclic.js/puzzle.jpg",
+    "jclic.js/robot.jpg",
+    "jclic.js/robot.wav",
+    "jclic.js/snail.jpg",
+    "jclic.js/snail.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/bugs.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

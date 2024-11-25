@@ -1,0 +1,102 @@
+{
+  "id": 196,
+  "title": "Sonidos de animales",
+  "author": "Carlos Gutierrez Aguado, Lucía Serrano Vera i Purificación Sancho Caballero",
+  "school": "IES Ramón y Cajal Zaragoza (Zaragoza)",
+  "date": "11/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "sons d'animals",
+    "es": "sonidos de animales",
+    "en": "animal sounds"
+  },
+  "descCodes": [
+    953
+  ],
+  "description": {
+    "en": "Clic activities about auditory discrimination. The application has two parts: \n<ul> \n <li>listen to the sound of all the animals. </li>\n <li>Now you play to guess that speaks. </li>\n</ul>",
+    "ca": "Paquet d'activitats de discriminació auditiva que s'organitza en dues parts: \n<ul> \n <li>Escucha el sonido de todos los animales </li>\n <li>Ahora juega a adivinar quien habla </li>\n</ul>",
+    "es": "Paquete de actividades de discriminación auditiva que se organiza en dos partes: \n<ul> \n <li>Escucha el sonido de todos los animales </li>\n <li>Ahora juega a adivinar quien habla </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "eusanson"
+  ],
+  "mainFile": "jclic.js/animason.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/animason.jclic.zip",
+  "instFile": "jclic/animason.jclic.inst",
+  "clicZoneId": 1103,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1103",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/animason/jclic/animason.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 49,
+  "mediaFiles": 19,
+  "totalSize": 6080439,
+  "files": [
+    "cover.gif",
+    "jclic.js/01cebra.gif",
+    "jclic.js/02cebra.gif",
+    "jclic.js/03cebra.gif",
+    "jclic.js/04cebra.gif",
+    "jclic.js/05cebra.gif",
+    "jclic.js/06cebra.gif",
+    "jclic.js/111.jpg",
+    "jclic.js/211.jpg",
+    "jclic.js/311.jpg",
+    "jclic.js/411.jpg",
+    "jclic.js/animales.wav",
+    "jclic.js/animason.jclic",
+    "jclic.js/caballog.jpg",
+    "jclic.js/delfing.jpg",
+    "jclic.js/inicio1.gif",
+    "jclic.js/inicio2.gif",
+    "jclic.js/lechuzag.jpg",
+    "jclic.js/perrog.jpg",
+    "jclic.js/portada.gif",
+    "jclic.js/zebra.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/animason.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

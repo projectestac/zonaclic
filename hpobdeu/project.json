@@ -1,0 +1,94 @@
+{
+  "id": 4,
+  "title": "Història del Poble de Déu",
+  "author": "Josep M. Calderó Villanueva",
+  "school": "Institut Josep Vallverdú Les Borges Blanques (Garrigues)",
+  "date": "15/05/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "història, religió",
+    "es": "historia, religión",
+    "en": "history, religion"
+  },
+  "descCodes": [
+    246,
+    323
+  ],
+  "description": {
+    "en": "Catholic religion activities for high school. It proposes a historical overview of Christianity.",
+    "ca": "Activitats de religió catòlica per a l'ESO. Proposa un repàs a la història del vell testament, tot relacionant les etapes i la seva descripció amb la cronologia.",
+    "es": "Actividades de religión católica para la ESO. Propone un repaso a la historia del antiguo testamento relacionando las etapas y su descripción con la cronología."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/hpobdeu.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/hpobdeu.jclic.zip",
+  "instFile": "jclic/hpobdeu.jclic.inst",
+  "clicZoneId": 1001,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1001",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/hpobdeu/jclic/hpobdeu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 47,
+  "mediaFiles": 14,
+  "totalSize": 598578,
+  "files": [
+    "cover.jpg",
+    "jclic.js/aaabmp_1.gif",
+    "jclic.js/abravell.gif",
+    "jclic.js/essjacob.gif",
+    "jclic.js/fi.gif",
+    "jclic.js/fillsjac.gif",
+    "jclic.js/hpobdeu.jclic",
+    "jclic.js/marroig.gif",
+    "jclic.js/moi10man.gif",
+    "jclic.js/moiresc.gif",
+    "jclic.js/moltbe.wav",
+    "jclic.js/plaga.gif",
+    "jclic.js/retroba.gif",
+    "jclic.js/sacrisac.gif",
+    "jclic.js/titol.gif",
+    "jclic.js/venjosep.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/hpobdeu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

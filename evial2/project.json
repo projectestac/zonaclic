@@ -1,0 +1,98 @@
+{
+  "id": 2080,
+  "title": "Educació vial 2",
+  "author": "Xavier López González",
+  "date": "19/10/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "educació vial",
+    "es": "educación vial",
+    "en": "road safety"
+  },
+  "descCodes": [
+    790
+  ],
+  "description": {
+    "en": "A very simple Jclic project of activities addressed to mid-cycle of primary education to introduce children into the world of road safety: \n<ul> \n <li>lights </li>\n <li>prohibitions </li>\n <li>basic signals </li>\n</ul>",
+    "ca": "Activitats JCilc molt senzilles adreçades a cicle mitjà per introduir els nens i nenes en el món de la seguretat vial. Es treballen conceptes com: \n<ul> \n <li>semàfors </li>\n <li>prohibicions </li>\n <li>senyals bàsiques </li>\n</ul>",
+    "es": "Actividades JClic muy sencillas dirigidas a ciclo medio para introducir a los niños y niñas en el mundo de la seguridad vial. Se trabajan conceptos como: \n<ul> \n <li>semáforos </li>\n <li>prohibiciones </li>\n <li>señales básicas </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/evial2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/evial2.jclic.zip",
+  "instFile": "jclic/evial2.jclic.inst",
+  "clicZoneId": 3644,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3644",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/evial2/jclic/evial2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 9,
+  "mediaFiles": 20,
+  "totalSize": 489362,
+  "files": [
+    "cover.gif",
+    "jclic.js/adelane_lado.jpg",
+    "jclic.js/bici.jpg",
+    "jclic.js/ceda_el_paso_resized.jpg",
+    "jclic.js/ciervo.jpg",
+    "jclic.js/evial2.jclic",
+    "jclic.js/getattachment.aspx.jpg",
+    "jclic.js/getattachment.aspx__1_.jpg",
+    "jclic.js/getattachment.aspx__5_.jpg",
+    "jclic.js/getattachment.aspx__7_.jpg",
+    "jclic.js/getattachment.aspx__8_.jpg",
+    "jclic.js/getattachment.aspx__9_.jpg",
+    "jclic.js/girar_der.bmp",
+    "jclic.js/girar_izq.bmp",
+    "jclic.js/images.jpg",
+    "jclic.js/no_claxon.jpg",
+    "jclic.js/no_movil_resized.jpg",
+    "jclic.js/proh_der.jpg",
+    "jclic.js/proh_izq.jpg",
+    "jclic.js/prohibido.jpg",
+    "jclic.js/seguridad_vial.jpg",
+    "jclic.js/stop.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/evial2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

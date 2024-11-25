@@ -1,0 +1,111 @@
+{
+  "id": 358,
+  "title": "Sopes de lletres",
+  "author": "Toni Miquel Mollà",
+  "school": "CP Crist de la Pau Sant Joan d'Alacant (Alacantí)",
+  "date": "19/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua castellana, llengua catalana",
+    "es": "gramática, lengua castellana, lengua catalana",
+    "en": "grammar, Spanish language, Catalan language"
+  },
+  "descCodes": [
+    123,
+    132,
+    133
+  ],
+  "description": {
+    "en": "Clic activity pack on language. The activities are divided into twelve packs that contain as themes: foods, tools, furniture, transport, fish, construction materials, toys, desserts. The activities contain word puzzles where all the words used in a section are found. The activities also have text to graphic association exercises.",
+    "ca": "Les activitats estan dividides en dotze paquets que tracten sobre els aliments, les eines, els mobles, el transport, els peixos, els materials de construcció, les joguines i les postres. Les activitats són sopes de lletres on hi ha amagades paraules que pertanyen a cada tema. També hi ha activitats d'associació.",
+    "es": "Paquete de actividades de Clic sobre la lengua. Las actividades están divididas en doce paquetes que tienen como temas: los alimentos, las herramientas, los muebles, el transporte, los peces, los materiales de construcción, los juguetes, los postres. Las actividades constan de sopas de letras donde se encuentran escondidas las palabras que pertenecen a cada sección. También hay actividades de asociación."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "sopacas",
+    "zopaeus"
+  ],
+  "mainFile": "jclic.js/sopaval.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sopaval.jclic.zip",
+  "instFile": "jclic/sopaval.jclic.inst",
+  "clicZoneId": 1202,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1202",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sopaval/jclic/sopaval.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 170,
+  "mediaFiles": 26,
+  "totalSize": 694376,
+  "files": [
+    "cover.gif",
+    "jclic.js/00triar_triasop.gif",
+    "jclic.js/01arbres_arbres.gif",
+    "jclic.js/01arbres_arbrespu.gif",
+    "jclic.js/02fruita_fruites.gif",
+    "jclic.js/02fruita_fruitpuz.gif",
+    "jclic.js/03oficis_oficipuz.gif",
+    "jclic.js/03oficis_oficis.gif",
+    "jclic.js/04esport_esporpuz.gif",
+    "jclic.js/04esport_esports.gif",
+    "jclic.js/05cos_cara1.gif",
+    "jclic.js/05cos_cospuz.gif",
+    "jclic.js/06music_music.gif",
+    "jclic.js/06music_musicals.gif",
+    "jclic.js/07cuina_cuina.gif",
+    "jclic.js/07cuina_cuinapuz.gif",
+    "jclic.js/08aus_aus.gif",
+    "jclic.js/08aus_auspuz.gif",
+    "jclic.js/09aniaqu_aniaqua.gif",
+    "jclic.js/09aniaqu_aquapu.gif",
+    "jclic.js/10mamif_mamif.gif",
+    "jclic.js/10mamif_mamipu.gif",
+    "jclic.js/11futbol_espopuz.gif",
+    "jclic.js/11futbol_futbol.gif",
+    "jclic.js/12escola_escola.gif",
+    "jclic.js/12escola_escolapu.gif",
+    "jclic.js/presenta.gif",
+    "jclic.js/sopaval.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sopaval.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

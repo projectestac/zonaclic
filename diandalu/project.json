@@ -1,0 +1,107 @@
+{
+  "id": 1548,
+  "title": "Día de Andalucía",
+  "author": "Miguel Julián Hurtado",
+  "school": "CEIP Vicenta Tarín Arcos de la Frontera (Andalucía)",
+  "date": "17/02/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "Andalusia",
+    "es": "Andalucía",
+    "en": "Andalusia"
+  },
+  "descCodes": [
+    461
+  ],
+  "description": {
+    "en": "Project of activities about Andalusia to be used in the day of the community, the 28th of February. The package has activities like puzzles, text, associations... about Andalusian community.",
+    "ca": "Pojecte d'activitats sobre la comunitat autònoma d'Andalusia pensat per a ser utilitzat en el dia de la comunitat, el 28 de febrer. El projecte consta de trencaclosques, activitats de text, associacions... sobre les províncies, monuments i accidents geogràfics d'Andalusia.",
+    "es": "Proyecto de actividades sobre la comunidad autónoma de Andalucía pensado para ser utilizado en el día de la comunidad, el 28 de febrero. El proyecto consta de rompecabezas, actividades de texto, asociaciones... sobre las provincias, monumentos y accidentes geográficos de Andalucía."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/diandalu.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/diandalu.jclic.zip",
+  "instFile": "jclic/diandalu.jclic.inst",
+  "clicZoneId": 3274,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3274",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/diandalu/jclic/diandalu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 28,
+  "totalSize": 768480,
+  "files": [
+    "cover.jpg",
+    "jclic.js/alhambra_1_.jpg",
+    "jclic.js/almeria.chanca.jpg",
+    "jclic.js/almeria_1_.jpg",
+    "jclic.js/anadalucia_colores.jpg",
+    "jclic.js/and.montanas.rios.jpg",
+    "jclic.js/andalucia.8.jpg",
+    "jclic.js/andalucia.portada.jpg",
+    "jclic.js/bandera.gif",
+    "jclic.js/cadiz.1.jpg",
+    "jclic.js/cadiz._comarcas.2.jpg",
+    "jclic.js/cadiz.catedral.jpg",
+    "jclic.js/cadiz_1_.jpg",
+    "jclic.js/cordoba_1_.jpg",
+    "jclic.js/diandalu.jclic",
+    "jclic.js/escudo.2.gif",
+    "jclic.js/escudo.jpg",
+    "jclic.js/escudoespanol_1_.gif",
+    "jclic.js/granada_1_.jpg",
+    "jclic.js/huelva.colon.2.jpg",
+    "jclic.js/huelva_1_.jpg",
+    "jclic.js/jaen_1_.jpg",
+    "jclic.js/jaen_catedral.jpg",
+    "jclic.js/logo_cole.7.jpg",
+    "jclic.js/malaga_1_.jpg",
+    "jclic.js/malaga_alcazaba.jpg",
+    "jclic.js/mapa_espana_pq_1_.gif",
+    "jclic.js/mezquita_1_.gif",
+    "jclic.js/sevilla_1_.jpg",
+    "jclic.js/torre_del_oro.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/diandalu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

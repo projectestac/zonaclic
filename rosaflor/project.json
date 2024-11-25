@@ -1,0 +1,89 @@
+{
+  "id": 388,
+  "title": "Romance de Rosaflorida",
+  "author": "Toni Miquel Mollà",
+  "school": "CP Crist de la Pau Sant Joan d'Alacant (Alacantí)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, conte",
+    "es": "lengua castellana, cuento",
+    "en": "Spanish language, story"
+  },
+  "descCodes": [
+    132,
+    614
+  ],
+  "description": {
+    "en": "Activities about the story of Rosaflorida. Reading comprehension activities.",
+    "ca": "Paquet d'activitats sobre el romanç de Rosaflorida:\n<br> \n<i>En Castilla hay un castillo<br> que se llama Rocafrida<br> al castillo llaman Roca<br> y a la fonte llaman Frida...</i>\n<br> L'aplicació consta de quatre blocs. En els tres primers es treballen les parts en què s'ha dividit el romanç, i al darrer hi ha un resum i activitats sobre la història sencera.",
+    "es": "Paquete de actividades sobre el romance de Rosaflorida:\n<br> \n<i>En Castilla hay un castillo<br> que se llama Rocafrida<br> al castillo llaman Roca<br> y a la fonte llaman Frida...</i>\n<br> La aplicación consta de cuatro bloques. En los tres primeros se trabajan las tres partes en que se ha dividido el romance, y en el último hay un resumen y actividades sobre la historia completa."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/rosaflor.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/rosaflor.jclic.zip",
+  "instFile": "jclic/rosaflor.jclic.inst",
+  "clicZoneId": 1220,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1220",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/rosaflor/jclic/rosaflor.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 51,
+  "mediaFiles": 9,
+  "totalSize": 415733,
+  "files": [
+    "cover.gif",
+    "jclic.js/castelgr.gif",
+    "jclic.js/castell1.gif",
+    "jclic.js/castillo.gif",
+    "jclic.js/castmed1.gif",
+    "jclic.js/castpe1.gif",
+    "jclic.js/castpe2.gif",
+    "jclic.js/rocafri1.gif",
+    "jclic.js/rosaflor.jclic",
+    "jclic.js/rosapre.gif",
+    "jclic.js/rosatri.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/rosaflor.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

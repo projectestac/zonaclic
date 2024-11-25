@@ -1,0 +1,112 @@
+{
+  "id": 828,
+  "title": "Educar para la solidaridad",
+  "author": "Estíbaliz C. Mena Ederra, Mª Jesús Mora Lilao i Mª José Gracia Gil Col·laboració: Jesús Machín",
+  "school": "CRA Maestrazgo-Gúdar Teruel (Aragón)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "educació solidària",
+    "es": "educación solidaria",
+    "en": "shared in common education"
+  },
+  "descCodes": [
+    404
+  ],
+  "description": {
+    "en": "This package raises reflection elements on the problematic of the marginalization, the racism and the xenophobia, and activities to foment solidarity, tolerance and cooperation.",
+    "ca": "Les enormes injustícies socials divideixen el nostre món en un Nord, ric i poderós, i un Sud empobrit i dominat. Aquestes injustícies fan també que al Nord existeixi un \"sud\" pobre i marginat.\n<br> El rebuig cap a alguns d'aquests grups es converteix sovint en racisme. Potser la forma més extrema del racisme sigui la xenofòbia, és a dir, l'odi cap a tot el que es considera estranger\n<br> En aquest paquet es plantegen elements de reflexió sobre la problemàtica de la marginació, el racisme i la xenofòbia, i es proposen activitats que ajudin a fomentar la solidaritat, la tolerància i la cooperació.",
+    "es": "Las enormes injusticias sociales dividen nuestro mundo en un Norte, rico y poderoso, y un Sur empobrecido y dominante. Estas injusticias hacen también que en el Norte exista un \"sur\" pobre y marginado.\n<br> El rechazo hacia los colectivos que viven en el \"sur del Norte\" (inmigrantes, gitanos...) se convierte a menudo en racismo. Quizás la forma más extrema del racismo sea la xenofobia, es decir, el odio hacia todo lo que se considera extranjero.\n<br> En este paquete se plantean elementos de reflexión sobre la problemática de la marginación, el racismo y la xenofobia, y se proponen actividades que ayuden a fomentar la solidaridad, la tolerancia y la cooperación."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/racismo.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/racismo.jclic.zip",
+  "instFile": "jclic/racismo.jclic.inst",
+  "clicZoneId": 1461,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1461",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/racismo/jclic/racismo.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 26,
+  "mediaFiles": 33,
+  "totalSize": 3369261,
+  "files": [
+    "cover.gif",
+    "jclic.js/aeasy1.mid",
+    "jclic.js/aplauso.wav",
+    "jclic.js/beto.mid",
+    "jclic.js/conseguido.wav",
+    "jclic.js/conta1.wav",
+    "jclic.js/dvo.mid",
+    "jclic.js/fantasti.wav",
+    "jclic.js/genial.wav",
+    "jclic.js/globo.gif",
+    "jclic.js/igualdad.gif",
+    "jclic.js/ikusi.mid",
+    "jclic.js/imagine.mid",
+    "jclic.js/kuame.gif",
+    "jclic.js/kuame1.gif",
+    "jclic.js/kuame50.gif",
+    "jclic.js/laku.mid",
+    "jclic.js/mafalda.gif",
+    "jclic.js/mafsol.gif",
+    "jclic.js/novena.mid",
+    "jclic.js/paz.wav",
+    "jclic.js/racismo.jclic",
+    "jclic.js/raza.gif",
+    "jclic.js/simpsons.mid",
+    "jclic.js/sinfo.gif",
+    "jclic.js/sinfo12.mid",
+    "jclic.js/sinfo34.mid",
+    "jclic.js/sinfo5.gif",
+    "jclic.js/sinfo6.gif",
+    "jclic.js/soli.gif",
+    "jclic.js/soli2.gif",
+    "jclic.js/spike.wav",
+    "jclic.js/titanic.mid",
+    "jclic.js/traviat2.mid",
+    "jclic.js/wars.mid",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/racismo.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

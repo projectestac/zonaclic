@@ -1,0 +1,99 @@
+{
+  "id": 2480,
+  "title": "Prepositions of place",
+  "author": "Vanesa La-Chica López",
+  "date": "09/02/17",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, vocabulari",
+    "es": "lengua inglesa, vocabulario",
+    "en": "English language, vocabulary"
+  },
+  "descCodes": [
+    667,
+    673
+  ],
+  "description": {
+    "en": "Project for learning and strengthening of the most basic place prepositions in English.",
+    "ca": "Projecte per a l'aprenentatge i consolidació de les preposicions de lloc més bàsiques en anglès.",
+    "es": "Proyecto para el aprendizaje y afianzamiento de las preposiciones de lugar más básicas en inglés."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/prep_en.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/prep_en.jclic.zip",
+  "instFile": "jclic/prep_en.jclic.inst",
+  "clicZoneId": 3989,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3989",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/prep_en/jclic/prep_en.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 20,
+  "totalSize": 1334542,
+  "files": [
+    "cover.png",
+    "jclic.js/13._prepositions_of_place_resized.jpg",
+    "jclic.js/behind_resized.jpg",
+    "jclic.js/behindw_resized.jpg",
+    "jclic.js/cat_on_the_chair.jpg",
+    "jclic.js/classroom_prepositions.jpg",
+    "jclic.js/dog_under_the_table.jpg",
+    "jclic.js/elephant_next_to_the_chair.jpg",
+    "jclic.js/in_resized.jpg",
+    "jclic.js/inw_resized.jpg",
+    "jclic.js/next_to_resized.jpg",
+    "jclic.js/next_tow_resized.jpg",
+    "jclic.js/on_resized.jpg",
+    "jclic.js/onw_resized.jpg",
+    "jclic.js/prep_en.jclic",
+    "jclic.js/prep_en.jclic.js",
+    "jclic.js/prepositions_of_place___inicio.jpg",
+    "jclic.js/rabbit_behind_the_tree_resized.jpg",
+    "jclic.js/ruler_in_the_school_bag.jpg",
+    "jclic.js/thumbs_down_smiley.png",
+    "jclic.js/thumbs_up_smiley.png",
+    "jclic.js/under_resized.jpg",
+    "jclic.js/underw_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

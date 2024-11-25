@@ -1,0 +1,93 @@
+{
+  "id": 634,
+  "title": "As fraccións - 1",
+  "author": "Miguel Ruiz Acebo",
+  "school": "Colegio El Salvador - Cooperativa de enseñanza Barreda (Cantabria)",
+  "date": "26/07/02",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aritmètica, fonaments de les matemàtiques",
+    "es": "aritmética, fundamentos de las matemáticas",
+    "en": "Arithmetic, foundations of the mathematics"
+  },
+  "descCodes": [
+    701,
+    707
+  ],
+  "description": {
+    "en": "Clic activities about mathematical fractions.",
+    "ca": "Activitats per a 6è de primària pensades per a ser fetes en una sessió, on es resumeix el treball d'una quinzena.\n<br> En el paquet es treballen els continguts següents:\n<br> - Usos i utilitat de les fraccions.\n<br> - Els termes de la fracció.\n<br> - Representació gràfica de les fraccions.\n<br> - Fraccions i equivalents.\n<br> - Ordenació de fraccions.",
+    "es": "Actividades para 6º de primaria pensadas para realizar en una sesión y que resumen el trabajo en clase de una quincena. \n<br> En el paquete se trabajan los siguientes contenidos:\n<br> - Usos y utilidad de las fracciones.\n<br> - Los términos de la fracción.\n<br> - Representación gráfica de las fracciones.\n<br> - Fracciones equivalentes.\n<br> - Ordenación de fracciones."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "fraccio1"
+  ],
+  "mainFile": "jclic.js/fraccgal.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fraccgal.jclic.zip",
+  "instFile": "jclic/fraccgal.jclic.inst",
+  "clicZoneId": 1339,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1339",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fraccgal/jclic/fraccgal.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 10,
+  "totalSize": 337767,
+  "files": [
+    "cover.gif",
+    "jclic.js/entrada.gif",
+    "jclic.js/fracc085.jpg",
+    "jclic.js/fraccgal.jclic",
+    "jclic.js/fracci01.jpg",
+    "jclic.js/fracci02.jpg",
+    "jclic.js/fracci05.jpg",
+    "jclic.js/fracci06.jpg",
+    "jclic.js/fracci08.jpg",
+    "jclic.js/fracci10.gif",
+    "jclic.js/fracci11.jpg",
+    "jclic.js/fracci13.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fraccgal.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": 575,
+  "title": "Fichas escondidas",
+  "author": "Toni Miquel Mollà",
+  "school": "CP Crist de la Pau Sant Joan d'Alacant (Alacantí)",
+  "date": "25/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)",
+    "en": "Primary school (6-12), Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "lògica",
+    "es": "lógica",
+    "en": "logic"
+  },
+  "descCodes": [
+    711
+  ],
+  "description": {
+    "en": "Math activities in which four chips are hidden and need to be found without making mistakes when solving the different operations. It is always possible!",
+    "ca": "Activitats de lògica matemàtica on es tracta de descobrir, sense equivocar-se, on estan amagades 4 fitxes, tenint en compte les pistes numèriques de cada cas. Sempre és possible fer-ho!",
+    "es": "Actividades de lógica matemática en las que se trata de descubrir, sin equivocarse, donde están escondidas 4 fichas teniendo en cuenta las pistas numéricas que se dan en cada caso. ¡Siempre es posible hacerlo!"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "fitxak",
+    "fitxes",
+    "fitxesit"
+  ],
+  "mainFile": "jclic.js/fichas.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fichas.jclic.zip",
+  "instFile": "jclic/fichas.jclic.inst",
+  "clicZoneId": 1318,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1318",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fichas/jclic/fichas.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 26,
+  "mediaFiles": 50,
+  "totalSize": 343482,
+  "files": [
+    "cover.gif",
+    "jclic.js/blaves_fitxesai.gif",
+    "jclic.js/blaves_fitxesar.gif",
+    "jclic.js/blaves_fitxesbi.gif",
+    "jclic.js/blaves_fitxesbr.gif",
+    "jclic.js/blaves_fitxesci.gif",
+    "jclic.js/blaves_fitxescr.gif",
+    "jclic.js/blaves_fitxesdi.gif",
+    "jclic.js/blaves_fitxesdr.gif",
+    "jclic.js/blaves_fitxesei.gif",
+    "jclic.js/blaves_fitxeser.gif",
+    "jclic.js/blaves_fitxesfi.gif",
+    "jclic.js/blaves_fitxesfr.gif",
+    "jclic.js/fichas.jclic",
+    "jclic.js/grogues_fitxesgi.gif",
+    "jclic.js/grogues_fitxesgr.gif",
+    "jclic.js/grogues_fitxeshi.gif",
+    "jclic.js/grogues_fitxeshr.gif",
+    "jclic.js/grogues_fitxesii.gif",
+    "jclic.js/grogues_fitxesir.gif",
+    "jclic.js/grogues_fitxesji.gif",
+    "jclic.js/grogues_fitxesjr.gif",
+    "jclic.js/grogues_fitxeski.gif",
+    "jclic.js/grogues_fitxeskr.gif",
+    "jclic.js/grogues_fitxesli.gif",
+    "jclic.js/grogues_fitxeslr.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/roges_fitxesmi.gif",
+    "jclic.js/roges_fitxesmr.gif",
+    "jclic.js/roges_fitxesni.gif",
+    "jclic.js/roges_fitxesnr.gif",
+    "jclic.js/roges_fitxesoi.gif",
+    "jclic.js/roges_fitxesor.gif",
+    "jclic.js/roges_fitxespi.gif",
+    "jclic.js/roges_fitxespr.gif",
+    "jclic.js/roges_fitxesqi.gif",
+    "jclic.js/roges_fitxesqr.gif",
+    "jclic.js/roges_fitxesri.gif",
+    "jclic.js/roges_fitxesrr.gif",
+    "jclic.js/triarcol_triarfit.gif",
+    "jclic.js/verdes_fitxessi.gif",
+    "jclic.js/verdes_fitxessr.gif",
+    "jclic.js/verdes_fitxesti.gif",
+    "jclic.js/verdes_fitxestr.gif",
+    "jclic.js/verdes_fitxesui.gif",
+    "jclic.js/verdes_fitxesur.gif",
+    "jclic.js/verdes_fitxesvi.gif",
+    "jclic.js/verdes_fitxesvr.gif",
+    "jclic.js/verdes_fitxeswi.gif",
+    "jclic.js/verdes_fitxeswr.gif",
+    "jclic.js/verdes_fitxesxi.gif",
+    "jclic.js/verdes_fitxesxr.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fichas.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

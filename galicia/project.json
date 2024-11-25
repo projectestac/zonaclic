@@ -1,0 +1,96 @@
+{
+  "id": 1691,
+  "title": "Galicia",
+  "school": "CEIP Galán Oseiro (Galiza)",
+  "date": "10/07/07",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Social sciences, Languages",
+    "ca": "Ciències socials, Llengües",
+    "es": "Ciencias sociales, Lenguas"
+  },
+  "areaCodes": [
+    "soc",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia, llengua gallega, comprensió lectora",
+    "es": "geografía, lengua gallega, comprensión lectora",
+    "en": "geography, Galician language, reading comprehension"
+  },
+  "descCodes": [
+    235,
+    921,
+    1329
+  ],
+  "description": {
+    "en": "Set of activities for primary school focused in counties, cities, rivers... from the autonomous community of Galicia. Throughout the project there are also comprehension activities through sentence ordering.",
+    "ca": "Conjunt d'activitats per a cicle inicial de primària per treballar les províncies, ciutats, rius... de la comunitat autònoma de Galícia. Al llarg del projecte també es treballa la comprensió a través d'activitats d'ordenació d'oracions.",
+    "es": "Conjunto de actividades para ciclo inicial de primaria para trabajar las provincias, ciudades, ríos... de la comunidad autónoma de Galicia. A lo largo del proyecto también se trabaja la comprensión a través de actividades de ordenación de oraciones."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/galicia.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/galicia.jclic.zip",
+  "instFile": "jclic/galicia.jclic.inst",
+  "clicZoneId": 3400,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3400",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/galicia/jclic/galicia.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 15,
+  "totalSize": 913767,
+  "files": [
+    "cover.jpg",
+    "jclic.js/acertche2.wav",
+    "jclic.js/estpend2.wav",
+    "jclic.js/esunas2.wav",
+    "jclic.js/fanttico2.wav",
+    "jclic.js/fondoazulclaro.jpg",
+    "jclic.js/fxmoibe2.wav",
+    "jclic.js/galicia.jclic",
+    "jclic.js/galicipz.gif",
+    "jclic.js/galicitx.gif",
+    "jclic.js/moiben.wav",
+    "jclic.js/non.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/queres.gif",
+    "jclic.js/queres.wav",
+    "jclic.js/si.gif",
+    "jclic.js/xenial2.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/galicia.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

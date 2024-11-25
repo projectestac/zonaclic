@@ -1,0 +1,82 @@
+{
+  "id": 932,
+  "title": "Gramática",
+  "author": "José Luis Marqués Lledó",
+  "school": "Colegio Ntra. Sra. de la Merced Madrid (Madrid)",
+  "date": "16/12/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Llengües",
+    "es": "Lenguas",
+    "en": "Languages"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "comprensió escrita, gramàtica",
+    "es": "comprensión escrita, gramática",
+    "en": "written understanding, grammar"
+  },
+  "descCodes": [
+    111,
+    123
+  ],
+  "description": {
+    "en": "Package of activities about Spanish grammar according to the Anaya Editors, with the following contents: \n<ul> \n <li>Communication </li>\n <li>Elements of communication </li>\n <li>Phrase </li>\n <li>Elements of the phrase </li>\n <li>The noun and its types </li>\n <li>Noun gender and plurals </li>\n</ul>",
+    "ca": "Conjunt d'activitats de gramàtica castellana corresponent a una primera avaluació, segons els textos de l'Editorial Anaya, amb els següents continguts: \n<ul> \n <li>La Comunicació </li>\n <li>Elements de la comunicació </li>\n <li>L'oració </li>\n <li>Parts de l'oració </li>\n <li>El nom i les seves classes </li>\n <li>Formació del femení i dels plurals dels noms </li>\n</ul>",
+    "es": "Este paquete de actividades contiene un conjunto de actividades de gramática correspondiente a una primera evaluación, según los textos de la Editorial Anaya, con los siguientes contenidos: \n<ul> \n <li>La Comunicación </li>\n <li>Elementos de la comunicación </li>\n <li>La oración </li>\n <li>Partes de la oración </li>\n <li>El nombre y sus clases </li>\n <li>Formación del femenino y del plural de los nombres </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/grama5-1.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/grama5-1.jclic.zip",
+  "instFile": "jclic/grama5-1.jclic.inst",
+  "clicZoneId": 2041,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2041",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/grama5-1/jclic/grama5-1.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 38,
+  "mediaFiles": 2,
+  "totalSize": 325015,
+  "files": [
+    "cover.gif",
+    "jclic.js/grama5-1.jclic",
+    "jclic.js/portage2.jpg",
+    "jclic.js/ysterday.mid",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/grama5-1.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

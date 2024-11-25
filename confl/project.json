@@ -1,0 +1,116 @@
+{
+  "id": 2424,
+  "title": "Solucionamos conflictos",
+  "author": "Rocío Crespo Ovelleiro",
+  "date": "28/01/16",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "tutoria",
+    "es": "tutoría",
+    "en": "mentoring"
+  },
+  "descCodes": [
+    1464
+  ],
+  "description": {
+    "en": "Activities directed to the second cycle of infantile education about the resolution of conflicts in the classroom. Five conflicts that may arise between students and for each five types of activities are presented are presented: the conflict associated with the right solution, order the sequence to resolve the conflict, the conflict associated with its proper cause, associate each solution with its consequences and identify what we can do in a conflict.",
+    "ca": "Activitats adreçades al segon cicle d'educació infantil que pretén treballar la resolució pacífica de conflictes a l'aula. Es presenten cinc conflictes que poden sorgir entre l'alumnat i per a cada un d'ells es presenten cinc tipus d'activitats: associar el conflicte amb la seva solució adequada, ordenar la seqüència per resoldre el conflicte, associar el conflicte amb la seva causa adequada, associar cada solució amb les seves conseqüències i identificar què podem fer davant d'un conflicte.",
+    "es": "Actividades dirigidas al segundo ciclo de Educación Infantil que pretende trabajar la resolución pacífica de conflictos en el aula. Se presentan cinco conflictos que pueden surgir entre el alumnado y para cada uno de ellos se presentan cinco tipos de actividades: asociar el conflicto con su solución adecuada, ordenar la secuencia para resolver el conflicto, asociar el conflicto con su causa adecuada, asociar cada solución con sus consecuencias e identificar qué podemos hacer ante un conflicto."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/confl.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/confl.jclic.zip",
+  "instFile": "jclic/confl.jclic.inst",
+  "clicZoneId": 3932,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3932",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/confl/jclic/confl.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 38,
+  "totalSize": 1935308,
+  "files": [
+    "cover.png",
+    "jclic.js/alegrarse.jpg",
+    "jclic.js/arreglahoja_resized.jpg",
+    "jclic.js/colarse_resized.jpg",
+    "jclic.js/compartir_resized.jpg",
+    "jclic.js/confl.jclic",
+    "jclic.js/contento.jpg",
+    "jclic.js/cosasmalasfuente_resized.jpg",
+    "jclic.js/empujarfuente_resized.jpg",
+    "jclic.js/empujarse_resized.jpg",
+    "jclic.js/enfadarse.jpg",
+    "jclic.js/enfado_resized.jpg",
+    "jclic.js/enfadofila_resized.jpg",
+    "jclic.js/enfadohojarota_resized.jpg",
+    "jclic.js/enfadotobogan_resized.jpg",
+    "jclic.js/filabien_resized.jpg",
+    "jclic.js/gritar.jpg",
+    "jclic.js/hablar_resized.jpg",
+    "jclic.js/hablartobogan_resized.jpg",
+    "jclic.js/hojaarreglada_resized.jpg",
+    "jclic.js/hojarotatriste_resized.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/intercambio_resized.jpg",
+    "jclic.js/juegaconel_resized.jpg",
+    "jclic.js/jueganjuntostobogan_resized.jpg",
+    "jclic.js/juegasolo_resized.jpg",
+    "jclic.js/leelibro.jpg",
+    "jclic.js/libro.jpg",
+    "jclic.js/llorasolo.jpg",
+    "jclic.js/ninatobogan_resized.jpg",
+    "jclic.js/ninosjugandoelsolo_resized.jpg",
+    "jclic.js/pelearse_resized.jpg",
+    "jclic.js/pensar.jpg",
+    "jclic.js/perdontobogan_resized.jpg",
+    "jclic.js/pideayuda_resized.jpg",
+    "jclic.js/relajarse_resized.jpg",
+    "jclic.js/respirar_resized.jpg",
+    "jclic.js/rompehoja.jpg",
+    "jclic.js/romperpaapel_resized.jpg",
+    "jclic.js/solos_resized.jpg",
+    "jclic.js/triste.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/confl.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

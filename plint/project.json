@@ -1,0 +1,94 @@
+{
+  "id": 2319,
+  "title": "Plantes d'interior. La jardineria de l'Àgora",
+  "author": "Maria José Bañeres Farrero",
+  "school": "Institut Castell dels Templers Lleida",
+  "date": "12/02/14",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "botànica, plantes",
+    "es": "botánica, plantas",
+    "en": "botany, plants"
+  },
+  "descCodes": [
+    59,
+    96
+  ],
+  "description": {
+    "en": "Activities to learn and identify different houseplants and their characteristics, growing conditions and maintenance.",
+    "ca": "Activitats per conèixer i identificar diferents plantes d'interior, així com les seves característiques, condicions de cultiu i manteniment a través del treball amb les plantes que es realitza al centre.",
+    "es": "Actividades para conocer e identificar diferentes plantas de interior, así como sus características, condiciones de cultivo y mantenimiento a través del trabajo con las plantas de nuestro centro."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/plint.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/plint.jclic.zip",
+  "instFile": "jclic/plint.jclic.inst",
+  "clicZoneId": 3828,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3828",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/plint/jclic/plint.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 50,
+  "mediaFiles": 14,
+  "totalSize": 2898372,
+  "files": [
+    "cover.png",
+    "jclic.js/antand.jpg",
+    "jclic.js/cisrho.jpg",
+    "jclic.js/coraus.jpg",
+    "jclic.js/cymalo.jpg",
+    "jclic.js/diecam.jpg",
+    "jclic.js/dramar.jpg",
+    "jclic.js/ficela.jpg",
+    "jclic.js/final.png",
+    "jclic.js/jardi.png",
+    "jclic.js/kalblo.jpg",
+    "jclic.js/pleaus.jpg",
+    "jclic.js/plint.jclic",
+    "jclic.js/portada.png",
+    "jclic.js/schact.jpg",
+    "jclic.js/spawal.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/plint.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

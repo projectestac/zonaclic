@@ -1,0 +1,143 @@
+{
+  "id": 868,
+  "title": "Pazkoa",
+  "author": "Antoni Climent, Encarna Balaguer, M. Carmen Querol, M. de las Mercedes Sañudo, M. Dolores Domingo, M. Esperanza Baticón, M. Teresa Solera, Mar Aparisi i Óscar Guiral",
+  "school": "CP Ausiàs March Mislata (Horta Oest)",
+  "date": "11/11/03",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "ca": "Diversos",
+    "es": "Diversos",
+    "en": "Miscellaneous"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)",
+    "en": "Kindergarten (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "orientació espacial, pasqua",
+    "es": "orientación espacial, pascua",
+    "en": "orientation in the space, easterday's"
+  },
+  "descCodes": [
+    924,
+    931
+  ],
+  "description": {
+    "en": "Clic activities destined to Infantile education about Easter day. There are activities about colours, measurement, orientation...",
+    "ca": "Paquet d'activitats per a Educació Infantil entorn al dia de Pasqua on es treballen els colors, les mides, la orientació...",
+    "es": "Paquete de actividades para educación infantil entrono al día de Pascua donde se trabajan los colores, las medidas y la orientación."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "pasqua2"
+  ],
+  "mainFile": "jclic.js/pazkoa.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pazkoa.jclic.zip",
+  "instFile": "jclic/pazkoa.jclic.inst",
+  "clicZoneId": 2003,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2003",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pazkoa/jclic/pazkoa.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 33,
+  "mediaFiles": 54,
+  "totalSize": 558514,
+  "files": [
+    "cover.gif",
+    "jclic.js/300pasqu.gif",
+    "jclic.js/3p3pasqu.gif",
+    "jclic.js/3p4pasqu.gif",
+    "jclic.js/3p5pasqu.gif",
+    "jclic.js/pasqua3/401a.bmp",
+    "jclic.js/pasqua3/402a.gif",
+    "jclic.js/pasqua3/402b.gif",
+    "jclic.js/pasqua3/404a.gif",
+    "jclic.js/pasqua3/405a.gif",
+    "jclic.js/pasqua3/417a.gif",
+    "jclic.js/pasqua3/417b.gif",
+    "jclic.js/pasqua3/419a.gif",
+    "jclic.js/pasqua3/510missa.gif",
+    "jclic.js/pasqua3/510ous3.gif",
+    "jclic.js/pasqua3/511color.gif",
+    "jclic.js/pasqua3/511missa.gif",
+    "jclic.js/pasqua3/511ous3.gif",
+    "jclic.js/pasqua3/8053num.gif",
+    "jclic.js/pasqua3/8053xiqu.gif",
+    "jclic.js/pasqua3/8073mf.gif",
+    "jclic.js/pasqua3/8073mi.gif",
+    "jclic.js/pasqua3/8073xiqu.gif",
+    "jclic.js/pasqua3/pasqua3.jclic",
+    "jclic.js/pasqua4/403a.gif",
+    "jclic.js/pasqua4/403b.gif",
+    "jclic.js/pasqua4/406a.gif",
+    "jclic.js/pasqua4/406b.gif",
+    "jclic.js/pasqua4/408.bmp",
+    "jclic.js/pasqua4/409a.gif",
+    "jclic.js/pasqua4/409b.gif",
+    "jclic.js/pasqua4/410a.gif",
+    "jclic.js/pasqua4/414a.gif",
+    "jclic.js/pasqua4/414b.gif",
+    "jclic.js/pasqua4/420aa.gif",
+    "jclic.js/pasqua4/422a.gif",
+    "jclic.js/pasqua4/422m.gif",
+    "jclic.js/pasqua4/8014ou.gif",
+    "jclic.js/pasqua4/8034milo.gif",
+    "jclic.js/pasqua4/8034num.gif",
+    "jclic.js/pasqua4/pasqua4.jclic",
+    "jclic.js/pasqua5/405a.gif",
+    "jclic.js/pasqua5/407a.gif",
+    "jclic.js/pasqua5/411a.gif",
+    "jclic.js/pasqua5/411b.gif",
+    "jclic.js/pasqua5/412a.gif",
+    "jclic.js/pasqua5/413b.gif",
+    "jclic.js/pasqua5/415a.gif",
+    "jclic.js/pasqua5/416a.gif",
+    "jclic.js/pasqua5/416b.gif",
+    "jclic.js/pasqua5/418a.gif",
+    "jclic.js/pasqua5/418b.gif",
+    "jclic.js/pasqua5/421a.gif",
+    "jclic.js/pasqua5/423a.gif",
+    "jclic.js/pasqua5/424a.gif",
+    "jclic.js/pasqua5/8025milo.gif",
+    "jclic.js/pasqua5/8025num.gif",
+    "jclic.js/pasqua5/pasqua5.jclic",
+    "jclic.js/pazkoa.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pazkoa.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/pasqua3/pasqua3.jclic.js",
+    "jclic.js/pasqua4/pasqua4.jclic.js",
+    "jclic.js/pasqua5/pasqua5.jclic.js",
+    "cover.webp"
+  ]
+}

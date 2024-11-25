@@ -1,0 +1,92 @@
+{
+  "id": 426,
+  "title": "Grupo CL",
+  "author": "Estela Rodriguez",
+  "school": "Instituto Ana María Janer Buenos Aires (Argentina)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, ortografia",
+    "es": "lengua castellana, ortografía",
+    "en": "Spanish language, spelling"
+  },
+  "descCodes": [
+    132,
+    146
+  ],
+  "description": {
+    "en": "Thirteen Clic activities about Spanish language with associations, puzzles, crosswords, etc about the recognition of the orthographic group \n<b>Cl</b> (\n<b>Cl</b>avar, \n<b>cl</b>ara, \n<b>cl</b>ase, \n<b>cl</b>ip...).",
+    "ca": "Paquet d'activitats que comprèn un conjunt de 13 exercicis d'associacions, trencaclosques, mots encreuats i sopes de lletres sobre el reconeixement del grup de lletres \n<b>Cl</b> (\n<b>Cl</b>avar, \n<b>cl</b>ara, \n<b>cl</b>ase, \n<b>cl</b>ip...) així com fixar la seva grafia.",
+    "es": "Paquete de actividades que comprende un conjunto de 13 ejercicios tales como asociaciones, rompecabezas, crucigramas, sopas de letras que apuntan al reconocimiento del grupo ortográfico \n<b>Cl</b> (\n<b>Cl</b>avar, \n<b>cl</b>ara, \n<b>cl</b>ase, \n<b>cl</b>ip...) así como a fijar su grafía."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/grupo_cl.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/grupo_cl.jclic.zip",
+  "instFile": "jclic/grupo_cl.jclic.inst",
+  "clicZoneId": 1251,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1251",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/grupo_cl/jclic/grupo_cl.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 12,
+  "totalSize": 147862,
+  "files": [
+    "cover.gif",
+    "jclic.js/clara.gif",
+    "jclic.js/clase.gif",
+    "jclic.js/clase_cl.gif",
+    "jclic.js/clavar.gif",
+    "jclic.js/clave.gif",
+    "jclic.js/clavo.gif",
+    "jclic.js/cleo.gif",
+    "jclic.js/clima.gif",
+    "jclic.js/clip.gif",
+    "jclic.js/club.gif",
+    "jclic.js/grupo_cl.jclic",
+    "jclic.js/pochoclo.gif",
+    "jclic.js/pres0.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/grupo_cl.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

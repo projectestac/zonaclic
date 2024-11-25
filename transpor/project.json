@@ -1,0 +1,149 @@
+{
+  "id": 805,
+  "title": "Os medios de transporte",
+  "author": "Belén Gómez Flores",
+  "school": "CEIP de Pedrouzos Pedrouzos (Galiza)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales",
+    "en": "Social sciences"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)",
+    "en": "Kindergarten (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "transport, educació vial",
+    "es": "transporte, educación vial",
+    "en": "transport, road safety"
+  },
+  "descCodes": [
+    354,
+    790
+  ],
+  "description": {
+    "en": "Activity pack in Gallician that makes use of the ways of transport as the central topic to work on vocabulary and reading-writting skills for very young students.\n<br> It works on the main ways of transport (terrestrial, air, maritime) and the media used for this (cars, ships, planes,...).",
+    "ca": "Paquet d'activitats en gallec que utilitza els mitjans de transport com a centre d'interès per a treballar vocabulari i lectoescriptura amb alumnes d'educació infantil.\n<br> S'hi treballen les diverses vies de transport (terrestre, aeri i marítim) i els medis que els utilitzen (cotxes, vaixells, avions...)",
+    "es": "Paquete de actividades en gallego que utiliza los medios de transporte como centro de interés para trabajar vocabulario y lectoescriptura con alumnos de educación infantil.\n<br> Trabaja las diferentes vías del transporte (terrestre, aéreo, marítimo) y los distintos medios que se utilizan (coches, barcos, aviones,...)"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "transpes",
+    "transpeu"
+  ],
+  "mainFile": "jclic.js/transpor.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/transpor.jclic.zip",
+  "instFile": "jclic/transpor.jclic.inst",
+  "clicZoneId": 1444,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1444",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/transpor/jclic/transpor.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 65,
+  "totalSize": 3136525,
+  "files": [
+    "cover.gif",
+    "jclic.js/aerop.gif",
+    "jclic.js/airp0m0w.wav",
+    "jclic.js/ambu0m0w.wav",
+    "jclic.js/ambul.gif",
+    "jclic.js/ambut1mt.wav",
+    "jclic.js/astrona.jpg",
+    "jclic.js/ben.wav",
+    "jclic.js/bicy0m0w.wav",
+    "jclic.js/bus00m0w.wav",
+    "jclic.js/cano0m0w.wav",
+    "jclic.js/capit_n.gif",
+    "jclic.js/car00m0s.wav",
+    "jclic.js/car00m0w.wav",
+    "jclic.js/ciclista.jpg",
+    "jclic.js/clic1.gif",
+    "jclic.js/clicd1_0.gif",
+    "jclic.js/estacion.gif",
+    "jclic.js/fabuloso.wav",
+    "jclic.js/fin.jpg",
+    "jclic.js/garax.gif",
+    "jclic.js/heli0m0w.wav",
+    "jclic.js/medios.jpg",
+    "jclic.js/mis_alta.gif",
+    "jclic.js/moto.gif",
+    "jclic.js/moto0m0s.wav",
+    "jclic.js/moto0m0w.wav",
+    "jclic.js/motoro.jpg",
+    "jclic.js/pais.jpg",
+    "jclic.js/paisa.jpg",
+    "jclic.js/para0m0w.wav",
+    "jclic.js/piloto.jpg",
+    "jclic.js/porto.gif",
+    "jclic.js/present.jpg",
+    "jclic.js/ship0m0w.wav",
+    "jclic.js/spaf0m0w.wav",
+    "jclic.js/subm0m0w.wav",
+    "jclic.js/trac0m0w.wav",
+    "jclic.js/trai0m0s.wav",
+    "jclic.js/trai0m0w.wav",
+    "jclic.js/tran10.gif",
+    "jclic.js/tran12.gif",
+    "jclic.js/tran14.gif",
+    "jclic.js/tran15.jpg",
+    "jclic.js/tran17.jpg",
+    "jclic.js/tran18.jpg",
+    "jclic.js/tran6.gif",
+    "jclic.js/trans1.gif",
+    "jclic.js/trans12.gif",
+    "jclic.js/trans13.gif",
+    "jclic.js/trans15.jpg",
+    "jclic.js/trans17.jpg",
+    "jclic.js/trans18.jpg",
+    "jclic.js/trans19.jpg",
+    "jclic.js/trans2.gif",
+    "jclic.js/trans3.gif",
+    "jclic.js/trans6.gif",
+    "jclic.js/transb2.gif",
+    "jclic.js/transp4.gif",
+    "jclic.js/transp7.gif",
+    "jclic.js/transp8.gif",
+    "jclic.js/transpor.jclic",
+    "jclic.js/transs2.gif",
+    "jclic.js/truc0m0w.wav",
+    "jclic.js/wago0m0w.wav",
+    "jclic.js/watn061s.wav",
+    "jclic.js/watn062s.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/transpor.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

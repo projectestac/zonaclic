@@ -1,0 +1,126 @@
+{
+  "id": 1427,
+  "title": "Allons au restaurant",
+  "author": "Mónica Bustamante Alonso-Pimentel",
+  "date": "19/09/05",
+  "languages": {
+    "en": "French",
+    "ca": "francès",
+    "es": "francés"
+  },
+  "langCodes": [
+    "fr"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua francesa",
+    "es": "lengua francesa",
+    "en": "French language"
+  },
+  "descCodes": [
+    136
+  ],
+  "description": {
+    "en": "In this package, we find activities to learn French starting form the most important foods and beverages. To listen and repeat conversations that happen in a bar or restaurant. The activities also introduce intercultural aspects from the French gastronomy, including the most famous recipe, the \"quiche Lorraine\". Additionally, there are some exercises to use and distinguish the partitive article.",
+    "ca": "En aquest paquet, trobem activitats per conèixer en francès els noms dels aliments i begudes més importants, per escoltar i repetir converses que tenen lloc a un cafè i a un restaurant, activitats que introdueixen l'element intercultural presentant alguna cosa de la gastronomia francesa, fins i tot una de les receptes de cuina més famoses \"la quiche Lorraine\" i, com no, alguns exercicis per distingir i utilitzar l'article partitiu.",
+    "es": "En este paquete, encontramos actividades para conocer en francés los nombres de los alimentos y bebidas más importantes, para escuchar y repetir conversaciones que tienen lugar en un café y en un restaurante, actividades que introducen el elemento intercultural presentando algo de la gastronomía francesa, incluso una receta de cocina de la famosa \"quiche Lorraine\" y, cómo no, algunos ejercicios para distinguir y utilizar el artículo partitivo."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/restaur.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/restaur.jclic.zip",
+  "instFile": "jclic/restaur.jclic.inst",
+  "clicZoneId": 3160,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3160",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/restaur/jclic/restaur.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 48,
+  "totalSize": 2872028,
+  "files": [
+    "cover.jpg",
+    "jclic.js/aplauso.wav",
+    "jclic.js/boite.gif",
+    "jclic.js/cafe.gif",
+    "jclic.js/cafe1.wav",
+    "jclic.js/cafe10.wav",
+    "jclic.js/cafe2.wav",
+    "jclic.js/cafe3.wav",
+    "jclic.js/cafe4.wav",
+    "jclic.js/cafe5.wav",
+    "jclic.js/cafe6.wav",
+    "jclic.js/cafe7.wav",
+    "jclic.js/cafe8.wav",
+    "jclic.js/cafe9.wav",
+    "jclic.js/carne.gif",
+    "jclic.js/chimes.wav",
+    "jclic.js/chocolat.gif",
+    "jclic.js/cigar.gif",
+    "jclic.js/fondo1.gif",
+    "jclic.js/fondo3.gif",
+    "jclic.js/fondo5.gif",
+    "jclic.js/fondopu.gif",
+    "jclic.js/frdrap.gif",
+    "jclic.js/fruta.gif",
+    "jclic.js/gorrococ.gif",
+    "jclic.js/huevos.gif",
+    "jclic.js/leche.gif",
+    "jclic.js/mantel.gif",
+    "jclic.js/minialt.gif",
+    "jclic.js/pan.gif",
+    "jclic.js/patatas.gif",
+    "jclic.js/pescado.gif",
+    "jclic.js/platano.gif",
+    "jclic.js/pot.gif",
+    "jclic.js/produc1.wav",
+    "jclic.js/produc2.wav",
+    "jclic.js/produc3.wav",
+    "jclic.js/produc4.wav",
+    "jclic.js/produc5.wav",
+    "jclic.js/produc6.wav",
+    "jclic.js/produc7.wav",
+    "jclic.js/produc8.wav",
+    "jclic.js/queso.gif",
+    "jclic.js/quiche.gif",
+    "jclic.js/restaur.jclic",
+    "jclic.js/salade.gif",
+    "jclic.js/sauciss.gif",
+    "jclic.js/tomate.gif",
+    "jclic.js/vino.gif",
+    "jclic.js/yogur.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/restaur.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

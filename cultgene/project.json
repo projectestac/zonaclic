@@ -1,0 +1,102 @@
+{
+  "id": 1698,
+  "title": "El repasón",
+  "author": "Benito García Peinado",
+  "school": "C.P.PR Pablo de Olavide Prado del Rey - Cádiz (Andalucía)",
+  "date": "19/07/07",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences, Languages, Mathematics",
+    "ca": "Ciències socials, Llengües, Matemàtiques",
+    "es": "Ciencias sociales, Lenguas, Matemáticas"
+  },
+  "areaCodes": [
+    "soc",
+    "lleng",
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "Project of activities that includes different types of contents. \n<ul> \n <li>Synonyms and antonyms </li>\n <li>Spelling </li>\n <li>Word groups </li>\n <li>Calculation and problems </li>\n</ul>",
+    "ca": "Projecte d'activitats de repàs que inclou diferents tipus de continguts distribuits en tres nivells diferents: \n<ul> \n <li>Sinònims i antònims </li>\n <li>Ortografia </li>\n <li>Famílies de paraules </li>\n <li>Càlcul i problemes </li>\n</ul>",
+    "es": "Proyecto de actividades de repaso que incluye diferentes tipos de contenidos distribuidos en tres niveles diferentes: \n<ul> \n <li>Sinónimos y antónimos </li>\n <li>Ortografía </li>\n <li>Familias de palabras </li>\n <li>Cálculo y problemas </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cultgene.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cultgene.jclic.zip",
+  "instFile": "jclic/cultgene.jclic.inst",
+  "clicZoneId": 3407,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3407",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cultgene/jclic/cultgene.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 91,
+  "mediaFiles": 29,
+  "totalSize": 1924571,
+  "files": [
+    "cover.gif",
+    "jclic.js/alameda.jpg",
+    "jclic.js/andalucia.gif",
+    "jclic.js/aniv0050.gif",
+    "jclic.js/arcos_callejuela_600.jpg",
+    "jclic.js/cadiz_monumentos_sarcofagos_600.jpg",
+    "jclic.js/caleta10.jpg",
+    "jclic.js/catedral.jpg",
+    "jclic.js/comic3.gif",
+    "jclic.js/cultgene.jclic",
+    "jclic.js/el_bosque_vista_600.jpg",
+    "jclic.js/el_puerto_castillo_san_marcos_600.jpg",
+    "jclic.js/error.mp3",
+    "jclic.js/estupendo.wav",
+    "jclic.js/extremadura.gif",
+    "jclic.js/fallaste.wav",
+    "jclic.js/feria_el_puerto_caballos_600.jpg",
+    "jclic.js/j0232056.jpg",
+    "jclic.js/jerez_bodegas_domecq_600.jpg",
+    "jclic.js/logo_colegio.gif",
+    "jclic.js/losiento.wav",
+    "jclic.js/muybien.wav",
+    "jclic.js/nenufares.jpg",
+    "jclic.js/payaso.jpg",
+    "jclic.js/puertastierra.jpg",
+    "jclic.js/sanlucar_playa_caballos_600.jpg",
+    "jclic.js/simi0002.gif",
+    "jclic.js/tbici.gif",
+    "jclic.js/torre.jpg",
+    "jclic.js/x_bruixac3.gif",
+    "jclic.js/x_tazani7.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cultgene.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

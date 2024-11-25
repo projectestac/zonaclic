@@ -1,0 +1,104 @@
+{
+  "id": 1470,
+  "title": "Miquel Martí i Pol 2",
+  "author": "Lurdes Àvila Morera",
+  "school": "C Nazaret Esplugues de Llobregat (Baix Llobregat)",
+  "date": "06/10/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "literatura catalana, poesia",
+    "es": "literatura catalana, poesía",
+    "en": "Catalan Literature, poetry"
+  },
+  "descCodes": [
+    627,
+    650
+  ],
+  "description": {
+    "en": "Work that turns around some poems of Miquel Martí i Pol about the book \"Bon Profit\". The activities are addressed to primary school.\n<p> </p>",
+    "ca": "Treball al voltant d'alguns poemes d'en Miquel Martí i Pol del llibre \"Bon Profit\". Les activitats estan adreçades a alumnes de cicle inicial d'educació primària. \n<p> També trobem una petita biografia i activitats de relacionar, copiar, memoritzar, sopa de lletres i trencaclosques. </p>",
+    "es": "Trabajo que gira alrededor de algunos poemas de Miquel Martí i Pol del libro \"Bon Profit\". Las actividades están dirigidas a ciclo inicial de educación primaria.\n<p> Contiene una pequeña biografía y actividades de relacionar, copiar, memorizar, sopa de letras y rompecabezas. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/martipo2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/martipo2.jclic.zip",
+  "instFile": "jclic/martipo2.jclic.inst",
+  "clicZoneId": 3182,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3182",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/martipo2/jclic/martipo2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 23,
+  "totalSize": 2407550,
+  "files": [
+    "cover.gif",
+    "jclic.js/arros.gif",
+    "jclic.js/arros.wav",
+    "jclic.js/fantas.wav",
+    "jclic.js/martipo2.jclic",
+    "jclic.js/martipo2.pdf",
+    "jclic.js/mmp1.gif",
+    "jclic.js/mmp2.gif",
+    "jclic.js/mmp3.gif",
+    "jclic.js/mmpt3.gif",
+    "jclic.js/moltbe.wav",
+    "jclic.js/moltbe1.wav",
+    "jclic.js/moltbe2.wav",
+    "jclic.js/ou.wav",
+    "jclic.js/oufer.gif",
+    "jclic.js/oufer3.gif",
+    "jclic.js/ousfer.wav",
+    "jclic.js/pa.wav",
+    "jclic.js/patom.gif",
+    "jclic.js/patom.wav",
+    "jclic.js/patom3.gif",
+    "jclic.js/perfe.wav",
+    "jclic.js/trui.wav",
+    "jclic.js/truit.gif",
+    "jclic.js/truit3.gif",
+    "jclic.js/truita.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/martipo2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

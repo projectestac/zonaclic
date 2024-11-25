@@ -1,0 +1,143 @@
+{
+  "id": 631,
+  "title": "L'Algoritme de la divisió",
+  "author": "Ferran Estruch Mascarell",
+  "school": "CP Verge del Remei Castelló de Rugat (La Vall d'Albaida)",
+  "date": "18/01/07",
+  "languages": {
+    "en": "French",
+    "ca": "francès",
+    "es": "francés"
+  },
+  "langCodes": [
+    "fr"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aritmètica, càlcul, fonaments de les matemàtiques",
+    "es": "aritmética, cálculo, fundamentos de las matemáticas",
+    "en": "Arithmetic, calculation, foundations of the mathematics"
+  },
+  "descCodes": [
+    701,
+    702,
+    707
+  ],
+  "description": {
+    "en": "Activity pack about divisions.",
+    "ca": "Paquet d'activitats per a practicar l'algoritme de la divisió amb restes pas a pas. En les operacions el dividend té quatre xifres i el divisor només una. Els exercicis es resolen portant les xifres al seu lloc amb el ratolí. \n<br> En una nova versió ampliada de l'activitat, trobem dues modalitats més de divisions: amb dividends decimals i amb divisors de dues xifres.",
+    "es": "Paquete de actividades para practicar el algoritmo de la división con restos paso a paso. En las operaciones el dividendo tiene cuatro cifras y el divisor solo una. Los ejercicios se resuelven llevando las cifras a su sitio con el ratón. \n<br> En una nueva versión ampliada de la actividad, encontramos dos modalidades más de divisiones: con dividendos decimales y con divisores de dos cifras."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "dividir",
+    "divises",
+    "divxfra",
+    "divxfrag",
+    "zatiket2",
+    "zatiketa"
+  ],
+  "mainFile": "jclic.js/divfran.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/divfran.jclic.zip",
+  "instFile": "jclic/divfran.jclic.inst",
+  "clicZoneId": 1338,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1338",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/divfran/jclic/divfran.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 54,
+  "totalSize": 2417272,
+  "files": [
+    "cover.gif",
+    "jclic.js/cuc.png",
+    "jclic.js/cuc2.png",
+    "jclic.js/div1xifr_cot.wav",
+    "jclic.js/div1xifr_div1.gif",
+    "jclic.js/div1xifr_div10.gif",
+    "jclic.js/div1xifr_div11.gif",
+    "jclic.js/div1xifr_div12.gif",
+    "jclic.js/div1xifr_div13.gif",
+    "jclic.js/div1xifr_div14.gif",
+    "jclic.js/div1xifr_div15.gif",
+    "jclic.js/div1xifr_div16.gif",
+    "jclic.js/div1xifr_div17.gif",
+    "jclic.js/div1xifr_div18.gif",
+    "jclic.js/div1xifr_div19.gif",
+    "jclic.js/div1xifr_div2.gif",
+    "jclic.js/div1xifr_div20.gif",
+    "jclic.js/div1xifr_div3.gif",
+    "jclic.js/div1xifr_div4.gif",
+    "jclic.js/div1xifr_div5.gif",
+    "jclic.js/div1xifr_div6.gif",
+    "jclic.js/div1xifr_div7.gif",
+    "jclic.js/div1xifr_div8.gif",
+    "jclic.js/div1xifr_div9.gif",
+    "jclic.js/div1xifr_fiu.wav",
+    "jclic.js/div1xifr_lleo.wav",
+    "jclic.js/div1xifr_lleo1.wav",
+    "jclic.js/div1xifr_mar.wav",
+    "jclic.js/div1xifr_present.wav",
+    "jclic.js/div1xifr_puma.wav",
+    "jclic.js/div1xifr_selva.wav",
+    "jclic.js/div1xifr_soldiv1.gif",
+    "jclic.js/div1xifr_soldiv10.gif",
+    "jclic.js/div1xifr_soldiv11.gif",
+    "jclic.js/div1xifr_soldiv12.gif",
+    "jclic.js/div1xifr_soldiv13.gif",
+    "jclic.js/div1xifr_soldiv14.gif",
+    "jclic.js/div1xifr_soldiv15.gif",
+    "jclic.js/div1xifr_soldiv16.gif",
+    "jclic.js/div1xifr_soldiv17.gif",
+    "jclic.js/div1xifr_soldiv18.gif",
+    "jclic.js/div1xifr_soldiv19.gif",
+    "jclic.js/div1xifr_soldiv2.gif",
+    "jclic.js/div1xifr_soldiv20.gif",
+    "jclic.js/div1xifr_soldiv3.gif",
+    "jclic.js/div1xifr_soldiv4.gif",
+    "jclic.js/div1xifr_soldiv5.gif",
+    "jclic.js/div1xifr_soldiv6.gif",
+    "jclic.js/div1xifr_soldiv7.gif",
+    "jclic.js/div1xifr_soldiv8.gif",
+    "jclic.js/div1xifr_soldiv9.gif",
+    "jclic.js/div1xifr_ximp.wav",
+    "jclic.js/divfran.jclic",
+    "jclic.js/marieta.png",
+    "jclic.js/presdiv1.png",
+    "jclic.js/presdiv2.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/divfran.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

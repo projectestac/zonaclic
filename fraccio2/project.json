@@ -1,0 +1,91 @@
+{
+  "id": 635,
+  "title": "Fracciones - 2",
+  "author": "Miguel Ruiz Acebo",
+  "school": "Colegio El Salvador - Cooperativa de enseñanza Barreda (Cantabria)",
+  "date": "26/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aritmètica, fonaments de les matemàtiques",
+    "es": "aritmética, fundamentos de las matemáticas",
+    "en": "Arithmetic, foundations of the mathematics"
+  },
+  "descCodes": [
+    701,
+    707
+  ],
+  "description": {
+    "en": "Clic activities about mathematical fractions. Continuation of the exercises presented in the previous activity pack.",
+    "ca": "Continuació del paquet \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=1339\">Fracciones - 1</a> on es treballen els temes:\n<br> - Operacions amb fraccions.\n<br> - Suma i resta de fraccions amb denominador igual.\n<br> - Suma i resta de fraccions con denominador diferent.\n<br> - Suma i resta d'un nombre enter i una fracció.\n<br> - Producte d'una fracció per un nombre enter.\n<br> - Producte de fraccions.\n<br> - Divisió d'una fracció per un nombre enter.\n<br>",
+    "es": "Continuación del paquete \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=1339\">Fracciones - 1</a> en el que se tratan los temas:\n<br> - Operaciones con fracciones.\n<br> - Suma y resta de fracciones con igual denominador.\n<br> - Suma y resta de fracciones con distinto denominador.\n<br> - Suma y resta de un número entero y una fracción.\n<br> - Producto de una fracción por un número entero.\n<br> - Producto de fracciones.\n<br> - División de una fracción entre un número entero."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "fracgal2"
+  ],
+  "mainFile": "jclic.js/fraccio2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fraccio2.jclic.zip",
+  "instFile": "jclic/fraccio2.jclic.inst",
+  "clicZoneId": 1340,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1340",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fraccio2/jclic/fraccio2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 8,
+  "totalSize": 475475,
+  "files": [
+    "cover.gif",
+    "jclic.js/entrada.jpg",
+    "jclic.js/fracci01.jpg",
+    "jclic.js/fracci03.jpg",
+    "jclic.js/fracci05.jpg",
+    "jclic.js/fracci07.jpg",
+    "jclic.js/fracci10.jpg",
+    "jclic.js/fracci12.jpg",
+    "jclic.js/fraccio2.jclic",
+    "jclic.js/portada.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fraccio2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

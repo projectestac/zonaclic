@@ -1,0 +1,106 @@
+{
+  "id": 1919,
+  "title": "La fruiteria",
+  "author": "Anna Carós Pujol",
+  "school": "Escola Pompeu Fabra Lloret de Mar (Selva)",
+  "date": "08/06/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua",
+    "es": "aprendizaje de la lengua",
+    "en": "learning of the language"
+  },
+  "descCodes": [
+    110
+  ],
+  "description": {
+    "en": "Project of activities for the youngest pupils about fruits. It contains activities to learn the name of each fruit, how to write their name, scrambled letters, puzzles, which bear fruit stones and which not and which have the thin or thick skin.",
+    "ca": "Projecte d'activitats per als més petits sobre les fruites. Al llarg del projecte trobem activitats per a aprendre el nom de cada fruita, com s'escriuen, trencaclosques, sopes de lletres, quines fruites porten pinyols i quines no i quines tenen la pell fina o gruixuda.",
+    "es": "Proyecto de actividades para los más pequeños sobre las frutas. A lo largo del proyecto encontramos actividades para aprender el nombre de cada fruta, como se escriben, rompecabezas, sobas de letras, qué frutas tienen hueso y cuales no y cuales tienen la piel fina o gruesa."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/fruiteri.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fruiteri.jclic.zip",
+  "instFile": "jclic/fruiteri.jclic.inst",
+  "clicZoneId": 3545,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3545",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fruiteri/jclic/fruiteri.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 27,
+  "totalSize": 2021662,
+  "files": [
+    "cover.jpg",
+    "jclic.js/cireres.jpg",
+    "jclic.js/fruiteri.jclic",
+    "jclic.js/fruteria_gran.jpg",
+    "jclic.js/kiwi.jpg",
+    "jclic.js/maduixa.jpg",
+    "jclic.js/melo.jpg",
+    "jclic.js/pera.jpg",
+    "jclic.js/pinyol.jpg",
+    "jclic.js/platan.jpg",
+    "jclic.js/poma_vermella.jpg",
+    "jclic.js/pressec.jpg",
+    "jclic.js/pruna.jpg",
+    "jclic.js/raim.jpg",
+    "jclic.js/sindria.gif",
+    "jclic.js/so_aplaudiments.wav",
+    "jclic.js/so_cireres.wav",
+    "jclic.js/so_kiwi.wav",
+    "jclic.js/so_maduixa.wav",
+    "jclic.js/so_melo.wav",
+    "jclic.js/so_pera.wav",
+    "jclic.js/so_platan.wav",
+    "jclic.js/so_poma.wav",
+    "jclic.js/so_pressec.wav",
+    "jclic.js/so_prunes.wav",
+    "jclic.js/so_raim.wav",
+    "jclic.js/so_sindria.wav",
+    "jclic.js/so_taronja.wav",
+    "jclic.js/taronja.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fruiteri.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

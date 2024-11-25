@@ -1,0 +1,133 @@
+{
+  "id": 247,
+  "title": "Ausiàs March",
+  "author": "Josep Campos Martín",
+  "school": "CP L'Alcocera Polinyà del Xúquer (Ribera Baixa)",
+  "date": "12/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "literatura catalana",
+    "es": "literatura catalana",
+    "en": "Catalan Literature"
+  },
+  "descCodes": [
+    627
+  ],
+  "description": {
+    "en": "Activities about the life and times of Ausiàs March. The topics include: \"The life\", \"The work\", \"The technology\", \"The duel\" and \"Society\".",
+    "ca": "Activitats relacionades amb la figura d'Ausiàs March i el seu temps. Es troba organitzat en cinc paquets d'activitats: \"La vida\", \"L'obra\", \"La tecnologia\", \"El duel\" i \"Els estaments socials\". \n<br> Inclou un document d'ajuda molt complet, amb informació sobre els temes que es tracten en les activitats. \n<br> Cal configurar l'ordinador a 800x600 i 256 colors.",
+    "es": "Actividades relacionadas con la figura de Ausiàs March y su tiempo. Se organiza en cinco paquetes de actividades: \"La vida\", \"La obra\", \"La tecnología\", \"El duelo\" y \"Los estamentos sociales\". \n<br> Incluye un documento de ayuda muy completo con información sobre los temas tratados en las actividades. \n<br> Hay que configurar la pantalla a 800x600 y 256 colores."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ausias.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ausias.jclic.zip",
+  "instFile": "jclic/ausias.jclic.inst",
+  "clicZoneId": 1127,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1127",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ausias/jclic/ausias.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 39,
+  "totalSize": 1277757,
+  "files": [
+    "cover.gif",
+    "jclic.js/ajuda/ajuda.jclic",
+    "jclic.js/ajuda/ajuda3.gif",
+    "jclic.js/ausias.jclic",
+    "jclic.js/autor/autor.gif",
+    "jclic.js/autor/autor.jclic",
+    "jclic.js/cavaller/armadura.jpg",
+    "jclic.js/cavaller/casc.gif",
+    "jclic.js/cavaller/cavaller.jclic",
+    "jclic.js/cavaller/escut.gif",
+    "jclic.js/cavaller/espasa.gif",
+    "jclic.js/cavaller/espero.gif",
+    "jclic.js/cavaller/estrep1.gif",
+    "jclic.js/cavaller/llanca.gif",
+    "jclic.js/cavaller/maca.gif",
+    "jclic.js/cavaller/visera.gif",
+    "jclic.js/noble/cla1.gif",
+    "jclic.js/noble/cla2.gif",
+    "jclic.js/noble/cla3.gif",
+    "jclic.js/noble/cla4.gif",
+    "jclic.js/noble/cla5.gif",
+    "jclic.js/noble/nob6.gif",
+    "jclic.js/noble/noble.jclic",
+    "jclic.js/noble/noble0.gif",
+    "jclic.js/noble/noble1.gif",
+    "jclic.js/noble/noble2.gif",
+    "jclic.js/noble/noble3.gif",
+    "jclic.js/noble/noble4.gif",
+    "jclic.js/noble/noble5.gif",
+    "jclic.js/noble/noble6.gif",
+    "jclic.js/poesia/carave.gif",
+    "jclic.js/poesia/jog1.jpg",
+    "jclic.js/poesia/jura1.jpg",
+    "jclic.js/poesia/poesia.jclic",
+    "jclic.js/portada1.gif",
+    "jclic.js/tecno/arada.gif",
+    "jclic.js/tecno/camp1.jpg",
+    "jclic.js/tecno/collera.gif",
+    "jclic.js/tecno/moli.gif",
+    "jclic.js/tecno/rotacio2.gif",
+    "jclic.js/tecno/tecno.gif",
+    "jclic.js/tecno/tecno.jclic",
+    "jclic.js/vida/castell.gif",
+    "jclic.js/vida/cetrer.gif",
+    "jclic.js/vida/escal2.gif",
+    "jclic.js/vida/roseto.jpg",
+    "jclic.js/vida/vida.jclic",
+    "jclic.js/vida/zmapa1.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ausias.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/ajuda/ajuda.jclic.js",
+    "jclic.js/autor/autor.jclic.js",
+    "jclic.js/cavaller/cavaller.jclic.js",
+    "jclic.js/noble/noble.jclic.js",
+    "jclic.js/poesia/poesia.jclic.js",
+    "jclic.js/tecno/tecno.jclic.js",
+    "jclic.js/vida/vida.jclic.js",
+    "cover.webp"
+  ]
+}

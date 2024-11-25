@@ -1,0 +1,84 @@
+{
+  "title": "Bióticos y abióticos",
+  "author": "Alumnos de Primer año",
+  "school": "Colegio Meraki (Balneario Buenos Aires)",
+  "date": "07/10/24",
+  "langCodes": [
+    "es"
+  ],
+  "languages": {
+    "es": "español",
+    "ca": "espanyol",
+    "en": "Spanish"
+  },
+  "areaCodes": [
+    "mat",
+    "exp",
+    "tec"
+  ],
+  "areas": {
+    "es": "Matemáticas, Ciencias experimentales, Tecnología",
+    "ca": "Matemàtiques, Ciències experimentals, Tecnologies",
+    "en": "Mathematics, Experimental sciences, Design & technology"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "levels": {
+    "es": "Infantil (3-6), Primaria (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "en": "Kindergarten (3-6), Primary school (6-12)"
+  },
+  "description": {
+    "es": "Proyecto sobre seres bióticos y abióticos, aunado a matemática aplicado a una huerta escolar.",
+    "ca": "Projecte sobre els éssers biòtics i abiòtics, amb matemàtiques aplicades a l'hort escolar.",
+    "en": "Project on biotic and abiotic beings, with mathematics applied to the school garden."
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "es",
+    "ca",
+    "en"
+  ],
+  "cover": "cover.png",
+  "thumbnail": "thumb.png",
+  "mainFile": "jclic.js/biotameraki.jclic",
+  "activities": 10,
+  "mediaFiles": 21,
+  "totalSize": 617827,
+  "instFile": "jclic/biotameraki.jclic.inst",
+  "zipFile": "jclic/biotameraki.jclic.zip",
+  "files": [
+    "cover.png",
+    "jclic.js/aire-resized.jpg",
+    "jclic.js/biotameraki.jclic",
+    "jclic.js/biotameraki.jclic.js",
+    "jclic.js/circulo.jpg",
+    "jclic.js/cuadrado.png",
+    "jclic.js/factores_bioticos_y_abioticos.jpg",
+    "jclic.js/favicon.ico",
+    "jclic.js/h1.jpg",
+    "jclic.js/h2.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/jirafa.jpg",
+    "jclic.js/lluvia.jpg",
+    "jclic.js/meraki.jpg",
+    "jclic.js/planta.jpg",
+    "jclic.js/rectangulo.png",
+    "jclic.js/rocas.jpg",
+    "jclic.js/sol-resized.jpg",
+    "jclic.js/termometro.png",
+    "jclic.js/tierra-resized.jpg",
+    "jclic.js/triangulo.png",
+    "project.json",
+    "thumb.png"
+  ]
+}

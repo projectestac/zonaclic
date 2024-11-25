@@ -1,0 +1,110 @@
+{
+  "id": 2453,
+  "title": "Les llegendes d'Avinyonet del Penedés",
+  "author": "David Paredes Calabuig i Eduard Solé",
+  "school": "Escola d'Avinyonet del Penedès - ZER Font del Cuscó Avinyonet del Penedès (Alt Penedès)",
+  "date": "30/06/16",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences, Languages",
+    "ca": "Ciències socials, Llengües",
+    "es": "Ciencias sociales, Lenguas"
+  },
+  "areaCodes": [
+    "soc",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "lectura, vocabulari, costums i tradicions, cultura popular",
+    "es": "lectura, vocabulario, costumbres y tradiciones, cultura popular",
+    "en": "reading, vocabulary, customs and traditions, popular culture"
+  },
+  "descCodes": [
+    125,
+    150,
+    191,
+    196
+  ],
+  "description": {
+    "en": "Project activities related with the \n<i>Avinyonet del Penedès legends</i> aimed at primary school students who want to know the works of the oral tradition of the Alt Penedès.\n<p> The activities are structured from the four legends: the Palmisser, the bell of Santa Magdalena, the dance quarry, the Queen of Cantallops. </p>",
+    "ca": "Projecte d'activitats relacionades amb les \n<i>Llegendes d'avinyonet&nbsp;del Penedès</i> adreçat als alumnes d'educació primària que vulguin conèixer aquestes obres de la tradició oral de la comarca de l'Alt Penedès.&nbsp;\n<p> Les activitats s'estructuren a partir de les quatre llegendes: el Palmisser, la campana de Santa Magdalena, el ball de la pedrera i la reina de Cantallops.&nbsp; </p>",
+    "es": "Proyecto de actividades relacionadas con las \n<i>Leyendas de avinyonet del Penedès</i> dirigido a los alumnos de educación primaria que quieran conocer estas obras de la tradición oral de la comarca del Alt Penedès. \n<p> Las actividades se estructuran a partir de las cuatro leyendas: el Palmisser, la campana de Santa Magdalena, el baile de la cantera, la reina de Cantallops. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/lleg_avi.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/lleg_avi.jclic.zip",
+  "instFile": "jclic/lleg_avi.jclic.inst",
+  "clicZoneId": 3961,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3961",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/lleg_avi/jclic/lleg_avi.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 27,
+  "totalSize": 2047775,
+  "files": [
+    "cover.png",
+    "jclic.js/05_torre_colomar_de_larbocar_130713_009_resized.jpg",
+    "jclic.js/14405295365_87f119d70e_b_resized.jpg",
+    "jclic.js/36738687.jpg",
+    "jclic.js/407_banner_urisubkey.png.jpg",
+    "jclic.js/443_2_zoom_resized.jpg",
+    "jclic.js/5907163.jpg",
+    "jclic.js/abanico_verde.gif",
+    "jclic.js/avinyonet_mireta.jpg",
+    "jclic.js/bruc.jpg",
+    "jclic.js/campa_resized.jpg",
+    "jclic.js/cantallops__entrada_al_municipi_resized.jpg",
+    "jclic.js/ermita_runes_resized.jpg",
+    "jclic.js/escombra_3.jpg",
+    "jclic.js/escut.png",
+    "jclic.js/gos01.jpg",
+    "jclic.js/granerer01.jpg",
+    "jclic.js/granerer_4_resized.jpg",
+    "jclic.js/indice.jpg",
+    "jclic.js/linx.jpg",
+    "jclic.js/lleg_avi.jclic",
+    "jclic.js/lleg_avi.jclic.js",
+    "jclic.js/llop.jpg",
+    "jclic.js/margallo_resized.jpg",
+    "jclic.js/mill.jpg",
+    "jclic.js/pedreres_resized.jpg",
+    "jclic.js/portada_llegendes_avinyonet.jpg",
+    "jclic.js/portada_llegendes_avinyonet2.jpg",
+    "jclic.js/reina.jpg",
+    "jclic.js/runes_ermita_santa_magdalena_2_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

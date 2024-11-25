@@ -1,0 +1,118 @@
+{
+  "id": 1555,
+  "title": "És vital, fruites i hortalisses",
+  "author": "Carme Quiles Quesada",
+  "school": "C Politécnico Rubí (Vallès Occidental)",
+  "date": "23/02/06",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "fruits, hortalisses",
+    "es": "frutas, hortalizas",
+    "en": "fruits, vegetables"
+  },
+  "descCodes": [
+    844,
+    1361
+  ],
+  "description": {
+    "en": "Project of activities about natural sciences addressed to primary education as a complement of the project \"\n<a href=\"http://www.5aldia.es/index_en.html\">5aldia</a>\". The package has activities about fruits and vegetables.",
+    "ca": "El projecte \"És vital\" engloba continguts de Coneixement del medi natural i està dissenyat per alumnes de cicle inicial de primària. Les activitats tracten sobre la identificació de fruites i hortalisses. Aquest projecte neix com a complementació a la participació del projecte \"\n<a href=\"http://www.5aldia.es/\">5aldia</a>\".",
+    "es": "El proyecto \"És vital\" engloba contenidos de Conocimiento del medio natural y está diseñado para alumnos de ciclo inicial de primaria. Las actividades tratan sobre la identificación de frutas y hortalizas. Este proyecto nace como un complemento en la participación del proyecto \"\n<a href=\"http://www.5aldia.es/index_es.html\">5aldia</a>\"."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/esvital.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/esvital.jclic.zip",
+  "instFile": "jclic/esvital.jclic.inst",
+  "clicZoneId": 3279,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3279",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/esvital/jclic/esvital.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 38,
+  "totalSize": 567492,
+  "files": [
+    "cover.gif",
+    "jclic.js/albercoc.gif",
+    "jclic.js/alberginia.gif",
+    "jclic.js/alberginia.mp3",
+    "jclic.js/all.gif",
+    "jclic.js/atmelles.gif",
+    "jclic.js/auriculars.gif",
+    "jclic.js/carbasa.mp3",
+    "jclic.js/carbassa.gif",
+    "jclic.js/carxofa.gif",
+    "jclic.js/castanyes.gif",
+    "jclic.js/cebes.gif",
+    "jclic.js/cogombre.gif",
+    "jclic.js/cogombre.mp3",
+    "jclic.js/esvital.jclic",
+    "jclic.js/faves.jpg",
+    "jclic.js/figa.gif",
+    "jclic.js/figues.mp3",
+    "jclic.js/fruits_secs.jpg",
+    "jclic.js/maduixa.gif",
+    "jclic.js/mandarina.gif",
+    "jclic.js/mans0007.jpg",
+    "jclic.js/melo.gif",
+    "jclic.js/patata.gif",
+    "jclic.js/pebrot.gif",
+    "jclic.js/pera.gif",
+    "jclic.js/platan.gif",
+    "jclic.js/platan.mp3",
+    "jclic.js/portada.jpg",
+    "jclic.js/pruna.gif",
+    "jclic.js/pruna.mp3",
+    "jclic.js/rave.gif",
+    "jclic.js/tomaq1.jpg",
+    "jclic.js/tomaq2.jpg",
+    "jclic.js/tomaq3.jpg",
+    "jclic.js/tomaq4.jpg",
+    "jclic.js/tomaq5.jpg",
+    "jclic.js/tomaq6.jpg",
+    "jclic.js/tomaquet.gif",
+    "jclic.js/xampinyo.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/esvital.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": 2281,
+  "title": "Otos, el poble dels rellotges de sol",
+  "author": "Lídia Alfonso Medrano",
+  "school": "ESC Teresina Martorell El Vendrell (Baix Penedès)",
+  "date": "05/12/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "rellotge de sol",
+    "es": "reloj de sol",
+    "en": "sundal"
+  },
+  "descCodes": [
+    1445
+  ],
+  "description": {
+    "en": "Project of JClic activities about sundials, based on Otos (a town in Valencia), the European city with the highest number of sundials.",
+    "ca": "Projecte per treballar els rellotges de sol, basat en els d'Otos (població del País Valencià), la localitat europea amb major nombre de rellotges de sol.",
+    "es": "Proyecto de actividades JClic para trabajar los relojes de sol, basado en los de Otos (población del País Valencià), la localidad europea con mayor número de relojes de sol."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/otos.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/otos.jclic.zip",
+  "instFile": "jclic/otos.jclic.inst",
+  "clicZoneId": 3795,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3795",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/otos/jclic/otos.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 25,
+  "totalSize": 7288335,
+  "files": [
+    "cover.png",
+    "jclic.js/agraiments.jpg",
+    "jclic.js/basset_4._29_d_abril_07.jpg",
+    "jclic.js/carpe_diem__et_nocte.jpg",
+    "jclic.js/el_sol_brilla_per_a_tots.jpg",
+    "jclic.js/els_rellotges_del_recorregut.jpg",
+    "jclic.js/els_rellotges_del_recorregut_2.jpg",
+    "jclic.js/els_rellotges_del_recorregut_3.jpg",
+    "jclic.js/els_rellotges_del_recorregut_4.jpg",
+    "jclic.js/image0001.jpg",
+    "jclic.js/imagen1.jpg",
+    "jclic.js/imagen4.jpg",
+    "jclic.js/juliol_07_restauracio_rellotge_de_casa_2.jpg",
+    "jclic.js/la_norma_no_es_un_dogma___andreu_alfaro.jpg",
+    "jclic.js/mapa.jpg",
+    "jclic.js/melo___soleil___artur_heras.jpg",
+    "jclic.js/on_esta_situat_otos.jpg",
+    "jclic.js/otos.jclic",
+    "jclic.js/p1000561.jpg",
+    "jclic.js/palau_d_otos__maig_10__15_.jpg",
+    "jclic.js/presentacion1.jpg",
+    "jclic.js/rellotge_de_fang___arcadi_blasco.jpg",
+    "jclic.js/rellotge_dels_pimentons___rafael_armengol.jpg",
+    "jclic.js/rellotge_equatorial___boluda_i_olivares.jpg",
+    "jclic.js/sum_si_sol_sit.jpg",
+    "jclic.js/tapa.jpg",
+    "jclic.js/vivere_memento.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/otos.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

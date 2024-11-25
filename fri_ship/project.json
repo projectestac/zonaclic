@@ -1,0 +1,94 @@
+{
+  "id": 2481,
+  "title": "Friendship (Sing \"You've a got a friend\" by James Taylor)",
+  "author": "Themis Bannach de Azevedo",
+  "date": "09/02/17",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages, Music",
+    "ca": "Llengües, Música",
+    "es": "Lenguas, Música"
+  },
+  "areaCodes": [
+    "lleng",
+    "mus"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "comprensió lectora, llengua anglesa, vocabulari, audició musical",
+    "es": "comprensión lectora, lengua inglesa, vocabulario, audición musical",
+    "en": "reading understanding, English language, vocabulary, musical hearing"
+  },
+  "descCodes": [
+    661,
+    667,
+    673,
+    718
+  ],
+  "description": {
+    "en": "JClic activities to learn English: \n<ul> \n <li>Textual genres: music, biography and quotation </li>\n <li>Listening activities </li>\n <li>Grammar points: suffixes </li>\n <li>Vocabulary </li>\n <li>Text comprehension </li>\n <li>Opposites: nouns and adjectives </li>\n <li>Order of the words </li>\n</ul>",
+    "ca": "Projecte d'activitats JClic per a l'aprenentatge de l'anglès: \n<ul> \n <li>Gèneres </li>\n <li>Activitats de <i>listening</i> </li>\n <li>Gramàtica </li>\n <li>Vocabulari </li>\n <li>Comprensió del text </li>\n <li>Antònims: noms i adjectius </li>\n <li>Ordre de paraules </li>\n</ul>",
+    "es": "Poyecto de actividades JClic para el aprendizaje del ingles: \n<ul> \n <li>Géneros </li>\n <li>Actividades de <i>listening</i> </li>\n <li>Gramática </li>\n <li>Vocabulario </li>\n <li>Comprensión del texto </li>\n <li>Antónimos: nombres y adjetivos </li>\n <li>Orden de palabras </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/fri_ship.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fri_ship.jclic.zip",
+  "instFile": "jclic/fri_ship.jclic.inst",
+  "clicZoneId": 3990,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3990",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fri_ship/jclic/fri_ship.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 12,
+  "totalSize": 4029254,
+  "files": [
+    "cover.png",
+    "jclic.js/botoes_flecha.jpg",
+    "jclic.js/botoes_jclic.jpg",
+    "jclic.js/contador.jpg",
+    "jclic.js/fri_ship.jclic",
+    "jclic.js/fri_ship.jclic.js",
+    "jclic.js/i01_anima.jpg",
+    "jclic.js/i01_friend1.mp3",
+    "jclic.js/i01_friend2.mp3",
+    "jclic.js/i01_friend3.mp3",
+    "jclic.js/i01_friend_chorus.mp3",
+    "jclic.js/i01_james_disc.jpg",
+    "jclic.js/i01_james_taylor2011.jpg",
+    "jclic.js/i02_james_disc.jpg",
+    "jclic.js/i03_james_disc.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

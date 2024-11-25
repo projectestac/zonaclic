@@ -1,0 +1,125 @@
+{
+  "id": 2505,
+  "title": "A biblioteca",
+  "author": "Emilio González Acuña",
+  "school": "IES Armando Ctarelo Valledor Vilagarcía de Arousa - Pontevedra (Galiza)",
+  "date": "28/03/17",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "biblioteconomia",
+    "es": "biblioteconomía",
+    "en": "library science"
+  },
+  "descCodes": [
+    479
+  ],
+  "description": {
+    "en": "Pack of activities to understand books organization in a library using UDC (Universal Decimal Classification).",
+    "ca": "Conjunt d'activitats per a comprendre com estan organitzats els llibres en una biblioteca segons la CDU (Classificació Decimal Universal).",
+    "es": "Conjunto de actividades para comprender como están organizados los libros en una biblioteca según la CDU (Clasificación Decimal Universal)."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/bibliot.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/bibliot.jclic.zip",
+  "instFile": "jclic/bibliot.jclic.inst",
+  "clicZoneId": 4014,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=4014",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/bibliot/jclic/bibliot.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 46,
+  "totalSize": 3157529,
+  "files": [
+    "cover.png",
+    "jclic.js/20080511143020_g3_pixama300.jpg",
+    "jclic.js/ameaza_na_antartida.jpg",
+    "jclic.js/ardalen.jpg",
+    "jclic.js/asterix_nos_xogos_olimpicos.jpg",
+    "jclic.js/bibliot.jclic",
+    "jclic.js/bibliot.jclic.js",
+    "jclic.js/bibliotecaiescotarelo_resized1.jpg",
+    "jclic.js/bibliotecaiescotarelocine_resized.jpg",
+    "jclic.js/blog_biblioteca_resized.jpg",
+    "jclic.js/campos_de_castilla_resized.jpg",
+    "jclic.js/cartas_de_inverno.jpg",
+    "jclic.js/cdugalego.jpg",
+    "jclic.js/cine.jpg",
+    "jclic.js/cine2.jpg",
+    "jclic.js/comic_001_resized.jpg",
+    "jclic.js/corredores_de_sombra.jpg",
+    "jclic.js/cupido_san_valentin.jpg.png",
+    "jclic.js/deportes__resized.jpg",
+    "jclic.js/diccionario_colegio_pintado_por_belensara_9738144.jpg",
+    "jclic.js/el_teorema_del_loro.jpg",
+    "jclic.js/el_viaje_al_poder_de_la_mente.jpg",
+    "jclic.js/estanteria.png",
+    "jclic.js/estudiante.gif",
+    "jclic.js/falso.jpg",
+    "jclic.js/historia.jpg",
+    "jclic.js/imaxes_buho_sabio_sentado_en_pilotes_libro_277664.jpg",
+    "jclic.js/imaxes_koala_resized.jpg",
+    "jclic.js/interrogante_3.jpg",
+    "jclic.js/logo_biblioteca_cotarelo3.jpg",
+    "jclic.js/logo_bibliotecacotarelocine_resized.jpg",
+    "jclic.js/logo_rbg.gif",
+    "jclic.js/mapa1.jpg",
+    "jclic.js/matematica.jpg",
+    "jclic.js/mulleres.jpg",
+    "jclic.js/neno_con_libros.jpg",
+    "jclic.js/normas_resized.jpg",
+    "jclic.js/notas_musicales2.jpg",
+    "jclic.js/peces_sistema_nervioso_anipedia.jpg",
+    "jclic.js/pradolongo.jpg",
+    "jclic.js/relixions.jpg",
+    "jclic.js/revistas.png",
+    "jclic.js/roberto_vidal_bolano_saxo_tenor.jpg",
+    "jclic.js/rosalia_de_castro_01.jpg",
+    "jclic.js/secreto_del_fuego.jpg",
+    "jclic.js/tejuelo.png",
+    "jclic.js/tejuelos.jpg",
+    "jclic.js/verdadeiro.jpg",
+    "jclic.js/y__biblioteca_proxecto_abalar_imaxes_libros_ordenador.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

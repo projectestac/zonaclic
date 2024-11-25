@@ -1,0 +1,110 @@
+{
+  "id": 2008,
+  "title": "Trigonometría (Definiciones de trigonometría)",
+  "author": "Mª Carmen Felipe Hernández",
+  "school": "IES Alhama de Corella Corella (Navarra)",
+  "date": "03/12/09",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "trigonometria",
+    "es": "trigonometría",
+    "en": "trigonometry"
+  },
+  "descCodes": [
+    716
+  ],
+  "description": {
+    "en": "Two projects of activities addressed to secondary education about trigonometry: \n<ul> \n <li>definitions of trigonometry </li>\n <li>reduction to first quadrant </li>\n</ul>",
+    "ca": "Dos projectes d'activitats adreçats a 4t curs d'educació secundària obligatòria sobre trigonometria: \n<ul> \n <li>Definicions de Trigonometria </li>\n <li>Reducció al 1r quadrant </li>\n</ul>",
+    "es": "Dos proyectos de actividades dirigidos a 4º curso de educación secundaria obligatoria sobre trigonometría: \n<ul> \n <li>Definiciones de Trigonometría </li>\n <li>Reducción al 1º cuadrante </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "cuadrant"
+  ],
+  "mainFile": "jclic.js/trigo2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/trigo2.jclic.zip",
+  "instFile": "jclic/trigo2.jclic.inst",
+  "clicZoneId": 3586,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3586",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/trigo2/jclic/trigo2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 28,
+  "totalSize": 224498,
+  "files": [
+    "cover.gif",
+    "jclic.js/304560a.gif",
+    "jclic.js/304560b.gif",
+    "jclic.js/304560c.gif",
+    "jclic.js/tri2.gif",
+    "jclic.js/tri3.gif",
+    "jclic.js/tri3a.gif",
+    "jclic.js/tri4.gif",
+    "jclic.js/tri4a.gif",
+    "jclic.js/tri4b.gif",
+    "jclic.js/tri6.gif",
+    "jclic.js/tri6a.gif",
+    "jclic.js/triangulo1.png",
+    "jclic.js/trigo1a.gif",
+    "jclic.js/trigo1c.gif",
+    "jclic.js/trigo2.jclic",
+    "jclic.js/trigo2a.gif",
+    "jclic.js/trigo2c.gif",
+    "jclic.js/trigo4a.gif",
+    "jclic.js/trigo4b.gif",
+    "jclic.js/trigo4c.gif",
+    "jclic.js/trigo5a.gif",
+    "jclic.js/trigo5b.gif",
+    "jclic.js/trigo5c.gif",
+    "jclic.js/trigo7a.gif",
+    "jclic.js/trigo7b.gif",
+    "jclic.js/trigo7c.gif",
+    "jclic.js/trigo9a.gif",
+    "jclic.js/trigo9b.gif",
+    "jclic.js/trigo9c.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/trigo2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

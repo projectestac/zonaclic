@@ -1,0 +1,124 @@
+{
+  "id": 2414,
+  "title": "El llop",
+  "author": "Imma Velasco Paredes",
+  "school": "Escola Lliçà d'Amunt Lliçà d'amunt (Vallès Oriental)",
+  "date": "29/10/15",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages",
+    "ca": "Ciències experimentals, Llengües",
+    "es": "Ciencias experimentales, Lenguas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "vocabulari, éssers vius, animals",
+    "es": "vocabulario, seres vivos, animals",
+    "en": "vocabulary, alive beings, animales"
+  },
+  "descCodes": [
+    150,
+    1348,
+    1456
+  ],
+  "description": {
+    "en": "Project activities related to wolves. It has activities in language, mathematics and discovery of the environment.",
+    "ca": "Projecte d'activitats sobre els llops. Consta d'activitats de llengua, matemàtiques i de descoberta de l'entorn.",
+    "es": "Proyecto de actividades referidas a los lobos. Consta de actividades de lengua, matemáticas y de descubrimiento del entorno."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/elllop.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/elllop.jclic.zip",
+  "instFile": "jclic/elllop.jclic.inst",
+  "clicZoneId": 3922,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3922",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/elllop/jclic/elllop.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 42,
+  "totalSize": 1724145,
+  "files": [
+    "cover.png",
+    "jclic.js/cadells.jpg",
+    "jclic.js/cap_negre.jpg",
+    "jclic.js/conill_resized.jpg",
+    "jclic.js/cua.jpg",
+    "jclic.js/cua.mp3",
+    "jclic.js/daina_resized.jpg",
+    "jclic.js/dents.jpg",
+    "jclic.js/dents.mp3",
+    "jclic.js/dos_resized.jpg",
+    "jclic.js/elllop.jclic",
+    "jclic.js/herba_resized.jpg",
+    "jclic.js/i01_garrofes.jpg",
+    "jclic.js/i_clica_i_escolta_1.mp3",
+    "jclic.js/i_escolta_i_busca.mp3",
+    "jclic.js/i_molt_be.mp3",
+    "jclic.js/i_relaciona.mp3",
+    "jclic.js/i_sopa_de_lletres.mp3",
+    "jclic.js/i_trencaclosques.mp3",
+    "jclic.js/i_tria_aliments.mp3",
+    "jclic.js/i_troba_ll.mp3",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/libelula.jpg",
+    "jclic.js/llop_blanc.jpg",
+    "jclic.js/llop_bru_sencer_resized.jpg",
+    "jclic.js/llop_gris.jpg",
+    "jclic.js/lobo_aullando_resized.jpg",
+    "jclic.js/lobo_marron_resized.jpg",
+    "jclic.js/lobos_blancos__bosque_175581_resized.jpg",
+    "jclic.js/mare_i_cadells.jpg",
+    "jclic.js/musell.jpg",
+    "jclic.js/musell.mp3",
+    "jclic.js/negre_resized.jpg",
+    "jclic.js/orelles.jpg",
+    "jclic.js/orelles.mp3",
+    "jclic.js/ovella_resized.jpg",
+    "jclic.js/potes.jpg",
+    "jclic.js/potes.mp3",
+    "jclic.js/titol_resized.jpg",
+    "jclic.js/troba_les_parelles.mp3",
+    "jclic.js/udol_llop.wav",
+    "jclic.js/ulls.jpg",
+    "jclic.js/ulls.mp3",
+    "jclic.js/ulls1.jpg",
+    "jclic.js/untitled.bmp",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/elllop.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

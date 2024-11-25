@@ -1,0 +1,136 @@
+{
+  "id": 1785,
+  "title": "L'espai i els planetes",
+  "author": "Agustí Puig i Masip",
+  "school": "Institut Pau Casals Badalona (Barcelonès)",
+  "date": "30/06/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "planetes, La Terra",
+    "es": "planetas, La Tierra",
+    "en": "planets, The Earth"
+  },
+  "descCodes": [
+    862,
+    1331
+  ],
+  "description": {
+    "en": "Project of activities addressed to kindergarden about the space and the planets. There are eight activities to learn the name of the planets and some vocabulary about the space like: \n<ul> \n <li>astronaut </li>\n <li>spaceship </li>\n <li>moon </li>\n <li>star </li>\n</ul>",
+    "ca": "Projecte d'activitats per als més petits sobre l'espai i els planetes. Un total de 8 activitats molt senzilles per conèixer els noms dels planetes i vocabulari relacionat amb l'espai com: \n<ul> \n <li>astronauta </li>\n <li>nau </li>\n <li>lluna </li>\n <li>estel </li>\n</ul>",
+    "es": "Proyecto de actividades para los más pequeños sobre el espacio y los planetas. Un total de 8 actividades muy sencillas para conocer los nombres de los planetas y vocabulario relacionado con el espacio como: \n<ul> \n <li>astronauta </li>\n <li>nave </li>\n <li>luna </li>\n <li>estrellas </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/planetes.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/planetes.jclic.zip",
+  "instFile": "jclic/planetes.jclic.inst",
+  "clicZoneId": 3481,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3481",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/planetes/jclic/planetes.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 8,
+  "mediaFiles": 56,
+  "totalSize": 12244503,
+  "files": [
+    "cover.jpg",
+    "jclic.js/agusti.jpg",
+    "jclic.js/aigua.jpg",
+    "jclic.js/astro_def.jpg",
+    "jclic.js/astronauta.jpg",
+    "jclic.js/astronauta_def.jpg",
+    "jclic.js/astronauta_def_inv.jpg",
+    "jclic.js/be_amb_retard.wav",
+    "jclic.js/clic_planetes_sistema_solar.wav",
+    "jclic.js/def_astronauta.wav",
+    "jclic.js/def_clic_imatges.wav",
+    "jclic.js/def_clic_relacio_espai.wav",
+    "jclic.js/def_informacio.wav",
+    "jclic.js/def_lluna_gira.wav",
+    "jclic.js/def_mercuri.wav",
+    "jclic.js/def_molt_be.wav",
+    "jclic.js/def_nau.wav",
+    "jclic.js/def_puzzle1.wav",
+    "jclic.js/def_relaciona.wav",
+    "jclic.js/def_si.wav",
+    "jclic.js/def_soc_jupiter.wav",
+    "jclic.js/def_soc_la_terra.wav",
+    "jclic.js/def_soc_mart.wav",
+    "jclic.js/def_soc_neptu.wav",
+    "jclic.js/def_soc_saturn.wav",
+    "jclic.js/def_soc_ura.wav",
+    "jclic.js/def_sol_vida.wav",
+    "jclic.js/def_terra_gran.wav",
+    "jclic.js/def_terra_vivim.wav",
+    "jclic.js/def_tintin.wav",
+    "jclic.js/def_venus.wav",
+    "jclic.js/earth2.jpg",
+    "jclic.js/enlairament_def.jpg",
+    "jclic.js/estel_def.jpg",
+    "jclic.js/estel_def2.jpg",
+    "jclic.js/estel_def2_inv.jpg",
+    "jclic.js/estels.wav",
+    "jclic.js/foc.jpg",
+    "jclic.js/gos.jpg",
+    "jclic.js/joan.jpg",
+    "jclic.js/lluna_def.jpg",
+    "jclic.js/lluna_def2.jpg",
+    "jclic.js/lluna_def2_inv.jpg",
+    "jclic.js/lluna_i_terra.jpg",
+    "jclic.js/nau_def.jpg",
+    "jclic.js/nau_def_inv.jpg",
+    "jclic.js/planetes.jclic",
+    "jclic.js/sis_sol_def.jpg",
+    "jclic.js/sol_def.jpg",
+    "jclic.js/sol_def.wav",
+    "jclic.js/sol_def2.jpg",
+    "jclic.js/sol_def2_inv.jpg",
+    "jclic.js/sorra.jpg",
+    "jclic.js/terra_def.jpg",
+    "jclic.js/terra_def2.jpg",
+    "jclic.js/terra_def2_inv.jpg",
+    "jclic.js/tintin_def.jpg",
+    "jclic.js/velam.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/planetes.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

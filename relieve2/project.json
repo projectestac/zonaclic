@@ -1,0 +1,104 @@
+{
+  "id": 1044,
+  "title": "Relieve español",
+  "author": "Antonio García Fernández",
+  "school": "Colegio Nazaret - Oporto Madrid",
+  "date": "12/06/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia física",
+    "es": "geografía física",
+    "en": "physical geography"
+  },
+  "descCodes": [
+    237
+  ],
+  "description": {
+    "en": "Activities about the main mountains, planes and rivers of Spain.",
+    "ca": "Aquest paquet està pensat per a l'àrea de coneixement del medi del segon cicle d'educació primària. Comença amb unes activitats genèriques sobre vocabulari, conceptes bàsics i orientació, per passar a tractar els principals massissos muntanyosos de la península i acabar amb activitats sobre els tres cursos d'un riu (alt, mitjà i baix).",
+    "es": "Este paquete está pensada para el área de conocimiento del medio del segundo ciclo de educación primaria. Empieza con unas actividades genéricas sobre vocabulario, conceptos básicos y orientación, para pasar a tratar los principales macizos montañosos de la península y acabar con actividades sobre los tres cursos de un río (alto, medio y bajo)."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/relieve2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/relieve2.jclic.zip",
+  "instFile": "jclic/relieve2.jclic.inst",
+  "clicZoneId": 2204,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2204",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/relieve2/jclic/relieve2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 35,
+  "mediaFiles": 25,
+  "totalSize": 1721387,
+  "files": [
+    "cover.jpg",
+    "jclic.js/beticas.jpg",
+    "jclic.js/cantabr.jpg",
+    "jclic.js/central.jpg",
+    "jclic.js/galaico.jpg",
+    "jclic.js/iberic.jpg",
+    "jclic.js/mapa.jpg",
+    "jclic.js/mapa1.gif",
+    "jclic.js/mapa2.gif",
+    "jclic.js/mb.gif",
+    "jclic.js/pa_n.jpg",
+    "jclic.js/piceurop.jpg",
+    "jclic.js/pirineo1.jpg",
+    "jclic.js/pirineo3.jpg",
+    "jclic.js/portada.gif",
+    "jclic.js/relieve2.jclic",
+    "jclic.js/river1.jpg",
+    "jclic.js/river1_1.jpg",
+    "jclic.js/river1_2.jpg",
+    "jclic.js/river2.jpg",
+    "jclic.js/river2_1.jpg",
+    "jclic.js/river2_2.jpg",
+    "jclic.js/river3.jpg",
+    "jclic.js/river3_1.jpg",
+    "jclic.js/river3_2.jpg",
+    "jclic.js/sierramo.jpg",
+    "jclic.js/tierra.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/relieve2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

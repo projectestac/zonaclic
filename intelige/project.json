@@ -1,0 +1,109 @@
+{
+  "id": 1813,
+  "title": "Millorem la intel·ligència",
+  "author": "Antoni Vilalta Carrera",
+  "school": "Escola Emili Vallès Igualada (Anoia)",
+  "date": "26/11/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "Project of activities aimed to improve the intellectual capacity of pupils. The project has 4 sections: \n<ul> \n <li>Verbal intelligence </li>\n <li>Logic intelligence </li>\n <li>Calculation intelligence </li>\n <li>Spatial intelligence </li>\n</ul>",
+    "ca": "Projecte d'activitats per millorar les capacitats intel·lectuals dels nostres alumnes. El projecte està dividit en quatre parts: \n<ul> \n <li>Intel·ligència verbal </li>\n <li>Intel·ligència lògica </li>\n <li>Intel·ligència de càlcul </li>\n <li>Intel·ligència espacial </li>\n</ul>",
+    "es": "Proyecto de actividades para mejorar las capacidades intelectuales de nuestros alumnos. EL proyecto está dividido en cuatro partes: \n<ul> \n <li>Inteligencia verbal </li>\n <li>Inteligencia lógica </li>\n <li>Inteligencia de cálculo </li>\n <li>Inteligencia espacial </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/intelige.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/intelige.jclic.zip",
+  "instFile": "jclic/intelige.jclic.inst",
+  "clicZoneId": 3510,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3510",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/intelige/jclic/intelige.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 30,
+  "totalSize": 1398558,
+  "files": [
+    "cover.jpg",
+    "jclic.js/cjclic.mp3",
+    "jclic.js/intelige.jclic",
+    "jclic.js/pirpar/pirpar.jclic",
+    "jclic.js/pirpar/pirpar1.gif",
+    "jclic.js/pirpar/pirpar1a.gif",
+    "jclic.js/pirpar/pirpar2.gif",
+    "jclic.js/pirpar/pirpar2a.gif",
+    "jclic.js/puzles/ajuntig.jpg",
+    "jclic.js/puzles/bolet01.jpg",
+    "jclic.js/puzles/coet1.jpg",
+    "jclic.js/puzles/globusig.jpg",
+    "jclic.js/puzles/pajunt.jpg",
+    "jclic.js/puzles/peixos02.jpg",
+    "jclic.js/puzles/plajunt.jpg",
+    "jclic.js/puzles/platja.jpg",
+    "jclic.js/puzles/puzles.jclic",
+    "jclic.js/puzles/rosa.jpg",
+    "jclic.js/puzles/stcrist.jpg",
+    "jclic.js/puzles/tren.jpg",
+    "jclic.js/quadmagi/puzquad1.gif",
+    "jclic.js/quadmagi/quad1.gif",
+    "jclic.js/quadmagi/quad1a.gif",
+    "jclic.js/quadmagi/quad2.gif",
+    "jclic.js/quadmagi/quad2a.gif",
+    "jclic.js/quadmagi/quad41.gif",
+    "jclic.js/quadmagi/quad41a.gif",
+    "jclic.js/quadmagi/quadmagi.jclic",
+    "jclic.js/sudkat/sudk1.gif",
+    "jclic.js/sudkat/sudk1a.gif",
+    "jclic.js/sudkat/sudk2.gif",
+    "jclic.js/sudkat/sudk2a.gif",
+    "jclic.js/sudkat/sudk3.gif",
+    "jclic.js/sudkat/sudk3a.gif",
+    "jclic.js/sudkat/sudkcat.jclic",
+    "jclic.js/titol.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/intelige.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/pirpar/pirpar.jclic.js",
+    "jclic.js/puzles/puzles.jclic.js",
+    "jclic.js/quadmagi/quadmagi.jclic.js",
+    "jclic.js/sudkat/sudkcat.jclic.js",
+    "cover.webp"
+  ]
+}

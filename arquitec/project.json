@@ -1,0 +1,146 @@
+{
+  "id": 742,
+  "title": "Taller d'arquitectura",
+  "author": "Josep Baluja Barreiro",
+  "school": "CdA Monestirs del Cister L'Espluga de Francolí (Conca de Barberà)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "arquitectura, història de l'art",
+    "es": "arquitectura, historia del arte",
+    "en": "architecture, history of the art"
+  },
+  "descCodes": [
+    2,
+    252
+  ],
+  "description": {
+    "en": "Activity pack about architecture, divided in three sections: Elements of architecture, History of architecture and the monasteries of Cister.",
+    "ca": "Conjunt format per tres paquets d'activitats sobre \"Els elements de l'arquitectura\", \"Història de l'arquitectura\" i \"Els monestirs del Císter\", adreçats a l'Educació Primària i Secundària Obligatòria.",
+    "es": "Conjunto formado por tres paquetes de actividades sobre \"Los elementos de la arquitectura\", \"Historia de la arquitectura\" y \"Los monasterios del Cister\", dirigidos a educación primaria y secundaria obligatoria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "arquites"
+  ],
+  "mainFile": "jclic.js/arquitec.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/arquitec.jclic.zip",
+  "instFile": "jclic/arquitec.jclic.inst",
+  "clicZoneId": 1401,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1401",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/arquitec/jclic/arquitec.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 34,
+  "mediaFiles": 62,
+  "totalSize": 508045,
+  "files": [
+    "cover.gif",
+    "jclic.js/10e1.gif",
+    "jclic.js/10e2.gif",
+    "jclic.js/10e3.gif",
+    "jclic.js/10e4.gif",
+    "jclic.js/1ar.gif",
+    "jclic.js/1cat1.gif",
+    "jclic.js/1cat2.gif",
+    "jclic.js/1cat3.gif",
+    "jclic.js/1cat4.gif",
+    "jclic.js/1po.gif",
+    "jclic.js/2ar.gif",
+    "jclic.js/2cat1.gif",
+    "jclic.js/2cat2.gif",
+    "jclic.js/2cat3.gif",
+    "jclic.js/2cat4.gif",
+    "jclic.js/2sc.gif",
+    "jclic.js/2tren.gif",
+    "jclic.js/3ar.gif",
+    "jclic.js/3tren.gif",
+    "jclic.js/6sc.gif",
+    "jclic.js/7sc1.gif",
+    "jclic.js/7sc2.gif",
+    "jclic.js/7sc3.gif",
+    "jclic.js/7sc4.gif",
+    "jclic.js/alinia.gif",
+    "jclic.js/anfitea.gif",
+    "jclic.js/apunt.gif",
+    "jclic.js/aqueduc.gif",
+    "jclic.js/arquitec.jclic",
+    "jclic.js/cano.gif",
+    "jclic.js/columna.gif",
+    "jclic.js/conopi.gif",
+    "jclic.js/corintic.gif",
+    "jclic.js/creueria.gif",
+    "jclic.js/cromlech.gif",
+    "jclic.js/desca.gif",
+    "jclic.js/dolmen.gif",
+    "jclic.js/doric.gif",
+    "jclic.js/erom1.gif",
+    "jclic.js/erom2.gif",
+    "jclic.js/erom3.gif",
+    "jclic.js/erom4.gif",
+    "jclic.js/escars.gif",
+    "jclic.js/ferra.gif",
+    "jclic.js/ferrap.gif",
+    "jclic.js/grec1.gif",
+    "jclic.js/jonic.gif",
+    "jclic.js/lobul.gif",
+    "jclic.js/medie.gif",
+    "jclic.js/menhir.gif",
+    "jclic.js/migp.gif",
+    "jclic.js/musul1.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/rampa.gif",
+    "jclic.js/roma.gif",
+    "jclic.js/tcori.gif",
+    "jclic.js/tdoric.gif",
+    "jclic.js/teatre.gif",
+    "jclic.js/tjonic.gif",
+    "jclic.js/trodo.gif",
+    "jclic.js/tudor.gif",
+    "jclic.js/xix.gif",
+    "jclic.js/xx.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/arquitec.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

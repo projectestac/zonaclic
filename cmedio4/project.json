@@ -1,0 +1,110 @@
+{
+  "id": 1216,
+  "title": "Conocimiento del medio 4º",
+  "author": "Francisco García-Pozuelo Díaz i Juana Rello Serrano",
+  "school": "CP Luis Vives Alcalá de Henares (Madrid)",
+  "date": "27/01/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "ecosistema, nutrició",
+    "es": "ecosistema, nutrición",
+    "en": "ecosystem, nutrition"
+  },
+  "descCodes": [
+    66,
+    91
+  ],
+  "description": {
+    "en": "Clic activities about experimental science addressed to primary school. The package has two parts: \n<ul> \n <li>Ecosystems </li>\n <li>Nutrition </li>\n</ul>",
+    "ca": "Paquet d'activitats de coneixement del medi a 4t de primària. El paquet consta de dues parts: \n<ul> \n <li>Ecosistemes </li>\n <li>Nutrició </li>\n</ul>",
+    "es": "Paquete de actividades de conocimiento del medio en 4º de primaria. El paquete consta de dos partes: \n<ul> \n <li>Ecosistemas </li>\n <li>Nutrición </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cmedio4.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cmedio4.jclic.zip",
+  "instFile": "jclic/cmedio4.jclic.inst",
+  "clicZoneId": 2962,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2962",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cmedio4/jclic/cmedio4.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 51,
+  "mediaFiles": 26,
+  "totalSize": 1298835,
+  "files": [
+    "cover.jpg",
+    "jclic.js/alimen4/alimen.gif",
+    "jclic.js/alimen4/alimen2.gif",
+    "jclic.js/alimen4/alimen4.jclic",
+    "jclic.js/alimen4/circul1.gif",
+    "jclic.js/alimen4/coraz01.gif",
+    "jclic.js/alimen4/digest01.gif",
+    "jclic.js/alimen4/digest02.gif",
+    "jclic.js/alimen4/excret01.gif",
+    "jclic.js/alimen4/raton2.gif",
+    "jclic.js/alimen4/respi01.gif",
+    "jclic.js/alimen4/respi02.gif",
+    "jclic.js/cmedio4.jclic",
+    "jclic.js/ecosiste/caba1.gif",
+    "jclic.js/ecosiste/caba2.gif",
+    "jclic.js/ecosiste/caba3.gif",
+    "jclic.js/ecosiste/donana2.gif",
+    "jclic.js/ecosiste/ecosiste.jclic",
+    "jclic.js/ecosiste/gara1.gif",
+    "jclic.js/ecosiste/garajo2.gif",
+    "jclic.js/ecosiste/mapa.gif",
+    "jclic.js/ecosiste/oso.gif",
+    "jclic.js/ecosiste/picos1.gif",
+    "jclic.js/ecosiste/picos4.gif",
+    "jclic.js/ecosiste/raton2.gif",
+    "jclic.js/ecosiste/sabina.gif",
+    "jclic.js/ecosiste/snevada1.gif",
+    "jclic.js/ecosiste/snevada3.gif",
+    "jclic.js/ecosiste/snevada4.gif",
+    "jclic.js/raton1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cmedio4.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/alimen4/alimen4.jclic.js",
+    "jclic.js/ecosiste/ecosiste.jclic.js",
+    "cover.webp"
+  ]
+}

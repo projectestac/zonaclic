@@ -1,0 +1,121 @@
+{
+  "id": 811,
+  "title": "La meva escola: CEIP La Canonja",
+  "author": "Josep M. Rabasó Ferré",
+  "school": "Escola La Canonja Tarragona (La Canonja) (Tarragonès)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "centres educatius",
+    "es": "centros educativos",
+    "en": "educative centers"
+  },
+  "descCodes": [
+    394
+  ],
+  "description": {
+    "en": "Activity about the city and the school of La Canonja (Tarragona).",
+    "ca": "Paquet d'activitats sobre l'escola i el poble de La Canonja (Tarragona) que es presenta temporalment al racó del Clic com a exemple d'una aplicació interactiva en la que es mostra el funcionament d'un centre docent.",
+    "es": "Paquete de actividades sobre la escuela y el pueblo de La Canonja (Tarragona) que se presenta temporalmente en el \"racó del Clic\" como ejemplo de una aplicación interactiva en la que se muestra el funcionamiento de un centro docente."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/lacanonj.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/lacanonj.jclic.zip",
+  "instFile": "jclic/lacanonj.jclic.inst",
+  "clicZoneId": 1449,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1449",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/lacanonj/jclic/lacanonj.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 42,
+  "totalSize": 1534058,
+  "files": [
+    "cover.gif",
+    "jclic.js/acabat.wav",
+    "jclic.js/adiosa.wav",
+    "jclic.js/aixi.wav",
+    "jclic.js/aplaudi.wav",
+    "jclic.js/aprovat.wav",
+    "jclic.js/aula.jpg",
+    "jclic.js/aula1.jpg",
+    "jclic.js/bach.mid",
+    "jclic.js/biblio1.jpg",
+    "jclic.js/boella1.gif",
+    "jclic.js/capestud.wav",
+    "jclic.js/castelle.gif",
+    "jclic.js/cole.gif",
+    "jclic.js/comenca.gif",
+    "jclic.js/director.wav",
+    "jclic.js/endavan.wav",
+    "jclic.js/entrad.jpg",
+    "jclic.js/entrada1.jpg",
+    "jclic.js/escut1.gif",
+    "jclic.js/esperan1.gif",
+    "jclic.js/fantasti.wav",
+    "jclic.js/gegant.jpg",
+    "jclic.js/gimnas1.jpg",
+    "jclic.js/idioma.wav",
+    "jclic.js/jordi.gif",
+    "jclic.js/lacanonj.jclic",
+    "jclic.js/masrica1.gif",
+    "jclic.js/menjado1.jpg",
+    "jclic.js/menjar.gif",
+    "jclic.js/moltbe.wav",
+    "jclic.js/musica1.jpg",
+    "jclic.js/nota.gif",
+    "jclic.js/ordina.jpg",
+    "jclic.js/pajunta1.gif",
+    "jclic.js/pati1.jpg",
+    "jclic.js/plastic1.jpg",
+    "jclic.js/por.gif",
+    "jclic.js/portal1.gif",
+    "jclic.js/sactes.jpg",
+    "jclic.js/sebasti1.gif",
+    "jclic.js/secre1.jpg",
+    "jclic.js/secret.wav",
+    "jclic.js/vestibu.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/lacanonj.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

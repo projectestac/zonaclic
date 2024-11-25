@@ -1,0 +1,91 @@
+{
+  "id": 1521,
+  "title": "Responsables del aula de medios",
+  "author": "Gumaro Herrera Sánchez",
+  "date": "10/01/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "",
+    "ca": "",
+    "es": ""
+  },
+  "levelCodes": [
+    ""
+  ],
+  "descriptors": {
+    "ca": "informàtica educativa",
+    "es": "informática educativa",
+    "en": "educative computer science"
+  },
+  "descCodes": [
+    738
+  ],
+  "description": {
+    "en": "Package of activities made by Gumaro Herrera addressed to teachers which are responsible of the multimedia and computer classroom to learn their functions.",
+    "ca": "Activitats desenvolupades perquè el responsable de l'aula de mitjans (audiovisuals i informàtica) conegui les seves funcions.",
+    "es": "Actividades desarrolladas para que el responsable del aula de medios conozca sus funciones."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/audiovis.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/audiovis.jclic.zip",
+  "instFile": "jclic/audiovis.jclic.inst",
+  "clicZoneId": 3243,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3243",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/audiovis/jclic/audiovis.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 13,
+  "totalSize": 1683886,
+  "files": [
+    "cover.jpg",
+    "jclic.js/audiovis.jclic",
+    "jclic.js/cursos_1.gif",
+    "jclic.js/educciv.gif",
+    "jclic.js/foros__1.gif",
+    "jclic.js/logospo.gif",
+    "jclic.js/marco_05.gif",
+    "jclic.js/medios.gif",
+    "jclic.js/medx.gif",
+    "jclic.js/nuez.gif",
+    "jclic.js/red.gif",
+    "jclic.js/red18.gif",
+    "jclic.js/red2.gif",
+    "jclic.js/red21.gif",
+    "jclic.js/respon.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/audiovis.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

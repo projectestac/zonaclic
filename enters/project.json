@@ -1,0 +1,115 @@
+{
+  "id": 986,
+  "title": "Els nombres enters",
+  "author": "Juanjo Redondo",
+  "school": "C Casp - Sagrat Cor de Jesús Barcelona",
+  "date": "23/12/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "càlcul",
+    "es": "cálculo",
+    "en": "calculation"
+  },
+  "descCodes": [
+    702
+  ],
+  "description": {
+    "en": "Package of activities about the whole numbers for Secondary school.",
+    "ca": "En aquest paquet d'activitats es treballen conceptes i procediments del tema dels Nombre Enters.\n<br> Està adreçat als alumnes de 1r d'ESO encara que també es pot utilitzar a 2n com a reforç.",
+    "es": "En este paquete de actividades se trabajan conceptos y procedimientos del tema de los Números Enteros. \n<br> Está dirigido a los alumnos de 1º de ESO aunque también se puede utilizar en 2º como refuerzo."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "osoak"
+  ],
+  "mainFile": "jclic.js/enters.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/enters.jclic.zip",
+  "instFile": "jclic/enters.jclic.inst",
+  "clicZoneId": 2070,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2070",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/enters/jclic/enters.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 36,
+  "mediaFiles": 33,
+  "totalSize": 1152835,
+  "files": [
+    "cover.gif",
+    "jclic.js/1277.gif",
+    "jclic.js/arial.gif",
+    "jclic.js/baby2.mid",
+    "jclic.js/bluelake.gif",
+    "jclic.js/burst1.gif",
+    "jclic.js/casp_3.gif",
+    "jclic.js/cosmic.gif",
+    "jclic.js/enters.jclic",
+    "jclic.js/estera.gif",
+    "jclic.js/fenome.wav",
+    "jclic.js/genial.gif",
+    "jclic.js/huella1.gif",
+    "jclic.js/kiss02.wav",
+    "jclic.js/laferia.mid",
+    "jclic.js/laughf03.wav",
+    "jclic.js/listo.wav",
+    "jclic.js/madera.jpg",
+    "jclic.js/madera1.jpg",
+    "jclic.js/madera2.jpg",
+    "jclic.js/madera3.jpg",
+    "jclic.js/madera4.jpg",
+    "jclic.js/madera5.jpg",
+    "jclic.js/mbien.wav",
+    "jclic.js/minerals.gif",
+    "jclic.js/moltbe.wav",
+    "jclic.js/nat031.jpg",
+    "jclic.js/nuvols.jpg",
+    "jclic.js/ondas.gif",
+    "jclic.js/paper.gif",
+    "jclic.js/satellit.gif",
+    "jclic.js/septimin.mid",
+    "jclic.js/sky1.jpg",
+    "jclic.js/solynube.gif",
+    "jclic.js/wars.mid",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/enters.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

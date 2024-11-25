@@ -1,0 +1,84 @@
+{
+  "id": 424,
+  "title": "Relaciones semánticas",
+  "author": "Montse Estévez",
+  "school": "Institut Vallvera Salt (Gironès)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, semàntica",
+    "es": "lengua castellana, semántica",
+    "en": "Spanish language, semantics"
+  },
+  "descCodes": [
+    132,
+    147
+  ],
+  "description": {
+    "en": "Clic activities for Secondary School about semantic relations in Spanish.",
+    "ca": "Paquet d'activitats Clic per a ESO. Les activitats tenen com a objectiu familiaritzar els alumnes amb les Relacions semàntiques en llengua castellana. El paquet s'organitza en cinc blocs:\n<br> \n<ul> \n <li>Monosèmia </li>\n <li>Sinonímia </li>\n <li>Homonímia </li>\n <li>Polisèmia </li>\n <li>Antonímia </li>\n</ul>",
+    "es": "Paquete de actividades Clic para ESO. Las actividades tienen como objetivo familiarizar a los alumnos con las Relaciones Semánticas en Lengua Castellana. El paquete se organiza en cinco bloques:\n<br> \n<ul> \n <li>Monosemia </li>\n <li>Sinonimia </li>\n <li>Homonimia </li>\n <li>Polisemia </li>\n <li>Antonimia </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/semantic.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/semantic.jclic.zip",
+  "instFile": "jclic/semantic.jclic.inst",
+  "clicZoneId": 1249,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1249",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/semantic/jclic/semantic.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 4,
+  "totalSize": 387187,
+  "files": [
+    "cover.gif",
+    "jclic.js/bienorden.wav",
+    "jclic.js/muybien.wav",
+    "jclic.js/nuevo3.gif",
+    "jclic.js/perfecto.wav",
+    "jclic.js/semantic.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/semantic.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": 1591,
+  "title": "Grecia y Roma",
+  "author": "María Antonia Carmona i Rafael Sánchez Pérez",
+  "school": "IES Guadalmedina Málaga (Andalucía)",
+  "date": "06/06/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "història de grècia, història de roma",
+    "es": "historia de Grecia, historia de roma",
+    "en": "history of Greece, history of blunt"
+  },
+  "descCodes": [
+    249,
+    253
+  ],
+  "description": {
+    "en": "Set of activities about classic culture: architecture, Gods, philosophers, writers, emperors, wars...",
+    "ca": "Conjunt d'activitats per profunditzar en el coneixement de la cultura clàssica: arquitectura, deus i deesses grecoromans, filòsofs, escriptors, emperadors, guerres...",
+    "es": "Conjunto de actividades para profundizar en el conocimiento de la cultura clásica: arquitectura, dioses y diosas grecorromanos, filósofos, escritores, emperadores, guerras..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/grecroma.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/grecroma.jclic.zip",
+  "instFile": "jclic/grecroma.jclic.inst",
+  "clicZoneId": 3307,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3307",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/grecroma/jclic/grecroma.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 26,
+  "totalSize": 1129861,
+  "files": [
+    "cover.jpg",
+    "jclic.js/adriano.jpg",
+    "jclic.js/apolo.jpg",
+    "jclic.js/artemisa.jpg",
+    "jclic.js/atenea.jpg",
+    "jclic.js/baco.jpg",
+    "jclic.js/caligu4.jpg",
+    "jclic.js/coliseo.jpg",
+    "jclic.js/constantino.jpg",
+    "jclic.js/estatuaugusto.jpg",
+    "jclic.js/grecia.jpg",
+    "jclic.js/greciaenlaantiguedad.jpg",
+    "jclic.js/grecroma.jclic",
+    "jclic.js/hades.jpg",
+    "jclic.js/hermes.gif",
+    "jclic.js/julio_cesar.jpg",
+    "jclic.js/jupiter.jpg",
+    "jclic.js/marcaurelio.jpg",
+    "jclic.js/marte.jpg",
+    "jclic.js/neron.jpg",
+    "jclic.js/partenon.jpg",
+    "jclic.js/poseidon.jpg",
+    "jclic.js/roma.jpg",
+    "jclic.js/tesis80.jpg",
+    "jclic.js/tiberio.jpg",
+    "jclic.js/trajano.jpg",
+    "jclic.js/venus.jpg",
+    "jclic.js/vestimenta.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/grecroma.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

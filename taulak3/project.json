@@ -1,0 +1,100 @@
+{
+  "id": 594,
+  "title": "Repassem les taules de multiplicar",
+  "author": "Sebastià Capella Priu",
+  "school": "C Estel Barcelona",
+  "date": "26/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aritmètica, càlcul, fonaments de les matemàtiques",
+    "es": "aritmética, cálculo, fundamentos de las matemáticas",
+    "en": "Arithmetic, calculation, foundations of the mathematics"
+  },
+  "descCodes": [
+    701,
+    702,
+    707
+  ],
+  "description": {
+    "en": "Multiplication tables activities. For elementary school students.",
+    "ca": "Paquet d'activitats adreçades a alumnes de 2on, 3er i 4t de primària on es treballen les taules de multiplicar amb exercicis de relació i resposta escrita.",
+    "es": "Paquete de actividades dirigido a alumnos de 2º, 3º y 4º de primaria en el que se trabajan las tablas de multiplicar con ejercicios de relación y respuesta escrita."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "tablas2",
+    "taules2"
+  ],
+  "mainFile": "jclic.js/taulak3.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/taulak3.jclic.zip",
+  "instFile": "jclic/taulak3.jclic.inst",
+  "clicZoneId": 1326,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1326",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/taulak3/jclic/taulak3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 64,
+  "mediaFiles": 15,
+  "totalSize": 799198,
+  "files": [
+    "cover.gif",
+    "jclic.js/formiga.gif",
+    "jclic.js/imagen1.gif",
+    "jclic.js/imagen10.gif",
+    "jclic.js/imagen11.gif",
+    "jclic.js/imagen12.gif",
+    "jclic.js/imagen13.gif",
+    "jclic.js/imagen14.gif",
+    "jclic.js/imagen2.gif",
+    "jclic.js/imagen3.gif",
+    "jclic.js/imagen4.gif",
+    "jclic.js/imagen5.gif",
+    "jclic.js/imagen6.gif",
+    "jclic.js/imagen7.gif",
+    "jclic.js/imagen8.gif",
+    "jclic.js/imagen9.gif",
+    "jclic.js/taulak3.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/taulak3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

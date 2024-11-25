@@ -1,0 +1,142 @@
+{
+  "id": 325,
+  "title": "Activitats de llengua catalana",
+  "author": "Albert Pons Torres",
+  "school": "Institut Josep Brugulat Banyoles (Pla de l'Estany)",
+  "date": "16/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua catalana",
+    "es": "gramática, lengua catalana",
+    "en": "grammar, Catalan language"
+  },
+  "descCodes": [
+    123,
+    133
+  ],
+  "description": {
+    "en": "Catalan language activities that work on orthography and morphology.",
+    "ca": "Paquets d'activitats d'exercitació de llengua catalana organitzats en dos blocs:\n<p> <b>Ortografia</b><br> Vocalisme, accentuació, diacrític, dièresi, B/V, H, P/T/C, B/D/G, L/LL/L·L, esses, palatals i M/N.</p>\n<p> <b>Morfologia</b><br> Article, apòstrof, gènere, numerals, nombre, morfologia verbal, pronoms febles, relatius, barbarismes, lèxic i calaix de sastre.</p>\n<p> L'aplicació es complementa amb un paquet de sopes de lletres i un altre de mots encreuats. </p>",
+    "es": "Paquetes de actividades de ejercitación de lengua catalana organizados en dos bloques:\n<p> <b>Ortografía</b><br> Vocalismo, acentuación, diacríticn, diéresis, B/V, H, P/T/C, B/D/G, L/LL/L·L, eses, palatales y M/N.</p>\n<p> <b>Morfología</b><br> Article, apóstrofe, género, numerales, número, morfología verbal, pronombres debiles, relativos, barbarismos, léxico y cajón de sastre.</p>\n<p> La aplicación se complementa con un paquete de sopas de letras y otro de crucigramas. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/llengua.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/llengua.jclic.zip",
+  "instFile": "jclic/llengua.jclic.inst",
+  "clicZoneId": 1178,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1178",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/llengua/jclic/llengua.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 550,
+  "mediaFiles": 55,
+  "totalSize": 7124933,
+  "files": [
+    "cover.gif",
+    "jclic.js/accent1.gif",
+    "jclic.js/encre2.gif",
+    "jclic.js/exmorfo/_.._accent1.gif",
+    "jclic.js/exmorfo/_.._encre2.gif",
+    "jclic.js/exmorfo/_.._inform.gif",
+    "jclic.js/exmorfo/_.._rapidos.gif",
+    "jclic.js/exmorfo/_.._sopes2.gif",
+    "jclic.js/exmorfo/bravo.wav",
+    "jclic.js/exmorfo/crac.wav",
+    "jclic.js/exmorfo/creuats.jclic",
+    "jclic.js/exmorfo/exmorfo.jclic",
+    "jclic.js/exmorfo/mapa.gif",
+    "jclic.js/exmorfo/sopes.jclic",
+    "jclic.js/inform.gif",
+    "jclic.js/llengua.jclic",
+    "jclic.js/ortograf/adeu.wav",
+    "jclic.js/ortograf/aixo.wav",
+    "jclic.js/ortograf/aixo01.wav",
+    "jclic.js/ortograf/allo.wav",
+    "jclic.js/ortograf/arros.wav",
+    "jclic.js/ortograf/bestia.wav",
+    "jclic.js/ortograf/bravo.wav",
+    "jclic.js/ortograf/cafe.wav",
+    "jclic.js/ortograf/camell.wav",
+    "jclic.js/ortograf/camello.gif",
+    "jclic.js/ortograf/can_o.wav",
+    "jclic.js/ortograf/comic.wav",
+    "jclic.js/ortograf/congres.wav",
+    "jclic.js/ortograf/copia.wav",
+    "jclic.js/ortograf/correcte.wav",
+    "jclic.js/ortograf/cracs.wav",
+    "jclic.js/ortograf/ences.wav",
+    "jclic.js/ortograf/endavant.wav",
+    "jclic.js/ortograf/espes.wav",
+    "jclic.js/ortograf/fantasti.wav",
+    "jclic.js/ortograf/gairebe.wav",
+    "jclic.js/ortograf/gloria.wav",
+    "jclic.js/ortograf/hipopota.wav",
+    "jclic.js/ortograf/interes.wav",
+    "jclic.js/ortograf/millor.wav",
+    "jclic.js/ortograf/moltbe.wav",
+    "jclic.js/ortograf/nuvols.wav",
+    "jclic.js/ortograf/ombra.wav",
+    "jclic.js/ortograf/ortograf.jclic",
+    "jclic.js/ortograf/perfecte.wav",
+    "jclic.js/ortograf/pir_mide.wav",
+    "jclic.js/ortograf/polvora.wav",
+    "jclic.js/ortograf/pressec.wav",
+    "jclic.js/ortograf/prestec.wav",
+    "jclic.js/ortograf/renoi.wav",
+    "jclic.js/ortograf/serie.wav",
+    "jclic.js/ortograf/sise.wav",
+    "jclic.js/ortograf/sorollos.wav",
+    "jclic.js/ortograf/sorra.wav",
+    "jclic.js/ortograf/tauro.wav",
+    "jclic.js/ortograf/verinos.wav",
+    "jclic.js/ortograf/vinga.wav",
+    "jclic.js/rapidos.gif",
+    "jclic.js/sopes2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/llengua.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/exmorfo/creuats.jclic.js",
+    "jclic.js/exmorfo/exmorfo.jclic.js",
+    "jclic.js/exmorfo/sopes.jclic.js",
+    "jclic.js/ortograf/ortograf.jclic.js",
+    "cover.webp"
+  ]
+}

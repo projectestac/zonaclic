@@ -1,0 +1,111 @@
+{
+  "id": 2154,
+  "title": "La música medieval",
+  "author": "Montserrat Sànchez i Sunyer",
+  "school": "C La Salle Figueres (Alt Empordà)",
+  "date": "26/05/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la música",
+    "es": "aprendizaje de la música",
+    "en": "learning of music"
+  },
+  "descCodes": [
+    717
+  ],
+  "description": {
+    "en": "Project activities addressed to secondary education about medieval music: \n<ul> \n <li>religious music </li>\n <li>secular music or troubadour </li>\n <li>instruments </li>\n</ul>",
+    "ca": "Projecte d'activitats adreçat a educació secundària sobre la música medieval: \n<ul> \n <li>música religiosa </li>\n <li>música profana o trobadoresca </li>\n <li>els principals instruments de l'època </li>\n</ul>",
+    "es": "Proyecto de actividades para educación secundaria sobre la música medieval: \n<ul> \n <li>música religiosa </li>\n <li>música profana o trovadoresca </li>\n <li>los principales instrumentos de la época </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/edatmi.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/edatmi.jclic.zip",
+  "instFile": "jclic/edatmi.jclic.inst",
+  "clicZoneId": 3692,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3692",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/edatmi/jclic/edatmi.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 32,
+  "totalSize": 2101727,
+  "files": [
+    "cover.jpg",
+    "jclic.js/alfons_x_el_savi.jpg",
+    "jclic.js/arpa1.jpg",
+    "jclic.js/cantigues_de_santa_maria.jpg",
+    "jclic.js/cornamusa_o_gaita_medieval.jpg",
+    "jclic.js/corneta.jpg",
+    "jclic.js/edatmi.jclic",
+    "jclic.js/el_canto_gregoriano.mp3",
+    "jclic.js/flabiol_i_tambori.jpg",
+    "jclic.js/flauta_travessera2.jpg",
+    "jclic.js/flautes_dolces1.jpg",
+    "jclic.js/gregori_i_el_magne_resized.jpg",
+    "jclic.js/guido_d_arezzo.jpg",
+    "jclic.js/llaut1.jpg",
+    "jclic.js/llaut2.jpg",
+    "jclic.js/llibre_partitures.jpg",
+    "jclic.js/monjos_cantant.jpg",
+    "jclic.js/naqqares.png",
+    "jclic.js/neumes.jpg",
+    "jclic.js/notacio_quadrada.jpg",
+    "jclic.js/partitura_2.jpg",
+    "jclic.js/portative1.jpg",
+    "jclic.js/rabell1.jpg",
+    "jclic.js/rabell2.jpg",
+    "jclic.js/rabell3.jpg",
+    "jclic.js/saltiri1.jpg",
+    "jclic.js/saltiri2.jpg",
+    "jclic.js/tambor_de_cordes1.jpg",
+    "jclic.js/trompeta1.jpg",
+    "jclic.js/untitled.jpg",
+    "jclic.js/viella_de_roda1.jpg",
+    "jclic.js/viella_de_roda2.jpg",
+    "jclic.js/vihuela_de_ma1.jpg",
+    "jclic.js/xeremia1.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/edatmi.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

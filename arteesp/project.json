@@ -1,0 +1,114 @@
+{
+  "id": 843,
+  "title": "Arte español",
+  "author": "Javier Redrado Marín",
+  "school": "Colegio Sagrado Corazón de Jesús Zaragoza (Aragón)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "art gòtic, art prehistòric, art romànic",
+    "es": "arte gótico, arte prehistórico, arte románico",
+    "en": "gothic art, Prehistoric Art, Romanesque Art"
+  },
+  "descCodes": [
+    12,
+    24,
+    30
+  ],
+  "description": {
+    "en": "Clic activities about spanish art from Prehistory to Middle age. Some of the monuments included are: \n<ul> \n <li>Cuevas de Altamira </li>\n <li>Dama de Elche </li>\n <li>Alhambra </li>\n <li>Catedral de Burgos </li>\n <li>Mezquita de Córdoba </li>\n <li>Sant Climent de Taüll </li>\n</ul>",
+    "ca": "Aquest paquet d'activitats és un breu recorregut per algunes de les obres d'art bàsiques de l'art espanyol de tots els temps, des de la prehistòria fins l'Edat Mitjana. Algunes de les obres que es treballen són: \n<ul> \n <li>Coves d'Altamira </li>\n <li>Dama d'Elx </li>\n <li>Alhambra </li>\n <li>Catedral de Burgos </li>\n <li>Mesquita de Còrdova </li>\n <li>Sant Climent de Taüll </li>\n</ul> \n<br> El paquet d'activitats està destinat a alumnes de Cicle Mitjà d'Educació Primària.",
+    "es": "Este paquete de actividades es un breve recorrido por algunas de las obras básicas del arte español de todos los tiempos, desde la prehistoria hasta la hasta la Edad Media. Algunas de las obras que se trabajan son: \n<ul> \n <li>Cuevas de Altamira </li>\n <li>Dama de Elche </li>\n <li>Alhambra </li>\n <li>Catedral de Burgos </li>\n <li>Mezquita de Córdoba </li>\n <li>Sant Climent de Taüll </li>\n</ul> \n<br> El paquete de actividades está destinado a alumnos de Ciclo Medio de Educación Primaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/arteesp.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/arteesp.jclic.zip",
+  "instFile": "jclic/arteesp.jclic.inst",
+  "clicZoneId": 1474,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1474",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/arteesp/jclic/arteesp.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 59,
+  "mediaFiles": 32,
+  "totalSize": 1345617,
+  "files": [
+    "cover.gif",
+    "jclic.js/acueduc.jpg",
+    "jclic.js/acueduc1.jpg",
+    "jclic.js/acueduc2.jpg",
+    "jclic.js/acueducb.jpg",
+    "jclic.js/acueducc.jpg",
+    "jclic.js/alhambra.jpg",
+    "jclic.js/altamira.jpg",
+    "jclic.js/arteesp.jclic",
+    "jclic.js/bara.jpg",
+    "jclic.js/bisonte.jpg",
+    "jclic.js/bu_cate.jpg",
+    "jclic.js/burgos.jpg",
+    "jclic.js/dama2.jpg",
+    "jclic.js/dibujo1.jpg",
+    "jclic.js/dibujo2.jpg",
+    "jclic.js/fromis.jpg",
+    "jclic.js/loarre.jpg",
+    "jclic.js/media.jpg",
+    "jclic.js/mediab.jpg",
+    "jclic.js/mediac.jpg",
+    "jclic.js/mediad.jpg",
+    "jclic.js/merida.jpg",
+    "jclic.js/mezqcord.jpg",
+    "jclic.js/pantoc.jpg",
+    "jclic.js/portada.gif",
+    "jclic.js/roseton.jpg",
+    "jclic.js/salvador.jpg",
+    "jclic.js/santia.jpg",
+    "jclic.js/siloscls.jpg",
+    "jclic.js/sjuanp2.jpg",
+    "jclic.js/stamaria.jpg",
+    "jclic.js/taullp.jpg",
+    "jclic.js/toledo.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/arteesp.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

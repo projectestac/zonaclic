@@ -1,0 +1,109 @@
+{
+  "id": 2444,
+  "title": "Sepulcres megalítics",
+  "author": "M. Rosa Vilaró Morato i Pere Vargas Moré",
+  "school": "Centre de Recerca i estudis balenyencs Balenyà, Escola Joan XXIII Balenyà (Els Hostalets de Balenyà) (Osona)",
+  "date": "09/06/16",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "prehistòria",
+    "es": "prehistoria",
+    "en": "prehistory"
+  },
+  "descCodes": [
+    314
+  ],
+  "description": {
+    "en": "Activities related to the megalithic tombs in Balenyà (Catalonia).",
+    "ca": "Conjunt d'activitats relacionades amb els sepulcres megalítics de Balenyà.",
+    "es": "Conjunto de actividades relacionadas con los sepulcros megalíticos de Balenyà."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sepul_me.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sepul_me.jclic.zip",
+  "instFile": "jclic/sepul_me.jclic.inst",
+  "clicZoneId": 3952,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3952",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sepul_me/jclic/sepul_me.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 30,
+  "mediaFiles": 30,
+  "totalSize": 1362164,
+  "files": [
+    "cover.png",
+    "jclic.js/ah1l07cromlech2.jpg",
+    "jclic.js/aixovar.jpg",
+    "jclic.js/can_mirambell_p.20___1_resized.jpg",
+    "jclic.js/cista3.jpg",
+    "jclic.js/cista_rectangular_amb_tc3bamul.gif",
+    "jclic.js/const1.png",
+    "jclic.js/const2.png",
+    "jclic.js/const3.png",
+    "jclic.js/const4.png",
+    "jclic.js/cromlech.jpg",
+    "jclic.js/deesamare.jpg",
+    "jclic.js/dol2.jpg",
+    "jclic.js/dol3.jpg",
+    "jclic.js/dol4_resized.jpg",
+    "jclic.js/dol7.jpg",
+    "jclic.js/dolmen2.jpg",
+    "jclic.js/dolmencorredor2.jpg",
+    "jclic.js/dolmens.jpg",
+    "jclic.js/dolmensimple2.jpg",
+    "jclic.js/enterrament.jpg",
+    "jclic.js/galeria_catalana.gif",
+    "jclic.js/galeriacatalana.jpg",
+    "jclic.js/la_griutera_p.18___1_resized.jpg",
+    "jclic.js/men1.jpg",
+    "jclic.js/men2_resized.jpg",
+    "jclic.js/men3.jpg",
+    "jclic.js/men4.jpg",
+    "jclic.js/menhir.jpg",
+    "jclic.js/portada1.jpg",
+    "jclic.js/sepul_me.jclic",
+    "jclic.js/sepul_me.jclic.js",
+    "jclic.js/sepulcre_de_corredor_amb_cambra_subcircular.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

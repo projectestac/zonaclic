@@ -1,0 +1,117 @@
+{
+  "id": 2100,
+  "title": "Pirates",
+  "author": "Natàlia Berbel Martínez",
+  "school": "Escola Enric Tatché i Pol Ripollet (Vallès Occidental)",
+  "date": "21/01/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "lectoescriptura",
+    "es": "lectoescritura",
+    "en": "reading and writting skills"
+  },
+  "descCodes": [
+    920
+  ],
+  "description": {
+    "en": "Set of activities designed to learn the vocabulary related with the pirates in order to carry out a project with students from kindergarden on this topic.",
+    "ca": "Conjunt d'activitats pensades per treballar el vocabulari relacionat amb \"els pirates\" a propòsit de la realització d'un projecte amb els alumnes de P5 sobre aquest tema.",
+    "es": "Conjunto de actividades pensadas para trabajar el vocabulario relacionado con \"los piratas\" a propósito de la realización de un proyecto con los alumnos de P5 sobre este tema."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/pirates2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.jpg",
+  "zipFile": "jclic/pirates2.jclic.zip",
+  "instFile": "jclic/pirates2.jclic.inst",
+  "clicZoneId": 3659,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3659",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pirates2/jclic/pirates2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 38,
+  "totalSize": 1974030,
+  "files": [
+    "cover.jpg",
+    "jclic.js/0pirata1_1_.png",
+    "jclic.js/aparella_luca.mp3",
+    "jclic.js/aparella_nena.mp3",
+    "jclic.js/bandera_pirata_1_.jpg",
+    "jclic.js/barret.jpg",
+    "jclic.js/brujula_1_.jpg",
+    "jclic.js/calavera_1_.gif",
+    "jclic.js/calico_1_.jpg",
+    "jclic.js/canon_de_tsares_t5020_1_.jpg",
+    "jclic.js/cocodrilo.jpg",
+    "jclic.js/cofre_pirata_1_.jpg",
+    "jclic.js/correceecte.mp3",
+    "jclic.js/dibuix_pirata.jpg",
+    "jclic.js/espada_pirata_63_cm_cm035li_1_1_.jpg",
+    "jclic.js/fantastic.mp3",
+    "jclic.js/garfiopirata_1_.jpg",
+    "jclic.js/geniaaal.mp3",
+    "jclic.js/illa.jpg",
+    "jclic.js/isla_saona_1_.jpg",
+    "jclic.js/lloro_gif.gif",
+    "jclic.js/loro_1__resized.jpg",
+    "jclic.js/mapa.jpg",
+    "jclic.js/pegat.jpg",
+    "jclic.js/pipa_1_.jpg",
+    "jclic.js/pirata1_1_.png",
+    "jclic.js/pirata2_1_.jpg",
+    "jclic.js/piratas_barco_1_.jpg",
+    "jclic.js/pirates2.jclic",
+    "jclic.js/que_beee.mp3",
+    "jclic.js/rata_1_.jpg",
+    "jclic.js/relaciona_nena.mp3",
+    "jclic.js/rem.jpg",
+    "jclic.js/sopa_de_lletres.mp3",
+    "jclic.js/tesoro1_1_.jpg",
+    "jclic.js/tesoro2_1_.jpg",
+    "jclic.js/tiburon_1_.jpg",
+    "jclic.js/timon_01_g_1_.jpg",
+    "jclic.js/trob_les_parelles.mp3",
+    "jclic.js/vaixell_resized.jpg",
+    "project.json",
+    "thumb.jpg",
+    "jclic.js/index.html",
+    "jclic.js/pirates2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

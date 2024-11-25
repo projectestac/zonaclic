@@ -1,0 +1,102 @@
+{
+  "id": 1762,
+  "title": "Refranes y modismos",
+  "author": "José Antonio Ávila Romero",
+  "date": "30/04/08",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "comprensió escrita, llengua castellana",
+    "es": "comprensión escrita, lengua castellana",
+    "en": "written understanding, Spanish language"
+  },
+  "descCodes": [
+    111,
+    132
+  ],
+  "description": {
+    "en": "Project that deals with the Spanish subject addressed to the first level of secondary school and pupils learning Spanish as a second language. The project goal is to progressively introduce the proverb analysis and Spanish set phrases as well as their presence in the literature taking as starting point the top work of Cervantes.",
+    "ca": "Projecte adreçat tant a l'àrea de llengua de primer d'ESO com a alumnes que estudien castellà com a segona llengua. L'objectiu que vol assolir és realitzar una incursió gradual en l'anàlisi dels refranys i les expressions del castellà, així com la seva presència en l'àmbit literari, partint de l'obra de Cervantes.",
+    "es": "Proyecto dirigido tanto al área de lengua de primero de ESO como a alumnos que estudien español como segunda lengua. El objetivo que persigue es realizar una gradual incursión en el análisis de los refranes y las expresiones del castellano, así como su presencia en el ámbito literario, partiendo de la obra cumbre de Cervantes."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/refran2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/refran2.jclic.zip",
+  "instFile": "jclic/refran2.jclic.inst",
+  "clicZoneId": 3460,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3460",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/refran2/jclic/refran2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 23,
+  "totalSize": 1828452,
+  "files": [
+    "cover.jpg",
+    "jclic.js/a_hurtadillas.gif",
+    "jclic.js/al_contado.jpg",
+    "jclic.js/albeniz_suite_iberia_triana.mp3",
+    "jclic.js/alhambra.jpg",
+    "jclic.js/aplaudiendo_corto.mp3",
+    "jclic.js/apretar_los_codos.jpg",
+    "jclic.js/bailaora.jpg",
+    "jclic.js/caribe.mp3",
+    "jclic.js/chillout.mp3",
+    "jclic.js/cortar_el_bacalao.jpg",
+    "jclic.js/dar_calabazas.jpg",
+    "jclic.js/flamenco_piano_y_palmas.mp3",
+    "jclic.js/gallinas.gif",
+    "jclic.js/gallinas.jpg",
+    "jclic.js/golpe_tenis.jpg",
+    "jclic.js/manteosancho.jpg",
+    "jclic.js/newage.mp3",
+    "jclic.js/novilleros.jpg",
+    "jclic.js/nubes.jpg",
+    "jclic.js/pagar_el_pato.gif",
+    "jclic.js/pagar_el_pato.jpg",
+    "jclic.js/piano.mp3",
+    "jclic.js/refran2.jclic",
+    "jclic.js/sentar_la_cabeza.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/refran2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": 271,
+  "title": "Frases hechas, dichos y modismos (I)",
+  "author": "José A. Ferrández Mora i José M. Mancebo Ibáñez",
+  "date": "15/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, llengua oral",
+    "es": "lengua castellana, lengua oral",
+    "en": "Spanish language, oral language"
+  },
+  "descCodes": [
+    132,
+    142
+  ],
+  "description": {
+    "en": "Activity pack about Spanish in which commonly used phrases and sayings are explained.",
+    "ca": "Paquet d'activitats on es treballen diferents frases fetes, dites i modismes de la llengua castellana, per a ser utilitzat a partir del 2on cicle de primària.",
+    "es": "Paquete de actividades donde se trabajan distintas frases hechas, dichos y modismos de la lengua castellana, para ser utilizado a partir del 2º ciclo de primaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/dichos1.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/dichos1.jclic.zip",
+  "instFile": "jclic/dichos1.jclic.inst",
+  "clicZoneId": 1144,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1144",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/dichos1/jclic/dichos1.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 3,
+  "totalSize": 337184,
+  "files": [
+    "cover.jpg",
+    "jclic.js/autores.gif",
+    "jclic.js/dichos1.jclic",
+    "jclic.js/minuet.mid",
+    "jclic.js/portada.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/dichos1.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

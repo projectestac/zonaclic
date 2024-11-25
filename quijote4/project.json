@@ -1,0 +1,126 @@
+{
+  "id": 1513,
+  "title": "Cervantes y El Quijote",
+  "school": "CEIP Juan Carlos I Torredelcampo (Jaén) (Andalucía)",
+  "date": "20/12/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "Quixot",
+    "es": "Quijote",
+    "en": "Quijote"
+  },
+  "descCodes": [
+    1320
+  ],
+  "description": {
+    "en": "Package of activities about Cervantes and two chapters of \n<i>The Quixote</i>: \n<ul> \n <li>Chapter I, which treats of the character and pursuits of the famous gentleman don Quixote of la Mancha. </li>\n <li>Chapter VIII, of the good fortune which the valiant don Quixote had in the terrible and undreamt-of adventure of the windmills, with other occurrences worthy to be fitly recorded. \n  <ul> \n  </ul></li>\n</ul>",
+    "ca": "Amb aquest paquet d'activitats es vol donar un lleuger recorregut a la vida i l'obra de Cervantes així com una lectura parcial de dos dels capítols de \n<i>El Quijote</i>: \n<ul> \n <li>Capítulo I, sobre la condición y ejercicio del famoso hidalgo D. Quijote de la Mancha. </li>\n <li>Capítulo VIII, en torno a la aventura de los molinos de viento. \n  <ul> \n  </ul></li>\n</ul>",
+    "es": "Con este paquete de actividades se quiere dar un ligero recorrido a la vida y obra de Cervantes, así como una lectura parcial de dos de los capítulos de \n<i>Els Quijote</i>: \n<ul> \n <li>Capítulo I, sobre la condición y ejercicio del famoso hidalgo D. Quijote de la Mancha. </li>\n <li>Capítulo VIII, en torno a la aventura de los molinos de viento. \n  <ul> \n  </ul></li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/quijote4.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/quijote4.jclic.zip",
+  "instFile": "jclic/quijote4.jclic.inst",
+  "clicZoneId": 3227,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3227",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/quijote4/jclic/quijote4.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 40,
+  "mediaFiles": 42,
+  "totalSize": 1273338,
+  "files": [
+    "cover.jpg",
+    "jclic.js/bach.mid",
+    "jclic.js/capitul1/armas.gif",
+    "jclic.js/capitul1/capitul1.jclic",
+    "jclic.js/capitul1/loco1.gif",
+    "jclic.js/capitul1/loco2.gif",
+    "jclic.js/capitul1/loco3.gif",
+    "jclic.js/capitul1/memo1.gif",
+    "jclic.js/capitul1/memo2.gif",
+    "jclic.js/capitul1/memo4.gif",
+    "jclic.js/capitul1/quijote1.gif",
+    "jclic.js/capitul1/quijote8.gif",
+    "jclic.js/capitul8/capitul8.jclic",
+    "jclic.js/capitul8/memo3.gif",
+    "jclic.js/capitul8/quijot15.gif",
+    "jclic.js/capitul8/quijot16.gif",
+    "jclic.js/capitul8/quijot17.gif",
+    "jclic.js/capitul8/quijot18.gif",
+    "jclic.js/capitul8/quijote8.gif",
+    "jclic.js/capitul8/qyrocin.gif",
+    "jclic.js/cervante/alberti.gif",
+    "jclic.js/cervante/cervant1.gif",
+    "jclic.js/cervante/cervant2.gif",
+    "jclic.js/cervante/cervant5.gif",
+    "jclic.js/cervante/cervant6.gif",
+    "jclic.js/cervante/cervant7.gif",
+    "jclic.js/cervante/cervante.gif",
+    "jclic.js/cervante/cervante.jclic",
+    "jclic.js/cervante/dali.gif",
+    "jclic.js/cervante/gongora.gif",
+    "jclic.js/cervante/hernande.gif",
+    "jclic.js/cervante/lorca.gif",
+    "jclic.js/cervante/memo1.gif",
+    "jclic.js/cervante/memo2.gif",
+    "jclic.js/cervante/memo3.gif",
+    "jclic.js/cervante/memo4.gif",
+    "jclic.js/cervante/nombre.gif",
+    "jclic.js/cervante/picasso.gif",
+    "jclic.js/cervante/quevedo.gif",
+    "jclic.js/cervante/qui_dali.gif",
+    "jclic.js/cervante/quijot19.gif",
+    "jclic.js/cervante/quijote4.gif",
+    "jclic.js/cervante/quijote7.gif",
+    "jclic.js/cervante/quijote8.gif",
+    "jclic.js/cervante/sello.gif",
+    "jclic.js/escudo.gif",
+    "jclic.js/quijote4.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/quijote4.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/capitul1/capitul1.jclic.js",
+    "jclic.js/capitul8/capitul8.jclic.js",
+    "jclic.js/cervante/cervante.jclic.js",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": 1218,
+  "title": "Alcalá de Henares",
+  "author": "Juana Rello Serrano",
+  "school": "CP Luis Vives Alcalá de Henares (Madrid)",
+  "date": "28/01/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "ciutat, Alcalá de Henares",
+    "es": "ciudad, Alcalá de Henares",
+    "en": "city, Alcalá de Henares"
+  },
+  "descCodes": [
+    176,
+    1260
+  ],
+  "description": {
+    "en": "This package contains 21 activities about monuments of Alcalá de Henares, a town located close to Madrid. The package purpose is to take a walk around the monuments of Alcalá de Henares guided by town celebrities.",
+    "ca": "Un paquet de 21 activitats que ens convida a passejar pels monuments d'Alcalá de Henares de la mà dels personatges que hi van viure i la van fer famosa.\n<p> El mapa emprat a les activitats està pres del llibre <i>\"Alcalá de Henares. Siglos de Historia\" de Miguel Gómez Andrea y Eduardo de la Torre</i>, editat per l'ajuntament d'Alcalá de Henares. </p>",
+    "es": "Un paquete de 21 actividades que nos invita a pasear por los monumentos de Alcalá de Henares de la mano de los personajes que vivieron en ella y la hicieron famosa.\n<p> El mapa utilizado en las actividades está tomado de <i>\"Alcalá de Henares. Siglos de Historia\" de Miguel Gómez Andrea y Eduardo de la Torre</i> editado por el Ayuntamiento de Alcalá de Henares. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/alcala.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/alcala.jclic.zip",
+  "instFile": "jclic/alcala.jclic.inst",
+  "clicZoneId": 2980,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2980",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/alcala/jclic/alcala.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 50,
+  "totalSize": 890714,
+  "files": [
+    "cover.jpg",
+    "jclic.js/alca01.jpg",
+    "jclic.js/alca02.jpg",
+    "jclic.js/alca03.jpg",
+    "jclic.js/alca04.jpg",
+    "jclic.js/alca05.jpg",
+    "jclic.js/alca06.jpg",
+    "jclic.js/alca07.jpg",
+    "jclic.js/alca08.jpg",
+    "jclic.js/alca09.jpg",
+    "jclic.js/alca10.jpg",
+    "jclic.js/alca11.jpg",
+    "jclic.js/alca12.jpg",
+    "jclic.js/alca13.jpg",
+    "jclic.js/alca14.jpg",
+    "jclic.js/alca15.jpg",
+    "jclic.js/alca16.jpg",
+    "jclic.js/alca19.jpg",
+    "jclic.js/alca20.jpg",
+    "jclic.js/alca20a.jpg",
+    "jclic.js/alca21.jpg",
+    "jclic.js/alca23.jpg",
+    "jclic.js/alca26.jpg",
+    "jclic.js/alca27.jpg",
+    "jclic.js/alca28.jpg",
+    "jclic.js/alca29.jpg",
+    "jclic.js/alca30.jpg",
+    "jclic.js/alca31.jpg",
+    "jclic.js/alca32.jpg",
+    "jclic.js/alca33.jpg",
+    "jclic.js/alca34.jpg",
+    "jclic.js/alca35.jpg",
+    "jclic.js/alcala.jclic",
+    "jclic.js/aragon.jpg",
+    "jclic.js/aragon1.jpg",
+    "jclic.js/cisnero.jpg",
+    "jclic.js/cisneros.jpg",
+    "jclic.js/fernan.jpg",
+    "jclic.js/fernan1.jpg",
+    "jclic.js/hita.jpg",
+    "jclic.js/hita1.jpg",
+    "jclic.js/loyola.jpg",
+    "jclic.js/loyola1.jpg",
+    "jclic.js/mateo.jpg",
+    "jclic.js/mateo1.jpg",
+    "jclic.js/miguel.jpg",
+    "jclic.js/miguel1.jpg",
+    "jclic.js/miguel2.jpg",
+    "jclic.js/nebrija.jpg",
+    "jclic.js/nebrija1.jpg",
+    "jclic.js/plano.jpg",
+    "jclic.js/plano1.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/alcala.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

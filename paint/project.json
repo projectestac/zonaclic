@@ -1,0 +1,125 @@
+{
+  "id": 1103,
+  "title": "¿Cuánto sabes de Paint?",
+  "author": "Alejandro Dellafiore",
+  "school": "Colegio Teodelina Fernández de Alvear Villa Gobernador Gálvez - Santa Fe (Argentina)",
+  "date": "10/11/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Art & design, Miscellaneous",
+    "ca": "Visual i plàstica, Diversos",
+    "es": "Plástica y visual, Diversos"
+  },
+  "areaCodes": [
+    "vip",
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "informàtica educativa",
+    "es": "informática educativa",
+    "en": "educative computer science"
+  },
+  "descCodes": [
+    738
+  ],
+  "description": {
+    "en": "Package of activities about how to use the Windows application \"Paint\". The aim of the application is to learn how to use the icon tools located in the main screen of the program.",
+    "ca": "Paquet d'activitats sobre l'ús del Paint, l'eina de dibuix que ve de sèrie amb el Windows. L'objectiu de l'aplicació és conèixer per a què serveixen les diverses eines que apareixen en forma d'icones a la finestra principal del programa.",
+    "es": "Paquete de actividades sobre el uso de Paint, la herramienta de dibujo que viene de serie con Windows. El objetivo de la aplicación es conocer para qué sirven las diversas herramientas que aparecen en forma de iconos en la ventana principal del programa."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "paint_eu"
+  ],
+  "mainFile": "jclic.js/paint.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/paint.jclic.zip",
+  "instFile": "jclic/paint.jclic.inst",
+  "clicZoneId": 2380,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2380",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/paint/jclic/paint.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 42,
+  "totalSize": 434901,
+  "files": [
+    "cover.gif",
+    "jclic.js/aerog.gif",
+    "jclic.js/baerog.gif",
+    "jclic.js/bcuadra.gif",
+    "jclic.js/bcuadred.gif",
+    "jclic.js/bcurva.gif",
+    "jclic.js/bflibre.gif",
+    "jclic.js/bgoma.gif",
+    "jclic.js/bgotero.gif",
+    "jclic.js/blapiz.gif",
+    "jclic.js/blibre.gif",
+    "jclic.js/blinea.gif",
+    "jclic.js/blupa.gif",
+    "jclic.js/bovalo.gif",
+    "jclic.js/bpincel.gif",
+    "jclic.js/brelleno.gif",
+    "jclic.js/bselecc.gif",
+    "jclic.js/btexto.gif",
+    "jclic.js/conque2.gif",
+    "jclic.js/conque3.gif",
+    "jclic.js/conque4.gif",
+    "jclic.js/conque51.gif",
+    "jclic.js/conque7.gif",
+    "jclic.js/cuadrado.gif",
+    "jclic.js/cuadred.gif",
+    "jclic.js/curva.gif",
+    "jclic.js/goma.gif",
+    "jclic.js/gotero.gif",
+    "jclic.js/lapiz.gif",
+    "jclic.js/libre.gif",
+    "jclic.js/linea.gif",
+    "jclic.js/lupa.gif",
+    "jclic.js/memo.gif",
+    "jclic.js/memo2.gif",
+    "jclic.js/ovalo.gif",
+    "jclic.js/paint.jclic",
+    "jclic.js/pantalla.gif",
+    "jclic.js/pincel.gif",
+    "jclic.js/poligono.gif",
+    "jclic.js/relleno.gif",
+    "jclic.js/selecc.gif",
+    "jclic.js/tapita.gif",
+    "jclic.js/tapon2.gif",
+    "jclic.js/texto.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/paint.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

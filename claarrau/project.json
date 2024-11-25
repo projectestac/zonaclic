@@ -1,0 +1,114 @@
+{
+  "id": 1082,
+  "title": "La vida de Claudio Arrau",
+  "author": "Anthony Uyarte Acuña",
+  "school": "Escuela María A. Saavedra M Chillán (Xile)",
+  "date": "05/11/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "Claudio Arrau",
+    "es": "Claudio Arrau",
+    "en": "Claudio Arrau"
+  },
+  "descCodes": [
+    1080
+  ],
+  "description": {
+    "en": "Package of activities about Claudio Arrau's life, in commemoration of the first century of the born of this worldwide admired Chilean pianist. The package has two parts: first, some activities about Arrau's childhood, adolescence and adult life, and exercises about the most relevant aspects of they biography.",
+    "ca": "Aquest paquet d'activitats tracta de la vida de Claudio Arrau, el pianista chilè reconegut mundialment, en la commemoració del centenari del seu naixement. El paquet té una part expositiva, on s'explica la infantesa, l'adolescència i la vida adulta d'Arrau, i exercicis sobre els aspectes més significatius de la seva biografia.",
+    "es": "Este paquete de actividades trata de la vida de Claudio Arrau, el pianista chileno mundialmente reconocido, en la conmemoración del centenario de su nacimiento. El paquete tiene una parte expositiva, en la que se explica la infancia, la adolescencia y la vida adulta de Arrau, y ejercicios sobre los aspectos más significativos de su biografía."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/claarrau.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/claarrau.jclic.zip",
+  "instFile": "jclic/claarrau.jclic.inst",
+  "clicZoneId": 2323,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2323",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/claarrau/jclic/claarrau.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 29,
+  "mediaFiles": 28,
+  "totalSize": 1386643,
+  "files": [
+    "cover.gif",
+    "jclic.js/adolesce/adolesce.jclic",
+    "jclic.js/adolesce/arrau1mi.gif",
+    "jclic.js/adolesce/arrau_m.gif",
+    "jclic.js/adolesce/arrau_mi.gif",
+    "jclic.js/adolesce/arraumin.gif",
+    "jclic.js/adolesce/chopin.mp3",
+    "jclic.js/adolesce/ninoarr2.gif",
+    "jclic.js/adolesce/pintura1.gif",
+    "jclic.js/adolesce/pintura2.gif",
+    "jclic.js/adolesce/pintura4.gif",
+    "jclic.js/adultez/adultez.jclic",
+    "jclic.js/adultez/arrau0.gif",
+    "jclic.js/adultez/arrau02m.gif",
+    "jclic.js/adultez/arrau_m.gif",
+    "jclic.js/adultez/arrau_mi.gif",
+    "jclic.js/adultez/arraumin.gif",
+    "jclic.js/adultez/chopin.mp3",
+    "jclic.js/adultez/nuvols.gif",
+    "jclic.js/adultez/piano.gif",
+    "jclic.js/adultez/pintura.gif",
+    "jclic.js/adultez/pintura1.gif",
+    "jclic.js/adultez/pintura2.gif",
+    "jclic.js/adultez/pintura3.gif",
+    "jclic.js/adultez/pintura4.gif",
+    "jclic.js/biograf/biograf.jclic",
+    "jclic.js/biograf/fotoarra.gif",
+    "jclic.js/biograf/nuvols.gif",
+    "jclic.js/chopin.mp3",
+    "jclic.js/claarrau.jclic",
+    "jclic.js/dibujo2.gif",
+    "jclic.js/piano.gif",
+    "jclic.js/pintura4.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/claarrau.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/adolesce/adolesce.jclic.js",
+    "jclic.js/adultez/adultez.jclic.js",
+    "jclic.js/biograf/biograf.jclic.js",
+    "cover.webp"
+  ]
+}

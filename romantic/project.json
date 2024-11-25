@@ -1,0 +1,110 @@
+{
+  "id": 1901,
+  "title": "El Romanticismo musical",
+  "author": "Dolores Egea González",
+  "school": "IES Joanot Martorell Elx - Alacant (Baix Vinalopó)",
+  "date": "05/03/09",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "segle XIX, aprenentatge de la música",
+    "es": "siglo XIX, aprendizaje de la música",
+    "en": "century XIX, learning of music"
+  },
+  "descCodes": [
+    585,
+    717
+  ],
+  "description": {
+    "en": "Set of activities about the musical Romantic period (19th century): \n<ul> \n <li>authors </li>\n <li>nationality </li>\n <li>works </li>\n <li>the orchestras </li>\n</ul>",
+    "ca": "Conjunt d'activitats sobre el període musical del Romanticisme (s XIX): \n<ul> \n <li>autors de l'època </li>\n <li>nacionalitat </li>\n <li>obres </li>\n <li>característiques de les orquestres: disposició, peces musicals pianístiques... </li>\n</ul>",
+    "es": "Conjunto de actividades sobre el periodo musical del Romanticismo (s XIX): \n<ul> \n <li>autores de la época </li>\n <li>nacionalidad </li>\n <li>obras </li>\n <li>características de les orquestas: disposición, piezas musicales pianísticas... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/romantic.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/romantic.jclic.zip",
+  "instFile": "jclic/romantic.jclic.inst",
+  "clicZoneId": 3527,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3527",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/romantic/jclic/romantic.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 30,
+  "totalSize": 5616809,
+  "files": [
+    "cover.jpg",
+    "jclic.js/03___vals_de__la_bella_durmientetchaikovsky.mp3",
+    "jclic.js/11___nabuccoverdi.mp3",
+    "jclic.js/13___cabalgata_de_las_walkyrias_de__la_walkyriawagner_.mp3",
+    "jclic.js/14___edvard_grieg__peer_gynt_suite_nr._1_op._46_.mp3",
+    "jclic.js/aleluya.mp3",
+    "jclic.js/berlioz.jpg",
+    "jclic.js/bixet.jpg",
+    "jclic.js/brahms_sinfonie_nr.3_.mp3",
+    "jclic.js/brhams.jpg",
+    "jclic.js/chopin2.jpg",
+    "jclic.js/chopin__vals_del_minuto.mp3",
+    "jclic.js/chopin_klavier.jpg",
+    "jclic.js/fsor.jpg",
+    "jclic.js/h._berlioz_symphonie_fantastique_op.14_.mp3",
+    "jclic.js/imagen2.jpg",
+    "jclic.js/j.strauss.jpg",
+    "jclic.js/listz_final_de_la_rapsodia_hungara_no_2.mp3",
+    "jclic.js/liszt2.jpg",
+    "jclic.js/logo190.gif",
+    "jclic.js/mapa_europa.jpg",
+    "jclic.js/orques_rom.jpg",
+    "jclic.js/orquesta2.jpg",
+    "jclic.js/partirura3.jpg",
+    "jclic.js/partitura.jpg",
+    "jclic.js/piano2.jpg",
+    "jclic.js/romantic.jclic",
+    "jclic.js/rosa.jpg",
+    "jclic.js/schubert__impromptu__op._90.mp3",
+    "jclic.js/teclados_piano.gif",
+    "jclic.js/verdi.jpg",
+    "jclic.js/viajerojuntoalmar.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/romantic.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

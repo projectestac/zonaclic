@@ -1,0 +1,112 @@
+{
+  "id": 301,
+  "title": "48 cosas de clase",
+  "author": "Toni Miquel Mollà",
+  "school": "CP Crist de la Pau Sant Joan d'Alacant (Alacantí)",
+  "date": "16/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua catalana, vocabulari",
+    "es": "lengua catalana, vocabulario",
+    "en": "Catalan language, vocabulary"
+  },
+  "descCodes": [
+    133,
+    150
+  ],
+  "description": {
+    "en": "Activity pack about classroom objects.",
+    "ca": "Nou paquets d'activitats per aprendre el nom de 48 objectes de la classe mitjançant imatges, descripcions i sopes de lletres.",
+    "es": "Nueve paquetes de actividades para aprender el nombre de 48 objetos de la clase mediante imágenes, descripciones y sopas de letras."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "classe",
+    "klasekoa"
+  ],
+  "mainFile": "jclic.js/cosascla.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cosascla.jclic.zip",
+  "instFile": "jclic/cosascla.jclic.inst",
+  "clicZoneId": 1160,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1160",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cosascla/jclic/cosascla.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 111,
+  "mediaFiles": 28,
+  "totalSize": 504712,
+  "files": [
+    "cover.gif",
+    "jclic.js/24cocla1.gif",
+    "jclic.js/24cocla2.gif",
+    "jclic.js/classe1_class01.gif",
+    "jclic.js/classe1_classe01.gif",
+    "jclic.js/classe2_class02.gif",
+    "jclic.js/classe2_classe02.gif",
+    "jclic.js/classe3_class03.gif",
+    "jclic.js/classe3_classe03.gif",
+    "jclic.js/classe4_class04.gif",
+    "jclic.js/classe4_classe04.gif",
+    "jclic.js/classe5_class05.gif",
+    "jclic.js/classe5_classe05.gif",
+    "jclic.js/classe6_class06.gif",
+    "jclic.js/classe6_classe06.gif",
+    "jclic.js/classe7_class07.gif",
+    "jclic.js/classe7_classe07.gif",
+    "jclic.js/classe8_class08.gif",
+    "jclic.js/classe8_classe08.gif",
+    "jclic.js/cosascla.jclic",
+    "jclic.js/paquet1.gif",
+    "jclic.js/paquet2.gif",
+    "jclic.js/paquet3.gif",
+    "jclic.js/paquet4.gif",
+    "jclic.js/paquet5.gif",
+    "jclic.js/paquet6.gif",
+    "jclic.js/paquet7.gif",
+    "jclic.js/paquet8.gif",
+    "jclic.js/paquet9.gif",
+    "jclic.js/portclas.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cosascla.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

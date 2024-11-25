@@ -1,0 +1,115 @@
+{
+  "id": 819,
+  "title": "Trabajando el euro en primer ciclo",
+  "author": "Eva Gavín i Mònica Llorens",
+  "school": "C Episcopal-Mare de Déu de l'Acadèmia Lleida",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "economia, UE",
+    "es": "economía, UE",
+    "en": "economy, EU"
+  },
+  "descCodes": [
+    211,
+    356
+  ],
+  "description": {
+    "en": "Clic activity about the new currency - Euro",
+    "ca": "Paquet d'activitats sobre l'Euro organitzat en dos nivells de dificultat. A cada nivell hi ha dos blocs:\n<br> - \n<b>Conèixer</b>: S'hi presenten les diferents monedes i bitllets\n<br> - \n<b>Treballem</b>: Planteja exercicis i problemes amb Euros.",
+    "es": "Paquete de actividades de clic sobre el Euro, la nueva moneda. En este paquete se tratan los diferentes billetes y las monedas pertenecientes a la zona euro. Su aspecto, las cantidades que representan, así como ejercicios resolviendo problemas de pago, de cambio, etc..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "euroci"
+  ],
+  "mainFile": "jclic.js/euroiesp.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/euroiesp.jclic.zip",
+  "instFile": "jclic/euroiesp.jclic.inst",
+  "clicZoneId": 1456,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1456",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/euroiesp/jclic/euroiesp.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 73,
+  "mediaFiles": 32,
+  "totalSize": 1195104,
+  "files": [
+    "cover.gif",
+    "jclic.js/100eass.jpg",
+    "jclic.js/100euros.jpg",
+    "jclic.js/10eass.jpg",
+    "jclic.js/10euros.jpg",
+    "jclic.js/1e.jpg",
+    "jclic.js/1eass.jpg",
+    "jclic.js/200eass.jpg",
+    "jclic.js/200euros.jpg",
+    "jclic.js/20eass.jpg",
+    "jclic.js/20euros.jpg",
+    "jclic.js/2eass.jpg",
+    "jclic.js/2epuz.jpg",
+    "jclic.js/500eass.jpg",
+    "jclic.js/500euros.jpg",
+    "jclic.js/50eass.jpg",
+    "jclic.js/50euros.jpg",
+    "jclic.js/5eass.jpg",
+    "jclic.js/5euros.jpg",
+    "jclic.js/col.jpg",
+    "jclic.js/euroiesp.jclic",
+    "jclic.js/fam101.jpg",
+    "jclic.js/fam102.jpg",
+    "jclic.js/fam103.jpg",
+    "jclic.js/fam104.jpg",
+    "jclic.js/fam105.jpg",
+    "jclic.js/fam109.jpg",
+    "jclic.js/fam1101.jpg",
+    "jclic.js/fam1102.jpg",
+    "jclic.js/fam1103.jpg",
+    "jclic.js/fam1105.jpg",
+    "jclic.js/fondo01.jpg",
+    "jclic.js/fondo02.jpg",
+    "jclic.js/portada.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/euroiesp.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

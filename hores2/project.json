@@ -1,0 +1,106 @@
+{
+  "id": 2397,
+  "title": "Les hores en punt",
+  "author": "Laia Rovira Leranoz",
+  "school": "C La Salle Sant Celoni Sant Celoni (Vallès Oriental)",
+  "date": "17/09/15",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "temps",
+    "es": "tiempo",
+    "en": "time"
+  },
+  "descCodes": [
+    1368
+  ],
+  "description": {
+    "en": "This JClic addressed the first cycle of primary education about hours and clocks.",
+    "ca": "Aquest JClic, adreçat al cicle inicial, permet treballar les hores en punt i els tipus de rellotges.",
+    "es": "Este JClic, dirigido al ciclo inicial, permite trabajar las horas en punto y los tipos de relojes."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/hores2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/hores2.jclic.zip",
+  "instFile": "jclic/hores2.jclic.inst",
+  "clicZoneId": 3905,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3905",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/hores2/jclic/hores2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 36,
+  "mediaFiles": 27,
+  "totalSize": 830127,
+  "files": [
+    "cover.png",
+    "jclic.js/hores2.jclic",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/images.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/rellotge_de_paret.jpg",
+    "jclic.js/rellotge_resized.jpg",
+    "jclic.js/rellotgesol588.jpg",
+    "jclic.js/reloj.jpg",
+    "jclic.js/viewclock__10_.jpg",
+    "jclic.js/viewclock__13_.jpg",
+    "jclic.js/viewclock__14_.jpg",
+    "jclic.js/viewclock__15_.jpg",
+    "jclic.js/viewclock__16_.jpg",
+    "jclic.js/viewclock__17_.jpg",
+    "jclic.js/viewclock__18_.jpg",
+    "jclic.js/viewclock__19_.jpg",
+    "jclic.js/viewclock__1_.jpg",
+    "jclic.js/viewclock__21_.jpg",
+    "jclic.js/viewclock__22_.jpg",
+    "jclic.js/viewclock__23_.jpg",
+    "jclic.js/viewclock__25_.jpg",
+    "jclic.js/viewclock__26_.jpg",
+    "jclic.js/viewclock__2_.jpg",
+    "jclic.js/viewclock__3_.jpg",
+    "jclic.js/viewclock__4_.jpg",
+    "jclic.js/viewclock__5_.jpg",
+    "jclic.js/viewclock__6_.jpg",
+    "jclic.js/viewclock__7_.jpg",
+    "jclic.js/viewclock__8_.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/hores2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

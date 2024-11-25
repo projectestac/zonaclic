@@ -1,0 +1,141 @@
+{
+  "id": 2195,
+  "title": "Ludwig Van Beethoven",
+  "author": "Reyes Lobo Moreno",
+  "school": "CEIP Maestra Natalia Albanés Espartinas - Sevilla (Andalucía)",
+  "date": "14/11/11",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "audició musical, Ludwig Van Beethoven",
+    "es": "audición musical, Ludwig Van Beethoven",
+    "en": "musical hearing, Ludwig Van Beethoven"
+  },
+  "descCodes": [
+    718,
+    1427
+  ],
+  "description": {
+    "en": "Project of activities about the German composer Ludwig van Beethoven. The project has four different parts: \n<ul> \n <li>Biography </li>\n <li>Works </li>\n <li>Instruments </li>\n <li>Games </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre el gran compositor Ludwig Van Beethoven. El projecte està dividit en quatre parts diferents: \n<ul> \n <li>Biografia </li>\n <li>Obres </li>\n <li>Instruments </li>\n <li>Jocs </li>\n</ul>",
+    "es": "Proyecto de actividades sobre el gran compositor alemán Ludwig Van Beethoven. El proyecto está dividido en cuatro partes diferentes: \n<ul> \n <li>Biografía </li>\n <li>Obras </li>\n <li>Instrumentos </li>\n <li>Juegos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/beethove.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/beethove.jclic.zip",
+  "instFile": "jclic/beethove.jclic.inst",
+  "clicZoneId": 3729,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3729",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/beethove/jclic/beethove.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 53,
+  "totalSize": 10709645,
+  "files": [
+    "cover.png",
+    "jclic.js/beethove.jclic",
+    "jclic.js/biografia/5_sinfonia_partitura.jpg",
+    "jclic.js/biografia/beethoven_componiendo.jpg",
+    "jclic.js/biografia/beethoven_director.jpg",
+    "jclic.js/biografia/biografia.jclic",
+    "jclic.js/biografia/bonn.jpg",
+    "jclic.js/biografia/haydn.jpg",
+    "jclic.js/biografia/piano.jpg",
+    "jclic.js/biografia/retrato_beethoven.jpg",
+    "jclic.js/instrum/clau.gif",
+    "jclic.js/instrum/connect.wav",
+    "jclic.js/instrum/contrabajo_ii.jpg",
+    "jclic.js/instrum/crotalos.jpg",
+    "jclic.js/instrum/dstringarco.aiff",
+    "jclic.js/instrum/instrum.jclic",
+    "jclic.js/instrum/interrogacion.jpg",
+    "jclic.js/instrum/oboe.jpg",
+    "jclic.js/instrum/retrato_beethoven.jpg",
+    "jclic.js/instrum/ringling.aiff",
+    "jclic.js/instrum/triangulo.jpg",
+    "jclic.js/instrum/trompeta.jpg",
+    "jclic.js/instrum/viola.wav",
+    "jclic.js/instrum/viola_ii.jpg",
+    "jclic.js/instrum/violin_a3.wav",
+    "jclic.js/instrum/violin_ii.jpg",
+    "jclic.js/instrum/violonchelo_ii.jpg",
+    "jclic.js/instrum/xilofono.jpg",
+    "jclic.js/instrum/xyloriff.wav",
+    "jclic.js/juegos/9_sinfonia_partitura.jpg",
+    "jclic.js/juegos/beethoven_director.jpg",
+    "jclic.js/juegos/bonn.jpg",
+    "jclic.js/juegos/caricatura_beethoven.jpg",
+    "jclic.js/juegos/d__reyifera_colegio_clarinete.jpg",
+    "jclic.js/juegos/instrumentos_de_cuerda.jpg",
+    "jclic.js/juegos/juegos.jclic",
+    "jclic.js/juegos/orquesta.jpg",
+    "jclic.js/juegos/retrato_beethoven.jpg",
+    "jclic.js/obras/03_beethoven_violin_sonata_no.8_op.30_in_g_allegro_vivace.mp3",
+    "jclic.js/obras/21__jacques_offenbach__los_cuentos_de_hoffmann__barcarola.mp3",
+    "jclic.js/obras/_musica_classica__beethoven___sinfonia_n__9___inno_alla_gioia.mp3",
+    "jclic.js/obras/beethoven02romanza.mp3",
+    "jclic.js/obras/beethoven___2nd_symphony___complete.mp3",
+    "jclic.js/obras/beethoven___5th_symphony.mp3",
+    "jclic.js/obras/beethoven___himno_de_la_alegria__sinfonia_no_9__coral.mp3",
+    "jclic.js/obras/beethoven___musica_clasica___sonata_claro_de_luna.mp3",
+    "jclic.js/obras/beethoven___per_elisa.mp3",
+    "jclic.js/obras/beethoven___piano_trio_no_7_in_b_flat__op_97__archduke____1_all_moderato___rubinstein__heifetz__feuermann.mp3",
+    "jclic.js/obras/beethoven___string_quartet_in_f_major_op_59_no_1__razumovsky____i_allegro.mp3",
+    "jclic.js/obras/beethoven_componiendo.jpg",
+    "jclic.js/obras/beethoven_con_cuerpos.jpg",
+    "jclic.js/obras/classical___piano_concerto_no._5_in_e_flat_major__op._73__emporor___pachelbel___bach_beethoven_schubert_mozart_dvorak___classics_for_lovers.mp3",
+    "jclic.js/obras/clau.gif",
+    "jclic.js/obras/obras.jclic",
+    "jclic.js/obras/orquesta.jpg",
+    "jclic.js/obras/partitura.jpg",
+    "jclic.js/obras/pregunta.gif",
+    "jclic.js/obras/retrato_beethoven.jpg",
+    "jclic.js/retrato_beethoven.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/beethove.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/biografia/biografia.jclic.js",
+    "jclic.js/instrum/instrum.jclic.js",
+    "jclic.js/juegos/juegos.jclic.js",
+    "jclic.js/obras/obras.jclic.js",
+    "cover.webp"
+  ]
+}

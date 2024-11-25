@@ -1,0 +1,91 @@
+{
+  "id": 2078,
+  "title": "Els determinants",
+  "author": "Jordi Marcó i Ruiz",
+  "school": "Escola Sant Martí Arenys de Munt (Maresme)",
+  "date": "18/10/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua catalana",
+    "es": "gramática, lengua catalana",
+    "en": "grammar, Catalan language"
+  },
+  "descCodes": [
+    123,
+    133
+  ],
+  "description": {
+    "en": "This project of activities is aimed to first-year students of primary education, with the aim of strengthening the basic operations of addition and subtraction through memory games, puzzles, written responses and associations. Project of activities about the determinants: \n<ul> \n <li>articles </li>\n <li>demonstration </li>\n <li>possessive </li>\n <li>numerals (cardinal and ordinal) </li>\n</ul>",
+    "ca": "Projecte d'activitats per començar a introduir-nos en el món dels determinants: \n<ul> \n <li>articles </li>\n <li>demostratius </li>\n <li>possessius </li>\n <li>numerals (cardinals i ordinals) </li>\n</ul>",
+    "es": "Proyecto de actividades para empezar a introducirnos en el mundo de los determinantes: \n<ul> \n <li>artículos </li>\n <li>demostrativos </li>\n <li>posesivos </li>\n <li>numerales (cardinales y ordinales) </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/determi2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/determi2.jclic.zip",
+  "instFile": "jclic/determi2.jclic.inst",
+  "clicZoneId": 3642,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3642",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/determi2/jclic/determi2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 57,
+  "mediaFiles": 11,
+  "totalSize": 688436,
+  "files": [
+    "cover.gif",
+    "jclic.js/clasarticle.gif",
+    "jclic.js/classdemostratius.gif",
+    "jclic.js/classificacio.gif",
+    "jclic.js/classnumerals.gif",
+    "jclic.js/classpossessius.gif",
+    "jclic.js/concepte1.gif",
+    "jclic.js/determi2.jclic",
+    "jclic.js/fons2.jpg",
+    "jclic.js/fons4.jpg",
+    "jclic.js/fons5.jpg",
+    "jclic.js/fons7.jpg",
+    "jclic.js/portada.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/determi2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

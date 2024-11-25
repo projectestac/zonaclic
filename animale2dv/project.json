@@ -1,0 +1,97 @@
+{
+  "id": 1554,
+  "title": "Aprende los animales (adaptado dv)",
+  "author": "Teresa López Vicente",
+  "date": "15/11/10",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "animals",
+    "es": "animales",
+    "en": "animales"
+  },
+  "descCodes": [
+    1160
+  ],
+  "description": {
+    "en": "Activities about animals addressed to kindergarten and especial education. The package has 5 parts:\n<ul> \n <li>Animals </li>\n <li>Puzzles </li>\n <li>Memory </li>\n <li>Mark the animal </li>\n <li>Search pairs </li>\n</ul> It is adapted for low vision impaired children.",
+    "ca": "Activitats sobre els animals per a educació infantil i educació especial. A l'activitat trobem 5 parts.\n<ul> \n <li>Animals </li>\n <li>Puzzles </li>\n <li>Memory </li>\n <li>Assenyala l'animal </li>\n <li>Busca la parella </li>\n</ul> Adaptat per discapacitat visual baixa visió.",
+    "es": "Actividades sobre los animales para educación infantil y educación especial. En la actividad encontramos 5 partes: \n<ul> \n <li>Animales </li>\n <li>Puzzles </li>\n <li>Memory </li>\n <li>Señala el animal </li>\n <li>Busca la pareja </li>\n</ul> Adaptado para discapacidad visual baja visión."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "animale2"
+  ],
+  "mainFile": "jclic.js/animale2dv.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/animale2dv.jclic.zip",
+  "instFile": "jclic/animale2dv.jclic.inst",
+  "clicZoneId": 3278,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3278",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/animale2dv/jclic/animale2dv.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 33,
+  "mediaFiles": 16,
+  "totalSize": 1203285,
+  "files": [
+    "cover.gif",
+    "jclic.js/animale2dv.jclic",
+    "jclic.js/aprende.wav",
+    "jclic.js/caballo.gif",
+    "jclic.js/caballo.wav",
+    "jclic.js/elefante.gif",
+    "jclic.js/elefante.wav",
+    "jclic.js/elige.wav",
+    "jclic.js/leon.gif",
+    "jclic.js/leon.wav",
+    "jclic.js/mono.gif",
+    "jclic.js/mono.wav",
+    "jclic.js/oso.gif",
+    "jclic.js/oso.wav",
+    "jclic.js/pato.gif",
+    "jclic.js/pato.wav",
+    "jclic.js/pez.gif",
+    "jclic.js/pez.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/animale2dv.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

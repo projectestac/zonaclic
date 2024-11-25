@@ -1,0 +1,96 @@
+{
+  "id": 2622,
+  "title": "Nombres naturals",
+  "author": "Vanesa García Rovira",
+  "date": "01/06/16",
+  "langCodes": [
+    "ca"
+  ],
+  "languages": {
+    "ca": "català",
+    "es": "catalán",
+    "en": "Catalan"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16), 1ESO",
+    "es": "Secundaria (12-16), 1ESO",
+    "en": "Secondary school (12-16), 1ESO"
+  },
+  "description": {
+    "ca": "Paquet d'activitats JClic relacionades amb els nombres naturals: identificació, representació gràfica, ordre, operacions bàsiques, potències, arrels quadrades i jerarquia de les operacions.",
+    "es": "Paquete de actividades JClic relacionadas con los números naturales: identificación, representación gráfica, orden, operaciones básicas, potencias, raíces cuadradas y jerarquía de las operaciones.\r",
+    "en": "Pack of JClic activities related to natural numbers: identification, graphing, order, basic operations, powers, square roots and hierarchy of operations."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "cover": "cover.png",
+  "thumbnail": "thumb.png",
+  "mainFile": "jclic.js/nomnat.jclic",
+  "activities": 22,
+  "mediaFiles": 36,
+  "totalSize": 570156,
+  "instFile": "jclic/nomnat.jclic.inst",
+  "zipFile": "jclic/nomnat.jclic.zip",
+  "files": [
+    "cover.png",
+    "jclic.js/arrel_1.jpg",
+    "jclic.js/arrel_2.jpg",
+    "jclic.js/arrel_3.jpg",
+    "jclic.js/arrel_4.jpg",
+    "jclic.js/arrel_5.jpg",
+    "jclic.js/arrel_6.jpg",
+    "jclic.js/arrel_7.jpg",
+    "jclic.js/arrel_8.jpg",
+    "jclic.js/arrel_9.jpg",
+    "jclic.js/conjunt_natural.jpg",
+    "jclic.js/creative_commons_marge_infer.png",
+    "jclic.js/favicon.ico",
+    "jclic.js/fondo_mates.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/naturals_varis-resized.jpg",
+    "jclic.js/nomnat.jclic",
+    "jclic.js/nomnat.jclic.js",
+    "jclic.js/operacions_1.jpg",
+    "jclic.js/operacions_2.jpg",
+    "jclic.js/pot_1.jpg",
+    "jclic.js/pot_2.jpg",
+    "jclic.js/pot_3.jpg",
+    "jclic.js/pot_4.jpg",
+    "jclic.js/pot_5.jpg",
+    "jclic.js/pot_6.jpg",
+    "jclic.js/pot_7.jpg",
+    "jclic.js/pot_8.jpg",
+    "jclic.js/pot_9.jpg",
+    "jclic.js/rep_graf_1.jpg",
+    "jclic.js/rep_graf_2.jpg",
+    "jclic.js/rep_graf_3.jpg",
+    "jclic.js/rep_graf_4.jpg",
+    "jclic.js/rep_graf_5.jpg",
+    "jclic.js/rep_graf_6.jpg",
+    "jclic.js/titol_naturals.jpg",
+    "project.json",
+    "thumb.png"
+  ]
+}

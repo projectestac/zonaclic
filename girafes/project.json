@@ -1,0 +1,115 @@
+{
+  "id": 1627,
+  "title": "Les girafes",
+  "author": "Mireia Planas i Vila i Susagna Argemí",
+  "school": "Escola Gras i Soler Esplugues de Llobregat (Baix Llobregat)",
+  "date": "05/12/06",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "animals",
+    "es": "animales",
+    "en": "animales"
+  },
+  "descCodes": [
+    1160
+  ],
+  "description": {
+    "en": "Project of activities about giraffes. How they are, where they live, what eats, which are their habits.",
+    "ca": "Projecte d'activitats per conèixer el món de les girafes. Com són, on viuen, què mengen, quins són els seus costums. Mitjançant les girafes com a centre d'interès s'inclouen activitats per reforçar conceptes matemàtics, de llenguatge, de descoberta de l'entorn i altres aspectes adequats als aprenentatges dels nens i nenes d'aquest nivell.",
+    "es": "Proyecto de actividades para conocer el mundo de las jirafas. Cómo son, dónde viven, qué comen, cuáles son sus costumbres. Mediante las jirafas como centro de interés se incluyen actividades para reforzar conceptos matemáticos, de lenguaje, de descubierta del entorno y otros aspectos adecuados a los aprendizajes de los niños y niñas de este nivel."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/girafes.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/girafes.jclic.zip",
+  "instFile": "jclic/girafes.jclic.inst",
+  "clicZoneId": 3335,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3335",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/girafes/jclic/girafes.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 36,
+  "totalSize": 873760,
+  "files": [
+    "cover.gif",
+    "jclic.js/1girafa.jpg",
+    "jclic.js/2girafes.jpg",
+    "jclic.js/3girafes.jpg",
+    "jclic.js/4girafes.jpg",
+    "jclic.js/bufacurt.jpg",
+    "jclic.js/bufallar.jpg",
+    "jclic.js/casagran.jpg",
+    "jclic.js/casapeti.jpg",
+    "jclic.js/collarg.jpg",
+    "jclic.js/collcurt.jpg",
+    "jclic.js/endedofi.jpg",
+    "jclic.js/endegira.jpg",
+    "jclic.js/endegos.jpg",
+    "jclic.js/fletbaix.jpg",
+    "jclic.js/fletdalt.jpg",
+    "jclic.js/girabaix.jpg",
+    "jclic.js/giradalt.jpg",
+    "jclic.js/giradues.jpg",
+    "jclic.js/girafa00.mid",
+    "jclic.js/girafa00.png",
+    "jclic.js/girafa01.jpg",
+    "jclic.js/girafa02.jpg",
+    "jclic.js/girafa03.jpg",
+    "jclic.js/girafes.jclic",
+    "jclic.js/girafes.mid",
+    "jclic.js/giragran.jpg",
+    "jclic.js/girapeti.jpg",
+    "jclic.js/giraquat.jpg",
+    "jclic.js/giratren.jpg",
+    "jclic.js/giratres.jpg",
+    "jclic.js/girauna.jpg",
+    "jclic.js/lleo.jpg",
+    "jclic.js/moltbe00.jpg",
+    "jclic.js/notaques.jpg",
+    "jclic.js/sabana.jpg",
+    "jclic.js/taques00.jpg",
+    "jclic.js/temps00.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/girafes.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

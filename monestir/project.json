@@ -1,0 +1,126 @@
+{
+  "id": 824,
+  "title": "La vida a l'Edat Mitjana - Els monestirs",
+  "author": "José R. Planas Garcia i Josep Torrente",
+  "school": "Escola Silvestre Santaló Salt (Gironès)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "arquitectura, història, Catalunya",
+    "es": "arquitectura, historia, Cataluña",
+    "en": "architecture, history, Catalonia"
+  },
+  "descCodes": [
+    2,
+    246,
+    487
+  ],
+  "description": {
+    "en": "Clic activity pack about the monasteries in Catalonia.",
+    "ca": "Aquest paquet d'activitats s'ha elaborat com a material complementari a la proposta de treball del SEDEC \n<a href=\"http://www.xtec.cat/sedec/activ_primaria.html\" target=\"_blank\">\"Monestirs de Catalunya\"</a>. L'aplicació s'organitza en cinc blocs:\n<br> \n<ul><li>La vida a l'edat mitjana </li>\n<li>La vida als monestirs </li>\n<li>El gòtic i el romànic </li>\n<li>Els cisrtercencs i els benedictins </li>\n<li>Una ullada global <br> Es treballen quatre tipus diferents d'exercicis (associació, text, trencaclosques i sopes de lletres). Es dóna més importància als dos primers tipus, i s'intercalen exercicis de trencaclosques i sopes de lletres com a eina lúdica entre treballs de relació de continguts i de resposta escrita. </li></ul>",
+    "es": "Este paquete de actividades se ha elaborado como material complementario a la propuesta de trabajo del SEDEC (Servicio de Enseñanza del Catalán) \n<a href=\"http://www.xtec.cat/sedec/activ_primaria.html\" target=\"_blank\">\"Monestirs de Catalunya\"</a>. La aplicación se organiza en cinco bloques:\n<br> \n<ul><li>La vida en la edad media </li>\n<li>La vida en los monasterios </li>\n<li>El gótico y el románico </li>\n<li>Los cistercienses y los benedictinos </li>\n<li>Un vistazo global <br> Se trabajan cuatro tipos distintos de ejercicios (asociación, texto, puzzles y sopas de letras). Se da mas importancia a los dos primeros tipos y se intercalan ejercicios de puzzles y sopas de letras como herramienta lúdica entre trabajos de relación de contenidos y de respuesta escrita. </li></ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "monaster"
+  ],
+  "mainFile": "jclic.js/menu.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/menu.jclic.zip",
+  "instFile": "jclic/menu.jclic.inst",
+  "clicZoneId": 1458,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1458",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/monestir/jclic/menu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 48,
+  "mediaFiles": 32,
+  "totalSize": 1673746,
+  "files": [
+    "cover.jpg",
+    "jclic.js/arquitec/apuntat.jpg",
+    "jclic.js/arquitec/arquitec.jclic",
+    "jclic.js/arquitec/cano.jpg",
+    "jclic.js/arquitec/capitell.jpg",
+    "jclic.js/arquitec/claustre.jpg",
+    "jclic.js/arquitec/creuer.jpg",
+    "jclic.js/arquitec/gotic3.jpg",
+    "jclic.js/arquitec/migpunt.jpg",
+    "jclic.js/arquitec/romanic2.jpg",
+    "jclic.js/arquitec/rosassa.jpg",
+    "jclic.js/arquitec/sdaniel2.jpg",
+    "jclic.js/global/apuntat.jpg",
+    "jclic.js/global/cano.jpg",
+    "jclic.js/global/capitell.jpg",
+    "jclic.js/global/global.jclic",
+    "jclic.js/global/ripoll.jpg",
+    "jclic.js/menu.jclic",
+    "jclic.js/mitjana/cortei.jpg",
+    "jclic.js/mitjana/mitjana.jclic",
+    "jclic.js/mitjana/mitjana1.jpg",
+    "jclic.js/mitjana/mitjana2.jpg",
+    "jclic.js/mitjana/pagesos.jpg",
+    "jclic.js/monacat/ciutat.jpg",
+    "jclic.js/monacat/claustre.jpg",
+    "jclic.js/monacat/monacat.jclic",
+    "jclic.js/monacat/monacat1.jpg",
+    "jclic.js/monacat/monacat2.jpg",
+    "jclic.js/monacat/scriptor.jpg",
+    "jclic.js/monestir/monestir.jclic",
+    "jclic.js/monestir/screus.jpg",
+    "jclic.js/monestir/sdaniel.jpg",
+    "jclic.js/monestir/sjabades.jpg",
+    "jclic.js/monestir/smcadins.jpg",
+    "jclic.js/monestir/smmont.jpg",
+    "jclic.js/monestir/smpoblet.jpg",
+    "jclic.js/monestir/smripoll.jpg",
+    "jclic.js/monestir/sprodes.jpg",
+    "jclic.js/monestir/vallbona.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/menu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/arquitec/arquitec.jclic.js",
+    "jclic.js/global/global.jclic.js",
+    "jclic.js/mitjana/mitjana.jclic.js",
+    "jclic.js/monacat/monacat.jclic.js",
+    "jclic.js/monestir/monestir.jclic.js",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": 2018,
+  "title": "Els articles",
+  "author": "Georgina Olesti",
+  "date": "14/12/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, ortografia",
+    "es": "gramática, ortografía",
+    "en": "grammar, spelling"
+  },
+  "descCodes": [
+    123,
+    146
+  ],
+  "description": {
+    "en": "JClic activities about using articles in Catalan. In the project we find spelling rules to learn how to use the articles and a series of exercises to practice.",
+    "ca": "Breu projecte de 9 activitats sobre l'ús dels articles en llengua catalana. Al projecte trobem les normes ortogràfiques per aprendre a fer-los servir i un seguit d'activitats per practicar-ne el seu ús.",
+    "es": "Breve proyecto de actividades sobre el uso de los artículos en lengua catalana. En el proyecto encontramos las normas ortográficas para aprender a utilizarlos y una serie de ejercicios para practicar su uso."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/articles.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/articles.jclic.zip",
+  "instFile": "jclic/articles.jclic.inst",
+  "clicZoneId": 3592,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3592",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/articles/jclic/articles.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 9,
+  "mediaFiles": 15,
+  "totalSize": 224071,
+  "files": [
+    "cover.gif",
+    "jclic.js/articles.jclic",
+    "jclic.js/avio.png",
+    "jclic.js/bolets.png",
+    "jclic.js/bruixa.png",
+    "jclic.js/cireres.png",
+    "jclic.js/elefant.png",
+    "jclic.js/estrella.png",
+    "jclic.js/flors2.png",
+    "jclic.js/gos.png",
+    "jclic.js/hipopotam.png",
+    "jclic.js/nenaa.png",
+    "jclic.js/profess.png",
+    "jclic.js/seny.png",
+    "jclic.js/tapa.png",
+    "jclic.js/tortuga.png",
+    "jclic.js/tren.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/articles.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

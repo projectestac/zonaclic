@@ -1,0 +1,124 @@
+{
+  "id": 126,
+  "title": "Árboles: identificación por las hojas",
+  "author": "Javier Rey Bacaicoa",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "arbres",
+    "es": "árboles",
+    "en": "trees"
+  },
+  "descCodes": [
+    55
+  ],
+  "description": {
+    "en": "Activity pack concerned with the identification of trees through the observation of it's leaves.",
+    "ca": "Guia per a la identificació de diverses espècies d'arbres a partir de l'observació de les seves fulles. Conté imatges d'alta qualitat, per la qual cosa es recomana tenir la pantalla configurada a un mínim de 256 colors.",
+    "es": "Guía para la identificación de diversas especies de árboles a partir de la observación de sus hojas. Contiene imágenes de alta calidad, por lo que se recomienda tener el monitor configurado a un mínimo de 256 colores."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "zuhaitz"
+  ],
+  "mainFile": "jclic.js/arboles.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/arboles.jclic.zip",
+  "instFile": "jclic/arboles.jclic.inst",
+  "clicZoneId": 1059,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1059",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/arboles/jclic/arboles.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 38,
+  "mediaFiles": 42,
+  "totalSize": 1181832,
+  "files": [
+    "cover.jpg",
+    "jclic.js/abeto.jpg",
+    "jclic.js/acebo.jpg",
+    "jclic.js/aguja.gif",
+    "jclic.js/aguja3.gif",
+    "jclic.js/arboles.gif",
+    "jclic.js/arboles.jclic",
+    "jclic.js/asimetri.jpg",
+    "jclic.js/atras2.gif",
+    "jclic.js/atras3.gif",
+    "jclic.js/bentero.gif",
+    "jclic.js/bespino.gif",
+    "jclic.js/caduca.gif",
+    "jclic.js/carrasca.jpg",
+    "jclic.js/castain2.jpg",
+    "jclic.js/compues1.gif",
+    "jclic.js/compumn1.gif",
+    "jclic.js/encina.jpg",
+    "jclic.js/falsaaca.jpg",
+    "jclic.js/fresno.jpg",
+    "jclic.js/fresnoes.jpg",
+    "jclic.js/haya1.jpg",
+    "jclic.js/hojabet.jpg",
+    "jclic.js/insignis.jpg",
+    "jclic.js/lanza.gif",
+    "jclic.js/lineal.gif",
+    "jclic.js/madrono1.jpg",
+    "jclic.js/nogal2.jpg",
+    "jclic.js/nopalma.gif",
+    "jclic.js/palma.gif",
+    "jclic.js/perennes.jpg",
+    "jclic.js/pinalepo.jpg",
+    "jclic.js/pinoneg2.jpg",
+    "jclic.js/pinosilv.jpg",
+    "jclic.js/redondas.gif",
+    "jclic.js/sauco1.jpg",
+    "jclic.js/saucrojo.jpg",
+    "jclic.js/serval1.jpg",
+    "jclic.js/simetric.jpg",
+    "jclic.js/simple01.gif",
+    "jclic.js/sinraya.gif",
+    "jclic.js/tejo.jpg",
+    "jclic.js/titulo01.jpg",
+    "jclic.js/uncinata.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/arboles.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

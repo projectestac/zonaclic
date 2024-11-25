@@ -1,0 +1,117 @@
+{
+  "id": 1198,
+  "title": "Lengua 2º año EGB",
+  "author": "Estela Rodriguez",
+  "school": "Instituto Ana María Janer Buenos Aires (Argentina)",
+  "date": "01/12/04",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua",
+    "es": "aprendizaje de la lengua",
+    "en": "learning of the language"
+  },
+  "descCodes": [
+    110
+  ],
+  "description": {
+    "en": "Sixteen Clic activities about Spanish language with associations, puzzles, crosswords, etc about the recognition of the orthographic group \n<b>bl</b> i \n<b>fr</b>.",
+    "ca": "Paquet d'activitats que comprèn un conjunt de 16 exercicis d'associacions, trencaclosques, mots encreuats... sobre el reconeixement del grup de lletres \n<b>bl</b> i \n<b>fr</b> així com fixar la seva grafia.",
+    "es": "Paquete de actividades que comprende un conjunto de 16 ejercicios de asociaciones, rompecabezas, crucigramas... sobre el reconocimiento del grupo de letras \n<b>bl</b> i \n<b>fr</b> así como fijar su grafía."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/lengua2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/lengua2.jclic.zip",
+  "instFile": "jclic/lengua2.jclic.inst",
+  "clicZoneId": 2880,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2880",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/lengua2/jclic/lengua2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 38,
+  "totalSize": 991062,
+  "files": [
+    "cover.gif",
+    "jclic.js/africa.gif",
+    "jclic.js/blusa.gif",
+    "jclic.js/blusa.wav",
+    "jclic.js/cables.gif",
+    "jclic.js/cables.wav",
+    "jclic.js/cofre.gif",
+    "jclic.js/cofre.wav",
+    "jclic.js/cofrebrd.gif",
+    "jclic.js/cofrecit.gif",
+    "jclic.js/cofregr.gif",
+    "jclic.js/farol.gif",
+    "jclic.js/foca.gif",
+    "jclic.js/frambues.gif",
+    "jclic.js/frambues.wav",
+    "jclic.js/frasco.gif",
+    "jclic.js/frasco.wav",
+    "jclic.js/fresco.gif",
+    "jclic.js/fritabrd.gif",
+    "jclic.js/fritas.gif",
+    "jclic.js/fritas.wav",
+    "jclic.js/fruta.gif",
+    "jclic.js/frutas.gif",
+    "jclic.js/frutas.wav",
+    "jclic.js/frutbrde.gif",
+    "jclic.js/frutill.gif",
+    "jclic.js/frutilla.gif",
+    "jclic.js/frutilla.wav",
+    "jclic.js/fuego.gif",
+    "jclic.js/lengua2.jclic",
+    "jclic.js/mueble.gif",
+    "jclic.js/mueble.wav",
+    "jclic.js/pablo.gif",
+    "jclic.js/pablo.wav",
+    "jclic.js/papfrita.gif",
+    "jclic.js/presenta.gif",
+    "jclic.js/pueblo.gif",
+    "jclic.js/pueblo.wav",
+    "jclic.js/tabla.gif",
+    "jclic.js/tabla.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/lengua2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

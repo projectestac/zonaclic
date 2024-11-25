@@ -1,0 +1,110 @@
+{
+  "id": 935,
+  "title": "Les jeunes et la mode",
+  "author": "Julio Nieto",
+  "date": "18/12/02",
+  "languages": {
+    "en": "French",
+    "ca": "francès",
+    "es": "francés"
+  },
+  "langCodes": [
+    "fr"
+  ],
+  "areas": {
+    "ca": "Llengües",
+    "es": "Lenguas",
+    "en": "Languages"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua francesa",
+    "es": "lengua francesa",
+    "en": "French language"
+  },
+  "descCodes": [
+    136
+  ],
+  "description": {
+    "en": "Package of activities in French about the young fashion.",
+    "ca": "En aquest paquet d'activitats de llengua francesa es treballa el vocabulari relacionat amb la roba i la moda.",
+    "es": "Paquete de actividades en francés sobre la moda de los jóvenes."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/vetement.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/vetement.jclic.zip",
+  "instFile": "jclic/vetement.jclic.inst",
+  "clicZoneId": 2044,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2044",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/vetement/jclic/vetement.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 32,
+  "totalSize": 499238,
+  "files": [
+    "cover.gif",
+    "jclic.js/basket.gif",
+    "jclic.js/bd0.gif",
+    "jclic.js/bd1.gif",
+    "jclic.js/bd2.gif",
+    "jclic.js/bd3.gif",
+    "jclic.js/bd4.gif",
+    "jclic.js/bd5.gif",
+    "jclic.js/bd6.gif",
+    "jclic.js/beret.gif",
+    "jclic.js/blouson.gif",
+    "jclic.js/chausete.gif",
+    "jclic.js/chemise.gif",
+    "jclic.js/clicfond.gif",
+    "jclic.js/costume.gif",
+    "jclic.js/echarpe.gif",
+    "jclic.js/gants.gif",
+    "jclic.js/jeans.gif",
+    "jclic.js/jupe.gif",
+    "jclic.js/maillot.gif",
+    "jclic.js/model1.gif",
+    "jclic.js/model2.gif",
+    "jclic.js/model3.gif",
+    "jclic.js/model4.gif",
+    "jclic.js/pantalon.gif",
+    "jclic.js/robe.gif",
+    "jclic.js/souliers.gif",
+    "jclic.js/tricot.gif",
+    "jclic.js/tshirt.gif",
+    "jclic.js/veste.gif",
+    "jclic.js/vetem01.gif",
+    "jclic.js/vetem1.gif",
+    "jclic.js/vetem3.gif",
+    "jclic.js/vetement.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/vetement.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

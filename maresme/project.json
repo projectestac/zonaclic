@@ -1,0 +1,91 @@
+{
+  "id": 1141,
+  "title": "La comarca del Maresme",
+  "author": "Conxita Vicente",
+  "school": "Escola Vaixell Burriac Vilassar de Mar (Maresme)",
+  "date": "09/06/04",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "Maresme, comarques",
+    "es": "Maresme, comarcas",
+    "en": "Maresme, provinces"
+  },
+  "descCodes": [
+    531,
+    758
+  ],
+  "description": {
+    "en": "Clic activities about the catalan county of Maresme: \n<ul> \n <li>Situation </li>\n <li>Population </li>\n <li>Relief </li>\n <li>Climate </li>\n <li>Rivers </li>\n</ul>",
+    "ca": "Aquest projecte va adreçat als nens de quart de primària i l'objectiu principal és conèixer la comarca del Maresme. Es treballen els següents aspectes: \n<ul> \n <li>Situació: Comarques que l'envolten i la seva capital. </li>\n <li>Població: Conèixer els noms dels pobles de la comarca. </li>\n <li>Relleu: Nom de les unitats de relleu i situació. </li>\n <li>Clima: Característiques del clima al Maresme. </li>\n <li>Rius i rieres: Conèixer la xarxa hidrogràfica del Maresme. </li>\n</ul>",
+    "es": "Este proyecto va dirigido a niños de cuarto de primaria y su objetivo principal es conocer la comarca catalana del Maresme. Se trabajan los siguientes aspectos: \n<ul> \n <li>Situación: Comarcas que la rodean y su capital. </li>\n <li>Población: Conocer los nombres de los pueblos de la comarca. </li>\n <li>Relieve: Nombre de las unidades de relieve y situación. </li>\n <li>Clima: Características del clima del Maresme. </li>\n <li>Ríos y rieras: Conocer la red hidrográfica del Maresme. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/maresme.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/maresme.jclic.zip",
+  "instFile": "jclic/maresme.jclic.inst",
+  "clicZoneId": 2544,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2544",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/maresme/jclic/maresme.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 11,
+  "totalSize": 2294037,
+  "files": [
+    "cover.jpg",
+    "jclic.js/corred_1.jpg",
+    "jclic.js/cvein.gif",
+    "jclic.js/dibu1.gif",
+    "jclic.js/gracli.gif",
+    "jclic.js/mapmar_1.gif",
+    "jclic.js/maresme.jclic",
+    "jclic.js/moltbe1.wav",
+    "jclic.js/nocovei.gif",
+    "jclic.js/ocell.wav",
+    "jclic.js/pomas.gif",
+    "jclic.js/rema.gif",
+    "jclic.js/riera.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/maresme.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": 2416,
+  "title": "Manger, bouger pour ma santé",
+  "author": "Jordi Ortiz de Antonio",
+  "school": "Servei d'Immersió i Acolliment Lingüístics Barcelona",
+  "date": "12/11/15",
+  "languages": {
+    "en": "Catalan, French, Portuguese",
+    "ca": "català, francès, portuguès",
+    "es": "catalán, francés, portugués"
+  },
+  "langCodes": [
+    "ca",
+    "fr",
+    "pt"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages",
+    "ca": "Ciències experimentals, Llengües",
+    "es": "Ciencias experimentales, Lenguas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aliments, aprenentatge de la llengua, gramàtica, lèxic, aprenentatge de les llengües estrangeres",
+    "es": "alimentos, aprendizaje de la lengua, gramática, léxico, aprendizaje de las lenguas extranjeras",
+    "en": "foods, learning of the language, grammar, lexicon, learning of the foreign languages"
+  },
+  "descCodes": [
+    49,
+    110,
+    123,
+    126,
+    660
+  ],
+  "description": {
+    "en": "JClic project about the program \"Eat and move us to health\", which is part of the \n<i>Projecte Sciences et Société</i>, a work of science content and citizenship through the Catalan, French and Portugueses languages.",
+    "ca": "Aquest JClic és el treball multimèdia del programa \"Mengem i movem-nos per la salut\", que s'emmarca en el \n<i>Projecte Sciences et Société</i>, amb un treball de continguts de ciència i ciutadania per mitjà de les llengües catalana, francesa i portuguesa. \n<p> Amb ell es vol donar a conèixer temes relacionats amb la importància d'una dieta variada i equilibrada per portar una vida saludable, i els avantatges de dur a terme l'exercici físic necessari per combatre el sedentarisme. </p>",
+    "es": "Este JClic es el trabajo mulimedia del programa \"Comamos y movámonos por la salud\", que se enmarca en el \n<i>Projecte Sciences et Société</i>, con un trabajo de contenidos de ciencia y ciudadania mediante las lenguas catalana, francesa y portuguesa. \n<p> Con él se quiere dar a conocer temas relacionados con la importancia de una dieta variada y equilibrada para una vida saludable, y las ventajas de realizar el ejercicio físico necesario para combatir el sedentarismo. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/mbs.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mbs.jclic.zip",
+  "instFile": "jclic/mbs.jclic.inst",
+  "clicZoneId": 3924,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3924",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/mbs/jclic/mbs.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 50,
+  "totalSize": 3109971,
+  "files": [
+    "cover.png",
+    "jclic.js/01.jpg",
+    "jclic.js/02.jpg",
+    "jclic.js/03.jpg",
+    "jclic.js/04.jpg",
+    "jclic.js/05.jpg",
+    "jclic.js/06.jpg",
+    "jclic.js/07.jpg",
+    "jclic.js/08.jpg",
+    "jclic.js/09.jpg",
+    "jclic.js/10.jpg",
+    "jclic.js/11.jpg",
+    "jclic.js/12.jpg",
+    "jclic.js/alimentacio_resized.jpg",
+    "jclic.js/avoir_chaud_resized.jpg",
+    "jclic.js/avoir_soif.jpg",
+    "jclic.js/cereales_resized.jpg",
+    "jclic.js/courir_resized.jpg",
+    "jclic.js/course_athlete_resized.jpg",
+    "jclic.js/desequilibre_alimentaire_resized2.jpg",
+    "jclic.js/dormir.jpg",
+    "jclic.js/eau2_resized.jpg",
+    "jclic.js/faire_de_l_ordinateur.jpg",
+    "jclic.js/fatigue_resized.jpg",
+    "jclic.js/fruit_resized.jpg",
+    "jclic.js/fruits_de_la_mer.jpg",
+    "jclic.js/graisses_resized.jpg",
+    "jclic.js/groupes_d_aliments_resized.jpg",
+    "jclic.js/gymnastique_resized.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/jeux_video_resized.jpg",
+    "jclic.js/lait.png",
+    "jclic.js/legumes_resized.jpg",
+    "jclic.js/marcher.jpg",
+    "jclic.js/mbs.jclic",
+    "jclic.js/mbs.jpg",
+    "jclic.js/nager_resized.jpg",
+    "jclic.js/oeufs_resized.jpg",
+    "jclic.js/pate_resized.jpg",
+    "jclic.js/plus_je_bouge_plus_je_me_depense_resized.jpg",
+    "jclic.js/poisson_resized.jpg",
+    "jclic.js/pulso_rapido.jpg",
+    "jclic.js/regarder_la_tele_resized.jpg",
+    "jclic.js/respirer.jpg",
+    "jclic.js/rougir_resized.jpg",
+    "jclic.js/s_essouffler.png",
+    "jclic.js/sauter.jpg",
+    "jclic.js/sucre.jpg",
+    "jclic.js/tango_resized.jpg",
+    "jclic.js/tous_differents_resized.jpg",
+    "jclic.js/transpirer_resized.jpg",
+    "jclic.js/viande.jpg",
+    "jclic.js/voyager_dans_une_voiture_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/mbs.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

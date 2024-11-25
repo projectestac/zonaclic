@@ -1,0 +1,98 @@
+{
+  "id": 2246,
+  "title": "Estadística bidimensional",
+  "author": "Eva Maria Lindo Martín",
+  "school": "Institut El Castell Esparreguera (Baix Llobregat)",
+  "date": "24/04/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "estadística",
+    "es": "estadística",
+    "en": "statistic"
+  },
+  "descCodes": [
+    706
+  ],
+  "description": {
+    "en": "Set of activities about bidimensional distributions: \n<ul> \n <li>Bidimensional distributions:<ul> \n  <li>Graphical representation: point cloud</li> \n  <li>Correlation: intensity and sign</li> \n  <li>Regression curve</li> \n </ul></li> \n <li>Correlation value </li>\n <li>Regression line </li>\n <li>Linear regression for data extrapolation, interpolation and estimation</li> \n</ul>",
+    "ca": "Conjunt d'activitats sobre les distribucions bidimensionals: \n<ul> \n <li>Distribucions bidimensionals: <ul> \n  <li>Representació gràfica: núvol de punts</li> \n  <li>Correlació: intensitat i signe</li> \n  <li>La recta de regressió</li> \n </ul></li> \n <li>El valor de la correlació</li> \n <li>La recta de regressió</li> \n <li>La recta de regressió per fer estimacions. Interpolació i extrapolació de dades</li> \n</ul>",
+    "es": "Conjunto de actividades sobre distribuciones bidimensionales: \n<ul> \n <li>Distribuciones bidimensionales: <ul> \n  <li>Representación gráfica: nube de puntos</li> \n  <li>Correlación: intensidad y signo</li> \n  <li>La recta de regresión</li> \n </ul></li> \n <li>El valor de la correlación</li> \n <li>La recta de regresión</li> \n <li>La recta de regresión para hacer estimaciones. Interpolación y extrapolación de datos</li> \n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/estadis3.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/estadis3.jclic.zip",
+  "instFile": "jclic/estadis3.jclic.inst",
+  "clicZoneId": 3764,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3764",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/estadis3/jclic/estadis3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 19,
+  "totalSize": 654102,
+  "files": [
+    "cover.png",
+    "jclic.js/correlacio.jpg",
+    "jclic.js/covariancia.jpg",
+    "jclic.js/estadis3.jclic",
+    "jclic.js/estadistica_negativa_2.jpg",
+    "jclic.js/funcional_negativa.jpg",
+    "jclic.js/interrogant.jpg",
+    "jclic.js/negativa_molt_dispersa.jpg",
+    "jclic.js/negativa_poc_dispersa.jpg",
+    "jclic.js/no_relacio.jpg",
+    "jclic.js/no_relacio_2.jpg",
+    "jclic.js/ordenada_origen.jpg",
+    "jclic.js/pedent.jpg",
+    "jclic.js/positiva_molt_dispersa.jpg",
+    "jclic.js/positiva_poc_dispersa.jpg",
+    "jclic.js/puzzle_resized.jpg",
+    "jclic.js/recta_positiva.jpg",
+    "jclic.js/recta_regressio.jpg",
+    "jclic.js/titol3.jpg",
+    "jclic.js/variancia_x.jpg",
+    "jclic.js/variancia_y.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/estadis3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

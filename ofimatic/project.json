@@ -1,0 +1,142 @@
+{
+  "id": 2408,
+  "title": "Ofimática básica",
+  "author": "Brahayan Christiam Ramirez Burneo",
+  "date": "22/10/15",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Design & technology",
+    "ca": "Tecnologies",
+    "es": "Tecnología"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "didàctica de la tecnologia, informàtica",
+    "es": "didáctica de la tecnología, informática",
+    "en": "Didactics of the technology, computer science"
+  },
+  "descCodes": [
+    733,
+    737
+  ],
+  "description": {
+    "en": "JClic activities Course Office. We emphasize programs like Word, Excel, PowerPoint, Access.",
+    "ca": "Projecte d'activitats JClic d'Ofimàtica Bàsica. Es fa èmfasi en els programes de Word, Excel, PowerPoint, Access.",
+    "es": "Proyecto de actividades JClic de Ofimática Básica. Se hace énfasis en los programas de Word, Excel, PowerPoint, Access."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ofimatic.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ofimatic.jclic.zip",
+  "instFile": "jclic/ofimatic.jclic.inst",
+  "clicZoneId": 3916,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3916",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ofimatic/jclic/ofimatic.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 63,
+  "totalSize": 2590163,
+  "files": [
+    "cover.png",
+    "jclic.js/1battle_axe.mp3",
+    "jclic.js/2pump_shotgun.mp3",
+    "jclic.js/36.png",
+    "jclic.js/3balloon_popping.mp3",
+    "jclic.js/4strong_punch.mp3",
+    "jclic.js/5bow_fire_arrow.mp3",
+    "jclic.js/access.png",
+    "jclic.js/access.wav",
+    "jclic.js/aprendeelnombre_de_cada_uno.mp3",
+    "jclic.js/arma_el_rompecabezas.mp3",
+    "jclic.js/arma_y_descubre_el_mensaje.mp3",
+    "jclic.js/bienvenido.wav",
+    "jclic.js/blip.mp3",
+    "jclic.js/boton.mp3",
+    "jclic.js/capa_10.png",
+    "jclic.js/capa_5.png",
+    "jclic.js/capa_6.png",
+    "jclic.js/capa_7.png",
+    "jclic.js/capa_8.png",
+    "jclic.js/capa_9.png",
+    "jclic.js/click.mp3",
+    "jclic.js/completa_eltexto.mp3",
+    "jclic.js/completaelcrucigrama.mp3",
+    "jclic.js/cuales_son_las_caracteristicas_de_excel.mp3",
+    "jclic.js/dia_resized.jpg",
+    "jclic.js/e1.png",
+    "jclic.js/e2.png",
+    "jclic.js/e3.png",
+    "jclic.js/e4.png",
+    "jclic.js/e5.png",
+    "jclic.js/error.mp3",
+    "jclic.js/excel.png",
+    "jclic.js/excel.wav",
+    "jclic.js/fallaste.mp3",
+    "jclic.js/fin.png",
+    "jclic.js/hastaluego.mp3",
+    "jclic.js/herramientasofimaticas.mp3",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/jclicprincipal2.png",
+    "jclic.js/localizalasparejas.mp3",
+    "jclic.js/microsoft_onenote.png",
+    "jclic.js/microsoft_outlook.png",
+    "jclic.js/muybien.mp3",
+    "jclic.js/noche_resized.jpg",
+    "jclic.js/ofimatic.jclic",
+    "jclic.js/onenote.wav",
+    "jclic.js/ordena.mp3",
+    "jclic.js/outlook.wav",
+    "jclic.js/pcs_resized.jpg",
+    "jclic.js/pop.mp3",
+    "jclic.js/powerpoint.png",
+    "jclic.js/powerpoint.wav",
+    "jclic.js/relaciona_las_imagenes_con_el_texto..mp3",
+    "jclic.js/selecciona_un_numero.mp3",
+    "jclic.js/seleccionlacorrecta.mp3",
+    "jclic.js/selecpalabrainco.mp3",
+    "jclic.js/smile.png",
+    "jclic.js/smile2.png",
+    "jclic.js/smile3.png",
+    "jclic.js/sopa_de_letras.mp3",
+    "jclic.js/tim.wav",
+    "jclic.js/tiny.mp3",
+    "jclic.js/ventana_word_explicada.png",
+    "jclic.js/word.png",
+    "jclic.js/word.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ofimatic.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

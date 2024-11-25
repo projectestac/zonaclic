@@ -1,0 +1,139 @@
+{
+  "id": 695,
+  "title": "Potencias y raíces cuadradas",
+  "author": "José Ortega Ruiz",
+  "school": "Junta de Andalucía (Consejería de Educación y Ciencia) Isla de la Cartuja (Sevilla)",
+  "date": "29/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "càlcul",
+    "es": "cálculo",
+    "en": "calculation"
+  },
+  "descCodes": [
+    702
+  ],
+  "description": {
+    "en": "Clic activities about powers and resolution of square roots, for Secondary Education.",
+    "ca": "Paquet d'activitats Clic on es treballa el concepte de potència i l'algorisme de resolució manual de l'arrel quadrada, adreçat a 1r d'ESO. El paquet conté activitats explicatives, d'associació, de tria d'opcions, trencaclosques, etc.",
+    "es": "Paquete de actividades Clic en el que se trabaja el concepto de potencia y el algoritmo de resolución manual de la raíz cuadrada, dirigido a 1º de ESO. El paquete contiene actividades explicativas, de asociación, de elección de opciones, puzzles, etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/poten.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/poten.jclic.zip",
+  "instFile": "jclic/poten.jclic.inst",
+  "clicZoneId": 1364,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1364",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/poten/jclic/poten.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 60,
+  "totalSize": 313085,
+  "files": [
+    "cover.gif",
+    "jclic.js/10cua.gif",
+    "jclic.js/10cuarta.gif",
+    "jclic.js/10cubo.gif",
+    "jclic.js/10quinta.gif",
+    "jclic.js/10septim.gif",
+    "jclic.js/10sexta.gif",
+    "jclic.js/128cua_1.gif",
+    "jclic.js/15sexta.gif",
+    "jclic.js/1_1.gif",
+    "jclic.js/1junta.gif",
+    "jclic.js/2_2.gif",
+    "jclic.js/2alcua_1.gif",
+    "jclic.js/30.gif",
+    "jclic.js/31.gif",
+    "jclic.js/3cua2.gif",
+    "jclic.js/3cua22.gif",
+    "jclic.js/3cuadr_1.gif",
+    "jclic.js/4cua.gif",
+    "jclic.js/5cuarta.gif",
+    "jclic.js/60cua.gif",
+    "jclic.js/7sexta.gif",
+    "jclic.js/9alase_1.gif",
+    "jclic.js/comien.gif",
+    "jclic.js/conseje.gif",
+    "jclic.js/cua1.gif",
+    "jclic.js/cursder.gif",
+    "jclic.js/exac1.gif",
+    "jclic.js/exac2.gif",
+    "jclic.js/exac2b.gif",
+    "jclic.js/exac3.gif",
+    "jclic.js/exac3a.gif",
+    "jclic.js/exac4.gif",
+    "jclic.js/exac4b.gif",
+    "jclic.js/exac5.gif",
+    "jclic.js/exac5b.gif",
+    "jclic.js/exac6.gif",
+    "jclic.js/exac6b.gif",
+    "jclic.js/exac7.gif",
+    "jclic.js/exac7b.gif",
+    "jclic.js/fin.gif",
+    "jclic.js/final3.mid",
+    "jclic.js/flechai.gif",
+    "jclic.js/i.gif",
+    "jclic.js/interro.gif",
+    "jclic.js/poten.jclic",
+    "jclic.js/puerta.gif",
+    "jclic.js/raiz.gif",
+    "jclic.js/raiz0.gif",
+    "jclic.js/raiz10.gif",
+    "jclic.js/raiz109.gif",
+    "jclic.js/raiz16.gif",
+    "jclic.js/raiz17.gif",
+    "jclic.js/raiz2.gif",
+    "jclic.js/raiz30.gif",
+    "jclic.js/raiz49.gif",
+    "jclic.js/raiz53.gif",
+    "jclic.js/raiz59.gif",
+    "jclic.js/raiz64.gif",
+    "jclic.js/raiz81.gif",
+    "jclic.js/raiz9.gif",
+    "jclic.js/venta.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/poten.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

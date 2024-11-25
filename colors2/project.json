@@ -1,0 +1,87 @@
+{
+  "id": 1602,
+  "title": "Els colors",
+  "author": "Maria Del Mar Martinez Casas",
+  "school": "Escola Canigó Vilanova i la Geltrú (Garraf)",
+  "date": "19/06/06",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Art & design, Languages",
+    "ca": "Visual i plàstica, Llengües",
+    "es": "Plástica y visual, Lenguas"
+  },
+  "areaCodes": [
+    "vip",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "description": {
+    "en": "Project of activities about the colours and the chromatic circle.",
+    "ca": "Projecte d'activitats sobre els colors i el cercle cromàtic.",
+    "es": "Proyecto de actividades sobre los colores y el círculo cromático."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/colors2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/colors2.jclic.zip",
+  "instFile": "jclic/colors2.jclic.inst",
+  "clicZoneId": 3315,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3315",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/colors2/jclic/colors2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 15,
+  "totalSize": 232596,
+  "files": [
+    "cover.gif",
+    "jclic.js/blau.gif",
+    "jclic.js/cercle_cromatic_gran.jpg",
+    "jclic.js/colors2.jclic",
+    "jclic.js/groc.gif",
+    "jclic.js/groc_blau.gif",
+    "jclic.js/groc_magenta.gif",
+    "jclic.js/images_82_.jpg",
+    "jclic.js/lila.gif",
+    "jclic.js/magenta_blau.gif",
+    "jclic.js/pinzell1.jpg",
+    "jclic.js/pinzell2.jpg",
+    "jclic.js/portada1.gif",
+    "jclic.js/portada2.gif",
+    "jclic.js/taronja.gif",
+    "jclic.js/verd.gif",
+    "jclic.js/vermell.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/colors2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

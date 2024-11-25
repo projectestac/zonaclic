@@ -1,0 +1,103 @@
+{
+  "id": 146,
+  "title": "O sistema solar - 2",
+  "author": "Hector Tejeda M. i Manuel Tejeda",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "sistema solar",
+    "es": "sistema solar",
+    "en": "Solar System"
+  },
+  "descCodes": [
+    104
+  ],
+  "description": {
+    "en": "Activity pack about the solar system, its planets and satellites.",
+    "ca": "Paquet d'activitats sobre el sistema solar organitzat en tres seccions: \"Nivell bàsic\", \"Nivell avançat\" i \"Informació\". S'hi treballen els planetes i altres cossos celestes: satèl·lits, cometes, asteroides...",
+    "es": "Paquete de actividades sobre el sistema solar organizado en tres secciones: \"Nivel básico\", \"Nivel avanzado\" e \"Información\", en los que se plantean ejercicios sobre los planetas y otros cuerpos celestes: satélites, cometas, asteroides..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "ssolar2"
+  ],
+  "mainFile": "jclic.js/ssolaga2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ssolaga2.jclic.zip",
+  "instFile": "jclic/ssolaga2.jclic.inst",
+  "clicZoneId": 1070,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1070",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ssolaga2/jclic/ssolaga2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 89,
+  "mediaFiles": 22,
+  "totalSize": 618783,
+  "files": [
+    "cover.gif",
+    "jclic.js/asteroid.jpg",
+    "jclic.js/cometa.jpg",
+    "jclic.js/cometa2.jpg",
+    "jclic.js/galax.jpg",
+    "jclic.js/galax2.jpg",
+    "jclic.js/galaxia.jpg",
+    "jclic.js/jupiter.jpg",
+    "jclic.js/luna.jpg",
+    "jclic.js/marte.jpg",
+    "jclic.js/mercurio.jpg",
+    "jclic.js/neptuno.jpg",
+    "jclic.js/pluton.jpg",
+    "jclic.js/romp.jpg",
+    "jclic.js/saturno.jpg",
+    "jclic.js/smarte.jpg",
+    "jclic.js/sol.jpg",
+    "jclic.js/sol2.jpg",
+    "jclic.js/sol3.jpg",
+    "jclic.js/ssolaga2.jclic",
+    "jclic.js/ssolar.jpg",
+    "jclic.js/tierra.jpg",
+    "jclic.js/urano.jpg",
+    "jclic.js/venus.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ssolaga2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

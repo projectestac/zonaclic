@@ -1,0 +1,134 @@
+{
+  "id": 936,
+  "title": "Cuentos",
+  "author": "Juan Oliete Andreu",
+  "school": "CP Gloria Arenillas Zaragoza",
+  "date": "12/12/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Llengües",
+    "es": "Lenguas",
+    "en": "Languages"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)",
+    "en": "Kindergarten (3-6), Primary school (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "conte",
+    "es": "cuento",
+    "en": "story"
+  },
+  "descCodes": [
+    614
+  ],
+  "description": {
+    "en": "Package of activities for the comprehensive reading based on 4 short tales : \n<ul> \n <li>Cat¿s party </li>\n <li>Allblack and allcolour </li>\n <li>The coldish rabbit </li>\n</ul>",
+    "ca": "Paquet d'activitats per a la lectura comprensiva a partir de quatre històries molt curtes: \n<ul> \n <li>La festa del gat </li>\n <li>Totnegre y totcolor </li>\n <li>El conill fredolic </li>\n <li>L'ase i la vaca </li>\n</ul>",
+    "es": "Paquete de actividades para la lectura comprensiva de cuatro historias muy cortas: \n<ul> \n <li>La fiesta del gato </li>\n <li>Todonegro y todocolor </li>\n <li>El conejo friolero </li>\n <li>El burro y la vaca </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "4ipuin"
+  ],
+  "mainFile": "jclic.js/cuentos2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cuentos2.jclic.zip",
+  "instFile": "jclic/cuentos2.jclic.inst",
+  "clicZoneId": 2045,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2045",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cuentos2/jclic/cuentos2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 112,
+  "mediaFiles": 43,
+  "totalSize": 626680,
+  "files": [
+    "cover.gif",
+    "jclic.js/burro/b1.gif",
+    "jclic.js/burro/b11.gif",
+    "jclic.js/burro/b2.gif",
+    "jclic.js/burro/b22.gif",
+    "jclic.js/burro/b3.gif",
+    "jclic.js/burro/b33.gif",
+    "jclic.js/burro/b4.gif",
+    "jclic.js/burro/b44.gif",
+    "jclic.js/burro/b5.gif",
+    "jclic.js/burro/b55.gif",
+    "jclic.js/burro/b6.gif",
+    "jclic.js/burro/b66.gif",
+    "jclic.js/burro/burro.jclic",
+    "jclic.js/burro/dibujo.gif",
+    "jclic.js/burro/portbu.gif",
+    "jclic.js/cc.gif",
+    "jclic.js/conejo/c1.gif",
+    "jclic.js/conejo/c2.gif",
+    "jclic.js/conejo/c3.gif",
+    "jclic.js/conejo/c4.gif",
+    "jclic.js/conejo/c5.gif",
+    "jclic.js/conejo/c6.gif",
+    "jclic.js/conejo/conejo.jclic",
+    "jclic.js/conejo/dibujo.gif",
+    "jclic.js/conejo/portcon.gif",
+    "jclic.js/cuentos2.jclic",
+    "jclic.js/dd.gif",
+    "jclic.js/gato/g1.gif",
+    "jclic.js/gato/g2.gif",
+    "jclic.js/gato/g3.gif",
+    "jclic.js/gato/g4.gif",
+    "jclic.js/gato/g5.gif",
+    "jclic.js/gato/g6.gif",
+    "jclic.js/gato/gato.jclic",
+    "jclic.js/gato/gfin.gif",
+    "jclic.js/gato/portgat.gif",
+    "jclic.js/pajaro/dibujo.gif",
+    "jclic.js/pajaro/p11.gif",
+    "jclic.js/pajaro/p22.gif",
+    "jclic.js/pajaro/p33.gif",
+    "jclic.js/pajaro/p44.gif",
+    "jclic.js/pajaro/p55.gif",
+    "jclic.js/pajaro/p66.gif",
+    "jclic.js/pajaro/pajaro.jclic",
+    "jclic.js/pajaro/portpaj.gif",
+    "jclic.js/porgr.gif",
+    "jclic.js/tt.gif",
+    "jclic.js/u.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cuentos2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/burro/burro.jclic.js",
+    "jclic.js/conejo/conejo.jclic.js",
+    "jclic.js/gato/gato.jclic.js",
+    "jclic.js/pajaro/pajaro.jclic.js",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": 1913,
+  "title": "Sons oberts i tancats",
+  "author": "Jordi Marcó i Ruiz",
+  "school": "Escola Sant Martí Arenys de Munt (Maresme)",
+  "date": "05/05/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "fonètica, llengua catalana",
+    "es": "fonética, lengua catalana",
+    "en": "phonetics, Catalan language"
+  },
+  "descCodes": [
+    121,
+    133
+  ],
+  "description": {
+    "en": "JClic activities about sounds in Catalan language. The project has two different parts: \n<ul> \n <li>Treballem els sons de la /e/ </li>\n <li>Treballem els sons de la /o/ </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre els sons oberts i tancats en llengua catalana. Les activitats es divideixen en dues parts: \n<ul> \n <li>Treballem els sons de la /e/ </li>\n <li>Treballem els sons de la /o/ </li>\n</ul>",
+    "es": "Proyecto de actividades sobre los sonidos abiertos y cerrados en lengua catalana. Las actividades se dividen en dos partes: \n<ul> \n <li>Trabajamos los sonidos de la /e/ </li>\n <li>Trabajamos los sonidos de la /o/ </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sons.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sons.jclic.zip",
+  "instFile": "jclic/sons.jclic.inst",
+  "clicZoneId": 3539,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3539",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sons/jclic/sons.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 29,
+  "mediaFiles": 50,
+  "totalSize": 2828884,
+  "files": [
+    "cover.gif",
+    "jclic.js/becorrecte.wav",
+    "jclic.js/bexai.wav",
+    "jclic.js/bomba.wav",
+    "jclic.js/cafe.wav",
+    "jclic.js/cel.wav",
+    "jclic.js/cel2.gif",
+    "jclic.js/colla.wav",
+    "jclic.js/dimecres.wav",
+    "jclic.js/dona.gif",
+    "jclic.js/dona.wav",
+    "jclic.js/donaverb.wav",
+    "jclic.js/escola.wav",
+    "jclic.js/esfera.wav",
+    "jclic.js/esquelet.jpg",
+    "jclic.js/esquirol.wav",
+    "jclic.js/finestra.wav",
+    "jclic.js/foc.wav",
+    "jclic.js/foca.wav",
+    "jclic.js/forn.wav",
+    "jclic.js/gol.wav",
+    "jclic.js/gos.wav",
+    "jclic.js/infusio.wav",
+    "jclic.js/llimona.wav",
+    "jclic.js/llop.wav",
+    "jclic.js/lobo.gif",
+    "jclic.js/maleta.wav",
+    "jclic.js/martell.wav",
+    "jclic.js/meva.wav",
+    "jclic.js/ok.jpg",
+    "jclic.js/os.gif",
+    "jclic.js/osanimal.wav",
+    "jclic.js/osdelcos.wav",
+    "jclic.js/ovella.gif",
+    "jclic.js/pages.wav",
+    "jclic.js/poma.wav",
+    "jclic.js/pressons.gif",
+    "jclic.js/selva.wav",
+    "jclic.js/serp.gif",
+    "jclic.js/serp.wav",
+    "jclic.js/sol.gif",
+    "jclic.js/sol.wav",
+    "jclic.js/sons.jclic",
+    "jclic.js/sons2.gif",
+    "jclic.js/te.jpg",
+    "jclic.js/teinfusio.wav",
+    "jclic.js/tetenir.wav",
+    "jclic.js/vaixell.wav",
+    "jclic.js/vela.wav",
+    "jclic.js/vent.wav",
+    "jclic.js/verbdonar.gif",
+    "jclic.js/verbtenir.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sons.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

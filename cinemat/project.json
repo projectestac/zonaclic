@@ -1,0 +1,106 @@
+{
+  "id": 105,
+  "title": "Cinemàtica rectilínia",
+  "author": "Joan García Martínez",
+  "date": "09/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "física, representació gràfica",
+    "es": "física, representación gráfica",
+    "en": "physics, graphical representation"
+  },
+  "descCodes": [
+    72,
+    715
+  ],
+  "description": {
+    "en": "Activity pack for high school students focusing on graph mapping. The activities propose exercises such as graph making, related subjects, graph relations and values...",
+    "ca": "Paquet d'activitats adreçat a l'Educació secundària i centrat en el tema de la cinemàtica rectilínia. Proposa exercicis com: compondre gràfiques, treballar conceptes relacionats amb el tema, relacionar gràfiques i valors...",
+    "es": "Paquete de actividades dirigido a la ESO y centrado en el tema de la cinemática rectilínea. Propone ejercicios como componer gráficas, trabajar conceptos relacionados con el tema, relacionar gráficas y valores..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "cinemaga"
+  ],
+  "mainFile": "jclic.js/cinemat.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cinemat.jclic.zip",
+  "instFile": "jclic/cinemat.jclic.inst",
+  "clicZoneId": 1051,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1051",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cinemat/jclic/cinemat.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 24,
+  "totalSize": 113585,
+  "files": [
+    "cover.gif",
+    "jclic.js/cinemat.jclic",
+    "jclic.js/g1.gif",
+    "jclic.js/g2.gif",
+    "jclic.js/g3.gif",
+    "jclic.js/g4.gif",
+    "jclic.js/g5.gif",
+    "jclic.js/g6.gif",
+    "jclic.js/h1.gif",
+    "jclic.js/h3.gif",
+    "jclic.js/h4.gif",
+    "jclic.js/h5.gif",
+    "jclic.js/h6.gif",
+    "jclic.js/i1.gif",
+    "jclic.js/i3.gif",
+    "jclic.js/i4.gif",
+    "jclic.js/i5.gif",
+    "jclic.js/i6.gif",
+    "jclic.js/j1.gif",
+    "jclic.js/j2.gif",
+    "jclic.js/j3.gif",
+    "jclic.js/j4.gif",
+    "jclic.js/j5.gif",
+    "jclic.js/massoc1.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/trenc1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cinemat.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

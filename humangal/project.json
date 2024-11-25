@@ -1,0 +1,134 @@
+{
+  "id": 94,
+  "title": "El cos humà - 1",
+  "author": "Seminari d'Informàtica Educativa del Pla d'Urgell",
+  "date": "09/07/02",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "anatomia",
+    "es": "anatomía",
+    "en": "anatomy"
+  },
+  "descCodes": [
+    51
+  ],
+  "description": {
+    "en": "Activity pack about the human body: Digestive, respiratory, reproductive and circulatory systems are studied. This material corresponds to the programming unit\n<b><a href=\"http://www.xtec.cat/recursos/curricul/experim/coshuma.htm\" target=\"_blank\">\"El cos humà\"</a></b>.",
+    "ca": "Paquet d'activitats sobre el cos humà: els aparells digestiu, excretor, locomotor, respiratori, reproductor i circulatori. Aquest material correspon a la unitat de programació \n<b><a href=\"http://www.xtec.cat/recursos/curricul/experim/coshuma.htm\" target=\"_blank\">\"El cos humà\"</a></b>.",
+    "es": "Paquete de actividades sobre el cuerpo humano: los aparatos digestivo, excretor, locomotor, respiratorio, reproductor y circulatorio. Este material corresponde a la unidad de programación \n<b><a href=\"http://www.xtec.cat/recursos/curricul/experim/coshuma.htm\" target=\"_blank\">\"El cos humà\"</a></b>."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "huma",
+    "humano",
+    "soina"
+  ],
+  "mainFile": "jclic.js/humangal.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/humangal.jclic.zip",
+  "instFile": "jclic/humangal.jclic.inst",
+  "clicZoneId": 1044,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1044",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/humangal/jclic/humangal.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 31,
+  "mediaFiles": 38,
+  "totalSize": 362132,
+  "files": [
+    "cover.gif",
+    "jclic.js/circu.gif",
+    "jclic.js/circula/circula.jclic",
+    "jclic.js/circula/circula_circu.gif",
+    "jclic.js/circula/circula_f2.gif",
+    "jclic.js/dige.gif",
+    "jclic.js/digestiu/digestiu.jclic",
+    "jclic.js/digestiu/digestiu_digestiu.gif",
+    "jclic.js/digestiu/digestiu_estomac.gif",
+    "jclic.js/digestiu/digestiu_f4.gif",
+    "jclic.js/digestiu/digestiu_fetge.gif",
+    "jclic.js/digestiu/digestiu_intestin.gif",
+    "jclic.js/digestiu/digestiu_pancreas.gif",
+    "jclic.js/excre.gif",
+    "jclic.js/excretor/excretor.jclic",
+    "jclic.js/excretor/excretor_diges1.gif",
+    "jclic.js/excretor/excretor_f3.gif",
+    "jclic.js/excretor/excretor_pell1.gif",
+    "jclic.js/excretor/excretor_pulmo1.gif",
+    "jclic.js/excretor/excretor_ronyo.gif",
+    "jclic.js/excretor/excretor_urinar1.gif",
+    "jclic.js/excretor/excretor_urinar2.gif",
+    "jclic.js/fondoa.gif",
+    "jclic.js/fpr.gif",
+    "jclic.js/humangal.jclic",
+    "jclic.js/loco.gif",
+    "jclic.js/locomot/locomot.jclic",
+    "jclic.js/locomot/locomot_crani.gif",
+    "jclic.js/locomot/locomot_crani2.gif",
+    "jclic.js/locomot/locomot_f5.gif",
+    "jclic.js/locomot/locomot_muscara.gif",
+    "jclic.js/locomot/locomot_musctot.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/psilove.mid",
+    "jclic.js/pulmo.gif",
+    "jclic.js/repro.gif",
+    "jclic.js/reproduc/reproduc.jclic",
+    "jclic.js/reproduc/reproduc_f6.gif",
+    "jclic.js/reproduc/reproduc_penis.gif",
+    "jclic.js/reproduc/reproduc_reproduc.gif",
+    "jclic.js/reproduc/reproduc_vagina.gif",
+    "jclic.js/respira/respira.jclic",
+    "jclic.js/respira/respira_f7.gif",
+    "jclic.js/respira/respira_organs.gif",
+    "jclic.js/respira/respira_pultra.gif",
+    "jclic.js/respira/respira_respir.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/humangal.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/circula/circula.jclic.js",
+    "jclic.js/digestiu/digestiu.jclic.js",
+    "jclic.js/excretor/excretor.jclic.js",
+    "jclic.js/locomot/locomot.jclic.js",
+    "jclic.js/reproduc/reproduc.jclic.js",
+    "jclic.js/respira/respira.jclic.js",
+    "cover.webp"
+  ]
+}

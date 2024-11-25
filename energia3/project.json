@@ -1,0 +1,86 @@
+{
+  "id": 2485,
+  "title": "Producció d'energia",
+  "author": "Aurora Faus Rodríguez",
+  "school": "Institut Font del Ferro Palafolls (Maresme)",
+  "date": "17/02/17",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16), High school (16-18)",
+    "ca": "Secundària (12-16), Batxillerat (16-18)",
+    "es": "Secundaria (12-16), Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "SEC",
+    "BTX"
+  ],
+  "descriptors": {
+    "ca": "energia, energia nuclear, ciències ambientals",
+    "es": "energía, energía nuclear, ciencias ambientales",
+    "en": "energy, nuclear energy, environmental sciences"
+  },
+  "descCodes": [
+    68,
+    69,
+    731
+  ],
+  "description": {
+    "en": "Review of energy-producing plants and their principal parts. Exploration of energy concept. Corresponds to a didactic unit of high school and secondary school level of education.",
+    "ca": "Repàs de les centrals productores d'energia i les seves parts principials. Exploració del concepte d'Energia. Correspon a una unitat didàctica del temari de Batxillerat i també de segon d'ESO.",
+    "es": "Repaso de las centrales productoras de energía y sus partes principales. Exploración del concepto de Energía. Corresponde a una unidad didáctica del temario de Bachillerato y también de segundo de ESO."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/energia3.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/energia3.jclic.zip",
+  "instFile": "jclic/energia3.jclic.inst",
+  "clicZoneId": 3994,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3994",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/energia3/jclic/energia3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 4,
+  "totalSize": 370194,
+  "files": [
+    "cover.jpg",
+    "jclic.js/clicapercomencar.ogg",
+    "jclic.js/energia3.jclic",
+    "jclic.js/energia3.jclic.js",
+    "jclic.js/energia3_resized.jpg",
+    "jclic.js/lhc.jpg",
+    "jclic.js/molt_be.ogg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": 2016,
+  "title": "Els instruments",
+  "author": "Alèxia Sánchez, Bea Hernández, Laura Martínez i Miriam Vinaixa",
+  "school": "ICE Universitat Rovira i Virgili Tarragona",
+  "date": "04/12/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "instrument musical",
+    "es": "instrumento musical",
+    "en": "musical instrument"
+  },
+  "descCodes": [
+    724
+  ],
+  "description": {
+    "en": "Project of activities about the name and the sound of four musical instruments: \n<ul> \n <li>drum </li>\n <li>piano </li>\n <li>trumpet </li>\n <li>guitar </li>\n</ul>",
+    "ca": "Joc per conèixer el nom i el so de quatre instruments musicals: \n<ul> \n <li>tambor </li>\n <li>piano </li>\n <li>trompeta </li>\n <li>guitarra </li>\n</ul> Aquesta és una activitat simple per a que els nens i nenes es comencin a familiaritzar amb el món musical.",
+    "es": "Juego para conocer el nombre y el sonido de cuatro instrumentos musicales: \n<ul> \n <li>tambor </li>\n <li>piano </li>\n <li>trompeta </li>\n <li>guitarra </li>\n</ul> Ésta es una actividad simple para que niños y niñas se empiecen a familiarizar con el mundo musical."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/instrume.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/instrume.jclic.zip",
+  "instFile": "jclic/instrume.jclic.inst",
+  "clicZoneId": 3590,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3590",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/instrume/jclic/instrume.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 9,
+  "mediaFiles": 8,
+  "totalSize": 1536687,
+  "files": [
+    "cover.jpg",
+    "jclic.js/corneta.jpg",
+    "jclic.js/corneta.mp3",
+    "jclic.js/guitarra.jpg",
+    "jclic.js/guitarra_espanyola.mp3",
+    "jclic.js/instrume.jclic",
+    "jclic.js/piano.jpg",
+    "jclic.js/piano.mp3",
+    "jclic.js/tambor.jpg",
+    "jclic.js/tambors_militars.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/instrume.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

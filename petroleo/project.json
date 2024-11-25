@@ -1,0 +1,110 @@
+{
+  "id": 1558,
+  "title": "Venezuela y su petróleo",
+  "author": "Loida Uzcátegui Ibarra",
+  "school": "Escuela Bolivariana \"Juan Ruiz Fajardo\" Mérida (Venezuela)",
+  "date": "24/02/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "High school (16-18)",
+    "ca": "Batxillerat (16-18)",
+    "es": "Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "BTX"
+  ],
+  "descriptors": {
+    "ca": "petroli",
+    "es": "petróleo",
+    "en": "petroleum"
+  },
+  "descCodes": [
+    1362
+  ],
+  "description": {
+    "en": "Project of activities about petroleum and gas of Venezuela. The package explains the process from the extraction until the use in the population.",
+    "ca": "Projecte d'activitats sobre les reserves de petroli i gas que es troben per sota de Veneçuela. Al paquet també s'expliquen els processos que es porten a terme des de la seva extracció fins al seu ús final a la població.",
+    "es": "Proyecto de actividades sobre las reservas de petróleo y gas que se encuentran de bajo de Venezuela. En el paquete también se explican los procesos que se llevan a cabo con el petróleo desde su extracción hasta su uso final en la población."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/petroleo.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/petroleo.jclic.zip",
+  "instFile": "jclic/petroleo.jclic.inst",
+  "clicZoneId": 3282,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3282",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/petroleo/jclic/petroleo.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 31,
+  "totalSize": 1259808,
+  "files": [
+    "cover.jpg",
+    "jclic.js/almacen_derivados_iii.jpg",
+    "jclic.js/buque.jpg",
+    "jclic.js/buque7.jpg",
+    "jclic.js/destilacion_3.jpg",
+    "jclic.js/escudo_venezuela.gif",
+    "jclic.js/extraccion_ii.jpg",
+    "jclic.js/extractor.jpg",
+    "jclic.js/fondo8.jpg",
+    "jclic.js/gasolina.jpg",
+    "jclic.js/gasolina_ii.jpg",
+    "jclic.js/gasolinera3.jpg",
+    "jclic.js/gasolinera4.jpg",
+    "jclic.js/guardar_petroleo_ii.jpg",
+    "jclic.js/lago2.gif",
+    "jclic.js/lago7.gif",
+    "jclic.js/lago_maracaibo_final.gif",
+    "jclic.js/mapa.jpg",
+    "jclic.js/perforacion.jpg",
+    "jclic.js/petroleo.jclic",
+    "jclic.js/petroleo_mar.jpg",
+    "jclic.js/petroleo_mar_ii.jpg",
+    "jclic.js/plataforma4.jpg",
+    "jclic.js/plataforma_mar_iii.jpg",
+    "jclic.js/portada.gif",
+    "jclic.js/pozo_petrolifero.gif",
+    "jclic.js/pozos_de_petroleo_y_gas.jpg",
+    "jclic.js/refineria_iii___2.jpg",
+    "jclic.js/refineria_iv_2.jpg",
+    "jclic.js/refineria_vi_2.jpg",
+    "jclic.js/tanques_almacenar_gas_ii.jpg",
+    "jclic.js/torre_de_extraccion.gif",
+    "jclic.js/transporte_combustible3.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/petroleo.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

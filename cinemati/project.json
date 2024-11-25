@@ -1,0 +1,90 @@
+{
+  "id": 908,
+  "title": "Cinemàtica - 1",
+  "author": "Irene Martínez Pérez",
+  "school": "SES Cadaqués Cadaqués (Alt Empordà)",
+  "date": "12/12/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales",
+    "en": "Experimental sciences"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "física",
+    "es": "física",
+    "en": "physics"
+  },
+  "descCodes": [
+    72
+  ],
+  "description": {
+    "en": "This package includes activities about the magnitudes used in cinematics: time, distance, speed and acceleration. At the end of the package some graphical representations are introduced.",
+    "ca": "Aquest paquet inclou activitats per a treballar les magnituds utilitzades per la cinemàtica: temps, distància, velocitat i acceleració, desenvolupant especialment aquests dos darrers. \n<br> Al final inclou unes activitats que introdueixen les gràfiques del moviment.",
+    "es": "Este paquete incluye actividades para trabajar las magnitudes usadas por la cinemática: tiempo, distancia, velocidad y aceleración, desarrollando especialmente estos dos últimos.\n<br> Al final del paquete se incluyen unas actividades que introducen las gráficas de movimiento."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cinemati.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cinemati.jclic.zip",
+  "instFile": "jclic/cinemati.jclic.inst",
+  "clicZoneId": 2021,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2021",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cinemati/jclic/cinemati.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 11,
+  "totalSize": 164498,
+  "files": [
+    "cover.gif",
+    "jclic.js/cinemati.jclic",
+    "jclic.js/form_tem.gif",
+    "jclic.js/form_vel.gif",
+    "jclic.js/formula.gif",
+    "jclic.js/graf1.gif",
+    "jclic.js/graf2.gif",
+    "jclic.js/graf3.gif",
+    "jclic.js/graf_1.gif",
+    "jclic.js/graf_2.gif",
+    "jclic.js/grafas1.gif",
+    "jclic.js/grafas21.gif",
+    "jclic.js/magnitud.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cinemati.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

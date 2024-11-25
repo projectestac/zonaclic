@@ -1,0 +1,95 @@
+{
+  "id": 770,
+  "title": "Comarques del País Valencià",
+  "author": "Vicent Muñoz",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geografia, País Valencià",
+    "es": "geografía, País Valenciano",
+    "en": "geography, Valencian Country"
+  },
+  "descCodes": [
+    235,
+    545
+  ],
+  "description": {
+    "en": "Activities about the Valencian region. Learn the names of the capitals, etc.",
+    "ca": "Paquet d'activitats per conèixer les comarques valencianes i les seves capitals: Exploració i associació dels noms de les capitals de cada comarca, sopa de lletres, mots encreuats i un trencaclosques amb el mapa.",
+    "es": "Paquete de actividades acerca de las comarcas valencianas y sus capitales: Exploración y asociación de los nombres de las capitales de cada comarca, sopa de letras, crucigrama y un puzzle con el mapa."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/comar.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/comar.jclic.zip",
+  "instFile": "jclic/comar.jclic.inst",
+  "clicZoneId": 1420,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1420",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/comar/jclic/comar.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 8,
+  "mediaFiles": 15,
+  "totalSize": 531250,
+  "files": [
+    "cover.gif",
+    "jclic.js/1.wav",
+    "jclic.js/bici.wav",
+    "jclic.js/comar.jclic",
+    "jclic.js/intro.gif",
+    "jclic.js/jil.wav",
+    "jclic.js/mapa1.gif",
+    "jclic.js/mar.gif",
+    "jclic.js/moltbe.wav",
+    "jclic.js/pomell.gif",
+    "jclic.js/qua.gif",
+    "jclic.js/risa.wav",
+    "jclic.js/sants.mid",
+    "jclic.js/sonatina.mid",
+    "jclic.js/tar.gif",
+    "jclic.js/telefon.gif",
+    "jclic.js/tren.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/comar.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

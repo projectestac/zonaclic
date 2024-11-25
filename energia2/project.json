@@ -1,0 +1,97 @@
+{
+  "id": 2291,
+  "title": "L'energia",
+  "author": "Ariana Olmos",
+  "school": "Escola Jaume I c. Melcior de Palau, 134-136 (Barcelonès)",
+  "date": "13/05/13",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "JClic activities about energy, differentiating renewable and non-renewable energy and the use of these: \n<ul> \n <li>wind energy </li>\n <li>solar energy </li>\n <li>hydraulic energy </li>\n <li>electric energy </li>\n <li>... </li>\n</ul>",
+    "ca": "Activitats JClic amb informació bàsica sobre l'energia, diferenciant energies renovables i no renovables i l'ús d'aquestes: \n<ul> \n <li>eòlica </li>\n <li>solar </li>\n <li>hidràulica </li>\n <li>elèctrica </li>\n <li>... </li>\n</ul>",
+    "es": "Actividades JClic con información básica sobre la energía, diferenciando energías renovables y no renovables y el uso de éstas: \n<ul> \n <li>eólica </li>\n <li>solar </li>\n <li>hidráulica </li>\n <li>eléctrica </li>\n <li>... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/energia2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/energia2.jclic.zip",
+  "instFile": "jclic/energia2.jclic.inst",
+  "clicZoneId": 3805,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3805",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/energia2/jclic/energia2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 26,
+  "totalSize": 1572699,
+  "files": [
+    "cover.png",
+    "jclic.js/bombeta_gran.jpg",
+    "jclic.js/bombeta_resized.jpg",
+    "jclic.js/carbo.jpg",
+    "jclic.js/cargador_movil.jpg",
+    "jclic.js/coche.jpg",
+    "jclic.js/cochecito.png",
+    "jclic.js/e._aliments_resized.jpg",
+    "jclic.js/e._carbo.jpg",
+    "jclic.js/e._eolica_resized.jpg",
+    "jclic.js/e._hidraulica.jpg",
+    "jclic.js/e._petroli.jpg",
+    "jclic.js/e._solar.jpg",
+    "jclic.js/energia2.jclic",
+    "jclic.js/escultor.png",
+    "jclic.js/fogons.jpg",
+    "jclic.js/gas.jpg",
+    "jclic.js/golf.png",
+    "jclic.js/iman.png",
+    "jclic.js/moto.jpg",
+    "jclic.js/muelle_resized2.jpg",
+    "jclic.js/nevera.jpg",
+    "jclic.js/patinete.png",
+    "jclic.js/petroli.jpg",
+    "jclic.js/radiador.jpg",
+    "jclic.js/secador.jpg",
+    "jclic.js/terretremol.jpg",
+    "jclic.js/terrissaire.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/energia2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

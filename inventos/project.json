@@ -1,0 +1,118 @@
+{
+  "id": 1575,
+  "title": "Los inventos",
+  "author": "Francisco García-Pozuelo Díaz i Juana Rello Serrano",
+  "school": "CP Luis Vives Alcalá de Henares (Madrid)",
+  "date": "24/04/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "invents",
+    "es": "inventos",
+    "en": "inventions"
+  },
+  "descCodes": [
+    1365
+  ],
+  "description": {
+    "en": "Project of 27 activities addressed to study different types of machines and some inventions and inventors.",
+    "ca": "Projecte de 27 activitats per estudiar els diferents tipus de màquines i alguns invents i inventors.",
+    "es": "Proyecto de 27 actividades para estudiar los diferentes tipos de máquinas y algunos inventos e inventores."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/inventos.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/inventos.jclic.zip",
+  "instFile": "jclic/inventos.jclic.inst",
+  "clicZoneId": 3293,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3293",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/inventos/jclic/inventos.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 29,
+  "mediaFiles": 39,
+  "totalSize": 1568387,
+  "files": [
+    "cover.gif",
+    "jclic.js/44767buritonjan98.jpg",
+    "jclic.js/aeorplano.jpg",
+    "jclic.js/bell1.jpg",
+    "jclic.js/bombilla.gif",
+    "jclic.js/carretilla.jpg",
+    "jclic.js/carro.png",
+    "jclic.js/cartera.jpg",
+    "jclic.js/edison.jpg",
+    "jclic.js/edison1.jpg",
+    "jclic.js/galileo_hist.gif",
+    "jclic.js/gutenberg.jpg",
+    "jclic.js/imprenta.jpg",
+    "jclic.js/inventos.jclic",
+    "jclic.js/locmotora3.jpg",
+    "jclic.js/locomotora.jpg",
+    "jclic.js/lomotora.gif",
+    "jclic.js/marconi.jpg",
+    "jclic.js/marconi1.jpg",
+    "jclic.js/martillo.jpg",
+    "jclic.js/martillo1.jpg",
+    "jclic.js/martin_1950s_clock_radio.jpg",
+    "jclic.js/palanca1.gif",
+    "jclic.js/palanca1b.jpg",
+    "jclic.js/pinzas12.jpg",
+    "jclic.js/pinzas_starter_1435.jpg",
+    "jclic.js/popeye_polea.gif",
+    "jclic.js/pozo.jpg",
+    "jclic.js/primergrado3.jpg",
+    "jclic.js/primergrado4.jpg",
+    "jclic.js/primergrado5.jpg",
+    "jclic.js/primergrado6.jpg",
+    "jclic.js/radio.gif",
+    "jclic.js/radio1.jpg",
+    "jclic.js/segundogrado1.jpg",
+    "jclic.js/segundogrado3.jpg",
+    "jclic.js/stephenson.jpg",
+    "jclic.js/telefono.gif",
+    "jclic.js/telescopio.jpg",
+    "jclic.js/tercergrado3.jpg",
+    "jclic.js/tijeras.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/inventos.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

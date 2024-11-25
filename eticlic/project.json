@@ -1,0 +1,102 @@
+{
+  "id": 1075,
+  "title": "ETICLIC Llegim etiquetes",
+  "author": "Marta Montero",
+  "school": "Escola Marià Manent Premià de Dalt (La Caritat) (Maresme)",
+  "date": "04/11/03",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua",
+    "es": "aprendizaje de la lengua",
+    "en": "learning of the language"
+  },
+  "descCodes": [
+    110
+  ],
+  "description": {
+    "en": "Package of 26 activities, based on the logos and labels of some commercial products, with three different typographies: capitals, roman and print letter. The activities deal with label recognition through the images, associations with the products, puzzles and scrambled letters.",
+    "ca": "És un paquet de 26 activitats. Hi apareixen les etiquetes de diversos productes comercials, amb tres tipografies diferents: lletra de pal, lletra lligada i lletra de diari. Les primeres activitats són de reconeixement de les etiquetes a través de la imatge, associacions amb els productes, elaboració de puzzles, sopes de lletres, etc. Posteriorment s'hi afegeixen etiquetes d'altres productes per tal de distingir tipografies i classificar-les, discriminar sons i reconèixer les paraules treballades.\n<p> Les activitats que hi apareixen són del tipus: associacions, puzzles, sopes de lletres i activitats de text. S¿utilitzen missatges sonors per facilitar la comprensió i resolució de les activitats per part dels nens. </p>",
+    "es": "Es un paquete de 26 actividades. En ellas aparecen las etiquetas de diversos productos comerciales, con tres tipografías diferentes: letra de palo, letra ligada y letra de imprenta. Las primeras actividades son de reconocimiento de las etiquetas a través de la imagen, asociaciones con los productos, elaboración de puzzles, sopas de letras... Posteriormente se añaden etiquetas de otros productos para distinguir tipografías y clasificarlas, discriminar sonidos, reconocer palabras trabajadas...\n<p> Las actividades que aparecen son de los tipos: asociaciones, puzzles, sopas de letras y actividades de texto. Se utilizan mensajes sonoros para facilitar la comprensión y resolución de las actividades por parte de los niños. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/eticlic.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/eticlic.jclic.zip",
+  "instFile": "jclic/eticlic.jclic.inst",
+  "clicZoneId": 2283,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2283",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/eticlic/jclic/eticlic.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 48,
+  "mediaFiles": 22,
+  "totalSize": 556349,
+  "files": [
+    "cover.gif",
+    "jclic.js/eticlic.jclic",
+    "jclic.js/logoato.gif",
+    "jclic.js/logobarb.gif",
+    "jclic.js/logocao2.gif",
+    "jclic.js/logoccao.gif",
+    "jclic.js/logococ2.gif",
+    "jclic.js/logococa.gif",
+    "jclic.js/logodan2.gif",
+    "jclic.js/logodano.gif",
+    "jclic.js/logomcd2.gif",
+    "jclic.js/logomcdo.gif",
+    "jclic.js/logones2.gif",
+    "jclic.js/logonesq.gif",
+    "jclic.js/logoprin.gif",
+    "jclic.js/logoreo.gif",
+    "jclic.js/logoreo2.gif",
+    "jclic.js/portada2.gif",
+    "jclic.js/proccao.gif",
+    "jclic.js/prococa.gif",
+    "jclic.js/prodano.gif",
+    "jclic.js/promcdon.gif",
+    "jclic.js/pronesq.gif",
+    "jclic.js/prooreo.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/eticlic.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

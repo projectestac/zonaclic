@@ -1,0 +1,89 @@
+{
+  "id": 1214,
+  "title": "Los números racionales: las fracciones",
+  "author": "Eduardo González Cantos",
+  "school": "CEIP San Miguel Torremolinos - Málaga (Andalucía)",
+  "date": "27/01/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "representació gràfica, fraccions",
+    "es": "representación gráfica, fracciones",
+    "en": "graphical representation, fractions"
+  },
+  "descCodes": [
+    715,
+    909
+  ],
+  "description": {
+    "en": "Package of activities that expect to be the first contact to the rational numbers. It includes graphical exercises to make easier the understanding.",
+    "ca": "Paquet d'activitats que vol ser una iniciació al concepte de nombre racional a partir d'exercicis gràfics que faciliten molt la comprensió.",
+    "es": "Paquete de actividades que quiere ser una iniciación al concepto de número racional a partir de ejercicios gráficos que facilitan mucho la comprensión."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/fraccion.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fraccion.jclic.zip",
+  "instFile": "jclic/fraccion.jclic.inst",
+  "clicZoneId": 2960,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2960",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fraccion/jclic/fraccion.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 9,
+  "totalSize": 663332,
+  "files": [
+    "cover.jpg",
+    "jclic.js/abejar_1.gif",
+    "jclic.js/aguila1.gif",
+    "jclic.js/aplausos.wav",
+    "jclic.js/dibujo.gif",
+    "jclic.js/fraccion.jclic",
+    "jclic.js/justi61.gif",
+    "jclic.js/pico.gif",
+    "jclic.js/present2.gif",
+    "jclic.js/rectadib.gif",
+    "jclic.js/rectaq2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fraccion.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

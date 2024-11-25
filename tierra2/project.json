@@ -1,0 +1,104 @@
+{
+  "id": 155,
+  "title": "La tierra - 2",
+  "author": "Francisco Gonzalez",
+  "school": "Colegio Irabia Pamplona (Navarra)",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "terra , geografia",
+    "es": "tierra, geografía",
+    "en": "earth, geography"
+  },
+  "descCodes": [
+    105,
+    235
+  ],
+  "description": {
+    "en": "Activity pack about our planet. In it are dealt the following topics: The layers of the earth, the seasons, the movements of the earth, the parallels and meridians...Also it includes activities about the moon, physical characteristics, the phases, the visible side...",
+    "ca": "Paquet d'activitats sobre el nostre planeta adreçat a 1er d'ESO. S'hi treballen temes com les capes de la terra, les estacions, els moviments de rotació i translació, els paral·lels i meridians, longitud i latitud, etc. També inclou activitats sobre la lluna: característiques físiques del nostre satèl·lit, les fases, la cara visible i la cara oculta.",
+    "es": "Paquete de actividades sobre nuestro planeta dirigido a 1º de ESO. Trabaja temas como las capas de la tierra, las estaciones, los movimientos de rotación y translación, los paralelos y meridianos, etc. También incluye activdades sobre la luna: características físicas de nuestro satélite, las fases, la cara visible y la cara oculta."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/tierra2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tierra2.jclic.zip",
+  "instFile": "jclic/tierra2.jclic.inst",
+  "clicZoneId": 1077,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1077",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/tierra2/jclic/tierra2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 24,
+  "totalSize": 1413235,
+  "files": [
+    "cover.gif",
+    "jclic.js/caraoc_1.gif",
+    "jclic.js/cosmos.gif",
+    "jclic.js/creci.gif",
+    "jclic.js/edu133.gif",
+    "jclic.js/espacial.gif",
+    "jclic.js/espacio1.gif",
+    "jclic.js/fanfa.wav",
+    "jclic.js/globo5.gif",
+    "jclic.js/globo_te.gif",
+    "jclic.js/globooc.gif",
+    "jclic.js/lunal.gif",
+    "jclic.js/mengu.gif",
+    "jclic.js/mundi.gif",
+    "jclic.js/mundo.gif",
+    "jclic.js/mundo2.avi",
+    "jclic.js/mundo2.gif",
+    "jclic.js/nueva.gif",
+    "jclic.js/oculta.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/sants.mid",
+    "jclic.js/sw1.mid",
+    "jclic.js/tierra.gif",
+    "jclic.js/tierra2.jclic",
+    "jclic.js/torre.gif",
+    "jclic.js/visible.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/tierra2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

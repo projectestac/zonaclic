@@ -1,0 +1,134 @@
+{
+  "id": 1920,
+  "title": "Els felins",
+  "author": "Maria Torres Español",
+  "school": "Escola Els Planells Artesa de Segre (Noguera)",
+  "date": "11/06/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages, Mathematics",
+    "ca": "Ciències experimentals, Llengües, Matemàtiques",
+    "es": "Ciencias experimentales, Lenguas, Matemáticas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng",
+    "mat"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, aprenentatge de la matemàtica, animals",
+    "es": "aprendizaje de la lengua, aprendizaje de la matemática, animales",
+    "en": "learning of the language, learning of the mathematical one, animales"
+  },
+  "descCodes": [
+    110,
+    700,
+    1160
+  ],
+  "description": {
+    "en": "Project of activities to learn the vocabulary and some characteristics of felines (cat, lynx, tiger, puma ...). The activities are separated into two blocks.",
+    "ca": "Projecte d'activitats per treballar el vocabulari i algunes característiques dels animals felins (gat, linx, tigre, puma...). Les activitats estan separades en dos blocs: \n<ul> \n <li>trencaclosques </li>\n <li>relaciona i descobreix </li>\n</ul>",
+    "es": "Proyecto de actividades para trabajar el vocabulario y algunas características de los animales felinos (gato, lince, tigre, puma...). Las actividades están separadas en dos bloques: \n<ul> \n <li>rompecabezas </li>\n <li>relaciona y descubre </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/felins.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/felins.jclic.zip",
+  "instFile": "jclic/felins.jclic.inst",
+  "clicZoneId": 3546,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3546",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/felins/jclic/felins.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 50,
+  "totalSize": 3363513,
+  "files": [
+    "cover.jpg",
+    "jclic.js/1141_pantera_negra.jpg",
+    "jclic.js/2_bufalos..jpg",
+    "jclic.js/3_gacelas.jpg",
+    "jclic.js/anecs_de_coll_verd_retall.jpg",
+    "jclic.js/animal_escocia.jpg",
+    "jclic.js/antilop_2.jpg",
+    "jclic.js/boca_tigre.jpg",
+    "jclic.js/cabellera_lleo.jpg",
+    "jclic.js/caragol_3.jpg",
+    "jclic.js/cervols_escocia.jpg",
+    "jclic.js/ciervo.jpg",
+    "jclic.js/conills.jpg",
+    "jclic.js/cua_guepard.jpg",
+    "jclic.js/felins.jclic",
+    "jclic.js/gat1.gif",
+    "jclic.js/gato_montes.jpg",
+    "jclic.js/gatos__2.jpg",
+    "jclic.js/gorrion2.jpg",
+    "jclic.js/guepard4.jpg",
+    "jclic.js/jaquar.jpg",
+    "jclic.js/linx.jpg",
+    "jclic.js/lleo.jpg",
+    "jclic.js/lleo.wav",
+    "jclic.js/lleo7.jpg",
+    "jclic.js/llopard_arbre.jpg",
+    "jclic.js/margarites_escocia.jpg",
+    "jclic.js/micos.jpg",
+    "jclic.js/miol.wav",
+    "jclic.js/nens.gif",
+    "jclic.js/nyus.jpg",
+    "jclic.js/ocell.jpg",
+    "jclic.js/orelles_puma.jpg",
+    "jclic.js/peixos.jpg",
+    "jclic.js/perdiz1.jpg",
+    "jclic.js/petunia.jpg",
+    "jclic.js/photo_accueil.jpg",
+    "jclic.js/porcs_escocia.jpg",
+    "jclic.js/pota_jaguar.jpg",
+    "jclic.js/puma2.jpg",
+    "jclic.js/ratlles_tigure.jpg",
+    "jclic.js/ratolins.jpg",
+    "jclic.js/taques_guepard.jpg",
+    "jclic.js/taques_jaguard.jpg",
+    "jclic.js/taques_lleopart.jpg",
+    "jclic.js/tigre2.jpg",
+    "jclic.js/ulls_gat_ferr.jpg",
+    "jclic.js/ulls_linx.jpg",
+    "jclic.js/ulls_lleopard.jpg",
+    "jclic.js/ulls_pantera.jpg",
+    "jclic.js/ulls_puma.jpg",
+    "jclic.js/velles_escocia.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/felins.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

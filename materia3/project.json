@@ -1,0 +1,82 @@
+{
+  "id": 1418,
+  "title": "La materia, un estudio educativo",
+  "author": "Mariel Lopez Arnaiz",
+  "date": "15/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "",
+    "ca": "",
+    "es": ""
+  },
+  "levelCodes": [
+    ""
+  ],
+  "descriptors": {
+    "ca": "matèria",
+    "es": "materia",
+    "en": "matter"
+  },
+  "descCodes": [
+    1332
+  ],
+  "description": {
+    "en": "Activities though to tell the difference between several material system using a qualitative approach. Starting from its aspect till being able to differentiate between pure substances and mixtures as well as elements and compounds reaching to a easily understanding of the atomic theory.\n<br> This package also deals with simple separation techniques for heterogeneous mixtures and dissolutions. Finally, there are activities to learn the different stages of the matter and its naming",
+    "ca": "Activitats per a aprendre a diferenciar els diferents sistemes materials d'una forma qualitativa, partint del seu aspecte i arribant a diferenciar entre mescles i substàncies pures, així com entre elements i compostos arribant a utilitzar la teoria atòmica d'una manera molt senzilla.\n<br> El paquet també tracta les tècniques de separació més senzilles tant per mescles heterogènies com dissolucions.\n<br> Per últim, trobem activitats per conèixer els diferents canvis d'estat de la matèria així com les seves denominacions.",
+    "es": "Actividades para aprender a diferenciar los distintos sistemas materiales de una forma cualitativa, partiendo de su aspecto y llegando a diferenciar entre mezclas y sustancias puras, así como entre elementos y compuestos llegando a utilizar la teoría atómica de una forma muy sencilla.\n<br> El paquete también trata las técnicas de separación más sencillas tanto para mezclas heterogéneas como disoluciones.\n<br> Por último, encontramos actividades para conocer los diferentes cambios de estado de la materia así como sus denominaciones."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/materia3.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/materia3.jclic.zip",
+  "instFile": "jclic/materia3.jclic.inst",
+  "clicZoneId": 3154,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3154",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/materia3/jclic/materia3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 4,
+  "totalSize": 379621,
+  "files": [
+    "cover.gif",
+    "jclic.js/atomo1.gif",
+    "jclic.js/dibujo.gif",
+    "jclic.js/lamate_1.gif",
+    "jclic.js/materia3.jclic",
+    "jclic.js/tablap_1.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/materia3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": 335,
+  "title": "30 irregular verbs",
+  "author": "Carlos Gutierrez Aguado",
+  "school": "IES Ramón y Cajal Zaragoza (Zaragoza)",
+  "date": "18/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa",
+    "es": "lengua inglesa",
+    "en": "English language"
+  },
+  "descCodes": [
+    130
+  ],
+  "description": {
+    "en": "Activity pack for English students. In this application the irregular verbs are the centre of study. In it are dealt with the Spanish translation of those verbs and the conjugations these verbs receive in English. The activities are varied and include sounds and graphics to help in explaining the contents of these.",
+    "ca": "En aquesta aplicació es tracten 30 verbs irregulars en anglès, la seva traducció al castellà i les seves conjugacions bàsiques. Les activitats són variades i compten amb sons i gràfics.",
+    "es": "En esta aplicación se tratan 30 verbos irregulares en inglés, su traducción al castellano y sus conjugaciones básicas. Las actividades son variadas y cuentan con sonidos y gráficos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/30verbs.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/30verbs.jclic.zip",
+  "instFile": "jclic/30verbs.jclic.inst",
+  "clicZoneId": 1186,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1186",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/30verbs/jclic/30verbs.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 36,
+  "mediaFiles": 27,
+  "totalSize": 2247614,
+  "files": [
+    "cover.gif",
+    "jclic.js/30verbs.jclic",
+    "jclic.js/agrade.gif",
+    "jclic.js/alfombra.gif",
+    "jclic.js/bandera.gif",
+    "jclic.js/banera1.gif",
+    "jclic.js/bath.gif",
+    "jclic.js/buena.gif",
+    "jclic.js/cama1.gif",
+    "jclic.js/car1.gif",
+    "jclic.js/cara.gif",
+    "jclic.js/casa1.gif",
+    "jclic.js/cuerpo.gif",
+    "jclic.js/domino1.gif",
+    "jclic.js/end.gif",
+    "jclic.js/fridge.gif",
+    "jclic.js/imagine.mid",
+    "jclic.js/kitchen1.gif",
+    "jclic.js/lampara1.gif",
+    "jclic.js/letitbe.mid",
+    "jclic.js/muybien.gif",
+    "jclic.js/piedad.wav",
+    "jclic.js/puerta2.gif",
+    "jclic.js/recuerda.gif",
+    "jclic.js/seguir.gif",
+    "jclic.js/silla1.gif",
+    "jclic.js/sofa.gif",
+    "jclic.js/tv1.gif",
+    "jclic.js/yellow.mid",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/30verbs.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

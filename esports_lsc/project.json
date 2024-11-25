@@ -1,0 +1,108 @@
+{
+  "id": 2551,
+  "title": "Esports LSC",
+  "author": "Cristina Escolà Queralt, Sergio Palao (Pictogrames)",
+  "school": "CREDA-Lleida",
+  "date": "11/04/18",
+  "langCodes": [
+    "ca"
+  ],
+  "languages": {
+    "ca": "català",
+    "es": "catalán",
+    "en": "Catalan"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "areas": {
+    "ca": "Llengües",
+    "es": "Lenguas",
+    "en": "Languages"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "levels": {
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)",
+    "en": "Kindergarten (3-6), Primary school (6-12)"
+  },
+  "description": {
+    "ca": "Diccionari amb temàtica de signes d'esports",
+    "es": "Diccionario de temática de signos de deportes.",
+    "en": "Thematic dictionary of sports signs."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "cover": "esports.png",
+  "coverWebp": "esports.webp",
+  "thumbnail": "esports100.png",
+  "mainFile": "jclic.js/esports_lsc.jclic",
+  "activities": 9,
+  "mediaFiles": 44,
+  "totalSize": 1390321,
+  "instFile": "jclic/esports_lsc.jclic.inst",
+  "zipFile": "jclic/esports_lsc.jclic.zip",
+  "files": [
+    "esports.png",
+    "esports100.png",
+    "jclic.js/aigua.jpg",
+    "jclic.js/atletisme.jpg",
+    "jclic.js/atletisme.png",
+    "jclic.js/basque.png",
+    "jclic.js/basquet.jpg",
+    "jclic.js/basquet.png",
+    "jclic.js/beisbol.jpg",
+    "jclic.js/beisbol.png",
+    "jclic.js/bici.jpg",
+    "jclic.js/ciclisme.jpg",
+    "jclic.js/ciclisme.png",
+    "jclic.js/equip.jpg",
+    "jclic.js/esp192.png",
+    "jclic.js/esp_.ico",
+    "jclic.js/esp_72.png",
+    "jclic.js/esports_lsc.bmp",
+    "jclic.js/esports_lsc.jclic",
+    "jclic.js/esports_lsc.jclic.js",
+    "jclic.js/esqui.jpg",
+    "jclic.js/esqui.png",
+    "jclic.js/estrellas-amarillas.gif",
+    "jclic.js/fantastic.wav",
+    "jclic.js/futb.png",
+    "jclic.js/futbol.jpg",
+    "jclic.js/golf.jpg",
+    "jclic.js/golf.png",
+    "jclic.js/handbol.jpg",
+    "jclic.js/handbol.png",
+    "jclic.js/hipic.png",
+    "jclic.js/hipica.jpg",
+    "jclic.js/hoquei.jpg",
+    "jclic.js/hoquei.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/individual.jpg",
+    "jclic.js/karate.jpg",
+    "jclic.js/karate.png",
+    "jclic.js/natacio.jpg",
+    "jclic.js/nedar.png",
+    "jclic.js/patinar.jpg",
+    "jclic.js/patinar.png",
+    "jclic.js/pilota.jpg",
+    "jclic.js/tenni.png",
+    "jclic.js/tennis.jpg",
+    "jclic.js/volei.png",
+    "jclic.js/voleibol.jpg",
+    "project.json",
+    "esports.webp"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": 2161,
+  "title": "At the restaurant (At the restaurant I)",
+  "author": "Celia Encabo Duró",
+  "school": "Institut Escola d'Hoteleria i Turisme de Barcelona Barcelona",
+  "date": "13/07/11",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16), High school (16-18)",
+    "ca": "Secundària (12-16), Batxillerat (16-18)",
+    "es": "Secundaria (12-16), Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "SEC",
+    "BTX"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa",
+    "es": "lengua inglesa",
+    "en": "English language"
+  },
+  "descCodes": [
+    667
+  ],
+  "description": {
+    "en": "Activities to learn the vocabulary which designate the utensils needed to set a table service.",
+    "ca": "Activitats per treballar el vocabulari que designa els utensilis que es necessiten per fer un servei de taula.\n<p> Aquestes activitats estan adreçades principalment a alumnat de Formació Professional </p>",
+    "es": "Actividades para trabajar el vocabulario que designa los utensilios que necesitamos para hacer un servicio de mesa.\n<p> Estas actividades están dirigidas principalmente a alumnado de Formación Profesional. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "atresta2"
+  ],
+  "mainFile": "jclic.js/atrestau.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/atrestau.jclic.zip",
+  "instFile": "jclic/atrestau.jclic.inst",
+  "clicZoneId": 3698,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3698",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/atrestau/jclic/atrestau.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 48,
+  "totalSize": 894773,
+  "files": [
+    "cover.png",
+    "jclic.js/0cereal_bowl.jpg",
+    "jclic.js/0fork.jpg",
+    "jclic.js/0knife.jpg",
+    "jclic.js/0mesa_montada_reducida_1.jpg",
+    "jclic.js/0plate.jpg",
+    "jclic.js/0spoon.jpg",
+    "jclic.js/0wine_glass.jpg",
+    "jclic.js/a_glass_of_wine.mp3",
+    "jclic.js/atrestau.jclic",
+    "jclic.js/bowl.mp3",
+    "jclic.js/butter_knife.mp3",
+    "jclic.js/butter_plate.jpg",
+    "jclic.js/cereal_bowl.jpg",
+    "jclic.js/cereal_bowl.mp3",
+    "jclic.js/come_on_do_it_again.mp3",
+    "jclic.js/cuchillo_de_postre.jpg",
+    "jclic.js/cup_and_saucer.mp3",
+    "jclic.js/cup_saucer.jpg",
+    "jclic.js/dessert_spoon.mp3",
+    "jclic.js/dinner_fork.mp3",
+    "jclic.js/fork.jpg",
+    "jclic.js/glass.mp3",
+    "jclic.js/i01_fork.mp3",
+    "jclic.js/i01_question_mark.jpg",
+    "jclic.js/knife.jpg",
+    "jclic.js/knife.mp3",
+    "jclic.js/lunch_set_table.jpg",
+    "jclic.js/mantel.jpg",
+    "jclic.js/mesa_montada_reducida_1.jpg",
+    "jclic.js/milk_jug.jpg",
+    "jclic.js/milk_jug.mp3",
+    "jclic.js/napkin.mp3",
+    "jclic.js/pink_napkin.jpg",
+    "jclic.js/plate.jpg",
+    "jclic.js/plate.mp3",
+    "jclic.js/pregunta.gif",
+    "jclic.js/side_plate.mp3",
+    "jclic.js/spoon.jpg",
+    "jclic.js/spoon.mp3",
+    "jclic.js/sugar_bowl.jpg",
+    "jclic.js/sugar_bowl.mp3",
+    "jclic.js/tablecoth.mp3",
+    "jclic.js/teapot.jpg",
+    "jclic.js/teapot.mp3",
+    "jclic.js/water_goblet.jpg",
+    "jclic.js/well_done_.mp3",
+    "jclic.js/why_don_t_you_try_again_.mp3",
+    "jclic.js/wine_glass.jpg",
+    "jclic.js/wine_glass.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/atrestau.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

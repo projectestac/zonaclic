@@ -1,0 +1,112 @@
+{
+  "id": 1666,
+  "title": "Geometría",
+  "author": "Gonzalo Trueba Pérez",
+  "date": "10/05/07",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geometria",
+    "es": "geometría",
+    "en": "geometry"
+  },
+  "descCodes": [
+    708
+  ],
+  "description": {
+    "en": "Project of activities about geometry addressed to secondary education to study definitions and classifications of the polygons, triangles and circumferences.",
+    "ca": "Projecte de geometria adreçat a alumnat de 2n d'ESO amb definicions i classificacions de polígons, què és un polígon regular i irregular, noms dels polígons en funció del nombre de costats que tenen; triangles, tipus de triangles segons els seus costats i segons els seus angles; i circumferències i les seves parts. També apareixen el Teorema de Pitàgores i el Teorema de Tales.",
+    "es": "Proyecto de geometría dirigido a alumnado de 2º de ESO con definiciones y clasificaciones de polígonos, qué es un polígono regular e irreguar, nombres de los polígonos según los lados que tienen; triángulos, tipos de triángulos según sus lados y sus ángulos; y circunferencias y sus partes. También aparecen los Teoremas de Pitágoras y Thales."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/geom2eso.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/geom2eso.jclic.zip",
+  "instFile": "jclic/geom2eso.jclic.inst",
+  "clicZoneId": 3376,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3376",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/geom2eso/jclic/geom2eso.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 31,
+  "mediaFiles": 34,
+  "totalSize": 621887,
+  "files": [
+    "cover.jpg",
+    "jclic.js/circ.arco.jpg",
+    "jclic.js/circ.centro.jpg",
+    "jclic.js/circ.cuerda.jpg",
+    "jclic.js/circ.diametro.jpg",
+    "jclic.js/circ.radio.jpg",
+    "jclic.js/circulo.area.jpg",
+    "jclic.js/circun.longitud.jpg",
+    "jclic.js/circunferencia_roja.jpg",
+    "jclic.js/cuadrado.jpg",
+    "jclic.js/eneagono.jpg",
+    "jclic.js/geom0.jpg",
+    "jclic.js/geom2eso.jclic",
+    "jclic.js/heptagono.jpg",
+    "jclic.js/hexagono.jpg",
+    "jclic.js/octogono.jpg",
+    "jclic.js/pentagono.jpg",
+    "jclic.js/pentagono_reg.jpg",
+    "jclic.js/poligonos_def.jpg",
+    "jclic.js/poligonos_lados.jpg",
+    "jclic.js/quadernogeometria.gif",
+    "jclic.js/rectan.area.jpg",
+    "jclic.js/ta_de_pitagoras.jpg",
+    "jclic.js/ta_de_thales.jpg",
+    "jclic.js/triang.acutang.jpg",
+    "jclic.js/triang.altura.jpg",
+    "jclic.js/triang.area.jpg",
+    "jclic.js/triang.equilat.jpg",
+    "jclic.js/triang.escaleno.jpg",
+    "jclic.js/triang.isosceles.jpg",
+    "jclic.js/triang.obtusang.jpg",
+    "jclic.js/triang.rectang.jpg",
+    "jclic.js/triang.rectangulo.jpg",
+    "jclic.js/triang_altura.jpg",
+    "jclic.js/triangulo.jpg",
+    "jclic.js/triangulos_def_clasif.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/geom2eso.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

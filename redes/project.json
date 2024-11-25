@@ -1,0 +1,95 @@
+{
+  "id": 2025,
+  "title": "Las Redes Sociales",
+  "author": "Ángel Fernández Aragón i Verónica Silva Liaño",
+  "school": "Universidad Autónoma de Madrid Madrid (Madrid)",
+  "date": "22/01/10",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences, Miscellaneous",
+    "ca": "Ciències socials, Diversos",
+    "es": "Ciencias sociales, Diversos"
+  },
+  "areaCodes": [
+    "soc",
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "xarxes socials",
+    "es": "redes sociales",
+    "en": "social networks"
+  },
+  "descCodes": [
+    1403
+  ],
+  "description": {
+    "en": "JClic project about social networks like facebook, twitter, myspace... adressed to children between ten and fourteen years old.",
+    "ca": "Projecte JClic sobre les xarxes socials (facebook, twitter, myspace...) adreçat als darrers cursos d'educació primària i primers cursos d'educació secundària. El projecte té com objectiu fomentar l'aprenentatge sobre les xarxes socials a partir del joc.",
+    "es": "Proyecto JClic sobre las redes sociales (facebook, twitter, myspace...) dirigido a los últimos cursos de educación primaria y primeros cursos de educación secundaria. El proyecto tiene como objetivo fomentar el aprendizaje sobre las redes sociales a partir del juego."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/redes.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/redes.jclic.zip",
+  "instFile": "jclic/redes.jclic.inst",
+  "clicZoneId": 3595,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3595",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/redes/jclic/redes.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 14,
+  "totalSize": 1046804,
+  "files": [
+    "cover.jpg",
+    "jclic.js/1246982977_sonico.jpg",
+    "jclic.js/1247499177_habbo.jpg",
+    "jclic.js/136_af159f2893.jpg",
+    "jclic.js/almira_facebookenvoyespecialreportpart24545.jpg",
+    "jclic.js/badoo.gif",
+    "jclic.js/festuc.gif",
+    "jclic.js/hi5_logo.png",
+    "jclic.js/img_63071_myspace_logo_450x360.jpg",
+    "jclic.js/redes.jclic",
+    "jclic.js/redes_sociales.jpg",
+    "jclic.js/redes_sociales_talentos1.jpg",
+    "jclic.js/tuenti.jpg",
+    "jclic.js/twitter04.jpg",
+    "jclic.js/windows_live_messenger1.jpg",
+    "jclic.js/youtube_logo.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/redes.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": 2547,
+  "title": "Nascuts a Reus",
+  "author": "Francisca Doncel, Margarida Paredes, Anna Parés",
+  "school": "Escola La Vitxeta (Reus)",
+  "date": "02/05/17",
+  "langCodes": [
+    "ca"
+  ],
+  "languages": {
+    "ca": "català",
+    "es": "catalán",
+    "en": "Catalan"
+  },
+  "areaCodes": [
+    "lleng",
+    "soc"
+  ],
+  "areas": {
+    "ca": "Llengües, Ciències socials, llengua catalana, coneixement del medi social",
+    "es": "Lenguas, Ciencias sociales, llengua catalana, coneixement del medi social",
+    "en": "Languages, Social sciences, llengua catalana, coneixement del medi social"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "levels": {
+    "ca": "Primària (6-12), cicle superior primària",
+    "es": "Primaria (6-12), cicle superior primària",
+    "en": "Primary school (6-12), cicle superior primària"
+  },
+  "description": {
+    "ca": "Aquest paquet d'activitats intenta familiaritzar els infants amb els oficis i llocs que recorden i homenatgen els fills i filles il·lustres de la ciutat de Reus.",
+    "es": "Este paquete de actividades intenta familiarizar a los niños y niñas con los oficios y los lugares que recuerdan y homenajean a los hijos e hijas ilustres de la ciudad de Reus.",
+    "en": "This package of activities wants to familiarize children with professions and places that remember and honor illustrious citizens of Reus."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "cover": "reus.png",
+  "coverWebp": "reus.webp",
+  "thumbnail": "reus100.png",
+  "mainFile": "jclic.js/reus.jclic",
+  "activities": 43,
+  "mediaFiles": 31,
+  "totalSize": 1768756,
+  "instFile": "jclic/reus.jclic.inst",
+  "zipFile": "jclic/reus.jclic.zip",
+  "files": [
+    "jclic.js/1100px-escut_heraldic_de_reus.svg-resized.jpg",
+    "jclic.js/320px-catalunya-reus-monument-joan-prim.jpg",
+    "jclic.js/3244-resized.jpg",
+    "jclic.js/3903336519_b6e179da2d_b-resized.jpg",
+    "jclic.js/calbo.jpg",
+    "jclic.js/casa_navas_a_reus-resized.jpg",
+    "jclic.js/eduard_toda.jpg",
+    "jclic.js/favicon.ico",
+    "jclic.js/foto_maria_fortuny-resized.jpg",
+    "jclic.js/gaudi-resized.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/img_0538-resized.jpg",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/josep_tapiro_i_baro-resized.jpg",
+    "jclic.js/los-salesianos.jpg",
+    "jclic.js/mapa_de_localitzacio_a_les_comarques_catalanes2-resized.jpg",
+    "jclic.js/prim_1-resized.jpg",
+    "jclic.js/prosperobofarull.jpg",
+    "jclic.js/r_bartrina.jpg",
+    "jclic.js/r_folguera.jpg",
+    "jclic.js/r_gabriel_ferrater.jpg",
+    "jclic.js/r_josep_llovera.jpg",
+    "jclic.js/r_molasrosa.jpg",
+    "jclic.js/r_pedro_mata__f.jpg",
+    "jclic.js/r_rebull.jpg",
+    "jclic.js/reus.jclic",
+    "jclic.js/reus.jclic.js",
+    "jclic.js/roseta1-resized.jpg",
+    "jclic.js/salvador_vilaseca.jpg",
+    "jclic.js/triptolem_rebull-resized.jpg",
+    "jclic.js/xavier_amoros.jpg",
+    "project.json",
+    "reus.png",
+    "reus100.png",
+    "reus.webp"
+  ]
+}

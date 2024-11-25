@@ -1,0 +1,85 @@
+{
+  "id": 1592,
+  "title": "Numeració",
+  "author": "Catalina Homar Florit, Francisca Giner, Joan Morell Puig i Margalida Pons",
+  "school": "CP Sant Bartomeu Alaró (Mallorca)",
+  "date": "08/06/06",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "Activities of numeration addressed to 3th course of primary education (until the thousands) and 4th course of primary education (until the million). The activities are classified in packages of: to read, to write, to compose...\n<br> It is adapted for low vision impaired children.",
+    "ca": "Activitats de numeració per a 3r (fins a la unitat de miler) i 4t d'Educació Primària (fins a la unitat de milió). Les activitats estan classificades en paquets de: Llegir, escriure, compondre, descompondre i seriacions de nombres.\n<br> Adaptat per discapacitat visual baixa visió.",
+    "es": "Actividades de numeración para 3º de educación primaria (hasta los miles) y 4º (hasta el millón). Las actividades están clasificadas en paquetes de: leer, escribir, componer, descomponer y seriaciones de números.\n<br> Adaptado para discapacidad visual baja visión."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "numeradv"
+  ],
+  "mainFile": "jclic.js/numeraci.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/numeraci.jclic.zip",
+  "instFile": "jclic/numeraci.jclic.inst",
+  "clicZoneId": 3308,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3308",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/numeraci/jclic/numeraci.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 120,
+  "mediaFiles": 11,
+  "totalSize": 1409573,
+  "files": [
+    "cover.gif",
+    "jclic.js/albo.jpg",
+    "jclic.js/alzina.jpg",
+    "jclic.js/arbocera.jpg",
+    "jclic.js/estepa_1.jpg",
+    "jclic.js/garball_.jpg",
+    "jclic.js/garrover.jpg",
+    "jclic.js/numeraci.jclic",
+    "jclic.js/pi.jpg",
+    "jclic.js/portada2.gif",
+    "jclic.js/savina.jpg",
+    "jclic.js/violet_1.jpg",
+    "jclic.js/xiprell.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/numeraci.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

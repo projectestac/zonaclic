@@ -1,0 +1,123 @@
+{
+  "id": 2343,
+  "title": "La carta de la Tierra",
+  "author": "Anna Fontelles Terrés Dibuixos: Montse Remacha i Rita Sañé",
+  "school": "CREDA Lleida Lleida",
+  "date": "08/10/15",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences, Languages, Miscellaneous",
+    "ca": "Ciències socials, Llengües, Diversos",
+    "es": "Ciencias sociales, Lenguas, Diversos"
+  },
+  "areaCodes": [
+    "soc",
+    "lleng",
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengües, valors",
+    "es": "lenguas, valores",
+    "en": "languages, values"
+  },
+  "descCodes": [
+    143,
+    1443
+  ],
+  "description": {
+    "en": "The purpose of this is JClic is to know the Earth Charter. This JClic is a part of the \n<i>Projecte Implica't</i> coordinated by Mª Mar Lluelles.",
+    "ca": "L'objectiu d'aquest JClic és conèixer els principis de la \n<b>Carta de la Terra</b>. Aquest JClic forma part del \n<i>Projecte Implica't</i> coordinat per la Mª Mar Lluelles.",
+    "es": "El objetivo de este JClic es conocer los principios de la \n<b>Carta de la Tierra</b>. Este JClic forma parte del \n<i>Projecte Implica't</i> coordinado por Mª Mar Lluelles."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "cartater"
+  ],
+  "mainFile": "jclic.js/carta_es.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/carta_es.jclic.zip",
+  "instFile": "jclic/carta_es.jclic.inst",
+  "clicZoneId": 3851,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3851",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/carta_es/jclic/carta_es.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 37,
+  "totalSize": 2187038,
+  "files": [
+    "cover.png",
+    "jclic.js/carta_es.jclic",
+    "jclic.js/conocimpl.mp3",
+    "jclic.js/cuidado.jpg",
+    "jclic.js/cuidadors1.jpg",
+    "jclic.js/cura1.jpg",
+    "jclic.js/demo.jpg",
+    "jclic.js/democracia__no_violencia_i_pau_resized.jpg",
+    "jclic.js/encont.mp3",
+    "jclic.js/fantastico.mp3",
+    "jclic.js/fons1.jpg",
+    "jclic.js/gent_resized.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/indexcas.mp3",
+    "jclic.js/infcas1.mp3",
+    "jclic.js/infermera1.jpg",
+    "jclic.js/infermera2.jpg",
+    "jclic.js/infocas.mp3",
+    "jclic.js/jardiner3.jpg",
+    "jclic.js/la_carta_de_la_terra2.jpg",
+    "jclic.js/muybien.mp3",
+    "jclic.js/nois_nens_resized2.jpg",
+    "jclic.js/nois_nens_resized3.jpg",
+    "jclic.js/ordena.mp3",
+    "jclic.js/ordena1.mp3",
+    "jclic.js/ordenacas.mp3",
+    "jclic.js/pallassa1.jpg",
+    "jclic.js/parejas.mp3",
+    "jclic.js/protectora1.jpg",
+    "jclic.js/puzle.mp3",
+    "jclic.js/relaciona.mp3",
+    "jclic.js/relfrdib.mp3",
+    "jclic.js/saber.mp3",
+    "jclic.js/sang1.jpg",
+    "jclic.js/socail1.png",
+    "jclic.js/sopa.mp3",
+    "jclic.js/terrar.jpg",
+    "jclic.js/tierra.png",
+    "jclic.js/tierrabn.png",
+    "jclic.js/web_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/carta_es.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": 456,
+  "title": "Palabras, sílabas y acentuación",
+  "author": "Juan Antonio Vacas Rodríguez",
+  "school": "CEIP San Isidoro Torredelcampo (Jaén)",
+  "date": "23/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, ortografia",
+    "es": "lengua castellana, ortografía",
+    "en": "Spanish language, spelling"
+  },
+  "descCodes": [
+    132,
+    146
+  ],
+  "description": {
+    "en": "Package of activities directed to learn to accentuate the words, knowing the diphthongs and hiatuses and following the norms of the R.A.E. de la Lengua. Throughout the package also child are remembering and learning these norms.",
+    "ca": "Paquet d'activitats adreçat a aprendre a accentuar paraules en castellà, coneixent els diftongs i hiatus i seguint les normes de la R.A.E. de la Lengua. Al llarg del paquet també es van recordant i aprenent aquestes normes.",
+    "es": "Paquete de actividades dirigido a aprender a acentuar las palabras, conociendo los diptongos e hiatos y siguiendo las normas de la R.A.E. de la Lengua. A lo largo del paquete también se van recordando y aprendiendo estas normas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/acentuar.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/acentuar.jclic.zip",
+  "instFile": "jclic/acentuar.jclic.inst",
+  "clicZoneId": 1279,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1279",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/acentuar/jclic/acentuar.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 35,
+  "mediaFiles": 5,
+  "totalSize": 1041746,
+  "files": [
+    "cover.gif",
+    "jclic.js/acentuar.jclic",
+    "jclic.js/anacam_1.jpg",
+    "jclic.js/anchus_1.jpg",
+    "jclic.js/bolera2.jpg",
+    "jclic.js/ophrys_1.jpg",
+    "jclic.js/primera.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/acentuar.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

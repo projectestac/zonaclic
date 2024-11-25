@@ -1,0 +1,118 @@
+{
+  "id": 2070,
+  "title": "Divisibilitat",
+  "author": "Xevi Altesa Amils",
+  "school": "Institut Domènec Perramon Arenys de Munt (Maresme)",
+  "date": "17/09/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "divisibilitat",
+    "es": "divisibilidad",
+    "en": "divisibility"
+  },
+  "descCodes": [
+    1412
+  ],
+  "description": {
+    "en": "Project of activities addressed to 1st and 2nd level of secondary education about divisibility: \n<ul> \n <li>Multiple, divisor and divisible. </li>\n <li>Primer numbers and composite numbers. </li>\n <li>Primer numbers between them. </li>\n <li>Common maximum divisor and least common multiple. </li>\n</ul> In these pages you will find the other parts of this serie: \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=3599\">Descomposició en factors primers</a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=3634\">Fraccions</a> i \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=3635\">Els enters</a>.",
+    "ca": "Projecte d'activitats per a 1r i 2n curs d'educació secundària obligatòria sobre la divisibilitat: \n<ul> \n <li>Múltiple, divisor i divisible. </li>\n <li>Nombres primers i compostos. </li>\n <li>Nombres primers entre ells. </li>\n <li>Màxim comú divisor i mínim comú múltiple. </li>\n</ul> En aquestes pàgines es troben altres activitats d'aquesta sèrie matemàtica: \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=3599\">Descomposició en factors primers</a>, \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=3634\">Fraccions</a> i \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=3635\">Els enters</a>.",
+    "es": "Proyecto de actividades para 1º y 2º curso de educación secundaria obligatoria sobre la divisibilidad: \n<ul> \n <li>Múltiple, divisor y divisible. </li>\n <li>Números primos compuestos. </li>\n <li>Números primos entre ellos. </li>\n <li>Máximo común divisor y mínimo común múltiplo. </li>\n</ul> En estas páginas se encuentran otras actividades de esta serie matemática: \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=3599\">Descomposició en factors primers</a>, \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=3634\">Fraccions</a> i \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=3635\">Els enters</a>."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/divisib2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/divisib2.jclic.zip",
+  "instFile": "jclic/divisib2.jclic.inst",
+  "clicZoneId": 3636,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3636",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/divisib2/jclic/divisib2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 39,
+  "totalSize": 2376362,
+  "files": [
+    "cover.jpg",
+    "jclic.js/11div.jpg",
+    "jclic.js/2div.jpg",
+    "jclic.js/3div.jpg",
+    "jclic.js/5div.jpg",
+    "jclic.js/7div.jpg",
+    "jclic.js/divisib2.jclic",
+    "jclic.js/fons.jpg",
+    "jclic.js/mcd.jpg",
+    "jclic.js/mcd1210.jpg",
+    "jclic.js/mcd1218.jpg",
+    "jclic.js/mcd121830.jpg",
+    "jclic.js/mcd12615.jpg",
+    "jclic.js/mcd2120.jpg",
+    "jclic.js/mcd2430.jpg",
+    "jclic.js/mcd278.jpg",
+    "jclic.js/mcd5016.jpg",
+    "jclic.js/mcd610.jpg",
+    "jclic.js/mcd714.jpg",
+    "jclic.js/mcd7610.jpg",
+    "jclic.js/mcd81220.jpg",
+    "jclic.js/mcd8456.jpg",
+    "jclic.js/mcd910.jpg",
+    "jclic.js/mcm.jpg",
+    "jclic.js/mcm1210.jpg",
+    "jclic.js/mcm1218.jpg",
+    "jclic.js/mcm121830.jpg",
+    "jclic.js/mcm12615.jpg",
+    "jclic.js/mcm2120.jpg",
+    "jclic.js/mcm2430.jpg",
+    "jclic.js/mcm278.jpg",
+    "jclic.js/mcm5016.jpg",
+    "jclic.js/mcm610.jpg",
+    "jclic.js/mcm714.jpg",
+    "jclic.js/mcm7610.jpg",
+    "jclic.js/mcm81220.jpg",
+    "jclic.js/mcm8456.jpg",
+    "jclic.js/mcm910.jpg",
+    "jclic.js/multidivi.jpg",
+    "jclic.js/puzzle.jpg",
+    "jclic.js/titoldivi.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/divisib2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

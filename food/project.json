@@ -1,0 +1,99 @@
+{
+  "id": 274,
+  "title": "Food",
+  "author": "Alfonso Gómez Arenas",
+  "school": "CPR de Soria Soria (Soria)",
+  "date": "15/07/02",
+  "languages": {
+    "en": "English, Spanish",
+    "ca": "anglès, espanyol",
+    "es": "inglés, español"
+  },
+  "langCodes": [
+    "en",
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "vocabulari, llengua anglesa",
+    "es": "vocabulario, lengua inglesa",
+    "en": "vocabulary, English language"
+  },
+  "descCodes": [
+    150,
+    667
+  ],
+  "description": {
+    "en": "Activity pack that has a double purpose. On the one hand it serves as a practice session for English as a second language students to work on some basic vocabulary about foods, while at the same time it serves as a demo of the possibilities available with Clic.",
+    "ca": "Mostra del treball dels cursos de creació d'activitats multimèdia amb el Clic que organitzen al CPR de Sòria. És una petita aplicació per a l'aula d'idiomes (anglès) que té un objectiu doble: treballar el vocabulari dels aliments i ser una mostra de les diverses possibilitats del programa amb un mateix dibuix.",
+    "es": "Muestra de los cursos de creación de actividades multimedia con Clic que organizan en el CPR de Soria. Se trata de una pequeña aplicación para el aula de Idiomas (inglés) que tiene un objetivo doble: trabajar algunos conceptos (vocabulario de alimentos preferentemente) y ser una muestra sobre las distintas posibilidades del programa con un mismo dibujo."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/food.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/food.jclic.zip",
+  "instFile": "jclic/food.jclic.inst",
+  "clicZoneId": 1147,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1147",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/food/jclic/food.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 18,
+  "totalSize": 1063620,
+  "files": [
+    "cover.jpg",
+    "jclic.js/apple.wav",
+    "jclic.js/banana.wav",
+    "jclic.js/carrot.wav",
+    "jclic.js/cherries.wav",
+    "jclic.js/comidas1.gif",
+    "jclic.js/comidas2.gif",
+    "jclic.js/f_orange.wav",
+    "jclic.js/fine.wav",
+    "jclic.js/food.jclic",
+    "jclic.js/frase1.gif",
+    "jclic.js/grapes.wav",
+    "jclic.js/mushroom.wav",
+    "jclic.js/orange.wav",
+    "jclic.js/pear.wav",
+    "jclic.js/peas.wav",
+    "jclic.js/potato.wav",
+    "jclic.js/strawber.wav",
+    "jclic.js/verygood.wav",
+    "jclic.js/watermel.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/food.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

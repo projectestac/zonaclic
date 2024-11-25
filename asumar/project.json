@@ -1,0 +1,117 @@
+{
+  "id": 1397,
+  "title": "A sumar",
+  "author": "David Barrón Cabrieles i María Inés Higareda Benavides",
+  "school": "Centro de Atenció Múltiple Dr. Rafael Santamarina Guadalupe - Nuevo León (México)",
+  "date": "13/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "càlcul",
+    "es": "cálculo",
+    "en": "calculation"
+  },
+  "descCodes": [
+    702
+  ],
+  "description": {
+    "en": "Clic activities addressed to primary school. The package has three parts: \n<ul> \n <li>To order </li>\n <li>How many are there? </li>\n <li>Which number? </li>\n</ul>",
+    "ca": "Conjunt d'activitats per a alumnes de primer curs d'educació primària que es divideix en tres parts: \n<ul> \n <li>Ordenar </li>\n <li>Quants son? </li>\n <li>Quin número? </li>\n</ul>",
+    "es": "Conjunto de actividades para alumnos de primer curso de educación primaria que se divide en tres partes: \n<ul> \n <li>Ordenar </li>\n <li>¿Cuántos son? </li>\n <li>¿Qué número? </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/asumar.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/asumar.jclic.zip",
+  "instFile": "jclic/asumar.jclic.inst",
+  "clicZoneId": 3133,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3133",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/asumar/jclic/asumar.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 38,
+  "totalSize": 3028367,
+  "files": [
+    "cover.gif",
+    "jclic.js/1.wav",
+    "jclic.js/181.mid",
+    "jclic.js/1pollito.wav",
+    "jclic.js/2.wav",
+    "jclic.js/2pollito.wav",
+    "jclic.js/3.wav",
+    "jclic.js/3pollito.wav",
+    "jclic.js/4.wav",
+    "jclic.js/4pollito.wav",
+    "jclic.js/5.wav",
+    "jclic.js/5pollito.wav",
+    "jclic.js/asumar.jclic",
+    "jclic.js/bach1.mid",
+    "jclic.js/cero.gif",
+    "jclic.js/cero1.gif",
+    "jclic.js/cincopo.gif",
+    "jclic.js/cuantos.gif",
+    "jclic.js/cuatro.gif",
+    "jclic.js/cuatro5.gif",
+    "jclic.js/cuatropo.gif",
+    "jclic.js/dos.gif",
+    "jclic.js/dos3.gif",
+    "jclic.js/dospo.gif",
+    "jclic.js/flauta.wav",
+    "jclic.js/ordenar.gif",
+    "jclic.js/present.gif",
+    "jclic.js/quenu.gif",
+    "jclic.js/rebel.mid",
+    "jclic.js/suma1.wav",
+    "jclic.js/suma2.wav",
+    "jclic.js/suma3.wav",
+    "jclic.js/suma4.wav",
+    "jclic.js/suma5.wav",
+    "jclic.js/tres.gif",
+    "jclic.js/tres4.gif",
+    "jclic.js/trespo.gif",
+    "jclic.js/uno1.gif",
+    "jclic.js/uno2.gif",
+    "jclic.js/unpo.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/asumar.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

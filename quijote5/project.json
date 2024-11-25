@@ -1,0 +1,129 @@
+{
+  "id": 1529,
+  "title": "Actividades sobre El Quijote (Don Quijote de La Mancha)",
+  "author": "Mª. Carmen Jiménez, Mayte Mezcua i Reyes Aragón",
+  "date": "19/01/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "lectura, llengua castellana, literatura castellana",
+    "es": "lectura, lengua castellana, literatura castellana",
+    "en": "reading, Spanish language, Castilian Literature"
+  },
+  "descCodes": [
+    125,
+    132,
+    626
+  ],
+  "description": {
+    "en": "Two projects of activities about \n<i>Don Quixote</i>, the first one about Cervantes and its work. \n<br> The second one about the VIII chapter: Of the good fortune which the valiant don Quixote had in the terrible and undreamt-of adventure of the windmills, with other occurrences worthy to be fitly recorded.",
+    "ca": "Dos projectes d'activitats sobre \n<i>El Quijote</i>, el primer d'ells per introduir la figura de Cervantes i la seva gran obra. \n<br> El segon d'ells tracta en concret el capítol del molins de vent: \n<i>Del buen suceso que el valeroso don Quijote tuvo en la espantable y jamás imaginada aventura de los molinos de viento, con otros sucesos dignos de felice recordación.</i>",
+    "es": "Dos proyectos de actividades sobre \n<i>El Quijote</i>, el primero de ellos para introducir la figura de Cervantes y su gran obra.\n<br> El segundo de ellos trata en concreto del capítulo de los molinos de viento: \n<i>Del buen suceso que el valeroso don Quijote tuvo en la espantable y jamás imaginada aventura de los molinos de viento, con otros sucesos dignos de felice recordación.</i>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "molinos"
+  ],
+  "mainFile": "jclic.js/quijote5.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/quijote5.jclic.zip",
+  "instFile": "jclic/quijote5.jclic.inst",
+  "clicZoneId": 3257,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3257",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/quijote5/jclic/quijote5.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 31,
+  "mediaFiles": 46,
+  "totalSize": 6155700,
+  "files": [
+    "cover.jpg",
+    "jclic.js/adivinanzas.jpg",
+    "jclic.js/aldonza_lorenzo.gif",
+    "jclic.js/cervantes.gif",
+    "jclic.js/dibujosopadeletras.jpg",
+    "jclic.js/dibujosopadeletras2.jpg",
+    "jclic.js/dulcinea.wav",
+    "jclic.js/dulcinea2.jpg",
+    "jclic.js/eres_genial.wav",
+    "jclic.js/escr1.gif",
+    "jclic.js/fantastico.wav",
+    "jclic.js/fondo.jpg",
+    "jclic.js/galopante.wav",
+    "jclic.js/galp.jpg",
+    "jclic.js/haz_el_puzle.wav",
+    "jclic.js/intentalo_de_nuevo.wav",
+    "jclic.js/licenciado_pedro_perez.gif",
+    "jclic.js/lohashecho.wav",
+    "jclic.js/maese_nicilas.gif",
+    "jclic.js/maritornes.gif",
+    "jclic.js/muybien.wav",
+    "jclic.js/no.wav",
+    "jclic.js/nono.wav",
+    "jclic.js/ohhh.wav",
+    "jclic.js/parejas.wav",
+    "jclic.js/pincha_en_la_foto.wav",
+    "jclic.js/quien_es.wav",
+    "jclic.js/quijote.jpg",
+    "jclic.js/quijote.wav",
+    "jclic.js/quijote3.gif",
+    "jclic.js/quijote3.jpg",
+    "jclic.js/quijote5.jclic",
+    "jclic.js/quijoteysancho.jpg",
+    "jclic.js/repetimos.wav",
+    "jclic.js/rocinante.gif",
+    "jclic.js/rocinante.wav",
+    "jclic.js/rocinante2.jpg",
+    "jclic.js/rocinante2.wav",
+    "jclic.js/rucio.gif",
+    "jclic.js/rucio.jpg",
+    "jclic.js/rucio.wav",
+    "jclic.js/sancho.gif",
+    "jclic.js/sancho2.jpg",
+    "jclic.js/sanchopanza.wav",
+    "jclic.js/sanchoquijote.mp3",
+    "jclic.js/sobrina.gif",
+    "jclic.js/tib.wav",
+    "jclic.js/ventana.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/quijote5.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

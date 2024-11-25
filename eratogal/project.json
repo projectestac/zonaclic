@@ -1,0 +1,104 @@
+{
+  "id": 484,
+  "title": "A criba de Eratóstenes",
+  "author": "Javier Rodríguez Fernández",
+  "school": "Escola L'Alzina Molins de Rei (Baix Llobregat)",
+  "date": "24/07/02",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "història de la matemàtica",
+    "es": "historia de la matemática",
+    "en": "history of the mathematics"
+  },
+  "descCodes": [
+    709
+  ],
+  "description": {
+    "en": "Find the prime numbers between 1 and 100 using Eratosthenes method.",
+    "ca": "Aquest paquet d'activitats reprodueix el mètode d'Eratòstenes per a trobar la llista dels nombres primers més petits de 100, gràficament i pas a pas.",
+    "es": "Este paquete de actividades reproduce el método de Eratóstenes para encontrar la lista de los números primos menores de 100, gráficamente y paso a paso."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "crible",
+    "eratoeus",
+    "eratoste",
+    "esperato"
+  ],
+  "mainFile": "jclic.js/eratogal.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/eratogal.jclic.zip",
+  "instFile": "jclic/eratogal.jclic.inst",
+  "clicZoneId": 1290,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1290",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/eratogal/jclic/eratogal.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 9,
+  "mediaFiles": 18,
+  "totalSize": 219777,
+  "files": [
+    "cover.gif",
+    "jclic.js/butkorb1.gif",
+    "jclic.js/butkorb3.gif",
+    "jclic.js/butkorb4.gif",
+    "jclic.js/butkorb6.gif",
+    "jclic.js/eratogal.jclic",
+    "jclic.js/info1.gif",
+    "jclic.js/info2.gif",
+    "jclic.js/n1.gif",
+    "jclic.js/n1b.gif",
+    "jclic.js/n2.gif",
+    "jclic.js/n3.gif",
+    "jclic.js/n4.gif",
+    "jclic.js/n5.gif",
+    "jclic.js/n6.gif",
+    "jclic.js/n7.gif",
+    "jclic.js/n8.gif",
+    "jclic.js/n9.gif",
+    "jclic.js/porta.gif",
+    "jclic.js/woman.mid",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/eratogal.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

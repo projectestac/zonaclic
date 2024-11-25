@@ -1,0 +1,81 @@
+{
+  "id": 2420,
+  "title": "Las decenas y las centenas",
+  "author": "Alberto López Muñiz",
+  "date": "14/01/16",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la matemàtica, nombres enters",
+    "es": "aprendizaje de la matemática, números enteros",
+    "en": "learning of the mathematical one, integers"
+  },
+  "descCodes": [
+    700,
+    1321
+  ],
+  "description": {
+    "en": "Series of 15 exercises about tens and hundreds addressed to primary education.",
+    "ca": "Sèrie de 15 exercicis per a ubicar la unitat, la desena i la centena, canvi de desena i la cerca de a desena més propera.",
+    "es": "Serie de 15 ejercicios de ubicación de unidad, decena y centena, cambio de decena y búsqueda de decena más próxima"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/dec_cent.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/dec_cent.jclic.zip",
+  "instFile": "jclic/dec_cent.jclic.inst",
+  "clicZoneId": 3928,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3928",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/dec_cent/jclic/dec_cent.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 2,
+  "totalSize": 179130,
+  "files": [
+    "cover.png",
+    "jclic.js/619_100106_multibase_didactico_colores.jpg",
+    "jclic.js/centenas2.jpg",
+    "jclic.js/dec_cent.jclic",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/dec_cent.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

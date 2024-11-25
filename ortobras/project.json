@@ -1,0 +1,122 @@
+{
+  "id": 1502,
+  "title": "Ortografia quero aprender!",
+  "author": "Neide Emiko Kishima de Gouveia",
+  "school": "Colégio Cruzeiro do Sul Brasil",
+  "date": "13/05/10",
+  "languages": {
+    "en": "Portuguese",
+    "ca": "portuguès",
+    "es": "portugués"
+  },
+  "langCodes": [
+    "pt"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, Portuguès",
+    "es": "aprendizaje de la lengua, Portugués",
+    "en": "learning of the language, Portuguese"
+  },
+  "descCodes": [
+    110,
+    897
+  ],
+  "description": {
+    "en": "Clic activities about orthography in Portuguese of Brazil. The package has 35 activities addressed to primary education.",
+    "ca": "Activitats d'ortografia en llengua portuguesa de Brasil. El paquet consta de 35 activitats i està adreçat a alumnes d'educació primària.",
+    "es": "Actividades de ortografía en lengua portuguesa de Brasil. El paquete consta de 35 actividades y está dirigido a alumnos de educación primaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ortobras.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ortobras.jclic.zip",
+  "instFile": "jclic/ortobras.jclic.inst",
+  "clicZoneId": 3221,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3221",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ortobras/jclic/ortobras.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 35,
+  "mediaFiles": 42,
+  "totalSize": 688100,
+  "files": [
+    "cover.gif",
+    "jclic.js/1.gif",
+    "jclic.js/10.gif",
+    "jclic.js/1a.gif",
+    "jclic.js/2.gif",
+    "jclic.js/2a.gif",
+    "jclic.js/3.gif",
+    "jclic.js/3a.gif",
+    "jclic.js/4.gif",
+    "jclic.js/5.gif",
+    "jclic.js/6.gif",
+    "jclic.js/7.gif",
+    "jclic.js/abelha.gif",
+    "jclic.js/alho.gif",
+    "jclic.js/azei.gif",
+    "jclic.js/casa.gif",
+    "jclic.js/chave.gif",
+    "jclic.js/chuva.gif",
+    "jclic.js/coqueiro.gif",
+    "jclic.js/esquilo.gif",
+    "jclic.js/fogo.gif",
+    "jclic.js/formiga.gif",
+    "jclic.js/galinha.gif",
+    "jclic.js/guita.gif",
+    "jclic.js/ilha.gif",
+    "jclic.js/lista.gif",
+    "jclic.js/mochila.gif",
+    "jclic.js/money.gif",
+    "jclic.js/novo.gif",
+    "jclic.js/orto.gif",
+    "jclic.js/ortobras.jclic",
+    "jclic.js/pas.gif",
+    "jclic.js/peri.gif",
+    "jclic.js/queijo.gif",
+    "jclic.js/romero.gif",
+    "jclic.js/tela1.gif",
+    "jclic.js/tela2.gif",
+    "jclic.js/tela3.gif",
+    "jclic.js/tela4.gif",
+    "jclic.js/tela5.gif",
+    "jclic.js/tela6.gif",
+    "jclic.js/trem.gif",
+    "jclic.js/trilho.gif",
+    "jclic.js/unha.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ortobras.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

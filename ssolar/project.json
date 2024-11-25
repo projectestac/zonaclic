@@ -1,0 +1,110 @@
+{
+  "id": 143,
+  "title": "El sistema solar - 1",
+  "author": "Javier Rey Bacaicoa",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "sistema solar",
+    "es": "sistema solar",
+    "en": "Solar System"
+  },
+  "descCodes": [
+    104
+  ],
+  "description": {
+    "en": "Activity pack about the solar system. It has multimedia elements (sounds included). Designed for students of the junior high-school level.",
+    "ca": "Paquet d'activitats multimèdia (inclou sons) sobre el sistema solar i els seus planetes i satèl·lits, els eclipsis, les fases de la lluna...\n<br> Dissenyat per a estudiants de primer d'ESO.",
+    "es": "Paquete de actividades multimedia (incluye sonidos) sobre el sistema solar y sus planetas y satélites, los eclipses, las fases de la luna...\n<br> Diseñado para estudiantes de 1º de ESO."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "ssolaga1"
+  ],
+  "mainFile": "jclic.js/ssolar.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ssolar.jclic.zip",
+  "instFile": "jclic/ssolar.jclic.inst",
+  "clicZoneId": 1069,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1069",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ssolar/jclic/ssolar.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 29,
+  "totalSize": 959834,
+  "files": [
+    "cover.gif",
+    "jclic.js/aleluya.wav",
+    "jclic.js/aplauso.wav",
+    "jclic.js/bien.wav",
+    "jclic.js/ccreci.gif",
+    "jclic.js/cielo.gif",
+    "jclic.js/cmengua.gif",
+    "jclic.js/eclipse2.jpg",
+    "jclic.js/galaxia.jpg",
+    "jclic.js/io.jpg",
+    "jclic.js/jupit200.gif",
+    "jclic.js/jupit200.jpg",
+    "jclic.js/jupiter.jpg",
+    "jclic.js/jupiter2.jpg",
+    "jclic.js/llena.gif",
+    "jclic.js/luna.jpg",
+    "jclic.js/marte200.jpg",
+    "jclic.js/mercuri2.jpg",
+    "jclic.js/negro.gif",
+    "jclic.js/neptu200.jpg",
+    "jclic.js/neptuno.jpg",
+    "jclic.js/nueva.gif",
+    "jclic.js/ovacion.wav",
+    "jclic.js/pluton.jpg",
+    "jclic.js/satur200.jpg",
+    "jclic.js/sol01.gif",
+    "jclic.js/ssolar.jclic",
+    "jclic.js/tierra01.gif",
+    "jclic.js/tierra2.jpg",
+    "jclic.js/urano200.jpg",
+    "jclic.js/venus2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ssolar.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

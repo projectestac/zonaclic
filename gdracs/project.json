@@ -1,0 +1,134 @@
+{
+  "id": 1357,
+  "title": "Gaudí: Dracs",
+  "author": "Rosa M. Obradors Puigdellívol",
+  "school": "Escola Mare de Déu de Montserrat Súria (Bages)",
+  "date": "26/04/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "Antoni Gaudí",
+    "es": "Antoni Gaudí",
+    "en": "Antoni Gaudí"
+  },
+  "descCodes": [
+    1322
+  ],
+  "description": {
+    "en": "Clic activities about Antonio Gaudí's dragons.",
+    "ca": "Activitats relacionades amb dracs que es poden observar, amb ajuda de la imaginació, a les obres d'Antoni Gaudí.",
+    "es": "Actividades relacionadas con los dragones que se pueden observar, con la ayuda de la imaginación, en las obras de Antoni Gaudí."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/gdracs.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/gdracs.jclic.zip",
+  "instFile": "jclic/gdracs.jclic.inst",
+  "clicZoneId": 3098,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3098",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/gdracs/jclic/gdracs.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 54,
+  "totalSize": 1577827,
+  "files": [
+    "cover.jpg",
+    "jclic.js/2reixam.jpg",
+    "jclic.js/2reixap.jpg",
+    "jclic.js/4barres.jpg",
+    "jclic.js/4barresa.jpg",
+    "jclic.js/4barrest.jpg",
+    "jclic.js/banca.jpg",
+    "jclic.js/bancm.jpg",
+    "jclic.js/bdracd.jpg",
+    "jclic.js/bdracom.jpg",
+    "jclic.js/bellesgt.jpg",
+    "jclic.js/botina.jpg",
+    "jclic.js/botinem.jpg",
+    "jclic.js/botinv.jpg",
+    "jclic.js/dbatllo.jpg",
+    "jclic.js/dbatllom.jpg",
+    "jclic.js/dbatllop.jpg",
+    "jclic.js/dpguell2.jpg",
+    "jclic.js/dpguem.jpg",
+    "jclic.js/dpguep.jpg",
+    "jclic.js/dsfped.jpg",
+    "jclic.js/dsfpedm.jpg",
+    "jclic.js/dsfpedp.jpg",
+    "jclic.js/dvicens.jpg",
+    "jclic.js/dvicensm.jpg",
+    "jclic.js/dvicensp.jpg",
+    "jclic.js/fabatg.jpg",
+    "jclic.js/fbatllo3.jpg",
+    "jclic.js/fbatllop.jpg",
+    "jclic.js/gdracs.jclic",
+    "jclic.js/llbat2.jpg",
+    "jclic.js/mbanc.jpg",
+    "jclic.js/mbarres.jpg",
+    "jclic.js/mbatllo.jpg",
+    "jclic.js/mbelles.jpg",
+    "jclic.js/mbotin.jpg",
+    "jclic.js/moltbe2.gif",
+    "jclic.js/mpagu.jpg",
+    "jclic.js/mreixa.jpg",
+    "jclic.js/msf.jpg",
+    "jclic.js/mvicens.jpg",
+    "jclic.js/not.jpg",
+    "jclic.js/parcgp.jpg",
+    "jclic.js/pdraclic.jpg",
+    "jclic.js/pvguellp.jpg",
+    "jclic.js/reixapag.jpg",
+    "jclic.js/sagfamil.jpg",
+    "jclic.js/sit.jpg",
+    "jclic.js/sjbotin.jpg",
+    "jclic.js/tbellesg.jpg",
+    "jclic.js/tbellesm.jpg",
+    "jclic.js/tbellesp.jpg",
+    "jclic.js/trencad.jpg",
+    "jclic.js/trencad1.jpg",
+    "jclic.js/trencad3.jpg",
+    "jclic.js/vicensp.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/gdracs.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

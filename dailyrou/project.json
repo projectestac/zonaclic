@@ -1,0 +1,103 @@
+{
+  "id": 1374,
+  "title": "Daily routines",
+  "author": "Josep Cunillera",
+  "school": "ZER Baix Gaià El Catllar (Tarragonès)",
+  "date": "30/05/05",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa",
+    "es": "lengua inglesa",
+    "en": "English language"
+  },
+  "descCodes": [
+    130
+  ],
+  "description": {
+    "en": "Clic activities in English about the daily routines.",
+    "ca": "Paquet d'activitats per treballar les accions i hàbits quotidians i l'ús del present simple en anglès.",
+    "es": "Paquete de actividades para trabajar las acciones y hábitos cotidianos y el uso del presente simple en inglés."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/dailyrou.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/dailyrou.jclic.zip",
+  "instFile": "jclic/dailyrou.jclic.inst",
+  "clicZoneId": 3114,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3114",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/dailyrou/jclic/dailyrou.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 24,
+  "totalSize": 866505,
+  "files": [
+    "cover.gif",
+    "jclic.js/440_1.gif",
+    "jclic.js/810_1.gif",
+    "jclic.js/815_1.gif",
+    "jclic.js/830_1.gif",
+    "jclic.js/835_1.gif",
+    "jclic.js/845_1.gif",
+    "jclic.js/930_1.gif",
+    "jclic.js/contra_1.gif",
+    "jclic.js/dailyrou.jclic",
+    "jclic.js/getdres1.gif",
+    "jclic.js/getup1.gif",
+    "jclic.js/gobed1.gif",
+    "jclic.js/gohom1.gif",
+    "jclic.js/goschol1.gif",
+    "jclic.js/havbrk1.gif",
+    "jclic.js/havshow1.gif",
+    "jclic.js/minialt.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/r440_1.wav",
+    "jclic.js/r810_1.wav",
+    "jclic.js/r815_1.wav",
+    "jclic.js/r830_1.wav",
+    "jclic.js/r835_1.wav",
+    "jclic.js/r845_1.wav",
+    "jclic.js/r930_1.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/dailyrou.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

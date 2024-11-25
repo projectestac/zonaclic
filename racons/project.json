@@ -1,0 +1,98 @@
+{
+  "id": 204,
+  "title": "Els racons de la classe",
+  "author": "Antoni Prim i Magda Gil Argemí",
+  "school": "Escola Llorens i Artigas Badalona (Barcelonès)",
+  "date": "12/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "llengua catalana, activitats educatives",
+    "es": "lengua catalana, actividades educativas",
+    "en": "Catalan language, educative activities"
+  },
+  "descCodes": [
+    133,
+    392
+  ],
+  "description": {
+    "en": "Activity pack that contains puzzles and associations for small children on subjects like: Construction, disguises, the little house, doctors, library, stores, puppets, hair dresser, painting, cars, Indians and garden.",
+    "ca": "És un conjunt de trencaclosques i associacions, adreçat a Educació Infantil, sobre dotze racons d'activitats de joc: construccions, disfresses, la caseta, metges, biblioteca, botiga, titelles, perruqueria, pintura, cotxes, indis i pati.",
+    "es": "Es un conjunto de rompecabezas y asociaciones dirigido a la educación infantil sobre doce rincones de actividad de juego: construcción, disfraces, la casita, médicos, biblioteca, tienda, títeres, peluquería, pintura, coches, indios y patio."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "rincones",
+    "txokoak"
+  ],
+  "mainFile": "jclic.js/racons.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/racons.jclic.zip",
+  "instFile": "jclic/racons.jclic.inst",
+  "clicZoneId": 1106,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1106",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/racons/jclic/racons.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 41,
+  "mediaFiles": 14,
+  "totalSize": 819938,
+  "files": [
+    "cover.gif",
+    "jclic.js/begin.gif",
+    "jclic.js/mfinal.gif",
+    "jclic.js/pbiblio.jpg",
+    "jclic.js/pbotiga.jpg",
+    "jclic.js/pclics.jpg",
+    "jclic.js/pconstr.jpg",
+    "jclic.js/pcotxes.jpg",
+    "jclic.js/pcuinet.jpg",
+    "jclic.js/pdisfr.jpg",
+    "jclic.js/pmetges.jpg",
+    "jclic.js/ppati.jpg",
+    "jclic.js/pperruq.jpg",
+    "jclic.js/ppintur.jpg",
+    "jclic.js/ptitell.jpg",
+    "jclic.js/racons.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/racons.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

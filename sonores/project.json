@@ -1,0 +1,117 @@
+{
+  "id": 2543,
+  "title": "3 altures sonores",
+  "author": "Sandra López Astell",
+  "school": "Escola Pia Sant Antoni (Barcelona)",
+  "date": "16/08/14",
+  "langCodes": [
+    "ca"
+  ],
+  "languages": {
+    "ca": "català",
+    "es": "catalán",
+    "en": "Catalan"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "areas": {
+    "ca": "Música",
+    "es": "Música",
+    "en": "Music"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "levels": {
+    "ca": "Primària (6-12), Cicle Mitjà - Primària",
+    "es": "Primaria (6-12), Cicle Mitjà - Primària",
+    "en": "Primary school (6-12), Cicle Mitjà - Primària"
+  },
+  "description": {
+    "ca": "Projecte per desenvolupar l'escolta i el reconeixement de seqüències melòdiques amb tres altures sonores (arpegi major).",
+    "es": "Proyecto para desarrollar la escucha y el reconocimiento de secuencias melódicas con tres alturas mayores (arpegio mayor).",
+    "en": "Project to develop listening and recognition of melodic sequences with three tones (major arpeggio)"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "cover": "sonores.png",
+  "coverWebp": "sonores.webp",
+  "thumbnail": "sonores100.png",
+  "mainFile": "jclic.js/sonores.jclic",
+  "activities": 18,
+  "mediaFiles": 54,
+  "totalSize": 2240397,
+  "instFile": "jclic/sonores.jclic.inst",
+  "zipFile": "jclic/sonores.jclic.zip",
+  "files": [
+    "jclic.js/encert.mp3",
+    "jclic.js/error.mp3",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imatge_altures_1.jpg",
+    "jclic.js/imatge_altures_10.jpg",
+    "jclic.js/imatge_altures_11.jpg",
+    "jclic.js/imatge_altures_12.jpg",
+    "jclic.js/imatge_altures_13.jpg",
+    "jclic.js/imatge_altures_14.jpg",
+    "jclic.js/imatge_altures_15.jpg",
+    "jclic.js/imatge_altures_16.jpg",
+    "jclic.js/imatge_altures_17.jpg",
+    "jclic.js/imatge_altures_18.jpg",
+    "jclic.js/imatge_altures_19.jpg",
+    "jclic.js/imatge_altures_2.jpg",
+    "jclic.js/imatge_altures_20.jpg",
+    "jclic.js/imatge_altures_21.jpg",
+    "jclic.js/imatge_altures_22.jpg",
+    "jclic.js/imatge_altures_3.jpg",
+    "jclic.js/imatge_altures_4.jpg",
+    "jclic.js/imatge_altures_5.jpg",
+    "jclic.js/imatge_altures_6.jpg",
+    "jclic.js/imatge_altures_7.jpg",
+    "jclic.js/imatge_altures_8.jpg",
+    "jclic.js/imatge_altures_9.jpg",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/nota_aguda_-_dictat.jpg",
+    "jclic.js/nota_greu_-_dictat.jpg",
+    "jclic.js/nota_mig_-_dictat.jpg",
+    "jclic.js/so_altures_1.mp3",
+    "jclic.js/so_altures_10.mp3",
+    "jclic.js/so_altures_11.mp3",
+    "jclic.js/so_altures_12.mp3",
+    "jclic.js/so_altures_13.mp3",
+    "jclic.js/so_altures_14.mp3",
+    "jclic.js/so_altures_15.mp3",
+    "jclic.js/so_altures_16.mp3",
+    "jclic.js/so_altures_17.mp3",
+    "jclic.js/so_altures_18.mp3",
+    "jclic.js/so_altures_2.mp3",
+    "jclic.js/so_altures_20.mp3",
+    "jclic.js/so_altures_21.mp3",
+    "jclic.js/so_altures_22.mp3",
+    "jclic.js/so_altures_3.mp3",
+    "jclic.js/so_altures_4.mp3",
+    "jclic.js/so_altures_5.mp3",
+    "jclic.js/so_altures_6.mp3",
+    "jclic.js/so_altures_7.mp3",
+    "jclic.js/so_altures_8.mp3",
+    "jclic.js/so_altures_9.mp3",
+    "jclic.js/sonores.jclic",
+    "jclic.js/sonores.jclic.js",
+    "jclic.js/yuhu.mp3",
+    "project.json",
+    "sonores.png",
+    "sonores100.png",
+    "sonores.webp"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": 991,
+  "title": "Nuestro mundo",
+  "author": "Virgilio Pedraz Hernández",
+  "school": "CRA Vía de la Plata La Garganta (Cáceres)",
+  "date": "12/12/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales",
+    "en": "Social sciences"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "climatologia, geografia, geografia física",
+    "es": "climatología, geografía, geografía física",
+    "en": "climatology, geography, physical geography"
+  },
+  "descCodes": [
+    180,
+    235,
+    237
+  ],
+  "description": {
+    "en": "Clic activities about our world \n<ul> \n <li>continents </li>\n <li>ocean </li>\n <li>weather </li>\n <li>landscape </li>\n</ul>",
+    "ca": "Paquet d'activitats que fa un repàs dels aspectes físics del món en el que vivim: \n<ul> \n <li>Continents </li>\n <li>Oceans </li>\n <li>Climes </li>\n <li>Paisatges </li>\n</ul>",
+    "es": "Paquete de actividades que hace un repaso de los aspectos físicos del mundo en el que vivimos: \n<ul> \n <li>Continentes </li>\n <li>Océanos </li>\n <li>Climas </li>\n <li>Paisajes </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/geo2-1.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/geo2-1.jclic.zip",
+  "instFile": "jclic/geo2-1.jclic.inst",
+  "clicZoneId": 2074,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2074",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/geo2-1/jclic/geo2-1.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 19,
+  "totalSize": 512508,
+  "files": [
+    "cover.gif",
+    "jclic.js/fin.gif",
+    "jclic.js/geo2-1.jclic",
+    "jclic.js/mundo.jpg",
+    "jclic.js/ocea.gif",
+    "jclic.js/pbat.jpg",
+    "jclic.js/pbme.jpg",
+    "jclic.js/pbtro.jpg",
+    "jclic.js/pdes.jpg",
+    "jclic.js/peste.jpg",
+    "jclic.js/porta.jpg",
+    "jclic.js/ppolar.jpg",
+    "jclic.js/ppra.jpg",
+    "jclic.js/psab.jpg",
+    "jclic.js/pselv.jpg",
+    "jclic.js/ptaiga.jpg",
+    "jclic.js/ptundra.jpg",
+    "jclic.js/world.gif",
+    "jclic.js/world2.gif",
+    "jclic.js/worlddes.gif",
+    "jclic.js/worldpai.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/geo2-1.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

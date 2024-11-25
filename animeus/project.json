@@ -1,0 +1,101 @@
+{
+  "id": 8,
+  "title": "Trencaclosques d'animals",
+  "author": "Pilar Codina Laso",
+  "school": "Escola Francesc Burniol Argentona (Maresme)",
+  "date": "08/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "ca": "Diversos",
+    "es": "Diversos",
+    "en": "Miscellaneous"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)",
+    "en": "Kindergarten (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "zoologia",
+    "es": "zoología",
+    "en": "zoology"
+  },
+  "descCodes": [
+    108
+  ],
+  "description": {
+    "en": "Animal puzzles of 4, 6, 12 pieces addressed to kindergarten in order to help them to use the mouse.",
+    "ca": "Trencaclosques d'animals de 4, 6 i 12 peces adreçats a nens i nenes d'Educació Infantil que comencen a fer us del ratolí i de CI que els poden utilitzar com a racó lúdic.",
+    "es": "Rompecabezas de animales de 4, 6 y 12 piezas dirigidos a alumnos de educación infantil que empiezan a utilizar el ratón del ordenador, y para ser utilizado como rincón lúdico en el ciclo inicial de primaria. Algunos dibujos pierden calidad a 16 colores, por lo que es recomendable trabajar a 256."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "animals",
+    "animcast"
+  ],
+  "mainFile": "jclic.js/animeus.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/animeus.jclic.zip",
+  "instFile": "jclic/animeus.jclic.inst",
+  "clicZoneId": 1003,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1003",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/animeus/jclic/animeus.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 53,
+  "mediaFiles": 18,
+  "totalSize": 377039,
+  "files": [
+    "cover.gif",
+    "jclic.js/animeus.jclic",
+    "jclic.js/balena.gif",
+    "jclic.js/camel.gif",
+    "jclic.js/cargol.gif",
+    "jclic.js/cocodril.gif",
+    "jclic.js/elefant.gif",
+    "jclic.js/foca.gif",
+    "jclic.js/lleo.gif",
+    "jclic.js/marieta.gif",
+    "jclic.js/misi.gif",
+    "jclic.js/os.gif",
+    "jclic.js/panda.gif",
+    "jclic.js/papallo.gif",
+    "jclic.js/pingui.gif",
+    "jclic.js/pop.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/ratoli.gif",
+    "jclic.js/tortuga.gif",
+    "jclic.js/toucan.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/animeus.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

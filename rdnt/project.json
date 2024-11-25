@@ -1,0 +1,127 @@
+{
+  "id": 2417,
+  "title": "Réduire mes déchets, nourrir la terre",
+  "author": "Jordi Ortiz de Antonio",
+  "school": "Servei d'Immersió i Acolliment Lingüístics Barcelona",
+  "date": "12/11/15",
+  "languages": {
+    "en": "Catalan, French, Portuguese",
+    "ca": "català, francès, portuguès",
+    "es": "catalán, francés, portugués"
+  },
+  "langCodes": [
+    "ca",
+    "fr",
+    "pt"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages",
+    "ca": "Ciències experimentals, Llengües",
+    "es": "Ciencias experimentales, Lenguas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "ecologia, aprenentatge de les llengües estrangeres, reciclar",
+    "es": "ecología, aprendizaje de las lenguas extranjeras, reciclar",
+    "en": "ecology, learning of the foreign languages, to recycle"
+  },
+  "descCodes": [
+    65,
+    660,
+    1300
+  ],
+  "description": {
+    "en": "JClic project about the program \"Reduce waste, we nurture Earth\", which is part of the \n<i>Projecte Sciences et Société</i>, a work of science content and citizenship through the Catalan, French and Portugueses languages.",
+    "ca": "Aquest JClic és el treball multimèdia del programa \"Reduïm residus, nodrim la Terra\", que s'emmarca en el \n<i>Projecte Sciences et Société</i>, amb un treball de continguts de ciència i ciutadania per mitjà de les llengües catalana, francesa i portuguesa.\n<p> Amb ell es vol donar a conèixer temes relacionats amb la prevenció dels residus domèstics, la tria selectiva dels residus i la promoció i la necessària facilitació de la creació del compostatge a partir dels residus orgànics produïts a casa, per tal de reduir la quantitat de contaminació residual que emetem com a ciutadans. </p>",
+    "es": "Este JClic es el trabajo mulimedia del probrama \"Reducimos resíduos, nutrimos la Tierra\", que se enmarca en el \n<i>Projecte Sciences et Société</i>, con un trabajo de contenidos de ciencia y ciudadania por medio de las lenguas catalana, francesa y portuguesa. \n<p> Con él se quiere dar a conocer temas relacionados con la prevención de resíduos domésticos, la separación de resíduos y la promoción, y la facilitación de la creación de compostage a partir de resíduos orgánicos producidos en casa para reducir la cantidad de contaminación residua que emetemos como ciudadanos. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/rdnt.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/rdnt.jclic.zip",
+  "instFile": "jclic/rdnt.jclic.inst",
+  "clicZoneId": 3925,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3925",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/rdnt/jclic/rdnt.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 42,
+  "totalSize": 2682389,
+  "files": [
+    "cover.png",
+    "jclic.js/01.png",
+    "jclic.js/02.png",
+    "jclic.js/03.png",
+    "jclic.js/04.png",
+    "jclic.js/05.png",
+    "jclic.js/06.png",
+    "jclic.js/07.png",
+    "jclic.js/08.png",
+    "jclic.js/09.png",
+    "jclic.js/10.png",
+    "jclic.js/11.png",
+    "jclic.js/12.png",
+    "jclic.js/autres_types_de_dechets_resized.jpg",
+    "jclic.js/boite_de_conserves.jpg",
+    "jclic.js/botella_resized.jpg",
+    "jclic.js/bouteille_d_eau_resized.jpg",
+    "jclic.js/brique.jpg",
+    "jclic.js/canette.jpg",
+    "jclic.js/carton_resized.jpg",
+    "jclic.js/categories_de_dechets_resized.jpg",
+    "jclic.js/clavo_roto.jpg",
+    "jclic.js/comida.jpg",
+    "jclic.js/compostage_resized1.jpg",
+    "jclic.js/copa_cristall_resized.jpg",
+    "jclic.js/cristal_roto.jpg",
+    "jclic.js/dechets_biodegradables_et_stables_resized.jpg",
+    "jclic.js/dechets_resized1.jpg",
+    "jclic.js/emballage_de_frites_resized.jpg",
+    "jclic.js/feuilles_d_arbre.jpg",
+    "jclic.js/feuilles_humides_i_resized.jpg",
+    "jclic.js/feuilles_humides_resized.jpg",
+    "jclic.js/feuilles_mortes.jpg",
+    "jclic.js/humus_resized.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/magazine_resized.jpg",
+    "jclic.js/metal_roto.jpg",
+    "jclic.js/naranja_podrida_resized.jpg",
+    "jclic.js/papier_journakl.jpg",
+    "jclic.js/patates.jpg",
+    "jclic.js/peces_joguina_resized.jpg",
+    "jclic.js/pot_resized.jpg",
+    "jclic.js/pourriture_resized.jpg",
+    "jclic.js/rdnt.jclic",
+    "jclic.js/rdnt.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/rdnt.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": 314,
+  "title": "El gran llibre de la Selva",
+  "author": "Albert Perafita Carreras i Carme Hereu Riells",
+  "school": "CRP La Selva I Santa Coloma de Farners (Selva)",
+  "date": "16/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua catalana, Selva",
+    "es": "lengua catalana, Selva",
+    "en": "Catalan language, Selva"
+  },
+  "descCodes": [
+    133,
+    593
+  ],
+  "description": {
+    "en": "Reading comprehension activities that use the theme of the \"El Gran llibre de la Selva \" and a character (Guille) to motivate the students into exercising this ability. The texts have been prepared by the students of 12 different schools themselves. You can find more info at \n<a href=\"http://www.xtec.cat/serveis/crp/b7990112/guille\"><b>WEB del gran llibre de la Selva</b></a>\n<p> </p>",
+    "ca": "El Gran llibre de la Selva és un treball d'explotació de textos feta amb el Clic 3.0 que tenen com a nexe d'unió una mascota -En Guille- i un determinat territori -pobles de la Selva interior-.\n<br> Es composa bàsicament de 2 parts:\n<br> \n<ul> \n <li>Els textos i dibuixos, realitzats per alumnes dels cicles Mitjà i Superior de 12 CEIPs de la zona Selva-I. que es poden veure també a la <a href=\"http://www.xtec.cat/serveis/crp/b7990112/guille\"><b>WEB del gran llibre de la Selva</b></a><p> </p></li>\n <li>Les activitats d'explotació dels textos, realitzada pel Centre de Recursos. </li>\n</ul> Al Gran Llibre de la Selva trobareu un munt d'activitats; en concret, 15 lectures, 15 trencaclosques, 15 sopes de lletres i 75 exercicis d'explotació de text.",
+    "es": "<i>El Gran llibre de la Selva</i> es un trabajo de explotación de textos realizado con Clic 3.0 que tiene como nexo de unión una mascota -Guille- y un determinado territorio -pueblos de la comarca catalana de la Selva interior-.\n<br> Se compone básicamente de 2 partes:\n<br> \n<ul> \n <li>Los textos y dibujos realizados por los alumnos de los ciclos medio y superior de 12 escuelas de la zona Selva-I, que se pueden consultar también en la <a href=\"http://www.xtec.cat/serveis/crp/b7990112/guille\"><b>WEB del gran llibre de la Selva</b></a><p> </p></li>\n <li>Las actividades de explotación de los textos, realizadas por el Centro de recursos pedagógicos. </li>\n</ul> En el Gran Llibre de la Selva hay un montón de actividades: 15 lecturas, 15 puzzles, 15 sopas de letras y 75 ejercicios de texto."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/selva.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/selva.jclic.zip",
+  "instFile": "jclic/selva.jclic.inst",
+  "clicZoneId": 1169,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1169",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/selva/jclic/selva.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 138,
+  "mediaFiles": 18,
+  "totalSize": 1396013,
+  "files": [
+    "cover.jpg",
+    "jclic.js/amer1.jpg",
+    "jclic.js/amer2.jpg",
+    "jclic.js/angles.jpg",
+    "jclic.js/arbuci1.jpg",
+    "jclic.js/arbuci2.jpg",
+    "jclic.js/bonmati.jpg",
+    "jclic.js/caldes.jpg",
+    "jclic.js/cellera.jpg",
+    "jclic.js/fons.jpg",
+    "jclic.js/hilari1.jpg",
+    "jclic.js/hilari2.jpg",
+    "jclic.js/moltbe.wav",
+    "jclic.js/osor.jpg",
+    "jclic.js/portal.jpg",
+    "jclic.js/riudare.jpg",
+    "jclic.js/riudello.jpg",
+    "jclic.js/selva.doc",
+    "jclic.js/selva.jclic",
+    "jclic.js/selva.pdf",
+    "jclic.js/sils.jpg",
+    "jclic.js/vilobi.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/selva.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

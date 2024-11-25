@@ -1,0 +1,79 @@
+{
+  "id": 1459,
+  "title": "Identificando decimales",
+  "author": "Elvis Fernando Lesmes González",
+  "school": "Colegio La Candelaria La Capilla - Boyacá (Colombia)",
+  "date": "29/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "decimals",
+    "es": "decimales",
+    "en": "decimals"
+  },
+  "descCodes": [
+    1339
+  ],
+  "description": {
+    "en": "Clic activities about decimal numbers addressed to primary school.",
+    "ca": "Paquet d'activitats que permet introduir als alumnes a la identificació dels decimals perquè en arribar el moment de fer operacions amb dits nombres se'ls faciliti la feina.",
+    "es": "Paquete de actividades que permite introducir a los alumnos en la identificación de los decimales para que al llegar al momento de las operaciones con dichos números se le facilite el trabajo."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/decimal.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/decimal.jclic.zip",
+  "instFile": "jclic/decimal.jclic.inst",
+  "clicZoneId": 3172,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3172",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/decimal/jclic/decimal.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 0,
+  "totalSize": 85549,
+  "files": [
+    "cover.jpg",
+    "jclic.js/decimal.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/decimal.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

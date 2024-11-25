@@ -1,0 +1,147 @@
+{
+  "id": 1448,
+  "title": "Actividades de tecnología 1º y 2º de ESO (05 - Materiales metálicos, 2º ESO)",
+  "author": "Virgilio Marco Aparicio",
+  "school": "IES Tiempos Modernos Zaragoza (Aragón)",
+  "date": "21/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Design & technology",
+    "ca": "Tecnologies",
+    "es": "Tecnología"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la tecnologia",
+    "es": "aprendizaje de la tecnología",
+    "en": "learning of the technology"
+  },
+  "descCodes": [
+    728
+  ],
+  "description": {
+    "en": "Collection of 7 activities which can be installed separately that complements the technology classes of first level of secondary school: \n<ul> \n <li>Technology, 1st level of secondary school </li>\n <li>Wood, 1st level of secondary school </li>\n <li>Materials to use in Technology, 1st level of secondary school </li>\n <li>Machines and mechanisms, 2nd level of secondary school </li>\n <li>Electrical circuits, 2nd level of secondary school </li>\n</ul>",
+    "ca": "Conjunt de 7 paquets d'activitats que es poden instal·lar per separat que complementen les classes de tecnologia a 1r cicle d'ESO. \n<ul> \n <li>Tecnologia, 1r ESO </li>\n <li>Fusta, 1r ESO </li>\n <li>Materials per utilitzar a Tecnologia, 1r ESO </li>\n <li>Màquines i mecanismes, 2n ESO </li>\n <li>Materials metàl·lics, 2n ESO </li>\n <li>El projecte tècnic, 2n ESO </li>\n <li>Circuits elèctrics, 2n ESO </li>\n</ul>",
+    "es": "Conjunto de 7 paquetes de actividades que se pueden instalar por separado y que complementan las clases de tecnología en el 1r ciclo de ESO. \n<ul> \n <li>Tecnología, 1r ESO </li>\n <li>Madera, 1r ESO </li>\n <li>Materiales para utilizar en Tecnología, 1r ESO </li>\n <li>Máquinas y mecanismos, 2n ESO </li>\n <li>Materiales metálicos, 2n ESO </li>\n <li>El proyecto técnico, 2n ESO </li>\n <li>Circuitos eléctricos, 2n ESO </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "circelca",
+    "circelec",
+    "latecnca",
+    "latecnol",
+    "madera",
+    "maderaca",
+    "maquimca",
+    "maquimec",
+    "mater2",
+    "mater2ca",
+    "matmetca",
+    "proyteca",
+    "proytecn"
+  ],
+  "mainFile": "jclic.js/matmetal.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/matmetal.jclic.zip",
+  "instFile": "jclic/matmetal.jclic.inst",
+  "clicZoneId": 3170,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3170",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/matmetal/jclic/matmetal.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 53,
+  "totalSize": 1047008,
+  "files": [
+    "cover.jpg",
+    "jclic.js/acerocom.gif",
+    "jclic.js/aleacio1.gif",
+    "jclic.js/alicorte.gif",
+    "jclic.js/alumini1.gif",
+    "jclic.js/alumini3.gif",
+    "jclic.js/alumini5.gif",
+    "jclic.js/aluminio.gif",
+    "jclic.js/barras.gif",
+    "jclic.js/bronce1.gif",
+    "jclic.js/chapas1.gif",
+    "jclic.js/cinc1.gif",
+    "jclic.js/cobre.gif",
+    "jclic.js/cobre1.gif",
+    "jclic.js/compaspu.gif",
+    "jclic.js/cortarco.gif",
+    "jclic.js/corteagu.gif",
+    "jclic.js/cortelas.gif",
+    "jclic.js/cortesie.gif",
+    "jclic.js/escua120.gif",
+    "jclic.js/estansol.gif",
+    "jclic.js/galvaniz.gif",
+    "jclic.js/hierrom1.gif",
+    "jclic.js/hojalata.gif",
+    "jclic.js/lataslat.gif",
+    "jclic.js/laton1.gif",
+    "jclic.js/lijado1.gif",
+    "jclic.js/limacuad.gif",
+    "jclic.js/lingotes.gif",
+    "jclic.js/magnesi1.gif",
+    "jclic.js/martbola.gif",
+    "jclic.js/matmetal.jclic",
+    "jclic.js/mercuri3.gif",
+    "jclic.js/mercuri4.gif",
+    "jclic.js/metalur1.gif",
+    "jclic.js/metalur2.gif",
+    "jclic.js/metalur3.gif",
+    "jclic.js/metalur4.gif",
+    "jclic.js/metalur5.gif",
+    "jclic.js/metalurg.gif",
+    "jclic.js/mineria.gif",
+    "jclic.js/mineria1.gif",
+    "jclic.js/mineria2.gif",
+    "jclic.js/oxicort1.gif",
+    "jclic.js/perfiles.gif",
+    "jclic.js/piezacer.gif",
+    "jclic.js/piezacob.gif",
+    "jclic.js/piezalum.gif",
+    "jclic.js/procside.gif",
+    "jclic.js/punzon.gif",
+    "jclic.js/punzon1.gif",
+    "jclic.js/siermeta.gif",
+    "jclic.js/talamanu.gif",
+    "jclic.js/talcolma.gif",
+    "jclic.js/tijechap.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/matmetal.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

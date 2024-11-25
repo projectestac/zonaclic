@@ -1,0 +1,83 @@
+{
+  "id": 2555,
+  "title": "Mots encreuats",
+  "author": "Marta Padullés Roig",
+  "school": "Escola Vedruna-Àngels - Barcelona",
+  "date": "08/08/11",
+  "langCodes": [
+    "ca"
+  ],
+  "languages": {
+    "ca": "català",
+    "es": "catalán",
+    "en": "Catalan"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "areas": {
+    "ca": "Llengües, lectoescriptura",
+    "es": "Lenguas, lectoescriptura",
+    "en": "Languages, lectoescriptura"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "levels": {
+    "ca": "Infantil (3-6), Primària (6-12), P-5",
+    "es": "Infantil (3-6), Primaria (6-12), P-5",
+    "en": "Kindergarten (3-6), Primary school (6-12), P-5"
+  },
+  "description": {
+    "ca": "Conjunt de mots encreuats per treballar wel vocabulari i la iniciació a l'escriptura.",
+    "es": "Conjunto de crucigramas para trabajar el vocabulario y la iniciación a la escritura.",
+    "en": "A set of crosswords to work on vocabulary and the introduction to writing."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "cover": "encreuat.png",
+  "coverWebp": "encreuat.webp",
+  "thumbnail": "encreuat100.png",
+  "mainFile": "jclic.js/encreuats.jclic",
+  "activities": 6,
+  "mediaFiles": 19,
+  "totalSize": 419361,
+  "instFile": "jclic/encreuats.jclic.inst",
+  "zipFile": "jclic/encreuats.jclic.zip",
+  "files": [
+    "encreuat.png",
+    "encreuat100.png",
+    "jclic.js/correcte.jpg",
+    "jclic.js/encreuats.jclic",
+    "jclic.js/encreuats.jclic.js",
+    "jclic.js/error.gif",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/lletres.jpg",
+    "jclic.js/mot_1.jpg",
+    "jclic.js/mot_1_alter.jpg",
+    "jclic.js/mot_2_.jpg",
+    "jclic.js/mot_2_alter.jpg",
+    "jclic.js/mot_3_.jpg",
+    "jclic.js/mot_3_alter.jpg",
+    "jclic.js/mot_4.jpg",
+    "jclic.js/mot_4_alter.jpg",
+    "jclic.js/mot_5_.jpg",
+    "jclic.js/mot_5_alter.jpg",
+    "jclic.js/tapa1.jpg",
+    "project.json",
+    "encreuat.webp"
+  ]
+}

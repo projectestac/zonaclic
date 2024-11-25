@@ -1,0 +1,111 @@
+{
+  "id": 1760,
+  "title": "Mitosi-Meiosi",
+  "author": "Lourdes Tablado Almela",
+  "school": "Institut Comte de Rius Tarragona",
+  "date": "25/04/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "High school (16-18)",
+    "ca": "Batxillerat (16-18)",
+    "es": "Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "BTX"
+  ],
+  "descriptors": {
+    "ca": "reproducció cel·lular",
+    "es": "reproducción celular",
+    "en": "cellular reproduction"
+  },
+  "descCodes": [
+    1388
+  ],
+  "description": {
+    "en": "Project of activities about mitosis and meiosis. The aim of these activities is to differentiate both processes through association exercises, complete text, delbmarc letters...",
+    "ca": "Projecte d'activitats sobre la mitosi i la meiosi. Es persegueix que s'assoleixen les diferències entre una i l'altra amb l'ajut d'exercicis d'associació, completar text, sopa de lletres...",
+    "es": "Proyecto de actividades sobre la mitosis y la meiosis. El objetivo de estas actividades es la diferenciar entre uno y otro proceso con la ayuda de ejercicios de asociación, completar texto, sopas de letras..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/mitomeio.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mitomeio.jclic.zip",
+  "instFile": "jclic/mitomeio.jclic.inst",
+  "clicZoneId": 3457,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3457",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/mitomeio/jclic/mitomeio.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 32,
+  "totalSize": 1613726,
+  "files": [
+    "cover.gif",
+    "jclic.js/anafase.wav",
+    "jclic.js/anafaseii.jpg",
+    "jclic.js/anafaseii2.jpg",
+    "jclic.js/anafasemuda.jpg",
+    "jclic.js/citocinesimuda.jpg",
+    "jclic.js/fotoanafse3.jpg",
+    "jclic.js/fotometafase.jpg",
+    "jclic.js/fotoprofase2.jpg",
+    "jclic.js/fototelofase2.jpg",
+    "jclic.js/metafase.wav",
+    "jclic.js/metafaseii.jpg",
+    "jclic.js/metafaseii2.jpg",
+    "jclic.js/metafasemuda.jpg",
+    "jclic.js/mitomeio.jclic",
+    "jclic.js/mitosiana.jpg",
+    "jclic.js/mitosimet.jpg",
+    "jclic.js/mitosipro.jpg",
+    "jclic.js/mitositel.jpg",
+    "jclic.js/pistacito.wav",
+    "jclic.js/pistamet.wav",
+    "jclic.js/pistana1.wav",
+    "jclic.js/pistana2.wav",
+    "jclic.js/pistapro1.wav",
+    "jclic.js/pistapro3.wav",
+    "jclic.js/pistatel2.wav",
+    "jclic.js/pistpro2.wav",
+    "jclic.js/pisttel1.wav",
+    "jclic.js/profase.wav",
+    "jclic.js/profaseii.jpg",
+    "jclic.js/profasemuda.jpg",
+    "jclic.js/telofase.wav",
+    "jclic.js/telofasei_meiosi.jpg",
+    "jclic.js/telofasemuda.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/mitomeio.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

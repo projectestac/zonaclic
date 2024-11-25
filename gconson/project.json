@@ -1,0 +1,115 @@
+{
+  "id": 1057,
+  "title": "Grupos consonánticos",
+  "author": "Miriam Castillo Castillo",
+  "school": "Escuela Cardenal José María Caro Coquimbo (Xile)",
+  "date": "13/06/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, ortografia",
+    "es": "lengua castellana, ortografía",
+    "en": "Spanish language, spelling"
+  },
+  "descCodes": [
+    132,
+    146
+  ],
+  "description": {
+    "en": "Package of Spanish activities about some consonantal groups:\n<br> \n<i><b>bl, fl, cl, dr, cr, gr, pla, tro, pal...</b></i>",
+    "ca": "Paquet d'activitats d'ortografia sobre alguns grups consonàntics del castellà:\n<br> \n<i><b>bl, fl, cl, dr, cr, gr, pla, tro, pal...</b></i>",
+    "es": "Paquete de actividades de ortografía sobre algunos grupos consonánticos del español:\n<br> \n<i><b>bl, fl, cl, dr, cr, gr, pla, tro, pal...</b></i>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/gconson.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/gconson.jclic.zip",
+  "instFile": "jclic/gconson.jclic.inst",
+  "clicZoneId": 2227,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2227",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/gconson/jclic/gconson.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 35,
+  "totalSize": 809221,
+  "files": [
+    "cover.gif",
+    "jclic.js/atleta.gif",
+    "jclic.js/biblia.gif",
+    "jclic.js/bibliot.gif",
+    "jclic.js/choclo.gif",
+    "jclic.js/clavo.gif",
+    "jclic.js/cofre.gif",
+    "jclic.js/craneo.gif",
+    "jclic.js/cruz.gif",
+    "jclic.js/cuadro.gif",
+    "jclic.js/dragon.gif",
+    "jclic.js/estrella.gif",
+    "jclic.js/flecha.gif",
+    "jclic.js/flechas.gif",
+    "jclic.js/flores.gif",
+    "jclic.js/frutero.gif",
+    "jclic.js/frutilla.gif",
+    "jclic.js/gconson.jclic",
+    "jclic.js/genial.wav",
+    "jclic.js/globo.gif",
+    "jclic.js/globos.gif",
+    "jclic.js/grande.wav",
+    "jclic.js/grillo.gif",
+    "jclic.js/hombre.gif",
+    "jclic.js/instrum.gif",
+    "jclic.js/libros.gif",
+    "jclic.js/microf.gif",
+    "jclic.js/muybien.wav",
+    "jclic.js/perfec.wav",
+    "jclic.js/planeta.gif",
+    "jclic.js/playa.gif",
+    "jclic.js/pluma.gif",
+    "jclic.js/profesor.gif",
+    "jclic.js/tepasas.wav",
+    "jclic.js/trebol.gif",
+    "jclic.js/tren.gif",
+    "jclic.js/trineo.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/gconson.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

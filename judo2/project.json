@@ -1,0 +1,116 @@
+{
+  "id": 1597,
+  "title": "Judo (nague-waza)",
+  "author": "Miguel Àngel Lira Quina",
+  "school": "Escola Ocata El Masnou (Maresme)",
+  "date": "12/06/06",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "joc esportiu, judo",
+    "es": "juego deportivo, judo",
+    "en": "sport game, judo"
+  },
+  "descCodes": [
+    426,
+    1367
+  ],
+  "description": {
+    "en": "Project of activities about judo: a Japanese system of unarmed combat, now primarily a sport. The rules of the sport of judo are complex; the objective is to cleanly throw, to pin, or to master the opponent, the latter being done by applying pressure to arm joints or to the neck to cause the opponent to yield.",
+    "ca": "Dos projectes d'activitats adreçats a cicle mitjà i cicle superior sobre el Judo: esport-lluita de mans nues que té com a principi aprofitar la força del contrari per a desequilibrar-lo i vèncer-lo amb un esforç mínim.",
+    "es": "Dos proyectos de actividades dirigidos a ciclo medio y superior de educación primaria sobre el Judo: sistema japonés de lucha, que hoy se practica también como deporte, y que tiene por objeto principal defenderse sin armas mediante llaves y movimientos aplicados con destreza."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "judo1"
+  ],
+  "mainFile": "jclic.js/judo2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/judo2.jclic.zip",
+  "instFile": "jclic/judo2.jclic.inst",
+  "clicZoneId": 3310,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3310",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/judo2/jclic/judo2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 33,
+  "totalSize": 1518119,
+  "files": [
+    "cover.jpg",
+    "jclic.js/altaveu.gif",
+    "jclic.js/feli_blau.jpg",
+    "jclic.js/feli_marro.jpg",
+    "jclic.js/fondo_judo.jpg",
+    "jclic.js/ippon.jpg",
+    "jclic.js/ippon___01____start.mp3",
+    "jclic.js/ippon_seio_nage.jpg",
+    "jclic.js/ipponseoinagemov.gif",
+    "jclic.js/judo2.jclic",
+    "jclic.js/ko_uchi_gari.jpg",
+    "jclic.js/ko_uchimov.gif",
+    "jclic.js/koka.jpg",
+    "jclic.js/koka___01____start.mp3",
+    "jclic.js/miky_pluto.jpg",
+    "jclic.js/o_goshi.jpg",
+    "jclic.js/o_soto_gari.jpg",
+    "jclic.js/o_uchi_gari.jpg",
+    "jclic.js/o_uchigarimov.gif",
+    "jclic.js/ogoshi.gif",
+    "jclic.js/osae_komi.jpg",
+    "jclic.js/osae_komi___01____start.mp3",
+    "jclic.js/osotogarimov.gif",
+    "jclic.js/presentnaguewaza.jpg",
+    "jclic.js/rei02.jpg",
+    "jclic.js/rei2.gif",
+    "jclic.js/rei3.gif",
+    "jclic.js/tai_otoshi.jpg",
+    "jclic.js/tai_otoshimov.gif",
+    "jclic.js/toketa.jpg",
+    "jclic.js/toketa___01____start.mp3",
+    "jclic.js/wazari.jpg",
+    "jclic.js/wazari___01____start.mp3",
+    "jclic.js/yuko.jpg",
+    "jclic.js/yuko___01____start.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/judo2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": 1998,
+  "title": "Los sentidos",
+  "author": "Amaya Padilla Collado",
+  "school": "IES Garachico Alcalde Lorenzo Dorta Garachivo - Tenerife (Islas Canarias)",
+  "date": "26/10/09",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "sentits",
+    "es": "sentidos",
+    "en": "senses"
+  },
+  "descCodes": [
+    876
+  ],
+  "description": {
+    "en": "Project of activities addressed to children in kindergarden education and special education about the senses.",
+    "ca": "Projecte d'activitats adreçat a nens i nenes d'educació infantil i educació especial per iniciar-se en el coneixement dels cinc sentits d'una forma lúdica i visual.",
+    "es": "Proyecto de actividades dirigido a niños y niñas de Educación Infantil y Educación Especial para iniciarse en el conocimiento de los cinco sentidos de una forma lúdica y visual."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sentido2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sentido2.jclic.zip",
+  "instFile": "jclic/sentido2.jclic.inst",
+  "clicZoneId": 3578,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3578",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sentido2/jclic/sentido2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 49,
+  "totalSize": 3774547,
+  "files": [
+    "cover.gif",
+    "jclic.js/5_sentidos.bmp",
+    "jclic.js/837227_sardine_fish_1.jpg",
+    "jclic.js/adivina_que_sentido_es.wav",
+    "jclic.js/altavoces.jpg",
+    "jclic.js/arcoiris.jpg",
+    "jclic.js/beso.jpg",
+    "jclic.js/busca_con_la_vista_cada_pareja.wav",
+    "jclic.js/busca_oido.wav",
+    "jclic.js/caliente.jpg",
+    "jclic.js/coche.jpg",
+    "jclic.js/coche.mp3",
+    "jclic.js/despertador.jpg",
+    "jclic.js/despertador.mp3",
+    "jclic.js/encuentra_sentidos.wav",
+    "jclic.js/ensalada.jpg",
+    "jclic.js/felicidades.wav",
+    "jclic.js/flor.jpg",
+    "jclic.js/frio.jpg",
+    "jclic.js/gusto.jpg",
+    "jclic.js/gusto.wav",
+    "jclic.js/hablar.jpg",
+    "jclic.js/helado.jpg",
+    "jclic.js/incendio.jpg",
+    "jclic.js/intentalo_otra_vez.wav",
+    "jclic.js/jugo.jpg",
+    "jclic.js/leon.jpg",
+    "jclic.js/leon.mp3",
+    "jclic.js/luz.jpg",
+    "jclic.js/movil.jpg",
+    "jclic.js/muy_bien_.wav",
+    "jclic.js/oido.jpg",
+    "jclic.js/oido.wav",
+    "jclic.js/olfato.jpg",
+    "jclic.js/olfato.wav",
+    "jclic.js/ordenador.jpg",
+    "jclic.js/perfume.jpg",
+    "jclic.js/pincha_en_la_imagen.wav",
+    "jclic.js/puerta.jpg",
+    "jclic.js/puerta.mp3",
+    "jclic.js/senala_gusto.wav",
+    "jclic.js/senala_oido.wav",
+    "jclic.js/senala_olfato.wav",
+    "jclic.js/senala_tacto.wav",
+    "jclic.js/senala_vista.wav",
+    "jclic.js/sentido2.jclic",
+    "jclic.js/tacto.jpg",
+    "jclic.js/tacto.wav",
+    "jclic.js/television.jpg",
+    "jclic.js/une_piezas.wav",
+    "jclic.js/vista.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sentido2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

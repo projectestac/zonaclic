@@ -1,0 +1,133 @@
+{
+  "id": 2304,
+  "title": "Recursos de geometria (La Muca ens explica la geometria)",
+  "author": "Mónica Cano Lorente",
+  "date": "16/10/13",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geometria",
+    "es": "geometría",
+    "en": "geometry"
+  },
+  "descCodes": [
+    708
+  ],
+  "description": {
+    "en": "Two project of Jclic activities about geometry addressed to primary education: \n<ul> \n <li>Descobrim els polígons amb la Muca i en Buba! (plane figures). </li>\n <li>La Muca ens explica la geometria (angles and straights). </li>\n</ul>",
+    "ca": "Dos projectes d'activitats JCLic de geometria adreçats a cicle mitjà d'eduació primària: \n<ul> \n <li>Descobrim els polígons amb la Muca i en Buba! (figures planes). </li>\n <li>La Muca ens explica la geometria (angles i rectes). </li>\n</ul>",
+    "es": "Dos proyectos de actividades Jclic sobre geometría dirigidos a ciclo medio de educación primaria: \n<ul> \n <li>Descobrim els polígons amb la Muca i en Buba! (figuras planas). </li>\n <li>La Muca ens explica la geometria (ángulos y rectas). </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "fig_plan"
+  ],
+  "mainFile": "jclic.js/ang_rec.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ang_rec.jclic.zip",
+  "instFile": "jclic/ang_rec.jclic.inst",
+  "clicZoneId": 3814,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3814",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ang_rec/jclic/ang_rec.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 52,
+  "totalSize": 3833278,
+  "files": [
+    "cover.png",
+    "jclic.js/10_resized.jpg",
+    "jclic.js/11_resized.jpg",
+    "jclic.js/12_resized.jpg",
+    "jclic.js/13_resized.jpg",
+    "jclic.js/14_resized.jpg",
+    "jclic.js/15_resized.jpg",
+    "jclic.js/16_resized.jpg",
+    "jclic.js/17_resized.jpg",
+    "jclic.js/20070926klpmatgeo_49.ges.sco.png",
+    "jclic.js/20070926klpmatgeo_53.ges.sco.png",
+    "jclic.js/70764_vias_de_tren_large.jpg",
+    "jclic.js/ang_rec.jclic",
+    "jclic.js/angle_agut.jpg",
+    "jclic.js/angle_obtus.jpg",
+    "jclic.js/angle_recte.jpg",
+    "jclic.js/angles_aguts_i_obtusos_resized.jpg",
+    "jclic.js/angles_resized.jpg",
+    "jclic.js/angulo1.jpg",
+    "jclic.js/angulo2.jpg",
+    "jclic.js/angulo3.jpg",
+    "jclic.js/angulo4.jpg",
+    "jclic.js/angulo5.jpg",
+    "jclic.js/angulo6.jpg",
+    "jclic.js/angulo7.jpg",
+    "jclic.js/angulo8.jpg",
+    "jclic.js/aplausos.mp3",
+    "jclic.js/bomba.mp3",
+    "jclic.js/camins_perpendicular.jpg",
+    "jclic.js/cruce_de_caminos.jpg",
+    "jclic.js/gritos_y_aplauso.mp3",
+    "jclic.js/h_resized.jpg",
+    "jclic.js/mosquitinho.mp3",
+    "jclic.js/nubes_en_el_cielo_azul_resized.jpg",
+    "jclic.js/nubes_resized.jpg",
+    "jclic.js/nuevas__1__resized1.jpg",
+    "jclic.js/nuevas__3__resized.jpg",
+    "jclic.js/nuevas__6__resized.jpg",
+    "jclic.js/paralelas.jpg",
+    "jclic.js/paralelas.png",
+    "jclic.js/perpendicularsc_resized.jpg",
+    "jclic.js/rectas_perpendiculares_pitagorines.jpg",
+    "jclic.js/rectas_secantes_pitagorines.jpg",
+    "jclic.js/rectes_paral_leles_resized.jpg",
+    "jclic.js/rectes_perpendiculars2.jpg",
+    "jclic.js/rectes_perpendiculars3_resized.jpg",
+    "jclic.js/rectes_perpendiculars_resized.jpg",
+    "jclic.js/rectes_secants_resized.jpg",
+    "jclic.js/reloj_angulo_agudo.jpg",
+    "jclic.js/reloj_angulo_obtuso.jpg",
+    "jclic.js/reloj_angulo_recto.jpg",
+    "jclic.js/secantes.gif",
+    "jclic.js/secants.jpg",
+    "jclic.js/secants2_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ang_rec.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

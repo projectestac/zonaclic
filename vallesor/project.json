@@ -1,0 +1,139 @@
+{
+  "id": 749,
+  "title": "El Vallès Oriental",
+  "author": "Joan Antón López i Víctor A. Díaz Calle",
+  "school": "Escola Sant Vicenç Mollet del Vallès (Vallès Oriental)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geografia, Vallès Oriental",
+    "es": "geografía, Vallès Oriental",
+    "en": "geography, Vallès Oriental"
+  },
+  "descCodes": [
+    235,
+    605
+  ],
+  "description": {
+    "en": "Activities and information about the province of Vallès Oriental. The main topics are: location, landscape, hydrography and population.",
+    "ca": "Informació i activitats sobre la comarca del Vallès Oriental i els seus municipis. Conté jeroglífics dels noms de les poblacions i activitats diverses sobre la situació, el relleu, la hidrografia i el poblament. \n<br> Inclou un extens document d'ajuda amb informació sobre el medi físic i el medi humà del Vallès Oriental, amb mapes i gràfiques de població de cada municipi.",
+    "es": "Información y actividades sobre la comarca del Vallès Oriental y sus municipios. Contiene jeroglíficos de los nombres de las poblaciones y diversas actividades sobre la situación, el relieve, la hidrografía y el poblamiento. \n<br> Incluye un extenso documento de ayuda con información sobre el medio físico y el medio humano del Vallès Oriental, con mapas y gráficos de población de cada municipio."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/vallesor.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/vallesor.jclic.zip",
+  "instFile": "jclic/vallesor.jclic.inst",
+  "clicZoneId": 1406,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1406",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/vallesor/jclic/vallesor.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 92,
+  "mediaFiles": 58,
+  "totalSize": 598344,
+  "files": [
+    "cover.gif",
+    "jclic.js/activi.gif",
+    "jclic.js/adeu.gif",
+    "jclic.js/comarca2.gif",
+    "jclic.js/consulta.gif",
+    "jclic.js/credits.gif",
+    "jclic.js/entrada.gif",
+    "jclic.js/hid001.gif",
+    "jclic.js/hid002.gif",
+    "jclic.js/hid005.gif",
+    "jclic.js/hidro_in.gif",
+    "jclic.js/jermuni.gif",
+    "jclic.js/jermuni0.gif",
+    "jclic.js/jero0310.gif",
+    "jclic.js/jero0414.gif",
+    "jclic.js/jero0508.gif",
+    "jclic.js/jero0716.gif",
+    "jclic.js/jero1218.gif",
+    "jclic.js/jero1331.gif",
+    "jclic.js/jero1524.gif",
+    "jclic.js/jero1726.gif",
+    "jclic.js/jero1909.gif",
+    "jclic.js/jero2023.gif",
+    "jclic.js/jero2132.gif",
+    "jclic.js/jero2238.gif",
+    "jclic.js/jero2528.gif",
+    "jclic.js/jero2734.gif",
+    "jclic.js/jero2942.gif",
+    "jclic.js/jero3039.gif",
+    "jclic.js/jero3340.gif",
+    "jclic.js/jero3506.gif",
+    "jclic.js/jero3601.gif",
+    "jclic.js/jero3702.gif",
+    "jclic.js/jero4100.gif",
+    "jclic.js/jero41_1.gif",
+    "jclic.js/jero4311.gif",
+    "jclic.js/pob000.gif",
+    "jclic.js/pob002.gif",
+    "jclic.js/pob003.gif",
+    "jclic.js/pob005.gif",
+    "jclic.js/pobla_in.gif",
+    "jclic.js/qui.gif",
+    "jclic.js/qui2.gif",
+    "jclic.js/rel000.gif",
+    "jclic.js/rel001.gif",
+    "jclic.js/rel003.gif",
+    "jclic.js/rel006.gif",
+    "jclic.js/rel007.gif",
+    "jclic.js/rell_in.gif",
+    "jclic.js/sit000.gif",
+    "jclic.js/sit001.gif",
+    "jclic.js/sit002.gif",
+    "jclic.js/sit003.gif",
+    "jclic.js/situa_in.gif",
+    "jclic.js/sortir.gif",
+    "jclic.js/torna.gif",
+    "jclic.js/torna2.gif",
+    "jclic.js/torna3.gif",
+    "jclic.js/torna4.gif",
+    "jclic.js/vallesor.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/vallesor.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

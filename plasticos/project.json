@@ -1,0 +1,111 @@
+{
+  "id": 2580,
+  "title": "Plásticos",
+  "author": "José Miguel López Jurado (autor)",
+  "school": "IES Averroes (Córdoba)",
+  "date": "15/10/06",
+  "langCodes": [
+    "es"
+  ],
+  "languages": {
+    "es": "español",
+    "ca": "espanyol",
+    "en": "Spanish"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "areas": {
+    "es": "Tecnología",
+    "ca": "Tecnologies",
+    "en": "Design & technology"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "levels": {
+    "es": "Secundaria (12-16), 3º ESO",
+    "ca": "Secundària (12-16), 3º ESO",
+    "en": "Secondary school (12-16), 3º ESO"
+  },
+  "description": {
+    "es": "Conjunto de actividades sobre el origen, las propiedades, los tipos, la conformación y el reciclaje de los materiales plásticos.",
+    "ca": "Conjunt d'activitats sobre l'origen, les propietats, els tipus, la conformació i el reciclatge dels materials plàstics.",
+    "en": "Set of activities about the origin, properties, types, conformation and recycling of plastic materials."
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "es",
+    "ca",
+    "en"
+  ],
+  "cover": "portada.png",
+  "coverWebp": "portada.webp",
+  "thumbnail": "portada100.png",
+  "mainFile": "jclic.js/plasticos.jclic",
+  "activities": 42,
+  "mediaFiles": 48,
+  "totalSize": 3560559,
+  "instFile": "jclic/plasticos.jclic.inst",
+  "zipFile": "jclic/plasticos.jclic.zip",
+  "files": [
+    "jclic.js/1-pet.png",
+    "jclic.js/2-hdpe.png",
+    "jclic.js/3-pvc.png",
+    "jclic.js/4-ldpe.png",
+    "jclic.js/5-pp.png",
+    "jclic.js/6-ps.png",
+    "jclic.js/7-otros.png",
+    "jclic.js/bolsas-ldpe.png",
+    "jclic.js/botellas-pet.png",
+    "jclic.js/calandrado.png",
+    "jclic.js/cd.png",
+    "jclic.js/chapas-melamina.png",
+    "jclic.js/cocinita-hdpe.png",
+    "jclic.js/compresion.png",
+    "jclic.js/cuerda-pa.png",
+    "jclic.js/escuadra-ps.png",
+    "jclic.js/estuches-pp.png",
+    "jclic.js/extrusion.png",
+    "jclic.js/extrusora.png",
+    "jclic.js/faro-pmma.png",
+    "jclic.js/favicon.ico",
+    "jclic.js/fibra-poliester.png",
+    "jclic.js/gomaespuma.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/inyeccion.png",
+    "jclic.js/logo_jclic0.png",
+    "jclic.js/logo_tec.jpg",
+    "jclic.js/mango-baquelita.png",
+    "jclic.js/monomero.png",
+    "jclic.js/neumatico-caucho.png",
+    "jclic.js/pegamento-epoxi.png",
+    "jclic.js/perchas-uf.png",
+    "jclic.js/piscina-poliester.png",
+    "jclic.js/pistola-silicona.png",
+    "jclic.js/plasticos.jclic",
+    "jclic.js/plasticos.jclic.js",
+    "jclic.js/polimero.png",
+    "jclic.js/porexpan.png",
+    "jclic.js/produccion.png",
+    "jclic.js/reciclaje.png",
+    "jclic.js/sarten-ptfe.png",
+    "jclic.js/soplado.png",
+    "jclic.js/teflon.png",
+    "jclic.js/traje-neopreno.png",
+    "jclic.js/tuberia-pvc.png",
+    "jclic.js/tubos-pvc.png",
+    "jclic.js/vacio.png",
+    "portada.png",
+    "portada100.png",
+    "project.json",
+    "portada.webp"
+  ]
+}

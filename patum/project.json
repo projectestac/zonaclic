@@ -1,0 +1,132 @@
+{
+  "id": 727,
+  "title": "La Patum de Berga",
+  "author": "M. Àngels Illa Vila Col·laboració: Luigi S.A.",
+  "date": "29/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "costums i tradicions, Berguedà, audició musical",
+    "es": "costumbres y tradiciones, Berguedà, audición musical",
+    "en": "customs and traditions, Berguedà, musical hearing"
+  },
+  "descCodes": [
+    191,
+    478,
+    718
+  ],
+  "description": {
+    "en": "Activities about the traditional festival \"Patum\", that takes place every spring in Berga (Catalonia).",
+    "ca": "Aquest paquet d¿activitats té com a finalitat fer conèixer la Patum de Berga. Comença amb un text on s'expliquen les característiques d'aquesta festa i continua amb un conjunt d'activitats on es poden veure fotografies i escoltar la música de les comparses: Turcs i cavallets, Maces, Guites, L'àliga, Els gegants, Nans vells, Nans nous, Plens i Tirabols.\n<br> El paquet es complementa amb trencaclosques, jocs i sopes de lletres.",
+    "es": "Este paquete de actividades tiene el objetivo de conocer la fiesta de la \"Patum\", que se celebra en la ciudad catalana de Berga todos los años, en Corpus. Empieza con un texto en el que se explican las características de la fiesta y continua con un conjunto de actividades en las que se pueden ver fotografías y escuchar la música de las comparsas: Turcs i cavallets, Maces, Guites, L'àliga, Els gegants, Nans vells, Nans nous, Plens i Tirabols.\n<br> El paquete se complementa con puzzles, juegos y sopas de letras."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/patum.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/patum.jclic.zip",
+  "instFile": "jclic/patum.jclic.inst",
+  "clicZoneId": 1380,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1380",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/patum/jclic/patum.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 50,
+  "totalSize": 26931445,
+  "files": [
+    "cover.jpg",
+    "jclic.js/1a.jpg",
+    "jclic.js/2b.jpg",
+    "jclic.js/2c.jpg",
+    "jclic.js/3e.jpg",
+    "jclic.js/3f.jpg",
+    "jclic.js/4c.jpg",
+    "jclic.js/4e.jpg",
+    "jclic.js/5b.jpg",
+    "jclic.js/5c.jpg",
+    "jclic.js/6a.jpg",
+    "jclic.js/alig.jpg",
+    "jclic.js/aliga.jpg",
+    "jclic.js/aliga.wav",
+    "jclic.js/aliga0.jpg",
+    "jclic.js/aliganou.jpg",
+    "jclic.js/careta.jpg",
+    "jclic.js/dimecres.wav",
+    "jclic.js/ellanit.wav",
+    "jclic.js/final.wav",
+    "jclic.js/foc.jpg",
+    "jclic.js/focple.jpg",
+    "jclic.js/gegant_1.jpg",
+    "jclic.js/gegant_2.jpg",
+    "jclic.js/gegants.jpg",
+    "jclic.js/gegants.wav",
+    "jclic.js/gegants2.wav",
+    "jclic.js/guites.jpg",
+    "jclic.js/guites.wav",
+    "jclic.js/gvells2.jpg",
+    "jclic.js/imagen4.jpg",
+    "jclic.js/maces.jpg",
+    "jclic.js/maces.wav",
+    "jclic.js/minialt.jpg",
+    "jclic.js/nansnous.jpg",
+    "jclic.js/nansnous.wav",
+    "jclic.js/nansvells.wav",
+    "jclic.js/nv.jpg",
+    "jclic.js/patum.jclic",
+    "jclic.js/patum.pdf",
+    "jclic.js/petitfoc.jpg",
+    "jclic.js/plens.wav",
+    "jclic.js/tabal.wav",
+    "jclic.js/tabal1.jpg",
+    "jclic.js/tabal256.jpg",
+    "jclic.js/tirabol.wav",
+    "jclic.js/tuicanit.jpg",
+    "jclic.js/turabol.jpg",
+    "jclic.js/turcs.wav",
+    "jclic.js/unama__1.jpg",
+    "jclic.js/unple.jpg",
+    "jclic.js/unturc.jpg",
+    "jclic.js/verplend.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/patum.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

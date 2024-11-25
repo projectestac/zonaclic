@@ -1,0 +1,79 @@
+{
+  "id": 1641,
+  "title": "El proceso tecnológico en el aula-taller",
+  "author": "Concha Giovanetti Fdez de Henestrosa",
+  "school": "IES Tamujal Arroyo de San Serván (Extremadura)",
+  "date": "16/01/07",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Design & technology",
+    "ca": "Tecnologies",
+    "es": "Tecnología"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la tecnologia",
+    "es": "aprendizaje de la tecnología",
+    "en": "learning of the technology"
+  },
+  "descCodes": [
+    728
+  ],
+  "description": {
+    "en": "Project of activities addressed to secondary education about the phases of a technological process.",
+    "ca": "Projecte d'activitats per inciar l'alumnat de 1r d'ESO en les fases d'un procés tecnològic.",
+    "es": "Proyecto de actividades para iniciar a los alumnos de 1º de ESO en las fases de un proceso tecnológico."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/procesos.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/procesos.jclic.zip",
+  "instFile": "jclic/procesos.jclic.inst",
+  "clicZoneId": 3349,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3349",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/procesos/jclic/procesos.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 7,
+  "mediaFiles": 0,
+  "totalSize": 68826,
+  "files": [
+    "cover.gif",
+    "jclic.js/procesos.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/procesos.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": 2440,
+  "title": "La colla del mar",
+  "author": "M. Rosa Vilaró Morato",
+  "school": "C Casals-Gràcia Manlleu (Osona)",
+  "date": "02/06/16",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages",
+    "ca": "Ciències experimentals, Llengües",
+    "es": "Ciencias experimentales, Lenguas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, aigua, animals, animals marins",
+    "es": "lengua castellana, agua, animals, animales marinos",
+    "en": "Spanish language, water, animales, sea animals"
+  },
+  "descCodes": [
+    132,
+    1341,
+    1456,
+    1471
+  ],
+  "description": {
+    "en": "Small project aimed at children from kindergarden. Activities related to the sea. Turtles, dolphins and octopuses.",
+    "ca": "Petit projecte orientat a nens i nenes de P3. Conjunt d'activitats relacionades amb el mar. Tortugues marines, dofins i pops.",
+    "es": "Pequeño proyecto orientado a niños y niñas de P3. Conjunto de actividades relacionadas con el mar. Tortugas marinas, delfines y pulpos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/collamar.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/collamar.jclic.zip",
+  "instFile": "jclic/collamar.jclic.inst",
+  "clicZoneId": 3949,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3949",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/collamar/jclic/collamar.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 32,
+  "totalSize": 756416,
+  "files": [
+    "cover.png",
+    "jclic.js/1.jpg",
+    "jclic.js/1dofi.jpg",
+    "jclic.js/1pop_resized.jpg",
+    "jclic.js/1tortuga_resized.jpg",
+    "jclic.js/2.jpg",
+    "jclic.js/2dofi.jpg",
+    "jclic.js/2pop_resized.jpg",
+    "jclic.js/2tortuga_resized.jpg",
+    "jclic.js/3.jpg",
+    "jclic.js/3dofi_resized.jpg",
+    "jclic.js/3pop_resized.jpg",
+    "jclic.js/3tortuga_resized.jpg",
+    "jclic.js/collamar.jclic",
+    "jclic.js/collamar.jclic.js",
+    "jclic.js/dofi_color_resized.jpg",
+    "jclic.js/dofiblau.jpg",
+    "jclic.js/dofigroc.jpg",
+    "jclic.js/dofiverd.jpg",
+    "jclic.js/dofivermell.jpg",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/llapisblau1.jpg",
+    "jclic.js/llapisgroc1.jpg",
+    "jclic.js/llapisverd1.jpg",
+    "jclic.js/llapisvermell1.jpg",
+    "jclic.js/pop_color_resized.jpg",
+    "jclic.js/popblau.jpg",
+    "jclic.js/popgroc.jpg",
+    "jclic.js/popverd.jpg",
+    "jclic.js/popvermell.jpg",
+    "jclic.js/portada_resized1.jpg",
+    "jclic.js/tortuga_color_resized.jpg",
+    "jclic.js/tortugablava.jpg",
+    "jclic.js/tortugagroga.jpg",
+    "jclic.js/tortugaverda.jpg",
+    "jclic.js/tortugavermella.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

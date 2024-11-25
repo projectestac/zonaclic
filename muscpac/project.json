@@ -1,0 +1,92 @@
+{
+  "id": 1066,
+  "title": "Os músculos",
+  "author": "Gerardo Pazos",
+  "school": "CEIP de Ponzos Ferrol (A Coruña)",
+  "date": "16/06/03",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "biologia",
+    "es": "biología",
+    "en": "biology"
+  },
+  "descCodes": [
+    58
+  ],
+  "description": {
+    "en": "Clic activities about the muscles.",
+    "ca": "Paquet d'activitats en gallec on es fa un repàs dels principals músculs del cos humà.",
+    "es": "Paquete de actividades en gallego en el que se hace un repaso de los principales músculos del cuerpo humano."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/muscpac.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/muscpac.jclic.zip",
+  "instFile": "jclic/muscpac.jclic.inst",
+  "clicZoneId": 2244,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2244",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/muscpac/jclic/muscpac.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 13,
+  "totalSize": 622118,
+  "files": [
+    "cover.gif",
+    "jclic.js/cuadri.gif",
+    "jclic.js/deltoid.gif",
+    "jclic.js/dorsais.gif",
+    "jclic.js/gluteos.gif",
+    "jclic.js/isqutib.gif",
+    "jclic.js/lumbrs.gif",
+    "jclic.js/mus3.gif",
+    "jclic.js/musc1.gif",
+    "jclic.js/muscpac.jclic",
+    "jclic.js/pector.gif",
+    "jclic.js/port.gif",
+    "jclic.js/trapec.gif",
+    "jclic.js/triceps.gif",
+    "jclic.js/xemelg.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/muscpac.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

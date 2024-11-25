@@ -1,0 +1,115 @@
+{
+  "id": 186,
+  "title": "Eguzki sistema",
+  "author": "José Javier Zozalla Leacha",
+  "school": "CEIP Xabier Zubiri Zubiri (Navarra)",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "astronomia, sistema solar",
+    "es": "astronomía, sistema solar",
+    "en": "astronomy, Solar System"
+  },
+  "descCodes": [
+    57,
+    104
+  ],
+  "description": {
+    "en": "Clic activities about The Solar System in Basque.",
+    "ca": "Paquet d'activitats sobre el Sistema Solar en euskera. El paquet està destinat a alumnes de 6è de Primària. Trobem activitats d'identificació, d'associació, trencaclosques, de text...",
+    "es": "Paquete de actividades sobre el sistema solar en eusquera. El paquete está destinado a alumnos de 6º de Primaria. Encontramos actividades de identificación, de asociación, rompecabezas, de texto..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/eguzkis.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/eguzkis.jclic.zip",
+  "instFile": "jclic/eguzkis.jclic.inst",
+  "clicZoneId": 1094,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1094",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/eguzkis/jclic/eguzkis.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 35,
+  "totalSize": 2117159,
+  "files": [
+    "cover.gif",
+    "jclic.js/artizar.jpg",
+    "jclic.js/artizarra.wav",
+    "jclic.js/aurrera.wav",
+    "jclic.js/bikain.wav",
+    "jclic.js/bravo.wav",
+    "jclic.js/ederki.wav",
+    "jclic.js/eguzkis.jclic",
+    "jclic.js/elefante.wav",
+    "jclic.js/foca.wav",
+    "jclic.js/gallo.wav",
+    "jclic.js/hasiera.jpg",
+    "jclic.js/jupiter.jpg",
+    "jclic.js/jupiter.wav",
+    "jclic.js/lobo.wav",
+    "jclic.js/lurra.jpg",
+    "jclic.js/lurra.wav",
+    "jclic.js/marte.jpg",
+    "jclic.js/martitz.wav",
+    "jclic.js/merkurio.jpg",
+    "jclic.js/merkurio.wav",
+    "jclic.js/neptuno.jpg",
+    "jclic.js/neptuno.wav",
+    "jclic.js/osongi.wav",
+    "jclic.js/oveja.wav",
+    "jclic.js/pluton.jpg",
+    "jclic.js/pluton.wav",
+    "jclic.js/primeran.wav",
+    "jclic.js/satelite.jpg",
+    "jclic.js/saturno.jpg",
+    "jclic.js/saturno.wav",
+    "jclic.js/sistema.jpg",
+    "jclic.js/sistema2.jpg",
+    "jclic.js/txupigu.wav",
+    "jclic.js/urano.jpg",
+    "jclic.js/urano.wav",
+    "jclic.js/vaca.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/eguzkis.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

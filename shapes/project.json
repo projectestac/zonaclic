@@ -1,0 +1,123 @@
+{
+  "id": 948,
+  "title": "Let's play with the shapes!",
+  "author": "Silvia Díez de Rivera",
+  "school": "Colegio Orvalle Las Rozas (Madrid)",
+  "date": "16/12/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "ca": "Llengües",
+    "es": "Lenguas",
+    "en": "Languages"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, llengua anglesa",
+    "es": "lengua inglesa, lengua inglesa",
+    "en": "English language, English language"
+  },
+  "descCodes": [
+    130,
+    667
+  ],
+  "description": {
+    "en": "Clic activities in English about the vocabulary of some geometric shapes: circle, square, triangle and rectangle.",
+    "ca": "Activitats de llengua anglesa, amb suport de so, sobre el vocabulari relacionat amb les formes geomètriques bàsiques: cercle, quadrat, triangle i rectangle.",
+    "es": "Actividades de lengua inglesa, con apoyo de sonido, sobre el vocabulario relacionado con las formas geométricas básicas: círculo, cuadrado, triángulo y rectángulo."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/shapes.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/shapes.jclic.zip",
+  "instFile": "jclic/shapes.jclic.inst",
+  "clicZoneId": 2050,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2050",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/shapes/jclic/shapes.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 43,
+  "totalSize": 2714509,
+  "files": [
+    "cover.gif",
+    "jclic.js/ball.gif",
+    "jclic.js/ball.wav",
+    "jclic.js/book.gif",
+    "jclic.js/book.wav",
+    "jclic.js/circle.gif",
+    "jclic.js/circle.wav",
+    "jclic.js/circulo.gif",
+    "jclic.js/cuadrado.gif",
+    "jclic.js/excell.wav",
+    "jclic.js/fin.wav",
+    "jclic.js/hats.gif",
+    "jclic.js/hats.wav",
+    "jclic.js/itscirc.wav",
+    "jclic.js/itsrec.wav",
+    "jclic.js/itssqua.wav",
+    "jclic.js/itstrian.wav",
+    "jclic.js/ok.wav",
+    "jclic.js/pic_shap.wav",
+    "jclic.js/rect.wav",
+    "jclic.js/rectan.gif",
+    "jclic.js/rectang.gif",
+    "jclic.js/shape_wo.wav",
+    "jclic.js/shapes.gif",
+    "jclic.js/shapes.jclic",
+    "jclic.js/shapes.wav",
+    "jclic.js/shpairs.wav",
+    "jclic.js/shword.wav",
+    "jclic.js/square.gif",
+    "jclic.js/square.wav",
+    "jclic.js/triangle.gif",
+    "jclic.js/triangle.wav",
+    "jclic.js/triangu.gif",
+    "jclic.js/vgood.wav",
+    "jclic.js/wcircle.gif",
+    "jclic.js/what.wav",
+    "jclic.js/window.gif",
+    "jclic.js/window.wav",
+    "jclic.js/word_pic.wav",
+    "jclic.js/wrectang.gif",
+    "jclic.js/wrectangle.gif",
+    "jclic.js/wsquare.gif",
+    "jclic.js/wtriangl.gif",
+    "jclic.js/wtriangle.gif",
+    "jclic.js/yes.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/shapes.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

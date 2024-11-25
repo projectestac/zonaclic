@@ -1,0 +1,93 @@
+{
+  "id": 1028,
+  "title": "La reproducció de les plantes",
+  "author": "M. Àngels Rius Masalles",
+  "school": "C Cor de Maria Valls (Alt Camp)",
+  "date": "05/06/03",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "plantes",
+    "es": "plantas",
+    "en": "plants"
+  },
+  "descCodes": [
+    96
+  ],
+  "description": {
+    "en": "Package of activities about the reproduction of plants, the flowers and the fruits.",
+    "ca": "Paquet d'activitats sobre la reproducció de les plantes, les flors, els fruits i la pol·linització.",
+    "es": "Paquete de actividades sobre la reproducción de las plantas, las flores, los frutos y la polinización."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "repfloes"
+  ],
+  "mainFile": "jclic.js/repflor.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/repflor.jclic.zip",
+  "instFile": "jclic/repflor.jclic.inst",
+  "clicZoneId": 2164,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2164",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/repflor/jclic/repflor.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 11,
+  "totalSize": 870713,
+  "files": [
+    "cover.gif",
+    "jclic.js/bravo.wav",
+    "jclic.js/dictat2.wav",
+    "jclic.js/flor.jpg",
+    "jclic.js/flor2.jpg",
+    "jclic.js/fruita.jpg",
+    "jclic.js/fruitb.jpg",
+    "jclic.js/fruitc.jpg",
+    "jclic.js/fruitd.jpg",
+    "jclic.js/minialt.gif",
+    "jclic.js/present.gif",
+    "jclic.js/repflor.jclic",
+    "jclic.js/sprbk050.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/repflor.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

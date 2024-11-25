@@ -1,0 +1,79 @@
+{
+  "id": 2293,
+  "title": "Operacions amb nombres naturals",
+  "author": "Francesc Casassas Canals",
+  "school": "Institut Aubenç Oliana (Alt Urgell)",
+  "date": "16/05/13",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "Nombres naturals",
+    "es": "Números naturales",
+    "en": "Natural numbers"
+  },
+  "descCodes": [
+    1446
+  ],
+  "description": {
+    "en": "Project of activities about calculation with natural numbers: \n<ul> \n <li>addition </li>\n <li>subtraction </li>\n <li>multiplication </li>\n <li>division </li> \n</ul>",
+    "ca": "Activitats destinades a consolidar el càlcul amb els nombres naturals: \n<ul> \n <li>suma </li>\n <li>resta </li>\n <li>multiplicació </li>\n <li>divisió </li> \n</ul>",
+    "es": "Actividades destinadas a consolidar el cálculo con los números naturales: \n<ul> \n <li>suma </li>\n <li>resta </li>\n <li>multiplicación </li>\n <li>división </li> \n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/nomb_nat.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/nomb_nat.jclic.zip",
+  "instFile": "jclic/nomb_nat.jclic.inst",
+  "clicZoneId": 3807,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3807",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/nomb_nat/jclic/nomb_nat.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 0,
+  "totalSize": 87064,
+  "files": [
+    "cover.png",
+    "jclic.js/nomb_nat.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/nomb_nat.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

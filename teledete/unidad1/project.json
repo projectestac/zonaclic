@@ -1,0 +1,97 @@
+{
+  "id": 2353,
+  "title": "La Tierra a vista de satélite (Fundamentos)",
+  "author": "Albert Llastarri Rezola, Daniel Vivancos Bermejo, Jordi Vivancos Martí i Mònica Grau Prieto",
+  "date": "09/02/15",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16), High school (16-18)",
+    "ca": "Secundària (12-16), Batxillerat (16-18)",
+    "es": "Secundaria (12-16), Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "SEC",
+    "BTX"
+  ],
+  "description": {
+    "en": "Self-assessed activities about the project \n<a href=\"http://concurso.cnice.mec.es/cnice2006/material121/\">La Tierra a vista de satélite</a>: \n<ul> \n <li>Fundamentals </li>\n <li>Applications </li>\n <li>Instruments  </li>\n</ul>",
+    "ca": "Activitats d'autoavaluació sobre els materials \n<a href=\"http://concurso.cnice.mec.es/cnice2006/material121/\">La Tierra a vista de satélite</a>. Cadascuna de les activitats fa referència a un dels àmbits de la Teledetecció: \n<ul> \n <li>Fonaments </li>\n <li>Aplicacions </li>\n <li>Instruments </li>\n</ul>",
+    "es": "Actividades de autoevaluación sobre los materials \n<a href=\"http://concurso.cnice.mec.es/cnice2006/material121/\">La Tierra a vista de satélite</a>. Cada una de las actividades hace referencia a uno de los ámbitos de la Teledetección: \n<ul> \n <li>Fundamentos </li>\n <li>Aplicaciones </li>\n <li>Instrumentos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "teledete/unidad2",
+    "teledete/unidad3"
+  ],
+  "mainFile": "jclic.js/unidad1.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/unidad1.jclic.zip",
+  "instFile": "jclic/unidad1.jclic.inst",
+  "clicZoneId": 3860,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3860",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/teledete/jclic/unidad1.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 22,
+  "totalSize": 1268176,
+  "files": [
+    "cover.png",
+    "jclic.js/act3fons.gif",
+    "jclic.js/bombilla.jpg",
+    "jclic.js/detector_uv.jpg",
+    "jclic.js/estufa.jpg",
+    "jclic.js/microondas.jpg",
+    "jclic.js/phila321.jpg",
+    "jclic.js/phila321b.jpg",
+    "jclic.js/phila432.jpg",
+    "jclic.js/phila432b.jpg",
+    "jclic.js/phila542.jpg",
+    "jclic.js/phila542b.jpg",
+    "jclic.js/phila742.jpg",
+    "jclic.js/phila742b.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/preg3_sat1.jpg",
+    "jclic.js/preg3_sat2.jpg",
+    "jclic.js/preg3_sat3.jpg",
+    "jclic.js/preg3_sat4.jpg",
+    "jclic.js/pregunta1.jpg",
+    "jclic.js/rayosx.jpg",
+    "jclic.js/roma.jpg",
+    "jclic.js/romab.jpg",
+    "jclic.js/unidad1.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/unidad1.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

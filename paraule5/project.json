@@ -1,0 +1,88 @@
+{
+  "id": 2456,
+  "title": "Busca la paraula",
+  "author": "Francisco Martínez Fernández",
+  "school": "Escola Napoleó Soliva Blanes (Selva)",
+  "date": "07/07/16",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "identificació, comprensió lectora",
+    "es": "identificación, comprensión lectora",
+    "en": "identification, reading comprehension"
+  },
+  "descCodes": [
+    848,
+    1329
+  ],
+  "description": {
+    "en": "From an image full of words written in different colors, with horizontal orientation, vertical or inclined and with different types of sources, each activity is asked to click on a word and look it.\n<p> This package is designed for students who are at an initial level of reading and reading practice in a playful way, as they take it as a game.</p>\n<p> For students who have a particular difficulty to improve reading or are stagnant, highly motivating activities such as reading a practical purpose.</p>\n<p> Tip: Sometimes you get discouraged if you are looking for a long time and do not find the word. It helps motivate them to continue working to give students a clue such as: is on the left or right or top or bottom of the screen, the floor is sloping or vertical or horizontal, and the word is written in red or blue ... </p>",
+    "ca": "A partir d'una imatge plena de paraules escrites en diferents colors, amb orientació horitzontal, vertical o inclinada i amb diferents tipus de Font, a cada activitat se li demana que busqui una paraula i cliqui sobre ella.\n<p> Aquest paquet està pensat per alumnes que estan en un nivel inicial de lectura i practiquen la lectura d'una manera lúdica, ja que s'ho prenen com un joc.</p>\n<p> Per alumnes que tenen una especial dificultat per millorar la lectura o que estan estancats, els motiva molt aquestes activitats ja que llegeixen amb una finalitat pràctica.</p>\n<p> Suggeriment: A vegades es desanimen si estan molta estona buscant i no troben la paraula. Ajuda a motivar-los per seguir treballant donar als alumnes alguna pista del tipus: està a la part dreta o esquerra o inferior o superior de la pantalla, la paraula està inclinada o vertical o horitzontal, o la paraula està escrita en vermell, o blau... </p>",
+    "es": "A partir de una imagen llena de palabras escritas en diferentes colores, con orientación horizontal, vertical o inclinada y con diferentes tipos de Fuente, cada actividad se le pide que busque una palabra y haga clic sobre ella.\n<p> Este paquete está pensado para alumnos que están en un nivel inicial de lectura y practican la lectura de una manera lúdica, ya que lo toman como un juego.</p>\n<p> Para alumnos que tienen una especial dificultad para mejorar la lectura o que están estancados, los motiva mucho estas actividades ya que leen con una finalidad práctica.</p>\n<p> Sugerencia: A veces se desaniman si están mucho rato buscando y no encuentran la palabra. Ayuda a motivarlos para seguir trabajando dar a los alumnos alguna pista del tipo: está en la parte derecha o izquierda o inferior o superior de la pantalla, la palabra está inclinada o vertical u horizontal, o la palabra está escrita en rojo, o azul ... </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "paraules2"
+  ],
+  "mainFile": "jclic.js/paraule5.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/paraule5.jclic.zip",
+  "instFile": "jclic/paraule5.jclic.inst",
+  "clicZoneId": 3964,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3964",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/paraule5/jclic/paraule5.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 111,
+  "mediaFiles": 5,
+  "totalSize": 927846,
+  "files": [
+    "cover.png",
+    "jclic.js/2_paraules.gif",
+    "jclic.js/2_solu.gif",
+    "jclic.js/paraule5.jclic",
+    "jclic.js/paraule5.jclic.js",
+    "jclic.js/paraules.gif",
+    "jclic.js/paraules_2.gif",
+    "jclic.js/solu.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

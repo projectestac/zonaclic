@@ -1,0 +1,137 @@
+{
+  "id": 2369,
+  "title": "Llig a cop d'ull",
+  "author": "Xavier Lozano Rovira",
+  "school": "CEIP Josep Gil Hervàs Benimodo (Ribera Alta)",
+  "date": "19/02/15",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua catalana, vocabulari",
+    "es": "aprendizaje de la lengua, lengua catalana, vocabulario",
+    "en": "learning of the language, Catalan language, vocabulary"
+  },
+  "descCodes": [
+    110,
+    133,
+    150
+  ],
+  "description": {
+    "en": "JClic activities to about reading. Throw the project, appears a written word during five seconds and disappears, then appear two images that pupil have to choose the appropriate word.",
+    "ca": "Projecte d'activitats per treballar la lectura a cop d'ull. Apareix una paraula escrita i passats 5 segons desapareix i dóna pas a dues imatges de les que cal triar la corresponent a la paraula llegida. Es fonamenta en paules amb grups fònics travats i símfons.",
+    "es": "Proyecto de actividades para trabajar la lectura a primera vista. Aparece una palabra escrita y pasados 5 segundos desaparece y da paso a dos imágenes de las que hay que elegir la correspondiente a la palabra leída. Se fundamenta en palabras con grupos fónicos trabados y sínfonos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cop_ull.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cop_ull.jclic.zip",
+  "instFile": "jclic/cop_ull.jclic.inst",
+  "clicZoneId": 3871,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3871",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cop_ull/jclic/cop_ull.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 82,
+  "mediaFiles": 56,
+  "totalSize": 407280,
+  "files": [
+    "cover.png",
+    "jclic.js/bicicleta.jpg",
+    "jclic.js/bresquilles.jpg",
+    "jclic.js/bromera.jpg",
+    "jclic.js/bruixola.jpg",
+    "jclic.js/clario.jpg",
+    "jclic.js/clau.jpg",
+    "jclic.js/closca.jpg",
+    "jclic.js/cop_ull.jclic",
+    "jclic.js/cop_ull.jpg",
+    "jclic.js/cr__ter.jpg",
+    "jclic.js/cranc.jpg",
+    "jclic.js/creilla.jpg",
+    "jclic.js/far.jpg",
+    "jclic.js/fardatxo.jpg",
+    "jclic.js/farina.jpg",
+    "jclic.js/faristol.jpg",
+    "jclic.js/ferit.jpg",
+    "jclic.js/fira.jpg",
+    "jclic.js/flam.jpg",
+    "jclic.js/flama.jpg",
+    "jclic.js/flamenc.jpg",
+    "jclic.js/flassada.jpg",
+    "jclic.js/flauta.jpg",
+    "jclic.js/fletxa.jpg",
+    "jclic.js/flexo.jpg",
+    "jclic.js/flocs.jpg",
+    "jclic.js/flor.jpg",
+    "jclic.js/floristeria.jpg",
+    "jclic.js/forca.jpg",
+    "jclic.js/formiga.jpg",
+    "jclic.js/forn.jpg",
+    "jclic.js/forrellat.jpg",
+    "jclic.js/frac.jpg",
+    "jclic.js/frare.jpg",
+    "jclic.js/fre.jpg",
+    "jclic.js/fred.jpg",
+    "jclic.js/fregall.jpg",
+    "jclic.js/fregidora.jpg",
+    "jclic.js/frigorific.jpg",
+    "jclic.js/fromatge.jpg",
+    "jclic.js/fronto.jpg",
+    "jclic.js/fruita.jpg",
+    "jclic.js/furg__.jpg",
+    "jclic.js/garatge.jpg",
+    "jclic.js/graelles.jpg",
+    "jclic.js/granera.jpg",
+    "jclic.js/grapadora.jpg",
+    "jclic.js/grua.jpg",
+    "jclic.js/plastilina.jpg",
+    "jclic.js/projector.jpg",
+    "jclic.js/tractor.jpg",
+    "jclic.js/trampoli.jpg",
+    "jclic.js/tranvia.jpg",
+    "jclic.js/tricicle.jpg",
+    "jclic.js/trineu.jpg",
+    "jclic.js/trineu2.jpg",
+    "jclic.js/trompeta.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cop_ull.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

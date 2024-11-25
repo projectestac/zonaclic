@@ -1,0 +1,108 @@
+{
+  "id": 1779,
+  "title": "Deportes alternativos",
+  "author": "Rosa Ana Rodrigo Martín",
+  "school": "CP Virgen de la Encina Hoyo de Manzanares (Madrid)",
+  "date": "16/06/08",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Physical education, Miscellaneous",
+    "ca": "Educació física, Diversos",
+    "es": "Educación física, Diversos"
+  },
+  "areaCodes": [
+    "ef",
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de l'educació física, esports",
+    "es": "aprendizaje de la educación física, deportes",
+    "en": "learning of the physical education, sports"
+  },
+  "descCodes": [
+    422,
+    424
+  ],
+  "description": {
+    "en": "Project with several activities related to four alternative sport games: ultimate, indiaca, baseball and floorball. The project aim is to introduce these sports to secondary school pupils",
+    "ca": "Projecte amb diverses activitats relacionades amb quatre esports alternatius: ultimate, indiaca, bèisbol i hoquei pista. Amb aquestes activitats es pretén que els alumnes de segon cicle tinguin un primer contacte amb aquests esports.",
+    "es": "Proyecto con diversas actividades relacionadas con cuatro deportes alternativos: ultimate, indiaca, béisbol y unihockey. Con estas actividades se pretende que los alumnos de segundo ciclo tengan un primer contacto con estos deportes."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/deporte2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/deporte2.jclic.zip",
+  "instFile": "jclic/deporte2.jclic.inst",
+  "clicZoneId": 3476,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3476",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/deporte2/jclic/deporte2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 26,
+  "totalSize": 1055668,
+  "files": [
+    "cover.jpg",
+    "jclic.js/bate.jpg",
+    "jclic.js/bateador.jpg",
+    "jclic.js/bola_hockey.jpg",
+    "jclic.js/campo_besiblo.jpg",
+    "jclic.js/campo_indiaca.gif",
+    "jclic.js/catcher.jpg",
+    "jclic.js/deporte2.jclic",
+    "jclic.js/deportes_alternativos.jpg",
+    "jclic.js/disco_volador.jpg",
+    "jclic.js/fresbee1.jpg",
+    "jclic.js/fresbee_4.jpg",
+    "jclic.js/guante.jpg",
+    "jclic.js/indiaca_2.jpg",
+    "jclic.js/indiaca_mano.jpg",
+    "jclic.js/indiaca_pareja.jpg",
+    "jclic.js/indiaca_play.jpg",
+    "jclic.js/pelota_pala.jpg",
+    "jclic.js/pelota_softball.jpg",
+    "jclic.js/pie.gif",
+    "jclic.js/pitcher.jpg",
+    "jclic.js/porteria_hochey.gif",
+    "jclic.js/raqueta_tenis.jpg",
+    "jclic.js/softball.gif",
+    "jclic.js/stick.jpg",
+    "jclic.js/ultimate.jpg",
+    "jclic.js/unihockey.jpg",
+    "jclic.js/unihockey_bohne300.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/deporte2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

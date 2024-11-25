@@ -1,0 +1,109 @@
+{
+  "id": 238,
+  "title": "Jeroglífics",
+  "author": "Joan Antón López",
+  "school": "Escola Sant Vicenç Mollet del Vallès (Vallès Oriental)",
+  "date": "12/07/02",
+  "languages": {
+    "en": "Catalan, Spanish",
+    "ca": "català, espanyol",
+    "es": "catalán, español"
+  },
+  "langCodes": [
+    "ca",
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, llengua catalana",
+    "es": "lengua castellana, lengua catalana",
+    "en": "Spanish language, Catalan language"
+  },
+  "descCodes": [
+    132,
+    133
+  ],
+  "description": {
+    "en": "Activity pack about hieroglyphics and proper names. In it the student tries to find out the name from the drawing he/she sees.",
+    "ca": "És un conjunt de jeroglífics sobre noms propis de nois i noies, a partir de dibuixos elaborats pels alumnes. En el paquet es planteja la possibilitat de resoldre'ls en català o en castellà. Inclou també documents en format \n<a href=\"http://www.adobe.com\">Adobe Acrobat</a> per a imprimir les activitats.",
+    "es": "Es un conjunto de jeroglíficos sobre los nombres propios de los alumnos a partir de dibujos elaborados por ellos mismos. En el paquete se plantea la posibilidad de resolverlos en catalán o en castellano. Incluye también documentos en formato Adobe Acrobat para imprimir las actividades."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/jerog.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/jerog.jclic.zip",
+  "instFile": "jclic/jerog.jclic.inst",
+  "clicZoneId": 1123,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1123",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/jerog/jclic/jerog.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 26,
+  "totalSize": 350152,
+  "files": [
+    "cover.gif",
+    "jclic.js/adeu.gif",
+    "jclic.js/jer_001.gif",
+    "jclic.js/jer_002.gif",
+    "jclic.js/jer_003.gif",
+    "jclic.js/jer_004.gif",
+    "jclic.js/jer_005.gif",
+    "jclic.js/jer_006.gif",
+    "jclic.js/jer_007.gif",
+    "jclic.js/jer_008.gif",
+    "jclic.js/jer_009.gif",
+    "jclic.js/jer_010.gif",
+    "jclic.js/jer_101.gif",
+    "jclic.js/jer_102.gif",
+    "jclic.js/jer_103.gif",
+    "jclic.js/jer_104.gif",
+    "jclic.js/jer_105.gif",
+    "jclic.js/jer_106.gif",
+    "jclic.js/jer_107.gif",
+    "jclic.js/jer_108.gif",
+    "jclic.js/jer_109.gif",
+    "jclic.js/jer_ini1.gif",
+    "jclic.js/jer_ini2.gif",
+    "jclic.js/jerfi1a.gif",
+    "jclic.js/jerfi1b.gif",
+    "jclic.js/jerini3a.gif",
+    "jclic.js/jerini3b.gif",
+    "jclic.js/jerocast.pdf",
+    "jclic.js/jerocat.pdf",
+    "jclic.js/jerog.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/jerog.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

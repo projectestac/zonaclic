@@ -1,0 +1,133 @@
+{
+  "id": 1725,
+  "title": "Geografía del Continente Europeo y la Unión Europea",
+  "author": "Moncho Marín Calvo",
+  "school": "CP San Lorenzo de Ezcaray Ezcaray (La Rioja)",
+  "date": "11/12/07",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geografia, Europa",
+    "es": "geografía, Europa",
+    "en": "geography, Europe"
+  },
+  "descCodes": [
+    235,
+    502
+  ],
+  "description": {
+    "en": "Project of activities about European geography. The activities are splitted in three parts: \n<ul> \n <li>Physical geography </li>\n <li>European countries </li>\n <li>The European Union </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre la geografia del continent europeu. Les activitats estan dividides en tres parts: \n<ul> \n <li>Geografia física d'Europa </li>\n <li>Països d'Europa </li>\n <li>La Unió Europea </li>\n</ul>",
+    "es": "Proyecto de actividades sobre la geografía del continente europeo. Las actividades se dividen en tres partes: \n<ul> \n <li>Geografía física de Europa </li>\n <li>Países de Europa </li>\n <li>La Unión Europea </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/europa3.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/europa3.jclic.zip",
+  "instFile": "jclic/europa3.jclic.inst",
+  "clicZoneId": 3431,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3431",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/europa3/jclic/europa3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 43,
+  "mediaFiles": 52,
+  "totalSize": 2442416,
+  "files": [
+    "cover.jpg",
+    "jclic.js/alemania.gif",
+    "jclic.js/austria.gif",
+    "jclic.js/bandue.bmp",
+    "jclic.js/belgica.gif",
+    "jclic.js/checa.gif",
+    "jclic.js/chipre.gif",
+    "jclic.js/dedo.gif",
+    "jclic.js/dedo1.gif",
+    "jclic.js/dedos.gif",
+    "jclic.js/dedos1.gif",
+    "jclic.js/dinamar.gif",
+    "jclic.js/eslovaq.gif",
+    "jclic.js/esloveni.gif",
+    "jclic.js/espana.gif",
+    "jclic.js/estonia.gif",
+    "jclic.js/eucaela.gif",
+    "jclic.js/euclima1.gif",
+    "jclic.js/euespa.gif",
+    "jclic.js/eugolca.gif",
+    "jclic.js/euislas.gif",
+    "jclic.js/eurios2.gif",
+    "jclic.js/euro.gif",
+    "jclic.js/euroli1.gif",
+    "jclic.js/euromar.gif",
+    "jclic.js/europa3.jclic",
+    "jclic.js/europama.gif",
+    "jclic.js/europaue.gif",
+    "jclic.js/europen.gif",
+    "jclic.js/europi.gif",
+    "jclic.js/europol1.gif",
+    "jclic.js/eurore.gif",
+    "jclic.js/finlan.gif",
+    "jclic.js/francia.gif",
+    "jclic.js/grecia.gif",
+    "jclic.js/holanda.gif",
+    "jclic.js/hungria.gif",
+    "jclic.js/irlanda.gif",
+    "jclic.js/italia.gif",
+    "jclic.js/letonia.gif",
+    "jclic.js/lituania.gif",
+    "jclic.js/luxem.gif",
+    "jclic.js/malta.gif",
+    "jclic.js/mb.gif",
+    "jclic.js/noche.gif",
+    "jclic.js/polonia.gif",
+    "jclic.js/portugal.gif",
+    "jclic.js/runido.gif",
+    "jclic.js/suecia.gif",
+    "jclic.js/ueam.gif",
+    "jclic.js/uepri.gif",
+    "jclic.js/ueseg.gif",
+    "jclic.js/ueter.gif",
+    "jclic.js/victoria.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/europa3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

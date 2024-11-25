@@ -1,0 +1,82 @@
+{
+  "id": 1404,
+  "title": "Física 5º",
+  "author": "Johana Echevarría Roman i M. José Ortega Pavez",
+  "school": "Colegio Carlo Magno Quilpue (Xile)",
+  "date": "14/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "matèria",
+    "es": "materia",
+    "en": "matter"
+  },
+  "descCodes": [
+    1332
+  ],
+  "description": {
+    "en": "Set of activities about the features of the matter and the Earth's bodies.",
+    "ca": "Conjunt d'activitats sobre el comportament de la matèria i els cossos de la Terra.",
+    "es": "Conjunto de actividades sobre el comportamiento de la materia y los cuerpos de la Tierra."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/fisica5.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fisica5.jclic.zip",
+  "instFile": "jclic/fisica5.jclic.inst",
+  "clicZoneId": 3140,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3140",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fisica5/jclic/fisica5.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 3,
+  "totalSize": 554916,
+  "files": [
+    "cover.gif",
+    "jclic.js/fisica5.jclic",
+    "jclic.js/movim.bmp",
+    "jclic.js/panta4.bmp",
+    "jclic.js/polea.bmp",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fisica5.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

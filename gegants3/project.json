@@ -1,0 +1,130 @@
+{
+  "id": 2318,
+  "title": "Anem a la Cercavila!",
+  "author": "Laia Argüelles Puigibet Dibuixos: Iraida Llucià Veu: Guillem Solé",
+  "school": "Escola Marta Mata El Vendrell (Baix Penedès)",
+  "date": "30/01/14",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Physical education, Social sciences, Languages, Miscellaneous",
+    "ca": "Educació física, Ciències socials, Llengües, Diversos",
+    "es": "Educación física, Ciencias sociales, Lenguas, Diversos"
+  },
+  "areaCodes": [
+    "ef",
+    "soc",
+    "lleng",
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "vocabulari, folklore",
+    "es": "vocabulario, folklore",
+    "en": "vocabulary, folklore"
+  },
+  "descCodes": [
+    150,
+    804
+  ],
+  "description": {
+    "en": "Project of activities about the parade of groups El Vendrell. Adressed to kindergarten students. The project has various activities such as puzzles, associations, puzzles and activities relate images with your name. The project is divided into three parts: \n<ul> \n <li>P3 </li>\n <li>P4 </li>\n <li>P5 </li>\n</ul> This activity is aimed at understanding the popular culture of El Vendrell. It is aimed at students in kindergarten (P-3, P-4, P-5), the activities are sequenced by level. They work for all areas of global education. This \"jclic\" activities are very diverse.",
+    "ca": "Projecte d'activitats JClic sobre la cercavila de grups de cultura popular d'El Vendrell. Dirigit a alumnat d'educació infantil. Realitzarem diverses activitats com trencaclosques, associacions, sopa de lletres i activitats de relacionar imatges amb el seu nom. El projecte està dividit en tres parts: \n<ul> \n <li>P3 </li>\n <li>P4 </li>\n <li>P5 </li>\n</ul>",
+    "es": "Proyecto de actividades JClic sobre el desfile de grupos de cultura popular de El Vendrell. Dirigido a alumnado de educación infantil. Realizaremos diversas actividades como rompecabezas, asociaciones, sopas de letras y actividades de relacionar imágenes con su nombre. El proyecto está dividido en tres partes: \n<ul> \n <li>P3 </li>\n <li>P4 </li>\n <li>P5 </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/gegants3.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/gegants3.jclic.zip",
+  "instFile": "jclic/gegants3.jclic.inst",
+  "clicZoneId": 3827,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3827",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/gegants3/jclic/gegants3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 46,
+  "mediaFiles": 47,
+  "totalSize": 3577042,
+  "files": [
+    "cover.png",
+    "jclic.js/12_01_2014_tria_el_nivell.mp3",
+    "jclic.js/12_ball_de_cercolets_.mp3",
+    "jclic.js/12_ball_de_panderos_.mp3",
+    "jclic.js/12_busca_les_paraules...mp3",
+    "jclic.js/12_ens_veiem_a_la_cercavila_.mp3",
+    "jclic.js/bal_de_cintes_.mp3",
+    "jclic.js/ball_de_la_patatuf_.mp3",
+    "jclic.js/ballcintes_copy_resized.jpg",
+    "jclic.js/ballfaixes_c_1_resized.jpg",
+    "jclic.js/ballgitanes_copy.jpg",
+    "jclic.js/bastons_copy_resized1.jpg",
+    "jclic.js/bb_anem_a_la_cercavila_.mp3",
+    "jclic.js/bb_ball_de_bastons_.mp3",
+    "jclic.js/bb_ball_de_diables_.mp3",
+    "jclic.js/bb_ball_de_diablons_.mp3",
+    "jclic.js/bb_ball_de_faixes_.mp3",
+    "jclic.js/bb_ball_de_gitanes.mp3",
+    "jclic.js/bb_ball_de_valencians_.mp3",
+    "jclic.js/bb_busca_la_parella_.mp3",
+    "jclic.js/bb_castells_.mp3",
+    "jclic.js/bb_com_es_diu_cada_ball_.mp3",
+    "jclic.js/bb_fes_el_trencacloques_.mp3",
+    "jclic.js/bb_gegantons_.mp3",
+    "jclic.js/bb_gegants_.mp3",
+    "jclic.js/bb_grallers_.mp3",
+    "jclic.js/bb_mira_clicka_i_escolta_.mp3",
+    "jclic.js/bb_nans_.mp3",
+    "jclic.js/bb_portem_la_camisa_vermella_qui_som__.mp3",
+    "jclic.js/bb_quants_n_hi_ha_a_cada_casella_.mp3",
+    "jclic.js/bb_quin_ball_fa_servir_bastons.mp3",
+    "jclic.js/bb_quin_ball_fa_servir_el_pandero.mp3",
+    "jclic.js/bpatatuf__resized.jpg",
+    "jclic.js/cercolet.jpg",
+    "jclic.js/concurs_fotografia_vendrell_1.jpg",
+    "jclic.js/diables2_resized.jpg",
+    "jclic.js/diablon_resized.jpg",
+    "jclic.js/gegant_resized.jpg",
+    "jclic.js/gegantons_copy_resized.jpg",
+    "jclic.js/gegants3.jclic",
+    "jclic.js/grallers_copy_1.jpg",
+    "jclic.js/molt_be_ok_m.mp3",
+    "jclic.js/nans_copy_resized.jpg",
+    "jclic.js/nensv_resized.jpg",
+    "jclic.js/pandero.jpg",
+    "jclic.js/projecte_final_11_resized.jpg",
+    "jclic.js/projecte_final_1_resized.jpg",
+    "jclic.js/som_molt_alsts_qui_som_.mp3",
+    "jclic.js/valencians_copy_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/gegants3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

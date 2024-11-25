@@ -1,0 +1,123 @@
+{
+  "id": 1091,
+  "title": "Numeritos",
+  "author": "María Elena Abalo",
+  "date": "07/11/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "anàlisi matemàtica, càlcul",
+    "es": "análisis matemático, cálculo",
+    "en": "mathematical analysis, calculation"
+  },
+  "descCodes": [
+    698,
+    702
+  ],
+  "description": {
+    "en": "Package of activities for the second year of primary school. It contains exercises with two and three figure numbers. It's focused in: \n<ul> \n <li>order </li>\n <li>reading and writing </li>\n <li>composition </li>\n <li>sum and subtraction </li>\n <li>bigger than, smaller than </li>\n <li>easy series </li>\n</ul>",
+    "ca": "Aplicació per a alumnes de segon de primària. Conté exercicis amb nombres de 2 i 3 xifres, fins al 300. Els continguts que s'hi treballen són: \n<ul> \n <li>ordre </li>\n <li>lectura i escriptura </li>\n <li>composició </li>\n <li>suma i resta </li>\n <li>més gran que i més petit que </li>\n <li>sèries senzilles </li>\n</ul>",
+    "es": "Aplicación destinada a alumnos de segundo año de primaria. Contiene ejercicios con números de 2 y 3 cifras, hasta el 300. Los contenidos que se trabajan son: \n<ul> \n <li>orden </li>\n <li>lectura y escritura </li>\n <li>composición </li>\n <li>suma y resta </li>\n <li>mayor y menor que </li>\n <li>series sencillas </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/numerit.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/numerit.jclic.zip",
+  "instFile": "jclic/numerit.jclic.inst",
+  "clicZoneId": 2341,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2341",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/numerit/jclic/numerit.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 36,
+  "mediaFiles": 44,
+  "totalSize": 2359885,
+  "files": [
+    "cover.gif",
+    "jclic.js/0093.gif",
+    "jclic.js/10cari.gif",
+    "jclic.js/abaco.gif",
+    "jclic.js/afondo14.gif",
+    "jclic.js/afondo4.gif",
+    "jclic.js/afondo9.gif",
+    "jclic.js/amaril_1.gif",
+    "jclic.js/aplaudir.wav",
+    "jclic.js/bajoma_1.gif",
+    "jclic.js/bravo.wav",
+    "jclic.js/dibufede.gif",
+    "jclic.js/disig.gif",
+    "jclic.js/espectacular.wav",
+    "jclic.js/estamp_1.gif",
+    "jclic.js/excelent.wav",
+    "jclic.js/fabuloso.gif",
+    "jclic.js/finnum.gif",
+    "jclic.js/fon1.gif",
+    "jclic.js/fon11.gif",
+    "jclic.js/fondo1.gif",
+    "jclic.js/fondo7.gif",
+    "jclic.js/fondos19.gif",
+    "jclic.js/genial.gif",
+    "jclic.js/hipopo.gif",
+    "jclic.js/lohiciste.wav",
+    "jclic.js/mariq.gif",
+    "jclic.js/metal30.gif",
+    "jclic.js/n038.gif",
+    "jclic.js/naufr.gif",
+    "jclic.js/nieve1.gif",
+    "jclic.js/numerit.jclic",
+    "jclic.js/nuves.gif",
+    "jclic.js/nuvols.gif",
+    "jclic.js/os.wav",
+    "jclic.js/panda1.gif",
+    "jclic.js/ping.gif",
+    "jclic.js/presennu.gif",
+    "jclic.js/sants.mid",
+    "jclic.js/stucco.gif",
+    "jclic.js/suelo8.gif",
+    "jclic.js/teji1.gif",
+    "jclic.js/teji13.gif",
+    "jclic.js/teji16.gif",
+    "jclic.js/tigre.gif",
+    "jclic.js/wite.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/numerit.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

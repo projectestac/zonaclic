@@ -1,0 +1,90 @@
+{
+  "id": 1586,
+  "title": "Cristóbal Colón y el descubrimiento",
+  "author": "Roberto Rodríguez Blanco",
+  "school": "Colegio San Agustín Valladolid (Castilla y León)",
+  "date": "12/05/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "Cristóbal Colón",
+    "es": "Cristóbal Colón",
+    "en": "Cristóbal Colón"
+  },
+  "descCodes": [
+    1366
+  ],
+  "description": {
+    "en": "Package of activities about Cristóbal Colón in commemoration with the fifth centenary of his death in Valladolid\n<br> The activities are addressed to second and third primary cycle of primary educator.",
+    "ca": "Paquet d'activitats en homenatge a Cristóbal Colón, en commemoració amb el cinquè centenari de la seva mort a la ciutat de Valladolid.\n<br> Les activitats estan adreçades a segon i tercer cicle d'educació primària.",
+    "es": "Paquete de actividades en homenaje a Cristóbal Colón, en conmemoración con el quinto centenario de su muerte en la ciudad de Valladolid.\n<br> Las actividades están dirigidas a segundo y tercer ciclo de educación primaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/colon.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/colon.jclic.zip",
+  "instFile": "jclic/colon.jclic.inst",
+  "clicZoneId": 3302,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3302",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/colon/jclic/colon.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 11,
+  "totalSize": 1577646,
+  "files": [
+    "cover.jpg",
+    "jclic.js/1930_2_1.gif",
+    "jclic.js/carabe_1.gif",
+    "jclic.js/carabe_2.gif",
+    "jclic.js/carabela.gif",
+    "jclic.js/casacolon3.jpg",
+    "jclic.js/christo.jpg",
+    "jclic.js/colon.gif",
+    "jclic.js/colon.jclic",
+    "jclic.js/colon1.jpg",
+    "jclic.js/monumentocolon.jpg",
+    "jclic.js/papa1.gif",
+    "jclic.js/viajes.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/colon.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

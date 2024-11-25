@@ -1,0 +1,92 @@
+{
+  "id": 1484,
+  "title": "Lengua española y literatura (Lengua 6º)",
+  "author": "José Antonio Sánchez Rivas",
+  "school": "CEIP Ángel Berzal Fernández Daganzo (Madrid)",
+  "date": "20/10/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, literatura espanyola",
+    "es": "lengua castellana, literatura española",
+    "en": "Spanish language, Spanish Literature"
+  },
+  "descCodes": [
+    132,
+    630
+  ],
+  "description": {
+    "en": "Activities about Spanish language and literature addressed to primary school. The activities are based on a book by Anaya Publishing house.",
+    "ca": "Activitats de llengua espanyola i literatura per a 5è i 6è de primària basada en un llibre de text de l'editorial Anaya. Les activitats estan distribuides en tres trimestres.",
+    "es": "Actividades de lengua española y literatura para 5º y 6º de primaria basado en un libro de texto de la editorial Anaya. Las actividades están distribuidas en tres trimestres."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "lengu5"
+  ],
+  "mainFile": "jclic.js/lengu6.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/lengu6.jclic.zip",
+  "instFile": "jclic/lengu6.jclic.inst",
+  "clicZoneId": 3200,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3200",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/lengu6/jclic/lengu6.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 162,
+  "mediaFiles": 9,
+  "totalSize": 2557915,
+  "files": [
+    "cover.gif",
+    "jclic.js/ap.wav",
+    "jclic.js/catal_.wav",
+    "jclic.js/comun2.jpg",
+    "jclic.js/lengu6.jclic",
+    "jclic.js/mozart.wav",
+    "jclic.js/parrafo1.jpg",
+    "jclic.js/presenta.jpg",
+    "jclic.js/stra.wav",
+    "jclic.js/valen.wav",
+    "jclic.js/vasco.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/lengu6.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": 1355,
+  "title": "El salobrar",
+  "author": "Martí J. Fornés i Pere B. Morey",
+  "school": "Camp d'Aprenentatge Es Palmer Son Ferriol - Palma (Balears)",
+  "date": "22/04/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "medi ambient, ocells, plantes",
+    "es": "medio ambiente, pájaros, plantas",
+    "en": "environment, birds, plants"
+  },
+  "descCodes": [
+    87,
+    92,
+    96
+  ],
+  "description": {
+    "en": "Packages of activities created at the educational training camp of Es Palmer (Mallorca), splitted into 3 parts: \n<ul> \n <li>Birds </li>\n <li>Plants </li>\n <li>Pools </li>\n</ul> In addition to this, there are other three projects created at the educational training camps of Mallorca: \n<ul> \n <li><a href=\"act_en.jsp?id=3097\">Els carboners</a> </li>\n <li><a href=\"http://clic.xtec.cat/en/act/publica.htm\">Els animals</a><i> (ISO image)</i>. </li>\n</ul>",
+    "ca": "Paquets d'activitats creades al camp d'aprenentatge d'Es Palmer on es treballen tres temes: \n<ul> \n <li>Aus </li>\n <li>Plantes </li>\n <li>Estanys </li>\n</ul> Altres paquets dels camps d'aprenentatge de Mallorca: \n<ul> \n <li><a href=\"act_ca.jsp?id=3097\">Els carboners</a> </li>\n <li><a href=\"http://clic.xtec.cat/ca/act/publica.htm\">Els animals</a><i> (imatge ISO)</i>. </li>\n</ul>",
+    "es": "Paquetes de actividades creadas en el campo de aprendizaje de Es Palmer (Mallorca), en el que se trabajan tres temas: \n<ul> \n <li>Aves </li>\n <li>Plantas </li>\n <li>Estanques </li>\n</ul> Otros proyectos de los campos de aprendizaje de Mallorca: \n<ul> \n <li><a href=\"act_es.jsp?id=3097\">Els carboners</a> </li>\n <li><a href=\"http://clic.xtec.cat/es/act/publica.htm\">Els animals</a><i> (imagen ISO).</i> </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/salobrar.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/salobrar.jclic.zip",
+  "instFile": "jclic/salobrar.jclic.inst",
+  "clicZoneId": 3096,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3096",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/salobrar/jclic/salobrar.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 46,
+  "totalSize": 5550388,
+  "files": [
+    "cover.gif",
+    "jclic.js/aus/agro.gif",
+    "jclic.js/aus/agro.wav",
+    "jclic.js/aus/agrobl.wav",
+    "jclic.js/aus/agroblan.gif",
+    "jclic.js/aus/anblanca.gif",
+    "jclic.js/aus/annebl.wav",
+    "jclic.js/aus/aus.jclic",
+    "jclic.js/aus/avisacol.gif",
+    "jclic.js/aus/avisador.gif",
+    "jclic.js/aus/avisador.wav",
+    "jclic.js/aus/camarcol.gif",
+    "jclic.js/aus/camaroja.gif",
+    "jclic.js/aus/camaroja.wav",
+    "jclic.js/aus/collbla.gif",
+    "jclic.js/aus/collblau.gif",
+    "jclic.js/aus/collblau.wav",
+    "jclic.js/aus/flamecol.gif",
+    "jclic.js/aus/flamenc.gif",
+    "jclic.js/aus/flamenc.wav",
+    "jclic.js/aus/logo1.gif",
+    "jclic.js/aus/tiruril.gif",
+    "jclic.js/aus/tiruril.wav",
+    "jclic.js/estany.gif",
+    "jclic.js/estanys/adult.gif",
+    "jclic.js/estanys/canal.gif",
+    "jclic.js/estanys/cristal.gif",
+    "jclic.js/estanys/estanys.jclic",
+    "jclic.js/estanys/estanys1.gif",
+    "jclic.js/estanys/evapo.gif",
+    "jclic.js/estanys/logo1.gif",
+    "jclic.js/estanys/munt.gif",
+    "jclic.js/estanys/nauplius.gif",
+    "jclic.js/estanys/ous.gif",
+    "jclic.js/flam.gif",
+    "jclic.js/fons2.gif",
+    "jclic.js/logo1.gif",
+    "jclic.js/plantes/cardm.gif",
+    "jclic.js/plantes/jonc.gif",
+    "jclic.js/plantes/lliri.gif",
+    "jclic.js/plantes/logo1.gif",
+    "jclic.js/plantes/pi.gif",
+    "jclic.js/plantes/plantes.jclic",
+    "jclic.js/plantes/pollet.gif",
+    "jclic.js/plantes/salicor.gif",
+    "jclic.js/plantes/savina.gif",
+    "jclic.js/plantes/suaeda.gif",
+    "jclic.js/plantes/tamarell.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/salobrar.jclic",
+    "jclic.js/tronc.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/salobrar.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/aus/aus.jclic.js",
+    "jclic.js/estanys/estanys.jclic.js",
+    "jclic.js/plantes/plantes.jclic.js",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": 2350,
+  "title": "Les cases",
+  "author": "Sílvia Oya Cañaveras",
+  "school": "ESC Mossèn Joan Batlle de Blanes Blanes (La Selva)",
+  "date": "22/01/15",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences, Languages",
+    "ca": "Ciències socials, Llengües",
+    "es": "Ciencias sociales, Lenguas"
+  },
+  "areaCodes": [
+    "soc",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "ciutat",
+    "es": "ciudad",
+    "en": "city"
+  },
+  "descCodes": [
+    176
+  ],
+  "description": {
+    "en": "JClic activities about the different types of houses, who live in each of them, parts of houses and what we found in each area.",
+    "ca": "Projecte d'activitats JClic on es treballen els diferents tipus de casa, qui viu a cada una d'elles, les parts de les cases i el que trobem a cada espai.",
+    "es": "Proyecto de actividades JClic donde se trabajan los diferentes tipos de casa, quien vive en cada una de ellas, las partes de las casas y lo que encontramos en cada espacio."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/casa2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/casa2.jclic.zip",
+  "instFile": "jclic/casa2.jclic.inst",
+  "clicZoneId": 3858,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3858",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/casa2/jclic/casa2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 35,
+  "totalSize": 623292,
+  "files": [
+    "cover.png",
+    "jclic.js/animals_granja.jpg",
+    "jclic.js/cabana_arbre.jpg",
+    "jclic.js/caravana.jpg",
+    "jclic.js/caravana_dibuix.jpg",
+    "jclic.js/casa2.jclic",
+    "jclic.js/casa_d.jpg",
+    "jclic.js/casa_fusta.jpg",
+    "jclic.js/casa_fusta_dibuix.jpg",
+    "jclic.js/castell.jpg",
+    "jclic.js/choza.jpg",
+    "jclic.js/despertador.jpg",
+    "jclic.js/esponges.jpg",
+    "jclic.js/esquimal.jpg",
+    "jclic.js/granja.jpg",
+    "jclic.js/granja_dibuix.jpg",
+    "jclic.js/gratacels.jpg",
+    "jclic.js/iglu.jpg",
+    "jclic.js/iglu_dibuix.jpg",
+    "jclic.js/indi.jpg",
+    "jclic.js/llit.jpg",
+    "jclic.js/nevera.jpg",
+    "jclic.js/olles.jpg",
+    "jclic.js/p_cuina.jpg",
+    "jclic.js/p_habitacio.jpg",
+    "jclic.js/p_lavabo.jpg",
+    "jclic.js/p_menjador.jpg",
+    "jclic.js/pinta.jpg",
+    "jclic.js/pisos.jpg",
+    "jclic.js/princesa.jpg",
+    "jclic.js/sofa.jpg",
+    "jclic.js/tele_resized.jpg",
+    "jclic.js/tenda_campana_dibuix.jpg",
+    "jclic.js/tenda_campanya.jpg",
+    "jclic.js/tipi.jpg",
+    "jclic.js/tipi_dibuix.jpg",
+    "jclic.js/titol.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/casa2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

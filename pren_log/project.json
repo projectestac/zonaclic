@@ -1,0 +1,120 @@
+{
+  "id": 2473,
+  "title": "Las estaciones y las prendas de vestir",
+  "author": "Virginia Aragón Jiménez - Dibuixos: Sergio Palao (ARASAAC.org)",
+  "school": "CEIP El Molino Isla Cristina (Huelva)",
+  "date": "12/01/17",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "comprensió oral, fonètica, llengua castellana, vocabulari",
+    "es": "comprensión oral, fonética, lengua castellana, vocabulario",
+    "en": "oral understanding, phonetics, Spanish language, vocabulary"
+  },
+  "descCodes": [
+    112,
+    121,
+    132,
+    150
+  ],
+  "description": {
+    "en": "In this project we are going to know the athmospheric phenomena of each season, as well as the clothes more frequently used according to weather.",
+    "ca": "En aquest projecte coneixerem els fenòmens atmosfèrics que es donen al llarg de les estacions de l'any, així com les peces de vestir que utilitzem més freqüentment segons el temps que faci.",
+    "es": "En este proyecto vamos a conocer los fenómenos atmosféricos que suceden a lo largo de las estaciones del año, así como las prendas de vestir que utilizamos más frecuentemente según el tiempo que hace."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/pren_log.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pren_log.jclic.zip",
+  "instFile": "jclic/pren_log.jclic.inst",
+  "clicZoneId": 3982,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3982",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pren_log/jclic/pren_log.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 37,
+  "totalSize": 1825680,
+  "files": [
+    "cover.png",
+    "jclic.js/arbol_de_invierno.png",
+    "jclic.js/arbol_de_otono.png",
+    "jclic.js/arbol_de_primavera.png",
+    "jclic.js/banador.png",
+    "jclic.js/banador_1.png",
+    "jclic.js/botas_de_agua_1.png",
+    "jclic.js/bufanda.png",
+    "jclic.js/camisa.png",
+    "jclic.js/camiseta.png",
+    "jclic.js/camiseta_1.png",
+    "jclic.js/chaqueton.png",
+    "jclic.js/estaciones_del_ano.png",
+    "jclic.js/falda.png",
+    "jclic.js/flores_1.png",
+    "jclic.js/gafas_de_sol.png",
+    "jclic.js/gorra_1.png",
+    "jclic.js/gorro.png",
+    "jclic.js/guantes_2.png",
+    "jclic.js/impermeable.png",
+    "jclic.js/invierno.png",
+    "jclic.js/jersey.png",
+    "jclic.js/lluvia_1.png",
+    "jclic.js/nieve_1.png",
+    "jclic.js/otono.png",
+    "jclic.js/pantalon.png",
+    "jclic.js/pantalones_cortos.png",
+    "jclic.js/paraguas.png",
+    "jclic.js/playa.png",
+    "jclic.js/pren_log.jclic",
+    "jclic.js/pren_log.jclic.js",
+    "jclic.js/primavera.png",
+    "jclic.js/soleado.png",
+    "jclic.js/verano.png",
+    "jclic.js/vestido_10.png",
+    "jclic.js/vestido_11.png",
+    "jclic.js/vestido_13.png",
+    "jclic.js/vestido_19.png",
+    "jclic.js/vestido_5.png",
+    "jclic.js/zapatos_1.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": 1409,
+  "title": "Proyecto de lenguaje",
+  "author": "Francisco García-Pozuelo Díaz i Juana Rello Serrano",
+  "school": "CP Luis Vives Alcalá de Henares (Madrid)",
+  "date": "14/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, comprensió lectora",
+    "es": "lengua castellana, comprensión lectora",
+    "en": "Spanish language, reading comprehension"
+  },
+  "descCodes": [
+    132,
+    1329
+  ],
+  "description": {
+    "en": "Twenty activities about Spanish language based on the tale \n<i>Cuando llovía buñuelos</i> from the book \n<i>Cuentos al amor de la lumbre </i> of Anaya Publishing house.",
+    "ca": "Projecte de 20 activitats per llengua castellana basat en el conte de \n<i>Cuando llovía buñuelos</i> de \n<i>Cuentos al amor de la lumbre</i> de la Editorial Anaya.",
+    "es": "Proyecto de 20 actividades para lengua basado en el cuento de \n<i>Cuando llovía buñuelos</i> de \n<i>Cuentos al amor de la lumbre</i> de la Editorial Anaya."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/lengua3o.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/lengua3o.jclic.zip",
+  "instFile": "jclic/lengua3o.jclic.inst",
+  "clicZoneId": 3145,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3145",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/lengua3o/jclic/lengua3o.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 21,
+  "totalSize": 1520110,
+  "files": [
+    "cover.jpg",
+    "jclic.js/al1col1.gif",
+    "jclic.js/al1col10.gif",
+    "jclic.js/ano.wav",
+    "jclic.js/bisabuelo.wav",
+    "jclic.js/bisiesto.wav",
+    "jclic.js/buque.wav",
+    "jclic.js/buquefrase.wav",
+    "jclic.js/burbuja.wav",
+    "jclic.js/burbujasfrase.wav",
+    "jclic.js/butaca.wav",
+    "jclic.js/butacafrase.wav",
+    "jclic.js/coces.wav",
+    "jclic.js/cruces.wav",
+    "jclic.js/lengua3o.jclic",
+    "jclic.js/luces.wav",
+    "jclic.js/p1010095.jpg",
+    "jclic.js/paces.wav",
+    "jclic.js/peces.wav",
+    "jclic.js/raices.wav",
+    "jclic.js/vuelo.wav",
+    "jclic.js/vuelta.wav",
+    "jclic.js/vuestro.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/lengua3o.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

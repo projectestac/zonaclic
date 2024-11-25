@@ -1,0 +1,111 @@
+{
+  "id": 1021,
+  "title": "El clic de les joguines",
+  "author": "Lurdes Leandro i Andreu",
+  "school": "Escola Elisa Badia Barberà del Vallès (Vallès Occidental)",
+  "date": "02/06/03",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua",
+    "es": "aprendizaje de la lengua",
+    "en": "learning of the language"
+  },
+  "descCodes": [
+    110
+  ],
+  "description": {
+    "en": "Connection activities based on pictures of toys ( name-photo, name-name), puzzles and some text activities.",
+    "ca": "A través de fotos de joguines es presenten activitats de relació (nom-foto, nom-nom...), puzzles, sopes de lletres i alguna activitat de text.",
+    "es": "Connection activities based on pictures of toys ( name-photo, name-name), puzzles and some text activities."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/joguines.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/joguines.jclic.zip",
+  "instFile": "jclic/joguines.jclic.inst",
+  "clicZoneId": 2146,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2146",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/joguines/jclic/joguines.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 32,
+  "totalSize": 3864474,
+  "files": [
+    "cover.jpg",
+    "jclic.js/be.wav",
+    "jclic.js/be2.wav",
+    "jclic.js/bici.wav",
+    "jclic.js/bicifot1.gif",
+    "jclic.js/bicifot2.gif",
+    "jclic.js/bicifot4.gif",
+    "jclic.js/cons.wav",
+    "jclic.js/consfot1.gif",
+    "jclic.js/consfot2.gif",
+    "jclic.js/consfot4.gif",
+    "jclic.js/cotfot1.gif",
+    "jclic.js/cotfot2.gif",
+    "jclic.js/cotfot4.gif",
+    "jclic.js/cotxe.wav",
+    "jclic.js/inici.wav",
+    "jclic.js/jog1.wav",
+    "jclic.js/jog10.wav",
+    "jclic.js/jog11.wav",
+    "jclic.js/jog2.wav",
+    "jclic.js/jog3.wav",
+    "jclic.js/jog4.wav",
+    "jclic.js/jog5.wav",
+    "jclic.js/jog6.wav",
+    "jclic.js/jog7.wav",
+    "jclic.js/jog8.wav",
+    "jclic.js/jog9.wav",
+    "jclic.js/joguines.jclic",
+    "jclic.js/poema.wav",
+    "jclic.js/portada2.gif",
+    "jclic.js/puzzfot1.gif",
+    "jclic.js/puzzfot2.gif",
+    "jclic.js/puzzfot4.gif",
+    "jclic.js/puzzle.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/joguines.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

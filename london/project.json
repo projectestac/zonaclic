@@ -1,0 +1,98 @@
+{
+  "id": 1093,
+  "title": "London",
+  "author": "Josep Sala i Esquena",
+  "school": "Institut Montsacopa Olot (Garrotxa)",
+  "date": "07/11/03",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa",
+    "es": "lengua inglesa",
+    "en": "English language"
+  },
+  "descCodes": [
+    130
+  ],
+  "description": {
+    "en": "Package of activities about English language centred in London. The contents of the package are: \n<ul> \n <li>Learning of the vocabulary related with travelling. </li>\n <li>Speaking practise with a hotel / hostel receptionist. </li>\n <li>Reading and comprehension of texts about the London culture and history. </li>\n <li>Present perfect exercises. Contrast present perfect and simple past. </li>\n <li>Question tags exercises. </li>\n <li>Reading of a letter or a travel diary. </li>\n</ul>",
+    "ca": "Paquet d'activitats de llengua anglesa que pren com a centre d'interès la ciutat de Londres. Al paquet trobem els següents continguts: \n<ul> \n <li>Aprenentatge de vocabulari relacionat amb els viatges. </li>\n <li>Pràctica d'un diàleg amb un/a recepcionista d'un alberg o hotel. </li>\n <li>Lectura i comprensió de textos sobre la història i la cultura de Londres. </li>\n <li>Pràctica del \"present perfect\" i comparació amb el \"simple past\". </li>\n <li>Pràctica de les \"question tags\". </li>\n <li>Lectura d'una carta i d'un diari de viatge. </li>\n</ul>",
+    "es": "Paquete de actividades de lengua inglesa que toman como centro de interés la ciudad de Londres. En el paquete encontramos los contenidos siguientes: \n<ul> \n <li>Aprendizaje del vocabulario relacionado con los viajes. </li>\n <li>Práctica de un diálogo con un/a recepcionista de un albergue u hotel. </li>\n <li>Lectura y comprensión de textos sobre la historia y la cultura de Londres. </li>\n <li>Práctica del \"present perfect\" y comparación con el \"simple past\". </li>\n <li>Práctica de las \"question tags\". </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/london.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/london.jclic.zip",
+  "instFile": "jclic/london.jclic.inst",
+  "clicZoneId": 2343,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2343",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/london/jclic/london.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 19,
+  "totalSize": 2070875,
+  "files": [
+    "cover.jpg",
+    "jclic.js/aerlon.gif",
+    "jclic.js/bigben.gif",
+    "jclic.js/buckin.gif",
+    "jclic.js/bus.gif",
+    "jclic.js/eyelond.gif",
+    "jclic.js/hotel2.wav",
+    "jclic.js/houses.gif",
+    "jclic.js/london.jclic",
+    "jclic.js/london1.gif",
+    "jclic.js/minialt.gif",
+    "jclic.js/parlia1.gif",
+    "jclic.js/piccadil.gif",
+    "jclic.js/stpaul.gif",
+    "jclic.js/thames3.gif",
+    "jclic.js/thames4.gif",
+    "jclic.js/tower1.gif",
+    "jclic.js/towerbr.gif",
+    "jclic.js/trafalg.gif",
+    "jclic.js/travel4.wav",
+    "jclic.js/under1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/london.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

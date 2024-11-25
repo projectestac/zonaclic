@@ -1,0 +1,106 @@
+{
+  "id": 2115,
+  "title": "Nana para Azucena",
+  "school": "Asociación Barró Madrid (Madrid)",
+  "date": "17/03/11",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, conte",
+    "es": "aprendizaje de la lengua, cuento",
+    "en": "learning of the language, story"
+  },
+  "descCodes": [
+    110,
+    614
+  ],
+  "description": {
+    "en": "Story about gipsy people addressed to learn Spanish Language: \n<ul> \n <li>reading comprehension </li>\n <li>the article </li>\n <li>the name </li>\n</ul>",
+    "ca": "Conte sobre el poble gitano per a l'aprenentatge de la llengua castellana: \n<ul> \n <li>lectura comprensiva </li>\n <li>els articles </li>\n <li>el nom </li>\n</ul>",
+    "es": "Cuento sobre el pueblo gitano para el aprendizaje de la lengua castellana: \n<ul> \n <li>lectura comprensiva </li>\n <li>los artículos </li>\n <li>el nombre </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/azucena.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/azucena.jclic.zip",
+  "instFile": "jclic/azucena.jclic.inst",
+  "clicZoneId": 3672,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3672",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/azucena/jclic/azucena.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 27,
+  "totalSize": 3402001,
+  "files": [
+    "cover.jpg",
+    "jclic.js/0foto_autobus_recortada.jpg",
+    "jclic.js/alabar.gif",
+    "jclic.js/animadora.gif",
+    "jclic.js/aplauso_2.gif",
+    "jclic.js/aplausos.gif",
+    "jclic.js/azucena.jclic",
+    "jclic.js/azucena_clic_resized.jpg",
+    "jclic.js/bandera_gitana.jpg",
+    "jclic.js/bieeen.gif",
+    "jclic.js/dibujo.jpg",
+    "jclic.js/foto_autobus_recortada.jpg",
+    "jclic.js/foto_cantando_nana_recortada.jpg",
+    "jclic.js/foto_hospital_recortada.jpg",
+    "jclic.js/ganaoscar.gif",
+    "jclic.js/gorra_con_aplausos.gif",
+    "jclic.js/lectura.gif",
+    "jclic.js/logo_barr__.jpg",
+    "jclic.js/logo_barro.jpg",
+    "jclic.js/muy_bien.gif",
+    "jclic.js/ok.gif",
+    "jclic.js/portada.jpg",
+    "jclic.js/portada_nana_para_azucena_.jpg",
+    "jclic.js/saltando_contento.gif",
+    "jclic.js/sonido_nana2_si.mp3",
+    "jclic.js/sonido_nana3.mp3",
+    "jclic.js/sonido_nana4.mp3",
+    "jclic.js/sonido_nana5.mp3",
+    "jclic.js/sonido_nana_para_azucena_1.1.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/azucena.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": 582,
+  "title": "Sistema metriko hamartarra",
+  "author": "José Luis Oliván Ramón",
+  "school": "CEIP San Juan de la Peña Jaca (Aragón)",
+  "date": "10/11/03",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "fonaments de les matemàtiques, problemes matemàtics",
+    "es": "fundamentos de las matemáticas, problemas matemáticos",
+    "en": "foundations of the mathematics, mathematic problems"
+  },
+  "descCodes": [
+    707,
+    926
+  ],
+  "description": {
+    "en": "Activities about the metrical system: \n<ul><li>Longitude measures </li>\n<li>Capacity measure </li>\n<li>Mass measures </li>\n<li>Surface measures </li>\n<li>Volume measures </li></ul>",
+    "ca": "Conjunt de fitxes informatives més cinc paquets d'activitats basades en textos d'EDEBE, per a treballar el sistema mètric decimal en el segon i tercer cicle de primària:\n<br> \n<ul><li> Mesures de longitud </li>\n<li> Mesures de capacitat </li>\n<li> Mesures de massa </li>\n<li> Mesures de superfície i agràries </li>\n<li> Mesures de volum </li></ul>",
+    "es": "Conjunto de fichas informativas más cinco paquetes de actividades basados en textos de EDEBE, para trabajar el Sistema Métrico Decimal en el Segundo y Tercer Ciclo de Primaria.\n<br> \n<br> \n<ul><li> Medidas de longitud </li>\n<li> Medidas de capacidad </li>\n<li> Medidas de masa </li>\n<li> Medidas de superficie y agrarias </li>\n<li> Medidas de volumen </li></ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "smd"
+  ],
+  "mainFile": "jclic.js/smh.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/smh.jclic.zip",
+  "instFile": "jclic/smh.jclic.inst",
+  "clicZoneId": 1321,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1321",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/smh/jclic/smh.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 70,
+  "mediaFiles": 24,
+  "totalSize": 570175,
+  "files": [
+    "cover.gif",
+    "jclic.js/capaci_1.gif",
+    "jclic.js/capacida/c100.gif",
+    "jclic.js/capacida/capacida.jclic",
+    "jclic.js/capacida/fondo.gif",
+    "jclic.js/capacida/paleta.gif",
+    "jclic.js/longitud.gif",
+    "jclic.js/longitud/casas.gif",
+    "jclic.js/longitud/fondo.gif",
+    "jclic.js/longitud/l100.gif",
+    "jclic.js/longitud/longitud.jclic",
+    "jclic.js/masa.gif",
+    "jclic.js/masa/fondo.gif",
+    "jclic.js/masa/m100.gif",
+    "jclic.js/masa/masa.jclic",
+    "jclic.js/masa/ordena_1.gif",
+    "jclic.js/menu1.gif",
+    "jclic.js/menu2.gif",
+    "jclic.js/menu3.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/s120.gif",
+    "jclic.js/smh.jclic",
+    "jclic.js/superfic/bruja.gif",
+    "jclic.js/superfic/fondo.gif",
+    "jclic.js/superfic/s100.gif",
+    "jclic.js/superfic/superfic.jclic",
+    "jclic.js/volumen.gif",
+    "jclic.js/volumen/fondo.gif",
+    "jclic.js/volumen/v100.gif",
+    "jclic.js/volumen/v120.gif",
+    "jclic.js/volumen/volumen.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/smh.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/capacida/capacida.jclic.js",
+    "jclic.js/longitud/longitud.jclic.js",
+    "jclic.js/masa/masa.jclic.js",
+    "jclic.js/superfic/superfic.jclic.js",
+    "jclic.js/volumen/volumen.jclic.js",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": 1812,
+  "title": "La bicicleta",
+  "author": "Begoña Ramírez Díaz",
+  "school": "Escola Joan Maragall Sant Andreu de la Barca (Baix Llobregat)",
+  "date": "25/11/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "esports",
+    "es": "deportes",
+    "en": "sports"
+  },
+  "descCodes": [
+    424
+  ],
+  "description": {
+    "en": "Project of activities about different types of bikes and its photographs. The project has four different parts: \n<ul> \n <li>Parties </li>\n <li>Road safety </li>\n <li>Modalities </li>\n <li>Clothing </li>\n</ul>",
+    "ca": "Aquest projecte JClic recull les diferents modalitats de bicicleta que existeixen amb fotografies i textos. Al llarg de les activitats es pretén combinar la teoria amb activitats més lúdiques. \n<p>El projecte està adreçat a alumnes de cicle mitjà i superior d'educació primària i està format per quatre parts: </p>\n<ul> \n <li>Parts </li>\n <li>Seguretat vial </li>\n <li>Modalitats </li>\n <li>Indumentària </li>\n</ul>",
+    "es": "Este proyecto JClic recoge las diferentes modalidades de bicicleta que existen con fotografías y textos. A lo largo de las actividades se pretende combinar la teoría con actividades más lúdicas. \n<p>El proyecto está dirigido a alumnos de ciclo medio y ciclo superior de educación primaria. La actividad tiene cuatro partes: </p>\n<ul> \n <li>Partes </li>\n <li>Seguridad vial </li>\n <li>Modalidades </li>\n <li>Indumentaria </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/biciclet.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/biciclet.jclic.zip",
+  "instFile": "jclic/biciclet.jclic.inst",
+  "clicZoneId": 3509,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3509",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/biciclet/jclic/biciclet.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 42,
+  "totalSize": 1769060,
+  "files": [
+    "cover.gif",
+    "jclic.js/atencion.gif",
+    "jclic.js/bici_bmx.jpg",
+    "jclic.js/bici_btt.jpg",
+    "jclic.js/bici_carretera.jpg",
+    "jclic.js/bici_ciclocross.jpg",
+    "jclic.js/bici_descens.jpg",
+    "jclic.js/bici_descenso.jpg",
+    "jclic.js/bici_trial.jpg",
+    "jclic.js/biciclet.jclic",
+    "jclic.js/bicicleta_btt.jpg",
+    "jclic.js/bmx_bike.jpg",
+    "jclic.js/bmx_portada.jpg",
+    "jclic.js/bmx_wallpaper.jpg",
+    "jclic.js/bus_move.gif",
+    "jclic.js/cadena.jpg",
+    "jclic.js/carretera.jpg",
+    "jclic.js/casc_bici.jpg",
+    "jclic.js/casco.jpg",
+    "jclic.js/ceda.jpg",
+    "jclic.js/ciclocross.jpg",
+    "jclic.js/coulotte.jpg",
+    "jclic.js/cycle.gif",
+    "jclic.js/gafas.jpg",
+    "jclic.js/guantes.jpg",
+    "jclic.js/herois.mp3",
+    "jclic.js/maillot.jpg",
+    "jclic.js/manillar.jpg",
+    "jclic.js/parts__bicicleta.jpg",
+    "jclic.js/pedal2.jpg",
+    "jclic.js/prohibido.jpg",
+    "jclic.js/prohibido_derecha.jpg",
+    "jclic.js/prohibido_dirar_izq.jpg",
+    "jclic.js/quadre.jpg",
+    "jclic.js/roda.jpg",
+    "jclic.js/sabatilles.jpg",
+    "jclic.js/seient.jpg",
+    "jclic.js/semafor.gif",
+    "jclic.js/senyal.gif",
+    "jclic.js/senyal_bici.jpg",
+    "jclic.js/stop.jpg",
+    "jclic.js/trabi.gif",
+    "jclic.js/trial.jpg",
+    "jclic.js/vado.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/biciclet.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

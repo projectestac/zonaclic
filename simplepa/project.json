@@ -1,0 +1,103 @@
+{
+  "id": 2084,
+  "title": "Verbs (past simple regular)",
+  "author": "Mª Jesús Bernabeu",
+  "school": "CP Eliseu Vidal Valencia (Horta)",
+  "date": "23/11/10",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, verbs",
+    "es": "lengua inglesa, verbos",
+    "en": "English language, verbs"
+  },
+  "descCodes": [
+    667,
+    905
+  ],
+  "description": {
+    "en": "Three projects of activities about English verbs: \n<ul> \n <li>Past Simple. Regular verbs. </li>\n <li>Past Simple. Irregular verbs. </li>\n <li>Past Continuous. </li>\n</ul>",
+    "ca": "Tres projectes d'activitats sobre els temps verbals en llengua anglesa: \n<ul> \n <li>Past Simple. Regular verbs. </li>\n <li>Past Simple. Irregular verbs. </li>\n <li>Past Continuous. </li>\n</ul>",
+    "es": "Tres proyectos de actividades sobre los tiempos verbales en lengua inglesa: \n<ul> \n <li>Past Simple. Regular verbs. </li>\n <li>Past Simple. Irregular verbs. </li>\n <li>Past Continuous. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "pastcont",
+    "simplpai"
+  ],
+  "mainFile": "jclic.js/simplepa.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/simplepa.jclic.zip",
+  "instFile": "jclic/simplepa.jclic.inst",
+  "clicZoneId": 3647,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3647",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/simplepa/jclic/simplepa.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 18,
+  "totalSize": 1374014,
+  "files": [
+    "cover.gif",
+    "jclic.js/1.mp3",
+    "jclic.js/2.mp3",
+    "jclic.js/3.mp3",
+    "jclic.js/4.mp3",
+    "jclic.js/5.mp3",
+    "jclic.js/6.mp3",
+    "jclic.js/7.mp3",
+    "jclic.js/8.mp3",
+    "jclic.js/9.mp3",
+    "jclic.js/colora_1.gif",
+    "jclic.js/intro.gif",
+    "jclic.js/jetplane.gif",
+    "jclic.js/mon2.gif",
+    "jclic.js/moun3.gif",
+    "jclic.js/plane2.gif",
+    "jclic.js/play.mp3",
+    "jclic.js/simplepa.jclic",
+    "jclic.js/visit.mp3",
+    "jclic.js/watch.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/simplepa.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": 303,
+  "title": "El bus azul",
+  "author": "Joan Viladrich Aynés i Pilar Ciuró Moreno",
+  "date": "16/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, sintaxi, vocabulari",
+    "es": "lengua castellana, sintaxis, vocabulario",
+    "en": "Spanish language, syntax, vocabulary"
+  },
+  "descCodes": [
+    132,
+    148,
+    150
+  ],
+  "description": {
+    "en": "Basic Spanish vocabulary activities for Catalan students in the early stages of Spanish lessons.",
+    "ca": "Activitats d'aprenentatge del vocabulari bàsic castellà per a l'alumnat catalanoparlant. S'estructura en dos blocs: cicle mitjà i cicle superior, i per a cada bloc hi ha diversos paquets d'activitats organitzats per temes: els aliments, el menjador, la cuina, els animals, el cos humà, l'hort, els arbres, la casa...\n<br> Cadascun dels paquets del cicle superior consten de quatre blocs: vocabulari bàsic, verbs, frases 1 i frases 2.",
+    "es": "Actividades de aprendizaje del vocabulario básico castellano para alumnado catalano-parlante. Se estructura en dos bloques: ciclo medio y ciclo superior, y para cada bloque hay diversos paquetes de actividades organizados por temas: los alimentos, el comedor, la cocina, los animales, el cuerpo humano, los animales, la casa...\n<br> Cada uno de los paquetes de ciclo superior consta de cuatro bloques: vocabulario básico, verbos, frases 1 y frases 2."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/busazul.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/busazul.jclic.zip",
+  "instFile": "jclic/busazul.jclic.inst",
+  "clicZoneId": 1161,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1161",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/busazul/jclic/busazul.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 267,
+  "mediaFiles": 3,
+  "totalSize": 1673725,
+  "files": [
+    "cover.gif",
+    "jclic.js/busazul.jclic",
+    "jclic.js/cm_moltbe.gif",
+    "jclic.js/cs_moltbe.gif",
+    "jclic.js/prtdcast.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/busazul.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

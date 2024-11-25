@@ -1,0 +1,111 @@
+{
+  "id": 561,
+  "title": "Crucigramas de cálculo mental",
+  "author": "Toni Miquel Mollà",
+  "school": "CP Crist de la Pau Sant Joan d'Alacant (Alacantí)",
+  "date": "25/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aritmètica, càlcul",
+    "es": "aritmética, cálculo",
+    "en": "Arithmetic, calculation"
+  },
+  "descCodes": [
+    701,
+    702
+  ],
+  "description": {
+    "en": "Math activities about mental calculations. Designed as crossword puzzles in which the answers are mental calculus operations that must be solved in order to place the correct answer in the board.",
+    "ca": "Deu activitats de mots encreuats muntades com associacions, on les definicions són enunciats d'operacions de càlcul mental que cal anar resolent portant al tauler de joc les xifres que es presenten a la part inferior de la finestra.",
+    "es": "Diez actividades de crucigramas montadas como asociaciones, en las que las definiciones son enunciados de operaciones de cálculo mental que deben resolverse llevando al tablero de juego las cifras que se presentan en la parte inferior de la ventana."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "encregal",
+    "encrenum",
+    "guruzenb"
+  ],
+  "mainFile": "jclic.js/esencre.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/esencre.jclic.zip",
+  "instFile": "jclic/esencre.jclic.inst",
+  "clicZoneId": 1314,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1314",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/esencre/jclic/esencre.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 25,
+  "totalSize": 356922,
+  "files": [
+    "cover.gif",
+    "jclic.js/10enctri.gif",
+    "jclic.js/avestruz.gif",
+    "jclic.js/enumer01.gif",
+    "jclic.js/enumer02.gif",
+    "jclic.js/enumer03.gif",
+    "jclic.js/enumer04.gif",
+    "jclic.js/enumer05.gif",
+    "jclic.js/enumer06.gif",
+    "jclic.js/enumer07.gif",
+    "jclic.js/enumer08.gif",
+    "jclic.js/enumer09.gif",
+    "jclic.js/enumer10.gif",
+    "jclic.js/enumrr01.gif",
+    "jclic.js/enumrr02.gif",
+    "jclic.js/enumrr03.gif",
+    "jclic.js/enumrr04.gif",
+    "jclic.js/enumrr05.gif",
+    "jclic.js/enumrr06.gif",
+    "jclic.js/enumrr07.gif",
+    "jclic.js/enumrr08.gif",
+    "jclic.js/enumrr09.gif",
+    "jclic.js/enumrr10.gif",
+    "jclic.js/esencre.jclic",
+    "jclic.js/ordenata.gif",
+    "jclic.js/piedras.gif",
+    "jclic.js/present.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/esencre.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

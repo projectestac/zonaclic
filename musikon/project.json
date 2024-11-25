@@ -1,0 +1,132 @@
+{
+  "id": 737,
+  "title": "Musikon",
+  "author": "Damià Llorenç i Jordà",
+  "school": "CEIP IES Cristòfol Colom Xixona (Alacantí)",
+  "date": "01/06/05",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la música, lectura i escriptura musical",
+    "es": "aprendizaje de la música, lectura y escritura musical",
+    "en": "learning of music, reading and musical writing"
+  },
+  "descCodes": [
+    717,
+    726
+  ],
+  "description": {
+    "en": "This package of activities is for the first cycle of primary school. It has 4 blocks: \n<ul> \n <li>Positioning of notes on the stave and with some instruments of the orchestra. <br> </li>\n <li>Musical notation and identification of notes. <br> </li>\n <li>The keyboard: we start identifying notes, and finally we will play the hymn of joy (according to the level of the students, this can be difficult) <br> </li>\n <li>To discover pairs of pictures and sounds. \n  <ul> \n  </ul></li>\n</ul>",
+    "ca": "Aquest paquet d'activitats està dissenyat per al primer cicle de primària. Conté 4 paquets d'activitats molt senzilles: \n<ul> \n <li>El primer tracta de la col·locació de les notes en el pentagrama, alguns instruments de la gran orquestra i la gran clau de sol. <br> </li>\n <li>En el segon hem de jugar amb la notació musical i reconèixer algunes notes del pentagrama.<br> </li>\n <li>Al tercer juguem amb un teclat on hem de reconèixer les notes, i finalment interpretar l'himne de l'alegria (segons el nivell dels alumnes pot resultar complicat aquest exercici).<br> </li>\n <li>Finalment, amb el quart exercici intentarem descobrir les parelles ajudant-nos dels sons que produeixen. </li>\n</ul>",
+    "es": "Este paquete de actividades está diseñado para el primer ciclo de primaria. Contiene 4 paquetes de actividades muy sencillas: \n<ul> \n <li>El primero trata de la colocación de las notas en el pentagrama, algunos instrumentos de la gran orquesta y la gran clave de sol. <br> </li>\n <li>En el segundo se juega con la notación musical y el reconocimiento de algunas notas en el pentagrama.<br> </li>\n <li>En el tercero jugamos con un teclado dónde hemos de reconocer las notas y finalmente interpretar el himno de la alegría (según el nivel de los alumnos puede resultar complicado)<br> </li>\n <li>Finalmente y con el cuarto ejercicio intentaremos descubrir las parejas ayudándonos del sonido que producen. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "musicon"
+  ],
+  "mainFile": "jclic.js/musikon.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/musikon.jclic.zip",
+  "instFile": "jclic/musikon.jclic.inst",
+  "clicZoneId": 1386,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1386",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/musikon/jclic/musikon.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 49,
+  "totalSize": 241581,
+  "files": [
+    "cover.gif",
+    "jclic.js/alegria.gif",
+    "jclic.js/bombo.gif",
+    "jclic.js/bombo.mid",
+    "jclic.js/cabaset.mid",
+    "jclic.js/clarinet.gif",
+    "jclic.js/clarinet.mid",
+    "jclic.js/clave.gif",
+    "jclic.js/do.gif",
+    "jclic.js/do.mid",
+    "jclic.js/do_.mid",
+    "jclic.js/doa.gif",
+    "jclic.js/doa.mid",
+    "jclic.js/doa_.mid",
+    "jclic.js/fa.gif",
+    "jclic.js/fa.mid",
+    "jclic.js/fa_.mid",
+    "jclic.js/fondo.gif",
+    "jclic.js/guitarra.gif",
+    "jclic.js/guitarra.mid",
+    "jclic.js/la.gif",
+    "jclic.js/la.mid",
+    "jclic.js/la_.mid",
+    "jclic.js/mi.gif",
+    "jclic.js/mi.mid",
+    "jclic.js/musica.mid",
+    "jclic.js/musikon.jclic",
+    "jclic.js/notes.gif",
+    "jclic.js/piano.gif",
+    "jclic.js/piano.mid",
+    "jclic.js/re.gif",
+    "jclic.js/re.mid",
+    "jclic.js/re_.mid",
+    "jclic.js/rea.gif",
+    "jclic.js/rea.mid",
+    "jclic.js/rea_.mid",
+    "jclic.js/saxo.gif",
+    "jclic.js/saxo.mid",
+    "jclic.js/si.gif",
+    "jclic.js/si.mid",
+    "jclic.js/sol.gif",
+    "jclic.js/sol.mid",
+    "jclic.js/sol_.mid",
+    "jclic.js/tecles.gif",
+    "jclic.js/tria.gif",
+    "jclic.js/trombo.gif",
+    "jclic.js/trombo.mid",
+    "jclic.js/trompeta.gif",
+    "jclic.js/trompeta.mid",
+    "jclic.js/violi.gif",
+    "jclic.js/violi.mid",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/musikon.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

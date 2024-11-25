@@ -1,0 +1,114 @@
+{
+  "id": 222,
+  "title": "La primavera al jardí",
+  "author": "Juanjo Gómez Píriz i Montserrat Ruiz López",
+  "date": "12/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "comprensió escrita, llengua catalana, llengua escrita",
+    "es": "comprensión escrita, lengua catalana, lengua escrita",
+    "en": "written understanding, Catalan language, written language"
+  },
+  "descCodes": [
+    111,
+    133,
+    134
+  ],
+  "description": {
+    "en": "Complementary material for the programming unit \n<b><a href=\"http://www.xtec.cat/recursos/curricul/llengua/cred27.htm\" target=\"_blank\">\"Spring in the garden\"</a></b>, Where aspects related with written expression and comprehension are treated.",
+    "ca": "Material complementari a la unitat de programació \n<b><a href=\"http://www.xtec.cat/recursos/curricul/llengua/cred27.htm\" target=\"_blank\">\"La primavera al Jardí\"</a></b>, on es tracten aspectes relacionats amb l'expressió i comprensió escrites, l'ortografia i el lèxic de l'àrea de la llengua catalana de l'etapa de l'ensenyament primari. Els objectius i continguts són amplis i giren al voltant de dos aspectes: l'ortografia i l'expressió escrita.",
+    "es": "Material complementario a la unidad de programación \n<b><a href=\"http://www.xtec.cat/recursos/curricul/llengua/cred27.htm\" target=\"_blank\">\"La primavera al Jardí\"</a></b>, donde se tratan aspectos relacionados con la expresión y comprensión escritas, la ortografía y el léxico."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/jardi.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/jardi.jclic.zip",
+  "instFile": "jclic/jardi.jclic.inst",
+  "clicZoneId": 1113,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1113",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/jardi/jclic/jardi.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 34,
+  "totalSize": 146370,
+  "files": [
+    "cover.gif",
+    "jclic.js/adeu.gif",
+    "jclic.js/blat.gif",
+    "jclic.js/caixa01.gif",
+    "jclic.js/caixa02.gif",
+    "jclic.js/casc.gif",
+    "jclic.js/cirera.gif",
+    "jclic.js/clavel01.gif",
+    "jclic.js/clavel02.gif",
+    "jclic.js/deu.gif",
+    "jclic.js/dona.gif",
+    "jclic.js/guineu01.gif",
+    "jclic.js/guineu02.gif",
+    "jclic.js/jardi.jclic",
+    "jclic.js/llimona.gif",
+    "jclic.js/mel.gif",
+    "jclic.js/moneda.gif",
+    "jclic.js/mora.gif",
+    "jclic.js/mora_1.gif",
+    "jclic.js/mosq01.gif",
+    "jclic.js/mosq02.gif",
+    "jclic.js/palmera.gif",
+    "jclic.js/pera.gif",
+    "jclic.js/pi.gif",
+    "jclic.js/pinya01.gif",
+    "jclic.js/pinya02.gif",
+    "jclic.js/platan.gif",
+    "jclic.js/poma.gif",
+    "jclic.js/ram.gif",
+    "jclic.js/serra01.gif",
+    "jclic.js/serra02.gif",
+    "jclic.js/t1.gif",
+    "jclic.js/t11.gif",
+    "jclic.js/t111.gif",
+    "jclic.js/tassa01.gif",
+    "jclic.js/tassa02.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/jardi.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

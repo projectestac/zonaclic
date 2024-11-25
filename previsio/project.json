@@ -1,0 +1,121 @@
+{
+  "id": 1196,
+  "title": "Temps de temps: La previsió meteorològica",
+  "author": "Joan A. Solano Querol",
+  "school": "Escola Cèsar August Tarragona",
+  "date": "30/11/04",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "meteorologia",
+    "es": "meteorología",
+    "en": "meteorology"
+  },
+  "descCodes": [
+    89
+  ],
+  "description": {
+    "en": "The weather forecast shown everyday on TV introduce us into meteorology. We learn to distinguish between cold or warm front or to understand several types of weather maps: isobaric, radar, temperature... and by the meantime we learn the isobaric lines, the relationship between the winds and the fronts, the meaning of the areas of low or high pressures, the baric gradient ...\n<br> At the end, We are able to relate several weather forecast looking at different types of weather maps. Let's say, we become somehow a weathermen/weatherwomen.\n<br> In these pages you will find the other parts of the serie: \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=1096\">L'atmosfera</a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=2022\">Observem i mesurem</a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=2460\">A bots i barrals</a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=2861\">Llamp de rellamp</a> and \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=3216\">Vents i ventots</a>.",
+    "ca": "La previsió meteorològica ens introdueix en aquest món que veiem cada dia a la televisió. Aprenem a distingir els diversos tipus de núvols, a diferenciar un front fred d'un front càlid, a llegir diversos tipus de mapes (isobàrics, radar, temperatures...) i ho fem aprenent que són les isòbares, la seva relació amb els vents i el fronts, el significat de les àrees depressionàries o d'altes pressions, el gradient bàric... \n<br> Veiem els símbols que els meteoròlegs utilitzen en els mapes que publiquen als diaris i acabem sent capaços de relacionar diverses prediccions meteorològiques amb diversos mapes del temps. És a dir, convertits en tots uns homes o dones del temps.\n<br> En aquestes pàgines es troben les altres parts de la sèrie temps de temps: \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=1096\">L'atmosfera</a>, \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=2022\">Observem i mesurem</a>, \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=2460\">A bots i barrals</a>, \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=2861\">Llamp de rellamp</a> i \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=3216\">Vents i ventots</a>.",
+    "es": "La previsión meteorológica nos introduce en este mundo que vemos cada día en televisión. Aprendemos a distinguir los diferentes tipos de nubes, a diferenciar un frente frío de uno cálido, a leer diversos tipos de mapas (isobáricos, radar, temperaturas...) y lo hacemos aprendiendo que son las isobaras, su relación con los vientos y los frentes, el significado de las áreas depresionarias o de altas presiones, los gradientes báricos...\n<br> Vemos los símbolos que los meteorólogos utilizan en los mapas que publican en los periódicos y acabamos siendo capaces de relacionar diversas predicciones meteorológicas con diversos mapas del tiempo. Es decir, convertidos en unos hombres o mujeres del tiempo.\n<br> En estas páginas se encuentran los otros paquetes de la serie: \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=1096\">L'atmosfera</a>, \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=2022\">Observem i mesurem</a>, \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=2460\">A bots i barrals</a>, \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=2861\">Llamp de rellamp</a> y \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=3216\">Vents i ventots</a>."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/previsio.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/previsio.jclic.zip",
+  "instFile": "jclic/previsio.jclic.inst",
+  "clicZoneId": 2860,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2860",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/previsio/jclic/previsio.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 39,
+  "mediaFiles": 42,
+  "totalSize": 1547744,
+  "files": [
+    "cover.gif",
+    "jclic.js/01.gif",
+    "jclic.js/01031500.gif",
+    "jclic.js/20001024.gif",
+    "jclic.js/20010306.gif",
+    "jclic.js/alt_cumu.gif",
+    "jclic.js/alt_lent.gif",
+    "jclic.js/cirrus35.gif",
+    "jclic.js/cold_fr.gif",
+    "jclic.js/europe_h.gif",
+    "jclic.js/fons.gif",
+    "jclic.js/formes.gif",
+    "jclic.js/formes_s.gif",
+    "jclic.js/fr_calid.avi",
+    "jclic.js/fr_fred.avi",
+    "jclic.js/frare64.gif",
+    "jclic.js/fred.gif",
+    "jclic.js/isoba30s.gif",
+    "jclic.js/isoba40.gif",
+    "jclic.js/isoba40s.gif",
+    "jclic.js/isoba50.gif",
+    "jclic.js/isoba50s.gif",
+    "jclic.js/isobar.gif",
+    "jclic.js/isobar30.gif",
+    "jclic.js/ll221000.gif",
+    "jclic.js/llev_pre.gif",
+    "jclic.js/m_llamps.gif",
+    "jclic.js/me131000.gif",
+    "jclic.js/meteosat.gif",
+    "jclic.js/ne.gif",
+    "jclic.js/nimbus.gif",
+    "jclic.js/nimbus_r.gif",
+    "jclic.js/no.gif",
+    "jclic.js/oval_alt.gif",
+    "jclic.js/oval_dep.gif",
+    "jclic.js/previsio.jclic",
+    "jclic.js/radar10.gif",
+    "jclic.js/radar20.gif",
+    "jclic.js/se.gif",
+    "jclic.js/so.gif",
+    "jclic.js/termos1.gif",
+    "jclic.js/tip_clou.gif",
+    "jclic.js/tip_nuvo.gif",
+    "jclic.js/warm_fr.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/previsio.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

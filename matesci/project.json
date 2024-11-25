@@ -1,0 +1,83 @@
+{
+  "id": 1199,
+  "title": "Sumas y restas",
+  "author": "Gabriel Zafra Lallana i Gabriel Zafra Muñoz",
+  "school": "CP Camilo José Cela Madrid (Madrid)",
+  "date": "14/01/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "càlcul",
+    "es": "cálculo",
+    "en": "calculation"
+  },
+  "descCodes": [
+    702
+  ],
+  "description": {
+    "en": "Short package about doing additions and subtractions to solve them by the association method.\n<br> It is adapted for low vision impaired children.",
+    "ca": "Breu paquet d'operacions de sumes portant i restes sense portar a resoldre pel mètode d'associacions.\n<br> Adaptat per discapacitat visual baixa visió.",
+    "es": "Breve paquete de operaciones de suma llevando y resta sin llevar a resolver por el método de asociaciones.\n<br> Adaptado para discapacidad visual baja visión."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "matecidv"
+  ],
+  "mainFile": "jclic.js/matesci.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/matesci.jclic.zip",
+  "instFile": "jclic/matesci.jclic.inst",
+  "clicZoneId": 2900,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2900",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/matesci/jclic/matesci.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 26,
+  "mediaFiles": 1,
+  "totalSize": 316606,
+  "files": [
+    "cover.gif",
+    "jclic.js/fondo.gif",
+    "jclic.js/matesci.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/matesci.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

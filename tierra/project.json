@@ -1,0 +1,113 @@
+{
+  "id": 134,
+  "title": "La tierra",
+  "author": "Juan José Mateo Molina",
+  "school": "CP El Olivar Rivas - Vaciamadrid (Madrid)",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geologia, sistema solar, terra ",
+    "es": "geología, sistema solar, tierra",
+    "en": "geology, Solar System, earth"
+  },
+  "descCodes": [
+    78,
+    104,
+    105
+  ],
+  "description": {
+    "en": "Activity pack based on a textbook about the knowledge of our environment. The topics studied are: The earth and the soil (minerals, rocks), the earth and water (water cycles, states of matter), the earth and the sun (solar system, the seasons...).",
+    "ca": "Paquet basat en el llibre de text de coneixement del medi per a 3er de primària de l'editorial Santillana. Les activitats s'agrupen en tres seccions:\n<p> </p>\n<ul> \n <li>\"La terra i el sòl\" (minerals, roques...) </li>\n <li>\"La terra i l'aigua\" (estats de la matèria, cicle de l'aigua, regadiu i secà...) </li>\n <li>\"La terra i el sol\" (el sistema solar, moviments de rotació i translació, estacions de l'any...). </li>\n</ul> \n<p> Trobareu més informació a la web d'<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo. </p>",
+    "es": "Paquete basado en el libro de texto de conocimiento del medio para 3º de primaria de la editorial Santillana. Las actividades se agrupan en tres secciones:\n<p> </p>\n<ul> \n <li>\"La tierra y el suelo\" (minerales, rocas...) </li>\n <li>\"La tierra y el agua\" (estados de la materia, ciclo del agua, regadío y secano...) </li>\n <li>\"La tierra y el sol\" (el sistema solar, movimientos de rotación y traslación, estaciones del año...). </li>\n</ul> \n<p> Encontraréis más información en la web de <b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/tierra.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tierra.jclic.zip",
+  "instFile": "jclic/tierra.jclic.inst",
+  "clicZoneId": 1065,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1065",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/tierra/jclic/tierra.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 52,
+  "mediaFiles": 32,
+  "totalSize": 1091540,
+  "files": [
+    "cover.jpg",
+    "jclic.js/1.gif",
+    "jclic.js/2.gif",
+    "jclic.js/3.gif",
+    "jclic.js/autor.gif",
+    "jclic.js/dia.gif",
+    "jclic.js/diamante.gif",
+    "jclic.js/embal_i.gif",
+    "jclic.js/embalse.gif",
+    "jclic.js/escorial.gif",
+    "jclic.js/girl.mid",
+    "jclic.js/granito.gif",
+    "jclic.js/hulla.gif",
+    "jclic.js/inv.gif",
+    "jclic.js/marmol.gif",
+    "jclic.js/mina.gif",
+    "jclic.js/oto.gif",
+    "jclic.js/piramide.gif",
+    "jclic.js/pirita.gif",
+    "jclic.js/pizarra.gif",
+    "jclic.js/pri.gif",
+    "jclic.js/puzzle.wav",
+    "jclic.js/rota.gif",
+    "jclic.js/s_solar.gif",
+    "jclic.js/suelo1.gif",
+    "jclic.js/suelo2.gif",
+    "jclic.js/suelo3.gif",
+    "jclic.js/taj.gif",
+    "jclic.js/talco.gif",
+    "jclic.js/tierra.gif",
+    "jclic.js/tierra.jclic",
+    "jclic.js/tras.gif",
+    "jclic.js/ver.gif",
+    "jclic.js/yeso.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/tierra.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

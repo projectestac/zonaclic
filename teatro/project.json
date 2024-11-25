@@ -1,0 +1,97 @@
+{
+  "id": 1098,
+  "title": "Un viaje al mundo del teatro",
+  "author": "Joana Lloret Cantero",
+  "school": "Institut Joaquim Rubió i Ors Sant Boi de Llobregat (Baix Llobregat)",
+  "date": "10/11/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "teatre",
+    "es": "teatro",
+    "en": "theater"
+  },
+  "descCodes": [
+    658
+  ],
+  "description": {
+    "en": "The package \"Un viaje al mundo del teatro (siglos XVI-XVII)\" is structured into four parts: \n<ul> \n <li><b>Introduction</b><br>It's focused on the European writers and its works: Moliere, Lope de Vega, Calderón de la Barca and Shakespeare.<br> </li>\n <li><b>The Italian <i>Commedia dell'arte</i></b><br>In this section is analysed this type of theatre (without previous text). The characters features (dresses, masks, condition, gesticulation, improvisation ... )<br> </li>\n <li><b>The Spanish <i>comedia nacional</i></b><br>Here, the activities are centred in the open-air theatre as a scenic space, the genres which were performed as well as the attendees distribution according to its economical condition and sex.<br> </li>\n <li><b>The Elizabethan theatre</b><br>This section is about Shakespeare's \"The Globe\" Theatre. Explaining some of its stage features. </li>\n</ul>",
+    "ca": "El paquet \n<i>Un viaje al mundo del teatro (siglos XVI-XVII)</i> està estructurat en quatre parts: \n<ul> \n <li><b>Introducció</b><br>en aquesta part es treballen autors i obres del teatre europeu de l'època: Molière, Lope de Vega, Calderón de la Barca i Shakespeare.<br> </li>\n <li><b>La <i>commedia dell'arte</i></b><br>S'hi analitza aquest tipus de teatre, sense text previ, i les característiques dels seus personatges (vestit, màscara, condició, gesticulació, improvisació...)<br> </li>\n <li><b>La <i>comedia nacional</i></b><br>Aquí les activitats estan centrades en el corral de comèdies, com espai escènic, els gèneres teatrals que s¿hi representaven i la distribució dels públic al corral segons el seu nivell econòmic i segons el sexe.<br> </li>\n <li><b>El teatre isabelí</b><br>En aquest cas, es treballa un dels teatres de l'època (<i>The Globe</i>) i algunes característiques de la posada en escena de les obres, sobre tot, de Shakespeare.<br> </li>\n</ul>",
+    "es": "El paquete \n<i>Un viaje al mundo del teatro (siglos XVI-XVII)</i> está estructurado en cuatro partes: \n<ul> \n <li><b>Introducción</b><br>en esta parte se trabajan autores y obras del teatro europeo de la época: Molière, Lope de Vega, Calderón de la Barca i Shakespeare.<br> </li>\n <li><b>La <i>commedia dell'arte</i></b><br>Se analiza este tipo de teatro, sin texto previo, y las características de sus personajes (vestido, máscara, condición, gesticulación, improvisación...)<br> </li>\n <li><b>La <i>comedia nacional</i></b><br>Aquí las actividades están centradas en el corral de comedias, como espacio escénico, los géneros teatrales que se representaban y la distribución del público en el corral según su nivel económico y según el sexo.<br> </li>\n <li><b>El teatro isabelino</b><br>En este caso, se trabaja uno de los teatros de la época (<i>The Globe</i>) y algunas características de la puesta en escena de las obras, sobre todo, de Shakespeare.<br> </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/teatro.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/teatro.jclic.zip",
+  "instFile": "jclic/teatro.jclic.inst",
+  "clicZoneId": 2364,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2364",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/teatro/jclic/teatro.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 18,
+  "totalSize": 1785910,
+  "files": [
+    "cover.gif",
+    "jclic.js/alchina1.gif",
+    "jclic.js/alequin2.gif",
+    "jclic.js/bravo.wav",
+    "jclic.js/calde1.gif",
+    "jclic.js/corral.gif",
+    "jclic.js/dottore1.gif",
+    "jclic.js/escecom.gif",
+    "jclic.js/figli3.gif",
+    "jclic.js/globe.gif",
+    "jclic.js/lazzi.gif",
+    "jclic.js/lope1.gif",
+    "jclic.js/moliere.gif",
+    "jclic.js/moltbe.wav",
+    "jclic.js/notaio1.gif",
+    "jclic.js/pantal1.gif",
+    "jclic.js/portada.wav",
+    "jclic.js/pulcin1.gif",
+    "jclic.js/shak.gif",
+    "jclic.js/teatro.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/teatro.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

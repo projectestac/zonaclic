@@ -1,0 +1,108 @@
+{
+  "id": 1434,
+  "title": "Les taules de multiplicar - 3",
+  "author": "Ramon Martí Montesa",
+  "school": "Escola El Sitjar Linyola (Pla d'Urgell)",
+  "date": "20/09/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "taules de multiplicar",
+    "es": "tablas de multiplicar",
+    "en": "multiplication tables"
+  },
+  "descCodes": [
+    908
+  ],
+  "description": {
+    "en": "Package made for the second level of Primary school students to teach them the multiplication tables progressively. Pupils can't go to the next multiplication table if the 80% of the activities proposed are done.",
+    "ca": "Paquet d'activitats destinat a l'alumnat del Cicle Mitjà de Primària en el qual es treballen totes les taules de multiplicar d'una manera progressiva: els nens i les nenes no poden passar a la següent taula de multiplicar si no ha completat el 80% de les activitats plantejades en el paquet de la taula que està treballant en aquell moment.",
+    "es": "Paquete de actividades para alumnado de ciclo medio de primaria donde se trabajan todas las tablas de multiplicar de un modo progresivo: los niños y niñas no pueden pasar a la siguiente tabla de multiplicar si no ha completado el 80% de las actividades planteadas en el paquete de la tabla que se está trabajando en ese momento."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/taules3.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/taules3.jclic.zip",
+  "instFile": "jclic/taules3.jclic.inst",
+  "clicZoneId": 3167,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3167",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/taules3/jclic/taules3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 79,
+  "mediaFiles": 27,
+  "totalSize": 1564986,
+  "files": [
+    "cover.gif",
+    "jclic.js/diploma.doc",
+    "jclic.js/diploma.gif",
+    "jclic.js/fintau0.gif",
+    "jclic.js/fintau1.gif",
+    "jclic.js/fintau10.gif",
+    "jclic.js/fintau2.gif",
+    "jclic.js/fintau3.gif",
+    "jclic.js/fintau4.gif",
+    "jclic.js/fintau5.gif",
+    "jclic.js/fintau6.gif",
+    "jclic.js/fintau7.gif",
+    "jclic.js/fintau8.gif",
+    "jclic.js/fintau9.gif",
+    "jclic.js/fons.gif",
+    "jclic.js/menu.gif",
+    "jclic.js/porta0.gif",
+    "jclic.js/porta1.gif",
+    "jclic.js/porta10.gif",
+    "jclic.js/porta2.gif",
+    "jclic.js/porta3.gif",
+    "jclic.js/porta4.gif",
+    "jclic.js/porta5.gif",
+    "jclic.js/porta6.gif",
+    "jclic.js/porta7.gif",
+    "jclic.js/porta8.gif",
+    "jclic.js/porta9.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/taules3.jclic",
+    "jclic.js/taules3.pdf",
+    "jclic.js/totes.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/taules3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

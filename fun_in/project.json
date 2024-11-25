@@ -1,0 +1,135 @@
+{
+  "id": 2431,
+  "title": "Funciones inorgánicas",
+  "author": "Alejandro Martín",
+  "school": "Colegio La Merced I.E.D. Bogotá D.C. Bogotá D.C. (Colombia)",
+  "date": "11/02/16",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "química",
+    "es": "química",
+    "en": "chemistry"
+  },
+  "descCodes": [
+    97
+  ],
+  "description": {
+    "en": "Activities for the recognition of inorganic chemical functions.",
+    "ca": "Activitats per al reconeixement de les funcions químiques inorgàniques.",
+    "es": "Actividades para el reconocimiento de las funciones químicas inorgánicas"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/fun_in.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fun_in.jclic.zip",
+  "instFile": "jclic/fun_in.jclic.inst",
+  "clicZoneId": 3940,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3940",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fun_in/jclic/fun_in.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 44,
+  "mediaFiles": 56,
+  "totalSize": 2304354,
+  "files": [
+    "cover.png",
+    "jclic.js/0_1linea_final.jpg",
+    "jclic.js/acidbattery.jpg",
+    "jclic.js/adeazufre.png",
+    "jclic.js/adeyodo.png",
+    "jclic.js/ahipoyodoso.png",
+    "jclic.js/aselenico.png",
+    "jclic.js/ca_oh_2.png",
+    "jclic.js/caco3.png",
+    "jclic.js/carro4.png",
+    "jclic.js/ch7.png",
+    "jclic.js/circuitopilaprendo_resized.jpg",
+    "jclic.js/cloruro_de_calcio.png",
+    "jclic.js/combustion_del_mg.png",
+    "jclic.js/combustion_del_s.png",
+    "jclic.js/cristalazufre_resized.jpg",
+    "jclic.js/cristaldesal_resized.jpg",
+    "jclic.js/cuso4.png",
+    "jclic.js/fe_oh_3.png",
+    "jclic.js/fecl3.png",
+    "jclic.js/fluoruro_de_potasio.png",
+    "jclic.js/fun_in.jclic",
+    "jclic.js/func_ino.png",
+    "jclic.js/h2so4.png",
+    "jclic.js/h3o.png",
+    "jclic.js/hcl.png",
+    "jclic.js/hdecalcio.png",
+    "jclic.js/hdelitio.png",
+    "jclic.js/hdepotasio.png",
+    "jclic.js/hderubidio.png",
+    "jclic.js/hidronio.png",
+    "jclic.js/i01_odeoro3.png",
+    "jclic.js/leche_resized.jpg",
+    "jclic.js/lemon_resized.jpg",
+    "jclic.js/mgo.png",
+    "jclic.js/moleculadeoxigeno.png",
+    "jclic.js/nacl.png",
+    "jclic.js/naclo.png",
+    "jclic.js/naoh.png",
+    "jclic.js/nitrato_de_plata.png",
+    "jclic.js/odecromo.png",
+    "jclic.js/odefosforo.png",
+    "jclic.js/odeoro3.png",
+    "jclic.js/odezinc.png",
+    "jclic.js/oh.png",
+    "jclic.js/puzle_oxidos_resized.jpg",
+    "jclic.js/reaccion_caoh2.png",
+    "jclic.js/reaccion_koh.png",
+    "jclic.js/reaccion_mgoh2.png",
+    "jclic.js/reaccionclorurodesodio.png",
+    "jclic.js/reacciondelnitrato.png",
+    "jclic.js/reaccionh2so4.png",
+    "jclic.js/reaccionhno2.png",
+    "jclic.js/saleshaloideas.png",
+    "jclic.js/saloxisal.png",
+    "jclic.js/so2.png",
+    "jclic.js/sulfato_de_sodio.png",
+    "jclic.js/titulacion.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fun_in.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

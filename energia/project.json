@@ -1,0 +1,105 @@
+{
+  "id": 160,
+  "title": "La energía",
+  "author": "Juan José Mateo Molina",
+  "school": "CP El Olivar Rivas - Vaciamadrid (Madrid)",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "energia",
+    "es": "energía",
+    "en": "energy"
+  },
+  "descCodes": [
+    68
+  ],
+  "description": {
+    "en": "Activity pack based on a textbook \"El libro de las preguntas\" (the questions book). The activities are divided into three groups: \n<br> \n<li>The materials and heat </li>\n<li>Light and sound </li>\n<li>Electricity <p> You'll find more information in the pages <b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm  TARGET=\" _blank\"\">\"Aplicaciones educativas\"</a></b>. </p></li>",
+    "ca": "Aquesta aplicació es va dissenyar a partir del llibre de text de coneixement del medi de 4t de primària de l'editorial Santillana \"El libro de las preguntas\".\n<br> L'aplicació consta de tres unitats:\n<br> \n<li>Els materials i el calor </li>\n<li>La llum i el so </li>\n<li>L'electricitat <p> Trobareu més informació a la web d'<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm  TARGET=\" _blank\"\">Aplicaciones educativas</a></b> de Juan José Mateo. </p></li>",
+    "es": "Esta aplicación se ha diseñado a partir del libro de texto de Conocimiento del Medio de 4º de E. Primaria, \"El libro de las preguntas\", de la editorial Santillana.\n<br> La aplicación consta de tres unidades: \n<li>Los materiales y el calor </li>\n<li>La luz y el sonido </li>\n<li>La electricidad <p> Encontraréis más información en la web de <b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm  TARGET=\" _blank\"\">Aplicaciones educativas</a></b> de Juan José Mateo. </p></li>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/energia.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/energia.jclic.zip",
+  "instFile": "jclic/energia.jclic.inst",
+  "clicZoneId": 1080,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1080",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/energia/jclic/energia.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 29,
+  "mediaFiles": 26,
+  "totalSize": 670953,
+  "files": [
+    "cover.gif",
+    "jclic.js/across.mid",
+    "jclic.js/amar.gif",
+    "jclic.js/autor.gif",
+    "jclic.js/azul.gif",
+    "jclic.js/calor.jpg",
+    "jclic.js/cir_ac.gif",
+    "jclic.js/circuito.gif",
+    "jclic.js/clic3.gif",
+    "jclic.js/distrib.gif",
+    "jclic.js/elec.jpg",
+    "jclic.js/energia.jclic",
+    "jclic.js/energia.jpg",
+    "jclic.js/eolica.jpg",
+    "jclic.js/hidro.jpg",
+    "jclic.js/iris.jpg",
+    "jclic.js/lampa.gif",
+    "jclic.js/lava.jpg",
+    "jclic.js/luz.jpg",
+    "jclic.js/nuclear.jpg",
+    "jclic.js/olivos.gif",
+    "jclic.js/puzzle.wav",
+    "jclic.js/rojo.gif",
+    "jclic.js/solar.jpg",
+    "jclic.js/tele.jpg",
+    "jclic.js/term2.gif",
+    "jclic.js/termica.jpg",
+    "jclic.js/tosta.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/energia.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": 1744,
+  "title": "Actividades de discriminación auditiva (3. Transportes)",
+  "author": "Belén Gómez Flores",
+  "school": "CEIP Flavia Padrón (Galiza)",
+  "date": "25/02/08",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, comprensió oral",
+    "es": "aprendizaje de la lengua, comprensión oral",
+    "en": "learning of the language, oral understanding"
+  },
+  "descCodes": [
+    110,
+    112
+  ],
+  "description": {
+    "en": "Three projects of activities about aural comprehension. There are activities to associate sounds with images, to imitate sounds, to identify sounds and to ordering a sequence of sounds.",
+    "ca": "Tres projectes d'activitats per treballar la comprensió a través de sons propers al nen o nena. Primer podrà escoltar els sons per després fer les activitats relacionades amb ells: associar sons amb imatges, imitar sons i després escoltar-los, identificar sons emmascarats i produïts simultàniament i finalment, ordenar els sons segons la seqüència escoltada.",
+    "es": "Tres proyectos de actividades para trabajar la comprensión a través de sonidos cercanos al niño o niña. Primero podrá escuchar los sonidos para luego realizar actividades relacionadas con ellos: asociar sonidos con imagen, imitar sonidos y luego escucharlos, identificar sonidos enmascarados y producidos simultáneamente y finalmente, ordenar los sonidos según la secuencia escuchada."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "disaudit/anim_dis",
+    "disaudit/inst_dis"
+  ],
+  "mainFile": "jclic.js/tran_dis.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tran_dis.jclic.zip",
+  "instFile": "jclic/tran_dis.jclic.inst",
+  "clicZoneId": 3444,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3444",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/disaudit/jclic/tran_dis.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 48,
+  "mediaFiles": 45,
+  "totalSize": 1806144,
+  "files": [
+    "cover.jpg",
+    "jclic.js/altavoz.jpg",
+    "jclic.js/am_mo_he.mp3",
+    "jclic.js/ambulancia.jpg",
+    "jclic.js/ambulancia.mp3",
+    "jclic.js/autobus.jpg",
+    "jclic.js/avi.mp3",
+    "jclic.js/avi_ca_tra.mp3",
+    "jclic.js/avion1.jpg",
+    "jclic.js/barco.jpg",
+    "jclic.js/barco.mp3",
+    "jclic.js/bi_tre_bom.mp3",
+    "jclic.js/bici.mp3",
+    "jclic.js/bicicleta.jpg",
+    "jclic.js/bombero.jpg",
+    "jclic.js/bombero.mp3",
+    "jclic.js/bus.mp3",
+    "jclic.js/bus_co_ba.mp3",
+    "jclic.js/cabalo.mp3",
+    "jclic.js/coche.jpg",
+    "jclic.js/coche.mp3",
+    "jclic.js/discrim.png",
+    "jclic.js/discrim1_ins.xml",
+    "jclic.js/discrim_ins.xml",
+    "jclic.js/error.mp3",
+    "jclic.js/helicoptero.jpg",
+    "jclic.js/helicoptero.mp3",
+    "jclic.js/micro.jpg",
+    "jclic.js/moto.jpg",
+    "jclic.js/moto.mp3",
+    "jclic.js/moto1.mp3",
+    "jclic.js/moto_puz.jpg",
+    "jclic.js/nonesc.mp3",
+    "jclic.js/orella.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/sel_bici.mp3",
+    "jclic.js/sel_bombero.mp3",
+    "jclic.js/sel_moto.mp3",
+    "jclic.js/sel_tren.mp3",
+    "jclic.js/sele.mp3",
+    "jclic.js/tractor.jpg",
+    "jclic.js/tractor.mp3",
+    "jclic.js/tran_dis.jclic",
+    "jclic.js/tren.jpg",
+    "jclic.js/treni.mp3",
+    "jclic.js/trote.jpg",
+    "jclic.js/xogar.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/tran_dis.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

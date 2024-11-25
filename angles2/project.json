@@ -1,0 +1,116 @@
+{
+  "id": 2349,
+  "title": "Places in a city",
+  "author": "Alba Collell Puig",
+  "school": "Escola La Farga de Salt Girona",
+  "date": "22/01/15",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Social sciences, Languages",
+    "ca": "Ciències socials, Llengües",
+    "es": "Ciencias sociales, Lenguas"
+  },
+  "areaCodes": [
+    "soc",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua anglesa, llengua estrangera",
+    "es": "aprendizaje de la lengua, lengua inglesa, lengua extranjera",
+    "en": "learning of the language, English language, foreign language"
+  },
+  "descCodes": [
+    110,
+    130,
+    135
+  ],
+  "description": {
+    "en": "JClic activities about: \n<ul> \n <li>Vocabulary related to parts of the town and the city. </li>\n <li>Village and city: similarities and differences </li>\n <li>Writing words and texts in English. </li>\n <li>Understanding basic instructions in English. </li>\n</ul>",
+    "ca": "Projecte d'activitats JClic de llengua anglesa per a: \n<ul> \n <li>Aprendre vocabulari relacionat amb llocs del poble i la ciutat </li>\n <li>Distingir entre poble i ciutat: semblances i diferències </li>\n <li>Aprendre a dir què hi ha i què no hi ha en un poble o ciutat. </li>\n <li>Escriure paraules i textos en anglès. </li>\n <li>Entendre instruccions bàsiques en anglès. </li>\n</ul>",
+    "es": "Con este paquete de actividades aprenderás a: \n<ul> \n <li>Aprender vocabulario relacionado con lugares del pueblo y la ciudad </li>\n <li>Distinguir entre pueblo y ciudad: semejanzas y diferencias </li>\n <li>Aprender a decir que hay y qué no hay en un pueblo o ciudad. </li>\n <li>Escribir palabras y textos en inglés. </li>\n <li>Entender instrucciones básicas en inglés. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/angles2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/angles2.jclic.zip",
+  "instFile": "jclic/angles2.jclic.inst",
+  "clicZoneId": 3857,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3857",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/angles2/jclic/angles2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 38,
+  "totalSize": 1701323,
+  "files": [
+    "cover.png",
+    "jclic.js/aeroport.gif",
+    "jclic.js/angles2.jclic",
+    "jclic.js/aparcament.gif",
+    "jclic.js/barcelona.jpg",
+    "jclic.js/birds.mp3",
+    "jclic.js/catedral.gif",
+    "jclic.js/centredatencioprimaria.gif",
+    "jclic.js/cinema.jpg",
+    "jclic.js/city.gif",
+    "jclic.js/city2.gif",
+    "jclic.js/citytraffic.wav",
+    "jclic.js/ckbwbank.jpg",
+    "jclic.js/ckbwcathedral.jpg",
+    "jclic.js/ckbwmuseum.jpg",
+    "jclic.js/ckbwpolicestation.jpg",
+    "jclic.js/ckbwrestaurant.jpg",
+    "jclic.js/ckbwshoppingcentre.jpg",
+    "jclic.js/ckbwsportscentre.jpg",
+    "jclic.js/ckbwtheatre.jpg",
+    "jclic.js/figueres1.jpg",
+    "jclic.js/girona_1.jpg",
+    "jclic.js/hiper.gif",
+    "jclic.js/jardi.gif",
+    "jclic.js/library.jpg",
+    "jclic.js/lleida_01.jpg",
+    "jclic.js/marine_aquarium1.jpg",
+    "jclic.js/museu.gif",
+    "jclic.js/olot.jpg",
+    "jclic.js/restaurant.gif",
+    "jclic.js/school2.jpg",
+    "jclic.js/stadium.jpg",
+    "jclic.js/teatre.gif",
+    "jclic.js/viajar_a_tarragona.jpg",
+    "jclic.js/village.jpg",
+    "jclic.js/village_copia___copia.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/angles2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

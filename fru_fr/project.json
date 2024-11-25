@@ -1,0 +1,111 @@
+{
+  "id": 1373,
+  "title": "Les fruits",
+  "author": "Isabel Moro Moro",
+  "school": "CP Liceo Mierense Mieres (Asturias)",
+  "date": "29/01/14",
+  "languages": {
+    "en": "French",
+    "ca": "francès",
+    "es": "francés"
+  },
+  "langCodes": [
+    "fr"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages, Mathematics",
+    "ca": "Ciències experimentals, Llengües, Matemàtiques",
+    "es": "Ciencias experimentales, Lenguas, Matemáticas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng",
+    "mat"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aliments, vocabulari, càlcul",
+    "es": "alimentos, vocabulario, cálculo",
+    "en": "foods, vocabulary, calculation"
+  },
+  "descCodes": [
+    49,
+    150,
+    702
+  ],
+  "description": {
+    "en": "Activities about fruits addressed to kinder garden and primary school.",
+    "ca": "Activitats adreçades a alumnes d'educació infantil i primer cicle d'educació primària al voltant de les fruites.",
+    "es": "Actividades dirigidas a alumnos de educación infantil y primer ciclo de educación primaria sobre las frutas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "frutas"
+  ],
+  "mainFile": "jclic.js/fru_fr.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fru_fr.jclic.zip",
+  "instFile": "jclic/fru_fr.jclic.inst",
+  "clicZoneId": 3113,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3113",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fru_fr/jclic/fru_fr.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 24,
+  "totalSize": 388105,
+  "files": [
+    "cover.gif",
+    "jclic.js/ciruela.gif",
+    "jclic.js/fresa.gif",
+    "jclic.js/fresa2.gif",
+    "jclic.js/fru_fr.jclic",
+    "jclic.js/fruteri2_fr.gif",
+    "jclic.js/granada.gif",
+    "jclic.js/higo.gif",
+    "jclic.js/kiwi.gif",
+    "jclic.js/mandarin.gif",
+    "jclic.js/manzana.gif",
+    "jclic.js/manzavr.gif",
+    "jclic.js/media.gif",
+    "jclic.js/meloc.gif",
+    "jclic.js/melon.gif",
+    "jclic.js/naranja.gif",
+    "jclic.js/naranja2.gif",
+    "jclic.js/pera.gif",
+    "jclic.js/pera2.gif",
+    "jclic.js/pi_a.gif",
+    "jclic.js/platano.gif",
+    "jclic.js/portada0.gif",
+    "jclic.js/sandia.gif",
+    "jclic.js/sandia2.gif",
+    "jclic.js/uva.gif",
+    "jclic.js/uva2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fru_fr.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

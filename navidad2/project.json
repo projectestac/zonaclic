@@ -1,0 +1,102 @@
+{
+  "id": 2200,
+  "title": "La Navidad en Venezuela",
+  "author": "Carlos Toro",
+  "school": "U.E.E. Prisco Pérez Monasterio (Centro Bolivariano de Informática y Telemática \"Roxana M. de Hernández\") Villa de Cura, Estado Aragua (Venezuela)",
+  "date": "29/11/11",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences, Miscellaneous",
+    "ca": "Ciències socials, Diversos",
+    "es": "Ciencias sociales, Diversos"
+  },
+  "areaCodes": [
+    "soc",
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "nadal",
+    "es": "navidad",
+    "en": "christmas"
+  },
+  "descCodes": [
+    882
+  ],
+  "description": {
+    "en": "Project of activities with the aim of know Christmas in Venezuela, music, traditional food and traditional celebration of the birth of Jesus, through partnership activities, puzzles, memory games and word searches.",
+    "ca": "Projecte d'activitats que té com objectiu conèixer el Nadal a Veneçuela, la seva música, menjars típics tradicionals i la celebració del naixement de Jesús a través d'activitats d'associació, trencaclosques, jocs de memòria i sopes de lletres.",
+    "es": "Proyecto de actividades que tiene como objetivo conocer la Navidad en Venezuela, su música, comidas típicas tradicionales y la celebración del nacimiento de Jesús, a través de actividades de asociación, rompecabezas, juegos de memoria y sopas de letras."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/navidad2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/navidad2.jclic.zip",
+  "instFile": "jclic/navidad2.jclic.inst",
+  "clicZoneId": 3734,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3734",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/navidad2/jclic/navidad2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 22,
+  "totalSize": 2924561,
+  "files": [
+    "cover.png",
+    "jclic.js/creditos2.png",
+    "jclic.js/dulce_lechosa.jpg",
+    "jclic.js/ensalada.png",
+    "jclic.js/felicitaciones_sonido.mp3",
+    "jclic.js/feliz.png",
+    "jclic.js/final.png",
+    "jclic.js/gaitas.jpg",
+    "jclic.js/hallaca1.jpg",
+    "jclic.js/intentalo.mp3",
+    "jclic.js/la_navidad.jpg",
+    "jclic.js/menu.png",
+    "jclic.js/musica.png",
+    "jclic.js/muy_bien.mp3",
+    "jclic.js/nacimiento.png",
+    "jclic.js/navidad2.jclic",
+    "jclic.js/nino.jesus.jpg",
+    "jclic.js/pan.jpg",
+    "jclic.js/pastel.gif",
+    "jclic.js/pernil.jpg",
+    "jclic.js/platos.png",
+    "jclic.js/pollo_agridulce_navidad1.jpg",
+    "jclic.js/rosa3.gif",
+    "jclic.js/texture6.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/navidad2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

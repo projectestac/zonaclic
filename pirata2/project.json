@@ -1,0 +1,137 @@
+{
+  "id": 2476,
+  "title": "Piratas",
+  "author": "Ana Claudia Mansueto - Dibuixos: Sergio Palao (ARASAAC.org)",
+  "date": "25/01/17",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences, Languages",
+    "ca": "Ciències socials, Llengües",
+    "es": "Ciencias sociales, Lenguas"
+  },
+  "areaCodes": [
+    "soc",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "comprensió escrita, vocabulari, societat",
+    "es": "comprensión escrita, vocabulario, sociedad",
+    "en": "written understanding, vocabulary, society"
+  },
+  "descCodes": [
+    111,
+    150,
+    344
+  ],
+  "description": {
+    "en": "This project contains activities related to the vocabulary of the world of pirates, in Spanish. Recommended for pre-school, special education and first cycle of primary education. Listen, read, write and learn the vocabulary of pirates.",
+    "ca": "En aquest projecte es treballa el vocabulari relacionat amb el món dels pirates, en castellà. Recomanat per Educació Infantil, Cicle Inicial i Educació Especial.\n<p> Escolta, llegeix, escriu i aprèn amb el vocabulari pirata. </p>",
+    "es": "En este proyecto se trabaja el vocabulario relacionado con el mundo de los piratas. Recomendado para Educación Infantil, Ciclo Inicial y Educación Especial. Escucha, lee, escribe y aprende con el vocabulario pirata."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/pirata2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pirata2.jclic.zip",
+  "instFile": "jclic/pirata2.jclic.inst",
+  "clicZoneId": 3985,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3985",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pirata2/jclic/pirata2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 36,
+  "mediaFiles": 55,
+  "totalSize": 2246387,
+  "files": [
+    "cover.png",
+    "jclic.js/ancla.mp3",
+    "jclic.js/ancla.png",
+    "jclic.js/ancla_con_fondo.png",
+    "jclic.js/bandera.mp3",
+    "jclic.js/bandera_pirata.png",
+    "jclic.js/barco.mp3",
+    "jclic.js/barco_pirata.png",
+    "jclic.js/barril.mp3",
+    "jclic.js/barril_arasaac.png",
+    "jclic.js/caballito_de_mar.png",
+    "jclic.js/caballito_de_mar__1_.mp3",
+    "jclic.js/catalejo.mp3",
+    "jclic.js/catalejo.png",
+    "jclic.js/cofre.mp3",
+    "jclic.js/cofre__1_.png",
+    "jclic.js/espada.png",
+    "jclic.js/estrella.mp3",
+    "jclic.js/estrella_de_mar.mp3",
+    "jclic.js/estrella_de_mar.png",
+    "jclic.js/garfio.mp3",
+    "jclic.js/garfio_arasaac.png",
+    "jclic.js/isla.mp3",
+    "jclic.js/isla.png",
+    "jclic.js/isla__1_.png",
+    "jclic.js/lago.mp3",
+    "jclic.js/lago.png",
+    "jclic.js/loro.mp3",
+    "jclic.js/loro.png",
+    "jclic.js/mapa.mp3",
+    "jclic.js/mapa.png",
+    "jclic.js/mapa_del_tesoro.mp3",
+    "jclic.js/mono.mp3",
+    "jclic.js/mono.png",
+    "jclic.js/montanas.mp3",
+    "jclic.js/montanas.png",
+    "jclic.js/parche.mp3",
+    "jclic.js/parche.png",
+    "jclic.js/pata_de_palo.mp3",
+    "jclic.js/pata_de_palo.png",
+    "jclic.js/pez.mp3",
+    "jclic.js/pez_payaso.png",
+    "jclic.js/pirata.mp3",
+    "jclic.js/pirata2.jclic",
+    "jclic.js/pirata2.jclic.js",
+    "jclic.js/pirata__1_.png",
+    "jclic.js/presentacion__inicial.png",
+    "jclic.js/pulpo.mp3",
+    "jclic.js/pulpo_arasaac.png",
+    "jclic.js/sable.mp3",
+    "jclic.js/sombrero.mp3",
+    "jclic.js/sombrero_de_pirata.mp3",
+    "jclic.js/sombrero_de_pirata.png",
+    "jclic.js/sonido_tormenta.mp3",
+    "jclic.js/tesoro.mp3",
+    "jclic.js/tesoro_arasaac.png",
+    "jclic.js/timon.png",
+    "jclic.js/timon__1_.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

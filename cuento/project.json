@@ -1,0 +1,109 @@
+{
+  "id": 1073,
+  "title": "La fiesta de Bubú Locomotoro",
+  "author": "Moncho Marín Calvo",
+  "school": "CP San Lorenzo de Ezcaray Ezcaray (La Rioja)",
+  "date": "04/11/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "comprensió escrita, conte",
+    "es": "comprensión escrita, cuento",
+    "en": "written understanding, story"
+  },
+  "descCodes": [
+    111,
+    614
+  ],
+  "description": {
+    "en": "This package of activities has two section : the first one presents a Spanish tale to be readed. The second one offers several activities about comprehension.",
+    "ca": "Activitats basades en un conte d'en Moncho Marín, on el mussol Bubú organitza una festa per a tots els seus amics del bosc. El paquet s'organitza en dues parts: \n<ul> \n <li>Primer es presenta el conte per a la seva lectura.<p> </p></li>\n <li>A la segona part es plantegen diversos tipus d'activitats de comprensió del text. </li>\n</ul>",
+    "es": "Actividades basadas en un cuento de Moncho Marín en el que el búho Bubú organiza una fiesta para todos sus amigos del bosque. El paquete se organiza en dos partes: \n<ul> \n <li>Primero se presenta el cuento para su lectura.<p> </p></li>\n <li>En la segunda parte se plantean distintos tipos de ejercicios de comprensión del texto. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cuento.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cuento.jclic.zip",
+  "instFile": "jclic/cuento.jclic.inst",
+  "clicZoneId": 2281,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2281",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cuento/jclic/cuento.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 29,
+  "totalSize": 1587128,
+  "files": [
+    "cover.jpg",
+    "jclic.js/acebos.jpg",
+    "jclic.js/acefru.jpg",
+    "jclic.js/acehoja.jpg",
+    "jclic.js/acetron.jpg",
+    "jclic.js/ataque.jpg",
+    "jclic.js/bubu1.jpg",
+    "jclic.js/bubu_a.jpg",
+    "jclic.js/cabezu.jpg",
+    "jclic.js/chotaca.jpg",
+    "jclic.js/ciervo4.jpg",
+    "jclic.js/cuento.jclic",
+    "jclic.js/dedo.gif",
+    "jclic.js/dedos.gif",
+    "jclic.js/duende1.jpg",
+    "jclic.js/escara.jpg",
+    "jclic.js/fiesta11.jpg",
+    "jclic.js/fifies1.jpg",
+    "jclic.js/finfi1.jpg",
+    "jclic.js/gemelos.jpg",
+    "jclic.js/llamada.jpg",
+    "jclic.js/maripo11.jpg",
+    "jclic.js/mb.gif",
+    "jclic.js/murciel.jpg",
+    "jclic.js/musa.jpg",
+    "jclic.js/pres2.jpg",
+    "jclic.js/pres33.jpg",
+    "jclic.js/simepi1.jpg",
+    "jclic.js/tejon.jpg",
+    "jclic.js/termitas.jpg",
+    "jclic.js/viboras.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cuento.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

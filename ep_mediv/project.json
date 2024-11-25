@@ -1,0 +1,125 @@
+{
+  "id": 2508,
+  "title": "L'època medieval",
+  "author": "Nerea Nicolás Fernández",
+  "school": "Escola Salvador Espriu Montgat (Maresme)",
+  "date": "28/03/17",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "feudalisme, història medieval",
+    "es": "feudalismo, historia medieval",
+    "en": "feudalism, medieval history"
+  },
+  "descCodes": [
+    228,
+    256
+  ],
+  "description": {
+    "en": "Interdisciplinary project about Middle ages. Activities works different issues like feudal society, constructions or the most common animals. Is addressed to primary education.",
+    "ca": "Projecte interdisciplinari a partir d'un centre d'interès: l'edat mitjana. Es treballen diferents vessants com la societat feudal, les construccions o els animals més comuns. Està adreçat al cicle inicial de primària.",
+    "es": "Proyecto interdisciplinario a partir de un centro de interés: la edad media. Se trabajan diferentes vertientes como la sociedad feudal, las construcciones o los animales más comunes. Está dirigido al ciclo inicial de primaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ep_mediv.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ep_mediv.jclic.zip",
+  "instFile": "jclic/ep_mediv.jclic.inst",
+  "clicZoneId": 4017,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=4017",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ep_mediv/jclic/ep_mediv.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 45,
+  "totalSize": 2862283,
+  "files": [
+    "cover.png",
+    "jclic.js/arc.jpg",
+    "jclic.js/artesano.jpg",
+    "jclic.js/artesans.mp3",
+    "jclic.js/ballesta2.jpg",
+    "jclic.js/caballero_r_.png",
+    "jclic.js/caballo_r_.jpg",
+    "jclic.js/camperols.mp3",
+    "jclic.js/campesina_p.jpg",
+    "jclic.js/campo_medieval_48e74_resized.jpg",
+    "jclic.js/casa_medieval.png",
+    "jclic.js/casco_medieval_lrg.jpg",
+    "jclic.js/castell.png",
+    "jclic.js/castillo_medieval.jpg",
+    "jclic.js/catmeow.mp3",
+    "jclic.js/cavalerls.mp3",
+    "jclic.js/cavallero.png",
+    "jclic.js/cow2.mp3",
+    "jclic.js/dibujar_una_oveja.gif",
+    "jclic.js/dibujos_perros_p.jpg",
+    "jclic.js/dogsbark.mp3",
+    "jclic.js/ep_mediv.jclic",
+    "jclic.js/ep_mediv.jclic.js",
+    "jclic.js/escudo_medieval_115177.jpg",
+    "jclic.js/esglesia.mp3",
+    "jclic.js/espada_medieval_metal_5853856z0.jpg",
+    "jclic.js/fletxa.jpg",
+    "jclic.js/gato.gif",
+    "jclic.js/goat.mp3",
+    "jclic.js/goat_drawing.gif",
+    "jclic.js/h6225_b.jpg",
+    "jclic.js/horse.mp3",
+    "jclic.js/iglesia_feudal.jpg",
+    "jclic.js/m_resized.jpg",
+    "jclic.js/m_resized1.jpg",
+    "jclic.js/monasterio.png",
+    "jclic.js/monje.jpg",
+    "jclic.js/muralla_urbana_de_uruena.jpg",
+    "jclic.js/nobles1.mp3",
+    "jclic.js/puente_levadizo_del_castillo_de_sobroso_en_vilasobsroso_resized.jpg",
+    "jclic.js/rei_resized.jpg",
+    "jclic.js/reillarg.mp3",
+    "jclic.js/reina_resized.jpg",
+    "jclic.js/salses_patio_500x375.jpg",
+    "jclic.js/sheep1.mp3",
+    "jclic.js/torre_de_homenaje_y_prision_de_solla.jpg",
+    "jclic.js/vaca.gif",
+    "jclic.js/vista_del_foso_y_de_la_muralla_exterior_del_castillo_de_medina_del_campo_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

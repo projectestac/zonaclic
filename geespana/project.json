@@ -1,0 +1,141 @@
+{
+  "id": 814,
+  "title": "Geografía de España - 2",
+  "author": "Moncho Marín Calvo",
+  "school": "CP San Lorenzo de Ezcaray Ezcaray (La Rioja)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia, Espanya",
+    "es": "geografía, España",
+    "en": "geography, Spain"
+  },
+  "descCodes": [
+    235,
+    499
+  ],
+  "description": {
+    "en": "Geography of Spain activity pack.\n<br> \n<ul><li>Geographical vocabulary </li>\n<li>Political map of Spain </li>\n<li>Landscape and climate </li>\n<li>Coasts </li>\n<li>Rivers </li>\n<li>Economy </li>\n<li>Population </li></ul>",
+    "ca": "En aquesta aplicació s'estudien diversos aspectes de la geografia d'Espanya:\n<br> \n<ul><li>Vocabulari geogràfic </li>\n<li>Espanya política </li>\n<li>Relleu i clima </li>\n<li>Costes </li>\n<li>Rius </li>\n<li>Economia </li>\n<li>Població<br> Las activitats estan adreçades a alumnes del tercer cicle de primària. </li></ul>",
+    "es": "En esta aplicación se estudian diferentes aspectos de la geografía de España:\n<br> \n<ul><li>Vocabulario geográfico </li>\n<li>España política </li>\n<li>Relieve y clima </li>\n<li>Costas </li>\n<li>Ríos </li>\n<li>Economía </li>\n<li>Población<br> Las actividades están destinadas a alumnos del tercer ciclo de primaria. </li></ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/geespana.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/geespana.jclic.zip",
+  "instFile": "jclic/geespana.jclic.inst",
+  "clicZoneId": 1452,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1452",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/geespana/jclic/geespana.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 64,
+  "mediaFiles": 47,
+  "totalSize": 1130830,
+  "files": [
+    "cover.gif",
+    "jclic.js/cos/cos.jclic",
+    "jclic.js/cos/dedo1.gif",
+    "jclic.js/cos/espa_a.gif",
+    "jclic.js/cos/mb1.gif",
+    "jclic.js/eco/dedo1.gif",
+    "jclic.js/eco/dedos1.gif",
+    "jclic.js/eco/eco.jclic",
+    "jclic.js/eco/eseco.gif",
+    "jclic.js/eco/eseco1.gif",
+    "jclic.js/eco/eseco2.gif",
+    "jclic.js/eco/eseco3.gif",
+    "jclic.js/eco/esindus.gif",
+    "jclic.js/eco/mb.gif",
+    "jclic.js/eco/mb1.gif",
+    "jclic.js/eco/rpcca1.gif",
+    "jclic.js/espan.jpg",
+    "jclic.js/geespana.jclic",
+    "jclic.js/pob/espobla.gif",
+    "jclic.js/pob/moltbe.gif",
+    "jclic.js/pob/pob.jclic",
+    "jclic.js/pol/caccaa.gif",
+    "jclic.js/pol/dedo1.gif",
+    "jclic.js/pol/dedos1.gif",
+    "jclic.js/pol/islas.gif",
+    "jclic.js/pol/islas1.gif",
+    "jclic.js/pol/mapapro.gif",
+    "jclic.js/pol/mb1.gif",
+    "jclic.js/pol/munici.gif",
+    "jclic.js/pol/municie.gif",
+    "jclic.js/pol/municie1.gif",
+    "jclic.js/pol/pol.jclic",
+    "jclic.js/rel/dedo1.gif",
+    "jclic.js/rel/dedos1.gif",
+    "jclic.js/rel/esclim.gif",
+    "jclic.js/rel/esclim1.gif",
+    "jclic.js/rel/esfis1.gif",
+    "jclic.js/rel/esfis11.gif",
+    "jclic.js/rel/esfis12.gif",
+    "jclic.js/rel/mb.gif",
+    "jclic.js/rel/mb1.gif",
+    "jclic.js/rel/parna.gif",
+    "jclic.js/rel/rel.jclic",
+    "jclic.js/ri/dedo1.gif",
+    "jclic.js/ri/dedos1.gif",
+    "jclic.js/ri/esrios1.gif",
+    "jclic.js/ri/esriosca.gif",
+    "jclic.js/ri/mb1.gif",
+    "jclic.js/ri/ri.jclic",
+    "jclic.js/vocab/dedo1.gif",
+    "jclic.js/vocab/dedos1.gif",
+    "jclic.js/vocab/mapa.jpg",
+    "jclic.js/vocab/mb.gif",
+    "jclic.js/vocab/mb1.gif",
+    "jclic.js/vocab/rosa.gif",
+    "jclic.js/vocab/vocab.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/geespana.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/cos/cos.jclic.js",
+    "jclic.js/eco/eco.jclic.js",
+    "jclic.js/pob/pob.jclic.js",
+    "jclic.js/pol/pol.jclic.js",
+    "jclic.js/rel/rel.jclic.js",
+    "jclic.js/ri/ri.jclic.js",
+    "jclic.js/vocab/vocab.jclic.js",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": 2621,
+  "title": "Els components d'un circuit elèctric",
+  "author": "Lidia Curiel",
+  "school": "Ins Federica Montseny - Badia del Vallès",
+  "date": "24/11/21",
+  "langCodes": [
+    "ca"
+  ],
+  "languages": {
+    "es": "catalán",
+    "ca": "català",
+    "en": "Catalan"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "areas": {
+    "es": "Tecnología",
+    "ca": "Tecnologies",
+    "en": "Design & technology"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "levels": {
+    "es": "Secundaria (12-16)",
+    "ca": "Secundària (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "description": {
+    "es": "Actividades para consolidar conocimientos sobre los componentes y elementos de los circuitos eléctricos y los tipos de corriente alterna y continua.",
+    "ca": "Activitats per consolidar coneixements sobre els components y elements dels circuits elèctrics i els tipus de corrent altern i continu.",
+    "en": "Activities to consolidate knowledge about the components and elements of electrical circuits and the difference between alternating current and direct current."
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "es",
+    "ca",
+    "en"
+  ],
+  "cover": "novaportada_electricitat-resized.jpg",
+  "thumbnail": "miniatura.jpg",
+  "mainFile": "jclic.js/electro.jclic",
+  "activities": 11,
+  "mediaFiles": 57,
+  "totalSize": 1342203,
+  "instFile": "jclic/electro.jclic.inst",
+  "zipFile": "jclic/electro.jclic.zip",
+  "files": [
+    "jclic.js/0commutador.jpg",
+    "jclic.js/0polsador.jpg",
+    "jclic.js/2_electrons.png",
+    "jclic.js/2protons.png",
+    "jclic.js/2tipus_corrent_esquema.jpg",
+    "jclic.js/acdc.jpg",
+    "jclic.js/atom_puzzle-resized.jpg",
+    "jclic.js/bateria-simbolo__2_.jpg",
+    "jclic.js/bombeta.jpg",
+    "jclic.js/bombilla.jpg",
+    "jclic.js/brunzidor.jpg",
+    "jclic.js/cable.jpg",
+    "jclic.js/cables.jpg",
+    "jclic.js/circuit_cc.jpg",
+    "jclic.js/circuit_cc2.jpg",
+    "jclic.js/clavija.jpg",
+    "jclic.js/commutador.jpg",
+    "jclic.js/commutador_2.jpg",
+    "jclic.js/components-resized.jpg",
+    "jclic.js/corrent_altern.jpg",
+    "jclic.js/corrent_continu.jpg",
+    "jclic.js/dinamo-1.jpg",
+    "jclic.js/dinamos.jpg",
+    "jclic.js/diodeled.jpg",
+    "jclic.js/diodo_led.jpg",
+    "jclic.js/electro.jclic",
+    "jclic.js/electro.jclic.js",
+    "jclic.js/enchufe-resized.jpg",
+    "jclic.js/favicon.ico",
+    "jclic.js/fusible2.jpg",
+    "jclic.js/fusibles.jpg",
+    "jclic.js/grafica_dc.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/interruptor-resized.jpg",
+    "jclic.js/interruptor.jpg",
+    "jclic.js/lavadora-resized.jpg",
+    "jclic.js/motor.jpg",
+    "jclic.js/motorcillo-resized.jpg",
+    "jclic.js/movil-resized.jpg",
+    "jclic.js/multimetre-resized.jpg",
+    "jclic.js/ohmetre.jpg",
+    "jclic.js/ordenador.jpg",
+    "jclic.js/pila.jpg",
+    "jclic.js/pila_petaca_interna.png",
+    "jclic.js/piles.jpg",
+    "jclic.js/polsador.jpg",
+    "jclic.js/proto_neutro.png",
+    "jclic.js/rele-resized1.jpg",
+    "jclic.js/rele_simbol.jpg",
+    "jclic.js/resistencia-resized.jpg",
+    "jclic.js/resistencia.jpg",
+    "jclic.js/secador-resized.jpg",
+    "jclic.js/timbre.jpg",
+    "jclic.js/toma_tierra.jpg",
+    "jclic.js/tomatierra.jpg",
+    "jclic.js/voltimetre.jpg",
+    "miniatura.jpg",
+    "novaportada_electricitat-resized.jpg",
+    "project.json"
+  ]
+}

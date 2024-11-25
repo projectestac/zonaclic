@@ -1,0 +1,122 @@
+{
+  "id": 1193,
+  "title": "Angelua Irekieta Eta Bira",
+  "author": "Maite Eguia",
+  "school": "Amaiur Ikastola Iruña (Navarra)",
+  "date": "26/11/04",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "description": {
+    "en": "Package with 19 activities addressed to Primary school with increasing level of difficulty activities. It has the following content:\n<br> \n<ul> \n <li>Angle parts: sides, vertex, bisecting </li>\n <li>Angle classification according to its shape and relation : straight, plane, obtuse, acute </li>\n <li>Measurement: hexadecimal degree, minute, second. </li>\n</ul>",
+    "ca": "Paquet de 19 activitats, adreçat a alumnes de 4t i 5è de primària, a on es realitzen activitats de grau creixent de dificultat, amb els següents continguts:\n<br> \n<ul> \n <li>Parts de l'angle: costats, vèrtex, bisectriu. </li>\n <li>Classificació segons la seva forma i relació: recte, pla, complet, agut, obtús, complementaris i suplementaris, oposats pel vèrtex i adjacents. </li>\n <li>Mesura: grau sexagesimal, minut, segon. Transportador d'angles. </li>\n</ul>",
+    "es": "Paquete de 19 actividades, dirigido a alumnos de 4º y 5º de primaria, en el que se realizan ejercicios en grado creciente de dificultad, con los siguientes contenidos:\n<br> \n<ul> \n <li>Partes del ángulo: lados, vértice, bisectriz. </li>\n <li>Clasificación según su forma y relación: recto, llano, completo, agudo, obtuso, complementarios y suplementarios, opuestos por el vértice y adyacentes. </li>\n <li>Medida: grado sexagesimal, minuto, segundo. Transportador de ángulos. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/angelu.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/angelu.jclic.zip",
+  "instFile": "jclic/angelu.jclic.inst",
+  "clicZoneId": 2800,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2800",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/angelu/jclic/angelu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 50,
+  "totalSize": 1521375,
+  "files": [
+    "cover.jpg",
+    "jclic.js/125g.gif",
+    "jclic.js/150g.gif",
+    "jclic.js/180g.gif",
+    "jclic.js/55g.gif",
+    "jclic.js/70g.gif",
+    "jclic.js/90g.gif",
+    "jclic.js/90gid.gif",
+    "jclic.js/abaniko.gif",
+    "jclic.js/angelu.jclic",
+    "jclic.js/arras.wav",
+    "jclic.js/atea.gif",
+    "jclic.js/auzokid.gif",
+    "jclic.js/betegar.gif",
+    "jclic.js/bira.wav",
+    "jclic.js/bira1.gif",
+    "jclic.js/bira2.gif",
+    "jclic.js/borobil.gif",
+    "jclic.js/definizi.gif",
+    "jclic.js/erdikari.gif",
+    "jclic.js/erlazio.gif",
+    "jclic.js/erloju.gif",
+    "jclic.js/erpinez.gif",
+    "jclic.js/fracta2b.gif",
+    "jclic.js/fractal2.gif",
+    "jclic.js/gr100.gif",
+    "jclic.js/gr115.gif",
+    "jclic.js/gr150.gif",
+    "jclic.js/gr36.gif",
+    "jclic.js/gr75.gif",
+    "jclic.js/gradua.gif",
+    "jclic.js/ireki.gif",
+    "jclic.js/ireki.wav",
+    "jclic.js/irekie.gif",
+    "jclic.js/laua1.gif",
+    "jclic.js/liburu.gif",
+    "jclic.js/mapakon.gif",
+    "jclic.js/memori1.gif",
+    "jclic.js/memori2.gif",
+    "jclic.js/memori3.gif",
+    "jclic.js/memori4.gif",
+    "jclic.js/memori5.gif",
+    "jclic.js/memori6.gif",
+    "jclic.js/ondoz.gif",
+    "jclic.js/ongi.wav",
+    "jclic.js/osagar.gif",
+    "jclic.js/osatua1.gif",
+    "jclic.js/sants.mid",
+    "jclic.js/txalo.wav",
+    "jclic.js/zirkulu.gif",
+    "jclic.js/zuzen.wav",
+    "jclic.js/zuzena1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/angelu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

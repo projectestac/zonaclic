@@ -1,0 +1,82 @@
+{
+  "id": 1170,
+  "title": "Estados y capitales de México",
+  "author": "Heriberta Escobar López",
+  "school": "Centro Escolar Américas Xalapa (México)",
+  "date": "14/06/04",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia",
+    "es": "geografía",
+    "en": "geography"
+  },
+  "descCodes": [
+    235
+  ],
+  "description": {
+    "en": "Package of activities focused on puzzles and letter soups about the states of Mexico and its capitals.",
+    "ca": "Exercicis sobre els noms dels estats de Mèxic i les seves capitals: trencaclosques, associacions, puzzles...",
+    "es": "Paquete de actividades a base de puzzles, asociaciones y sopas de letras sobre los estados y las capitales del país de México."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/estcap.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/estcap.jclic.zip",
+  "instFile": "jclic/estcap.jclic.inst",
+  "clicZoneId": 2648,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2648",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/estcap/jclic/estcap.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 3,
+  "totalSize": 202939,
+  "files": [
+    "cover.gif",
+    "jclic.js/dibujo.gif",
+    "jclic.js/estcap.jclic",
+    "jclic.js/mapa2.gif",
+    "jclic.js/mapa_m_1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/estcap.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

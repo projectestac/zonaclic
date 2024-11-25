@@ -1,0 +1,136 @@
+{
+  "id": 1753,
+  "title": "Sant Jordi's legend",
+  "author": "Elena Lloses Sala i Josep Contreras González",
+  "school": "Escola Doctor Ferrer Artés (Bages)",
+  "date": "11/04/08",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, llengua catalana, conte",
+    "es": "lengua inglesa, lengua catalana, cuento",
+    "en": "English language, Catalan language, story"
+  },
+  "descCodes": [
+    130,
+    133,
+    614
+  ],
+  "description": {
+    "en": "Two projects of activities about Saint Jordi's Legend.\n<p> The first one is written in English and it is addressed to primary education. The second one is written in Catalan ant it has three different parts: p4, p5 and primary education. </p>",
+    "ca": "Dos projectes d'activitats sobre la llegenda de Sant Jordi\n<p> El primer d'ells el trobem en llengua anglesa i està adreçat a cicle mitjà i superior de primària. </p>\n<p>El segon d'ells, en llengua catalana, està dividit en tres parts diferents: una per a p4, una altra per a p5 i l'última per a cicle inicial. </p>",
+    "es": "Dos proyectos de actividades sobre la leyenda de \n<i>Sant Jordi</i>.\n<p> El primero de ellos lo encontramos en lengua inglesa y está dirigido a ciclo medio y superior de primaria.</p>\n<p> El segundo de ellos, en lengua catalana está dividido en tres partes diferentes: una para p4, otra para p5 y la útima para ciclo inicial. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "stjordi"
+  ],
+  "mainFile": "jclic.js/sjordien.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sjordien.jclic.zip",
+  "instFile": "jclic/sjordien.jclic.inst",
+  "clicZoneId": 3450,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3450",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sjordien/jclic/sjordien.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 42,
+  "mediaFiles": 51,
+  "totalSize": 2887854,
+  "files": [
+    "cover.gif",
+    "jclic.js/133668356_ee65f17fbd.jpg",
+    "jclic.js/aplaudiment.mp3",
+    "jclic.js/blood.jpg",
+    "jclic.js/castellc.jpg",
+    "jclic.js/castle1.jpg",
+    "jclic.js/castle2.jpg",
+    "jclic.js/castle3.jpg",
+    "jclic.js/castle4.jpg",
+    "jclic.js/cavaller_donant_rosac.jpg",
+    "jclic.js/cavaller_mata_dracc.jpg",
+    "jclic.js/cavallerc.jpg",
+    "jclic.js/drac1.jpg",
+    "jclic.js/drac2.jpg",
+    "jclic.js/drac3.jpg",
+    "jclic.js/drac4.jpg",
+    "jclic.js/drac5.jpg",
+    "jclic.js/drac6.jpg",
+    "jclic.js/drac_empaitant_princesac.jpg",
+    "jclic.js/dracc.jpg",
+    "jclic.js/dragon.jpg",
+    "jclic.js/ebglishactivities.mp3",
+    "jclic.js/english4_veu.mp3",
+    "jclic.js/english5_veu.mp3",
+    "jclic.js/english6_veu.mp3",
+    "jclic.js/english7_veu.mp3",
+    "jclic.js/five.wav",
+    "jclic.js/four.wav",
+    "jclic.js/goodwork.mp3",
+    "jclic.js/i01_castellc.jpg",
+    "jclic.js/i01_dracc.jpg",
+    "jclic.js/i01_english1_veu.mp3",
+    "jclic.js/i01_english3_veu.mp3",
+    "jclic.js/i01_english_two_veu.wav",
+    "jclic.js/imagen1.jpg",
+    "jclic.js/missatges.gif",
+    "jclic.js/one.wav",
+    "jclic.js/portada.jpg",
+    "jclic.js/portadatreball.jpg",
+    "jclic.js/princes.jpg",
+    "jclic.js/princesac.jpg",
+    "jclic.js/rosa.gif",
+    "jclic.js/rosa.jpg",
+    "jclic.js/saint_jordi_image.jpg",
+    "jclic.js/secondcicle.mp3",
+    "jclic.js/six.wav",
+    "jclic.js/sjordien.jclic",
+    "jclic.js/thirdcicle.mp3",
+    "jclic.js/three.wav",
+    "jclic.js/tryagain.mp3",
+    "jclic.js/two.wav",
+    "jclic.js/verywell.mp3",
+    "jclic.js/youcandoitbeter.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sjordien.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

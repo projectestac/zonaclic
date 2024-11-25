@@ -1,0 +1,150 @@
+{
+  "id": 863,
+  "title": "Dado",
+  "author": "Antoni Climent, Encarna Balaguer, M. Carmen Querol, M. de las Mercedes Sañudo, M. Dolores Domingo, M. Esperanza Baticón, M. Teresa Solera, Mar Aparisi i Óscar Guiral",
+  "school": "CP Ausiàs March Mislata (Horta Oest)",
+  "date": "03/01/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Diversos",
+    "es": "Diversos",
+    "en": "Miscellaneous"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)",
+    "en": "Kindergarten (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "sèries",
+    "es": "series",
+    "en": "series"
+  },
+  "descCodes": [
+    944
+  ],
+  "description": {
+    "en": "Set of activities with associations, jigsaws, memory games... about the characteristics of dices (six faces, six numbers, etc)",
+    "ca": "Paquet per a educació infantil on, prenent com a centre d'interès les característiques d'un dau (forma cúbica, sis cares, sis nombres...) es plantegen activitats d'associació, de memòria, trencaclosques, etc.",
+    "es": "Paquete para educación infantil en el que, tomando como centro de interés las características de un dado (forma cúbica, seis caras, seis números...) se plantean diversas actividades de asociación, de memoria, puzzles, etc."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "dau",
+    "daueus"
+  ],
+  "mainFile": "jclic.js/daues.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/daues.jclic.zip",
+  "instFile": "jclic/daues.jclic.inst",
+  "clicZoneId": 2001,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2001",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/daues/jclic/daues.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 36,
+  "mediaFiles": 67,
+  "totalSize": 477088,
+  "files": [
+    "cover.gif",
+    "jclic.js/301a.gif",
+    "jclic.js/301b.gif",
+    "jclic.js/301c.gif",
+    "jclic.js/301f3.gif",
+    "jclic.js/302a.gif",
+    "jclic.js/302f1.gif",
+    "jclic.js/303a.gif",
+    "jclic.js/303c.gif",
+    "jclic.js/303f.gif",
+    "jclic.js/303m.gif",
+    "jclic.js/401munto.gif",
+    "jclic.js/4022daus.gif",
+    "jclic.js/402ninot.gif",
+    "jclic.js/4033daus.gif",
+    "jclic.js/403ninot.gif",
+    "jclic.js/4041dau.gif",
+    "jclic.js/404ninot.gif",
+    "jclic.js/4052daus.gif",
+    "jclic.js/405ninot.gif",
+    "jclic.js/406daus.gif",
+    "jclic.js/406ninot.gif",
+    "jclic.js/407dau.gif",
+    "jclic.js/407ninot.gif",
+    "jclic.js/408tresd.gif",
+    "jclic.js/409sisd.gif",
+    "jclic.js/410fruit.gif",
+    "jclic.js/410g_m_x.gif",
+    "jclic.js/411blanc.gif",
+    "jclic.js/4122daus.gif",
+    "jclic.js/412numer.gif",
+    "jclic.js/413fruit.gif",
+    "jclic.js/414puzz.gif",
+    "jclic.js/415numer.gif",
+    "jclic.js/415sumes.gif",
+    "jclic.js/416missa.gif",
+    "jclic.js/416numer.gif",
+    "jclic.js/416punts.gif",
+    "jclic.js/417grups.gif",
+    "jclic.js/417numer.gif",
+    "jclic.js/418para.gif",
+    "jclic.js/418parau.gif",
+    "jclic.js/419d_d.gif",
+    "jclic.js/422mide2.gif",
+    "jclic.js/422mides.gif",
+    "jclic.js/4cara.gif",
+    "jclic.js/4cara2.gif",
+    "jclic.js/4dadet.gif",
+    "jclic.js/6043dado.gif",
+    "jclic.js/608nu123.gif",
+    "jclic.js/6103daus.gif",
+    "jclic.js/801daus6.gif",
+    "jclic.js/801mf.gif",
+    "jclic.js/801mi.gif",
+    "jclic.js/801num6.gif",
+    "jclic.js/802mi.gif",
+    "jclic.js/802nom6n.gif",
+    "jclic.js/8033colo.gif",
+    "jclic.js/8033dcol.gif",
+    "jclic.js/803mi.gif",
+    "jclic.js/804droig.gif",
+    "jclic.js/804mi.gif",
+    "jclic.js/805mi.gif",
+    "jclic.js/806compt.gif",
+    "jclic.js/daues.jclic",
+    "jclic.js/p3.gif",
+    "jclic.js/p4.gif",
+    "jclic.js/p5.gif",
+    "jclic.js/portada.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/daues.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

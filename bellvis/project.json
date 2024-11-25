@@ -1,0 +1,121 @@
+{
+  "id": 845,
+  "title": "Bellvís",
+  "author": "Jordi Aumedes Castells",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "anàlisi històrica, Bellvís",
+    "es": "análisis histórico, Bellvís",
+    "en": "historical analysis, Bellvís"
+  },
+  "descCodes": [
+    155,
+    934
+  ],
+  "description": {
+    "en": "Clic activities about Bellvís, a town in Catalonia.",
+    "ca": "Paquet d'activitats sobre la localitat de Bellvís, al Pla d'Urgell: localització, història, edificis i carrers singulars, economia, etc.",
+    "es": "Paquete de actividades sobre la localidad de Bellvís, en la comarca catalana del Pla d'Urgell: localización, historia, edificios y calles singulares, economía, etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/bellvis.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/bellvis.jclic.zip",
+  "instFile": "jclic/bellvis.jclic.inst",
+  "clicZoneId": 1476,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1476",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/bellvis/jclic/bellvis.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 42,
+  "totalSize": 969123,
+  "files": [
+    "cover.gif",
+    "jclic.js/ajunta1.jpg",
+    "jclic.js/basquet.gif",
+    "jclic.js/basquet1.gif",
+    "jclic.js/bellvis.jclic",
+    "jclic.js/carri1.gif",
+    "jclic.js/carrilet.gif",
+    "jclic.js/cope1.gif",
+    "jclic.js/cope2.gif",
+    "jclic.js/cope3.gif",
+    "jclic.js/escu113.gif",
+    "jclic.js/escu114.gif",
+    "jclic.js/escu118.gif",
+    "jclic.js/escu121.gif",
+    "jclic.js/escu127.gif",
+    "jclic.js/escut2.gif",
+    "jclic.js/escut3.gif",
+    "jclic.js/escut5.gif",
+    "jclic.js/escutb_1.gif",
+    "jclic.js/escutp.gif",
+    "jclic.js/esgle1.jpg",
+    "jclic.js/esglesia.jpg",
+    "jclic.js/futbol.gif",
+    "jclic.js/futbol1.gif",
+    "jclic.js/gega1.jpg",
+    "jclic.js/motor.gif",
+    "jclic.js/passe1.jpg",
+    "jclic.js/plan3.gif",
+    "jclic.js/plan4.gif",
+    "jclic.js/plaurg1.gif",
+    "jclic.js/plaurge.gif",
+    "jclic.js/pou1.gif",
+    "jclic.js/pou2.gif",
+    "jclic.js/pou3.gif",
+    "jclic.js/santuari.jpg",
+    "jclic.js/sarda1.gif",
+    "jclic.js/sarda2.gif",
+    "jclic.js/sarda3.gif",
+    "jclic.js/seat.gif",
+    "jclic.js/situacio.gif",
+    "jclic.js/sogues1.gif",
+    "jclic.js/titol1.jpg",
+    "jclic.js/xino1.gif",
+    "jclic.js/xino3.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/bellvis.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

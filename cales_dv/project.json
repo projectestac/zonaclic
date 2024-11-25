@@ -1,0 +1,94 @@
+{
+  "id": 1162,
+  "title": "La calesita del bosque (Discapacidad visual baja visión)",
+  "author": "María Elena Abalo",
+  "date": "17/11/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua",
+    "es": "aprendizaje de la lengua",
+    "en": "learning of the language"
+  },
+  "descCodes": [
+    110
+  ],
+  "description": {
+    "en": "This package is about \"La calesita del bosque\", a Berta Finckel 's tale. The activity is addressed to pupils of Primary School.\n<br> It is adapted for low vision impaired children.",
+    "ca": "Aquest paquet d'activitats està basat en un conte titulat \"La calesita del bosque\" de Berta Finkel i s'ha extret del llibre \"La palabra y su mundo\".\n<br> Està destinat a alumnes d'Educació Primària i consisteix en la lectura del conte, preguntes, ordenar oracions, trencaclosques, sopes de lletres, relacionar, etc.\n<br> Adaptat per discapacitat visual baixa visió.",
+    "es": "El paquete de actividades está basado en un cuento titulado \"La calesita del bosque\" de Berta Finkel y ha sido extraído del libro \"La palabra y su mundo\".\n<br> Está destinado a alumnos de Educación primaria y consiste en la lectura del cuento, preguntas, ordenar oraciones, rompecabezas, sopa de letras, relacionar, etc.\n<br>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "calesita"
+  ],
+  "mainFile": "jclic.js/cales_dv.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cales_dv.jclic.zip",
+  "instFile": "jclic/cales_dv.jclic.inst",
+  "clicZoneId": 2641,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2641",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cales_dv/jclic/cales_dv.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 41,
+  "mediaFiles": 13,
+  "totalSize": 276524,
+  "files": [
+    "cover.gif",
+    "jclic.js/10cari.gif",
+    "jclic.js/avestruz1.gif",
+    "jclic.js/caballo.gif",
+    "jclic.js/caballopzz.gif",
+    "jclic.js/cales_dv.jclic",
+    "jclic.js/cebra.gif",
+    "jclic.js/cisne.gif",
+    "jclic.js/donjo.gif",
+    "jclic.js/elefante.gif",
+    "jclic.js/find.gif",
+    "jclic.js/gato.gif",
+    "jclic.js/mariposa.gif",
+    "jclic.js/presenta.gif",
+    "jclic.js/vaca.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cales_dv.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

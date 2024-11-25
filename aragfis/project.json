@@ -1,0 +1,93 @@
+{
+  "id": 844,
+  "title": "Aragón: Geografía Física",
+  "author": "Javier Redrado Marín",
+  "school": "Colegio Sagrado Corazón de Jesús Zaragoza (Aragón)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geografia física",
+    "es": "geografía física",
+    "en": "physical geography"
+  },
+  "descCodes": [
+    237
+  ],
+  "description": {
+    "en": "Clic activities about physical geography in Aragón (Spain).",
+    "ca": "Paquet d'activitats sobre la geografia física d'Aragó: situació, i límits, massissos muntanyosos, rius i afluents, llacs... organitzades a partir de les tres grans unitats físiques de la comunitat: el sistema Ibèric, la depressió de l'Ebre i els Pirineus.",
+    "es": "Paquete de actividades sobre la Geografía Física de Aragón: situación y límites, macizos montañosos, ríos y afluentes, lagunas e ibones... organizadas a partir de las tres grandes unidades físicas de la comunidad: la Depresión del Ebro, los Pirineos y el Sistema Ibérico."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/aragfis.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/aragfis.jclic.zip",
+  "instFile": "jclic/aragfis.jclic.inst",
+  "clicZoneId": 1475,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1475",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/aragfis/jclic/aragfis.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 13,
+  "totalSize": 332684,
+  "files": [
+    "cover.gif",
+    "jclic.js/3_2_f0.gif",
+    "jclic.js/alba.jpg",
+    "jclic.js/aragfis.jclic",
+    "jclic.js/aragon.gif",
+    "jclic.js/mapa2.gif",
+    "jclic.js/mapaescu.gif",
+    "jclic.js/mapari03.gif",
+    "jclic.js/monc.jpg",
+    "jclic.js/monegro.jpg",
+    "jclic.js/ordesa.jpg",
+    "jclic.js/pack2.jpg",
+    "jclic.js/pack3.jpg",
+    "jclic.js/portgf.gif",
+    "jclic.js/pro1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/aragfis.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": 1640,
+  "title": "Dibujo técnico",
+  "author": "Concha Giovanetti Fdez de Henestrosa",
+  "school": "IES Tamujal Arroyo de San Serván (Extremadura)",
+  "date": "15/01/07",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Design & technology",
+    "ca": "Tecnologies",
+    "es": "Tecnología"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "dibuix tècnic",
+    "es": "dibujo técnico",
+    "en": "technical drawing"
+  },
+  "descCodes": [
+    732
+  ],
+  "description": {
+    "en": "Activities about technical drawing, some of them, based on a book of Technology of the Oxford publishing house.",
+    "ca": "Activitats sobre dibuix tècnic, algunes d'elles, basades en el llibre de Tecnologia de 1r d'ESO de l'editorial Oxford.",
+    "es": "Actividades sobre el dibujo técnico, algunas de ellas, basadas en el libro de Tecnología de 1º de ESO de la editorial Oxford."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/matdibu.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/matdibu.jclic.zip",
+  "instFile": "jclic/matdibu.jclic.inst",
+  "clicZoneId": 3348,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3348",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/matdibu/jclic/matdibu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 37,
+  "totalSize": 496782,
+  "files": [
+    "cover.gif",
+    "jclic.js/alzadcab.gif",
+    "jclic.js/alzadois.gif",
+    "jclic.js/boceto.gif",
+    "jclic.js/cartabon.gif",
+    "jclic.js/cartabonfoto.gif",
+    "jclic.js/cartabonletra.gif",
+    "jclic.js/compas.gif",
+    "jclic.js/compasfoto.gif",
+    "jclic.js/compasletra.gif",
+    "jclic.js/croquis.gif",
+    "jclic.js/escuadra.gif",
+    "jclic.js/escuadrafoto.gif",
+    "jclic.js/escuadraletra.gif",
+    "jclic.js/escuc105.gif",
+    "jclic.js/escuc150.gif",
+    "jclic.js/escuc165.gif",
+    "jclic.js/escuca15.gif",
+    "jclic.js/escuca75.gif",
+    "jclic.js/goma.gif",
+    "jclic.js/isometri.gif",
+    "jclic.js/lapiz.gif",
+    "jclic.js/lapizcol.gif",
+    "jclic.js/matdibu.jclic",
+    "jclic.js/papelboc.gif",
+    "jclic.js/papelveg.gif",
+    "jclic.js/perfdeca.gif",
+    "jclic.js/perfizis.gif",
+    "jclic.js/plantaca.gif",
+    "jclic.js/plantais.gif",
+    "jclic.js/portaangulosfoto.gif",
+    "jclic.js/portaangulosletra.gif",
+    "jclic.js/portamin.gif",
+    "jclic.js/regla.gif",
+    "jclic.js/reglafoto.gif",
+    "jclic.js/reglaletra.gif",
+    "jclic.js/rotulado.gif",
+    "jclic.js/transpor.gif",
+    "jclic.js/trazarparalelas.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/matdibu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

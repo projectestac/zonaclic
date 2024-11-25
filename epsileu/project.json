@@ -1,0 +1,149 @@
+{
+  "id": 971,
+  "title": "€psilon, €psilon! (euskaraz)",
+  "author": "Jesús Bramón Gifra",
+  "school": "Centre d'autoformació \"PLa de l'Estany\" Pla de l'estany (Catalunya)",
+  "date": "11/11/03",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)",
+    "en": "Primary school (6-12), Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "càlcul, euro",
+    "es": "cálculo, euro",
+    "en": "calculation, euro"
+  },
+  "descCodes": [
+    702,
+    792
+  ],
+  "description": {
+    "en": "Package of activities about the Euro. There are four sections : \n<ul> \n <li>The six times table </li>\n <li>Exact price with coins </li>\n <li>Weigh with euros </li>\n <li>Giving change. </li>\n</ul>",
+    "ca": "Paquet d'activitats sobre l'Euro, organitzat en quatre apartats: \n<ul> \n <li>Taula del sis </li>\n <li>Preu exacte amb monedes </li>\n <li>Passar a euros </li>\n <li>Tornar canvi. </li>\n</ul> Està pensat per a formació d'adults i nivell superior de primària.",
+    "es": "Paquete de actividades sobre el Euro, organizado en cuatro apartados: \n<ul> \n <li>Tabla del seis </li>\n <li>Precio exacto con monedas </li>\n <li>Pasar a euros </li>\n <li>Devolver cambio </li>\n</ul> Está pensado para la formación de adultos y nivel superior de primaria."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "epsiloga",
+    "epsilon"
+  ],
+  "mainFile": "jclic.js/epsileu.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/epsileu.jclic.zip",
+  "instFile": "jclic/epsileu.jclic.inst",
+  "clicZoneId": 2061,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2061",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/epsileu/jclic/epsileu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 71,
+  "mediaFiles": 56,
+  "totalSize": 1104080,
+  "files": [
+    "cover.gif",
+    "jclic.js/bandera.gif",
+    "jclic.js/epsileu.jclic",
+    "jclic.js/epsilon2.gif",
+    "jclic.js/imaintro.gif",
+    "jclic.js/objectes/1ecomjpg.gif",
+    "jclic.js/objectes/5eurofr.gif",
+    "jclic.js/objectes/adapbany.gif",
+    "jclic.js/objectes/artua.gif",
+    "jclic.js/objectes/balsam.gif",
+    "jclic.js/objectes/bandera.gif",
+    "jclic.js/objectes/cal.gif",
+    "jclic.js/objectes/cesto.gif",
+    "jclic.js/objectes/cocacola.gif",
+    "jclic.js/objectes/colon.gif",
+    "jclic.js/objectes/cordol_1.gif",
+    "jclic.js/objectes/dvdvid_1.gif",
+    "jclic.js/objectes/elton.gif",
+    "jclic.js/objectes/espasa.gif",
+    "jclic.js/objectes/eurocalc.gif",
+    "jclic.js/objectes/fregid_1.gif",
+    "jclic.js/objectes/fresas.gif",
+    "jclic.js/objectes/guants.gif",
+    "jclic.js/objectes/lechuga.gif",
+    "jclic.js/objectes/llobarro.gif",
+    "jclic.js/objectes/manzanas.gif",
+    "jclic.js/objectes/maquin_1.gif",
+    "jclic.js/objectes/minica_1.gif",
+    "jclic.js/objectes/objectes.jclic",
+    "jclic.js/objectes/pilota.gif",
+    "jclic.js/objectes/rellot_1.gif",
+    "jclic.js/objectes/termod_1.gif",
+    "jclic.js/objectes/termomer.gif",
+    "jclic.js/objectes/tirites.gif",
+    "jclic.js/objectes/torres.gif",
+    "jclic.js/objectes/tovall_1.gif",
+    "jclic.js/objectes/wiski.gif",
+    "jclic.js/objectes/xampu.gif",
+    "jclic.js/pagojust/10ccomjp.gif",
+    "jclic.js/pagojust/1ccomjpg.gif",
+    "jclic.js/pagojust/1ecomjpg.gif",
+    "jclic.js/pagojust/20ccomjp.gif",
+    "jclic.js/pagojust/2ccomjpg.gif",
+    "jclic.js/pagojust/2ecomjpg.gif",
+    "jclic.js/pagojust/50ccomjp.gif",
+    "jclic.js/pagojust/5ccomjpg.gif",
+    "jclic.js/pagojust/epsilon.gif",
+    "jclic.js/pagojust/pagojust.jclic",
+    "jclic.js/taula6/bandera.gif",
+    "jclic.js/taula6/taula6.jclic",
+    "jclic.js/tcanvi/100eurof.gif",
+    "jclic.js/tcanvi/10eurofr.gif",
+    "jclic.js/tcanvi/1ecomjpg.gif",
+    "jclic.js/tcanvi/200eurof.gif",
+    "jclic.js/tcanvi/20eurofr.gif",
+    "jclic.js/tcanvi/2ecomjpg.gif",
+    "jclic.js/tcanvi/500eurof.gif",
+    "jclic.js/tcanvi/50ccomjp.gif",
+    "jclic.js/tcanvi/50eurofr.gif",
+    "jclic.js/tcanvi/5eurofr.gif",
+    "jclic.js/tcanvi/epsilon.gif",
+    "jclic.js/tcanvi/tcanvi.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/epsileu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/objectes/objectes.jclic.js",
+    "jclic.js/pagojust/pagojust.jclic.js",
+    "jclic.js/taula6/taula6.jclic.js",
+    "jclic.js/tcanvi/tcanvi.jclic.js",
+    "cover.webp"
+  ]
+}

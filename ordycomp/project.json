@@ -1,0 +1,121 @@
+{
+  "id": 2531,
+  "title": "El ordenador y sus componentes",
+  "author": "Mónica Albiñana Cid, Enrique Boix López, Roberto Herrero Ramos",
+  "school": "IES Vicent Andrés Estellés (Burjassot)",
+  "date": "20/01/17",
+  "langCodes": [
+    "es"
+  ],
+  "languages": {
+    "es": "español",
+    "ca": "espanyol",
+    "en": "Spanish"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "areas": {
+    "es": "Tecnología, Tecnología e informática",
+    "ca": "Tecnologies, Tecnología e informática",
+    "en": "Design & technology, Tecnología e informática"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "levels": {
+    "es": "Secundaria (12-16)",
+    "ca": "Secundària (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "description": {
+    "es": "Conjunto de actividades sobre el ordenador y sus componentes. Se trabaja el concepto de informática, sistema operativo, hardware y software. Consta de actividades para relacionar, identificar y ordenar.",
+    "ca": "Conjunt d'activitats sobre l'ordinador i els seus components. Es treballa el concepte d'informàtica, sistema operatiu, hardware i software. Consta d'activitats per relacionar, identificar i ordenar.",
+    "en": "Pack of activities about computer and its components. The concept of computing, operating system, hardware and software is worked on. It consists of activities to relate, identify and order."
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "es",
+    "ca",
+    "en"
+  ],
+  "cover": "ordycomp.png",
+  "coverWebp": "ordycomp.webp",
+  "thumbnail": "ordycomp100.png",
+  "mainFile": "jclic.js/ordycomp.jclic",
+  "activities": 38,
+  "mediaFiles": 58,
+  "totalSize": 962194,
+  "instFile": "jclic/ordycomp.jclic.inst",
+  "zipFile": "jclic/ordycomp.jclic.zip",
+  "files": [
+    "jclic.js/altavoces.jpg",
+    "jclic.js/androi.png",
+    "jclic.js/auriculares.jpg",
+    "jclic.js/base.jpg",
+    "jclic.js/bios.jpg",
+    "jclic.js/buses.jpg",
+    "jclic.js/calc1.jpg",
+    "jclic.js/camara_web.jpg",
+    "jclic.js/carcasa.jpg",
+    "jclic.js/chrome.jpg",
+    "jclic.js/disco_duro_ext.jpg",
+    "jclic.js/disco_duro_extero.jpg",
+    "jclic.js/disco_duro_int.jpg",
+    "jclic.js/draw.jpg",
+    "jclic.js/escaner.jpg",
+    "jclic.js/favicon.ico",
+    "jclic.js/firefox.jpg",
+    "jclic.js/formation-libre-office.png",
+    "jclic.js/fuente_alimentacion.jpg",
+    "jclic.js/gimp.jpg",
+    "jclic.js/hardware.jpg",
+    "jclic.js/hardware__componentes_e_perifericos.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/impresora.jpg",
+    "jclic.js/impress1.jpg",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/ios.png",
+    "jclic.js/java.png",
+    "jclic.js/linux.jpg",
+    "jclic.js/lliurrex.png",
+    "jclic.js/memorias_ram.jpg",
+    "jclic.js/microauriculares.jpg",
+    "jclic.js/microfono.jpg",
+    "jclic.js/microsoft.jpg",
+    "jclic.js/monitor.jpg",
+    "jclic.js/msdos.png",
+    "jclic.js/openoffice.png",
+    "jclic.js/ordenador_sobremesa.jpg",
+    "jclic.js/ordycomp.jclic",
+    "jclic.js/ordycomp.jclic.js",
+    "jclic.js/perifericos.jpg",
+    "jclic.js/placa_base.jpg",
+    "jclic.js/powerpoint.jpg",
+    "jclic.js/procesador.jpg",
+    "jclic.js/proyector.jpg",
+    "jclic.js/raton.jpg",
+    "jclic.js/router.jpg",
+    "jclic.js/siluetas.png",
+    "jclic.js/software.jpg",
+    "jclic.js/tarjeta_de_sonido.jpg",
+    "jclic.js/tarjetas_de_memoria.jpg",
+    "jclic.js/teclado.jpg",
+    "jclic.js/usb.jpg",
+    "jclic.js/ventilador.jpg",
+    "jclic.js/vlc.jpg",
+    "jclic.js/windows.jpg",
+    "jclic.js/witer.jpg",
+    "jclic.js/writer1.png",
+    "ordycomp.png",
+    "ordycomp100.png",
+    "project.json",
+    "ordycomp.webp"
+  ]
+}

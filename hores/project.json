@@ -1,0 +1,100 @@
+{
+  "id": 1655,
+  "title": "Les hores",
+  "author": "Carles Pahisa i Solanas",
+  "school": "C Proa Barcelona",
+  "date": "01/03/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "temps",
+    "es": "tiempo",
+    "en": "time"
+  },
+  "descCodes": [
+    1368
+  ],
+  "description": {
+    "en": "Project of activities about the hours in Catalan. Throughout the project several activities can be found to learn how to read the hours, relating the analog format with the digital format, writting the houres, etc...",
+    "ca": "Projecte d'activitats per a l'aprenentatge de les hores en català i veure les diferències entre la forma analògica i la digital. Al llarg del projecte trobem activitats d'informació per aprendre com es llegeixen les hores, també activitats de relacionar hores en format analògic amb hores en format digital, escriptura de les hores, etc.",
+    "es": "Proyecto de actividades para el aprendizaje de las horas en catalán y ver las diferencias entre la forma analógica y la digital. A lo largo del proyecto encontramos actividades para aprender como se leen las horas en catalán, encontramos también actividades de relacionar horas en formato analógicos con horas en formato digital, escritura de las horas, etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/hores.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/hores.jclic.zip",
+  "instFile": "jclic/hores.jclic.inst",
+  "clicZoneId": 3364,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3364",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/hores/jclic/hores.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 21,
+  "totalSize": 972543,
+  "files": [
+    "cover.jpg",
+    "jclic.js/11.jpg",
+    "jclic.js/11_i_10.jpg",
+    "jclic.js/1q_i_10de1.jpg",
+    "jclic.js/1q_i_10de10.jpg",
+    "jclic.js/1q_i_5de10.jpg",
+    "jclic.js/1qde2.jpg",
+    "jclic.js/2_i_5.jpg",
+    "jclic.js/2i5.jpg",
+    "jclic.js/2q_i_10de4.jpg",
+    "jclic.js/2q_i_5de12.jpg",
+    "jclic.js/2q_i_setde3.jpg",
+    "jclic.js/2qde3.jpg",
+    "jclic.js/2qi5de12.jpg",
+    "jclic.js/3q_i_10de3.jpg",
+    "jclic.js/3q_i_5de8.jpg",
+    "jclic.js/3qde10.jpg",
+    "jclic.js/4.jpg",
+    "jclic.js/4_10.jpg",
+    "jclic.js/5.jpg",
+    "jclic.js/7.jpg",
+    "jclic.js/hores.jclic",
+    "jclic.js/presentacio.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/hores.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

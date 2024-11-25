@@ -1,0 +1,140 @@
+{
+  "id": 2290,
+  "title": "El bany de Can Papalagi",
+  "author": "Julio Gracia Martínez",
+  "school": "Escola Ernest Lluch Abrera (Baix Llobregat)",
+  "date": "13/05/13",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, comprensió oral, vocabulari, comprensió lectora",
+    "es": "aprendizaje de la lengua, comprensión oral, vocabulario, comprensión lectora",
+    "en": "learning of the language, oral understanding, vocabulary, reading comprehension"
+  },
+  "descCodes": [
+    110,
+    112,
+    150,
+    1329
+  ],
+  "description": {
+    "en": "Project of activities to work auditive recognition of everyday objects related to the bathroom, spatial discrimination of sounds and basic vocabulary of a typical house in the popularly called \n<i>welfare society</i>.",
+    "ca": "Projecte d'activitats destinat a treballar el reconeixement auditiu d'objectes quotidians relacionats amb el bany, la discriminació espacial dels sons i el vocabulari bàsic d'una llar típica dins de la popularment anomenada \n<i>societat del benestar</i>.",
+    "es": "Proyecto de actividades destinado a trabajar el reconocimiento auditivo de objetos cotidianos relacionados con el baño, la discriminación espacial de los sonidos y el vocabulario básico de una casa típica dentro de la popularmente llamada \n<i>sociedad del bienestar</i>."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/elbany.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/elbany.jclic.zip",
+  "instFile": "jclic/elbany.jclic.inst",
+  "clicZoneId": 3804,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3804",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/elbany/jclic/elbany.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 57,
+  "totalSize": 5140442,
+  "files": [
+    "cover.png",
+    "jclic.js/accio_correcta.mp3",
+    "jclic.js/accio_erronia.mp3",
+    "jclic.js/activ._acabada.mp3",
+    "jclic.js/aixeta.jpg",
+    "jclic.js/aixeta.mp3",
+    "jclic.js/aixeta_dreta.mp3",
+    "jclic.js/aixeta_esquerra.mp3",
+    "jclic.js/audacity_beta.png",
+    "jclic.js/banyera.jpg",
+    "jclic.js/banyera_solea.mp3",
+    "jclic.js/bidet.jpg",
+    "jclic.js/colonia.jpg",
+    "jclic.js/colonia.mp3",
+    "jclic.js/cortina.jpg",
+    "jclic.js/cortina.mp3",
+    "jclic.js/dutxa.jpg",
+    "jclic.js/dutxa.mp3",
+    "jclic.js/eixugador.jpg",
+    "jclic.js/elbany.jclic",
+    "jclic.js/estora.jpg",
+    "jclic.js/estora.mp3",
+    "jclic.js/facana.jpg",
+    "jclic.js/finestra.jpg",
+    "jclic.js/finestra.mp3",
+    "jclic.js/finestra_dreta.mp3",
+    "jclic.js/fletxa_centre.mp3",
+    "jclic.js/fletxa_dreta.mp3",
+    "jclic.js/fletxa_esquerra.mp3",
+    "jclic.js/forat_redux.jpg",
+    "jclic.js/inici_activitat.mp3",
+    "jclic.js/interruptor_dreta.mp3",
+    "jclic.js/interruptor_esquerra.mp3",
+    "jclic.js/intro.mp3",
+    "jclic.js/lav_mosaic.jpg",
+    "jclic.js/lavabo.jpg",
+    "jclic.js/lavso.jpg",
+    "jclic.js/lavsons1.jpg",
+    "jclic.js/lavsons2.jpg",
+    "jclic.js/lavsons3.jpg",
+    "jclic.js/lavsopuzz.jpg",
+    "jclic.js/maquineta.jpg",
+    "jclic.js/maquineta.mp3",
+    "jclic.js/mirall.jpg",
+    "jclic.js/mirall_esquerra.mp3",
+    "jclic.js/pantalla_comprovacio.jpg",
+    "jclic.js/paper.jpg",
+    "jclic.js/paper.mp3",
+    "jclic.js/portada_redux.jpg",
+    "jclic.js/raspall.jpg",
+    "jclic.js/raspall.mp3",
+    "jclic.js/recargar.jpg",
+    "jclic.js/secador.mp3",
+    "jclic.js/so_il_lustr.mp3",
+    "jclic.js/so_inici.mp3",
+    "jclic.js/vater.jpg",
+    "jclic.js/vater.mp3",
+    "jclic.js/xampu.jpg",
+    "jclic.js/xampu.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/elbany.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

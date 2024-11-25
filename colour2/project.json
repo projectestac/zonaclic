@@ -1,0 +1,116 @@
+{
+  "id": 2339,
+  "title": "Colors: flashcards and activities",
+  "author": "Conchi Martínez de Tejada",
+  "school": "CEIP Castra Caecilia Cáceres (Extremadura)",
+  "date": "27/11/14",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, colors",
+    "es": "lengua inglesa, colores",
+    "en": "English language, colours"
+  },
+  "descCodes": [
+    130,
+    1389
+  ],
+  "description": {
+    "en": "JClic project about colours in Englihs. The project has two different parts: \n<ul> \n <li>Flashcards </li>\n <li>Activities </li>\n</ul>",
+    "ca": "Projecte JClic sobre els colors en anglès. El projecte està dividit en dues parts: \n<ul> \n <li>Flashcards </li>\n <li>Activities </li>\n</ul>",
+    "es": "Proyecto JClic sobre los colores en inglés. El proyecto está dividido en dos partes: \n<ul> \n <li>Flashcards </li>\n <li>Activities </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/colour2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/colour2.jclic.zip",
+  "instFile": "jclic/colour2.jclic.inst",
+  "clicZoneId": 3848,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3848",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/colour2/jclic/colour2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 35,
+  "totalSize": 1585229,
+  "files": [
+    "cover.png",
+    "jclic.js/blanc.png",
+    "jclic.js/blue.jpg",
+    "jclic.js/blue.mp3",
+    "jclic.js/blue_horse.mp3",
+    "jclic.js/brown.jpg",
+    "jclic.js/brown.mp3",
+    "jclic.js/brown_bear.mp3",
+    "jclic.js/cbear_resized1.jpg",
+    "jclic.js/cbird_resized1.jpg",
+    "jclic.js/ccat_resized.jpg",
+    "jclic.js/cdog_resized1.jpg",
+    "jclic.js/cduck_resized1.jpg",
+    "jclic.js/cfrog_resized1.jpg",
+    "jclic.js/cgoldfish_resized1.jpg",
+    "jclic.js/chorse_resized1.jpg",
+    "jclic.js/colour2.jclic",
+    "jclic.js/colours_activities.jpg",
+    "jclic.js/colours_flashcards.jpg",
+    "jclic.js/green.jpg",
+    "jclic.js/green.mp3",
+    "jclic.js/green_frog.mp3",
+    "jclic.js/orange.jpg",
+    "jclic.js/orange.mp3",
+    "jclic.js/orange_fish.mp3",
+    "jclic.js/purple.jpg",
+    "jclic.js/purple.mp3",
+    "jclic.js/purple_cat1.mp3",
+    "jclic.js/red.jpg",
+    "jclic.js/red.mp3",
+    "jclic.js/red_bird.mp3",
+    "jclic.js/white.jpg",
+    "jclic.js/white.mp3",
+    "jclic.js/white_dog.mp3",
+    "jclic.js/yellow.jpg",
+    "jclic.js/yellow.mp3",
+    "jclic.js/yellow_duck.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/colour2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

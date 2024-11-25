@@ -1,0 +1,143 @@
+{
+  "id": 2153,
+  "title": "El gall, la gallina i el pollet",
+  "author": "M. Rosa Vilaró Morato Veu: Núria Vargas Vilaró",
+  "school": "C Casals-Gràcia Manlleu (Osona)",
+  "date": "24/05/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages, Miscellaneous",
+    "ca": "Ciències experimentals, Llengües, Diversos",
+    "es": "Ciencias experimentales, Lenguas, Diversos"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng",
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "vocabulari, aus",
+    "es": "vocabulario, aves",
+    "en": "vocabulary, birds"
+  },
+  "descCodes": [
+    150,
+    830
+  ],
+  "description": {
+    "en": "Interdisciplinary project of activities addressed to kindergarten about incubation of chicken eggs. \n<p> There are activities about vocabulary and some characteristics of the rooster, the hen, the chicken and the process of incubation of an egg. </p>\n<p> This project is addressed to first cycle of primary education. </p>",
+    "ca": "Activitats complementàries per al projecte interdisciplinari que s'ha realitzat a cicle inicial sobre el procés d'incubació dels ous de gallina.\n<p> Són activitats per treballar el vocabulari i algunes característiques del gall, la gallina, el pollet i el procés d'incubació d'un ou.</p>\n<p> Aquest conjunt d'activitats va adreçat a primer cicle de primària, tot i que hi ha activitats que poden realitzar els nens i nenes de P5. </p>",
+    "es": "Actividades complementarias al proyecto interdisciplinario que se ha realizado en ciclo inicial sobre la incubación de los huevos de gallina.\n<p> Son actividades para trabajar el vocabulario y algunas características del gallo, la gallina, el pollito y el proceso de incubación de un huevo.</p>\n<p> Este conjunto de actividades va dirigido a primer ciclo de primaria, aunque también hay actividades que se pueden realizar con niños y niñas de P5. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/pollet.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pollet.jclic.zip",
+  "instFile": "jclic/pollet.jclic.inst",
+  "clicZoneId": 3691,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3691",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pollet/jclic/pollet.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 37,
+  "mediaFiles": 60,
+  "totalSize": 4734737,
+  "files": [
+    "cover.jpg",
+    "jclic.js/16_pista_16.mp3",
+    "jclic.js/2_resized.jpg",
+    "jclic.js/3_resized1.jpg",
+    "jclic.js/4.jpg",
+    "jclic.js/5_resized.jpg",
+    "jclic.js/aca.wav",
+    "jclic.js/chick_hatching_resized.jpg",
+    "jclic.js/chick_resized.jpg",
+    "jclic.js/chicken1_resized.jpg",
+    "jclic.js/chicken2_resized.jpg",
+    "jclic.js/chicken3_resized.jpg",
+    "jclic.js/dsc01981.jpg",
+    "jclic.js/dsc01988.jpg",
+    "jclic.js/dsc01990.jpg",
+    "jclic.js/dsc02003.jpg",
+    "jclic.js/dsc02006.jpg",
+    "jclic.js/dsc02039.jpg",
+    "jclic.js/dsc02044.jpg",
+    "jclic.js/dsc02159.jpg",
+    "jclic.js/dsc_8733_ou_ponedor.jpg",
+    "jclic.js/embrio.gif",
+    "jclic.js/embrio1.gif",
+    "jclic.js/embrio3.gif",
+    "jclic.js/embrio4.gif",
+    "jclic.js/embrio5.gif",
+    "jclic.js/embrio6.gif",
+    "jclic.js/fab.wav",
+    "jclic.js/fan.wav",
+    "jclic.js/gall.jpg",
+    "jclic.js/gallinas_pintura.jpg",
+    "jclic.js/gallines.jpg",
+    "jclic.js/gen.wav",
+    "jclic.js/giraous.jpg",
+    "jclic.js/i01_galliner.jpg",
+    "jclic.js/i01_gallines.jpg",
+    "jclic.js/incubadora_resized1.jpg",
+    "jclic.js/incuvadora.jpg",
+    "jclic.js/lloca1.jpg",
+    "jclic.js/lovebooks_pollets.gif",
+    "jclic.js/m5_resized1.jpg",
+    "jclic.js/masia1.jpg",
+    "jclic.js/masia2.jpg",
+    "jclic.js/masia3.jpg",
+    "jclic.js/masia4.jpg",
+    "jclic.js/masia5.jpg",
+    "jclic.js/mb.wav",
+    "jclic.js/mera.wav",
+    "jclic.js/ou.jpg",
+    "jclic.js/parella1.gif",
+    "jclic.js/pau_i_laia1_resized1.jpg",
+    "jclic.js/pau_i_laia2_resized1.jpg",
+    "jclic.js/pau_i_laia3_resized1.jpg",
+    "jclic.js/pau_i_laia4_resized1.jpg",
+    "jclic.js/per.wav",
+    "jclic.js/pollet.jclic",
+    "jclic.js/pollets.jpg",
+    "jclic.js/pollets1.jpg",
+    "jclic.js/pollets2.jpg",
+    "jclic.js/sap.wav",
+    "jclic.js/sb.wav",
+    "jclic.js/tapa_album.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pollet.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

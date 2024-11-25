@@ -1,0 +1,113 @@
+{
+  "id": 1222,
+  "title": "Aprendiendo a reciclar",
+  "author": "Isabel Moro Moro",
+  "school": "CP Liceo Mierense Mieres (Asturias)",
+  "date": "02/02/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "reciclar",
+    "es": "reciclar",
+    "en": "to recycle"
+  },
+  "descCodes": [
+    1300
+  ],
+  "description": {
+    "en": "Clic activities about recycling of paper, crystal and packages addressed to kindergarten and primary school.",
+    "ca": "Paquet d'activitats adreçat a educació infantil i primer cicle de primària amb l'objectiu d'iniciar als nens i nenes el tema del reciclatge de paper, vidre i envasos.",
+    "es": "Paquete de actividades para educación infantil y primer ciclo de primaria con el objetivo de iniciar a los niños y niñas en el tema del reciclaje de papel, cristal y envases."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/recicla3.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/recicla3.jclic.zip",
+  "instFile": "jclic/recicla3.jclic.inst",
+  "clicZoneId": 3020,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3020",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/recicla3/jclic/recicla3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 33,
+  "totalSize": 1322739,
+  "files": [
+    "cover.gif",
+    "jclic.js/3contene.gif",
+    "jclic.js/actmel.gif",
+    "jclic.js/agua.gif",
+    "jclic.js/amarillo.gif",
+    "jclic.js/autob2.gif",
+    "jclic.js/azul3.gif",
+    "jclic.js/bote.gif",
+    "jclic.js/botelas2.gif",
+    "jclic.js/botella2.gif",
+    "jclic.js/caja2.gif",
+    "jclic.js/cajas2.gif",
+    "jclic.js/campo2.gif",
+    "jclic.js/cocacol.gif",
+    "jclic.js/colacao.gif",
+    "jclic.js/cristal2.gif",
+    "jclic.js/estupend.wav",
+    "jclic.js/galleta.gif",
+    "jclic.js/garrafa2.gif",
+    "jclic.js/genial.wav",
+    "jclic.js/jabon2.gif",
+    "jclic.js/leche.gif",
+    "jclic.js/libros2.gif",
+    "jclic.js/manteq.gif",
+    "jclic.js/muybien.wav",
+    "jclic.js/pancar2.gif",
+    "jclic.js/papeles.gif",
+    "jclic.js/periodic.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/recicla3.jclic",
+    "jclic.js/ruidos2.gif",
+    "jclic.js/ruidos3.gif",
+    "jclic.js/sonidfin.wav",
+    "jclic.js/verde2.gif",
+    "jclic.js/yogur.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/recicla3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

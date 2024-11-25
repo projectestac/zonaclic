@@ -1,0 +1,90 @@
+{
+  "id": 2110,
+  "title": "Condición física y salud",
+  "author": "Enrique Frías Martínez",
+  "school": "IES Celso Díaz Arnedo (La Rioja)",
+  "date": "25/02/11",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "salut, aprenentatge de l'educació física",
+    "es": "salud, aprendizaje de la educación física",
+    "en": "health, learning of the physical education"
+  },
+  "descCodes": [
+    101,
+    422
+  ],
+  "description": {
+    "en": "Project of activities that deals with the positive relationship between the people's health and their level of fitness. Intended to enable students to learn this positive relationship the factors that influence the fitness status as well as the skills to be developed to achieve improvement.",
+    "ca": "Projecte amb activitats sobre la relació positiva entre la salut de les persones i el seu nivell de condició física. Té com objectiu que l'alumnat aprengui aquesta relació positiva així com els factors que influeixen en aquest nivell i les capacitats que s'han de desenvolupar per poder millorar.",
+    "es": "Proyecto con actividades acerca de la relación positiva entre la salud de las personas y su nivel de condición física. Persigue que el alumnado aprenda esta relación positiva así como los factores que influyen en ese nivel y las capacidades que hay que desarrollar para lograr mejorarlo."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cfisica.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cfisica.jclic.zip",
+  "instFile": "jclic/cfisica.jclic.inst",
+  "clicZoneId": 3668,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3668",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cfisica/jclic/cfisica.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 10,
+  "totalSize": 230561,
+  "files": [
+    "cover.jpg",
+    "jclic.js/100m.jpg",
+    "jclic.js/cfisica.jclic",
+    "jclic.js/ciclismo_2.jpg",
+    "jclic.js/flexi.gif",
+    "jclic.js/flexibilidad.jpg",
+    "jclic.js/halterofilia.jpg",
+    "jclic.js/resistencia.gif",
+    "jclic.js/salud1.jpg",
+    "jclic.js/salud2.gif",
+    "jclic.js/t.balonmedicinal.jpg",
+    "jclic.js/velocidad.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cfisica.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

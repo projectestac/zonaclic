@@ -1,0 +1,74 @@
+{
+  "id": 2566,
+  "title": "Busca la paraula 2",
+  "author": "Paco Martínez (Autor)",
+  "school": "Escola Napoleó Soliva (Blanes)",
+  "date": "25/06/18",
+  "langCodes": [
+    "ca"
+  ],
+  "languages": {
+    "ca": "català",
+    "es": "catalán",
+    "en": "Catalan"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "areas": {
+    "ca": "Llengües",
+    "es": "Lenguas",
+    "en": "Languages"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "levels": {
+    "ca": "Primària (6-12), Cicle Inicial",
+    "es": "Primaria (6-12), Cicle Inicial",
+    "en": "Primary school (6-12), Cicle Inicial"
+  },
+  "description": {
+    "ca": "Aquest paquet d'activitats és la nova versió de \"Busca la paraula\".\r\nA partir d'una imatge plena de paraules de diferents colors, tipus de lletra i orientació, l'alumne ha de trobar una paraula en concret.\r\nSón 189 paraules seqüenciades en grups de 10, per facilitar l'accés. Excepte l'última activitat que és un puzle a resoldre, amb tres nivells de dificultat.",
+    "es": "Este paquete de actividades es la nueva versión de \"Busca la paraula\".\nA partir de una imagen llena de palabras de diferentes colores, tipos de letra y orientación, el alumno tiene que encontrar una palabra en concreto.\nSon 189 palabras secuenciadas en grupos de 10, para facilitar el acceso. Excepto la última actividad que es un puzzle a resolver, con tres niveles de dificultad.",
+    "en": "This pack of activities is the new version of \"Busca la paraula\".\nFrom an image filled with words of different colors, fonts and orientation, the student has to find a specific word.\nThere are 189 words sequenced in groups of 10, to facilitate access. Except the last activity that is a puzzle with three levels of difficulty."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "relatedTo": [
+    "paraule5"
+  ],
+  "cover": "paraules_2300.png",
+  "coverWebp": "paraules_2300.webp",
+  "thumbnail": "paraules_2100.png",
+  "mainFile": "jclic.js/paraules2.jclic",
+  "activities": 195,
+  "mediaFiles": 8,
+  "totalSize": 1370887,
+  "instFile": "jclic/paraules2.jclic.inst",
+  "zipFile": "jclic/paraules2.jclic.zip",
+  "files": [
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/paraules2.jclic",
+    "jclic.js/paraules2.jclic.js",
+    "jclic.js/paraules_2-resized.jpg",
+    "jclic.js/paraules_2.jpg",
+    "jclic.js/paraules_2_blanc_i_negre.jpg",
+    "paraules_2100.png",
+    "paraules_2300.png",
+    "project.json",
+    "paraules_2300.webp"
+  ]
+}

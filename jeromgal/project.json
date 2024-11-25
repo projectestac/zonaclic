@@ -1,0 +1,130 @@
+{
+  "id": 654,
+  "title": "Jeroglífics matemàtics",
+  "author": "Toni Miquel Mollà",
+  "school": "CP Crist de la Pau Sant Joan d'Alacant (Alacantí)",
+  "date": "29/07/02",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)",
+    "en": "Primary school (6-12), Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "càlcul, problemes matemàtics",
+    "es": "cálculo, problemas matemáticos",
+    "en": "calculation, mathematic problems"
+  },
+  "descCodes": [
+    702,
+    926
+  ],
+  "description": {
+    "en": "Problems of logical reasoning and mental arithmetic, using figures presented in a grid with 16 cells. Each figure has a hidden numeric value that must be deduced from some clues.",
+    "ca": "L'aplicació consta de cinc paquets d'activitats on es plantegen problemes de raonament lògic i càlcul mental, mitjançant figures diferents disposades en una graella de 16 caselles. Cada figura té associat un valor numèric, que cal deduir a partir de les pistes que es donen al principi de l'activitat.",
+    "es": "La aplicación consta de cinco paquetes de actividades en los que se plantean problemas de razonamiento lógico y cálculo mental, mediante distintas figuras dispuestas en 16 casillas. Cada figura tiene asociado un valor numérico que hay que deducir de las pistas que se dan al empezar la actividad."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "jeromafr",
+    "jeromate",
+    "jeromesp",
+    "jeromeus"
+  ],
+  "mainFile": "jclic.js/jeromgal.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/jeromgal.jclic.zip",
+  "instFile": "jclic/jeromgal.jclic.inst",
+  "clicZoneId": 1347,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1347",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/jeromgal/jclic/jeromgal.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 43,
+  "totalSize": 379452,
+  "files": [
+    "cover.gif",
+    "jclic.js/jemat10a.gif",
+    "jclic.js/jemat10s.gif",
+    "jclic.js/jemat11a.gif",
+    "jclic.js/jemat11s.gif",
+    "jclic.js/jemat12a.gif",
+    "jclic.js/jemat12s.gif",
+    "jclic.js/jemat13a.gif",
+    "jclic.js/jemat13s.gif",
+    "jclic.js/jemat20a.gif",
+    "jclic.js/jemat20s.gif",
+    "jclic.js/jemat21a.gif",
+    "jclic.js/jemat21s.gif",
+    "jclic.js/jemat22a.gif",
+    "jclic.js/jemat22s.gif",
+    "jclic.js/jemat23a.gif",
+    "jclic.js/jemat23s.gif",
+    "jclic.js/jemat30a.gif",
+    "jclic.js/jemat30s.gif",
+    "jclic.js/jemat31a.gif",
+    "jclic.js/jemat31s.gif",
+    "jclic.js/jemat32a.gif",
+    "jclic.js/jemat32s.gif",
+    "jclic.js/jemat33a.gif",
+    "jclic.js/jemat33s.gif",
+    "jclic.js/jemat40a.gif",
+    "jclic.js/jemat40s.gif",
+    "jclic.js/jemat41a.gif",
+    "jclic.js/jemat41s.gif",
+    "jclic.js/jemat42a.gif",
+    "jclic.js/jemat42s.gif",
+    "jclic.js/jemat43a.gif",
+    "jclic.js/jemat43s.gif",
+    "jclic.js/jemat50a.gif",
+    "jclic.js/jemat50s.gif",
+    "jclic.js/jemat51a.gif",
+    "jclic.js/jemat51s.gif",
+    "jclic.js/jemat52a.gif",
+    "jclic.js/jemat52s.gif",
+    "jclic.js/jemat53a.gif",
+    "jclic.js/jemat53s.gif",
+    "jclic.js/jeromgal.jclic",
+    "jclic.js/loverita.mid",
+    "jclic.js/presenta.gif",
+    "jclic.js/triajero.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/jeromgal.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": 1918,
+  "title": "L'aventura pirata",
+  "author": "Lorena Morete López",
+  "school": "Escola Jacint Verdaguer Pallejà (Baix Llobregat)",
+  "date": "05/06/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences, Languages",
+    "ca": "Ciències socials, Llengües",
+    "es": "Ciencias sociales, Lenguas"
+  },
+  "areaCodes": [
+    "soc",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "lectoescriptura",
+    "es": "lectoescritura",
+    "en": "reading and writting skills"
+  },
+  "descCodes": [
+    920
+  ],
+  "description": {
+    "en": "Set of activities for infantile education about pirates: \n<ul> \n <li> The history of the Pirates </li>\n <li> Pirates' names </li>\n <li>Puzzles </li>\n <li>Typical pirate elements </li>\n <li>The pirate's song </li>\n</ul>",
+    "ca": "Conjunt d'activitats per a educació infantil sobre els pirates: \n<ul> \n <li>La història dels pirates </li>\n <li>Noms de pirates </li>\n <li>Trencaclosques </li>\n <li>Elements típics de pirates </li>\n <li>La cançó pirata </li>\n</ul>",
+    "es": "Conjunto de actividades para educación infantil sobre los piratas: \n<ul> \n <li>La historia de los piratas </li>\n <li>Nombres de piratas </li>\n <li>Rompecabezas </li>\n <li>Elementos típicos de piratas </li>\n <li>La canción pirata </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/pirates.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pirates.jclic.zip",
+  "instFile": "jclic/pirates.jclic.inst",
+  "clicZoneId": 3544,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3544",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pirates/jclic/pirates.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 60,
+  "totalSize": 5839951,
+  "files": [
+    "cover.gif",
+    "jclic.js/10117_detail.jpg",
+    "jclic.js/20071223192240_clave_sol.gif",
+    "jclic.js/20080503044743_a_pirata.gif",
+    "jclic.js/2559_1.jpg",
+    "jclic.js/4_elements.wav",
+    "jclic.js/4_partsvaixell.wav",
+    "jclic.js/ancla.wav",
+    "jclic.js/ancla12.jpg",
+    "jclic.js/bandera_pirata.wav",
+    "jclic.js/barbablava.wav",
+    "jclic.js/barbaroja.wav",
+    "jclic.js/barret.wav",
+    "jclic.js/benvinguts.wav",
+    "jclic.js/berganti.jpg",
+    "jclic.js/berganti.wav",
+    "jclic.js/busca_la_parella.wav",
+    "jclic.js/canco_rata_rata.mp3",
+    "jclic.js/cara_tallada.wav",
+    "jclic.js/catalejo_sheet_01.jpg",
+    "jclic.js/chestofgoldopeninghgclrqj8.gif",
+    "jclic.js/cilca_canco.wav",
+    "jclic.js/completa_canco.wav",
+    "jclic.js/dofi_content.wav",
+    "jclic.js/escuchar__oir.jpg",
+    "jclic.js/espasa.jpg",
+    "jclic.js/espasa.wav",
+    "jclic.js/espasa_n.wav",
+    "jclic.js/explicacio_canco_2.mp3",
+    "jclic.js/explicacio_vaixell.mp3",
+    "jclic.js/floreta.wav",
+    "jclic.js/galera.wav",
+    "jclic.js/galera2.jpg",
+    "jclic.js/garfi.wav",
+    "jclic.js/garfiopirata.jpg",
+    "jclic.js/mapa.wav",
+    "jclic.js/mocador.jpg",
+    "jclic.js/mocador.wav",
+    "jclic.js/moneda.wav",
+    "jclic.js/nom_pirata.mp3",
+    "jclic.js/nota_musical_musica_mp3.jpg",
+    "jclic.js/oc13600.jpg",
+    "jclic.js/ordena_puzzle.wav",
+    "jclic.js/palabrassolidus.jpg",
+    "jclic.js/parxe.jpg",
+    "jclic.js/pata_palo.gif",
+    "jclic.js/pegat.wav",
+    "jclic.js/pirata.jpg",
+    "jclic.js/pirata.wav",
+    "jclic.js/pirates.jclic",
+    "jclic.js/popa.wav",
+    "jclic.js/popaa.wav",
+    "jclic.js/proa.wav",
+    "jclic.js/puzzle.wav",
+    "jclic.js/relaciona.wav",
+    "jclic.js/sirena.wav",
+    "jclic.js/timo.wav",
+    "jclic.js/tresor.wav",
+    "jclic.js/ull_tapat.wav",
+    "jclic.js/ullera.wav",
+    "jclic.js/untitled.gif",
+    "jclic.js/veles.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pirates.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

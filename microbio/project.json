@@ -1,0 +1,94 @@
+{
+  "id": 147,
+  "title": "Microbios: moneras, protistas, hongos",
+  "author": "Francisco Gonzalez",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "biologia",
+    "es": "biología",
+    "en": "biology"
+  },
+  "descCodes": [
+    58
+  ],
+  "description": {
+    "en": "Activity pack based on the text for 2º ESO editorial Edelvives. The activities try to bring the student closer to the world of microscopic life. Among the activities there are I.D. exercises, definition, information, among others.",
+    "ca": "Paquet d'activitats basat en el text de 2on d'ESO de l'editorial Edelvives. Les activitats intenten apropar l'alumne al món dels microbis i altres éssers microscòpics: moneres, protistes i fongs.",
+    "es": "Paquete de actividades basado en el texto 2º ESO de Editorial Edelvives. las actividades intentan acercar al alumno al mundo de los microbios y otros seres microscópicos: moneras, protistas y hongos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "microgal"
+  ],
+  "mainFile": "jclic.js/microbio.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/microbio.jclic.zip",
+  "instFile": "jclic/microbio.jclic.inst",
+  "clicZoneId": 1071,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1071",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/microbio/jclic/microbio.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 13,
+  "totalSize": 1260267,
+  "files": [
+    "cover.gif",
+    "jclic.js/ameba.jpg",
+    "jclic.js/bacteria.jpg",
+    "jclic.js/banjo.wav",
+    "jclic.js/diatom_1.jpg",
+    "jclic.js/evrgreen.mid",
+    "jclic.js/filedone.wav",
+    "jclic.js/hifas.jpg",
+    "jclic.js/microbio.jclic",
+    "jclic.js/microsc.gif",
+    "jclic.js/paramec.jpg",
+    "jclic.js/portada2.jpg",
+    "jclic.js/portmon.gif",
+    "jclic.js/tiposmi.jpg",
+    "jclic.js/virus.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/microbio.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": 427,
+  "title": "Llengua valenciana 5è (Nova versió)",
+  "author": "Jesús Sánchez Aguado",
+  "school": "Colegio Cervantes Canals (La Costera)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Llengües",
+    "es": "Lenguas",
+    "en": "Languages"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua",
+    "es": "aprendizaje de la lengua",
+    "en": "learning of the language"
+  },
+  "descCodes": [
+    110
+  ],
+  "description": {
+    "en": "Clic activities to learn the Valencian modality of the Catalan language. The activities can be carried out by one or two players",
+    "ca": "Projecte d'activitats de llengua per a 5è de primària, dissenyat com a material complementari al llibre de text \n<i>Obri la porta Comunitat Valenciana</i> de l'editorial ANAYA. Està organitzat en 15 temes (com el llibre) amb activitats on poden participar 1 o 2 jugadors.",
+    "es": "Proyecto de actividades de lengua valenciana para 5º de primaria, diseñado como material complementario al libro de texto \n<i>Llengua 5 Obri la porta Comunitat Valenciana</i> de la editorial ANAYA. Se compone de 15 temas (como en el libro) con actividades en las que pueden participar 1 o 2 jugadores."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/vale5.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/vale5.jclic.zip",
+  "instFile": "jclic/vale5.jclic.inst",
+  "clicZoneId": 1252,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1252",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/vale5/jclic/vale5.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 377,
+  "mediaFiles": 57,
+  "totalSize": 2974611,
+  "files": [
+    "cover.gif",
+    "jclic.js/dedo1.gif",
+    "jclic.js/dedos1.gif",
+    "jclic.js/endavant.gif",
+    "jclic.js/fantastic.gif",
+    "jclic.js/fi.gif",
+    "jclic.js/fin1.gif",
+    "jclic.js/fin2.gif",
+    "jclic.js/fin3.gif",
+    "jclic.js/fin4.gif",
+    "jclic.js/fin5.gif",
+    "jclic.js/i01_dedo1.gif",
+    "jclic.js/i01_familia.mid",
+    "jclic.js/i02_dedo1.gif",
+    "jclic.js/moltbe.gif",
+    "jclic.js/seguim.gif",
+    "jclic.js/sisenyor.gif",
+    "jclic.js/tema0109.jclic",
+    "jclic.js/tema0209.jclic",
+    "jclic.js/tema0309.jclic",
+    "jclic.js/tema0409.jclic",
+    "jclic.js/tema0509.jclic",
+    "jclic.js/tema0609.jclic",
+    "jclic.js/tema0709.jclic",
+    "jclic.js/tema0809.jclic",
+    "jclic.js/tema0909.jclic",
+    "jclic.js/tema1009.jclic",
+    "jclic.js/tema1109.jclic",
+    "jclic.js/tema1209.jclic",
+    "jclic.js/tema1309.jclic",
+    "jclic.js/tema1409.jclic",
+    "jclic.js/tema1509.jclic",
+    "jclic.js/theend.gif",
+    "jclic.js/vale5.jclic",
+    "jclic.js/valencia5.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/vale5.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/tema0109.jclic.js",
+    "jclic.js/tema0209.jclic.js",
+    "jclic.js/tema0309.jclic.js",
+    "jclic.js/tema0409.jclic.js",
+    "jclic.js/tema0509.jclic.js",
+    "jclic.js/tema0609.jclic.js",
+    "jclic.js/tema0709.jclic.js",
+    "jclic.js/tema0809.jclic.js",
+    "jclic.js/tema0909.jclic.js",
+    "jclic.js/tema1009.jclic.js",
+    "jclic.js/tema1109.jclic.js",
+    "jclic.js/tema1209.jclic.js",
+    "jclic.js/tema1309.jclic.js",
+    "jclic.js/tema1409.jclic.js",
+    "jclic.js/tema1509.jclic.js",
+    "cover.webp"
+  ]
+}

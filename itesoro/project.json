@@ -1,0 +1,91 @@
+{
+  "id": 1585,
+  "title": "La isla del tesoro",
+  "author": "Ángel Prieto Lino",
+  "date": "12/05/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "Project of activities about the book \n<i>La isla del tesoro</i>. The project has six parts: \n<ul> \n <li>EL viejo pirata </li>\n <li>El cocinero de a bordo </li>\n <li>Mi aventura en la isla </li>\n <li>La empalizada </li>\n <li>Mi aventura en el mar </li>\n <li>El capitán silver </li>\n</ul>",
+    "ca": "Projecte d'activitats per a l'animació a la lectura basat en el conegut llibre de Robert L. Stevenson \n<i>La isla del tesoro</i>. El projecte consta, igual que el llibre, de sis parts: \n<ul> \n <li>EL viejo pirata </li>\n <li>El cocinero de a bordo </li>\n <li>Mi aventura en la isla </li>\n <li>La empalizada </li>\n <li>Mi aventura en el mar </li>\n <li>El capitán silver </li>\n</ul>",
+    "es": "Proyecto de actividades para la animación a la lectura basado en el conocido libro de Robert L. Stevenson \n<i>La isla del tesoro</i>. El proyecto consta, igual que el libro, de seis partes: \n<ul> \n <li>EL viejo pirata </li>\n <li>El cocinero de a bordo </li>\n <li>Mi aventura en la isla </li>\n <li>La empalizada </li>\n <li>Mi aventura en el mar </li>\n <li>El capitán silver </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/itesoro.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/itesoro.jclic.zip",
+  "instFile": "jclic/itesoro.jclic.inst",
+  "clicZoneId": 3301,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3301",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/itesoro/jclic/itesoro.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 66,
+  "mediaFiles": 21,
+  "totalSize": 420584,
+  "files": [
+    "cover.gif",
+    "jclic.js/332915203_1_.jpg",
+    "jclic.js/787368767_2_.jpg",
+    "jclic.js/846096071_1_.jpg",
+    "jclic.js/ca8dubk9.jpg",
+    "jclic.js/caar89u7.jpg",
+    "jclic.js/caf1bt2v.jpg",
+    "jclic.js/cagdyfsh.jpg",
+    "jclic.js/caib4x8t.jpg",
+    "jclic.js/cakd2j09.jpg",
+    "jclic.js/cau7k1in.jpg",
+    "jclic.js/cauvktmj.jpg",
+    "jclic.js/cauzgrt6.jpg",
+    "jclic.js/caybl6qe.jpg",
+    "jclic.js/images_16_.jpg",
+    "jclic.js/images_1_.jpg",
+    "jclic.js/images_23_.jpg",
+    "jclic.js/images_24_.jpg",
+    "jclic.js/images_25_.jpg",
+    "jclic.js/images_2_.jpg",
+    "jclic.js/images_3_.jpg",
+    "jclic.js/images_5_.jpg",
+    "jclic.js/itesoro.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/itesoro.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

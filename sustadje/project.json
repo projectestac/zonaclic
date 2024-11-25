@@ -1,0 +1,93 @@
+{
+  "id": 1092,
+  "title": "Sustantivos y adjetivos",
+  "author": "Nancy Fernández",
+  "date": "07/11/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, vocabulari",
+    "es": "lengua castellana, vocabulario",
+    "en": "Spanish language, vocabulary"
+  },
+  "descCodes": [
+    132,
+    150
+  ],
+  "description": {
+    "en": "Package of language activities with simple and complex associations, text activities and puzzles \n<p> The aim of these activities is to make the pupils apply the knowledge learned at the classroom. </p>",
+    "ca": "Paquet d'activitats de llengua castellana amb associacions simples i complexes, activitats de text, sopes de lletres i trencaclosques. S'hi treballa la distinció entre singular i plural, masculí i femení i la concordança entre adjectius i substantius.",
+    "es": "Paquete de actividades de lengua con asociaciones simples y complejas, actividades de texto, sopas de letras y rompecabezas. Los ejercicios trabajan la distinción entre singular y plural, masculino y femenino, y la concordancia entre adjetivos y substantivos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sustadje.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sustadje.jclic.zip",
+  "instFile": "jclic/sustadje.jclic.inst",
+  "clicZoneId": 2342,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2342",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sustadje/jclic/sustadje.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 14,
+  "totalSize": 145084,
+  "files": [
+    "cover.gif",
+    "jclic.js/caballo.gif",
+    "jclic.js/caratu_1.gif",
+    "jclic.js/caratula.gif",
+    "jclic.js/conejo.gif",
+    "jclic.js/gallo.gif",
+    "jclic.js/gato.gif",
+    "jclic.js/leonar_1.gif",
+    "jclic.js/mono.gif",
+    "jclic.js/oso.gif",
+    "jclic.js/paloma.gif",
+    "jclic.js/pato.gif",
+    "jclic.js/perro.gif",
+    "jclic.js/sustadje.jclic",
+    "jclic.js/vaca.gif",
+    "jclic.js/vacaar_1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sustadje.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

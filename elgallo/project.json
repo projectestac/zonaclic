@@ -1,0 +1,98 @@
+{
+  "id": 1153,
+  "title": "El gallo y el carámbano",
+  "author": "Francisco García-Pozuelo Díaz i Juana Rello Serrano",
+  "school": "CP Luis Vives Alcalá de Henares (Madrid)",
+  "date": "11/06/04",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "comprensió escrita",
+    "es": "comprensión escrita",
+    "en": "written understanding"
+  },
+  "descCodes": [
+    111
+  ],
+  "description": {
+    "en": "<i>El Gallo y el Carámbano</i> is a package of activities for reading comprehension to Primary school. \n<br> Based on the tale named \n<i>¿Cuentos al amor de la lumbre¿</i> II de A. R. Almodóvar. Anaya Publishers. 1st edition (2001)\n<br> The images are extracted from \n<i>Maxiloto Animaux</i>, from Nathan Publishers.",
+    "ca": "\"El gallo y el carámbano\" és un paquet d'activitats de comprensió lectora per al segon cicle d'educació primària (3r i 4t).\n<br> El text del conte esta basat en \n<i>\"Cuentos al amor de la lumbre\"</i> II de A.R. Almodóvar. Editorial Anaya. 1a edició , novembre de 1984.\n<br> Les imatges de la presentació estan preses del llibre de \n<i>Conocimiento del Medio 3º de primaria</i> de l'Editorial Santillana, edició de 2001.\n<br> La resta de les imatges són de \n<i>Maxiloto Animaux</i> de l'Editorial Nathan.",
+    "es": "El Gallo y el Carámbano es un paquete de actividades de comprensión lectora para el segundo ciclo de educación primaria (3º y 4º).\n<br> El texto del cuento está tomado de \n<i>\"Cuentos al amor de la lumbre\"</i> II de A. R.. Almodóvar. Editorial Anaya. 1ª edición , noviembre de 1984.\n<br> Las imágenes de la presentación están tomadas del libro de \n<i>Conocimiento del Medio de 3º de primaria</i> de la Editorial Santillana (edición 2001).\n<br> El resto de las imágenes pertenecen a \n<i>Maxiloto Animaux</i> de la editorial Nathan."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/elgallo.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/elgallo.jclic.zip",
+  "instFile": "jclic/elgallo.jclic.inst",
+  "clicZoneId": 2584,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2584",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/elgallo/jclic/elgallo.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 19,
+  "totalSize": 1616580,
+  "files": [
+    "cover.gif",
+    "jclic.js/caracol.gif",
+    "jclic.js/caracol1.gif",
+    "jclic.js/elgallo.jclic",
+    "jclic.js/hielo.gif",
+    "jclic.js/ig01.gif",
+    "jclic.js/ig011.gif",
+    "jclic.js/ig02.gif",
+    "jclic.js/ig021.gif",
+    "jclic.js/ig03.gif",
+    "jclic.js/ig031.gif",
+    "jclic.js/ig04.gif",
+    "jclic.js/ig041.gif",
+    "jclic.js/ig042.gif",
+    "jclic.js/ig043.gif",
+    "jclic.js/ig044.gif",
+    "jclic.js/ig045.gif",
+    "jclic.js/ig047.gif",
+    "jclic.js/ig048.gif",
+    "jclic.js/loro.gif",
+    "jclic.js/portada.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/elgallo.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": 1213,
+  "title": "Fuerzas",
+  "author": "Luis Díaz",
+  "school": "Colegio Santa María Goretti Guatire (Venezuela)",
+  "date": "26/01/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "física",
+    "es": "física",
+    "en": "physics"
+  },
+  "descCodes": [
+    72
+  ],
+  "description": {
+    "en": "Clic activities about forces: \n<ul> \n <li>Movement and deformation </li>\n <li>Inherence </li>\n <li>Newton laws </li>\n <li>Units of measurement </li>\n</ul>",
+    "ca": "Activitats sobre forces. Al llarg del paquet es treballen diferents conceptes com: \n<ul> \n <li>Moviment i deformació </li>\n <li>Incèrcia </li>\n <li>Les 3 lleis de Newton </li>\n <li>Unitats de mesura i conversió de les mateixes </li>\n</ul>",
+    "es": "Actividades sobre fuerzas. A lo largo del paquete se trabajan diferentes conceptos como: \n<ul> \n <li>Movimiento y deformación </li>\n <li>Inercia </li>\n <li>Las 3 leyes de Newton </li>\n <li>Unidades de medida </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/fuerzas.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fuerzas.jclic.zip",
+  "instFile": "jclic/fuerzas.jclic.inst",
+  "clicZoneId": 2942,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2942",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fuerzas/jclic/fuerzas.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 35,
+  "totalSize": 766128,
+  "files": [
+    "cover.gif",
+    "jclic.js/11a.gif",
+    "jclic.js/11b.gif",
+    "jclic.js/11e.gif",
+    "jclic.js/13.gif",
+    "jclic.js/19a.gif",
+    "jclic.js/19b.gif",
+    "jclic.js/19c.gif",
+    "jclic.js/19d.gif",
+    "jclic.js/20a.gif",
+    "jclic.js/20b.gif",
+    "jclic.js/21a.gif",
+    "jclic.js/21b.gif",
+    "jclic.js/21c.gif",
+    "jclic.js/dist119b.gif",
+    "jclic.js/dist19c.gif",
+    "jclic.js/dist19d.gif",
+    "jclic.js/dist219b.gif",
+    "jclic.js/dist319b.gif",
+    "jclic.js/fin.gif",
+    "jclic.js/fuerzas.gif",
+    "jclic.js/fuerzas.jclic",
+    "jclic.js/image13.gif",
+    "jclic.js/inercia1.gif",
+    "jclic.js/inercia2.gif",
+    "jclic.js/ley2.gif",
+    "jclic.js/ley3.gif",
+    "jclic.js/r11a.gif",
+    "jclic.js/r11b.gif",
+    "jclic.js/r11c.gif",
+    "jclic.js/r11d.gif",
+    "jclic.js/r11e.gif",
+    "jclic.js/resp19a.gif",
+    "jclic.js/resp19b.gif",
+    "jclic.js/resp19c.gif",
+    "jclic.js/resp19d.gif",
+    "jclic.js/vfuerza.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fuerzas.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

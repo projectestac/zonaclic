@@ -1,0 +1,102 @@
+{
+  "id": 123,
+  "title": "Las partes del computador",
+  "author": "Pau Córdoba",
+  "school": "C Escola Pia de Granollers Granollers (Vallès Oriental)",
+  "date": "09/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "informàtica, maquinari",
+    "es": "informática, hardware",
+    "en": "computer science, hardware"
+  },
+  "descCodes": [
+    737,
+    739
+  ],
+  "description": {
+    "en": "Activity pack about the parts of the computer, the basic vocabulary and peripherals.",
+    "ca": "Paquet d'activitats per a treballar els components i perifèrics de l'ordinador, i conèixer el vocabulari bàsic de la informàtica.",
+    "es": "Actividades diversas para conocer los componentes y periféricos del ordenador, así como introducir el vocabulario básico de la informática."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "ordinad",
+    "ordinaeu",
+    "ordinaga",
+    "ordvall"
+  ],
+  "mainFile": "jclic.js/ordinesp.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ordinesp.jclic.zip",
+  "instFile": "jclic/ordinesp.jclic.inst",
+  "clicZoneId": 1058,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1058",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ordinesp/jclic/ordinesp.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 15,
+  "totalSize": 172410,
+  "files": [
+    "cover.gif",
+    "jclic.js/cd_rom.gif",
+    "jclic.js/cpu.gif",
+    "jclic.js/disk.gif",
+    "jclic.js/foto.jpg",
+    "jclic.js/hd_drive.gif",
+    "jclic.js/joystick.gif",
+    "jclic.js/laser.gif",
+    "jclic.js/modem.gif",
+    "jclic.js/moltbe.gif",
+    "jclic.js/monitor.gif",
+    "jclic.js/mouse.gif",
+    "jclic.js/ord_home.gif",
+    "jclic.js/ordin.gif",
+    "jclic.js/ordinesp.jclic",
+    "jclic.js/scanner.gif",
+    "jclic.js/teclat.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ordinesp.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

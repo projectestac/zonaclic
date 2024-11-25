@@ -1,0 +1,115 @@
+{
+  "id": 324,
+  "title": "El cavall del rei",
+  "author": "Bel Comas Cantallops, Caty Ramis Florit i Xesca Pol Hernández",
+  "school": "CP Sant Bartomeu Alaró (Mallorca)",
+  "date": "16/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "comprensió escrita, llengua catalana, conte",
+    "es": "comprensión escrita, lengua catalana, cuento",
+    "en": "written understanding, Catalan language, story"
+  },
+  "descCodes": [
+    111,
+    133,
+    614
+  ],
+  "description": {
+    "en": "Reading comprehension activities that use the children's story \"El cavall del rei\" as the main theme.",
+    "ca": "Dos paquets d'activitats on es treballa la lectura comprensiva a partir de l'adaptació de la rondalla \"El cavall del rei\". Adreçat al 1r. Cicle d'Educació Primària.",
+    "es": "Dos paquetes de actividades donde se trabaja la lectura comprensiva a partir de la adaptación del cuento \"El cavall del rei\". Dirigido al 1er. Ciclo de EP."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "caballo",
+    "cavall"
+  ],
+  "mainFile": "jclic.js/zaldia.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/zaldia.jclic.zip",
+  "instFile": "jclic/zaldia.jclic.inst",
+  "clicZoneId": 1177,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1177",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/zaldia/jclic/zaldia.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 30,
+  "totalSize": 1122956,
+  "files": [
+    "cover.gif",
+    "jclic.js/bambi.jpg",
+    "jclic.js/cabell.wav",
+    "jclic.js/cadera.wav",
+    "jclic.js/cap.wav",
+    "jclic.js/cavall.jpg",
+    "jclic.js/cavall2.jpg",
+    "jclic.js/coa.wav",
+    "jclic.js/columna.wav",
+    "jclic.js/conill.jpg",
+    "jclic.js/costella.wav",
+    "jclic.js/crani.wav",
+    "jclic.js/eri_o.jpg",
+    "jclic.js/explora.jpg",
+    "jclic.js/guineu.jpg",
+    "jclic.js/jerbo.jpg",
+    "jclic.js/muflon.jpg",
+    "jclic.js/os.jpg",
+    "jclic.js/ossos.jpg",
+    "jclic.js/pitrera.wav",
+    "jclic.js/platja.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/pota.wav",
+    "jclic.js/ratapi.jpg",
+    "jclic.js/treball.gif",
+    "jclic.js/ungla.wav",
+    "jclic.js/vinyeta1.jpg",
+    "jclic.js/vinyeta3.jpg",
+    "jclic.js/vinyeta4.jpg",
+    "jclic.js/vinyeta5.jpg",
+    "jclic.js/vinyeta6.jpg",
+    "jclic.js/zaldia.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/zaldia.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

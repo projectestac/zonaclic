@@ -1,0 +1,119 @@
+{
+  "id": 1522,
+  "title": "Sistemas de numeración egipcio, maya y binario",
+  "author": "José Tomás Gallegos Ahedo",
+  "school": "Escuela estatal de secundaria Siglo XXI Las Guacamayas - Lazaro Cardenas - Michoacán (México)",
+  "date": "10/01/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "sistemes de numeració",
+    "es": "sistemas de numeración",
+    "en": "numeration systems"
+  },
+  "descCodes": [
+    1355
+  ],
+  "description": {
+    "en": "Clic activities about numeration system addressed to secondary education.",
+    "ca": "Aquest paquet d'activitats treballa el sistema de numeració egipci, el maya i el binari. Correspon als continguts que es treballen al primer grau del programa d'educació secundària de Mèxic.",
+    "es": "Este paquete trabaja con el Sistema de Numeración Egipcio, El Sistema de Numeración Maya y el Sistema Binario. Corresponde al Primer Grado del programa de Educación Secundaria de México."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sisnumpq.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sisnumpq.jclic.zip",
+  "instFile": "jclic/sisnumpq.jclic.inst",
+  "clicZoneId": 3244,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3244",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sisnumpq/jclic/sisnumpq.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 40,
+  "totalSize": 216228,
+  "files": [
+    "cover.gif",
+    "jclic.js/binario.gif",
+    "jclic.js/e1.gif",
+    "jclic.js/e10.gif",
+    "jclic.js/e100.gif",
+    "jclic.js/e1000.gif",
+    "jclic.js/e10000.gif",
+    "jclic.js/e100000.gif",
+    "jclic.js/e1000000.gif",
+    "jclic.js/e12747.gif",
+    "jclic.js/e1332435.gif",
+    "jclic.js/e2204148.gif",
+    "jclic.js/e2322247.gif",
+    "jclic.js/e453314.gif",
+    "jclic.js/e5729.gif",
+    "jclic.js/m0.gif",
+    "jclic.js/m1.gif",
+    "jclic.js/m118.gif",
+    "jclic.js/m12.gif",
+    "jclic.js/m120.gif",
+    "jclic.js/m17.gif",
+    "jclic.js/m1818.gif",
+    "jclic.js/m19.gif",
+    "jclic.js/m2165.gif",
+    "jclic.js/m233.gif",
+    "jclic.js/m240.gif",
+    "jclic.js/m2801.gif",
+    "jclic.js/m283.gif",
+    "jclic.js/m2980.gif",
+    "jclic.js/m3.gif",
+    "jclic.js/m30.gif",
+    "jclic.js/m4063.gif",
+    "jclic.js/m5.gif",
+    "jclic.js/m5125.gif",
+    "jclic.js/m54.gif",
+    "jclic.js/m6.gif",
+    "jclic.js/m60.gif",
+    "jclic.js/m6974.gif",
+    "jclic.js/m720.gif",
+    "jclic.js/m8.gif",
+    "jclic.js/sisnum.gif",
+    "jclic.js/sisnumpq.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sisnumpq.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

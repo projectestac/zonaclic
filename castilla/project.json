@@ -1,0 +1,108 @@
+{
+  "id": 791,
+  "title": "Castilla y León",
+  "author": "María Ángel de Prado",
+  "school": "CP San Ignacio de Loyola Palencia (Castilla y León)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geografia, història, Castella-Lleó",
+    "es": "geografía, historia, Castilla - León",
+    "en": "geography, history, Castilla - León"
+  },
+  "descCodes": [
+    235,
+    246,
+    486
+  ],
+  "description": {
+    "en": "Activity pack that contains refernces to te region of Castilla y León, its provinces, limits and interesting sites both cultural and turistic.",
+    "ca": "Paquet d'activitats sobre Castella i Lleó, les seves províncies, límits i llocs d'interès cultural. S'hi treballen continguts de geografia, història, art, cultura, curiositats, etc.",
+    "es": "Paquete de actividades de clic referentes a la región de Castilla y León, sus provincias, límites y puntos de interés culturales. Contenidos: geografía, historia, arte, cultura, curiosidades etc con muchas fotografías, mapas, puzzles..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/castilla.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/castilla.jclic.zip",
+  "instFile": "jclic/castilla.jclic.inst",
+  "clicZoneId": 1433,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1433",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/castilla/jclic/castilla.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 26,
+  "totalSize": 633088,
+  "files": [
+    "cover.gif",
+    "jclic.js/acueduc.gif",
+    "jclic.js/aguja.gif",
+    "jclic.js/antigua.gif",
+    "jclic.js/avila.gif",
+    "jclic.js/burgos.gif",
+    "jclic.js/castilla.jclic",
+    "jclic.js/cofradia.gif",
+    "jclic.js/cyl.gif",
+    "jclic.js/duero.gif",
+    "jclic.js/escudo.gif",
+    "jclic.js/escupal.gif",
+    "jclic.js/espa_a.gif",
+    "jclic.js/leon.gif",
+    "jclic.js/limicyl.gif",
+    "jclic.js/muralla.gif",
+    "jclic.js/nueve.gif",
+    "jclic.js/otero.gif",
+    "jclic.js/palencia.gif",
+    "jclic.js/plaza.gif",
+    "jclic.js/pueblo.gif",
+    "jclic.js/relicyl.gif",
+    "jclic.js/roseton.gif",
+    "jclic.js/salama_1.gif",
+    "jclic.js/segovia.gif",
+    "jclic.js/soria.gif",
+    "jclic.js/vallad_1.gif",
+    "jclic.js/zamora.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/castilla.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

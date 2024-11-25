@@ -1,0 +1,134 @@
+{
+  "id": 198,
+  "title": "La diabetis tipus I \"Conceptes avançats\"",
+  "author": "Antònia M. Gorgas Bargay, Eugènia Abadal i Inmaculada Estela Prat",
+  "school": "UEH Hospital S. Joan de Déu - ALTHAIA - Xarxa assistencial de Manresa Manresa (Bages)",
+  "date": "11/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "salut",
+    "es": "salud",
+    "en": "health"
+  },
+  "descCodes": [
+    101
+  ],
+  "description": {
+    "en": "Looking through this second package about Diabetes, we can find some guidelines to know acute complications of this illness and how to act when they come out. It reveals different types of insulin and how important is the physical exercise as well as the glycemic index control.",
+    "ca": "En aquest segon paquet d'activitats sobre la Diabetis es donen pautes per conèixer les complicacions agudes d'aquesta malaltia i saber actuar davant d'elles, els diferents tipus d'insulina, i valorar la importància de l'exercici físic com a control de la glucèmia.\n<p> Va adreçat a infants i joves que pateixen diabetis. </p>",
+    "es": "En este segundo paquete de actividades sobre la Diabetes se dan pautas para conocer las complicaciones agudas de esta enfermedad y saber actuar ante ellas, los diferentes tipos de insulina, y valorar la importancia del ejercicio físico como control de la glucemia.\n<p> Va dirigido a niños y jóvenes que sufren diabetes. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "adiabet2",
+    "ediabet2",
+    "fdiabet2"
+  ],
+  "mainFile": "jclic.js/diabeti2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/diabeti2.jclic.zip",
+  "instFile": "jclic/diabeti2.jclic.inst",
+  "clicZoneId": 1104,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1104",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/diabeti2/jclic/diabeti2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 45,
+  "totalSize": 758062,
+  "files": [
+    "cover.jpg",
+    "jclic.js/1253.gif",
+    "jclic.js/1323.gif",
+    "jclic.js/apple.jpg",
+    "jclic.js/avis2.jpg",
+    "jclic.js/bamba.jpg",
+    "jclic.js/bolisv_1.jpg",
+    "jclic.js/cansat.jpg",
+    "jclic.js/cara2.gif",
+    "jclic.js/caramels.jpg",
+    "jclic.js/compte.txt",
+    "jclic.js/confusio.txt",
+    "jclic.js/croissa2.jpg",
+    "jclic.js/diabeti2.jclic",
+    "jclic.js/embotits.jpg",
+    "jclic.js/espiral.gif",
+    "jclic.js/flor8.jpg",
+    "jclic.js/glucago.jpg",
+    "jclic.js/glucago1.jpg",
+    "jclic.js/glucemi1.txt",
+    "jclic.js/gotllet2.jpg",
+    "jclic.js/grille.jpg",
+    "jclic.js/hiperglu.gif",
+    "jclic.js/hiperh_1.gif",
+    "jclic.js/hipogluc.gif",
+    "jclic.js/insulina.jpg",
+    "jclic.js/insulines.txt",
+    "jclic.js/jumping.jpg",
+    "jclic.js/kid_sl_1.gif",
+    "jclic.js/logoal_1.gif",
+    "jclic.js/mannek_1.jpg",
+    "jclic.js/milk2.jpg",
+    "jclic.js/nens.jpg",
+    "jclic.js/nuages.gif",
+    "jclic.js/nwage.gif",
+    "jclic.js/orgjuice.jpg",
+    "jclic.js/pa3.jpg",
+    "jclic.js/panino.jpg",
+    "jclic.js/pills2.jpg",
+    "jclic.js/poma2.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/pregnan.gif",
+    "jclic.js/spiral.gif",
+    "jclic.js/sucre.jpg",
+    "jclic.js/sucre2.jpg",
+    "jclic.js/sugus4.jpg",
+    "jclic.js/syde0707.gif",
+    "jclic.js/syde0709.gif",
+    "jclic.js/vasos.jpg",
+    "jclic.js/xavier.jpg",
+    "jclic.js/zpuncio.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/diabeti2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

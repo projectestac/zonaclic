@@ -1,0 +1,91 @@
+{
+  "id": 918,
+  "title": "El sistema digestivo",
+  "author": "Miguel Ruiz Acebo",
+  "school": "Colegio El Salvador - Cooperativa de enseñanza Barreda (Cantabria)",
+  "date": "12/12/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales",
+    "en": "Experimental sciences"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "biologia, salut",
+    "es": "biología, salud",
+    "en": "biology, health"
+  },
+  "descCodes": [
+    58,
+    101
+  ],
+  "description": {
+    "en": "Activities for 6th course of Primary school about : \n<ul> \n <li>Digestive system organs </li>\n <li>Functionality of the digestive system </li>\n <li>The digestion </li>\n <li>Hygiene of the digestive system </li>\n <li>Illness of the digestive system </li>\n</ul>",
+    "ca": "Activitats per a 6è de Primària on es tracten els següents continguts: \n<ul> \n <li>Els òrgans del sistema digestiu. </li>\n <li>Funcionament del sistema digestiu. </li>\n <li>La digestió. </li>\n <li>Cures i higiene del sistema digestiu. </li>\n <li>Malalties del sistema digestiu. </li>\n</ul>",
+    "es": "Actividades para 6º de Primaria en las que se tratan los siguientes contenidos: \n<ul> \n <li>Los órganos del sistema digestivo. </li>\n <li>Funcionamiento del sistema digestivo. </li>\n <li>La digestión. </li>\n <li>Cuidados e higiene del sistema digestivo. </li>\n <li>Enfermedades del sistema digestivo. </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/digrespi.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/digrespi.jclic.zip",
+  "instFile": "jclic/digrespi.jclic.inst",
+  "clicZoneId": 2029,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2029",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/digrespi/jclic/digrespi.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 11,
+  "totalSize": 381263,
+  "files": [
+    "cover.gif",
+    "jclic.js/digesti1.jpg",
+    "jclic.js/digesti2.jpg",
+    "jclic.js/digesti3.jpg",
+    "jclic.js/digesti4.jpg",
+    "jclic.js/digesti5.jpg",
+    "jclic.js/digesti6.jpg",
+    "jclic.js/digesti7.jpg",
+    "jclic.js/digesti8.jpg",
+    "jclic.js/digesti9.jpg",
+    "jclic.js/digrespi.jclic",
+    "jclic.js/entrada.jpg",
+    "jclic.js/ni_ogif.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/digrespi.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": 690,
+  "title": "Iniciación a problemas - 2º ciclo (Discapacidad visual baja visión)",
+  "author": "Ramiro Garijo Tarancón",
+  "school": "CRA Pinares Altos Vinuesa (Soria)",
+  "date": "21/11/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "problemes matemàtics",
+    "es": "problemas matemáticos",
+    "en": "mathematic problems"
+  },
+  "descCodes": [
+    926
+  ],
+  "description": {
+    "en": "Clic activities about mathematic problems where children must choose the good answer or procedure.\n<br> It is adapted for low vision impaired children.",
+    "ca": "Paquet d'activitats per a 2n cicle de Primària de problemes de matemàtiques. El paquet es divideix en quatre sessions on hi ha diferents problemes on l'alumne ha de triar la solució correcta o bé el procediment correcte.\n<br> Adaptat per discapacitat visual baixa visió.",
+    "es": "Paquete de actividades para 2º ciclo de Primaria de problemas de matemáticas. El paquete se divide en cuatro sesiones dónde hay diferentes problemas en los que el alumno debe elegir la solución o el procedimiento correcto.\n<br> Adaptado para discapacidad visual baja visión."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "problems",
+    "problgal"
+  ],
+  "mainFile": "jclic.js/probledv.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/probledv.jclic.zip",
+  "instFile": "jclic/probledv.jclic.inst",
+  "clicZoneId": 1361,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1361",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/probledv/jclic/probledv.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 37,
+  "mediaFiles": 1,
+  "totalSize": 164210,
+  "files": [
+    "cover.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/probledv.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/probledv.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

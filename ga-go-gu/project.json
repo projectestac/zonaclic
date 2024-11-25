@@ -1,0 +1,109 @@
+{
+  "id": 452,
+  "title": "Ga-go-gu",
+  "author": "Claudia Lovrincevich",
+  "school": "Ushuaia Tierra del Fuego (Argentina)",
+  "date": "23/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua castellana, ortografia",
+    "es": "aprendizaje de la lengua, lengua castellana, ortografía",
+    "en": "learning of the language, Spanish language, spelling"
+  },
+  "descCodes": [
+    110,
+    132,
+    146
+  ],
+  "description": {
+    "en": "Clic activities about Spanish language. The objective of this activity is learn how to use the syllables \n<i>ga, go, gu</i>.",
+    "ca": "Paquet d'activitats per a treballar l'ús de les síl·labes \n<i>ga, go, gu</i> partint dels noms d'animals com a centre d'interès.",
+    "es": "Paquete de actividades para trabajar el uso de las sílabas \n<i>ga, go, gu</i> partiendo de los nombres de animales como centro de interés."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ga-go-gu.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ga-go-gu.jclic.zip",
+  "instFile": "jclic/ga-go-gu.jclic.inst",
+  "clicZoneId": 1275,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1275",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ga-go-gu/jclic/ga-go-gu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 31,
+  "mediaFiles": 28,
+  "totalSize": 501194,
+  "files": [
+    "cover.gif",
+    "jclic.js/1.gif",
+    "jclic.js/2.gif",
+    "jclic.js/222.gif",
+    "jclic.js/3.gif",
+    "jclic.js/33.gif",
+    "jclic.js/333.jpg",
+    "jclic.js/adi1.gif",
+    "jclic.js/adi11.gif",
+    "jclic.js/anto.gif",
+    "jclic.js/anto1.gif",
+    "jclic.js/bravo.gif",
+    "jclic.js/fin.gif",
+    "jclic.js/ga-go-gu.jclic",
+    "jclic.js/gala.jpg",
+    "jclic.js/galapago.gif",
+    "jclic.js/gallo.gif",
+    "jclic.js/gato.gif",
+    "jclic.js/gato1.gif",
+    "jclic.js/gato2.gif",
+    "jclic.js/gaviota.gif",
+    "jclic.js/gaviota3.gif",
+    "jclic.js/genial.gif",
+    "jclic.js/guana.gif",
+    "jclic.js/guana2.gif",
+    "jclic.js/gusano.gif",
+    "jclic.js/hormi.gif",
+    "jclic.js/laguna.gif",
+    "jclic.js/rega.gif",
+    "jclic.js/tort.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ga-go-gu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

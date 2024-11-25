@@ -1,0 +1,123 @@
+{
+  "id": 84,
+  "title": "Umeen Eskubideak",
+  "author": "César Martínez Iturralde",
+  "school": "CP San Frantzisko Herri Ikastetxea Bermeo (Euzkadi)",
+  "date": "09/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "diversitat, solidaritat",
+    "es": "diversidad, solidaridad",
+    "en": "diversity, solidarity"
+  },
+  "descCodes": [
+    789,
+    949
+  ],
+  "description": {
+    "en": "Clic activities based on a program of UNICEF: \n<b>LA VOZ DE LOS NIÑOS (The voice of the children)</b>. The application has 12 activities with 4 exercises in each one based on the rights that are framed there: identity, family, health, education, equality, protection, participation, well-being, peace, the children first, solidarity. \n<p> In order to finish another three activities that serves as a compendium of all the package (to write a letter and a descriptive text). </p>",
+    "ca": "Activitat basada en un programa que la UNICEF ha desenvolupat sota el nom de \n<b>LA VOZ DE LOS NIÑOS</b>.\n<p> Consta de 12 seqüències (4 exercicis a cada una) basades en cadascun dels drets dels infants: identitat, família, salut, educació, joc, igualtat, protecció, participació, benestar, pau, els nens primer, solidaritat.</p>\n<p> Per acabar unes altres tres activitats que serveixen per acabar d'assolir tota la activitat (escriure una carta i un text descriptiu). </p>",
+    "es": "Actividad basada en un programa que la UNICEF ha venido desarrollando bajo el nombre de \n<b>LA VOZ DE LOS NIÑOS</b>.\n<p> Consta de 12 secuencias (4 ejercicios en cada una) basadas en cada uno de los derechos que allí se enmarcan: identidad, familia, salud, educación, juego, igualdad, protección, participación, bienestar, paz, los niños primero, solidaridad.</p>\n<p> Para terminar otras tres que sirven de compendio de toda la actividad (escribir una carta y un texto descriptivo). </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/eskubide.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/eskubide.jclic.zip",
+  "instFile": "jclic/eskubide.jclic.inst",
+  "clicZoneId": 1039,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1039",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/eskubide/jclic/eskubide.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 53,
+  "mediaFiles": 43,
+  "totalSize": 16941105,
+  "files": [
+    "cover.gif",
+    "jclic.js/aplauso.wav",
+    "jclic.js/esku01.jpg",
+    "jclic.js/esku01.wav",
+    "jclic.js/esku01m.jpg",
+    "jclic.js/esku02.jpg",
+    "jclic.js/esku02.wav",
+    "jclic.js/esku02m.jpg",
+    "jclic.js/esku03.jpg",
+    "jclic.js/esku03.wav",
+    "jclic.js/esku03m.jpg",
+    "jclic.js/esku04.jpg",
+    "jclic.js/esku04.wav",
+    "jclic.js/esku04m.jpg",
+    "jclic.js/esku05.jpg",
+    "jclic.js/esku05.wav",
+    "jclic.js/esku05m.jpg",
+    "jclic.js/esku06.jpg",
+    "jclic.js/esku06.wav",
+    "jclic.js/esku06m.jpg",
+    "jclic.js/esku07.jpg",
+    "jclic.js/esku07.wav",
+    "jclic.js/esku07m.jpg",
+    "jclic.js/esku08.jpg",
+    "jclic.js/esku08.wav",
+    "jclic.js/esku08m.jpg",
+    "jclic.js/esku09.jpg",
+    "jclic.js/esku09.wav",
+    "jclic.js/esku09m.jpg",
+    "jclic.js/esku10.jpg",
+    "jclic.js/esku10.wav",
+    "jclic.js/esku10m.jpg",
+    "jclic.js/esku11.jpg",
+    "jclic.js/esku11.wav",
+    "jclic.js/esku11m.jpg",
+    "jclic.js/esku12.jpg",
+    "jclic.js/esku12.wav",
+    "jclic.js/esku12m.jpg",
+    "jclic.js/eskubide.jclic",
+    "jclic.js/eu13_3.jpg",
+    "jclic.js/karatula.jpg",
+    "jclic.js/musi1.wav",
+    "jclic.js/musi2.wav",
+    "jclic.js/musi3.wav",
+    "jclic.js/sopale.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/eskubide.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

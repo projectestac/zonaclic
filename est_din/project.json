@@ -1,0 +1,94 @@
+{
+  "id": 2493,
+  "title": "La dinàmica interna de la Terra",
+  "author": "Lola Porras Martín",
+  "school": "C Virgen del Carmen Palma de Mallorca (Balears)",
+  "date": "09/03/17",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geologia, terra , La Terra",
+    "es": "geología, tierra, La Tierra",
+    "en": "geology, earth, The Earth"
+  },
+  "descCodes": [
+    78,
+    105,
+    1331
+  ],
+  "description": {
+    "en": "Activity useful to review the structure and internal dynamics of Earth. There are activities that work: the structure, the origin of the internal energy of the earth, the lithosphere plate, seismicity, vulcan science, folds and faults, rock formation.",
+    "ca": "Activitat útil per a repassar l'estructura i la dinàmica de la Terra. Hi ha activitats que treballen: la mateixa estructura, l'origen de l'energia interna de la terra, les plaques litosfèriques, sismicitat, vulcanisme, plecs i falles, formació de roques.",
+    "es": "Actividad útil para repasar la estructura y la dinámica interna de la Tierra. Hay actividades que trabajan: la misma estructura, el origen de la energía interna de la tierra, las placas litosféricas, sismicidad, vulcanismo, pliegues y fallas, formación de rocas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/est_din.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/est_din.jclic.zip",
+  "instFile": "jclic/est_din.jclic.inst",
+  "clicZoneId": 4002,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=4002",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/est_din/jclic/est_din.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 13,
+  "totalSize": 1725152,
+  "files": [
+    "cover.png",
+    "jclic.js/1280px_anticlinal_sot_de_chera_resized.jpg",
+    "jclic.js/2_chimenea_volcanica_resized.jpg",
+    "jclic.js/800px_mtsthelensash1980eruption.jpg",
+    "jclic.js/800px_nojima_fault_side_view.jpg",
+    "jclic.js/800px_volcanic_bomb_from_hekla.jpg",
+    "jclic.js/cratersanta_ana_volcano.usaf.c_130.3_resized.jpg",
+    "jclic.js/est_din.jclic",
+    "jclic.js/est_din.jclic.js",
+    "jclic.js/falla_normaljpg.jpg",
+    "jclic.js/lapilli.jpg",
+    "jclic.js/lava.jpg",
+    "jclic.js/placas_tectonicas_es.svg.png",
+    "jclic.js/synclinecalico.jpg",
+    "jclic.js/volcaniccone.jpg",
+    "jclic.js/yellowstome_magma_chamber.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

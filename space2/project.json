@@ -1,0 +1,91 @@
+{
+  "id": 2439,
+  "title": "The history of space exploration",
+  "author": "Angel Jiménez Martín",
+  "school": "C Mare del Diví Pastor Capellades (Anoia)",
+  "date": "07/04/16",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Social sciences, Languages",
+    "ca": "Ciències socials, Llengües",
+    "es": "Ciencias sociales, Lenguas"
+  },
+  "areaCodes": [
+    "soc",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de les llengües estrangeres, vocabulari, espai",
+    "es": "aprendizaje de las lenguas extranjeras, vocabulario, espacio",
+    "en": "learning of the foreign languages, vocabulary, space"
+  },
+  "descCodes": [
+    660,
+    673,
+    1469
+  ],
+  "description": {
+    "en": "It varied activities (complete text, associations, information screens...) which reviews the history of space exploration, making a tour of the ships that have gone into space and places you have conquered. The activities are done in English because it is primarily designed for this course, although it could be used in Environment.",
+    "ca": "Es tracta d'activitats variades (completar text, associacions, pantalles d'informació...) que repassen la història de l'exploració espacial, fent un recorregut de les naus que han anat a l'espai i els llocs que han conquerit. Les activitats estan fetes en anglès, ja que està pensat fonamentalment per a aquesta assignatura, tot i que es podria fer servir a Coneixement del Medi.",
+    "es": "Se trata actividades variadas (completar texto, asociaciones, pantallas de información ...) que repasan la historia de la exploración espacial, haciendo un recorrido de las naves que han ido al espacio y los lugares que han conquistado. Las actividades están hechas en inglés, ya que está pensado fundamentalmente para esta asignatura, aunque se podría utilizar en Conocimiento del Medio."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/space2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/space2.jclic.zip",
+  "instFile": "jclic/space2.jclic.inst",
+  "clicZoneId": 3948,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3948",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/space2/jclic/space2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 9,
+  "totalSize": 748550,
+  "files": [
+    "cover.png",
+    "jclic.js/150414main_shuttle_night_lg_resized.jpg",
+    "jclic.js/23_artc3adculo_sputnik_1.jpg",
+    "jclic.js/2785main_hp_ilp_tdrs.jpg",
+    "jclic.js/49961_21111_mars_pathfinder.jpg",
+    "jclic.js/apollo_11_resized.jpg",
+    "jclic.js/hubble.jpg",
+    "jclic.js/iss.jpg",
+    "jclic.js/mars_phobos.jpg",
+    "jclic.js/sonda_voyager1.jpg",
+    "jclic.js/space2.jclic",
+    "jclic.js/space2.jclic.js",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

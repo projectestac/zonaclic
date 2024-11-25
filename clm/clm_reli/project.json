@@ -1,0 +1,127 @@
+{
+  "id": 1509,
+  "title": "Castilla La Mancha: mi comunidad (Relieve y clima)",
+  "author": "María Feliciana Lara Romero",
+  "school": "CEIP Eduardo Sanchiz Tarazona de la Mancha - Albacete (Castilla - La Mancha)",
+  "date": "15/12/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "Castella-la Manxa",
+    "es": "Castilla - la mancha",
+    "en": "Castilla - la mancha"
+  },
+  "descCodes": [
+    485
+  ],
+  "description": {
+    "en": "Six packages of activities about the Spanish region of \"Castilla-La Mancha\": \n<ul> \n <li>Location, institutions and culture </li>\n <li>Economy </li>\n <li>Nature </li>\n <li>History </li>\n <li>Population </li>\n <li>Climate and relief </li>\n</ul>",
+    "ca": "Un extens conjunt d'activitats sobre la comunitat de Castella-La Manxa. Conté un total de 6 paquets que tracten de: \n<ul> \n <li>Situació, composició, institucions, cultura i patrimoni. </li>\n <li>Economia. </li>\n <li>Espais naturals. Flora i fauna. </li>\n <li>Història. </li>\n <li>Població. </li>\n <li>Relleu, rius i clima. </li>\n</ul>",
+    "es": "Extenso conjunto de actividades sobre la comunidad de Castilla-La Mancha. Contiene seis paquetes que tratan de: \n<ul> \n <li>Situación, composición, instituciones, cultura y patrimonio. </li>\n <li>Economía. </li>\n <li>Espacios naturales. Flora y fauna. </li>\n <li>Historia. </li>\n <li>Población. </li>\n <li>Relieve, ríos y clima. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "clm/clm_econ",
+    "clm/clm_espa",
+    "clm/clm_gene",
+    "clm/clm_hist",
+    "clm/clm_pobl"
+  ],
+  "mainFile": "jclic.js/clm_reli.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/clm_reli.jclic.zip",
+  "instFile": "jclic/clm_reli.jclic.inst",
+  "clicZoneId": 3223,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3223",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/clm/clm_reli/jclic/clm_reli.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 39,
+  "mediaFiles": 35,
+  "totalSize": 7825674,
+  "files": [
+    "cover.jpg",
+    "jclic.js/11.wav",
+    "jclic.js/12.wav",
+    "jclic.js/13.wav",
+    "jclic.js/14.wav",
+    "jclic.js/15.wav",
+    "jclic.js/16.wav",
+    "jclic.js/17.wav",
+    "jclic.js/8.wav",
+    "jclic.js/9.wav",
+    "jclic.js/aguas.gif",
+    "jclic.js/clima2.gif",
+    "jclic.js/clinasi.gif",
+    "jclic.js/clinasi1.gif",
+    "jclic.js/clinasin.gif",
+    "jclic.js/clm_reli.jclic",
+    "jclic.js/condemi1.gif",
+    "jclic.js/guadiana.gif",
+    "jclic.js/info/infocli.doc",
+    "jclic.js/info/infoclima.doc",
+    "jclic.js/info/rilinfo.doc",
+    "jclic.js/info/riografi.doc",
+    "jclic.js/info/riosinfo.doc",
+    "jclic.js/jucar.gif",
+    "jclic.js/laroda1.gif",
+    "jclic.js/maria2.gif",
+    "jclic.js/portada1.gif",
+    "jclic.js/precip.gif",
+    "jclic.js/precip1.gif",
+    "jclic.js/reliev.gif",
+    "jclic.js/relieva1.gif",
+    "jclic.js/relieva2.gif",
+    "jclic.js/relieva4.gif",
+    "jclic.js/relieva5.gif",
+    "jclic.js/relieve.gif",
+    "jclic.js/riosbu.gif",
+    "jclic.js/riosbue.gif",
+    "jclic.js/rioscma1.gif",
+    "jclic.js/segura.gif",
+    "jclic.js/tajo.gif",
+    "jclic.js/tempe.gif",
+    "jclic.js/tempe1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/clm_reli.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

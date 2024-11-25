@@ -1,0 +1,106 @@
+{
+  "id": 1658,
+  "title": "A nosa comunidade",
+  "school": "CEIP Galán Oseiro (Galiza)",
+  "date": "09/03/07",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "geografia",
+    "es": "geografía",
+    "en": "geography"
+  },
+  "descCodes": [
+    235
+  ],
+  "description": {
+    "en": "Project of activities about Galize, its flag and its shield.",
+    "ca": "Projecte d'activitats per als més petits per a l'aprenentatge de les províncies de la comunitat autònoma de Galícia i també la seva bandera i el seu escut.",
+    "es": "Proyecto de actividades para los mas pequeños para el aprendizaje de las provincias de la comunidad autónoma de Galicia y también su bandera y su escudo."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/galiciei.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/galiciei.jclic.zip",
+  "instFile": "jclic/galiciei.jclic.inst",
+  "clicZoneId": 3367,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3367",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/galiciei/jclic/galiciei.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 8,
+  "mediaFiles": 28,
+  "totalSize": 927577,
+  "files": [
+    "cover.jpg",
+    "jclic.js/bandei.mp3",
+    "jclic.js/bandei1.gif",
+    "jclic.js/coruna.gif",
+    "jclic.js/coruna.mp3",
+    "jclic.js/escudo.mp3",
+    "jclic.js/escudo1.gif",
+    "jclic.js/faiclic.mp3",
+    "jclic.js/faiclim.mp3",
+    "jclic.js/faicre.mp3",
+    "jclic.js/fondo2.gif",
+    "jclic.js/galbot.gif",
+    "jclic.js/galbot2.gif",
+    "jclic.js/galicia3.gif",
+    "jclic.js/galiciei.jclic",
+    "jclic.js/lugo.gif",
+    "jclic.js/lugo.mp3",
+    "jclic.js/memima_n1.ttf",
+    "jclic.js/memima_n2.ttf",
+    "jclic.js/mp3galici_moiben.mp3",
+    "jclic.js/mp3galici_ourense.mp3",
+    "jclic.js/mp3galici_ponteve.mp3",
+    "jclic.js/mp3galici_queres.mp3",
+    "jclic.js/mp3galici_unprono.mp3",
+    "jclic.js/non.gif",
+    "jclic.js/ouren.gif",
+    "jclic.js/ponteve.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/queres.gif",
+    "jclic.js/si.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/galiciei.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

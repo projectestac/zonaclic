@@ -1,0 +1,124 @@
+{
+  "id": 2373,
+  "title": "Els aliments",
+  "author": "Marina Puiggròs",
+  "school": "Servei d'Immersió i Acolliment Lingüístics Barcelona, Universitat Pompeu Fabra Barcelona",
+  "date": "16/03/15",
+  "languages": {
+    "en": "Catalan, French, Portuguese",
+    "ca": "català, francès, portuguès",
+    "es": "catalán, francés, portugués"
+  },
+  "langCodes": [
+    "ca",
+    "fr",
+    "pt"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages",
+    "ca": "Ciències experimentals, Llengües",
+    "es": "Ciencias experimentales, Lenguas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aliments, aprenentatge de la llengua, llengua francesa",
+    "es": "alimentos, aprendizaje de la lengua, lengua francesa",
+    "en": "foods, learning of the language, French language"
+  },
+  "descCodes": [
+    49,
+    110,
+    136
+  ],
+  "description": {
+    "en": "Activity designed to work different food groups and their properties and nutrients. The definitions are written in Catalan and food names in French and Portuguese. It is therefore a multilingual activity. \n<p> The activity is addressed to third cycle of primary education and first cycle of secondary education. </p>",
+    "ca": "Aquesta activitat està pensada per treballar diferents grups d'aliments i les seves propietats i nutrients. Les definicions són escrites en català i els noms dels aliments en francès i portuguès. És, per tant, una activitat plurilingüe.\n<p> Està destinada a estudiants de cicle superior de primària i primer cicle d'ESO.</p>\n<p> L'activitat s'ha desenvolupat en el marc del projecte <a href=\"http://www.xtec.cat/web/projectes/plurilinguisme/intercomprensio/presentacioeuromania\">Sciences et société</a>. </p>",
+    "es": "Actividad pensada para trabajar diferentes grupos de alimentos y sus propiedades y nutrientes. Las definiciones están escritas en catalán y los nombres de los alimentos en francés y portugués. Es, por tanto, una actividad plurilingüe.\n<p> Está destinada a ciclo supoerior de primaria y primer ciclo de ESO.</p>\n<p> La actividad se ha desarrollado en el marco del proyecto <a href=\"http://www.xtec.cat/web/projectes/plurilinguisme/intercomprensio/presentacioeuromania\">Sciences et société</a>. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/al_pt_fr.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/al_pt_fr.jclic.zip",
+  "instFile": "jclic/al_pt_fr.jclic.inst",
+  "clicZoneId": 3878,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3878",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/al_pt_fr/jclic/al_pt_fr.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 39,
+  "totalSize": 894945,
+  "files": [
+    "cover.png",
+    "jclic.js/al_pt_fr.jclic",
+    "jclic.js/all.jpg",
+    "jclic.js/arros.jpg",
+    "jclic.js/atmetlles.jpg",
+    "jclic.js/aubergine.jpg",
+    "jclic.js/blat.gif",
+    "jclic.js/broquil.gif",
+    "jclic.js/carbassa.jpg",
+    "jclic.js/carn.gif",
+    "jclic.js/ceba.jpg",
+    "jclic.js/cirera.gif",
+    "jclic.js/enciam.jpg",
+    "jclic.js/formatge.gif",
+    "jclic.js/fruites.gif",
+    "jclic.js/gamba.jpg",
+    "jclic.js/iogurt.gif",
+    "jclic.js/llet.gif",
+    "jclic.js/mantega_resized.jpg",
+    "jclic.js/mel.jpg",
+    "jclic.js/mongetes_resized.jpg",
+    "jclic.js/oli_bo_resized.jpg",
+    "jclic.js/olives.jpg",
+    "jclic.js/ous_resized.jpg",
+    "jclic.js/pa.gif",
+    "jclic.js/pastanaga.gif",
+    "jclic.js/pastis.gif",
+    "jclic.js/patata.gif",
+    "jclic.js/pebrot.gif",
+    "jclic.js/peix.gif",
+    "jclic.js/pera.gif",
+    "jclic.js/pinya.jpg",
+    "jclic.js/platan.jpg",
+    "jclic.js/pollastre.gif",
+    "jclic.js/portada_jclic_aliments2_resized.jpg",
+    "jclic.js/salade.gif",
+    "jclic.js/taronja.gif",
+    "jclic.js/tomat_1172844651.jpg",
+    "jclic.js/verdures.gif",
+    "jclic.js/xampinyo1.jpg",
+    "jclic.js/xocolata.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/al_pt_fr.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

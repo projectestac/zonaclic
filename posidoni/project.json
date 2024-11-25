@@ -1,0 +1,126 @@
+{
+  "id": 2347,
+  "title": "La posidònia",
+  "author": "Gertrudis Carreras Pons",
+  "school": "CEIP Mare de Déu de Gràcia Maó (Balears)",
+  "date": "22/01/15",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "medi ambient, plantes, aigua",
+    "es": "medio ambiente, plantas, agua",
+    "en": "environment, plants, water"
+  },
+  "descCodes": [
+    87,
+    96,
+    1341
+  ],
+  "description": {
+    "en": "JClic activities about the Posidonia plants. The Posidonia is a major source of life in the Mediterranean, but it is in decline, especially in some areas of northern anthropised much. \n<p> </p>",
+    "ca": "La posidònia és una de les principals fonts de vida de la Mediterrània, però es troba en regressió, especialment a algunes àrees del nord molt antropitzades.\n<p> Aquest projecte d'activitats JClic pretén donar a conèixer la posidònia i els éssers vius que formen part del seu ecosistema. </p>",
+    "es": "La posidonia es una de las principales fuentes de vida del Mediterráneo, pero se encuentra en regresión, especialmente en algunas áreas del norte muy humanizadas. \n<p> Este paquete de actividades JClic pretende dar a conocer la posidonia y los seres vivos que forman parte de su ecosistema. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/posidoni.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/posidoni.jclic.zip",
+  "instFile": "jclic/posidoni.jclic.inst",
+  "clicZoneId": 3855,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3855",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/posidoni/jclic/posidoni.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 45,
+  "totalSize": 5852914,
+  "files": [
+    "cover.png",
+    "jclic.js/aboc.gif",
+    "jclic.js/agull2.gif",
+    "jclic.js/aigua.gif",
+    "jclic.js/ancl.gif",
+    "jclic.js/aq_i.gif",
+    "jclic.js/arrab.gif",
+    "jclic.js/blauet.gif",
+    "jclic.js/blav_s.gif",
+    "jclic.js/caul.gif",
+    "jclic.js/cav1.gif",
+    "jclic.js/cavallet.gif",
+    "jclic.js/cavalls.gif",
+    "jclic.js/crancpel.gif",
+    "jclic.js/donzella.gif",
+    "jclic.js/echin.gif",
+    "jclic.js/envit.gif",
+    "jclic.js/esparr.gif",
+    "jclic.js/est.gif",
+    "jclic.js/fane.gif",
+    "jclic.js/flor.gif",
+    "jclic.js/fons.gif",
+    "jclic.js/fons2.gif",
+    "jclic.js/fonsestr.jpg",
+    "jclic.js/fotoh.gif",
+    "jclic.js/holot.gif",
+    "jclic.js/more.gif",
+    "jclic.js/morena.gif",
+    "jclic.js/nacra3.gif",
+    "jclic.js/naut.gif",
+    "jclic.js/orella.gif",
+    "jclic.js/peixos.gif",
+    "jclic.js/platja.gif",
+    "jclic.js/ponia2.gif",
+    "jclic.js/portada.jpg",
+    "jclic.js/posi.gif",
+    "jclic.js/posidoni.jclic",
+    "jclic.js/regen.gif",
+    "jclic.js/saupes.gif",
+    "jclic.js/sepia.gif",
+    "jclic.js/spiro.gif",
+    "jclic.js/vaca.gif",
+    "jclic.js/vaixell.gif",
+    "jclic.js/voga.gif",
+    "jclic.js/vogam.gif",
+    "jclic.js/water.gif",
+    "jclic.js/wet.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/posidoni.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

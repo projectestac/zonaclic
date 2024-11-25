@@ -1,0 +1,101 @@
+{
+  "id": 2041,
+  "title": "La llegenda de Sant Jordi",
+  "author": "Gladys Hernández Daddario",
+  "school": "Escola El Turó Bigues i Riells (Bigues) (Vallès Oriental)",
+  "date": "24/03/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences, Languages",
+    "ca": "Ciències socials, Llengües",
+    "es": "Ciencias sociales, Lenguas"
+  },
+  "areaCodes": [
+    "soc",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "cultura popular, conte",
+    "es": "cultura popular, cuento",
+    "en": "popular culture, story"
+  },
+  "descCodes": [
+    196,
+    614
+  ],
+  "description": {
+    "en": "Project of activities about the legend of Sant Jordi. It can be used as a complement to the class activities or you can work only with history and the activities. \n<p> All images used are freely broadcast from <a href=\" http://www.sxc.hu/ \"> Stock.XCHNG</a>. </p>",
+    "ca": "Projecte d'activitats sobre la llegenda de Sant Jordi. Es pot utilitzar com a complement de les activitats que es realitzin a classe per celebrar la diada o bé es pot treballar únicament la història i complementar-la amb les activitats.\n<p> Totes les imatges utilitzades son de lliure difusió, provinents de <a href=\"http://www.sxc.hu/\">Stock.XCHNG </a>. </p>",
+    "es": "Proyecto de actividades sobre la leyenda de Sant Jordi. Se puede utilizar como complemento de las actividades que se realizan en clase para celebrar la diada o bien se puede trabajar únicamente la historia y complementarla con las actividades.\n<p> Todas las imágenes utilizadas son de libre difusión, provinentes de <a href=\"http://www.sxc.hu/\">Stock.XCHNG </a>. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/santjordi.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/santjordi.jclic.zip",
+  "instFile": "jclic/santjordi.jclic.inst",
+  "clicZoneId": 3611,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3611",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/santjordi/jclic/santjordi.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 20,
+  "totalSize": 862861,
+  "files": [
+    "cover.jpg",
+    "jclic.js/1137965_fire_dragon_3.jpg",
+    "jclic.js/1237073_sheep_and_lambs.jpg",
+    "jclic.js/522006_crowd.jpg",
+    "jclic.js/castell.jpg",
+    "jclic.js/cavallers.jpg",
+    "jclic.js/drac.jpg",
+    "jclic.js/drac2.jpg",
+    "jclic.js/espasa.jpg",
+    "jclic.js/ist2_9496495_romantic_book.jpg",
+    "jclic.js/jordi.jpg",
+    "jclic.js/llibre.jpg",
+    "jclic.js/monedes.jpg",
+    "jclic.js/pob.jpg",
+    "jclic.js/poble.jpg",
+    "jclic.js/princesa.jpg",
+    "jclic.js/rei.jpg",
+    "jclic.js/rosa.jpg",
+    "jclic.js/roses.jpg",
+    "jclic.js/runes.jpg",
+    "jclic.js/santjordi.jclic",
+    "jclic.js/stgeorge.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/santjordi.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

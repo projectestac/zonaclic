@@ -1,0 +1,142 @@
+{
+  "id": 2088,
+  "title": "Tot just comencem",
+  "author": "Roser Soria Martín",
+  "school": "Escola Ardenya Sant Feliu de Guíxols (Baix Empordà)",
+  "date": "26/11/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "comprensió oral, família, colors",
+    "es": "comprensión oral, familia, colores",
+    "en": "oral understanding, family, colours"
+  },
+  "descCodes": [
+    112,
+    223,
+    1389
+  ],
+  "description": {
+    "en": "JClic project with a series of activities such as puzzles, memory activities, associations ... to work different concepts: shapes, colours, inside/outside, big/small, etc. in order to explore and experiment through playing.",
+    "ca": "Projecte JClic on partint de l'entorn més proper, la família, es presenten una sèrie d'activitats com ara trencaclosques, activitats de memòria, associacions... per treballar diferents conceptes: figures geomètriques, colors, dins/fora, gran/petit, etc. amb l'objectiu d'explorar i experimentar a partir del joc.",
+    "es": "Proyecto JClic donde partiendo del entorno más cercano, la familia, se presentan una serie de actividades como rompecabezas, actividades de memoria, asociaciones... para trabajar diferentes conceptos: figuras geométricas, colores, dentro/fuera, grande/pequeño, etc. con el objetivo de explorar y experimentar a través del juego."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/comencem.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/comencem.jclic.zip",
+  "instFile": "jclic/comencem.jclic.inst",
+  "clicZoneId": 3650,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3650",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/comencem/jclic/comencem.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 61,
+  "totalSize": 3882074,
+  "files": [
+    "cover.gif",
+    "jclic.js/102_9918.jpg",
+    "jclic.js/103_0227.jpg",
+    "jclic.js/20100614171240.png",
+    "jclic.js/20100616175149.png",
+    "jclic.js/20100616175413.png",
+    "jclic.js/20100616175606.png",
+    "jclic.js/20100616180120.png",
+    "jclic.js/20100616180410.png",
+    "jclic.js/20100624072159.png",
+    "jclic.js/20100624072213.png",
+    "jclic.js/20100624072232.png",
+    "jclic.js/20100624072259.png",
+    "jclic.js/20100628081535.png",
+    "jclic.js/20100628081630.png",
+    "jclic.js/20100628220917.png",
+    "jclic.js/20100628221004.png",
+    "jclic.js/beethoven.mp3",
+    "jclic.js/blaujoan.mp3",
+    "jclic.js/bravojoan.mp3",
+    "jclic.js/brazo.jpg",
+    "jclic.js/buscalesparelles.wav",
+    "jclic.js/cara.jpg",
+    "jclic.js/cercle.jpg",
+    "jclic.js/cercle.mp3",
+    "jclic.js/clau.gif",
+    "jclic.js/comencem.jclic",
+    "jclic.js/disney_150001.jpg",
+    "jclic.js/esadinsjoan.mp3",
+    "jclic.js/esafora.mp3",
+    "jclic.js/eslatevafamilianuria.mp3",
+    "jclic.js/fes_el_trencaclosques_martina.mp3",
+    "jclic.js/gran.mp3",
+    "jclic.js/grocjoan.mp3",
+    "jclic.js/mano.jpg",
+    "jclic.js/martina.mp3",
+    "jclic.js/martinairoger.mp3",
+    "jclic.js/mozart.mp3",
+    "jclic.js/nariz.jpg",
+    "jclic.js/nuria.mp3",
+    "jclic.js/ojo.jpg",
+    "jclic.js/onesjoan.mp3",
+    "jclic.js/oreja.jpg",
+    "jclic.js/p3140164_resized1.jpg",
+    "jclic.js/pa310317_resized1.jpg",
+    "jclic.js/pa310335_resized.jpg",
+    "jclic.js/peraverde.jpg",
+    "jclic.js/petit.mp3",
+    "jclic.js/pie.jpg",
+    "jclic.js/pierna.jpg",
+    "jclic.js/platan_resized.jpg",
+    "jclic.js/poma.gif",
+    "jclic.js/pomapetita.gif",
+    "jclic.js/quadrat.jpg",
+    "jclic.js/quadrat.mp3",
+    "jclic.js/relaciona.mp3",
+    "jclic.js/relacionacolornom.wav",
+    "jclic.js/triangle.jpg",
+    "jclic.js/triangle.mp3",
+    "jclic.js/triaunaactivitat.mp3",
+    "jclic.js/verdjoan.mp3",
+    "jclic.js/vermelljoan.mp3",
+    "jclic.js/vivaldi.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/comencem.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": 876,
+  "title": "Informàtica 1r d'ESO",
+  "author": "Juanjo Redondo i Oriol Navarro",
+  "school": "C Casp - Sagrat Cor de Jesús Barcelona",
+  "date": "23/12/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Tecnologies",
+    "es": "Tecnología",
+    "en": "Design & technology"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "informàtica",
+    "es": "informática",
+    "en": "computer science"
+  },
+  "descCodes": [
+    737
+  ],
+  "description": {
+    "en": "This package is oriented to the Informatics subject of secondary school. It¿s been thought to be used for practising as well as examination.",
+    "ca": "En aquest paquet d'activitats es treballen els conceptes i alguns procediments del crèdit d'informàtica pels alumnes del 1r Cicle d'ESO.\n<br> Està dissenyat per poder ser utilitzat com a exercici i com a control.",
+    "es": "En este paquete de actividades se trabajan los y algunos procedimientos del crédito de informática para los alumnos de 1r Ciclo de ESO.\n<br> Está diseñado para poder ser utilizado como ejercicio y como control."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "inf1eus"
+  ],
+  "mainFile": "jclic.js/inf1eso.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/inf1eso.jclic.zip",
+  "instFile": "jclic/inf1eso.jclic.inst",
+  "clicZoneId": 2006,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2006",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/inf1eso/jclic/inf1eso.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 26,
+  "mediaFiles": 51,
+  "totalSize": 1619274,
+  "files": [
+    "cover.gif",
+    "jclic.js/ab1pepe.gif",
+    "jclic.js/altaveus.gif",
+    "jclic.js/ani.avi",
+    "jclic.js/ani.gif",
+    "jclic.js/be.wav",
+    "jclic.js/carl1.wav",
+    "jclic.js/cpcprint.avi",
+    "jclic.js/cpcprint.gif",
+    "jclic.js/di1.gif",
+    "jclic.js/discdur.jpg",
+    "jclic.js/discdur.wav",
+    "jclic.js/elfo1.avi",
+    "jclic.js/elmati.mid",
+    "jclic.js/escales3.jpg",
+    "jclic.js/fachada2.jpg",
+    "jclic.js/fenome.wav",
+    "jclic.js/font.jpg",
+    "jclic.js/fontali.wav",
+    "jclic.js/impres.jpg",
+    "jclic.js/inf1eso.jclic",
+    "jclic.js/intelcom.avi",
+    "jclic.js/intelcom.jpg",
+    "jclic.js/josef2.wav",
+    "jclic.js/jugar.gif",
+    "jclic.js/kiss.wav",
+    "jclic.js/lapis.avi",
+    "jclic.js/madera.jpg",
+    "jclic.js/madera5.jpg",
+    "jclic.js/microp.gif",
+    "jclic.js/microp.wav",
+    "jclic.js/mo.gif",
+    "jclic.js/mode5.gif",
+    "jclic.js/moltbe.jpg",
+    "jclic.js/moltbe.wav",
+    "jclic.js/nuvols.jpg",
+    "jclic.js/pc1.gif",
+    "jclic.js/perfecte.wav",
+    "jclic.js/perro1.avi",
+    "jclic.js/placab.gif",
+    "jclic.js/placab.wav",
+    "jclic.js/placabb.jpg",
+    "jclic.js/ports.wav",
+    "jclic.js/puertos1.jpg",
+    "jclic.js/puzzle.gif",
+    "jclic.js/ram.wav",
+    "jclic.js/ram2.gif",
+    "jclic.js/ratoli.jpg",
+    "jclic.js/raton.jpg",
+    "jclic.js/rom.wav",
+    "jclic.js/scaner.jpg",
+    "jclic.js/super_o.gif",
+    "jclic.js/teclat.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/inf1eso.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

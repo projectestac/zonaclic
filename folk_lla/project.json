@@ -1,0 +1,94 @@
+{
+  "id": 2399,
+  "title": "El folclor lanero",
+  "author": "Gladys Espinosa Londoño",
+  "school": "San Antonio del Ariari Fuente de oro, Meta, Colombia",
+  "date": "17/09/15",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences, Languages",
+    "ca": "Ciències socials, Llengües",
+    "es": "Ciencias sociales, Lenguas"
+  },
+  "areaCodes": [
+    "soc",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "història local",
+    "es": "historia local",
+    "en": "local history"
+  },
+  "descCodes": [
+    255
+  ],
+  "description": {
+    "en": "This project contains activities based on reading the book \"La Canoa wonderful\" Silvia Aponte, writer wool and the second with a series of wool folklore related activities and tourism in Villavicencio, Meta, Colombia.",
+    "ca": "El folklore llaner és un projecte que conté activitats dissenyades amb la base a la lectura del llibre «La Canoa meravellosa» de Silvia Aponte, escriptora llanera i el segon, amb una sèrie d'activitats relacionades amb el folklore llaner i el turisme a Villavicencio, Meta, Colòmbia.",
+    "es": "El folclor lanero contiene actividades diseñadas con base en la lectura del libro «La canoa maravillosa» de Silvia Aponte, escritora llanera y el segundo, con una serie de actividades relacionadas con el folclor llanero y el turismo en Villavicencio, Meta, Colombia.&nbsp;"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/folk_lla.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/folk_lla.jclic.zip",
+  "instFile": "jclic/folk_lla.jclic.inst",
+  "clicZoneId": 3907,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3907",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/folk_lla/jclic/folk_lla.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 14,
+  "totalSize": 774745,
+  "files": [
+    "cover.png",
+    "jclic.js/folk_lla.jclic",
+    "jclic.js/hector_julio_rincon_unate_1_.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/tapa.png",
+    "jclic.js/th_11_.jpg",
+    "jclic.js/th_2_.jpg",
+    "jclic.js/th_4_.jpg",
+    "jclic.js/th_5___2_.jpg",
+    "jclic.js/th_5___3_.jpg",
+    "jclic.js/thumbnail_1_.jpg",
+    "jclic.js/thumbnail_3_.jpg",
+    "jclic.js/thumbnail_6_.jpg",
+    "jclic.js/thumbnailca16rsse.jpg",
+    "jclic.js/tucan.jpg",
+    "jclic.js/turpial.jpg",
+    "jclic.js/una_imagen_del_llano_venezolano_805761_t0_1_.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/folk_lla.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

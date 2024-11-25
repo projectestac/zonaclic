@@ -1,0 +1,113 @@
+{
+  "id": 1576,
+  "title": "Animales domésticos y salvajes",
+  "author": "Mª Carmen Fernández Sevilla",
+  "school": "CEIP Manuel Azaña Alcalá de Henares (Madrid)",
+  "date": "24/04/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "animals",
+    "es": "animales",
+    "en": "animales"
+  },
+  "descCodes": [
+    1160
+  ],
+  "description": {
+    "en": "Review of basic knowledge about domestic and wild animals. The images that appear belong to the text book of \n<i>Conocimiento del medio</i> of 3º of primary education of the Santillana publishing house.",
+    "ca": "Repàs dels coneixements bàsics sobre animals domèstics i salvatges. Les imatges que apareixen pertanyen al llibre de text de Coneixement del medi de 3r de primària de l'editorial Santillana.",
+    "es": "Repaso de conocimientos básicos sobre animales domésticos y salvajes. Las imágenes que aparecen pertenecen al libro de texto de Conocimiento del medio de 3º de educación primaria de la editorial Santillana."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/domsalva.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/domsalva.jclic.zip",
+  "instFile": "jclic/domsalva.jclic.inst",
+  "clicZoneId": 3294,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3294",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/domsalva/jclic/domsalva.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 34,
+  "totalSize": 1961399,
+  "files": [
+    "cover.jpg",
+    "jclic.js/abejita.gif",
+    "jclic.js/biencar.wav",
+    "jclic.js/c1.gif",
+    "jclic.js/canari.gif",
+    "jclic.js/cerdonom.wav",
+    "jclic.js/ciervo.wav",
+    "jclic.js/clasifica.wav",
+    "jclic.js/cocodril.gif",
+    "jclic.js/domsalva.jclic",
+    "jclic.js/fant_stico.wav",
+    "jclic.js/ganso.gif",
+    "jclic.js/gato11.gif",
+    "jclic.js/gatonom.wav",
+    "jclic.js/le_nom.wav",
+    "jclic.js/leon10.gif",
+    "jclic.js/leoncito.gif",
+    "jclic.js/leones11.gif",
+    "jclic.js/lobo1.gif",
+    "jclic.js/loro10.gif",
+    "jclic.js/oca.gif",
+    "jclic.js/oso10.gif",
+    "jclic.js/osonom.wav",
+    "jclic.js/patonom.wav",
+    "jclic.js/perro.gif",
+    "jclic.js/perronom.wav",
+    "jclic.js/pingui.gif",
+    "jclic.js/pinguin.wav",
+    "jclic.js/porco.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/ranita.gif",
+    "jclic.js/tigretin.gif",
+    "jclic.js/vaca1.gif",
+    "jclic.js/vacanom.wav",
+    "jclic.js/venadop.gif",
+    "jclic.js/vertebra.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/domsalva.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": 387,
+  "title": "Los verbos - 2",
+  "author": "Reinaldo Carrascosa Vallejo",
+  "school": "CP Lorenzo Goicoa Villava (Navarra)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua castellana",
+    "es": "gramática, lengua castellana",
+    "en": "grammar, Spanish language"
+  },
+  "descCodes": [
+    123,
+    132
+  ],
+  "description": {
+    "en": "Clic activities about spanish verbs. Deals with both regular and irregular verbs.",
+    "ca": "Paquet d'activitats Clic on es treballen les conjugacions dels verbs regulars, irregulars i auxiliars. També inclou un bloc dedicat a conèixer els temps verbals i una relació de les conjugacions dels verbs cantar, estar, tener, traer, caber, poder, comer, ir, volver, creer, jugar, partir, venir, seguir, echar, hacer, ser, haber, decir, saber i oir. \n<br> Hi ha diversos documents en format Word amb informació addicional i instruccions per a resoldre les activitats.",
+    "es": "Paquete de actividades Clic en las que se trabajan las conjugaciones de los verbos regulares, irregulares y auxiliares. También incluye un bloque dedicado a trabajar los tiempos verbales y una relación de las conjugaciones de los verbos cantar, estar, tener, traer, caber, poder, comer, ir, volver, creer, jugar, partir, venir, seguir, echar, hacer, ser, haber, decir, saber y oír. \n<br> Contiene varios documentos en formato Word a manera de instrucciones para cada actividad."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/verbos2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/verbos2.jclic.zip",
+  "instFile": "jclic/verbos2.jclic.inst",
+  "clicZoneId": 1219,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1219",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/verbos2/jclic/verbos2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 69,
+  "mediaFiles": 0,
+  "totalSize": 478948,
+  "files": [
+    "cover.gif",
+    "jclic.js/verbos2.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/verbos2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

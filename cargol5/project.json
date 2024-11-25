@@ -1,0 +1,107 @@
+{
+  "id": 2507,
+  "title": "Poema \"El cargol\"",
+  "author": "Anna Parés Martínez, Eva Sáez i Paula Cardiel",
+  "school": "Escola La Vitxeta Reus",
+  "date": "28/03/17",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "llengua catalana, poesia, cargol",
+    "es": "lengua catalana, poesía, caracol",
+    "en": "Catalan language, poetry, screw"
+  },
+  "descCodes": [
+    133,
+    650,
+    1410
+  ],
+  "description": {
+    "en": "Activities of reading and writing to work the poem \"El cargol\" of Josep Carner.",
+    "ca": "Activitats de lectura i escriptura per treballar el poema \"El cargol\" de Josep Carner.",
+    "es": "Actividades de lectura y escritura para trabajar el poema \"El cargol\" de Josep Carner."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cargol5.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cargol5.jclic.zip",
+  "instFile": "jclic/cargol5.jclic.inst",
+  "clicZoneId": 4016,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=4016",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cargol5/jclic/cargol5.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 26,
+  "totalSize": 2313719,
+  "files": [
+    "cover.png",
+    "jclic.js/albert.mp3",
+    "jclic.js/biel.mp3",
+    "jclic.js/cantant.jpg",
+    "jclic.js/cantant_r_.jpg",
+    "jclic.js/captura_de_pantalla_2016_11_09_a_les_21.20.44_resized.jpg",
+    "jclic.js/cargol.jpg",
+    "jclic.js/cargol5.jclic",
+    "jclic.js/cargol5.jclic.js",
+    "jclic.js/cargol_r_.jpg",
+    "jclic.js/cargol_treu_banya__cut_.mp3",
+    "jclic.js/col.jpg",
+    "jclic.js/estoig_resized.jpg",
+    "jclic.js/ferradura.jpg",
+    "jclic.js/ferradura_r_.jpg",
+    "jclic.js/ferran.mp3",
+    "jclic.js/isaac.mp3",
+    "jclic.js/joel.mp3",
+    "jclic.js/joia.jpg",
+    "jclic.js/joia_r_.jpg",
+    "jclic.js/laia.mp3",
+    "jclic.js/marcos.mp3",
+    "jclic.js/marian.mp3",
+    "jclic.js/montsant.mp3",
+    "jclic.js/montse.mp3",
+    "jclic.js/nicole.mp3",
+    "jclic.js/oriol.mp3",
+    "jclic.js/poema_cargol.mp3",
+    "jclic.js/yassin.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

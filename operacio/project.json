@@ -1,0 +1,92 @@
+{
+  "id": 1515,
+  "title": "Operaciones con números enteros",
+  "author": "Tomás Mata García",
+  "school": "IES Pintor Pedro Gómez Huelva (Andalucía)",
+  "date": "23/12/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "càlcul, nombres enters",
+    "es": "cálculo, números enteros",
+    "en": "calculation, integers"
+  },
+  "descCodes": [
+    702,
+    1321
+  ],
+  "description": {
+    "en": "Package of activities about whole numbers.",
+    "ca": "Operacions bàsiques: suma, resta, multiplicació i divisió de nombres enters.",
+    "es": "Operaciones básicas: suma, resta, multiplicación y división de números enteros."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/operacio.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/operacio.jclic.zip",
+  "instFile": "jclic/operacio.jclic.inst",
+  "clicZoneId": 3229,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3229",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/operacio/jclic/operacio.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 29,
+  "mediaFiles": 12,
+  "totalSize": 602610,
+  "files": [
+    "cover.gif",
+    "jclic.js/1a.gif",
+    "jclic.js/2a.gif",
+    "jclic.js/3a.gif",
+    "jclic.js/4a.gif",
+    "jclic.js/5a.gif",
+    "jclic.js/aplauso1.gif",
+    "jclic.js/division.jpg",
+    "jclic.js/entero.jpg",
+    "jclic.js/multi.jpg",
+    "jclic.js/operacio.jclic",
+    "jclic.js/portada_mate1.jpg",
+    "jclic.js/resta_enteros.jpg",
+    "jclic.js/suma_enteros2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/operacio.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

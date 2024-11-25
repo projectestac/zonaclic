@@ -1,0 +1,115 @@
+{
+  "id": 853,
+  "title": "El fet casteller",
+  "author": "Mercè Sàbat Mecerreyes",
+  "school": "Escola Doctor Samaranch i Fina Santa Margarida i els Monjos (Els Monjos) (Alt Penedès)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "tradicions",
+    "es": "tradiciones",
+    "en": "traditions"
+  },
+  "descCodes": [
+    929
+  ],
+  "description": {
+    "en": "Clic activities about the tradition of \"castells\", a Catalan tradition consisting on human-tower building: vocabulary, types of towers, music, etc.",
+    "ca": "Paquet d'activitats sobre el fet casteller: vocabulari dels castells, tipus de construccions (castells, pilars i torres), parts del castell, tocs de gralla, diades, viles i places castelleres, i la indumentària de les principals colles del país.",
+    "es": "Paquete de actividades sobre los \"castells\", tradición catalana consistente en la elevación de torres humanas: vocabulario de los \"castells\", tipos de construcciones, partes de un \"castell\", melodías musicales, principales grupos de \"castellers\", etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/castells.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/castells.jclic.zip",
+  "instFile": "jclic/castells.jclic.inst",
+  "clicZoneId": 1482,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1482",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/castells/jclic/castells.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 34,
+  "totalSize": 6321181,
+  "files": [
+    "cover.jpg",
+    "jclic.js/1_6.jpg",
+    "jclic.js/1_6xv.jpg",
+    "jclic.js/1_7v.jpg",
+    "jclic.js/1_8fmv.jpg",
+    "jclic.js/2_8.jpg",
+    "jclic.js/2_8reus.jpg",
+    "jclic.js/2_8t1.jpg",
+    "jclic.js/2_9fm.jpg",
+    "jclic.js/3_9vs.jpg",
+    "jclic.js/4_9jxv.jpg",
+    "jclic.js/aleta.jpg",
+    "jclic.js/aleta.wav",
+    "jclic.js/aleta1.jpg",
+    "jclic.js/castells.jclic",
+    "jclic.js/diapobla.txt",
+    "jclic.js/dibuix1.jpg",
+    "jclic.js/entrada.wav",
+    "jclic.js/gralla_1.jpg",
+    "jclic.js/grallers.jpg",
+    "jclic.js/inici.wav",
+    "jclic.js/manilles.jpg",
+    "jclic.js/marc.jpg",
+    "jclic.js/p_24.jpg",
+    "jclic.js/pilar.jpg",
+    "jclic.js/pilar.wav",
+    "jclic.js/pilars.jpg",
+    "jclic.js/pinya1.jpg",
+    "jclic.js/pinyav1.jpg",
+    "jclic.js/pom1.jpg",
+    "jclic.js/quarts.wav",
+    "jclic.js/quartsv.jpg",
+    "jclic.js/quints.wav",
+    "jclic.js/quintsv.jpg",
+    "jclic.js/ter_os.wav",
+    "jclic.js/tronc1.jpg",
+    "jclic.js/verm.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/castells.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

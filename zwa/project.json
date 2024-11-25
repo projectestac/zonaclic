@@ -1,0 +1,140 @@
+{
+  "id": 2278,
+  "title": "Animals - Zwa in greek",
+  "author": "Kostas Mavromatakis",
+  "school": "To ergastiri tou logou Thessaloniki (Greece)",
+  "date": "08/11/12",
+  "languages": {
+    "en": "Greek",
+    "ca": "grec",
+    "es": "griego"
+  },
+  "langCodes": [
+    "el"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "animals",
+    "es": "animales",
+    "en": "animales"
+  },
+  "descCodes": [
+    1160
+  ],
+  "description": {
+    "en": "JClic activities in Greek language to practice reading and understanding simple questions and commands through exercises with animals.",
+    "ca": "Projecte d'activitats JClic en grec per practicar la lectoescriptura i la comprensió amb activitats senzilles amb els animals com a centre d'interès.",
+    "es": "Proyecto de actividades JClic en griego para practicar la lectoescritura y la comprensión con actividades sencillas con los animales como centro de interés."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/zwa.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/zwa.jclic.zip",
+  "instFile": "jclic/zwa.jclic.inst",
+  "clicZoneId": 3792,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3792",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/zwa/jclic/zwa.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 61,
+  "totalSize": 2107975,
+  "files": [
+    "cover.png",
+    "jclic.js/_home_kostas_epjf_neja_ergas_as_242.png",
+    "jclic.js/_home_kostas_epjf_neja_ergas_as_aug_.png",
+    "jclic.js/_home_kostas_epjf_neja_ergas_as_fjdj.jpg",
+    "jclic.js/_home_kostas_epjf_neja_ergas_as_gouro_nj.png",
+    "jclic.js/_home_kostas_epjf_neja_ergas_as_gsaala.png",
+    "jclic.js/_home_kostas_epjf_neja_ergas_as_k_ta.png",
+    "jclic.js/_home_kostas_epjf_neja_ergas_as_malli.png",
+    "jclic.js/_home_kostas_epjf_neja_ergas_as_p_rj.png",
+    "jclic.js/_home_kostas_epjf_neja_ergas_as_parokrok_tes.png",
+    "jclic.js/_home_kostas_epjf_neja_ergas_as_pr_bato.png",
+    "jclic.js/_home_kostas_epjf_neja_ergas_as_sa_ra.jpg",
+    "jclic.js/_home_kostas_epjf_neja_ergas_as_xeljd_nj.jpg",
+    "jclic.js/_home_kostas_epjf_neja_ergas_as_zamp_n.png",
+    "jclic.js/agriogourono.jpg",
+    "jclic.js/akrida.jpg",
+    "jclic.js/alepoy.png",
+    "jclic.js/alogo.jpg",
+    "jclic.js/arkouda.jpg",
+    "jclic.js/dentro.jpg",
+    "jclic.js/dryokolaptis.jpg",
+    "jclic.js/elafi.jpg",
+    "jclic.js/elefantas.jpg",
+    "jclic.js/falaina.jpg",
+    "jclic.js/folia.jpg",
+    "jclic.js/futofaga.jpg",
+    "jclic.js/gata.jpg",
+    "jclic.js/gata.png",
+    "jclic.js/gazela.jpg",
+    "jclic.js/kamila.jpg",
+    "jclic.js/kamilopardali.jpg",
+    "jclic.js/karoto.jpg",
+    "jclic.js/karydi.jpg",
+    "jclic.js/katsiki.jpg",
+    "jclic.js/kokoras.png",
+    "jclic.js/kota.jpg",
+    "jclic.js/kounoupi.jpg",
+    "jclic.js/kypseli.jpg",
+    "jclic.js/l4.png",
+    "jclic.js/lagos.jpg",
+    "jclic.js/liontari.jpg",
+    "jclic.js/meli.png",
+    "jclic.js/melissa.jpg",
+    "jclic.js/melissa.png",
+    "jclic.js/panfaga.jpg",
+    "jclic.js/pigouinos.jpg",
+    "jclic.js/pithikos.jpg",
+    "jclic.js/pontiki.jpg",
+    "jclic.js/provato.jpg",
+    "jclic.js/rinokeros.jpg",
+    "jclic.js/sarkofaga.jpg",
+    "jclic.js/skiouros.jpg",
+    "jclic.js/skylos.jpg",
+    "jclic.js/spitaki_skylou.jpg",
+    "jclic.js/spourgiti.jpg",
+    "jclic.js/tigri.jpg",
+    "jclic.js/vatraxos.jpg",
+    "jclic.js/voas.jpg",
+    "jclic.js/xalidoni.jpg",
+    "jclic.js/xina.jpg",
+    "jclic.js/zevra.jpg",
+    "jclic.js/zwa.jclic",
+    "jclic.js/zwa.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/zwa.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

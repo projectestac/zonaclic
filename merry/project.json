@@ -1,0 +1,123 @@
+{
+  "id": 404,
+  "title": "Merry Christmas",
+  "author": "Ma Carme Zaragoza Bosch",
+  "school": "Escola Pont de la Cadena Molins de Rei (Baix Llobregat)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, vocabulari",
+    "es": "lengua inglesa, vocabulario",
+    "en": "English language, vocabulary"
+  },
+  "descCodes": [
+    130,
+    150
+  ],
+  "description": {
+    "en": "Package with activities about Christmas: Santa Claus, bell, bow, reindeer, snowman, wreath, stocking...",
+    "ca": "Paquet amb activitats sobre el vocabulari relacionat amb els elements populars de la celebració del Nadal en les cultures anglosaxones: Santa Claus, bell, bow, reindeer, snowman, wreath, stocking...",
+    "es": "Paquete con actividades sobre el vocabulario relacionado con los elementos populares de la celebración de la Navidad en las culturas anglosajonas: Santa Claus, bell, bow, reindeer, snowman, wreath, stocking..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/merry.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/merry.jclic.zip",
+  "instFile": "jclic/merry.jclic.inst",
+  "clicZoneId": 1232,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1232",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/merry/jclic/merry.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 42,
+  "totalSize": 6532173,
+  "files": [
+    "cover.gif",
+    "jclic.js/angel.gif",
+    "jclic.js/angel.wav",
+    "jclic.js/bell.gif",
+    "jclic.js/bell.wav",
+    "jclic.js/bow.gif",
+    "jclic.js/bow.wav",
+    "jclic.js/candle.gif",
+    "jclic.js/candle.wav",
+    "jclic.js/candy.gif",
+    "jclic.js/candy.wav",
+    "jclic.js/carol.wav",
+    "jclic.js/chimney.gif",
+    "jclic.js/chimney.wav",
+    "jclic.js/elf.gif",
+    "jclic.js/elf.wav",
+    "jclic.js/jingle.wav",
+    "jclic.js/kiss1.wav",
+    "jclic.js/kiss2.wav",
+    "jclic.js/merry.jclic",
+    "jclic.js/merryc_1.gif",
+    "jclic.js/presents.gif",
+    "jclic.js/presents.wav",
+    "jclic.js/reindeer.gif",
+    "jclic.js/reindeer.wav",
+    "jclic.js/santa.gif",
+    "jclic.js/santa.wav",
+    "jclic.js/santay.gif",
+    "jclic.js/santay.wav",
+    "jclic.js/sleigh.gif",
+    "jclic.js/sleigh.wav",
+    "jclic.js/snowman.gif",
+    "jclic.js/snowman.wav",
+    "jclic.js/sobre.gif",
+    "jclic.js/star.gif",
+    "jclic.js/star.wav",
+    "jclic.js/stocking.gif",
+    "jclic.js/stocking.wav",
+    "jclic.js/toys.gif",
+    "jclic.js/toys.wav",
+    "jclic.js/tree.gif",
+    "jclic.js/tree.wav",
+    "jclic.js/wreath.gif",
+    "jclic.js/wreath.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/merry.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

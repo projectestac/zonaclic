@@ -1,0 +1,105 @@
+{
+  "id": 2233,
+  "title": "Bibliotecas (Partes dos documentos)",
+  "author": "Xoaquín Freixeiro",
+  "school": "CEIP Condesa de Fenosa O Barco de Valdeorras - Ourense (Galiza)",
+  "date": "03/04/12",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "biblioteconomia",
+    "es": "biblioteconomía",
+    "en": "library science"
+  },
+  "descCodes": [
+    479
+  ],
+  "description": {
+    "en": "Set of JClic projects about the school libraries addressed to primary school: \n<ul> \n <li>Parts of the documents </li>\n <li>Reference works </li>\n <li>User training \n  <ul> \n  </ul></li>\n</ul>",
+    "ca": "Conjunt de projectes JClic sobre les biblioteques escolars adreçats a educació primària: \n<ul> \n <li>Les parts dels documents </li>\n <li>Les obres de referència </li>\n <li>Formació d'usuaris </li>\n</ul>",
+    "es": "Conjunto de proyectos JClic sobre las bibliotecas escolares dirigidos a educación primaria. \n<ul> \n <li>Las partes de los documentos </li>\n <li>Las obras de referencia </li>\n <li>Formación de usuarios </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "doccat",
+    "obrascat",
+    "obrasref",
+    "usubibli",
+    "usucat"
+  ],
+  "mainFile": "jclic.js/docbibli.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/docbibli.jclic.zip",
+  "instFile": "jclic/docbibli.jclic.inst",
+  "clicZoneId": 3752,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3752",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/docbibli/jclic/docbibli.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 19,
+  "totalSize": 1286511,
+  "files": [
+    "cover.png",
+    "jclic.js/bibliografia.jpg",
+    "jclic.js/books28.gif",
+    "jclic.js/booksflyin.gif",
+    "jclic.js/borges_con_libros.jpg",
+    "jclic.js/cronoloxia.jpg",
+    "jclic.js/cuadrocomparativo.gif",
+    "jclic.js/docbibli.jclic",
+    "jclic.js/esquemapeq.gif",
+    "jclic.js/estudiando.png",
+    "jclic.js/glosariofeixo.jpg",
+    "jclic.js/indicealfa.png",
+    "jclic.js/introducion.jpg",
+    "jclic.js/mafalda_500.jpg",
+    "jclic.js/mapaconceptualpeq.gif",
+    "jclic.js/pedepaxina2.jpg",
+    "jclic.js/pefoto.jpg",
+    "jclic.js/prologo.jpg",
+    "jclic.js/rob_gonsalves.jpg",
+    "jclic.js/sumario.jpg",
+    "jclic.js/titulo1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/docbibli.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

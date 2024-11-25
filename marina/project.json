@@ -1,0 +1,110 @@
+{
+  "id": 405,
+  "title": "Marina's family",
+  "author": "Víctor J. Paniego Dibuixos: Macarena Aguilar",
+  "school": "IES Doctor Francisco Marín Siles (Jaén)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, llengua escrita, vocabulari",
+    "es": "lengua inglesa, lengua escrita, vocabulario",
+    "en": "English language, written language, vocabulary"
+  },
+  "descCodes": [
+    667,
+    668,
+    673
+  ],
+  "description": {
+    "en": "Package of activities for the area of English language destined to work different vocabulary related to the family: mother, father, grandfather, grandmother, uncle, aunt, cousin, brother and sister.",
+    "ca": "Paquet d'activitats per a l'àrea de llengua anglesa on es treballa el vocabulari relacionat amb la família i les relacions de parentiu: mother, father, grandfather, grandmother, uncle, aunt, cousin, brother and sister.",
+    "es": "Paquete de actividades para el área de lengua inglesa en las que se trabaja el vocabulario relacionado con la familia y las relaciones de parentesco: mother, father, grandfather, grandmother, uncle, aunt, cousin, brother and sister."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "marineus"
+  ],
+  "mainFile": "jclic.js/marina.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/marina.jclic.zip",
+  "instFile": "jclic/marina.jclic.inst",
+  "clicZoneId": 1233,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1233",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/marina/jclic/marina.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 25,
+  "totalSize": 245478,
+  "files": [
+    "cover.gif",
+    "jclic.js/all.gif",
+    "jclic.js/allcop_1.gif",
+    "jclic.js/aunta.gif",
+    "jclic.js/auntb.gif",
+    "jclic.js/auntc.gif",
+    "jclic.js/cousina.gif",
+    "jclic.js/cousinb.gif",
+    "jclic.js/cousinc.gif",
+    "jclic.js/fondo.gif",
+    "jclic.js/grandfaa.gif",
+    "jclic.js/grandfab.gif",
+    "jclic.js/grandfac.gif",
+    "jclic.js/grandmoa.gif",
+    "jclic.js/grandmob.gif",
+    "jclic.js/grandmoc.gif",
+    "jclic.js/lisafo_1.gif",
+    "jclic.js/marina.jclic",
+    "jclic.js/marina_2.gif",
+    "jclic.js/marina_3.gif",
+    "jclic.js/markfo_1.gif",
+    "jclic.js/olgafo_1.gif",
+    "jclic.js/rosefo_1.gif",
+    "jclic.js/unclea.gif",
+    "jclic.js/uncleb.gif",
+    "jclic.js/unclec.gif",
+    "jclic.js/willia_1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/marina.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

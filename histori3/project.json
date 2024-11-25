@@ -1,0 +1,123 @@
+{
+  "id": 841,
+  "title": "Grècia i Roma",
+  "author": "Joan Barres i Sanz",
+  "school": "CP Trullàs Benifaió (Ribera Alta)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "art grec, art romà, història de grècia, història de roma",
+    "es": "arte griego, arte romano, historia de Grecia, historia de roma",
+    "en": "Greek art, Roman Art, history of Greece, history of blunt"
+  },
+  "descCodes": [
+    13,
+    29,
+    249,
+    253
+  ],
+  "description": {
+    "en": "Clic activities about the old civilizations of Greece and Roma.",
+    "ca": "Paquet d'activitats basat en el llibre \"Geografía e historia\" de l'editorial SM, destinat a alumnes de 3r cicle de primària i 1r d'ESO, on es treballen dos temes diferents: \n<ul> \n <li><b><i>L'herència clàssica: Grècia</i></b><br> Les ciutats gregues: Esparta i Atenes, la lluita dels grecs contra els perses, el predomini de Macedònia i la cultura, l'art i les civilitzacions. </li>\n <li><b><i>L'herència clàssica: Roma</i></b><br> Orígens de Roma, expansió de Roma: el seu gran imperi, la república romana, els grans emperadors romans i el seu llegat: dret, idioma i art. </li>\n</ul>",
+    "es": "Paquete de actividades basado en el libro \"Geografía e historia\" de la editorial SM, destinado a alumnos de 3r ciclo de primaria y 1º de ESO, dónde se trabajan dos temas diferentes: \n<ul> \n <li><b><i>La herencia clásica: Grecia</i></b><br> Las ciudades griegas: Esparta y Atenas, la lucha de griegos y persas, el predominio de Macedonia y la cultura , el arte y las civilizaciones. </li>\n <li><b><i>La herencia clásica: Roma</i></b><br> Orígenes de Roma, expansión de Roma: su gran imperio, la república romana, los grandes emperadores y su legado: derecho, idioma y arte. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "histo3es"
+  ],
+  "mainFile": "jclic.js/histori3.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/histori3.jclic.zip",
+  "instFile": "jclic/histori3.jclic.inst",
+  "clicZoneId": 1473,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1473",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/histori3/jclic/histori3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 42,
+  "mediaFiles": 37,
+  "totalSize": 1219188,
+  "files": [
+    "cover.gif",
+    "jclic.js/acropoli.jpg",
+    "jclic.js/al_magno.jpg",
+    "jclic.js/anibal.jpg",
+    "jclic.js/arctriom.jpg",
+    "jclic.js/aristot.jpg",
+    "jclic.js/cal_ada.jpg",
+    "jclic.js/ceram2.jpg",
+    "jclic.js/cesar.jpg",
+    "jclic.js/coliseu.jpg",
+    "jclic.js/coliseu2.jpg",
+    "jclic.js/corinti.jpg",
+    "jclic.js/discobol.jpg",
+    "jclic.js/doric.jpg",
+    "jclic.js/erecteo.jpg",
+    "jclic.js/grecia.jpg",
+    "jclic.js/herodot.jpg",
+    "jclic.js/histori3.jclic",
+    "jclic.js/imp_magn.jpg",
+    "jclic.js/imp_rom.jpg",
+    "jclic.js/italia.jpg",
+    "jclic.js/italia2.jpg",
+    "jclic.js/jonic.jpg",
+    "jclic.js/loba.jpg",
+    "jclic.js/mapa.gif",
+    "jclic.js/marato.jpg",
+    "jclic.js/marato2.jpg",
+    "jclic.js/menu1.gif",
+    "jclic.js/menu2.gif",
+    "jclic.js/minuet.mid",
+    "jclic.js/octavi.jpg",
+    "jclic.js/partenon.jpg",
+    "jclic.js/pericles.jpg",
+    "jclic.js/plato.jpg",
+    "jclic.js/portada.gif",
+    "jclic.js/ruta_ani.jpg",
+    "jclic.js/socrates.jpg",
+    "jclic.js/teatre.jpg",
+    "jclic.js/venus.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/histori3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

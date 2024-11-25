@@ -1,0 +1,104 @@
+{
+  "id": 883,
+  "title": "La cueva de Xanrata",
+  "author": "Adelita López Méndez i Juan Carlos Ferreras González",
+  "school": "CRA Villayón Villayón (Asturias)",
+  "date": "18/12/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Llengües, Diversos",
+    "es": "Lenguas, Diversos",
+    "en": "Languages, Miscellaneous"
+  },
+  "areaCodes": [
+    "lleng",
+    "div"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "conte",
+    "es": "cuento",
+    "en": "story"
+  },
+  "descCodes": [
+    614
+  ],
+  "description": {
+    "en": "Activities about a tale written by two pupils at the Primary school based on a two oral tradition tales told by their grandfathers. The package contains drawings and several activities promoting reading and comprehension. \n<br> You can find more information in the \n<a href=\"http://www.elkarkom.com/fabula/xanrata/\" target=\"_blank\"><b>proyecto Fabulando</b></a> website.",
+    "ca": "Aquest paquet d'activitats ha estat creat a partir d'un conte il·lustrat per alumnes de 3r i 4t de Primària sobre dos relats de la tradició oral de la zona, explicats per dos avis d'alumnes. \n<br> El paquet comença amb la narració del conte i continua amb diverses activitats (associacions, trencaclosques, sopes de lletres, text) que pretenen motivar l'afecció per la lectura i una millor comprensió del text. \n<br> Trobareu una descripció més àmplia de l'activitat a la web del \n<a href=\"http://www.elkarkom.com/fabula/xanrata/\" target=\"_blank\"><b>projecte Fabulando</b></a>.",
+    "es": "Este paquete de actividades ha sido creado a partir de un cuento ilustrado por alumnos de 3º y 4º de primaria sobre dos relatos de la tradición oral de la zona, contados por dos abuelos de alumnos. \n<br> El paquete empieza con la narración del cuento y continua con diversas actividades (asociaciones, rompecabezas, sopas de letras, texto) que buscan el disfrute en la lectura y una mejor comprensión del texto. \n<br> Encontraréis una descripción más amplia de la actividad en la web del \n<a href=\"http://www.elkarkom.com/fabula/xanrata/\" target=\"_blank\"><b>proyecto Fabulando</b></a>."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/xanrata.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/xanrata.jclic.zip",
+  "instFile": "jclic/xanrata.jclic.inst",
+  "clicZoneId": 2010,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2010",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/xanrata/jclic/xanrata.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 24,
+  "totalSize": 1521913,
+  "files": [
+    "cover.gif",
+    "jclic.js/00.gif",
+    "jclic.js/01.gif",
+    "jclic.js/02.gif",
+    "jclic.js/03.gif",
+    "jclic.js/04.gif",
+    "jclic.js/04mini.gif",
+    "jclic.js/05.gif",
+    "jclic.js/06.gif",
+    "jclic.js/07.gif",
+    "jclic.js/08.gif",
+    "jclic.js/09.gif",
+    "jclic.js/09mini.gif",
+    "jclic.js/0prot.gif",
+    "jclic.js/1.mid",
+    "jclic.js/10.gif",
+    "jclic.js/11.gif",
+    "jclic.js/12.gif",
+    "jclic.js/13.gif",
+    "jclic.js/14.gif",
+    "jclic.js/15.gif",
+    "jclic.js/16.gif",
+    "jclic.js/2.mid",
+    "jclic.js/3.mid",
+    "jclic.js/aplauso.wav",
+    "jclic.js/xanrata.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/xanrata.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": 2596,
+  "title": "Un pouco sobre Física de partículas",
+  "author": "Keli Cristina Maurina (Professora)",
+  "school": "Universidade Tecnológica Federal do Paraná - Câmpus Pato Branco (Pato Branco)",
+  "date": "03/12/18",
+  "langCodes": [
+    "pt"
+  ],
+  "languages": {
+    "pt": "português",
+    "ca": "portuguès",
+    "es": "portugués",
+    "en": "Portuguese"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "areas": {
+    "pt": "exp, Physics",
+    "ca": "Ciències experimentals, Physics",
+    "es": "Ciencias experimentales, Physics",
+    "en": "Experimental sciences, Physics"
+  },
+  "levelCodes": [
+    "SEC",
+    "BTX"
+  ],
+  "levels": {
+    "pt": "SEC, BTX",
+    "ca": "Secundària (12-16), Batxillerat (16-18)",
+    "es": "Secundaria (12-16), Bachillerato (16-18)",
+    "en": "Secondary school (12-16), High school (16-18)"
+  },
+  "description": {
+    "pt": "Objeto de Aprendizagem sobre Física de Partículas e o CERN.",
+    "ca": "Projecte d'activitats sobre la física de partícules i el CERN.",
+    "es": "Proyecto de actividades sobre la física de partículas y el CERN.",
+    "en": "Project of activities on the particle physics and CERN."
+  },
+  "license": {
+    "pt": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "pt",
+    "ca",
+    "es",
+    "en"
+  ],
+  "cover": "cern300.jpg",
+  "coverWebp": "cern300.webp",
+  "thumbnail": "cern100.jpg",
+  "mainFile": "jclic.js/cern.jclic",
+  "activities": 9,
+  "mediaFiles": 15,
+  "totalSize": 1556903,
+  "instFile": "jclic/cern.jclic.inst",
+  "zipFile": "jclic/cern.jclic.zip",
+  "files": [
+    "cern100.jpg",
+    "cern300.jpg",
+    "jclic.js/autoria-2.png",
+    "jclic.js/cern.jclic",
+    "jclic.js/cern.jclic.js",
+    "jclic.js/cern.jpg",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/lateral-slides2-resized.jpg",
+    "jclic.js/lhc.png",
+    "jclic.js/logo-gefis.jpg",
+    "jclic.js/modelo-padrao.png",
+    "jclic.js/projeto-ext-escola-fsc-cern-3.jpg",
+    "jclic.js/raios-cosmicos.png",
+    "jclic.js/reducionismo-fsc-particulas-resized.jpg",
+    "jclic.js/vista-superior.jpg",
+    "project.json",
+    "cern300.webp"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": 1600,
+  "title": "Els animals marins",
+  "author": "Montse González Moreno",
+  "school": "Escola Ramon Berenguer III Barcelona",
+  "date": "19/06/06",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "animals",
+    "es": "animales",
+    "en": "animales"
+  },
+  "descCodes": [
+    1160
+  ],
+  "description": {
+    "en": "Project of nineteen activities about the sea animals. The package has activities about soups of letters, puzzles, simple and complex associations, memory, written answer, identifications, riddles, to fill up holes, etc.",
+    "ca": "Projecte d'activitats amb dinou exercicis relacionats amb els animals marins. Consta de sopes de lletres, puzles, associacions simples i complexes, memòria, resposta escrita, activitats d'identificacions, endevinalles, omplir forats, etc.",
+    "es": "Proyecto de actividades con diecinueve ejercicios relacionados con los animales marinos. Consta de sopas de letras, puzzles, asociaciones simples y complejas, memoria, respuesta escrita, identificaciones, adivinanzas, rellenar agujeros, etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/animar.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/animar.jclic.zip",
+  "instFile": "jclic/animar.jclic.inst",
+  "clicZoneId": 3313,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3313",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/animar/jclic/animar.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 26,
+  "totalSize": 2128993,
+  "files": [
+    "cover.jpg",
+    "jclic.js/08_track_08.wav",
+    "jclic.js/animar.jclic",
+    "jclic.js/caslhdxm.jpg",
+    "jclic.js/cavall.jpg",
+    "jclic.js/dofi.jpg",
+    "jclic.js/dofi.wav",
+    "jclic.js/el_peix_poema.wav",
+    "jclic.js/erico.wav",
+    "jclic.js/erizo.jpg",
+    "jclic.js/images.jpg",
+    "jclic.js/images_52_.jpg",
+    "jclic.js/images_63_.jpg",
+    "jclic.js/images_80_.jpg",
+    "jclic.js/images_88_.jpg",
+    "jclic.js/images_92_.jpg",
+    "jclic.js/mvc_005f.jpg",
+    "jclic.js/mvc_006f.jpg",
+    "jclic.js/mvc_009f.jpg",
+    "jclic.js/mvc_011f.jpg",
+    "jclic.js/mvc_013f.jpg",
+    "jclic.js/mvc_023f.jpg",
+    "jclic.js/parts_peix.gif",
+    "jclic.js/peix.jpg",
+    "jclic.js/peix.wav",
+    "jclic.js/pez.jpg",
+    "jclic.js/pop.wav",
+    "jclic.js/pregunta.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/animar.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

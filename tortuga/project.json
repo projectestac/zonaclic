@@ -1,0 +1,131 @@
+{
+  "id": 2494,
+  "title": "Les tortugues",
+  "author": "MªÁngeles Sanz Monroig i Míriam Parés",
+  "school": "Escola Ramon Llull Barcelona",
+  "date": "14/03/17",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "rèptils, éssers vius",
+    "es": "reptiles, seres vivos",
+    "en": "reptiles, alive beings"
+  },
+  "descCodes": [
+    100,
+    1348
+  ],
+  "description": {
+    "en": "Pack of activities about turtles for Kindergarten. Activities are classified in three blocks: we learn with turtles (mathematical concepts), how are turtles? and what do turtles eat?",
+    "ca": "Conjunt d'activitats sobre les tortugues dirigides a P3. Les activitats estan agrupades en tres blocs: aprenem amb les tortugues (conceptes matemàtics), com són les tortugues? i què mengen les tortugues?",
+    "es": "Conjunto de actividades sobre las tortugas para educación infantil. Las actividades están agrupadas en tres bloques: aprendemos con las tortugas (conceptos matemáticos), ¿cómo son las tortugas? y ¿qué comen las tortugas?"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/tortuga.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tortuga.jclic.zip",
+  "instFile": "jclic/tortuga.jclic.inst",
+  "clicZoneId": 4003,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=4003",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/tortuga/jclic/tortuga.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 34,
+  "mediaFiles": 51,
+  "totalSize": 8253406,
+  "files": [
+    "cover.jpg",
+    "jclic.js/17468img_0011_med.jpg",
+    "jclic.js/185227450.jpg",
+    "jclic.js/188007541.jpg",
+    "jclic.js/26062011053_resized.jpg",
+    "jclic.js/5d3882473e9950d26c0f0480bc77ee3a.jpg",
+    "jclic.js/952559.jpg",
+    "jclic.js/algas0pelo.jpg",
+    "jclic.js/amie_arrives_002cr800.jpg",
+    "jclic.js/aplauso__efecto_de_sonido_.mp3",
+    "jclic.js/b4cce2cb_c251_48fe_ae72_10ce230b8f3a_resized.jpg",
+    "jclic.js/boxturtle2.jpg",
+    "jclic.js/caramels.jpg",
+    "jclic.js/comiendo_algas.jpg",
+    "jclic.js/costattortuga.png",
+    "jclic.js/descarga__1_.jpg",
+    "jclic.js/dostortugues.png",
+    "jclic.js/eiseniafetida500.png",
+    "jclic.js/enciam02_resized.jpg",
+    "jclic.js/familia_tortugues.jpg",
+    "jclic.js/freddie7.jpg",
+    "jclic.js/fresa_2_e1435715634187.jpg",
+    "jclic.js/galetes.jpg",
+    "jclic.js/gegant.jpg",
+    "jclic.js/gelat.jpg",
+    "jclic.js/huevosdetortuga.jpg",
+    "jclic.js/i01_aplauso__efecto_de_sonido_.mp3",
+    "jclic.js/imagen4.jpg",
+    "jclic.js/marina_resized.jpg",
+    "jclic.js/medusa2__644x362.jpg",
+    "jclic.js/p8140046.jpg",
+    "jclic.js/pastanaga.jpg",
+    "jclic.js/pel.jpg",
+    "jclic.js/pizza_resized.jpg",
+    "jclic.js/plumas.jpg",
+    "jclic.js/que_no_deben_comer_las_tortugas_600x399.jpg",
+    "jclic.js/sea_turtle1_resized.jpg",
+    "jclic.js/suplementos_vitaminicos_tortugas_de_tierra_resized.jpg",
+    "jclic.js/textura_vaca_resized.jpg",
+    "jclic.js/tomaquet_madur_penjar.jpg",
+    "jclic.js/top.jpg",
+    "jclic.js/tortuga.jclic",
+    "jclic.js/tortuga.jclic.js",
+    "jclic.js/tortuga001.jpg",
+    "jclic.js/tortuga1.jpg",
+    "jclic.js/tortuga2.jpg",
+    "jclic.js/tortuga_marina.jpg",
+    "jclic.js/tortuga_terrestre_silvestre_resized.jpg",
+    "jclic.js/tortugadibuix.png",
+    "jclic.js/tortugadibuix10.png",
+    "jclic.js/tortugadibuix25.png",
+    "jclic.js/tortugadibuix50.png",
+    "jclic.js/trestortugues.png",
+    "jclic.js/ttttttttt.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

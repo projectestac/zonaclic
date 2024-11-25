@@ -1,0 +1,129 @@
+{
+  "id": 813,
+  "title": "Benifaió, un poble de la Ribera",
+  "author": "Joan Barres i Sanz",
+  "school": "CP Trullàs Benifaió (Ribera Alta)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia, història, País Valencià",
+    "es": "geografía, historia, País Valenciano",
+    "en": "geography, history, Valencian Country"
+  },
+  "descCodes": [
+    235,
+    246,
+    545
+  ],
+  "description": {
+    "en": "Activities about the region of Benifaió: Geographic location, economic activities, history, sites, famous people...",
+    "ca": "Paquet d'activitats sobre Benifaió: situació geogràfica, activitats econòmiques, història de la localitat des de la Prehistòria fins als nostres dies, llocs, fills/es il·lustres...",
+    "es": "Paquete de actividades sobre Benifaió: situación geográfica, actividades económicas, historia de la localidad desde la prehistoria hasta nuestros días, lugares, hijos/as ilustres..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/benifaio.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/benifaio.jclic.zip",
+  "instFile": "jclic/benifaio.jclic.inst",
+  "clicZoneId": 1451,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1451",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/benifaio/jclic/benifaio.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 48,
+  "totalSize": 981099,
+  "files": [
+    "cover.gif",
+    "jclic.js/aj03t.jpg",
+    "jclic.js/aj1903_1.jpg",
+    "jclic.js/aj1970_1.jpg",
+    "jclic.js/aj1981.jpg",
+    "jclic.js/aj1981n.jpg",
+    "jclic.js/ajtext.jpg",
+    "jclic.js/aplaud.wav",
+    "jclic.js/benifaio.jclic",
+    "jclic.js/bici.wav",
+    "jclic.js/ca_ador.gif",
+    "jclic.js/censa01.jpg",
+    "jclic.js/centrecu.jpg",
+    "jclic.js/comarc2.gif",
+    "jclic.js/comarca.gif",
+    "jclic.js/crei01.jpg",
+    "jclic.js/dep01.jpg",
+    "jclic.js/ermita01.jpg",
+    "jclic.js/error.wav",
+    "jclic.js/escorx01.jpg",
+    "jclic.js/escutb_1.gif",
+    "jclic.js/esgles01.jpg",
+    "jclic.js/esgles02.jpg",
+    "jclic.js/espioc01.gif",
+    "jclic.js/estaci.jpg",
+    "jclic.js/estacio.jpg",
+    "jclic.js/falco01.gif",
+    "jclic.js/fontcar.jpg",
+    "jclic.js/futur01.gif",
+    "jclic.js/general.gif",
+    "jclic.js/guay.wav",
+    "jclic.js/ies01.jpg",
+    "jclic.js/llarjub.jpg",
+    "jclic.js/mamut.gif",
+    "jclic.js/mercat01.jpg",
+    "jclic.js/mercat02.jpg",
+    "jclic.js/molivell.gif",
+    "jclic.js/moltbe.wav",
+    "jclic.js/paleta.gif",
+    "jclic.js/poble.gif",
+    "jclic.js/polis01.jpg",
+    "jclic.js/risita.wav",
+    "jclic.js/roma.gif",
+    "jclic.js/sb_03.jpg",
+    "jclic.js/seq_01.jpg",
+    "jclic.js/titanic.mid",
+    "jclic.js/tomuz02t.jpg",
+    "jclic.js/tormuz01.jpg",
+    "jclic.js/tren.wav",
+    "jclic.js/trullas.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/benifaio.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

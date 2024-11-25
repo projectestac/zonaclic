@@ -1,0 +1,99 @@
+{
+  "id": 2159,
+  "title": "Comprensió lectora: ANIMALMANIA II",
+  "author": "David Beltrán Dumont",
+  "school": "Escola Fort Pienc Barcelona",
+  "date": "17/06/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages",
+    "ca": "Ciències experimentals, Llengües",
+    "es": "Ciencias experimentales, Lenguas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "zoologia, comprensió escrita, llengua catalana",
+    "es": "zoología, comprensión escrita, lengua catalana",
+    "en": "zoology, written understanding, Catalan language"
+  },
+  "descCodes": [
+    108,
+    111,
+    133
+  ],
+  "description": {
+    "en": "Reading comprehension activities that centre on the world of animals:<ul>\n<li>sayings </li>\n<li>reading comprehension </li>\n<li>riddles  </li></ul>",
+    "ca": "Activitats de lectura comprensiva que prenen com a centre d'interès el món dels animals. A partir de diverses activitats al voltant d'aquest tema es treballen aspectes de comprensió de la lectura: \n<ul> \n <li>frases fetes </li>\n <li>comprensió del text </li>\n <li>endevinalles </li>\n</ul>",
+    "es": "Actividades de lectura comprensiva que toma como centro de interés el mundo de los animales. A partir de diversas actividades sobre este tema se trabajan aspectos de la comprensión lectora: \n<ul> \n <li>dichos </li>\n <li>comprensión del texto </li>\n <li>adivinanzas </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "anima_eu"
+  ],
+  "mainFile": "jclic.js/animalm2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/animalm2.jclic.zip",
+  "instFile": "jclic/animalm2.jclic.inst",
+  "clicZoneId": 3697,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3697",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/animalm2/jclic/animalm2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 14,
+  "totalSize": 1510877,
+  "files": [
+    "cover.jpg",
+    "jclic.js/4909__40_a_2.jpg",
+    "jclic.js/animalm2.jclic",
+    "jclic.js/aplaudim.wav",
+    "jclic.js/camell.jpg",
+    "jclic.js/dofins.jpg",
+    "jclic.js/fonsmari_resized.jpg",
+    "jclic.js/granota.jpg",
+    "jclic.js/h3343_a.jpg",
+    "jclic.js/inici.jpg",
+    "jclic.js/paisatge3.jpg",
+    "jclic.js/paisatge4.jpg",
+    "jclic.js/paisatge5.jpg",
+    "jclic.js/prat_resized.jpg",
+    "jclic.js/tapa.jpg",
+    "jclic.js/vaca.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/animalm2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

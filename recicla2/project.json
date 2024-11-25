@@ -1,0 +1,109 @@
+{
+  "id": 2114,
+  "title": "Reciclando todos ganamos",
+  "author": "Jener Benavides Avellaneda",
+  "school": "Centro educativo Manuel González Prada Pimentel - Chiclayo (Perú)",
+  "date": "16/03/11",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Design & technology, Experimental sciences",
+    "ca": "Tecnologies, Ciències experimentals",
+    "es": "Tecnología, Ciencias experimentales"
+  },
+  "areaCodes": [
+    "tec",
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "reciclar",
+    "es": "reciclar",
+    "en": "to recycle"
+  },
+  "descCodes": [
+    1300
+  ],
+  "description": {
+    "en": "JClic project about recycling, actions to take and the benefits that we would be doing to our planet.",
+    "ca": "Projecte d'activitats orientat a despertar l'interès pel reciclatge, de les accions a prendre i dels beneficis que estaríem oferint al nostre planeta.",
+    "es": "Proyecto orientado a despertar el interés por el reciclaje, de las acciones a tomar y de los beneficios que le estaríamos haciendo a nuestro planeta."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/recicla2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/recicla2.jclic.zip",
+  "instFile": "jclic/recicla2.jclic.inst",
+  "clicZoneId": 3671,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3671",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/recicla2/jclic/recicla2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 29,
+  "totalSize": 646410,
+  "files": [
+    "cover.gif",
+    "jclic.js/abajo.gif",
+    "jclic.js/adios3.gif",
+    "jclic.js/alegre2.gif",
+    "jclic.js/arbol.gif",
+    "jclic.js/bye.gif",
+    "jclic.js/carton.jpg",
+    "jclic.js/chavo.gif",
+    "jclic.js/contenedor.jpg",
+    "jclic.js/i1.gif",
+    "jclic.js/i2.gif",
+    "jclic.js/i3.gif",
+    "jclic.js/inorganico2.gif",
+    "jclic.js/latas.jpg",
+    "jclic.js/muybien2.gif",
+    "jclic.js/o1.jpg",
+    "jclic.js/o2.jpg",
+    "jclic.js/o3.jpg",
+    "jclic.js/ok.gif",
+    "jclic.js/ok2.gif",
+    "jclic.js/ok3.gif",
+    "jclic.js/organico.jpg",
+    "jclic.js/papel.jpg",
+    "jclic.js/pilas.jpg",
+    "jclic.js/plastico.jpg",
+    "jclic.js/recicla2.jclic",
+    "jclic.js/reciclaje2.jpg",
+    "jclic.js/reciclaje_2.jpg",
+    "jclic.js/reciclar.gif",
+    "jclic.js/risa3.gif",
+    "jclic.js/vidrio.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/recicla2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

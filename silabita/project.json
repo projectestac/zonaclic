@@ -1,0 +1,116 @@
+{
+  "id": 1090,
+  "title": "Silabitas",
+  "author": "María Elena Abalo",
+  "date": "07/11/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua castellana",
+    "es": "aprendizaje de la lengua, lengua castellana",
+    "en": "learning of the language, Spanish language"
+  },
+  "descCodes": [
+    110,
+    132
+  ],
+  "description": {
+    "en": "Package of activities addressed to the second year of primary school. It's a single package with exercises of splitting Spanish words into syllables, and sort words alphabetically.",
+    "ca": "Paquet d'activitats per a segon any d'educació primària. S'hi treballa la separació sil·làbica de les paraules en castellà, i l'ordre alfabètic.",
+    "es": "Paquete de actividades destinado a segundo año de educación primaria. En él se trabaja la separación silábica de las palabras y el orden alfabético."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/silabita.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/silabita.jclic.zip",
+  "instFile": "jclic/silabita.jclic.inst",
+  "clicZoneId": 2340,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2340",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/silabita/jclic/silabita.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 33,
+  "mediaFiles": 37,
+  "totalSize": 519172,
+  "files": [
+    "cover.gif",
+    "jclic.js/abeja.gif",
+    "jclic.js/anillo.gif",
+    "jclic.js/autito.gif",
+    "jclic.js/barquito.gif",
+    "jclic.js/bichitos.gif",
+    "jclic.js/bici.gif",
+    "jclic.js/bruce.mid",
+    "jclic.js/cabpelu.gif",
+    "jclic.js/calcu.gif",
+    "jclic.js/camisa.gif",
+    "jclic.js/canguro.gif",
+    "jclic.js/carita.gif",
+    "jclic.js/coraz_n.gif",
+    "jclic.js/cotxe.gif",
+    "jclic.js/dino.gif",
+    "jclic.js/dog.wav",
+    "jclic.js/estrell.gif",
+    "jclic.js/flor.gif",
+    "jclic.js/flor1.gif",
+    "jclic.js/flores.gif",
+    "jclic.js/globit.gif",
+    "jclic.js/hilpoll.gif",
+    "jclic.js/huelli.gif",
+    "jclic.js/juguetes.gif",
+    "jclic.js/l_mpara.gif",
+    "jclic.js/mariposi.gif",
+    "jclic.js/nieve.gif",
+    "jclic.js/palomita.gif",
+    "jclic.js/patito.gif",
+    "jclic.js/pressi_1.gif",
+    "jclic.js/rompe1.gif",
+    "jclic.js/rompe2.gif",
+    "jclic.js/selva.gif",
+    "jclic.js/silabita.jclic",
+    "jclic.js/tel_fono.gif",
+    "jclic.js/televisor.gif",
+    "jclic.js/trencito.gif",
+    "jclic.js/verde.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/silabita.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

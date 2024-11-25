@@ -1,0 +1,133 @@
+{
+  "id": 840,
+  "title": "Orígens de la humanitat i antigues civilitzacions",
+  "author": "Joan Barres i Sanz",
+  "school": "CP Trullàs Benifaió (Ribera Alta)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "anàlisi històrica, prehistòria",
+    "es": "análisis histórico, prehistoria",
+    "en": "historical analysis, prehistory"
+  },
+  "descCodes": [
+    155,
+    314
+  ],
+  "description": {
+    "en": "Clic activities about the origins of the humanity and the old civilizations of the Mediterranean.",
+    "ca": "Paquet d'activitats basat en el llibre \"Geografía e historia\" de l'editorial SM, destinat a alumnes de 3r cicle de primària i 1r d'ESO, on es treballen dos temes diferents: \n<ul> \n <li><b><i>Els orígens de la humanitat:</i></b><br> La prehistòria i les seves grans etapes, l'aparició dels primers homes i dones, la seva vida, per què pintaven les homes i dones del paleolític i la gran evolució de la cultura neolítica.<br> </li>\n <li><b><i>Antigues civilitzacions e la mediterrània:</i></b><br> Egipte, els pobles Mesopotàmics (Assíria i Babilònia), les civilitzacions persa i fenícia. </li>\n</ul>",
+    "es": "Paquete de actividades basado en el libro \"Geografía e historia\" de la editorial SM, destinado a alumnos de 3r ciclo de primaria y 1º de ESO, dónde se trabajan dos temas diferentes: \n<ul> \n <li><b><i>Los orígenes de la humanidad</i></b><br> La prehistoria y sus grandes etapas, la aparición de los primeros hombres y mujeres, su vida, porqué pintaban en las paredes y la gran evolución de la cultura neolítica.<br> </li>\n <li><b><i>Antiguas civilizaciones del mediterráneo</i></b><br> Egipto, los pueblos Mesopotámicos (Asiria y Babilonia), las civilizaciones persa y fenicia. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/histori2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/histori2.jclic.zip",
+  "instFile": "jclic/histori2.jclic.inst",
+  "clicZoneId": 1472,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1472",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/histori2/jclic/histori2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 57,
+  "mediaFiles": 52,
+  "totalSize": 1146177,
+  "files": [
+    "cover.gif",
+    "jclic.js/amenoiii.jpg",
+    "jclic.js/atapuer.jpg",
+    "jclic.js/austral.jpg",
+    "jclic.js/bisonts.jpg",
+    "jclic.js/capitel.jpg",
+    "jclic.js/cromag.jpg",
+    "jclic.js/destral.jpg",
+    "jclic.js/destral1.jpg",
+    "jclic.js/destral5.jpg",
+    "jclic.js/dolmen.jpg",
+    "jclic.js/durada.jpg",
+    "jclic.js/durada2.jpg",
+    "jclic.js/egipte.jpg",
+    "jclic.js/escriba.jpg",
+    "jclic.js/fenicis.jpg",
+    "jclic.js/fletxa.jpg",
+    "jclic.js/friso.jpg",
+    "jclic.js/ganivet.jpg",
+    "jclic.js/guitarou.mid",
+    "jclic.js/hammurab.jpg",
+    "jclic.js/hipogeu.jpg",
+    "jclic.js/histori2.jclic",
+    "jclic.js/imp_pers.jpg",
+    "jclic.js/instrpi1.jpg",
+    "jclic.js/instrps1.jpg",
+    "jclic.js/instrupi.jpg",
+    "jclic.js/instrups.jpg",
+    "jclic.js/jeroglif.jpg",
+    "jclic.js/lleo_fer.jpg",
+    "jclic.js/lleo_vom.jpg",
+    "jclic.js/mapa.gif",
+    "jclic.js/mastaba.jpg",
+    "jclic.js/menu1.jpg",
+    "jclic.js/menu2.jpg",
+    "jclic.js/mesop.gif",
+    "jclic.js/mesopo.jpg",
+    "jclic.js/mon_feni.jpg",
+    "jclic.js/neand.jpg",
+    "jclic.js/neferti.jpg",
+    "jclic.js/nil.jpg",
+    "jclic.js/persa.jpg",
+    "jclic.js/piramide.jpg",
+    "jclic.js/pitecan.jpg",
+    "jclic.js/portada1.gif",
+    "jclic.js/provinci.jpg",
+    "jclic.js/ramsesii.jpg",
+    "jclic.js/ruta_fen.jpg",
+    "jclic.js/toro.jpg",
+    "jclic.js/tumul.jpg",
+    "jclic.js/vaix_fen.jpg",
+    "jclic.js/vas.jpg",
+    "jclic.js/vid_neol.jpg",
+    "jclic.js/vid_pal.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/histori2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": 982,
+  "title": "Les equacions",
+  "author": "Victòria Xifré",
+  "school": "Institut Tremp Tremp (Pallars Jussà)",
+  "date": "12/12/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "càlcul",
+    "es": "cálculo",
+    "en": "calculation"
+  },
+  "descCodes": [
+    702
+  ],
+  "description": {
+    "en": "Package of activities about simple equations. The exercises start with simple equation reaching more complex equations at the end. Some special equations are also used.",
+    "ca": "Paquet d'activitats sobre equacions simples. Els exercicis comencen amb equacions senzilles fins arribar a algunes de més complexes. Al final també es tracten algunes equacions especials.",
+    "es": "Paquete de actividades sobre ecuaciones simples. Los ejercicios empiezan con ecuaciones sencillas hasta llegar a algunas más complejas. Al final también se tratan algunas ecuaciones especiales."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/equacio.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/equacio.jclic.zip",
+  "instFile": "jclic/equacio.jclic.inst",
+  "clicZoneId": 2067,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2067",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/equacio/jclic/equacio.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 45,
+  "mediaFiles": 16,
+  "totalSize": 2106287,
+  "files": [
+    "cover.gif",
+    "jclic.js/equa1.gif",
+    "jclic.js/equa10.gif",
+    "jclic.js/equa12.gif",
+    "jclic.js/equa17.gif",
+    "jclic.js/equa1b.gif",
+    "jclic.js/equa2.gif",
+    "jclic.js/equa2b.gif",
+    "jclic.js/equa3b.gif",
+    "jclic.js/equa4.gif",
+    "jclic.js/equa4b.gif",
+    "jclic.js/equa5.gif",
+    "jclic.js/equa6.gif",
+    "jclic.js/equa7.gif",
+    "jclic.js/equa9.gif",
+    "jclic.js/equacio.jclic",
+    "jclic.js/finalb.gif",
+    "jclic.js/portada1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/equacio.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

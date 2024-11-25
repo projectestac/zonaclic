@@ -1,0 +1,92 @@
+{
+  "id": 246,
+  "title": "Aditzak (els verbs en euskera)",
+  "author": "José Manuel Mikelez",
+  "school": "Maria Auxiliadora Ikastetxea Intxaurrondo (Donostia)",
+  "date": "12/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua basca",
+    "es": "gramática, lengua vasca",
+    "en": "grammar, Basque language"
+  },
+  "descCodes": [
+    123,
+    922
+  ],
+  "description": {
+    "en": "Activities in Euskera about grammar. There are 1200 phrases in which the student is supposed to choose the correct form of the auxiliary for each one.",
+    "ca": "1200 esaldietan era ezberdinetan antolatuak, ikasleak esaldi bakoitzari dagokion laguntzailea jarri beharko du. Esaldiak euskal aditza antolatua dagoen bezala antolatuta daude. (Nor, Nor-Nork, Nor-Nori, Nor-Nori-Nork; orainaldian, lehenaldian eta ahaleran). \n<br> Amb 1200 frases organitzades de maneres diferents, aquest paquet d'activitats pretén que l'alumne utilitzi de manera adient l'auxiliar verbal que correspongui a la frase. L'estructura de les activitats correspon a les diferents conjugacions del verb en euskera.",
+    "es": "1200 esaldietan era ezberdinetan antolatuak, ikasleak esaldi bakoitzari dagokion laguntzailea jarri beharko du. Esaldiak euskal aditza antolatua dagoen bezala antolatuta daude. (Nor, Nor-Nork, Nor-Nori, Nor-Nori-Nork; orainaldian, lehenaldian eta ahaleran). \n<br> En 1200 frases organizadas de formas diferentes, se trata de que el alumno utilice adecuadamente el auxiliar que corresponda en la frase. Estas están estructuradas como corresponde al verbo en eusquera."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/aditzak.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/aditzak.jclic.zip",
+  "instFile": "jclic/aditzak.jclic.inst",
+  "clicZoneId": 1126,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1126",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/aditzak/jclic/aditzak.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 598,
+  "mediaFiles": 11,
+  "totalSize": 2931881,
+  "files": [
+    "cover.gif",
+    "jclic.js/aditzak.jclic",
+    "jclic.js/aditzpre.gif",
+    "jclic.js/ahalkera.gif",
+    "jclic.js/izanlhn.gif",
+    "jclic.js/izanora.gif",
+    "jclic.js/joan.gif",
+    "jclic.js/nahast.gif",
+    "jclic.js/nnk.gif",
+    "jclic.js/nnnlhn.gif",
+    "jclic.js/nnnorain.gif",
+    "jclic.js/nnori.gif",
+    "jclic.js/trinko.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/aditzak.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": 1574,
+  "title": "La Dama",
+  "author": "Manolo Catalán, Nicolás Contreras i Samuel Soriano",
+  "school": "CP Jaime Balmes Elx (Baix Vinalopó)",
+  "date": "18/04/06",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "història de l'art, Dama d'Elx",
+    "es": "historia del arte, Dama de Elche",
+    "en": "history of the art, Dama de Elche"
+  },
+  "descCodes": [
+    252,
+    1364
+  ],
+  "description": {
+    "en": "Project of activities about \n<i>La Dama de Elche</i>. The project has puzzle activities, text activities, associations activities... About \n<i>La Dama</i>.",
+    "ca": "Projecte d'activitats sobre La Dama d'Elx com a motiu de la seva arribada a Elx. El projecte consta de trencaclosques, activitats de text, associacions... sobre La Dama, els ibers, el seu descobridor, etc.",
+    "es": "Proyecto de actividades sobre La Dama de Elche como motivo de su llegada a Elche. El proyecto consta de rompecabezas, actividades de texto, asociaciones... sobre La Dama, los íberos, su descubridor, etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/damaelx.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/damaelx.jclic.zip",
+  "instFile": "jclic/damaelx.jclic.inst",
+  "clicZoneId": 3292,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3292",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/damaelx/jclic/damaelx.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 34,
+  "mediaFiles": 20,
+  "totalSize": 834396,
+  "files": [
+    "cover.jpg",
+    "jclic.js/180px_pesseta_amb_la_dama_d_elx.jpg",
+    "jclic.js/200px_iberos.png",
+    "jclic.js/800px_dama_de_elche_ampliada.jpg",
+    "jclic.js/9_dama_de_elche_vendedor_y_comprador_76.jpg",
+    "jclic.js/arqueologico_dama_baza3.jpg",
+    "jclic.js/baza_manto.jpg",
+    "jclic.js/dama4.jpg",
+    "jclic.js/dama_de_elche_sello_de_1969.jpg",
+    "jclic.js/dama_izdaq.jpg",
+    "jclic.js/damaelx.jclic",
+    "jclic.js/damaofer.jpg",
+    "jclic.js/detras.jpg",
+    "jclic.js/galera_calendario002.jpg",
+    "jclic.js/iliceelche.jpg",
+    "jclic.js/ilici_dama.jpg",
+    "jclic.js/im279310689_dama_de_elche_pijoan_1912_a_150ppp.jpg",
+    "jclic.js/im65289399_dama_de_elche_en_el_huerto_del_cura.jpg",
+    "jclic.js/la_alcudia_003.jpg",
+    "jclic.js/lenguas_prerromanas.jpg",
+    "jclic.js/museuelx.jpg",
+    "jclic.js/pradopostcard.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/damaelx.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

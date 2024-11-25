@@ -1,0 +1,96 @@
+{
+  "id": 1367,
+  "title": "Minibasket",
+  "author": "José Antonio Mera Bustelo",
+  "school": "CEIP Ponte dos Brozos Arteixo",
+  "date": "19/05/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "esports, minibasquet",
+    "es": "deportes, mini basketball",
+    "en": "sports, minibasquet"
+  },
+  "descCodes": [
+    424,
+    1325
+  ],
+  "description": {
+    "en": "Clic activities about mini basketball. The project has two parts: \n<ul> \n <li>Rules </li>\n <li>Tactics </li>\n</ul>",
+    "ca": "Paquet d'activitats sobre el minibasket per a tercer cicle de primària. El projecte està dividit en dues parts: \n<ul> \n <li>Normes </li>\n <li>Tàctica </li>\n</ul>",
+    "es": "Paquete de actividades sobre el minibasket para tercer ciclo de primaria. El proyecto está dividido en dos partes: \n<ul> \n <li>Normas </li>\n <li>Táctica </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/minibask.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/minibask.jclic.zip",
+  "instFile": "jclic/minibask.jclic.inst",
+  "clicZoneId": 3109,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3109",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/minibask/jclic/minibask.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 16,
+  "totalSize": 687014,
+  "files": [
+    "cover.jpg",
+    "jclic.js/balcesto.gif",
+    "jclic.js/campo.gif",
+    "jclic.js/gasol2.gif",
+    "jclic.js/looneytu.wav",
+    "jclic.js/minibask.jclic",
+    "jclic.js/pbeis.gif",
+    "jclic.js/pcab.gif",
+    "jclic.js/pivotar.gif",
+    "jclic.js/ppec.gif",
+    "jclic.js/ppic.gif",
+    "jclic.js/presver.gif",
+    "jclic.js/presver.mid",
+    "jclic.js/tiro.gif",
+    "jclic.js/tsus1.gif",
+    "jclic.js/tsus2.gif",
+    "jclic.js/tsus3.gif",
+    "jclic.js/tsus4.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/minibask.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

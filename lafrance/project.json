@@ -1,0 +1,132 @@
+{
+  "id": 1500,
+  "title": "Activités de Français: la France",
+  "author": "Carmen Lamuedra Mato",
+  "school": "Escola Elvira Cuyàs Montcada i Reixac (Sant Pere de Reixac) (Vallès Occidental)",
+  "date": "09/12/05",
+  "languages": {
+    "en": "French",
+    "ca": "francès",
+    "es": "francés"
+  },
+  "langCodes": [
+    "fr"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua francesa",
+    "es": "lengua francesa",
+    "en": "French language"
+  },
+  "descCodes": [
+    136
+  ],
+  "description": {
+    "en": "Package of French activities addressed to primary school. The project contains simple activities of vocabulary (numbers, days of the week, months of the year, animals...).",
+    "ca": "Paquet d'activitats de francès per a treballar a tercer cicle de primària, com a segona llengua estrangera. El projecte té activitats de vocabulari senzill (nombres fins a 31, dies de la setmana, mesos de l'any, animals...).",
+    "es": "Paquete de actividades de francés para trabajar en el tercer ciclo de primaria, como segunda lengua extranjera. El proyecto contiene actividades de vocabulario sencillos (números hasta el 31, días de la semana, meses del año, animales...)."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/lafrance.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/lafrance.jclic.zip",
+  "instFile": "jclic/lafrance.jclic.inst",
+  "clicZoneId": 3219,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3219",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/lafrance/jclic/lafrance.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 53,
+  "totalSize": 1705788,
+  "files": [
+    "cover.gif",
+    "jclic.js/21.wav",
+    "jclic.js/22.wav",
+    "jclic.js/23.wav",
+    "jclic.js/24.wav",
+    "jclic.js/25.wav",
+    "jclic.js/26.wav",
+    "jclic.js/27.wav",
+    "jclic.js/28.wav",
+    "jclic.js/29.wav",
+    "jclic.js/30.wav",
+    "jclic.js/cavall.jpg",
+    "jclic.js/charlie.gif",
+    "jclic.js/cinc.gif",
+    "jclic.js/cinema.jpg",
+    "jclic.js/conil.jpg",
+    "jclic.js/deu.gif",
+    "jclic.js/dos.gif",
+    "jclic.js/eatoli.jpg",
+    "jclic.js/estiu.gif",
+    "jclic.js/franpuzz.gif",
+    "jclic.js/futbol.jpg",
+    "jclic.js/gat.jpg",
+    "jclic.js/hamsyer.jpg",
+    "jclic.js/hivern.gif",
+    "jclic.js/imagen3.jpg",
+    "jclic.js/lafrance.jclic",
+    "jclic.js/lectura.jpg",
+    "jclic.js/lloro.jpg",
+    "jclic.js/musica2.jpg",
+    "jclic.js/nou.gif",
+    "jclic.js/onze.wav",
+    "jclic.js/ordinador2.jpg",
+    "jclic.js/peix.jpg",
+    "jclic.js/piscina.gif",
+    "jclic.js/planche.gif",
+    "jclic.js/portada3.gif",
+    "jclic.js/primavera.gif",
+    "jclic.js/quatorce.wav",
+    "jclic.js/quatre.gif",
+    "jclic.js/quatre.wav",
+    "jclic.js/quinze.wav",
+    "jclic.js/serp.jpg",
+    "jclic.js/set.gif",
+    "jclic.js/set.wav",
+    "jclic.js/setze.wav",
+    "jclic.js/sis.gif",
+    "jclic.js/super.wav",
+    "jclic.js/tardor.gif",
+    "jclic.js/tres.gif",
+    "jclic.js/tres_bien.wav",
+    "jclic.js/tretze.wav",
+    "jclic.js/un.gif",
+    "jclic.js/vintg.wav",
+    "jclic.js/vuit.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/lafrance.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": 1377,
+  "title": "Derechos del menor",
+  "author": "Mario Bermúdez",
+  "school": "CEIP Ricardo León Málaga (Andalucía)",
+  "date": "03/06/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "Clic activities based on a book about the rights of the minor published by the Ombdusman of Andalusia",
+    "ca": "Activitats Clic basades en una publicació del Defensor del Poble d'Andalusia sobre els drets del menor.",
+    "es": "Actividades Clic basadas en una publicación del Defensor del Pueblo de Andalucía sobre los derechos del menor."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/derechos.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/derechos.jclic.zip",
+  "instFile": "jclic/derechos.jclic.inst",
+  "clicZoneId": 3117,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3117",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/derechos/jclic/derechos.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 13,
+  "totalSize": 293263,
+  "files": [
+    "cover.jpg",
+    "jclic.js/alleluja.mid",
+    "jclic.js/amor.jpg",
+    "jclic.js/amparo.jpg",
+    "jclic.js/auxilio.jpg",
+    "jclic.js/calidad.jpg",
+    "jclic.js/ddm.jpg",
+    "jclic.js/derechos.jclic",
+    "jclic.js/educacion.jpg",
+    "jclic.js/identidad.jpg",
+    "jclic.js/igualdad.jpg",
+    "jclic.js/inicio0.jpg",
+    "jclic.js/integracion.jpg",
+    "jclic.js/proteccion.jpg",
+    "jclic.js/solidaridad.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/derechos.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

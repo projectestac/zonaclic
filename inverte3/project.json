@@ -1,0 +1,107 @@
+{
+  "id": 2316,
+  "title": "Els animals invertebrats",
+  "author": "Hazel Giné Bertomeu",
+  "school": "Facultat de Ciències de l'Educació i Psicologia - URV Tarragona",
+  "date": "23/01/14",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages",
+    "ca": "Ciències experimentals, Llengües",
+    "es": "Ciencias experimentales, Lenguas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "invertebrats, vocabulari, animals",
+    "es": "invertebrados, vocabulario, animales",
+    "en": "invertebrates, vocabulary, animales"
+  },
+  "descCodes": [
+    82,
+    150,
+    1160
+  ],
+  "description": {
+    "en": "Project of activities about the invertebrate animals: \n<ul> \n <li>What they are? </li>\n <li>How are they classified? </li>\n <li>Features </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre els animals invertebrats: \n<ul> \n <li>Què són? </li>\n <li>Com es classifiquen? </li>\n <li>Característiques principals </li>\n</ul>",
+    "es": "Proyecto de actividades sobre los animales invertebrados: \n<ul> \n <li>¿Qué son? </li>\n <li>¿Cómo se clasifican? </li>\n <li>Características principales </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/inverte3.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/inverte3.jclic.zip",
+  "instFile": "jclic/inverte3.jclic.inst",
+  "clicZoneId": 3825,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3825",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/inverte3/jclic/inverte3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 24,
+  "totalSize": 759817,
+  "files": [
+    "cover.png",
+    "jclic.js/arac04.jpg",
+    "jclic.js/aranya03.jpg",
+    "jclic.js/c__users_beep_documents_nueva_carpeta_000263340.png",
+    "jclic.js/c__users_beep_documents_nueva_carpeta_1197123348276430446jonata_butterfly_svg_hi.png",
+    "jclic.js/caragolet1.jpg",
+    "jclic.js/caragolet3.jpg",
+    "jclic.js/celent01.jpg",
+    "jclic.js/celent02.jpg",
+    "jclic.js/cloissa01.jpg",
+    "jclic.js/cranc.jpg",
+    "jclic.js/cuc.jpg",
+    "jclic.js/cuc02.jpg",
+    "jclic.js/inverte3.jclic",
+    "jclic.js/marieta01.jpg",
+    "jclic.js/medusa.jpg",
+    "jclic.js/medusa_larga_resized1.jpg",
+    "jclic.js/metamor.jpg",
+    "jclic.js/metamorfosi2.jpg",
+    "jclic.js/miriap01.jpg",
+    "jclic.js/mol_l_02.jpg",
+    "jclic.js/musclo.jpg",
+    "jclic.js/parts.jpg",
+    "jclic.js/parts_sesnse.jpg",
+    "jclic.js/quadret0.jpg",
+    "jclic.js/quadret01.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/inverte3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

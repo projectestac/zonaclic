@@ -1,0 +1,103 @@
+{
+  "id": 1223,
+  "title": "Marco de la comunicación",
+  "author": "Nora Lozano Carranza",
+  "school": "Colegio de \"La Inmaculada\" Jesuitas Santiago de Surco (Lima)",
+  "date": "07/02/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua castellana",
+    "es": "aprendizaje de la lengua, lengua castellana",
+    "en": "learning of the language, Spanish language"
+  },
+  "descCodes": [
+    110,
+    132
+  ],
+  "description": {
+    "en": "Package of activities written in Spanish for secondary school. The activities contain exercises about synonymous, antonymous, secret words, letter soups, etc...",
+    "ca": "Paquet d'activitats de llengua castellana per a educació secundària, l'activitat conté exercicis sobre sinònims, antònims, significat-significant, paraules secretes, paraula que sobra, sopes de lletres, etc.",
+    "es": "Paquete de actividades de lengua castellana para educación secundaria, la actividad contiene ejercicios de sinónimos, antónimos, significado-significante, palabras secretas, palabra intrusa, sopa de letras, etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/lexico.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/lexico.jclic.zip",
+  "instFile": "jclic/lexico.jclic.inst",
+  "clicZoneId": 3040,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3040",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/lexico/jclic/lexico.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 23,
+  "totalSize": 343230,
+  "files": [
+    "cover.gif",
+    "jclic.js/anular.gif",
+    "jclic.js/clave_1.gif",
+    "jclic.js/derogar.gif",
+    "jclic.js/disputa.gif",
+    "jclic.js/escoge.gif",
+    "jclic.js/fin1a.gif",
+    "jclic.js/fin2a.gif",
+    "jclic.js/fonlex.gif",
+    "jclic.js/hoja.gif",
+    "jclic.js/hoja1.gif",
+    "jclic.js/lex_1.gif",
+    "jclic.js/lex_2.gif",
+    "jclic.js/lexico.jclic",
+    "jclic.js/ligereza.gif",
+    "jclic.js/pala_1.gif",
+    "jclic.js/pelea.gif",
+    "jclic.js/porta1.gif",
+    "jclic.js/prontit.gif",
+    "jclic.js/querel.gif",
+    "jclic.js/rapidez.gif",
+    "jclic.js/rela.gif",
+    "jclic.js/signi_1.gif",
+    "jclic.js/signi_2.gif",
+    "jclic.js/suprimir.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/lexico.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

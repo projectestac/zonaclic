@@ -1,0 +1,111 @@
+{
+  "id": 1039,
+  "title": "El Coto de Doñana",
+  "author": "Manuel Orta Peral",
+  "date": "12/06/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "biologia",
+    "es": "biología",
+    "en": "biology"
+  },
+  "descCodes": [
+    58
+  ],
+  "description": {
+    "en": "Package about the national park of Doñana, with activities about the flora and fauna, location, history... and a special mention to the \"king of Doñana\": the Lynx.",
+    "ca": "Extens paquet sobre el parc nacional del Coto de Doñana, amb activitats sobre la flora i fauna, situació, història... i una menció especial al \"rei de Doñana\": el linx ibèric.",
+    "es": "Extenso paquete de actividades sobre el parque nacional del Coto de Doñana, con actividades sobre la flora y fauna, situación, historia... y una mención especial al \"rey de Doñana\": el lince ibérico."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/donana.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/donana.jclic.zip",
+  "instFile": "jclic/donana.jclic.inst",
+  "clicZoneId": 2201,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2201",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/donana/jclic/donana.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 32,
+  "totalSize": 1155605,
+  "files": [
+    "cover.jpg",
+    "jclic.js/acebuche.gif",
+    "jclic.js/alcornoq.gif",
+    "jclic.js/alcornoqu.gif",
+    "jclic.js/andaluci.mid",
+    "jclic.js/andalucia.mid",
+    "jclic.js/bravo.wav",
+    "jclic.js/cabezali.gif",
+    "jclic.js/camaleon.gif",
+    "jclic.js/corral1.gif",
+    "jclic.js/donana.jclic",
+    "jclic.js/donana5.gif",
+    "jclic.js/encina.gif",
+    "jclic.js/flamenco.gif",
+    "jclic.js/fondo.gif",
+    "jclic.js/gamo.gif",
+    "jclic.js/garceta.gif",
+    "jclic.js/hercules.gif",
+    "jclic.js/jabali.gif",
+    "jclic.js/lentisco.gif",
+    "jclic.js/lince04.gif",
+    "jclic.js/lince1.gif",
+    "jclic.js/lincedis.gif",
+    "jclic.js/m_andal2.gif",
+    "jclic.js/m_andalu.gif",
+    "jclic.js/pinonero.gif",
+    "jclic.js/sp01.gif",
+    "jclic.js/sp03.gif",
+    "jclic.js/sp05.gif",
+    "jclic.js/sp06.gif",
+    "jclic.js/sp07.gif",
+    "jclic.js/sp09.gif",
+    "jclic.js/sp12.gif",
+    "jclic.js/sp15.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/donana.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

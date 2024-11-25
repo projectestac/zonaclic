@@ -1,0 +1,84 @@
+{
+  "id": 346,
+  "title": "Activités de Français",
+  "author": "Julio Nieto",
+  "date": "18/07/02",
+  "languages": {
+    "en": "French",
+    "ca": "francès",
+    "es": "francés"
+  },
+  "langCodes": [
+    "fr"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua francesa",
+    "es": "lengua francesa",
+    "en": "French language"
+  },
+  "descCodes": [
+    669
+  ],
+  "description": {
+    "en": "French language activities. The different exercises treat topics such as: Grammar, vocabulary, text assembling, French culture and regions of France.",
+    "ca": "Paquet d'activitats Clic de llengua francesa on es tracten temes de gramàtica, vocabulari, ordenació de textos, cultura francesa i regions de França.\n<br> Per a més informació visiteu: \n<a href=\"http://personales.mundivia.es/jcnieto\"><b>Au coin du fle</b></a> (Le site des professeurs de français et espagnol langue étrangère).",
+    "es": "Paquete de actividades de Clic sobre la lengua francesa en el que se tratan temas de gramática, vocabulario, ordenación de textos, cultura francesa y regiones de Francia.\n<br> Para más información visite: \n<a href=\"http://personales.mundivia.es/jcnieto\"><b>Au coin du fle</b></a> (Le site des professeurs de français et espagnol langue étrangère)."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/frances.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/frances.jclic.zip",
+  "instFile": "jclic/frances.jclic.inst",
+  "clicZoneId": 1193,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1193",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/frances/jclic/frances.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 6,
+  "totalSize": 219850,
+  "files": [
+    "cover.gif",
+    "jclic.js/actclic.gif",
+    "jclic.js/beigecl.gif",
+    "jclic.js/clicbe_1.gif",
+    "jclic.js/frances.jclic",
+    "jclic.js/francia.gif",
+    "jclic.js/g_nial.gif",
+    "jclic.js/reussi.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/frances.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

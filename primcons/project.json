@@ -1,0 +1,138 @@
+{
+  "id": 1701,
+  "title": "Les primeres consonants",
+  "author": "María José Arriba",
+  "school": "Escola del Bosc Barberà del Vallès (Vallès Occidental)",
+  "date": "01/10/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua catalana, lectoescriptura, lsc",
+    "es": "aprendizaje de la lengua, lengua catalana, lectoescritura, lsc",
+    "en": "learning of the language, Catalan language, reading and writting skills, lsc"
+  },
+  "descCodes": [
+    110,
+    133,
+    920,
+    1040
+  ],
+  "description": {
+    "en": "This project of JClic activities is addressed to pupils with difficulties in writing and reading. It has also been included dactylology for the deaf pupils. It can used with pupils of primary school to work reading and writing using the first consonants (l, p, m, s, n). The sequence by the letters and words are shown follows the same order as the Estel collection.",
+    "ca": "Aquest projecte d'activitats JClic va adreçat a alumnes amb dificultats d'accés a la lectoescriptura. També s'ha afegit la dactilologia per als alumnes sords. Es pot fer servir per als alumnes del primer curs de cicle inicial i es treballa la lectura i l'escriptura de paraules amb les primeres consonants (l, p, m, s, n). La seqüència de les lletres i paraules presentades segueix el mateix ordre que la col·lecció Estel.",
+    "es": "Proyecto de actividades JClic dirigido a alumnado con dificultades de lectoescritura. También se ha añadido la dactiología para alumnos sordos. El proyecto se puede utilizar con alumnos de primer curso de ciclo inicial y se trabaja la lectura y la escritura de palabras con las primeras consonantes (l, p, m, s, n). La secuencia de las letras y palabras presentadas sigue el mismo orden que la colección Estel."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/primcons.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/primcons.jclic.zip",
+  "instFile": "jclic/primcons.jclic.inst",
+  "clicZoneId": 3410,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3410",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/primcons/jclic/primcons.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 31,
+  "mediaFiles": 56,
+  "totalSize": 547677,
+  "files": [
+    "cover.gif",
+    "jclic.js/ala.gif",
+    "jclic.js/blau.gif",
+    "jclic.js/l.gif",
+    "jclic.js/lila.gif",
+    "jclic.js/lola.gif",
+    "jclic.js/lupa.gif",
+    "jclic.js/ma.gif",
+    "jclic.js/mal.gif",
+    "jclic.js/mama.gif",
+    "jclic.js/mapa.gif",
+    "jclic.js/mel.gif",
+    "jclic.js/melgran.gif",
+    "jclic.js/melo.gif",
+    "jclic.js/menl.gif",
+    "jclic.js/menlp.gif",
+    "jclic.js/menm.gif",
+    "jclic.js/menn.gif",
+    "jclic.js/menp.gif",
+    "jclic.js/mens.gif",
+    "jclic.js/miau.gif",
+    "jclic.js/mona.gif",
+    "jclic.js/nen.gif",
+    "jclic.js/nena.gif",
+    "jclic.js/neu.gif",
+    "jclic.js/nina.gif",
+    "jclic.js/ninot.gif",
+    "jclic.js/ninotg.gif",
+    "jclic.js/niu.gif",
+    "jclic.js/nou.gif",
+    "jclic.js/oli.gif",
+    "jclic.js/oligran.gif",
+    "jclic.js/os.gif",
+    "jclic.js/osgran.gif",
+    "jclic.js/p.gif",
+    "jclic.js/pa.gif",
+    "jclic.js/pala.gif",
+    "jclic.js/papa.gif",
+    "jclic.js/pel.gif",
+    "jclic.js/pela.gif",
+    "jclic.js/pelgran.gif",
+    "jclic.js/peu.gif",
+    "jclic.js/pi.gif",
+    "jclic.js/pigran.gif",
+    "jclic.js/pipa.gif",
+    "jclic.js/pipi.gif",
+    "jclic.js/polo.gif",
+    "jclic.js/poma.gif",
+    "jclic.js/pop.gif",
+    "jclic.js/pou.gif",
+    "jclic.js/primcons.jclic",
+    "jclic.js/sal.gif",
+    "jclic.js/sala.gif",
+    "jclic.js/seu.gif",
+    "jclic.js/sis.gif",
+    "jclic.js/sol.gif",
+    "jclic.js/sopa.gif",
+    "jclic.js/suma.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/primcons.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

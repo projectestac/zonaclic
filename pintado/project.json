@@ -1,0 +1,121 @@
+{
+  "id": 1518,
+  "title": "De lo pintado a lo vivo",
+  "author": "Manuel Calderón Calderón",
+  "school": "Embajada de España en Brasil Brasilia (Brasil)",
+  "date": "09/01/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua castellana",
+    "es": "aprendizaje de la lengua, lengua castellana",
+    "en": "learning of the language, Spanish language"
+  },
+  "descCodes": [
+    110,
+    132
+  ],
+  "description": {
+    "en": "Package of activities for pupils which are learning Spanish as a foreign language about reading comprehension and writing.",
+    "ca": "Paquet d'activitats de comprensió lectora i d'expressió escrita per a alumnat que aprèn espanyol com a llengua estrangera.",
+    "es": "Paquete de actividades de comprensión lectora y de expresión escrita para alumnado que aprende español como lengua extrajera."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/pintado.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pintado.jclic.zip",
+  "instFile": "jclic/pintado.jclic.inst",
+  "clicZoneId": 3240,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3240",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pintado/jclic/pintado.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 41,
+  "totalSize": 999164,
+  "files": [
+    "cover.gif",
+    "jclic.js/pintado.jclic",
+    "jclic.js/pintado_abuela1a.jpg",
+    "jclic.js/pintado_abuela2a.jpg",
+    "jclic.js/pintado_abuelo1a.jpg",
+    "jclic.js/pintado_abuelo2a.jpg",
+    "jclic.js/pintado_arbol1.gif",
+    "jclic.js/pintado_barna.gif",
+    "jclic.js/pintado_belen.gif",
+    "jclic.js/pintado_bifur.gif",
+    "jclic.js/pintado_busca.gif",
+    "jclic.js/pintado_buzon.gif",
+    "jclic.js/pintado_calle.gif",
+    "jclic.js/pintado_carret.gif",
+    "jclic.js/pintado_chacar.gif",
+    "jclic.js/pintado_choco.gif",
+    "jclic.js/pintado_corcho.gif",
+    "jclic.js/pintado_dragon.gif",
+    "jclic.js/pintado_edificio.gif",
+    "jclic.js/pintado_gen.gif",
+    "jclic.js/pintado_hija1a.jpg",
+    "jclic.js/pintado_hija2a.jpg",
+    "jclic.js/pintado_hija3a.jpg",
+    "jclic.js/pintado_hijo1a.jpg",
+    "jclic.js/pintado_hijo2a.jpg",
+    "jclic.js/pintado_hijo3a.jpg",
+    "jclic.js/pintado_invierno.gif",
+    "jclic.js/pintado_jerog1.gif",
+    "jclic.js/pintado_lope.gif",
+    "jclic.js/pintado_madre1a.jpg",
+    "jclic.js/pintado_madre2a.jpg",
+    "jclic.js/pintado_madre3a.jpg",
+    "jclic.js/pintado_melan.gif",
+    "jclic.js/pintado_monet.gif",
+    "jclic.js/pintado_padre1a.jpg",
+    "jclic.js/pintado_padre2a.jpg",
+    "jclic.js/pintado_pastel.gif",
+    "jclic.js/pintado_proces.gif",
+    "jclic.js/pintado_redac.gif",
+    "jclic.js/pintado_reloj.gif",
+    "jclic.js/pintado_reloj2.gif",
+    "jclic.js/pintado_tienda.gif",
+    "jclic.js/pintado_titulo.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pintado.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

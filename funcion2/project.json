@@ -1,0 +1,99 @@
+{
+  "id": 1761,
+  "title": "Estudio global de funciones",
+  "author": "Daniel López Avellaneda",
+  "school": "IES Mar Serena Pulpí (Andalucía)",
+  "date": "29/04/08",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "description": {
+    "en": "Activities about functions: concept, domain and image, axis, monotony, asymptotes, symmetries...",
+    "ca": "Activitats sobre funcions: concepte, domini i imatge, tall dels eixos, monotonia, extrems, asímptotes, simetries...",
+    "es": "Actividades sobre funciones: concepto, dominio e imagen, corte con los ejes, monotonía, extremos, asíntotas, simetrías..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/funcion2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/funcion2.jclic.zip",
+  "instFile": "jclic/funcion2.jclic.inst",
+  "clicZoneId": 3459,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3459",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/funcion2/jclic/funcion2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 28,
+  "totalSize": 219411,
+  "files": [
+    "cover.gif",
+    "jclic.js/f1a1.gif",
+    "jclic.js/f1a2.gif",
+    "jclic.js/f1b1.gif",
+    "jclic.js/f1b2.gif",
+    "jclic.js/f1c1.gif",
+    "jclic.js/f1d1.gif",
+    "jclic.js/f1e1.gif",
+    "jclic.js/f1f1.gif",
+    "jclic.js/f1f2.gif",
+    "jclic.js/f3a.gif",
+    "jclic.js/f3b.gif",
+    "jclic.js/f3c.gif",
+    "jclic.js/f4a.gif",
+    "jclic.js/f5a.gif",
+    "jclic.js/f7a.gif",
+    "jclic.js/f7b.gif",
+    "jclic.js/f7c.gif",
+    "jclic.js/f81.gif",
+    "jclic.js/funcion2.jclic",
+    "jclic.js/genial.gif",
+    "jclic.js/grafica.png",
+    "jclic.js/grafica2.png",
+    "jclic.js/grafica3.png",
+    "jclic.js/grafica4.png",
+    "jclic.js/grafica5.png",
+    "jclic.js/grafica6.png",
+    "jclic.js/grafica7.png",
+    "jclic.js/grafica8.png",
+    "jclic.js/parabola.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/funcion2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": 1468,
+  "title": "El mar",
+  "author": "Luis Ugedo Ucar",
+  "school": "Institut Fort Pius Barcelona",
+  "date": "05/10/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "biologia, invertebrats, aigua",
+    "es": "biología, invertebrados, agua",
+    "en": "biology, invertebrates, water"
+  },
+  "descCodes": [
+    58,
+    82,
+    1341
+  ],
+  "description": {
+    "en": "Clic activities about the ocean ecosystem based on the textbook \n<i>Ciències Naturals de 1</i> of Claret publishing house.",
+    "ca": "Paquet d'activitats on es treballa l'ecosistema marí. Els continguts estan extrets principalment del llibre de text de \n<i>Ciències Naturals de 1</i> de l'editorial Claret.",
+    "es": "Paquete de actividades donde se trabaja el ecosistema marino. Los contenidos han sido extraídos del libro de texto de \n<i> Ciències Naturals 1</i> de la editorial Claret."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/mar2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mar2.jclic.zip",
+  "instFile": "jclic/mar2.jclic.inst",
+  "clicZoneId": 3180,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3180",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/mar2/jclic/mar2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 17,
+  "totalSize": 889490,
+  "files": [
+    "cover.jpg",
+    "jclic.js/alga4.gif",
+    "jclic.js/alga5.gif",
+    "jclic.js/calamar.jpg",
+    "jclic.js/coral1.jpg",
+    "jclic.js/mar02.jpg",
+    "jclic.js/mar03.jpg",
+    "jclic.js/mar04.gif",
+    "jclic.js/mar10.gif",
+    "jclic.js/mar13.gif",
+    "jclic.js/mar14.gif",
+    "jclic.js/mar15.gif",
+    "jclic.js/mar2.jclic",
+    "jclic.js/mar5.gif",
+    "jclic.js/mar6.gif",
+    "jclic.js/mar7.gif",
+    "jclic.js/mar9.gif",
+    "jclic.js/orca.jpg",
+    "jclic.js/pez1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/mar2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

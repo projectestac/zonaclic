@@ -1,0 +1,113 @@
+{
+  "id": 1778,
+  "title": "El vi de la DOQ Priorat",
+  "author": "J. Vicent Cerdà Navarro",
+  "school": "Escola Garbí - ZER Montsant-Serra de Prades Poboleda (Priorat)",
+  "date": "16/06/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "vi",
+    "es": "vino",
+    "en": "wine"
+  },
+  "descCodes": [
+    1391
+  ],
+  "description": {
+    "en": "Project of activities about wine from the Priorat Qualified Denomination of Origin addressed to Primary and Secondary school. Throughout the project, several types of grape are shown as well as several grape crop methods and concepts like grafting, pruning, grape picking ...are introduced.",
+    "ca": "Un projecte d'activitats sobre el vi de la Denominació d'Origen Qualificada Priorat adreçat a alumnes de Cicle Superior de Primària i Educació Secundària Obligatòria. Al llarg del projecte, es veuen diferents varietats de raïm, diferents formes de cultivar-lo, conceptes com empeltar, poda, verema...",
+    "es": "Un proyecto de actividades sobre el vino de la Denominación de Origen Calificada Priorat dirigido a alumnos de Ciclo Superior de Primaria y Educación Secundaria Obligatoria. A lo largo del proyecto se ven diferentes variedades de uva, diferentes formas de cultivar-la y conceptos como injertar, pida, vendimia..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/priorat.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/priorat.jclic.zip",
+  "instFile": "jclic/priorat.jclic.inst",
+  "clicZoneId": 3475,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3475",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/priorat/jclic/priorat.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 33,
+  "totalSize": 2371661,
+  "files": [
+    "cover.jpg",
+    "jclic.js/bancals.jpg",
+    "jclic.js/bancals2.jpg",
+    "jclic.js/cabernet.jpg",
+    "jclic.js/carinyena.jpg",
+    "jclic.js/cartoixa1.jpg",
+    "jclic.js/cartoixa2.jpg",
+    "jclic.js/cims.jpg",
+    "jclic.js/costers.jpg",
+    "jclic.js/costers2.jpg",
+    "jclic.js/decantador.jpg",
+    "jclic.js/empeltar.jpg",
+    "jclic.js/festavi.jpg",
+    "jclic.js/garnatxa.jpg",
+    "jclic.js/garnatxablanca.jpg",
+    "jclic.js/gollete.jpg",
+    "jclic.js/llicorella.jpg",
+    "jclic.js/macabeu.jpg",
+    "jclic.js/mapa_comarca_priorat.jpg",
+    "jclic.js/merlot.jpg",
+    "jclic.js/pedroximenis.jpg",
+    "jclic.js/pobol1.jpg",
+    "jclic.js/pobol2.jpg",
+    "jclic.js/pobol3.jpg",
+    "jclic.js/podar.jpg",
+    "jclic.js/podaverd.jpg",
+    "jclic.js/priorat.jclic",
+    "jclic.js/rocksthunder.mp3",
+    "jclic.js/sirah.jpg",
+    "jclic.js/tots.jpg",
+    "jclic.js/verema.jpg",
+    "jclic.js/vi.mp3",
+    "jclic.js/vi1.jpg",
+    "jclic.js/vi1b.jpg",
+    "jclic.js/vi2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/priorat.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

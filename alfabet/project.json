@@ -1,0 +1,136 @@
+{
+  "id": 451,
+  "title": "L'abecedari",
+  "author": "M. Jesús Conangla",
+  "school": "Escola Tagamanent La Garriga (Vallès Oriental)",
+  "date": "23/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "alfabet",
+    "es": "alfabeto",
+    "en": "alphabet"
+  },
+  "descCodes": [
+    950
+  ],
+  "description": {
+    "en": "Package about the practice and memorization of the alphabet in Catalan. This package is formed by activities which it is needed to use the auditory and visual attention and the practice with repetitive and cumulative activities.",
+    "ca": "Paquet per a treballar l'exercitació i memorització de l'alfabet català. Aquest paquet està format per activitats en les quals cal treballar-hi l'atenció auditiva i visual però, sobretot, l'exercitació a base d'activitats repetitives i acumulatives.",
+    "es": "Paquete para trabajar la ejercitación y memorización del alfabeto en catalán. Este paquete está formado por actividades en las cuales se necesita trabajar la atención auditiva y visual pero, sobretodo, la ejercitación a base de actividades repetitivas y acumulativas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/alfabet.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/alfabet.jclic.zip",
+  "instFile": "jclic/alfabet.jclic.inst",
+  "clicZoneId": 1274,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1274",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/alfabet/jclic/alfabet.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 45,
+  "mediaFiles": 57,
+  "totalSize": 4798939,
+  "files": [
+    "cover.gif",
+    "jclic.js/a.gif",
+    "jclic.js/a_l.wav",
+    "jclic.js/a_q.wav",
+    "jclic.js/a_v.wav",
+    "jclic.js/a_z.wav",
+    "jclic.js/abcdef.wav",
+    "jclic.js/alf_ses1.gif",
+    "jclic.js/alf_ses2.gif",
+    "jclic.js/alfabet.jclic",
+    "jclic.js/aplauso.wav",
+    "jclic.js/b.gif",
+    "jclic.js/be1.gif",
+    "jclic.js/be1.wav",
+    "jclic.js/be2.gif",
+    "jclic.js/be2_3.wav",
+    "jclic.js/be3.gif",
+    "jclic.js/be4.gif",
+    "jclic.js/be4_5.wav",
+    "jclic.js/be5.gif",
+    "jclic.js/be6.gif",
+    "jclic.js/be7.gif",
+    "jclic.js/be8.gif",
+    "jclic.js/be8_9.wav",
+    "jclic.js/be9.gif",
+    "jclic.js/c.gif",
+    "jclic.js/clic1.gif",
+    "jclic.js/d.gif",
+    "jclic.js/e.gif",
+    "jclic.js/f.gif",
+    "jclic.js/fi1.gif",
+    "jclic.js/fi2.gif",
+    "jclic.js/g.gif",
+    "jclic.js/ghijkl.wav",
+    "jclic.js/h.gif",
+    "jclic.js/i.gif",
+    "jclic.js/j.gif",
+    "jclic.js/k.gif",
+    "jclic.js/l.gif",
+    "jclic.js/m.gif",
+    "jclic.js/m_q.wav",
+    "jclic.js/n.gif",
+    "jclic.js/o.gif",
+    "jclic.js/p.gif",
+    "jclic.js/presen11.gif",
+    "jclic.js/punts1.gif",
+    "jclic.js/punts2.gif",
+    "jclic.js/q.gif",
+    "jclic.js/r.gif",
+    "jclic.js/r_v.wav",
+    "jclic.js/s.gif",
+    "jclic.js/t.gif",
+    "jclic.js/u.gif",
+    "jclic.js/v.gif",
+    "jclic.js/w.gif",
+    "jclic.js/w_z.wav",
+    "jclic.js/x.gif",
+    "jclic.js/y.gif",
+    "jclic.js/z.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/alfabet.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

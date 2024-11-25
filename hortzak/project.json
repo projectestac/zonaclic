@@ -1,0 +1,107 @@
+{
+  "id": 2322,
+  "title": "Gure hortzeria",
+  "author": "Jon Cambronero Amundarain i Mari Jose Etxezarreta Arribillaga",
+  "date": "02/04/14",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "higiene",
+    "es": "higiene",
+    "en": "hygiene"
+  },
+  "descCodes": [
+    80
+  ],
+  "description": {
+    "en": "Set of JClic activities with exercises addressed to kindergarten and first cycle of primary education about teeth.",
+    "ca": "Conjunt d'activitats JClic amb exercicis i activitats adreçades a treballar les dents a educació infantil i primer cicle d'educació primària.",
+    "es": "Conjunto de actividades JClic con ejercicios y actividades dirigidas a trabajar los dientes educación infantil y primer ciclo de educación primaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/hortzak.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/hortzak.jclic.zip",
+  "instFile": "jclic/hortzak.jclic.inst",
+  "clicZoneId": 3831,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3831",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/hortzak/jclic/hortzak.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 28,
+  "totalSize": 834348,
+  "files": [
+    "cover.png",
+    "jclic.js/5ratolina.gif",
+    "jclic.js/6queixals.gif",
+    "jclic.js/7caries.gif",
+    "jclic.js/8dent.jpg",
+    "jclic.js/9pasta.gif",
+    "jclic.js/aplaudiment.wav",
+    "jclic.js/barrufet_dents.jpg",
+    "jclic.js/dent_5.gif",
+    "jclic.js/dents_1.jpg",
+    "jclic.js/dientes.jpg",
+    "jclic.js/enter.jpg",
+    "jclic.js/eskubila.jpg",
+    "jclic.js/eskuila.jpg",
+    "jclic.js/garbi.jpg",
+    "jclic.js/hagina.jpg",
+    "jclic.js/hortza_zuhaitza.gif",
+    "jclic.js/hortza_zuhaitza2.jpg",
+    "jclic.js/hortza_zuhaitza_dentina_.gif",
+    "jclic.js/hortza_zuhaitza_esmaltea_.gif",
+    "jclic.js/hortza_zuhaitza_hezurra_.gif",
+    "jclic.js/hortza_zuhaitza_hort_mamia_.gif",
+    "jclic.js/hortza_zuhaitza_hortzoia_.gif",
+    "jclic.js/hortzak.jclic",
+    "jclic.js/hortzak_azala.jpg",
+    "jclic.js/katu_hortz.jpg",
+    "jclic.js/nola_garbitu.jpg",
+    "jclic.js/oso_ondo.wav",
+    "jclic.js/primeran.wav",
+    "jclic.js/zu_bai_artista.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/hortzak.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

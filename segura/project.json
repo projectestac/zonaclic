@@ -1,0 +1,96 @@
+{
+  "id": 178,
+  "title": "L'aigua i el riu",
+  "author": "Irene Verdú Esperanza i Rafael Sánchez",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "contaminació, ecologia, medi ambient",
+    "es": "contaminación, ecología, medio ambiente",
+    "en": "contamination, ecology, environment"
+  },
+  "descCodes": [
+    61,
+    65,
+    87
+  ],
+  "description": {
+    "en": "Package of activities with which we can work the water, its cycle, how to do a good use of it and how to avoid the contamination of the rivers and the sea.",
+    "ca": "Paquet d'activitats on es treballa el cicle de l'aigua, els seus diferents usos, com utilitzar-la racionalment i com evitar la contaminació dels rius i la mar.",
+    "es": "Paquete de actividades en el que se trabaja el ciclo del agua, sus diversos usos, como utilizarla racionalmente, y como evitar la contaminación de los ríos y del mar."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/segura.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/segura.jclic.zip",
+  "instFile": "jclic/segura.jclic.inst",
+  "clicZoneId": 1090,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1090",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/segura/jclic/segura.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 16,
+  "totalSize": 800227,
+  "files": [
+    "cover.gif",
+    "jclic.js/1usos.gif",
+    "jclic.js/2usos.gif",
+    "jclic.js/a0.jpg",
+    "jclic.js/casa.gif",
+    "jclic.js/cicle2.gif",
+    "jclic.js/ciclo.gif",
+    "jclic.js/gota.jpg",
+    "jclic.js/p1.gif",
+    "jclic.js/p2.gif",
+    "jclic.js/p3.gif",
+    "jclic.js/p4.gif",
+    "jclic.js/pegatin.jpg",
+    "jclic.js/riubrut.jpg",
+    "jclic.js/riubrut2.jpg",
+    "jclic.js/riubrut3.jpg",
+    "jclic.js/segura.jclic",
+    "jclic.js/siono.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/segura.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

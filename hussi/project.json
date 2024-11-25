@@ -1,0 +1,96 @@
+{
+  "id": 2520,
+  "title": "Comandante Hussi",
+  "author": "Ana Beatriz Albino",
+  "school": "universidade Estadual do Norte do Paraná Londrina - Paraná (Brasil)",
+  "date": "21/04/17",
+  "languages": {
+    "en": "Portuguese",
+    "ca": "portuguès",
+    "es": "portugués"
+  },
+  "langCodes": [
+    "pt"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "Àfrica, didàctica de la literatura, novel·la, realisme",
+    "es": "África, didáctica de la literatura, novela, realismo",
+    "en": "Africa, Didactics of Literature, novel, realism"
+  },
+  "descCodes": [
+    450,
+    617,
+    648,
+    654
+  ],
+  "description": {
+    "en": "The purpose of these package of activities is literary literacy of 9th grade of primary school (Brazil), from the work Comandante Hussi, Jorge Araújo. There is organized from the methodology for literary reading proposed by Rildo Cosson (2014), entitled \"Sequência didática expandida\".",
+    "ca": "El propòsit d'aquesta seqüència d'activitats és l'alfabetització literària del 9è grau d'escola primària (Brasil), a partir de la obra Comandante Hussi, Jorge Araújo. S'organitza mitjançant la metodologia per a la lectura literària proposat per Rildo Cosson (2014), titulat \"Sequência didática expandida\".",
+    "es": "El propósito de esta secuencia de actividades es la alfabetización literaria del 9º grado de escuela primaria (Brasil), a partir de la obra Comandante Hussi, Jorge Araújo. Se organiza a partir de la metodología para la lectura literaria propuesto por Rildo Cosson (2014), titulado \"Sequência didática expandida\"."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/hussi.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/hussi.jclic.zip",
+  "instFile": "jclic/hussi.jclic.inst",
+  "clicZoneId": 4030,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=4030",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/hussi/jclic/hussi.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 14,
+  "totalSize": 965530,
+  "files": [
+    "cover.jpg",
+    "jclic.js/bissau_resized1.jpg",
+    "jclic.js/c__users_bia_albino_documents_mestrado_uenp_dissertacao_3_capitulo_imagens_jclic_apresentacao2_slide1_resized.jpg",
+    "jclic.js/documentario_resized.jpg",
+    "jclic.js/guinea_bissau___location.png",
+    "jclic.js/guinea_bissau_on_the_globe.png",
+    "jclic.js/guinea_bissau_on_the_globe__cape_verde_centered_.svg.png",
+    "jclic.js/hussi.jclic",
+    "jclic.js/hussi.jclic.js",
+    "jclic.js/slide1_resized1.jpg",
+    "jclic.js/slide1_resized2.jpg",
+    "jclic.js/slide2_resized1.jpg",
+    "jclic.js/slide3_resized1.jpg",
+    "jclic.js/slide4_resized1.jpg",
+    "jclic.js/slide5_resized1.jpg",
+    "jclic.js/slide6_resized1.jpg",
+    "jclic.js/slide7_resized1.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": 740,
+  "title": "Capitals de les comarques de Catalunya",
+  "author": "Joan Antón López",
+  "school": "Escola Sant Vicenç Mollet del Vallès (Vallès Oriental)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geografia, Catalunya",
+    "es": "geografía, Cataluña",
+    "en": "geography, Catalonia"
+  },
+  "descCodes": [
+    235,
+    487
+  ],
+  "description": {
+    "en": "Activities about the different capitals of the provinces in Catalunya.",
+    "ca": "Conjunt de mots encreuats i altres activitats, on es treballen les capitals de les comarques de Catalunya. Inclou un document en format Word amb els mots encreuats llestos per a imprimir.",
+    "es": "Conjunto de crucigramas y otras actividades donde se trabajan las capitales de las comarcas de Cataluña. Incluye un documento en formato Word con los crucigramas listos para imprimir."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/capcom.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/capcom.jclic.zip",
+  "instFile": "jclic/capcom.jclic.inst",
+  "clicZoneId": 1399,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1399",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/capcom/jclic/capcom.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 58,
+  "mediaFiles": 24,
+  "totalSize": 1297754,
+  "files": [
+    "cover.gif",
+    "jclic.js/adeu.gif",
+    "jclic.js/capcom.jclic",
+    "jclic.js/catal_t1.gif",
+    "jclic.js/catalu01.gif",
+    "jclic.js/catalu02.gif",
+    "jclic.js/catalu03.gif",
+    "jclic.js/catalu04.gif",
+    "jclic.js/catalu05.gif",
+    "jclic.js/catalu06.gif",
+    "jclic.js/catalu07.gif",
+    "jclic.js/catalu08.gif",
+    "jclic.js/catalu09.gif",
+    "jclic.js/catalu10.gif",
+    "jclic.js/catalu11.gif",
+    "jclic.js/catalu12.gif",
+    "jclic.js/catalu13.gif",
+    "jclic.js/catalur1.gif",
+    "jclic.js/catalur2.gif",
+    "jclic.js/catalur3.gif",
+    "jclic.js/creuat.doc",
+    "jclic.js/creuat.pdf",
+    "jclic.js/inform1.gif",
+    "jclic.js/inform2.gif",
+    "jclic.js/inform3.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/tria3.gif",
+    "jclic.js/tria_fi.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/capcom.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": 750,
+  "title": "Activitats de geografia",
+  "author": "Pau Córdoba",
+  "school": "C Escola Pia de Granollers Granollers (Vallès Oriental)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia, Catalunya, Espanya",
+    "es": "geografía, Cataluña, España",
+    "en": "geography, Catalonia, Spain"
+  },
+  "descCodes": [
+    235,
+    487,
+    499
+  ],
+  "description": {
+    "en": "Catalunya and the Iberian peninsula-Geography. Divided into five sections: \n<ul><li>Parts of a map </li>\n<li>Catalunya's borders </li>\n<li>Landscape in Catalunya </li>\n<li>Borders of the peninsula </li>\n<li>Landscape of the peninsula </li></ul>",
+    "ca": "Conjunt de cinc paquets d'activitats sobre geografia física de Catalunya i de la península Ibèrica: \n<ul> \n <li>Parts d'un mapa </li>\n <li>Límits de Catalunya </li>\n <li>Relleu de Catalunya </li>\n <li>Límits de la península </li>\n <li>Relleu de la península </li>\n</ul>",
+    "es": "Conjunto de cinco paquetes de actividades sobre geografía física de Cataluña y de la península Ibérica: \n<ul> \n <li>Partes de un mapa </li>\n <li>Límites de Cataluña </li>\n <li>Relieve de Cataluña </li>\n <li>Límites de la península </li>\n <li>Relieve de la península </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/geo.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/geo.jclic.zip",
+  "instFile": "jclic/geo.jclic.inst",
+  "clicZoneId": 1407,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1407",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/geo/jclic/geo.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 40,
+  "mediaFiles": 20,
+  "totalSize": 407942,
+  "files": [
+    "cover.gif",
+    "jclic.js/catafi_1.gif",
+    "jclic.js/catafi_2.gif",
+    "jclic.js/catafi_3.gif",
+    "jclic.js/catafi_4.gif",
+    "jclic.js/catafi_5.gif",
+    "jclic.js/catafi_6.gif",
+    "jclic.js/catafi_7.gif",
+    "jclic.js/catafis4.gif",
+    "jclic.js/catalimt.gif",
+    "jclic.js/catapics.gif",
+    "jclic.js/catapuz.gif",
+    "jclic.js/catrenom.gif",
+    "jclic.js/cfis1.gif",
+    "jclic.js/espafis2.gif",
+    "jclic.js/espafis3.gif",
+    "jclic.js/esppol1.gif",
+    "jclic.js/esppol2.gif",
+    "jclic.js/esppol3.gif",
+    "jclic.js/geo.jclic",
+    "jclic.js/partmap.gif",
+    "jclic.js/portada.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/geo.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

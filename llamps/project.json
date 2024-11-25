@@ -1,0 +1,99 @@
+{
+  "id": 1197,
+  "title": "Temps de temps: Llamp de rellamp",
+  "author": "Joan A. Solano Querol",
+  "school": "Escola Cèsar August Tarragona",
+  "date": "30/11/04",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de les ciències naturals, meteorologia",
+    "es": "aprendizaje de las ciencias naturales, meteorología",
+    "en": "learning of natural sciences, meteorology"
+  },
+  "descCodes": [
+    53,
+    89
+  ],
+  "description": {
+    "en": "The fifth package of the series is centred in the storms. The focus is in electrical phenomena that occur during a storm: thunders and flashes of lighting. We discover many curious aspects like how the flashes of lighting happen, what kind of consequences can occur, how we can protect ourselves and how far the storm is from us. The last activities are about hailstorms. It's also shown how the hailstorms occur and many other curious information.\n<br> In these pages you will find the other parts of the serie: \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=1096\">L'atmosfera</a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=2022\">Observem i mesurem</a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=2860\">La previsió meteorològica</a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=2460\">A bots i barrals</a> and \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=3216\">Vents i ventots</a>.",
+    "ca": "El cinquè paquet de la sèrie se centra en les tempestes. No en les precipitacions aquoses, que han estat tractades al quart paquet, sinó en els fenòmens elèctrics: els llampecs i la seva conseqüència sonora els trons. Descobrim com es generen els llampecs, com són, què diferencia llamps de llampecs, quines conseqüències poden tenir, com podem protegir-nos dels seus efectes, perquè sempre van acompanyats del tro, com podem calcular la distància a la que es troba una tempesta i tot un seguit de fets curiosos que poden fer mes agradós el tema. Les darreres activitat ens parlen de la pedra o calamarsa, un altre fenomen tempestuós. També en aquests cas descobrim l'origen del fenomen i tot un reguitzell de dades curioses.\n<br> En aquestes pàgines es troben les altres parts de la sèrie temps de temps: \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=1096\">L'atmosfera</a>, \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=2022\">Observem i mesurem</a>, \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=2860\">La previsió meteorològica</a>, \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=2460\">A bots i barrals</a> i \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=3216\">Vents i ventots</a>.",
+    "es": "El quinto paquete de la serie se centra en las tormentas. No en las precipitaciones acuosas, que han sido tratadas en el cuarto paquete, sino en los fenómenos eléctricos: los relámpagos y su consecuencia sonora, los truenos. Descubrimos como se generan los relámpagos, como son, que diferencia los rayos de los relámpagos, que consecuencias pueden tener, como pueden protegernos de sus efectos, porqué siempre van acompañados de un trueno, como podemos calcular la distancia a la que se encuentra una tormenta y muchos más hechos curiosos. Las últimas actividades nos hablan de la piedra y el granizo, otro fenómeno tempestuoso. También en este caso descubrimos el origen del fenómeno y muchos datos curiosos.\n<br> \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=1096\">L'atmosfera</a>, \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=2022\">Observem i mesurem</a>, \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=2860\">La previsió meteorològica</a>, \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=2460\">A bots i barrals</a> y \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=3216\">Vents i ventots</a>."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/llamps.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/llamps.jclic.zip",
+  "instFile": "jclic/llamps.jclic.inst",
+  "clicZoneId": 2861,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2861",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/llamps/jclic/llamps.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 26,
+  "mediaFiles": 19,
+  "totalSize": 2004800,
+  "files": [
+    "cover.gif",
+    "jclic.js/00.gif",
+    "jclic.js/09.gif",
+    "jclic.js/boto.gif",
+    "jclic.js/hail_eff.gif",
+    "jclic.js/hail_esq.gif",
+    "jclic.js/jupstorm.gif",
+    "jclic.js/llamp12.avi",
+    "jclic.js/llamp3.avi",
+    "jclic.js/llamp4.avi",
+    "jclic.js/llamp6.avi",
+    "jclic.js/llamps.jclic",
+    "jclic.js/llarg.gif",
+    "jclic.js/nuv_temp.gif",
+    "jclic.js/pec1.gif",
+    "jclic.js/pec2.gif",
+    "jclic.js/pec3.gif",
+    "jclic.js/pedrgran.gif",
+    "jclic.js/saftpos.gif",
+    "jclic.js/vellet.gif",
+    "jclic.js/zeus.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/llamps.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

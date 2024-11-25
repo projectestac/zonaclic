@@ -1,0 +1,129 @@
+{
+  "id": 1728,
+  "title": "Llums de Nadal",
+  "author": "Dina Abizanda",
+  "date": "14/12/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "nadal",
+    "es": "navidad",
+    "en": "christmas"
+  },
+  "descCodes": [
+    882
+  ],
+  "description": {
+    "en": "Across several activities, the children are switching on the Christmas lights which decorate the streets in Christmas.\n<p> The project is addressed to infantile education and primary school. </p>",
+    "ca": "A través de diferents activitats, els nens i nenes van encenent els llums que guarneixen els carrers per les festes de Nadal.\n<p> El projecte està adreçat a alumnes d'educació infantil i cicle inicial de primària. </p>",
+    "es": "A través de diferentes actividades, los niños y niñas van encendiendo las luces que adornan las calles por las fiestas de Navidad. \n<p> El proyecto está dirigido a alumnos de educación infantil y ciclo inicial de primaria. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "luces"
+  ],
+  "mainFile": "jclic.js/llums.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/llums.jclic.zip",
+  "instFile": "jclic/llums.jclic.inst",
+  "clicZoneId": 3433,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3433",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/llums/jclic/llums.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 47,
+  "totalSize": 4162553,
+  "files": [
+    "cover.jpg",
+    "jclic.js/01_abetlem_i.mp3",
+    "jclic.js/02_alladalt_i.mp3",
+    "jclic.js/03_el25_i.mp3",
+    "jclic.js/04_eldesembre_i.mp3",
+    "jclic.js/06_elnoi_i.mp3",
+    "jclic.js/08_elrabada_i.mp3",
+    "jclic.js/09_eltrineu_i.mp3",
+    "jclic.js/10_langel_i.mp3",
+    "jclic.js/11_lesbesties_i.mp3",
+    "jclic.js/12_lesdotze_i.mp3",
+    "jclic.js/13_santanit_i.mp3",
+    "jclic.js/1_1.png",
+    "jclic.js/1_2.png",
+    "jclic.js/blnc.png",
+    "jclic.js/blocs.png",
+    "jclic.js/blocs.xml",
+    "jclic.js/bola_bn.jpg",
+    "jclic.js/bola_c.jpg",
+    "jclic.js/boles_c.jpg",
+    "jclic.js/boles_n2.jpg",
+    "jclic.js/colom.png",
+    "jclic.js/coloms.jpg",
+    "jclic.js/coloms2.jpg",
+    "jclic.js/cors_i_estrelles.jpg",
+    "jclic.js/espelma1.jpg",
+    "jclic.js/espelma1_g.jpg",
+    "jclic.js/espelma_p2.png",
+    "jclic.js/estel.jpg",
+    "jclic.js/estel_c.jpg",
+    "jclic.js/estrella.png",
+    "jclic.js/estrella_p.png",
+    "jclic.js/estrelles_c.jpg",
+    "jclic.js/estrelles_n.jpg",
+    "jclic.js/estrelleta.png",
+    "jclic.js/flor.png",
+    "jclic.js/foto1_bn.jpg",
+    "jclic.js/foto1_c.jpg",
+    "jclic.js/fulla.png",
+    "jclic.js/groc.png",
+    "jclic.js/lila.png",
+    "jclic.js/llums.jclic",
+    "jclic.js/molins1.jpg",
+    "jclic.js/molins1_c.jpg",
+    "jclic.js/paracaigudes_bn.jpg",
+    "jclic.js/paracaigudes_c.jpg",
+    "jclic.js/portada.png",
+    "jclic.js/verd.png",
+    "jclic.js/vermell.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/llums.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

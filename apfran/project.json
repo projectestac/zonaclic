@@ -1,0 +1,122 @@
+{
+  "id": 372,
+  "title": "Aprendamos francés",
+  "author": "Elena Ramirez",
+  "school": "IES Rey Don García Nájera (La Rioja)",
+  "date": "19/07/02",
+  "languages": {
+    "en": "French",
+    "ca": "francès",
+    "es": "francés"
+  },
+  "langCodes": [
+    "fr"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua francesa",
+    "es": "lengua francesa",
+    "en": "French language"
+  },
+  "descCodes": [
+    669
+  ],
+  "description": {
+    "en": "French language activities that work on the colours, the times of the day and the numbers. Designed for high-school students.",
+    "ca": "Paquet d'activitats Clic de llengua estrangera - Francès. En el paquet es treballen els colors, les hores i els nombres. Les activitats inclouen associacions gràfiques, omplir texts, sopes de lletres i mots encreuats. Van adreçades a alumnes de 2on o 3er d'ESO.",
+    "es": "Paquete de actividades de Clic sobre lengua extranjera - Francés. En este paquete se tratan los temas de los colores, las horas y los números. Las actividades son variadas e incluyen asociaciones gráficas, rellenar textos, crucigramas, etc. Las actividades están destinadas a alumnos de 2º o 3º de ESO."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/apfran.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/apfran.jclic.zip",
+  "instFile": "jclic/apfran.jclic.inst",
+  "clicZoneId": 1211,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1211",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/apfran/jclic/apfran.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 43,
+  "totalSize": 1764311,
+  "files": [
+    "cover.gif",
+    "jclic.js/amaril3.gif",
+    "jclic.js/amarillo.gif",
+    "jclic.js/apfran.jclic",
+    "jclic.js/azulclaro.gif",
+    "jclic.js/azulosc.gif",
+    "jclic.js/azulosc3.gif",
+    "jclic.js/bandera.gif",
+    "jclic.js/blanco.gif",
+    "jclic.js/burbujas.gif",
+    "jclic.js/calcu.gif",
+    "jclic.js/clics.gif",
+    "jclic.js/dibujo2.gif",
+    "jclic.js/dibujo3.gif",
+    "jclic.js/fin.wav",
+    "jclic.js/gris.gif",
+    "jclic.js/gris2.gif",
+    "jclic.js/hora.wav",
+    "jclic.js/horas.wav",
+    "jclic.js/invierno.gif",
+    "jclic.js/marron.gif",
+    "jclic.js/marron3.gif",
+    "jclic.js/naranja.gif",
+    "jclic.js/naranja2.gif",
+    "jclic.js/negro.gif",
+    "jclic.js/negro2.gif",
+    "jclic.js/oto_o.gif",
+    "jclic.js/primaver.gif",
+    "jclic.js/reloj1.gif",
+    "jclic.js/reloj2.gif",
+    "jclic.js/reloj3.gif",
+    "jclic.js/reloj4.gif",
+    "jclic.js/relojsn.gif",
+    "jclic.js/rojo.gif",
+    "jclic.js/rojo2.gif",
+    "jclic.js/rojo3.gif",
+    "jclic.js/rosa.gif",
+    "jclic.js/sonido1.wav",
+    "jclic.js/sonido2.wav",
+    "jclic.js/verano.gif",
+    "jclic.js/verde.gif",
+    "jclic.js/verde3.gif",
+    "jclic.js/violeta.gif",
+    "jclic.js/violeta2.gif",
+    "jclic.js/violeta3.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/apfran.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

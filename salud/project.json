@@ -1,0 +1,122 @@
+{
+  "id": 1429,
+  "title": "Mi salud, mi cuerpo y la educación física",
+  "author": "Ramón Cruz del Moral",
+  "school": "CEIP Real Mentesa La Guardia de Jaén (Andalucía)",
+  "date": "19/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "salut",
+    "es": "salud",
+    "en": "health"
+  },
+  "descCodes": [
+    101
+  ],
+  "description": {
+    "en": "Project with 25 activities to relate the new technologies to the physical education with activities about the human anatomy, the cardiorespiratory system function and health care recommendations using the physical activity.",
+    "ca": "Projecte amb 25 activitats que es proposa com una eina per relacionar les NNTT amb la educació física. Amb propostes d'anatomia del cos humà, funcionament dels sistemes càrdiorespiratoris, comportaments a les classes pràctiques d'educació física i actituds per tenir cura de la salut utilitzant l'activitat física.",
+    "es": "Proyecto con 25 actividades que se propone como una herramienta para relacionar las NNTT con la educación física. Con propuestas de anatomía del cuerpo humano, funcionamiento de los sistemas cardio-respiratorios, comportamientos en clases prácticas de educación física y actitudes para cuidar la salud utilizando la actividad física."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/salud.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/salud.jclic.zip",
+  "instFile": "jclic/salud.jclic.inst",
+  "clicZoneId": 3162,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3162",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/salud/jclic/salud.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 43,
+  "totalSize": 1585786,
+  "files": [
+    "cover.jpg",
+    "jclic.js/abdo.wav",
+    "jclic.js/bien.wav",
+    "jclic.js/boton.gif",
+    "jclic.js/campeon.wav",
+    "jclic.js/cereales.gif",
+    "jclic.js/cua.wav",
+    "jclic.js/cubito.wav",
+    "jclic.js/dor.wav",
+    "jclic.js/esque.gif",
+    "jclic.js/esque1.gif",
+    "jclic.js/esque2.gif",
+    "jclic.js/femur.wav",
+    "jclic.js/fondo.gif",
+    "jclic.js/fondo2.gif",
+    "jclic.js/fruta.gif",
+    "jclic.js/fx3.wav",
+    "jclic.js/ge.wav",
+    "jclic.js/glu.wav",
+    "jclic.js/humero.wav",
+    "jclic.js/inicio.gif",
+    "jclic.js/leche.gif",
+    "jclic.js/muespa3.gif",
+    "jclic.js/mufre.gif",
+    "jclic.js/musdel1.gif",
+    "jclic.js/musespa1.gif",
+    "jclic.js/musespa2.gif",
+    "jclic.js/musespa4.gif",
+    "jclic.js/musff.gif",
+    "jclic.js/musfren.gif",
+    "jclic.js/musica.mp3",
+    "jclic.js/pastel.gif",
+    "jclic.js/pastel1.gif",
+    "jclic.js/pastel2.gif",
+    "jclic.js/pect.wav",
+    "jclic.js/peter.gif",
+    "jclic.js/piramide.gif",
+    "jclic.js/respir.gif",
+    "jclic.js/salsa.gif",
+    "jclic.js/salud.jclic",
+    "jclic.js/ser1.wav",
+    "jclic.js/siscir.gif",
+    "jclic.js/tibia.wav",
+    "jclic.js/tibia1.wav",
+    "jclic.js/zumo.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/salud.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

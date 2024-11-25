@@ -1,0 +1,117 @@
+{
+  "id": 2066,
+  "title": "Els gegants de Balaguer",
+  "author": "Maria Torres Español",
+  "school": "Escola Gaspar de Portolà Balaguer (Noguera)",
+  "date": "21/07/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences, Languages, Mathematics",
+    "ca": "Ciències socials, Llengües, Matemàtiques",
+    "es": "Ciencias sociales, Lenguas, Matemáticas"
+  },
+  "areaCodes": [
+    "soc",
+    "lleng",
+    "mat"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "cultura popular",
+    "es": "cultura popular",
+    "en": "popular culture"
+  },
+  "descCodes": [
+    196
+  ],
+  "description": {
+    "en": "Project of activities to do with children in kindergarten and primary education, from the annual festival of the town. \n<p> Throughout the project we find games, associations, puzzles and other activities to meet the giants of Balaguer (Lleida). </p>",
+    "ca": "Projecte d'activitats per fer amb els nens i nenes d'educació infantil i primer cicle d'educació primària, a partir de la Festa Major del poble.\n<p> Al llarg del projecte trobem jocs, associacions, trencaclosques i altres activitats per conèixer els nostres gegants de Balaguer (Lleida). </p>",
+    "es": "Proyecto de actividades para hacer con los niños y niñas de educación infantil y primer ciclo de educación primaria, a partir de la Fiesta Mayor del pueblo.\n<p> A lo largo del proyecto encontramos juegos, asociaciones, rompecabezas y otras actividades para conocer los gigantes de Balaguer (Lleida). </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/gegants2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/gegants2.jclic.zip",
+  "instFile": "jclic/gegants2.jclic.inst",
+  "clicZoneId": 3632,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3632",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/gegants2/jclic/gegants2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 31,
+  "mediaFiles": 35,
+  "totalSize": 6486714,
+  "files": [
+    "cover.jpg",
+    "jclic.js/arribaba.wav",
+    "jclic.js/arsenda.jpg",
+    "jclic.js/arsenda_retall.jpg",
+    "jclic.js/balaguer_i_gegants_0001.jpg",
+    "jclic.js/bepeta.jpg",
+    "jclic.js/bepeta_retall.jpg",
+    "jclic.js/c__documents_and_settings_usuari_escritorio_gegants_fotos_fotos_petites_sereno.jpg",
+    "jclic.js/canti_del_tonet_resized.jpg",
+    "jclic.js/comtessa.jpg",
+    "jclic.js/comtessa_retall_2.jpg",
+    "jclic.js/conillet_bepeta_resized.jpg",
+    "jclic.js/elpageset.jpg",
+    "jclic.js/elpageset_retall.jpg",
+    "jclic.js/flors_pageseta_resized.jpg",
+    "jclic.js/gegants2.jclic",
+    "jclic.js/gegants_ajuntament_resized1.jpg",
+    "jclic.js/gegordba.wav",
+    "jclic.js/jaumeprimer.jpg",
+    "jclic.js/jaumeprimer_retall.jpg",
+    "jclic.js/lapageseta.jpg",
+    "jclic.js/lapageseta_retall.jpg",
+    "jclic.js/matinaba.wav",
+    "jclic.js/mocador_arsenda_resized.jpg",
+    "jclic.js/motxila_resized.jpg",
+    "jclic.js/nens.gif",
+    "jclic.js/nina_de_drap_2.jpg",
+    "jclic.js/paraigua_blau.jpg",
+    "jclic.js/placa_gegants_resized.jpg",
+    "jclic.js/procesba.wav",
+    "jclic.js/reina_resized.jpg",
+    "jclic.js/sereno.jpg",
+    "jclic.js/sereno_retall.jpg",
+    "jclic.js/tonet.jpg",
+    "jclic.js/tonet_retall.jpg",
+    "jclic.js/yusuf.jpg",
+    "jclic.js/yusuf_retall.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/gegants2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

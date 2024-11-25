@@ -1,0 +1,139 @@
+{
+  "id": 850,
+  "title": "Ciutat - Poble",
+  "author": "Mariano Franco Morán",
+  "school": "C L'Alba Barcelona",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "urbanisme",
+    "es": "urbanismo",
+    "en": "urbanism"
+  },
+  "descCodes": [
+    359
+  ],
+  "description": {
+    "en": "Clic activities on the differences between the town and the city in Catalonia.",
+    "ca": "Paquet de 24 activitats relacionades amb l¿àrea de Coneixement del Medi Social. Les activitats estan ordenades de manera progressiva, així ens trobem activitats on l¿alumne només rep una informació, d¿altres on ha d¿associar imatge-imatge, imatge-paraula, fins haver d¿escriure alguna paraula, o localitzar-la en una sopa de lletres.\n<br> Les activitats, atenent al seu contingut, podrien classificar-se en: \n<ul> \n <li>Diferències i semblances entre el poble i la ciutat. </li>\n <li>Serveis de la comunitat. </li>\n <li>Geografia de Catalunya. </li>\n</ul> Les imatges utilitzades corresponen a fotografies de ciutat i pobles, fetes per l¿autor; evitant imatges i dibuixos que donin un caire molt infantil a l¿activitat, donat que serà realitzada per alumnes adolescents d¿Educació Especial. \n<br> El nivell educatiu dels alumnes a qui va adreçat correspondria a 2on. o 3er. curs d¿Educació Primària, i alumnes d¿Educació Especial.",
+    "es": "Paquete de 24 actividades relacionadas con el área de Conocimiento el Medio Social. Las actividades están ordenadas de manera progresiva, así nos encontramos actividades donde el alumno sólo recibe una información, otras donde hay que asociar imágenes, imagen-palabra, hasta llegar a escribir una palabra o localizarla en una sopa de letras.\n<br> Las actividades, ateniendo a su contenido, podrían clasificarse en: \n<ul> \n <li>Diferencias y semejanzas entre el pueblo y la ciudad. </li>\n <li>Servicios de la comunidad. </li>\n <li>Geografía de Cataluña. </li>\n</ul> Las imágenes utilizadas corresponden a fotografías de ciudades y pueblos hechas por el autor, se evitan imágenes y dibujos infantiles dado que la actividad será utilizada por alumnos adolescentes de Educación Especial. \n<br> El nivel educativo de los alumnos a que va destinada es a 2º o 3º de Educación Primaria y a alumnos de Educación Especial."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "ciudpueb"
+  ],
+  "mainFile": "jclic.js/ciutpobl.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ciutpobl.jclic.zip",
+  "instFile": "jclic/ciutpobl.jclic.inst",
+  "clicZoneId": 1480,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1480",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ciutpobl/jclic/ciutpobl.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 57,
+  "totalSize": 734345,
+  "files": [
+    "cover.jpg",
+    "jclic.js/biblio.jpg",
+    "jclic.js/bus.jpg",
+    "jclic.js/bus1.jpg",
+    "jclic.js/bus3.jpg",
+    "jclic.js/bus3a.jpg",
+    "jclic.js/buzon1.jpg",
+    "jclic.js/cicarre1.jpg",
+    "jclic.js/cicarre2.jpg",
+    "jclic.js/cicarre4.jpg",
+    "jclic.js/cicasas1.jpg",
+    "jclic.js/cicasas2.jpg",
+    "jclic.js/cicasas3.jpg",
+    "jclic.js/cimetro1.jpg",
+    "jclic.js/citaxi1.jpg",
+    "jclic.js/citaxi3.jpg",
+    "jclic.js/citaxi3a.jpg",
+    "jclic.js/citelef1.jpg",
+    "jclic.js/ciutpobl.jclic",
+    "jclic.js/contenv2.jpg",
+    "jclic.js/contorg1.jpg",
+    "jclic.js/contpa2.jpg",
+    "jclic.js/contvid2.jpg",
+    "jclic.js/cotxe1.jpg",
+    "jclic.js/escomb1.jpg",
+    "jclic.js/mapaesp1.gif",
+    "jclic.js/mapcat2.gif",
+    "jclic.js/mercat.jpg",
+    "jclic.js/metro1.jpg",
+    "jclic.js/moto1.jpg",
+    "jclic.js/neteja3.jpg",
+    "jclic.js/paper1.jpg",
+    "jclic.js/papere1.jpg",
+    "jclic.js/pasvia1.jpg",
+    "jclic.js/plano1.gif",
+    "jclic.js/plast1.jpg",
+    "jclic.js/poble2.jpg",
+    "jclic.js/poble5.jpg",
+    "jclic.js/poble6.jpg",
+    "jclic.js/poble7.jpg",
+    "jclic.js/poble8.jpg",
+    "jclic.js/pobrod1.jpg",
+    "jclic.js/pobrod10.jpg",
+    "jclic.js/pobrod5.jpg",
+    "jclic.js/pobrod6.jpg",
+    "jclic.js/pobrod9.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/rascaci1.jpg",
+    "jclic.js/rascaci2.jpg",
+    "jclic.js/semaf1.jpg",
+    "jclic.js/senygos1.gif",
+    "jclic.js/senygos2.gif",
+    "jclic.js/senygos3.gif",
+    "jclic.js/senyper1.gif",
+    "jclic.js/senyper2.gif",
+    "jclic.js/senyper3.gif",
+    "jclic.js/simbol1.gif",
+    "jclic.js/vidre1.gif",
+    "jclic.js/vorera1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ciutpobl.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": 2188,
+  "title": "El món dels contes",
+  "author": "Montse López Calvo",
+  "school": "Escola Guilleries Sant Hilari Sacalm (Selva)",
+  "date": "14/10/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, lectura, conte, comprensió lectora",
+    "es": "aprendizaje de la lengua, lectura, cuento, comprensión lectora",
+    "en": "learning of the language, reading, story, reading comprehension"
+  },
+  "descCodes": [
+    110,
+    125,
+    614,
+    1329
+  ],
+  "description": {
+    "en": "Series of activities addressed to children who start reading by understanding. This JClic is an activity that is included in an annual program of P5 with activities about: \n<ul> \n <li>Traditional tales </li>\n <li>Story characters </li>\n <li>Reading and comprehension </li>\n</ul>",
+    "ca": "Sèrie d'activitats per els nens i nenes que s'inicien en la lectura tot incidint en l'aspecte comprensiu d'aquesta. Aquest JClic és una activitat inclosa dins d'una programació anual de p5 on a partir dels contes es treballen totes les àrees del currículum. \n<ul> \n <li>Contes tradicionals </li>\n <li>Personatges dels contes </li>\n <li>Lectura i comprensió de textos </li>\n</ul>",
+    "es": "Serie de actividades para niños y niñas que se inician en la lectura haciendo hincapié en el aspecto comprensivo de la misma. Este JClic es una actividad que está incluida dentro de una programación anual de P5 donde a partir de cuentos se trabajan todas las áreas del currículum. \n<ul> \n <li>Cuentos tradicionales </li>\n <li>Personajes de cuentos </li>\n <li>Lectura y comprensión de textos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cont_lec.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cont_lec.jclic.zip",
+  "instFile": "jclic/cont_lec.jclic.inst",
+  "clicZoneId": 3723,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3723",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cont_lec/jclic/cont_lec.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 21,
+  "totalSize": 810053,
+  "files": [
+    "cover.gif",
+    "jclic.js/3_porquetsi.jpg",
+    "jclic.js/ane.gif",
+    "jclic.js/animales_cerdos_cerdo_55.gif",
+    "jclic.js/animales_patos_pato_43.gif",
+    "jclic.js/animales_perros_perro_07.gif",
+    "jclic.js/blancaneus_i_els_set_nans.mp3",
+    "jclic.js/blancanieves.jpg",
+    "jclic.js/cabretes_petites_resized.jpg",
+    "jclic.js/caperucita_roja.jpg",
+    "jclic.js/cartoonbrows_top.gif",
+    "jclic.js/cat.gif",
+    "jclic.js/cont_lec.jclic",
+    "jclic.js/contes.jpg",
+    "jclic.js/els_tres_porquets.mp3",
+    "jclic.js/galo.gif",
+    "jclic.js/l_aneguet_lleig.mp3",
+    "jclic.js/la_caputxeta_vermella.mp3",
+    "jclic.js/la_rateta_que_escombrava_l_escaleta.mp3",
+    "jclic.js/la_ratita_presumida.jpg",
+    "jclic.js/les_set_cabretes_i_el_llop.mp3",
+    "jclic.js/logo_c_1.jpg",
+    "jclic.js/patito_feo.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cont_lec.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

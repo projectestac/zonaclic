@@ -1,0 +1,116 @@
+{
+  "id": 1381,
+  "title": "Cada cosa al seu lloc",
+  "author": "Rosa M. Obradors Puigdellívol",
+  "school": "Escola Mare de Déu de Montserrat Súria (Bages)",
+  "date": "10/06/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "ecologia, reciclar",
+    "es": "ecología, reciclar",
+    "en": "ecology, to recycle"
+  },
+  "descCodes": [
+    65,
+    1300
+  ],
+  "description": {
+    "en": "The leading role of these activities is a turtle named \"Closcaneta\", who is the mascot of an environment campaign.",
+    "ca": "Activitats relacionades amb la recollida selectiva. Tenen com a protagonista la tortuga Closcaneta, mascota de la campanya Medi Ambiental de Súria.",
+    "es": "Actividades relacionadas con la recogida selectiva. Tienen como protagonista la tortuga Closcaneta, mascota de la campaña Medio Ambiental de Súria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cadacosa.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cadacosa.jclic.zip",
+  "instFile": "jclic/cadacosa.jclic.inst",
+  "clicZoneId": 3120,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3120",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cadacosa/jclic/cadacosa.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 35,
+  "totalSize": 1239658,
+  "files": [
+    "cover.gif",
+    "jclic.js/autor2.gif",
+    "jclic.js/blaup.gif",
+    "jclic.js/blaurp.gif",
+    "jclic.js/cadacosa.gif",
+    "jclic.js/cadacosa.jclic",
+    "jclic.js/caripap.gif",
+    "jclic.js/clconpa.gif",
+    "jclic.js/clconpa2.gif",
+    "jclic.js/clocoll2.gif",
+    "jclic.js/cloconb2.gif",
+    "jclic.js/cloconbr.gif",
+    "jclic.js/cloconll.gif",
+    "jclic.js/cloconv.gif",
+    "jclic.js/cloconv2.gif",
+    "jclic.js/clocopi.gif",
+    "jclic.js/clocopi2.gif",
+    "jclic.js/closcam.gif",
+    "jclic.js/closcap.gif",
+    "jclic.js/closcape.gif",
+    "jclic.js/closcapo.gif",
+    "jclic.js/corganic.gif",
+    "jclic.js/corganip.gif",
+    "jclic.js/grocp.gif",
+    "jclic.js/grocrp.gif",
+    "jclic.js/marrop.gif",
+    "jclic.js/marrorp.gif",
+    "jclic.js/mbcg.gif",
+    "jclic.js/organic.gif",
+    "jclic.js/pclicadc.gif",
+    "jclic.js/plasilla.gif",
+    "jclic.js/rebuig.gif",
+    "jclic.js/verdfp.gif",
+    "jclic.js/verdfrp.gif",
+    "jclic.js/verdp.gif",
+    "jclic.js/verdrp.gif",
+    "jclic.js/vidres.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cadacosa.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": 141,
+  "title": "Os materiais",
+  "author": "Teresa Pérez Fracés",
+  "school": "CP Juan Ramón Jiménez Sant Vicent del Raspeig (Alacantí)",
+  "date": "10/11/03",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "química, recurs natural",
+    "es": "química, recurso natural",
+    "en": "chemistry, natural resource"
+  },
+  "descCodes": [
+    97,
+    98
+  ],
+  "description": {
+    "en": "Activities about knowledge of the environment which include:\n<br> \n<li>Natural and artificial materials </li>\n<li>Origin of materials </li>\n<li>Their properties </li>\n<li>Use according to their properties </li>\n<li>By-products </li>",
+    "ca": "Activitats de coneixement del medi per al segon cicle de primària on es treballen: \n<ul> \n <li>Els materials naturals i artificials. </li>\n <li>L'origen dels materials. </li>\n <li>Les seves propietats. </li>\n <li>L'ús segons les propietats. </li>\n <li>Els productes que s'elaboren amb cada material. </li>\n</ul>",
+    "es": "Actividades de Conocimiento del medio para el segundo ciclo de Primaria en las que se trabajan: \n<ul> \n <li>Los materiales naturales y artificiales. </li>\n <li>El origen de los materiales. </li>\n <li>Sus propiedades. </li>\n <li>Su utilización según sus propiedades. </li>\n <li>Los productos que se elaboran con ellos. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "material",
+    "zerezkoa"
+  ],
+  "mainFile": "jclic.js/matergal.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/matergal.jclic.zip",
+  "instFile": "jclic/matergal.jclic.inst",
+  "clicZoneId": 1067,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1067",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/matergal/jclic/matergal.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 36,
+  "totalSize": 665379,
+  "files": [
+    "cover.gif",
+    "jclic.js/acer.bmp",
+    "jclic.js/acer.gif",
+    "jclic.js/aplauso.wav",
+    "jclic.js/argila.gif",
+    "jclic.js/avion.gif",
+    "jclic.js/balos.gif",
+    "jclic.js/bolsa.gif",
+    "jclic.js/botas.gif",
+    "jclic.js/botella.gif",
+    "jclic.js/cable.gif",
+    "jclic.js/caja.gif",
+    "jclic.js/caja2.gif",
+    "jclic.js/calor.bmp",
+    "jclic.js/carto.gif",
+    "jclic.js/cautxu.gif",
+    "jclic.js/coto.gif",
+    "jclic.js/cuir.gif",
+    "jclic.js/desped.gif",
+    "jclic.js/duresa.bmp",
+    "jclic.js/elas.bmp",
+    "jclic.js/elec.bmp",
+    "jclic.js/frasco.gif",
+    "jclic.js/fusta.gif",
+    "jclic.js/goma.gif",
+    "jclic.js/jarron.gif",
+    "jclic.js/lata.gif",
+    "jclic.js/matergal.jclic",
+    "jclic.js/moltbe.wav",
+    "jclic.js/musi1.mid",
+    "jclic.js/nilo.gif",
+    "jclic.js/paper.gif",
+    "jclic.js/plastic.gif",
+    "jclic.js/portada1.gif",
+    "jclic.js/pu1.gif",
+    "jclic.js/pu2.gif",
+    "jclic.js/seda.gif",
+    "jclic.js/tijeras.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/matergal.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

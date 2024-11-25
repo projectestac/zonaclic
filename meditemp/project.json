@@ -1,0 +1,111 @@
+{
+  "id": 1632,
+  "title": "Medir el tiempo",
+  "author": "Benito García Peinado",
+  "school": "C.P.PR Pablo de Olavide Prado del Rey - Cádiz (Andalucía)",
+  "date": "14/12/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "temps",
+    "es": "tiempo",
+    "en": "time"
+  },
+  "descCodes": [
+    1368
+  ],
+  "description": {
+    "en": "Set of activities about the measurement of the time addressed to primary school. The activities are based in a book of SM publishing house.",
+    "ca": "Conjunt d'activitats relacionades amb el tema de la mesura del temps. El projecte està creat per fer servir a cinquè d'educació primària i està basat en el llibre d'activitats de \n<i> SM. Proyecto: Planeta Amigo</i>.",
+    "es": "Conjunto de actividades relacionadas con el tema de la medida del tiempo. El proyecto está creado para ser utilizado en quinto de educación primaria y está basado en el libro de actividades \n<i> SM. Proyecto: Planeta Amigo</i>."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/meditemp.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/meditemp.jclic.zip",
+  "instFile": "jclic/meditemp.jclic.inst",
+  "clicZoneId": 3340,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3340",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/meditemp/jclic/meditemp.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 36,
+  "mediaFiles": 32,
+  "totalSize": 1935548,
+  "files": [
+    "cover.gif",
+    "jclic.js/2.jpg",
+    "jclic.js/350px_roman_empire_map.png",
+    "jclic.js/37.gif",
+    "jclic.js/450px_peru_machu_picchu_sunset.jpg",
+    "jclic.js/abuelo.jpg",
+    "jclic.js/alfabet_fen1.jpg",
+    "jclic.js/arte_romana_the_poetess_2400167.jpg",
+    "jclic.js/astronautaluna.jpg",
+    "jclic.js/ca82.jpg",
+    "jclic.js/class.jpg",
+    "jclic.js/creditos.jpg",
+    "jclic.js/cronometro.jpg",
+    "jclic.js/g_museo09.jpg",
+    "jclic.js/h13476_m.jpg",
+    "jclic.js/hora.gif",
+    "jclic.js/image01.jpg",
+    "jclic.js/image02.jpg",
+    "jclic.js/invierno_03.jpg",
+    "jclic.js/jclic_logo.gif",
+    "jclic.js/llama.jpg",
+    "jclic.js/logo_portada01.gif",
+    "jclic.js/marcagrp.gif",
+    "jclic.js/meditemp.jclic",
+    "jclic.js/nadar.jpg",
+    "jclic.js/otono.jpg",
+    "jclic.js/papiro.gif",
+    "jclic.js/pclock.jpg",
+    "jclic.js/quijote.jpg",
+    "jclic.js/reloj.jpg",
+    "jclic.js/rosas.jpg",
+    "jclic.js/senior.jpg",
+    "jclic.js/tn0074.jpg",
+    "jclic.js/tutmask.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/meditemp.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

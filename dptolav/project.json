@@ -1,0 +1,102 @@
+{
+  "id": 2370,
+  "title": "Lavalleja, paraíso serrano",
+  "author": "María del Verdún Santos Garandán",
+  "date": "26/02/15",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de les ciències socials, ciutat, societat",
+    "es": "aprendizaje de las ciencias sociales, ciudad, sociedad",
+    "en": "learning of social sciences, city, society"
+  },
+  "descCodes": [
+    161,
+    176,
+    344
+  ],
+  "description": {
+    "en": "Project of activities about the geography and the history of Lavalleja (Uruguay): \n<ul> \n <li>Situation </li>\n <li>Map </li>\n <li>Economy </li>\n <li>Important people </li>\n <li>... </li>\n</ul>",
+    "ca": "Projecte d'activitats de ciències socials adreçat a tercer curs d'educació primària sobre la història i la geografia del departament de Lavalleja (Uruguai): \n<ul> \n <li>Ubicació i localitats </li>\n <li>Mapa </li>\n <li>Economia </li>\n <li>Personalitats </li>\n <li>... </li>\n</ul>",
+    "es": "Proyecto de actividades de ciencias sociales dirigido a tercer curso de educación primaria sobre la historia y la geografía del departamento de Lavalleja (Uruguay): \n<ul> \n <li>Ubicación y localidades </li>\n <li>Mapa </li>\n <li>Economía </li>\n <li>Personalidades </li>\n <li>... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/dptolav.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/dptolav.jclic.zip",
+  "instFile": "jclic/dptolav.jclic.inst",
+  "clicZoneId": 3873,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3873",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/dptolav/jclic/dptolav.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 22,
+  "totalSize": 2573393,
+  "files": [
+    "cover.png",
+    "jclic.js/aplausos.wav",
+    "jclic.js/arequita.gif",
+    "jclic.js/bandera.gif",
+    "jclic.js/cerroar.gif",
+    "jclic.js/chalar.gif",
+    "jclic.js/chalar.wav",
+    "jclic.js/dptolav.jclic",
+    "jclic.js/error.wav",
+    "jclic.js/fabini.gif",
+    "jclic.js/fabini.wav",
+    "jclic.js/mapauru.gif",
+    "jclic.js/mapciu.gif",
+    "jclic.js/maplav.gif",
+    "jclic.js/morosoli.gif",
+    "jclic.js/morosoli.wav",
+    "jclic.js/parlan.gif",
+    "jclic.js/peniten.gif",
+    "jclic.js/plazal.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/santos.gif",
+    "jclic.js/santos.wav",
+    "jclic.js/sierras.gif",
+    "jclic.js/villa.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/dptolav.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

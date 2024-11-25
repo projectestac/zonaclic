@@ -1,0 +1,131 @@
+{
+  "id": 988,
+  "title": "Giuseppe Verdi",
+  "author": "Susagna Argemí",
+  "school": "Escola La Unió Sant Joan Despí (Baix Llobregat)",
+  "date": "18/12/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Música",
+    "es": "Música",
+    "en": "Music"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)",
+    "en": "Primary school (6-12), Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la música, oïda musical",
+    "es": "aprendizaje de la música, oído musical",
+    "en": "learning of music, musical ear"
+  },
+  "descCodes": [
+    717,
+    727
+  ],
+  "description": {
+    "en": "Package of activities for primary and secondary school about the life and works of Giuseppe Verdi",
+    "ca": "Paquet d'activitats adreçat al Cicle Superior de Primària i a l'ESO, segons allò en el que es vulgui aprofundir. L'objectiu és apropar als nois i noies a aspectes de la vida i l'obra del compositor Giuseppe Verdi.",
+    "es": "Paquete de actividades dirigido a Ciclo Superior de Primaria y a la ESO, según lo que se quiera profundizar. El objetivo es acercar a los alumnos a aspectos de la vida y la obra del compositor Giuseppe Verdi."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/verdicli.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/verdicli.jclic.zip",
+  "instFile": "jclic/verdicli.jclic.inst",
+  "clicZoneId": 2071,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2071",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/verdicli/jclic/verdicli.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 35,
+  "mediaFiles": 48,
+  "totalSize": 19359414,
+  "files": [
+    "cover.gif",
+    "jclic.js/aida.mid",
+    "jclic.js/aplaudim.wav",
+    "jclic.js/ballmasc.wav",
+    "jclic.js/bandfran.jpg",
+    "jclic.js/bellini.jpg",
+    "jclic.js/bruixmac.jpg",
+    "jclic.js/busseto.jpg",
+    "jclic.js/cameliat.jpg",
+    "jclic.js/casaverd.jpg",
+    "jclic.js/corserna.gif",
+    "jclic.js/donalvar.gif",
+    "jclic.js/donamobi.mid",
+    "jclic.js/donizeti.jpg",
+    "jclic.js/elisirda.mid",
+    "jclic.js/emiliaro.gif",
+    "jclic.js/ernani.mid",
+    "jclic.js/espineta.jpg",
+    "jclic.js/espineta.wav",
+    "jclic.js/falstaff.wav",
+    "jclic.js/fociltro.jpg",
+    "jclic.js/forzades.wav",
+    "jclic.js/guilltel.mid",
+    "jclic.js/infov123.txt",
+    "jclic.js/italimon.gif",
+    "jclic.js/italregi.gif",
+    "jclic.js/jueuestr.jpg",
+    "jclic.js/luluverd.jpg",
+    "jclic.js/macbeth.wav",
+    "jclic.js/mascarab.jpg",
+    "jclic.js/normabel.mid",
+    "jclic.js/notes.gif",
+    "jclic.js/orgue.jpg",
+    "jclic.js/orgue.wav",
+    "jclic.js/otello.wav",
+    "jclic.js/piano.wav",
+    "jclic.js/pianocua.jpg",
+    "jclic.js/piramide.jpg",
+    "jclic.js/rigolett.jpg",
+    "jclic.js/rossini.jpg",
+    "jclic.js/shakespe.gif",
+    "jclic.js/traviata.mid",
+    "jclic.js/trovator.mid",
+    "jclic.js/turcband.jpg",
+    "jclic.js/vapensie.mid",
+    "jclic.js/veprsici.wav",
+    "jclic.js/verdajud.txt",
+    "jclic.js/verdi.jpg",
+    "jclic.js/verdi4.jpg",
+    "jclic.js/verdicli.jclic",
+    "jclic.js/vitteman.jpg",
+    "jclic.js/vivaver2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/verdicli.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

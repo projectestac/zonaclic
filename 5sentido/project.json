@@ -1,0 +1,89 @@
+{
+  "id": 1371,
+  "title": "Los cinco sentidos",
+  "author": "Elda María Ubillús Namihas",
+  "date": "27/05/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "sentits",
+    "es": "sentidos",
+    "en": "senses"
+  },
+  "descCodes": [
+    876
+  ],
+  "description": {
+    "en": "Clic activities about senses: \n<ul> \n <li>smell </li>\n <li>taste </li>\n <li>touch </li>\n <li>sight </li>\n <li>hearing </li>\n</ul>",
+    "ca": "Activitats adreçades a alumnes de secundària sobre els òrgans dels sentits: \n<ul> \n <li>olfacte </li>\n <li>gust </li>\n <li>tacte </li>\n <li>vista </li>\n <li>oïda </li>\n</ul>",
+    "es": "Actividades dirigidas a alumnos de secundaria sobre los órganos de los sentidos: \n<ul> \n <li>olfato </li>\n <li>gusto </li>\n <li>tacto </li>\n <li>vista </li>\n <li>oído </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/5sentido.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/5sentido.jclic.zip",
+  "instFile": "jclic/5sentido.jclic.inst",
+  "clicZoneId": 3112,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3112",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/5sentido/jclic/5sentido.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 11,
+  "totalSize": 1194887,
+  "files": [
+    "cover.gif",
+    "jclic.js/5sentido.jclic",
+    "jclic.js/cara1.gif",
+    "jclic.js/caytcj2l.gif",
+    "jclic.js/centro_1.gif",
+    "jclic.js/lapiel_1.gif",
+    "jclic.js/oido2.gif",
+    "jclic.js/ojito.gif",
+    "jclic.js/ojo.gif",
+    "jclic.js/partes_1.gif",
+    "jclic.js/quim.gif",
+    "jclic.js/sabor.gif",
+    "jclic.js/sentidos.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/5sentido.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

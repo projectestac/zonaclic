@@ -1,0 +1,111 @@
+{
+  "id": 2019,
+  "title": "El ball de gitanes de Sant Celoni (Cicle mitjà i superior)",
+  "author": "Nara Montané Collet i Oriol Pisos Taberner",
+  "school": "Escola Vallmanya Sant Esteve de Palautordera (Vallès Oriental)",
+  "date": "15/01/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences, Music",
+    "ca": "Ciències socials, Música",
+    "es": "Ciencias sociales, Música"
+  },
+  "areaCodes": [
+    "soc",
+    "mus"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la música, audició musical, folklore",
+    "es": "aprendizaje de la música, audición musical, folklore",
+    "en": "learning of music, musical hearing, folklore"
+  },
+  "descCodes": [
+    717,
+    718,
+    804
+  ],
+  "description": {
+    "en": "A set of activities to discover which characters are involved in the Gypsy Dance party of Sant Celoni (Barcelona) as well as what dances are danced. We can find two different projects.",
+    "ca": "Conjunt d'activitats per descobrir quins personatges intervenen a la Festa del Ball de Gitanes de Sant Celoni així com també quins balls s'hi ballen. Trobem dos projectes diferents, un per infantil i cicle inicial de primària i un altre per cicle mitjà i cicle superior.",
+    "es": "Conjunto de actividades para descubrir qué personajes intervienen en la Fiesta del Baile de Gitanas de Sant Celoni (Barcelona) así como también qué bailes se bailan. Encontramos dos proyectos diferentes, uno para infantil y ciclo inicial de primaria y otro para ciclo medio y superior."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "balls/ballinic"
+  ],
+  "mainFile": "jclic.js/ballmitj.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ballmitj.jclic.zip",
+  "instFile": "jclic/ballmitj.jclic.inst",
+  "clicZoneId": 3593,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3593",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/balls/jclic/ballmitj/ballmitj.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 25,
+  "totalSize": 3434733,
+  "files": [
+    "cover.gif",
+    "jclic.js/balladors.jpg",
+    "jclic.js/ballmitj.jclic",
+    "jclic.js/capita_de_cavall.jpg",
+    "jclic.js/cdgitanesasceloni.jpg",
+    "jclic.js/colla_ferro.jpg",
+    "jclic.js/contradansa.mp3",
+    "jclic.js/contradansa_2.jpg",
+    "jclic.js/diablots_ball_de_gitanes_07.jpg",
+    "jclic.js/entrada_de_ball.jpg",
+    "jclic.js/entrada_de_ball.mp3",
+    "jclic.js/farandola.mp3",
+    "jclic.js/farandola_2.jpg",
+    "jclic.js/galop.jpg",
+    "jclic.js/galop_d_entrada.mp3",
+    "jclic.js/jota.mp3",
+    "jclic.js/jotaa.jpg",
+    "jclic.js/musica_denllac.mp3",
+    "jclic.js/passeig.jpg",
+    "jclic.js/passeig.mp3",
+    "jclic.js/polca.jpg",
+    "jclic.js/polca.mp3",
+    "jclic.js/vals.jpg",
+    "jclic.js/vals.mp3",
+    "jclic.js/vell.gif",
+    "jclic.js/vell_vella.jpg",
+    "jclic.js/vella.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ballmitj.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

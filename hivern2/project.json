@@ -1,0 +1,128 @@
+{
+  "id": 2253,
+  "title": "Hivern",
+  "author": "Francesc Sánchez Guerrero",
+  "school": "Escola Sant Julià L'Arboç (Baix Penedès)",
+  "date": "01/06/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "hivern",
+    "es": "invierno",
+    "en": "winter"
+  },
+  "descCodes": [
+    1392
+  ],
+  "description": {
+    "en": "Project of activities about the winter: \n<ul> \n <li>The clothes </li>\n <li>Winter fruits: the orange and the orange tree </li>\n <li>Where are the animals? </li>\n</ul>",
+    "ca": "Projecte d'activitats que ens serveix per repassar algunes característiques de l'hivern: \n<ul> \n <li>La roba que portem. </li>\n <li>Les fruites de l'hivern: la taronja i el taronger. </li>\n <li>On son els animals? </li>\n</ul>",
+    "es": "Proyecto de actividades que nos sirve para repasar algunas características del invierno: \n<ul> \n <li>la ropa que llevamos </li>\n <li>Las frutas del invierno: la naranja y el naranjo </li>\n <li>Dónde están los animales? </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/hivern2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/hivern2.jclic.zip",
+  "instFile": "jclic/hivern2.jclic.inst",
+  "clicZoneId": 3771,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3771",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/hivern2/jclic/hivern2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 26,
+  "mediaFiles": 49,
+  "totalSize": 2965911,
+  "files": [
+    "cover.png",
+    "jclic.js/a_l_hivern_els_animals.jpg",
+    "jclic.js/abric_2.jpg",
+    "jclic.js/barret_3.jpg",
+    "jclic.js/botes.jpg",
+    "jclic.js/bufanda_2.jpg",
+    "jclic.js/camisa_2.jpg",
+    "jclic.js/cigonya.jpg",
+    "jclic.js/cirera.jpg",
+    "jclic.js/erico_2.jpg",
+    "jclic.js/falda.jpg",
+    "jclic.js/final.png",
+    "jclic.js/formiga_2.jpg",
+    "jclic.js/granota_2.jpg",
+    "jclic.js/hivern2.jclic",
+    "jclic.js/hivern_1.jpg",
+    "jclic.js/hivern_1_bis.jpg",
+    "jclic.js/hivern_2_bis.jpg",
+    "jclic.js/hivern_3.jpg",
+    "jclic.js/impermeable.jpg",
+    "jclic.js/impermeable_2.jpg",
+    "jclic.js/jersei_2.jpg",
+    "jclic.js/llimona.jpg",
+    "jclic.js/llimona_tallada.jpg",
+    "jclic.js/mandarina.jpg",
+    "jclic.js/mangrana.jpg",
+    "jclic.js/neu.jpg",
+    "jclic.js/nuvol.jpg",
+    "jclic.js/oliva_en_branca.jpg",
+    "jclic.js/oreneta_2.jpg",
+    "jclic.js/pantalons.jpg",
+    "jclic.js/paraula_emigren.jpg",
+    "jclic.js/paraula_letargien.jpg",
+    "jclic.js/paraula_s_amaguen.jpg",
+    "jclic.js/platan.jpg",
+    "jclic.js/poma.jpg",
+    "jclic.js/poma_2.jpg",
+    "jclic.js/raim.jpg",
+    "jclic.js/samarreta.jpg",
+    "jclic.js/serp_2.jpg",
+    "jclic.js/sol.jpg",
+    "jclic.js/taronja_2.jpg",
+    "jclic.js/taronja_mitja.jpg",
+    "jclic.js/taronja_mitja_parts.jpg",
+    "jclic.js/taronja_tallada_2.jpg",
+    "jclic.js/taronjer_3.jpg",
+    "jclic.js/taronjer_branques.jpg",
+    "jclic.js/taronjer_flor.jpg",
+    "jclic.js/taronjer_fulles.jpg",
+    "jclic.js/taronjer_tronc.jpg",
+    "jclic.js/xancles.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/hivern2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": 1668,
+  "title": "Europa física y política",
+  "author": "Juan Moreno Martínez",
+  "school": "CEIP Mariano Suárez Jumilla (Murcia)",
+  "date": "10/05/07",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia",
+    "es": "geografía",
+    "en": "geography"
+  },
+  "descCodes": [
+    235
+  ],
+  "description": {
+    "en": "Activities about the physical geography of Europe (relief, hydrography and climates) and review of the fundamental ideas about political geography: main countries and capitals. The activities are addressed to students of sixth course of primary education.",
+    "ca": "Activitats sobre la geografia física d'Europa (relleu, hidrografia i climes) i repàs de les idees fonamentals sobre geografia política: principals països i capitals. Les activitats estan adreçades a alumnat de sisè d'educació primària.",
+    "es": "Actividades sobre la geografía física de Europa (relieve, hidrografía y climas) y repaso de ideas fundamentales sobre geografía política: principales países y capitales. Las actividades están dirigidas a alumnado de sexto de educación primaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/europa2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/europa2.jclic.zip",
+  "instFile": "jclic/europa2.jclic.inst",
+  "clicZoneId": 3378,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3378",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/europa2/jclic/europa2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 48,
+  "mediaFiles": 43,
+  "totalSize": 2409409,
+  "files": [
+    "cover.jpg",
+    "jclic.js/alegria.mp3",
+    "jclic.js/atenas.jpg",
+    "jclic.js/bandera_alemani.gif",
+    "jclic.js/bandera_espana.gif",
+    "jclic.js/bandera_francia.gif",
+    "jclic.js/bandera_griega.gif",
+    "jclic.js/bandera_inglesa.gif",
+    "jclic.js/bandera_irlanda.gif",
+    "jclic.js/berlin.jpg",
+    "jclic.js/brussels.jpg",
+    "jclic.js/capitales.jpg",
+    "jclic.js/cole2.jpg",
+    "jclic.js/crimea.jpg",
+    "jclic.js/diez.mp3",
+    "jclic.js/en_la_rivera.mp3",
+    "jclic.js/escandinava.jpg",
+    "jclic.js/europa1_a.jpg",
+    "jclic.js/europa2.jclic",
+    "jclic.js/europa_fisica.jpg",
+    "jclic.js/flechas_riosnorte.jpg",
+    "jclic.js/gografo.mp3",
+    "jclic.js/iberica.jpg",
+    "jclic.js/italica.jpg",
+    "jclic.js/jutlandia.jpg",
+    "jclic.js/kola.jpg",
+    "jclic.js/lisboapeq.jpg",
+    "jclic.js/londrespeq.jpg",
+    "jclic.js/los_alpes2.jpg",
+    "jclic.js/madridpeq.jpg",
+    "jclic.js/moscowpeq.jpg",
+    "jclic.js/muy_bien.mp3",
+    "jclic.js/paises2.jpg",
+    "jclic.js/paris06.jpg",
+    "jclic.js/peloponeso.jpg",
+    "jclic.js/pirineos.jpg",
+    "jclic.js/pninsulas.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/prueba1.jpg",
+    "jclic.js/relieve.jpg",
+    "jclic.js/rios.mp3",
+    "jclic.js/rios_este2.jpg",
+    "jclic.js/romapeq.jpg",
+    "jclic.js/sevilla2.jpg",
+    "jclic.js/tormenta.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/europa2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": 2271,
+  "title": "Perspectiva",
+  "author": "Cecilia Sabbatini",
+  "date": "03/08/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Art & design",
+    "ca": "Visual i plàstica",
+    "es": "Plástica y visual"
+  },
+  "areaCodes": [
+    "vip"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "dibuix, composició, perspectiva",
+    "es": "dibujo, composición, perspectiva",
+    "en": "drawing, composition, perspective"
+  },
+  "descCodes": [
+    432,
+    1433,
+    1441
+  ],
+  "description": {
+    "en": "Project of activities about perspective and its use as a resource to draw, where the eye is the great actor of the scene. \n<ul> \n <li>uses </li>\n <li>types </li>\n <li>elements </li>\n <li>works of famous artists </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre la persectiva i el seu ús coma recurs del dibuix, on l'ull és el gran actor de l'escena. \n<ul> \n <li>usos </li>\n <li>tipos </li>\n <li>elements </li>\n <li>obres d'artistes famosos </li>\n</ul>",
+    "es": "Proyecto de actividades sobre la perspectiva i su uso como recurso del dibujo, donde el ojo es el gran actor de la escena. \n<ul> \n <li>usos </li>\n <li>tipos </li>\n <li>elementos </li>\n <li>obras de artistas famosos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/perspect.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/perspect.jclic.zip",
+  "instFile": "jclic/perspect.jclic.inst",
+  "clicZoneId": 3786,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3786",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/perspect/jclic/perspect.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 51,
+  "totalSize": 3072109,
+  "files": [
+    "cover.png",
+    "jclic.js/0001_0068_sonnenuntergeng.jpg",
+    "jclic.js/a_la_izquierda.jpg",
+    "jclic.js/actividad_puzzle.mp3",
+    "jclic.js/ambos_costados.jpg",
+    "jclic.js/ambos_lados.mp3",
+    "jclic.js/atencion_plano_2.mp3",
+    "jclic.js/avignon.jpg",
+    "jclic.js/calle.jpg",
+    "jclic.js/calle__de_noche.jpg",
+    "jclic.js/campos_visuales.gif",
+    "jclic.js/central.jpg",
+    "jclic.js/derecha.jpg",
+    "jclic.js/distancias.jpg",
+    "jclic.js/elementos003.gif",
+    "jclic.js/elementos_de_la_perspectiva_5128_2_1.gif",
+    "jclic.js/en__el_horizonte.jpg",
+    "jclic.js/fader_crepusculo.jpg",
+    "jclic.js/fuga_central.mp3",
+    "jclic.js/fuga_derecha.mp3",
+    "jclic.js/fuga_izquierda.mp3",
+    "jclic.js/horizonte.jpg",
+    "jclic.js/horizonte.mp3",
+    "jclic.js/leonardo_da_vinci.mp3",
+    "jclic.js/linea_de_tierra.jpg",
+    "jclic.js/linea_de_tierra.mp3",
+    "jclic.js/linea_tierra.jpg",
+    "jclic.js/lineas.gif",
+    "jclic.js/lineas_paralelas.jpg",
+    "jclic.js/maestro_crucigrama.mp3",
+    "jclic.js/monet.jpg",
+    "jclic.js/muy_bien_elementos_de_la_perspectiva.mp3",
+    "jclic.js/muybien.mp3",
+    "jclic.js/observador.jpg",
+    "jclic.js/ohhh.mp3",
+    "jclic.js/pergola.jpg",
+    "jclic.js/perpectica_central.jpg",
+    "jclic.js/persp._en_el_cuerpo.jpg",
+    "jclic.js/perspect.jclic",
+    "jclic.js/perspectiva.jpg",
+    "jclic.js/perspectiva.mp3",
+    "jclic.js/perspectiva_atmosferica.jpg",
+    "jclic.js/perspectiva_grupal.jpg",
+    "jclic.js/perspectiva_lineal.gif",
+    "jclic.js/perspectivapolivos.jpg",
+    "jclic.js/plano.png",
+    "jclic.js/planos.jpg",
+    "jclic.js/puente_resized.jpg",
+    "jclic.js/punto_de_fuga_resized1.jpg",
+    "jclic.js/que_planoe_s_horizonte.mp3",
+    "jclic.js/ruta.jpg",
+    "jclic.js/slide0016_image023_resized.jpg",
+    "jclic.js/tierra.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/perspect.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

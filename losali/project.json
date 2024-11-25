@@ -1,0 +1,93 @@
+{
+  "id": 132,
+  "title": "Los alimentos",
+  "author": "Ramiro Garijo Tarancón",
+  "school": "CRA Pinares Altos Vinuesa (Soria)",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aliments, higiene",
+    "es": "alimentos, higiene",
+    "en": "foods, hygiene"
+  },
+  "descCodes": [
+    49,
+    80
+  ],
+  "description": {
+    "en": "Activity pack based on the textbook \"Los alimentos\" (foods) for elementary school. In it are worked such topics as: Origins of the foods we eat, tastes, stores where to purchase them, ways to preserve them...",
+    "ca": "Paquet d'activitats basat en el llibre de text \"Los Alimentos\" per a 3er de primària de l'editorial EDEBE. S'hi treballen temes com l'origen dels aliments, els gustos, les botigues on es venen, maneres de conservar-los...",
+    "es": "Paquete de actividades basado en el libro de texto \"Los Alimentos\" para 3º de primaria de la editorial EDEBE. Trabaja temas como el origen de los alimentos, los gustos, las tiendas donde los venden, maneras de conservarlos..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/losali.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/losali.jclic.zip",
+  "instFile": "jclic/losali.jclic.inst",
+  "clicZoneId": 1063,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1063",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/losali/jclic/losali.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 13,
+  "totalSize": 575940,
+  "files": [
+    "cover.jpg",
+    "jclic.js/10pan.gif",
+    "jclic.js/11carne.gif",
+    "jclic.js/2esca.gif",
+    "jclic.js/2flan.gif",
+    "jclic.js/2lengu.gif",
+    "jclic.js/2lengua.gif",
+    "jclic.js/2limon.gif",
+    "jclic.js/7frigo.gif",
+    "jclic.js/caries2.gif",
+    "jclic.js/carne2.gif",
+    "jclic.js/estan.gif",
+    "jclic.js/limpia.gif",
+    "jclic.js/losali.jclic",
+    "jclic.js/portada.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/losali.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

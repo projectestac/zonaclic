@@ -1,0 +1,79 @@
+{
+  "id": 2601,
+  "title": "Suma de enteros",
+  "author": "Antonio Cascales Vicente (Autor)",
+  "school": "IES Vicente Medina (Archena)",
+  "date": "27/06/19",
+  "langCodes": [
+    "es"
+  ],
+  "languages": {
+    "ca": "espanyol",
+    "es": "español",
+    "en": "Spanish"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "description": {
+    "ca": "Projecte d'activitats JClic per a practicar la suma i la resta de nombres enters. Les activitats estan adreçades al primer cicle d'educació secundària.",
+    "es": "Proyecto de actividades JClic para la práctica de la suma y la resta de los números enteros en el promer ciclo de educación secundaria.",
+    "en": "Project of activities JClic for the practice of the addition and subtraction of the whole numbers in the first cycle of secondary education."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "cover": "sumaenteros.png",
+  "coverWebp": "sumaenteros.webp",
+  "thumbnail": "sumaenteros100.png",
+  "mainFile": "jclic.js/sumaenteros.jclic",
+  "activities": 23,
+  "mediaFiles": 16,
+  "totalSize": 1434381,
+  "instFile": "jclic/sumaenteros.jclic.inst",
+  "zipFile": "jclic/sumaenteros.jclic.zip",
+  "files": [
+    "jclic.js/cartoon_siren_whistle.mp3",
+    "jclic.js/favicon.ico",
+    "jclic.js/focus.mp3",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/logo_ies_vm.jpg",
+    "jclic.js/megusta.mp3",
+    "jclic.js/numerosenteros.jpg",
+    "jclic.js/ok.mp3",
+    "jclic.js/operacionlarga.jpg",
+    "jclic.js/problema1.jpg",
+    "jclic.js/problema2.jpg",
+    "jclic.js/problema3.jpg",
+    "jclic.js/sumaenteros.jclic",
+    "jclic.js/sumaenteros.jclic.js",
+    "jclic.js/tarjeta_acv.jpg",
+    "project.json",
+    "sumaenteros.png",
+    "sumaenteros100.png",
+    "sumaenteros.webp"
+  ]
+}

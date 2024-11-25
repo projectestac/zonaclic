@@ -1,0 +1,105 @@
+{
+  "id": 382,
+  "title": "Normes d'accentuació",
+  "author": "Jesús Batlle Auguet",
+  "school": "C Bell-lloc del Pla Girona",
+  "date": "19/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua catalana",
+    "es": "gramática, lengua catalana",
+    "en": "grammar, Catalan language"
+  },
+  "descCodes": [
+    123,
+    133
+  ],
+  "description": {
+    "en": "Clic activities about catalan language word accentuation.",
+    "ca": "Els objectius d'aquest paquet d'activitats són:\n<br> \n<li>Diferenciar les paraules agudes, planes i esdrúixoles. </li>\n<li>Reconèixer els diferents tipus d'accents gràfics de les paraules. </li>\n<li>Aplicar les normes d'accentuació. </li>\n<li>Mostrar interès per escriure correctament. </li>",
+    "es": "Paquete de actividades sobre las normas de acentuación en catalán que pretende::\n<br> \n<li>Diferenciar las palabras agudas, graves y esdrújulas. </li>\n<li>Reconocer los diferentes tipos de acentos gráficos de las palabras. </li>\n<li>Aplicar las normas de acentuación. </li>\n<li>Mostrar interés por escribir correctamente. </li>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/normes.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/normes.jclic.zip",
+  "instFile": "jclic/normes.jclic.inst",
+  "clicZoneId": 1216,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1216",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/normes/jclic/normes.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 25,
+  "totalSize": 6076083,
+  "files": [
+    "cover.gif",
+    "jclic.js/agudes.wav",
+    "jclic.js/autob_s.jpg",
+    "jclic.js/avi_.jpg",
+    "jclic.js/b_stia.jpg",
+    "jclic.js/basquet.jpg",
+    "jclic.js/belletre.gif",
+    "jclic.js/bruixola.jpg",
+    "jclic.js/c_rvol.jpg",
+    "jclic.js/cami_.jpg",
+    "jclic.js/colbell.jpg",
+    "jclic.js/esdruixo.wav",
+    "jclic.js/fam_lia.jpg",
+    "jclic.js/gu_rdia.jpg",
+    "jclic.js/lle_.jpg",
+    "jclic.js/maquina.jpg",
+    "jclic.js/n_vol2.jpg",
+    "jclic.js/normes.jclic",
+    "jclic.js/past_s.jpg",
+    "jclic.js/planes.wav",
+    "jclic.js/presen_1.gif",
+    "jclic.js/s_ndria.jpg",
+    "jclic.js/sem_for.jpg",
+    "jclic.js/tom_quet.jpg",
+    "jclic.js/tr_nsit.jpg",
+    "jclic.js/tren.jpg",
+    "jclic.js/viol_.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/normes.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

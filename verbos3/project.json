@@ -1,0 +1,88 @@
+{
+  "id": 1923,
+  "title": "Los verbos",
+  "author": "Miriam Castillo Castillo",
+  "school": "Escuela Cardenal José María Caro Coquimbo (Xile)",
+  "date": "15/06/09",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, verbs",
+    "es": "lengua castellana, verbos",
+    "en": "Spanish language, verbs"
+  },
+  "descCodes": [
+    132,
+    905
+  ],
+  "description": {
+    "en": "Project of activities about verbs in Spanish. The project has four parts: \n<ul> \n <li>Regular verbs </li>\n <li>Compound verbs </li>\n <li>Comprehension </li>\n <li>Irregular verbs </li>\n</ul>",
+    "ca": "Paquet d'activitats sobre els verbs en llengua castellana. Trobem quatre parts diferents: \n<ul> \n <li>Verbs regulars </li>\n <li>Verbs composts </li>\n <li>Comprensió </li>\n <li>Verbs irregulars </li>\n</ul>",
+    "es": "Paquete de actividades sobre los verbos dividido en cuatro partes \n<ul> \n <li>Verbos regulares </li>\n <li>Verbos compuestos </li>\n <li>Comprensión </li>\n <li>Verbos irregulares </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/verbos3.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/verbos3.jclic.zip",
+  "instFile": "jclic/verbos3.jclic.inst",
+  "clicZoneId": 3549,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3549",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/verbos3/jclic/verbos3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 65,
+  "mediaFiles": 8,
+  "totalSize": 990614,
+  "files": [
+    "cover.gif",
+    "jclic.js/genial.wav",
+    "jclic.js/grande.wav",
+    "jclic.js/habercom.gif",
+    "jclic.js/habsubim.gif",
+    "jclic.js/muybien.wav",
+    "jclic.js/perfec.wav",
+    "jclic.js/subjser.gif",
+    "jclic.js/tepasas.wav",
+    "jclic.js/verbos3.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/verbos3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

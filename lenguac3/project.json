@@ -1,0 +1,84 @@
+{
+  "id": 1074,
+  "title": "Lengua para 3r ciclo de primaria",
+  "author": "Laurentino Gómez i Moncho Marín Calvo",
+  "school": "CP San Lorenzo de Ezcaray Ezcaray (La Rioja)",
+  "date": "04/11/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua castellana, sintaxi",
+    "es": "gramática, lengua castellana, sintaxis",
+    "en": "grammar, Spanish language, syntax"
+  },
+  "descCodes": [
+    123,
+    132,
+    148
+  ],
+  "description": {
+    "en": "Spanish activities for the third cycle of primary school. The activities are based on four texts: \n<ul> \n <li>\"Cuento de la cebolla\", </li>\n <li>\"Relato de los gritos\" (Robert Fulghum), </li>\n <li>\"Las abarcas desiertas\" (Miguel Hernández) </li>\n <li>\"El mercader de burros\" (Idries Shan). </li>\n</ul> \n<p> Comprehension activities are proposed based on these texts. Additionally, some other activities (orthography, word classification, verb tenses and syntactic analysis) are included in other packages. </p>",
+    "ca": "Es tracta d'un conjunt de paquets d'activitats de llengua castellana per a tercer cicle de primària. Les activitats es basen en quatre texts: \n<ul> \n <li>\"Cuento de la cebolla\" </li>\n <li>\"Relato de los gritos\" (Robert Fulghum), </li>\n <li>\"Las abarcas desiertas\" (Miguel Hernández) </li>\n <li>\"El mercader de burros\" (Idries Shan). </li>\n</ul> \n<p> A partir dels textos es realitzen, en primer lloc, activitats de comprensió i a més, s'inclouen, en altres paquets, activitats d'ortografia, classes de paraules, anàlisi sintàctic i temps verbals. </p>",
+    "es": "Se trata de un conjunto de paquetes de actividades de lengua para el tercer ciclo de primaria. Las actividades se basan en cuatro textos: \n<ul> \n <li>\"Cuento de la cebolla\", </li>\n <li>\"Relato de los gritos\" (Robert Fulghum), </li>\n <li>\"Las abarcas desiertas\" (Miguel Hernández) </li>\n <li>\"El mercader de burros\" (Idries Shan). </li>\n</ul> \n<p> A partir de los textos se realizan, en primer lugar, actividades de comprensión y además se incluyen, en otros paquetes, actividades de ortografía, clases de palabras, análisis sintáctico y tiempos verbales. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/lenguac3.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/lenguac3.jclic.zip",
+  "instFile": "jclic/lenguac3.jclic.inst",
+  "clicZoneId": 2282,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2282",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/lenguac3/jclic/lenguac3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 67,
+  "mediaFiles": 3,
+  "totalSize": 672705,
+  "files": [
+    "cover.gif",
+    "jclic.js/dedo.gif",
+    "jclic.js/dedos.gif",
+    "jclic.js/lenguac3.jclic",
+    "jclic.js/mb.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/lenguac3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": 1053,
+  "title": "Introducción al concepto de fuerza",
+  "author": "Consuelo Jiménez Jiménez",
+  "school": "Colegio Puerto blanco Algeciras",
+  "date": "13/06/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "física",
+    "es": "física",
+    "en": "physics"
+  },
+  "descCodes": [
+    72
+  ],
+  "description": {
+    "en": "Package of activities addressed to Secondary School about force.",
+    "ca": "Paquet d'activitats per a 4t curs d'Educació Secundària. Al paquet es treballa el tema de la força tant a nivell teòric com a nivell pràctic amb diferents problemes al llarg de l'activitat.",
+    "es": "Paquete de actividades para 4º curso de Educación secundaria. En el paquete se trabaja el tema de la fuerza tanto a nivel teórico como a nivel práctico con diferentes problemas a lo largo de la actividad."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/din.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/din.jclic.zip",
+  "instFile": "jclic/din.jclic.inst",
+  "clicZoneId": 2223,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2223",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/din/jclic/din.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 13,
+  "totalSize": 291291,
+  "files": [
+    "cover.gif",
+    "jclic.js/cuerpo.gif",
+    "jclic.js/din.jclic",
+    "jclic.js/fuerza1.gif",
+    "jclic.js/fuerza2.gif",
+    "jclic.js/fuerza3.gif",
+    "jclic.js/grafica1.gif",
+    "jclic.js/imagen.gif",
+    "jclic.js/mano.gif",
+    "jclic.js/mapa.gif",
+    "jclic.js/muelle1a.gif",
+    "jclic.js/newton.gif",
+    "jclic.js/peso1.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/tierra.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/din.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": 989,
+  "title": "El Baix Penedès: Coneixem la comarca",
+  "author": "Carme Anguera i Seminari d'estudi de la comarca del Baix Penedés",
+  "school": "CRP Baix Penedès El Vendrell (Baix Penedès)",
+  "date": "12/12/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales",
+    "en": "Social sciences"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia, comarques",
+    "es": "geografía, comarcas",
+    "en": "geography, provinces"
+  },
+  "descCodes": [
+    235,
+    758
+  ],
+  "description": {
+    "en": "Activities about Baix Penedès, a county of Catalonia : \n<ul> \n <li>location </li>\n <li>relief </li>\n <li>hydrograph </li>\n <li>history </li>\n <li>celebrities </li>\n</ul>",
+    "ca": "Conjunt d'activitats per aprofundir en el coneixement de la comarca del Baix Penedès: \n<ul> \n <li>situació </li>\n <li>relleu </li>\n <li>hidrografia </li>\n <li>història </li>\n <li>personatges </li>\n</ul>",
+    "es": "Conjunto de actividades para profundizar en el conocimiento de la comarca del Baix Penedès: \n<ul> \n <li>situación </li>\n <li>relieve </li>\n <li>hidrografía </li>\n <li>historia </li>\n <li>personajes </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/comarca.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/comarca.jclic.zip",
+  "instFile": "jclic/comarca.jclic.inst",
+  "clicZoneId": 2072,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2072",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/comarca/jclic/comarca.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 38,
+  "mediaFiles": 33,
+  "totalSize": 626721,
+  "files": [
+    "cover.gif",
+    "jclic.js/aguila.gif",
+    "jclic.js/aguila2.gif",
+    "jclic.js/boirina.gif",
+    "jclic.js/bpenede.gif",
+    "jclic.js/clariana.gif",
+    "jclic.js/comarca.jclic",
+    "jclic.js/espigol.gif",
+    "jclic.js/esquirol.gif",
+    "jclic.js/fabrica.gif",
+    "jclic.js/farigola.gif",
+    "jclic.js/llebre.gif",
+    "jclic.js/maleta.gif",
+    "jclic.js/mararris.gif",
+    "jclic.js/mussol.gif",
+    "jclic.js/nuvol.gif",
+    "jclic.js/olivera.gif",
+    "jclic.js/oreneta.gif",
+    "jclic.js/pardo.gif",
+    "jclic.js/pasoci02.gif",
+    "jclic.js/pi.gif",
+    "jclic.js/pluja.gif",
+    "jclic.js/puput.gif",
+    "jclic.js/raim.gif",
+    "jclic.js/rata_p_1.gif",
+    "jclic.js/romani.gif",
+    "jclic.js/rosella.gif",
+    "jclic.js/roure.gif",
+    "jclic.js/ruixats.gif",
+    "jclic.js/sol.gif",
+    "jclic.js/talp.gif",
+    "jclic.js/vent.gif",
+    "jclic.js/ventfort.gif",
+    "jclic.js/ventmode.gif",
+    "jclic.js/vilafr.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/comarca.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

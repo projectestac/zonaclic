@@ -1,0 +1,141 @@
+{
+  "id": 1488,
+  "title": "La Ventafocs",
+  "author": "Antoni Prim",
+  "school": "Escola Llorens i Artigas Badalona (Barcelonès)",
+  "date": "28/10/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "conte",
+    "es": "cuento",
+    "en": "story"
+  },
+  "descCodes": [
+    614
+  ],
+  "description": {
+    "en": "JClic activities about \n<i>The Cinderella</i> by Charles Perrault. The package contains five sections: \n<ul> \n <li>The tale. </li>\n <li>Easy puzzles. </li>\n <li>Difficult puzzles. </li>\n <li>Associations and word identification. </li>\n <li>Word writing. </li>\n</ul>",
+    "ca": "Activitats JClic basades en el popular conte de \n<i>La Ventafocs</i> escrit per en Charles Perrault. El projecte consta de 5 parts: \n<ul> \n <li>El conte: Es poden veure nou escenes del conte i escoltar la història. </li>\n <li>Trencaclosques de poca dificultat, sis peces. </li>\n <li>Trencaclosques de major dificultat, dotze peces. </li>\n <li>Associacions entre paraules i imatges. </li>\n <li>Resposta escrita de paraules i de personatges del conte. </li>\n</ul>",
+    "es": "Actividades JClic basadas en el popular cuento de \n<i>La Cenicienta</i> escrito por Charles Perrault. El proyecto cuenta de 5 partes:  <ul>\n<li>El cuento: Se pueden ver nueve escenas del cuento y escuchar la historia. </li>\n<li>Rompecabezas de poca dificultad, seis piezas. </li>\n<li>Rompecabezas de mayor dificultad, doce piezas. </li>\n<li>Asociaciones entre palabras e imágenes. </li>\n<li>Respuesta escrita de palabras y de personajes del cuento.  </li></ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ventaf.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ventaf.jclic.zip",
+  "instFile": "jclic/ventaf.jclic.inst",
+  "clicZoneId": 3209,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3209",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ventaf/jclic/ventaf.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 50,
+  "mediaFiles": 61,
+  "totalSize": 2730095,
+  "files": [
+    "cover.jpg",
+    "jclic.js/applau11.wav",
+    "jclic.js/carbassa.gif",
+    "jclic.js/carbassa.mp3",
+    "jclic.js/carrossa.gif",
+    "jclic.js/carrossa.mp3",
+    "jclic.js/cavall.gif",
+    "jclic.js/cavall.mp3",
+    "jclic.js/cavall6.gif",
+    "jclic.js/cavallx.mp3",
+    "jclic.js/cotxer.gif",
+    "jclic.js/cotxer.mp3",
+    "jclic.js/criat.mp3",
+    "jclic.js/dblau2.mp3",
+    "jclic.js/fada.gif",
+    "jclic.js/germana1.gif",
+    "jclic.js/germana2.gif",
+    "jclic.js/germana2x.gif",
+    "jclic.js/lacai.gif",
+    "jclic.js/lacai5.gif",
+    "jclic.js/llangar.gif",
+    "jclic.js/llangar.mp3",
+    "jclic.js/llangar5.gif",
+    "jclic.js/madras.gif",
+    "jclic.js/madrastra.mp3",
+    "jclic.js/madrasx.gif",
+    "jclic.js/nupcial.mp3",
+    "jclic.js/porven.gif",
+    "jclic.js/princep.gif",
+    "jclic.js/quants.mp3",
+    "jclic.js/rat.mp3",
+    "jclic.js/rata.gif",
+    "jclic.js/ratoli.gif",
+    "jclic.js/ratoli.mp3",
+    "jclic.js/ratoli6.gif",
+    "jclic.js/scream.wav",
+    "jclic.js/venco1.gif",
+    "jclic.js/venco1.mp3",
+    "jclic.js/venco2.gif",
+    "jclic.js/venco2.mp3",
+    "jclic.js/venco3.gif",
+    "jclic.js/venco3.mp3",
+    "jclic.js/venco4.gif",
+    "jclic.js/venco4.mp3",
+    "jclic.js/venco5.gif",
+    "jclic.js/venco5.mp3",
+    "jclic.js/venco6.gif",
+    "jclic.js/venco6.mp3",
+    "jclic.js/venco7.gif",
+    "jclic.js/venco7.mp3",
+    "jclic.js/venco8.gif",
+    "jclic.js/venco8.mp3",
+    "jclic.js/venco9.gif",
+    "jclic.js/venco9.mp3",
+    "jclic.js/venta2.gif",
+    "jclic.js/venta3.gif",
+    "jclic.js/venta4.gif",
+    "jclic.js/venta5.gif",
+    "jclic.js/venta5x.gif",
+    "jclic.js/venta5y.gif",
+    "jclic.js/ventaf.jclic",
+    "jclic.js/vestit.mp3",
+    "jclic.js/yeah1.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ventaf.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

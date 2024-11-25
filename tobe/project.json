@@ -1,0 +1,124 @@
+{
+  "id": 1606,
+  "title": "We are all citizens of the same world",
+  "author": "Asunción Maestre Borrero",
+  "date": "30/06/06",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua anglesa",
+    "es": "aprendizaje de la lengua, lengua inglesa",
+    "en": "learning of the language, English language"
+  },
+  "descCodes": [
+    110,
+    130
+  ],
+  "description": {
+    "en": "Project of activities about English to learn the verb \"to be\" in the affirmative and negative form. The vocabulary is centred in some countries and their nationalities and some professions.",
+    "ca": "Amb aquest paquet d'activitats es pretén repassar el verb \"to be\" amb la forma afirmativa i negativa. El vocabulari se centra en alguns països i les seves nacionalitats i algunes professions.",
+    "es": "Con este paquete de actividades se pretende repasar el verbo \"to be\" en la forma afirmativa y negativa. El vocabulario se centra en algunos países y sus nacionalidades y algunas profesiones."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/tobe.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tobe.jclic.zip",
+  "instFile": "jclic/tobe.jclic.inst",
+  "clicZoneId": 3318,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3318",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/tobe/jclic/tobe.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 45,
+  "totalSize": 5268437,
+  "files": [
+    "cover.gif",
+    "jclic.js/0013.wav",
+    "jclic.js/0021.wav",
+    "jclic.js/0023.wav",
+    "jclic.js/0031.wav",
+    "jclic.js/0032.wav",
+    "jclic.js/0052.wav",
+    "jclic.js/0063.wav",
+    "jclic.js/0071.wav",
+    "jclic.js/0072.wav",
+    "jclic.js/0073.wav",
+    "jclic.js/0081.wav",
+    "jclic.js/0082.wav",
+    "jclic.js/actirz.gif",
+    "jclic.js/actor.gif",
+    "jclic.js/alemania1.gif",
+    "jclic.js/altavoz.gif",
+    "jclic.js/applause.wav",
+    "jclic.js/armonia_racial.gif",
+    "jclic.js/bandera_alemana_edited.jpg",
+    "jclic.js/bandera_americana_edited.jpg",
+    "jclic.js/bandera_china_edited.jpg",
+    "jclic.js/bandera_espanola_edited.jpg",
+    "jclic.js/bandera_francesa_edited.jpg",
+    "jclic.js/bandera_griega_edited.jpg",
+    "jclic.js/bandera_inglesa_edited.jpg",
+    "jclic.js/bandera_japonesa_edited.jpg",
+    "jclic.js/bandera_marruecos.jpg",
+    "jclic.js/bandera_portuguesa_edited.jpg",
+    "jclic.js/cantante.gif",
+    "jclic.js/cientifico.gif",
+    "jclic.js/clapping.wav",
+    "jclic.js/conductor.gif",
+    "jclic.js/escritor.gif",
+    "jclic.js/espana_edited.jpg",
+    "jclic.js/estudiante.gif",
+    "jclic.js/francia3_edited.jpg",
+    "jclic.js/grecia.gif",
+    "jclic.js/himno_de_la_alegria___bethoven.mp3",
+    "jclic.js/imagine_en_espanol.gif",
+    "jclic.js/inglaterra.gif",
+    "jclic.js/italia.gif",
+    "jclic.js/jugador_de_futbol.gif",
+    "jclic.js/jugadora_de_baloncesto.gif",
+    "jclic.js/profesor.gif",
+    "jclic.js/the_beatels___john_lennon___imagine.mp3",
+    "jclic.js/tobe.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/tobe.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

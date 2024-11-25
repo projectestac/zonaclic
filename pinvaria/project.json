@@ -1,0 +1,118 @@
+{
+  "id": 1056,
+  "title": "Partes invariables de la oración",
+  "author": "Miriam Castillo Castillo",
+  "school": "Escuela Cardenal José María Caro Coquimbo (Xile)",
+  "date": "13/06/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua castellana",
+    "es": "aprendizaje de la lengua, lengua castellana",
+    "en": "learning of the language, Spanish language"
+  },
+  "descCodes": [
+    110,
+    132
+  ],
+  "description": {
+    "en": "Package of activities about the parts of the sentence. The application has 4 parts: \n<ul> \n <li>Conjunctions </li>\n <li>Adverbs </li>\n <li>Prepositions </li>\n <li>Interjections </li>\n</ul>",
+    "ca": "Paquets d'activitats sobre les parts invariables de l'oració gramatical. L'aplicació s'estructura en quatre parts: \n<ul> \n <li>Conjuncions </li>\n <li>Adverbis </li>\n <li>Preposicions </li>\n <li>Interjeccions </li>\n</ul>",
+    "es": "Paquetes de actividades sobre las partes invariables de la oración gramatical. La aplicación se estructura en cuatro partes: \n<ul> \n <li>Conjunciones </li>\n <li>Adverbios </li>\n <li>Preposiciones </li>\n <li>Interjecciones </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/pinvaria.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pinvaria.jclic.zip",
+  "instFile": "jclic/pinvaria.jclic.inst",
+  "clicZoneId": 2226,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2226",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pinvaria/jclic/pinvaria.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 38,
+  "mediaFiles": 30,
+  "totalSize": 2312031,
+  "files": [
+    "cover.gif",
+    "jclic.js/adverbio/adverbio.jclic",
+    "jclic.js/adverbio/genial.wav",
+    "jclic.js/adverbio/grande.wav",
+    "jclic.js/adverbio/muybien.wav",
+    "jclic.js/adverbio/perfec.wav",
+    "jclic.js/adverbio/tepasas.wav",
+    "jclic.js/conjunc/conjunc.jclic",
+    "jclic.js/conjunc/grande.wav",
+    "jclic.js/conjunc/muybien.wav",
+    "jclic.js/conjunc/perfec.wav",
+    "jclic.js/interjec/bravo.gif",
+    "jclic.js/interjec/caramba.gif",
+    "jclic.js/interjec/cuidado.gif",
+    "jclic.js/interjec/genial.wav",
+    "jclic.js/interjec/grande.wav",
+    "jclic.js/interjec/hurra.gif",
+    "jclic.js/interjec/huy.gif",
+    "jclic.js/interjec/interay.gif",
+    "jclic.js/interjec/interjec.jclic",
+    "jclic.js/interjec/muybien.wav",
+    "jclic.js/interjec/oh.gif",
+    "jclic.js/interjec/puf.gif",
+    "jclic.js/interjec/tepasas.wav",
+    "jclic.js/pinvaria.jclic",
+    "jclic.js/preposic/baila.gif",
+    "jclic.js/preposic/cantpara.gif",
+    "jclic.js/preposic/cigcon.gif",
+    "jclic.js/preposic/genial.wav",
+    "jclic.js/preposic/grande.wav",
+    "jclic.js/preposic/hombtele.gif",
+    "jclic.js/preposic/lanzar.gif",
+    "jclic.js/preposic/muybien.wav",
+    "jclic.js/preposic/perfec.wav",
+    "jclic.js/preposic/preposic.jclic",
+    "jclic.js/preposic/velerhas.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pinvaria.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/adverbio/adverbio.jclic.js",
+    "jclic.js/conjunc/conjunc.jclic.js",
+    "jclic.js/interjec/interjec.jclic.js",
+    "jclic.js/preposic/preposic.jclic.js",
+    "cover.webp"
+  ]
+}

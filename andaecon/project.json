@@ -1,0 +1,124 @@
+{
+  "id": 1363,
+  "title": "Actividades económicas de Andalucía",
+  "author": "Manuel Martín Gálvez",
+  "school": "CPM de Educación de Adultos \"Juan Rodríguez Pintor\" Motril - Granada (Andalucía)",
+  "date": "13/05/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "economia",
+    "es": "economía",
+    "en": "economy"
+  },
+  "descCodes": [
+    211
+  ],
+  "description": {
+    "en": "Clic activities about Andalusia's economy.",
+    "ca": "Conjunt d'activitats per a reforçar, bàsicament, el coneixement de la realitat econòmica d'Andalusia i aportar suficient informació per tenir judicis de valor propis sobre la realitat a la que està immersa la comunitat autònoma.",
+    "es": "Conjunto de actividades para reforzar, básicamente, el conocimiento de la realidad económica de Andalucía y aportar suficiente información para tener juicios de valor propios sobre la realidad en la que está inmersa la comunidad autónoma."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/andaecon.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/andaecon.jclic.zip",
+  "instFile": "jclic/andaecon.jclic.inst",
+  "clicZoneId": 3105,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3105",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/andaecon/jclic/andaecon.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 41,
+  "mediaFiles": 45,
+  "totalSize": 2834919,
+  "files": [
+    "cover.gif",
+    "jclic.js/1cajas_1.gif",
+    "jclic.js/algecira.gif",
+    "jclic.js/algodon.gif",
+    "jclic.js/alhambra.gif",
+    "jclic.js/andaecon.jclic",
+    "jclic.js/arroz.gif",
+    "jclic.js/atun.gif",
+    "jclic.js/ave.gif",
+    "jclic.js/avion.gif",
+    "jclic.js/bodega.gif",
+    "jclic.js/boqueron.gif",
+    "jclic.js/bus.gif",
+    "jclic.js/caballo.gif",
+    "jclic.js/caballo.wav",
+    "jclic.js/cabra.gif",
+    "jclic.js/cabra.wav",
+    "jclic.js/carbon.gif",
+    "jclic.js/carnicer.gif",
+    "jclic.js/cereales.gif",
+    "jclic.js/cobre.gif",
+    "jclic.js/ecopres1.gif",
+    "jclic.js/ecopres2.gif",
+    "jclic.js/frutales.gif",
+    "jclic.js/girasol.gif",
+    "jclic.js/guadalqu.gif",
+    "jclic.js/hortaliz.gif",
+    "jclic.js/hortalizas.gif",
+    "jclic.js/malaga.gif",
+    "jclic.js/mapa.gif",
+    "jclic.js/marisco.gif",
+    "jclic.js/mercadil.gif",
+    "jclic.js/metalico.gif",
+    "jclic.js/olivo.gif",
+    "jclic.js/oveja.gif",
+    "jclic.js/oveja.wav",
+    "jclic.js/panora_1.gif",
+    "jclic.js/plomo.gif",
+    "jclic.js/riotinto.gif",
+    "jclic.js/sardina.gif",
+    "jclic.js/sevilla.gif",
+    "jclic.js/tomates.gif",
+    "jclic.js/turismo.gif",
+    "jclic.js/vaca.gif",
+    "jclic.js/vaca.wav",
+    "jclic.js/vid.gif",
+    "jclic.js/zapateri.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/andaecon.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

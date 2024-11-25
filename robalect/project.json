@@ -1,0 +1,125 @@
+{
+  "id": 1732,
+  "title": "Activitats de lectura i escriptura (La roba)",
+  "author": "José Luis Lázaro Cantabrana",
+  "school": "Escola Serrallo Tarragona",
+  "date": "29/01/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "lectura, lectoescriptura",
+    "es": "lectura, lectoescritura",
+    "en": "reading, reading and writting skills"
+  },
+  "descCodes": [
+    125,
+    920
+  ],
+  "description": {
+    "en": "JClic activities about reading and writing about clothes, the food and class objects. The projects have three parts and it's addressed to kindergarden, primary education and newcoming pupils.\n<p> The images has been obtained from the dossier\"Les shops\" of the Departament d'Educació of Catalonia. </p>",
+    "ca": "Activitats de lectura i escriptura amb el lèxic del camp semàntic de les peces de vestir, les coses de la classe i els aliments. El projecte està adreçat a educació infantil, cicle inicial i aula d'acollida. Cadascun dels projectes està dividit en tres parts.\n<p> Imatges obtingudes del dossier \"Les botigues\" del Departament d'Educació: Seminaris d'assessorament didàctic de la llengua catalana. </p>",
+    "es": "Actividades de lectura y escritura con el léxico del campo semántico de las prendas de vesti, los alimentos y cosas de clase para infantil, ciclo inicial y aula de acogida. Los proyectos constan de tres partes.\n<p> Imágenes obtenidas del dossier \"les botigues\" del Departament d'Educació: Seminaris d'assessorament didàctic de la llengua catalana. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "alimlect",
+    "claslect"
+  ],
+  "mainFile": "jclic.js/robalect.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/robalect.jclic.zip",
+  "instFile": "jclic/robalect.jclic.inst",
+  "clicZoneId": 3434,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3434",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/robalect/jclic/robalect.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 31,
+  "mediaFiles": 40,
+  "totalSize": 914571,
+  "files": [
+    "cover.gif",
+    "jclic.js/abric.gif",
+    "jclic.js/abric.mp3",
+    "jclic.js/bota.gif",
+    "jclic.js/bota.mp3",
+    "jclic.js/bufanda.gif",
+    "jclic.js/bufanda.mp3",
+    "jclic.js/camisa.gif",
+    "jclic.js/camisa.mp3",
+    "jclic.js/cinturo.gif",
+    "jclic.js/cinturo.mp3",
+    "jclic.js/completa.mp3",
+    "jclic.js/copia.gif",
+    "jclic.js/copia_par.mp3",
+    "jclic.js/corbata.gif",
+    "jclic.js/corbata.mp3",
+    "jclic.js/faldilla.gif",
+    "jclic.js/faldilla.mp3",
+    "jclic.js/gorra.gif",
+    "jclic.js/gorra.mp3",
+    "jclic.js/guants.gif",
+    "jclic.js/guants.mp3",
+    "jclic.js/jaqueta.gif",
+    "jclic.js/jaqueta.mp3",
+    "jclic.js/jersei.gif",
+    "jclic.js/jersei.mp3",
+    "jclic.js/mb.mp3",
+    "jclic.js/mitjons.gif",
+    "jclic.js/mitjons.mp3",
+    "jclic.js/nom_img.gif",
+    "jclic.js/pantalons.gif",
+    "jclic.js/pantalons.mp3",
+    "jclic.js/portada.jpg",
+    "jclic.js/rel_nom_img.mp3",
+    "jclic.js/robalect.jclic",
+    "jclic.js/sabata.gif",
+    "jclic.js/sabata.mp3",
+    "jclic.js/samarreta.gif",
+    "jclic.js/samarreta.mp3",
+    "jclic.js/so_img.gif",
+    "jclic.js/tria_act.mp3",
+    "jclic.js/tria_opcio.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/robalect.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

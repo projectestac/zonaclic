@@ -1,0 +1,127 @@
+{
+  "id": 2097,
+  "title": "Janari motak",
+  "author": "Mamen Sánchez-Migallón Egea",
+  "school": "Colegio Antonio Machado Zaragoza (Aragón)",
+  "date": "02/04/14",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aliments, nutrició",
+    "es": "alimentos, nutrición",
+    "en": "foods, nutrition"
+  },
+  "descCodes": [
+    49,
+    91
+  ],
+  "description": {
+    "en": "Project activities to learn the different types of foods: \n<ul> \n <li>lactic </li>\n <li>fats </li>\n <li>carbohydrates </li>\n <li>proteins </li>\n <li>fruits and vegetables </li>\n</ul>",
+    "ca": "Projecte d'activitats per aprendre els tipus d'aliments i la seva classificació: \n<ul> \n <li>làctics </li>\n <li>greixos </li>\n <li>hidrats de carboni </li>\n <li>proteïnes </li>\n <li>fruites i verdures </li>\n</ul>",
+    "es": "Proyecto de actividades para aprender los diferentes tipos de alimentos que existen y cómo se clasifican: \n<ul> \n <li>lácticos </li>\n <li>grasas </li>\n <li>hidratos de carbono </li>\n <li>proteínas </li>\n <li>frutas y verduras </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "taliment"
+  ],
+  "mainFile": "jclic.js/talim_eu.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/talim_eu.jclic.zip",
+  "instFile": "jclic/talim_eu.jclic.inst",
+  "clicZoneId": 3656,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3656",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/talim_eu/jclic/talim_eu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 44,
+  "totalSize": 488972,
+  "files": [
+    "cover.jpg",
+    "jclic.js/aceite.jpg",
+    "jclic.js/actimel.jpg",
+    "jclic.js/alcachofa.jpg",
+    "jclic.js/bizcocho.jpg",
+    "jclic.js/boquerones.jpg",
+    "jclic.js/brecol.jpg",
+    "jclic.js/carne.jpg",
+    "jclic.js/cebolla.jpg",
+    "jclic.js/cereales.jpg",
+    "jclic.js/chorico.jpg",
+    "jclic.js/chuleta.jpg",
+    "jclic.js/dieta.jpg",
+    "jclic.js/galletas.jpg",
+    "jclic.js/huevos.jpg",
+    "jclic.js/kiwi.jpg",
+    "jclic.js/leche.jpg",
+    "jclic.js/leche2.jpg",
+    "jclic.js/lechuga.jpg",
+    "jclic.js/lenguado.jpg",
+    "jclic.js/lentejas.jpg",
+    "jclic.js/macarrones.jpg",
+    "jclic.js/manteca.jpg",
+    "jclic.js/mantequilla.jpg",
+    "jclic.js/manzana.jpg",
+    "jclic.js/melon.jpg",
+    "jclic.js/naranja.jpg",
+    "jclic.js/pan.jpg",
+    "jclic.js/panes.jpg",
+    "jclic.js/pera.jpg",
+    "jclic.js/pescado.jpg",
+    "jclic.js/pescado2.jpg",
+    "jclic.js/pizza.jpg",
+    "jclic.js/platano.jpg",
+    "jclic.js/pollo.jpg",
+    "jclic.js/queso.jpg",
+    "jclic.js/queso2.jpg",
+    "jclic.js/sandia.jpg",
+    "jclic.js/talim_eu.jclic",
+    "jclic.js/tarta.jpg",
+    "jclic.js/tomate.jpg",
+    "jclic.js/tortilla.jpg",
+    "jclic.js/trigo.jpg",
+    "jclic.js/yogurt.jpg",
+    "jclic.js/zanahoria.jpg",
+    "jclic.js/zumo.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/talim_eu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": 1768,
+  "title": "El Bages",
+  "author": "Joan Martínez Fuentes",
+  "school": "C Manuel Oms i de Prat Manresa (Bages)",
+  "date": "13/05/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "Bages",
+    "es": "Bages",
+    "en": "Bages"
+  },
+  "descCodes": [
+    469
+  ],
+  "description": {
+    "en": "Set of 45 JClic activities about the region of Bages addressed to primary education. The activities are classified into three sections or blocks.",
+    "ca": "Projecte de 45 activitats sobre la comarca del Bages destinat a alumnes de 4t de primària.\n<p> Les activitats estan classificades en tres apartats o blocs: un primer on se situa la comarca i les altres que l'envolten (amb capitals). Un segon amb activitats relacionades amb el relleu i, un tercer amb activitats variades, encreuats, llegendes, sopa de lletres... </p>",
+    "es": "Proyecto de 45 actividades sobre la comarca del Bages destinado a alumnado de 4º de primaria. \n<p>Las actividades están clasificadas en tres apartados o bloques: un primero donde se sitúa la comarca y las otras que la rodean (con capitales). Un segundo con actividades relacionadas con el relieve y, un tercero con actividades variadas, crucigramas, leyendas, sopas de letras... </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/bages.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/bages.jclic.zip",
+  "instFile": "jclic/bages.jclic.inst",
+  "clicZoneId": 3465,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3465",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/bages/jclic/bages.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 47,
+  "mediaFiles": 39,
+  "totalSize": 1752078,
+  "files": [
+    "cover.jpg",
+    "jclic.js/aigua_d_ora.gif",
+    "jclic.js/anoia.gif",
+    "jclic.js/artes.jpg",
+    "jclic.js/bages.gif",
+    "jclic.js/bages.jclic",
+    "jclic.js/bergueda.gif",
+    "jclic.js/bgsrelleu.gif",
+    "jclic.js/bgsrelleurius.gif",
+    "jclic.js/bllobregat.gif",
+    "jclic.js/cardener.jpg",
+    "jclic.js/cardona.jpg",
+    "jclic.js/comarques.jpg",
+    "jclic.js/ecoballant.gif",
+    "jclic.js/emoticon23.gif",
+    "jclic.js/llobregat.jpg",
+    "jclic.js/manresa.jpg",
+    "jclic.js/mapa_comarques.gif",
+    "jclic.js/montserrat_1.jpg",
+    "jclic.js/montserrat_pral.jpg",
+    "jclic.js/mura1.jpg",
+    "jclic.js/musique_celtique.mp3",
+    "jclic.js/osona.gif",
+    "jclic.js/planol_bages.png",
+    "jclic.js/portada_2.jpg",
+    "jclic.js/rcalders.gif",
+    "jclic.js/rcardener.gif",
+    "jclic.js/rellebages1.gif",
+    "jclic.js/rfonollosa.gif",
+    "jclic.js/rgavaressa.gif",
+    "jclic.js/rguardiola.gif",
+    "jclic.js/riu_cardoner.jpg",
+    "jclic.js/rllobregat.gif",
+    "jclic.js/rrajadell.gif",
+    "jclic.js/rsalo.gif",
+    "jclic.js/santpedor.jpg",
+    "jclic.js/so_aplaudiment.mp3",
+    "jclic.js/solsones.gif",
+    "jclic.js/suri.gif",
+    "jclic.js/voccidental.gif",
+    "jclic.js/voriental.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/bages.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

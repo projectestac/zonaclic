@@ -1,0 +1,95 @@
+{
+  "id": 1534,
+  "title": "Guerra civil espanyola (català)",
+  "author": "David Méndez García i Paula García García-Tenorio",
+  "school": "IES Gonzalo Torrente Ballester San Sebastián de los Reyes, CEPAPUB Coslada Coslada (Madrid)",
+  "date": "13/05/15",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "guerra civil",
+    "es": "guerra civil",
+    "en": "civil war"
+  },
+  "descCodes": [
+    244
+  ],
+  "description": {
+    "en": "JClic activities included in a \n<a href=\"http://personales.ya.com/educativo/marcogeneralcoslada.htm\">WebQuest</a> about the Spanish Civil War addressed to students of secondary education.",
+    "ca": "Activitats JClic dissenyades per formar part d'una \n<a href=\"http://personales.ya.com/educativo/marcogeneralcoslada.htm\">WebQuest</a> sobre la guerra civil espanyola per a alumnes de 4t d'ESO i educació bàsica per adults.,",
+    "es": "Actividades JClic diseñadas para ser incluidas en una \n<a href=\"http://personales.ya.com/educativo/marcogeneralcoslada.htm\">WebQuest</a> sobre la guerra civil española para alumnos de 4º de ESO y educación básica de adultos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "gcivil"
+  ],
+  "mainFile": "jclic.js/gcivil_ca.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/gcivil_ca.jclic.zip",
+  "instFile": "jclic/gcivil_ca.jclic.inst",
+  "clicZoneId": 3261,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3261",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/gcivil_ca/jclic/gcivil_ca.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 13,
+  "totalSize": 680688,
+  "files": [
+    "cover.jpg",
+    "jclic.js/bandera_franquista.jpg",
+    "jclic.js/bandera_repuclicana.jpg",
+    "jclic.js/esglesia_manlleu_resized.jpg",
+    "jclic.js/gcivil_ca.jclic",
+    "jclic.js/guardia_assalt.jpg",
+    "jclic.js/mapa1936.jpg",
+    "jclic.js/mapa1937.jpg",
+    "jclic.js/mapa1938.jpg",
+    "jclic.js/mapa1939.jpg",
+    "jclic.js/mapaespana1936.gif",
+    "jclic.js/mapaespana1936_2.gif",
+    "jclic.js/mapas1936_1939.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/rep29.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/gcivil_ca.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

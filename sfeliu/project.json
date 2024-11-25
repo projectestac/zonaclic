@@ -1,0 +1,111 @@
+{
+  "id": 2175,
+  "title": "Festa de la tardor, Sant Feliu de Llobregat",
+  "author": "Imma Piqué Codina",
+  "school": "Escola Arquitecte Gaudí Sant Feliu de Llobregat (Baix Llobregat)",
+  "date": "12/09/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "cultura popular, folklore",
+    "es": "cultura popular, folklore",
+    "en": "popular culture, folklore"
+  },
+  "descCodes": [
+    196,
+    804
+  ],
+  "description": {
+    "en": "Project activities addressed to kindergarden an first cycle of Primary education to enjoy the autumn festival of Sant Feliu de Llobregat and see the giants, the dragon, the big heads, the music, the storytelling and traditional songs from this party.",
+    "ca": "Projecte d'activitats JClic adreçat a P5 i primer curs d'educació primària, per gaudir de la festa de la tardor de Sant Feliu de Llobregat i conèixer els gegants, el drac, els capgrossos, la música , els contes i les cançons tradicionals d'aquesta festa.",
+    "es": "Proyecto de actividades JClic dirigido a P5 y primer curso de educación primara, para disfrutar de la fiesta de otoño de Sant Feliu de Llobregat y conocer los gigantes, el dragón, los cabezudos, la música, los cuentos y las canciones tradicionales de esta fiesta."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sfeliu.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sfeliu.jclic.zip",
+  "instFile": "jclic/sfeliu.jclic.inst",
+  "clicZoneId": 3711,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3711",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sfeliu/jclic/sfeliu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 31,
+  "totalSize": 6363604,
+  "files": [
+    "cover.jpg",
+    "jclic.js/acoseguit.mp3",
+    "jclic.js/cuento1_1.jpg",
+    "jclic.js/cuento2_2.jpg",
+    "jclic.js/cuento4_2.jpg",
+    "jclic.js/cuento7_2.jpg",
+    "jclic.js/cuento8_2.jpg",
+    "jclic.js/el_drac.mp3",
+    "jclic.js/el_drac_3.jpg",
+    "jclic.js/i01_ball_de_nans.mp3",
+    "jclic.js/i01_banyetes.mp3",
+    "jclic.js/i01_banyetes_rebanyuda.jpg",
+    "jclic.js/i01_bernat_i_candelera.jpg",
+    "jclic.js/i01_bufo.jpg",
+    "jclic.js/i01_capgrossos.jpg",
+    "jclic.js/i01_clau.jpg",
+    "jclic.js/i01_garsa.jpg",
+    "jclic.js/i01_garsa.mp3",
+    "jclic.js/i01_gegants.mp3",
+    "jclic.js/i01_gegants1.jpg",
+    "jclic.js/i01_gegants2.jpg",
+    "jclic.js/i01_guillem.jpg",
+    "jclic.js/i01_mag.jpg",
+    "jclic.js/i01_mamelluda.jpg",
+    "jclic.js/i01_mula.jpg",
+    "jclic.js/i01_mula.mp3",
+    "jclic.js/i01_soldat.jpg",
+    "jclic.js/i01_violant.jpg",
+    "jclic.js/i02_el_drac.mp3",
+    "jclic.js/i02_el_drac_2.jpg",
+    "jclic.js/moltbe.mp3",
+    "jclic.js/sfeliu.jclic",
+    "jclic.js/tornaaprovar.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sfeliu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

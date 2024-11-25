@@ -1,0 +1,100 @@
+{
+  "id": 1150,
+  "title": "Personas, animales y plantas",
+  "author": "Francisco Esteve Herrero",
+  "school": "CP El Paseo Caudete (Albacete)",
+  "date": "11/06/04",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "plantes, animals",
+    "es": "plantas, animales",
+    "en": "plants, animales"
+  },
+  "descCodes": [
+    96,
+    1160
+  ],
+  "description": {
+    "en": "This package is based in the book \n<i>Nuevo proyecto tierra</i>, of SM Publishing house.\n<br> The package is addressed to Primary school.",
+    "ca": "Activitat clic basada en el tema \"Personas, animales y plantas\" del llibre \n<i>Nuevo Proyecto Tierra</i> de l'Editorial SM. \n<br>El paquet està adreçat a alumnes de 3r de Primària.",
+    "es": "Actividad clic basada en el tema \"Personas, animales y plantas\" del libro \n<i>Nuevo Proyecto Tierra</i> de la Editorial SM. \n<br>El paquete está dirigido a alumnos de 3º de Primaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/payp.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/payp.jclic.zip",
+  "instFile": "jclic/payp.jclic.inst",
+  "clicZoneId": 2581,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2581",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/payp/jclic/payp.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 20,
+  "totalSize": 423485,
+  "files": [
+    "cover.gif",
+    "jclic.js/aguila.jpg",
+    "jclic.js/aguila2.gif",
+    "jclic.js/arbol.gif",
+    "jclic.js/camaleon.jpg",
+    "jclic.js/ciervo.gif",
+    "jclic.js/conejo.jpg",
+    "jclic.js/espa_a.jpg",
+    "jclic.js/f.jpg",
+    "jclic.js/fe.jpg",
+    "jclic.js/gato.gif",
+    "jclic.js/humanos.jpg",
+    "jclic.js/incendio.gif",
+    "jclic.js/lechuga.gif",
+    "jclic.js/lobo.jpg",
+    "jclic.js/oso.jpg",
+    "jclic.js/payp.jclic",
+    "jclic.js/plantar.gif",
+    "jclic.js/plantas.jpg",
+    "jclic.js/pulpo.gif",
+    "jclic.js/rabanos.gif",
+    "jclic.js/raton.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/payp.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

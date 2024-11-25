@@ -1,0 +1,107 @@
+{
+  "id": 2380,
+  "title": "¡Nos vamos a la ópera!",
+  "author": "Manuel J. Martínez Pérez",
+  "school": "CEIP \"Calzada Romana\" Puebla de la Calzada (Extremadura)",
+  "date": "26/03/15",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la música, òpera",
+    "es": "aprendizaje de la música, opera",
+    "en": "learning of music, opera"
+  },
+  "descCodes": [
+    717,
+    1374
+  ],
+  "description": {
+    "en": "This project will help us enter the world of opera conducting a series of activities that in a fun and easy going to have a rough idea of this wonderful world.",
+    "ca": "Aquest projecte ens ajudarà a introduir-nos al món de l'òpera realitzant una sèrie d'activitats amb les que, de forma lúdica i senzilla, tindrem una idea aproximada d'aquest meravellós món del bell cant.",
+    "es": "Este proyecto nos va a ayudar a introducirnos en el mundo de la ópera realizando una serie de actividades con las que, de forma lúdica y sencilla, vamos a tener una idea aproximada de este maravilloso mundo del bello canto."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/opera4.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/opera4.jclic.zip",
+  "instFile": "jclic/opera4.jclic.inst",
+  "clicZoneId": 3885,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3885",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/opera4/jclic/opera4.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 27,
+  "totalSize": 1017541,
+  "files": [
+    "cover.png",
+    "jclic.js/beethoven.jpg",
+    "jclic.js/bizet.jpg",
+    "jclic.js/boheme_gelida.mp3",
+    "jclic.js/brindistrav.mp3",
+    "jclic.js/cantante_gracioso.jpg",
+    "jclic.js/cantante_opera.jpg",
+    "jclic.js/carmen_toreador2.mp3",
+    "jclic.js/clave_de_sol2.jpg",
+    "jclic.js/corchea.gif",
+    "jclic.js/coro_ninos_dibjo.jpg",
+    "jclic.js/coro_vacas.jpg",
+    "jclic.js/director_orquesta.jpg",
+    "jclic.js/esquema_orquesta_2.jpg",
+    "jclic.js/gramola.gif",
+    "jclic.js/joven_cantante.jpg",
+    "jclic.js/mflute_vogelfanger.mp3",
+    "jclic.js/mozart.jpg",
+    "jclic.js/opera4.jclic",
+    "jclic.js/opera_sidney.jpg",
+    "jclic.js/pajaros_cantantes.jpg",
+    "jclic.js/puccini.jpg",
+    "jclic.js/rigoletto_donna.mp3",
+    "jclic.js/rossini.jpg",
+    "jclic.js/royaloperahouse.jpg",
+    "jclic.js/tosca_recondita.mp3",
+    "jclic.js/trovatore_di.mp3",
+    "jclic.js/turandot_puccini.jpg",
+    "jclic.js/verdi.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/opera4.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

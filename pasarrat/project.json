@@ -1,0 +1,93 @@
+{
+  "id": 23,
+  "title": "Pasarratos",
+  "author": "Daniel María López Arroyo i Pascual Colón",
+  "school": "C San Francisco de Paula Sevilla (Andalucía), CP El Llano Monesterio (Extremadura)",
+  "date": "08/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "joc",
+    "es": "juego",
+    "en": "game"
+  },
+  "descCodes": [
+    917
+  ],
+  "description": {
+    "en": "Entertaining activities designed to give the student a good time while working with computers.",
+    "ca": "Es tracta d'un conjunt d'exercicis d'entreteniment (sopes de lletres, puzzles, mots encreuats...) dirigits al 3er cicle de primària, amb l'objectiu de passar una bona estona aprenent amb l'ordinador.",
+    "es": "Se trata de una serie de ejercicios de entretenimiento (sopas de letras, puzzles, crucigramas...) dirigidos al 3er ciclo de primaria, con el objetivo de pasar un buen rato aprendiendo con el ordenador."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/pasarrat.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pasarrat.jclic.zip",
+  "instFile": "jclic/pasarrat.jclic.inst",
+  "clicZoneId": 1010,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1010",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pasarrat/jclic/pasarrat.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 14,
+  "totalSize": 1904310,
+  "files": [
+    "cover.gif",
+    "jclic.js/apil.gif",
+    "jclic.js/ba_o.gif",
+    "jclic.js/barbi.wav",
+    "jclic.js/be.wav",
+    "jclic.js/bien.wav",
+    "jclic.js/casado.gif",
+    "jclic.js/corona.gif",
+    "jclic.js/danpas.gif",
+    "jclic.js/explica.gif",
+    "jclic.js/explica2.gif",
+    "jclic.js/fenom.wav",
+    "jclic.js/pasarrat.jclic",
+    "jclic.js/portada.gif",
+    "jclic.js/reojo.gif",
+    "jclic.js/vamos.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pasarrat.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

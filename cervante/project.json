@@ -1,0 +1,88 @@
+{
+  "id": 326,
+  "title": "Miguel de Cervantes y el Quijote",
+  "author": "Juan Manuel López González",
+  "school": "CPR José Castillejo de Ciudad Real Ciudad Real (Castilla y León)",
+  "date": "16/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, literatura castellana",
+    "es": "lengua castellana, literatura castellana",
+    "en": "Spanish language, Castilian Literature"
+  },
+  "descCodes": [
+    132,
+    626
+  ],
+  "description": {
+    "en": "Activity pack that helps students get motivated about reading \"El ingenioso hidalgo Don Quijote de la Mancha\". It includes a biography, poetical works, dramas, narratives...",
+    "ca": "Aquesta aplicació pretén ser un material que animi a la lectura del Quixot. Les activitats tracten de la vida i l'obra de Miguel de Cervantes, la seva biografia i les obres poètiques, dramàtiques i narratives que va escriure, amb un apartat especial dedicat a \"El ingenioso hidalgo Don Quijote de la Mancha\".",
+    "es": "Esta aplicación pretende ser un material que anime a la lectura del Quijote. Las actividades versan sobre la vida y la obra de Miguel de Cervantes, aspectos de su biografía y obras poéticas, dramáticas y narrativas que escribió, con una especial atención a \"El ingenioso hidalgo Don Quijote de la Mancha\"."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cervante.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cervante.jclic.zip",
+  "instFile": "jclic/cervante.jclic.inst",
+  "clicZoneId": 1179,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1179",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cervante/jclic/cervante.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 37,
+  "mediaFiles": 8,
+  "totalSize": 552756,
+  "files": [
+    "cover.gif",
+    "jclic.js/1_001r.gif",
+    "jclic.js/1_ar.gif",
+    "jclic.js/bac_a.gif",
+    "jclic.js/bac_a2.gif",
+    "jclic.js/baroque.wav",
+    "jclic.js/c2.gif",
+    "jclic.js/c3.gif",
+    "jclic.js/cervante.jclic",
+    "jclic.js/yelmo.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cervante.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": 755,
+  "title": "Paisaje y territorio",
+  "author": "Juan José Mateo Molina",
+  "school": "CP El Olivar Rivas - Vaciamadrid (Madrid)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia, indústria, transport",
+    "es": "geografía, industria, transporte",
+    "en": "geography, industry, transport"
+  },
+  "descCodes": [
+    235,
+    266,
+    354
+  ],
+  "description": {
+    "en": "Activity pack about the knowledge of our environment. It contains: \n<ul> \n <li>Landscape </li>\n <li>Climate and landscape </li>\n <li>Industry </li>\n <li>Transport and communications </li>\n <li>The territory </li>\n</ul> You'll find more information in the pages \n<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">\"Aplicaciones educativas\"</a></b>.",
+    "ca": "Paquet d'activitats adreçat a l'àrea de coneixement del medi, amb cinc unitats temàtiques: \n<ul> \n <li>El paisatge: relleus i costes </li>\n <li>El clima i el paisatge </li>\n <li>La indústria </li>\n <li>Els transports i les comunicacions </li>\n <li>El territori </li>\n</ul> Trobareu més informació a la web d'\n<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo.",
+    "es": "Paquete de actividades dirigido al área de conocimiento del medio, con cinco unidades temáticas: \n<ul> \n <li>El paisaje: relieves y costas </li>\n <li>El clima y el paisaje </li>\n <li>La industria </li>\n <li>Los transportes y las comunicaciones </li>\n <li>El territorio </li>\n</ul> Encontraréis más información en la web de \n<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/payte.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/payte.jclic.zip",
+  "instFile": "jclic/payte.jclic.inst",
+  "clicZoneId": 1411,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1411",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/payte/jclic/payte.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 69,
+  "mediaFiles": 24,
+  "totalSize": 730944,
+  "files": [
+    "cover.jpg",
+    "jclic.js/an_ve.gif",
+    "jclic.js/autor.gif",
+    "jclic.js/bandera.gif",
+    "jclic.js/cl_esp.gif",
+    "jclic.js/espa_a.gif",
+    "jclic.js/girl.mid",
+    "jclic.js/herra.jpg",
+    "jclic.js/hispasat.gif",
+    "jclic.js/i.gif",
+    "jclic.js/i1.gif",
+    "jclic.js/i2.gif",
+    "jclic.js/i3.gif",
+    "jclic.js/i4.gif",
+    "jclic.js/i5.gif",
+    "jclic.js/imagine.mid",
+    "jclic.js/pa_n.jpg",
+    "jclic.js/pa_nat.jpg",
+    "jclic.js/pa_t.jpg",
+    "jclic.js/pa_t2.jpg",
+    "jclic.js/paisaje.jpg",
+    "jclic.js/payte.jclic",
+    "jclic.js/pluvio.gif",
+    "jclic.js/termo.gif",
+    "jclic.js/tierra.gif",
+    "jclic.js/z_cli.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/payte.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

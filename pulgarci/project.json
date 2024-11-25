@@ -1,0 +1,127 @@
+{
+  "id": 279,
+  "title": "Pulgarcito",
+  "author": "Pere Bassach Pérez Dibuixos: Anna Mont-ros Dalmau i Sònia Clara",
+  "school": "CEE Font de l'Abella Girona",
+  "date": "15/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, llengua catalana, conte",
+    "es": "lengua castellana, lengua catalana, cuento",
+    "en": "Spanish language, Catalan language, story"
+  },
+  "descCodes": [
+    132,
+    133,
+    614
+  ],
+  "description": {
+    "en": "Activity pack about the Catalan children story \"En Patufet\".",
+    "ca": "Paquet d'activitats al voltant del conte d'en Patufet. Primer s'explica el conte amb dibuixos de les escenes i després es proposen diverses activitats de lectoescriptura i trencaclosques amb les imatges.",
+    "es": "Paquete de actividades relacionadas con el cuento popular catalán \"En Patufet\" (Pulgarcito). Primero se explica el cuento con dibujos de las escenas y después se proponen distintas actividades de lectoescritura y puzzles con las imágenes."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "barbantx",
+    "patufet",
+    "patugal"
+  ],
+  "mainFile": "jclic.js/pulgarci.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pulgarci.jclic.zip",
+  "instFile": "jclic/pulgarci.jclic.inst",
+  "clicZoneId": 1150,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1150",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pulgarci/jclic/pulgarci.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 71,
+  "mediaFiles": 40,
+  "totalSize": 506206,
+  "files": [
+    "cover.gif",
+    "jclic.js/3pernom.gif",
+    "jclic.js/3pernomb.gif",
+    "jclic.js/3pernomc.gif",
+    "jclic.js/4pernom.gif",
+    "jclic.js/4pernomb.gif",
+    "jclic.js/5pernom.gif",
+    "jclic.js/5pernomb.gif",
+    "jclic.js/botig3.gif",
+    "jclic.js/botig5.gif",
+    "jclic.js/bou.gif",
+    "jclic.js/bou3.gif",
+    "jclic.js/bou4.gif",
+    "jclic.js/centim2.gif",
+    "jclic.js/centim3.gif",
+    "jclic.js/centim4.gif",
+    "jclic.js/cistell4.gif",
+    "jclic.js/cistell5.gif",
+    "jclic.js/cistell9.gif",
+    "jclic.js/col.gif",
+    "jclic.js/col3.gif",
+    "jclic.js/col4.gif",
+    "jclic.js/escena01.gif",
+    "jclic.js/escena02.gif",
+    "jclic.js/escena03.gif",
+    "jclic.js/escena04.gif",
+    "jclic.js/escena05.gif",
+    "jclic.js/escena06.gif",
+    "jclic.js/escena07.gif",
+    "jclic.js/escena08.gif",
+    "jclic.js/escena09.gif",
+    "jclic.js/mare3.gif",
+    "jclic.js/mare5.gif",
+    "jclic.js/moltb.gif",
+    "jclic.js/pare.gif",
+    "jclic.js/pare3.gif",
+    "jclic.js/patuf3.gif",
+    "jclic.js/patufet.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/pulgarci.jclic",
+    "jclic.js/safra.gif",
+    "jclic.js/safra5.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pulgarci.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

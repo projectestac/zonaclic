@@ -1,0 +1,106 @@
+{
+  "id": 2101,
+  "title": "Fauna en Castilla - La Mancha",
+  "author": "Norah Martín-Macho Harrison",
+  "date": "24/01/11",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "animals salvatges",
+    "es": "animales salvages",
+    "en": "wild animals"
+  },
+  "descCodes": [
+    834
+  ],
+  "description": {
+    "en": "Project of activities about the fauna that lives among others, in the autonomous community of Castilla la Mancha (Spain). The main aim of the project is the environmental awareness with animals that are endangered such as the lynx.",
+    "ca": "Projecte d'activitats sobre la fauna que habita entre d'altres, a la comunitat autònoma de Castilla la Mancha. L'objectiu principal del projecte rau en la sensibilització ambiental vers animals que estan en perill d'extinció com el linx.",
+    "es": "Proyecto de actividades sobre la fauna que habita entre otras, en la comunidad autónoma de Castilla la Mancha. El objetivo principal del proyecto radica en la sensibilización ambiental con animales que están en peligro de extinción como es el lince."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/faunaclm.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/faunaclm.jclic.zip",
+  "instFile": "jclic/faunaclm.jclic.inst",
+  "clicZoneId": 3660,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3660",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/faunaclm/jclic/faunaclm.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 28,
+  "totalSize": 3286686,
+  "files": [
+    "cover.jpg",
+    "jclic.js/abejaruco_foto_resized1.jpg",
+    "jclic.js/aguila_imperial.mp3",
+    "jclic.js/avutarda_cortado.mp3",
+    "jclic.js/avutarda_foto_resized.jpg",
+    "jclic.js/buho_real.jpg",
+    "jclic.js/buho_real_41.jpg",
+    "jclic.js/buho_real_cortado_15.mp3",
+    "jclic.js/buho_real_portada_resized.jpg",
+    "jclic.js/buitre_negro.jpg",
+    "jclic.js/castilla_la_mancha.jpg",
+    "jclic.js/ciguena_negra3_recortada.jpg",
+    "jclic.js/elefante_africano.jpg",
+    "jclic.js/faunaclm.jclic",
+    "jclic.js/fin4.png",
+    "jclic.js/gato_comun.jpg",
+    "jclic.js/girafa.jpg",
+    "jclic.js/img_sapo_partero1.jpg",
+    "jclic.js/imperial_reducida.jpg",
+    "jclic.js/jilguero.jpg",
+    "jclic.js/lagarto_verdinegro.jpg",
+    "jclic.js/lince_cortado.mp3",
+    "jclic.js/lince_cria.jpg",
+    "jclic.js/lince_iberico1_300x222_lengua.jpg",
+    "jclic.js/lince_iberico_nacen_5.jpg",
+    "jclic.js/lobo_resized.jpg",
+    "jclic.js/lobo_resized1.jpg",
+    "jclic.js/pitroig_resized.jpg",
+    "jclic.js/salamandra_salamandra_00.jpg",
+    "jclic.js/tauro.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/faunaclm.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": 2320,
+  "title": "La Guerra de Successió a Catalunya",
+  "author": "Anna Gil, Anna Mora, Jordi Ortiz i Roger Petit",
+  "school": "Universitat Pompeu Fabra Barcelona",
+  "date": "03/03/14",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales",
+    "en": "Social sciences"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "description": {
+    "en": "Package of activities on the Spanish War of Succession in Catalonia for students in 1st and 2nd levels of Secondary Education. The activities are in different Romance languages (Catalan, Occitan, Spanish, French, Portuguese, Italian and Romanian)",
+    "ca": "Paquet d'activitats sobre la&nbsp;Guerra&nbsp;de&nbsp;Successió&nbsp;a Catalunya per treballar amb alumnes de 1r i 2n d'ESO mitjançant la intercomprensió de llengües romàniques (català, occità, castellà, francès, portuguès, italià i romanès).",
+    "es": "Paquete de actividades sobre la Guerra de Sucesión en Cataluña para trabajar con alumnos de 1 º y 2 º de ESO mediante la intercomprensión de lenguas románicas (catalán, occitano, castellano, francés, portugués, italiano y rumano)"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/gue_succ.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/gue_succ.jclic.zip",
+  "instFile": "jclic/gue_succ.jclic.inst",
+  "clicZoneId": 3829,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3829",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/gue_succ/jclic/gue_succ.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 16,
+  "totalSize": 5599171,
+  "files": [
+    "cover.png",
+    "jclic.js/098_monument_a_rafael_de_casanova__ronda_de_sant_pere_resized.jpg",
+    "jclic.js/antonio_de_villarroel.png",
+    "jclic.js/bcn_ciutadella.png",
+    "jclic.js/canco_popular_desembarcament.png",
+    "jclic.js/cano.png",
+    "jclic.js/carles_iii.png",
+    "jclic.js/cavalleria.png",
+    "jclic.js/constitucions_de_catalunya.png",
+    "jclic.js/estatut_1932.png",
+    "jclic.js/felipe_v_el_animoso.jpg",
+    "jclic.js/gravat_setge.png",
+    "jclic.js/gue_succ.jclic",
+    "jclic.js/idbh_resized.jpg",
+    "jclic.js/infanteria.png",
+    "jclic.js/mapa_europa_bandols.png",
+    "jclic.js/nova_planta.png",
+    "jclic.js/setge.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/gue_succ.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

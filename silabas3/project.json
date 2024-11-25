@@ -1,0 +1,133 @@
+{
+  "id": 249,
+  "title": "Sílabas",
+  "author": "Montserrat Vega Hors",
+  "school": "Escola Lluís Millet Santa Coloma de Gramenet (Barcelonès)",
+  "date": "12/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua catalana, lectoescriptura",
+    "es": "gramática, lengua catalana, lectoescritura",
+    "en": "grammar, Catalan language, reading and writting skills"
+  },
+  "descCodes": [
+    123,
+    133,
+    920
+  ],
+  "description": {
+    "en": "Activity pack about syllable counting for students whom are learning to read. The activities are organized in two levels, one with words with one or two syllables and the other with words of up to four syllables.",
+    "ca": "Aquest paquet està basat en una activitat que tot sovint fem amb els nostres alumnes en l'inici de l'aprenentatge de la lectoescriptura: comptar les síl·labes que conformen una paraula. Està adreçat a nens i nenes de 5 a 7 anys no necessàriament lectors, tot i que cada professor haurà de valorar-ne l'adequació als seus alumnes. S'organitza en dos nivells: paraules d'una o dues síl·labes i paraules de fins a quatre síl·labes. \n<br> Cal tenir l'ordinador configurat per a 256 colors.",
+    "es": "Este paquete se basa en una actividad que realizamos a menudo con nuestros alumnos en el inicio del aprendizaje de la lectoescritura: contar las sílabas que forman una palabra. Está dirigido a alumnos de 5 a 7 años no necesariamente lectores. Se organiza en dos niveles: palabras de una o dos sílabas y palabras de hasta cuatro sílabas. \n<br> Conviene tener la pantalla configurara a 256 colores."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "silabes"
+  ],
+  "mainFile": "jclic.js/silabas3.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/silabas3.jclic.zip",
+  "instFile": "jclic/silabas3.jclic.inst",
+  "clicZoneId": 1128,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1128",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/silabas3/jclic/silabas3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 48,
+  "totalSize": 235589,
+  "files": [
+    "cover.gif",
+    "jclic.js/1.gif",
+    "jclic.js/2.gif",
+    "jclic.js/3.gif",
+    "jclic.js/4.gif",
+    "jclic.js/ajuda.gif",
+    "jclic.js/armari.gif",
+    "jclic.js/astronau.gif",
+    "jclic.js/avio.gif",
+    "jclic.js/bici.gif",
+    "jclic.js/boca.gif",
+    "jclic.js/bus.gif",
+    "jclic.js/cadira.gif",
+    "jclic.js/camio.gif",
+    "jclic.js/cotxe.gif",
+    "jclic.js/dofi.gif",
+    "jclic.js/elefant.gif",
+    "jclic.js/final.gif",
+    "jclic.js/finestra.gif",
+    "jclic.js/globus.gif",
+    "jclic.js/gos.gif",
+    "jclic.js/helicop.gif",
+    "jclic.js/inici.gif",
+    "jclic.js/jardiner.gif",
+    "jclic.js/lleo.gif",
+    "jclic.js/llibre.gif",
+    "jclic.js/llimona.gif",
+    "jclic.js/llit.gif",
+    "jclic.js/llum.gif",
+    "jclic.js/lluna.gif",
+    "jclic.js/ma.gif",
+    "jclic.js/mecanic.gif",
+    "jclic.js/mestra.gif",
+    "jclic.js/moto.gif",
+    "jclic.js/nivell1.gif",
+    "jclic.js/nivell2.gif",
+    "jclic.js/nuvol.gif",
+    "jclic.js/os.gif",
+    "jclic.js/peu.gif",
+    "jclic.js/platans.gif",
+    "jclic.js/raim.gif",
+    "jclic.js/roda.gif",
+    "jclic.js/silabas3.jclic",
+    "jclic.js/sol.gif",
+    "jclic.js/submari.gif",
+    "jclic.js/taronja.gif",
+    "jclic.js/telefon.gif",
+    "jclic.js/tortuga.gif",
+    "jclic.js/tren.gif",
+    "jclic.js/ull.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/silabas3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

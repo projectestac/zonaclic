@@ -1,0 +1,105 @@
+{
+  "id": 2270,
+  "title": "Leia, la dragona fartona",
+  "author": "Maria Gambín i Lerma",
+  "school": "Escola La Masia Museros - València (Horta Nord)",
+  "date": "13/07/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages, Mathematics, Miscellaneous",
+    "ca": "Llengües, Matemàtiques, Diversos",
+    "es": "Lenguas, Matemáticas, Diversos"
+  },
+  "areaCodes": [
+    "lleng",
+    "mat",
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "aliments, lectoescriptura, nombres enters",
+    "es": "alimentos, lectoescritura, números enteros",
+    "en": "foods, reading and writting skills, integers"
+  },
+  "descCodes": [
+    49,
+    920,
+    1321
+  ],
+  "description": {
+    "en": "Project of activities for childs where they have to help the dragon Leia to solve problems and also play with her to solve puzzles, word searches, memory games...",
+    "ca": "Projecte d'activitats per als més petits on han d'ajudar a la dragona Leia a solventar alguns problemes, també jugar amb ella a resoldre puzles, sopes de lletres, jocs de memòria...",
+    "es": "Proyecto de actividades para los más pequeños donde han de ayudar a la dragona Leia a resolver algunos probelmas, también jugar con ella a resolver puzles, sopas de letras, juegos de memoria..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/dragona.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/dragona.jclic.zip",
+  "instFile": "jclic/dragona.jclic.inst",
+  "clicZoneId": 3785,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3785",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/dragona/jclic/dragona.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 22,
+  "totalSize": 1942705,
+  "files": [
+    "cover.png",
+    "jclic.js/1.jpg",
+    "jclic.js/2.jpg",
+    "jclic.js/3.jpg",
+    "jclic.js/4.jpg",
+    "jclic.js/5.jpg",
+    "jclic.js/banyes.png",
+    "jclic.js/blau_resized.jpg",
+    "jclic.js/boca.png",
+    "jclic.js/c.png",
+    "jclic.js/cua.png",
+    "jclic.js/drac.png",
+    "jclic.js/dracpuzzle.jpg",
+    "jclic.js/dragona.jclic",
+    "jclic.js/groc_resized.jpg",
+    "jclic.js/lila_resized.jpg",
+    "jclic.js/marro_resized.jpg",
+    "jclic.js/p.png",
+    "jclic.js/peu.png",
+    "jclic.js/puzzle2.jpg",
+    "jclic.js/roig_resized.jpg",
+    "jclic.js/u.png",
+    "jclic.js/ulls.png",
+    "jclic.js/verd_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/dragona.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": 1151,
+  "title": "Rocas y minerales",
+  "author": "Antonio García Fernández",
+  "school": "Colegio Nazaret - Oporto Madrid",
+  "date": "11/06/04",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geologia",
+    "es": "geología",
+    "en": "geology"
+  },
+  "descCodes": [
+    78
+  ],
+  "description": {
+    "en": "Package about minerals and rocks. There are also activities about mines and quarries.",
+    "ca": "El paquet consta d'activitats d'identificació visual d'imatges dels principals minerals i roques així com del seus usos. \n<br>També es treballa la diferenciació entre mina i cantera.",
+    "es": "El paquete consta de actividades de identificación visual de imágenes de los principales minerales y rocas así como de los usos de los mismos. \n<br>También se trabaja la diferenciación entre mina y cantera."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/rocas.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/rocas.jclic.zip",
+  "instFile": "jclic/rocas.jclic.inst",
+  "clicZoneId": 2582,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2582",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/rocas/jclic/rocas.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 22,
+  "totalSize": 2933624,
+  "files": [
+    "cover.gif",
+    "jclic.js/abucheo.wav",
+    "jclic.js/cant.gif",
+    "jclic.js/cant2.gif",
+    "jclic.js/cantera.gif",
+    "jclic.js/diamante.gif",
+    "jclic.js/granitoa.gif",
+    "jclic.js/image2.gif",
+    "jclic.js/marmola.gif",
+    "jclic.js/mina2.gif",
+    "jclic.js/minaa.gif",
+    "jclic.js/mincant.gif",
+    "jclic.js/minfinf.gif",
+    "jclic.js/mininf2.gif",
+    "jclic.js/oroa.gif",
+    "jclic.js/paraclic.wav",
+    "jclic.js/partes.gif",
+    "jclic.js/partnomb.gif",
+    "jclic.js/pirita1.gif",
+    "jclic.js/piritaa.gif",
+    "jclic.js/rocas.jclic",
+    "jclic.js/rocinf.gif",
+    "jclic.js/rocinf2.gif",
+    "jclic.js/terra.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/rocas.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

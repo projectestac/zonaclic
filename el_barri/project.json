@@ -1,0 +1,131 @@
+{
+  "id": 2279,
+  "title": "El barri",
+  "author": "Francesc Sánchez Guerrero",
+  "school": "Escola Sant Julià L'Arboç (Baix Penedès)",
+  "date": "05/12/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "ciutat, comerç, societat",
+    "es": "ciudad, comercio, sociedad",
+    "en": "city, commerce, society"
+  },
+  "descCodes": [
+    176,
+    184,
+    344
+  ],
+  "description": {
+    "en": "Our neighbourhood, town or city has things in common: public services, establishments, people who work ... In this Click activities children can open a window and taking a look at the street furniture, know what they are public services that can be purchased, making schedules for the people or know some jobs.",
+    "ca": "El nostre barri, poble o ciutat té coses en comú: els serveis públics, els establiments, la gent que hi treballa... En aquest JClic els nens i nenes poden obrir una finestra i fer una mirada al mobiliari del carrer, saber per a què serveixen els serveis públics, que hi podem comprar als comerços, fer itineraris per un poble o conèixer alguns oficis.",
+    "es": "Nuestro barrio, pueblo o ciudad tiene cosas en común: los servicios públicos, los establecimientos, la gente que trabaja... En este JClic los niños y niñas pueden abrir una ventana y hacer una mirada al mobiliario de la calle, saber para qué sirven los servicios públicos, que se puede comprar, hacer itinerarios por el pueblo o conocer algunos oficios."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/el_barri.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/el_barri.jclic.zip",
+  "instFile": "jclic/el_barri.jclic.inst",
+  "clicZoneId": 3793,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3793",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/el_barri/jclic/el_barri.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 44,
+  "mediaFiles": 50,
+  "totalSize": 2441597,
+  "files": [
+    "cover.png",
+    "jclic.js/0arbre.jpg",
+    "jclic.js/0arbre2.jpg",
+    "jclic.js/0baldana.jpg",
+    "jclic.js/0banc.jpg",
+    "jclic.js/0bibero.jpg",
+    "jclic.js/0boca_d_incendis.jpg",
+    "jclic.js/0boligrafo.jpg",
+    "jclic.js/0camisa.jpg",
+    "jclic.js/0carrer_amb_semafors.jpg",
+    "jclic.js/0carrer_amb_semafors2.jpg",
+    "jclic.js/0carres_amb_comerc.jpg",
+    "jclic.js/0casc.jpg",
+    "jclic.js/0correus.jpg",
+    "jclic.js/0coto.jpg",
+    "jclic.js/0edifici_ajuntament.jpg",
+    "jclic.js/0edifici_biblioteca.jpg",
+    "jclic.js/0edifici_col_legi.jpg",
+    "jclic.js/0edifici_correus.jpg",
+    "jclic.js/0edifici_esglesia.jpg",
+    "jclic.js/0edifici_hospital.jpg",
+    "jclic.js/0formatge.jpg",
+    "jclic.js/0fusta.jpg",
+    "jclic.js/0llibre.jpg",
+    "jclic.js/0llum.jpg",
+    "jclic.js/0mercrobina.jpg",
+    "jclic.js/0ofici_fuster.jpg",
+    "jclic.js/0ofici_infermera.jpg",
+    "jclic.js/0ofici_jardiner.jpg",
+    "jclic.js/0ofici_manobre.jpg",
+    "jclic.js/0paperera.jpg",
+    "jclic.js/0parquimetre.jpg",
+    "jclic.js/0pas_de_zebra_3.jpg",
+    "jclic.js/0pas_de_zebra_4.jpg",
+    "jclic.js/0patins.jpg",
+    "jclic.js/0pilota.jpg",
+    "jclic.js/0semafor_2.jpg",
+    "jclic.js/0semafor_3.jpg",
+    "jclic.js/0senyal_no_passar.jpg",
+    "jclic.js/0telefon.jpg",
+    "jclic.js/0tenda___farmacia.jpg",
+    "jclic.js/0tenda___joguines.jpg",
+    "jclic.js/0tenda___llibreria.jpg",
+    "jclic.js/0tenda__roba_.jpg",
+    "jclic.js/0tenda_queviures_.jpg",
+    "jclic.js/el_barri.jclic",
+    "jclic.js/final.jpg",
+    "jclic.js/mapa2.jpg",
+    "jclic.js/mapaajuntaesgle.jpg",
+    "jclic.js/mapaescolabiblio.jpg",
+    "jclic.js/mapaescolacorreus.jpg",
+    "jclic.js/mapahospitalfarmacia.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/el_barri.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

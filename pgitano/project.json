@@ -1,0 +1,103 @@
+{
+  "id": 836,
+  "title": "Historia del pueblo gitano",
+  "author": "Jesús Sánchez, José Ma González i María Ángel de Prado",
+  "school": "CP San Ignacio de Loyola Palencia (Castilla y León)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Spanish, Caló",
+    "ca": "espanyol, caló",
+    "es": "español, caló"
+  },
+  "langCodes": [
+    "es",
+    "rmq"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "etnologia, diversitat",
+    "es": "etnología, diversidad",
+    "en": "etnología, diversity"
+  },
+  "descCodes": [
+    221,
+    789
+  ],
+  "description": {
+    "en": "Activities package about the history and culture of the Gypsy people, and their language.",
+    "ca": "En aquest paquet d'activitats es fa una introducció a la història i la cultura del poble gitano, i es treballen algunes paraules de la llengua caló.\n<br> Esta basat en el llibre \"Historia del pueblo gitano\", elaborat pels departaments d'Orientació, Geografia i Història, Llengua castellana i Literatura de l'IES \"Camino de la Miranda\" de Palència.",
+    "es": "En este paquete de actividades se hace una introducción a la historia y la cultura del pueblo gitano y se trabajan algunas palabras de la lengua caló.\n<br> Está basado en el libro \"Historia del pueblo gitano\", elaborado por los departamentos de Orientación, Geografía e Historia, Lengua castellana y Literatura del IES \"Camino de la Miranda\" de Palencia."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/pgitano.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pgitano.jclic.zip",
+  "instFile": "jclic/pgitano.jclic.inst",
+  "clicZoneId": 1468,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1468",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pgitano/jclic/pgitano.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 22,
+  "totalSize": 512431,
+  "files": [
+    "cover.gif",
+    "jclic.js/abuelo.jpg",
+    "jclic.js/campamen.jpg",
+    "jclic.js/celosia.jpg",
+    "jclic.js/gi1.jpg",
+    "jclic.js/gi2.jpg",
+    "jclic.js/gi22.jpg",
+    "jclic.js/gitanos.jpg",
+    "jclic.js/gypsy.mid",
+    "jclic.js/mapa.jpg",
+    "jclic.js/merca1.jpg",
+    "jclic.js/merca3.jpg",
+    "jclic.js/merca4.jpg",
+    "jclic.js/n1.gif",
+    "jclic.js/n2.gif",
+    "jclic.js/n3.gif",
+    "jclic.js/n4.gif",
+    "jclic.js/n5.gif",
+    "jclic.js/pgitano.jclic",
+    "jclic.js/secu1.jpg",
+    "jclic.js/secu2.jpg",
+    "jclic.js/secu3.jpg",
+    "jclic.js/secu4.jpg",
+    "jclic.js/secu5.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pgitano.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

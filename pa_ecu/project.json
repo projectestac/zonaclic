@@ -1,0 +1,83 @@
+{
+  "id": 2492,
+  "title": "Patrones y sucesiones",
+  "author": "Lourdes Raquel Murillo Pérez",
+  "school": "Secundaria Técnica Nº 31, Dr. Mateo A.Sáenz Treviño Nueva Aurora - Santa Catarina (México)",
+  "date": "09/03/17",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aritmètica, càlcul",
+    "es": "aritmética, cálculo",
+    "en": "Arithmetic, calculation"
+  },
+  "descCodes": [
+    701,
+    702
+  ],
+  "description": {
+    "en": "Constructions of integer numbers sequences from the algebraic rules that define them. And get the general rule (in algebraic language) of an arithmetic progression of integer numbers sequence.",
+    "ca": "Construcció de successions de nombres enters a partir de les regles algebraiques que les defineixen. Obtenció de la regla general (en llenguatge algebraic) d'una successió amb progressió aritmètica de nombres enters.",
+    "es": "Construcción de sucesiones de números enteros a partir de las reglas algebraicas que las definen. Obtención de la regla general (en lenguaje algebraico) de una sucesión con progresión aritmética de números enteros."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/pa_ecu.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pa_ecu.jclic.zip",
+  "instFile": "jclic/pa_ecu.jclic.inst",
+  "clicZoneId": 4001,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=4001",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pa_ecu/jclic/pa_ecu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 3,
+  "totalSize": 182443,
+  "files": [
+    "cover.png",
+    "jclic.js/aplauso.mp3",
+    "jclic.js/est31.jpg",
+    "jclic.js/ga_bravo.gif",
+    "jclic.js/pa_ecu.jclic",
+    "jclic.js/pa_ecu.jclic.js",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

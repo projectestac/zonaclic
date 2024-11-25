@@ -1,0 +1,115 @@
+{
+  "id": 1687,
+  "title": "Els jocs de l'itinerari",
+  "author": "Juli Mas i Soler",
+  "school": "Escola Ramona Calvet i Picas Castellterçol (Vallès Oriental)",
+  "date": "28/06/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "description": {
+    "en": "Activities related with nature that serve as support to the pupil's workbook to work with several proposals of discovering the natural milieu itinerary.\n<br> The project also deals with specific vocabulary as rambling house, bramble an pond, also includes animal names, trees and plants that can be found throughout the itinerary.",
+    "ca": "Activitats relacionades amb la natura que fan de suport al quadern de treball que els alumnes de l'escola ja tenen per treballar diferents propostes de l'itinerari de descoberta de l'entorn natural.\n<br> Al llarg del projecte es treballa vocabulari com casuc, bardissa i bassa i també noms d'animals, d'arbres i de plantes que es troben al llarg de l'itinerari.",
+    "es": "Actividades relacionadas con la naturaleza que hacen de soporte al quaderno de trabajo que los alumnos de la escuela ya tienen para trabajar diferentes propuestas del itinerario de descubierta del entorno natural.\n<br> A lo largo del proyecto se trabaja vocabulario como \n<i>casuc, bardissa i bassa </i> i tambíen nombres de animales, árboles y plantas que se encuentran a lo largo del itinerario."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/natura.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/natura.jclic.zip",
+  "instFile": "jclic/natura.jclic.inst",
+  "clicZoneId": 3395,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3395",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/natura/jclic/natura.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 44,
+  "totalSize": 1592155,
+  "files": [
+    "cover.gif",
+    "jclic.js/3gallines.gif",
+    "jclic.js/4gallines.gif",
+    "jclic.js/5gallines.gif",
+    "jclic.js/5porcs.gif",
+    "jclic.js/6porcs.gif",
+    "jclic.js/7porcs.gif",
+    "jclic.js/alzina.jpg",
+    "jclic.js/bardissa.jpg",
+    "jclic.js/bassa.jpg",
+    "jclic.js/c__documents_and_settings_juli_mis_documentos_curs_clic_casuc.jpg",
+    "jclic.js/cassette1.gif",
+    "jclic.js/castell.jpg",
+    "jclic.js/castelldibuix.jpg",
+    "jclic.js/casuc.jpg",
+    "jclic.js/cat1.gif",
+    "jclic.js/cavall.mp3",
+    "jclic.js/cheval03.gif",
+    "jclic.js/cochon.gif",
+    "jclic.js/conill1.jpg",
+    "jclic.js/conills.gif",
+    "jclic.js/conills3.gif",
+    "jclic.js/entrada.mp3",
+    "jclic.js/entradacastell.jpg",
+    "jclic.js/escorroure.jpg",
+    "jclic.js/espigolpetit.jpg",
+    "jclic.js/falten_lletres.mp3",
+    "jclic.js/farigolapetita.jpg",
+    "jclic.js/formiga.jpg",
+    "jclic.js/fullapollancre.jpg",
+    "jclic.js/fullapollancre1.jpg",
+    "jclic.js/gallina.gif",
+    "jclic.js/gallina.mp3",
+    "jclic.js/natura.jclic",
+    "jclic.js/ou4601.jpg",
+    "jclic.js/ovella.mp3",
+    "jclic.js/pez.gif",
+    "jclic.js/pollancre.jpg",
+    "jclic.js/poua.jpg",
+    "jclic.js/sauquer.jpg",
+    "jclic.js/sons_animals.mp3",
+    "jclic.js/sopa_de_lletres.mp3",
+    "jclic.js/sortida.mp3",
+    "jclic.js/titolclic.jpg",
+    "jclic.js/torrent.jpg",
+    "jclic.js/vaca.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/natura.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

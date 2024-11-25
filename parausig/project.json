@@ -1,0 +1,99 @@
+{
+  "id": 1684,
+  "title": "Les paraules i el seu significat",
+  "author": "Josep Pinyol Bonavida",
+  "school": "Institut Roquetes Roquetes (Baix Ebre)",
+  "date": "06/06/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "lèxic, llengua catalana, sintaxi",
+    "es": "léxico, lengua catalana, sintaxis",
+    "en": "lexicon, Catalan language, syntax"
+  },
+  "descCodes": [
+    126,
+    133,
+    148
+  ],
+  "description": {
+    "en": "Project of activities about Catalan language addressed to secondary schoool. \n<ul> \n <li>synonymity </li>\n <li>antonymy </li>\n <li>polysemy </li>\n <li>homonymy </li>\n <li>hyperonymy </li>\n <li>evaluation activities </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre recursos semàntics per a 2n cicle d'ESO, el projecte està agrupat en sis parts: \n<ul> \n <li>sinonímia </li>\n <li>antonímia </li>\n <li>polisèmia </li>\n <li>homonímia </li>\n <li>hiperonímia </li>\n <li>activitats d'avaluació </li>\n</ul>",
+    "es": "Proyecto de actividades en lengua catalana sobre recursos semánticos para 2º de ESO, el proyecto está agrupado en seis partes: \n<ul> \n <li>sinonimia </li>\n <li>antonimia </li>\n <li>polisemia </li>\n <li>homonimia </li>\n <li>hiperonmia </li>\n <li>actividades de evaluación </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/parausig.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/parausig.jclic.zip",
+  "instFile": "jclic/parausig.jclic.inst",
+  "clicZoneId": 3392,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3392",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/parausig/jclic/parausig.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 51,
+  "mediaFiles": 18,
+  "totalSize": 1423633,
+  "files": [
+    "cover.jpg",
+    "jclic.js/antonims.mp3",
+    "jclic.js/antonims1.jpg",
+    "jclic.js/antonims2.mp3",
+    "jclic.js/hiperonim.mp3",
+    "jclic.js/hiperonim2.mp3",
+    "jclic.js/hiperonimia.jpg",
+    "jclic.js/homonimia.jpg",
+    "jclic.js/homonims.mp3",
+    "jclic.js/homonims2.mp3",
+    "jclic.js/parausig.jclic",
+    "jclic.js/polisemia.jpg",
+    "jclic.js/polisemics.mp3",
+    "jclic.js/polisemics2.mp3",
+    "jclic.js/portada.jpg",
+    "jclic.js/sinonims.jpg",
+    "jclic.js/sinonims.mp3",
+    "jclic.js/sinonims2.mp3",
+    "jclic.js/sinonims3.mp3",
+    "jclic.js/sinonims4.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/parausig.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

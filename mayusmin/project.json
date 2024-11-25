@@ -1,0 +1,103 @@
+{
+  "id": 309,
+  "title": "Mayúsculas y minúsculas",
+  "author": "Juan Palomino Reinoso",
+  "school": "Escola Santa Maria de Cervelló Cervelló (Baix Llobregat)",
+  "date": "16/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua catalana, lectoescriptura",
+    "es": "lengua catalana, lectoescritura",
+    "en": "Catalan language, reading and writting skills"
+  },
+  "descCodes": [
+    133,
+    920
+  ],
+  "description": {
+    "en": "Activity pack that helps students understand and differentiate between handwritten and printed letters.",
+    "ca": "Paquet per conèixer i treballar les diferències entre la lletra lligada i la lletra \"de pal\". S'organitza en dos blocs: \"Lletres\" i \"Noms\". En el primer es treballen les lletres una per una, i en el segon es presenten els noms dels companys de la classe escrits en els dos tipus de lletra. Per a cada un d'aquests blocs hi ha tres paquets: \"Observa\", \"Relaciona\" i \"Escriu\".\n<br> En el bloc \"Noms\" hi apareixen els dels nens i nenes de l'escola on s'ha creat el paquet. Per a fer-lo servir correctament cal descompactar-lo (amb el ClicPac) i modificar les activitats per tal que hi apareguin els del grup que l'hagi d'utilitzar.",
+    "es": "Paquete para conocer y trabajar las diferencias entre la letra ligada y la letra \"de palo\". Se organiza en dos bloques: \"Letras\" y \"Nombres\". En el primero se trabajan las letras una por una, y en el segundo se presentan los nombres de los compañeros de clase escritos en los dos tipos de letra. Para cada uno de estos bloques hay tres paquetes: \"Observa\", \"Relaciona\" y \"Escribe\".\n<br> En el bloque \"Nombres\" aparecen los de los niños y niñas de la escuela en la que se ha desarrollado el paquete. Para utilizarlo correctamente hay que descompactarlo (con el ClicPac) y modificar las actividades para que aparezcan los del grupo al que vaya dirigido."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "pal-llig"
+  ],
+  "mainFile": "jclic.js/mayusmin.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mayusmin.jclic.zip",
+  "instFile": "jclic/mayusmin.jclic.inst",
+  "clicZoneId": 1164,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1164",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/mayusmin/jclic/mayusmin.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 47,
+  "mediaFiles": 19,
+  "totalSize": 236967,
+  "files": [
+    "cover.gif",
+    "jclic.js/cartel1.gif",
+    "jclic.js/cartel2.gif",
+    "jclic.js/cartel3.gif",
+    "jclic.js/cartel4.gif",
+    "jclic.js/cartel5.gif",
+    "jclic.js/cartel6.gif",
+    "jclic.js/enrera.gif",
+    "jclic.js/lletres.gif",
+    "jclic.js/mayusmin.jclic",
+    "jclic.js/menu1.gif",
+    "jclic.js/menu2.gif",
+    "jclic.js/menu3.gif",
+    "jclic.js/menu4.gif",
+    "jclic.js/menu5.gif",
+    "jclic.js/menu6.gif",
+    "jclic.js/noms.gif",
+    "jclic.js/ordre1.gif",
+    "jclic.js/ordre2.gif",
+    "jclic.js/ordre3.gif",
+    "jclic.js/portada.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/mayusmin.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

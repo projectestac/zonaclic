@@ -1,0 +1,129 @@
+{
+  "id": 449,
+  "title": "Twelve adjectives",
+  "author": "Catalina Carrasco Muñoz, Francisco José Sánchez García, José Antonio Guerao i Margarita Tudela",
+  "school": "CEIP Alfonso X El Sabio Lorca (Murcia), CEIP Petra González Lorca (Murcia), CEIP Torrecilla Lorca (Murcia)",
+  "date": "23/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, vocabulari",
+    "es": "lengua inglesa, vocabulario",
+    "en": "English language, vocabulary"
+  },
+  "descCodes": [
+    667,
+    673
+  ],
+  "description": {
+    "en": "Clic activities about some English adjectives. The package has 4 parts: \n<ul> \n <li>Adjectives 1 </li>\n <li>Adjectives 2 </li>\n <li>Adjectives 3 </li>\n <li>Opposites </li>\n</ul>",
+    "ca": "Paquet d'activitats per treballar els adjectius en anglès, basades en les \"Tarjetas de vocabulario - Inglés 4\" de l'editorial Anaya. S'organitza en 4 parts: \n<ul> \n <li>Adjectives 1 </li>\n <li>Adjectives 2 </li>\n <li>Adjectives 3 </li>\n <li>Opposites </li>\n</ul> A cada una de les tres primeres parts es treballen 4 adjectius diferents i a l'ultima d'elles els antònims (happy-sad, beatifull-ugly...)",
+    "es": "Paquete de actividades para trabajar los adjetivos en inglés, basadas en las \"Tarjetas de vocabulario - Inglés 4\" de la editorial Anaya. La actividad se divide en 4 partes: \n<ul> \n <li>Adjectives 1 </li>\n <li>Adjectives 2 </li>\n <li>Adjectives 3 </li>\n <li>Opposites </li>\n</ul> En cada una de las tres primeras partes se trabajan 4 adjetivos diferentes y en la última de ellas los antónimos (happy-sad, beatifull-ugly...)"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/12adject.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/12adject.jclic.zip",
+  "instFile": "jclic/12adject.jclic.inst",
+  "clicZoneId": 1272,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1272",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/12adject/jclic/12adject.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 69,
+  "mediaFiles": 49,
+  "totalSize": 2142199,
+  "files": [
+    "cover.gif",
+    "jclic.js/12adject.jclic",
+    "jclic.js/bad.wav",
+    "jclic.js/badok.gif",
+    "jclic.js/badsm.gif",
+    "jclic.js/beau.wav",
+    "jclic.js/beauok.gif",
+    "jclic.js/beausm.gif",
+    "jclic.js/big.wav",
+    "jclic.js/bigok.gif",
+    "jclic.js/bigsm.gif",
+    "jclic.js/bugs.gif",
+    "jclic.js/confe.gif",
+    "jclic.js/dedook.gif",
+    "jclic.js/exce.wav",
+    "jclic.js/fon.gif",
+    "jclic.js/good.wav",
+    "jclic.js/goodok.gif",
+    "jclic.js/goodsm.gif",
+    "jclic.js/grupo3.gif",
+    "jclic.js/happy.wav",
+    "jclic.js/happyok.gif",
+    "jclic.js/happysm.gif",
+    "jclic.js/long.wav",
+    "jclic.js/longok.gif",
+    "jclic.js/longsm.gif",
+    "jclic.js/new.wav",
+    "jclic.js/newok.gif",
+    "jclic.js/newsm.gif",
+    "jclic.js/old.wav",
+    "jclic.js/oldok.gif",
+    "jclic.js/oldsm.gif",
+    "jclic.js/patolu.wav",
+    "jclic.js/pica.wav",
+    "jclic.js/sad.wav",
+    "jclic.js/sadok.gif",
+    "jclic.js/sadsm.gif",
+    "jclic.js/short.wav",
+    "jclic.js/shortok.gif",
+    "jclic.js/shortsm.gif",
+    "jclic.js/small.wav",
+    "jclic.js/smallok.gif",
+    "jclic.js/smallsm.gif",
+    "jclic.js/smile2.gif",
+    "jclic.js/smok1.gif",
+    "jclic.js/sound.gif",
+    "jclic.js/tiraban.gif",
+    "jclic.js/ugly.wav",
+    "jclic.js/uglyok.gif",
+    "jclic.js/uglysm.gif",
+    "jclic.js/yes.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/12adject.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

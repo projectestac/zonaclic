@@ -1,0 +1,92 @@
+{
+  "id": 2511,
+  "title": "España física",
+  "author": "Antonio González jiménez",
+  "school": "CEIP Cándido Nogales Jaén",
+  "date": "30/03/17",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "relleu, rius, clima",
+    "es": "relieve, ríos, clima",
+    "en": "relief, rivers, climate"
+  },
+  "descCodes": [
+    776,
+    1481,
+    1482
+  ],
+  "description": {
+    "en": "Activities about the relief, climate and rivers of Spain, based on the text \"Environmental Awareness\" - World Water Project. Editorial Alhucemas-Edelvives 6th Primary level.",
+    "ca": "Activitats sobre el relleu, climes i rius d'Espanya, basats en el text de \"Coneixement del Medi\" - Projecte Món Aigua. Editorial Alhucemas-Edelvives de 6è de nivell de Primària.",
+    "es": "Actividades sobre el relieve, climas y ríos de España, basados en el texto \"Conocimiento del Medio\" - Proyecto Mundo Agua. Editorial Alhucemas-Edelvives de 6º nivel de Primaria"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/espfisi2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/espfisi2.jclic.zip",
+  "instFile": "jclic/espfisi2.jclic.inst",
+  "clicZoneId": 4020,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=4020",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/espfisi2/jclic/espfisi2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 11,
+  "totalSize": 735779,
+  "files": [
+    "cover.png",
+    "jclic.js/cordillera.jpg",
+    "jclic.js/depresion.jpg",
+    "jclic.js/espfisi2.jclic",
+    "jclic.js/espfisi2.jclic.js",
+    "jclic.js/mapa_de_climas.jpg",
+    "jclic.js/mapa_de_climas___mudo.jpg",
+    "jclic.js/mapa_de_rios.jpg",
+    "jclic.js/mapa_del_relieve___mudo.jpg",
+    "jclic.js/mapa_fisico.jpg",
+    "jclic.js/meseta.jpg",
+    "jclic.js/rios_de_espana___mudo.jpg",
+    "jclic.js/titulo___t._8.png",
+    "jclic.js/vegetacion_en_montanas.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

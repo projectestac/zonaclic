@@ -1,0 +1,97 @@
+{
+  "id": 794,
+  "title": "Historia de los alimentos",
+  "author": "Juan José Mateo Molina",
+  "school": "CP El Olivar Rivas - Vaciamadrid (Madrid)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aliments, història",
+    "es": "alimentos, historia",
+    "en": "foods, history"
+  },
+  "descCodes": [
+    49,
+    246
+  ],
+  "description": {
+    "en": "Activities about the evolution of foods. Divided in thre sections: \n<ul><li>Land cultivation </li>\n<li>Land and sea foods </li>\n<li>Factory production <br> You'll find more information in the pages <b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">\"Aplicaciones educativas\"</a></b>. </li></ul>",
+    "ca": "Aquest programa ha estat dissenyat a partir del llibre de Coneixement del Medi \"El libro de las preguntas\" de 3er de primària de l'Editorial Santillana. Consta de tres seccions que tracten sobre l'evolució dels aliments en tres àrees:\n<br> \n<ul><li>El conreu de la terra </li>\n<li>Aliments per terra i per mar </li>\n<li>La producció en fàbriques <br> Trobareu més informació a la web d'<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo. </li></ul>",
+    "es": "Este programa ha sido diseñado a partir del libro de Conocimiento del Medio \"El libro de las preguntas\", de 3º de E. primaria, de la editorial Santillana. Consta de tres secciones que tratan sobre la evolución de los alimentos en tres áreas:\n<br> \n<ul><li>El cultivo de la tierra </li>\n<li>Alimentos por la tierra y por el mar </li>\n<li>La producción en fábricas <br> Encontraréis más información en la web de <b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo. </li></ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/hisali.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/hisali.jclic.zip",
+  "instFile": "jclic/hisali.jclic.inst",
+  "clicZoneId": 1436,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1436",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/hisali/jclic/hisali.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 42,
+  "mediaFiles": 17,
+  "totalSize": 937900,
+  "files": [
+    "cover.gif",
+    "jclic.js/1.gif",
+    "jclic.js/2.gif",
+    "jclic.js/3.gif",
+    "jclic.js/aditl.mid",
+    "jclic.js/aldea.gif",
+    "jclic.js/arado.gif",
+    "jclic.js/autor.gif",
+    "jclic.js/azada.gif",
+    "jclic.js/barrio.gif",
+    "jclic.js/carabela.gif",
+    "jclic.js/clic_f.gif",
+    "jclic.js/hisali.gif",
+    "jclic.js/hisali.jclic",
+    "jclic.js/noma.gif",
+    "jclic.js/olivos.gif",
+    "jclic.js/puzzle.wav",
+    "jclic.js/seden.gif",
+    "jclic.js/tractor.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/hisali.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

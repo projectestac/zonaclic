@@ -1,0 +1,141 @@
+{
+  "id": 1730,
+  "title": "Activitats de lectura i escriptura (Els aliments)",
+  "author": "José Luis Lázaro Cantabrana",
+  "school": "Escola Serrallo Tarragona",
+  "date": "13/03/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "lectura, lectoescriptura",
+    "es": "lectura, lectoescritura",
+    "en": "reading, reading and writting skills"
+  },
+  "descCodes": [
+    125,
+    920
+  ],
+  "description": {
+    "en": "JClic activities about reading and writing about clothes, the food and class objects. The projects have three parts and it's addressed to kindergarden, primary education and newcoming pupils.\n<p> The images has been obtained from the dossier\"Les shops\" of the Departament d'Educació of Catalonia. </p>",
+    "ca": "Activitats de lectura i escriptura amb el lèxic del camp semàntic de les peces de vestir, les coses de la classe i els aliments. El projecte està adreçat a educació infantil, cicle inicial i aula d'acollida. Cadascun dels projectes està dividit en tres parts.\n<p> Imatges obtingudes del dossier \"Les botigues\" del Departament d'Educació: Seminaris d'assessorament didàctic de la llengua catalana. </p>",
+    "es": "Actividades de lectura y escritura con el léxico del campo semántico de las prendas de vesti, los alimentos y cosas de clase para infantil, ciclo inicial y aula de acogida. Los proyectos constan de tres partes.\n<p> Imágenes obtenidas del dossier \"les botigues\" del Departament d'Educació: Seminaris d'assessorament didàctic de la llengua catalana. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "claslect",
+    "robalect"
+  ],
+  "mainFile": "jclic.js/alimlect.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/alimlect.jclic.zip",
+  "instFile": "jclic/alimlect.jclic.inst",
+  "clicZoneId": 3434,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3434",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/alimlect/jclic/alimlect.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 39,
+  "mediaFiles": 56,
+  "totalSize": 1050533,
+  "files": [
+    "cover.gif",
+    "jclic.js/alimlect.jclic",
+    "jclic.js/all.gif",
+    "jclic.js/all.mp3",
+    "jclic.js/caramels.gif",
+    "jclic.js/caramels.mp3",
+    "jclic.js/castanya.gif",
+    "jclic.js/castanya.mp3",
+    "jclic.js/ceba.gif",
+    "jclic.js/ceba.mp3",
+    "jclic.js/cirera.gif",
+    "jclic.js/cirera.mp3",
+    "jclic.js/completa.mp3",
+    "jclic.js/copia.gif",
+    "jclic.js/copia_par.mp3",
+    "jclic.js/figa.gif",
+    "jclic.js/figa.mp3",
+    "jclic.js/formatge.gif",
+    "jclic.js/formatge.mp3",
+    "jclic.js/galeta.gif",
+    "jclic.js/galeta.mp3",
+    "jclic.js/maduixa.gif",
+    "jclic.js/maduixa.mp3",
+    "jclic.js/mb.mp3",
+    "jclic.js/melo.gif",
+    "jclic.js/melo.mp3",
+    "jclic.js/nom_img.gif",
+    "jclic.js/ous.gif",
+    "jclic.js/ous.mp3",
+    "jclic.js/pa.gif",
+    "jclic.js/pa.mp3",
+    "jclic.js/pastanaga.gif",
+    "jclic.js/pastanaga.mp3",
+    "jclic.js/pastis.gif",
+    "jclic.js/pastis.mp3",
+    "jclic.js/patata.gif",
+    "jclic.js/patata.mp3",
+    "jclic.js/pebrot.gif",
+    "jclic.js/pebrot.mp3",
+    "jclic.js/peix.gif",
+    "jclic.js/peix.mp3",
+    "jclic.js/pera.gif",
+    "jclic.js/pera.mp3",
+    "jclic.js/platan.gif",
+    "jclic.js/platan.mp3",
+    "jclic.js/poma.gif",
+    "jclic.js/poma.mp3",
+    "jclic.js/portada.jpg",
+    "jclic.js/rel_nom_img.mp3",
+    "jclic.js/sindria.gif",
+    "jclic.js/sindria.mp3",
+    "jclic.js/so_img.gif",
+    "jclic.js/taronja.gif",
+    "jclic.js/taronja.mp3",
+    "jclic.js/tomaquet.gif",
+    "jclic.js/tomaquet.mp3",
+    "jclic.js/tria_act.mp3",
+    "jclic.js/tria_opcio.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/alimlect.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": 2477,
+  "title": "Frutas",
+  "author": "Ana Claudia Mansueto - Dibuixos: Sergio Palao (ARASAAC.org)",
+  "date": "25/01/17",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages",
+    "ca": "Ciències experimentals, Llengües",
+    "es": "Ciencias experimentales, Lenguas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aliments, fonologia, llengua castellana, vocabulari, comprensió lectora",
+    "es": "alimentos, fonología, lengua castellana, vocabulario, comprensión lectora",
+    "en": "foods, phonology, Spanish language, vocabulary, reading comprehension"
+  },
+  "descCodes": [
+    49,
+    122,
+    132,
+    150,
+    1329
+  ],
+  "description": {
+    "en": "Activities of reading and word formation through mobile letters and syllables, in Spanish. Aimed at pre-school.",
+    "ca": "Activitats de lectura i de formació de paraules en castellà mitjançant lletres i síl·labes mòbils. Adreçat a educació infantil.",
+    "es": "Actividades de lectura y de formación de palabras a través de letras y sílabas móviles. Dirigido a educación infantil."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/frutas2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/frutas2.jclic.zip",
+  "instFile": "jclic/frutas2.jclic.inst",
+  "clicZoneId": 3986,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3986",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/frutas2/jclic/frutas2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 16,
+  "totalSize": 230622,
+  "files": [
+    "cover.png",
+    "jclic.js/anana_arasaac.png",
+    "jclic.js/banana_arasaac.png",
+    "jclic.js/cerezas_arassac.png",
+    "jclic.js/durazno_arasaac.png",
+    "jclic.js/frutas2.jclic",
+    "jclic.js/frutas2.jclic.js",
+    "jclic.js/frutas_arasaac.png",
+    "jclic.js/frutilla_arasaac.png",
+    "jclic.js/imagen_pantalla_inicial.png",
+    "jclic.js/kiwi_arasaac.png",
+    "jclic.js/mandarina_arasaac.png",
+    "jclic.js/manzana_arasaac.png",
+    "jclic.js/melon_arasaac.png",
+    "jclic.js/naranja.png",
+    "jclic.js/palta_arasaac.png",
+    "jclic.js/pera_arassac.png",
+    "jclic.js/sandia_arasaac.png",
+    "jclic.js/uvas_arasaac.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

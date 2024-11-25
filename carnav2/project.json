@@ -1,0 +1,125 @@
+{
+  "id": 1124,
+  "title": "Carnaval (SPC)",
+  "author": "Joan Antoja Mas i Òscar Morales",
+  "school": "Escola Pompeu Fabra Sant Adrià de Besòs (Barcelonès)",
+  "date": "12/02/04",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "vocabulari, cultura popular",
+    "es": "vocabulario, cultura popular",
+    "en": "vocabulary, popular culture"
+  },
+  "descCodes": [
+    150,
+    196
+  ],
+  "description": {
+    "en": "Clic activities included in one of the \n<a href=\"http://www.edu365.com/primaria/contes/contes_spc/\" target=\"_blank\"><b>SPC fairytales</b></a> (\n<i>Fairytales with alternative and augmentative systems of communication</i>) published in the portal \n<a href=\"http://www.edu365.com\" target=\"_blank\">www.edu365.com</a>.\n<p> This fairytale deals with vocabulary related to \"Carnival\", using elements of <b>SPC</b> and <b>LSC</b>. </p>",
+    "ca": "Activitats corresponents a un dels \n<a href=\"http://www.edu365.com/primaria/contes/contes_spc/\" target=\"_blank\"><b>Contes SPC</b></a> (\n<i>Contes infantils amb sistemes alternatius i augmentatius de comunicació</i>) publicats al portal \n<a href=\"http://www.edu365.com\" target=\"_blank\">www.edu365.com</a>.\n<p> En aquest conte es treballa el vocabulari relacionat amb carnestoltes, emprant elements dels sistemes <b>SPC</b> (Sistema Pictogràfic de Comunicació) i <b>LSC</b> (Llengua de Signes Catalana). </p>",
+    "es": "Actividades correspondientes a uno de los \n<a href=\"http://www.edu365.com/primaria/contes/contes_spc/\" target=\"_blank\"><b>Cuentos SPC</b></a> (\n<i>Cuentos infantiles con sistemas alternativos y aumentativos de comunicación</i>) publicados en el portal \n<a href=\"http://www.edu365.com\" target=\"_blank\">www.edu365.com</a>.\n<p> Este cuento trabaja el vocabulario relacionado con el carnaval, utilizando elementos de los sistemas <b>SPC</b> (Sistema Pictográfico de Comunicación) y <b>LSC</b> (Lengua de Signos Catalana). </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "carnav1"
+  ],
+  "mainFile": "jclic.js/carnav2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/carnav2.jclic.zip",
+  "instFile": "jclic/carnav2.jclic.inst",
+  "clicZoneId": 2440,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2440",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/carnav2/jclic/carnav2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 9,
+  "mediaFiles": 42,
+  "totalSize": 1532160,
+  "files": [
+    "cover.gif",
+    "jclic.js/aplaudir.wav",
+    "jclic.js/aplauso.wav",
+    "jclic.js/cargol.gif",
+    "jclic.js/cargol.wav",
+    "jclic.js/cargolsc.gif",
+    "jclic.js/cargospc.gif",
+    "jclic.js/carnav2.jclic",
+    "jclic.js/carnaval.gif",
+    "jclic.js/follelsc.gif",
+    "jclic.js/follespc.gif",
+    "jclic.js/follet.gif",
+    "jclic.js/follet.wav",
+    "jclic.js/genial.gif",
+    "jclic.js/genial.wav",
+    "jclic.js/guardabo.gif",
+    "jclic.js/guardabo.wav",
+    "jclic.js/guardlsc.gif",
+    "jclic.js/guardspc.gif",
+    "jclic.js/increibl.wav",
+    "jclic.js/intenta.wav",
+    "jclic.js/mirar.gif",
+    "jclic.js/mirar.wav",
+    "jclic.js/mirarlsc.gif",
+    "jclic.js/mirarspc.gif",
+    "jclic.js/moltbe.gif",
+    "jclic.js/moltbe.wav",
+    "jclic.js/papallon.gif",
+    "jclic.js/papallon.wav",
+    "jclic.js/papallsc.gif",
+    "jclic.js/papalspc.gif",
+    "jclic.js/pintalsc.gif",
+    "jclic.js/pintar.gif",
+    "jclic.js/pintar.wav",
+    "jclic.js/pintaspc.gif",
+    "jclic.js/prova.wav",
+    "jclic.js/riure.gif",
+    "jclic.js/riure.wav",
+    "jclic.js/riurelsc.gif",
+    "jclic.js/riurespc.gif",
+    "jclic.js/vestilsc.gif",
+    "jclic.js/vestir.gif",
+    "jclic.js/vestir.wav",
+    "jclic.js/vestispc.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/carnav2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

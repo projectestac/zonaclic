@@ -1,0 +1,104 @@
+{
+  "id": 1773,
+  "title": "Ela arbres",
+  "author": "Margarita Moret Ferron",
+  "school": "C Thau Barcelona",
+  "date": "22/05/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "arbres",
+    "es": "árboles",
+    "en": "trees"
+  },
+  "descCodes": [
+    55
+  ],
+  "description": {
+    "en": "Set of activities about trees. It consists of two parts: \n<ul> \n <li>\n  The first part's aim is to learn and identify deciduous and evergreen trees.</li> \n  <li>The second part's aim is to learn about the elm, the olive, the eucalyptus and the white mulberry.</li>\n</ul>",
+    "ca": "Conjunt d'activitats sobre els arbres que consta de dues parts: \n<ul> \n <li>L'objectiu de la primera part del paquet és el del coneixement i reconeixement dels arbres caducifolis i perennifolis. </li>\n <li>L'objectiu de la segona part és el del coneixement de l'om. l'olivera, l'eucaliptus i la morera. </li>\n</ul>",
+    "es": "Conjunto de actividades sobre los árboles que consta de dos partes: \n<ul> \n <li>El objetivo de la primera parte del proyecto es el de conocimiento y reconocimiento de los árboles caducifolios y perennifolios. </li>\n <li>El objetivo de la segunda parte es el conocimiento del olmo, la olivera, el eucaliptus y la morera. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/arbres2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/arbres2.jclic.zip",
+  "instFile": "jclic/arbres2.jclic.inst",
+  "clicZoneId": 3470,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3470",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/arbres2/jclic/arbres2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 25,
+  "totalSize": 8737807,
+  "files": [
+    "cover.jpg",
+    "jclic.js/arbrecauen.gif",
+    "jclic.js/arbres2.jclic",
+    "jclic.js/cimg3562__small_.jpg",
+    "jclic.js/cimg3578__small_.jpg",
+    "jclic.js/cimg3581__small_.jpg",
+    "jclic.js/cimg3606__small_.jpg",
+    "jclic.js/cimg3614__small_.jpg",
+    "jclic.js/cimg3623__small_.jpg",
+    "jclic.js/escorcaeucaliptus__small_.jpg",
+    "jclic.js/escorcaolivera__small_.jpg",
+    "jclic.js/escorcaom__small_.jpg",
+    "jclic.js/eucaliptu2.mp3",
+    "jclic.js/eucaliptus2.gif",
+    "jclic.js/fulla_om__small___medium_.jpg",
+    "jclic.js/fullaeucaliptus2.jpg",
+    "jclic.js/fullaolivera__small_.jpg",
+    "jclic.js/img_6704__small_.jpg",
+    "jclic.js/morera2.mp3",
+    "jclic.js/morera_a.gif",
+    "jclic.js/morera_escorc__small_.jpg",
+    "jclic.js/moreraa__small_.jpg",
+    "jclic.js/morerafull__small_.jpg",
+    "jclic.js/olivera1.mp3",
+    "jclic.js/olivera4.gif",
+    "jclic.js/om1.gif",
+    "jclic.js/om2.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/arbres2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

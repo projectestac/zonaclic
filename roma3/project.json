@@ -1,0 +1,103 @@
+{
+  "id": 2192,
+  "title": "Roma y su legado",
+  "author": "Carlos Goñi Buil",
+  "school": "IES Mare Nostrum Alicante (L'Alacantí)",
+  "date": "21/10/11",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16), High school (16-18)",
+    "ca": "Secundària (12-16), Batxillerat (16-18)",
+    "es": "Secundaria (12-16), Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "SEC",
+    "BTX"
+  ],
+  "descriptors": {
+    "ca": "història de roma",
+    "es": "historia de roma",
+    "en": "history of blunt"
+  },
+  "descCodes": [
+    253
+  ],
+  "description": {
+    "en": "Project of activities addressed to secondary education about ancient Rome: \n<ul> \n <li>His </li>\n <li>Architecture </li>\n <li>Roman empire </li>\n <li>Policy </li>\n</ul>",
+    "ca": "Projecte d'activitats per a educació secundària sobre la Roma clàssica. Al projecte es tracten diferents temàtiques: \n<ul> \n <li>Història </li>\n <li>Arquitectura </li>\n <li>Imperi romà </li>\n <li>Política </li>\n</ul>",
+    "es": "Proyecto de actividades para educación secundaria sobre la Roma clásica. A lo largo del proyecto se tratan diferentes temáticas: \n<ul> \n <li>Historia </li>\n <li>Arquitectura </li>\n <li>Imperio romano </li>\n <li>Política </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/roma3.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/roma3.jclic.zip",
+  "instFile": "jclic/roma3.jclic.inst",
+  "clicZoneId": 3726,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3726",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/roma3/jclic/roma3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 23,
+  "totalSize": 748068,
+  "files": [
+    "cover.jpg",
+    "jclic.js/125px_flag_of_france_svg.png",
+    "jclic.js/125px_flag_of_germany_svg.png",
+    "jclic.js/125px_flag_of_portugal_svg.png",
+    "jclic.js/125px_flag_of_spain_svg.png",
+    "jclic.js/125px_flag_of_the_united_kingdom_svg.png",
+    "jclic.js/300px_flag_of_switzerland_svg.png",
+    "jclic.js/acueducto.jpg",
+    "jclic.js/anfiteatro.jpg",
+    "jclic.js/circo.jpg",
+    "jclic.js/delfos.jpg",
+    "jclic.js/domus.jpg",
+    "jclic.js/doriforo.jpg",
+    "jclic.js/imperio_romano.jpg",
+    "jclic.js/loba_capitolina.jpg",
+    "jclic.js/mapa_expasion_en_italia.jpg",
+    "jclic.js/olimpia.jpg",
+    "jclic.js/panteon.jpg",
+    "jclic.js/partenon.jpg",
+    "jclic.js/platon.jpg",
+    "jclic.js/roma3.jclic",
+    "jclic.js/teatro.jpg",
+    "jclic.js/templo.jpg",
+    "jclic.js/termas.jpg",
+    "jclic.js/virgilio.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/roma3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

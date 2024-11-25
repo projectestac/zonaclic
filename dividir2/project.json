@@ -1,0 +1,130 @@
+{
+  "id": 1163,
+  "title": "La división",
+  "author": "Francisco Esteve Herrero",
+  "school": "CP El Paseo Caudete (Albacete)",
+  "date": "14/06/04",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "càlcul",
+    "es": "cálculo",
+    "en": "calculation"
+  },
+  "descCodes": [
+    702
+  ],
+  "description": {
+    "en": "Clic activities about divisions, for Primary School.",
+    "ca": "Activitat clic per iniciar-se en la divisió per a 3r d'Educació Primària. En l'elaboració del paquet s'han utilitzat materials del llibre \n<i>Nuevo Proyecto Tierra</i> de l'Editorial SM.",
+    "es": "Actividad clic para iniciarse en la división para 3º de Educación Primaria. Para realizar la actividad se han utilizado materiales del libro \n<i>Nuevo Proyecto Tierra</i> de la Editorial SM."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/dividir2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/dividir2.jclic.zip",
+  "instFile": "jclic/dividir2.jclic.inst",
+  "clicZoneId": 2642,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2642",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/dividir2/jclic/dividir2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 51,
+  "totalSize": 532076,
+  "files": [
+    "cover.gif",
+    "jclic.js/bien.gif",
+    "jclic.js/bien1p.gif",
+    "jclic.js/bienp.gif",
+    "jclic.js/coche.gif",
+    "jclic.js/d1.gif",
+    "jclic.js/d2.gif",
+    "jclic.js/d3.gif",
+    "jclic.js/d4.gif",
+    "jclic.js/d5.gif",
+    "jclic.js/d6.gif",
+    "jclic.js/d7.gif",
+    "jclic.js/d8.gif",
+    "jclic.js/dividir2.jclic",
+    "jclic.js/f.gif",
+    "jclic.js/fo.gif",
+    "jclic.js/golos.gif",
+    "jclic.js/i1.gif",
+    "jclic.js/i2.gif",
+    "jclic.js/i3.gif",
+    "jclic.js/i4.gif",
+    "jclic.js/i5.gif",
+    "jclic.js/i6.gif",
+    "jclic.js/libros.gif",
+    "jclic.js/m1.gif",
+    "jclic.js/m2.gif",
+    "jclic.js/m3.gif",
+    "jclic.js/mesa.gif",
+    "jclic.js/n1.gif",
+    "jclic.js/n2.gif",
+    "jclic.js/ok.gif",
+    "jclic.js/okp.gif",
+    "jclic.js/p.gif",
+    "jclic.js/pd1.gif",
+    "jclic.js/pd2.gif",
+    "jclic.js/pd3.gif",
+    "jclic.js/pd4.gif",
+    "jclic.js/pd5.gif",
+    "jclic.js/pd6.gif",
+    "jclic.js/pd7.gif",
+    "jclic.js/pd8.gif",
+    "jclic.js/pd9.gif",
+    "jclic.js/resto.gif",
+    "jclic.js/resto1.gif",
+    "jclic.js/resto2.gif",
+    "jclic.js/resto3.gif",
+    "jclic.js/resto4.gif",
+    "jclic.js/resto5.gif",
+    "jclic.js/resto6.gif",
+    "jclic.js/resto7.gif",
+    "jclic.js/tomates.gif",
+    "jclic.js/x1.gif",
+    "jclic.js/x2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/dividir2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

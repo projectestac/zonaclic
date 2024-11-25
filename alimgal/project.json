@@ -1,0 +1,110 @@
+{
+  "id": 131,
+  "title": "Os alimentos e a nutrición",
+  "author": "Juan José Mateo Molina",
+  "school": "CP El Olivar Rivas - Vaciamadrid (Madrid)",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aliments, nutrició",
+    "es": "alimentos, nutrición",
+    "en": "foods, nutrition"
+  },
+  "descCodes": [
+    49,
+    91
+  ],
+  "description": {
+    "en": "Activity pack based on a textbook about the knowledge of our environment. The topics studied are: Food, digestion, breathing, circulation and excretion.",
+    "ca": "Paquet d'activitats desenvolupat a partir del llibre de text de coneixement del medi de l'Editorial Santillana per a 3er de primària \"El libro de las preguntas\". L'aplicació consta de tres unitats:\n<p> </p>\n<ul> \n <li>Els aliments </li>\n <li>La digestió </li>\n <li>Respiració, circulació i excreció </li>\n</ul> \n<p> Trobareu més informació a la web d'<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo. </p>",
+    "es": "Paquete de actividades desarrollado a partir del libro de texto de conocimiento del medio de la Editorial Santillana para 3º de primaria \"El libro de las preguntas\". La aplicación consta de tres unidades:\n<p> </p>\n<ul> \n <li>Los alimentos </li>\n <li>La digestión </li>\n <li>Respiración, circulación y excreción </li>\n</ul> \n<p> Encontraréis más información en la web de <b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "alimento"
+  ],
+  "mainFile": "jclic.js/alimgal.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/alimgal.jclic.zip",
+  "instFile": "jclic/alimgal.jclic.inst",
+  "clicZoneId": 1062,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1062",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/alimgal/jclic/alimgal.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 51,
+  "mediaFiles": 27,
+  "totalSize": 960793,
+  "files": [
+    "cover.jpg",
+    "jclic.js/a1.gif",
+    "jclic.js/a2.gif",
+    "jclic.js/a3.gif",
+    "jclic.js/a4.gif",
+    "jclic.js/a5.gif",
+    "jclic.js/a6.gif",
+    "jclic.js/a7.gif",
+    "jclic.js/a8.gif",
+    "jclic.js/al1.gif",
+    "jclic.js/al2.gif",
+    "jclic.js/al3.gif",
+    "jclic.js/al4.gif",
+    "jclic.js/alimento.gif",
+    "jclic.js/alimgal.jclic",
+    "jclic.js/antonio.gif",
+    "jclic.js/circ.gif",
+    "jclic.js/circ_p.gif",
+    "jclic.js/d4.gif",
+    "jclic.js/dientes.gif",
+    "jclic.js/diges.gif",
+    "jclic.js/exc.gif",
+    "jclic.js/i.gif",
+    "jclic.js/i1.gif",
+    "jclic.js/i2.gif",
+    "jclic.js/i3.gif",
+    "jclic.js/nowhere.mid",
+    "jclic.js/puzzle.wav",
+    "jclic.js/resp.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/alimgal.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

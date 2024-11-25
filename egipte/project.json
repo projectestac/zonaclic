@@ -1,0 +1,135 @@
+{
+  "id": 762,
+  "title": "L'antic Egipte",
+  "author": "Agustí Planells Gutiérrez",
+  "school": "CEIP Sa Graduada Eivissa (Balears)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "civilització clàssica, classes socials, geografia, història",
+    "es": "civilización clásica, clases sociales, geografía, historia",
+    "en": "classic civilization, social classes, geography, history"
+  },
+  "descCodes": [
+    178,
+    179,
+    235,
+    246
+  ],
+  "description": {
+    "en": "Activities about ancient Egypt. Art, society and religion are the topics treated here.",
+    "ca": "Dos paquets d'activitats sobre l'antic Egipte: \"Art\" i \"Societat i religió\", on es treballen la situació geogràfica i històrica, els estaments socials, els faraons, els déus, els monuments i les obres d'art.",
+    "es": "Dos paquetes de actividades sobre el antiguo Egipto: \"Arte\" y \"Sociedad y religión\", en los que se trabajan la situación geográfica e histórica, los estamentos sociales, los faraones, los dioses, los monumentos y las obras de arte."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "egipteus"
+  ],
+  "mainFile": "jclic.js/egipte.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/egipte.jclic.zip",
+  "instFile": "jclic/egipte.jclic.inst",
+  "clicZoneId": 1415,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1415",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/egipte/jclic/egipte.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 50,
+  "totalSize": 603066,
+  "files": [
+    "cover.jpg",
+    "jclic.js/akenaton.jpg",
+    "jclic.js/am_n.jpg",
+    "jclic.js/anubis.jpg",
+    "jclic.js/aplaus.wav",
+    "jclic.js/architec.jpg",
+    "jclic.js/caixa.jpg",
+    "jclic.js/carrams_.jpg",
+    "jclic.js/carrram.jpg",
+    "jclic.js/cleopa.jpg",
+    "jclic.js/cult.gif",
+    "jclic.js/egipte.jclic",
+    "jclic.js/escriba.jpg",
+    "jclic.js/falc_.jpg",
+    "jclic.js/glass.jpg",
+    "jclic.js/hathor.jpg",
+    "jclic.js/hatstem.jpg",
+    "jclic.js/head.jpg",
+    "jclic.js/ivori.jpg",
+    "jclic.js/jewel.jpg",
+    "jclic.js/jewelry.jpg",
+    "jclic.js/karnak.jpg",
+    "jclic.js/kefre2.jpg",
+    "jclic.js/m_scara.jpg",
+    "jclic.js/mapa2.gif",
+    "jclic.js/model.jpg",
+    "jclic.js/model2.jpg",
+    "jclic.js/morts.jpg",
+    "jclic.js/mural.jpg",
+    "jclic.js/nefer.jpg",
+    "jclic.js/nefert.jpg",
+    "jclic.js/osir.jpg",
+    "jclic.js/ostraca4.jpg",
+    "jclic.js/painting.jpg",
+    "jclic.js/pir_mid.jpg",
+    "jclic.js/pol_.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/portada2.gif",
+    "jclic.js/pottery.jpg",
+    "jclic.js/rameses.jpg",
+    "jclic.js/rams_sii.jpg",
+    "jclic.js/roseta.jpg",
+    "jclic.js/saqqara.jpg",
+    "jclic.js/sarc_.jpg",
+    "jclic.js/sekhmet.jpg",
+    "jclic.js/sphinx.jpg",
+    "jclic.js/statue.jpg",
+    "jclic.js/tiy.jpg",
+    "jclic.js/tools.jpg",
+    "jclic.js/tr_ada.jpg",
+    "jclic.js/ull.jpg",
+    "jclic.js/zodiac.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/egipte.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": 1152,
+  "title": "Hilo es hilo es...",
+  "author": "Juana Rello Serrano",
+  "school": "CP Luis Vives Alcalá de Henares (Madrid)",
+  "date": "11/06/04",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua",
+    "es": "aprendizaje de la lengua",
+    "en": "learning of the language"
+  },
+  "descCodes": [
+    110
+  ],
+  "description": {
+    "en": "<i>Hilo es hilo es ...</i> is a package of activities for reading comprehension based on riddles and memory capacity (puzzles).",
+    "ca": "\"Hilo es hilo es...\" és un paquet d'activitats de comprensió lectora basat en endevinalles i en la capacitat d'atenció retentiva (trencaclosques). \n<br>Els textos de les endevinalles han estat recollits per alumnes de la classe des de diferents fonts.",
+    "es": "\"Hilo es hilo es...\" es un paquete de actividades de comprensión lectora basado en adivinanzas y en la capacidad de atención y retentiva (rompecabezas).\n<br> Los textos de las adivinanzas han sido recogidos por los alumnos en clase de diferentes fuentes."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/adivinan.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/adivinan.jclic.zip",
+  "instFile": "jclic/adivinan.jclic.inst",
+  "clicZoneId": 2583,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2583",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/adivinan/jclic/adivinan.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 23,
+  "totalSize": 916134,
+  "files": [
+    "cover.jpg",
+    "jclic.js/adivina.jpg",
+    "jclic.js/adivinan.jclic",
+    "jclic.js/aire.jpg",
+    "jclic.js/arbol_f.jpg",
+    "jclic.js/ariris.jpg",
+    "jclic.js/balle1.jpg",
+    "jclic.js/balle2.jpg",
+    "jclic.js/ballena.jpg",
+    "jclic.js/ballena1.jpg",
+    "jclic.js/bosque1.jpg",
+    "jclic.js/cabal1.jpg",
+    "jclic.js/caball_1.jpg",
+    "jclic.js/calendas.jpg",
+    "jclic.js/cigu.jpg",
+    "jclic.js/cigu1.jpg",
+    "jclic.js/gallina1.jpg",
+    "jclic.js/gallina2.jpg",
+    "jclic.js/hormgia.jpg",
+    "jclic.js/hormiga1.jpg",
+    "jclic.js/loro2.jpg",
+    "jclic.js/loro3.jpg",
+    "jclic.js/luna.jpg",
+    "jclic.js/reloj.jpg",
+    "jclic.js/verano.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/adivinan.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

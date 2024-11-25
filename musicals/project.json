@@ -1,0 +1,135 @@
+{
+  "id": 2089,
+  "title": "Els instruments musicals",
+  "author": "Rubén Besora Oró",
+  "school": "Escola Sol Ixent - ZER Argelaga Corbins (Segrià)",
+  "date": "26/11/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la música, instrument musical",
+    "es": "aprendizaje de la música, instrumento musical",
+    "en": "learning of music, musical instrument"
+  },
+  "descCodes": [
+    717,
+    724
+  ],
+  "description": {
+    "en": "Project of activities addressed to primary education to learn some instruments from different families and some major authors and works: The 4th Symphony by Mozart and The Spring by Vivaldi",
+    "ca": "Projecte d'activitats adreçat a cicle inicial i cicle mitjà d'educació primària per conèixer uns quants instruments de diferents famílies i algunes obres i autors importants: La 4a Simfonia de Mozart i La Primavera de Vivaldi.",
+    "es": "Proyecto de actividades dirigido a ciclo inicial y ciclo medio de educación primaria para conocer algunos instrumentos de diferentes familias y algunas obras y autores importantes: La 4ª Sinfonía de Mozart y La Primavera de Vivaldi."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "music_eu"
+  ],
+  "mainFile": "jclic.js/musicals.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/musicals.jclic.zip",
+  "instFile": "jclic/musicals.jclic.inst",
+  "clicZoneId": 3651,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3651",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/musicals/jclic/musicals.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 52,
+  "totalSize": 7630967,
+  "files": [
+    "cover.jpg",
+    "jclic.js/15752__eriatarka__bluesy_lick.mp3",
+    "jclic.js/4_simfonia.mp3",
+    "jclic.js/a_guit_n.wav",
+    "jclic.js/a_piano.wav",
+    "jclic.js/acordio.gif",
+    "jclic.js/acordio.wav",
+    "jclic.js/arpa.gif",
+    "jclic.js/banjo.gif",
+    "jclic.js/banjo.mp3",
+    "jclic.js/bassoon.wav",
+    "jclic.js/clarinet.gif",
+    "jclic.js/clarinet.wav",
+    "jclic.js/escolta.jpg",
+    "jclic.js/fagot.gif",
+    "jclic.js/guitarra.gif",
+    "jclic.js/guitarra.mp3",
+    "jclic.js/guitarra_electrica.jpg",
+    "jclic.js/guitarra_home.jpg",
+    "jclic.js/hard_tambourine.wav",
+    "jclic.js/juangris1.jpg",
+    "jclic.js/maracas.wav",
+    "jclic.js/maraques.jpg",
+    "jclic.js/mozart.jpg",
+    "jclic.js/musicals.jclic",
+    "jclic.js/notas.jpg",
+    "jclic.js/o_harp.wav",
+    "jclic.js/orgue.jpg",
+    "jclic.js/orgue.wav",
+    "jclic.js/pandereta.gif",
+    "jclic.js/piano.gif",
+    "jclic.js/piano.mp3",
+    "jclic.js/piano_de_cua.gif",
+    "jclic.js/quatrestacions.mp3",
+    "jclic.js/timbal.jpg",
+    "jclic.js/timpani_2.wav",
+    "jclic.js/titol.jpg",
+    "jclic.js/triangle.jpg",
+    "jclic.js/triangle1.wav",
+    "jclic.js/triangle_reverb.wav",
+    "jclic.js/trombo.gif",
+    "jclic.js/trombo.mp3",
+    "jclic.js/trompa.gif",
+    "jclic.js/trompa.jpg",
+    "jclic.js/trompa.mp3",
+    "jclic.js/trompeta.gif",
+    "jclic.js/trompeta.mp3",
+    "jclic.js/trompeta.wav",
+    "jclic.js/violi.gif",
+    "jclic.js/violi.mp3",
+    "jclic.js/violin.wav",
+    "jclic.js/vivaldi.jpg",
+    "jclic.js/xilofon.gif",
+    "jclic.js/xyloph.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/musicals.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

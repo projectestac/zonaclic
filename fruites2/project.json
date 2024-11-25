@@ -1,0 +1,103 @@
+{
+  "id": 1705,
+  "title": "Les fruites 2",
+  "author": "Míriam Albarrán Gómez",
+  "school": "Escola Pere Torrent Lloret de Mar (Selva)",
+  "date": "05/10/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages",
+    "ca": "Ciències experimentals, Llengües",
+    "es": "Ciencias experimentales, Lenguas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "vocabulari, fulles",
+    "es": "vocabulario, hojas",
+    "en": "vocabulary, leaves"
+  },
+  "descCodes": [
+    150,
+    847
+  ],
+  "description": {
+    "en": "Project of eighteen activities about fruits: banana, kiwi, pomegranate, lemon, orange and coconut. There are memory activities, write activities, filling activities, etc...",
+    "ca": "Projecte de divuit activitats dividides en tres parts per a treballar la lectoescriptura d'algunes fruites prèviament treballades a l'aula. Trobem activitats de memòria, d'escriure, d'omplir... Els noms de les fruites treballades són: plàtan, kiwi, margrana, llimona, taronja i coco.",
+    "es": "Proyecto de dieciocho actividades divididas en tres partes para trabajar la lectoescritura de algunas frutas previamente trabajadas al aula. Encontramos actividades de memoria, de escribir, rellenar... Los nombres de las frutas trabajadas son: plátano, kiwi, granada, limón, naranja y coco."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/fruites2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fruites2.jclic.zip",
+  "instFile": "jclic/fruites2.jclic.inst",
+  "clicZoneId": 3414,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3414",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fruites2/jclic/fruites2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 21,
+  "totalSize": 619277,
+  "files": [
+    "cover.gif",
+    "jclic.js/alegria1.mp3",
+    "jclic.js/blues1.mp3",
+    "jclic.js/cara.jpg",
+    "jclic.js/careskiwis.jpg",
+    "jclic.js/cocox2.jpg",
+    "jclic.js/croissant.jpg",
+    "jclic.js/enciam.jpg",
+    "jclic.js/fruites2.jclic",
+    "jclic.js/harpa1.mp3",
+    "jclic.js/iogurt.jpg",
+    "jclic.js/kiwi_xdins2.jpg",
+    "jclic.js/kiwix2.jpg",
+    "jclic.js/limonx2.jpg",
+    "jclic.js/magranax2.jpg",
+    "jclic.js/manzanax2.gif",
+    "jclic.js/mercat_.jpg",
+    "jclic.js/naranjax2.jpg",
+    "jclic.js/pela_taronja.gif",
+    "jclic.js/peto1.mp3",
+    "jclic.js/platansx2.jpg",
+    "jclic.js/sonrisa.gif",
+    "jclic.js/taronja_dins.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fruites2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

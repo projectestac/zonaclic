@@ -1,0 +1,118 @@
+{
+  "id": 159,
+  "title": "Animaliak eta landareak",
+  "author": "Juan José Mateo Molina",
+  "school": "CP El Olivar Rivas - Vaciamadrid (Madrid)",
+  "date": "22/09/10",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "botànica, ecosistema, zoologia",
+    "es": "botánica, ecosistema, zoología",
+    "en": "botany, ecosystem, zoology"
+  },
+  "descCodes": [
+    59,
+    66,
+    108
+  ],
+  "description": {
+    "en": "Activity pack based on the textbook \"El libro de las preguntas\" (the question book). The activities are divided into three groups: \n<br> \n<li>Animals </li>\n<li>Plants </li>\n<li>Ecosystems <p> You'll find more information in the pages <b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">\"Aplicaciones educativas\"</a></b>. </p></li>",
+    "ca": "Aquesta aplicació es va dissenyar a partir del llibre de text de coneixement del medi de 3er de primària de l'editorial Santillana \"El libro de las preguntas\".\n<br> L'aplicació consta de tres unitats:\n<br> \n<li>Els animals </li>\n<li>Les plantes </li>\n<li>Els ecosistemes <p> Trobareu més informació a la web d'<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo. </p></li>",
+    "es": "Esta aplicación se diseñó a partir del libro de texto de Conocimiento del Medio de 3º de E. Primaria, \"El libro de las preguntas\", de la editorial Santillana.\n<br> La aplicación consta de tres unidades:\n<br> \n<li>Los animales </li>\n<li>Las plantas </li>\n<li>Los ecosistemas <p> Encontraréis más información en la web de <b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo. </p></li>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "aniplan"
+  ],
+  "mainFile": "jclic.js/aniplaeu.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/aniplaeu.jclic.zip",
+  "instFile": "jclic/aniplaeu.jclic.inst",
+  "clicZoneId": 1079,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1079",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/aniplaeu/jclic/aniplaeu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 42,
+  "mediaFiles": 34,
+  "totalSize": 609876,
+  "files": [
+    "cover.gif",
+    "jclic.js/acacia.gif",
+    "jclic.js/anfibio.gif",
+    "jclic.js/animal.gif",
+    "jclic.js/aniplaeu.jclic",
+    "jclic.js/aniplan.gif",
+    "jclic.js/arbol.gif",
+    "jclic.js/arbusto.gif",
+    "jclic.js/autor.gif",
+    "jclic.js/ave.gif",
+    "jclic.js/caduco.gif",
+    "jclic.js/chopo.gif",
+    "jclic.js/conejo.gif",
+    "jclic.js/desierto.gif",
+    "jclic.js/eco.gif",
+    "jclic.js/gusano.gif",
+    "jclic.js/help.mid",
+    "jclic.js/hierba.gif",
+    "jclic.js/hierbas.gif",
+    "jclic.js/ins_part.gif",
+    "jclic.js/insecto.gif",
+    "jclic.js/mamifero.gif",
+    "jclic.js/mar.gif",
+    "jclic.js/molusco.gif",
+    "jclic.js/p_flor.gif",
+    "jclic.js/p_plan.gif",
+    "jclic.js/perenne.gif",
+    "jclic.js/pez.gif",
+    "jclic.js/pino.gif",
+    "jclic.js/planta.gif",
+    "jclic.js/platano.gif",
+    "jclic.js/reptil.gif",
+    "jclic.js/roble.gif",
+    "jclic.js/sabana.gif",
+    "jclic.js/selva.gif",
+    "jclic.js/zorro.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/aniplaeu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

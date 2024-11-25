@@ -1,0 +1,89 @@
+{
+  "id": 680,
+  "title": "Càlcul Mental",
+  "author": "Joan Barres i Sanz",
+  "school": "CP Trullàs Benifaió (Ribera Alta)",
+  "date": "29/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "càlcul",
+    "es": "cálculo",
+    "en": "calculation"
+  },
+  "descCodes": [
+    702
+  ],
+  "description": {
+    "en": "Clic activities destined to Primary School about mental arithmetic.",
+    "ca": "Paquet d'activitats clic elaborat amb \"arith2dll\" per als tres cicles de Primària. El paquet consta de 50 activitats de càlcul mental: sumes i restes (portant-ne i sense), multiplicacions i divisions per tal d'agilitar el càlcul mental dels/les alumnes de primària.",
+    "es": "Paquete de actividades clic elaborado con \"artith2dll\" para los tres ciclos de primaria. El paquete consta de 50 actividades de cálculo mental: sumas y restas (llevando y sin llevar), multiplicaciones y divisiones por tal de agilizar el cálculo mental de los/las alumnos de primaria."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/calcment.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/calcment.jclic.zip",
+  "instFile": "jclic/calcment.jclic.inst",
+  "clicZoneId": 1355,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1355",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/calcment/jclic/calcment.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 50,
+  "mediaFiles": 10,
+  "totalSize": 347095,
+  "files": [
+    "cover.gif",
+    "jclic.js/1.gif",
+    "jclic.js/2.gif",
+    "jclic.js/3.gif",
+    "jclic.js/4.gif",
+    "jclic.js/5.gif",
+    "jclic.js/6.gif",
+    "jclic.js/calcment.jclic",
+    "jclic.js/canond.mid",
+    "jclic.js/fons.gif",
+    "jclic.js/fons2.gif",
+    "jclic.js/portada.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/calcment.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

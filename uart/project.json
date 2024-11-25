@@ -1,0 +1,126 @@
+{
+  "id": 917,
+  "title": "Vam entath uart!",
+  "author": "Jordi Xiberta i Soria",
+  "school": "Escola Pompeu Fabra Anglès (Selva)",
+  "date": "11/10/06",
+  "languages": {
+    "en": "Occitan",
+    "ca": "occità",
+    "es": "occitano"
+  },
+  "langCodes": [
+    "oc"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales",
+    "en": "Experimental sciences"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aliments",
+    "es": "alimentos",
+    "en": "foods"
+  },
+  "descCodes": [
+    49
+  ],
+  "description": {
+    "en": "This package is a complement to the activities that the pupils done in the vegetable garden. Its maintenance and observing the growing phases of the plants as well as its parts.\n<br> The main objectives are: \n<ul> \n <li>Learn the more frequent plants of the vegetable garden. Understanding the classification according the part we eat. </li>\n <li>Lean some tools of the vegetable garden. </li>\n <li>Learn some popular knowledge that refers to the vegetables and the tools. </li>\n</ul>",
+    "ca": "Aquest paquet d'activitats ha estat pensat com a complement del treball pràctic que els alumnes realitzen a l'hort de l'escola, on hi van periòdicament a realitzar-hi les diferents feines pròpies del manteniment d'un hort (cavar, sembrar, plantar, herbejar, regar...) i a observar les diferents fases del creixement de les plantes i les seves parts.\n<br> Els principals objectius són: \n<ul> \n <li>Coneixement dels productes més freqüents als horts del nostre entorn. El seu aspecte i l'escriptura correcta del seu nom. La seva classificació segons la part que en consumim. </li>\n <li>Coneixement d'algunes eines de l'hort. La seva utilitat i l'escriptura correcta del seu nom. </li>\n <li>Coneixement d'algunes dites populars i refranys que fan referència tant als productes com a les eines de l'hort. </li>\n</ul>",
+    "es": "Este paquete de actividades ha sido pensado como complemento del trabajo práctico que los alumnos realizan en el huerto de la escuela, donde van periódicamente a realizar trabajos de mantenimiento (cavar, sembrar, plantar,...) y a observar las diferentes fases del crecimiento de las plantas y sus partes.\n<br> Los principales objetivos son: \n<ul> \n <li>Conocimiento de los productos más frecuentes de los huertos del entorno. Su aspecto y la escritura correcta de su nombre. Su clasificación según la parte que se consume. </li>\n <li>Conocimiento de algunas herramientas del huerto. Su utilidad y la escritura correcta de su nombre. </li>\n <li>Conocimiento de algunos dichos populares y refranes que hacen referencia tanto a los productos como de las herramientas. </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "hort"
+  ],
+  "mainFile": "jclic.js/uart.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/uart.jclic.zip",
+  "instFile": "jclic/uart.jclic.inst",
+  "clicZoneId": 2028,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2028",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/uart/jclic/uart.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 52,
+  "mediaFiles": 42,
+  "totalSize": 1151633,
+  "files": [
+    "cover.jpg",
+    "jclic.js/fons3.jpg",
+    "jclic.js/hortdita.wav",
+    "jclic.js/portada1.jpg",
+    "jclic.js/produc/alberg.jpg",
+    "jclic.js/produc/all.jpg",
+    "jclic.js/produc/bleda.jpg",
+    "jclic.js/produc/broquil.jpg",
+    "jclic.js/produc/carbasso.jpg",
+    "jclic.js/produc/carxofa.jpg",
+    "jclic.js/produc/ceba.jpg",
+    "jclic.js/produc/cogombre.jpg",
+    "jclic.js/produc/col.jpg",
+    "jclic.js/produc/coliflor.jpg",
+    "jclic.js/produc/divers1.jpg",
+    "jclic.js/produc/divers2.jpg",
+    "jclic.js/produc/enciam1.jpg",
+    "jclic.js/produc/espinac.jpg",
+    "jclic.js/produc/famcar.jpg",
+    "jclic.js/produc/famceba.jpg",
+    "jclic.js/produc/famcol.jpg",
+    "jclic.js/produc/famenci.jpg",
+    "jclic.js/produc/famrave.jpg",
+    "jclic.js/produc/famtomaq.jpg",
+    "jclic.js/produc/fava.jpg",
+    "jclic.js/produc/florcarx.jpg",
+    "jclic.js/produc/florpes.jpg",
+    "jclic.js/produc/fons1.jpg",
+    "jclic.js/produc/fons2.jpg",
+    "jclic.js/produc/fons3.jpg",
+    "jclic.js/produc/juli.jpg",
+    "jclic.js/produc/mongeta.jpg",
+    "jclic.js/produc/moniato.jpg",
+    "jclic.js/produc/naps.jpg",
+    "jclic.js/produc/pastan.jpg",
+    "jclic.js/produc/patata.jpg",
+    "jclic.js/produc/pebrot.jpg",
+    "jclic.js/produc/pesol.jpg",
+    "jclic.js/produc/planter1.jpg",
+    "jclic.js/produc/porro.jpg",
+    "jclic.js/produc/produc.jclic",
+    "jclic.js/produc/rave1.jpg",
+    "jclic.js/produc/tomaquet.jpg",
+    "jclic.js/t_tol.jpg",
+    "jclic.js/uart.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/uart.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/produc/produc.jclic.js",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": 2183,
+  "title": "Los climas de España",
+  "author": "Mª Ángeles Morales",
+  "school": "CEIP Jacarandá Sevilla Sevilla (Andalucía)",
+  "date": "06/10/11",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "clima",
+    "es": "clima",
+    "en": "climate"
+  },
+  "descCodes": [
+    779
+  ],
+  "description": {
+    "en": "Project of JClic activities about Spanish climates addressed to students of upper primary school: \n<ul> \n <li>Climate definition </li>\n <li>Influencing factors </li>\n <li>Types and characteristics of climates </li>\n <li>Vegetation </li>\n</ul>",
+    "ca": "Projecte d'activitats JClic sobre els climes d'Espanya adreçat a alumnes de cicle superior de primària: \n<ul> \n <li>Definició de clima </li>\n <li>Factors que influeixen </li>\n <li>Tipus de climes i característiques </li>\n <li>Vegetació </li>\n</ul>",
+    "es": "Proyecto de actividades JClic sobre los climas de España dirigido a alumnos de ciclo superior de primaria: \n<ul> \n <li>Definición de clima </li>\n <li>Factores que influyen </li>\n <li>Tipos de climas y características </li>\n <li>Vegetación </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/clima.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/clima.jclic.zip",
+  "instFile": "jclic/clima.jclic.inst",
+  "clicZoneId": 3718,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3718",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/clima/jclic/clima.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 8,
+  "mediaFiles": 2,
+  "totalSize": 137909,
+  "files": [
+    "cover.png",
+    "jclic.js/clima.jclic",
+    "jclic.js/climas.jpg",
+    "jclic.js/mapa_climatico.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/clima.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

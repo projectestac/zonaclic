@@ -1,0 +1,142 @@
+{
+  "id": 2098,
+  "title": "L'antiga Grècia",
+  "author": "Josep Mª Fortià",
+  "school": "Institut La Bisbal La Bisbal d'Empordà (Baix Empordà)",
+  "date": "17/01/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "història de grècia, mitologia",
+    "es": "historia de Grecia, mitología",
+    "en": "history of Greece, mythology"
+  },
+  "descCodes": [
+    249,
+    281
+  ],
+  "description": {
+    "en": "More than 30 JClic activities about the Ancient Greece: \n<ul> \n <li>Stages and cities of Ancient Greece </li>\n <li>Forms of government </li>\n <li>Philosophers and philosophical schools </li>\n <li>Parts of the temple </li>\n <li>Cops </li>\n <li>Sculpture </li>\n <li>Gods  </li>\n</ul>",
+    "ca": "Més de 30 activitats dedicades a repassar conceptes sobre la Grècia clàssica: \n<ul> \n <li>Etapes i ciutats de l'antiga Grècia </li>\n <li>Formes de govern </li>\n <li>Escoles filosòfiques i filòsofs </li>\n <li>Parts del temple </li>\n <li>La polis </li>\n <li>L'escultura </li>\n <li>Els Déus </li>\n</ul>",
+    "es": "Más de 30 actividades dedicadas a repasar conceptos sobre la Grecia clásica: \n<ul> \n <li>Etapas y ciudades de la antigua Grecia </li>\n <li>Formas de gobierno </li>\n <li>Escuelas filosóficas y filósofos </li>\n <li>Partes del templo </li>\n <li>La polis </li>\n <li>La escultura </li>\n <li>Los Dioses </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/agrecia.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/agrecia.jclic.zip",
+  "instFile": "jclic/agrecia.jclic.inst",
+  "clicZoneId": 3657,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3657",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/agrecia/jclic/agrecia.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 38,
+  "mediaFiles": 62,
+  "totalSize": 3384251,
+  "files": [
+    "cover.jpg",
+    "jclic.js/afrodita.gif",
+    "jclic.js/agrecia.jclic",
+    "jclic.js/alexandre_el_gran.jpg",
+    "jclic.js/altar_zeus_pergam.jpg",
+    "jclic.js/apolo.gif",
+    "jclic.js/ares.gif",
+    "jclic.js/aristoteles.jpg",
+    "jclic.js/artemis.gif",
+    "jclic.js/atena.gif",
+    "jclic.js/atenea_partenos_prado_resized.jpg",
+    "jclic.js/biblos.jpg",
+    "jclic.js/bous_ibers.jpg",
+    "jclic.js/cariatides.jpg",
+    "jclic.js/carthage.jpg",
+    "jclic.js/catalunya_pobles_ibers_mut.jpg",
+    "jclic.js/cnossos.jpg",
+    "jclic.js/dama_baza.jpg",
+    "jclic.js/damaelx.jpg",
+    "jclic.js/dame_dauxerre.jpg",
+    "jclic.js/demeter.gif",
+    "jclic.js/democrito.jpg",
+    "jclic.js/deus_grecs_comic_resized.jpg",
+    "jclic.js/deus_grecs_resized.jpg",
+    "jclic.js/discobolo.jpg",
+    "jclic.js/doriforo.jpg",
+    "jclic.js/epicuro.jpg",
+    "jclic.js/epidaure.jpg",
+    "jclic.js/fenicia_escultura.jpg",
+    "jclic.js/gal_moribund.jpg",
+    "jclic.js/grecia_mapa_mut.gif",
+    "jclic.js/hefest.gif",
+    "jclic.js/hera.gif",
+    "jclic.js/hera_paestum.jpg",
+    "jclic.js/heraclito.jpg",
+    "jclic.js/hermes.gif",
+    "jclic.js/hestia.gif",
+    "jclic.js/kerkouane.jpg",
+    "jclic.js/kouros_1_resized.jpg",
+    "jclic.js/kuros_2.jpg",
+    "jclic.js/laocoonte.jpg",
+    "jclic.js/mediterrani_colonies_fen_cartag.gif",
+    "jclic.js/mediterrani_mut_colonies_gregues.gif",
+    "jclic.js/oracle_apolo.jpg",
+    "jclic.js/parmenides.jpg",
+    "jclic.js/partenon.jpg",
+    "jclic.js/parts_temple_grec_mut_amb_numeros.gif",
+    "jclic.js/parts_temple_grec_noms_destacats.gif",
+    "jclic.js/philippeion_olympia.jpg",
+    "jclic.js/pitagoras.jpg",
+    "jclic.js/platon.jpg",
+    "jclic.js/polis_grega_amb_numeros.gif",
+    "jclic.js/portada.jpg",
+    "jclic.js/posido.gif",
+    "jclic.js/puerta_de_los_leones_micenas.jpg",
+    "jclic.js/regions_gregues.gif",
+    "jclic.js/segesta.jpg",
+    "jclic.js/socrates.jpg",
+    "jclic.js/temple_grec_planta.gif",
+    "jclic.js/toro_farnesio.jpg",
+    "jclic.js/toro_fenici.jpg",
+    "jclic.js/ullastret.jpg",
+    "jclic.js/venus_milo.jpg",
+    "jclic.js/zeus.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/agrecia.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

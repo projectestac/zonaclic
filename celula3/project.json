@@ -1,0 +1,100 @@
+{
+  "id": 1807,
+  "title": "Les cèl·lules",
+  "author": "Luis Ugedo Ucar",
+  "school": "Institut Fort Pius Barcelona",
+  "date": "11/11/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "cèl.lula",
+    "es": "célula",
+    "en": "cell"
+  },
+  "descCodes": [
+    810
+  ],
+  "description": {
+    "en": "Project of activities about the cells morphology: \n<ul> \n <li>The cells </li>\n <li>Eukaryotic and prokaryotic cells </li>\n <li>Recognition and function of the cellular organelles </li>\n</ul>",
+    "ca": "Projecte d'activitats on es treballa bàsicament la morfologia d'una cèl·lula eucariota: \n<ul> \n <li>Teoria cel·lular </li>\n <li>Diferenciació entre cèl·lula eucariota i cèl·lula procariota </li>\n <li>Reconeixement i funció dels principals orgànuls cel·lulars </li>\n</ul>",
+    "es": "Proyecto de actividades donde se trabaja básicamente la morfología de una célula eucariota: \n<ul> \n <li>Teoría celular </li>\n <li>Diferenciación entre célula eucariota y célula procariota </li>\n <li>Reconocimiento y función de los principales orgánulos celulares </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/celula3.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/celula3.jclic.zip",
+  "instFile": "jclic/celula3.jclic.inst",
+  "clicZoneId": 3504,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3504",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/celula3/jclic/celula3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 29,
+  "mediaFiles": 21,
+  "totalSize": 1218503,
+  "files": [
+    "cover.gif",
+    "jclic.js/celula.gif",
+    "jclic.js/celula10.gif",
+    "jclic.js/celula11.gif",
+    "jclic.js/celula12.gif",
+    "jclic.js/celula13.gif",
+    "jclic.js/celula14.gif",
+    "jclic.js/celula15.gif",
+    "jclic.js/celula16.gif",
+    "jclic.js/celula17.gif",
+    "jclic.js/celula18.gif",
+    "jclic.js/celula2.gif",
+    "jclic.js/celula3.gif",
+    "jclic.js/celula3.jclic",
+    "jclic.js/celula4.gif",
+    "jclic.js/celula8a.gif",
+    "jclic.js/celula8b.gif",
+    "jclic.js/celula8c.gif",
+    "jclic.js/celula8p.gif",
+    "jclic.js/celula9a.gif",
+    "jclic.js/celula9p.gif",
+    "jclic.js/microsc1.gif",
+    "jclic.js/microsc2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/celula3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

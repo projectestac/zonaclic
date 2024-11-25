@@ -1,0 +1,124 @@
+{
+  "id": 370,
+  "title": "The Olympic and Paralympic Games",
+  "author": "Joan Barres i Sanz",
+  "school": "CP Trullàs Benifaió (Ribera Alta)",
+  "date": "19/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "esports, llengua anglesa",
+    "es": "deportes, lengua inglesa",
+    "en": "sports, English language"
+  },
+  "descCodes": [
+    424,
+    667
+  ],
+  "description": {
+    "en": "English language activities centred around the topic of the Olympic games. It works on vocabulary as well as on some of the history and organization of these games.",
+    "ca": "Paquet d'activitats en anglès que pren com a centre d'interès els jocs olímpics i paralímpics. S'hi treballa el vocabulari dels esports, així com la història i organització dels jocs. Les activitats estan adreçades a alumnes de primària i primer cicle d'ESO.",
+    "es": "Paquete de actividades en inglés que toman como centro de interés el tema de los juegos olímpicos y paralímpicos. Trabaja el vocabulario de los deportes así como la historia y organización de los juegos. Las actividades están dirigidas a alumnos de primaria y de primer ciclo de ESO."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/tog.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tog.jclic.zip",
+  "instFile": "jclic/tog.jclic.inst",
+  "clicZoneId": 1209,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1209",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/tog/jclic/tog.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 39,
+  "mediaFiles": 43,
+  "totalSize": 855671,
+  "files": [
+    "cover.gif",
+    "jclic.js/archer01.jpg",
+    "jclic.js/athel01.jpg",
+    "jclic.js/athens.jpg",
+    "jclic.js/badmin01.jpg",
+    "jclic.js/baseba01.jpg",
+    "jclic.js/basket01.jpg",
+    "jclic.js/bobsleig.jpg",
+    "jclic.js/boxin01.jpg",
+    "jclic.js/couber02.jpg",
+    "jclic.js/couber03.jpg",
+    "jclic.js/cyclin01.jpg",
+    "jclic.js/equita01.jpg",
+    "jclic.js/fencing.jpg",
+    "jclic.js/fig_skat.jpg",
+    "jclic.js/football.jpg",
+    "jclic.js/gymnast.jpg",
+    "jclic.js/handb01.jpg",
+    "jclic.js/hockey.jpg",
+    "jclic.js/icehoc01.jpg",
+    "jclic.js/iceska01.jpg",
+    "jclic.js/judo.jpg",
+    "jclic.js/marathon.jpg",
+    "jclic.js/paral02.jpg",
+    "jclic.js/parlym02.jpg",
+    "jclic.js/rowing.jpg",
+    "jclic.js/sailin01.jpg",
+    "jclic.js/sailing.jpg",
+    "jclic.js/shoot01.jpg",
+    "jclic.js/skii01.jpg",
+    "jclic.js/skiing.jpg",
+    "jclic.js/skijump.jpg",
+    "jclic.js/swim01.jpg",
+    "jclic.js/tablet01.jpg",
+    "jclic.js/tennis.jpg",
+    "jclic.js/tog.jclic",
+    "jclic.js/torxa1.jpg",
+    "jclic.js/torxa3.jpg",
+    "jclic.js/torxawww.jpg",
+    "jclic.js/volley.jpg",
+    "jclic.js/waterp01.jpg",
+    "jclic.js/waterpol.jpg",
+    "jclic.js/weight01.jpg",
+    "jclic.js/werockyo.mid",
+    "jclic.js/wrestlin.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/tog.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

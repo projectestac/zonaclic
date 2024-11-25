@@ -1,0 +1,93 @@
+{
+  "id": 77,
+  "title": "Cooperativismo escolar en Uruguay",
+  "author": "Óscar Cabrera",
+  "date": "09/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "cooperatives",
+    "es": "cooperativas",
+    "en": "cooperatives"
+  },
+  "descCodes": [
+    933
+  ],
+  "description": {
+    "en": "Package of activities about cooperatives, its seven principles, types of cooperatives and history of the cooperatives.",
+    "ca": "Paquet d'activitats clic sobre el cooperativisme escolar a Uruguai, els seus set principis: neutralitat, democràcia, solidaritat, mútua adhesió, associació i educació. Tipus de cooperatives: consum, escolar, agrària... i història de les cooperatives.",
+    "es": "Paquete de actividades clic sobre el cooperativismo escolar a Uruguay, sus siete principios: neutralidad, democracia, solidaridad, mutua adhesión, asociación y educación. Tipos de cooperativas: consumo, escolar, agraria... y historia de las cooperativas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cooperat.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cooperat.jclic.zip",
+  "instFile": "jclic/cooperat.jclic.inst",
+  "clicZoneId": 1034,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1034",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cooperat/jclic/cooperat.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 14,
+  "totalSize": 444974,
+  "files": [
+    "cover.gif",
+    "jclic.js/bander.jpg",
+    "jclic.js/codeom2.jpg",
+    "jclic.js/cooperat.jclic",
+    "jclic.js/genial.gif",
+    "jclic.js/princi1.jpg",
+    "jclic.js/princi2.jpg",
+    "jclic.js/princi3.jpg",
+    "jclic.js/princi4.jpg",
+    "jclic.js/princi5.jpg",
+    "jclic.js/princi6.jpg",
+    "jclic.js/princi7.jpg",
+    "jclic.js/princo7.jpg",
+    "jclic.js/simbolo.jpg",
+    "jclic.js/simbolo2.jpg",
+    "jclic.js/urug2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cooperat.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

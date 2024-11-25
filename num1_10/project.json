@@ -1,0 +1,150 @@
+{
+  "id": 1420,
+  "title": "Los primeros números por vía visual directa (Primera parte)",
+  "author": "Eduardo Martín Sánchez",
+  "school": "CEIP Cristóbal Colón El Puerto de Santa María - Cádiz (Andalucía)",
+  "date": "16/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "nombres enters",
+    "es": "números enteros",
+    "en": "integers"
+  },
+  "descCodes": [
+    1321
+  ],
+  "description": {
+    "en": "This Clic package aims to teach children the numbers using common elements of the school like the Cuisenarie rules, fingers, dice dots... There are up to 7 set of activities. Both first deals with groups of 4 numbers (1,4 and 2,5). The activity change is automatic, it can be done by young child. The three following ones are groups of 6 numbers, from1 to 8. Both last are groups of 9 numbers(1,9 and 2,10).\n<br> It is adapted for low vision impaired children.",
+    "ca": "Amb aquesta aplicació clic s'intenta que els nens i nenes es formin imatges de cada nombre amb els instruments més emprats a l'escola: els dits de les mans, les regletes Cuisenaire, els punts del dau... Hi ha un total de 7 grups d'activitats. Als dos primers es treballa amb grups de 4 nombres (1, 4 i 2, 5) i el canvi d'activitat és automàtic. Poden fer-ho nens petits. Els tres següents són de sis nombres i es treballen a l'1 al 8. Els dos últims són en grups de 9 nombres (1, 9 i 2, 10).\n<br> Adaptat per discapacitat visual baixa visió.",
+    "es": "Con esta aplicación de clic se intenta que los niños y niñas se formen imágenes de cada número con los instrumentos más usados en la escuela: los dedos de las manos, las regletas de Cuisenaire, los puntos del dado... En total hay 7 grupos de actividades. En los dos primeros se trabaja con grupos de 4 números (1 , 4 y 2 , 5) y el cambio de actividad es automático. Pueden hacerlo niños pequeños. Los 3 siguientes son de seis números y se trabajan del 1 al 8. Los dos últimos son en grupos de 9 números (1 , 9 y 2 , 10).\n<br> Adaptado para discapacidad visual baja visión."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "2num1_10",
+    "2num1_10dv"
+  ],
+  "mainFile": "jclic.js/num1_10.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/num1_10.jclic.zip",
+  "instFile": "jclic/num1_10.jclic.inst",
+  "clicZoneId": 3155,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3155",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/num1_10/jclic/num1_10.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 123,
+  "mediaFiles": 66,
+  "totalSize": 1512784,
+  "files": [
+    "cover.gif",
+    "jclic.js/1.gif",
+    "jclic.js/1.wav",
+    "jclic.js/10.gif",
+    "jclic.js/10.wav",
+    "jclic.js/2.gif",
+    "jclic.js/2.wav",
+    "jclic.js/3.gif",
+    "jclic.js/3.wav",
+    "jclic.js/4.gif",
+    "jclic.js/4.wav",
+    "jclic.js/5.gif",
+    "jclic.js/5.wav",
+    "jclic.js/6.gif",
+    "jclic.js/6.wav",
+    "jclic.js/7.gif",
+    "jclic.js/7.wav",
+    "jclic.js/8.gif",
+    "jclic.js/8.wav",
+    "jclic.js/9.gif",
+    "jclic.js/9.wav",
+    "jclic.js/bien.wav",
+    "jclic.js/cinco.gif",
+    "jclic.js/cuanto2.wav",
+    "jclic.js/cuantos.wav",
+    "jclic.js/cuatro.gif",
+    "jclic.js/dedo1.gif",
+    "jclic.js/dedo10.gif",
+    "jclic.js/dedo2.gif",
+    "jclic.js/dedo3.gif",
+    "jclic.js/dedo4.gif",
+    "jclic.js/dedo5.gif",
+    "jclic.js/dedo6.gif",
+    "jclic.js/dedo7.gif",
+    "jclic.js/dedo8.gif",
+    "jclic.js/dedo9.gif",
+    "jclic.js/diez.gif",
+    "jclic.js/dos.gif",
+    "jclic.js/nueve.gif",
+    "jclic.js/num1_10.jclic",
+    "jclic.js/ocho.gif",
+    "jclic.js/presen_1.gif",
+    "jclic.js/punto1.gif",
+    "jclic.js/punto10.gif",
+    "jclic.js/punto2.gif",
+    "jclic.js/punto3.gif",
+    "jclic.js/punto4.gif",
+    "jclic.js/punto5.gif",
+    "jclic.js/punto6.gif",
+    "jclic.js/punto7.gif",
+    "jclic.js/punto8.gif",
+    "jclic.js/punto9.gif",
+    "jclic.js/rda.gif",
+    "jclic.js/reglet10.gif",
+    "jclic.js/regleta1.gif",
+    "jclic.js/regleta2.gif",
+    "jclic.js/regleta3.gif",
+    "jclic.js/regleta4.gif",
+    "jclic.js/regleta5.gif",
+    "jclic.js/regleta6.gif",
+    "jclic.js/regleta7.gif",
+    "jclic.js/regleta8.gif",
+    "jclic.js/regleta9.gif",
+    "jclic.js/rpd.gif",
+    "jclic.js/seis.gif",
+    "jclic.js/siete.gif",
+    "jclic.js/tres.gif",
+    "jclic.js/uno.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/num1_10.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

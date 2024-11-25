@@ -1,0 +1,81 @@
+{
+  "id": 2027,
+  "title": "O dicionario",
+  "author": "Pilar Ponte Patiño",
+  "date": "01/02/10",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "diccionari, llengua, llengua gallega",
+    "es": "diccionario, lengua, lengua gallega",
+    "en": "dictionary, language, Galician language"
+  },
+  "descCodes": [
+    116,
+    128,
+    921
+  ],
+  "description": {
+    "en": "JClic acitvities in Galician about using the dictionary: \n<ul> \n <li>alphabetical order </li>\n <li>abbreviations </li>\n <li>dictionary entries </li>\n <li>items found at the entries of the dictionary </li>\n</ul>",
+    "ca": "Projecte d'activitats en gallec sobre l'ús del diccionari: \n<ul> \n <li>ordre alfabètic </li>\n <li>abreviatures </li>\n <li>entrades al diccionari </li>\n <li>elements que podem trobar a cadascuna de les entrades del diccionari </li>\n</ul>",
+    "es": "Proyecto de actividades en gallego sobre el uso del diccionario: \n<ul> \n <li>orden alfabético </li>\n <li>abreviaturas </li>\n <li>entradas del diccionario </li>\n <li>elementos que podemos encontrar en cada una de las entradas </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/o_dicio.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/o_dicio.jclic.zip",
+  "instFile": "jclic/o_dicio.jclic.inst",
+  "clicZoneId": 3597,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3597",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/o_dicio/jclic/o_dicio.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 0,
+  "totalSize": 136955,
+  "files": [
+    "cover.jpg",
+    "jclic.js/o_dicio.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/o_dicio.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

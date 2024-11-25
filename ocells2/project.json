@@ -1,0 +1,135 @@
+{
+  "id": 1511,
+  "title": "Els ocells de Menorca",
+  "author": "Llorenç Pons Madrid",
+  "school": "IES Josep Miquel Guàrdia Alaior (Menorca)",
+  "date": "19/12/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "ocells",
+    "es": "pájaros",
+    "en": "birds"
+  },
+  "descCodes": [
+    92
+  ],
+  "description": {
+    "en": "Set of activities about the birds that lives in Menorca: \n<ul> \n <li>aquatic birds </li>\n <li>birds of prey </li>\n <li>passeriforms </li>\n</ul>",
+    "ca": "Conjunt d'activitats sobre els ocells que habiten a l'illa de Menorca: \n<ul> \n <li>ocells aquàtics </li>\n <li>aus de presa </li>\n <li>passeriforms </li>\n</ul>",
+    "es": "Conjunto de actividades sobre las aves que habitan en la isla de Menorca: \n<ul> \n <li>aves acuáticas </li>\n <li>aves de presa </li>\n <li>paseriformes </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ocells2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ocells2.jclic.zip",
+  "instFile": "jclic/ocells2.jclic.inst",
+  "clicZoneId": 3225,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3225",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ocells2/jclic/ocells2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 56,
+  "totalSize": 10936884,
+  "files": [
+    "cover.gif",
+    "jclic.js/alauda.arvensis.wav",
+    "jclic.js/altaveu.gif",
+    "jclic.js/anas.clypeata.wav",
+    "jclic.js/anas.crecca.wav",
+    "jclic.js/anas.penelope.wav",
+    "jclic.js/anas.platyrhynchos.wav",
+    "jclic.js/anas.querquedula.wav",
+    "jclic.js/aquatic3.gif",
+    "jclic.js/ardea.cinerea.wav",
+    "jclic.js/ardea.purpurea.wav",
+    "jclic.js/aythia.ferina.wav",
+    "jclic.js/bubulcus.ibis.wav",
+    "jclic.js/buteo.buteo.wav",
+    "jclic.js/calandrella.brachydactyla.wav",
+    "jclic.js/cettia.cetti.wav",
+    "jclic.js/circus.aeruginosus.wav",
+    "jclic.js/circus.cyaneus.wav",
+    "jclic.js/delichon.urbica.wav",
+    "jclic.js/egretta.garzetta.wav",
+    "jclic.js/erithacus.rubecula.wav",
+    "jclic.js/falco.columbarius.wav",
+    "jclic.js/falco.peregrinus.wav",
+    "jclic.js/fulica.atra.wav",
+    "jclic.js/galerida.theklae.wav",
+    "jclic.js/gallinula.chloropus.wav",
+    "jclic.js/hieraetus.pennatus.wav",
+    "jclic.js/hirundo.rustica.wav",
+    "jclic.js/hola.wav",
+    "jclic.js/inicial.gif",
+    "jclic.js/luscinia.megarhynchos.wav",
+    "jclic.js/milvus.milvus.wav",
+    "jclic.js/neophron.percnopterus.wav",
+    "jclic.js/nycticorax.nycticorax.wav",
+    "jclic.js/ocells2.jclic",
+    "jclic.js/oenanthe.oenanthe.wav",
+    "jclic.js/otus.scops.wav",
+    "jclic.js/pandion.haliaetus.wav",
+    "jclic.js/parus.major.wav",
+    "jclic.js/passer1.gif",
+    "jclic.js/passer2.gif",
+    "jclic.js/phoenicurus.ochruros.wav",
+    "jclic.js/phoenicurus.phoenicurus.wav",
+    "jclic.js/phylloscopus.trochilus.wav",
+    "jclic.js/presa1.gif",
+    "jclic.js/rallus.aquaticus.wav",
+    "jclic.js/regulus.regulus.wav",
+    "jclic.js/saxicola.rubetra.wav",
+    "jclic.js/saxicola.torquata.wav",
+    "jclic.js/sturnus.vulgaris.wav",
+    "jclic.js/sylvia.atricapilla.wav",
+    "jclic.js/sylvia.communis.wav",
+    "jclic.js/sylvia.conspicillata.wav",
+    "jclic.js/sylvia.melanocephala.wav",
+    "jclic.js/sylvia.undata.wav",
+    "jclic.js/turdus.merula.wav",
+    "jclic.js/turdus.philomelos.wav",
+    "jclic.js/tyto.alba.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ocells2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": 1929,
+  "title": "Pictogrames de perillositat",
+  "author": "M. Lluïsa Abad Roses",
+  "school": "Servei de Tecnologies per a l'Aprenentatge i el Coneixement Barcelona",
+  "date": "23/06/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "química, laboratori",
+    "es": "química, laboratorio",
+    "en": "chemistry, laboratory"
+  },
+  "descCodes": [
+    97,
+    837
+  ],
+  "description": {
+    "en": "JClic project about warning pictograms of chemical substances. It contains identification activities of chemical substances found in the lab and at home.",
+    "ca": "Projecte JClic sobre els pictogrames de perillositat per a productes químics amb activitats d'identificació i aplicació a productes químics de laboratori i d'ús domèstic.",
+    "es": "Proyecto JClic sobre los pictogramas de peligrosidad para productos químicos con actividades de identificación y aplicación a productos químicos de laboratorio y de uso doméstico."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/segureta.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/segureta.jclic.zip",
+  "instFile": "jclic/segureta.jclic.inst",
+  "clicZoneId": 3555,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3555",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/segureta/jclic/segureta.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 16,
+  "totalSize": 217098,
+  "files": [
+    "cover.jpg",
+    "jclic.js/alc.gif",
+    "jclic.js/amon.gif",
+    "jclic.js/antical.gif",
+    "jclic.js/arnes.gif",
+    "jclic.js/combur.gif",
+    "jclic.js/corrosiu.gif",
+    "jclic.js/explosiu.gif",
+    "jclic.js/gas.gif",
+    "jclic.js/inflam.gif",
+    "jclic.js/irritant.gif",
+    "jclic.js/lleixiu.gif",
+    "jclic.js/medamb.gif",
+    "jclic.js/nociu.gif",
+    "jclic.js/pictos.gif",
+    "jclic.js/portada.jpg",
+    "jclic.js/segureta.jclic",
+    "jclic.js/toxic.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/segureta.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

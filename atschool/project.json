@@ -1,0 +1,142 @@
+{
+  "id": 412,
+  "title": "At school",
+  "author": "Mario Torrado Ezquerra",
+  "date": "22/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, vocabulari",
+    "es": "lengua inglesa, vocabulario",
+    "en": "English language, vocabulary"
+  },
+  "descCodes": [
+    130,
+    150
+  ],
+  "description": {
+    "en": "Clic activities destined to primary school where children can learn the names in English of some classroom 's objects.",
+    "ca": "Paquet d'activitats d'anglès dissenyades per a alumnes de 2n cicle de E. Primària. Pretén presentar diferents materials que tenen els nens i nenes a la classe i que utilitzen gairebé a diari. És una activitat que treballa de manera quasi exclusiva vocabulari, fent poca referència a aspectes gramaticals. \n<br> L'activitat inclou un document word amb els objectius i continguts que es treballen al paquet.",
+    "es": "Paquete de actividades diseñadas para alumnos/as del 2º ciclo de E. Primaria. Pretende presentar varios de los materiales que tienen los alumnos/as en clase y que utilizan casi a diario. Es una actividad es de manera casi exclusiva de vocabulario, haciendo poca referencia a aspectos gramaticales. \n<br> La actividad incluye un documento de word con los objetivos y contenidos que se trabajan en el paquete de actividades."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/atschool.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/atschool.jclic.zip",
+  "instFile": "jclic/atschool.jclic.inst",
+  "clicZoneId": 1239,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1239",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/atschool/jclic/atschool.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 34,
+  "mediaFiles": 61,
+  "totalSize": 2237069,
+  "files": [
+    "cover.gif",
+    "jclic.js/abeja1.gif",
+    "jclic.js/atscho_1.jpg",
+    "jclic.js/atschool.doc",
+    "jclic.js/atschool.jclic",
+    "jclic.js/atschool.pdf",
+    "jclic.js/blackbo1.jpg",
+    "jclic.js/blackbo5.jpg",
+    "jclic.js/blackboard.wav",
+    "jclic.js/book.jpg",
+    "jclic.js/book.wav",
+    "jclic.js/book1.jpg",
+    "jclic.js/bye.mid",
+    "jclic.js/car.gif",
+    "jclic.js/chalk.wav",
+    "jclic.js/chalk1.jpg",
+    "jclic.js/class1.jpg",
+    "jclic.js/classr_2.jpg",
+    "jclic.js/classroom.wav",
+    "jclic.js/cochalk1.jpg",
+    "jclic.js/colour.jpg",
+    "jclic.js/colourchalk.wav",
+    "jclic.js/contrapo.jpg",
+    "jclic.js/desk.wav",
+    "jclic.js/desk1.jpg",
+    "jclic.js/dict1.wav",
+    "jclic.js/dict2.wav",
+    "jclic.js/dict3.wav",
+    "jclic.js/dict4.wav",
+    "jclic.js/dict5.wav",
+    "jclic.js/dict6.wav",
+    "jclic.js/dict7.wav",
+    "jclic.js/dict8_1.wav",
+    "jclic.js/dictio1.jpg",
+    "jclic.js/dictionary.wav",
+    "jclic.js/duster.wav",
+    "jclic.js/duster1.jpg",
+    "jclic.js/gluesti1.jpg",
+    "jclic.js/gluestick.wav",
+    "jclic.js/minialt.gif",
+    "jclic.js/minialt2.gif",
+    "jclic.js/noboard1.jpg",
+    "jclic.js/notbook1.jpg",
+    "jclic.js/notebook.wav",
+    "jclic.js/notice_1.jpg",
+    "jclic.js/noticeboard.wav",
+    "jclic.js/ojo2.gif",
+    "jclic.js/pen.wav",
+    "jclic.js/pen1.jpg",
+    "jclic.js/pencase1.jpg",
+    "jclic.js/pencil.wav",
+    "jclic.js/pencil1.jpg",
+    "jclic.js/pencil3.jpg",
+    "jclic.js/pencilcase.wav",
+    "jclic.js/rubber.wav",
+    "jclic.js/rubber1.jpg",
+    "jclic.js/ruler.wav",
+    "jclic.js/ruler1.jpg",
+    "jclic.js/scisso1.jpg",
+    "jclic.js/scisso2.jpg",
+    "jclic.js/scissors.jpg",
+    "jclic.js/scissors.wav",
+    "jclic.js/wabaske1.jpg",
+    "jclic.js/wabasket.wav",
+    "jclic.js/wishstar.mid",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/atschool.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

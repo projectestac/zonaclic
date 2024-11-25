@@ -1,0 +1,101 @@
+{
+  "id": 99,
+  "title": "Apicultura",
+  "author": "Francesc Piñol Piñol",
+  "school": "Escola Jaume II El Perelló (Baix Ebre)",
+  "date": "09/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "insectes, professions",
+    "es": "insectos, profesiones",
+    "en": "insects, professions"
+  },
+  "descCodes": [
+    81,
+    317
+  ],
+  "description": {
+    "en": "Activity pack about apiculture: The bees, the hive, the production process, recollection of the honey,...",
+    "ca": "Paquet d'activitats sobre el món de l'apicultura: les abelles, el rusc, procés de producció i recol·lecció de la mel, eines emprades pels apicultors...",
+    "es": "Paquete de actividades sobre el mundo de la apicultura: las abejas, la colmena, el proceso de producción y recolección de la miel, herramientas utilizadas por los apicultores..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/apicultu.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/apicultu.jclic.zip",
+  "instFile": "jclic/apicultu.jclic.inst",
+  "clicZoneId": 1048,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1048",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/apicultu/jclic/apicultu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 20,
+  "totalSize": 142239,
+  "files": [
+    "cover.gif",
+    "jclic.js/abella.gif",
+    "jclic.js/abellot.gif",
+    "jclic.js/apicultu.jclic",
+    "jclic.js/arna.gif",
+    "jclic.js/celles.gif",
+    "jclic.js/creixe.gif",
+    "jclic.js/desoperc.gif",
+    "jclic.js/equip.gif",
+    "jclic.js/espatula.gif",
+    "jclic.js/espuela.gif",
+    "jclic.js/extracto.gif",
+    "jclic.js/fixador.gif",
+    "jclic.js/fumador.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/quadre.gif",
+    "jclic.js/raspall.gif",
+    "jclic.js/reina.gif",
+    "jclic.js/rusc.gif",
+    "jclic.js/trenca2.gif",
+    "jclic.js/trenca3.gif",
+    "jclic.js/varis.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/apicultu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

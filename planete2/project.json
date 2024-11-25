@@ -1,0 +1,117 @@
+{
+  "id": 1938,
+  "title": "El sistema solar 2",
+  "author": "Antoni Prim",
+  "school": "Escola Miquel Bleach Barcelona",
+  "date": "28/07/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "plantes, sistema solar",
+    "es": "plantas, sistema solar",
+    "en": "plants, Solar System"
+  },
+  "descCodes": [
+    96,
+    104
+  ],
+  "description": {
+    "en": "Activities addressed to primary education about the names and the characteristics of the eight planets of the solar system and other elements of the space: astronaut, comet, moon, universe, galaxy ...",
+    "ca": "Activitats adreçades a cicle inicial i cicle mitjà d'educació primària amb els noms i certes característiques dels vuit planetes del sistema solar i altres elements de l'espai: astronauta, cometa, llunes, univers, galàxia...",
+    "es": "Actividades dirigidas a ciclo inicial y ciclo medio de educación primaria con los nombres y ciertas características de los ocho planetas del sistema solar y otros elementos del espacio: astronauta, cometa, lunas, universo, galaxia..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/planete2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/planete2.jclic.zip",
+  "instFile": "jclic/planete2.jclic.inst",
+  "clicZoneId": 3564,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3564",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/planete2/jclic/planete2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 30,
+  "mediaFiles": 37,
+  "totalSize": 1600172,
+  "files": [
+    "cover.jpg",
+    "jclic.js/armstrong_moon.jpg",
+    "jclic.js/cometa00.jpg",
+    "jclic.js/el_sol_nuestro.jpg",
+    "jclic.js/hubble.jpg",
+    "jclic.js/imagen_satelital_hires.jpg",
+    "jclic.js/iss2_sts114_big.jpg",
+    "jclic.js/jupiter02.jpg",
+    "jclic.js/luna_p1.jpg",
+    "jclic.js/mars_groot.jpg",
+    "jclic.js/marte02.jpg",
+    "jclic.js/mercurio00.jpg",
+    "jclic.js/mercurio02.jpg",
+    "jclic.js/neptune.gif",
+    "jclic.js/neptuno02.jpg",
+    "jclic.js/pia02873_1280_1024.jpg",
+    "jclic.js/pia09579.jpg",
+    "jclic.js/pjupiter.jpg",
+    "jclic.js/planetauranog.jpg",
+    "jclic.js/planetavenusg.jpg",
+    "jclic.js/planete2.jclic",
+    "jclic.js/planets.moons.jpg",
+    "jclic.js/pmart.jpg",
+    "jclic.js/pmercuri.jpg",
+    "jclic.js/pneptu.jpg",
+    "jclic.js/psaturn.jpg",
+    "jclic.js/pterra.jpg",
+    "jclic.js/pura.jpg",
+    "jclic.js/pvenus.jpg",
+    "jclic.js/robinson_sts114_big.jpg",
+    "jclic.js/saturno02.jpg",
+    "jclic.js/saturno_g.jpg",
+    "jclic.js/sistemsolar.jpg",
+    "jclic.js/space_shuttle_atlantis_sts_27_in_1972_sw.jpg",
+    "jclic.js/tierra.jpg",
+    "jclic.js/tierra02.jpg",
+    "jclic.js/urano01.jpg",
+    "jclic.js/urano02.jpg",
+    "jclic.js/venus02.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/planete2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

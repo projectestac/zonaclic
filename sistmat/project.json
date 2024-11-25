@@ -1,0 +1,84 @@
+{
+  "id": 920,
+  "title": "Sistemas materiales",
+  "author": "Virgilio Pedraz Hernández",
+  "school": "CRA Vía de la Plata La Garganta (Cáceres)",
+  "date": "17/12/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales",
+    "en": "Experimental sciences"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "magnetisme, química",
+    "es": "magnetismo, química",
+    "en": "magnetism, chemistry"
+  },
+  "descCodes": [
+    83,
+    97
+  ],
+  "description": {
+    "en": "Package of activities about some basic concepts of chemistry: \n<ul> \n <li>Properties of the matter </li>\n <li>Aggregate stages </li>\n <li>Solutions and mixtures </li>\n <li>Component sorting </li>\n</ul>",
+    "ca": "Paquet d'activitats sobre alguns conceptes bàsics de la química: \n<ul> \n <li>propietats de la matèria </li>\n <li>estats d'agregació </li>\n <li>barreges i solucions </li>\n <li>separació de components </li>\n</ul>",
+    "es": "Paquete de actividades sobre algunos conceptos básicos de la química: \n<ul> \n <li>propiedades de la materia </li>\n <li>estados de agregación </li>\n <li>mezclas y disoluciones </li>\n <li>separación de componentes </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sistmat.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sistmat.jclic.zip",
+  "instFile": "jclic/sistmat.jclic.inst",
+  "clicZoneId": 2031,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2031",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sistmat/jclic/sistmat.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 4,
+  "totalSize": 231245,
+  "files": [
+    "cover.gif",
+    "jclic.js/calzada.jpg",
+    "jclic.js/cestado.gif",
+    "jclic.js/cestads.gif",
+    "jclic.js/sismat.jpg",
+    "jclic.js/sistmat.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sistmat.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

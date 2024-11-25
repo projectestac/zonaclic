@@ -1,0 +1,82 @@
+{
+  "id": 423,
+  "title": "Exercicis de català, 6è",
+  "author": "Bernadette Inglada Berengueres",
+  "school": "Escola Ramon Faus i Esteve Guissona (Segarra)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua catalana, ortografia",
+    "es": "lengua catalana, ortografía",
+    "en": "Catalan language, spelling"
+  },
+  "descCodes": [
+    133,
+    146
+  ],
+  "description": {
+    "en": "Clic activities about Catalan language based on the book \n<i>Quadern d'ortografia</i>",
+    "ca": "Aquesta aplicació Clic va adreçada a segon curs de Cicle Superior d'Educació Primària. Les activitats s'han realitzat a partir del llibre \n<i>Quadern d'Ortografia 24</i>. \n<br> El seu objectiu és arribar a assolir els continguts d'ortografia catalana d'una manera més agradable i motivadora utilitzant com a eina l'ordinador.",
+    "es": "Esta aplicación Clic va dirigida a segundo curso de Ciclo Superior de Educación Primaria. Las actividades se han realizado a partir del libro \n<i>Quadern d'Ortografia 24</i>.\n<br> Su objetivo es llegar a alcanzar los contenidos de ortografía catalana de un modo más agradable y motivador utilizando como herramienta el ordenador."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/catsise.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/catsise.jclic.zip",
+  "instFile": "jclic/catsise.jclic.inst",
+  "clicZoneId": 1248,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1248",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/catsise/jclic/catsise.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 43,
+  "mediaFiles": 2,
+  "totalSize": 372346,
+  "files": [
+    "cover.gif",
+    "jclic.js/catsise.jclic",
+    "jclic.js/dibuix.gif",
+    "jclic.js/teclado.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/catsise.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

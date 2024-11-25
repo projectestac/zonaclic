@@ -1,0 +1,81 @@
+{
+  "id": 364,
+  "title": "Les verbes (1)",
+  "author": "Gerardo Valero Pozuelo",
+  "school": "IES Las tres culturas Córdoba (Andalucía)",
+  "date": "19/07/02",
+  "languages": {
+    "en": "French",
+    "ca": "francès",
+    "es": "francés"
+  },
+  "langCodes": [
+    "fr"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua francesa",
+    "es": "gramática, lengua francesa",
+    "en": "grammar, French language"
+  },
+  "descCodes": [
+    665,
+    669
+  ],
+  "description": {
+    "en": "French language activities aimed at working the indicative present tense of the verbs ÊTRE and AVOIR and the regular verbs ending in -ER.",
+    "ca": "Conjunt d'activitats de francès encaminades a la pràctica del present d'indicatiu dels verbs ÊTRE i AVOIR, i dels acabats en -ER.\n<br> Hi ha sopes de lletres, activitats de completar formes verbals, d'omplir forats, d'associar subjectes i verbs, etc.\n<br> Les instruccions i els fitxers d'ajuda estan en castellà ja que el nivell de francès dels alumnes als que va adreçat no feia aconsellable utilitzar el francès.",
+    "es": "Conjunto de actividades encaminadas a la práctica del presente de indicativo de los verbos ÊTRE y AVOIR y de los terminados en -ER.\n<br> Podemos encontrar sopas de letras, actividades de completar formas verbales, de rellenar huecos, de asociar sujetos y verbos...\n<br> Las instrucciones y los archivos de ayuda están en español, ya que los alumnos concretos a los que están dirigidas estas actividades tienen un nivel que no permitiría el uso del francés en estos menesteres."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/verbes.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/verbes.jclic.zip",
+  "instFile": "jclic/verbes.jclic.inst",
+  "clicZoneId": 1206,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1206",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/verbes/jclic/verbes.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 1,
+  "totalSize": 131428,
+  "files": [
+    "cover.gif",
+    "jclic.js/trescult.gif",
+    "jclic.js/verbes.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/verbes.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

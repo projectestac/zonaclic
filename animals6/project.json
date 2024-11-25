@@ -1,0 +1,104 @@
+{
+  "id": 1801,
+  "title": "The animals",
+  "author": "Carmen Peña Atta",
+  "school": "IES Valsequillo Valsequillo - Las Palmas (Islas Canarias)",
+  "date": "22/10/08",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, animals",
+    "es": "lengua inglesa, animales",
+    "en": "English language, animales"
+  },
+  "descCodes": [
+    130,
+    1160
+  ],
+  "description": {
+    "en": "JClic project activities for the area of English language about wild animals. The project has 16 different types of activities: associations, word order, scrambled lyrics, crossword puzzles, and so on.",
+    "ca": "Projecte d'activitats JClic per a l'àrea de llengua anglesa sobre animals salvatges. El projecte consta de 16 activitats de diferent tipologia: associacions, ordenar paraules, sopes de lletres, mots encreuats, etc.",
+    "es": "Proyecto de actividades para el área de lengua inglesa sobre animales salvajes. El proyecto tiene 16 actividades de diferente tipología: asociaciones, ordenar palabras, sopas de letras, crucigramas, etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/animals6.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/animals6.jclic.zip",
+  "instFile": "jclic/animals6.jclic.inst",
+  "clicZoneId": 3497,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3497",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/animals6/jclic/animals6.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 24,
+  "totalSize": 240165,
+  "files": [
+    "cover.jpg",
+    "jclic.js/animals6.jclic",
+    "jclic.js/arana.jpg",
+    "jclic.js/caballo.jpg",
+    "jclic.js/cabra.jpg",
+    "jclic.js/cebra.jpg",
+    "jclic.js/cerdo.jpg",
+    "jclic.js/cochino.jpg",
+    "jclic.js/conejo.jpg",
+    "jclic.js/elefante.jpg",
+    "jclic.js/gato.jpg",
+    "jclic.js/girafa.jpg",
+    "jclic.js/guepardo.jpg",
+    "jclic.js/leon.jpg",
+    "jclic.js/lobo.jpg",
+    "jclic.js/mono.jpg",
+    "jclic.js/oso.jpg",
+    "jclic.js/pajaro.jpg",
+    "jclic.js/pero.jpg",
+    "jclic.js/perrito.jpg",
+    "jclic.js/perro.jpg",
+    "jclic.js/perro2.jpg",
+    "jclic.js/raton.jpg",
+    "jclic.js/serpiente.jpg",
+    "jclic.js/tigre.jpg",
+    "jclic.js/vaca.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/animals6.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

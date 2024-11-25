@@ -1,0 +1,94 @@
+{
+  "id": 1694,
+  "title": "O sombreiro",
+  "school": "CEIP Galán Oseiro (Galiza)",
+  "date": "11/07/07",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua gallega, comprensió lectora",
+    "es": "lengua gallega, comprensión lectora",
+    "en": "Galician language, reading comprehension"
+  },
+  "descCodes": [
+    921,
+    1329
+  ],
+  "description": {
+    "en": "Set of activities in Galician about the hats addressed to primary school in order to work the reading comprehension and the word groups.",
+    "ca": "Conjunt d'activitats en gallec sobre el barret adreçades a primer cicle d'educació primària per treballar la comprensió lectora i les famílies de paraules.",
+    "es": "Conjunto de actividades en gallego sobre el sombrero dirigidas a primer ciclo de educación primaria para trabajar la comprensión lectora y las familias de palabras."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/opucho.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/opucho.jclic.zip",
+  "instFile": "jclic/opucho.jclic.inst",
+  "clicZoneId": 3403,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3403",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/opucho/jclic/opucho.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 15,
+  "totalSize": 1169661,
+  "files": [
+    "cover.jpg",
+    "jclic.js/acertche2.wav",
+    "jclic.js/estpend2.wav",
+    "jclic.js/esxenio2.wav",
+    "jclic.js/fenomna2.wav",
+    "jclic.js/fondo3.jpg",
+    "jclic.js/fxmoibe2.wav",
+    "jclic.js/moiben.wav",
+    "jclic.js/non.gif",
+    "jclic.js/opucho.jclic",
+    "jclic.js/opuchopz.gif",
+    "jclic.js/opuchotx.gif",
+    "jclic.js/perfecto2.wav",
+    "jclic.js/portada.gif",
+    "jclic.js/queres.wav",
+    "jclic.js/queresverde.jpg",
+    "jclic.js/si.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/opucho.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

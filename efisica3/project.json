@@ -1,0 +1,112 @@
+{
+  "id": 2261,
+  "title": "Jocs preesportius: el fubol",
+  "author": "Francesc de la Vega Fàbregues",
+  "school": "Escola Ferreries Tortosa (Baix Ebre)",
+  "date": "21/06/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "esports, joc esportiu, futbol",
+    "es": "deportes, juego deportivo, fútbol",
+    "en": "sports, sport game, football"
+  },
+  "descCodes": [
+    424,
+    426,
+    898
+  ],
+  "description": {
+    "en": "JClic project with Physical Education activities about football. The activities are designed for students in third cycle of primary education and combining different types of activities in Catalan and English.",
+    "ca": "Projecte JClic d'educació física on es treballa el futbol. Les activitats estan pensades per a alumnat de cicle superior i es combinen diferents tipus d'activitats tant en català com en anglès.",
+    "es": "Proyecto JClic de Educación física donde se trabaja el fútbol. Las actividades están pensadas para alumnado de ciclos superior y se combinan diferentes tipos de actividades tanto en catalán como en inglés."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/efisica3.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/efisica3.jclic.zip",
+  "instFile": "jclic/efisica3.jclic.inst",
+  "clicZoneId": 3779,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3779",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/efisica3/jclic/efisica3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 31,
+  "totalSize": 5692289,
+  "files": [
+    "cover.png",
+    "jclic.js/17817__109_a_1_resized.jpg",
+    "jclic.js/9016892_portero_saltar_para_atrapar_la_bola_ingenio_una_mano_resized.jpg",
+    "jclic.js/aficio_animant.wav",
+    "jclic.js/altaveu1.jpg",
+    "jclic.js/aplaudiments.wav",
+    "jclic.js/arbitre.gif",
+    "jclic.js/balon_de_futbol_resized.jpg",
+    "jclic.js/bandera1.jpg",
+    "jclic.js/cr7_resized.jpg",
+    "jclic.js/efisica3.jclic",
+    "jclic.js/fi_del_partit.wav",
+    "jclic.js/i01_119498563188281957tasto_8_architetto_franc_01.svg.thumb.png",
+    "jclic.js/i01_escudo_madrid.jpg",
+    "jclic.js/i01_escut_barca.jpg",
+    "jclic.js/i01_escut_villareal2.jpg",
+    "jclic.js/i01_footballplayerrunningtocatchballhgclrgs7.gif",
+    "jclic.js/i01_futbol_66.gif",
+    "jclic.js/i01_sevilla_fc_escudo_original8.jpg",
+    "jclic.js/i01_soccerboytrickinghgclrmf1.gif",
+    "jclic.js/i01_soccerrefredcardhgclrmc4.gif",
+    "jclic.js/i01_tick_green.png",
+    "jclic.js/imatge_portada3.jpg",
+    "jclic.js/jan2_resized.jpg",
+    "jclic.js/maradona_iii_resized.jpg",
+    "jclic.js/messi.jpg",
+    "jclic.js/pele_resized.jpg",
+    "jclic.js/penalti.jpg",
+    "jclic.js/porteria_balonmano.gif",
+    "jclic.js/reglas_corner.jpg",
+    "jclic.js/ronaldinho.jpg",
+    "jclic.js/rooney.jpg",
+    "jclic.js/tactica2_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/efisica3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": 1187,
+  "title": "Actividades de demostración de JClic",
+  "author": "Francesc Busquets",
+  "school": "Àrea TIC - Departament d'Educació Barcelona",
+  "date": "14/10/04",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "",
+    "ca": "",
+    "es": ""
+  },
+  "areaCodes": [
+    ""
+  ],
+  "levels": {
+    "en": "",
+    "ca": "",
+    "es": ""
+  },
+  "levelCodes": [
+    ""
+  ],
+  "descriptors": {
+    "ca": "informàtica educativa, programari",
+    "es": "informática educativa, software",
+    "en": "educative computer science, software"
+  },
+  "descCodes": [
+    738,
+    744
+  ],
+  "description": {
+    "en": "The main objective of this project is to show samples of the diverse types of activities and the main features of JClic. The project is organized in two parts: first, there is a sequence for each one of the basic types of activities (puzzles, associations, scrambled letters, crossword and text activities). In the second part there is a review of the new features of JClic compared to the previous version, Clic 3.0.",
+    "ca": "L'únic objectiu d'aquest projecte és mostrar els diversos tipus d'activitats i les principals funcionalitats del JClic.El projecte està organitzat en dues parts: a la primera hi ha una seqüència per a cada un dels tipus bàsics d'activitats (trencaclosques, associacions, sopes de lletres, mots encreuats i activitats de text) i a la segona es fa un repàs de les principals novetats del JClic respecte a la versió anterior, Clic 3.0.",
+    "es": "El único objetivo de este proyecto es mostrar los diversos tipos de actividades y las principales funcionalidades de JClic.El proyecto está organizado en dos partes: en la primera hay una secuencia para cada uno de los tipos básicos de actividades (puzzles, asociaciones, sopas de letras, crucigramas y actividades de texto) y en la segunda se hace un repaso de las principales novedades de JClic respecto a la anterior versión, Clic 3.0."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "demo",
+    "demo_de",
+    "demo_eng",
+    "demo_it",
+    "demo_pt"
+  ],
+  "mainFile": "jclic.js/demo.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/demo.jclic.zip",
+  "instFile": "jclic/demo.jclic.inst",
+  "clicZoneId": 2740,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2740",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/demo_esp/jclic/demo.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 70,
+  "mediaFiles": 54,
+  "totalSize": 2607999,
+  "files": [
+    "cover.jpg",
+    "jclic.js/astro.jpg",
+    "jclic.js/bach.mid",
+    "jclic.js/baldufes.jpg",
+    "jclic.js/bici.gif",
+    "jclic.js/bici2.gif",
+    "jclic.js/bressol.mid",
+    "jclic.js/bycicle.wav",
+    "jclic.js/camio.gif",
+    "jclic.js/car.wav",
+    "jclic.js/casa.gif",
+    "jclic.js/cireres.gif",
+    "jclic.js/cotxe.gif",
+    "jclic.js/demo.jclic",
+    "jclic.js/elmo.gif",
+    "jclic.js/esqui.gif",
+    "jclic.js/foto.jpg",
+    "jclic.js/foto2.jpg",
+    "jclic.js/func2.gif",
+    "jclic.js/funcio.gif",
+    "jclic.js/genial.gif",
+    "jclic.js/handsign.ttf",
+    "jclic.js/lion.jpg",
+    "jclic.js/lletres.gif",
+    "jclic.js/llimona.gif",
+    "jclic.js/lorry.wav",
+    "jclic.js/mapa.gif",
+    "jclic.js/minialt.gif",
+    "jclic.js/minialt2.gif",
+    "jclic.js/moto.gif",
+    "jclic.js/motorcyc.wav",
+    "jclic.js/mozart.mid",
+    "jclic.js/muybien.wav",
+    "jclic.js/natacio.gif",
+    "jclic.js/novena.mid",
+    "jclic.js/nuria.jpg",
+    "jclic.js/nuria.wav",
+    "jclic.js/nuvols.jpg",
+    "jclic.js/ohhh.wav",
+    "jclic.js/pera.gif",
+    "jclic.js/pirata.gif",
+    "jclic.js/pop.wav",
+    "jclic.js/raim.gif",
+    "jclic.js/scratch.png",
+    "jclic.js/scratch.xml",
+    "jclic.js/simpleanim.gif",
+    "jclic.js/sindria.gif",
+    "jclic.js/taronja.gif",
+    "jclic.js/tennis.gif",
+    "jclic.js/test1.swf",
+    "jclic.js/trampoli.gif",
+    "jclic.js/trex.gif",
+    "jclic.js/whistledown.wav",
+    "jclic.js/whistleup.wav",
+    "jclic.js/wolf.jpg",
+    "jclic.js/zebra.avi",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/demo.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

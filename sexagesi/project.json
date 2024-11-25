@@ -1,0 +1,84 @@
+{
+  "id": 1796,
+  "title": "Sistema sexagesimal",
+  "author": "J. Amador Bernardo Vázquez",
+  "school": "IES Rosais 2 Teis (San Salvador) - Pontevedra (Galiza)",
+  "date": "15/10/08",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "sistemes de numeració",
+    "es": "sistemas de numeración",
+    "en": "numeration systems"
+  },
+  "descCodes": [
+    1355
+  ],
+  "description": {
+    "en": "Project of activities addressed to secondary education about the sexagesimal system and operations with complex numbers. The project has three different parts.",
+    "ca": "Projecte d'activitats adreçat a 2n d'educació secundària sobre el sistema sexagesimal i les operacions amb nombres complexos. El projecte està dividit en tres parts: \n<ul> \n <li>De complex a incomplex </li>\n <li>D'incomplex a complex </li>\n <li>Suma de complexos </li>\n</ul>",
+    "es": "Proyecto de actividades dirigido a 2º de educación secundaria sobre el sistema sexagesimal y las operaciones con números complejos. El proyecto está dividido en tres partes: \n<ul> \n <li>De complejo a incomplejo </li>\n <li>De incomplejo a complejo </li>\n <li>Suma de complejos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sexagesi.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sexagesi.jclic.zip",
+  "instFile": "jclic/sexagesi.jclic.inst",
+  "clicZoneId": 3492,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3492",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sexagesi/jclic/sexagesi.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 5,
+  "totalSize": 1107519,
+  "files": [
+    "cover.jpg",
+    "jclic.js/i_get_up.mp3",
+    "jclic.js/incomplejo_a_complejo.jpg",
+    "jclic.js/maquina2rec.mp3",
+    "jclic.js/seductora.mp3",
+    "jclic.js/sexagesi.jclic",
+    "jclic.js/suma_sexagesimal.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sexagesi.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

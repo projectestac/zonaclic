@@ -1,0 +1,90 @@
+{
+  "id": 1512,
+  "title": "Ecologia 4t d'ESO: relacions alimentàries",
+  "author": "Llorenç Pons Madrid",
+  "school": "IES Josep Miquel Guàrdia Alaior (Menorca)",
+  "date": "19/12/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "ecologia",
+    "es": "ecología",
+    "en": "ecology"
+  },
+  "descCodes": [
+    65
+  ],
+  "description": {
+    "en": "Activities on trophic and food chains. What type of animals there are (producers, consumers and decomposers) and also the loss of energy occurring at the end of the chain.",
+    "ca": "Activitats sobre les cadenes tròfiques o alimentàries, quins tipus d'animals hi ha (productors, consumidors i descomponedors) i també la pèrdua d'energia que esdevé cap al final de la cadena.",
+    "es": "Actividad sobre las cadenas tróficas o alimentarias, qué tipos de animales hay (productores, consumidores y descomponedores) i también la pérdida de energía en el final de dicha cadena."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ecologia.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ecologia.jclic.zip",
+  "instFile": "jclic/ecologia.jclic.inst",
+  "clicZoneId": 3226,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3226",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ecologia/jclic/ecologia.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 11,
+  "totalSize": 2087922,
+  "files": [
+    "cover.gif",
+    "jclic.js/ecologia.jclic",
+    "jclic.js/energia1.gif",
+    "jclic.js/energia2.gif",
+    "jclic.js/full.gif",
+    "jclic.js/piramid.gif",
+    "jclic.js/present.gif",
+    "jclic.js/t8a8.gif",
+    "jclic.js/t8a8s.gif",
+    "jclic.js/xarxa1.gif",
+    "jclic.js/xarxa1s.gif",
+    "jclic.js/xarxes.gif",
+    "jclic.js/xarxes2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ecologia.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": 100,
+  "title": "Els meus amics, el meu jardí",
+  "author": "Quim Cabra Soler i Xavier Sarasibar Díaz",
+  "date": "09/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "salut",
+    "es": "salud",
+    "en": "health"
+  },
+  "descCodes": [
+    101
+  ],
+  "description": {
+    "en": "This activity pack deals with drug addiction prevention. It is based on the Canadian material \"Hole in the fence\".",
+    "ca": "Paquet d'activitats i documentació complementària a la publicació \"Els meus amics, el meu jardí\", que és un material per treballar la previsió de les drogodependències. Aquesta publicació, editada pel Departament de Sanitat de la Generalitat de Catalunya, és una adaptació del material canadenc \"The hole in the fence\", editat pel Ministeri de Sanitat del Canadà.",
+    "es": "Paquete de actividades y documentación complementaria a la publicación \"Els meus amics, el meu jardí\", qué es un material para trabajar la previsión de las drogodependencias. Esta publicación, editada por el Departament de Sanitat de la Generalitat de Catalunya, es una adaptación del material canadiense \"The hole in the fence\"."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "lagun"
+  ],
+  "mainFile": "jclic.js/amics.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/amics.jclic.zip",
+  "instFile": "jclic/amics.jclic.inst",
+  "clicZoneId": 1049,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1049",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/amics/jclic/amics.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 52,
+  "mediaFiles": 54,
+  "totalSize": 714145,
+  "files": [
+    "cover.gif",
+    "jclic.js/63.gif",
+    "jclic.js/_alberg.gif",
+    "jclic.js/_blat.gif",
+    "jclic.js/_bolet.gif",
+    "jclic.js/_broquil.gif",
+    "jclic.js/_brussel.gif",
+    "jclic.js/_carbas.gif",
+    "jclic.js/_ceba.gif",
+    "jclic.js/_cogom.gif",
+    "jclic.js/_col.gif",
+    "jclic.js/_espacar.gif",
+    "jclic.js/_favape.gif",
+    "jclic.js/_pastana.gif",
+    "jclic.js/_patata.gif",
+    "jclic.js/_rave.gif",
+    "jclic.js/_remola.gif",
+    "jclic.js/_senycol.gif",
+    "jclic.js/_toma.gif",
+    "jclic.js/_xinesa.gif",
+    "jclic.js/alber.gif",
+    "jclic.js/amics.jclic",
+    "jclic.js/amiga.gif",
+    "jclic.js/blat1.gif",
+    "jclic.js/bolet.gif",
+    "jclic.js/brussel.gif",
+    "jclic.js/carba.gif",
+    "jclic.js/ceba.gif",
+    "jclic.js/ceba1.gif",
+    "jclic.js/cogom1.gif",
+    "jclic.js/derrota.gif",
+    "jclic.js/discri3c.gif",
+    "jclic.js/discri3n.gif",
+    "jclic.js/esparr.gif",
+    "jclic.js/fava.gif",
+    "jclic.js/menu0.gif",
+    "jclic.js/menu1.gif",
+    "jclic.js/menu2.gif",
+    "jclic.js/menu3.gif",
+    "jclic.js/menu4.gif",
+    "jclic.js/menu5.gif",
+    "jclic.js/mural1.gif",
+    "jclic.js/pastana1.gif",
+    "jclic.js/patata.gif",
+    "jclic.js/perd1.gif",
+    "jclic.js/pesol1.gif",
+    "jclic.js/porta4.gif",
+    "jclic.js/portad2.gif",
+    "jclic.js/rave.gif",
+    "jclic.js/rave1.gif",
+    "jclic.js/remola.gif",
+    "jclic.js/sabo.gif",
+    "jclic.js/senycol.gif",
+    "jclic.js/senycol1.gif",
+    "jclic.js/toma1.gif",
+    "jclic.js/tsail.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/amics.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

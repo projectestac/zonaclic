@@ -1,0 +1,92 @@
+{
+  "id": 24,
+  "title": "El ratolí",
+  "author": "Margarita Fortuny",
+  "school": "Escola Sant Ramon El Pla de Santa Maria (Alt Camp)",
+  "date": "08/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Diversos",
+    "es": "Diversos",
+    "en": "Miscellaneous"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)",
+    "en": "Kindergarten (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "orientació espacial",
+    "es": "orientación espacial",
+    "en": "orientation in the space"
+  },
+  "descCodes": [
+    924
+  ],
+  "description": {
+    "en": "Activities addressed to kindergarten for working the use of the mouse and hand-eye coordination.\n<p> This project is also published in the <a href=\"http://www.xtec.cat/~mfortun4/\">Resources for Special Needs</a> page, created by Margarita Fortuny. </p>",
+    "ca": "Activitats adreçades a educació infantil per a introduir l'ús del ratolí i treballar la coordinació viso-motriu.\n<p> Aquest material es troba publicat també a la <a href=\"http://www.xtec.cat/~mfortun4/\">pàgina de Recursos d'Educació Especial</a> de la Margarita Fortuny. </p>",
+    "es": "Actividades dirigidas a educación infantil para introducir el uso del ratón y trabajar la coordinación viso-motriz.\n<p> Este material se encuentra también publicado en la <a href=\"http://www.xtec.cat/~mfortun4/\">página de Recursos de Educación Especial</a> de Margarita Fortuny. </p>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "raton",
+    "sagutxoa"
+  ],
+  "mainFile": "jclic.js/ratoli.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ratoli.jclic.zip",
+  "instFile": "jclic/ratoli.jclic.inst",
+  "clicZoneId": 1011,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1011",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ratoli/jclic/ratoli.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 6,
+  "mediaFiles": 9,
+  "totalSize": 251173,
+  "files": [
+    "cover.gif",
+    "jclic.js/aplaudir.wav",
+    "jclic.js/focartif.gif",
+    "jclic.js/marg.gif",
+    "jclic.js/moltbe.gif",
+    "jclic.js/portrat.gif",
+    "jclic.js/ratolca2.gif",
+    "jclic.js/ratoli.jclic",
+    "jclic.js/ratolid.gif",
+    "jclic.js/ratolie.gif",
+    "jclic.js/ratpare2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ratoli.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

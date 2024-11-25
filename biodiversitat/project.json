@@ -1,0 +1,89 @@
+{
+  "id": 2575,
+  "title": "Biodiversitat",
+  "author": "Pedro Miguel Gómez (autor)",
+  "school": "CEEDCV",
+  "date": "16/10/18",
+  "langCodes": [
+    "ca"
+  ],
+  "languages": {
+    "es": "catalán",
+    "ca": "català",
+    "en": "Catalan"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "areas": {
+    "es": "Ciencias experimentales",
+    "ca": "Ciències experimentals",
+    "en": "Experimental sciences"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "levels": {
+    "es": "Secundaria (12-16)",
+    "ca": "Secundària (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "description": {
+    "es": "Paquete de actividades complementarias a los recursos del CEEDCV, donde se trata de los conceptos básicos de clasificación y nomenclatura de los seres vivos. Dirigido a la formación básica de personas adultas.",
+    "ca": "Paquet d'activitats complementàries als recursos del CEEDCV, on es treballen conceptes bàsics de classificació i nomenclatura dels éssers vius. Dirigit a la Formació bàsica de persones adultes.",
+    "en": "Package of complementary activities to the CEEDCV resources, where the basic concepts of classification and nomenclature of living beings are discussed. Directed to the basic training of adults."
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "es",
+    "ca",
+    "en"
+  ],
+  "relatedTo": [
+    "biodiversidad"
+  ],
+  "cover": "portada.jpg",
+  "coverWebp": "portada.webp",
+  "thumbnail": "portada100.jpg",
+  "mainFile": "jclic.js/biodiversitat.jclic",
+  "activities": 10,
+  "mediaFiles": 23,
+  "totalSize": 1527846,
+  "instFile": "jclic/biodiversitat.jclic.inst",
+  "zipFile": "jclic/biodiversitat.jclic.zip",
+  "files": [
+    "jclic.js/1024px-mulo_20110718_2-resized.jpg",
+    "jclic.js/150px-classificacio_cientifica.png",
+    "jclic.js/180pxrobert_whittaker1_thumb.png",
+    "jclic.js/224px-carl_von_linne.jpg",
+    "jclic.js/470px-phaseolus_vulgaris.jpg",
+    "jclic.js/5_regnes-resized.jpg",
+    "jclic.js/asno_-_alistano-resized.jpg",
+    "jclic.js/biodiversitat.jclic",
+    "jclic.js/biodiversitat.jclic.js",
+    "jclic.js/bubo_bubo_winter_1-resized.jpg",
+    "jclic.js/charles_darwin_1880-resized.jpg",
+    "jclic.js/favicon.ico",
+    "jclic.js/fotografo-caballos-pura-raza.jpg",
+    "jclic.js/gallo2-resized.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/jabali_35007658475_o-resized.jpg",
+    "jclic.js/pato2-resized.jpg",
+    "jclic.js/pepino-resized.jpg",
+    "jclic.js/protada_viodiversitat-resized.jpg",
+    "jclic.js/quercus_ilex_rotundifolia-resized.jpg",
+    "jclic.js/spotted-melon.jpg",
+    "jclic.js/tarentola_mauritanica-resized.jpg",
+    "portada.jpg",
+    "portada100.jpg",
+    "project.json",
+    "portada.webp"
+  ]
+}

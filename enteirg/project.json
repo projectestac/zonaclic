@@ -1,0 +1,98 @@
+{
+  "id": 976,
+  "title": "Os números enteiros",
+  "author": "Virgilio Pedraz Hernández",
+  "school": "CRA Vía de la Plata La Garganta (Cáceres)",
+  "date": "16/06/04",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "càlcul",
+    "es": "cálculo",
+    "en": "calculation"
+  },
+  "descCodes": [
+    702
+  ],
+  "description": {
+    "en": "Package of activities about whole numbers. There are activities of : identification, writing, representation, absolute value, properties and operations.",
+    "ca": "Paquet d'activitats sobre els nombres enters. A l'activitat trobem activitats de: identificació, escriptura, representació, valor absolut, operacions i les seves propietats...",
+    "es": "Paquete de actividades sobre los números enteros. En la actividad encontramos actividades de: identificación, escritura, representación, valor absoluto, operaciones y sus propiedades..."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "enteros"
+  ],
+  "mainFile": "jclic.js/enteirg.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/enteirg.jclic.zip",
+  "instFile": "jclic/enteirg.jclic.inst",
+  "clicZoneId": 2063,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2063",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/enteirg/jclic/enteirg.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 48,
+  "mediaFiles": 1,
+  "totalSize": 345027,
+  "files": [
+    "cover.gif",
+    "jclic.js/axu1.txt",
+    "jclic.js/axu11.txt",
+    "jclic.js/axu12.txt",
+    "jclic.js/axu13.txt",
+    "jclic.js/axu14.txt",
+    "jclic.js/axu15.txt",
+    "jclic.js/axu2.txt",
+    "jclic.js/axu3.txt",
+    "jclic.js/axu4.txt",
+    "jclic.js/axu5.txt",
+    "jclic.js/axu6.txt",
+    "jclic.js/axu7.txt",
+    "jclic.js/axu8.txt",
+    "jclic.js/axu9.txt",
+    "jclic.js/axuda2.txt",
+    "jclic.js/calzada.gif",
+    "jclic.js/enteirg.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/enteirg.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

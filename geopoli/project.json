@@ -1,0 +1,108 @@
+{
+  "id": 1414,
+  "title": "Localización geográfica",
+  "author": "Domingo Naranjo Montes",
+  "school": "CEIP Valme Coronada Dos Hermanas (Andalucía)",
+  "date": "15/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "Set of activities aimed to locate on a map the andalusian provinces and its borders as well as the Spanish autonomous regions, Spanish provinces, continents, oceans and european countries.",
+    "ca": "Conjunt d'activitats que tenen com objectiu localitzar en mapes províncies d'Andalusia, límits d'Andalusia, comunitats autònomes d'Espanya, províncies d'Espanya, continents, oceans i països d'Europa.",
+    "es": "Conjunto de actividades que tienen como objetivo localizar en mapas provincias de Andalucía, límites de Andalucía, comunidades autónomas de España, provincias de España, continentes, océanos y países de Europa."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/geopoli.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/geopoli.jclic.zip",
+  "instFile": "jclic/geopoli.jclic.inst",
+  "clicZoneId": 3150,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3150",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/geopoli/jclic/geopoli.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 37,
+  "totalSize": 931843,
+  "files": [
+    "cover.gif",
+    "jclic.js/andaco_1.gif",
+    "jclic.js/andalu2.gif",
+    "jclic.js/andalu2c.gif",
+    "jclic.js/andalu_1.gif",
+    "jclic.js/andalur.gif",
+    "jclic.js/andalur1.gif",
+    "jclic.js/andareli.gif",
+    "jclic.js/banda.gif",
+    "jclic.js/bandaf.gif",
+    "jclic.js/bespana.gif",
+    "jclic.js/bfrancia.gif",
+    "jclic.js/bmarrue.gif",
+    "jclic.js/bportuga.gif",
+    "jclic.js/caccaa.gif",
+    "jclic.js/caccaa2.gif",
+    "jclic.js/dedo1.gif",
+    "jclic.js/dedos1.gif",
+    "jclic.js/escudos.gif",
+    "jclic.js/europa.gif",
+    "jclic.js/europa1.gif",
+    "jclic.js/europa2.gif",
+    "jclic.js/europa2a.gif",
+    "jclic.js/final.gif",
+    "jclic.js/geopoli.jclic",
+    "jclic.js/islas.gif",
+    "jclic.js/map_ozu.gif",
+    "jclic.js/mapa.gif",
+    "jclic.js/mapa1.gif",
+    "jclic.js/mapapro.gif",
+    "jclic.js/mapapro1.gif",
+    "jclic.js/mapauto1.gif",
+    "jclic.js/mapauto2.gif",
+    "jclic.js/mb1.gif",
+    "jclic.js/mundia.gif",
+    "jclic.js/mundia2.gif",
+    "jclic.js/oceano.gif",
+    "jclic.js/oceano2.gif",
+    "jclic.js/portada.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/geopoli.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

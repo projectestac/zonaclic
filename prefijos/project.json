@@ -1,0 +1,91 @@
+{
+  "id": 445,
+  "title": "Prefijos",
+  "author": "Rafael Rodríguez Martín",
+  "school": "CP Alejandro Rubio Guadalix de la Sierra (Madrid)",
+  "date": "23/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, vocabulari, prefixes",
+    "es": "lengua castellana, vocabulario, prefijos",
+    "en": "Spanish language, vocabulary, prefixes"
+  },
+  "descCodes": [
+    132,
+    150,
+    943
+  ],
+  "description": {
+    "en": "Clic activities about prefixes in Spanish. The package has three parts: \n<ul> \n <li>auto-, porta-, tele-. </li>\n <li>des-, in- (1). </li>\n <li>des-, in- (2). </li>\n</ul>",
+    "ca": "Paquet d'activitats per a treballar els prefixes en llengua castellana. Està organitzat en tres blocs, on es treballen els prefixes: \n<ul> \n <li>auto-, porta- , tele- . </li>\n <li>des-, in- (1). </li>\n <li>des-, in- (2). </li>\n</ul>",
+    "es": "Paquete de actividades para trabajar los prefijos en lengua castellana. Está organizado en tres bloques, en los que se trabajan los prefijos: \n<ul> \n <li>auto-, porta- , tele- . </li>\n <li>des-, in- (1). </li>\n <li>des-, in- (2). </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/prefijos.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/prefijos.jclic.zip",
+  "instFile": "jclic/prefijos.jclic.inst",
+  "clicZoneId": 1268,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1268",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/prefijos/jclic/prefijos.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 34,
+  "mediaFiles": 10,
+  "totalSize": 879178,
+  "files": [
+    "cover.gif",
+    "jclic.js/aleluya.wav",
+    "jclic.js/foca.wav",
+    "jclic.js/muybien.gif",
+    "jclic.js/ovacion.wav",
+    "jclic.js/pinguino.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/prefijos.jclic",
+    "jclic.js/rana.gif",
+    "jclic.js/raton.gif",
+    "jclic.js/risita.wav",
+    "jclic.js/tambor.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/prefijos.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

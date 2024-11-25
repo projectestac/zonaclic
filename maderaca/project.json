@@ -1,0 +1,119 @@
+{
+  "id": 1438,
+  "title": "Actividades de tecnología 1º y 2º de ESO (02 - Fusta, 1r ESO)",
+  "author": "Virgilio Marco Aparicio",
+  "school": "IES Tiempos Modernos Zaragoza (Aragón)",
+  "date": "12/02/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Design & technology",
+    "ca": "Tecnologies",
+    "es": "Tecnología"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la tecnologia",
+    "es": "aprendizaje de la tecnología",
+    "en": "learning of the technology"
+  },
+  "descCodes": [
+    728
+  ],
+  "description": {
+    "en": "Collection of 7 activities which can be installed separately that complements the technology classes of first level of secondary school: \n<ul> \n <li>Technology, 1st level of secondary school </li>\n <li>Wood, 1st level of secondary school </li>\n <li>Materials to use in Technology, 1st level of secondary school </li>\n <li>Machines and mechanisms, 2nd level of secondary school </li>\n <li>Electrical circuits, 2nd level of secondary school </li>\n</ul>",
+    "ca": "Conjunt de 7 paquets d'activitats que es poden instal·lar per separat que complementen les classes de tecnologia a 1r cicle d'ESO. \n<ul> \n <li>Tecnologia, 1r ESO </li>\n <li>Fusta, 1r ESO </li>\n <li>Materials per utilitzar a Tecnologia, 1r ESO </li>\n <li>Màquines i mecanismes, 2n ESO </li>\n <li>Materials metàl·lics, 2n ESO </li>\n <li>El projecte tècnic, 2n ESO </li>\n <li>Circuits elèctrics, 2n ESO </li>\n</ul>",
+    "es": "Conjunto de 7 paquetes de actividades que se pueden instalar por separado y que complementan las clases de tecnología en el 1r ciclo de ESO. \n<ul> \n <li>Tecnología, 1r ESO </li>\n <li>Madera, 1r ESO </li>\n <li>Materiales para utilizar en Tecnología, 1r ESO </li>\n <li>Máquinas y mecanismos, 2n ESO </li>\n <li>Materiales metálicos, 2n ESO </li>\n <li>El proyecto técnico, 2n ESO </li>\n <li>Circuitos eléctricos, 2n ESO </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "circelca",
+    "circelec",
+    "latecnca",
+    "latecnol",
+    "madera",
+    "maquimca",
+    "maquimec",
+    "mater2",
+    "mater2ca",
+    "matmetal",
+    "matmetca",
+    "proyteca",
+    "proytecn"
+  ],
+  "mainFile": "jclic.js/maderaca.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/maderaca.jclic.zip",
+  "instFile": "jclic/maderaca.jclic.inst",
+  "clicZoneId": 3170,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3170",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/maderaca/jclic/maderaca.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 25,
+  "totalSize": 551117,
+  "files": [
+    "cover.jpg",
+    "jclic.js/aglomera.gif",
+    "jclic.js/aserrado.gif",
+    "jclic.js/barrena1.gif",
+    "jclic.js/cepidisc.gif",
+    "jclic.js/cepilado.gif",
+    "jclic.js/cepillad.gif",
+    "jclic.js/cepillo.gif",
+    "jclic.js/cepitamb.gif",
+    "jclic.js/contrac1.gif",
+    "jclic.js/descorte.gif",
+    "jclic.js/dm.gif",
+    "jclic.js/fresado.gif",
+    "jclic.js/lijado1.gif",
+    "jclic.js/limado1.gif",
+    "jclic.js/listonad.gif",
+    "jclic.js/madera.gif",
+    "jclic.js/maderaca.jclic",
+    "jclic.js/secado.gif",
+    "jclic.js/serruch2.gif",
+    "jclic.js/serrucos.gif",
+    "jclic.js/siermarq.gif",
+    "jclic.js/sirpunt.gif",
+    "jclic.js/talado.gif",
+    "jclic.js/talcolma.gif",
+    "jclic.js/torneado.gif",
+    "jclic.js/tronzado.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/maderaca.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

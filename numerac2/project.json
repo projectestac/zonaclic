@@ -1,0 +1,105 @@
+{
+  "id": 1724,
+  "title": "Numeración en primaria",
+  "author": "Aurelio Gutiérrez Fernández",
+  "school": "CEIP Rural Salvador Rueda Macharaviaya - Málaga (Andalucía)",
+  "date": "11/12/07",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "Project for numbering learning from tens till thousands. The activity is divided in three parts: \n<ul> \n <li>numbering till 99 </li>\n <li>numbering till 999 </li>\n <li>numbering till 9.999 </li>\n</ul>",
+    "ca": "Projecte per treballar la numeració des de les desenes a les unitats de miler. L'activitat es divideix en tres parts: \n<ul> \n <li>numeració fins el 99 </li>\n <li>numeració fins el 999 </li>\n <li>numeració fins el 9.999 </li>\n</ul>",
+    "es": "Proyecto para trabajar la numeración desde las decenas a las unidades de millar. La actividad se divide en tres partes: \n<ul> \n <li>numeración hasta el 99 </li>\n <li>numeración hasta el 999 </li>\n <li>numeración hasta el 9.999 </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/numerac2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/numerac2.jclic.zip",
+  "instFile": "jclic/numerac2.jclic.inst",
+  "clicZoneId": 3430,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3430",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/numerac2/jclic/numerac2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 103,
+  "mediaFiles": 34,
+  "totalSize": 2148389,
+  "files": [
+    "cover.gif",
+    "jclic.js/2bolas.gif",
+    "jclic.js/3bolas.gif",
+    "jclic.js/4bolas.gif",
+    "jclic.js/5bolas.gif",
+    "jclic.js/6bolas.gif",
+    "jclic.js/7bolas.gif",
+    "jclic.js/8bolas.gif",
+    "jclic.js/9bolas.gif",
+    "jclic.js/abaco125.gif",
+    "jclic.js/abaco18.gif",
+    "jclic.js/abaco217.gif",
+    "jclic.js/abaco25.gif",
+    "jclic.js/abaco37.gif",
+    "jclic.js/abaco41.gif",
+    "jclic.js/abaco503.gif",
+    "jclic.js/abaco52.gif",
+    "jclic.js/abaco742.gif",
+    "jclic.js/abacocdu.gif",
+    "jclic.js/abacocuadros.gif",
+    "jclic.js/abacocuadroscdu.gif",
+    "jclic.js/abacodu.gif",
+    "jclic.js/amarillo.gif",
+    "jclic.js/anochecer.jpg",
+    "jclic.js/azul.gif",
+    "jclic.js/bola.gif",
+    "jclic.js/breilly_landscape.jpg",
+    "jclic.js/c_puerto.jpg",
+    "jclic.js/emoticono.gif",
+    "jclic.js/hpim0167.jpg",
+    "jclic.js/numerac2.jclic",
+    "jclic.js/rana.gif",
+    "jclic.js/rojo.gif",
+    "jclic.js/simb.gif",
+    "jclic.js/simbolosud.gif",
+    "jclic.js/vistas.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/numerac2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

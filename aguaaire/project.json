@@ -1,0 +1,110 @@
+{
+  "id": 2185,
+  "title": "El aire y el agua",
+  "author": "Gabriel Arroyo Moreno",
+  "school": "CEIP San Miguel Villanueva de Córdoba (Andalucía)",
+  "date": "13/10/11",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aigua, aire",
+    "es": "agua, aire",
+    "en": "water, air"
+  },
+  "descCodes": [
+    1341,
+    1347
+  ],
+  "description": {
+    "en": "Project of activities addressed to first cycle of primary education about: \n<ul> \n <li>The water: stats and uses </li>\n <li>The air in the Earth </li>\n</ul>",
+    "ca": "Projecte d'activitats adreçat a primer cicle d'Educació primària sobre: \n<ul> \n <li>L'aigua: estats i usos </li>\n <li>L'aire a la Tierra </li>\n</ul>",
+    "es": "Proyecto de actividades dirigido a primer ciclo de Educación primaria sobre: \n<ul> \n <li>El agua: estados y usos </li>\n <li>El aire en la Tierra </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/aguaaire.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/aguaaire.jclic.zip",
+  "instFile": "jclic/aguaaire.jclic.inst",
+  "clicZoneId": 3720,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3720",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/aguaaire/jclic/aguaaire.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 30,
+  "totalSize": 1628802,
+  "files": [
+    "cover.jpg",
+    "jclic.js/agua_liquida2.jpg",
+    "jclic.js/agua_solida.jpg",
+    "jclic.js/agua_vapor2.jpg",
+    "jclic.js/aguaaire.jclic",
+    "jclic.js/anemometro.jpg",
+    "jclic.js/bano.jpg",
+    "jclic.js/botasagua.jpg",
+    "jclic.js/chico_en_playaop.jpg",
+    "jclic.js/cisterna.jpg",
+    "jclic.js/ducha.jpg",
+    "jclic.js/fuerza_viento1.jpg",
+    "jclic.js/fuerza_viento2.jpg",
+    "jclic.js/fuerza_viento3.jpg",
+    "jclic.js/fuerza_viento4.jpg",
+    "jclic.js/fuerza_viento5.jpg",
+    "jclic.js/instrumentmedidaop.jpg",
+    "jclic.js/lavar_manos.jpg",
+    "jclic.js/libro.jpg",
+    "jclic.js/lluvia_corriendoop.jpg",
+    "jclic.js/lluvia_penetrandoop.jpg",
+    "jclic.js/meteorologaop.jpg",
+    "jclic.js/nube.jpg",
+    "jclic.js/paraguas.jpg",
+    "jclic.js/perro01.jpg",
+    "jclic.js/personas.jpg",
+    "jclic.js/planeta_tierra2op.jpg",
+    "jclic.js/planta.jpg",
+    "jclic.js/pluviometro2.jpg",
+    "jclic.js/silla.jpg",
+    "jclic.js/tendedero_ropaop.jpg",
+    "jclic.js/termometro.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/aguaaire.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

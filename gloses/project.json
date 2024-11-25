@@ -1,0 +1,83 @@
+{
+  "id": 2165,
+  "title": "Aprenem a fer Gloses",
+  "author": "Margalida Castell Borràs",
+  "date": "15/07/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages, Music",
+    "ca": "Llengües, Música",
+    "es": "Lenguas, Música"
+  },
+  "areaCodes": [
+    "lleng",
+    "mus"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la literatura, glosa",
+    "es": "aprendizaje de la literatura, glosa",
+    "en": "learning of Literature, gloss"
+  },
+  "descCodes": [
+    611,
+    1421
+  ],
+  "description": {
+    "en": "JClic Project about Glosses, improvisations of a poetic narrative, where an actual metrical structure and experimental rhythms, the commentator demonstrates the ability to text composition and improvisation.",
+    "ca": "Projecte JClic sobre les Gloses, improvisacions d'una narració poètica, on amb una estructura mètrica concreta, i amb rimes experimentades, el glosador demostra la seva capacitat de composició i improvisació de textos.",
+    "es": "Proyecto JClic sobre las Glosas, improvisaciones de una narración poética, dónde con una estructura métrica concreta y con ritmos experimentales, el glosador demuestra su capacidad de composición e improvisación de textos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/gloses.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/gloses.jclic.zip",
+  "instFile": "jclic/gloses.jclic.inst",
+  "clicZoneId": 3701,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3701",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/gloses/jclic/gloses.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 7,
+  "mediaFiles": 3,
+  "totalSize": 421887,
+  "files": [
+    "cover.png",
+    "jclic.js/glosa1exemple.mp3",
+    "jclic.js/gloses.jclic",
+    "jclic.js/imatgeglosadors.jpg",
+    "jclic.js/padri.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/gloses.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

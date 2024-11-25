@@ -1,0 +1,120 @@
+{
+  "id": 66,
+  "title": "Tots som un tros de tots",
+  "author": "Claustre de professors de l'escola Jeroni de Moragas",
+  "school": "C Jeroni de Moragas Santpedor (Bages)",
+  "date": "08/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "educació solidària, poesia",
+    "es": "educación solidaria, poesía",
+    "en": "shared in common education, poetry"
+  },
+  "descCodes": [
+    404,
+    650
+  ],
+  "description": {
+    "en": "Clic activities about Jordi Bordas' poem \"Tots som un tros de tots\" (We are all a part of everybody)\n<p> The package uses a presentation made with PowerPoint, so you will need to have this program installed in order to see it. </p>",
+    "ca": "En aquesta aplicació es treballa el poema d'en Jordi Bordas \"Tots som un tros de tots\". Volem suggerir al mestre la possibilitat de portar a terme un debat amb els alumnes per tal de treballar la comprensió del poema, identificant-ne el missatge, les idees principals i la relació del text amb la pròpia experiència.\n<p> Les activitats que s'inclouen estan pensades per tal de possibilitar la memorització del poema i d'afavorir la comprensió de la seva idea general:</p>\n<p> </p>\n<li>Resolució de trencaclosques de contingut relacionat amb el poema. </li>\n<li>Exercicis d'associació so-grafia, entre audicions de petits fragments del text i la corresponent imatge. </li>\n<li>Exercicis d'omplir forats per completar frases extretes del poema. </li>\n<li>Dictat.<p> Està previst que en un segon lliurament de l'activitat que presentem els nens puguin connectar a la Web del nostre centre (<a href=\"http://www.ampans.es\" target=\"_blank\">www.ampans.es</a>)i visitar-nos, entre tant estaríem molt satisfets de rebre les impressions dels vostres alumnes adreçades al nostre mail. Tingueu per segur que les llegirem i les contestarem totes de bon grat. </p><p> El paquet d'activitats utilitza una presentació en format PowerPoint, i cal tenir instal·lada aquesta aplicació per tal de visualitzar-la. També inclou una guia didàctica en format Adobe Acrobat (PDF) </p></li>",
+    "es": "En esta aplicación se trabaja el poema de Jordi Bordas \"Tots som un tros de tots\" (Todos somos un trozo de todos). Queremos sugerir al educador la posibilidad de llevar a cabo un debate con los alumnos para trabajar la comprensión del poema, identificar su mensaje, las ideas principales y la relación del texto con la propia experiencia.\n<p> Las actividades que se presentan están pensadas para posibilitar la memorización del poema y favorecer la comprensión de su idea general:</p>\n<p> </p>\n<li>Resolución de puzzles de contenido relacionado con el poema. </li>\n<li>Ejercicios de asociación sonido- grafía, entre audiciones de pequeños fragmentos de texto y su correspondiente imagen. </li>\n<li>Ejercicios de rellenar agujeros para completar frases extraídas del poema. </li>\n<li>Dictado.<p> Está previsto que en una segunda entrega de la actividad los alumnos puedan conectar con la web de nuestro centro (<a href=\"http://www.ampans.es\" target=\"_blank\">www.ampans.es</a>) y visitarnos. Estaremos muy satisfechos de recibir las impresiones de vuestros alumnos dirigidas a nuestro buzón de e-mail. Tened por seguro que las leeremos y as contestaremos con mucho gusto. </p><p> El paquete de actividades utiliza una presentación en formato PowerPoint, y por ello hay que tener instalada esta aplicación para visualizarla. También incluye una guía didáctica en formato Adobe Acrobat (PDF) </p></li>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/totssom.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/totssom.jclic.zip",
+  "instFile": "jclic/totssom.jclic.inst",
+  "clicZoneId": 1026,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1026",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/totssom/jclic/totssom.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 39,
+  "totalSize": 3483768,
+  "files": [
+    "cover.gif",
+    "jclic.js/acabar.jpg",
+    "jclic.js/arbrecom.jpg",
+    "jclic.js/castell.jpg",
+    "jclic.js/comelmar.wav",
+    "jclic.js/dictat1.wav",
+    "jclic.js/dictat2.wav",
+    "jclic.js/dictat3.wav",
+    "jclic.js/dictat4.wav",
+    "jclic.js/dictats.jpg",
+    "jclic.js/dips.wav",
+    "jclic.js/faremmf.wav",
+    "jclic.js/foccom.jpg",
+    "jclic.js/fonsll.jpg",
+    "jclic.js/fulles.jpg",
+    "jclic.js/gegancom.jpg",
+    "jclic.js/granocom.jpg",
+    "jclic.js/guiadi.pdf",
+    "jclic.js/illa.jpg",
+    "jclic.js/isijucom.jpg",
+    "jclic.js/isijunts.wav",
+    "jclic.js/menu1.gif",
+    "jclic.js/menu2.gif",
+    "jclic.js/menu3.gif",
+    "jclic.js/menu4.gif",
+    "jclic.js/muntacom.jpg",
+    "jclic.js/naufcom.jpg",
+    "jclic.js/nen.jpg",
+    "jclic.js/nenscom.jpg",
+    "jclic.js/noilles.wav",
+    "jclic.js/nosols.wav",
+    "jclic.js/orella.jpg",
+    "jclic.js/peixcom.jpg",
+    "jclic.js/platja.jpg",
+    "jclic.js/portacom.jpg",
+    "jclic.js/posta.jpg",
+    "jclic.js/quaneix.wav",
+    "jclic.js/ra_a.wav",
+    "jclic.js/resposta.jpg",
+    "jclic.js/rosan.jpg",
+    "jclic.js/totsom.wav",
+    "jclic.js/totssom.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/totssom.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

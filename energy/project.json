@@ -1,0 +1,118 @@
+{
+  "id": 353,
+  "title": "Kinds of energy and energy sources",
+  "author": "Joan Barres i Sanz",
+  "school": "CP Trullàs Benifaió (Ribera Alta)",
+  "date": "18/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "energia, llengua anglesa",
+    "es": "energía, lengua inglesa",
+    "en": "energy, English language"
+  },
+  "descCodes": [
+    68,
+    130
+  ],
+  "description": {
+    "en": "Clic activity pack about energy types and resources. Directed towards students of foreign language -English- in elementary school education.\n<br> The vocabulary dealt with relates to the following topics:\n<br> \n<li>Energy types </li>\n<li>Energy sources </li>\n<li>Main characteristics of each </li>",
+    "ca": "Paquet d'activitats sobre els tipus i les fonts d'energia, adreçat a l'àrea de llengua estrangera (anglès) d'Educació Primària.\n<br> S'hi tracten els aspectes següents:\n<br> \n<li>Tipus d'energia<br> </li>\n<li>Fonts d'energia<br> </li>\n<li>Característiques de cadascuna d'elles<br> </li>",
+    "es": "Paquete de actividades sobre los tipos y las fuentes de energía, dirigido a el área de lengua extranjera (inglés) de Educación Primaria.\n<br> Se trabaja vocabulario relacionado con los siguientes aspectos:\n<br> \n<li>Tipos de energía </li>\n<li>Fuentes de energía </li>\n<li>Características de cada una de ellas </li>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/energy.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/energy.jclic.zip",
+  "instFile": "jclic/energy.jclic.inst",
+  "clicZoneId": 1200,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1200",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/energy/jclic/energy.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 37,
+  "mediaFiles": 37,
+  "totalSize": 1816779,
+  "files": [
+    "cover.gif",
+    "jclic.js/aspes01.gif",
+    "jclic.js/atoms.gif",
+    "jclic.js/carbo01.gif",
+    "jclic.js/carbo02.gif",
+    "jclic.js/catarata.jpg",
+    "jclic.js/cel_le01.gif",
+    "jclic.js/cent_sol.jpg",
+    "jclic.js/cheap.wav",
+    "jclic.js/coal.wav",
+    "jclic.js/coalso.wav",
+    "jclic.js/energy.jclic",
+    "jclic.js/expensiv.wav",
+    "jclic.js/genera.gif",
+    "jclic.js/hydrauli.wav",
+    "jclic.js/kindso01.gif",
+    "jclic.js/marea01.jpg",
+    "jclic.js/marea02.gif",
+    "jclic.js/nuclea01.gif",
+    "jclic.js/nuclea_1.jpg",
+    "jclic.js/nuclear.wav",
+    "jclic.js/oil.gif",
+    "jclic.js/ones_fot.jpg",
+    "jclic.js/panta.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/prelude.mid",
+    "jclic.js/presa01.gif",
+    "jclic.js/sol.gif",
+    "jclic.js/solar.wav",
+    "jclic.js/sources.gif",
+    "jclic.js/sunlight.wav",
+    "jclic.js/termic01.gif",
+    "jclic.js/tidal.wav",
+    "jclic.js/tideso.wav",
+    "jclic.js/uranium.wav",
+    "jclic.js/vent.gif",
+    "jclic.js/water.wav",
+    "jclic.js/wind.wav",
+    "jclic.js/windso.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/energy.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

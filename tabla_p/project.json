@@ -1,0 +1,119 @@
+{
+  "id": 1911,
+  "title": "La tabla periódica",
+  "author": "Álvaro Mota i Félix Nieto",
+  "school": "Academia Félix La línea de la Concepción (Andalucía)",
+  "date": "21/04/09",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "High school (16-18)",
+    "ca": "Batxillerat (16-18)",
+    "es": "Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "BTX"
+  ],
+  "descriptors": {
+    "ca": "química, taula periòdica",
+    "es": "química, tabla periódica",
+    "en": "chemistry, periodic table"
+  },
+  "descCodes": [
+    97,
+    1395
+  ],
+  "description": {
+    "en": "Project of activities on the periodic table: \n<ul> \n <li>Identification of the elements. </li>\n <li>Management of the table. </li>\n <li>Blocks of the table. </li>\n <li>Definition of periodic properties (ionic radius, ionization energy, electronic affinity and electro negativity). </li>\n <li>Electronic configurations of the representative elements, transition metals and transition internally. </li>\n <li> Theoretical questions about the periodic system. </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre la taula periòdica: \n<ul> \n <li>Identificació dels elements. </li>\n <li>Ordenació de la taula. </li>\n <li>Blocs de la taula. </li>\n <li>Definició de les propietats periòdiques. </li>\n <li>Configuracions electròniques dels elements representatius, metalls de transició i de transició interna.</li>\n <li>Tipus d'orbitals. </li>\n <li>Qüestions teòriques sobre el sistema periòdic. </li>\n</ul>",
+    "es": "Proyecto de actividades sobre la tabla periódica: \n<ul> \n <li>Identificación de los elementos. </li>\n <li>Ordenación de la tabla. </li>\n <li>Bloques que constituyen la tabla. </li>\n <li>Definición de las propiedades periódicas (radio iónico, energía ionización, afinidad electrónica y electronegatividad). </li>\n <li>Configuraciones electrónicas de los elementos representativos, metales de transición y de transición interna. </li>\n <li>Tipos de orbitales. </li>\n <li>Cuestiones teóricas sobre el sistema periódico. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/tabla_p.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tabla_p.jclic.zip",
+  "instFile": "jclic/tabla_p.jclic.inst",
+  "clicZoneId": 3537,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3537",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/tabla_p/jclic/tabla_p.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 39,
+  "totalSize": 696807,
+  "files": [
+    "cover.jpg",
+    "jclic.js/2.jpg",
+    "jclic.js/atomos1.jpg",
+    "jclic.js/azufre.jpg",
+    "jclic.js/bario.jpg",
+    "jclic.js/berilio.jpg",
+    "jclic.js/calcio.jpg",
+    "jclic.js/carbono.jpg",
+    "jclic.js/cartel_sistema_periodico.jpg",
+    "jclic.js/cesio.jpg",
+    "jclic.js/cobre.jpg",
+    "jclic.js/confi1.jpg",
+    "jclic.js/confi2.jpg",
+    "jclic.js/confi3.jpg",
+    "jclic.js/confi4.jpg",
+    "jclic.js/confi5.jpg",
+    "jclic.js/configuracion_alcalinos.jpg",
+    "jclic.js/configuracion_alcalinoterreos.jpg",
+    "jclic.js/configuracion_anfigenos.jpg",
+    "jclic.js/configuracion_carbonoides.jpg",
+    "jclic.js/configuracion_gases_nobles.jpg",
+    "jclic.js/configuracion_halogenos.jpg",
+    "jclic.js/configuracion_nitrogenoides.jpg",
+    "jclic.js/configuracion_terreos.jpg",
+    "jclic.js/estroncio.jpg",
+    "jclic.js/francio.jpg",
+    "jclic.js/litio.jpg",
+    "jclic.js/magnesio.jpg",
+    "jclic.js/nitrogeno.jpg",
+    "jclic.js/orbital_d.jpg",
+    "jclic.js/orbital_f.jpg",
+    "jclic.js/orbital_p.jpg",
+    "jclic.js/orbital_s.jpg",
+    "jclic.js/oro.jpg",
+    "jclic.js/oxigeno.jpg",
+    "jclic.js/plomo.jpg",
+    "jclic.js/potasio.jpg",
+    "jclic.js/radio.jpg",
+    "jclic.js/rubidio.jpg",
+    "jclic.js/sodio.jpg",
+    "jclic.js/tabla_p.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/tabla_p.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

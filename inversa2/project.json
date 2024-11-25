@@ -1,0 +1,107 @@
+{
+  "id": 926,
+  "title": "Las sílabas inversas",
+  "author": "Vicente J. Alfonso Repullés",
+  "school": "Colegio Asunción de Nuestra Señora Alboraia (Horta nord)",
+  "date": "23/12/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Llengües",
+    "es": "Lenguas",
+    "en": "Languages"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, vocabulari, vocabulari",
+    "es": "lengua castellana, vocabulario, vocabulario",
+    "en": "Spanish language, vocabulary, vocabulary"
+  },
+  "descCodes": [
+    132,
+    150,
+    673
+  ],
+  "description": {
+    "en": "Package of activities to remind the inverted syllables in a funny way. The pupil should get out from a cave where a ogre seek him asking questions. If the answer is right the pupil will get out.",
+    "ca": "Aquest paquet d'activitats tracta de repassar les síl·labes inverses d'una manera divertida. El nen/a ha de sortir d'una cova on hi ha un ogre que el persegueix i li va fent preguntes que haurà de respondre correctament. Si falla, l'ogre farà que torni endarrera.",
+    "es": "Este paquete de actividades trata de repasar las sílabas inversas de forma divertida. El niño/a ha de salir de una cueva donde hay un ogro que le persigue y le va haciendo preguntas que deberá responder correctamente. Si falla, el ogro hará que vuelva atrás."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/inversa2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/inversa2.jclic.zip",
+  "instFile": "jclic/inversa2.jclic.inst",
+  "clicZoneId": 2036,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2036",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/inversa2/jclic/inversa2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 31,
+  "mediaFiles": 26,
+  "totalSize": 1467293,
+  "files": [
+    "cover.gif",
+    "jclic.js/alta.gif",
+    "jclic.js/altar.gif",
+    "jclic.js/ancla.gif",
+    "jclic.js/andar.gif",
+    "jclic.js/angel.gif",
+    "jclic.js/ascensor.gif",
+    "jclic.js/cueva.gif",
+    "jclic.js/cuidado.wav",
+    "jclic.js/enchufe.gif",
+    "jclic.js/espada.gif",
+    "jclic.js/espejo.gif",
+    "jclic.js/indio.gif",
+    "jclic.js/inversa2.jclic",
+    "jclic.js/isla.gif",
+    "jclic.js/lata.gif",
+    "jclic.js/logo.gif",
+    "jclic.js/lomo.gif",
+    "jclic.js/luna.gif",
+    "jclic.js/nadar.gif",
+    "jclic.js/ogr.wav",
+    "jclic.js/ogro.gif",
+    "jclic.js/ogro.wav",
+    "jclic.js/olmo.gif",
+    "jclic.js/ostra.gif",
+    "jclic.js/quetepi.wav",
+    "jclic.js/respues.wav",
+    "jclic.js/saco.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/inversa2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

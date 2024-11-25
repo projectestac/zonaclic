@@ -1,0 +1,87 @@
+{
+  "id": 1489,
+  "title": "La Argentina",
+  "author": "Mariano Della Rosa",
+  "date": "07/11/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia, Argentina",
+    "es": "geografía, Argentina",
+    "en": "geography, Argentina"
+  },
+  "descCodes": [
+    235,
+    814
+  ],
+  "description": {
+    "en": "Set of activities about Argentina, the provinces and their capitals.",
+    "ca": "Conjunt d'activitats sobre l'Argentina, les seves províncies i capitals, i els països que l'envolten.",
+    "es": "Conjunto de actividades sobre Argentina, sus provincias y capitales y los paises que la rodean."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/argentin.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/argentin.jclic.zip",
+  "instFile": "jclic/argentin.jclic.inst",
+  "clicZoneId": 3210,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3210",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/argentin/jclic/argentin.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 9,
+  "mediaFiles": 8,
+  "totalSize": 149553,
+  "files": [
+    "cover.gif",
+    "jclic.js/amsur.gif",
+    "jclic.js/amsur1.gif",
+    "jclic.js/arge1.gif",
+    "jclic.js/arge2.gif",
+    "jclic.js/arge3.gif",
+    "jclic.js/arge4.gif",
+    "jclic.js/argentin.jclic",
+    "jclic.js/provin1.gif",
+    "jclic.js/provin2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/argentin.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

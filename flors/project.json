@@ -1,0 +1,100 @@
+{
+  "id": 1362,
+  "title": "Les flors de camp i de jardí",
+  "author": "Maria Torres Español",
+  "school": "Escola Els Planells Artesa de Segre (Noguera)",
+  "date": "11/05/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages",
+    "ca": "Ciències experimentals, Llengües",
+    "es": "Ciencias experimentales, Lenguas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "botànica, aprenentatge de la llengua",
+    "es": "botánica, aprendizaje de la lengua",
+    "en": "botany, learning of the language"
+  },
+  "descCodes": [
+    59,
+    110
+  ],
+  "description": {
+    "en": "Activities addressed to primary school about the flowers. The project has two parts: \n<ul> \n <li>Garden flowers </li>\n <li>Field flowers </li>\n</ul>",
+    "ca": "Treball sobre algunes flors conegudes i treballades pels nens d'educació infantil. El projecte està classificat en dos blocs: \n<ul> \n <li>Flors de Jardí </li>\n <li>Flors del camp </li>\n</ul>",
+    "es": "Trabajo sobre algunas flores conocidas y trabajadas por los niños de educación infantil. El proyecto está clasificado en dos bloques: \n<ul> \n <li>Flores de jardín </li>\n <li>Flores del campo </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/flors.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/flors.jclic.zip",
+  "instFile": "jclic/flors.jclic.inst",
+  "clicZoneId": 3104,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3104",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/flors/jclic/flors.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 38,
+  "mediaFiles": 19,
+  "totalSize": 2972121,
+  "files": [
+    "cover.jpg",
+    "jclic.js/corretjola.wav",
+    "jclic.js/corretjolamotcau.jpg",
+    "jclic.js/farigola.wav",
+    "jclic.js/fi.wav",
+    "jclic.js/flors.jclic",
+    "jclic.js/ginesta.wav",
+    "jclic.js/ginestaalgarve.jpg",
+    "jclic.js/margarida.wav",
+    "jclic.js/margerites.jpg",
+    "jclic.js/rosa.wav",
+    "jclic.js/rosa_roja.jpg",
+    "jclic.js/rosella.wav",
+    "jclic.js/roselles1.jpg",
+    "jclic.js/si_totes_les_floretes...wav",
+    "jclic.js/thymus.jpg",
+    "jclic.js/timo.wav",
+    "jclic.js/tulipa.wav",
+    "jclic.js/tulipa_rosa.jpg",
+    "jclic.js/viola.wav",
+    "jclic.js/violafresca.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/flors.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

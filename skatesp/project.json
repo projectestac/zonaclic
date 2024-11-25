@@ -1,0 +1,118 @@
+{
+  "id": 403,
+  "title": "Lectura comprensiva: Los skates",
+  "author": "David Beltrán Dumont i M. Núria Torrents Gallés",
+  "school": "Escola Baró de Viver Barcelona",
+  "date": "22/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "comprensió escrita, llengua catalana, esports, educació vial",
+    "es": "comprensión escrita, lengua catalana, deportes, educación vial",
+    "en": "written understanding, Catalan language, sports, road safety"
+  },
+  "descCodes": [
+    111,
+    133,
+    424,
+    790
+  ],
+  "description": {
+    "en": "Activity package about the skate board: history, vocabulary, parts of the skate, protections, etc.",
+    "ca": "Paquet d'activitats sobre el món dels \"skates\" o monopatins: història de l'skate, vocabulari, moviments i figures, parts de l'skate, les proteccions...",
+    "es": "Paquete de actividades sobre el mundo de los \"skates\" o monopatines: historia del skate, vocabulario, movimientos y figuras, partes del monopatín, las protecciones..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "skate"
+  ],
+  "mainFile": "jclic.js/skatesp.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/skatesp.jclic.zip",
+  "instFile": "jclic/skatesp.jclic.inst",
+  "clicZoneId": 1231,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1231",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/skatesp/jclic/skatesp.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 32,
+  "totalSize": 413384,
+  "files": [
+    "cover.gif",
+    "jclic.js/1skat11.gif",
+    "jclic.js/cres.gif",
+    "jclic.js/f101.jpg",
+    "jclic.js/f102.jpg",
+    "jclic.js/f103.jpg",
+    "jclic.js/f105.jpg",
+    "jclic.js/f107.jpg",
+    "jclic.js/f109.jpg",
+    "jclic.js/final.jpg",
+    "jclic.js/fons.jpg",
+    "jclic.js/fons1.jpg",
+    "jclic.js/fons3.jpg",
+    "jclic.js/fons30.jpg",
+    "jclic.js/s01.jpg",
+    "jclic.js/s02.jpg",
+    "jclic.js/s03.jpg",
+    "jclic.js/s04.jpg",
+    "jclic.js/s05.jpg",
+    "jclic.js/sk00.gif",
+    "jclic.js/sk1.jpg",
+    "jclic.js/sk5.jpg",
+    "jclic.js/sk6.jpg",
+    "jclic.js/sk61.jpg",
+    "jclic.js/skat10.jpg",
+    "jclic.js/skat12.gif",
+    "jclic.js/skat7.jpg",
+    "jclic.js/skat8.jpg",
+    "jclic.js/skatesp.jclic",
+    "jclic.js/ski1.wav",
+    "jclic.js/titol.gif",
+    "jclic.js/ts01.gif",
+    "jclic.js/ts02.gif",
+    "jclic.js/ts03.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/skatesp.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": 345,
+  "title": "France",
+  "author": "Llanos Navalón Yeste",
+  "school": "CP Juan Ramón Jiménez Sant Vicent del Raspeig (Alacantí)",
+  "date": "18/07/02",
+  "languages": {
+    "en": "French",
+    "ca": "francès",
+    "es": "francés"
+  },
+  "langCodes": [
+    "fr"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua francesa",
+    "es": "gramática, lengua francesa",
+    "en": "grammar, French language"
+  },
+  "descCodes": [
+    123,
+    136
+  ],
+  "description": {
+    "en": "French language activities for beginners. The sections are: \n<li>Basic structures </li>\n<li>Numbers from 1 to 20 </li>\n<li>Currency </li>",
+    "ca": "Paquet format per 28 activitats de francès, optativa de 1er d'ESO. Basat en el llibre d'Anaya - Unité 1 (France) on es treballen:\n<p> - Estructures bàsiques - Qui est-ce? Qu'est-ce que c'est?.<br> - Els nombres de l'1 al 20.<br> - L'article determinat i indeterminat.<br> - La moneda (el franc) i emblemes francesos.</p>\n<p> Inclou exercicis de vocabulari, reconeixement de veu i algun puzzle. </p>",
+    "es": "Paquete compuesto por 28 actividades de francés, optativa de 1º ESO. Basado en el libro de Anaya - Unité 1 (France) y que trabaja:\n<p> - Estructuras básicas - Qui est-ce? Qu'est-ce que c'est?.<br> - Los números del 1 al 20.<br> - El artículo determinado e indeterminado.<br> - La moneda (franco) y emblemas franceses.</p>\n<p> Incluye ejercicios de vocabulario, reconocimiento de voz y algún puzle. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/france.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/france.jclic.zip",
+  "instFile": "jclic/france.jclic.inst",
+  "clicZoneId": 1192,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1192",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/france/jclic/france.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 61,
+  "totalSize": 5369293,
+  "files": [
+    "cover.gif",
+    "jclic.js/100f.jpg",
+    "jclic.js/1_5.wav",
+    "jclic.js/1_6.gif",
+    "jclic.js/1_6.wav",
+    "jclic.js/1_7.wav",
+    "jclic.js/200f.jpg",
+    "jclic.js/20f.jpg",
+    "jclic.js/500f.jpg",
+    "jclic.js/50f.jpg",
+    "jclic.js/50fb.jpg",
+    "jclic.js/asterix.gif",
+    "jclic.js/bateau.jpg",
+    "jclic.js/blanc.gif",
+    "jclic.js/bleu.gif",
+    "jclic.js/cate.jpg",
+    "jclic.js/chan2.wav",
+    "jclic.js/curie.jpg",
+    "jclic.js/drap.jpg",
+    "jclic.js/drap2.jpg",
+    "jclic.js/edf.jpg",
+    "jclic.js/eiffel.jpg",
+    "jclic.js/eu.jpg",
+    "jclic.js/fille.gif",
+    "jclic.js/fon1.wav",
+    "jclic.js/foret.jpg",
+    "jclic.js/france.jclic",
+    "jclic.js/france.jpg",
+    "jclic.js/france3.jpg",
+    "jclic.js/garcon.jpg",
+    "jclic.js/le.gif",
+    "jclic.js/liber.jpg",
+    "jclic.js/livre.jpg",
+    "jclic.js/m1.jpg",
+    "jclic.js/m2.jpg",
+    "jclic.js/m3.jpg",
+    "jclic.js/m4.jpg",
+    "jclic.js/m5.jpg",
+    "jclic.js/m6.jpg",
+    "jclic.js/m7.jpg",
+    "jclic.js/m7b.jpg",
+    "jclic.js/m8.jpg",
+    "jclic.js/m9.jpg",
+    "jclic.js/minialt.gif",
+    "jclic.js/mont2.jpg",
+    "jclic.js/onu.jpg",
+    "jclic.js/pasp.jpg",
+    "jclic.js/port2.gif",
+    "jclic.js/que.gif",
+    "jclic.js/que.wav",
+    "jclic.js/qui.gif",
+    "jclic.js/qui.wav",
+    "jclic.js/quie.gif",
+    "jclic.js/rapt.jpg",
+    "jclic.js/revoir.gif",
+    "jclic.js/roi.jpg",
+    "jclic.js/rouge.gif",
+    "jclic.js/sncf.jpg",
+    "jclic.js/tgv.jpg",
+    "jclic.js/train2.jpg",
+    "jclic.js/un.gif",
+    "jclic.js/ville2.jpg",
+    "jclic.js/voiture2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/france.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

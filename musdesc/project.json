@@ -1,0 +1,119 @@
+{
+  "id": 1781,
+  "title": "Juga amb l'aigua i la música",
+  "author": "Antoni Vilalta Carrera i Olga Valls Garcia",
+  "school": "Escola Emili Vallès Igualada (Anoia)",
+  "date": "18/06/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la música, audició musical",
+    "es": "aprendizaje de la música, audición musical",
+    "en": "learning of music, musical hearing"
+  },
+  "descCodes": [
+    717,
+    718
+  ],
+  "description": {
+    "en": "Project of activities with associations, puzzles, memory activities, scrambled letters, identification... About some works and their composers.\n<p> </p>",
+    "ca": "Projecte de 40 activitats adreçades als alumnes de cicle inicial. A partir de l'audició de petits fragments de música descriptiva es donen a conèixer algunes obres, instruments i compositors. El fil argumental és un conte que recorre el cicle de l'aigua seguint les audicions.",
+    "es": "Proyecto de 40 actividades dirigidas a alumnos de ciclo inicial. A partir de la audición de pequeños fragmentos de música descriptiva se dan a conocer alunas obras, instrumentos y compositores. El hilo argumental es un cuento que recorre el ciclo del agua siguiendo las audiciones."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "musde_gl"
+  ],
+  "mainFile": "jclic.js/musdesc.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/musdesc.jclic.zip",
+  "instFile": "jclic/musdesc.jclic.inst",
+  "clicZoneId": 3478,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3478",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/musdesc/jclic/musdesc.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 41,
+  "mediaFiles": 36,
+  "totalSize": 2121843,
+  "files": [
+    "cover.gif",
+    "jclic.js/cantaro2.jpg",
+    "jclic.js/clav2.mp3",
+    "jclic.js/corall.jpg",
+    "jclic.js/dof.jpg",
+    "jclic.js/emaragon.jpg",
+    "jclic.js/emili.jpg",
+    "jclic.js/estrella.jpg",
+    "jclic.js/fnt.mp3",
+    "jclic.js/mar.jpg",
+    "jclic.js/mar1.jpg",
+    "jclic.js/marcomiat.jpg",
+    "jclic.js/marimba.jpg",
+    "jclic.js/marnova.jpg",
+    "jclic.js/meduses.jpg",
+    "jclic.js/moldava.jpg",
+    "jclic.js/mr.mp3",
+    "jclic.js/musdesc.jclic",
+    "jclic.js/nan.jpg",
+    "jclic.js/orques1.jpg",
+    "jclic.js/orquest2.jpg",
+    "jclic.js/piano.jpg",
+    "jclic.js/pluj.mp3",
+    "jclic.js/pluja.jpg",
+    "jclic.js/plujdet.jpg",
+    "jclic.js/pop.jpg",
+    "jclic.js/rapids.jpg",
+    "jclic.js/rapids.mp3",
+    "jclic.js/rata.jpg",
+    "jclic.js/ratadet.jpg",
+    "jclic.js/ravel.jpg",
+    "jclic.js/riu.mp3",
+    "jclic.js/salmo.jpg",
+    "jclic.js/smetana.jpg",
+    "jclic.js/triangl.jpg",
+    "jclic.js/truitar.jpg",
+    "jclic.js/violin.jpg",
+    "jclic.js/vivaldi.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/musdesc.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": 2458,
+  "title": "Energies renovables",
+  "author": "Anna Farré Cases",
+  "school": "Institut Pere Borrell Puigcerdà (Cerdanya)",
+  "date": "25/07/16",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "contaminació, energia",
+    "es": "contaminación, energía",
+    "en": "contamination, energy"
+  },
+  "descCodes": [
+    61,
+    68
+  ],
+  "description": {
+    "en": "This JClic know what are the most important renewable energy sources, its uses and its advantages and disadvantages.",
+    "ca": "Amb aquest JClic coneixeràs quines són les fonts d'energia renovables més importants, els seus usos i els seus avantatges i inconvenients.",
+    "es": "Con este JClic conocerás cuáles son las fuentes de energía renovables más importantes, sus usos y sus ventajas e inconvenientes."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ener_re.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ener_re.jclic.zip",
+  "instFile": "jclic/ener_re.jclic.inst",
+  "clicZoneId": 3966,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3966",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ener_re/jclic/ener_re.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 26,
+  "mediaFiles": 46,
+  "totalSize": 5186832,
+  "files": [
+    "cover.png",
+    "jclic.js/104184_geothermal_vents_2.jpg",
+    "jclic.js/avinbiom.mp3",
+    "jclic.js/avineol.mp3",
+    "jclic.js/avingeot.mp3",
+    "jclic.js/avinhidra.mp3",
+    "jclic.js/avinmareo.mp3",
+    "jclic.js/benvinguda.mp3",
+    "jclic.js/biomassa.jpg",
+    "jclic.js/classifica.mp3",
+    "jclic.js/cloenda.wav",
+    "jclic.js/crater_volca.jpg",
+    "jclic.js/defbiom.mp3",
+    "jclic.js/defeol.mp3",
+    "jclic.js/defgeo.mp3",
+    "jclic.js/defhid.mp3",
+    "jclic.js/defmareo.mp3",
+    "jclic.js/enebiompuz.jpg",
+    "jclic.js/eneeolpuz.jpg",
+    "jclic.js/enefope.jpg",
+    "jclic.js/enegeotpuz.jpg",
+    "jclic.js/enehidrpuz.jpg",
+    "jclic.js/enemareopuz.jpg",
+    "jclic.js/ener_re.jclic",
+    "jclic.js/ener_re.jclic.js",
+    "jclic.js/enesolpuz_resized.jpg",
+    "jclic.js/enfocaok.jpg",
+    "jclic.js/ennucl.jpg",
+    "jclic.js/esolaravin.mp3",
+    "jclic.js/fontsenergia.jpg",
+    "jclic.js/llegeix_amb_atencio.mp3",
+    "jclic.js/nuvol.jpg",
+    "jclic.js/onada.jpg",
+    "jclic.js/onadadifu.jpg",
+    "jclic.js/parelles.mp3",
+    "jclic.js/penultim.mp3",
+    "jclic.js/puzbiom.mp3",
+    "jclic.js/puzeol.mp3",
+    "jclic.js/puzgeo.mp3",
+    "jclic.js/puzhidr.mp3",
+    "jclic.js/puzle.mp3",
+    "jclic.js/repaeoldifuok.jpg",
+    "jclic.js/riu.jpg",
+    "jclic.js/riudifu.jpg",
+    "jclic.js/soldifu.jpg",
+    "jclic.js/solok.jpg",
+    "jclic.js/sopafi.mp3",
+    "jclic.js/soparenov.mp3",
+    "jclic.js/tronc_arbres_difu.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

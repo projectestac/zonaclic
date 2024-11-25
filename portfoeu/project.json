@@ -1,0 +1,115 @@
+{
+  "id": 1717,
+  "title": "Hizkuntzen portfolio europarra",
+  "author": "Iñaki Mundiñano Larraza",
+  "school": "EIBZ, Euskararen Irakaskuntzarako Baliabide Zentroa Uharte (Navarra)",
+  "date": "21/11/07",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua",
+    "es": "lengua",
+    "en": "language"
+  },
+  "descCodes": [
+    128
+  ],
+  "description": {
+    "en": "This set of activities and explanations have been prepared to know the European Language Portfolio. It can be helpful in Secondary education to inform students about the Portfolio.",
+    "ca": "Projecte d'activitats preparades per donar a conèixer el Portfolio Europeo de las Lenguas. Pot ser de gran utilitat per la ESO per informar a l'alumnat sobre el Portfolio i per presentar-ho a classe.",
+    "es": "Este conjunto de actividades y explicaciones se ha preparado para dar a conocer el Portfolio Europeo de las Lenguas. Puede ser de utilidad en la ESO para informar a los alumnos sobre el Portfolio y para presentarlo en clase."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "portfoes"
+  ],
+  "mainFile": "jclic.js/portfoeu.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/portfoeu.jclic.zip",
+  "instFile": "jclic/portfoeu.jclic.inst",
+  "clicZoneId": 3424,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3424",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/portfoeu/jclic/portfoeu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 33,
+  "totalSize": 3937715,
+  "files": [
+    "cover.gif",
+    "jclic.js/azala.gif",
+    "jclic.js/basque.mp3",
+    "jclic.js/belarria_01.jpg",
+    "jclic.js/catalan.mp3",
+    "jclic.js/danish.mp3",
+    "jclic.js/egia.gif",
+    "jclic.js/europ_day_lang_logo.gif",
+    "jclic.js/europako_hizkuntzak.jpg",
+    "jclic.js/europako_hizkuntzak_02__1024x768_.jpg",
+    "jclic.js/finnish.mp3",
+    "jclic.js/french_basics.mp3",
+    "jclic.js/gezurra.gif",
+    "jclic.js/greek_basics.mp3",
+    "jclic.js/ikonoa_bakarrizketa.gif",
+    "jclic.js/ikonoa_elkarrizketa.gif",
+    "jclic.js/ikonoa_entzumena.gif",
+    "jclic.js/ikonoa_idazmena.gif",
+    "jclic.js/ikonoa_irakurmena.gif",
+    "jclic.js/italian_basics.mp3",
+    "jclic.js/kutxa.png",
+    "jclic.js/marko_mailak_a.jpg",
+    "jclic.js/marko_mailak_b.jpg",
+    "jclic.js/marko_mailak_c.jpg",
+    "jclic.js/ongi_etorri_sakanara.jpg",
+    "jclic.js/portfoeu.jclic",
+    "jclic.js/portuguese_basics.mp3",
+    "jclic.js/russian.mp3",
+    "jclic.js/slide0001_image002.jpg",
+    "jclic.js/slide0002_image003.jpg",
+    "jclic.js/slide0003_image005.jpg",
+    "jclic.js/slide0004_image007.jpg",
+    "jclic.js/slide0005_image009.gif",
+    "jclic.js/slide0006_image011.jpg",
+    "jclic.js/spanish_basics.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/portfoeu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

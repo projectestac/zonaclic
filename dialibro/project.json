@@ -1,0 +1,93 @@
+{
+  "id": 1400,
+  "title": "Día del libro",
+  "author": "M. Carmen García-Pergañeda",
+  "school": "CEIP Josefa Navarro Zamora Coria del Río - Sevilla (Andalucía)",
+  "date": "13/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "comprensió lectora",
+    "es": "comprensión lectora",
+    "en": "reading comprehension"
+  },
+  "descCodes": [
+    1329
+  ],
+  "description": {
+    "en": "A reading comprehension activity based on a illustrated tale. The project also includes interpretations done by pupils which have participated in this project.",
+    "ca": "Activitat de comprensió lectora basada en un conte il·lustrat amb dibuixos. El projecte inclou també les interpretacions de diferents alumnes que hi han participat.",
+    "es": "Actividad de comprensión lectora basada en un cuento ilustrado con dibujos. El proyecto incluye también las interpretaciones de varios alumnos que han participado."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/dialibro.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/dialibro.jclic.zip",
+  "instFile": "jclic/dialibro.jclic.inst",
+  "clicZoneId": 3136,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3136",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/dialibro/jclic/dialibro.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 14,
+  "totalSize": 1404268,
+  "files": [
+    "cover.gif",
+    "jclic.js/ana.gif",
+    "jclic.js/arabi.gif",
+    "jclic.js/david0_1.gif",
+    "jclic.js/dialibro.jclic",
+    "jclic.js/dondee_1.gif",
+    "jclic.js/juanit_2.gif",
+    "jclic.js/juanito.gif",
+    "jclic.js/mi1.gif",
+    "jclic.js/mi2.gif",
+    "jclic.js/mi3.gif",
+    "jclic.js/mi4.gif",
+    "jclic.js/panora_1.gif",
+    "jclic.js/panorama.gif",
+    "jclic.js/presenta.gif",
+    "jclic.js/rocio0_1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/dialibro.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": 1808,
+  "title": "Nombres parells i senars",
+  "author": "Jordi Marcó i Ruiz",
+  "school": "Escola Sant Martí Arenys de Munt (Maresme)",
+  "date": "13/11/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "nombres enters",
+    "es": "números enteros",
+    "en": "integers"
+  },
+  "descCodes": [
+    1321
+  ],
+  "description": {
+    "en": "Project of activities addressed to the first cycle of primary school about the differentiation of pairs and odds.",
+    "ca": "Projecte d'activitats adreçat a cicle inicial d'educació primària sobre la diferenciació de nombres parells i senars.",
+    "es": "Proyecto de actividades dirigido a ciclo inicial de educación primaria sobre la diferenciación de números pares e impares."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/paresena.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/paresena.jclic.zip",
+  "instFile": "jclic/paresena.jclic.inst",
+  "clicZoneId": 3505,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3505",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/paresena/jclic/paresena.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 5,
+  "totalSize": 227826,
+  "files": [
+    "cover.gif",
+    "jclic.js/nomparells.gif",
+    "jclic.js/nomsenars2.gif",
+    "jclic.js/numeros.gif",
+    "jclic.js/parells.gif",
+    "jclic.js/parells2.gif",
+    "jclic.js/paresena.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/paresena.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

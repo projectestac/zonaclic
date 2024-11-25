@@ -1,0 +1,115 @@
+{
+  "id": 1703,
+  "title": "Català oral: La classe",
+  "author": "Carlota Gallifa Llavina, Irene Vives Armengol i Miquel A. Vadell Torres",
+  "school": "CFA Can Noè Mataró (Catalunya)",
+  "date": "04/10/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "comprensió oral, vocabulari",
+    "es": "comprensión oral, vocabulario",
+    "en": "oral understanding, vocabulary"
+  },
+  "descCodes": [
+    112,
+    150
+  ],
+  "description": {
+    "en": "Project of activities mainly addressed to newcomers of oral language without written help for the learning of Catalan language through word groups. The activities also included the possibility to identify images by its sounds and reverse.\n<br> This project deals with the classroom vocabulary: closet, chair, ballpoint pen, chalkboard, board rubber, computer, key, table . .",
+    "ca": "Projecte d'activitats de llengua oral sense suport escrit adreçat, sobretot, a l'alumnat nouvingut que s'inicia en l'aprenentatge de la llengua catalana per camps semàntics. Les activitats també donen la possibilitat d'identificar la imatge amb el so i a la inversa. \n<br> En aquest projecte es treballa vocabulari sobre la classe: armari, cadira, bolígraf, pissarra, esborrador, ordinador, clau, taula...",
+    "es": "Proyecto de actividades de lengua oral sin soporte escrito dirigido, sobretodo, a alumnado recién llegado que se inicia en el aprendizaje de la lengua catalana por campos semánticos. Las actividades también dan la posibilidad de identificar la imagen con el sonido y a la inversa.\n<br> En este proyecto se trabaja vocabulario sobre la clase: armario, silla, bolígrafo, pizarra, borrador, ordenador, llave, mesa..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/catoral.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/catoral.jclic.zip",
+  "instFile": "jclic/catoral.jclic.inst",
+  "clicZoneId": 3412,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3412",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/catoral/jclic/catoral.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 8,
+  "mediaFiles": 35,
+  "totalSize": 1138647,
+  "files": [
+    "cover.jpg",
+    "jclic.js/armari.wav",
+    "jclic.js/armari2.jpg",
+    "jclic.js/boligraf.wav",
+    "jclic.js/boligraf2.jpg",
+    "jclic.js/cadira.jpg",
+    "jclic.js/cadira.wav",
+    "jclic.js/catoral.jclic",
+    "jclic.js/clau.wav",
+    "jclic.js/clau2.jpg",
+    "jclic.js/colors.jpg",
+    "jclic.js/colors.wav",
+    "jclic.js/esborrador.jpg",
+    "jclic.js/esborrador.wav",
+    "jclic.js/finestra.jpg",
+    "jclic.js/finestra.wav",
+    "jclic.js/full.jpg",
+    "jclic.js/full.wav",
+    "jclic.js/goma.jpg",
+    "jclic.js/goma.wav",
+    "jclic.js/guix.wav",
+    "jclic.js/guixx.jpg",
+    "jclic.js/llapis.jpg",
+    "jclic.js/llapis.wav",
+    "jclic.js/logo_jcliccc.jpg",
+    "jclic.js/ordinador.jpg",
+    "jclic.js/ordinador.wav",
+    "jclic.js/paperera.jpg",
+    "jclic.js/paperera.wav",
+    "jclic.js/pissarra.jpg",
+    "jclic.js/pissarra.wav",
+    "jclic.js/prestatge.jpg",
+    "jclic.js/prestatge.wav",
+    "jclic.js/retolador.jpg",
+    "jclic.js/retolador.wav",
+    "jclic.js/taula.jpg",
+    "jclic.js/taula.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/catoral.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

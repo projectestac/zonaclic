@@ -1,0 +1,109 @@
+{
+  "id": 726,
+  "title": "La Sardana a l'Escola",
+  "author": "Mireia Bosch Pibernat",
+  "school": "C Sant Josep Sant Hilari Sacalm (Selva)",
+  "date": "29/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "costums i tradicions, audició musical",
+    "es": "costumbres y tradiciones, audición musical",
+    "en": "customs and traditions, musical hearing"
+  },
+  "descCodes": [
+    191,
+    718
+  ],
+  "description": {
+    "en": "Clic activities about the sardana, a catalan folk dance.",
+    "ca": "Paquet d'activitats Clic sobre la sardana:\n<br> \n<ul><li>Què és la Sardana. </li>\n<li>Quins estils es fan servir per ballar-la. </li>\n<li>Manifestacions sardanístiques. </li>\n<li>Què és la cobla. </li>\n<li>Instruments de la cobla (conèixer el nom i el so). </li>\n<li>Famílies d¿instruments que hi ha a la cobla. </li>\n<li>Col·locació dels instruments dins la cobla. </li>\n<li>Conèixer alguns autors i alguns títols de sardanes. </li>\n<li>Conèixer algunes lletres de sardanes. </li></ul>",
+    "es": "Paquete de actividades de Clic sobre la sardana:\n<br> \n<ul><li>Que es la sardana </li>\n<li>Que estilos se utilizan para bailarla </li>\n<li>Manifestaciones sardanísticas </li>\n<li>Que es la cobla </li>\n<li>Instrumentos de la cobla </li>\n<li>Familias de instrumentos de la cobla </li>\n<li>Conocer algunos autores y algunos títulos de sardanas </li>\n<li>Conocer algunas letras de sardanas </li></ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sardana.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sardana.jclic.zip",
+  "instFile": "jclic/sardana.jclic.inst",
+  "clicZoneId": 1379,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1379",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sardana/jclic/sardana.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 30,
+  "mediaFiles": 29,
+  "totalSize": 3343374,
+  "files": [
+    "cover.gif",
+    "jclic.js/150anys.gif",
+    "jclic.js/cartell.jpg",
+    "jclic.js/colla.jpg",
+    "jclic.js/contrab1.wav",
+    "jclic.js/fiscorn.jpg",
+    "jclic.js/fiscorn1.wav",
+    "jclic.js/fiscorn2.wav",
+    "jclic.js/flabiol.jpg",
+    "jclic.js/flabiol1.wav",
+    "jclic.js/flabiol2.wav",
+    "jclic.js/grupsar2.gif",
+    "jclic.js/poblcant.wav",
+    "jclic.js/portada1.jpg",
+    "jclic.js/santespi.wav",
+    "jclic.js/sardana.jclic",
+    "jclic.js/tambori.jpg",
+    "jclic.js/tambori1.wav",
+    "jclic.js/tenora.jpg",
+    "jclic.js/tenora1.wav",
+    "jclic.js/tenora2.wav",
+    "jclic.js/tible.jpg",
+    "jclic.js/tible1.wav",
+    "jclic.js/tible2.wav",
+    "jclic.js/trombo.jpg",
+    "jclic.js/trombo1.wav",
+    "jclic.js/trompet1.wav",
+    "jclic.js/trompeta.jpg",
+    "jclic.js/verra01.jpg",
+    "jclic.js/verra02.jpg",
+    "jclic.js/xevimire.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sardana.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

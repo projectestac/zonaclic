@@ -1,0 +1,100 @@
+{
+  "id": 2311,
+  "title": "Conocemos animales salvajes y domésticos",
+  "author": "Erika Della Valle i Florencia Della Valle",
+  "school": "ISFD Clelia Fanny Castagnino Ucacha-Córdoba (Argentina)",
+  "date": "13/12/13",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "animals salvatges",
+    "es": "animales salvages",
+    "en": "wild animals"
+  },
+  "descCodes": [
+    834
+  ],
+  "description": {
+    "en": "Project of activities to learn to differentiate wild animals vs pets. The project has different type of activities: \n<ul> \n <li>puzzles </li>\n <li>memory games </li>\n <li>sound association activities </li>\n</ul>",
+    "ca": "Projecte d'activitats per aprendre a diferenciar els animals salvatges dels animals domèstics a través de diferents activitats: \n<ul> \n <li>trencaclosques </li>\n <li>jocs de memòria </li>\n <li>associació de sons </li>\n</ul>",
+    "es": "Proyecto de actividades para aprender a diferenciar los animales salvajes de los animales domésticos a través de diferentes actividades: \n<ul> \n <li>rompecabezas </li>\n <li>juegos de memoria </li>\n <li>asociación de sonidos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sal_dom.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sal_dom.jclic.zip",
+  "instFile": "jclic/sal_dom.jclic.inst",
+  "clicZoneId": 3820,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3820",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sal_dom/jclic/sal_dom.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 6,
+  "mediaFiles": 21,
+  "totalSize": 1702839,
+  "files": [
+    "cover.png",
+    "jclic.js/034fglelefante.mp3",
+    "jclic.js/048fgltigre.mp3",
+    "jclic.js/1282461290.png",
+    "jclic.js/1292020045_resized.jpg",
+    "jclic.js/anonymous_architetto____cavallo_20_resized.jpg",
+    "jclic.js/anonymous_architetto____elefante_in_corsa.png",
+    "jclic.js/ca.png",
+    "jclic.js/caratula_resized.jpg",
+    "jclic.js/chicken_003_and_chicks_cartoon_resized.jpg",
+    "jclic.js/cow2.png",
+    "jclic.js/eid_sheep_colored_resized.jpg",
+    "jclic.js/johnny_automatic_piggie.png",
+    "jclic.js/machovka_panda_resized.jpg",
+    "jclic.js/maven_wood_cut_zebra_resized.jpg",
+    "jclic.js/n02366perro.mp3",
+    "jclic.js/nc00963oveja.mp3",
+    "jclic.js/nc00993vaca.mp3",
+    "jclic.js/ncd01083caballo.mp3",
+    "jclic.js/penguin_couple_1_by_merlin2525_resized.jpg",
+    "jclic.js/sal_dom.jclic",
+    "jclic.js/sin_titulo_resized1.jpg",
+    "jclic.js/tigre03_architetto_fran_01r.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sal_dom.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

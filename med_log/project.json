@@ -1,0 +1,117 @@
+{
+  "id": 2472,
+  "title": "Los medios de comunicación",
+  "author": "Virginia Aragón Jiménez - Dibuixos: Sergio Palao (ARASAAC.org)",
+  "school": "CEIP El Molino Isla Cristina (Huelva)",
+  "date": "12/01/17",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "fonètica, llengua castellana, vocabulari, Imatges SPC",
+    "es": "fonética, lengua castellana, vocabulario, Imágenes SPC",
+    "en": "phonetics, Spanish language, vocabulary, Images SPC"
+  },
+  "descCodes": [
+    121,
+    132,
+    150,
+    1476
+  ],
+  "description": {
+    "en": "The objective of this project is to know the most usual media and the human senses used with each, emphasizing on oral language and logic reasoning.",
+    "ca": "L'objectiu d'aquest projecte és conèixer els mitjans de comunicació més freqüents i els sentits que fem servir amb cada un d'ells, fent especial èmfasi en el llenguatge oral i el raonament lògic.",
+    "es": "El objetivo de este proyecto es conocer los medios de comunicación más frecuentes y los sentidos que utilizamos con cada uno de ellos, haciendo especial hincapié en el lenguaje oral y el razonamiento lógico."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/med_log.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/med_log.jclic.zip",
+  "instFile": "jclic/med_log.jclic.inst",
+  "clicZoneId": 3981,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3981",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/med_log/jclic/med_log.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 34,
+  "totalSize": 1588545,
+  "files": [
+    "cover.png",
+    "jclic.js/_bien_.png",
+    "jclic.js/aspiradora.png",
+    "jclic.js/boca.png",
+    "jclic.js/cama.png",
+    "jclic.js/carta.png",
+    "jclic.js/el.jpg",
+    "jclic.js/en.jpg",
+    "jclic.js/enchufe.png",
+    "jclic.js/escuchar.png",
+    "jclic.js/hablar_por_telefono.png",
+    "jclic.js/la.jpg",
+    "jclic.js/lampara_de_pie.png",
+    "jclic.js/las.jpg",
+    "jclic.js/leer_1.png",
+    "jclic.js/manos.png",
+    "jclic.js/med_log.jclic",
+    "jclic.js/med_log.jclic.js",
+    "jclic.js/medios_de_comunicacion.png",
+    "jclic.js/musica_1.png",
+    "jclic.js/nariz.png",
+    "jclic.js/no_1.png",
+    "jclic.js/noticia.png",
+    "jclic.js/noticias.png",
+    "jclic.js/ojo.png",
+    "jclic.js/ordenador_1.png",
+    "jclic.js/oreja.png",
+    "jclic.js/pelicula.png",
+    "jclic.js/periodico.png",
+    "jclic.js/por.jpg",
+    "jclic.js/radio_cd.png",
+    "jclic.js/revista.png",
+    "jclic.js/telefono_3.png",
+    "jclic.js/telefono_movil.png",
+    "jclic.js/television.png",
+    "jclic.js/ver_2.png",
+    "jclic.js/yo.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

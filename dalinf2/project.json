@@ -1,0 +1,123 @@
+{
+  "id": 1130,
+  "title": "Salvador Dalí. Educació Infantil",
+  "author": "Anna López",
+  "date": "07/06/04",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Art & design",
+    "ca": "Visual i plàstica",
+    "es": "Plástica y visual"
+  },
+  "areaCodes": [
+    "vip"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "patrimoni artístic",
+    "es": "patrimonio artístico",
+    "en": "artistic patrimony"
+  },
+  "descCodes": [
+    439
+  ],
+  "description": {
+    "en": "Clic activities about Salvador Dalí addressed to Infantile Education. I the package there are three parts.",
+    "ca": "Paquet d'activitats sobre Salvador Dalí adreçat a nens i nenes d'Educació infantil. Al paquet trobem tres apartats un per cada curs de l'etapa.",
+    "es": "Paquete de actividades sobre Salvador Dalí dirigido a niños y niñas de Educación Infantil. En el paquete encontramos tres apartados, uno para cada curso de la etapa."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/dalinf2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/dalinf2.jclic.zip",
+  "instFile": "jclic/dalinf2.jclic.inst",
+  "clicZoneId": 2501,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2501",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/dalinf2/jclic/dalinf2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 33,
+  "mediaFiles": 39,
+  "totalSize": 1369514,
+  "files": [
+    "cover.gif",
+    "jclic.js/5portada.jpg",
+    "jclic.js/dalinf2.jclic",
+    "jclic.js/dalip5/3memori.jpg",
+    "jclic.js/dalip5/5memori.jpg",
+    "jclic.js/dalip5/dali1.jpg",
+    "jclic.js/dalip5/dali_es.jpg",
+    "jclic.js/dalip5/dalip5.jclic",
+    "jclic.js/dalip5/elefant3.jpg",
+    "jclic.js/dalip5/finestra.jpg",
+    "jclic.js/dalip5/girafa3.jpg",
+    "jclic.js/dalip5/maiwestg.jpg",
+    "jclic.js/dalip5/ou2.jpg",
+    "jclic.js/dalip5/p_3.jpg",
+    "jclic.js/dalip5/p_4.jpg",
+    "jclic.js/dalip5/p_5.jpg",
+    "jclic.js/dalip5/persis_1.jpg",
+    "jclic.js/dalip5/rellotg3.jpg",
+    "jclic.js/dalip5/torreg_1.jpg",
+    "jclic.js/dalip_3/3memori.jpg",
+    "jclic.js/dalip_3/dali1.jpg",
+    "jclic.js/dalip_3/dalip_3.jclic",
+    "jclic.js/dalip_3/finestra.jpg",
+    "jclic.js/dalip_3/maiwestg.jpg",
+    "jclic.js/dalip_3/p_3.jpg",
+    "jclic.js/dalip_3/p_4.jpg",
+    "jclic.js/dalip_3/p_5.jpg",
+    "jclic.js/dalip_3/persis_1.jpg",
+    "jclic.js/dalip_3/torreg_1.jpg",
+    "jclic.js/dalip_4/3memori.jpg",
+    "jclic.js/dalip_4/4llegir.jpg",
+    "jclic.js/dalip_4/dali1.jpg",
+    "jclic.js/dalip_4/dali_es.jpg",
+    "jclic.js/dalip_4/dalip_4.jclic",
+    "jclic.js/dalip_4/finestra.jpg",
+    "jclic.js/dalip_4/maiwestg.jpg",
+    "jclic.js/dalip_4/p_3.jpg",
+    "jclic.js/dalip_4/p_4.jpg",
+    "jclic.js/dalip_4/p_5.jpg",
+    "jclic.js/dalip_4/persis_1.jpg",
+    "jclic.js/dalip_4/torreg_1.jpg",
+    "jclic.js/p_3.gif",
+    "jclic.js/p_4.gif",
+    "jclic.js/p_5.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/dalinf2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/dalip5/dalip5.jclic.js",
+    "jclic.js/dalip_3/dalip_3.jclic.js",
+    "jclic.js/dalip_4/dalip_4.jclic.js",
+    "cover.webp"
+  ]
+}

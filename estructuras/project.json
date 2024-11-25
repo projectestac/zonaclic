@@ -1,0 +1,97 @@
+{
+  "id": 2576,
+  "title": "Estructuras",
+  "author": "Liliana Jaimes Delgado (autora)",
+  "school": "ITIS Instituto técnico industrial (Socorro - Santander)",
+  "date": "29/06/17",
+  "langCodes": [
+    "es"
+  ],
+  "languages": {
+    "ca": "espanyol",
+    "es": "español",
+    "en": "Spanish"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "areas": {
+    "ca": "Tecnologies",
+    "es": "Tecnología",
+    "en": "Design & technology"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "description": {
+    "ca": "Conjunt d'activitats per treballar les classes d'estructures i el diferents tipus d'esforç presents en elles. Trobarem activitats tipus sopa de lletres, puzle, associació simple, associació complexa, memòria i identificació d'informació.",
+    "es": "Conjunto de actividades para trabajar las clases de estructuras y los diferentes tipos de esfuerzos presentes en ellas. Encontraremos actividades tipo sopa de letras, puzzle, asociación simple, asociación compleja, memoria e identificación de información.",
+    "en": "Pack of activities to work structures and the different efforts that they sustain. We will fins activities such as puzzles, simple association, complex association, memory and identification of information."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "cover": "portada.jpg",
+  "coverWebp": "portada.webp",
+  "thumbnail": "portada100.jpg",
+  "mainFile": "jclic.js/estructuras.jclic",
+  "activities": 12,
+  "mediaFiles": 34,
+  "totalSize": 678328,
+  "instFile": "jclic/estructuras.jclic.inst",
+  "zipFile": "jclic/estructuras.jclic.zip",
+  "files": [
+    "jclic.js/abovedada.jpg",
+    "jclic.js/abovedada1.jpg",
+    "jclic.js/cizalla_o_cortadura.jpg",
+    "jclic.js/colgante.jpg",
+    "jclic.js/compresion.jpg",
+    "jclic.js/compresion1.jpg",
+    "jclic.js/compresion2.jpg",
+    "jclic.js/edificio.jpg",
+    "jclic.js/efectosmultiples2.jpg",
+    "jclic.js/esfuerzode_traccion.jpg",
+    "jclic.js/estructura4.jpg",
+    "jclic.js/estructura7.jpg",
+    "jclic.js/estructuras.jclic",
+    "jclic.js/estructuras.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/flexion.jpg",
+    "jclic.js/flexion1.jpg",
+    "jclic.js/flexion2.jpg",
+    "jclic.js/flexion3.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/laminar_geodesica2.jpg",
+    "jclic.js/laminarocarcasa.jpg",
+    "jclic.js/lostalleres.jpg",
+    "jclic.js/masiva.jpg",
+    "jclic.js/masiva1.jpg",
+    "jclic.js/masiva2.jpg",
+    "jclic.js/puente2.jpg",
+    "jclic.js/puzzle_el_palacio_de_las_artes.jpg",
+    "jclic.js/tipoesfuerzos.jpg",
+    "jclic.js/torre.jpg",
+    "jclic.js/torsion.jpg",
+    "jclic.js/traccion.jpg",
+    "jclic.js/traccion1.jpg",
+    "portada.jpg",
+    "portada100.jpg",
+    "project.json",
+    "portada.webp"
+  ]
+}

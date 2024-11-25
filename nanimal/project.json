@@ -1,0 +1,94 @@
+{
+  "id": 2094,
+  "title": "Nutrició animal",
+  "author": "Pedro Miguel Gómez",
+  "school": "IES Guillem d'Alcalà La Pobla de Farnals (València) (Horta Nord)",
+  "date": "12/01/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "nutrició, animals",
+    "es": "nutrición, animales",
+    "en": "nutrition, animales"
+  },
+  "descCodes": [
+    91,
+    1160
+  ],
+  "description": {
+    "en": "Project of activities about animal nutrition. The project deals with several concepts throughout the activities: \n<ul> \n <li> Autotrophic nutrition </li>\n <li> Heterotrophic nutrition </li>\n <li> Digestive apparatus </li>\n <li> Circulatory apparatus </li>\n <li> Respiratory apparatus </li>\n <li> Excretion apparatus </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre la nutrició animal. Al llarg del projecte es treballen diferents conceptes: \n<ul> \n <li>Nutrició autòtrofa </li>\n <li>Nutrició heteròtrofa </li>\n <li>Aparell digestiu </li>\n <li>Aparell circulatori </li>\n <li>Aparell respiratori </li>\n <li>Aparell excretor </li>\n</ul>",
+    "es": "Proyecto de actividades sobre la nutrición animal. A lo largo del proyecto se trabajan diferentes conceptos: \n<ul> \n <li>Nutrición autótrofa </li>\n <li>Nutrición heterótrofa </li>\n <li>Aparato digestivo </li>\n <li>Aparato circulatorio </li>\n <li>Aparato respiratorio </li>\n <li>Aparato excretor </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/nanimal.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/nanimal.jclic.zip",
+  "instFile": "jclic/nanimal.jclic.inst",
+  "clicZoneId": 3654,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3654",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/nanimal/jclic/nanimal.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 14,
+  "totalSize": 1225027,
+  "files": [
+    "cover.jpg",
+    "jclic.js/bivalbo.jpg",
+    "jclic.js/branquias_externas_anfibio.jpg",
+    "jclic.js/branquias_pez.jpg",
+    "jclic.js/capil_lar.jpg",
+    "jclic.js/circulac_abierta_gamba.jpg",
+    "jclic.js/circulatorio.gif",
+    "jclic.js/digestivo_ave.png",
+    "jclic.js/digestivo_conejo_mudo_resized.jpg",
+    "jclic.js/digestivo_insecto.jpg",
+    "jclic.js/digestivo_rumiante.jpg",
+    "jclic.js/excretor_mamifero.gif",
+    "jclic.js/jirafa.jpg",
+    "jclic.js/nanimal.jclic",
+    "jclic.js/respiratorio.jpg",
+    "jclic.js/tiburon3.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/nanimal.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

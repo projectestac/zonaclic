@@ -1,0 +1,94 @@
+{
+  "id": 2224,
+  "title": "Com es mouen els cargols?",
+  "author": "Cintia Denis Lopez Ceballos",
+  "date": "16/03/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Miscellaneous",
+    "ca": "Ciències experimentals, Diversos",
+    "es": "Ciencias experimentales, Diversos"
+  },
+  "areaCodes": [
+    "exp",
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "cargol",
+    "es": "caracol",
+    "en": "screw"
+  },
+  "descCodes": [
+    1410
+  ],
+  "description": {
+    "en": "Project activities addressed to kindergarten about snails: \n<ul> \n <li>How do snails move? </li>\n <li>Where do snails move?  </li>\n</ul>",
+    "ca": "Projecte d'activitats per a educació infantil sobre els cargols: \n<ul> \n <li>Com es mouen? </li>\n <li>Per on es mouen? </li>\n</ul>",
+    "es": "Proyecto de actividades para educación infantil sobre los caracoles: \n<ul> \n <li>¿Cómo se mueven? </li>\n <li>¿Por dónde se mueven? </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cargols4.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cargols4.jclic.zip",
+  "instFile": "jclic/cargols4.jclic.inst",
+  "clicZoneId": 3749,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3749",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cargols4/jclic/cargols4.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 9,
+  "mediaFiles": 15,
+  "totalSize": 878856,
+  "files": [
+    "cover.jpg",
+    "jclic.js/09_marzo_2011_09_59_00_caracoles_detalle_media.jpg",
+    "jclic.js/100805_stock_photo_casa_pradera_cesped_caracol_antena_despacio.jpg",
+    "jclic.js/9942709_cerrar_vista_de_un_caracol_caminando_sobre_un_fondo_blanco.jpg",
+    "jclic.js/caracol_caminando_1366x768.jpg",
+    "jclic.js/caracol_sube_al_rbol_resized.jpg",
+    "jclic.js/caracol_t2954.jpg",
+    "jclic.js/cargols4.jclic",
+    "jclic.js/cavall.jpg",
+    "jclic.js/cesped.jpg",
+    "jclic.js/cremas_con_baba_caracol_no_milagro_foro.jpg",
+    "jclic.js/hr_caracol_2_resized.jpg",
+    "jclic.js/leon_corriendo_resized.jpg",
+    "jclic.js/ovella.jpg",
+    "jclic.js/pedra.jpg",
+    "jclic.js/perezoso_costa_rica_resized.jpg",
+    "jclic.js/tortuga.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cargols4.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

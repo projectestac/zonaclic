@@ -1,0 +1,105 @@
+{
+  "id": 998,
+  "title": "Pueblos primitivos de Chile",
+  "author": "Margarita Villarroel",
+  "school": "Colegio Germán Riesco La Serena (Xile)",
+  "date": "12/12/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales",
+    "en": "Social sciences"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)",
+    "en": "Primary school (6-12), Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "història, Xile",
+    "es": "historia, Chile",
+    "en": "history, Chile"
+  },
+  "descCodes": [
+    246,
+    608
+  ],
+  "description": {
+    "en": "Package of activities about some of the primitive peoples of Chile: \n<ul> \n <li>yamanes </li>\n <li>changos </li>\n <li>yaganes </li>\n <li>aymaras </li>\n <li>mapuches </li>\n <li>...  </li>\n</ul>",
+    "ca": "Paquet d'activitats sobre alguns dels pobles que vivien a Xile abans de l'arribada dels espanyols: \n<ul> \n <li>yamanes </li>\n <li>changos </li>\n <li>yaganes </li>\n <li>aymaras </li>\n <li>mapuches </li>\n <li>... </li>\n</ul>",
+    "es": "Paquete de actividades sobre algunos de los pueblos que vivían en Chile antes de la llegada de los españoles: \n<ul> \n <li>yamanes </li>\n <li>changos </li>\n <li>yaganes </li>\n <li>aymaras </li>\n <li>mapuches </li>\n <li>... </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/chile.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/chile.jclic.zip",
+  "instFile": "jclic/chile.jclic.inst",
+  "clicZoneId": 2080,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2080",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/chile/jclic/chile.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 24,
+  "totalSize": 457929,
+  "files": [
+    "cover.gif",
+    "jclic.js/aymar.gif",
+    "jclic.js/balsa.gif",
+    "jclic.js/caupo.gif",
+    "jclic.js/cer1.gif",
+    "jclic.js/cer3.gif",
+    "jclic.js/cer4.gif",
+    "jclic.js/cer5.gif",
+    "jclic.js/cer6.gif",
+    "jclic.js/cer7.gif",
+    "jclic.js/cerac3.gif",
+    "jclic.js/chango.gif",
+    "jclic.js/chile.jclic",
+    "jclic.js/chuef.gif",
+    "jclic.js/jarro1.gif",
+    "jclic.js/joyasg.gif",
+    "jclic.js/kult.gif",
+    "jclic.js/lauta.gif",
+    "jclic.js/machi.gif",
+    "jclic.js/machis2.gif",
+    "jclic.js/mapa.gif",
+    "jclic.js/mapuch.gif",
+    "jclic.js/margar.gif",
+    "jclic.js/ruca.gif",
+    "jclic.js/yagan.gif",
+    "jclic.js/yagan2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/chile.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

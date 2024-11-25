@@ -1,0 +1,85 @@
+{
+  "id": 430,
+  "title": "Comparatives and Superlatives",
+  "author": "Christine Irvin",
+  "school": "Colegio Orvalle Las Rozas (Madrid)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua aranesa, vocabulari",
+    "es": "lengua aranesa, vocabulario",
+    "en": "Aranese language, vocabulary"
+  },
+  "descCodes": [
+    131,
+    673
+  ],
+  "description": {
+    "en": "Clic activities about comparatives and superlatives in English. The application has three activities with ten different adjectives.",
+    "ca": "Paquet d'activitats per treballar els comparatius i els superlatius d'alguns adjectius en anglès. L'aplicació consta de tres activitats amb 10 adjectius diferents.",
+    "es": "Paquete de actividades para trabajar los comparativos y los superlativos de algunos adjetivos en inglés. La aplicación consta de tres actividades con 10 adjetivos diferentes."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/dictatio.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/dictatio.jclic.zip",
+  "instFile": "jclic/dictatio.jclic.inst",
+  "clicZoneId": 1255,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1255",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/dictatio/jclic/dictatio.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 3,
+  "mediaFiles": 5,
+  "totalSize": 3054347,
+  "files": [
+    "cover.gif",
+    "jclic.js/above.wav",
+    "jclic.js/dictatio.jclic",
+    "jclic.js/notbad.wav",
+    "jclic.js/now.wav",
+    "jclic.js/ok.mid",
+    "jclic.js/uno.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/dictatio.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

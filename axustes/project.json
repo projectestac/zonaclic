@@ -1,0 +1,80 @@
+{
+  "id": 2038,
+  "title": "Axuste de ecuacións por tanteo",
+  "author": "Fernando Maíllo Calama",
+  "school": "Colexio Don Bosco Vigo (Galiza)",
+  "date": "17/03/10",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "química, equacions",
+    "es": "química, ecuaciones",
+    "en": "chemistry, equations"
+  },
+  "descCodes": [
+    97,
+    1345
+  ],
+  "description": {
+    "en": "Project activities aimed to practice solving simple chemical equations. It's about putting the stoichiometric coefficients for each of the terms of the chemical equations presented. We must remember that to set a chemical equation must have the same number of atoms in the reagents and products.",
+    "ca": "Projecte d'activitats que té com objectiu practicar la resolució d'equacions químiques senzilles. Es tracta de posar els coeficients estequiomètrics per cadascun dels termes de les equacions químiques presentades. Hem de recordar que perquè es fixi una equació química ha de tenir el mateix nombre d'àtoms als reactius i als productes.",
+    "es": "Proyecto de actividades que tiene como objetivo practicar la resolución de ecuaciones químicas sencillas. Se trata de poner los coeficientes estequiométricos para cada uno de los términos de las ecuaciones químicas presentadas. Debemos recordar que para que se fije una ecuación química debe tener el mismo número de átomos en los reactivos y en los productos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/axustes.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/axustes.jclic.zip",
+  "instFile": "jclic/axustes.jclic.inst",
+  "clicZoneId": 3608,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3608",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/axustes/jclic/axustes.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 0,
+  "totalSize": 90718,
+  "files": [
+    "cover.gif",
+    "jclic.js/axustes.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/axustes.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

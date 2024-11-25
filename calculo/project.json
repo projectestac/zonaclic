@@ -1,0 +1,82 @@
+{
+  "id": 1408,
+  "title": "Cálculo para 3º de primaria",
+  "author": "Francisco García-Pozuelo Díaz i Juana Rello Serrano",
+  "school": "CP Luis Vives Alcalá de Henares (Madrid)",
+  "date": "14/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "Clic activities addressed to primary school about calculus. The package has 3 parts.",
+    "ca": "Paquet d'activitats adreçat alumnes de 3r de primària per al reforç i aprenentatge del càlcul. Trobem 3 parts: \n<ul> \n <li>Vamos a calcular </li>\n <li>Multiplicar y dividir del 9 al 5 </li>\n <li>Más cálculo </li>\n</ul>",
+    "es": "Paquete de actividades dirigido a alumnos de 3º de primaria para el refuerzo y aprendizaje del cálculo. Encontramos 3 partes: \n<ul> \n <li>Vamos a calcular </li>\n <li>Multiplicar y dividir del 9 al 5 </li>\n <li>Más cálculo </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/calculo.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/calculo.jclic.zip",
+  "instFile": "jclic/calculo.jclic.inst",
+  "clicZoneId": 3144,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3144",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/calculo/jclic/calculo.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 72,
+  "mediaFiles": 5,
+  "totalSize": 415228,
+  "files": [
+    "cover.gif",
+    "jclic.js/calculo.jclic",
+    "jclic.js/calculo1/calculo1.jclic",
+    "jclic.js/calculo1/tren_07.gif",
+    "jclic.js/calculo2/calculo2.jclic",
+    "jclic.js/calculo3/calculo3.jclic",
+    "jclic.js/calculo3/tren_04.gif",
+    "jclic.js/tren_02.gif",
+    "jclic.js/tren_03.gif",
+    "jclic.js/tren_05.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/calculo.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/calculo1/calculo1.jclic.js",
+    "jclic.js/calculo2/calculo2.jclic.js",
+    "jclic.js/calculo3/calculo3.jclic.js",
+    "cover.webp"
+  ]
+}

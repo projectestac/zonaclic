@@ -1,0 +1,81 @@
+{
+  "id": 2488,
+  "title": "Antecessores e sucessores",
+  "author": "Fabiana Zimmermann i Márcia Silva Madeira",
+  "school": "Colégio Salesiano Itajaí Santa Catarina (Brasil)",
+  "date": "28/02/17",
+  "languages": {
+    "en": "Portuguese",
+    "ca": "portuguès",
+    "es": "portugués"
+  },
+  "langCodes": [
+    "pt"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "didàctica de la matemàtica, nombres enters",
+    "es": "didáctica de la matemática, números enteros",
+    "en": "Didactics of the mathematics, integers"
+  },
+  "descCodes": [
+    704,
+    1321
+  ],
+  "description": {
+    "en": "Activities for primary school about antecessor and successor numbers, in Brazilian Portuguese.",
+    "ca": "Activitats per cicle inicial sobre nombres predecessors i successors, en llengua portuguesa del Brasil.",
+    "es": "Actividades para ciclo inicial sobre números antecesores y sucesores, en lengua portuguesa de Brasil."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/numeros5.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/numeros5.jclic.zip",
+  "instFile": "jclic/numeros5.jclic.inst",
+  "clicZoneId": 3997,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3997",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/numeros5/jclic/numeros5.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 1,
+  "totalSize": 166582,
+  "files": [
+    "cover.png",
+    "jclic.js/numeros5.jclic",
+    "jclic.js/numeros5.jclic.js",
+    "jclic.js/tapete.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

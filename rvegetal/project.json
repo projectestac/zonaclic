@@ -1,0 +1,94 @@
+{
+  "id": 2095,
+  "title": "La reproducció vegetal",
+  "author": "Pedro Miguel Gómez",
+  "school": "IES Guillem d'Alcalà La Pobla de Farnals (València) (Horta Nord)",
+  "date": "14/01/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "botànica, reproducció",
+    "es": "botánica, reproducción",
+    "en": "botany, reproduction"
+  },
+  "descCodes": [
+    59,
+    811
+  ],
+  "description": {
+    "en": "Set of JClic activities about plants' reproduction: \n<ul> \n <li>Types of reproduction: \n  <ul> \n   <li>sexual reproduction </li>\n   <li>asexual reproduction </li>\n  </ul> </li>\n <li>Parts of a flower  </li>\n</ul>",
+    "ca": "Conjunt d'activitats JClic sobre la reproducció de les plantes: \n<ul> \n <li>Tipus de reproducció: \n  <ul> \n   <li>reproducció sexual </li>\n   <li>reproducció asexual </li>\n  </ul> </li>\n <li>Parts de la flor </li>\n</ul>",
+    "es": "Conjunto de actividades JClic sobre la reproducción de las plantas: \n<ul> \n <li>Tipos de reproducción: \n  <ul> \n   <li>reproducción sexual </li>\n   <li>reproducción asexual </li>\n  </ul> </li>\n <li>Partes de la flor </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/rvegetal.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/rvegetal.jclic.zip",
+  "instFile": "jclic/rvegetal.jclic.inst",
+  "clicZoneId": 3655,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3655",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/rvegetal/jclic/rvegetal.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 14,
+  "totalSize": 1816909,
+  "files": [
+    "cover.jpg",
+    "jclic.js/cactus_movil.jpg",
+    "jclic.js/cebolla.jpg",
+    "jclic.js/esqueje.jpg",
+    "jclic.js/estolon.jpg",
+    "jclic.js/flor.jpg",
+    "jclic.js/geraniblanc.jpg",
+    "jclic.js/geraniroig.jpg",
+    "jclic.js/orquidea_con_pulgon.jpg",
+    "jclic.js/partesflormuda.jpg",
+    "jclic.js/patata.jpg",
+    "jclic.js/pb221905.jpg",
+    "jclic.js/pb221921.jpg",
+    "jclic.js/pb221932.jpg",
+    "jclic.js/rizoma.jpg",
+    "jclic.js/rvegetal.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/rvegetal.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

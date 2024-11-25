@@ -1,0 +1,134 @@
+{
+  "id": 1384,
+  "title": "La vegetació del Montsià",
+  "author": "Josep Manuel Badia Castell",
+  "school": "Escola Xerta - ZER Riu i Serra Xerta (Baix Ebre)",
+  "date": "27/06/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "arbres, botànica, Montsià",
+    "es": "árboles, botánica, Montsià",
+    "en": "trees, botany, Montsià"
+  },
+  "descCodes": [
+    55,
+    59,
+    535
+  ],
+  "description": {
+    "en": "Set of activities about Montsià mountains' vegetation. A total of 26 activities distributed in 4 sections: \n<ul> \n <li>Situation (county and mountain range) </li>\n <li>Description (introduction to the vegetation and features of the mountain range) </li>\n <li>Trees </li>\n <li>Plants (an approach to the most characteristic species of the area) </li>\n</ul>",
+    "ca": "Recull d'activitats per apropar als alumnes a la vegetació de la serra del Montsià. Un total de 26 activitats distribuïdes en quatre blocs: \n<ul> \n <li>situació (comarca i serralada) </li>\n <li>descripció (introducció a la vegetació i característiques de la serra) </li>\n <li>arbres </li>\n <li>plantes (aproximació a algunes de les espècies més característiques de la zona) </li>\n</ul>",
+    "es": "Conjunto de actividades para acercar a los alumnos la vegetación de la sierra del Montsià, situada en la provincia de Tarragona. Un total de 26 actividades distribuidas en cuatro bloques: \n<ul> \n <li>situación (comarca y sierra) </li>\n <li>descripción (introducción a la vegetación y características de la sierra) </li>\n <li>árboles </li>\n <li>plantas (aproximación a algunas de las especies más características de la zona) </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/montsia.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/montsia.jclic.zip",
+  "instFile": "jclic/montsia.jclic.inst",
+  "clicZoneId": 3122,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3122",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/montsia/jclic/montsia.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 53,
+  "totalSize": 1343111,
+  "files": [
+    "cover.jpg",
+    "jclic.js/alzina.mp3",
+    "jclic.js/ametller.mp3",
+    "jclic.js/ametller2.jpg",
+    "jclic.js/aranyoner.jpg",
+    "jclic.js/arbo___.mp3",
+    "jclic.js/arbo_o2.jpg",
+    "jclic.js/arbre.gif",
+    "jclic.js/arbre2.jpg",
+    "jclic.js/aritjol1.jpg",
+    "jclic.js/boix.jpg",
+    "jclic.js/boix.mp3",
+    "jclic.js/bosc_montsia.mp3",
+    "jclic.js/bruc_d_hivern1.jpg",
+    "jclic.js/carrasca2.jpg",
+    "jclic.js/castanyer.mp3",
+    "jclic.js/castanyer2.jpg",
+    "jclic.js/cirerer.mp3",
+    "jclic.js/cirerer2.jpg",
+    "jclic.js/coscolla.jpg",
+    "jclic.js/esborcer1.jpg",
+    "jclic.js/estepa_negra.jpg",
+    "jclic.js/falaguera.jpg",
+    "jclic.js/figuera.mp3",
+    "jclic.js/figuera2.jpg",
+    "jclic.js/flor2.jpg",
+    "jclic.js/font_7_piques2.jpg",
+    "jclic.js/ginebre.mp3",
+    "jclic.js/ginebre2.jpg",
+    "jclic.js/grevol2.jpg",
+    "jclic.js/grevopl.mp3",
+    "jclic.js/heura1.jpg",
+    "jclic.js/inici.jpg",
+    "jclic.js/larapitadelta1.jpg",
+    "jclic.js/llentiscle1.jpg",
+    "jclic.js/lligabosc.jpg",
+    "jclic.js/map_mont1.jpg",
+    "jclic.js/map_mont2.jpg",
+    "jclic.js/mapa_pein5n2.gif",
+    "jclic.js/marfull.jpg",
+    "jclic.js/marfull1.jpg",
+    "jclic.js/montsia.jclic",
+    "jclic.js/montsia_nevat.jpg",
+    "jclic.js/pi_negre.jpg",
+    "jclic.js/pi_pinyer.jpg",
+    "jclic.js/pi_roig.jpg",
+    "jclic.js/piblanc.jpg",
+    "jclic.js/pinassa.jpg",
+    "jclic.js/pinastre.jpg",
+    "jclic.js/planol_montsia.gif",
+    "jclic.js/projecte.mp3",
+    "jclic.js/romani1.jpg",
+    "jclic.js/sempreviva.jpg",
+    "jclic.js/timo.jpg",
+    "jclic.js/tree1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/montsia.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

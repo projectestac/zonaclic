@@ -1,0 +1,111 @@
+{
+  "id": 1738,
+  "title": "Las grandes religiones",
+  "author": "Josefina Grau López",
+  "school": "IES Las Lomas Alacant (L'Alacantí)",
+  "date": "14/02/08",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences, Miscellaneous",
+    "ca": "Ciències socials, Diversos",
+    "es": "Ciencias sociales, Diversos"
+  },
+  "areaCodes": [
+    "soc",
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "religió",
+    "es": "religión",
+    "en": "religion"
+  },
+  "descCodes": [
+    1358
+  ],
+  "description": {
+    "en": "Project of activities addressed to secondary education about the most popular religions in the world: \n<ul> \n <li>Christianism </li>\n <li>Islam </li>\n <li>Hinduism </li>\n <li>Buddhism </li>\n <li>Judaism </li>\n <li>... </li>\n</ul>",
+    "ca": "Projecte d'activitats per a l'àrea de religió sobre les religions més significatives que existeixen arreu del món: \n<ul> \n <li>Cristianisme </li>\n <li>Islamisme </li>\n <li>Hinduisme </li>\n <li>Budisme </li>\n <li>Judaisme </li>\n <li>... </li>\n</ul>",
+    "es": "Proyecto de actividades para educación secundaria sobre las religiones más significativas que existen en el mundo: \n<ul> \n <li>Cristianismo </li>\n <li>Islamismo </li>\n <li>Hinduismo </li>\n <li>Budismo </li>\n <li>Judaismo </li>\n <li>... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/granreli.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/granreli.jclic.zip",
+  "instFile": "jclic/granreli.jclic.inst",
+  "clicZoneId": 3440,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3440",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/granreli/jclic/granreli.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 31,
+  "totalSize": 1581078,
+  "files": [
+    "cover.jpg",
+    "jclic.js/anilloscorazones.gif",
+    "jclic.js/bautizo.gif",
+    "jclic.js/belen_01.gif",
+    "jclic.js/biblia1.bmp",
+    "jclic.js/budamedit.jpg",
+    "jclic.js/campanario.gif",
+    "jclic.js/cenapascuanina.jpg",
+    "jclic.js/creacionmiguela.jpg",
+    "jclic.js/crismon.jpg",
+    "jclic.js/cruzresurreccion.gif",
+    "jclic.js/eglises_05.gif",
+    "jclic.js/estrella.jpg",
+    "jclic.js/finalclicreligiones.jpg",
+    "jclic.js/granreli.jclic",
+    "jclic.js/horusdividnidad_egipcia.jpg",
+    "jclic.js/inicioreligiones_dioscreadormiguelangel.jpg",
+    "jclic.js/jovenesteze.jpg",
+    "jclic.js/jovenorando.jpg",
+    "jclic.js/la_tora.jpg",
+    "jclic.js/llunaislam.jpg",
+    "jclic.js/mezquita.gif",
+    "jclic.js/panvino.jpg",
+    "jclic.js/pentecostes1.jpg",
+    "jclic.js/pezcruz.gif",
+    "jclic.js/ra1.gif",
+    "jclic.js/ramadan.jpg",
+    "jclic.js/religiones.gif",
+    "jclic.js/sacrificio3.jpg",
+    "jclic.js/sacrificios1.jpg",
+    "jclic.js/shiva.gif",
+    "jclic.js/sinagogacordoba.jpg",
+    "jclic.js/tierra_gr.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/granreli.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

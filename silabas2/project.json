@@ -1,0 +1,85 @@
+{
+  "id": 381,
+  "title": "Las sílabas",
+  "author": "Juan José Mateo Molina",
+  "school": "CP El Olivar Rivas - Vaciamadrid (Madrid)",
+  "date": "19/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua castellana",
+    "es": "gramática, lengua castellana",
+    "en": "grammar, Spanish language"
+  },
+  "descCodes": [
+    123,
+    132
+  ],
+  "description": {
+    "en": "Spanish language activities.\n<br> The topics treated are:\n<br> \n<li>Syllables and diphthongise </li>\n<li>Tonic and atonic syllables </li>\n<li>Syllabic accentuation<p> You'll find more information in the pages <b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">\"Aplicaciones educativas\"</a></b>. </p></li>",
+    "ca": "Aquesta aplicació s'ha dissenyat a partir del llibre de text de llengua castellana de 3er de primària de l'editorial Santillana.\n<p> L'aplicació consta de tres breus unitats:<br> </p>\n<li>Síl·labes i diftongs </li>\n<li>Síl·labes tòniques i àtones </li>\n<li>Paraules agudes, planes i esdrúixoles<p> Trobareu més informació a la web d'<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo. </p></li>",
+    "es": "Esta pequeña aplicación se diseñó a partir del libro de texto de Lengua Castellana de 3º de E. Primaria, de la editorial Santillana.\n<p> La aplicación consta de tres breves unidades:<br> </p>\n<li>Sílabas y diptongos. </li>\n<li>Sílabas tónicas y átonas. </li>\n<li>Palabras agudas, llanas y esdrújulas.<p> Encontraréis más información en la web de <b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo. </p></li>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/silabas2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/silabas2.jclic.zip",
+  "instFile": "jclic/silabas2.jclic.inst",
+  "clicZoneId": 1215,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1215",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/silabas2/jclic/silabas2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 5,
+  "totalSize": 419391,
+  "files": [
+    "cover.gif",
+    "jclic.js/autor.gif",
+    "jclic.js/indice.gif",
+    "jclic.js/jealousg.mid",
+    "jclic.js/puzzle.wav",
+    "jclic.js/silabas2.jclic",
+    "jclic.js/titulo.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/silabas2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": 2295,
+  "title": "La R y la RR",
+  "author": "Maria Melcior i de Argila",
+  "date": "17/05/13",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, fonètica, lectura, llengua castellana",
+    "es": "aprendizaje de la lengua, fonética, lectura, lengua castellana",
+    "en": "learning of the language, phonetics, reading, Spanish language"
+  },
+  "descCodes": [
+    110,
+    121,
+    125,
+    132
+  ],
+  "description": {
+    "en": "Project of activities about the R and RR and its rules in Spanish language.",
+    "ca": "Projecte d'activitats per treballar l'ús de la R i la doble RR a partir de la norma i de jocs. També serveix per a aprendre a distingir quan una R és forta o suau i com s'escriu en llengua castellana cada cas.",
+    "es": "Proyecto de actividades para trabajar el uso de la R y la doble RR a partir de la norma y de juegos. También sirve para aprender a distinguir cuando una R es fuerte o suave y como se escribe en lengua castellana cada caso."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/r_rr.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/r_rr.jclic.zip",
+  "instFile": "jclic/r_rr.jclic.inst",
+  "clicZoneId": 3809,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3809",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/r_rr/jclic/r_rr.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 48,
+  "totalSize": 829055,
+  "files": [
+    "cover.png",
+    "jclic.js/0rio.gif",
+    "jclic.js/amor.gif",
+    "jclic.js/arpa.gif",
+    "jclic.js/arroz.jpg",
+    "jclic.js/barco.jpg",
+    "jclic.js/barriga.gif",
+    "jclic.js/cantar.gif",
+    "jclic.js/cara.gif",
+    "jclic.js/carretera.gif",
+    "jclic.js/carro.gif",
+    "jclic.js/corona.gif",
+    "jclic.js/cucaracha.gif",
+    "jclic.js/dragon.gif",
+    "jclic.js/enrabiar.gif",
+    "jclic.js/faro.gif",
+    "jclic.js/fresa.gif",
+    "jclic.js/gorrion.gif",
+    "jclic.js/gorro.gif",
+    "jclic.js/guitarra.gif",
+    "jclic.js/jarra.gif",
+    "jclic.js/jarron.gif",
+    "jclic.js/lagarto_16.gif",
+    "jclic.js/letra_r_animada.gif",
+    "jclic.js/loro.gif",
+    "jclic.js/macarrones.jpg",
+    "jclic.js/mar.gif",
+    "jclic.js/mariposa.gif",
+    "jclic.js/mermelada.gif",
+    "jclic.js/oreja.gif",
+    "jclic.js/papelera.gif",
+    "jclic.js/paraguas.gif",
+    "jclic.js/parrot1_resized.jpg",
+    "jclic.js/perro.gif",
+    "jclic.js/pirata.gif",
+    "jclic.js/r_rr.jclic",
+    "jclic.js/rana.gif",
+    "jclic.js/raton.gif",
+    "jclic.js/reloj.gif",
+    "jclic.js/reno.gif",
+    "jclic.js/rio.gif",
+    "jclic.js/screen_shot_2013_02_03_at_20.28.29_resized.jpg",
+    "jclic.js/sierra.gif",
+    "jclic.js/sirena.gif",
+    "jclic.js/terremoto.jpg",
+    "jclic.js/tigre.gif",
+    "jclic.js/tirita.jpg",
+    "jclic.js/torre.gif",
+    "jclic.js/tronco.gif",
+    "jclic.js/verano.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/r_rr.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

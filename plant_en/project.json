@@ -1,0 +1,125 @@
+{
+  "id": 2521,
+  "title": "Parts of the plant",
+  "author": "Jose A. Muñoz Romero",
+  "school": "Escola Carles III Sant Carles de la Ràpita (Montsià)",
+  "date": "21/04/17",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "plantes, llengua anglesa",
+    "es": "plantas, lengua inglesa",
+    "en": "plants, English language"
+  },
+  "descCodes": [
+    96,
+    130
+  ],
+  "description": {
+    "en": "These activity works English vocabulary about the parts of the plant. You will find activities to connect, to arrange and audios to practise hearing.",
+    "ca": "En aquesta activitat es treballa el vocabulari en anglès relacionat amb les part de la planta. Hi trobarem activitats de relacionar, d'ordenar i àudios, per exercitar la oïda.",
+    "es": "En esta actividad se trabaja el vocabulario en inglés relacionado con las partes de la planta. Encontraremos actividades para relacionar, ordenar y audio, para ejercitar el oído."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/plant_en.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/plant_en.jclic.zip",
+  "instFile": "jclic/plant_en.jclic.inst",
+  "clicZoneId": 4031,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=4031",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/plant_en/jclic/plant_en.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 45,
+  "totalSize": 1785687,
+  "files": [
+    "cover.jpg",
+    "jclic.js/ani7g.gif",
+    "jclic.js/clappinghands_cut_.mp3",
+    "jclic.js/cole2_resized.jpg",
+    "jclic.js/flower.jpg",
+    "jclic.js/flower.mp3",
+    "jclic.js/flowers_help.mp3",
+    "jclic.js/flowers_help1.mp3",
+    "jclic.js/flowers_insects.mp3",
+    "jclic.js/flowers_insects1.mp3",
+    "jclic.js/fruit.jpg",
+    "jclic.js/fruit.mp3",
+    "jclic.js/fruit_protects.mp3",
+    "jclic.js/fruit_protects1.mp3",
+    "jclic.js/leaf.jpg",
+    "jclic.js/leaves.mp3",
+    "jclic.js/leaves_food.mp3",
+    "jclic.js/leaves_food1.mp3",
+    "jclic.js/leaves_respiration.mp3",
+    "jclic.js/leaves_respiration1.mp3",
+    "jclic.js/oh.mp3",
+    "jclic.js/pepper_root_knot.jpg",
+    "jclic.js/plant_en.jclic",
+    "jclic.js/plant_en.jclic.js",
+    "jclic.js/roots.mp3",
+    "jclic.js/roots_absorb.mp3",
+    "jclic.js/roots_absorb1.mp3",
+    "jclic.js/roots_anchor.mp3",
+    "jclic.js/roots_anchor1.mp3",
+    "jclic.js/roots_store.mp3",
+    "jclic.js/roots_store1.mp3",
+    "jclic.js/roots_transport.mp3",
+    "jclic.js/roots_transport1.mp3",
+    "jclic.js/seeds.jpg",
+    "jclic.js/seeds.mp3",
+    "jclic.js/seeds_grow.mp3",
+    "jclic.js/seeds_grow1.mp3",
+    "jclic.js/stem.mp3",
+    "jclic.js/stem_maintains.mp3",
+    "jclic.js/stem_maintains1.mp3",
+    "jclic.js/stem_stores.mp3",
+    "jclic.js/stem_stores1.mp3",
+    "jclic.js/stem_support.mp3",
+    "jclic.js/stem_support1.mp3",
+    "jclic.js/stem_transports.mp3",
+    "jclic.js/stem_transports1.mp3",
+    "jclic.js/tija.gif",
+    "jclic.js/tija1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

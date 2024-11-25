@@ -1,0 +1,89 @@
+{
+  "id": 1143,
+  "title": "L'Estany de Banyoles",
+  "author": "Enric Peiris Poch",
+  "school": "Escola Mn. Baldiri Rexach Banyoles (Pla de l'Estany)",
+  "date": "10/06/04",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "Pla de l'Estany",
+    "es": "Pla de l'Estany",
+    "en": "Pla de l'Estany"
+  },
+  "descCodes": [
+    553
+  ],
+  "description": {
+    "en": "This third package complements the two previous : \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=1471\">La comarca del Pla de l'Estany</a> i a \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=3291\">Banyoles ciutat</a>. The last one specifically treats the Banyoles lake and its watering.",
+    "ca": "Aquest tercer paquet complementa els altres dos existents: \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=1471\">La comarca del Pla de l'Estany</a> i a \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=3291\">Banyoles ciutat</a>. En aquest es treballa més concretament l'estany de Banyoles i els seus recs.",
+    "es": "Este tercer paquete complementa los otros dos existentes: \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=1471\">La comarca del Pla de l'Estany</a> i a \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=3291\">Banyoles ciutat</a>. En este último se trabaja más concretamente el lago de Banyoles y sus riegos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/estanyba.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/estanyba.jclic.zip",
+  "instFile": "jclic/estanyba.jclic.inst",
+  "clicZoneId": 2561,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2561",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/estanyba/jclic/estanyba.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 26,
+  "mediaFiles": 9,
+  "totalSize": 763737,
+  "files": [
+    "cover.gif",
+    "jclic.js/4.gif",
+    "jclic.js/5.gif",
+    "jclic.js/7.jpg",
+    "jclic.js/b22.jpg",
+    "jclic.js/cnb.jpg",
+    "jclic.js/estanyba.jclic",
+    "jclic.js/map5.jpg",
+    "jclic.js/pesfut.jpg",
+    "jclic.js/rec.jpg",
+    "jclic.js/rec1.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/estanyba.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": 1195,
+  "title": "Animales vertebrados",
+  "author": "Manuel Gil Berlinches",
+  "school": "CEIP Virgen de la Paz Alovera (Galiza)",
+  "date": "29/11/04",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "vertebrats",
+    "es": "vertebrados",
+    "en": "vertebrates"
+  },
+  "descCodes": [
+    107
+  ],
+  "description": {
+    "en": "Clic activities about vertebrate animals based on the book of the publishing house SM:\n<br> \n<ul> \n <li>classification </li>\n <li>types </li>\n <li>vertebrate animals </li>\n <li>type of fertilization </li>\n <li>characteristics </li>\n <li>... </li>\n</ul>",
+    "ca": "Paquet de 30 activitats sobre animals vertebrats basat en el llibre de l'Editorial SM: \n<br> \n<ul> \n <li>classificació </li>\n <li>característiques </li>\n <li>tipus </li>\n <li>animales vertebrados </li>\n <li>tipus de fecundació </li>\n <li>... </li>\n</ul>",
+    "es": "Paquete de 30 actividades sobre animales vertebrados, basado en el libro de la Editorial SM: \n<br> \n<ul> \n <li>clasificación </li>\n <li>características </li>\n <li>tipo de vertebrados </li>\n <li>animales vertebrados </li>\n <li>tipo de fecundación </li>\n <li>... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/vert.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/vert.jclic.zip",
+  "instFile": "jclic/vert.jclic.inst",
+  "clicZoneId": 2840,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2840",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/vert/jclic/vert.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 33,
+  "mediaFiles": 47,
+  "totalSize": 2767847,
+  "files": [
+    "cover.gif",
+    "jclic.js/0.wav",
+    "jclic.js/1.wav",
+    "jclic.js/2.wav",
+    "jclic.js/3.wav",
+    "jclic.js/4.wav",
+    "jclic.js/5.wav",
+    "jclic.js/6.wav",
+    "jclic.js/7.wav",
+    "jclic.js/8.wav",
+    "jclic.js/9.wav",
+    "jclic.js/amaril_1.gif",
+    "jclic.js/amarilo.gif",
+    "jclic.js/anima1.gif",
+    "jclic.js/anima2.gif",
+    "jclic.js/azul3.gif",
+    "jclic.js/azul5.gif",
+    "jclic.js/azulag_1.gif",
+    "jclic.js/azulco_1.gif",
+    "jclic.js/caminos.gif",
+    "jclic.js/caratu1.gif",
+    "jclic.js/ciclista.gif",
+    "jclic.js/claro2.gif",
+    "jclic.js/claro6.gif",
+    "jclic.js/colegio.gif",
+    "jclic.js/cruzme_1.gif",
+    "jclic.js/dibujooi.gif",
+    "jclic.js/es6108_1.gif",
+    "jclic.js/espira_1.gif",
+    "jclic.js/estamp_1.gif",
+    "jclic.js/gl_bul_1.gif",
+    "jclic.js/hojas2.gif",
+    "jclic.js/hundidos.gif",
+    "jclic.js/l_neas_2.gif",
+    "jclic.js/limones.gif",
+    "jclic.js/mancha_2.gif",
+    "jclic.js/metamorf.gif",
+    "jclic.js/morado_1.gif",
+    "jclic.js/naranja7.gif",
+    "jclic.js/narano_1.gif",
+    "jclic.js/nubes.gif",
+    "jclic.js/ondasa_1.gif",
+    "jclic.js/pastel.gif",
+    "jclic.js/reina.wav",
+    "jclic.js/verde2.gif",
+    "jclic.js/verdeg_2.gif",
+    "jclic.js/verdel_1.gif",
+    "jclic.js/verden_1.gif",
+    "jclic.js/vert.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/vert.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": 2506,
+  "title": "Proves de càlcul mental",
+  "author": "Jordi Santallúsia Plensa",
+  "school": "Escola Àngela Bransuela Mataró (Maresme)",
+  "date": "28/03/17",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "càlcul, càlcul mental",
+    "es": "cálculo, cálculo mental",
+    "en": "calculation, mental calculation"
+  },
+  "descCodes": [
+    702,
+    1480
+  ],
+  "description": {
+    "en": "Is a pack of activities that pretends to work speed in mental calculation of addition, subtraction, multiplication and division algorithms. Each activity has 60 operations and a maximum time to complete of 2 and a half minutes. These operations have been extracted and digitalized from \"El Quinzet\".",
+    "ca": "És un paquet d'activitats destinat a treballar la rapidesa en el càlcul mental dels algoritmes de la suma, la resta, la multiplicació i la divisió. Cada activitat consta de 60 operacions que s'han de realitzar en un màxim de 2 minuts i mig. Les operacions s'han extret i digitalitzat d'\"El Quinzet\".",
+    "es": "Es un paquete de actividades destinado a trabajar la rapidez en el cálculo mental de los algoritmos de la suma, la resta, la multiplicación y la división. Cada actividad consta de 60 operaciones que se tienen que realizar en un máximo de 2 minutos y medio. Las operaciones se han extraído y digitalizado de \"El Quinzet\"."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/calc_men.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/calc_men.jclic.zip",
+  "instFile": "jclic/calc_men.jclic.inst",
+  "clicZoneId": 4015,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=4015",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/calc_men/jclic/calc_men.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 2,
+  "totalSize": 236314,
+  "files": [
+    "cover.jpg",
+    "jclic.js/calc_men.jclic",
+    "jclic.js/calc_men.jclic.js",
+    "jclic.js/index_resized.jpg",
+    "jclic.js/portada_cmental_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

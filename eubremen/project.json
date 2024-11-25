@@ -1,0 +1,129 @@
+{
+  "id": 255,
+  "title": "Bremengo musikariak",
+  "author": "Miren Garralda",
+  "school": "Escola Mas Casanovas Barcelona",
+  "date": "12/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, llengua catalana, llengua basca",
+    "es": "lengua castellana, lengua catalana, lengua vasca",
+    "en": "Spanish language, Catalan language, Basque language"
+  },
+  "descCodes": [
+    132,
+    133,
+    922
+  ],
+  "description": {
+    "en": "Activity pack about the \"Musicians of Bremen\". The story, onomatopoeia, vocabulary, reading comprehension and name-article concordance.",
+    "ca": "Diverses activitats relacionades amb el conte \"Els músics de Bremen\": narració del conte, onomatopeies, vocabulari, comprensió lectora i concordança article-nom. Inclou una guia d'ús en format Acrobat (PDF). \n<p> Convé configurar la pantalla a 256 colors. </p>",
+    "es": "Diversas actividades relacionadas con el cuento \"Los músicos de Bremen\": narración del cuento, onomatopeyas, vocabulario, comprensión lectora y concordancia atrículo-nombre. Incluye una guía en formato Adobe Acrobat. \n<p> Conviene configurar la pantalla a 256 colores. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "musicos",
+    "musics"
+  ],
+  "mainFile": "jclic.js/eubremen.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/eubremen.jclic.zip",
+  "instFile": "jclic/eubremen.jclic.inst",
+  "clicZoneId": 1131,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1131",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/eubremen/jclic/eubremen.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 29,
+  "mediaFiles": 42,
+  "totalSize": 3577300,
+  "files": [
+    "cover.gif",
+    "jclic.js/ase.gif",
+    "jclic.js/ase.wav",
+    "jclic.js/eubremen.jclic",
+    "jclic.js/eubremen.pdf",
+    "jclic.js/frases.gif",
+    "jclic.js/frases1.gif",
+    "jclic.js/gall.gif",
+    "jclic.js/gall.wav",
+    "jclic.js/gat.gif",
+    "jclic.js/gat.wav",
+    "jclic.js/gos.gif",
+    "jclic.js/gos.wav",
+    "jclic.js/guitarr.gif",
+    "jclic.js/guitarra.wav",
+    "jclic.js/kanta.wav",
+    "jclic.js/lladres.gif",
+    "jclic.js/lladres.wav",
+    "jclic.js/monstre.wav",
+    "jclic.js/musicbe.gif",
+    "jclic.js/musics0.gif",
+    "jclic.js/musics1.gif",
+    "jclic.js/musics2.gif",
+    "jclic.js/musics3.gif",
+    "jclic.js/musics4.gif",
+    "jclic.js/musics5.gif",
+    "jclic.js/musics6.gif",
+    "jclic.js/musics7.gif",
+    "jclic.js/perebe.gif",
+    "jclic.js/tbales.gif",
+    "jclic.js/tbales.wav",
+    "jclic.js/usics1.gif",
+    "jclic.js/usics10.gif",
+    "jclic.js/usics2.gif",
+    "jclic.js/usics20.gif",
+    "jclic.js/usics3.gif",
+    "jclic.js/usics30.gif",
+    "jclic.js/usics4.gif",
+    "jclic.js/usics5.gif",
+    "jclic.js/usics6.gif",
+    "jclic.js/usics7.gif",
+    "jclic.js/veu.gif",
+    "jclic.js/veu.wav",
+    "jclic.js/violi.gif",
+    "jclic.js/violi.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/eubremen.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

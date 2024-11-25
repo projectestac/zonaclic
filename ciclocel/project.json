@@ -1,0 +1,121 @@
+{
+  "id": 898,
+  "title": "Ciclo celular en células somáticas",
+  "author": "Yolanda Giraldo Claros",
+  "school": "Universidad Antonio Nariño Popayán (Colombia)",
+  "date": "12/12/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales",
+    "en": "Experimental sciences"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "biologia",
+    "es": "biología",
+    "en": "biology"
+  },
+  "descCodes": [
+    58
+  ],
+  "description": {
+    "en": "Package of activities to learn the cell cycle. There are different types of activities : text-based, associations, crosswords, find a word¿",
+    "ca": "Paquet d'activitats per al complicat aprenentatge del cicle cel·lular. Dins del paquet trobem diferents tipus d'activitats: de text, associacions, mots encreuats, sopes de lletres i trencaclosques. D'aquesta manera es permet que l'alumne es familiaritzi amb el complicat vocabulari d'aquest tema de manera més entretinguda i motivadora.",
+    "es": "Paquete de actividades para el complicado aprendizaje del ciclo celular. Dentro del paquete encontramos diferentes tipos de actividades: de texto, asociaciones, crucigramas, sopas de letras y rompecabezas. De este modo se permite que el alumno se familiarice con el complicado vocabulario de este tema de manera más entretenida y motivadora."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ciclocel.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ciclocel.jclic.zip",
+  "instFile": "jclic/ciclocel.jclic.inst",
+  "clicZoneId": 2014,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2014",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ciclocel/jclic/ciclocel.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 32,
+  "totalSize": 1715967,
+  "files": [
+    "cover.gif",
+    "jclic.js/asociac/anaf.gif",
+    "jclic.js/asociac/asociac.jclic",
+    "jclic.js/asociac/fondoall.gif",
+    "jclic.js/asociac/interf.gif",
+    "jclic.js/asociac/metaf.gif",
+    "jclic.js/asociac/prof.gif",
+    "jclic.js/asociac/telof.gif",
+    "jclic.js/ciclocel.jclic",
+    "jclic.js/crucigra/blue.gif",
+    "jclic.js/crucigra/centri.wav",
+    "jclic.js/crucigra/centro.wav",
+    "jclic.js/crucigra/crucigra.jclic",
+    "jclic.js/crucigra/dos.wav",
+    "jclic.js/crucigra/fases.wav",
+    "jclic.js/crucigra/nucleo.wav",
+    "jclic.js/crucigra/profas.wav",
+    "jclic.js/crucigra/tetra.wav",
+    "jclic.js/gardfi31.gif",
+    "jclic.js/present.gif",
+    "jclic.js/rompeca/adn.gif",
+    "jclic.js/rompeca/celula.gif",
+    "jclic.js/rompeca/fondocel.gif",
+    "jclic.js/rompeca/rompeca.jclic",
+    "jclic.js/rompeca/soap.gif",
+    "jclic.js/sopalec/ganar.wav",
+    "jclic.js/sopalec/gardfie2.gif",
+    "jclic.js/sopalec/gardfiel.gif",
+    "jclic.js/sopalec/sopalec.jclic",
+    "jclic.js/texto/anafase.gif",
+    "jclic.js/texto/fondore.gif",
+    "jclic.js/texto/interfas.gif",
+    "jclic.js/texto/metafase.gif",
+    "jclic.js/texto/prairie.gif",
+    "jclic.js/texto/profase.gif",
+    "jclic.js/texto/snakeski.gif",
+    "jclic.js/texto/telofs1.gif",
+    "jclic.js/texto/telofs2.gif",
+    "jclic.js/texto/texto.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ciclocel.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/asociac/asociac.jclic.js",
+    "jclic.js/crucigra/crucigra.jclic.js",
+    "jclic.js/rompeca/rompeca.jclic.js",
+    "jclic.js/sopalec/sopalec.jclic.js",
+    "jclic.js/texto/texto.jclic.js",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": 2264,
+  "title": "El tauró",
+  "author": "Anna Castelló",
+  "date": "28/06/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages, Mathematics",
+    "ca": "Ciències experimentals, Llengües, Matemàtiques",
+    "es": "Ciencias experimentales, Lenguas, Matemáticas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng",
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, càlcul, tauró",
+    "es": "aprendizaje de la lengua, cálculo, tiburón",
+    "en": "learning of the language, calculation, shark"
+  },
+  "descCodes": [
+    110,
+    702,
+    1438
+  ],
+  "description": {
+    "en": "Project of activities about sharks addressed to kindergarten: \n<ul> \n <li>habitat of sharks </li>\n <li>parts of sharks </li>\n <li>Adds with sharks  </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre els taurons adreçat a cicle inicial. Al llarg del projecte trobem activitats de diferents temàtiques: \n<ul> \n <li>hàbitat dels taurons </li>\n <li>parts dels taurons </li>\n <li>comptar taurons </li>\n</ul>",
+    "es": "Proyecto de actividades sobre los tiburones dirigido a ciclo inicial. A lo largo del proyecto encontramos actividades de diferentes temáticas: \n<ul> \n <li>hábitat de los tiburones </li>\n <li>partes de los tiburones </li>\n <li>contar tiburones </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/taurons.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/taurons.jclic.zip",
+  "instFile": "jclic/taurons.jclic.inst",
+  "clicZoneId": 3782,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3782",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/taurons/jclic/taurons.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 47,
+  "totalSize": 1448799,
+  "files": [
+    "cover.png",
+    "jclic.js/2taurons.jpg",
+    "jclic.js/3taurons.jpg",
+    "jclic.js/4taurons.jpg",
+    "jclic.js/6taurons.jpg",
+    "jclic.js/aleta_anal.mp3",
+    "jclic.js/aleta_caudal.mp3",
+    "jclic.js/aleta_dorsal.mp3",
+    "jclic.js/aleta_escapular.mp3",
+    "jclic.js/aleta_pelviana.mp3",
+    "jclic.js/apertures_branquials.mp3",
+    "jclic.js/aplausos.mp3",
+    "jclic.js/benfet.mp3",
+    "jclic.js/benvinguts_al_jclic_dels_taurons.mp3",
+    "jclic.js/bosc.jpg",
+    "jclic.js/busca_4_diferencies_en_la_imatge...mp3",
+    "jclic.js/busca_la_parella.mp3",
+    "jclic.js/cinc_taurons.jpg",
+    "jclic.js/correcte_.mp3",
+    "jclic.js/diferencies_marcades.jpg",
+    "jclic.js/diferenciess.jpg",
+    "jclic.js/escriu_en_numero_quants_taurons_hi_han.mp3",
+    "jclic.js/estas_segur.mp3",
+    "jclic.js/fes_aquest_puzzle.mp3",
+    "jclic.js/fondo_marino.jpg",
+    "jclic.js/fons_mari_ii.jpg",
+    "jclic.js/fons_mari_iii.jpg",
+    "jclic.js/genial_sonia.mp3",
+    "jclic.js/jardi_piscina.jpg",
+    "jclic.js/mar.jpg",
+    "jclic.js/molt_be_.mp3",
+    "jclic.js/on_viuen_els_taurons.mp3",
+    "jclic.js/ordena_les_lletres.mp3",
+    "jclic.js/parelles1.jpg",
+    "jclic.js/parelles2.jpg",
+    "jclic.js/parelles3.jpg",
+    "jclic.js/partes_del_tiburon.gif",
+    "jclic.js/partes_del_tiburon_para_rellenar.gif",
+    "jclic.js/peixera.jpg",
+    "jclic.js/perfecte_.mp3",
+    "jclic.js/punxa_damunt_del_nom_i_recorda.mp3",
+    "jclic.js/puzzle_tauro.jpg",
+    "jclic.js/quants_taurons_hi_han_en_cada_imatge.mp3",
+    "jclic.js/relaciona_cada_part_al_quadre..mp3",
+    "jclic.js/riu.jpg",
+    "jclic.js/tauro_esquerra.jpg",
+    "jclic.js/taurons.jclic",
+    "jclic.js/tiburon_comiendo.jpg",
+    "jclic.js/un_tauro.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/taurons.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

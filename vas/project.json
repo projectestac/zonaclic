@@ -1,0 +1,121 @@
+{
+  "id": 2418,
+  "title": "Vivre avec le soleil",
+  "author": "Jordi Ortiz de Antonio",
+  "school": "Servei d'Immersió i Acolliment Lingüístics Barcelona",
+  "date": "12/11/15",
+  "languages": {
+    "en": "Catalan, Spanish, Portuguese",
+    "ca": "català, espanyol, portuguès",
+    "es": "catalán, español, portugués"
+  },
+  "langCodes": [
+    "ca",
+    "es",
+    "pt"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages",
+    "ca": "Ciències experimentals, Llengües",
+    "es": "Ciencias experimentales, Lenguas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de les llengües estrangeres, La Terra, aigua, llum",
+    "es": "aprendizaje de las lenguas extranjeras, La Tierra, agua, luz",
+    "en": "learning of the foreign languages, The Earth, water, light"
+  },
+  "descCodes": [
+    660,
+    1331,
+    1341,
+    1356
+  ],
+  "description": {
+    "en": "JClic project about the program \"Living with the Sun\", which is part of the \n<i>Projecte Sciences et Société</i>, a work of science content and citizenship through the Catalan, French and Portugueses languages.",
+    "ca": "Aquest JClic és el treball multimèdia del programa \"Viure amb el Sol\", que s'emmarca en el \n<i>Projecte Sciences et Société</i>, amb un treball de continguts de ciència i ciutadania per mitjà de les llengües catalana, francesa i portuguesa. \n<p>Amb ell es vol donar a conèixer temes relacionats amb el Sol; com la prevenció davant de les ingerències dels rajos ultraviolats, la prevenció de cops de calor, les insolacions i els càncers de pell, entre d'altres; i valors de convivència ciutadana, com la igualtat per raó de color de pell. </p>",
+    "es": "Este JClic es el trabajo mulimedia del probrama \"Vivir con el Sol\", que se enmarca en el \n<i>Projecte Sciences et Société</i>, con un trabajo de contenidos de ciencia y ciudadania por medio de las lenguas catalana, francesa y portuguesa. \n<p>Con él se quiere dar a conocer temas relacionados con el Sol; como la prevención delante de las ingerencias de los rayos ultravioletas la prevención de los golpes de calor, las insolaciones y los cáncer de piel, entre otros; y valores de convivencia ciudadana, como la igualdad por razón del color de piel. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/vas.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/vas.jclic.zip",
+  "instFile": "jclic/vas.jclic.inst",
+  "clicZoneId": 3926,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3926",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/vas/jclic/vas.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 35,
+  "totalSize": 1635885,
+  "files": [
+    "cover.png",
+    "jclic.js/01.jpg",
+    "jclic.js/02.jpg",
+    "jclic.js/03.jpg",
+    "jclic.js/04.jpg",
+    "jclic.js/05.jpg",
+    "jclic.js/06.jpg",
+    "jclic.js/07.jpg",
+    "jclic.js/08.jpg",
+    "jclic.js/09.jpg",
+    "jclic.js/10.jpg",
+    "jclic.js/11.jpg",
+    "jclic.js/12.jpg",
+    "jclic.js/banana_1_resized.jpg",
+    "jclic.js/banana_2_resized.jpg",
+    "jclic.js/banana_3.jpg",
+    "jclic.js/banana_4_resized.jpg",
+    "jclic.js/bronzage_brulure_coup_de_chaleur_resized.jpg",
+    "jclic.js/canicule_europe_2003_resized1.jpg",
+    "jclic.js/castells_de_sorra_resized.jpg",
+    "jclic.js/des_lunettes_de_soleil.jpg",
+    "jclic.js/handball_resized.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/menjar_resized.jpg",
+    "jclic.js/navegar.jpg",
+    "jclic.js/peau_blanche1.jpg",
+    "jclic.js/peau_laiteuse.jpg",
+    "jclic.js/peau_mate_resized.jpg",
+    "jclic.js/peau_noire_resized.jpg",
+    "jclic.js/pescar_resized.jpg",
+    "jclic.js/plage.jpg",
+    "jclic.js/planets_and_sun_size_comparison_resized.jpg",
+    "jclic.js/randonee.jpg",
+    "jclic.js/rayons_uv_explanation_resized.jpg",
+    "jclic.js/soleil_resized.jpg",
+    "jclic.js/surf_resized.jpg",
+    "jclic.js/vas.jclic",
+    "jclic.js/vas.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/vas.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

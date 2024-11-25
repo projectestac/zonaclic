@@ -1,0 +1,111 @@
+{
+  "id": 197,
+  "title": "Animalien soinuak",
+  "author": "Carlos Gutierrez Aguado, Lucía Serrano Vera i Purificación Sancho Caballero",
+  "school": "IES Ramón y Cajal Zaragoza (Zaragoza)",
+  "date": "29/05/03",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "sons d'animals",
+    "es": "sonidos de animales",
+    "en": "animal sounds"
+  },
+  "descCodes": [
+    953
+  ],
+  "description": {
+    "en": "Clic activities about auditory discrimination. The application has two parts: \n<ul> \n <li>listen to the sound of all the animals. </li>\n <li>Now you play to guess that speaks. </li>\n</ul>",
+    "ca": "Paquet d'activitats de discriminació auditiva que s'organitza en dues parts: \n<ul> \n <li>Escucha el sonido de todos los animales </li>\n <li>Ahora juega a adivinar quien habla </li>\n</ul>",
+    "es": "Paquete de actividades de discriminación auditiva que se organiza en dos partes: \n<ul> \n <li>Escucha el sonido de todos los animales </li>\n <li>Ahora juega a adivinar quien habla </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "animason"
+  ],
+  "mainFile": "jclic.js/eusanson.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/eusanson.jclic.zip",
+  "instFile": "jclic/eusanson.jclic.inst",
+  "clicZoneId": 1103,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1103",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/eusanson/jclic/eusanson.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 49,
+  "mediaFiles": 24,
+  "totalSize": 6299361,
+  "files": [
+    "cover.gif",
+    "jclic.js/05cebra.gif",
+    "jclic.js/anima01/02cebra.gif",
+    "jclic.js/anima01/03cebra.gif",
+    "jclic.js/anima01/04cebra.gif",
+    "jclic.js/anima01/06cebra.gif",
+    "jclic.js/anima01/111.jpg",
+    "jclic.js/anima01/211.jpg",
+    "jclic.js/anima01/311.jpg",
+    "jclic.js/anima01/411.jpg",
+    "jclic.js/anima01/anima01.jclic",
+    "jclic.js/anima01/animales.wav",
+    "jclic.js/anima01/caballog.jpg",
+    "jclic.js/anima01/delfing.jpg",
+    "jclic.js/anima01/lechuzag.jpg",
+    "jclic.js/anima01/perrog.jpg",
+    "jclic.js/anima02/01cebra.gif",
+    "jclic.js/anima02/111.jpg",
+    "jclic.js/anima02/211.jpg",
+    "jclic.js/anima02/311.jpg",
+    "jclic.js/anima02/411.jpg",
+    "jclic.js/anima02/anima02.jclic",
+    "jclic.js/anima02/animales.wav",
+    "jclic.js/anima02/zebra.gif",
+    "jclic.js/eusanson.jclic",
+    "jclic.js/inicio1.gif",
+    "jclic.js/inicio2.gif",
+    "jclic.js/portada.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/eusanson.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/anima01/anima01.jclic.js",
+    "jclic.js/anima02/anima02.jclic.js",
+    "cover.webp"
+  ]
+}

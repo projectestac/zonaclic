@@ -1,0 +1,134 @@
+{
+  "id": 2190,
+  "title": "Halloween y Navidad",
+  "author": "Juan Antonio Punzano Sirvent",
+  "date": "21/10/11",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, llengua castellana, nadal, Halloween",
+    "es": "lengua inglesa, lengua castellana, navidad, Halloween",
+    "en": "English language, Spanish language, christmas, Halloween"
+  },
+  "descCodes": [
+    130,
+    132,
+    882,
+    902
+  ],
+  "description": {
+    "en": "JClic project in English addressed to first cycle of primary education about Christmas and Halloween. Each part of the project has two different parts: \n<ul> \n <li>Lessons </li>\n <li>Activities </li>\n</ul>",
+    "ca": "Projecte JClic per a l'àrea de llengua anglesa adreçat a primer cicle d'educació primària on es treballen dues de les celebracions més importants de les cultures anglosaxones. Cadascuna de les festivitats està dividida en dues parts: \n<ul> \n <li>Lessons </li>\n <li>Activities </li>\n</ul>",
+    "es": "Proyecto JClic para el área de inglés dirigido a primer ciclo de educación primaria, dónde se trabajan algunas de las celebraciones más importantes de las culturas angloparlantes. Cada una de las festividades está dividida dos partes: \n<ul> \n <li>Lessons </li>\n <li>Activities </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "festivit"
+  ],
+  "mainFile": "jclic.js/festives.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/festives.jclic.zip",
+  "instFile": "jclic/festives.jclic.inst",
+  "clicZoneId": 3724,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3724",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/festives/jclic/festives.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 37,
+  "mediaFiles": 50,
+  "totalSize": 2072833,
+  "files": [
+    "cover.png",
+    "jclic.js/festives.jclic",
+    "jclic.js/husky_10___foto_carnet2.jpg",
+    "jclic.js/punzanosirvent_ghost_resized1.jpg",
+    "jclic.js/punzanosirvent_grunido_monstruo.mp3",
+    "jclic.js/punzanosirvent_husy1.jpg",
+    "jclic.js/punzanosirvent_monster2_resized.jpg",
+    "jclic.js/punzanosirvent_monstruo_es_2_resized2.jpg",
+    "jclic.js/punzanosirvent_monstruo_es_resized.jpg",
+    "jclic.js/punzanosirvent_present_resized.jpg",
+    "jclic.js/punzanosirvent_pumpkin.jpg",
+    "jclic.js/punzanosirvent_ralf2_resized.jpg",
+    "jclic.js/punzanosirvent_santa1_resized.jpg",
+    "jclic.js/punzanosirvent_santa3_resized.jpg",
+    "jclic.js/punzanosirvent_santa4_resized.jpg",
+    "jclic.js/punzanosirvent_santa6_resized.jpg",
+    "jclic.js/punzanosirvent_sirventlatorre_bruja_resized.jpg",
+    "jclic.js/punzanosirvent_sirventlatorre_escoba_resized.jpg",
+    "jclic.js/punzanosirvent_sirventlatorre_fin_resized.jpg",
+    "jclic.js/punzanosirvent_sirventlatorre_navidad2_resized.jpg",
+    "jclic.js/punzanosirvent_sirventlatorre_papanoel_resized.jpg",
+    "jclic.js/punzanosirvent_toy1.jpg",
+    "jclic.js/punzanosirvent_witch_resized.jpg",
+    "jclic.js/punzanosirvent_xmasstocking.jpg",
+    "jclic.js/punzanosirvent_xmastree_resized.jpg",
+    "jclic.js/punzansirvent_ralf1_2_resized.jpg",
+    "jclic.js/punzansirvent_toy2.jpg",
+    "jclic.js/sirventlatorre_actividades.mp3",
+    "jclic.js/sirventlatorre_arbolnavidad.mp3",
+    "jclic.js/sirventlatorre_bienhecho2.mp3",
+    "jclic.js/sirventlatorre_bruja.mp3",
+    "jclic.js/sirventlatorre_calabaza.mp3",
+    "jclic.js/sirventlatorre_calcetinnavideno.mp3",
+    "jclic.js/sirventlatorre_escoba.mp3",
+    "jclic.js/sirventlatorre_fantasma.mp3",
+    "jclic.js/sirventlatorre_feliznavidad.mp3",
+    "jclic.js/sirventlatorre_hastapronto.mp3",
+    "jclic.js/sirventlatorre_hazparejas.mp3",
+    "jclic.js/sirventlatorre_juegomemoria.mp3",
+    "jclic.js/sirventlatorre_juguete.mp3",
+    "jclic.js/sirventlatorre_lecciones.mp3",
+    "jclic.js/sirventlatorre_leccionesactividades.mp3",
+    "jclic.js/sirventlatorre_monstruo.mp3",
+    "jclic.js/sirventlatorre_nochedifuntos.mp3",
+    "jclic.js/sirventlatorre_papanoel.mp3",
+    "jclic.js/sirventlatorre_presentacion_japs_mlsl.mp3",
+    "jclic.js/sirventlatorre_punzanosirvent_nd_2.jpg",
+    "jclic.js/sirventlatorre_punzanosirvent_portada_resized.jpg",
+    "jclic.js/sirventlatorre_puzzle.mp3",
+    "jclic.js/sirventlatorre_regalo.mp3",
+    "jclic.js/sirventlatorre_sopaletras.mp3",
+    "jclic.js/sirventlatorre_trucotrato.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/festives.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

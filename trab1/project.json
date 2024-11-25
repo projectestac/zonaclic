@@ -1,0 +1,143 @@
+{
+  "id": 1003,
+  "title": "Las sílabas trabadas",
+  "author": "Vicente J. Alfonso Repullés",
+  "school": "Colegio Asunción de Nuestra Señora Alboraia (Horta nord)",
+  "date": "17/12/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Llengües",
+    "es": "Lenguas",
+    "en": "null"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "null"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua, llengua castellana",
+    "es": "lengua, lengua castellana",
+    "en": "language, Spanish language"
+  },
+  "descCodes": [
+    128,
+    132
+  ],
+  "description": {
+    "en": "Clic activities about the syllables \n<i>bra, fra and tra</i>. There are two options: \n <ul> \n  <li>Choose by syllables </li>\n  <li>Choose by activities </li>\n </ul>",
+    "ca": "Paquet d'activitats que treballa les síl·labes travades \n<i>bra, fra i tra</i>. A l'inici del paquet es pot triar dues opcions: \n<ul> \n <li>Treballar per síl·labes </li>\n <li>Treballar per activitats </li>\n</ul>",
+    "es": "Paquete de actividades que trabaja las sílabas trabadas \n<i>bra, fra y tra</i>. Al empezar el paquete se puede elegir dos opciones: \n<ul> \n <li>Trabajar por sílabas </li>\n <li>Trabajar por actividades </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "null"
+  },
+  "mainFile": "jclic.js/trab1.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/trab1.jclic.zip",
+  "instFile": "jclic/trab1.jclic.inst",
+  "clicZoneId": 2084,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2084",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/trab1/jclic/trab1.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 29,
+  "mediaFiles": 63,
+  "totalSize": 2309353,
+  "files": [
+    "cover.gif",
+    "jclic.js/apaluso1.wav",
+    "jclic.js/aplauso1.wav",
+    "jclic.js/ba.wav",
+    "jclic.js/bala.gif",
+    "jclic.js/bala.wav",
+    "jclic.js/bar.wav",
+    "jclic.js/barca.gif",
+    "jclic.js/barca.wav",
+    "jclic.js/barco.gif",
+    "jclic.js/barco.wav",
+    "jclic.js/be.wav",
+    "jclic.js/ber.wav",
+    "jclic.js/bi.wav",
+    "jclic.js/bir.wav",
+    "jclic.js/bo.wav",
+    "jclic.js/bor.wav",
+    "jclic.js/bra.wav",
+    "jclic.js/brazo.gif",
+    "jclic.js/brazo.wav",
+    "jclic.js/bre.wav",
+    "jclic.js/bri.wav",
+    "jclic.js/bro.wav",
+    "jclic.js/bru.wav",
+    "jclic.js/bruja.gif",
+    "jclic.js/bruja.wav",
+    "jclic.js/bu.wav",
+    "jclic.js/bur.wav",
+    "jclic.js/cabra.gif",
+    "jclic.js/cabra.wav",
+    "jclic.js/ce.wav",
+    "jclic.js/cebra.gif",
+    "jclic.js/cebra.wav",
+    "jclic.js/cofre.gif",
+    "jclic.js/cuatro.gif",
+    "jclic.js/disfraz.gif",
+    "jclic.js/estrella.gif",
+    "jclic.js/fraile.gif",
+    "jclic.js/frascos.gif",
+    "jclic.js/fregona.gif",
+    "jclic.js/frente.gif",
+    "jclic.js/fresa.gif",
+    "jclic.js/fruta.gif",
+    "jclic.js/fuente.gif",
+    "jclic.js/hombre.gif",
+    "jclic.js/hombre.wav",
+    "jclic.js/li.wav",
+    "jclic.js/libro.gif",
+    "jclic.js/libro.wav",
+    "jclic.js/logo.gif",
+    "jclic.js/r.wav",
+    "jclic.js/refresco.gif",
+    "jclic.js/sobre.gif",
+    "jclic.js/sobre.wav",
+    "jclic.js/sorbe.gif",
+    "jclic.js/sorbe.wav",
+    "jclic.js/tarta.gif",
+    "jclic.js/trab1.jclic",
+    "jclic.js/tractor.gif",
+    "jclic.js/traje.gif",
+    "jclic.js/tren.gif",
+    "jclic.js/trenza.gif",
+    "jclic.js/trono.gif",
+    "jclic.js/truco.gif",
+    "jclic.js/turco.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/trab1.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

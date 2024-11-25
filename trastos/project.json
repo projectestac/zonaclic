@@ -1,0 +1,112 @@
+{
+  "id": 909,
+  "title": "Temps de temps: Observem i mesurem",
+  "author": "Joan A. Solano Querol",
+  "school": "Institut Campclar Tarragona (Torreforta) (Tarragonès)",
+  "date": "18/12/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales",
+    "en": "Experimental sciences"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "meteorologia",
+    "es": "meteorología",
+    "en": "meteorology"
+  },
+  "descCodes": [
+    89
+  ],
+  "description": {
+    "en": "This is the second package of the serial about meteorology. The pupil will learn in this package the elements and variables that determine the climate. On the other hand the pupil will learn the machinery to measure them.\n<br> In these pages you will find the other parts of the serie: \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=1096\">L'atmosfera</a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=2860\">La previsió meteorològica</a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=2460\">A bots i barrals</a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=2861\">Llamp de rellamp</a> and \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=3216\">Vents i ventots</a>.",
+    "ca": "Aquest és el segon paquet de la sèrie dedicada a la meteorologia. \n<br> El paquet comença fent conèixer a l'alumne els elements o variables climatològiques que determinen el clima i tot seguit passa a l'estudi dels aparells meteorològics que permeten mesurar i quantificar aquestes variables. Es tracten el aparells més bàsics: quins són, que mesuren i com funcionen.\n<br> La finalitat dels dos punts anteriors es aconseguir que l'alumne, a banda d'un coneixement teòric, adquireixi les destreses més elementals per tal de fer-les servir de forma correcta i pugui arribar a un control i seguiment de les dades obtingudes que li permetin fer un estudi climatològic força acurat del seu entorn.\n<br> En aquestes pàgines es troben les altres parts de la sèrie temps de temps: \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=1096\">L'atmosfera</a>, \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=2860\">La previsió meteorològica</a>, \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=2460\">A bots i barrals</a>, \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=2861\">Llamp de rellamp</a> i \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=3216\">Vents i ventots</a>.",
+    "es": "Este es el segundo paquete de la serie dedicada al meteorología.\n<br> El paquete comienza haciendo conocer al alumno los elementos o variables climatológicas que determinan el clima y seguidamente pasa al estudio de los aparatos meteorológicos que permiten medir y cuantificar estas variables. Se tratan los aparatos más básicos: cuáles son, qué miden, cómo funcionan.\n<br> La finalidad de los dos puntos anteriores es conseguir que el alumno, a parte de un conocimiento teórico, adquiera las habilidades más elementales para utilizarlos de forma correcta y pueda llegar a un control y seguimiento de los datos obtenidos que le permitan hacer un estudio climatológico detallado de su entorno.\n<br> En estas páginas se encuentran las otras partes de la serie: \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=1096\">L'atmosfera</a>, \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=2860\">La previsió meteorològica</a>, \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=2460\">A bots i barrals</a>, \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=2861\">Llamp de rellamp</a> y \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=3216\">Vents i ventots</a>."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/trastos.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/trastos.jclic.zip",
+  "instFile": "jclic/trastos.jclic.inst",
+  "clicZoneId": 2022,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2022",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/trastos/jclic/trastos.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 30,
+  "mediaFiles": 33,
+  "totalSize": 424863,
+  "files": [
+    "cover.gif",
+    "jclic.js/anemomet.jpg",
+    "jclic.js/barometr.jpg",
+    "jclic.js/caseta.jpg",
+    "jclic.js/cirroe_r.jpg",
+    "jclic.js/cirroest.jpg",
+    "jclic.js/cirrus.jpg",
+    "jclic.js/cirrus_r.jpg",
+    "jclic.js/cumuloni.jpg",
+    "jclic.js/cumuni_r.jpg",
+    "jclic.js/estacio.jpg",
+    "jclic.js/excel01.gif",
+    "jclic.js/excel02.gif",
+    "jclic.js/excel03.gif",
+    "jclic.js/excel04.gif",
+    "jclic.js/fons.gif",
+    "jclic.js/higromet.jpg",
+    "jclic.js/hum_alta.gif",
+    "jclic.js/hum_baix.gif",
+    "jclic.js/hum_impo.gif",
+    "jclic.js/hum_mitj.gif",
+    "jclic.js/nimboe_r.jpg",
+    "jclic.js/nimboest.jpg",
+    "jclic.js/nuvol.gif",
+    "jclic.js/penell.gif",
+    "jclic.js/pluviome.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/psicrome.jpg",
+    "jclic.js/satel.gif",
+    "jclic.js/sort01.jpg",
+    "jclic.js/temp_a_s.gif",
+    "jclic.js/temp_any.gif",
+    "jclic.js/termomet.jpg",
+    "jclic.js/termos1.gif",
+    "jclic.js/trastos.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/trastos.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

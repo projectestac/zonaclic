@@ -1,0 +1,93 @@
+{
+  "id": 1690,
+  "title": "O feirón de Arteixo",
+  "school": "CEIP Galán Oseiro (Galiza)",
+  "date": "10/07/07",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua gallega, comprensió lectora",
+    "es": "lengua gallega, comprensión lectora",
+    "en": "Galician language, reading comprehension"
+  },
+  "descCodes": [
+    921,
+    1329
+  ],
+  "description": {
+    "en": "Project of activities in Galician addressed to primary school that deals with comprehension, word group recognition, etc... These activities are focused around the market, when the market is, where the meat is sold, who is selling...",
+    "ca": "Projecte d'activitats en gallec adreçat a primer cicle d'educació primària per a treballar la comprensió, reconéixer famílies de paraules, etc. Aquestes activitats giren entorn al mercat, quan és el mercat, on es ven la carn, qui la ven...",
+    "es": "Proyecto de actividades en gallego dirigido a primer ciclo de educación primaria para trabajar la comprensión, reconocer familias de palabras, etc. Estas actividades giran entorno al mercado, cuándo es el mercado, dónde se vende la carne, quien la vende..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/arteixo.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/arteixo.jclic.zip",
+  "instFile": "jclic/arteixo.jclic.inst",
+  "clicZoneId": 3399,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3399",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/arteixo/jclic/arteixo.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 14,
+  "totalSize": 1004893,
+  "files": [
+    "cover.jpg",
+    "jclic.js/acertche2.wav",
+    "jclic.js/arteixo.jclic",
+    "jclic.js/arteixpz.gif",
+    "jclic.js/arteixtx.gif",
+    "jclic.js/estpend2.wav",
+    "jclic.js/esxenio2.wav",
+    "jclic.js/fanttico2.wav",
+    "jclic.js/fondolaranxa3.jpg",
+    "jclic.js/fxmoibe2.wav",
+    "jclic.js/moiben.wav",
+    "jclic.js/non.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/queres.wav",
+    "jclic.js/quereslaranxa.jpg",
+    "jclic.js/si.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/arteixo.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

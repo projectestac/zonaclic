@@ -1,0 +1,146 @@
+{
+  "id": 995,
+  "title": "Els mitjans de transport 2",
+  "author": "Genoveva Rosa i Gregori",
+  "school": "Escola Can Vidalet Esplugues de Llobregat (Baix Llobregat)",
+  "date": "17/12/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales",
+    "en": "Social sciences"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "transport",
+    "es": "transporte",
+    "en": "transport"
+  },
+  "descCodes": [
+    354
+  ],
+  "description": {
+    "en": "Package of activities for Primary School though to learn the different types of transportation. We can find three types: \n<ul> \n <li>By earth </li>\n <li>By sea </li>\n <li>By air </li>\n</ul>",
+    "ca": "Paquet d'activitats adreçat a Cicle Inicial de Primària per conèixer els diferents mitjans de transport i el medi per on circulen. Trobem tres tipus: \n<ul> \n <li>Terrestres </li>\n <li>Marítims </li>\n <li>Aeris </li>\n</ul>",
+    "es": "Paquete de actividades dirigido a Ciclo Inicial de Primaria para conocer los diferentes medios de transporte y el medio por donde circulan. \n<ul> \n <li>Terrestres </li>\n <li>Marítimos </li>\n <li>Aéreos </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "garraio2"
+  ],
+  "mainFile": "jclic.js/transp2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/transp2.jclic.zip",
+  "instFile": "jclic/transp2.jclic.inst",
+  "clicZoneId": 2077,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2077",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/transp2/jclic/transp2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 22,
+  "mediaFiles": 56,
+  "totalSize": 4409228,
+  "files": [
+    "cover.gif",
+    "jclic.js/aeris.jpg",
+    "jclic.js/aigua/aigua.jclic",
+    "jclic.js/aigua/aplauso.wav",
+    "jclic.js/aigua/bot4.gif",
+    "jclic.js/aigua/sub4.gif",
+    "jclic.js/aigua/v55.gif",
+    "jclic.js/aigua/vaix5.gif",
+    "jclic.js/aigua/vaixell.wav",
+    "jclic.js/aigua/vapuz.gif",
+    "jclic.js/aigua/veler55.gif",
+    "jclic.js/aire/aire.jclic",
+    "jclic.js/aire/aplauso.wav",
+    "jclic.js/aire/avi.wav",
+    "jclic.js/aire/avi2.gif",
+    "jclic.js/aire/avio.wav",
+    "jclic.js/aire/avio1.gif",
+    "jclic.js/aire/aviopuz.gif",
+    "jclic.js/aire/glob3.gif",
+    "jclic.js/aire/heli1.gif",
+    "jclic.js/aire/helicopter.wav",
+    "jclic.js/maritims.jpg",
+    "jclic.js/tapa.gif",
+    "jclic.js/terra/aplauso.wav",
+    "jclic.js/terra/bic11.jpg",
+    "jclic.js/terra/bic12.jpg",
+    "jclic.js/terra/bici.wav",
+    "jclic.js/terra/bozina.wav",
+    "jclic.js/terra/bus11.gif",
+    "jclic.js/terra/cami_.wav",
+    "jclic.js/terra/cami_11.gif",
+    "jclic.js/terra/cotxe.wav",
+    "jclic.js/terra/cotxe11.gif",
+    "jclic.js/terra/cotxe211.gif",
+    "jclic.js/terra/micrapuz.gif",
+    "jclic.js/terra/moto12.gif",
+    "jclic.js/terra/terra.jclic",
+    "jclic.js/terra/train.wav",
+    "jclic.js/terra/tren11.gif",
+    "jclic.js/terra/tren211.gif",
+    "jclic.js/terres.gif",
+    "jclic.js/tot.gif",
+    "jclic.js/tot/aplauso.wav",
+    "jclic.js/tot/avio.wav",
+    "jclic.js/tot/avio1.gif",
+    "jclic.js/tot/bic11.gif",
+    "jclic.js/tot/bici.wav",
+    "jclic.js/tot/bot4.gif",
+    "jclic.js/tot/cotxe.wav",
+    "jclic.js/tot/cotxe11.gif",
+    "jclic.js/tot/cotxe13.gif",
+    "jclic.js/tot/fi.jpg",
+    "jclic.js/tot/heli1.gif",
+    "jclic.js/tot/helicopter.wav",
+    "jclic.js/tot/tot.jclic",
+    "jclic.js/tot/train.wav",
+    "jclic.js/tot/tren211.gif",
+    "jclic.js/tot/va11.gif",
+    "jclic.js/tot/vaix5.gif",
+    "jclic.js/tot/vaixell.wav",
+    "jclic.js/tot/veler55.gif",
+    "jclic.js/transp2.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/transp2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/aigua/aigua.jclic.js",
+    "jclic.js/aire/aire.jclic.js",
+    "jclic.js/terra/terra.jclic.js",
+    "jclic.js/tot/tot.jclic.js",
+    "cover.webp"
+  ]
+}

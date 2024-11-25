@@ -1,0 +1,94 @@
+{
+  "id": 2519,
+  "title": "Paisaje y relieve",
+  "author": "Francisco José Mora Cruzado",
+  "school": "IES Francisco Garfias Moguer - Huelva (Andalucía)",
+  "date": "21/04/17",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "relleu, orografia, paisatge",
+    "es": "relieve, orografía, paisaje",
+    "en": "relief, orography, landscape"
+  },
+  "descCodes": [
+    776,
+    1483,
+    1484
+  ],
+  "description": {
+    "en": "With these package of activities the students will be able to make a review of landscape theme. These activity works separately landscape kinds and relief kinds. These package contains activities to review, to identify and to enjoy.",
+    "ca": "Mitjançant aquesta bateria d'activitats es pretén que els/les alumnes realitzin un repàs dels continguts que pertanyen al tema del paisatge. Aquesta activitat tracta per separat els tipus de paisatge i els de relleu. S'enfoca aquest treball intercalant activitats de repàs, d'identificació i d'altres de caràcter lúdic.",
+    "es": "A través de esta batería de actividades se pretende que los alumnos/as realicen un repaso de los contenidos pertenecientes al tema del paisaje. Dicha actividad trata por separado los tipos de paisaje y los de relieve. Se enfoca este trabajo intercalando actividades de repaso, identificación y otras de carácter lúdico."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/paisaje.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/paisaje.jclic.zip",
+  "instFile": "jclic/paisaje.jclic.inst",
+  "clicZoneId": 4029,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=4029",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/paisaje/jclic/paisaje.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 13,
+  "totalSize": 940175,
+  "files": [
+    "cover.png",
+    "jclic.js/cima.jpg",
+    "jclic.js/ladera.jpg",
+    "jclic.js/lago.jpg",
+    "jclic.js/llanura.jpg",
+    "jclic.js/montana_resized1.jpg",
+    "jclic.js/paisaje.jclic",
+    "jclic.js/paisaje.jclic.js",
+    "jclic.js/paisaje_andaluz.jpg",
+    "jclic.js/paisaje_artificial.jpg",
+    "jclic.js/paisaje_humanizado.jpg",
+    "jclic.js/paisaje_natural.jpg",
+    "jclic.js/paisaje_rural.jpg",
+    "jclic.js/paisaje_urbano.jpg",
+    "jclic.js/sierra.jpg",
+    "jclic.js/valle.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": 974,
+  "title": "Divisibilidade",
+  "author": "Virgilio Pedraz Hernández",
+  "school": "CRA Vía de la Plata La Garganta (Cáceres)",
+  "date": "16/06/04",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la matemàtica, nombres primers",
+    "es": "aprendizaje de la matemática, números primos",
+    "en": "learning of the mathematical one, prime numbers"
+  },
+  "descCodes": [
+    700,
+    912
+  ],
+  "description": {
+    "en": "Package of activities about the divisibility criteria, prime and composed numbers, Eratostenes sift, lowest common denominator and highest common factor.",
+    "ca": "Paquet d'activitats sobre els criteris de divisibilitat, nombres primers i compostos, garbell d'Eratòstenes, mínim comú múltiple i màxim comú divisor.",
+    "es": "Paquete de actividades sobre criterios de divisibilidad, números primos y compuestos, criba de Erastótenes, mínimo común múltiple y máximo común divisor."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "divisib"
+  ],
+  "mainFile": "jclic.js/divsibg.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/divsibg.jclic.zip",
+  "instFile": "jclic/divsibg.jclic.inst",
+  "clicZoneId": 2062,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2062",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/divsibg/jclic/divsibg.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 50,
+  "mediaFiles": 1,
+  "totalSize": 367512,
+  "files": [
+    "cover.gif",
+    "jclic.js/calzada.gif",
+    "jclic.js/divsibg.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/divsibg.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

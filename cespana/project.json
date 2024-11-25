@@ -1,0 +1,125 @@
+{
+  "id": 1549,
+  "title": "España y sus comunidades",
+  "author": "Francisco García-Pozuelo Díaz i Juana Rello Serrano",
+  "school": "CP Luis Vives Alcalá de Henares (Madrid)",
+  "date": "20/02/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia política, Espanya",
+    "es": "geografía política, España",
+    "en": "political geography, Spain"
+  },
+  "descCodes": [
+    239,
+    499
+  ],
+  "description": {
+    "en": "Set of activities about Spain, its communities and its provinces.",
+    "ca": "Conjunt d'activitats sobre Espanya, les seves comunitats autònomes i les províncies que formen part de cadascuna d'elles.",
+    "es": "Conjunto de actividades sobre España, sus comunidades autónomas y las provincias que forman parte de cada una de ellas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cespana.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cespana.jclic.zip",
+  "instFile": "jclic/cespana.jclic.inst",
+  "clicZoneId": 3275,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3275",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cespana/jclic/cespana.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 29,
+  "mediaFiles": 45,
+  "totalSize": 1513772,
+  "files": [
+    "cover.gif",
+    "jclic.js/0espana.gif",
+    "jclic.js/autores.avi",
+    "jclic.js/banandalu.gif",
+    "jclic.js/banaragon.gif",
+    "jclic.js/banespana.gif",
+    "jclic.js/bast_1_.gif",
+    "jclic.js/bbal_1_.gif",
+    "jclic.js/bcat_1_.gif",
+    "jclic.js/bceu2_1_.gif",
+    "jclic.js/bclm2_1_.gif",
+    "jclic.js/bcnr2_1_.gif",
+    "jclic.js/bcnt2_1_.gif",
+    "jclic.js/bcyl_1_.gif",
+    "jclic.js/beus_1_.gif",
+    "jclic.js/bext2_1_.gif",
+    "jclic.js/bgal2_1_.gif",
+    "jclic.js/bmad_1_.gif",
+    "jclic.js/bmel_1_.gif",
+    "jclic.js/bmur_1_.gif",
+    "jclic.js/bnav_1_.gif",
+    "jclic.js/brio2_1_.gif",
+    "jclic.js/bval_1_.gif",
+    "jclic.js/cespana.jclic",
+    "jclic.js/comunidades.avi",
+    "jclic.js/comunidades.gif",
+    "jclic.js/east_1_.gif",
+    "jclic.js/ebal_1_.gif",
+    "jclic.js/ecat_1_.gif",
+    "jclic.js/eceu_1_.gif",
+    "jclic.js/eclm_1_.gif",
+    "jclic.js/ecnr_1_.gif",
+    "jclic.js/ecnt_1_.gif",
+    "jclic.js/ecyl_1_.gif",
+    "jclic.js/eeus_1_.gif",
+    "jclic.js/eext_1_.gif",
+    "jclic.js/egal_1_.gif",
+    "jclic.js/emad_1_.gif",
+    "jclic.js/emel_1_.gif",
+    "jclic.js/emur_1_.gif",
+    "jclic.js/enav_1_.gif",
+    "jclic.js/erio_1_.gif",
+    "jclic.js/esanda.gif",
+    "jclic.js/esaragon.gif",
+    "jclic.js/espana.gif",
+    "jclic.js/espana1.png",
+    "jclic.js/eval_1_.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cespana.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

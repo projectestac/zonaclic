@@ -1,0 +1,104 @@
+{
+  "id": 1802,
+  "title": "Ordenacions i sèries",
+  "author": "Gaietà Casaponsa i Puig",
+  "school": "EAP La Selva (Sector B) (G10) Santa Coloma de Farners (Selva)",
+  "date": "27/10/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "sèries",
+    "es": "series",
+    "en": "series"
+  },
+  "descCodes": [
+    944
+  ],
+  "description": {
+    "en": "JClic project with two different parts: \n<ul> \n <li>ordinations with fruits and fruit </li>\n <li>series with numbers lower than 50 </li>\n</ul>",
+    "ca": "Projecte JClic format per dos grup d'activitats: \n<ul> \n <li>ordenacions amb fruits i fruites </li>\n <li>sèries amb nombres inferiors al 50 </li>\n</ul>",
+    "es": "Proyecto JClic formado por dos grupos de actividades: \n<ul> \n <li>ordenaciones con frutos y frutas </li>\n <li>series con números inferiores a 50 </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/series2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/series2.jclic.zip",
+  "instFile": "jclic/series2.jclic.inst",
+  "clicZoneId": 3498,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3498",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/series2/jclic/series2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 25,
+  "totalSize": 1223759,
+  "files": [
+    "cover.jpg",
+    "jclic.js/anous_g.jpg",
+    "jclic.js/anous_p.jpg",
+    "jclic.js/aplaud.wav",
+    "jclic.js/applause.wav",
+    "jclic.js/bb1.wav",
+    "jclic.js/campani2.wav",
+    "jclic.js/llimona.wav",
+    "jclic.js/llimona_g.jpg",
+    "jclic.js/llimona_p.jpg",
+    "jclic.js/maduixa_p.jpg",
+    "jclic.js/mandarina.jpg",
+    "jclic.js/mandarina.wav",
+    "jclic.js/moltbe.wav",
+    "jclic.js/moltbe2.wav",
+    "jclic.js/nous.wav",
+    "jclic.js/platan.jpg",
+    "jclic.js/platan.wav",
+    "jclic.js/poma.jpg",
+    "jclic.js/poma.wav",
+    "jclic.js/series2.jclic",
+    "jclic.js/taronja.wav",
+    "jclic.js/taronja_g.jpg",
+    "jclic.js/taronja_m.jpg",
+    "jclic.js/taronja_mg.jpg",
+    "jclic.js/taronja_p.jpg",
+    "jclic.js/tomata.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/series2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": 1635,
+  "title": "Catedrales de Andalucía",
+  "author": "Federico Arquillos Llera",
+  "date": "21/12/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "Project of activities about Andalusian Cathedrals. The project has three parts: \n<ul> \n <li>General overview </li>\n <li>Towers </li>\n <li>Inside </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre les Catedrals d'Andalusia. El projecte té tres parts: \n<ul> \n <li>Vista general </li>\n <li>Torres </li>\n <li>Interior </li>\n</ul>",
+    "es": "Proyecto de actividades sobre las catedrales de Andalucía. El proyecto tiene tres partes: \n<ul> \n <li>Vista general </li>\n <li>Torres </li>\n <li>Interior </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/catedral.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/catedral.jclic.zip",
+  "instFile": "jclic/catedral.jclic.inst",
+  "clicZoneId": 3343,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3343",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/catedral/jclic/catedral.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 39,
+  "totalSize": 2412736,
+  "files": [
+    "cover.jpg",
+    "jclic.js/0jaen.jpg",
+    "jclic.js/almeria.jpg",
+    "jclic.js/baeza_jaen.jpg",
+    "jclic.js/baza_granada.jpg",
+    "jclic.js/cadiz.jpg",
+    "jclic.js/catedral.jclic",
+    "jclic.js/cordoba.jpg",
+    "jclic.js/granada.jpg",
+    "jclic.js/guadix.jpg",
+    "jclic.js/huelva.jpg",
+    "jclic.js/i_almeria.jpg",
+    "jclic.js/i_baeza.jpg",
+    "jclic.js/i_baza_granada.jpg",
+    "jclic.js/i_cadiz.jpg",
+    "jclic.js/i_cordoba.jpg",
+    "jclic.js/i_granada.jpg",
+    "jclic.js/i_guadix.jpg",
+    "jclic.js/i_huelva.jpg",
+    "jclic.js/i_jaen.jpg",
+    "jclic.js/i_jerez_de_la_frontera.jpg",
+    "jclic.js/i_malaga.jpg",
+    "jclic.js/i_sevilla.jpg",
+    "jclic.js/jaen.jpg",
+    "jclic.js/jerez_de_la_frontera_cadiz.jpg",
+    "jclic.js/malaga.jpg",
+    "jclic.js/portada_fede.gif",
+    "jclic.js/sevilla.jpg",
+    "jclic.js/t_almeria.jpg",
+    "jclic.js/t_baeza_jaen.jpg",
+    "jclic.js/t_baza_granada.jpg",
+    "jclic.js/t_cadiz_nueva.jpg",
+    "jclic.js/t_cadiz_vieja.jpg",
+    "jclic.js/t_cordoba.jpg",
+    "jclic.js/t_granada.jpg",
+    "jclic.js/t_guadix_granada.jpg",
+    "jclic.js/t_huelva.jpg",
+    "jclic.js/t_jaen.jpg",
+    "jclic.js/t_jerez_de_la_frontera.jpg",
+    "jclic.js/t_malaga.jpg",
+    "jclic.js/t_sevilla.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/catedral.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

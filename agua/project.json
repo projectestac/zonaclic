@@ -1,0 +1,93 @@
+{
+  "id": 2464,
+  "title": "El agua",
+  "author": "José Félix de la Torre Peláez,",
+  "school": "CEIP Nescania Valle de Abdalajís - Málaga (Andalucía)",
+  "date": "24/11/16",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aigua",
+    "es": "agua",
+    "en": "water"
+  },
+  "descCodes": [
+    1341
+  ],
+  "description": {
+    "en": "Activities related to water: water states, state changes, the water in nature, the water cycle.",
+    "ca": "Activitats relacionades amb l'aigua: estats de l'aigua, canvis d'estat, l'aigua en la naturalesa, el cicle de l'aigua.",
+    "es": "Actividades relacionadas con el agua: estados del agua, cambios de estado, el agua en la naturaleza, el ciclo del agua."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/agua.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/agua.jclic.zip",
+  "instFile": "jclic/agua.jclic.inst",
+  "clicZoneId": 3972,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3972",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/agua/jclic/agua.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 14,
+  "totalSize": 931864,
+  "files": [
+    "cover.png",
+    "jclic.js/15095__99_a_1_resized.jpg",
+    "jclic.js/16525__96_a_2_resized.jpg",
+    "jclic.js/173344_jpg_1_resized.jpg",
+    "jclic.js/175530_jpg_1_resized.jpg",
+    "jclic.js/180590_a_1_resized.jpg",
+    "jclic.js/19169__95_a_1_resized.jpg",
+    "jclic.js/20216__52_a_8_resized.jpg",
+    "jclic.js/28894__85_a_1.jpg",
+    "jclic.js/5960__10_a_1_resized.jpg",
+    "jclic.js/8299__70_a_5_resized.jpg",
+    "jclic.js/agua.jclic",
+    "jclic.js/agua.jclic.js",
+    "jclic.js/h12880_a_resized.jpg",
+    "jclic.js/h15489_a_resized.jpg",
+    "jclic.js/h3678_a_resized.jpg",
+    "jclic.js/h6010_a_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

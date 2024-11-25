@@ -1,0 +1,138 @@
+{
+  "id": 1770,
+  "title": "El pingüí de Humboldt",
+  "author": "Neus Diago i Millàn",
+  "school": "Escola Diputació Barcelona",
+  "date": "19/05/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aus, pingüí",
+    "es": "aves, pingüino",
+    "en": "birds, penguin"
+  },
+  "descCodes": [
+    830,
+    1330
+  ],
+  "description": {
+    "en": "JClic activities about the Humboldt penguin. The package contains 30 activities. It's divided into 5 sections. Across these sections is shown the penguin main features, its nutrition, reproduction and habitat. It's also highlighted that is a specie in danger due to its declining population.",
+    "ca": "Projecte d'activitats sobre el pingüí de Humboldt. El projecte consta de 30 activitats i està dividit en cinc parts, en elles s'explica que és una espècie amenaçada, les seves característiques, de què s'alimenta, la reproducció i els indrets on viu.\n<p> Tant el material biogràfic com el material gràfic utilitzat en les activitats, prové bàsicament del Zoo de Barcelona, l'Aquàrium i de la Viquipèdia. </p>",
+    "es": "Proyecto de actividades sobre el pingüino de Humboldt. El proyecto consta de 30 actividades y está dividido en cinco partes, en ellas se explica que es una especie amenazada, sus características, de qué se alimenta, la reproducción y su hábitat.\n<p> Tanto el material biográfico como el material gráfico utilizado en las actividades, proviene básicamente del Zoo de Barcelona, el Aquàrium y de la Wiquipedia. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/pingui.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pingui.jclic.zip",
+  "instFile": "jclic/pingui.jclic.inst",
+  "clicZoneId": 3467,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3467",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pingui/jclic/pingui.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 30,
+  "mediaFiles": 58,
+  "totalSize": 1307033,
+  "files": [
+    "cover.jpg",
+    "jclic.js/a1.jpg",
+    "jclic.js/a10.jpg",
+    "jclic.js/a11.jpg",
+    "jclic.js/a2.jpg",
+    "jclic.js/a3.jpg",
+    "jclic.js/a4.jpg",
+    "jclic.js/a5.jpg",
+    "jclic.js/a6.jpg",
+    "jclic.js/a7.jpg",
+    "jclic.js/a8.jpg",
+    "jclic.js/a9.jpg",
+    "jclic.js/boqueron.jpg",
+    "jclic.js/cargol.jpg",
+    "jclic.js/cavall.wav",
+    "jclic.js/cervol.jpg",
+    "jclic.js/coco.jpg",
+    "jclic.js/elefan.jpg",
+    "jclic.js/gall.jpg",
+    "jclic.js/gall.wav",
+    "jclic.js/gaviota.jpg",
+    "jclic.js/ghumb3.jpg",
+    "jclic.js/gos.wav",
+    "jclic.js/hipo.jpg",
+    "jclic.js/home.jpg",
+    "jclic.js/imagen1.gif",
+    "jclic.js/imagen2.gif",
+    "jclic.js/imagen3.gif",
+    "jclic.js/imagen4.gif",
+    "jclic.js/imagen5.gif",
+    "jclic.js/lleo.jpg",
+    "jclic.js/m1.jpg",
+    "jclic.js/m2.jpg",
+    "jclic.js/mussol.jpg",
+    "jclic.js/orca.jpg",
+    "jclic.js/p.jpg",
+    "jclic.js/p1.jpg",
+    "jclic.js/p2.jpg",
+    "jclic.js/p3.jpg",
+    "jclic.js/p4.jpg",
+    "jclic.js/p5.jpg",
+    "jclic.js/p6.jpg",
+    "jclic.js/papall.jpg",
+    "jclic.js/pin1jpg.jpg",
+    "jclic.js/pin2.jpg",
+    "jclic.js/ping.jpg",
+    "jclic.js/pingu.jpg",
+    "jclic.js/pingucolonia1.gif",
+    "jclic.js/pingui.jclic",
+    "jclic.js/pinguinohum.au",
+    "jclic.js/porc.wav",
+    "jclic.js/portada.jpg",
+    "jclic.js/r1.jpg",
+    "jclic.js/r2.jpg",
+    "jclic.js/r3.jpg",
+    "jclic.js/r4.jpg",
+    "jclic.js/r5.jpg",
+    "jclic.js/rep.jpg",
+    "jclic.js/sud.jpg",
+    "jclic.js/tauro.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pingui.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

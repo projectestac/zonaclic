@@ -1,0 +1,92 @@
+{
+  "id": 2058,
+  "title": "Centenario \"Cueva de la Vieja\"",
+  "author": "Isabel Egido i Virginia Mas",
+  "school": "CEIP Vera Cruz Alpera (Castilla - La Mancha)",
+  "date": "26/05/10",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "prehistòria",
+    "es": "prehistoria",
+    "en": "prehistory"
+  },
+  "descCodes": [
+    314
+  ],
+  "description": {
+    "en": "JClic Activities about the 100th anniversary of the discovery of \"Cueva de la Vieja\" in Alpera, Albacete's province, in 1910.",
+    "ca": "Activitats relacionades amb la celebració del centenari del descobriment de la \"Cueva de la Vieja\" el 1910 a Alpera, província d'Albacete.",
+    "es": "Actividades relacionadas con la celebración del centenario del descubrimiento de la Cueva de la Vieja en 1910 en Alpera, provincia de Albacete."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cuevavie.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cuevavie.jclic.zip",
+  "instFile": "jclic/cuevavie.jclic.inst",
+  "clicZoneId": 3624,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3624",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cuevavie/jclic/cuevavie.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 13,
+  "totalSize": 348276,
+  "files": [
+    "cover.jpg",
+    "jclic.js/460bcb1d7f834bc846030efe710fcb0.jpg",
+    "jclic.js/comarc_alp_panelg.jpg",
+    "jclic.js/cuevavie.jclic",
+    "jclic.js/dibujo.gif",
+    "jclic.js/dibujo10.gif",
+    "jclic.js/dibujo11.gif",
+    "jclic.js/dibujo12.jpg",
+    "jclic.js/dibujo13.jpg",
+    "jclic.js/dibujo2.gif",
+    "jclic.js/dibujo6.gif",
+    "jclic.js/dibujo7.jpg",
+    "jclic.js/dibujo8.jpg",
+    "jclic.js/friso.jpg",
+    "jclic.js/mujeres.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cuevavie.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": 1126,
+  "title": "Temps de temps: A bots i barrals",
+  "author": "Joan A. Solano Querol",
+  "school": "Escola Cèsar August Tarragona",
+  "date": "03/06/04",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "description": {
+    "en": "From the fourth issue of the series, we will deepen in the most known meteorological phenomena: rain, storm and wind. This package is focused in the rains revealing its causes, undesirable effects (flooding) and recommendations to act correctly when we are suffering a flood. A short review of the most intense rains that affected the Catalan country.\n<br> In these pages you will find the other parts of the serie: \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=1096\">L'atmosfera</a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=2022\">Observem i mesurem</a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=2860\">La previsió meteorològica</a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=2861\">Llamp de rellamp</a> and \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=3216\">Vents i ventots</a>.",
+    "ca": "En aquest quart paquet de la sèrie dedicada a la meteorologia s'aprofundeix una mica en els fenòmens meteorològics més coneguts: pluges, tempestes i vents. En aquest paquet, concretament, ens centrarem en les pluges, descobrint les seves causes, efectes (riuades i inundacions) i les mesures a prendre en cas de ser sorpresos per un bon aiguat. Es fa també una petita revisió històrica de les pluges més violentes que han patit els països catalans.\n<br> En aquestes pàgines es troben les altres parts de la sèrie temps de temps: \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=1096\">L'atmosfera</a>, \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=2022\">Observem i mesurem</a>, \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=2860\">La previsió meteorològica</a>, \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=2861\">Llamp de rellamp</a> i \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=3216\">Vents i ventots</a>.",
+    "es": "En este cuarto paquete de la serie dedicada a la meteorología se profundiza un poco más en los fenómenos meteorológicos más conocidos: lluvia, tempestad y vientos. En este paquete, concretamente, nos centraremos en las lluvias, descubriendo sus causas, efectos (riadas e inundaciones) y las medidas a tomar en el caso de ser sorprendidos por una tormenta. Se hace también una pequeña revisión histórica de las lluvias más violentas que han sufrido los países catalanes.\n<br> En estas páginas se encuentran los otros paquetes de la serie: \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=1096\">L'atmosfera</a>, \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=2022\">Observem i mesurem</a>, \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=2860\">La previsió meteorològica</a>, \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=2861\">Llamp de rellamp</a> y \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=3216\">Vents i ventots</a>."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/pluja.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pluja.jclic.zip",
+  "instFile": "jclic/pluja.jclic.inst",
+  "clicZoneId": 2460,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2460",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pluja/jclic/pluja.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 29,
+  "mediaFiles": 31,
+  "totalSize": 3311292,
+  "files": [
+    "cover.gif",
+    "jclic.js/00102000.gif",
+    "jclic.js/aiguat.jpg",
+    "jclic.js/aiguats.avi",
+    "jclic.js/bomber.gif",
+    "jclic.js/dosfotos.gif",
+    "jclic.js/f_g03.gif",
+    "jclic.js/formfred.gif",
+    "jclic.js/freda.avi",
+    "jclic.js/freda00.gif",
+    "jclic.js/gota.gif",
+    "jclic.js/llev_pre.gif",
+    "jclic.js/martar_s.gif",
+    "jclic.js/martardo.gif",
+    "jclic.js/ordi.gif",
+    "jclic.js/p_storm1.gif",
+    "jclic.js/p_storm2.gif",
+    "jclic.js/paraigua.gif",
+    "jclic.js/pl_jardi.gif",
+    "jclic.js/pluja.jclic",
+    "jclic.js/ppcc.gif",
+    "jclic.js/radios.gif",
+    "jclic.js/raimon.wav",
+    "jclic.js/riusec.gif",
+    "jclic.js/situa01.gif",
+    "jclic.js/situa02.gif",
+    "jclic.js/situa03.gif",
+    "jclic.js/situa04.gif",
+    "jclic.js/situa05.gif",
+    "jclic.js/situa06.gif",
+    "jclic.js/situa_si.gif",
+    "jclic.js/tele.gif",
+    "jclic.js/tricreus.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pluja.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": 1749,
+  "title": "Movimiento y fuerzas",
+  "author": "Elda María Ubillús Namihas",
+  "date": "06/03/08",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "description": {
+    "en": "Project of activities addressed to secondary education about the movement and the forces. The project has activities about: \n<ul> \n <li>basic elements of movement </li>\n <li>types of movements </li>\n <li>vectors of forces </li>\n</ul>",
+    "ca": "Projecte d'activitats per a educació secundària sobre el moviment i les forces. A llarg de les activitats es treballen diferents conceptes: \n<ul> \n <li>mòbil, punts de referència, desplaçament, trajectòria, etc. </li>\n <li>tipus de moviments </li>\n <li>vectors de forces </li>\n</ul>",
+    "es": "Proyecto de actividades para educación secundaria sobre el movimiento y las fuerzas. A lo largo de las actividades se trabajan diferentes conceptos: \n<ul> \n <li>móvil, puntos de referencia, desplazamiento, trayectoria, etc. </li>\n <li>tipos de movimientos </li>\n <li>vectores de fuerzas </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/movfuerz.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/movfuerz.jclic.zip",
+  "instFile": "jclic/movfuerz.jclic.inst",
+  "clicZoneId": 3448,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3448",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/movfuerz/jclic/movfuerz.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 22,
+  "totalSize": 519399,
+  "files": [
+    "cover.gif",
+    "jclic.js/abella1.gif",
+    "jclic.js/aplauso.gif",
+    "jclic.js/baby52.gif",
+    "jclic.js/caida_libre.gif",
+    "jclic.js/camioneta2.gif",
+    "jclic.js/cochecito.gif",
+    "jclic.js/elementos.jpg",
+    "jclic.js/elementos_del_movimiento.png",
+    "jclic.js/exten.gif",
+    "jclic.js/fuerza_de_gravedad.jpg",
+    "jclic.js/fuerzas.jpg",
+    "jclic.js/movfuerz.jclic",
+    "jclic.js/movimiento_rectilineo1.gif",
+    "jclic.js/paracaidista.gif",
+    "jclic.js/people_037.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/representacion_grafica.jpg",
+    "jclic.js/rotacion.gif",
+    "jclic.js/tooth.gif",
+    "jclic.js/velocidad___tiempo.jpg",
+    "jclic.js/velocidad_vs_trayectoria.jpg",
+    "jclic.js/x_diana18.gif",
+    "jclic.js/x_terra3.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/movfuerz.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

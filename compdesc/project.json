@@ -1,0 +1,142 @@
+{
+  "id": 2045,
+  "title": "Comptem i descomptem",
+  "author": "Lourdes Reig Bustins",
+  "school": "Escola Pla d'Ametller Banyoles (Pla de l'Estany)",
+  "date": "27/04/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages, Mathematics",
+    "ca": "Llengües, Matemàtiques",
+    "es": "Lenguas, Matemáticas"
+  },
+  "areaCodes": [
+    "lleng",
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "càlcul, lògica",
+    "es": "cálculo, lógica",
+    "en": "calculation, logic"
+  },
+  "descCodes": [
+    702,
+    711
+  ],
+  "description": {
+    "en": "Project of activities about Maths addressed to first cycle of primary education. The project has three different parts: \n<ul> \n <li>calculation </li>\n <li>numers </li>\n <li>logical games </li>\n</ul>",
+    "ca": "Projecte d'activitats de matemàtiques pensades per el cicle inicial, amb tres apartats: \n<ul> \n <li>càlcul </li>\n <li>numeració </li>\n <li>jocs lògics </li>\n</ul>",
+    "es": "Proyecto de actividades de matemáticas pensadas para Ciclo inicial con tres apartados: \n<ul> \n <li>cálculo </li>\n <li>numeración </li>\n <li>juegos lógicos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/compdesc.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/compdesc.jclic.zip",
+  "instFile": "jclic/compdesc.jclic.inst",
+  "clicZoneId": 3614,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3614",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/compdesc/jclic/compdesc.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 61,
+  "totalSize": 3809181,
+  "files": [
+    "cover.jpg",
+    "jclic.js/0.jpg",
+    "jclic.js/1.jpg",
+    "jclic.js/10.jpg",
+    "jclic.js/11.jpg.jpg",
+    "jclic.js/14.jpg",
+    "jclic.js/15.jpg",
+    "jclic.js/19.jpg",
+    "jclic.js/2.jpg",
+    "jclic.js/25.jpg",
+    "jclic.js/2cors.jpg",
+    "jclic.js/3.jpg",
+    "jclic.js/32.jpg",
+    "jclic.js/48.jpg",
+    "jclic.js/51.jpg",
+    "jclic.js/6.jpg",
+    "jclic.js/64.jpg",
+    "jclic.js/75.jpg",
+    "jclic.js/88.jpg",
+    "jclic.js/8blau.jpg",
+    "jclic.js/9.jpg",
+    "jclic.js/barret_magia.jpg",
+    "jclic.js/boles_billar.jpg",
+    "jclic.js/bosc.jpg",
+    "jclic.js/calendari1.jpg",
+    "jclic.js/carrer.jpg",
+    "jclic.js/compdesc.jclic",
+    "jclic.js/comptem_i_descomptem.wav",
+    "jclic.js/daus.jpg",
+    "jclic.js/daus_colors.jpg",
+    "jclic.js/endevinalla.wav",
+    "jclic.js/fons_boles.jpg",
+    "jclic.js/fons_canco.jpg",
+    "jclic.js/fons_estrelles_blaves.jpg",
+    "jclic.js/fons_estrelles_roses.jpg",
+    "jclic.js/fons_fulles.jpg",
+    "jclic.js/fons_papallones_fuccia.jpg",
+    "jclic.js/fons_papallones_vermell.jpg",
+    "jclic.js/imatgefonsprojecte.jpg",
+    "jclic.js/ma1.jpg",
+    "jclic.js/ma2.jpg",
+    "jclic.js/ma3.jpg",
+    "jclic.js/ma4.jpg",
+    "jclic.js/mag.gif",
+    "jclic.js/mandala1.jpg",
+    "jclic.js/mandala2.jpg",
+    "jclic.js/mandala4.jpg",
+    "jclic.js/mandala5.jpg",
+    "jclic.js/mandala6.jpg",
+    "jclic.js/mandala7.jpg",
+    "jclic.js/mandala8.jpg",
+    "jclic.js/mandala9.jpg",
+    "jclic.js/numeracio.jpg",
+    "jclic.js/papallona1.jpg",
+    "jclic.js/papallona2.jpg",
+    "jclic.js/papallona3.jpg",
+    "jclic.js/papallona4.jpg",
+    "jclic.js/papallona5.jpg",
+    "jclic.js/papallona6.jpg",
+    "jclic.js/papallona7.jpg",
+    "jclic.js/papallona8.jpg",
+    "jclic.js/setmana.jpg",
+    "jclic.js/tresitres.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/compdesc.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

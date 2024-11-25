@@ -1,0 +1,97 @@
+{
+  "id": 2118,
+  "title": "Egurra eta bere eratorriak",
+  "author": "Orreaga Urroz Goicoechea",
+  "school": "Lekaroz-Elizondo Baztan - Lekaroz (Navarra)",
+  "date": "24/03/11",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Design & technology",
+    "ca": "Tecnologies",
+    "es": "Tecnología"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16), High school (16-18)",
+    "ca": "Secundària (12-16), Batxillerat (16-18)",
+    "es": "Secundaria (12-16), Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "SEC",
+    "BTX"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la tecnologia, tecnologia de la fusta",
+    "es": "aprendizaje de la tecnología, tecnología de la madera",
+    "en": "learning of the technology, technology of the wood"
+  },
+  "descCodes": [
+    728,
+    748
+  ],
+  "description": {
+    "en": "Project of activities about the wood and its derivatives addressed to secondary education: \n<ul> \n <li>natural wood: type, hardness and colour </li>\n <li>artificial wood: DM, chipboard... </li>\n <li>wood properties: hygroscopic, density ... </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre la fusta i els seus derivats adreçat a l'àrea de tecnologia: \n<ul> \n <li>fusta natural: tipus, duresa i colors </li>\n <li>fusta artificial: DM, aglomerat... </li>\n <li>propietats de la fusta: higroscopicitat, densitat... </li>\n</ul>",
+    "es": "Proyecto de actividades sobre la madera y sus derivados dirigido al área de tecnología: \n<ul> \n <li>madera natural: tipo, dureza y colores </li>\n <li>madera artificial: DM, aglomerado... </li>\n <li>propiedades de la madera: higroscopicidad, densidad... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/egurra.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.jpg",
+  "zipFile": "jclic/egurra.jclic.zip",
+  "instFile": "jclic/egurra.jclic.inst",
+  "clicZoneId": 3674,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3674",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/egurra/jclic/egurra.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 6,
+  "mediaFiles": 16,
+  "totalSize": 805384,
+  "files": [
+    "cover.jpg",
+    "jclic.js/abedul_1_.jpg",
+    "jclic.js/abeto.jpg",
+    "jclic.js/acebo_1_.jpg",
+    "jclic.js/aglomerado_1_.jpg",
+    "jclic.js/arce_1_.jpg",
+    "jclic.js/boj_1_.jpg",
+    "jclic.js/caoba_1_.jpg",
+    "jclic.js/cerezo_2_.jpg",
+    "jclic.js/chopo_1_.jpg",
+    "jclic.js/contrachapado_1_.jpg",
+    "jclic.js/dm_1_.jpg",
+    "jclic.js/ebano_1_.jpg",
+    "jclic.js/egurra.jclic",
+    "jclic.js/haya_1_.jpg",
+    "jclic.js/pino_1_.jpg",
+    "jclic.js/roble_1_.jpg",
+    "jclic.js/tronco_orre_copia.jpg",
+    "project.json",
+    "thumb.jpg",
+    "jclic.js/index.html",
+    "jclic.js/egurra.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

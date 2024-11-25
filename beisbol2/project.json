@@ -1,0 +1,104 @@
+{
+  "id": 2067,
+  "title": "Aprendiendo el béisbol",
+  "author": "Carlos Toro",
+  "school": "U.E.E. Prisco Pérez Monasterio (Centro Bolivariano de Informática y Telemática \"Roxana M. de Hernández\") Villa de Cura, Estado Aragua (Venezuela)",
+  "date": "15/09/10",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "esports, joc esportiu",
+    "es": "deportes, juego deportivo",
+    "en": "sports, sport game"
+  },
+  "descCodes": [
+    424,
+    426
+  ],
+  "description": {
+    "en": "Project of activities about baseball and the rules, its history, and identify the different positions occupied by the players within the baseball field, through memory games, puzzles, crosswords and association activities.",
+    "ca": "Projecte d'activitats adreçat a estudiants de cicle superior d'educació primària, amb la finalitat de conèixer els conceptes fonamentals del beisbol, així com les seves normes, la seva història... A més d'identificar les diferents posicions que ocupen els jugadors dins del camp de beisbol, a través de jocs de memòria, trencaclosques, associacions i mots encreuats.",
+    "es": "Proyecto de actividades dirigido a estudiantes de ciclo superior de educación primaria, con la finalidad de conocer los conceptos fundamentales del béisbol, así como las reglas, su historia tanto a nivel mundial y como venezolano, además de identificar las diferentes posiciones que ocupan los jugadores dentro del campo de béisbol, a través de juegos de memoria, rompecabezas, asociaciones y crucigramas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/beisbol2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/beisbol2.jclic.zip",
+  "instFile": "jclic/beisbol2.jclic.inst",
+  "clicZoneId": 3633,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3633",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/beisbol2/jclic/beisbol2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 24,
+  "totalSize": 2401682,
+  "files": [
+    "cover.jpg",
+    "jclic.js/base.jpg",
+    "jclic.js/bate1.png",
+    "jclic.js/beisbol1.jpg",
+    "jclic.js/beisbol2.jclic",
+    "jclic.js/beisbol5.jpg",
+    "jclic.js/beisbol6.jpg",
+    "jclic.js/creditos.png",
+    "jclic.js/equipos.png",
+    "jclic.js/estadio_jose_perez_colmenares.png",
+    "jclic.js/feliz.png",
+    "jclic.js/goma.jpg",
+    "jclic.js/guante.png",
+    "jclic.js/historia.jpg",
+    "jclic.js/historia2.jpg",
+    "jclic.js/jonron1.jpg",
+    "jclic.js/materiales.gif",
+    "jclic.js/pelota1.png",
+    "jclic.js/portada_01.png",
+    "jclic.js/portada_final.png",
+    "jclic.js/posiciones.png",
+    "jclic.js/posiciones02.png",
+    "jclic.js/primerabase.jpg",
+    "jclic.js/segundabase.jpg",
+    "jclic.js/terecera.jpg",
+    "jclic.js/texture6.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/beisbol2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

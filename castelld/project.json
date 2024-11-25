@@ -1,0 +1,92 @@
+{
+  "id": 857,
+  "title": "Castelldefels",
+  "author": "Carme Rodríguez, Cecília Nogué i Teresa Pau",
+  "school": "Escola Margalló Castelldefels (Baix Llobregat)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "Castelldefels",
+    "es": "Castelldefels",
+    "en": "Castelldefels"
+  },
+  "descCodes": [
+    948
+  ],
+  "description": {
+    "en": "Clic activities about Castelldefels, a town near Barcelona.",
+    "ca": "Conjunt d'activitats sobre alguns dels indrets de la localitat de Castelldefels.",
+    "es": "Conjunto de actividades sobre la localidad de Castelldefels."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/castelld.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/castelld.jclic.zip",
+  "instFile": "jclic/castelld.jclic.inst",
+  "clicZoneId": 1485,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1485",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/castelld/jclic/castelld.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 13,
+  "totalSize": 328054,
+  "files": [
+    "cover.jpg",
+    "jclic.js/canal.jpg",
+    "jclic.js/canal2.jpg",
+    "jclic.js/canalm.jpg",
+    "jclic.js/castell.jpg",
+    "jclic.js/castell2.jpg",
+    "jclic.js/castelld.jclic",
+    "jclic.js/castellm.jpg",
+    "jclic.js/garraf.jpg",
+    "jclic.js/garrafm.jpg",
+    "jclic.js/logocast.gif",
+    "jclic.js/marga.jpg",
+    "jclic.js/margal_1.jpg",
+    "jclic.js/margam.jpg",
+    "jclic.js/playad.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/castelld.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

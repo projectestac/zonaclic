@@ -1,0 +1,101 @@
+{
+  "id": 1649,
+  "title": "Tecnología: electrónica",
+  "author": "José Carlos Rodríguez Redondo",
+  "school": "IES Emilio Prados Málaga (Andalucía)",
+  "date": "23/02/07",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Design & technology",
+    "ca": "Tecnologies",
+    "es": "Tecnología"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "electrònica",
+    "es": "electronica",
+    "en": "electronics"
+  },
+  "descCodes": [
+    1375
+  ],
+  "description": {
+    "en": "Project of activities of technology addressed to third course of ESO about electronics.",
+    "ca": "Projecte d'activitats de tecnologia adreçades a tercer curs d'ESO sobre electrònica: represenatció gràfica de diferentes elements com una resistència, un transistor, un condensador, etc.",
+    "es": "Proyecto de actividades de tecnología dirigido a tercer curso de ESO sobre electrónica: representación gráfica de diferentes elementos com una resistencia, un transistor, un condensador, etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/tecno3.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tecno3.jclic.zip",
+  "instFile": "jclic/tecno3.jclic.inst",
+  "clicZoneId": 3360,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3360",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/tecno3/jclic/tecno3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 7,
+  "mediaFiles": 22,
+  "totalSize": 208096,
+  "files": [
+    "cover.jpg",
+    "jclic.js/condensador.jpg",
+    "jclic.js/condensador_1.gif",
+    "jclic.js/condensador_2.jpg",
+    "jclic.js/condensador_3.jpg",
+    "jclic.js/condensador_4.jpg",
+    "jclic.js/condensador_5.jpg",
+    "jclic.js/condensador_electrolitico__1.jpg",
+    "jclic.js/condensador_poliester_1.jpg",
+    "jclic.js/diodo.gif",
+    "jclic.js/diodo_zener.jpg",
+    "jclic.js/insti_2.jpg",
+    "jclic.js/ldr.gif",
+    "jclic.js/led.gif",
+    "jclic.js/led.jpg",
+    "jclic.js/logo_instituto.gif",
+    "jclic.js/ntc.gif",
+    "jclic.js/pnp.gif",
+    "jclic.js/potenciometro.jpg",
+    "jclic.js/potenciometro_2.jpg",
+    "jclic.js/ptc.gif",
+    "jclic.js/resistencia.gif",
+    "jclic.js/resistencia_3.jpg",
+    "jclic.js/tecno3.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/tecno3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

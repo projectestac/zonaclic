@@ -1,0 +1,113 @@
+{
+  "id": 1022,
+  "title": "Jacint Verdaguer",
+  "author": "Jesús Batlle Auguet",
+  "school": "C Bell-lloc del Pla Girona",
+  "date": "02/06/03",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "description": {
+    "en": "Package about the catalan writter Jacint Verdaguer. The package has activities about his life, places where he was living and his most important literary works.",
+    "ca": "Paquet d'activitats sobre Jacint Verdaguer. Al paquet trobem activitats sobre la seva vida, els llocs on va viure i les seves obres més importants.",
+    "es": "Paquete de actividades sobre Jacint Verdaguer. En el paquete encontramos actividades sobre su vida, los lugares en los que vivió y sus obras más importantes."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/verdague.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/verdague.jclic.zip",
+  "instFile": "jclic/verdague.jclic.inst",
+  "clicZoneId": 2147,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2147",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/verdague/jclic/verdague.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 29,
+  "mediaFiles": 41,
+  "totalSize": 3228102,
+  "files": [
+    "cover.jpg",
+    "jclic.js/aires.jpg",
+    "jclic.js/angels.gif",
+    "jclic.js/arpa.gif",
+    "jclic.js/atlant_1.jpg",
+    "jclic.js/baptisme.jpg",
+    "jclic.js/cambrmo1.jpg",
+    "jclic.js/canigo.jpg",
+    "jclic.js/cantona.jpg",
+    "jclic.js/cinto.jpg",
+    "jclic.js/comarca1.jpg",
+    "jclic.js/comarq_1.gif",
+    "jclic.js/dosmar_1.jpg",
+    "jclic.js/escut.gif",
+    "jclic.js/folgue_1.jpg",
+    "jclic.js/fonsfi_1.jpg",
+    "jclic.js/font.jpg",
+    "jclic.js/friso1.gif",
+    "jclic.js/friso10.gif",
+    "jclic.js/friso2.gif",
+    "jclic.js/friso4.gif",
+    "jclic.js/friso5.gif",
+    "jclic.js/friso8.gif",
+    "jclic.js/friso9.gif",
+    "jclic.js/idilis.jpg",
+    "jclic.js/malalt.jpg",
+    "jclic.js/monplan.jpg",
+    "jclic.js/mont.jpg",
+    "jclic.js/mont1.jpg",
+    "jclic.js/osona.jpg",
+    "jclic.js/peno.jpg",
+    "jclic.js/pmojaext.jpg",
+    "jclic.js/sous.jpg",
+    "jclic.js/taula1.jpg",
+    "jclic.js/taula2.jpg",
+    "jclic.js/taula3.jpg",
+    "jclic.js/taula4.jpg",
+    "jclic.js/trnasa_1.jpg",
+    "jclic.js/verdague.jclic",
+    "jclic.js/verdba_1.jpg",
+    "jclic.js/verge.jpg",
+    "jclic.js/vergleva.jpg",
+    "jclic.js/virolai.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/verdague.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

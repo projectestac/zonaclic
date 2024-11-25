@@ -1,0 +1,102 @@
+{
+  "id": 188,
+  "title": "Temps de temps: L'atmosfera",
+  "author": "Joan A. Solano Querol",
+  "school": "Institut Campclar Tarragona (Torreforta) (Tarragonès)",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "meteorologia, clima",
+    "es": "meteorología, clima",
+    "en": "meteorology, climate"
+  },
+  "descCodes": [
+    89,
+    779
+  ],
+  "description": {
+    "en": "This is the first package of a collection about meteorology, focused on the atmosphere and the meteorological phenomena.\n<br> In these pages you will find the other parts of the serie: \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=2022\">Observem i mesurem</a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=2860\">La previsió meteorològica</a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=2460\">A bots i barrals</a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=2861\">Llamp de rellamp</a> and \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=3216\">Vents i ventots</a>.",
+    "ca": "Aquest primer paquet de la sèrie dedicada a la meteorologia se centra en l'estudi de l'atmosfera i els fenòmens atmosfèrics més comuns. \n<p> El primer grup d'activitats es dedica a estudiar l'estructura, composició i funcionament de l'atmosfera, per tal de veure com aquesta capa de gasos i la seva interrelació amb les radiacions solars determinen l'existència del clima i les variacions climàtiques al nostre planeta.</p>\n<p> El segon grup d'exercicis vol aconseguir que l'alumne arribi a un coneixement sistematitzat dels meteors més comuns.<br> En aquestes pàgines es troben les altres parts de la sèrie temps de temps: <a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=2022\">Observem i mesurem</a>, <a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=2860\">La previsió meteorològica</a>, <a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=2460\">A bots i barrals</a>, <a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=2861\">Llamp de rellamp</a> i <a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=3216\">Vents i ventots</a>. </p>",
+    "es": "Este primer paquete de la serie dedicada a la meteorología se centra en el estudio de la atmósfera y los fenómenos atmosféricos más comunes.\n<p> El primer grupo de actividades se dedica a estudiar la estructura, composición y funcionamiento de la atmósfera, para ver como ésta capa de gases y su interrelación con las radiaciones solares determinan la existencia del clima y de las variaciones climáticas de nuestro planeta.</p>\n<p> El segundo grupo de ejercicios quiere conseguir que el alumno llegue a un conocimiento sistematizado de los meteoros más comunes.<br> En estas páginas se encuentran las otras partes de la serie: <a href=\"http://clic.xtec.cat/db/act_es.jsp?id=2022\">Observem i mesurem</a>, <a href=\"http://clic.xtec.cat/db/act_es.jsp?id=2860\">La previsió meteorològica</a>, <a href=\"http://clic.xtec.cat/db/act_es.jsp?id=2460\">A bots i barrals</a>, <a href=\"http://clic.xtec.cat/db/act_es.jsp?id=2861\">Llamp de rellamp</a> y <a href=\"http://clic.xtec.cat/db/act_es.jsp?id=3216\">Vents i ventots</a>. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/atmosfe2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/atmosfe2.jclic.zip",
+  "instFile": "jclic/atmosfe2.jclic.inst",
+  "clicZoneId": 1096,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1096",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/atmosfe2/jclic/atmosfe2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 22,
+  "totalSize": 484931,
+  "files": [
+    "cover.jpg",
+    "jclic.js/atmosf30.jpg",
+    "jclic.js/atmosfe2.jclic",
+    "jclic.js/aurora1.jpg",
+    "jclic.js/boira1.jpg",
+    "jclic.js/capes.gif",
+    "jclic.js/capes_pt.gif",
+    "jclic.js/cel_circ.jpg",
+    "jclic.js/dew1.jpg",
+    "jclic.js/earth2.jpg",
+    "jclic.js/fletxa.gif",
+    "jclic.js/fons7.gif",
+    "jclic.js/gebre.jpg",
+    "jclic.js/llamp1.jpg",
+    "jclic.js/llampec.jpg",
+    "jclic.js/marti1.jpg",
+    "jclic.js/neu1.jpg",
+    "jclic.js/pedra1.jpg",
+    "jclic.js/plou.gif",
+    "jclic.js/pluja1.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/termos.gif",
+    "jclic.js/termos1.gif",
+    "jclic.js/vent.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/atmosfe2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

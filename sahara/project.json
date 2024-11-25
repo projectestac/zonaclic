@@ -1,0 +1,101 @@
+{
+  "id": 1697,
+  "title": "Saharako ipuinak - Herrena eta itsua",
+  "author": "César Martínez Iturralde",
+  "school": "CP San Frantzisko Herri Ikastetxea Bermeo (Euzkadi)",
+  "date": "17/07/07",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, ortografia, llengua basca",
+    "es": "aprendizaje de la lengua, ortografía, lengua vasca",
+    "en": "learning of the language, spelling, Basque language"
+  },
+  "descCodes": [
+    110,
+    146,
+    922
+  ],
+  "description": {
+    "en": "Project of activities in basque based on the Amara Berri pedagogic system. \n<ul> \n <li>Comprehension </li>\n <li>Vocabulary </li>\n <li>Spelling </li>\n</ul>",
+    "ca": "Projecte d'activitats de llengua basca basat en el sistema pedagògic Amara Berri. A partir de la lectura d'un conte es realitzen diverses activitats de: \n<ul> \n <li>Comprensió </li>\n <li>Vocabulari </li>\n <li>Ortografia z, s,tx, tz, ts, etc. </li>\n</ul>",
+    "es": "Proyecto de actividades de lengua vasca basado en el sistema pedagógico Amara Berri. Apoyándose en la lectura de un cuento se realizan diversas actividades de: \n<ul> \n <li>Comprensión </li>\n <li>Vocabulario </li>\n <li>Ortografía z, s,tx, tz, ts, etc. </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sahara.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sahara.jclic.zip",
+  "instFile": "jclic/sahara.jclic.inst",
+  "clicZoneId": 3406,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3406",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sahara/jclic/sahara.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 20,
+  "totalSize": 1066176,
+  "files": [
+    "cover.jpg",
+    "jclic.js/afrika.jpg",
+    "jclic.js/atea.jpg",
+    "jclic.js/aurkezt._copia.jpg",
+    "jclic.js/cesta.jpg",
+    "jclic.js/dibujo1.jpg",
+    "jclic.js/frutas.jpg",
+    "jclic.js/ikonoa.gif",
+    "jclic.js/jaimas.jpg",
+    "jclic.js/lapiceros.jpg",
+    "jclic.js/letrak.jpg",
+    "jclic.js/libp.gif",
+    "jclic.js/libp2.gif",
+    "jclic.js/libros.jpg",
+    "jclic.js/okbalak.wav",
+    "jclic.js/palmera.jpg",
+    "jclic.js/palmera2.jpg",
+    "jclic.js/palmeraverde.jpg",
+    "jclic.js/palmondoak.jpg",
+    "jclic.js/perrito_corre.gif",
+    "jclic.js/roba_letras.jpg",
+    "jclic.js/sahara.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sahara.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

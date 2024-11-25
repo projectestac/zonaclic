@@ -1,0 +1,93 @@
+{
+  "id": 938,
+  "title": "Fatima",
+  "author": "Maite Verdú Javierre",
+  "school": "Institut Ventura Gassol Badalona (Barcelonès)",
+  "date": "12/12/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "ca": "Llengües",
+    "es": "Lenguas",
+    "en": "Languages"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, llengua anglesa",
+    "es": "lengua inglesa, lengua inglesa",
+    "en": "English language, English language"
+  },
+  "descCodes": [
+    130,
+    667
+  ],
+  "description": {
+    "en": "Package of activities with two major aims: learn English and peace. The package is structured around the experience of one girl from Morocco that leaves her country and come to Barcelona. The different stages are : \n<ul> \n <li>Why does she leave ? </li>\n <li>How does she come ? </li>\n <li>What happens as an illegal emigrant ? </li>\n <li>How does her situation evolve? </li>\n <li>What type of future will she have ? </li>\n</ul>",
+    "ca": "Aquest paquet d'activitats té dos tipus d'objectius: aquells directament lligats a l'aprenentatge de la llengua anglesa i d'altres relacionats amb l'eix transversal d'educació per la pau. El paquet s'estructura al voltant de l'experiència d'una noia marroquina que decideix deixar el seu país i ve a Barcelona. Les diferents etapes seran: \n<ul> \n <li>Per què marxa? </li>\n <li>Com ve? </li>\n <li>Què es troba en arribar com a immigrant il·legal? </li>\n <li>Com evoluciona la seva situació? </li>\n <li>Quin futur pot tenir? </li>\n</ul> Constantment passarem de l'experiència personal a la generalització i al treball conceptual i al contrari. El fet d'utilitzar el cas d'una persona individualitzada pretén facilitar l'empatia de l'adolescent, afavorint que, una vegada sensibilitzat per l'experiència individual, passi a una visió social. \n<p> Per altra banda, també es vol donar una imatge del Marroc polifacètica, apuntant a alguns dels problemes socials que té però també deixant veure aspectes positius que no l'identifiqui només amb la pobresa. </p>",
+    "es": "Este paquete de actividades tiene dos tipos de objetivos: aquellos directamente relacionados con el aprendizaje de la lengua inglesa y otros relacionados con el eje transversal de educación por la paz. El paquete se estructura alrededor de la experiencia de una chica marroquina que decide dejar su país y va a Barcelona. Las diferentes etapas son: \n<ul> \n <li>¿Por qué se va? </li>\n <li>¿Cómo viene? </li>\n <li>¿Qué se encuentra al llegar como inmigrante ilegal? </li>\n <li>¿Cómo evoluciona su situación? </li>\n <li>¿Qué futuro puede tener? </li>\n</ul> Constantemente se pasa de la experiencia personal a la generalización y al trabajo conceptual y al contrario. El hecho de utilizar el caso de una persona concreta favorece la empatía del adolescente haciendo que una vez sensibilizado por la experiencia individual, pase a una visión social. \n<p> Por otro lado también se pretende dar una imagen polifacética de Marruecos, apuntando a algunos de los problemas sociales que tiene, pero también dejando entrever aspectos positivos que no identifique el país sólo con la pobreza. </p>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/fatima.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fatima.jclic.zip",
+  "instFile": "jclic/fatima.jclic.inst",
+  "clicZoneId": 2046,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2046",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fatima/jclic/fatima.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 13,
+  "totalSize": 6453020,
+  "files": [
+    "cover.gif",
+    "jclic.js/cel3.jpg",
+    "jclic.js/chefch.jpg",
+    "jclic.js/costum.jpg",
+    "jclic.js/costum2.jpg",
+    "jclic.js/fatima.jclic",
+    "jclic.js/flag.gif",
+    "jclic.js/frontp.jpg",
+    "jclic.js/intr.wav",
+    "jclic.js/mapofm_1.jpg",
+    "jclic.js/medina.jpg",
+    "jclic.js/present.wav",
+    "jclic.js/stamp.jpg",
+    "jclic.js/tangier.jpg",
+    "jclic.js/tangier2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fatima.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": 1573,
+  "title": "Banyoles ciutat",
+  "author": "Enric Peiris Poch",
+  "school": "Escola Mn. Baldiri Rexach Banyoles (Pla de l'Estany)",
+  "date": "28/03/06",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "New package about the Catalan city of Banyoles which complements a previous packages named \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=1471\">La comarca del Pla de l'Estany</a> and \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=2561\">L'estany de Banyoles</a>. Inside this package are activities about the new and the old village of Banyoles, the most distinguished monuments and areas, and street maps.",
+    "ca": "Nou paquet sobre la ciutat de Banyoles que complementa a \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=1471\">La comarca del Pla de l'Estany</a> i a \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=2561\">L'estany de Banyoles</a>. Al paquet trobem activitats sobre la vila nova i la vila vella de Banyoles, monuments i espais més importants, plànols de la vila...",
+    "es": "Nuevo paquete sobre la ciudad de Banyoles que complementa a \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=1471\">La comarca del Pla de l'Estany</a> y a \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=2561\">L'estany de Banyoles</a>. El paquete contiene actividades sobre la parte nueva y la antigua de la ciudad de Banyoles, monumentos y espacios más importantes, planos de la villa..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/bciutat.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/bciutat.jclic.zip",
+  "instFile": "jclic/bciutat.jclic.inst",
+  "clicZoneId": 3291,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3291",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/bciutat/jclic/bciutat.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 38,
+  "mediaFiles": 23,
+  "totalSize": 1446797,
+  "files": [
+    "cover.jpg",
+    "jclic.js/ajun.gif",
+    "jclic.js/ajun1.gif",
+    "jclic.js/b1.gif",
+    "jclic.js/b2.gif",
+    "jclic.js/bany1a_1.gif",
+    "jclic.js/bciutat.jclic",
+    "jclic.js/bravo.wav",
+    "jclic.js/c1.gif",
+    "jclic.js/cex1.gif",
+    "jclic.js/esc.gif",
+    "jclic.js/font.gif",
+    "jclic.js/g1.gif",
+    "jclic.js/h1.gif",
+    "jclic.js/map4.gif",
+    "jclic.js/mar.gif",
+    "jclic.js/moltbe.wav",
+    "jclic.js/mon.gif",
+    "jclic.js/muralla.gif",
+    "jclic.js/pav1.gif",
+    "jclic.js/pesquera.gif",
+    "jclic.js/pia1.gif",
+    "jclic.js/pind1.gif",
+    "jclic.js/pla.gif",
+    "jclic.js/pla1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/bciutat.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

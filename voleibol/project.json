@@ -1,0 +1,99 @@
+{
+  "id": 1828,
+  "title": "Voleibol",
+  "author": "David García Núñez",
+  "school": "C.E.I.P. Sierra de Cádiz Algar - Cádiz (ND)",
+  "date": "27/01/09",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de l'educació física, esports, joc esportiu, voleibol",
+    "es": "aprendizaje de la educación física, deportes, juego deportivo, voleyball",
+    "en": "learning of the physical education, sports, sport game, voleibol"
+  },
+  "descCodes": [
+    422,
+    424,
+    426,
+    1393
+  ],
+  "description": {
+    "en": "Set of activities about volleyball:<ul>\n<li>origins </li>\n<li>technique: serve, pass and kill shot </li>\n<li>tactic  </li></ul>",
+    "ca": "Projecte d'activitats al voltant del voleibol on es tracten diferents punts d'aquest esport:\n<ul> \n <li>orígens </li>\n <li>tècnica: serveis, passada i rematades </li>\n <li>tàctica </li>\n</ul>",
+    "es": "Proyecto de actividades sobre el deporte del voleibol con actividades que tratan diferentes puntos de dicho deporte: \n<ul> \n <li>orígenes </li>\n <li>técnica: saques, pases y remates </li>\n <li>táctica </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/voleibol.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/voleibol.jclic.zip",
+  "instFile": "jclic/voleibol.jclic.inst",
+  "clicZoneId": 3517,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3517",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/voleibol/jclic/voleibol.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 9,
+  "mediaFiles": 17,
+  "totalSize": 379269,
+  "files": [
+    "cover.gif",
+    "jclic.js/180px_volleyballrotation.png",
+    "jclic.js/320px_volleyball_serve_svg.png",
+    "jclic.js/acierto.mp3",
+    "jclic.js/bloqueo.jpg",
+    "jclic.js/campo_voleibol.gif",
+    "jclic.js/campo_voleibol_rotaciones.gif",
+    "jclic.js/completo.mp3",
+    "jclic.js/error.mp3",
+    "jclic.js/posicionvoley.gif",
+    "jclic.js/remate.gif",
+    "jclic.js/saque_bajo.jpg",
+    "jclic.js/saque_de_tenis.gif",
+    "jclic.js/toque_antebrazos.gif",
+    "jclic.js/toque_de_antebrazos.gif",
+    "jclic.js/voleibol.jclic",
+    "jclic.js/volly002.gif",
+    "jclic.js/volly034.gif",
+    "jclic.js/volly037.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/voleibol.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": 1514,
+  "title": "Christmas is here!",
+  "author": "Asunción Maestre Borrero",
+  "date": "20/12/05",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, nadal",
+    "es": "lengua inglesa, navidad",
+    "en": "English language, christmas"
+  },
+  "descCodes": [
+    130,
+    882
+  ],
+  "description": {
+    "en": "Clic activities about Christmas and Santa Claus. The students will learn the Christmas song \"Santa Claus is Coming to Town\".",
+    "ca": "Aquestes activitats pretenen profunditzar en el significat del símbol de Santa Claus. Els alumnes aprendran una nadala típica anglesa com és \"Santa Claus is Coming to Town\".",
+    "es": "Con estas actividades se pretende profundizar un poco en el significado del símbolo de Santa Claus. Los alumnos aprenderán un villancico típico inglés como \"Santa Claus is Coming to Town\"."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/navidad.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/navidad.jclic.zip",
+  "instFile": "jclic/navidad.jclic.inst",
+  "clicZoneId": 3228,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3228",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/navidad/jclic/navidad.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 26,
+  "totalSize": 4633709,
+  "files": [
+    "cover.gif",
+    "jclic.js/2town.mid",
+    "jclic.js/adornos.jpg",
+    "jclic.js/applause.wav",
+    "jclic.js/arbol.jpg",
+    "jclic.js/arbol2.jpg",
+    "jclic.js/asiwa.mid",
+    "jclic.js/belen.jpg",
+    "jclic.js/calcetin.jpg",
+    "jclic.js/calcetines.jpg",
+    "jclic.js/caramelo.jpg",
+    "jclic.js/cena_nochebuena.jpg",
+    "jclic.js/chimenea.jpg",
+    "jclic.js/clapping.wav",
+    "jclic.js/jbelrock.mid",
+    "jclic.js/jnbell2.mid",
+    "jclic.js/letitsno.mid",
+    "jclic.js/mapa_y_paises.jpg",
+    "jclic.js/mensaje_de_santa.jpg",
+    "jclic.js/navidad.jclic",
+    "jclic.js/regalos.jpg",
+    "jclic.js/reno.jpg",
+    "jclic.js/rudolphreindeer.mid",
+    "jclic.js/santa2.jpg",
+    "jclic.js/sclaus.mp3",
+    "jclic.js/trineo.jpg",
+    "jclic.js/velas.jpg",
+    "jclic.js/xmas.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/navidad.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

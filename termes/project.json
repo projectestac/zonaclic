@@ -1,0 +1,118 @@
+{
+  "id": 1688,
+  "title": "Les termes romanes de Sant Boi",
+  "author": "Pedro Pérez Floro",
+  "school": "C Sant Josep Sant Boi de Llobregat (Baix Llobregat)",
+  "date": "29/06/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "història de roma, termes romanes",
+    "es": "historia de roma, termas romanas",
+    "en": "history of blunt, roman thermal baths"
+  },
+  "descCodes": [
+    253,
+    1379
+  ],
+  "description": {
+    "en": "Set of activities about the roman ant the thermal baths: \n<ul> \n <li><i><b>Apodyterium</b></i> </li>\n <li><i><b>Frigidarium</b></i> </li>\n <li><i><b>Tepidarium</b></i> </li>\n <li><i><b>Sudatorium</b></i> </li>\n <li><i><b>Caldarium</b></i> </li>\n <li><i><b>Hypocaust</b></i> </li>\n</ul>",
+    "ca": "Conjunt d'activitats per conèixer com eren els banys a l'època dels romans i les diferents sales que es trobaven a les termes: \n<ul> \n <li><i><b>Apodyterium</b></i>: Sala per desvestir-se. </li>\n <li><i><b>Frigidarium</b></i>: Cambra freda a temperatura ambient. </li>\n <li><i><b>Tepidarium</b></i>: Sala amb una piscina d'aigua tèbia per acostumar el cos a la calor. </li>\n <li><i><b>Sudatorium</b></i>: Sauna per fer transpirar la pell. </li>\n <li><i><b>Caldarium</b></i>: Sala destinada als banys calents. </li>\n <li><i><b>Hypocaust</b></i>: Sistema de cal·lefacció subterrània. </li>\n</ul> El projecte es basa en les termes romanes que hi ha a Sant Boi del Llobregat. Els dibuixos són de Pilarín Bayés, del llibre \n<i>Petita Història de les termes Romanes de Sant Boi</i>.",
+    "es": "Conjunto de actividades para conocer cómo eran los baños en la época de los romanos y las diferentes salas que se encuentraban en unas termas: \n<ul> \n <li><i><b>Apodyterium</b></i>: Sala para desvestirse. </li>\n <li><i><b>Frigidarium</b></i>: Cámara fría a temperatura ambiente. </li>\n <li><i><b>Tepidarium</b></i>: Sala con una piscina de agua templada para acostumbrar el cuerpo al calor. </li>\n <li><i><b>Sudatorium</b></i>: Sauna para hacer transpirar la piel. </li>\n <li><i><b>Caldarium</b></i>: Sala destinada a los baños calientes. </li>\n <li><i><b>Hypocaust</b></i>: Sistema de calefacción subterránea. </li>\n</ul> El proyecto se basa en las termas romanas que hay en San Boi de Llobregat. Los dibujos son de Pilarín Bayés, del libro \n<i>Petita Història de les termes Romanes de Sant Boi</i>."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/termes.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/termes.jclic.zip",
+  "instFile": "jclic/termes.jclic.inst",
+  "clicZoneId": 3396,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3396",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/termes/jclic/termes.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 38,
+  "totalSize": 3149923,
+  "files": [
+    "cover.jpg",
+    "jclic.js/0apoditerium2.mp3",
+    "jclic.js/0planol.jpg",
+    "jclic.js/aplausos.mp3",
+    "jclic.js/apoditerium2.mp3",
+    "jclic.js/apodyterium2.jpg",
+    "jclic.js/apodyteriumx.jpg",
+    "jclic.js/balneario2.jpg",
+    "jclic.js/balneario3.jpg",
+    "jclic.js/banos_romanos.jpg",
+    "jclic.js/caldarium2.mp3",
+    "jclic.js/construeix1.mp3",
+    "jclic.js/fantastic1.mp3",
+    "jclic.js/frigidarium.jpg",
+    "jclic.js/frigidarium2.jpg",
+    "jclic.js/frigidarium2.mp3",
+    "jclic.js/frigidarium3.jpg",
+    "jclic.js/frigidarium_2.jpg",
+    "jclic.js/genial1.mp3",
+    "jclic.js/hypocaust2.mp3",
+    "jclic.js/hypocaust6x.jpg",
+    "jclic.js/hypocaust8x.jpg",
+    "jclic.js/informacio3.mp3",
+    "jclic.js/maqueta2.jpg",
+    "jclic.js/molt_be1.mp3",
+    "jclic.js/museu.jpg",
+    "jclic.js/planol.jpg",
+    "jclic.js/presentacio2.mp3",
+    "jclic.js/romanos.jpg",
+    "jclic.js/sales2.mp3",
+    "jclic.js/sauna_3.jpg",
+    "jclic.js/sudatorium2.jpg",
+    "jclic.js/sudatorium2.mp3",
+    "jclic.js/tepidarium.jpg",
+    "jclic.js/tepidarium2.jpg",
+    "jclic.js/tepidarium2.mp3",
+    "jclic.js/termes.jclic",
+    "jclic.js/termes.jpg",
+    "jclic.js/vestlia_spaxxx.gif",
+    "jclic.js/vinetermes.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/termes.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

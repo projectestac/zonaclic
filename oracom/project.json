@@ -1,0 +1,95 @@
+{
+  "id": 327,
+  "title": "La oración compuesta",
+  "author": "Juan Manuel López González",
+  "school": "CPR José Castillejo de Ciudad Real Ciudad Real (Castilla y León)",
+  "date": "16/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua castellana",
+    "es": "gramática, lengua castellana",
+    "en": "grammar, Spanish language"
+  },
+  "descCodes": [
+    123,
+    132
+  ],
+  "description": {
+    "en": "Activity pack about complex sentences. Divided in three groups of activities according to the three classifications for sentences of this kind. These are: \n<li>Complex by coordination </li>\n<li>Complex by juxtaposition </li>\n<li>Complex by subordination </li>",
+    "ca": "Paquet d'activitats Clic sobre les oracions compostes. Dividit en tres grups d'activitats corresponents als diferents tipus d'oracions: \n<p> </p>\n<li>Compostes per coordinació </li>\n<li>Compostes per juxtaposició </li>\n<li>Compostes per subordinació <p> Els paquets compten amb moltes activitats d'informació a més d'associacions, sopes de lletres, encreuats i trencaclosques. </p></li>",
+    "es": "Paquete de actividades de Clic sobre las oraciones compuestas. Dividido en tres grupos de actividades de acuerdo con los diferentes tipos de oraciones de esta clase: \n<p> </p>\n<li>Compuestas por coordinación </li>\n<li>Compuestas por yuxtaposición </li>\n<li>Compuestas por subordinación <p> Los paquetes cuentan con muchas actividades de información a parte de las actividades de asociación, sopas de letras, crucigramas y rompecabezas. </p></li>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/oracom.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/oracom.jclic.zip",
+  "instFile": "jclic/oracom.jclic.inst",
+  "clicZoneId": 1180,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1180",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/oracom/jclic/oracom.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 93,
+  "mediaFiles": 15,
+  "totalSize": 352225,
+  "files": [
+    "cover.gif",
+    "jclic.js/o10.gif",
+    "jclic.js/o12.gif",
+    "jclic.js/o26.gif",
+    "jclic.js/o27a.gif",
+    "jclic.js/o29a.gif",
+    "jclic.js/o30a.gif",
+    "jclic.js/o31a.gif",
+    "jclic.js/oadj1.gif",
+    "jclic.js/oadj10.gif",
+    "jclic.js/oadv1.gif",
+    "jclic.js/oracom.jclic",
+    "jclic.js/os1.gif",
+    "jclic.js/os14.gif",
+    "jclic.js/os4.gif",
+    "jclic.js/os8.gif",
+    "jclic.js/os9.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/oracom.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

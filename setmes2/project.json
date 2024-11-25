@@ -1,0 +1,75 @@
+{
+  "id": 2579,
+  "title": "Dies de la setmana i mesos de l'any (català - sense sons - lletra de pal)",
+  "author": "Ester Castejón i Núria Vallduriola, Ricardo Romero (Editor - Lletra de pal)",
+  "school": "Institut Torre Roja Viladecans (Baix Llobregat)",
+  "date": "26/11/98",
+  "langCodes": [
+    "ca"
+  ],
+  "languages": {
+    "ca": "català",
+    "es": "catalán",
+    "en": "Catalan"
+  },
+  "areaCodes": [
+    "lleng",
+    "mat"
+  ],
+  "areas": {
+    "ca": "Llengües, Matemàtiques",
+    "es": "Lenguas, Matemáticas",
+    "en": "Languages, Mathematics"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "levels": {
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)",
+    "en": "Kindergarten (3-6), Primary school (6-12)"
+  },
+  "description": {
+    "ca": "Activitats d'educació compensatòria per a treballar els noms dels dies de la setmana i els mesos de l'any. Versió en català, sense sons i amb lletra de pal.",
+    "es": "Actividades de educación compensatoria para trabajar los nombres de los días de la semana y los meses del año. Versión en catalán, sin sonidos y en letra de palo.",
+    "en": "Activity pack about the names of the week and the months of the year. Version in Catalan, without sounds, in sans-serif typeface."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "relatedTo": [
+    "diame_cl",
+    "diames",
+    "setmes"
+  ],
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "mainFile": "jclic.js/setmes2.jclic",
+  "activities": 27,
+  "mediaFiles": 5,
+  "totalSize": 134290,
+  "instFile": "jclic/setmes2.jclic.inst",
+  "zipFile": "jclic/setmes2.jclic.zip",
+  "files": [
+    "cover.gif",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/setmes2.jclic",
+    "jclic.js/setmes2.jclic.js",
+    "project.json",
+    "thumb.png",
+    "cover.webp"
+  ]
+}

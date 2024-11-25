@@ -1,0 +1,107 @@
+{
+  "id": 114,
+  "title": "Los animales - 1",
+  "author": "Juan José Mateo Molina",
+  "school": "CP El Olivar Rivas - Vaciamadrid (Madrid)",
+  "date": "09/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "zoologia",
+    "es": "zoología",
+    "en": "zoology"
+  },
+  "descCodes": [
+    108
+  ],
+  "description": {
+    "en": "Activity pack based on a textbook about environment knowledge for elementary school students. The basic concepts treated are: \n<ol> \n <li>Savage-domestic </li>\n <li>Vertebrate-invertebrate </li>\n <li>Oviparous-viviparous </li>\n <li>Herbivores-carnivores-omnivores </li>\n <li>Insect-fish-reptile-amphibian-bird-mammal </li>\n</ol> It is adapted for low vision impaired children.",
+    "ca": "Aplicació realitzada a partir del llibre de text de coneixement del medi de 3er de primària de l'editorial Santillana (aquesta edició ja no és vigent). \n<p> S'hi tracten els següents conceptes: </p>\n<ol> \n <li>Salvatge - Domèstic </li>\n <li>Vertebrat - Invertebrat </li>\n <li>Ovípar - Vivípar </li>\n <li>Herbívor - Carnívor - Omnívor </li>\n <li>Insecte - Peix - Rèptil - Amfibi - Au - Mamífer </li>\n</ol> \n<p> Trobareu més informació a la web d'<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo.</p>\n<p> Adaptat per discapacitat visual baixa visió. </p>",
+    "es": "Aplicación realizada a partir del libro de texto de Conocimiento del Medio de 3º de E. Primaria, de la editorial Santillana (edición que ya no está vigente). \n<p> Se tratan los siguientes conceptos: </p>\n<ol> \n <li>Salvaje - Doméstico. </li>\n <li>Vertebrado - Invertebrado. </li>\n <li>Ovíparo - Vivíparo. </li>\n <li>Herbívoro - Carnívoro - Omnívoro. </li>\n <li>Insecto - Pez - Reptil - Anfibio - Ave - Mamífero. </li>\n</ol> \n<p> Encontraréis más información en la web de <b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo.</p>\n<p> Adaptado para discapacidad visual baja visión. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "animales",
+    "animalesdv"
+  ],
+  "mainFile": "jclic.js/anisail.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/anisail.jclic.zip",
+  "instFile": "jclic/anisail.jclic.inst",
+  "clicZoneId": 1054,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1054",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/anisail/jclic/anisail.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 24,
+  "totalSize": 194909,
+  "files": [
+    "cover.jpg",
+    "jclic.js/_guila.gif",
+    "jclic.js/abeja.gif",
+    "jclic.js/animales.gif",
+    "jclic.js/anisail.jclic",
+    "jclic.js/autor.gif",
+    "jclic.js/caballo.gif",
+    "jclic.js/caim_n.gif",
+    "jclic.js/camale_n.gif",
+    "jclic.js/cobra.gif",
+    "jclic.js/delf_n.gif",
+    "jclic.js/gallina.gif",
+    "jclic.js/gato.gif",
+    "jclic.js/hormiga.gif",
+    "jclic.js/le_n.gif",
+    "jclic.js/lobo.gif",
+    "jclic.js/loro.gif",
+    "jclic.js/mariposa.gif",
+    "jclic.js/musica.mid",
+    "jclic.js/oso.gif",
+    "jclic.js/perro.gif",
+    "jclic.js/rana.gif",
+    "jclic.js/tibur_n.gif",
+    "jclic.js/tigre.gif",
+    "jclic.js/trucha.gif",
+    "jclic.js/vaca.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/anisail.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

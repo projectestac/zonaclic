@@ -1,0 +1,144 @@
+{
+  "id": 1747,
+  "title": "Arrainak",
+  "author": "Montserrat Casas Bul",
+  "school": "Escola Pompeu Fabra El Pont de Vilomara i Rocafort (El Pont de Vilomara) (Bages)",
+  "date": "28/03/14",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Social sciences",
+    "ca": "Ciències experimentals, Ciències socials",
+    "es": "Ciencias experimentales, Ciencias sociales"
+  },
+  "areaCodes": [
+    "exp",
+    "soc"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "peixos",
+    "es": "peces",
+    "en": "fish"
+  },
+  "descCodes": [
+    95
+  ],
+  "description": {
+    "en": "Project of activities about fishes. The project has six parts with 26 activities: \n<ul> \n <li>Who are fishes? </li>\n <li>How are fishes outside? </li>\n <li>How are fishes inside? </li>\n <li>Tropical fishes </li>\n <li>Coldwater fishes </li>\n <li>Fish's tail </li>\n</ul>",
+    "ca": "Projecte d'activitats per a educació infantil sobre els peixos. El projecte té 26 activitats distribuïdes en sis parts: \n<ul> \n <li>Qui són els peixos? </li>\n <li>Com són per fora? </li>\n <li>Com són per dins? </li>\n <li>Peixos d'aigua calenta </li>\n <li>Peixos d'aigua freda </li>\n <li>La cua dels peixos </li>\n</ul>",
+    "es": "Proyecto de actividades para educación infantil sobre los peces. El proyecto tiene 26 actividades distribuidas en seis partes: \n<ul>\n ¿Quiénes son los peces? \n <li>¿Como son por fuera? </li>\n <li>¿Como son por dentro? </li>\n <li>Peces de agua caliente </li>\n <li>Peces de agua fría </li>\n <li>La cola de los peces </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "peixos2"
+  ],
+  "mainFile": "jclic.js/peixo_eu.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/peixo_eu.jclic.zip",
+  "instFile": "jclic/peixo_eu.jclic.inst",
+  "clicZoneId": 3446,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3446",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/peixo_eu/jclic/peixo_eu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 29,
+  "mediaFiles": 61,
+  "totalSize": 4358534,
+  "files": [
+    "cover.jpg",
+    "jclic.js/agua_freda.jpg",
+    "jclic.js/akuarium.jpg",
+    "jclic.js/angel.jpg",
+    "jclic.js/aplaudiment.wav",
+    "jclic.js/aquarium_013.jpg",
+    "jclic.js/aquarium_015.jpg",
+    "jclic.js/aquiles.jpg",
+    "jclic.js/arrain_hezur2.jpg",
+    "jclic.js/arraina2.jpg",
+    "jclic.js/ballesta.jpg",
+    "jclic.js/banjo.wav",
+    "jclic.js/basoa.jpg",
+    "jclic.js/bombolles.wav",
+    "jclic.js/bon_final.wav",
+    "jclic.js/bonfinal2.wav",
+    "jclic.js/carbn1.mid",
+    "jclic.js/cargol.jpg",
+    "jclic.js/cavall.jpg",
+    "jclic.js/ciruja.jpg",
+    "jclic.js/credits.gif",
+    "jclic.js/crtis_euforia.wav",
+    "jclic.js/cuarodona.jpg",
+    "jclic.js/cuatisores.jpg",
+    "jclic.js/enter.jpg",
+    "jclic.js/escates.jpg",
+    "jclic.js/escates.wav",
+    "jclic.js/escorpora.jpg",
+    "jclic.js/espina.jpg",
+    "jclic.js/fish_eggs.jpg",
+    "jclic.js/fish_eggs_hirez.jpg",
+    "jclic.js/fons2.jpg",
+    "jclic.js/huevospezblanco.jpg",
+    "jclic.js/isatsa.jpg",
+    "jclic.js/morena.jpg",
+    "jclic.js/nolakoak.jpg",
+    "jclic.js/nolakoak2.jpg",
+    "jclic.js/ocell.jpg",
+    "jclic.js/ohhh.wav",
+    "jclic.js/ous.jpg",
+    "jclic.js/ouspeixpallasso.jpg",
+    "jclic.js/pallasso.jpg",
+    "jclic.js/panaque.jpg",
+    "jclic.js/parts_peix.jpg",
+    "jclic.js/pecera.jpg",
+    "jclic.js/peix_blaujpg.jpg",
+    "jclic.js/peix_taronja.jpg",
+    "jclic.js/peix_verd.jpg",
+    "jclic.js/peix_vermell.jpg",
+    "jclic.js/peix_violeta.jpg",
+    "jclic.js/peixo_eu.jclic",
+    "jclic.js/pel.jpg",
+    "jclic.js/salmon_.gif",
+    "jclic.js/termometro_pez.jpg",
+    "jclic.js/tisores.jpg",
+    "jclic.js/tropikala.gif",
+    "jclic.js/txori1.jpg",
+    "jclic.js/urbero.jpg",
+    "jclic.js/urhotz.jpg",
+    "jclic.js/viuen.wav",
+    "jclic.js/volen.wav",
+    "jclic.js/zein.jpg",
+    "jclic.js/zorionak.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/peixo_eu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": 1423,
+  "title": "Paco «el chato» (aranès)",
+  "author": "Rafael Neftaly Zepeda",
+  "school": "Centro de Recursos e Información para la Integración Educativa No. 2. Ixtlán del Río, Nayarit (México)",
+  "date": "12/01/07",
+  "languages": {
+    "en": "Occitan",
+    "ca": "occità",
+    "es": "occitano"
+  },
+  "langCodes": [
+    "oc"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "comunicació, comprensió lectora",
+    "es": "comunicación, comprensión lectora",
+    "en": "communication, reading comprehension"
+  },
+  "descCodes": [
+    113,
+    1329
+  ],
+  "description": {
+    "en": "\"Paco, el chato\" is a tale which emphasizes to children the importance of knowing its own name. It can used as first activity for teaching the basic literacy. The activities' section contains word analysis and sequencing.",
+    "ca": "\"Paco, el chato\" és un conte que fa notar als nens i nenes la importància de saber el nostre nom. Pot emprar-se entre les primeres activitats d'alfabetització d'un nen, per la importància que te per a ells treballar amb activitats on s'usa el seu nom. La secció d'activitats inclou situacions d'anàlisi de la paraula i la seqüenciació.",
+    "es": "\"Paco, el chato\" es un cuento que hace notar a los escolares la importancia de saber nuestro nombre. Puede emplearse entre las primeras actividades de alfabetización de un niño, por lo significativo que les resulta a ellos trabajar con actividades en las que usan su nombre. La sección de actividades incluye situaciones de análisis de palabra y secuenciación."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "paco"
+  ],
+  "mainFile": "jclic.js/pacoaran.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pacoaran.jclic.zip",
+  "instFile": "jclic/pacoaran.jclic.inst",
+  "clicZoneId": 3156,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3156",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pacoaran/jclic/pacoaran.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 21,
+  "totalSize": 735666,
+  "files": [
+    "cover.jpg",
+    "jclic.js/abo.jpg",
+    "jclic.js/abu.jpg",
+    "jclic.js/bco1.gif",
+    "jclic.js/bco2.gif",
+    "jclic.js/bco3.gif",
+    "jclic.js/bco4.gif",
+    "jclic.js/bco5.gif",
+    "jclic.js/bco6.gif",
+    "jclic.js/paco.jpg",
+    "jclic.js/paco2.jpg",
+    "jclic.js/paco3.jpg",
+    "jclic.js/paco4.jpg",
+    "jclic.js/paco5.jpg",
+    "jclic.js/paco6.jpg",
+    "jclic.js/paco7.jpg",
+    "jclic.js/paco8.jpg",
+    "jclic.js/paco9.jpg",
+    "jclic.js/pacoaran.jclic",
+    "jclic.js/pako.jpg",
+    "jclic.js/pco.jpg",
+    "jclic.js/pol.jpg",
+    "jclic.js/salon.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pacoaran.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

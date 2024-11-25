@@ -1,0 +1,103 @@
+{
+  "id": 757,
+  "title": "Las Islas Baleares",
+  "author": "Àngela Martín, Centre del Professorat i de Recursos d'Inca i Joan Saura",
+  "school": "CEIP Montaura Mancor de la Vall (El Raiguer - Mallorca)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia, les Balears",
+    "es": "geografía, las Baleares",
+    "en": "geography, Balearic islands"
+  },
+  "descCodes": [
+    235,
+    527
+  ],
+  "description": {
+    "en": "Activities about geography in the Balearic islands. The topics are: geographic location, the landscape and the principal cities of the islands.",
+    "ca": "Paquet de 22 activitats per a Educació Primària que treballen aspectes de la geografia de les Illes Balears. Les activitats fan referència a la situació geogràfica, al relleu i a les principals ciutats de les Illes.",
+    "es": "Paquete de 22 actividades para Educación Primaria en el que se trabajan aspectos de la geografía de las Islas Baleares. Las actividades hacen referencia a la situación geográfica, al relieve y a las principales ciudades de las Islas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "balears"
+  ],
+  "mainFile": "jclic.js/baleares.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/baleares.jclic.zip",
+  "instFile": "jclic/baleares.jclic.inst",
+  "clicZoneId": 1412,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1412",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/baleares/jclic/baleares.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 20,
+  "totalSize": 214039,
+  "files": [
+    "cover.gif",
+    "jclic.js/5illes.gif",
+    "jclic.js/bal_map.gif",
+    "jclic.js/baleares.jclic",
+    "jclic.js/cims.gif",
+    "jclic.js/eivis_1.gif",
+    "jclic.js/espan_2.gif",
+    "jclic.js/forme_2.gif",
+    "jclic.js/mall_pob.gif",
+    "jclic.js/mallor_1.gif",
+    "jclic.js/mallorca.gif",
+    "jclic.js/men_pob2.gif",
+    "jclic.js/menor_1.gif",
+    "jclic.js/moltbe.gif",
+    "jclic.js/moltbe.wav",
+    "jclic.js/mon_bal.gif",
+    "jclic.js/piti_ses.gif",
+    "jclic.js/pobl_eiv.gif",
+    "jclic.js/pobl_for.gif",
+    "jclic.js/port_bal.gif",
+    "jclic.js/serra__1.gif",
+    "jclic.js/unio_eur.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/baleares.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

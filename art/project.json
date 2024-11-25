@@ -1,0 +1,112 @@
+{
+  "id": 1630,
+  "title": "Art i artistes",
+  "author": "Ester Casas Gómez",
+  "school": "Escola Pere Vila Barcelona",
+  "date": "11/12/06",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Art & design",
+    "ca": "Visual i plàstica",
+    "es": "Plástica y visual"
+  },
+  "areaCodes": [
+    "vip"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "pintura",
+    "es": "pintura",
+    "en": "painting"
+  },
+  "descCodes": [
+    1370
+  ],
+  "description": {
+    "en": "Project of activities about painters and this paintings.",
+    "ca": "Projecte d'activitats que serveix com a material de reforç sobre pintors i les seves obres. Ha estat creat per treballar dins d'un projecte global d'art en el qual podem conèixer diferents artistes i els principals elements d'algunes de les seves obres.",
+    "es": "Proyecto de actividades que sirve como material de refuerzo sobre pintores y sus obras. Ha sido creado para trabajar dentro de un proyecto global de arte en el cual podemos conocer diferentes artistas y los principales elementos de algunas de sus obras."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/art.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/art.jclic.zip",
+  "instFile": "jclic/art.jclic.inst",
+  "clicZoneId": 3338,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3338",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/art/jclic/art.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 32,
+  "totalSize": 1204134,
+  "files": [
+    "cover.gif",
+    "jclic.js/1919.jpg",
+    "jclic.js/art.jclic",
+    "jclic.js/autorretratovangogh.jpg",
+    "jclic.js/blau2.jpg",
+    "jclic.js/ciencia_i_caritat.jpg",
+    "jclic.js/comedores.jpg",
+    "jclic.js/doctor.jpg",
+    "jclic.js/el_cantant.jpg",
+    "jclic.js/els_coloms_1968.jpg",
+    "jclic.js/ext_cafe.jpg",
+    "jclic.js/flors.jpg",
+    "jclic.js/gat_i_ocell.jpg",
+    "jclic.js/girasoles.jpg",
+    "jclic.js/globus_vermell.jpg",
+    "jclic.js/habitacion.jpg",
+    "jclic.js/images.jpg",
+    "jclic.js/kand_sky_blue.jpg",
+    "jclic.js/klee.jpg",
+    "jclic.js/la_masia.jpg",
+    "jclic.js/mira.gif",
+    "jclic.js/murvermell.jpg",
+    "jclic.js/noche_estrellada.jpg",
+    "jclic.js/noia.jpg",
+    "jclic.js/peix_daurat.jpg",
+    "jclic.js/picaso_colombe_bleue.jpg",
+    "jclic.js/picasso_guernica_.jpg",
+    "jclic.js/primera.jpg",
+    "jclic.js/quadrats.jpg",
+    "jclic.js/rellotges.jpg",
+    "jclic.js/retrar.jpg",
+    "jclic.js/retrat.jpg",
+    "jclic.js/retratkandi.jpg",
+    "jclic.js/vents.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/art.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

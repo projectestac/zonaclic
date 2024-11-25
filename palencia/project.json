@@ -1,0 +1,118 @@
+{
+  "id": 792,
+  "title": "Palencia",
+  "author": "María Ángel de Prado",
+  "school": "CP San Ignacio de Loyola Palencia (Castilla y León)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geografia, història, Castella-Lleó",
+    "es": "geografía, historia, Castilla - León",
+    "en": "geography, history, Castilla - León"
+  },
+  "descCodes": [
+    235,
+    246,
+    486
+  ],
+  "description": {
+    "en": "Activity pack about the community of Palencia. Includes interesting data about culture, art, geography and more. It makes use of pictures, maps, puzzles and much more.",
+    "ca": "Paquets d'activitats sobre la província de Palència i la seva capital: localització, comarques, localitats, accidents geogràfics, història, paisatges, monuments, castells...",
+    "es": "Paquetes de actividades sobre la provincia de Palencia y su capital: localización, comarcas, localidades, accidentes geográficos, historia, paisajes, monumentos, castillos..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/palencia.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/palencia.jclic.zip",
+  "instFile": "jclic/palencia.jclic.inst",
+  "clicZoneId": 1434,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1434",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/palencia/jclic/palencia.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 33,
+  "mediaFiles": 36,
+  "totalSize": 814436,
+  "files": [
+    "cover.gif",
+    "jclic.js/aguicas.jpg",
+    "jclic.js/ampudia.jpg",
+    "jclic.js/ayunta.gif",
+    "jclic.js/ba_os.jpg",
+    "jclic.js/baltanas.jpg",
+    "jclic.js/campos.jpg",
+    "jclic.js/cantamu.jpg",
+    "jclic.js/catedral.jpg",
+    "jclic.js/centro.gif",
+    "jclic.js/cerrato.gif",
+    "jclic.js/cerros.jpg",
+    "jclic.js/ciescu.gif",
+    "jclic.js/ciudad.gif",
+    "jclic.js/crisoter.jpg",
+    "jclic.js/cristo.gif",
+    "jclic.js/escupal.gif",
+    "jclic.js/espigue.jpg",
+    "jclic.js/fromista.jpg",
+    "jclic.js/fuentes.jpg",
+    "jclic.js/larga.gif",
+    "jclic.js/limipal.gif",
+    "jclic.js/monta_a.jpg",
+    "jclic.js/monzon.jpg",
+    "jclic.js/norte.gif",
+    "jclic.js/palencia.jclic",
+    "jclic.js/palomar.jpg",
+    "jclic.js/paredes.jpg",
+    "jclic.js/plano.gif",
+    "jclic.js/planover.gif",
+    "jclic.js/plazamay.jpg",
+    "jclic.js/salomon.jpg",
+    "jclic.js/sanmigue.gif",
+    "jclic.js/sur.gif",
+    "jclic.js/tren.gif",
+    "jclic.js/vega.jpg",
+    "jclic.js/villamur.jpg",
+    "jclic.js/virgen.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/palencia.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

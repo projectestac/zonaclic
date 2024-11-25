@@ -1,0 +1,93 @@
+{
+  "id": 460,
+  "title": "Nina la gallina",
+  "author": "Delia Elda Martínez González i Silvia Arriaga Martínez",
+  "school": "Centro Potosino de Tecnología Educativa Sant Luis (Potosí) (México)",
+  "date": "24/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "conte, fonaments de les matemàtiques",
+    "es": "cuento, fundamentos de las matemáticas",
+    "en": "story, foundations of the mathematics"
+  },
+  "descCodes": [
+    614,
+    707
+  ],
+  "description": {
+    "en": "Clic activities destined to learn numbers from 1 to 9 based on a story: \n<b><i>Nina la gallina</i></b>",
+    "ca": "Paquet d'activitats per aprendre els nombres del 1 al 9 basat en el conte \n<b><i>Nina la gallina</i></b>.",
+    "es": "Paquete de actividades para aprender los números del 1 al 9 basado en el cuento \n<b><i>Nina la gallina</i></b>."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ninagall.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ninagall.jclic.zip",
+  "instFile": "jclic/ninagall.jclic.inst",
+  "clicZoneId": 1282,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1282",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ninagall/jclic/ninagall.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 13,
+  "totalSize": 212857,
+  "files": [
+    "cover.gif",
+    "jclic.js/f8.gif",
+    "jclic.js/famgalli.gif",
+    "jclic.js/famil.gif",
+    "jclic.js/galli2.gif",
+    "jclic.js/ninagall.jclic",
+    "jclic.js/pollo1.gif",
+    "jclic.js/pollo2.gif",
+    "jclic.js/pollo3.gif",
+    "jclic.js/pollo4.gif",
+    "jclic.js/pollo5.gif",
+    "jclic.js/pollo6.gif",
+    "jclic.js/pollo7.gif",
+    "jclic.js/pollo8.gif",
+    "jclic.js/pollo9.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ninagall.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

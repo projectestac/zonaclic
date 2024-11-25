@@ -1,0 +1,111 @@
+{
+  "id": 2221,
+  "title": "Mecanismos",
+  "author": "Ana Soraya González Bárcena",
+  "school": "IES Ría del Carmen Muriedas-Cantabria (Cantabria)",
+  "date": "06/03/12",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Design & technology",
+    "ca": "Tecnologies",
+    "es": "Tecnología"
+  },
+  "areaCodes": [
+    "tec"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la tecnologia, maquinari",
+    "es": "aprendizaje de la tecnología, hardware",
+    "en": "learning of the technology, hardware"
+  },
+  "descCodes": [
+    728,
+    739
+  ],
+  "description": {
+    "en": "Project of JClic activities with exercises about mechanisms: \n<ul> \n <li>simple machines </li>\n <li>motion transmission elements </li>\n <li>movements processing elements </li>\n</ul>",
+    "ca": "Projecte d'activitats JClic amb exercicis de repàs sobre els mecanismes: \n<ul> \n <li>màquines simples </li>\n <li>elements de transmissió de moviments </li>\n <li>elements de transformació de moviments </li>\n</ul>",
+    "es": "Proyecto de actividades JClic con ejercicios de repaso sobre mecanismos: \n<ul> \n <li>máquinas simples </li>\n <li>elementos de transmisión de movimientos </li>\n <li>elementos de transformación de movimientos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/mecanis2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mecanis2.jclic.zip",
+  "instFile": "jclic/mecanis2.jclic.inst",
+  "clicZoneId": 3746,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3746",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/mecanis2/jclic/mecanis2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 31,
+  "totalSize": 578868,
+  "files": [
+    "cover.png",
+    "jclic.js/abrebotellas.jpg",
+    "jclic.js/alicates.jpg",
+    "jclic.js/biela_manivela.bmp",
+    "jclic.js/cana_pescar.jpg",
+    "jclic.js/carretilla.jpg",
+    "jclic.js/carretillo.jpg",
+    "jclic.js/cascanueces.bmp",
+    "jclic.js/ciguenal.jpg",
+    "jclic.js/engranajes.jpg",
+    "jclic.js/gif2.gif",
+    "jclic.js/gif3.gif",
+    "jclic.js/gif_engranajes.gif",
+    "jclic.js/guillotina.jpg",
+    "jclic.js/leva_seguidor.jpg",
+    "jclic.js/manivela_torno.jpg",
+    "jclic.js/mecanis2.jclic",
+    "jclic.js/mecanismos.jpg",
+    "jclic.js/pinon_cremallera.jpg",
+    "jclic.js/pinza_cejas.jpg",
+    "jclic.js/pinzas_de_hielo.jpg",
+    "jclic.js/polea_cadena.jpg",
+    "jclic.js/polea_con_correa.jpg",
+    "jclic.js/polea_movil.jpg",
+    "jclic.js/polea_simple.jpg",
+    "jclic.js/polipasto.jpg",
+    "jclic.js/portada.jpg",
+    "jclic.js/tenazas.jpg",
+    "jclic.js/tornillo_sinfin.jpg",
+    "jclic.js/tornillo_tuerca.jpg",
+    "jclic.js/tornillo_tuerca2.jpg",
+    "jclic.js/tren_engranajes.jpg",
+    "jclic.js/tren_poleas.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/mecanis2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

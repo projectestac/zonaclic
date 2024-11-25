@@ -1,0 +1,124 @@
+{
+  "id": 316,
+  "title": "It's Halloween!",
+  "author": "Miguel Sedano Martínez",
+  "school": "Escola Marianao Sant Boi de Llobregat (Baix Llobregat)",
+  "date": "16/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, costums i tradicions",
+    "es": "lengua inglesa, costumbres y tradiciones",
+    "en": "English language, customs and traditions"
+  },
+  "descCodes": [
+    130,
+    191
+  ],
+  "description": {
+    "en": "English language activities that use the theme of Halloween to work the vocabulary associated with this festivity.",
+    "ca": "Activitats en anglès sobre la celebració del Halloween: vocabulari, personatges, objectes, tradicions... i un paquet on s'expliquen els orígens de la festa.",
+    "es": "Actividades en inglés sobre la celebración del Halloween: vocabulario, personajes, objetos, tradiciones... y un paquete en el que se explican los orígenes de la fiesta."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/hallowee.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/hallowee.jclic.zip",
+  "instFile": "jclic/hallowee.jclic.inst",
+  "clicZoneId": 1171,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1171",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/hallowee/jclic/hallowee.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 43,
+  "totalSize": 1605163,
+  "files": [
+    "cover.gif",
+    "jclic.js/activiti.gif",
+    "jclic.js/bat.gif",
+    "jclic.js/bat.wav",
+    "jclic.js/calabaza.gif",
+    "jclic.js/candle.gif",
+    "jclic.js/candle.wav",
+    "jclic.js/cat.gif",
+    "jclic.js/cat.wav",
+    "jclic.js/cat0.gif",
+    "jclic.js/claps.wav",
+    "jclic.js/excel.wav",
+    "jclic.js/ghost.wav",
+    "jclic.js/ghost0.gif",
+    "jclic.js/good.wav",
+    "jclic.js/hal1.wav",
+    "jclic.js/hallowee.jclic",
+    "jclic.js/haloween.gif",
+    "jclic.js/haloween.mid",
+    "jclic.js/history.gif",
+    "jclic.js/kids9.gif",
+    "jclic.js/logo.gif",
+    "jclic.js/monsters.gif",
+    "jclic.js/monsters.wav",
+    "jclic.js/moon.gif",
+    "jclic.js/moon.wav",
+    "jclic.js/owl.gif",
+    "jclic.js/owl.wav",
+    "jclic.js/phones.gif",
+    "jclic.js/pumpkin.gif",
+    "jclic.js/pumpkin.wav",
+    "jclic.js/pumpkin0.gif",
+    "jclic.js/rat.gif",
+    "jclic.js/rat.wav",
+    "jclic.js/skeleton.gif",
+    "jclic.js/skeleton.wav",
+    "jclic.js/skeleton0.gif",
+    "jclic.js/spider.gif",
+    "jclic.js/spider.wav",
+    "jclic.js/super.wav",
+    "jclic.js/thats.wav",
+    "jclic.js/treat.wav",
+    "jclic.js/witch.gif",
+    "jclic.js/witch.wav",
+    "jclic.js/witch9.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/hallowee.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

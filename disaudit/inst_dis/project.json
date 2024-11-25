@@ -1,0 +1,135 @@
+{
+  "id": 1743,
+  "title": "Actividades de discriminación auditiva (2. Instrumentos)",
+  "author": "Belén Gómez Flores",
+  "school": "CEIP Flavia Padrón (Galiza)",
+  "date": "25/02/08",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, comprensió oral",
+    "es": "aprendizaje de la lengua, comprensión oral",
+    "en": "learning of the language, oral understanding"
+  },
+  "descCodes": [
+    110,
+    112
+  ],
+  "description": {
+    "en": "Three projects of activities about aural comprehension. There are activities to associate sounds with images, to imitate sounds, to identify sounds and to ordering a sequence of sounds.",
+    "ca": "Tres projectes d'activitats per treballar la comprensió a través de sons propers al nen o nena. Primer podrà escoltar els sons per després fer les activitats relacionades amb ells: associar sons amb imatges, imitar sons i després escoltar-los, identificar sons emmascarats i produïts simultàniament i finalment, ordenar els sons segons la seqüència escoltada.",
+    "es": "Tres proyectos de actividades para trabajar la comprensión a través de sonidos cercanos al niño o niña. Primero podrá escuchar los sonidos para luego realizar actividades relacionadas con ellos: asociar sonidos con imagen, imitar sonidos y luego escucharlos, identificar sonidos enmascarados y producidos simultáneamente y finalmente, ordenar los sonidos según la secuencia escuchada."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "disaudit/anim_dis",
+    "disaudit/tran_dis"
+  ],
+  "mainFile": "jclic.js/inst_dis.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/inst_dis.jclic.zip",
+  "instFile": "jclic/inst_dis.jclic.inst",
+  "clicZoneId": 3444,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3444",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/disaudit/jclic/inst_dis.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 50,
+  "mediaFiles": 51,
+  "totalSize": 1644801,
+  "files": [
+    "cover.jpg",
+    "jclic.js/altavoz.jpg",
+    "jclic.js/armonica.jpg",
+    "jclic.js/armonica.mp3",
+    "jclic.js/arpa.gif",
+    "jclic.js/arpa1.mp3",
+    "jclic.js/ba_pi_ar.mp3",
+    "jclic.js/bateria.jpg",
+    "jclic.js/bateria.mp3",
+    "jclic.js/bateria1.jpg",
+    "jclic.js/correcto.mp3",
+    "jclic.js/discrim.png",
+    "jclic.js/discrim1_ins.xml",
+    "jclic.js/discrim_ins.xml",
+    "jclic.js/error.mp3",
+    "jclic.js/flauta.jpg",
+    "jclic.js/flauta.mp3",
+    "jclic.js/gui_fla_ba.mp3",
+    "jclic.js/guitarra.mp3",
+    "jclic.js/guitarra_antigua.jpg",
+    "jclic.js/inst_dis.jclic",
+    "jclic.js/ma_gui.mp3",
+    "jclic.js/ma_gui_tro.mp3",
+    "jclic.js/maracas.jpg",
+    "jclic.js/maracas.mp3",
+    "jclic.js/micro.jpg",
+    "jclic.js/nonesc.mp3",
+    "jclic.js/orella.jpg",
+    "jclic.js/piano.jpg",
+    "jclic.js/piano.mp3",
+    "jclic.js/pla_ar.mp3",
+    "jclic.js/pla_ar_pi.mp3",
+    "jclic.js/pla_tro_gui.mp3",
+    "jclic.js/platillos.jpg",
+    "jclic.js/platinos.mp3",
+    "jclic.js/portada_inst.jpg",
+    "jclic.js/sele.mp3",
+    "jclic.js/tambor.mp3",
+    "jclic.js/tambor1.jpg",
+    "jclic.js/tri_ar_tam.mp3",
+    "jclic.js/tri_ma_fla.mp3",
+    "jclic.js/triangulo.jpg",
+    "jclic.js/triangulo.mp3",
+    "jclic.js/trom_tam.mp3",
+    "jclic.js/trompeta.jpg",
+    "jclic.js/trompeta.mp3",
+    "jclic.js/vi_ma_tro.mp3",
+    "jclic.js/vi_pi.mp3",
+    "jclic.js/vi_ta_ar.mp3",
+    "jclic.js/vi_trom_ma.mp3",
+    "jclic.js/violin.jpg",
+    "jclic.js/violin.mp3",
+    "jclic.js/xogar.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/inst_dis.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": 595,
+  "title": "Raíces cuadradas",
+  "author": "Asesoría de Matemáticas",
+  "date": "26/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aritmètica, càlcul, fonaments de les matemàtiques",
+    "es": "aritmética, cálculo, fundamentos de las matemáticas",
+    "en": "Arithmetic, calculation, foundations of the mathematics"
+  },
+  "descCodes": [
+    701,
+    702,
+    707
+  ],
+  "description": {
+    "en": "Square root activity pack.",
+    "ca": "Paquet d'activitats sobre les arrels quadrades i el seu algorisme de resolució. Conté explicacions en format de pantalla d'informació i exercicis sobre la descomposició d'un nombre en primers, extracció de factors i arrel simplificada.",
+    "es": "Paquete de actividades sobre las raíces cuadradas. Conté explicaciones en formato de pantalla de información y ejercicios sobre la descomposición de un número en primos, extracción de factores y raíz simplificada."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "raicegal"
+  ],
+  "mainFile": "jclic.js/raices.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/raices.jclic.zip",
+  "instFile": "jclic/raices.jclic.inst",
+  "clicZoneId": 1327,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1327",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/raices/jclic/raices.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 62,
+  "totalSize": 131746,
+  "files": [
+    "cover.gif",
+    "jclic.js/0.gif",
+    "jclic.js/100.gif",
+    "jclic.js/100dos.gif",
+    "jclic.js/108.gif",
+    "jclic.js/108cu.gif",
+    "jclic.js/108dos.gif",
+    "jclic.js/11.gif",
+    "jclic.js/14.gif",
+    "jclic.js/144.gif",
+    "jclic.js/144dos.gif",
+    "jclic.js/150.gif",
+    "jclic.js/150dos.gif",
+    "jclic.js/16.gif",
+    "jclic.js/160.gif",
+    "jclic.js/160cu.gif",
+    "jclic.js/160dos.gif",
+    "jclic.js/160tres.gif",
+    "jclic.js/18.gif",
+    "jclic.js/180dos.gif",
+    "jclic.js/180tres.gif",
+    "jclic.js/18dos.gif",
+    "jclic.js/196.gif",
+    "jclic.js/196dos.gif",
+    "jclic.js/225.gif",
+    "jclic.js/225dos.gif",
+    "jclic.js/25.gif",
+    "jclic.js/25dos.gif",
+    "jclic.js/288.gif",
+    "jclic.js/288cu.gif",
+    "jclic.js/300.gif",
+    "jclic.js/300cu.gif",
+    "jclic.js/300dos.gif",
+    "jclic.js/300tres.gif",
+    "jclic.js/32.gif",
+    "jclic.js/36.gif",
+    "jclic.js/36d.gif",
+    "jclic.js/36dos.gif",
+    "jclic.js/40.gif",
+    "jclic.js/40cu.gif",
+    "jclic.js/45.gif",
+    "jclic.js/450.gif",
+    "jclic.js/450dos.gif",
+    "jclic.js/450tres.gif",
+    "jclic.js/45dos.gif",
+    "jclic.js/45tres.gif",
+    "jclic.js/49.gif",
+    "jclic.js/49dos.gif",
+    "jclic.js/50.gif",
+    "jclic.js/50cu.gif",
+    "jclic.js/72d.gif",
+    "jclic.js/72tres.gif",
+    "jclic.js/81.gif",
+    "jclic.js/81dos.gif",
+    "jclic.js/9.gif",
+    "jclic.js/900.gif",
+    "jclic.js/900dos.gif",
+    "jclic.js/972.gif",
+    "jclic.js/972dos.gif",
+    "jclic.js/9dos.gif",
+    "jclic.js/descom.gif",
+    "jclic.js/raices.jclic",
+    "jclic.js/simbolo.gif",
+    "jclic.js/uno.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/raices.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

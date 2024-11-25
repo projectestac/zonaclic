@@ -1,0 +1,119 @@
+{
+  "id": 2374,
+  "title": "Las aves que nos rodean",
+  "author": "Patricia Álvarez Diez",
+  "date": "19/03/15",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "biologia, ocells",
+    "es": "biología, pájaros",
+    "en": "biology, birds"
+  },
+  "descCodes": [
+    58,
+    92
+  ],
+  "description": {
+    "en": "Activity to spread awareness of the main birds that we can find living among our houses.",
+    "ca": "Activitat per divulgar el coneixement de les principals aus que es poden trobar convivint a l'entorn immediat.",
+    "es": "Actividad para divulgar el conocimiento de las principales aves que se pueden encontrar conviviendo en el entorno inmediato."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/aves2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/aves2.jclic.zip",
+  "instFile": "jclic/aves2.jclic.inst",
+  "clicZoneId": 3879,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3879",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/aves2/jclic/aves2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 39,
+  "totalSize": 2329515,
+  "files": [
+    "cover.png",
+    "jclic.js/05082012318_resized.jpg",
+    "jclic.js/aves.png",
+    "jclic.js/aves2.jclic",
+    "jclic.js/avispa.jpg",
+    "jclic.js/cernicalo_volando.jpg",
+    "jclic.js/cernicalos_resized.jpg",
+    "jclic.js/chinfano_resized.jpg",
+    "jclic.js/ciguena_blanca.jpg",
+    "jclic.js/ciguena_en_pie.jpg",
+    "jclic.js/cogujada.jpg",
+    "jclic.js/gato.jpg",
+    "jclic.js/gorrion.jpg",
+    "jclic.js/gorrion_hembra.jpg",
+    "jclic.js/gusanos_resized.jpg",
+    "jclic.js/jilguero_resized.jpg",
+    "jclic.js/lavandera_resized.jpg",
+    "jclic.js/lechuza.jpg",
+    "jclic.js/lombriz.jpg",
+    "jclic.js/mama_pato_resized.jpg",
+    "jclic.js/mariquita.jpg",
+    "jclic.js/milano_real.jpg",
+    "jclic.js/mosca.jpg",
+    "jclic.js/mosquito.jpg",
+    "jclic.js/musarana.jpg",
+    "jclic.js/nido_de_golondrina.jpg",
+    "jclic.js/paloma_2.jpg",
+    "jclic.js/paloma_3.jpg",
+    "jclic.js/paloma_4.jpg",
+    "jclic.js/paloma_comun.jpg",
+    "jclic.js/paloma_torcaz.jpg",
+    "jclic.js/patos_volando.jpg",
+    "jclic.js/perro.jpg",
+    "jclic.js/polilla.jpg",
+    "jclic.js/raton.jpg",
+    "jclic.js/saltamontes.jpg",
+    "jclic.js/torcaz_2.jpg",
+    "jclic.js/torcaz_3.jpg",
+    "jclic.js/torcaz_4.jpg",
+    "jclic.js/torcaz_5.jpg",
+    "jclic.js/urraca_o_pica_pica.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/aves2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

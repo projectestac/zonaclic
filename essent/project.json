@@ -1,0 +1,135 @@
+{
+  "id": 2523,
+  "title": "Verbes essentiels",
+  "author": "Paloma Garrido",
+  "school": "IES de Tafira Santo Tomás, Las Palmas de Gran Canaria (Islas Canarias)",
+  "date": "21/04/17",
+  "languages": {
+    "en": "Spanish, French",
+    "ca": "espanyol, francès",
+    "es": "español, francés"
+  },
+  "langCodes": [
+    "es",
+    "fr"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "fonètica, llengua francesa, verbs",
+    "es": "fonética, lengua francesa, verbs",
+    "en": "phonetics, French language, verbos"
+  },
+  "descCodes": [
+    664,
+    669,
+    1474
+  ],
+  "description": {
+    "en": "Package of activities to review essential verbs in French, their conjugations and verbal times. In traduction activities you have audios to exercise hearing.",
+    "ca": "Conjunt d'activitats per repassar els verbs essencials en francès, les seves conjugacions i temps verbals. A les activitats de traducció es disposa d'àudio per ajudar a exercitar l'oïda.",
+    "es": "Conjunto de actividades para repasar los verbos esenciales en francés, sus conjugaciones y tiempos verbales. En las actividades de traducción se dispone de audio que ayudarán a ejercitar el oído."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/essent.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/essent.jclic.zip",
+  "instFile": "jclic/essent.jclic.inst",
+  "clicZoneId": 4033,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=4033",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/essent/jclic/essent.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 53,
+  "totalSize": 2141710,
+  "files": [
+    "cover.jpg",
+    "jclic.js/a._midi.mp3",
+    "jclic.js/affaire.mp3",
+    "jclic.js/aujourd_hui.mp3",
+    "jclic.js/avoir.mp3",
+    "jclic.js/cacher.mp3",
+    "jclic.js/chambre.mp3",
+    "jclic.js/chercher.mp3",
+    "jclic.js/copain.mp3",
+    "jclic.js/cours.mp3",
+    "jclic.js/d_hab..mp3",
+    "jclic.js/demain.mp3",
+    "jclic.js/dernier.mp3",
+    "jclic.js/entendre.mp3",
+    "jclic.js/epater.mp3",
+    "jclic.js/essent.jclic",
+    "jclic.js/essent.jclic.js",
+    "jclic.js/etre.mp3",
+    "jclic.js/f._le_men..mp3",
+    "jclic.js/f._un_tour.mp3",
+    "jclic.js/faire.mp3",
+    "jclic.js/finir.mp3",
+    "jclic.js/g.mere.mp3",
+    "jclic.js/heure.mp3",
+    "jclic.js/hier.mp3",
+    "jclic.js/jeu.mp3",
+    "jclic.js/lycee.mp3",
+    "jclic.js/meilleur.mp3",
+    "jclic.js/mettre.mp3",
+    "jclic.js/nouveau.mp3",
+    "jclic.js/ordre.mp3",
+    "jclic.js/parler.mp3",
+    "jclic.js/passer.mp3",
+    "jclic.js/place.mp3",
+    "jclic.js/point.mp3",
+    "jclic.js/portada.jpg",
+    "jclic.js/pouvoir.mp3",
+    "jclic.js/prendre.mp3",
+    "jclic.js/proche.mp3",
+    "jclic.js/proposer.mp3",
+    "jclic.js/propre.mp3",
+    "jclic.js/quitter.mp3",
+    "jclic.js/r._visite.mp3",
+    "jclic.js/ranger.mp3",
+    "jclic.js/rentrer.mp3",
+    "jclic.js/rester.mp3",
+    "jclic.js/soir.mp3",
+    "jclic.js/sortir.mp3",
+    "jclic.js/souvent.mp3",
+    "jclic.js/sur.mp3",
+    "jclic.js/t_a_coup.mp3",
+    "jclic.js/tomber.mp3",
+    "jclic.js/varicelle.mp3",
+    "jclic.js/voiture.mp3",
+    "jclic.js/vouloir.mp3",
+    "jclic.js/vraiment.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": 193,
+  "title": "El aire que nos envuelve",
+  "author": "Juan Antonio Arizcun Arizcun",
+  "school": "CP Monteagudo Murcia",
+  "date": "11/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "biologia, l'aire",
+    "es": "biología, el aire",
+    "en": "biology, the air"
+  },
+  "descCodes": [
+    58,
+    951
+  ],
+  "description": {
+    "en": "Clic activities about the air. This package is based on the book \n<b><i>Conocimiento del Medio de 3º de Primaria</i></b> of SC Publishing House. \n<p> The application has activities on breathing, features of the air, mechanism of a globe, functions of the atmosphere, the ozone layer, the contamination, etc. </p>",
+    "ca": "Paquet d'activitats sobre l'aire. El paquet està basat en el llibre de text de \n<b><i>Conocimiento del medio de 3º de Primaria</i></b> de l'editorial SC. \n<p> L'aplicació té activitats sobre la respiració, característiques de l'aire, mecanisme d'un globus, funcions de l'atmosfera, la capa d'ozó, la contaminació, etc. </p>",
+    "es": "Paquete de actividades sobre el aire. El paquete está basado en el libro de texto de \n<b><i>Conocimiento del Medio de 3º de Primaria</i></b> de la editorial SC. \n<p> La aplicación tiene actividades sobre la respiración, características del aire, mecanismo de un globo, funciones de la atmósfera, la capa de ozono, la contaminación, etc. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/aire.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/aire.jclic.zip",
+  "instFile": "jclic/aire.jclic.inst",
+  "clicZoneId": 1100,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1100",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/aire/jclic/aire.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 31,
+  "totalSize": 880585,
+  "files": [
+    "cover.gif",
+    "jclic.js/2comet.gif",
+    "jclic.js/aire.jclic",
+    "jclic.js/arboldia.gif",
+    "jclic.js/arbolnoc.gif",
+    "jclic.js/autoant1.gif",
+    "jclic.js/autoant2.gif",
+    "jclic.js/autoant3.gif",
+    "jclic.js/avion.gif",
+    "jclic.js/balanza1.gif",
+    "jclic.js/balanza2.gif",
+    "jclic.js/bus.gif",
+    "jclic.js/campana.gif",
+    "jclic.js/cerditos.mid",
+    "jclic.js/dirigib.gif",
+    "jclic.js/estupen.wav",
+    "jclic.js/fantas.wav",
+    "jclic.js/fenome.wav",
+    "jclic.js/fin.gif",
+    "jclic.js/fons.gif",
+    "jclic.js/fuego.gif",
+    "jclic.js/globo.gif",
+    "jclic.js/impre.wav",
+    "jclic.js/kitew.gif",
+    "jclic.js/mickey.mid",
+    "jclic.js/molino.gif",
+    "jclic.js/muybien.wav",
+    "jclic.js/perfecto.wav",
+    "jclic.js/portada2.gif",
+    "jclic.js/vela1.gif",
+    "jclic.js/windsrf.gif",
+    "jclic.js/zuluesp.gif",
+    "jclic.js/zuluinsp.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/aire.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

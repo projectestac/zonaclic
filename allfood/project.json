@@ -1,0 +1,128 @@
+{
+  "id": 2099,
+  "title": "All about food",
+  "author": "Elena García Martín",
+  "school": "CP San Bartolomé Marcilla (Navarra)",
+  "date": "18/01/11",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aliments, llengua anglesa",
+    "es": "alimentos, lengua inglesa",
+    "en": "foods, English language"
+  },
+  "descCodes": [
+    49,
+    130
+  ],
+  "description": {
+    "en": "JClic activities on the food pyramid and its different groups: \n<ul> \n <li>cereals </li>\n <li>meat and vegetables </li>\n <li>milk group </li>\n <li>fruits and vegetables </li>\n <li>fats </li>\n</ul>",
+    "ca": "Conjunt d'activitats JClic per aprendre i reforçar continguts en llengua anglesa relacionats amb la piràmide dels aliments i els seus grups: \n<ul> \n <li>cereals </li>\n <li>meat and vegatables </li>\n <li>milk group </li>\n <li>fruits and vegatables </li>\n <li>fats </li>\n</ul>",
+    "es": "Actividades JClic para aprender y reforzar contenidos en lengua inglesa relacionados con la pirámide alimenticia y sus grupos: \n<ul> \n <li>cereals </li>\n <li>meat and vegatables </li>\n <li>milk group </li>\n <li>fruits and vegatables </li>\n <li>fats </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/allfood.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/allfood.jclic.zip",
+  "instFile": "jclic/allfood.jclic.inst",
+  "clicZoneId": 3658,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3658",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/allfood/jclic/allfood.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 48,
+  "totalSize": 2528326,
+  "files": [
+    "cover.jpg",
+    "jclic.js/af_food_pyramid_52939_thumb_640x555_46485.jpg",
+    "jclic.js/allfood.jclic",
+    "jclic.js/almejas_resized.jpg",
+    "jclic.js/calamares.jpg",
+    "jclic.js/carnes.gif",
+    "jclic.js/cereals.mp3",
+    "jclic.js/cereals_resized.jpg",
+    "jclic.js/chicken.mp3",
+    "jclic.js/chuleta_de__cerdo.jpg",
+    "jclic.js/coliflor.jpg",
+    "jclic.js/cordero.bmp",
+    "jclic.js/donuts.jpg",
+    "jclic.js/fats.mp3",
+    "jclic.js/foodpyramid.mp3",
+    "jclic.js/foodpyramid4.jpg",
+    "jclic.js/frigorificos_gas_butano.jpg",
+    "jclic.js/fruits_and_vegetables.mp3",
+    "jclic.js/frutero_puzle_resized.jpg",
+    "jclic.js/galleta_maria.gif",
+    "jclic.js/gambas_resized1.jpg",
+    "jclic.js/garbanzos.jpg",
+    "jclic.js/granada.jpg",
+    "jclic.js/granada_puzle_resized.jpg",
+    "jclic.js/helado.jpg",
+    "jclic.js/lacteos2.jpg",
+    "jclic.js/lamb.mp3",
+    "jclic.js/lenguado.jpg",
+    "jclic.js/lentejas.jpg",
+    "jclic.js/listenandmatch.mp3",
+    "jclic.js/macarrones.jpg",
+    "jclic.js/magdalenas.jpg",
+    "jclic.js/meat_and_fish.mp3",
+    "jclic.js/meat_and_fish_resized.jpg",
+    "jclic.js/mejillones.jpg",
+    "jclic.js/milk_group_resized.jpg",
+    "jclic.js/milkgroup.mp3",
+    "jclic.js/octopus.mp3",
+    "jclic.js/pan.jpg",
+    "jclic.js/patata.jpg",
+    "jclic.js/pepino.jpg",
+    "jclic.js/pimineto.jpg",
+    "jclic.js/pollo.jpg",
+    "jclic.js/pork_chop.mp3",
+    "jclic.js/portada.jpg",
+    "jclic.js/postres.jpg",
+    "jclic.js/prawns.mp3",
+    "jclic.js/pulpo2.bmp",
+    "jclic.js/squid.mp3",
+    "jclic.js/verduras_y_frutas.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/allfood.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": 913,
+  "title": "La taula periòdica dels elements",
+  "author": "Esteve Hernández Gasió",
+  "school": "C La Salle Bonanova Barcelona",
+  "date": "17/12/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales",
+    "en": "Experimental sciences"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)",
+    "en": "Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "química",
+    "es": "química",
+    "en": "chemistry"
+  },
+  "descCodes": [
+    97
+  ],
+  "description": {
+    "en": "Package of activities about the periodic table of the elements: \n<ul> \n <li>Basis </li>\n <li>Learn the representative elements </li>\n <li>Properties of the elements </li>\n</ul>",
+    "ca": "Activitats sobre la taula periòdica dels elements. El paquet es divideix en tres parts: \n<ul> \n <li>Conceptes bàsics </li>\n <li>Coneixement dels elements més representatius </li>\n <li>Propietats dels elements </li>\n</ul>",
+    "es": "Actividades sobre la tabla periódica de los elementos. El paquete se divide en tres partes: \n<ul> \n <li>Conceptos básicos </li>\n <li>Conocimiento de los elementos más representativos </li>\n <li>Propiedades de los elementos </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "tauclies"
+  ],
+  "mainFile": "jclic.js/tauclic1.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tauclic1.jclic.zip",
+  "instFile": "jclic/tauclic1.jclic.inst",
+  "clicZoneId": 2026,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2026",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/tauclic1/jclic/tauclic1.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 38,
+  "mediaFiles": 7,
+  "totalSize": 316007,
+  "files": [
+    "cover.gif",
+    "jclic.js/gr_port.gif",
+    "jclic.js/grups/gra_gr19.gif",
+    "jclic.js/grups/gra_gr20.gif",
+    "jclic.js/grups/grb_gr19.gif",
+    "jclic.js/grups/grb_gr20.gif",
+    "jclic.js/grups/grups.jclic",
+    "jclic.js/intro/gr_in2.gif",
+    "jclic.js/intro/intro.jclic",
+    "jclic.js/props/gr_pr1.gif",
+    "jclic.js/props/props.jclic",
+    "jclic.js/tauclic1.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/tauclic1.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/grups/grups.jclic.js",
+    "jclic.js/intro/intro.jclic.js",
+    "jclic.js/props/props.jclic.js",
+    "cover.webp"
+  ]
+}

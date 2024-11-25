@@ -1,0 +1,93 @@
+{
+  "id": 2375,
+  "title": "La càmera digital",
+  "author": "Joana Pujol Vigas",
+  "school": "Universitat de Vic Vic (Osona)",
+  "date": "19/03/15",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Art & design",
+    "ca": "Visual i plàstica",
+    "es": "Plástica y visual"
+  },
+  "areaCodes": [
+    "vip"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "creativitat, fotografia",
+    "es": "creatividad, fotografía",
+    "en": "creativity, photography"
+  },
+  "descCodes": [
+    430,
+    436
+  ],
+  "description": {
+    "en": "JClic activity about the parts of a digital camera and the different photographic plans and photography.",
+    "ca": "Aquest JClic tracta de donar a conèixer les parts d'una càmera digital i els diferents plans fotogràfics, per poder realitzar diversos tipus de fotografies.",
+    "es": "Este JClic trata de dar a conocer las partes de una cámara digital y los diferentes planos fotográficos, para poder realizar varios tipos de fotografías."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cam_dig.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cam_dig.jclic.zip",
+  "instFile": "jclic/cam_dig.jclic.inst",
+  "clicZoneId": 3880,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3880",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cam_dig/jclic/cam_dig.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 13,
+  "totalSize": 702675,
+  "files": [
+    "cover.png",
+    "jclic.js/176909014voawtj_fs_resized.jpg",
+    "jclic.js/cam_dig.jclic",
+    "jclic.js/parts_amb_numeros_2_darrere.png",
+    "jclic.js/parts_davant.png",
+    "jclic.js/pla_amercia.jpg",
+    "jclic.js/pla_america_1.jpg",
+    "jclic.js/pla_detall.jpg",
+    "jclic.js/pla_detall_1.jpg",
+    "jclic.js/pla_general_1_resized.jpg",
+    "jclic.js/pla_mig.jpg",
+    "jclic.js/pla_mig_1.jpg",
+    "jclic.js/portada_resized1.jpg",
+    "jclic.js/primer_pla.jpg",
+    "jclic.js/primer_pla_1.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cam_dig.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

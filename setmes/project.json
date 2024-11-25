@@ -1,0 +1,85 @@
+{
+  "id": 283,
+  "title": "Dies de la setmana i mesos de l'any (català - sense sons)",
+  "author": "Ester Castejón i Núria Vallduriola",
+  "school": "Institut Torre Roja Viladecans (Baix Llobregat)",
+  "date": "15/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, vocabulari",
+    "es": "lengua castellana, vocabulario",
+    "en": "Spanish language, vocabulary"
+  },
+  "descCodes": [
+    132,
+    150
+  ],
+  "description": {
+    "en": "Activity pack about the names of the week and the months of the year.",
+    "ca": "Activitats d'educació compensatòria per a treballar els noms dels dies de la setmana i els mesos de l'any.",
+    "es": "Actividades de educación compensatoria para trabajar los nombres de los días de la semana y los meses del año."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "diame_cl",
+    "diames",
+    "setmes2"
+  ],
+  "mainFile": "jclic.js/setmes.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/setmes.jclic.zip",
+  "instFile": "jclic/setmes.jclic.inst",
+  "clicZoneId": 1152,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1152",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/setmes/jclic/setmes.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 0,
+  "totalSize": 141845,
+  "files": [
+    "cover.gif",
+    "jclic.js/setmes.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/setmes.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

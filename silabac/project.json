@@ -1,0 +1,102 @@
+{
+  "id": 1391,
+  "title": "Lenguaje 4º, sílabas y acentos",
+  "author": "Alberto Alonso Gómez",
+  "school": "CPR Nájera Nájera (La Rioja)",
+  "date": "12/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "Clic activities of Spanish language about: \n<ul> \n <li>syllable, diphtong, hiatus </li>\n <li>stressed and unstressed syllable </li>\n <li>oxytone, paroxytone and proparoxytone words </li>\n</ul>",
+    "ca": "Activitats que tenen com a objectiu ajudar als alumnes a repassar els conceptes de: \n<ul> \n <li>síl·laba, diftong, hiatus </li>\n <li>síl·laba tònica i síl·laba àtona </li>\n <li>paraules agudes, planes i esdrúixoles </li>\n</ul>",
+    "es": "Actividades que tienen como objetivo ayudar a los alumnos/as a repasar los conceptos de: \n<ul> \n <li>sílaba, diptongo, hiato </li>\n <li>sílaba tónica y sílaba átona </li>\n <li>palabras agudas, llanas y esdrújulas </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/silabac.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/silabac.jclic.zip",
+  "instFile": "jclic/silabac.jclic.inst",
+  "clicZoneId": 3128,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3128",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/silabac/jclic/silabac.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 69,
+  "mediaFiles": 25,
+  "totalSize": 1830932,
+  "files": [
+    "cover.gif",
+    "jclic.js/agulles.gif",
+    "jclic.js/agulles/acent2.gif",
+    "jclic.js/agulles/agulles.jclic",
+    "jclic.js/agulles/bosqpuz.gif",
+    "jclic.js/agulles/coq4bi.gif",
+    "jclic.js/agulles/coq4di.gif",
+    "jclic.js/agulles/fin1.gif",
+    "jclic.js/agulles/geo08a.gif",
+    "jclic.js/agulles/geo08b.gif",
+    "jclic.js/agulles/geo08e.gif",
+    "jclic.js/agulles/geo13a1i.gif",
+    "jclic.js/agulles/geo13b1i.gif",
+    "jclic.js/agulles/geo13d1i.gif",
+    "jclic.js/agulles/geo24a.gif",
+    "jclic.js/agulles/geo24b.gif",
+    "jclic.js/agulles/geo24c.gif",
+    "jclic.js/agulles/geo24e.gif",
+    "jclic.js/agulles/silaton5.gif",
+    "jclic.js/alberto.gif",
+    "jclic.js/silabac.gif",
+    "jclic.js/silabac.jclic",
+    "jclic.js/siladip.gif",
+    "jclic.js/sildip/bolas.gif",
+    "jclic.js/sildip/florpuz.gif",
+    "jclic.js/sildip/formapuz.gif",
+    "jclic.js/sildip/sildip.jclic",
+    "jclic.js/siltonat/flor2puz.gif",
+    "jclic.js/siltonat/siltonat.jclic",
+    "jclic.js/toniato.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/silabac.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/agulles/agulles.jclic.js",
+    "jclic.js/sildip/sildip.jclic.js",
+    "jclic.js/siltonat/siltonat.jclic.js",
+    "cover.webp"
+  ]
+}

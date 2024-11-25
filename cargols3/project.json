@@ -1,0 +1,93 @@
+{
+  "id": 2059,
+  "title": "Les parts del cargol",
+  "author": "Azucena Vázquez Gutiérrez",
+  "school": "Escola Acàcies Barcelona",
+  "date": "27/05/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "animals, cargol",
+    "es": "animales, caracol",
+    "en": "animales, screw"
+  },
+  "descCodes": [
+    1160,
+    1410
+  ],
+  "description": {
+    "en": "Set of activities about the screw addressed to kindergarden: \n<ul> \n <li>its shell </li>\n <li>its head </li>\n <li>its foot </li>\n</ul>",
+    "ca": "Conjunt d'activitats JClic per a treballar amb els nens i nenes les principals parts del cargol: \n<ul> \n <li>la closca </li>\n <li>el cap </li>\n <li>el peu </li>\n</ul> Originalment ha estat pensada per un projecte sobre cargols realitzat en una classe de P3.",
+    "es": "Conjunto de actividades JClic para trabajar con los niños y niñas las principales partes del caracol: \n<ul> \n <li>el caparazón </li>\n <li>la cabeza </li>\n <li>el pie </li>\n</ul> Originalmente ha sido pensada para un proyecto sobre los caracoles realizado en una clase de P3."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cargols3.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cargols3.jclic.zip",
+  "instFile": "jclic/cargols3.jclic.inst",
+  "clicZoneId": 3625,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3625",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cargols3/jclic/cargols3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 13,
+  "totalSize": 426203,
+  "files": [
+    "cover.jpg",
+    "jclic.js/cap1.png",
+    "jclic.js/cap2.png",
+    "jclic.js/cap3.png",
+    "jclic.js/cargol1.png",
+    "jclic.js/cargol2.jpg",
+    "jclic.js/cargol4.jpg",
+    "jclic.js/cargols3.jclic",
+    "jclic.js/closca.png",
+    "jclic.js/closca2.png",
+    "jclic.js/closca3.png",
+    "jclic.js/peu.png",
+    "jclic.js/peu2.png",
+    "jclic.js/peu3.png",
+    "jclic.js/poma3.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cargols3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

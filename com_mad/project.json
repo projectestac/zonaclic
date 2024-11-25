@@ -1,0 +1,98 @@
+{
+  "id": 2409,
+  "title": "Geografía física de la Comunidad de Madrid",
+  "author": "Ester de la Paz i José Tomás Zapata",
+  "school": "IES Pedro Duque Leganés (Madrid)",
+  "date": "22/10/15",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia física, paisatge, relleu",
+    "es": "geografía física, paisaje, relieve",
+    "en": "physical geography, landscape, relief"
+  },
+  "descCodes": [
+    237,
+    296,
+    324
+  ],
+  "description": {
+    "en": "This project contains the most important elements of the relief of the Community of Madrid (mountains, rivers...), towns and most important areas and natural landscapes.",
+    "ca": "Aquest projecte conté els elements més importants del relleu de la Comunitat de Madrid (serres, rius...), pobles i zones més importants i els paisatges naturals.",
+    "es": "Este proyecto contiene los elementos más importantes del relieve de la Comunidad de Madrid (sierras, ríos...), pueblos y zonas más importantes y los paisajes naturales."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/com_mad.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/com_mad.jclic.zip",
+  "instFile": "jclic/com_mad.jclic.inst",
+  "clicZoneId": 3917,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3917",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/com_mad/jclic/com_mad.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 17,
+  "totalSize": 2584739,
+  "files": [
+    "cover.png",
+    "jclic.js/1184578214_extras_ladillos_3_0.jpg",
+    "jclic.js/244.mp3",
+    "jclic.js/aplausos_2.wav",
+    "jclic.js/com_mad.jclic",
+    "jclic.js/comunidadmadrid.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imagescarqodxk.jpg",
+    "jclic.js/mapa_fisico_sierras_y_cordilleras_comunidad_de_madrid2.jpg",
+    "jclic.js/mapasgb_espana_provincias.png",
+    "jclic.js/marcados.jpg",
+    "jclic.js/mudo_rios.jpg",
+    "jclic.js/p_323.jpg",
+    "jclic.js/pedriza02.jpg",
+    "jclic.js/rios_cam_resized1.jpg",
+    "jclic.js/salto_muelles.mp3",
+    "jclic.js/sierras_mudo_2.jpg",
+    "jclic.js/windows_exclamation.wav",
+    "jclic.js/windows_hardware_fail.wav",
+    "jclic.js/windows_pop_up_blocked.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/com_mad.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": 1406,
+  "title": "Clasificación de los animales",
+  "author": "Francisco García-Pozuelo Díaz i Juana Rello Serrano",
+  "school": "CP Luis Vives Alcalá de Henares (Madrid)",
+  "date": "14/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "animals",
+    "es": "animales",
+    "en": "animales"
+  },
+  "descCodes": [
+    1160
+  ],
+  "description": {
+    "en": "Package of activities about the basic classification of the animals according to: \n<ul> \n <li>its skeleton </li>\n <li>its diet </li>\n <li>its reproduction </li>\n</ul>",
+    "ca": "Paquet d'activitats sobre la classificació bàsica dels animals segons: \n<ul> \n <li>el seu esquelet </li>\n <li>la seva alimentació </li>\n <li>la manera de reproduir-se </li>\n</ul>",
+    "es": "Paquete de actividades sobre la clasificación básica de los animales según: \n<ul> \n <li>su esqueleto </li>\n <li>su alimentación </li>\n <li>el modo de reproducción </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/animal2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/animal2.jclic.zip",
+  "instFile": "jclic/animal2.jclic.inst",
+  "clicZoneId": 3142,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3142",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/animal2/jclic/animal2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 31,
+  "totalSize": 717737,
+  "files": [
+    "cover.jpg",
+    "jclic.js/aguilabl.jpg",
+    "jclic.js/animal2.jclic",
+    "jclic.js/apatura.jpg",
+    "jclic.js/arrendajo.jpg",
+    "jclic.js/avestruz.jpg",
+    "jclic.js/barnacla.jpg",
+    "jclic.js/ciervo1.jpg",
+    "jclic.js/cocodrilo.jpg",
+    "jclic.js/cocodrilo1.jpg",
+    "jclic.js/cocodrilos.jpg",
+    "jclic.js/d__juani_imagenes_aves_agapornis.jpg",
+    "jclic.js/elefante.jpg",
+    "jclic.js/escarabajo.jpg",
+    "jclic.js/escorpag.jpg",
+    "jclic.js/flamencos7.jpg",
+    "jclic.js/guepard.jpg",
+    "jclic.js/leon.jpg",
+    "jclic.js/libelula.jpg",
+    "jclic.js/mariposa.jpg",
+    "jclic.js/mariposa2.jpg",
+    "jclic.js/mariposa3.jpg",
+    "jclic.js/mariposa4.jpg",
+    "jclic.js/mariposa5.jpg",
+    "jclic.js/mariposa6.jpg",
+    "jclic.js/mono.jpg",
+    "jclic.js/multi.jpg",
+    "jclic.js/osospardosm.jpg",
+    "jclic.js/oveja.jpg",
+    "jclic.js/pecari.jpg",
+    "jclic.js/saltamon.jpg",
+    "jclic.js/serpieente.jpg",
+    "jclic.js/zapatero.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/animal2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": 2032,
+  "title": "Vassili Kandinsky",
+  "author": "Àngels Orive Torras",
+  "school": "C Paidos Sant Fruitós de Bages (Bages)",
+  "date": "25/02/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Art & design",
+    "ca": "Visual i plàstica",
+    "es": "Plástica y visual"
+  },
+  "areaCodes": [
+    "vip"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "Vassili Kandinsky",
+    "es": "Vassili Kandinsky",
+    "en": "Vassili Kandinsky"
+  },
+  "descCodes": [
+    1405
+  ],
+  "description": {
+    "en": "Project of activities about the painter Wassily Kandinsky. The project has four pats: \n<ul> \n <li>the artist and his work </li>\n <li>puzzles </li>\n <li>match activities </li>\n <li>memory games </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre l'obra de Vassily Kandinsky. El projecte està dividit en quatre blocs: \n<ul> \n <li>l'obra de l'artista </li>\n <li>trencaclosques </li>\n <li>associacions </li>\n <li>jocs de memòria </li>\n</ul>",
+    "es": "Proyecto de actividades sobre la obra de Vassily Kandinsky. El proyecto está dividido en cuatro bloques: \n<ul> \n <li>obra del artista </li>\n <li>rompecabezas </li>\n <li>asociaciones </li>\n <li>juegos de memoria </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/kandinsky.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/kandinsky.jclic.zip",
+  "instFile": "jclic/kandinsky.jclic.inst",
+  "clicZoneId": 3602,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3602",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/kandinsky/jclic/kandinsky.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 33,
+  "mediaFiles": 46,
+  "totalSize": 4637723,
+  "files": [
+    "cover.jpg",
+    "jclic.js/1a_sessio.jpg",
+    "jclic.js/2a_sessio.jpg",
+    "jclic.js/3a_sessio.jpg",
+    "jclic.js/4a_sessio.jpg",
+    "jclic.js/5a_sessio.jpg",
+    "jclic.js/be.wav",
+    "jclic.js/bona.wav",
+    "jclic.js/cel_blau01.jpg",
+    "jclic.js/cel_blau03.jpg",
+    "jclic.js/cel_blau04.jpg",
+    "jclic.js/cel_blau05.jpg",
+    "jclic.js/cel_blau07.jpg",
+    "jclic.js/cercles_concentrics.jpg",
+    "jclic.js/cercles_concentrics_identificar01.jpg",
+    "jclic.js/cercles_concentrics_identificar02.jpg",
+    "jclic.js/cercles_concentrics_identificar03.jpg",
+    "jclic.js/cercles_concentrics_identificar04.jpg",
+    "jclic.js/cercles_identificar01.jpg",
+    "jclic.js/cercles_identificar02.jpg",
+    "jclic.js/cercles_identificar03.jpg",
+    "jclic.js/cercles_identificar04.jpg",
+    "jclic.js/cercles_identificar06.jpg",
+    "jclic.js/composicio_x_01.jpg",
+    "jclic.js/composicio_x_02.jpg",
+    "jclic.js/composicio_x_03.jpg",
+    "jclic.js/composicio_x_04.jpg",
+    "jclic.js/composicio_x_05.jpg",
+    "jclic.js/composicio_x_06.jpg",
+    "jclic.js/composicio_x_07.jpg",
+    "jclic.js/dp194.jpg",
+    "jclic.js/e492.jpg",
+    "jclic.js/ets_un_geni.wav",
+    "jclic.js/fons_copia.jpg",
+    "jclic.js/improvitzacio_africana_01.jpg",
+    "jclic.js/improvitzacio_africana_02.jpg",
+    "jclic.js/improvitzacio_africana_03.jpg",
+    "jclic.js/improvitzacio_africana_04.jpg",
+    "jclic.js/improvitzacio_africana_05.jpg",
+    "jclic.js/improvitzacio_africana_07.jpg",
+    "jclic.js/kandinsky.jclic",
+    "jclic.js/kandinsky.jpg",
+    "jclic.js/kandinsky1_100.jpg",
+    "jclic.js/kandinsky_bafarada.jpg",
+    "jclic.js/kandinskycomposicionfb2.jpg",
+    "jclic.js/l_elefant.jpg",
+    "jclic.js/molt_be.wav",
+    "jclic.js/perfecte.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/kandinsky.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

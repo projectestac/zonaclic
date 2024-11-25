@@ -1,0 +1,121 @@
+{
+  "id": 781,
+  "title": "El Pla d'Urgell",
+  "author": "Jordi Aumedes Castells",
+  "school": "ZER Plaurcén El Poal (Pla d'Urgell)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia, Pla d'Urgell",
+    "es": "geografía, Pla d'Urgell",
+    "en": "geography, Pla d'Urgell"
+  },
+  "descCodes": [
+    235,
+    554
+  ],
+  "description": {
+    "en": "Activities about the community of Pla d'Urgell: Geographic location, places, monuments, economic activity...",
+    "ca": "Paquet d'activitats sobre la comarca del Pla d'Urgell: Situació geogràfica, localitats, monuments, activitat econòmica, conreus...",
+    "es": "Paquete de actividades sobre la comarca catalana del Pla d'Urgell: Situación geográfica, localidades, monumentos, actividad económica, cultivos..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/plaurg.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/plaurg.jclic.zip",
+  "instFile": "jclic/plaurg.jclic.inst",
+  "clicZoneId": 1426,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1426",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/plaurg/jclic/plaurg.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 41,
+  "mediaFiles": 41,
+  "totalSize": 1576736,
+  "files": [
+    "cover.jpg",
+    "jclic.js/9simfbet.mid",
+    "jclic.js/aplauso.wav",
+    "jclic.js/arcs.jpg",
+    "jclic.js/balangue.mid",
+    "jclic.js/barcarol.mid",
+    "jclic.js/bellvis.jpg",
+    "jclic.js/bolero.mid",
+    "jclic.js/canal.jpg",
+    "jclic.js/canprima.mid",
+    "jclic.js/canyon.mid",
+    "jclic.js/carmen.mid",
+    "jclic.js/catamap.gif",
+    "jclic.js/danzfueg.mid",
+    "jclic.js/golmes.jpg",
+    "jclic.js/ivars.jpg",
+    "jclic.js/mapa.gif",
+    "jclic.js/mapamut.gif",
+    "jclic.js/mb_.gif",
+    "jclic.js/plaurg.jclic",
+    "jclic.js/poalg.jpg",
+    "jclic.js/polonai1.mid",
+    "jclic.js/polonai4.mid",
+    "jclic.js/pont.jpg",
+    "jclic.js/portada.wav",
+    "jclic.js/prinigor.mid",
+    "jclic.js/provinc.gif",
+    "jclic.js/s_arcs.jpg",
+    "jclic.js/s_bellvi.jpg",
+    "jclic.js/s_golmes.jpg",
+    "jclic.js/s_ivars.jpg",
+    "jclic.js/s_pont.jpg",
+    "jclic.js/s_sidamo.jpg",
+    "jclic.js/s_torreg.jpg",
+    "jclic.js/s_vilasa.jpg",
+    "jclic.js/sidamon.jpg",
+    "jclic.js/titol.gif",
+    "jclic.js/titol1.gif",
+    "jclic.js/toreador.mid",
+    "jclic.js/torreg.jpg",
+    "jclic.js/vilasana.jpg",
+    "jclic.js/x_fondar.jpg",
+    "jclic.js/x_moller.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/plaurg.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

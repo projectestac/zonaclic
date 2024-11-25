@@ -1,0 +1,92 @@
+{
+  "id": 1794,
+  "title": "La matèria 3r d'ESO",
+  "author": "Josep Ramon Planas",
+  "school": "C Sant Josep Obrer L'Hospitalet de Llobregat (Barcelonès)",
+  "date": "22/09/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "física, matèria",
+    "es": "física, materia",
+    "en": "physics, matter"
+  },
+  "descCodes": [
+    72,
+    1332
+  ],
+  "description": {
+    "en": "Activities about aggregation states of matter: \n<ul> \n <li> Mixtures and solutions </li>\n <li> Types of solutions </li>\n <li> Techniques to separate mixtures and solutions  </li>\n</ul>",
+    "ca": "Activitats sobre estats d'agregació de la matèria: \n<ul> \n <li>Mescles i solucions </li>\n <li>Tipus de solucions </li>\n <li>Tècniques de separació de mescles i solucions </li>\n</ul>",
+    "es": "Actividades sobre estados de agregación de la materia: \n<ul> \n <li>Mezclas y soluciones </li>\n <li>Tipos de soluciones </li>\n <li>Técnicas de separación de mezclas y soluciones </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/materia5.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/materia5.jclic.zip",
+  "instFile": "jclic/materia5.jclic.inst",
+  "clicZoneId": 3490,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3490",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/materia5/jclic/materia5.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 12,
+  "totalSize": 438605,
+  "files": [
+    "cover.jpg",
+    "jclic.js/canvi_estat.jpg",
+    "jclic.js/cromat.jpg",
+    "jclic.js/decantacion.jpg",
+    "jclic.js/destila1.jpg",
+    "jclic.js/e_decantacio.jpg",
+    "jclic.js/exercici27c.jpg",
+    "jclic.js/filtre.jpg",
+    "jclic.js/img1.jpg",
+    "jclic.js/img2.jpg",
+    "jclic.js/img3.jpg",
+    "jclic.js/materia5.jclic",
+    "jclic.js/quim1.jpg",
+    "jclic.js/titol.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/materia5.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

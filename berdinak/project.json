@@ -1,0 +1,124 @@
+{
+  "id": 88,
+  "title": "Berdinak",
+  "author": "Ana Mª Álvarez de Arcaya i Blanca Besga",
+  "date": "09/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "preescolar , identificació",
+    "es": "preescolar, identificación",
+    "en": "preschool, identification"
+  },
+  "descCodes": [
+    416,
+    848
+  ],
+  "description": {
+    "en": "This package consists of identify which of several drawings is equal to the model that appears on the left. It has 15 activities distributed in 4 packages with different levels of difficulty.",
+    "ca": "Aquest paquet està dissenyat per a nens i nenes d'Educació Infantil de 3, 4 i 5 anys. Consisteix en esbrinar quin dels dibuixos és igual al model que apareix a l'esquerra. Consta de 15 activitats, distribuïdes en 4 paquets, amb diferents graus de dificultat segons sigui l'edat dels alumnes.",
+    "es": "Este paquete está diseñado para niños / as de Educación Infantil de 3, 4 y 5 años. Consiste en averiguar cual de los dibujos es igual al modelo que aparece a la izquierda. Consta de 15 actividades, distribuidas en 4 paquetes, con diferentes grados de dificultad, según sea la edad de los / las alumnos / as."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "iguales"
+  ],
+  "mainFile": "jclic.js/berdinak.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/berdinak.jclic.zip",
+  "instFile": "jclic/berdinak.jclic.inst",
+  "clicZoneId": 1041,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1041",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/berdinak/jclic/berdinak.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 36,
+  "totalSize": 1816545,
+  "files": [
+    "cover.gif",
+    "jclic.js/3urte.gif",
+    "jclic.js/3urte/30.gif",
+    "jclic.js/3urte/31.gif",
+    "jclic.js/3urte/32.gif",
+    "jclic.js/3urte/3urte.jclic",
+    "jclic.js/3urte/final.jpg",
+    "jclic.js/3urte/mezu3.gif",
+    "jclic.js/3urte/mezufi.gif",
+    "jclic.js/3urte/ondo.wav",
+    "jclic.js/3urte/texture4.gif",
+    "jclic.js/3urte/txalo.wav",
+    "jclic.js/4urte.gif",
+    "jclic.js/4urte/40.gif",
+    "jclic.js/4urte/41.gif",
+    "jclic.js/4urte/42.gif",
+    "jclic.js/4urte/43.gif",
+    "jclic.js/4urte/4urte.jclic",
+    "jclic.js/4urte/final.jpg",
+    "jclic.js/4urte/mezu4.gif",
+    "jclic.js/4urte/mezufi.gif",
+    "jclic.js/4urte/ondo.wav",
+    "jclic.js/4urte/texture6.gif",
+    "jclic.js/4urte/txalo.wav",
+    "jclic.js/5urte.gif",
+    "jclic.js/5urte/50.gif",
+    "jclic.js/5urte/51.gif",
+    "jclic.js/5urte/52.gif",
+    "jclic.js/5urte/53.gif",
+    "jclic.js/5urte/54.gif",
+    "jclic.js/5urte/5urte.jclic",
+    "jclic.js/5urte/final.jpg",
+    "jclic.js/5urte/mezu5.gif",
+    "jclic.js/5urte/mezufi.gif",
+    "jclic.js/5urte/ondo.wav",
+    "jclic.js/5urte/texture3.gif",
+    "jclic.js/5urte/txalo.wav",
+    "jclic.js/berdinak.jclic",
+    "jclic.js/menu.gif",
+    "jclic.js/portada.jpg",
+    "jclic.js/punto.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/berdinak.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/3urte/3urte.jclic.js",
+    "jclic.js/4urte/4urte.jclic.js",
+    "jclic.js/5urte/5urte.jclic.js",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": 2289,
+  "title": "Egipto",
+  "author": "Lucía Ginés",
+  "date": "11/04/13",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "Egipte",
+    "es": "Egipto",
+    "en": "Egypt"
+  },
+  "descCodes": [
+    783
+  ],
+  "description": {
+    "en": "Project of activities addressed to kindergarten about Egypt: \n<ul> \n <li>Where did they live? </li>\n <li>Who lived there? </li>\n <li>What did they build? </li>\n <li>How did they write? </li>\n</ul>",
+    "ca": "Projecte d'activitats adreçat a educació infantil sobre Egipte: \n<ul> \n <li>On vivien? </li>\n <li>Qui hi vivia? </li>\n <li>Què construïen? </li>\n <li>Com escrivien? </li>\n</ul>",
+    "es": "Proyecto de actividades dirigido a educación infantil sobre Egipto: \n<ul> \n <li>¿Dónde vivían? </li>\n <li>¿Quienes vivían? </li>\n <li>¿Qué construían? </li>\n <li>¿Cómo escribían? </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/egipto.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/egipto.jclic.zip",
+  "instFile": "jclic/egipto.jclic.inst",
+  "clicZoneId": 3803,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3803",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/egipto/jclic/egipto.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 40,
+  "totalSize": 4288768,
+  "files": [
+    "cover.png",
+    "jclic.js/artesanos.mp3",
+    "jclic.js/braille_alphabet_letters.gif",
+    "jclic.js/c_egypt10nn_gif.jpg",
+    "jclic.js/campesinos.mp3",
+    "jclic.js/captura2.png",
+    "jclic.js/coche.png",
+    "jclic.js/cocodrilo.jpg",
+    "jclic.js/conocemos_egipto.mp3",
+    "jclic.js/correcto_.mp3",
+    "jclic.js/diapositiva1_resized.jpg",
+    "jclic.js/diapositiva3_resized.jpg",
+    "jclic.js/diapositiva4_resized.jpg",
+    "jclic.js/diapositiva5_resized.jpg",
+    "jclic.js/diapositiva6_resized.jpg",
+    "jclic.js/eg2_resized.jpg",
+    "jclic.js/eg3_resized.jpg",
+    "jclic.js/eg_resized2.jpg",
+    "jclic.js/egipto.jclic",
+    "jclic.js/el_faraon.mp3",
+    "jclic.js/el_papiro.mp3",
+    "jclic.js/escriba.mp3",
+    "jclic.js/escriba.png",
+    "jclic.js/fondo_resized3.jpg",
+    "jclic.js/imagescaqw76fp.jpg",
+    "jclic.js/jeroglifico.mp3",
+    "jclic.js/letras_grandes.gif",
+    "jclic.js/lo_conseguiste_.mp3",
+    "jclic.js/momia.mp3",
+    "jclic.js/muy_bien_.mp3",
+    "jclic.js/papiro.gif",
+    "jclic.js/pharaohdanceposehgclrwl2.gif",
+    "jclic.js/piedra_roseta.mp3",
+    "jclic.js/piramides.mp3",
+    "jclic.js/piramides_de_egipto.jpg",
+    "jclic.js/rio_nilo.mp3",
+    "jclic.js/rosetta_stone_bw_jpeg.png",
+    "jclic.js/sacerdote.mp3",
+    "jclic.js/sacerdote.png",
+    "jclic.js/teo_momia_es_source_k2l_resized.jpg",
+    "jclic.js/trabajador.png",
+    "jclic.js/trabajadores.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/egipto.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

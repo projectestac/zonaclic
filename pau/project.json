@@ -1,0 +1,107 @@
+{
+  "id": 2006,
+  "title": "Pau per la pau",
+  "author": "Olga Valls",
+  "school": "Escola Emili Vallès Igualada (Anoia)",
+  "date": "02/12/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences, Music",
+    "ca": "Ciències socials, Música",
+    "es": "Ciencias sociales, Música"
+  },
+  "areaCodes": [
+    "soc",
+    "mus"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la música, audició musical, Educació en valors, Pau Casals",
+    "es": "aprendizaje de la música, audición musical, Educación en valores, Pau Casals",
+    "en": "learning of music, musical hearing, Values, Pau Casals"
+  },
+  "descCodes": [
+    717,
+    718,
+    1372,
+    1401
+  ],
+  "description": {
+    "en": "Thirteen JClic activities about Pau Casals (1876-1973), a Catalan musician.\n<p> </p>\n<p class=\"avislpi\"> The reproduction of the illustrations and music's in this activity use the right to quote with educational purposes established in the article 32 of the legal decree 1/1996 from the 12th of April (<a href=\"http://www.boe.es/g/es/bases_datos/doc.php?coleccion=iberlex&amp;id=1996/08930&amp;txtlen=1000\">BOE n. 97, April 22nd</a>). The Department of Education does not own the authoring right derived. </p>",
+    "ca": "Projecte d'activitats JClic format per 13 exercicis que permeten descobrir la biografia de Pau Casals (1876-1973) i la seva contribució a la pau. Al llarg del projecte podem escoltar músiques de l'autor com els El cant dels Ocells, Sant Martí del Canigó i El Pessebre.\n<p> </p>\n<p class=\"avislpi\"> La reproducció de les il·lustracions i músiques realitzades en aquesta activitat <strong>s'acull al dret de cita amb finalitats docents establert a l'article 32 del Reial decret legislatiu 1/1996</strong>, de 12 d'abril (<a href=\"http://www.boe.es/g/es/bases_datos/doc.php?coleccion=iberlex&amp;id=1996/08930&amp;txtlen=1000\">BOE número 97, de 22 d'abril</a>). El Departament d'Educació no és el titular dels drets d'autoria que se'n deriven. </p>",
+    "es": "Proyecto de actividades JClic formado por 13 ejercicios que permiten descubrir la biografía de Pau Casals (1876-1973) y su contribución por la paz. A lo largo del proyecto podemos escuchar músicas del autor como El cant dels Ocells, Sant Martí del Canigó y El Pessebre. \n<p> </p>\n<p class=\"avislpi\">La reproducción de las ilustraciones y músicas realizadas en esta actividad <strong>se acoge al derecho de cita con finalidades docentes establecido en el artículo 32 del Real decreto legislativo 1/1996</strong>, de 12 de abril (<a href=\"http://www.boe.es/g/es/bases_datos/doc.php?coleccion=iberlex&amp;id=1996/08930&amp;txtlen=1000\">BOE número 97, de 22 d'abril</a>). El Departament d'Educació no es el titular de los derechos de autoría que se derivan. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/pau.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pau.jclic.zip",
+  "instFile": "jclic/pau.jclic.inst",
+  "clicZoneId": 3584,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3584",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pau/jclic/pau.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 24,
+  "totalSize": 2336226,
+  "files": [
+    "cover.gif",
+    "jclic.js/22casals.jpg",
+    "jclic.js/carbasseta.jpg",
+    "jclic.js/casals16.jpg",
+    "jclic.js/casals4.jpg",
+    "jclic.js/casalsnen.jpg",
+    "jclic.js/casapau.jpg",
+    "jclic.js/colom.jpg",
+    "jclic.js/guerra.jpg",
+    "jclic.js/guerra1.jpg",
+    "jclic.js/mariacristina.jpg",
+    "jclic.js/museu.jpg",
+    "jclic.js/ocells.mp3",
+    "jclic.js/onu.jpg",
+    "jclic.js/paris.gif",
+    "jclic.js/pau.jclic",
+    "jclic.js/paucasals.jpg",
+    "jclic.js/paucasals8.jpg",
+    "jclic.js/paudirector.jpg",
+    "jclic.js/pauinfant.jpg",
+    "jclic.js/pessebre.mp3",
+    "jclic.js/prada.jpg",
+    "jclic.js/rmariacristina.jpg",
+    "jclic.js/s._marti_canigo.mp3",
+    "jclic.js/sansalvador.jpg",
+    "jclic.js/vendrell7b.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pau.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": 1347,
+  "title": "Bufar i fer ampolles: dites i frases fetes catalanes",
+  "author": "Jordi Roca i Font",
+  "school": "Escola Montmany Figaró-Montmany (Montmany) (Vallès Oriental)",
+  "date": "24/02/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "comprensió escrita, llengua catalana",
+    "es": "comprensión escrita, lengua catalana",
+    "en": "written understanding, Catalan language"
+  },
+  "descCodes": [
+    111,
+    133
+  ],
+  "description": {
+    "en": "Clic activities about Catalan proverbs and sayings.",
+    "ca": "Bufar i fer ampolles és una activitat amb la qual els alumnes hauran de demostrar la seva habilitat a l'hora de reconèixer dites i frases fetes catalanes.",
+    "es": "Con este paquete de actividades se pretende que los alumnos demuestren su habilidad para reconocer dichos y frases hechas catalanas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/frases.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/frases.jclic.zip",
+  "instFile": "jclic/frases.jclic.inst",
+  "clicZoneId": 3089,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3089",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/frases/jclic/frases.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 44,
+  "mediaFiles": 18,
+  "totalSize": 430666,
+  "files": [
+    "cover.gif",
+    "jclic.js/adeu.gif",
+    "jclic.js/amigues.gif",
+    "jclic.js/caram.gif",
+    "jclic.js/coet.gif",
+    "jclic.js/escut.gif",
+    "jclic.js/frases.jclic",
+    "jclic.js/iaiac.gif",
+    "jclic.js/iaiacp.gif",
+    "jclic.js/iaiam.gif",
+    "jclic.js/iaiamp.gif",
+    "jclic.js/inici.gif",
+    "jclic.js/inicial.gif",
+    "jclic.js/inter.gif",
+    "jclic.js/moto.gif",
+    "jclic.js/okdues.gif",
+    "jclic.js/triarc.gif",
+    "jclic.js/triarm.gif",
+    "jclic.js/xandall.gif",
+    "jclic.js/xat.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/frases.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

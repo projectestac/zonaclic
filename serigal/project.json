@@ -1,0 +1,148 @@
+{
+  "id": 662,
+  "title": "Sèries de càlcul",
+  "author": "Toni Miquel Mollà",
+  "school": "CP Crist de la Pau Sant Joan d'Alacant (Alacantí)",
+  "date": "29/07/02",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "càlcul, problemes matemàtics",
+    "es": "cálculo, problemas matemáticos",
+    "en": "calculation, mathematic problems"
+  },
+  "descCodes": [
+    702,
+    926
+  ],
+  "description": {
+    "en": "These activities consist of calculating and writing the numbers that lack in the series that appear. In the last package is necessary to also write the sign of the corresponding operation.",
+    "ca": "Aquestes activitats consisteixen en calcular i escriure els números que falten en les sèries que es presenten. A l'últim paquet, a més, cal escriure el signe de l'operació corresponent.",
+    "es": "Estas actividades consisten en calcular y escribir los números que faltan en las series que se presentan. En el último paquete hay que escribir también el signo de la operación correspondiente."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "sailak",
+    "seriecal",
+    "seriesp"
+  ],
+  "mainFile": "jclic.js/serigal.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/serigal.jclic.zip",
+  "instFile": "jclic/serigal.jclic.inst",
+  "clicZoneId": 1349,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1349",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/serigal/jclic/serigal.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 32,
+  "mediaFiles": 63,
+  "totalSize": 529080,
+  "files": [
+    "cover.gif",
+    "jclic.js/4oper_4oper1a.gif",
+    "jclic.js/4oper_4oper1s.gif",
+    "jclic.js/4oper_4oper2a.gif",
+    "jclic.js/4oper_4oper2s.gif",
+    "jclic.js/4oper_4oper3a.gif",
+    "jclic.js/4oper_4oper3s.gif",
+    "jclic.js/4oper_4oper4a.gif",
+    "jclic.js/4oper_4oper4s.gif",
+    "jclic.js/4oper_4oper5a.gif",
+    "jclic.js/4oper_4oper5s.gif",
+    "jclic.js/divimul_divmul1a.gif",
+    "jclic.js/divimul_divmul1s.gif",
+    "jclic.js/divimul_divmul2a.gif",
+    "jclic.js/divimul_divmul2s.gif",
+    "jclic.js/divimul_divmul3a.gif",
+    "jclic.js/divimul_divmul3s.gif",
+    "jclic.js/divimul_divmul4a.gif",
+    "jclic.js/divimul_divmul4s.gif",
+    "jclic.js/divimul_divmul5a.gif",
+    "jclic.js/divimul_divmul5s.gif",
+    "jclic.js/preserie.gif",
+    "jclic.js/restes_serier1a.gif",
+    "jclic.js/restes_serier1s.gif",
+    "jclic.js/restes_serier2a.gif",
+    "jclic.js/restes_serier2s.gif",
+    "jclic.js/restes_serier3a.gif",
+    "jclic.js/restes_serier3s.gif",
+    "jclic.js/restes_serier4a.gif",
+    "jclic.js/restes_serier4s.gif",
+    "jclic.js/restes_serier5a.gif",
+    "jclic.js/restes_serier5s.gif",
+    "jclic.js/serigal.jclic",
+    "jclic.js/sersign_ssigne1a.gif",
+    "jclic.js/sersign_ssigne1s.gif",
+    "jclic.js/sersign_ssigne2a.gif",
+    "jclic.js/sersign_ssigne2s.gif",
+    "jclic.js/sersign_ssigne3a.gif",
+    "jclic.js/sersign_ssigne3s.gif",
+    "jclic.js/sersign_ssigne4a.gif",
+    "jclic.js/sersign_ssigne4s.gif",
+    "jclic.js/sersign_ssigne5a.gif",
+    "jclic.js/sersign_ssigne5s.gif",
+    "jclic.js/somebody.mid",
+    "jclic.js/sumes_seris1a.gif",
+    "jclic.js/sumes_seris1s.gif",
+    "jclic.js/sumes_seris2a.gif",
+    "jclic.js/sumes_seris2s.gif",
+    "jclic.js/sumes_seris3a.gif",
+    "jclic.js/sumes_seris3s.gif",
+    "jclic.js/sumes_seris4a.gif",
+    "jclic.js/sumes_seris4s.gif",
+    "jclic.js/sumes_seris5a.gif",
+    "jclic.js/sumes_seris5s.gif",
+    "jclic.js/sumres_serisr1a.gif",
+    "jclic.js/sumres_serisr1s.gif",
+    "jclic.js/sumres_serisr2a.gif",
+    "jclic.js/sumres_serisr2s.gif",
+    "jclic.js/sumres_serisr3a.gif",
+    "jclic.js/sumres_serisr3s.gif",
+    "jclic.js/sumres_serisr4a.gif",
+    "jclic.js/sumres_serisr4s.gif",
+    "jclic.js/sumres_serisr5a.gif",
+    "jclic.js/sumres_serisr5s.gif",
+    "jclic.js/triar_triaser.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/serigal.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": 1171,
+  "title": "Geografía de México",
+  "author": "Consuelo Troncoso Pérez",
+  "school": "Taller de Apoyo Pedagógico \"CERTEMA\" México D.F.",
+  "date": "14/06/04",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia",
+    "es": "geografía",
+    "en": "geography"
+  },
+  "descCodes": [
+    235
+  ],
+  "description": {
+    "en": "Clic activities about political geography of Mexico. It contains: \n<ul> \n <li>State location </li>\n <li>Memorize the state capitals. </li>\n</ul>",
+    "ca": "Paquet d'activitats de geografia política de la República de Mèxic. S'hi treballa bàsicament la localització dels estats i els noms de les ciutats més importants.",
+    "es": "Paquete de actividades de geografía política sobre la República de México. En ellas se trabaja básicamente la localización de los estados y los nombres de las ciudades más importantes."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/geomex.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/geomex.jclic.zip",
+  "instFile": "jclic/geomex.jclic.inst",
+  "clicZoneId": 2649,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2649",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/geomex/jclic/geomex.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 54,
+  "totalSize": 853754,
+  "files": [
+    "cover.gif",
+    "jclic.js/artesani.gif",
+    "jclic.js/bravo.wav",
+    "jclic.js/caguila.gif",
+    "jclic.js/campo.gif",
+    "jclic.js/carat1.gif",
+    "jclic.js/ciudad.gif",
+    "jclic.js/clima.gif",
+    "jclic.js/divpol.gif",
+    "jclic.js/edosnor1.gif",
+    "jclic.js/faunas.gif",
+    "jclic.js/geolog.gif",
+    "jclic.js/geomex.jclic",
+    "jclic.js/iglesias.gif",
+    "jclic.js/mapasur.gif",
+    "jclic.js/maripmon.gif",
+    "jclic.js/mexaguas.gif",
+    "jclic.js/mexamer.gif",
+    "jclic.js/mexbcn.gif",
+    "jclic.js/mexbcs.gif",
+    "jclic.js/mexcampe.gif",
+    "jclic.js/mexchiap.gif",
+    "jclic.js/mexchihu.gif",
+    "jclic.js/mexcoahu.gif",
+    "jclic.js/mexcolim.gif",
+    "jclic.js/mexdisfe.gif",
+    "jclic.js/mexduran.gif",
+    "jclic.js/mexedome.gif",
+    "jclic.js/mexguato.gif",
+    "jclic.js/mexguerr.gif",
+    "jclic.js/mexhidal.gif",
+    "jclic.js/mexjalis.gif",
+    "jclic.js/mexmicho.gif",
+    "jclic.js/mexmorel.gif",
+    "jclic.js/mexnayar.gif",
+    "jclic.js/mexnvole.gif",
+    "jclic.js/mexoaxa.gif",
+    "jclic.js/mexpuebl.gif",
+    "jclic.js/mexquere.gif",
+    "jclic.js/mexquint.gif",
+    "jclic.js/mexsanlu.gif",
+    "jclic.js/mexsinal.gif",
+    "jclic.js/mexsono.gif",
+    "jclic.js/mextabas.gif",
+    "jclic.js/mextamau.gif",
+    "jclic.js/mextlaxc.gif",
+    "jclic.js/mexverac.gif",
+    "jclic.js/mexyucat.gif",
+    "jclic.js/mexzacat.gif",
+    "jclic.js/moltbe.wav",
+    "jclic.js/playas3.gif",
+    "jclic.js/relieve.gif",
+    "jclic.js/riquezat.gif",
+    "jclic.js/rompmex3.gif",
+    "jclic.js/tmexic.gif",
+    "jclic.js/vegetac.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/geomex.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

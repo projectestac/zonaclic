@@ -1,0 +1,111 @@
+{
+  "id": 2237,
+  "title": "Estadística",
+  "author": "David Moyano Cervelló",
+  "school": "Institut Gabriel Ferrater i Soler Reus (Baix Camp)",
+  "date": "04/04/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "description": {
+    "en": "Project of JClic activities created as a complement to the classroom for the study of statistics. The activities are grouped into four sections: \n<ul> \n <li>Basic concepts </li>\n <li>Graphs </li>\n <li>Statistical parameters </li>\n <li>Statistical problems \n  <ul> \n  </ul></li>\n</ul>",
+    "ca": "Projecte d'activitats JClic creat com a material complementari de l'aula per a l'estudi de l'estadística. Les activitats estan agrupades en quatre seccions: \n<ul> \n <li>conceptes bàsics </li>\n <li>gràfiques </li>\n <li>paràmetres estadístics </li>\n <li>problemes </li>\n</ul>",
+    "es": "Proyecto de actividades JClic creado como material complementario del aula para el estudio de la estadística. Las actividades están agrupadas en cuatro secciones: \n<ul> \n <li>conceptos básicos </li>\n <li>gráficas </li>\n <li>parámetros estadísticos </li>\n <li>problemas </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/estadis2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/estadis2.jclic.zip",
+  "instFile": "jclic/estadis2.jclic.inst",
+  "clicZoneId": 3756,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3756",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/estadis2/jclic/estadis2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 38,
+  "mediaFiles": 32,
+  "totalSize": 658003,
+  "files": [
+    "cover.png",
+    "jclic.js/conceptes/conceptes.jclic",
+    "jclic.js/conceptes/taula_2.jpg",
+    "jclic.js/conceptes/taula_3.jpg",
+    "jclic.js/conceptes/taula_5.jpg",
+    "jclic.js/dmoyano_m2.png",
+    "jclic.js/estadis2.jclic",
+    "jclic.js/grafiques/ass._simple_1.jpg",
+    "jclic.js/grafiques/barres.jpg",
+    "jclic.js/grafiques/caixa.jpg",
+    "jclic.js/grafiques/cinema.jpg",
+    "jclic.js/grafiques/grafiques.jclic",
+    "jclic.js/grafiques/histograma.jpg",
+    "jclic.js/grafiques/i01_opinio_1.jpg",
+    "jclic.js/grafiques/i01_opinio_2.jpg",
+    "jclic.js/grafiques/i01_opinio_3.jpg",
+    "jclic.js/grafiques/i01_opinio_4.jpg",
+    "jclic.js/grafiques/lineal.jpg",
+    "jclic.js/grafiques/pictograma.jpg",
+    "jclic.js/grafiques/sabates_1.jpg",
+    "jclic.js/grafiques/sabates_2.jpg",
+    "jclic.js/grafiques/sabates_3.jpg",
+    "jclic.js/grafiques/sabates_4.jpg",
+    "jclic.js/grafiques/sectors.jpg",
+    "jclic.js/menu_1.jpg",
+    "jclic.js/menu_2.jpg",
+    "jclic.js/menu_3.jpg",
+    "jclic.js/menu_4.jpg",
+    "jclic.js/parametres/parametres.jclic",
+    "jclic.js/parametres/taula10.jpg",
+    "jclic.js/parametres/taula8.jpg",
+    "jclic.js/parametres/taula9.jpg",
+    "jclic.js/parametres/taula_6.jpg",
+    "jclic.js/parametres/taula_7.jpg",
+    "jclic.js/problemes/problemes.jclic",
+    "jclic.js/problemes/taula_11.jpg",
+    "jclic.js/problemes/taula_12.jpg",
+    "jclic.js/problemes/taula_13.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/estadis2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/conceptes/conceptes.jclic.js",
+    "jclic.js/grafiques/grafiques.jclic.js",
+    "jclic.js/parametres/parametres.jclic.js",
+    "jclic.js/problemes/problemes.jclic.js",
+    "cover.webp"
+  ]
+}

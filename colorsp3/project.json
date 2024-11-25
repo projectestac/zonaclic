@@ -1,0 +1,98 @@
+{
+  "id": 1991,
+  "title": "Juguem amb els colors a P3",
+  "author": "Azucena Vázquez Gutiérrez",
+  "school": "AFA Pla de Besós Sant Adrià de Besós (Barcelonès)",
+  "date": "08/10/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Art & design",
+    "ca": "Visual i plàstica",
+    "es": "Plástica y visual"
+  },
+  "areaCodes": [
+    "vip"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "colors",
+    "es": "colores",
+    "en": "colours"
+  },
+  "descCodes": [
+    1389
+  ],
+  "description": {
+    "en": "Project of activities addressed to kindergarden about four colours (blue, yellow, red and green).",
+    "ca": "Projecte d'activitats molt senzilles entorn quatre colors (blau, groc, vermell i verd) que a més de treballar aquests continguts permet iniciar-se en l'ús del ratolí per als més petits.",
+    "es": "Proyecto de actividades muy sencillas entorno cuatro colores (azul, amarillo, rojo y verde) que además de trabajar estos contenidos permite iniciarse en el uso del ratón para los más pequeños."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "color_eu"
+  ],
+  "mainFile": "jclic.js/colorsp3.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/colorsp3.jclic.zip",
+  "instFile": "jclic/colorsp3.jclic.inst",
+  "clicZoneId": 3572,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3572",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/colorsp3/jclic/colorsp3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 16,
+  "totalSize": 99798,
+  "files": [
+    "cover.gif",
+    "jclic.js/cercleblau.gif",
+    "jclic.js/cerclegroc.gif",
+    "jclic.js/cercleverd.gif",
+    "jclic.js/cerclevermell.gif",
+    "jclic.js/colorsp3.jclic",
+    "jclic.js/nuvol.jpg",
+    "jclic.js/poma.jpg",
+    "jclic.js/quadratblau.gif",
+    "jclic.js/quadratgroc.gif",
+    "jclic.js/quadratverd.gif",
+    "jclic.js/quadravermell.gif",
+    "jclic.js/sol.jpg",
+    "jclic.js/titolnou.jpg",
+    "jclic.js/triangleblau.gif",
+    "jclic.js/trianglegroc.gif",
+    "jclic.js/triangleverd.gif",
+    "jclic.js/trianglevermell.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/colorsp3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

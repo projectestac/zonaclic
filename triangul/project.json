@@ -1,0 +1,86 @@
+{
+  "id": 2423,
+  "title": "Los triángulos",
+  "author": "Pablo Valenciano Moratinos",
+  "date": "21/01/16",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "trigonometria",
+    "es": "trigonometría",
+    "en": "trigonometry"
+  },
+  "descCodes": [
+    716
+  ],
+  "description": {
+    "en": "This project reinforces the definitions of the different types of triangles: \n<ul> \n <li>Elements of a triangle </li>\n <li>Classification of triangles </li>\n <li>Theorem sum of interior angles </li>\n</ul>",
+    "ca": "Aquest projecte reforça les definicions dels diferents tipus de triangles: \n<ul> \n <li>Elements d'un triangle </li>\n <li>Classificació de triangles </li>\n <li>Teorema de suma d'angles interiors </li>\n</ul>",
+    "es": "Este proyecto refuerza las definiciones de los diferentes tipos de triángulos: \n<ul> \n <li>Elementos de un triángulo </li>\n <li>Clasificación de triángulos </li>\n <li>Teorema de suma de ángulos interiores </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/triangul.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/triangul.jclic.zip",
+  "instFile": "jclic/triangul.jclic.inst",
+  "clicZoneId": 3931,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3931",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/triangul/jclic/triangul.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 7,
+  "totalSize": 336731,
+  "files": [
+    "cover.png",
+    "jclic.js/acutangulo.png",
+    "jclic.js/equilatero.png",
+    "jclic.js/escaleno.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/isosceles.png",
+    "jclic.js/obtusangulo.png",
+    "jclic.js/rectangulo.png",
+    "jclic.js/triangul.jclic",
+    "jclic.js/triangul.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/triangul.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

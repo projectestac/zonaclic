@@ -1,0 +1,105 @@
+{
+  "id": 2178,
+  "title": "It's carnival!",
+  "author": "Cristina Rodríguez Matas",
+  "school": "Escola Estalella i Graells Vilafranca del Penedès (Alt Penedès)",
+  "date": "16/09/11",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua anglesa, vocabulari, carnaval",
+    "es": "aprendizaje de la lengua, lengua inglesa, vocabulario, carnaval",
+    "en": "learning of the language, English language, vocabulary, carnival"
+  },
+  "descCodes": [
+    110,
+    130,
+    150,
+    927
+  ],
+  "description": {
+    "en": "This project aims at working on the topic of Carnival from a multicultural point of view. It deals with the four main skills that children in Primary Education must develop in order to achieve a good competence in the use of English. Besides, the topic is worked from three different views as it deals with the celebration of this popular festivity in three very different countries: Spain, Italy and Brazil.",
+    "ca": "Projecte d'activitats que té com a objectiu treballar el carnaval des d'un punt de vista multicultural. El projecte, en llengua anglesa, vol desenvolupar les habilitats principals que un nen o nena ha d'assolir per a una bona competència de la llengua anglesa. Al llarg del projecte trobem diferents punts de vista d'aquesta festa popular a tres països molt diferents: Espanya, Itàlia i Brasil.",
+    "es": "Proyecto de actividades que tiene como objetivo trabajar el carnaval desde un punto de vista multicultural. El proyecto, en lengua inglesa, quiere desarrollar las habilidades principales que un niño o niña debe alcanzar para una buena competencia de la lengua inglesa. A lo largo del proyecto encontramos diferentes puntos de vista de esta fiesta popular en tres países muy diferentes: España, Italia y Brasil."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/carnival.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/carnival.jclic.zip",
+  "instFile": "jclic/carnival.jclic.inst",
+  "clicZoneId": 3714,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3714",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/carnival/jclic/carnival.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 23,
+  "totalSize": 1216143,
+  "files": [
+    "cover.jpg",
+    "jclic.js/carnival.jclic",
+    "jclic.js/carnival_in_cadiz.mp3",
+    "jclic.js/confeti.jpg",
+    "jclic.js/confetti.mp3",
+    "jclic.js/costumes.mp3",
+    "jclic.js/costumes_resized.jpg",
+    "jclic.js/dancer.mp3",
+    "jclic.js/dancerr.png",
+    "jclic.js/fondo.jpg",
+    "jclic.js/makeup.mp3",
+    "jclic.js/makeup_lit.jpg",
+    "jclic.js/mask.jpg",
+    "jclic.js/mask.mp3",
+    "jclic.js/mask1_resized2.jpg",
+    "jclic.js/parade.mp3",
+    "jclic.js/parade_resized1.jpg",
+    "jclic.js/serpentine.jpg",
+    "jclic.js/streamers.mp3",
+    "jclic.js/street.jpg",
+    "jclic.js/street.mp3",
+    "jclic.js/whistle.jpg",
+    "jclic.js/whistle.mp3",
+    "jclic.js/wig.mp3",
+    "jclic.js/wig_lit.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/carnival.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

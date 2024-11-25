@@ -1,0 +1,96 @@
+{
+  "id": 1692,
+  "title": "A galiña",
+  "school": "CEIP Galán Oseiro (Galiza)",
+  "date": "10/07/07",
+  "languages": {
+    "en": "Galician",
+    "ca": "gallec",
+    "es": "gallego"
+  },
+  "langCodes": [
+    "gl"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua gallega, comprensió lectora",
+    "es": "lengua gallega, comprensión lectora",
+    "en": "Galician language, reading comprehension"
+  },
+  "descCodes": [
+    921,
+    1329
+  ],
+  "description": {
+    "en": "Project of activities for reading comprehension in Galician for primary school. It starts with one text about a hen named Xosefa.",
+    "ca": "Projecte d'activitats de comprensió lectora en gallec per a primer cicle d'educació primària, que pren com a punt de partida un text sobre una gallina anomenada Xosefa.",
+    "es": "Proyecto de actividades de comprensión lectora en gallego para primer ciclo de educación primarial que toma como punto de partida un texto sobre una gallina llamada Xosefa."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/galina.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/galina.jclic.zip",
+  "instFile": "jclic/galina.jclic.inst",
+  "clicZoneId": 3401,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3401",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/galina/jclic/galina.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 17,
+  "totalSize": 1153028,
+  "files": [
+    "cover.jpg",
+    "jclic.js/acertche2.wav",
+    "jclic.js/ben2.wav",
+    "jclic.js/estpend2.wav",
+    "jclic.js/fanttico2.wav",
+    "jclic.js/fenomna2.wav",
+    "jclic.js/fondo2.jpg",
+    "jclic.js/fxmoibe2.wav",
+    "jclic.js/galina.jclic",
+    "jclic.js/galinapz.gif",
+    "jclic.js/galinatx.gif",
+    "jclic.js/moiben.wav",
+    "jclic.js/non.gif",
+    "jclic.js/perfecto2.wav",
+    "jclic.js/portada.gif",
+    "jclic.js/queres.wav",
+    "jclic.js/queresmarron.jpg",
+    "jclic.js/si.gif",
+    "jclic.js/xenial2.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/galina.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

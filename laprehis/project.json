@@ -1,0 +1,111 @@
+{
+  "id": 1495,
+  "title": "La Prehistoria",
+  "author": "Manuel Payán Cortés",
+  "school": "IES Dolmen de Soto Trigueros - Huelva (Andalucía)",
+  "date": "01/12/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "prehistòria",
+    "es": "prehistoria",
+    "en": "prehistory"
+  },
+  "descCodes": [
+    314
+  ],
+  "description": {
+    "en": "Project of activities about the Prehistory: \n<ul> \n <li>The origins </li>\n <li>The Prehistory </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre la Prehistòria: \n<ul> \n <li>Els orígens de l'home </li>\n <li>La Prehistòria </li>\n</ul>",
+    "es": "Proyecto de actividades sobre la Prehistoria: \n<ul> \n <li>Los orígenes del hombre </li>\n <li>La Prehistoria </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/laprehis.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/laprehis.jclic.zip",
+  "instFile": "jclic/laprehis.jclic.inst",
+  "clicZoneId": 3215,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3215",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/laprehis/jclic/laprehis.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 42,
+  "mediaFiles": 32,
+  "totalSize": 978099,
+  "files": [
+    "cover.jpg",
+    "jclic.js/c__documents_and_settings_usuario_mis_documentos_mi_musica_interprete_desconocido_album_desconocido__07_09_2005_21_03_00__111.ogg",
+    "jclic.js/d__papa_nueva_carpeta_flash_imagenes_dolmendegradado1.jpg",
+    "jclic.js/g__megalitos_alineamiento_cenice.jpg",
+    "jclic.js/g__megalitos_ceramica.jpg",
+    "jclic.js/g__megalitos_dolmen_cnice.jpg",
+    "jclic.js/g__megalitos_evol_evol.jpg",
+    "jclic.js/g__megalitos_menhir_gratis.jpg",
+    "jclic.js/g__megalitos_naveta.jpg",
+    "jclic.js/g__megalitos_nuraga.jpg",
+    "jclic.js/g__megalitos_rupestre_comp.jpg",
+    "jclic.js/g__megalitos_rupestre_comp1.jpg",
+    "jclic.js/g__megalitos_stonehenge2.jpg",
+    "jclic.js/g__megalitos_talayot_wiki.jpg",
+    "jclic.js/g__megalitos_taula.jpg",
+    "jclic.js/g__megalitos_venus_comp.jpg",
+    "jclic.js/laprehis.jclic",
+    "jclic.js/megalitos_1999_01_23_.jpg",
+    "jclic.js/megalitos_caza_cnice.jpg",
+    "jclic.js/megalitos_clan_cnice.jpg",
+    "jclic.js/megalitos_comercio_educared.jpg",
+    "jclic.js/megalitos_comp_joyas_ed_metales.jpg",
+    "jclic.js/megalitos_copia_de_vaso_campaniforme.jpg",
+    "jclic.js/megalitos_cueva.jpg",
+    "jclic.js/megalitos_cultivotrigo_cnice.jpg",
+    "jclic.js/megalitos_dolmen_cnice.jpg",
+    "jclic.js/megalitos_memorias_de_africa2.ogg",
+    "jclic.js/megalitos_neolitico1.jpg",
+    "jclic.js/megalitos_nomadas_cnice.jpg",
+    "jclic.js/megalitos_poblado_cnice.jpg",
+    "jclic.js/megalitos_rupestrelev2_cnice.jpg",
+    "jclic.js/megalitos_telar_cnice.jpg",
+    "jclic.js/megalitos_vasijas_argaricas.jpg",
+    "jclic.js/megalitos_vestido_cnice.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/laprehis.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

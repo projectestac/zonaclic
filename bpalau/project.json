@@ -1,0 +1,104 @@
+{
+  "id": 1398,
+  "title": "Método Palau. Sílabas B",
+  "author": "Francisco Javier Núñez Zamora",
+  "school": "CEIP Ricardo León Málaga (Andalucía)",
+  "date": "13/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "lectura",
+    "es": "lectura",
+    "en": "reading"
+  },
+  "descCodes": [
+    125
+  ],
+  "description": {
+    "en": "Clic activities about reading.",
+    "ca": "Conjunt d'activitats que reforcen l'aprenentatge de la lectoescriptura amb el Mètode Palau.",
+    "es": "Conjunto de actividades que refuerzan el aprendizaje de la lectoescritura con el Método Palau."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/bpalau.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/bpalau.jclic.zip",
+  "instFile": "jclic/bpalau.jclic.inst",
+  "clicZoneId": 3134,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3134",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/bpalau/jclic/bpalau.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 38,
+  "mediaFiles": 25,
+  "totalSize": 1786092,
+  "files": [
+    "cover.gif",
+    "jclic.js/2fra1.gif",
+    "jclic.js/2fra2.gif",
+    "jclic.js/2fra3.gif",
+    "jclic.js/2fra4.gif",
+    "jclic.js/acertast.wav",
+    "jclic.js/ba.gif",
+    "jclic.js/ba.wav",
+    "jclic.js/banera.wav",
+    "jclic.js/be.gif",
+    "jclic.js/be.wav",
+    "jclic.js/bebee.wav",
+    "jclic.js/bi.gif",
+    "jclic.js/bi.wav",
+    "jclic.js/biciclet.wav",
+    "jclic.js/bien2.wav",
+    "jclic.js/bmetodo.gif",
+    "jclic.js/bo.gif",
+    "jclic.js/bo.wav",
+    "jclic.js/botella.wav",
+    "jclic.js/bpalau.jclic",
+    "jclic.js/bu.gif",
+    "jclic.js/bu.wav",
+    "jclic.js/burro.wav",
+    "jclic.js/empiezap.wav",
+    "jclic.js/empiezas.wav",
+    "jclic.js/hazparej.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/bpalau.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

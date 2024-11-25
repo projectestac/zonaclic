@@ -1,0 +1,113 @@
+{
+  "id": 2402,
+  "title": "Time for lunch",
+  "author": "Zelfany Bilel",
+  "date": "08/10/15",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de les llengües estrangeres, ortografia, vocabulari",
+    "es": "aprendizaje de las lenguas extranjeras, ortografía, vocabulario",
+    "en": "learning of the foreign languages, spelling, vocabulary"
+  },
+  "descCodes": [
+    660,
+    672,
+    673
+  ],
+  "description": {
+    "en": "Vocabulary about food for lunch.",
+    "ca": "Vocabulari sobre menjar per dinar.",
+    "es": "Vocabulario acerca de comida para el almuerzo."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/lunch.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/lunch.jclic.zip",
+  "instFile": "jclic/lunch.jclic.inst",
+  "clicZoneId": 3910,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3910",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/lunch/jclic/lunch.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 33,
+  "totalSize": 4628249,
+  "files": [
+    "cover.png",
+    "jclic.js/16_omelette_resized.jpg",
+    "jclic.js/almonds_resized.jpg",
+    "jclic.js/apples.wav",
+    "jclic.js/apples_resized.jpg",
+    "jclic.js/apricots02_resized.jpg",
+    "jclic.js/banana_resized.jpg",
+    "jclic.js/banana_resized1.jpg",
+    "jclic.js/bananas.wav",
+    "jclic.js/briks.wav",
+    "jclic.js/chips1_resized.jpg",
+    "jclic.js/clap.mp3",
+    "jclic.js/couscous.wav",
+    "jclic.js/couscous_of_fes_resized.jpg",
+    "jclic.js/dates.wav",
+    "jclic.js/dates_resized.jpg",
+    "jclic.js/fish.jpg",
+    "jclic.js/fish_and_chips.wav",
+    "jclic.js/fruit.jpg",
+    "jclic.js/fruit.wav",
+    "jclic.js/hamburger.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/lunch.jclic",
+    "jclic.js/meat.jpg",
+    "jclic.js/meat.wav",
+    "jclic.js/omelette.wav",
+    "jclic.js/orange.jpg",
+    "jclic.js/pizza.wav",
+    "jclic.js/pizza_resized.jpg",
+    "jclic.js/rice.jpg",
+    "jclic.js/roast_chicken.wav",
+    "jclic.js/roast_chicken_resized.jpg",
+    "jclic.js/spaghetti.jpg",
+    "jclic.js/tunisian_briks_resized.jpg",
+    "jclic.js/vegetables.wav",
+    "jclic.js/vegetables_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/lunch.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

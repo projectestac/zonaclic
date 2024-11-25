@@ -1,0 +1,100 @@
+{
+  "id": 394,
+  "title": "Lèxic de les motos",
+  "author": "Catalina Homar Florit, Joan Morell Puig, Josep Estarellas Borras i Pere Truyol",
+  "school": "CP Sant Bartomeu Alaró (Mallorca)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "lèxic, llengua catalana, educació vial",
+    "es": "léxico, lengua catalana, educación vial",
+    "en": "lexicon, Catalan language, road safety"
+  },
+  "descCodes": [
+    126,
+    133,
+    790
+  ],
+  "description": {
+    "en": "Clic activities about the language of motorcycle maintenance.",
+    "ca": "En aquest paquet es treballa el vocabulari relacionat amb les motocicletes i es plantegen exercicis de llengua (accentuació, articles i contraccions, construcció de frases...) a partir de textos sobre el món de la moto. Les activitats estan adreçades als alumnes de primer cicle d'ESO.",
+    "es": "En este paquete se trabaja el vocabulario relacionado con las motocicletas y se plantean ejercicios de lengua catalana (acentuación, artículos y contracciones, construcción de frases...) a partir de textos sobre el mundo de la moto. Las actividades van destinadas a los alumnos del primer ciclo de ESO."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/motos.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/motos.jclic.zip",
+  "instFile": "jclic/motos.jclic.inst",
+  "clicZoneId": 1226,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1226",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/motos/jclic/motos.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 19,
+  "totalSize": 333678,
+  "files": [
+    "cover.gif",
+    "jclic.js/cablefre.jpg",
+    "jclic.js/cadena.jpg",
+    "jclic.js/cavallet.jpg",
+    "jclic.js/darrere.jpg",
+    "jclic.js/far.jpg",
+    "jclic.js/foruilla.jpg",
+    "jclic.js/fredisc.jpg",
+    "jclic.js/image2.gif",
+    "jclic.js/llibres.gif",
+    "jclic.js/malet.jpg",
+    "jclic.js/moto_0.jpg",
+    "jclic.js/motos.jclic",
+    "jclic.js/nuvols.jpg",
+    "jclic.js/ocaso.jpg",
+    "jclic.js/piedra.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/roda.jpg",
+    "jclic.js/sello.jpg",
+    "jclic.js/trama.gif",
+    "jclic.js/tubescap.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/motos.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

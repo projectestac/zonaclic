@@ -1,0 +1,115 @@
+{
+  "id": 2213,
+  "title": "El Baix Penedès (El Baix penedès: els seus personatges més il·lustres)",
+  "school": "Escola Sant Julià L'Arboç (Baix Penedès), ESC Teresina Martorell El Vendrell (Baix Penedès)",
+  "date": "20/01/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "història, Baix Penedès, població",
+    "es": "historia, Baix Penedès, población",
+    "en": "history, Baix Penedès, population"
+  },
+  "descCodes": [
+    246,
+    474,
+    802
+  ],
+  "description": {
+    "en": "Eight projects of activities about Baix Penedès in Catalonia: \n<ul> \n <li>Famous people </li>\n <li>History </li>\n <li>Population </li>\n <li>Festes tradicionals </li>\n <li>Economy </li>\n <li>Climate </li>\n <li>Situation </li>\n <li>Relieve </li>\n</ul>",
+    "ca": "Vuit projectes d'activitats sobre la comarca del Baix Penedès: \n<ul> \n <li>Personatges il·lustres </li>\n <li>Història </li>\n <li>Població </li>\n <li>Festes tradicionals </li>\n <li>Economia </li>\n <li>Clima </li>\n <li>Situació </li>\n <li>Relleu </li>\n</ul>",
+    "es": "Ocho proyectos de actividades sobre la comarca de el Baix Penedès: \n<ul> \n <li>Personajes ilustres </li>\n <li>Historia </li>\n <li>Población </li>\n <li>Fiestas tradicionales </li>\n <li>Economía </li>\n <li>Clima </li>\n <li>Situación </li>\n <li>Relieve </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "bp_clima",
+    "bp_econo",
+    "bp_festes",
+    "bp_histo",
+    "bp_pobla",
+    "bp_relleu",
+    "bp_situa"
+  ],
+  "mainFile": "jclic.js/b_penede.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/b_penede.jclic.zip",
+  "instFile": "jclic/b_penede.jclic.inst",
+  "clicZoneId": 3739,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3739",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/b_penede/jclic/b_penede.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 26,
+  "totalSize": 3102392,
+  "files": [
+    "cover.png",
+    "jclic.js/abad___canas.jpg",
+    "jclic.js/abat_escarre.jpg",
+    "jclic.js/abat_escarre_modif.jpg",
+    "jclic.js/angel_guimera.jpg",
+    "jclic.js/angels___angel.jpg",
+    "jclic.js/angels_garriga.jpg",
+    "jclic.js/aplaudiments_3_seg.mp3",
+    "jclic.js/aplaudiments_5seg.mp3",
+    "jclic.js/b_penede.jclic",
+    "jclic.js/banyeres.jpg",
+    "jclic.js/comarca_baix_penedes_portada.jpg",
+    "jclic.js/comarca_personatges_final.jpg",
+    "jclic.js/el_vendrell.jpg",
+    "jclic.js/escultura_de_carmen_amaya.jpg",
+    "jclic.js/imne_nacions_unides_modif..mp3",
+    "jclic.js/josep_canas_i_canas.jpg",
+    "jclic.js/la_giralda__arboc.jpg",
+    "jclic.js/llibres.jpg",
+    "jclic.js/marta_mata.jpg",
+    "jclic.js/montserrat.jpg",
+    "jclic.js/no.mp3",
+    "jclic.js/nobel.jpg",
+    "jclic.js/pau_casals.jpg",
+    "jclic.js/pau_casals_modif.jpg",
+    "jclic.js/sant_vicenc.jpg",
+    "jclic.js/tenerife.jpg",
+    "jclic.js/violoncel.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/b_penede.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": 1364,
+  "title": "La organización política y social de Andalucía",
+  "author": "Inmaculada Rodríguez Ávila",
+  "school": "Colegio Público Municipal de Educación Permanente de Adultos \"Juan Rodríguez Pintor\" Motril - Granada (Andalucía)",
+  "date": "17/05/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "",
+    "ca": "",
+    "es": ""
+  },
+  "levelCodes": [
+    ""
+  ],
+  "descriptors": {
+    "ca": "parlament, política",
+    "es": "parlamento, política",
+    "en": "parliament, policy"
+  },
+  "descCodes": [
+    298,
+    311
+  ],
+  "description": {
+    "en": "Set of activities addressed to Adult Education pupils. Its purpose is to consolidate and to complement the knowledge about the institutions and the most exemplifying symbols of the Andalusia Autonomous Community.",
+    "ca": "Conjunt d'activitats destinades a alumnes neolectors i de formació base de persones adultes amb la finalitat de consolidar i complementar el coneixement de les institucions i símbols més representatius de la Comunitat Autònoma d'Andalusia.",
+    "es": "Conjunto de actividades destinadas a alumnos/as neolectores y de formación base de educación de personas adultas cuya finalidad consiste en consolidar y complementar el conocimiento de las instituciones y símbolos más representativos de la Comunidad Autónoma de Andalucía."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/andaorg.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/andaorg.jclic.zip",
+  "instFile": "jclic/andaorg.jclic.inst",
+  "clicZoneId": 3106,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3106",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/andaorg/jclic/andaorg.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 11,
+  "totalSize": 2055046,
+  "files": [
+    "cover.gif",
+    "jclic.js/andaluc2.gif",
+    "jclic.js/andaorg.jclic",
+    "jclic.js/bandera1.gif",
+    "jclic.js/escu.gif",
+    "jclic.js/escud.gif",
+    "jclic.js/himno.gif",
+    "jclic.js/himno.wav",
+    "jclic.js/mapa.gif",
+    "jclic.js/memo1.gif",
+    "jclic.js/parlamen.gif",
+    "jclic.js/portada1.gif",
+    "jclic.js/portada2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/andaorg.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

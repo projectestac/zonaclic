@@ -1,0 +1,138 @@
+{
+  "id": 795,
+  "title": "Bricolatge còsmic",
+  "author": "Joan A. Solano Querol",
+  "school": "Escola Sant Salvador Tarragona",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "biologia, origen de l'home",
+    "es": "biología, origen del hombre",
+    "en": "biology, origin of the man"
+  },
+  "descCodes": [
+    58,
+    295
+  ],
+  "description": {
+    "en": "Activity pack about the genetic influence in evolution, with special emphasisi on the cell and all the mechanisms that are included in it. \n<br> This package of activities belongs to the group of applications about the evolution formed by: \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=1405\"><b><i>Petjades d'home</i></b></a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=1417\"><b><i>Canviar per viure</i></b></a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=1418\"><i><b>Una gran família</b></i></a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=1437\"><i><b>Bricolatge còsmic</b></i></a>, \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=1469\"><b><i>Refent el passat</i></b></a> i \n<a href=\"http://clic.xtec.cat/db/act_en.jsp?id=1470\"><b><i>Ombres del passat</i></b></a>. \n<br> You cand find more info at \n<a href=\"http://www.xtec.cat/~jsolano\" target=\"_blank\"><b>Petjades d'home: un viatge per la nostra evolució</b></a>.",
+    "ca": "BRICOLATGE CÒSMIC s'ocupa de la base genètica de l'evolució i dedica per tant especial atenció a la cèl·lula i a tots els elements i mecanismes implicats en el procés reproductor. Les informacions i activitats es centren sobretot, en els fenòmens de la recombinació gènica i de les mutacions, fets que fan possible tant la variabilitat intraespecífica com l'evolució de les espècies.\n<br> Aquest paquet pertany al conjunt d'aplicacions sobre l'evolució format per: \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=1405\"><b><i>Petjades d'home</i></b></a>, \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=1417\"><b><i>Canviar per viure</i></b></a>, \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=1418\"><i><b>Una gran família</b></i></a>, \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=1437\"><i><b>Bricolatge còsmic</b></i></a>, \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=1469\"><b><i>Refent el passat</i></b></a> i \n<a href=\"http://clic.xtec.cat/db/act_ca.jsp?id=1470\"><b><i>Ombres del passat</i></b></a>. \n<br> Trobareu més informació a la web \n<a href=\"http://www.xtec.cat/~jsolano\" target=\"_blank\"><b>Petjades d'home: un viatge per la nostra evolució</b></a>.",
+    "es": "Este paquete se ocupa de la base genética de la evolución y dedica por tanto especial atención a la célula y a todos los elementos y mecanismos implicados en el proceso reproductor. Las informaciones y actividades se centran sobre todo, en los fenómenos de la recombinación genética y de las mutaciones, hechos que hacen posible tanto la variedad intraespecífica como la evolución de las especies. \n<br> Este paquete pertenece al conjunto de aplicaciones sobre la evolución formado por: \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=1405\"><b><i>Petjades d'home</i></b></a>, \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=1417\"><b><i>Canviar per viure</i></b></a>, \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=1418\"><i><b>Una gran família</b></i></a>, \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=1437\"><i><b>Bricolatge còsmic</b></i></a>, \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=1469\"><b><i>Refent el passat</i></b></a> i \n<a href=\"http://clic.xtec.cat/db/act_es.jsp?id=1470\"><b><i>Ombres del passat</i></b></a>. \n<br> Encontraréis más información en la web \n<a href=\"http://www.xtec.cat/~jsolano\" target=\"_blank\"><b>Petjades d'home: un viatge per la nostra evolució</b></a>."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/bricolat.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/bricolat.jclic.zip",
+  "instFile": "jclic/bricolat.jclic.inst",
+  "clicZoneId": 1437,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1437",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/bricolat/jclic/bricolat.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 37,
+  "mediaFiles": 58,
+  "totalSize": 477475,
+  "files": [
+    "cover.gif",
+    "jclic.js/adn.gif",
+    "jclic.js/ala_curt.gif",
+    "jclic.js/ala_reve.gif",
+    "jclic.js/aplasia.jpg",
+    "jclic.js/brico30.gif",
+    "jclic.js/brico40.gif",
+    "jclic.js/brico50m.gif",
+    "jclic.js/brico50r.gif",
+    "jclic.js/bricolat.jclic",
+    "jclic.js/cellula.gif",
+    "jclic.js/cos_groc.gif",
+    "jclic.js/cos_negr.gif",
+    "jclic.js/cromo_f.gif",
+    "jclic.js/cromo_m0.gif",
+    "jclic.js/cromo_m1.gif",
+    "jclic.js/cromo_p0.gif",
+    "jclic.js/cromo_p1.gif",
+    "jclic.js/cromo_p2.gif",
+    "jclic.js/cromo_p3.gif",
+    "jclic.js/cromosom.jpg",
+    "jclic.js/dnafons.gif",
+    "jclic.js/floquet.jpg",
+    "jclic.js/fly_norm.gif",
+    "jclic.js/g1.gif",
+    "jclic.js/g1s.gif",
+    "jclic.js/g2.gif",
+    "jclic.js/g2s.gif",
+    "jclic.js/g3.gif",
+    "jclic.js/g3s.gif",
+    "jclic.js/g4.gif",
+    "jclic.js/g4s.gif",
+    "jclic.js/g5.gif",
+    "jclic.js/g5s.gif",
+    "jclic.js/g6.gif",
+    "jclic.js/g6s.gif",
+    "jclic.js/g7.gif",
+    "jclic.js/g7s.gif",
+    "jclic.js/g8.gif",
+    "jclic.js/g8s.gif",
+    "jclic.js/g9.gif",
+    "jclic.js/g9s.gif",
+    "jclic.js/intro01.jpg",
+    "jclic.js/lashes.jpg",
+    "jclic.js/muta20.jpg",
+    "jclic.js/muta30.jpg",
+    "jclic.js/nen.gif",
+    "jclic.js/nena.gif",
+    "jclic.js/nenaalbi.jpg",
+    "jclic.js/no_ulls.gif",
+    "jclic.js/polida10.jpg",
+    "jclic.js/poligat.jpg",
+    "jclic.js/port_ce.gif",
+    "jclic.js/port_dr.jpg",
+    "jclic.js/port_es.jpg",
+    "jclic.js/pota_cap.gif",
+    "jclic.js/salamand.jpg",
+    "jclic.js/sherlock.gif",
+    "jclic.js/ull_blan.gif",
+    "jclic.js/ull_taro.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/bricolat.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

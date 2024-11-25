@@ -1,0 +1,145 @@
+{
+  "id": 164,
+  "title": "Els òrgans dels sentits",
+  "author": "Ferran Estruch Mascarell",
+  "school": "CP Verge del Remei Castelló de Rugat (La Vall d'Albaida)",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "anatomia",
+    "es": "anatomía",
+    "en": "anatomy"
+  },
+  "descCodes": [
+    51
+  ],
+  "description": {
+    "en": "Activities about the five senses and the nervous system. There are plenty of nice activities about each of these topics.",
+    "ca": "Activitats sobre els cinc sentits i el sistema nerviós:\n<p> <b>Vista</b><br> Parts i funcions dels aparells de l'ull, defectes de la visió (miopia i hipermetropia), procés de la visió. </p>\n<p> <b>Oïda</b><br> Parts i funcions de l'orella externa, mitjana i interna, procés de l'audició, consells per a mantenir l'oïda sana. </p>\n<p> <b>Olfacte</b><br> Òrgans de les fosses nasals, procés de percepció de les olors. </p>\n<p> <b>Gust</b><br> Parts de la llengua, els quatre sabors bàsics, procés de percepció del gust. </p>\n<p> <b>Tacte</b><br> Capes de la pell i les seves funcions. Glàndules, pèls i ungles. </p>\n<p> <b>Sistema nerviós</b><br> Òrgans que formen el sistema nerviós, moviment voluntari i reflex... </p>",
+    "es": "Actividades sobre los cinco sentidos y el sistema nervioso:\n<p> <b>Vista</b><br> Partes y funciones del ojo, defectos de la visión (miopía e hipermetropía), proceso de la visión. </p>\n<p> <b>Oído</b><br> Partes y funciones del oído externo, medio e interno, proceso de la audición, consejos para mantener el oído sano. </p>\n<p> <b>Olfato</b><br> Órganos de las fosas nasales, proceso de percepción de los olores. </p>\n<p> <b>Gusto</b><br> Partes de la lengua, los cuatro sabores básicos, proceso de percepción del gusto. </p>\n<p> <b>Tacto</b><br> Capas de la piel y sus funciones. Glándulas, pelos y uñas. </p>\n<p> <b>Sistema nervioso</b><br> Órganos que forman el sistema nervioso, movimiento voluntario y reflejo... </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "sentidos"
+  ],
+  "mainFile": "jclic.js/sentits.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sentits.jclic.zip",
+  "instFile": "jclic/sentits.jclic.inst",
+  "clicZoneId": 1083,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1083",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sentits/jclic/sentits.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 60,
+  "mediaFiles": 51,
+  "totalSize": 1906690,
+  "files": [
+    "cover.gif",
+    "jclic.js/gust/gust.jclic",
+    "jclic.js/gust/gust_acid.gif",
+    "jclic.js/gust/gust_amarg.gif",
+    "jclic.js/gust/gust_dol_.gif",
+    "jclic.js/gust/gust_guspres.gif",
+    "jclic.js/gust/gust_gust.jpg",
+    "jclic.js/gust/gust_llengua.jpg",
+    "jclic.js/gust/gust_llengua1.gif",
+    "jclic.js/gust/gust_llengua2.gif",
+    "jclic.js/gust/gust_papil1.gif",
+    "jclic.js/gust/gust_salat.gif",
+    "jclic.js/gust1.gif",
+    "jclic.js/oida/fantast.wav",
+    "jclic.js/oida/fiu.wav",
+    "jclic.js/oida/guaukb.wav",
+    "jclic.js/oida/molt_be.wav",
+    "jclic.js/oida/oida.jclic",
+    "jclic.js/oida/oida_.._fantast.wav",
+    "jclic.js/oida/oida_.._fiu.wav",
+    "jclic.js/oida/oida_.._guaukb.wav",
+    "jclic.js/oida/oida_.._molt_be.wav",
+    "jclic.js/oida/oida_cadosset.jpg",
+    "jclic.js/oida/oida_no.gif",
+    "jclic.js/oida/oida_oida.jpg",
+    "jclic.js/oida/oida_oida1.jpg",
+    "jclic.js/oida/oida_oidapres.gif",
+    "jclic.js/oida/oida_oidinter.jpg",
+    "jclic.js/oida/oida_yes.gif",
+    "jclic.js/oida1.gif",
+    "jclic.js/olfac1.gif",
+    "jclic.js/olfacte/olfacte.jclic",
+    "jclic.js/olfacte/olfacte_fossnas.jpg",
+    "jclic.js/olfacte/olfacte_fossnas1.jpg",
+    "jclic.js/olfacte/olfacte_olfact.jpg",
+    "jclic.js/olfacte/olfacte_preolfac.gif",
+    "jclic.js/sentits.jclic",
+    "jclic.js/sisner1.gif",
+    "jclic.js/sistnerv/sistnerv.jclic",
+    "jclic.js/sistnerv/sistnerv_bulbra.jpg",
+    "jclic.js/sistnerv/sistnerv_carrera.jpg",
+    "jclic.js/sistnerv/sistnerv_cellula.jpg",
+    "jclic.js/sistnerv/sistnerv_cerebel.jpg",
+    "jclic.js/sistnerv/sistnerv_cervell.jpg",
+    "jclic.js/sistnerv/sistnerv_encefal.jpg",
+    "jclic.js/sistnerv/sistnerv_medula.gif",
+    "jclic.js/sistnerv/sistnerv_movrefl.gif",
+    "jclic.js/sistnerv/sistnerv_nervis.gif",
+    "jclic.js/sistnerv/sistnerv_neurona.gif",
+    "jclic.js/sistnerv/sistnerv_sisnerv.gif",
+    "jclic.js/tacte/tacte.jclic",
+    "jclic.js/tacte/tacte_pell1.gif",
+    "jclic.js/tacte1.gif",
+    "jclic.js/vista/vista.jclic",
+    "jclic.js/vista/vista_defvisi0.jpg",
+    "jclic.js/vista/vista_presvist.gif",
+    "jclic.js/vista/vista_ull.gif",
+    "jclic.js/vista/vista_ull0.gif",
+    "jclic.js/vista1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sentits.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/gust/gust.jclic.js",
+    "jclic.js/oida/oida.jclic.js",
+    "jclic.js/olfacte/olfacte.jclic.js",
+    "jclic.js/sistnerv/sistnerv.jclic.js",
+    "jclic.js/tacte/tacte.jclic.js",
+    "jclic.js/vista/vista.jclic.js",
+    "cover.webp"
+  ]
+}

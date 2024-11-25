@@ -1,0 +1,93 @@
+{
+  "id": 2421,
+  "title": "Sílabas trabadas",
+  "author": "Carmen Conde Santos",
+  "school": "Colegio San José (Siervas de San José) Zamora (Castilla y León)",
+  "date": "21/01/16",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, lectura, llengua castellana, vocabulari, comprensió lectora",
+    "es": "aprendizaje de la lengua, lectura, lengua castellana, vocabulario, comprensión lectora",
+    "en": "learning of the language, reading, Spanish language, vocabulary, reading comprehension"
+  },
+  "descCodes": [
+    110,
+    125,
+    132,
+    150,
+    1329
+  ],
+  "description": {
+    "en": "Language activities for students of the first cycle of primary education work the closed syllables, both in pronunciation and writing.\n<p> It is also suitable for students with special educational needs. </p>",
+    "ca": "Activitats de llengua perquè els alumnes del primer cicle d'Educació Primària treballin les síl·labes travades, tant en la seva pronunciació com en la seva escriptura. \n<p> També és adequada per a alumnes amb necessitats educatives especials. </p>",
+    "es": "Actividades de lengua para que los alumnos del primer ciclo de Educación Primaria trabajen las sílabas trabadas, tanto en su pronunciación como en su escritura. \n<p> También es adecuada para los alumnos de necesidades educativas especiales. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/trab2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/trab2.jclic.zip",
+  "instFile": "jclic/trab2.jclic.inst",
+  "clicZoneId": 3929,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3929",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/trab2/jclic/trab2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 9,
+  "mediaFiles": 10,
+  "totalSize": 1231354,
+  "files": [
+    "cover.png",
+    "jclic.js/book.gif",
+    "jclic.js/brain.gif",
+    "jclic.js/envelope.gif",
+    "jclic.js/hat.gif",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/muscle.gif",
+    "jclic.js/seta.bmp",
+    "jclic.js/snake.gif",
+    "jclic.js/trab2.jclic",
+    "jclic.js/witch.gif",
+    "jclic.js/wizard.gif",
+    "jclic.js/zebra.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/trab2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

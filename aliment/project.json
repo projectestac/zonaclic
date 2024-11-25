@@ -1,0 +1,119 @@
+{
+  "id": 1394,
+  "title": "Los alimentos",
+  "author": "Rocío Cabanillas Magro",
+  "school": "CEIP Las Viñas Bollullos Par del Condado - Huelva (Andalucía)",
+  "date": "13/09/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "aliments",
+    "es": "alimentos",
+    "en": "foods"
+  },
+  "descCodes": [
+    49
+  ],
+  "description": {
+    "en": "Set of activities about foods: origin, classifications, customs... addressed to infantile education.",
+    "ca": "Conjunt d'activitats sobre els conceptes bàsics dels aliments: origen, classificacions, hàbits alimentaris... El projecte està adreçat a alumnes amb edats compreses entre 5 i 7 anys.",
+    "es": "Conjunto de actividades sobre conceptos básicos de los alimentos: origen, clasificaciones, hábitos alimenticios... El proyecto está destinado a alumnos/as con edades comprendidas entre los 5 y los 7 años."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/aliment.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/aliment.jclic.zip",
+  "instFile": "jclic/aliment.jclic.inst",
+  "clicZoneId": 3131,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3131",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/aliment/jclic/aliment.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 40,
+  "totalSize": 1536255,
+  "files": [
+    "cover.gif",
+    "jclic.js/aliment.jclic",
+    "jclic.js/bocadil.gif",
+    "jclic.js/bocadillo.wav",
+    "jclic.js/cerezas.gif",
+    "jclic.js/cerezas.wav",
+    "jclic.js/chul.gif",
+    "jclic.js/comida.gif",
+    "jclic.js/estupendo.wav",
+    "jclic.js/fresa.gif",
+    "jclic.js/fruteria.gif",
+    "jclic.js/frutero.gif",
+    "jclic.js/hortaliz.gif",
+    "jclic.js/huevos.gif",
+    "jclic.js/inthes.mid",
+    "jclic.js/kiwis.gif",
+    "jclic.js/leche.gif",
+    "jclic.js/manzana.gif",
+    "jclic.js/mensaje.wav",
+    "jclic.js/mission.mid",
+    "jclic.js/muyb.wav",
+    "jclic.js/muybien.wav",
+    "jclic.js/naranja.gif",
+    "jclic.js/naranja.wav",
+    "jclic.js/pan.gif",
+    "jclic.js/pan.wav",
+    "jclic.js/pera2.gif",
+    "jclic.js/pi_a.gif",
+    "jclic.js/platano.gif",
+    "jclic.js/platano2.gif",
+    "jclic.js/pollo.gif",
+    "jclic.js/portada2.gif",
+    "jclic.js/queso.gif",
+    "jclic.js/queso.wav",
+    "jclic.js/sandia.gif",
+    "jclic.js/tomate.gif",
+    "jclic.js/tomate.wav",
+    "jclic.js/uva.gif",
+    "jclic.js/uva.wav",
+    "jclic.js/yogur.gif",
+    "jclic.js/yogur.wav",
+    "jclic.js/zanahori.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/aliment.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": 434,
+  "title": "English adjectives",
+  "author": "Andreu Cardo i Martínez",
+  "school": "Escola Santa Eulàlia de Riuprimer Santa Eulàlia de Riuprimer (Osona)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, vocabulari",
+    "es": "lengua inglesa, vocabulario",
+    "en": "English language, vocabulary"
+  },
+  "descCodes": [
+    130,
+    150
+  ],
+  "description": {
+    "en": "Clic activities in English about common adjectives, their antonyms and the place that occupy in the sentence.",
+    "ca": "Paquet d'activitats en llengua anglesa per treballar els adjectius d'ús freqüent, els seus antònims i el lloc que ocupen dins la frase.",
+    "es": "Paquete de actividades en lengua inglesa para trabajar los adjetivos de uso frecuente, sus antónimos y el lugar que ocupan dentro de la frase."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/adjectiv.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/adjectiv.jclic.zip",
+  "instFile": "jclic/adjectiv.jclic.inst",
+  "clicZoneId": 1259,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1259",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/adjectiv/jclic/adjectiv.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 44,
+  "totalSize": 1761752,
+  "files": [
+    "cover.gif",
+    "jclic.js/adjectiv.doc",
+    "jclic.js/adjectiv.jclic",
+    "jclic.js/adjectiv.pdf",
+    "jclic.js/beaut.wav",
+    "jclic.js/beautifu.gif",
+    "jclic.js/big.gif",
+    "jclic.js/big.wav",
+    "jclic.js/blond.gif",
+    "jclic.js/blond.wav",
+    "jclic.js/clap.wav",
+    "jclic.js/click.wav",
+    "jclic.js/clm.wav",
+    "jclic.js/curly.gif",
+    "jclic.js/curly.wav",
+    "jclic.js/dark.gif",
+    "jclic.js/dark.wav",
+    "jclic.js/fat.gif",
+    "jclic.js/fat.wav",
+    "jclic.js/find.wav",
+    "jclic.js/findop.wav",
+    "jclic.js/happy.gif",
+    "jclic.js/happy.wav",
+    "jclic.js/llibreta.gif",
+    "jclic.js/match.wav",
+    "jclic.js/present.wav",
+    "jclic.js/put.wav",
+    "jclic.js/puzzle.wav",
+    "jclic.js/readtext.wav",
+    "jclic.js/roure.gif",
+    "jclic.js/sad.gif",
+    "jclic.js/sad.wav",
+    "jclic.js/short.gif",
+    "jclic.js/short.wav",
+    "jclic.js/small.gif",
+    "jclic.js/small.wav",
+    "jclic.js/straight.gif",
+    "jclic.js/straight.wav",
+    "jclic.js/strong.gif",
+    "jclic.js/strong.wav",
+    "jclic.js/tall.gif",
+    "jclic.js/tall.wav",
+    "jclic.js/thin.gif",
+    "jclic.js/thin.wav",
+    "jclic.js/ugly.gif",
+    "jclic.js/ugly.wav",
+    "jclic.js/weak.gif",
+    "jclic.js/weak.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/adjectiv.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

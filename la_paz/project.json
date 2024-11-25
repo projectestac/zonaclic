@@ -1,0 +1,123 @@
+{
+  "id": 2403,
+  "title": "La paz",
+  "author": "Maria López Cara",
+  "school": "IES Pérez de Guzman Ronda - Málaga (Andalucía)",
+  "date": "08/10/15",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16), High school (16-18)",
+    "ca": "Secundària (12-16), Batxillerat (16-18)",
+    "es": "Secundaria (12-16), Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "SEC",
+    "BTX"
+  ],
+  "descriptors": {
+    "ca": "filosofia política, història social",
+    "es": "filosofía política, historia social",
+    "en": "political philosophy, social history"
+  },
+  "descCodes": [
+    230,
+    260
+  ],
+  "description": {
+    "en": "Interactive activities about the peace to celebrate on the 30th of January.",
+    "ca": "Activitats interactives sobre la pau per celebrar el 30 de gener i reconèixer aquelles persones que han contribuït a aconseguir-ho. Puzles, mots encreuats, omplir forats, jocs de memòria.",
+    "es": "Actividades interactivas en torno a la paz para celebrar el 30 de enero y reconocer a aquellos que han contribuido a su consecución. Puzzles, crucigrama, rellenar huecos, juegos de memoria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/la_paz.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/la_paz.jclic.zip",
+  "instFile": "jclic/la_paz.jclic.inst",
+  "clicZoneId": 3911,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3911",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/la_paz/jclic/la_paz.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 13,
+  "mediaFiles": 42,
+  "totalSize": 7696268,
+  "files": [
+    "cover.png",
+    "jclic.js/2dalailama_resized.jpg",
+    "jclic.js/2king.jpg",
+    "jclic.js/2menchu.jpg",
+    "jclic.js/2roosevelt.jpg",
+    "jclic.js/3_ebadi2.jpg",
+    "jclic.js/3weiss.jpg",
+    "jclic.js/ai.jpg",
+    "jclic.js/aung_san_suu_kyi.jpg",
+    "jclic.js/bandera_de_la_ue.jpg",
+    "jclic.js/cascos_azules_onu.jpg",
+    "jclic.js/cimmyt.jpg",
+    "jclic.js/colom_resized1.jpg",
+    "jclic.js/colomp.jpg",
+    "jclic.js/cronica1.jpg",
+    "jclic.js/dalailama_resized.jpg",
+    "jclic.js/gandhi22.jpg",
+    "jclic.js/gbowee_resized.jpg",
+    "jclic.js/ghandi_resized.jpg",
+    "jclic.js/gore_al.jpg",
+    "jclic.js/goya_resized.jpg",
+    "jclic.js/guernica_resized.jpg",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/jody_williams.jpg",
+    "jclic.js/la_paz.jclic",
+    "jclic.js/m._gorbachov.jpg",
+    "jclic.js/madiba1.jpg",
+    "jclic.js/madreteresa.jpg",
+    "jclic.js/mahatma_gandhi.jpg",
+    "jclic.js/malala.jpg",
+    "jclic.js/mandela_n.jpg",
+    "jclic.js/medicissf.jpg",
+    "jclic.js/neil_young___imagine.mp3",
+    "jclic.js/paloma3.jpg",
+    "jclic.js/palomapuzzle.jpg",
+    "jclic.js/paz3.jpg",
+    "jclic.js/perez_esquivel.jpg",
+    "jclic.js/pink_floid___wall40.mp3",
+    "jclic.js/proharmasqiumicas.jpg",
+    "jclic.js/proudhon.jpg",
+    "jclic.js/r_menchu.jpg",
+    "jclic.js/schiller.jpg",
+    "jclic.js/shirin_ebadi.jpg",
+    "jclic.js/wangari_mathai_resized1.jpg",
+    "jclic.js/yunus.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/la_paz.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": 384,
+  "title": "Los determinantes (con botones)",
+  "author": "Gerardo Valero Pozuelo",
+  "school": "IES Las tres culturas Córdoba (Andalucía)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "gramàtica, llengua castellana",
+    "es": "gramática, lengua castellana",
+    "en": "grammar, Spanish language"
+  },
+  "descCodes": [
+    123,
+    132
+  ],
+  "description": {
+    "en": "Clic activity pack about spanish language. In it are dealt with different aspects of determinatives: articles, demonstrative determinatives, possesives, numeral and indefinite determinatives.",
+    "ca": "Conjunt d'activitats de llengua espanyola on es repassen els articles i els determinants demostratius, possessius, numerals i indefinits.\n<br> El paquet es presenta en dos formats. Les activitats són exactament les mateixes i només difereixen en la manera de treballar-les: en un paquet es permet a l'alumne passar d'una activitat a l'altra sense haver-la acabat mitjançant els botons de pas d'activitat, i en l'altre paquet s'amaguen aquests botons de manera que l'alumne ha de resoldre cada una de les activitats abans de passar a la següent.",
+    "es": "Conjunto de actividades de lengua española. En ellas se repasan los siguientes determinantes: artículos, determinantes demostrativos, determinantes posesivos, determinantes numerales y determinantes indefinidos.\n<br> Se proporcionan dos paquetes. Las actividades son exactamente las mismas en ambos paquetes, sólo difieren en cuanto a la forma de trabajarlas. En uno se le permite al alumno pasar de una actividad a otra sin necesidad de haberla concluido, es decir, se le proporcionan los botones de paso. También se incluyen los botones \"bandera verde\" (que permite volver a barajar los elementos de una actividad) y \"puerta\" (que permite abandonar el programa). En el segundo paquete no se incluye ningún botón. De esta forma se puede evaluar de otro modo al alumno, ya que hasta que no haya terminado una actividad no puede pasar a la siguiente."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "detergal",
+    "determin/determi2"
+  ],
+  "mainFile": "jclic.js/determi1.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/determi1.jclic.zip",
+  "instFile": "jclic/determi1.jclic.inst",
+  "clicZoneId": 1218,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1218",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/determin/jclic/determi1.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 31,
+  "mediaFiles": 1,
+  "totalSize": 171874,
+  "files": [
+    "cover.gif",
+    "jclic.js/determi1.jclic",
+    "jclic.js/trescu_1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/determi1.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

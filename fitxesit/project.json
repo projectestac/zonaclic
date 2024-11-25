@@ -1,0 +1,135 @@
+{
+  "id": 577,
+  "title": "I gettoni nascosti",
+  "author": "Toni Miquel Mollà",
+  "school": "CP Crist de la Pau Sant Joan d'Alacant (Alacantí)",
+  "date": "16/05/07",
+  "languages": {
+    "en": "Italian",
+    "ca": "italià",
+    "es": "italiano"
+  },
+  "langCodes": [
+    "it"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)",
+    "en": "Primary school (6-12), Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "lògica",
+    "es": "lógica",
+    "en": "logic"
+  },
+  "descCodes": [
+    711
+  ],
+  "description": {
+    "en": "Math activities in which four chips are hidden and need to be found without making mistakes when solving the different operations. It is always possible!",
+    "ca": "Activitats de lògica matemàtica on es tracta de descobrir, sense equivocar-se, on estan amagades 4 fitxes, tenint en compte les pistes numèriques de cada cas. Sempre és possible fer-ho!",
+    "es": "Actividades de lógica matemática en las que se trata de descubrir, sin equivocarse, donde están escondidas 4 fichas teniendo en cuenta las pistas numéricas que se dan en cada caso. ¡Siempre es posible hacerlo!"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "fichas",
+    "fitxak",
+    "fitxes"
+  ],
+  "mainFile": "jclic.js/fitxesit.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fitxesit.jclic.zip",
+  "instFile": "jclic/fitxesit.jclic.inst",
+  "clicZoneId": 1318,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1318",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fitxesit/jclic/fitxesit.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 26,
+  "mediaFiles": 50,
+  "totalSize": 325464,
+  "files": [
+    "cover.gif",
+    "jclic.js/bleu_fitxesai.gif",
+    "jclic.js/bleu_fitxesar.gif",
+    "jclic.js/bleu_fitxesbi.gif",
+    "jclic.js/bleu_fitxesbr.gif",
+    "jclic.js/bleu_fitxesci.gif",
+    "jclic.js/bleu_fitxescr.gif",
+    "jclic.js/bleu_fitxesdi.gif",
+    "jclic.js/bleu_fitxesdr.gif",
+    "jclic.js/bleu_fitxesei.gif",
+    "jclic.js/bleu_fitxeser.gif",
+    "jclic.js/bleu_fitxesfi.gif",
+    "jclic.js/bleu_fitxesfr.gif",
+    "jclic.js/fitxesit.jclic",
+    "jclic.js/jaune_fitxesgi.gif",
+    "jclic.js/jaune_fitxesgr.gif",
+    "jclic.js/jaune_fitxeshi.gif",
+    "jclic.js/jaune_fitxeshr.gif",
+    "jclic.js/jaune_fitxesii.gif",
+    "jclic.js/jaune_fitxesir.gif",
+    "jclic.js/jaune_fitxesji.gif",
+    "jclic.js/jaune_fitxesjr.gif",
+    "jclic.js/jaune_fitxeski.gif",
+    "jclic.js/jaune_fitxeskr.gif",
+    "jclic.js/jaune_fitxesli.gif",
+    "jclic.js/jaune_fitxeslr.gif",
+    "jclic.js/menu_triarfit.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/rouge_fitxesmi.gif",
+    "jclic.js/rouge_fitxesmr.gif",
+    "jclic.js/rouge_fitxesni.gif",
+    "jclic.js/rouge_fitxesnr.gif",
+    "jclic.js/rouge_fitxesoi.gif",
+    "jclic.js/rouge_fitxesor.gif",
+    "jclic.js/rouge_fitxespi.gif",
+    "jclic.js/rouge_fitxespr.gif",
+    "jclic.js/rouge_fitxesqi.gif",
+    "jclic.js/rouge_fitxesqr.gif",
+    "jclic.js/rouge_fitxesri.gif",
+    "jclic.js/rouge_fitxesrr.gif",
+    "jclic.js/vert_fitxessi.gif",
+    "jclic.js/vert_fitxessr.gif",
+    "jclic.js/vert_fitxesti.gif",
+    "jclic.js/vert_fitxestr.gif",
+    "jclic.js/vert_fitxesui.gif",
+    "jclic.js/vert_fitxesur.gif",
+    "jclic.js/vert_fitxesvi.gif",
+    "jclic.js/vert_fitxesvr.gif",
+    "jclic.js/vert_fitxeswi.gif",
+    "jclic.js/vert_fitxeswr.gif",
+    "jclic.js/vert_fitxesxi.gif",
+    "jclic.js/vert_fitxesxr.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fitxesit.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

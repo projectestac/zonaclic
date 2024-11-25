@@ -1,0 +1,109 @@
+{
+  "id": 2061,
+  "title": "Los instrumentos musicales",
+  "author": "Javier Santana Cabezas",
+  "school": "IES Francky Roca Las Palmas de Gran Canaria (Islas Canarias)",
+  "date": "02/06/10",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Music",
+    "ca": "Música",
+    "es": "Música"
+  },
+  "areaCodes": [
+    "mus"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "instrument musical",
+    "es": "instrumento musical",
+    "en": "musical instrument"
+  },
+  "descCodes": [
+    724
+  ],
+  "description": {
+    "en": "Set of activities about the families of orchestral instruments in a playful way and entretenida. To make them, learn the main features of each of the families, as well as the instruments most representative of them.",
+    "ca": "Conjunt d'activitata per a aprofundir en el coneixement de les famílies d'instruments simfònics d'una manera lúdica i entretenida. Al fer-les, s'aprenen les principals característiques de cadascuna de les famílies, així com els instruments més representatius de cadascuna d'elles.",
+    "es": "Conjunto de actividades para profundizar en el conocimiento de las familias de instrumentos sinfónicos de una manera lúdica y entretenida. Al realizarlas, se aprenden las principales características de cada familia, así como los instrumentos más representativos de cada una de ellas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/instrmus.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/instrmus.jclic.zip",
+  "instFile": "jclic/instrmus.jclic.inst",
+  "clicZoneId": 3627,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3627",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/instrmus/jclic/instrmus.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 30,
+  "totalSize": 1445335,
+  "files": [
+    "cover.jpg",
+    "jclic.js/aplausos.mp3",
+    "jclic.js/arpa.jpg",
+    "jclic.js/bandurria.jpg",
+    "jclic.js/clarinete.jpg",
+    "jclic.js/contrabajo.jpg",
+    "jclic.js/cuerda.jpg",
+    "jclic.js/curso_jclic2.jpg",
+    "jclic.js/error.mp3",
+    "jclic.js/fagot.jpg",
+    "jclic.js/flauta_dulce.jpg",
+    "jclic.js/flauta_travesera.jpg",
+    "jclic.js/guitarra.gif",
+    "jclic.js/instr.jpg",
+    "jclic.js/instr___puzzle3.jpg",
+    "jclic.js/instrmus.jclic",
+    "jclic.js/logo_jclic.jpg",
+    "jclic.js/oboe.jpg",
+    "jclic.js/percusion.jpg",
+    "jclic.js/piano.gif",
+    "jclic.js/puzzle_saxo.jpg",
+    "jclic.js/saxo.jpg",
+    "jclic.js/sonido_indeterminado.mp3",
+    "jclic.js/timple.gif",
+    "jclic.js/trombon.jpg",
+    "jclic.js/trompa.jpg",
+    "jclic.js/trompeta.jpg",
+    "jclic.js/tuba.gif",
+    "jclic.js/viento_madera.jpg",
+    "jclic.js/viento_metal.jpg",
+    "jclic.js/violin.gif",
+    "jclic.js/violonchelo.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/instrmus.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

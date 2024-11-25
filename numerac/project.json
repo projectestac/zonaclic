@@ -1,0 +1,102 @@
+{
+  "id": 985,
+  "title": "Numeración",
+  "author": "Virgilio Pedraz Hernández",
+  "school": "CRA Vía de la Plata La Garganta (Cáceres)",
+  "date": "16/12/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "anàlisi numèrica",
+    "es": "análisis numérico",
+    "en": "numerical analysis"
+  },
+  "descCodes": [
+    699
+  ],
+  "description": {
+    "en": "Package of activities about : \n<ul> \n <li> Read and write numbers </li>\n <li> Previous and next number </li>\n <li> Order </li>\n</ul>",
+    "ca": "Paquet d'activitats per treballar: \n<ul> \n <li>lectura i escriptura dels nombres </li>\n <li>nombres anterior i posterior </li>\n <li>ordenació </li>\n</ul>",
+    "es": "Paquete de actividades para trabajar: \n<ul> \n <li>lectura y escritura de números </li>\n <li>números anterior y posterior </li>\n <li>ordenación </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/numerac.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/numerac.jclic.zip",
+  "instFile": "jclic/numerac.jclic.inst",
+  "clicZoneId": 2069,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2069",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/numerac/jclic/numerac.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 133,
+  "mediaFiles": 11,
+  "totalSize": 1584661,
+  "files": [
+    "cover.gif",
+    "jclic.js/calzada.jpg",
+    "jclic.js/num20/calzada.jpg",
+    "jclic.js/num20/gimnasio.jpg",
+    "jclic.js/num20/num20.jclic",
+    "jclic.js/num2cif/calzada.jpg",
+    "jclic.js/num2cif/decena.jpg",
+    "jclic.js/num2cif/num2cif.jclic",
+    "jclic.js/num3cif/calzada.jpg",
+    "jclic.js/num3cif/fruteria.jpg",
+    "jclic.js/num3cif/num3cif.jclic",
+    "jclic.js/num4cif/calzada.jpg",
+    "jclic.js/num4cif/dinero.jpg",
+    "jclic.js/num4cif/num4cif.jclic",
+    "jclic.js/num6cif/calzada.gif",
+    "jclic.js/num6cif/num6cif.jclic",
+    "jclic.js/numerac.jclic",
+    "jclic.js/numsexto/calzada.gif",
+    "jclic.js/numsexto/numsexto.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/numerac.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/num20/num20.jclic.js",
+    "jclic.js/num2cif/num2cif.jclic.js",
+    "jclic.js/num3cif/num3cif.jclic.js",
+    "jclic.js/num4cif/num4cif.jclic.js",
+    "jclic.js/num6cif/num6cif.jclic.js",
+    "jclic.js/numsexto/numsexto.jclic.js",
+    "cover.webp"
+  ]
+}

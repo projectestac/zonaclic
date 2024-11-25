@@ -1,0 +1,101 @@
+{
+  "id": 2108,
+  "title": "Juego limpio",
+  "author": "Marc Alegre Casaña",
+  "date": "25/02/11",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "esports, joc esportiu",
+    "es": "deportes, juego deportivo",
+    "en": "sports, sport game"
+  },
+  "descCodes": [
+    424,
+    426
+  ],
+  "description": {
+    "en": "Project of activities addressed to physical education about basic rules to be followed by athletes to maintain a fair play. The project also includes a consensus of good sportsmanship.",
+    "ca": "Projecte d'activitats JClic per a l'àrea d'educació física per aprendre les normes bàsiques que han de seguir els esportistes per mantenir un joc net. El projecte també inclou un decàlec del bon esportista.",
+    "es": "Proyecto de actividades JClic para el área de educación física sobre las normas básicas que han de seguir los deportistas para mantener un juego limpio. El proyecto también incluye un decálogo del buen deportista."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "jlimp_eu"
+  ],
+  "mainFile": "jclic.js/jlimpio.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/jlimpio.jclic.zip",
+  "instFile": "jclic/jlimpio.jclic.inst",
+  "clicZoneId": 3667,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3667",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/jlimpio/jclic/jlimpio.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 8,
+  "mediaFiles": 18,
+  "totalSize": 820838,
+  "files": [
+    "cover.gif",
+    "jclic.js/0711_espana_holanda_efe_g81_468x321.jpg",
+    "jclic.js/aplausos.mp3",
+    "jclic.js/ayudar.jpg",
+    "jclic.js/clic.mp3",
+    "jclic.js/cristiano_ronaldo_sangre.jpg",
+    "jclic.js/darse_la_mano.jpg",
+    "jclic.js/disfrutar.jpg",
+    "jclic.js/dopaje.jpg",
+    "jclic.js/equipo.gif",
+    "jclic.js/fair_play.jpg",
+    "jclic.js/jlimpio.jclic",
+    "jclic.js/juego_limpio.jpg",
+    "jclic.js/juego_limpio_t14509.jpg",
+    "jclic.js/juegolimpio.jpg",
+    "jclic.js/pegar_al_arbitro.jpg",
+    "jclic.js/pegar_silla.jpg",
+    "jclic.js/raton_entrenando.jpg",
+    "jclic.js/saber_ganar.jpg",
+    "jclic.js/sopa.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/jlimpio.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

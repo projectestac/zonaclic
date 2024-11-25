@@ -1,0 +1,95 @@
+{
+  "id": 2333,
+  "title": "Mostra de pessebres de Badalona",
+  "author": "Adrián Heredia, Arnau Crisol i Maribel Picapiedra",
+  "school": "Acció Cultural Badalona Badalona",
+  "date": "14/08/14",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "ca": "Visual i plàstica, Ciències socials",
+    "es": "Plástica y visual, Ciencias sociales",
+    "en": "Art & design, Social sciences"
+  },
+  "areaCodes": [
+    "vip",
+    "soc"
+  ],
+  "levels": {
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)",
+    "en": "Kindergarten (3-6), Primary school (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "description": {
+    "en": "Game about the exposition of nativities done every Christmas in Badalona. This JClic project contains also activities about the city of Badalona.",
+    "ca": "Joc de les mostres de pessebres de Badalona. Coneix millor Badalona amb aquestes activitats.",
+    "es": "Juego de las muestras de pesebres de Badalona. Conoce mejor Badalona con estas actividades."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/pessebre.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/pessebre.jclic.zip",
+  "instFile": "jclic/pessebre.jclic.inst",
+  "clicZoneId": 3842,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3842",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/pessebre/jclic/pessebre.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 22,
+  "totalSize": 7442458,
+  "files": [
+    "cover.png",
+    "jclic.js/1_ca.jpg",
+    "jclic.js/2_llotja_del_peix_de_badalona_2.jpg",
+    "jclic.js/amics_del_pessebrea.gif",
+    "jclic.js/anyado.jpg",
+    "jclic.js/can_cabanyes_1.jpg",
+    "jclic.js/can_canyado.jpg",
+    "jclic.js/carrer_j_cossta.jpg",
+    "jclic.js/cdelacosta.jpg",
+    "jclic.js/escola_del_mar.jpg",
+    "jclic.js/img_2009.jpg",
+    "jclic.js/img_2016.jpg",
+    "jclic.js/img_2056.jpg",
+    "jclic.js/la_rambla_2.jpg",
+    "jclic.js/monestir.jpg",
+    "jclic.js/pessebre.jclic",
+    "jclic.js/pessebres.jpg",
+    "jclic.js/placa_const.jpg",
+    "jclic.js/plconstitucio.jpg",
+    "jclic.js/plpaucasals_1.jpg",
+    "jclic.js/ramblas.jpg",
+    "jclic.js/sant_jeroni_4.jpg",
+    "jclic.js/sant_josep.jpg",
+    "jclic.js/sant_josep_2.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/pessebre.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

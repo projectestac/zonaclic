@@ -1,0 +1,99 @@
+{
+  "id": 2351,
+  "title": "Catalunya",
+  "author": "Joan Abad Martínez",
+  "school": "Escola Ventós Mir Badalona (Barcelonés)",
+  "date": "22/01/15",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences, Languages",
+    "ca": "Ciències socials, Llengües",
+    "es": "Ciencias sociales, Lenguas"
+  },
+  "areaCodes": [
+    "soc",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "cultura popular, història contemporània, política, societat",
+    "es": "cultura popular, historia contemporánea, política, sociedad",
+    "en": "popular culture, contemporary history, policy, society"
+  },
+  "descCodes": [
+    196,
+    248,
+    311,
+    344
+  ],
+  "description": {
+    "en": "JClic activities addressed to last cycle of primary education. The project has the following contents: \n<ul> \n <li>Provinces of Catalonia </li>\n <li>Regions of Catalonia </li>\n <li>Symbols of Catalonia </li>\n <li>Government Institutions </li>\n <li>Catalan literature </li>\n <li>Tradition </li>\n</ul>",
+    "ca": "Aquest projecte, destinat al cicle superior de primària, busca oferir una eina per a aprendre i reforçar els continguts del tema pertanyent al cicle superior, a l'àrea de coneixement del medi, que s'encarrega del coneixement de Catalunya i la seva organització política (no territorial). A més, tocarem part de l'àrea de llengua catalana donat que certes activitats van en relació a la literatura del país i alguns dels seus autors més coneguts. \n<p> </p>\n<ul> \n <li>Províncies de Catalunya </li>\n <li>Comarques de Catalunya </li>\n <li>Símbols de Catalunya: la senyera i l'escut, els segadors i la Diada </li>\n <li>Institucions de govern: Generalitat, Parlament i President </li>\n <li>Literatura catalana: Pere Calders i Víctor Català </li>\n <li>Tradicions: la sardana </li>\n</ul>",
+    "es": "Este proyecto, destinado al ciclo superior de primaria, busca ofrecer una herramienta para aprender y reforzar los contenidos del tema perteneciente al ciclo superior, en el área de conocimiento del medio, que se encarga del conocimiento de Cataluña y su organización política (no territorial). Además, tocaremos parte del área de lengua catalana dado que ciertas actividades van en relación a la literatura del país y algunos de sus autores más conocidos. \n<ul> \n <li>Provincias de Cataluña </li>\n <li>Comarcas de Cataluña </li>\n <li>Símbolos de Cataluña: la <i>senyera</i> y el escudo, <i>els segadors</i> y la Diada. </li>\n <li>Instituciones de gobierno: Generalitat, Parlament y President </li>\n <li>Literatura catalana: Pere Calders y Víctor Català </li>\n <li>Tradiciones: la sardana </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cat.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cat.jclic.zip",
+  "instFile": "jclic/cat.jclic.inst",
+  "clicZoneId": 3859,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3859",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cat/jclic/cat.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 16,
+  "totalSize": 4068277,
+  "files": [
+    "cover.png",
+    "jclic.js/0pere_calders.jpg",
+    "jclic.js/boncop.mp3",
+    "jclic.js/cat.jclic",
+    "jclic.js/catalunya_comarques_catala_resized.jpg",
+    "jclic.js/catalunya_prov_catala_resized.jpg",
+    "jclic.js/diada.jpg",
+    "jclic.js/els_segadors.mp3",
+    "jclic.js/escut.jpg",
+    "jclic.js/flag_of_catalonia.jpg",
+    "jclic.js/generalitat.jpg",
+    "jclic.js/jpg_ciu.jpg",
+    "jclic.js/normal_sagrada_familia.jpg",
+    "jclic.js/parlament.jpg",
+    "jclic.js/pere_calders.jpg",
+    "jclic.js/sardana.jpg",
+    "jclic.js/segadors.jpg",
+    "jclic.js/sy.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cat.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

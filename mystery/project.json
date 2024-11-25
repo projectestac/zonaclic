@@ -1,0 +1,112 @@
+{
+  "id": 1900,
+  "title": "Mystery project",
+  "author": "M. Eva Solera i Reig",
+  "school": "Institut Sales Viladecans (Baix Llobregat)",
+  "date": "05/03/09",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa",
+    "es": "lengua inglesa",
+    "en": "English language"
+  },
+  "descCodes": [
+    130
+  ],
+  "description": {
+    "en": "Project of activities addressed to secondary education with vocabulary about de mystery and the use of \n<i>past simple</i>and \n<i>past continuous</i>.",
+    "ca": "Projecte d'activitats per a educació secundària per treballar a l'àrea d'anglès vocabulari sobre el misteri i l'ús del \n<i>past simple</i> i el \n<i>past continuous</i>.",
+    "es": "Proyecto de actividades para educación secundaria para trabajar en el área de lengua inglesa vocabulario sobre el misterio y el uso del \n<i>past simple</i> y el \n<i>past continuous</i>."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/mystery.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mystery.jclic.zip",
+  "instFile": "jclic/mystery.jclic.inst",
+  "clicZoneId": 3526,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3526",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/mystery/jclic/mystery.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 14,
+  "mediaFiles": 32,
+  "totalSize": 1729003,
+  "files": [
+    "cover.gif",
+    "jclic.js/aliens1.jpg",
+    "jclic.js/cemetery1.gif",
+    "jclic.js/darkness.jpg",
+    "jclic.js/ghost4.jpg",
+    "jclic.js/haunted_house1.gif",
+    "jclic.js/ic_b0040.wav",
+    "jclic.js/ic_b0041.wav",
+    "jclic.js/ic_b0042.wav",
+    "jclic.js/ic_b0043.wav",
+    "jclic.js/ic_b0044.wav",
+    "jclic.js/ic_b0045.wav",
+    "jclic.js/ic_b0046.wav",
+    "jclic.js/ic_b0047.wav",
+    "jclic.js/ic_b0049.wav",
+    "jclic.js/ic_b0050.wav",
+    "jclic.js/ic_b0053.wav",
+    "jclic.js/ic_b0083.wav",
+    "jclic.js/ic_b0084.wav",
+    "jclic.js/ic_b0085.wav",
+    "jclic.js/ic_b0086.wav",
+    "jclic.js/ic_b0087.wav",
+    "jclic.js/monster3.jpg",
+    "jclic.js/moon1.gif",
+    "jclic.js/mummy3.gif",
+    "jclic.js/mystery.jclic",
+    "jclic.js/ness_monster.jpg",
+    "jclic.js/nightmare1.jpg",
+    "jclic.js/noises1.jpg",
+    "jclic.js/shadow1.jpg",
+    "jclic.js/skeleton.jpg",
+    "jclic.js/tomb2.gif",
+    "jclic.js/vampire1.jpg",
+    "jclic.js/witch.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/mystery.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

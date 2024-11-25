@@ -1,0 +1,97 @@
+{
+  "id": 1628,
+  "title": "Els dinosaures",
+  "author": "Laura Lagunas Durán i Susagna Argemí",
+  "school": "Escola Gras i Soler Esplugues de Llobregat (Baix Llobregat)",
+  "date": "05/12/06",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "animals",
+    "es": "animales",
+    "en": "animales"
+  },
+  "descCodes": [
+    1160
+  ],
+  "description": {
+    "en": "Project of activities about dinosaurs. what they ate, what they like and who study them.",
+    "ca": "Projecte d'activitats per conèixer el món dels dinosaures. Com eren, on vivien, què menjaven, com i qui els estudia. Mitjançant els dinosaures com a centre d'interès s'inclouen activitats per reforçar conceptes matemàtics, de llenguatge, de descoberta de l'entorn i altres aspectes adequats als aprenentatges dels nens d'aquest nivell.",
+    "es": "Proyecto de actividades para conocer el mundo de los dinosaurios. Cómo eran, dónde vivían, qué comían, como y quien los estudia. Mediante los dinosaurios como centro de interés se incluyen actividades para reforzar conceptos matemáticos, de lenguaje, de descubierta del entorno y otros aspectos adecuados a los aprendizajes."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/dinos2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/dinos2.jclic.zip",
+  "instFile": "jclic/dinos2.jclic.inst",
+  "clicZoneId": 3336,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3336",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/dinos2/jclic/dinos2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 17,
+  "totalSize": 2073117,
+  "files": [
+    "cover.gif",
+    "jclic.js/apatosaure.jpg",
+    "jclic.js/compsognathus.jpg",
+    "jclic.js/dino01.png",
+    "jclic.js/dinos2.jclic",
+    "jclic.js/diplod00.jpg",
+    "jclic.js/euoplocephalus.jpg",
+    "jclic.js/fossil03.jpg",
+    "jclic.js/fossils.mid",
+    "jclic.js/menjcarn.jpg",
+    "jclic.js/menjherb.jpg",
+    "jclic.js/oviraptor.jpg",
+    "jclic.js/paisatge.jpg",
+    "jclic.js/paleon05.jpg",
+    "jclic.js/stegosau.jpg",
+    "jclic.js/suchomimus.jpg",
+    "jclic.js/tiranosaure.jpg",
+    "jclic.js/triceratops.jpg",
+    "jclic.js/tuojiangosaure.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/dinos2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

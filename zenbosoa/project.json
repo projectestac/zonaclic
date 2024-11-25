@@ -1,0 +1,96 @@
+{
+  "id": 638,
+  "title": "Zenbaki osoak",
+  "author": "Ricardo Sánchez Espinosa",
+  "school": "Colegio Calasanz Pamplona (Navarra)",
+  "date": "26/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aritmètica, fonaments de les matemàtiques",
+    "es": "aritmética, fundamentos de las matemáticas",
+    "en": "Arithmetic, foundations of the mathematics"
+  },
+  "descCodes": [
+    701,
+    707
+  ],
+  "description": {
+    "en": "Clic activities about whole numbers. Includes exercises with positive and negative numbers...",
+    "ca": "Paquet d'activitats sobre els nombres enters: positius i negatius, operacions amb enters, etc.\n<br> L'aplicació s'orienta fonamentalment a 2on d'ESO.",
+    "es": "Paquete de actividades sobre números enteros: positivos y negativos, operaciones con enteros, etc.\n<br> La aplicación se orienta fundamentalmente a 2º de ESO."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "numenter"
+  ],
+  "mainFile": "jclic.js/zenbosoa.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/zenbosoa.jclic.zip",
+  "instFile": "jclic/zenbosoa.jclic.inst",
+  "clicZoneId": 1341,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1341",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/zenbosoa/jclic/zenbosoa.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 13,
+  "totalSize": 279871,
+  "files": [
+    "cover.gif",
+    "jclic.js/100balls.jpg",
+    "jclic.js/aros.gif",
+    "jclic.js/bici.gif",
+    "jclic.js/bluelake.jpg",
+    "jclic.js/estera.gif",
+    "jclic.js/genial.gif",
+    "jclic.js/greca.gif",
+    "jclic.js/inicio.jpg",
+    "jclic.js/laferia.mid",
+    "jclic.js/moto.gif",
+    "jclic.js/problem.jpg",
+    "jclic.js/rayado.gif",
+    "jclic.js/septimin.mid",
+    "jclic.js/zenbosoa.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/zenbosoa.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

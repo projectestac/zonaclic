@@ -1,0 +1,94 @@
+{
+  "id": 1810,
+  "title": "La generación del 98",
+  "author": "Katheíne Esquía Flores",
+  "date": "19/11/08",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la literatura, literatura espanyola",
+    "es": "aprendizaje de la literatura, literatura española",
+    "en": "learning of Literature, Spanish Literature"
+  },
+  "descCodes": [
+    611,
+    630
+  ],
+  "description": {
+    "en": "Project of activities about the\n<i> Generación del 98</i> authors: \n<ul> \n <li>Antonio Machado </li>\n <li>José Benavente </li>\n <li>Azorín </li>\n <li>Juan Ramón Jiménez </li>\n <li>Miguel de Unamuno </li>\n <li>Valle Inclán </li>\n <li>... </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre els autors més importants de la Generació del 98: \n<ul> \n <li>Antonio Machado </li>\n <li>José Benavente </li>\n <li>Azorín </li>\n <li>Juan Ramón Jiménez </li>\n <li>Miguel de Unamuno </li>\n <li>Valle Inclán </li>\n <li>... </li>\n</ul>",
+    "es": "Proyecto de actividades sobre los autores y obras más importantes de la Generación del 98: \n<ul> \n <li>Antonio Machado </li>\n <li>José Benavente </li>\n <li>Azorín </li>\n <li>Juan Ramón Jiménez </li>\n <li>Miguel de Unamuno </li>\n <li>Valle Inclán </li>\n <li>... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/genera98.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/genera98.jclic.zip",
+  "instFile": "jclic/genera98.jclic.inst",
+  "clicZoneId": 3507,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3507",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/genera98/jclic/genera98.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 15,
+  "totalSize": 732074,
+  "files": [
+    "cover.jpg",
+    "jclic.js/antonio_machado.jpg",
+    "jclic.js/azorin.jpg",
+    "jclic.js/azorin2.jpg",
+    "jclic.js/collage98_2.jpg",
+    "jclic.js/genera98.jclic",
+    "jclic.js/jacinto1.jpg",
+    "jclic.js/jacinto_sentado.jpg",
+    "jclic.js/juan_ramon_jimenez.jpg",
+    "jclic.js/juanramon1g.jpg",
+    "jclic.js/juanramon5.jpg",
+    "jclic.js/machado36.jpg",
+    "jclic.js/machado_y.jpg",
+    "jclic.js/miguel_unamuno_590.jpg",
+    "jclic.js/unamuno.jpg",
+    "jclic.js/valle_inclan.jpg",
+    "jclic.js/valleinclan_barba.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/genera98.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

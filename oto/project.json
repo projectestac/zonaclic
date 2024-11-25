@@ -1,0 +1,95 @@
+{
+  "id": 921,
+  "title": "Otoño",
+  "author": "Virgilio Pedraz Hernández",
+  "school": "CRA Vía de la Plata La Garganta (Cáceres)",
+  "date": "16/12/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales",
+    "en": "Experimental sciences"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)",
+    "en": "Primary school (6-12), Secondary school (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "botànica",
+    "es": "botánica",
+    "en": "botany"
+  },
+  "descCodes": [
+    59
+  ],
+  "description": {
+    "en": "Clic activities about autumn. The package contains different activities about : \n<ul> \n <li>features </li>\n <li>life time </li>\n <li>deciduous trees </li>\n <li>perennial trees </li>\n</ul>",
+    "ca": "Paquet d'activitats sobre la tardor i els arbres. Al paquet trobem activitats sobre: \n<ul> \n <li>característiques </li>\n <li>duració </li>\n <li>arbres de fulla caduca </li>\n <li>arbres de fulla perenne </li>\n</ul>",
+    "es": "Paquete de actividades sobre el otoño y los árboles. En el paquete encontramos actividades sobre: \n<ul> \n <li>características </li>\n <li>duración </li>\n <li>árboles de hoja caduca </li>\n <li>árboles de hoja perenne </li>\n</ul>"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/oto.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/oto.jclic.zip",
+  "instFile": "jclic/oto.jclic.inst",
+  "clicZoneId": 2032,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2032",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/oto/jclic/oto.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 15,
+  "totalSize": 470780,
+  "files": [
+    "cover.gif",
+    "jclic.js/arbcyp.jpg",
+    "jclic.js/arboles.jpg",
+    "jclic.js/calzada.jpg",
+    "jclic.js/casta_o.jpg",
+    "jclic.js/cigu.jpg",
+    "jclic.js/golond.jpg",
+    "jclic.js/hojas.jpg",
+    "jclic.js/hojbor.gif",
+    "jclic.js/hojcom.gif",
+    "jclic.js/hojfor.gif",
+    "jclic.js/hojins.gif",
+    "jclic.js/hojner.gif",
+    "jclic.js/oto.jclic",
+    "jclic.js/oto_o.jpg",
+    "jclic.js/pato.jpg",
+    "jclic.js/ver_inv.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/oto.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

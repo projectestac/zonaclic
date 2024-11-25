@@ -1,0 +1,104 @@
+{
+  "id": 745,
+  "title": "Nuestra historia",
+  "author": "Juan José Mateo Molina",
+  "school": "CP El Olivar Rivas - Vaciamadrid (Madrid)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "història, Espanya",
+    "es": "historia, España",
+    "en": "history, Spain"
+  },
+  "descCodes": [
+    246,
+    499
+  ],
+  "description": {
+    "en": "Clic activities based on the text book \"Conocimiento del Medio de 4º de E. Primaria, de la editorial Santillana\". The topics treated are: \n<ul><li>Primitive men </li>\n<li>The Romans </li>\n<li>The age of castles </li>\n<li>The age of discoveries </li>\n<li>Your great grandparents age <br> You'll find more information in the pages <b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">\"Aplicaciones educativas\"</a></b>. </li></ul>",
+    "ca": "Aplicació realitzada a partir del llibre de text de coneixement del medi de 4t de primària de l'editorial Santillana. \n<br> S'hi tracten els següents conceptes: \n<ul> \n <li>Els homes primitius </li>\n <li>L'època romana </li>\n <li>L'època dels castells </li>\n <li>L'època dels descobriments </li>\n <li>L'època dels teus besavis </li>\n</ul> \n<br> Trobareu més informació a la web d'\n<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo.",
+    "es": "Aplicación realizada a partir del libro de texto de Conocimiento del Medio de 4º de E. Primaria, de la editorial Santillana. \n<br> Se tratan los siguientes conceptos: \n<ul> \n <li>Los hombres primitivos. </li>\n <li>La época romana. </li>\n <li>La época de los castillos. </li>\n <li>La época de los descubrimientos. </li>\n <li>La época de tus bisabuelos. </li>\n</ul> \n<br> Encontraréis más información en la web de \n<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/historia.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/historia.jclic.zip",
+  "instFile": "jclic/historia.jclic.inst",
+  "clicZoneId": 1403,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1403",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/historia/jclic/historia.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 55,
+  "mediaFiles": 24,
+  "totalSize": 478127,
+  "files": [
+    "cover.jpg",
+    "jclic.js/anfitea.gif",
+    "jclic.js/auto.gif",
+    "jclic.js/autor.gif",
+    "jclic.js/carabela.gif",
+    "jclic.js/castillo.gif",
+    "jclic.js/circo.gif",
+    "jclic.js/fonograf.gif",
+    "jclic.js/historia.gif",
+    "jclic.js/historia.jclic",
+    "jclic.js/i.gif",
+    "jclic.js/i1.gif",
+    "jclic.js/i2.gif",
+    "jclic.js/i3.gif",
+    "jclic.js/i4.gif",
+    "jclic.js/i5.gif",
+    "jclic.js/imagine.mid",
+    "jclic.js/m_c.gif",
+    "jclic.js/m_d.gif",
+    "jclic.js/m_p.gif",
+    "jclic.js/m_r.gif",
+    "jclic.js/nomad.gif",
+    "jclic.js/radio.gif",
+    "jclic.js/romanos.gif",
+    "jclic.js/seden.gif",
+    "jclic.js/telefono.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/historia.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

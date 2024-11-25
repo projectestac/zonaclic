@@ -1,0 +1,130 @@
+{
+  "id": 302,
+  "title": "48 coses de classe",
+  "author": "Toni Miquel Mollà",
+  "school": "CP Crist de la Pau Sant Joan d'Alacant (Alacantí)",
+  "date": "16/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua catalana, vocabulari",
+    "es": "lengua catalana, vocabulario",
+    "en": "Catalan language, vocabulary"
+  },
+  "descCodes": [
+    133,
+    150
+  ],
+  "description": {
+    "en": "Activity pack about classroom objects.",
+    "ca": "Nou paquets d'activitats per aprendre el nom de 48 objectes de la classe mitjançant imatges, descripcions i sopes de lletres.",
+    "es": "Nueve paquetes de actividades para aprender el nombre de 48 objetos de la clase mediante imágenes, descripciones y sopas de letras."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "classe",
+    "cosascla"
+  ],
+  "mainFile": "jclic.js/klasekoa.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/klasekoa.jclic.zip",
+  "instFile": "jclic/klasekoa.jclic.inst",
+  "clicZoneId": 1160,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1160",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/klasekoa/jclic/klasekoa.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 111,
+  "mediaFiles": 28,
+  "totalSize": 561068,
+  "files": [
+    "cover.gif",
+    "jclic.js/24cocl01/24cocl01.jclic",
+    "jclic.js/24cocl01/24cocla1.gif",
+    "jclic.js/24cocl01/24cocla2.gif",
+    "jclic.js/classe1/class01.gif",
+    "jclic.js/classe1/classe01.gif",
+    "jclic.js/classe1/classe1.jclic",
+    "jclic.js/classe2/class02.gif",
+    "jclic.js/classe2/classe02.gif",
+    "jclic.js/classe2/classe2.jclic",
+    "jclic.js/classe3/class03.gif",
+    "jclic.js/classe3/classe03.gif",
+    "jclic.js/classe3/classe3.jclic",
+    "jclic.js/classe4/class04.gif",
+    "jclic.js/classe4/classe04.gif",
+    "jclic.js/classe4/classe4.jclic",
+    "jclic.js/classe5/class05.gif",
+    "jclic.js/classe5/classe05.gif",
+    "jclic.js/classe5/classe5.jclic",
+    "jclic.js/classe6/class06.gif",
+    "jclic.js/classe6/classe06.gif",
+    "jclic.js/classe6/classe6.jclic",
+    "jclic.js/classe7/class07.gif",
+    "jclic.js/classe7/classe07.gif",
+    "jclic.js/classe7/classe7.jclic",
+    "jclic.js/classe8/class08.gif",
+    "jclic.js/classe8/classe08.gif",
+    "jclic.js/classe8/classe8.jclic",
+    "jclic.js/klasekoa.jclic",
+    "jclic.js/paquet1.gif",
+    "jclic.js/paquet2.gif",
+    "jclic.js/paquet3.gif",
+    "jclic.js/paquet4.gif",
+    "jclic.js/paquet5.gif",
+    "jclic.js/paquet6.gif",
+    "jclic.js/paquet7.gif",
+    "jclic.js/paquet8.gif",
+    "jclic.js/paquet9.gif",
+    "jclic.js/portclas.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/klasekoa.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/24cocl01/24cocl01.jclic.js",
+    "jclic.js/classe1/classe1.jclic.js",
+    "jclic.js/classe2/classe2.jclic.js",
+    "jclic.js/classe3/classe3.jclic.js",
+    "jclic.js/classe4/classe4.jclic.js",
+    "jclic.js/classe5/classe5.jclic.js",
+    "jclic.js/classe6/classe6.jclic.js",
+    "jclic.js/classe7/classe7.jclic.js",
+    "jclic.js/classe8/classe8.jclic.js",
+    "cover.webp"
+  ]
+}

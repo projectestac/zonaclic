@@ -1,0 +1,127 @@
+{
+  "id": 1417,
+  "title": "Les lletres",
+  "author": "Sara Deulofeu",
+  "school": "C Maristes Champagnat Badalona (Barcelonès)",
+  "date": "15/09/05",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "lectoescriptura",
+    "es": "lectoescritura",
+    "en": "reading and writting skills"
+  },
+  "descCodes": [
+    920
+  ],
+  "description": {
+    "en": "Clic activities addressed to kindergarten for learning to read and write. The package has 5 parts: \n<ul> \n <li>M </li>\n <li>L </li>\n <li>P </li>\n <li>S </li>\n <li>T </li>\n</ul>",
+    "ca": "Paquet d'activitats adreçat a educació infantil per a l'aprenentatge de la lectoescriptura. El paquet consta de 5 parts, cadascuna d'elles adreçada a una lletra diferent: \n<ul> \n <li>M </li>\n <li>L </li>\n <li>P </li>\n <li>S </li>\n <li>T </li>\n</ul>",
+    "es": "Paquete de actividades dirigido a educación infantil para el aprendizaje de la lectoescritura. El paquete consta de 5 partes, cada una de ellas dirigida a una letra diferente: \n<ul> \n <li>M </li>\n <li>L </li>\n <li>P </li>\n <li>S </li>\n <li>T </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/lletres2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/lletres2.jclic.zip",
+  "instFile": "jclic/lletres2.jclic.inst",
+  "clicZoneId": 3153,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3153",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/lletres2/jclic/lletres2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 38,
+  "mediaFiles": 47,
+  "totalSize": 1058730,
+  "files": [
+    "cover.gif",
+    "jclic.js/espasa.gif",
+    "jclic.js/estel.gif",
+    "jclic.js/gat.gif",
+    "jclic.js/genial.wav",
+    "jclic.js/laia.gif",
+    "jclic.js/laia_ma.gif",
+    "jclic.js/laia_ma1.gif",
+    "jclic.js/laia_ma2.gif",
+    "jclic.js/lila.gif",
+    "jclic.js/lletra_l.gif",
+    "jclic.js/lletra_p.gif",
+    "jclic.js/lletra_t.gif",
+    "jclic.js/lletram.gif",
+    "jclic.js/lletres2.jclic",
+    "jclic.js/lletres2.pdf",
+    "jclic.js/llletr_1.gif",
+    "jclic.js/ma.gif",
+    "jclic.js/mama.gif",
+    "jclic.js/mapa.gif",
+    "jclic.js/masia.gif",
+    "jclic.js/mel.gif",
+    "jclic.js/melo.gif",
+    "jclic.js/mi.gif",
+    "jclic.js/milu.gif",
+    "jclic.js/moltbe.wav",
+    "jclic.js/momia.gif",
+    "jclic.js/moto.gif",
+    "jclic.js/oli.gif",
+    "jclic.js/os.gif",
+    "jclic.js/ou.gif",
+    "jclic.js/papa.gif",
+    "jclic.js/pasta.gif",
+    "jclic.js/pau1.gif",
+    "jclic.js/perfecte.wav",
+    "jclic.js/pet_.gif",
+    "jclic.js/peu.gif",
+    "jclic.js/pitet.gif",
+    "jclic.js/piu_gn.gif",
+    "jclic.js/piu_mb.gif",
+    "jclic.js/piu_pf.gif",
+    "jclic.js/poma.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/pot.gif",
+    "jclic.js/puma.gif",
+    "jclic.js/sol.gif",
+    "jclic.js/sopa.gif",
+    "jclic.js/tapa.gif",
+    "jclic.js/taula.gif",
+    "jclic.js/tio.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/lletres2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

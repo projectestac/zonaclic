@@ -1,0 +1,97 @@
+{
+  "id": 1631,
+  "title": "Cálculo mental",
+  "author": "Jaime Riba Velarde",
+  "school": "CEIP Hispanidad Garrucha - Almería (Andalucía)",
+  "date": "12/12/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "càlcul, càlcul mental",
+    "es": "cálculo, cálculo mental",
+    "en": "calculation, mental arithmetic"
+  },
+  "descCodes": [
+    702,
+    930
+  ],
+  "description": {
+    "en": "Project of activities about mental arithmetic for students of second cycle of primary with basic operations with two digits.",
+    "ca": "Projecte d'activitats de càlcul mental per a alumnes de segon cicle de primària amb operacions bàsiques de dos dígits.",
+    "es": "Proyecto de actividades de cálculo mental para alumnos de segundo ciclo de primaria con operaciones básicas de dos dígitos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/calcmen2.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/calcmen2.jclic.zip",
+  "instFile": "jclic/calcmen2.jclic.inst",
+  "clicZoneId": 3339,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3339",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/calcmen2/jclic/calcmen2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 23,
+  "mediaFiles": 17,
+  "totalSize": 650948,
+  "files": [
+    "cover.jpg",
+    "jclic.js/aprende_jugando.gif",
+    "jclic.js/calcmen2.jclic",
+    "jclic.js/canas.gif",
+    "jclic.js/creditos.gif",
+    "jclic.js/de_todo_un_poco.gif",
+    "jclic.js/dividir.gif",
+    "jclic.js/genial.gif",
+    "jclic.js/ladrillo_blanco.jpg",
+    "jclic.js/multiplicar.gif",
+    "jclic.js/pizarra2.jpg",
+    "jclic.js/primitivo_copia.gif",
+    "jclic.js/que_numeros2.gif",
+    "jclic.js/que_operacion2.gif",
+    "jclic.js/que_quieres2.gif",
+    "jclic.js/realiza_operaciones.gif",
+    "jclic.js/restar.gif",
+    "jclic.js/sumar.gif",
+    "jclic.js/sumar_y_restar.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/calcmen2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

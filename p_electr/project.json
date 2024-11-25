@@ -1,0 +1,100 @@
+{
+  "id": 2047,
+  "title": "La producció d'electricitat",
+  "author": "Rosalia Angès",
+  "school": "Institut de Reus Reus - Tarragona (Baix Camp)",
+  "date": "29/04/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Design & technology, Experimental sciences, Social sciences",
+    "ca": "Tecnologies, Ciències experimentals, Ciències socials",
+    "es": "Tecnología, Ciencias experimentales, Ciencias sociales"
+  },
+  "areaCodes": [
+    "tec",
+    "exp",
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "electricitat, energia, energia nuclear",
+    "es": "electricidad, energía, energía nuclear",
+    "en": "electricity, energy, nuclear energy"
+  },
+  "descCodes": [
+    67,
+    68,
+    69
+  ],
+  "description": {
+    "en": "Project of activities on renewable energy sources and renewable sources for electricity production: nuclear plants, thermal, hydro, solar, geothermal, wind, tidal and biomass.",
+    "ca": "Projecte d'activitats sobre les fonts d'energia renovables i no renovables per a la producció d'electricitat: centrals nuclears, tèrmiques, hidràuliques, solars, geotèrmiques, eòliques, mareomotriu i biomassa.",
+    "es": "Proyecto de actividades sobre las fuentes de energía renovables y no renovables para la producción de electricidad: centrales nuecleares, térmicas, hidráulicas, solares, geotérmicas, eólicas, maremotriz y biomasa."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/p_electr.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/p_electr.jclic.zip",
+  "instFile": "jclic/p_electr.jclic.inst",
+  "clicZoneId": 3616,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3616",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/p_electr/jclic/p_electr.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 17,
+  "totalSize": 572038,
+  "files": [
+    "cover.jpg",
+    "jclic.js/aerogenerador.jpg",
+    "jclic.js/aerogeneradors_2.jpg",
+    "jclic.js/biomassa__fusta_.jpg",
+    "jclic.js/central_geotermica.jpg",
+    "jclic.js/central_geotermica_2.jpg",
+    "jclic.js/central_mareomotriu.jpg",
+    "jclic.js/central_nuclear_2.jpg",
+    "jclic.js/central_termica.jpg",
+    "jclic.js/mapa_nuclears_espanya.jpg",
+    "jclic.js/p_electr.jclic",
+    "jclic.js/panel_solar.jpg",
+    "jclic.js/presa_hidroelectrica.jpg",
+    "jclic.js/presa_hidroelectrica_2.jpg",
+    "jclic.js/presa_hidroelectrica_3.jpg",
+    "jclic.js/proces_fabricacio_eolica_resized2.jpg",
+    "jclic.js/produccio_electricitat.jpg",
+    "jclic.js/que_es_l_electricitat.jpg",
+    "jclic.js/titol_que_es_l_energia.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/p_electr.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

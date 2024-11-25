@@ -1,0 +1,117 @@
+{
+  "id": 1546,
+  "title": "Numbers",
+  "author": "Ana Belén Díaz Raya",
+  "school": "Colegio Logos Las Rozas (Madrid)",
+  "date": "17/02/06",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, vocabulari",
+    "es": "lengua inglesa, vocabulario",
+    "en": "English language, vocabulary"
+  },
+  "descCodes": [
+    130,
+    150
+  ],
+  "description": {
+    "en": "Project of activities addressed to primary school about the numbers in English.",
+    "ca": "Projecte d'activitats per a primer cicle d'educació primària sobre els nombres en anglès.",
+    "es": "Proyecto de actividades para primer ciclo de educación primaria sobre los números en inglés."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/numbers.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/numbers.jclic.zip",
+  "instFile": "jclic/numbers.jclic.inst",
+  "clicZoneId": 3272,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3272",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/numbers/jclic/numbers.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 9,
+  "mediaFiles": 37,
+  "totalSize": 463463,
+  "files": [
+    "cover.gif",
+    "jclic.js/dogs.jpg",
+    "jclic.js/eight.mp3",
+    "jclic.js/eight_boats.jpg",
+    "jclic.js/eight_notebooks.jpg",
+    "jclic.js/five.mp3",
+    "jclic.js/five_books.jpg",
+    "jclic.js/five_boys.jpg",
+    "jclic.js/fondo_1.jpg",
+    "jclic.js/fondo_2.jpg",
+    "jclic.js/fondo_3.jpg",
+    "jclic.js/fondo_4.jpg",
+    "jclic.js/fondo_5.jpg",
+    "jclic.js/fondo_6.jpg",
+    "jclic.js/fondo_8.jpg",
+    "jclic.js/fondo_numbers_2.jpg",
+    "jclic.js/four.mp3",
+    "jclic.js/four_girls.jpg",
+    "jclic.js/four_school_bag.jpg",
+    "jclic.js/nine.mp3",
+    "jclic.js/nine_bananas.jpg",
+    "jclic.js/numbers.jclic",
+    "jclic.js/one.mp3",
+    "jclic.js/one_cat.jpg",
+    "jclic.js/one_table.jpg",
+    "jclic.js/pipo_prueba.ttf",
+    "jclic.js/seven.mp3",
+    "jclic.js/seven_pencils.jpg",
+    "jclic.js/seven_trees.jpg",
+    "jclic.js/six.mp3",
+    "jclic.js/six_houses.jpg",
+    "jclic.js/six_pens.jpg",
+    "jclic.js/ten.mp3",
+    "jclic.js/ten_clowns.jpg",
+    "jclic.js/three.mp3",
+    "jclic.js/three_flowers.jpg",
+    "jclic.js/threetables.jpg",
+    "jclic.js/two.mp3",
+    "jclic.js/two_chairs.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/numbers.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

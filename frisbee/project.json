@@ -1,0 +1,99 @@
+{
+  "id": 70,
+  "title": "El món del frisbee",
+  "author": "Francesc Morilla",
+  "school": "Escola Jacint Verdaguer Castelldefels (Baix Llobregat)",
+  "date": "08/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Physical education",
+    "ca": "Educació física",
+    "es": "Educación física"
+  },
+  "areaCodes": [
+    "ef"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "esports",
+    "es": "deportes",
+    "en": "sports"
+  },
+  "descCodes": [
+    424
+  ],
+  "description": {
+    "en": "Package of activities about \"frisbee\", a sport that is played with a flying disc: rules, field dimensions, history of frisbee, modalities of game, characteristics of the disc, etc.",
+    "ca": "En aquest paquet s'expliquen les característiques del \"frisbee\", un esport que es juga amb un disc volador: normes del joc, dimensions del camp, història del frisbee, modalitats de joc, característiques del disc, etc.",
+    "es": "En este paquete se explican las características del \"frisbee\", un deporte que se juega con un disco volador: normas del juego, dimensiones del campo, historia del frisbee, modalidades de juego, características del disco, etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/frisbee.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/frisbee.jclic.zip",
+  "instFile": "jclic/frisbee.jclic.inst",
+  "clicZoneId": 1028,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1028",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/frisbee/jclic/frisbee.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 19,
+  "totalSize": 848084,
+  "files": [
+    "cover.gif",
+    "jclic.js/bravo.wav",
+    "jclic.js/foto.jpg",
+    "jclic.js/frisb111.gif",
+    "jclic.js/frisbe10.gif",
+    "jclic.js/frisbe14.gif",
+    "jclic.js/frisbee.jclic",
+    "jclic.js/frisbee0.gif",
+    "jclic.js/frisbee1.gif",
+    "jclic.js/frisbee5.gif",
+    "jclic.js/frisbee6.jpg",
+    "jclic.js/frisbee8.jpg",
+    "jclic.js/frisbee9.jpg",
+    "jclic.js/imat32.jpg",
+    "jclic.js/imat33.jpg",
+    "jclic.js/imatg3.jpg",
+    "jclic.js/m1.jpg",
+    "jclic.js/m2.jpg",
+    "jclic.js/m3.jpg",
+    "jclic.js/m4.jpg",
+    "jclic.js/moltbe.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/frisbee.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

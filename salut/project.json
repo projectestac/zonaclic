@@ -1,0 +1,99 @@
+{
+  "id": 440,
+  "title": "Salut les copains!",
+  "author": "Llanos Navalón Yeste",
+  "school": "CP Juan Ramón Jiménez Sant Vicent del Raspeig (Alacantí)",
+  "date": "23/07/02",
+  "languages": {
+    "en": "French",
+    "ca": "francès",
+    "es": "francés"
+  },
+  "langCodes": [
+    "fr"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua francesa",
+    "es": "aprendizaje de la lengua, lengua francesa",
+    "en": "learning of the language, French language"
+  },
+  "descCodes": [
+    110,
+    136
+  ],
+  "description": {
+    "en": "Clic activities in French to Secondary School based on the French book of Anaya Publishing House. In the package we find activities about: \n<ul> \n <li>People presentation. </li>\n <li>Present of verbs finished in <i>-er</i>: faire, to aller and to come. </li>\n <li>Interrogative estructures, <i>il</i> and <i>a</i> </li>\n <li>Geography of France, products, monuments and characteristics of some localities. </li>\n</ul>",
+    "ca": "Paquet de 25 activitats de francès per a 1r d'ESO basades en el llibre Anaya per a la matèria optativa d'aquest curs.\n<br> S'hi treballen: \n<ul> \n <li>La presentació de les persones. </li>\n <li>Present dels verbs acabats en <i>-er</i>: faire, aller i venir. </li>\n <li>Estructures interrogatives, <i>il</i> i <i>a</i>, i l'expresssió del lloc i la forma. </li>\n <li>Geografia física de França, productes, monuments y característiques de certes localitats. </li>\n</ul> Conté també enregistraments de sons i exercicis de fonètica.",
+    "es": "Paquete de 25 actividades de francés, para 1º de ESO, basados en el libro de Anaya para la materia optativa de este curso.\n<br> Se trabaja: \n<ul> \n <li>La presentación de las personas. </li>\n <li>Presente de los verbos acabados en <i>¿er</i>: faire, aller y venir. </li>\n <li>Estructuras interrogativas, <i>il</i> y <i>a</i>, y la expresión del lugar y la forma. </li>\n <li>Geografía física de Francia, productos, monumentos y características de ciertas localidades. </li>\n</ul> \n<p> Contiene, así mismo, grabaciones de sonido y ejercicios de fonética. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/salut.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/salut.jclic.zip",
+  "instFile": "jclic/salut.jclic.inst",
+  "clicZoneId": 1265,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1265",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/salut/jclic/salut.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 25,
+  "mediaFiles": 19,
+  "totalSize": 3762462,
+  "files": [
+    "cover.gif",
+    "jclic.js/4_5.wav",
+    "jclic.js/4_6.wav",
+    "jclic.js/bientot.gif",
+    "jclic.js/chan2.wav",
+    "jclic.js/fon4.wav",
+    "jclic.js/france2.gif",
+    "jclic.js/france3.gif",
+    "jclic.js/france4.gif",
+    "jclic.js/l4.wav",
+    "jclic.js/m1.gif",
+    "jclic.js/m2.gif",
+    "jclic.js/m3.gif",
+    "jclic.js/m4.gif",
+    "jclic.js/m5.gif",
+    "jclic.js/mapa.gif",
+    "jclic.js/minialt.gif",
+    "jclic.js/port.gif",
+    "jclic.js/posta.gif",
+    "jclic.js/salut.jclic",
+    "jclic.js/salut2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/salut.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

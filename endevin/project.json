@@ -1,0 +1,115 @@
+{
+  "id": 287,
+  "title": "Endevinalles (sense sons)",
+  "author": "Antoni Prim i Magda Gil Argemí",
+  "school": "Escola Llorens i Artigas Badalona (Barcelonès)",
+  "date": "15/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "comprensió escrita, llengua catalana",
+    "es": "comprensión escrita, lengua catalana",
+    "en": "written understanding, Catalan language"
+  },
+  "descCodes": [
+    111,
+    133
+  ],
+  "description": {
+    "en": "Activity pack for elementary school children in which they have to solve a series of riddles.\n<p> There is an animation at the end of each one. </p>",
+    "ca": "Paquet adreçat al cicle inicial de primària on es presenten quinze endevinalles que cal resoldre escrivint la resposta. Quan s'encerten es mostra una animació.\n<br> Hi ha dues versions del paquet: una amb sons, que permet escoltar tots els textos, i l'altra muda.",
+    "es": "Paquete dirigido al ciclo inicial de primaria en el que se presentan quince adivinanzas que se deben resolver escribiendo la respuesta. Al acertarlas se muestra una animación.\n<br> Hay dos versiones del paquete: una con sonidos, que permite escuchar todos los textos, y otra muda."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "endeso"
+  ],
+  "mainFile": "jclic.js/endevin.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/endevin.jclic.zip",
+  "instFile": "jclic/endevin.jclic.inst",
+  "clicZoneId": 1153,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1153",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/endevin/jclic/endevin.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 32,
+  "totalSize": 229669,
+  "files": [
+    "cover.gif",
+    "jclic.js/baldufa.gif",
+    "jclic.js/barret1.gif",
+    "jclic.js/campana.gif",
+    "jclic.js/e1a.gif",
+    "jclic.js/e1apsa.gif",
+    "jclic.js/e1argol.gif",
+    "jclic.js/e1aya.gif",
+    "jclic.js/e1ayes.gif",
+    "jclic.js/e1cell.gif",
+    "jclic.js/e1ens.gif",
+    "jclic.js/e1erra.gif",
+    "jclic.js/e1lengue.gif",
+    "jclic.js/e1ligat.gif",
+    "jclic.js/e1lla.gif",
+    "jclic.js/e1onedes.gif",
+    "jclic.js/e1ormatg.gif",
+    "jclic.js/e1osc.gif",
+    "jclic.js/e1rbre.gif",
+    "jclic.js/endevin.jclic",
+    "jclic.js/estels.gif",
+    "jclic.js/fanal.gif",
+    "jclic.js/formig.gif",
+    "jclic.js/foto.gif",
+    "jclic.js/gall.gif",
+    "jclic.js/grill.gif",
+    "jclic.js/llengua.gif",
+    "jclic.js/lluna.gif",
+    "jclic.js/ou.gif",
+    "jclic.js/paraigua.gif",
+    "jclic.js/platan.gif",
+    "jclic.js/sabates.gif",
+    "jclic.js/tisores.gif",
+    "jclic.js/yaya1.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/endevin.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

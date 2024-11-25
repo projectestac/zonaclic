@@ -1,0 +1,114 @@
+{
+  "id": 2042,
+  "title": "Les fruites 3",
+  "author": "M.Alba Ruiz Gurt",
+  "school": "Escola Mossèn Cinto Folgueroles (Osona)",
+  "date": "09/04/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "fruits",
+    "es": "frutas",
+    "en": "fruits"
+  },
+  "descCodes": [
+    844
+  ],
+  "description": {
+    "en": "JClic project addressed to kindergarden about the fruits: \n<ul> \n <li>name </li>\n <li>coluors </li>\n <li>food type </li>\n</ul>",
+    "ca": "Projecte JClic per als més petits sobre les fruites: \n<ul> \n <li>el seu nom </li>\n <li>el color </li>\n <li>el tipus d'aliment </li>\n</ul>",
+    "es": "Proyecto JClic para los más pequeños sobre las frutas: \n<ul> \n <li>su nombre </li>\n <li>el color </li>\n <li>el tipo de alimento </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/fruites3.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/fruites3.jclic.zip",
+  "instFile": "jclic/fruites3.jclic.inst",
+  "clicZoneId": 3612,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3612",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/fruites3/jclic/fruites3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 35,
+  "totalSize": 901804,
+  "files": [
+    "cover.jpg",
+    "jclic.js/1.mp3",
+    "jclic.js/10.mp3",
+    "jclic.js/2.mp3",
+    "jclic.js/3.mp3",
+    "jclic.js/4.mp3",
+    "jclic.js/5.mp3",
+    "jclic.js/6.mp3",
+    "jclic.js/7.mp3",
+    "jclic.js/8.mp3",
+    "jclic.js/9.mp3",
+    "jclic.js/altaveu.jpg",
+    "jclic.js/carn.jpg",
+    "jclic.js/fantastic.mp3",
+    "jclic.js/formatge.jpg",
+    "jclic.js/fruites.jpg",
+    "jclic.js/fruites3.jclic",
+    "jclic.js/fruites_1_.jpg",
+    "jclic.js/genial.mp3",
+    "jclic.js/llet.jpg",
+    "jclic.js/maduixa.jpg",
+    "jclic.js/maduixa.mp3",
+    "jclic.js/molt_be.mp3",
+    "jclic.js/mongetes.jpg",
+    "jclic.js/ous.jpg",
+    "jclic.js/peix.jpg",
+    "jclic.js/pera.jpg",
+    "jclic.js/pera.mp3",
+    "jclic.js/platan.jpg",
+    "jclic.js/platan.mp3",
+    "jclic.js/poma.jpg",
+    "jclic.js/poma.mp3",
+    "jclic.js/pomes.jpg",
+    "jclic.js/raim.jpg",
+    "jclic.js/raim.mp3",
+    "jclic.js/taronja.jpg",
+    "jclic.js/taronja.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/fruites3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": 2387,
+  "title": "Ortografia i memòria visual",
+  "author": "Oriol Bosch Fainé",
+  "school": "Escola L'Esqueix - ZER El Moianès Monistrol de Calders (Bages)",
+  "date": "21/04/15",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, comprensió escrita, comprensió oral, didàctica de la llengua, fonètica, llengua, llengua catalana, semàntica",
+    "es": "aprendizaje de la lengua, comprensión escrita, comprensión oral, didáctica de la lengua, fonética, lengua, lengua catalana, semántica",
+    "en": "learning of the language, written understanding, oral understanding, didactics of the language, phonetics, language, Catalan language, semantics"
+  },
+  "descCodes": [
+    110,
+    111,
+    112,
+    117,
+    121,
+    128,
+    133,
+    147
+  ],
+  "description": {
+    "en": "This project includes several activities related with common words proposed in the work \n<i>Ortografia sense esforç</i> (Spelling effortlessly) by Daniel Gabarró.\n<p> The first block is a sample of activities with simple words. The second block according to the difficulty of words is a little higher. In the third block there activities of these words (and other). </p>",
+    "ca": "Aquest projecte recull diferents activitats relacionades, entre d'altres, amb les paraules d'ús comú que es proposen en el treball Ortografia sense esforç de Daniel Gabarró. Amb aquestes es vol afavorir el treball i millora de la memòria visual i per tant de l'ortografia.\n<p> En un primer bloc hi ha una mostra de possibles activitats de paraules senzilles (no tenen accent). En el segon bloc la dificultat de les paraules és una mica més elevada. En el tercer bloc hi ha activitats d'aplicació d'aquestes paraules (i altres) en textos. </p>",
+    "es": "Este proyecto recoge diferentes actividades relacionadas, entre otras, con las palabras de uso común que se proponen en el trabajo Ortografía sin esfuerzo de Daniel Gabarró. Con estas se quiere favorecer el trabajo y mejora de la memoria visual y por tanto de la ortografía.\n<p> En un primer bloque hay una muestra de posibles actividades de palabras sencillas (no tienen acento). En el segundo bloque la dificultad de las palabras es un poco más elevada. En el tercer bloque hay actividades de aplicación de estas palabras (y otros) en textos. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/orto_vis.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/orto_vis.jclic.zip",
+  "instFile": "jclic/orto_vis.jclic.inst",
+  "clicZoneId": 3894,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3894",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/orto_vis/jclic/orto_vis.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 29,
+  "mediaFiles": 52,
+  "totalSize": 2178492,
+  "files": [
+    "cover.png",
+    "jclic.js/0e.jpg",
+    "jclic.js/0o.jpg",
+    "jclic.js/anava.jpg",
+    "jclic.js/angles.mp3",
+    "jclic.js/angles_lletrejat_reves.mp3",
+    "jclic.js/angles_resized.jpg",
+    "jclic.js/aprobar.png",
+    "jclic.js/aprovar.mp3",
+    "jclic.js/aprovar_lletrejat_reves.mp3",
+    "jclic.js/aqui.mp3",
+    "jclic.js/aqui_lletrejat_reves.mp3",
+    "jclic.js/aqui_resized.jpg",
+    "jclic.js/arbre.mp3",
+    "jclic.js/arbre_lletrejat_reves.mp3",
+    "jclic.js/arbre_resized.jpg",
+    "jclic.js/arribar.mp3",
+    "jclic.js/arribar_lletrejat_reves.mp3",
+    "jclic.js/arribar_resized.jpg",
+    "jclic.js/asignatura.png",
+    "jclic.js/assignatura.mp3",
+    "jclic.js/assignatura_imatge.jpg",
+    "jclic.js/assignatura_lletrejat_reves.mp3",
+    "jclic.js/autoria_imatges_resized.jpg",
+    "jclic.js/beguda_imatge.jpg",
+    "jclic.js/bitllet.png",
+    "jclic.js/boat.png",
+    "jclic.js/cavall.mp3",
+    "jclic.js/cheese.png",
+    "jclic.js/cotxe.png",
+    "jclic.js/dema.mp3",
+    "jclic.js/despres.mp3",
+    "jclic.js/e.jpg",
+    "jclic.js/entrepa.jpg",
+    "jclic.js/equivocar.mp3",
+    "jclic.js/excursio.mp3",
+    "jclic.js/excursio_imatge.jpg",
+    "jclic.js/hi_havia.mp3",
+    "jclic.js/historia.mp3",
+    "jclic.js/hivern.jpg",
+    "jclic.js/i01_cotxe.png",
+    "jclic.js/i01_puzle1.jpg",
+    "jclic.js/i01_small.jpg",
+    "jclic.js/il_lusio.mp3",
+    "jclic.js/intel_ligencia.mp3",
+    "jclic.js/matematiques.mp3",
+    "jclic.js/nuvol.mp3",
+    "jclic.js/o.jpg",
+    "jclic.js/orto_vis.jclic",
+    "jclic.js/pantalla_final_resized.jpg",
+    "jclic.js/paraigua.png",
+    "jclic.js/portada_final_bona.jpg",
+    "jclic.js/rellotge.png",
+    "jclic.js/sin_titulo.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/orto_vis.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

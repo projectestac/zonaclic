@@ -1,0 +1,95 @@
+{
+  "id": 2483,
+  "title": "El paisaje",
+  "author": "Marian Riquelme Toledo",
+  "school": "Universidad Católica San Antonio Alcantarilla (Murcia)",
+  "date": "16/02/17",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "paisatge",
+    "es": "paisaje",
+    "en": "landscape"
+  },
+  "descCodes": [
+    296
+  ],
+  "description": {
+    "en": "These activities gives an overview about the types of landscapes, both natural and humanized the suffering these changes and their most important features.",
+    "ca": "En aquestes activitats es fa un repàs general sobre els tipus de paisatges, tant els naturals com els humanitzats, dels canvis que pateixen aquests i les seves característiques més importants.",
+    "es": "En estas actividades se hace un repaso general acerca de los tipos de paisajes, tanto los naturales como los humanizados, de los cambios que sufren éstos y sus características más importantes."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/paisaje2.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/paisaje2.jclic.zip",
+  "instFile": "jclic/paisaje2.jclic.inst",
+  "clicZoneId": 3992,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3992",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/paisaje2/jclic/paisaje2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 17,
+  "totalSize": 1032483,
+  "files": [
+    "cover.png",
+    "jclic.js/000757747_resized.jpg",
+    "jclic.js/12285979xx_resized.jpg",
+    "jclic.js/306_zslp_costagua2ssfff.jpg",
+    "jclic.js/5316544.jpg",
+    "jclic.js/628785.jpg",
+    "jclic.js/area_metropolitana_de_murcia_picture15_resized.jpg",
+    "jclic.js/cagada.mp3",
+    "jclic.js/fotos_paisajes_bonitos_resized.jpg",
+    "jclic.js/images__5_.jpg",
+    "jclic.js/images__6_.jpg",
+    "jclic.js/images__7_.jpg",
+    "jclic.js/paisaje2.jclic",
+    "jclic.js/paisaje2.jclic.js",
+    "jclic.js/paisaje_urbano.jpg",
+    "jclic.js/paisajes02_resized.jpg",
+    "jclic.js/paisajes02_resized1.jpg",
+    "jclic.js/paisajes_hermosos_del_mundo2_resized.jpg",
+    "jclic.js/risa_de_pajaro_loco.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

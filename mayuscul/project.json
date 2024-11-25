@@ -1,0 +1,130 @@
+{
+  "id": 459,
+  "title": "Las Mayúsculas",
+  "author": "Gerardo Valero Pozuelo",
+  "school": "IES Las tres culturas Córdoba (Andalucía)",
+  "date": "24/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, ortografia",
+    "es": "lengua castellana, ortografía",
+    "en": "Spanish language, spelling"
+  },
+  "descCodes": [
+    132,
+    146
+  ],
+  "description": {
+    "en": "Package of activities about main rules of the use of the capital letters in Spanish. All the activities has an information screen before. In some activities several rules are mixed. \n<br> The package can be used by all curses in Primary and Secondary school.",
+    "ca": "Paquet d'activitats on es treballen les principals normes d'ús de les majúscules en llengua castellana. Totes les activitats van precedides d'una pantalla d'informació on es presenta la norma que es treballarà. En algunes activitats es barregen diverses normes. \n<br> El paquet no va adreçat a cap nivell en concret ja que pot ser utilitzat com a iniciació a problemes amb les majúscules en nivells més baixos o com a repàs en els últims cursos de Secundària o Batxillerat.",
+    "es": "Paquete de actividades dónde se trabajan las principales reglas del uso de las mayúsculas. Todas las actividades propiamente dichas van precedidas de una pantalla de información en la que se enuncia la regla que se va a trabajar a continuación. De vez en cuando hay algunas actividades en las que se mezclan varias reglas. \n<br> El paquete no va dirigido a ningún nivel en concreto, ya que puede ser utilizado bien como iniciación al problemas de las mayúsculas en los niveles más bajos o como repaso en los últimos cursos de Secundaria e incluso Bachillerato."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/mayuscul.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/mayuscul.jclic.zip",
+  "instFile": "jclic/mayuscul.jclic.inst",
+  "clicZoneId": 1281,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1281",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/mayuscul/jclic/mayuscul.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 42,
+  "mediaFiles": 49,
+  "totalSize": 1443335,
+  "files": [
+    "cover.gif",
+    "jclic.js/abrevi_1.gif",
+    "jclic.js/dobles.gif",
+    "jclic.js/dobles2.gif",
+    "jclic.js/estupen.wav",
+    "jclic.js/fantasti.wav",
+    "jclic.js/final.gif",
+    "jclic.js/flecha.gif",
+    "jclic.js/genial.wav",
+    "jclic.js/guay.wav",
+    "jclic.js/lasmay_1.gif",
+    "jclic.js/lasmay_2.gif",
+    "jclic.js/mayuscul.jclic",
+    "jclic.js/mubien1.gif",
+    "jclic.js/mubien2.gif",
+    "jclic.js/mubien3.gif",
+    "jclic.js/mubien4.gif",
+    "jclic.js/mubien5.gif",
+    "jclic.js/mubien6.gif",
+    "jclic.js/mubien7.gif",
+    "jclic.js/mubien8.gif",
+    "jclic.js/mubien9.gif",
+    "jclic.js/muybien.wav",
+    "jclic.js/muybien2.wav",
+    "jclic.js/perfecto.wav",
+    "jclic.js/portad_1.gif",
+    "jclic.js/recuer1.gif",
+    "jclic.js/recuer10.gif",
+    "jclic.js/recuer11.gif",
+    "jclic.js/recuer12.gif",
+    "jclic.js/recuer2.gif",
+    "jclic.js/recuer3.gif",
+    "jclic.js/recuer4.gif",
+    "jclic.js/recuer5.gif",
+    "jclic.js/recuer6.gif",
+    "jclic.js/recuer7.gif",
+    "jclic.js/recuer8.gif",
+    "jclic.js/recuer9.gif",
+    "jclic.js/sigueasi.wav",
+    "jclic.js/texto_a.gif",
+    "jclic.js/textob.gif",
+    "jclic.js/textob1.gif",
+    "jclic.js/textoc.gif",
+    "jclic.js/textoc1.gif",
+    "jclic.js/textod.gif",
+    "jclic.js/textod1.gif",
+    "jclic.js/trescu_1.gif",
+    "jclic.js/trescu_2.gif",
+    "jclic.js/trescu_3.gif",
+    "jclic.js/trescu_4.gif",
+    "jclic.js/trescu_5.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/mayuscul.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

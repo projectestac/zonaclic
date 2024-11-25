@@ -1,0 +1,84 @@
+{
+  "id": 154,
+  "title": "La orientación",
+  "author": "Juan Antonio Arizcun Arizcun",
+  "school": "CP Monteagudo Murcia",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geografia, representació de l'espai",
+    "es": "geografía, representación del espacio",
+    "en": "geography, representation of the space"
+  },
+  "descCodes": [
+    235,
+    325
+  ],
+  "description": {
+    "en": "Activity pack about geographic orientation. The topics dealt with are: Rotation and translation movements, the cardinal points, parallels, meridians, the compass, etc.",
+    "ca": "Paquet d'activitats basat en el llibre de text de coneixement del medi de 4t de primària de l'editorial SC. Les activitats intenten presentar a l'alumne els diferents elements d'orientació terrestre. S'hi treballen els moviments de rotació i translació, els punts cardinals, els paral·lels i els meridians, la brúixola, etc.",
+    "es": "Paquete de actividades de Clic sobre la orientación basado en el libro de texto \"Conocimiento del medio\" de 4º de primaria de la Editorial SC. Las actividades intentan acercar al alumno al conocimiento de los diferentes elementos de orientación terrestre. Se trabajan temas como los movimientos de rotación y translación, los puntos cardinales, los paralelos y meridianos, la brújula, etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/orienta.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/orienta.jclic.zip",
+  "instFile": "jclic/orienta.jclic.inst",
+  "clicZoneId": 1076,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1076",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/orienta/jclic/orienta.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 4,
+  "totalSize": 140317,
+  "files": [
+    "cover.gif",
+    "jclic.js/orienta.jclic",
+    "jclic.js/portada2.gif",
+    "jclic.js/rosavi_1.gif",
+    "jclic.js/rosavien.gif",
+    "jclic.js/tierra31.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/orienta.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

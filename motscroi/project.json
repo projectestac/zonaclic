@@ -1,0 +1,87 @@
+{
+  "id": 390,
+  "title": "Mots croisés",
+  "author": "Julio Nieto",
+  "date": "22/07/02",
+  "languages": {
+    "en": "French",
+    "ca": "francès",
+    "es": "francés"
+  },
+  "langCodes": [
+    "fr"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua francesa",
+    "es": "lengua francesa",
+    "en": "French language"
+  },
+  "descCodes": [
+    669
+  ],
+  "description": {
+    "en": "Clic activity pack about the foreign language-French. Activities in the form of crossword puzzles.",
+    "ca": "Conjunt de 19 mots encreuats en francès fàcil adaptats d'una publicació de l'editorial Hachette.",
+    "es": "Conjunto de 19 crucigramas en francés fácil adaptados de una publicación de la editorial Hachette."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/motscroi.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/motscroi.jclic.zip",
+  "instFile": "jclic/motscroi.jclic.inst",
+  "clicZoneId": 1222,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1222",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/motscroi/jclic/motscroi.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 20,
+  "mediaFiles": 9,
+  "totalSize": 177384,
+  "files": [
+    "cover.gif",
+    "jclic.js/boeuf.gif",
+    "jclic.js/bras.gif",
+    "jclic.js/coeur.gif",
+    "jclic.js/coq.gif",
+    "jclic.js/letras.gif",
+    "jclic.js/m_barbe.gif",
+    "jclic.js/m_filet.gif",
+    "jclic.js/motscroi.gif",
+    "jclic.js/motscroi.jclic",
+    "jclic.js/mtoit.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/motscroi.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

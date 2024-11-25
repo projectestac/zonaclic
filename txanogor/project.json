@@ -1,0 +1,124 @@
+{
+  "id": 242,
+  "title": "La Caputxeta Vermella",
+  "author": "Pere Bassach Pérez Dibuixos: Esther Antúnez i Sònia Clara",
+  "school": "CEE Font de l'Abella Girona",
+  "date": "12/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6), Primary school (6-12)",
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, llengua catalana, conte, Portuguès, llengua basca",
+    "es": "lengua castellana, lengua catalana, cuento, Portugués, lengua vasca",
+    "en": "Spanish language, Catalan language, story, Portuguese, Basque language"
+  },
+  "descCodes": [
+    132,
+    133,
+    614,
+    897,
+    922
+  ],
+  "description": {
+    "en": "Activity pack about the children's story \"The Little Red Riding Hood\".",
+    "ca": "Paquet adreçat a Educació Infantil i Cicle Inicial de Primària, amb els personatges i escenes del conte \"La Caputxeta Vermella\". Conté activitats de trencaclosques i associacions d'imatges i noms.",
+    "es": "Paquete dirigido a educación infantil y ciclo inicial de primaria, con los personajes y escenas del cuento \"Caperucita roja\". Contiene actividades de rompecabezas y asociaciones de imágenes y nombres."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "capergal",
+    "caperu",
+    "caputlli",
+    "caputxet",
+    "txanopor"
+  ],
+  "mainFile": "jclic.js/txanogor.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/txanogor.jclic.zip",
+  "instFile": "jclic/txanogor.jclic.inst",
+  "clicZoneId": 1124,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1124",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/txanogor/jclic/txanogor.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 43,
+  "mediaFiles": 33,
+  "totalSize": 366733,
+  "files": [
+    "cover.gif",
+    "jclic.js/3aclic.gif",
+    "jclic.js/3clic.gif",
+    "jclic.js/4clic.gif",
+    "jclic.js/4clicb.gif",
+    "jclic.js/6clictot.gif",
+    "jclic.js/aviapuz.gif",
+    "jclic.js/ca_apuz.gif",
+    "jclic.js/calloav.gif",
+    "jclic.js/capllop.gif",
+    "jclic.js/caputpuz.gif",
+    "jclic.js/cocaclic.gif",
+    "jclic.js/conillca.gif",
+    "jclic.js/conipuz.gif",
+    "jclic.js/esce1.gif",
+    "jclic.js/esce2.gif",
+    "jclic.js/esce3.gif",
+    "jclic.js/esce4.gif",
+    "jclic.js/esce5.gif",
+    "jclic.js/esce6.gif",
+    "jclic.js/esce7.gif",
+    "jclic.js/esce8.gif",
+    "jclic.js/esce9.gif",
+    "jclic.js/lloppuz.gif",
+    "jclic.js/mareavia.gif",
+    "jclic.js/marepuz.gif",
+    "jclic.js/moltbe.gif",
+    "jclic.js/opcio1.gif",
+    "jclic.js/opcio2.gif",
+    "jclic.js/opcio3.gif",
+    "jclic.js/opcio4.gif",
+    "jclic.js/opcio5.gif",
+    "jclic.js/opcio6.gif",
+    "jclic.js/porclic.gif",
+    "jclic.js/txanogor.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/txanogor.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

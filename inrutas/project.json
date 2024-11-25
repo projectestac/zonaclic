@@ -1,0 +1,97 @@
+{
+  "id": 1741,
+  "title": "Inrutas, un conte sobre la participació",
+  "author": "Adriana Castells Gallart",
+  "school": "C Cor de Maria Barcelona",
+  "date": "22/02/08",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Social sciences, Languages, Miscellaneous",
+    "ca": "Ciències experimentals, Ciències socials, Llengües, Diversos",
+    "es": "Ciencias experimentales, Ciencias sociales, Lenguas, Diversos"
+  },
+  "areaCodes": [
+    "exp",
+    "soc",
+    "lleng",
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "ecologia, societat, comprensió lectora",
+    "es": "ecología, sociedad, comprensión lectora",
+    "en": "ecology, society, reading comprehension"
+  },
+  "descCodes": [
+    65,
+    344,
+    1329
+  ],
+  "description": {
+    "en": "JClic project about the participation and the possibility to make a better world. The project has two parts, the first one is about the tale, and the second part has the activities.\n<p> Tale by: Josep Alfons Arnau<br> Ilustrator: Eduard Castells Gallart </p>",
+    "ca": "Des de la lectura del conte d'\"Inrutas\" i les activitats que es proposen, els nens i nenes poden reflexionar sobre la participació i la possibilitat que tots tenim de construir un món més just, participatiu i solidari. El projecte consta de dues parts, una per a la lectura del conte i l'altra per a la realització d'activitats.\n<p> Conte original: Josep Alfons Arnau<br> Il·lustrador: Eduard Castells Gallart </p>",
+    "es": "Desde la lectura del cuento de \"Inrutas\" y las actividades que se proponen, los niños y niñas pueden reflexionar sobre la participación y la posibilidad que todos tenemos de construir un mundo más justo, participativo y solidario. El proyecto consta de dos partes, una para la lectura del cuento y la otra para la realización de las actividades.\n<p> Cuento original: Josep Alfons Arnau<br> Ilustrador: Eduard Castells Gallart </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/inrutas.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/inrutas.jclic.zip",
+  "instFile": "jclic/inrutas.jclic.inst",
+  "clicZoneId": 3443,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3443",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/inrutas/jclic/inrutas.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 13,
+  "totalSize": 1140535,
+  "files": [
+    "cover.jpg",
+    "jclic.js/acusar.jpg",
+    "jclic.js/bombolla.jpg",
+    "jclic.js/bombolles.jpg",
+    "jclic.js/desolats.jpg",
+    "jclic.js/diners.jpg",
+    "jclic.js/fil_copia.jpg",
+    "jclic.js/inrut.jpg",
+    "jclic.js/inrutas.jclic",
+    "jclic.js/meva.jpg",
+    "jclic.js/meva_.jpg",
+    "jclic.js/nenss.jpg",
+    "jclic.js/somriure.jpg",
+    "jclic.js/sorpresa.jpg",
+    "jclic.js/vora.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/inrutas.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

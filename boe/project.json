@@ -1,0 +1,109 @@
+{
+  "id": 744,
+  "title": "Qui té por del BOE?",
+  "author": "M. Teresa Plana Vidal",
+  "school": "Institut Almatà Balaguer (Noguera)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "dret",
+    "es": "derecho",
+    "en": "straight"
+  },
+  "descCodes": [
+    205
+  ],
+  "description": {
+    "en": "Activities about law and related subjects, like interpretation of texts. There are practical examples that deal with citizen's rights.",
+    "ca": "Activitats sobre les diferents branques del dret i relacionades amb la interpretació d'alguns textos legals amb exemples pràctics de disposicions referents als drets dels ciutadans.",
+    "es": "Actividades sobre las distintas ramas del derecho y relacionadas con la interpretación de algunos textos legales con ejemplos prácticos de disposiciones referentes a los derechos de los ciudadanos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/boe.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/boe.jclic.zip",
+  "instFile": "jclic/boe.jclic.inst",
+  "clicZoneId": 1402,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1402",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/boe/jclic/boe.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 24,
+  "mediaFiles": 23,
+  "totalSize": 349961,
+  "files": [
+    "cover.jpg",
+    "jclic.js/adiaris.pdf",
+    "jclic.js/altdiari/altdiari.jclic",
+    "jclic.js/altdiari/caltdi_1.gif",
+    "jclic.js/altdiari/cperasab.gif",
+    "jclic.js/altdiari/inter1.gif",
+    "jclic.js/altdiari/inter2.gif",
+    "jclic.js/altdiari/inter4.gif",
+    "jclic.js/altdiari/inter5.gif",
+    "jclic.js/boe.jclic",
+    "jclic.js/ctboe1.gif",
+    "jclic.js/ctema1.gif",
+    "jclic.js/ctema2.gif",
+    "jclic.js/ctema3.gif",
+    "jclic.js/hihadret/carbre.gif",
+    "jclic.js/hihadret/cdiari_1.gif",
+    "jclic.js/hihadret/hihadret.jclic",
+    "jclic.js/hihadret/pirguay.gif",
+    "jclic.js/porboe/cboe.gif",
+    "jclic.js/porboe/cboe1pq.gif",
+    "jclic.js/porboe/ccredits.gif",
+    "jclic.js/porboe/cossos.gif",
+    "jclic.js/porboe/inter3.gif",
+    "jclic.js/porboe/lrjpa.gif",
+    "jclic.js/porboe/porboe.jclic",
+    "jclic.js/porboe/taz.gif",
+    "jclic.js/porboe/tesgotat.gif",
+    "jclic.js/porboe/tfuncio.gif",
+    "jclic.js/porboe/theend.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/boe.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/altdiari/altdiari.jclic.js",
+    "jclic.js/hihadret/hihadret.jclic.js",
+    "jclic.js/porboe/porboe.jclic.js",
+    "cover.webp"
+  ]
+}

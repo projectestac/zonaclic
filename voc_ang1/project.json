@@ -1,0 +1,116 @@
+{
+  "id": 2496,
+  "title": "English for beginners",
+  "author": "Víctor Granja Gayo",
+  "date": "14/03/17",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, ortografia, vocabulari",
+    "es": "lengua inglesa, ortografía, vocabulario",
+    "en": "English language, spelling, vocabulary"
+  },
+  "descCodes": [
+    667,
+    672,
+    673
+  ],
+  "description": {
+    "en": "There are small activities for children who are learning to speak English. Contains relation word-image and sentence order activities.",
+    "ca": "Són petites activitats per a nens i nenes que estan aprenent a parlar anglès. Conté activitats de relació i frases per ordenar.",
+    "es": "Son pequeñas actividades para niños y niñas que están aprendiendo a hablar inglés. Contiene actividades de relación y frases para ordenar."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/voc_ang1.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/voc_ang1.jclic.zip",
+  "instFile": "jclic/voc_ang1.jclic.inst",
+  "clicZoneId": 4005,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=4005",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/voc_ang1/jclic/voc_ang1.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 36,
+  "totalSize": 2859538,
+  "files": [
+    "cover.png",
+    "jclic.js/1.jpg",
+    "jclic.js/2.jpg",
+    "jclic.js/3.jpg",
+    "jclic.js/4.jpg",
+    "jclic.js/4_resized.jpg",
+    "jclic.js/5.jpg",
+    "jclic.js/6.jpg",
+    "jclic.js/avion2.jpg",
+    "jclic.js/ball.jpg",
+    "jclic.js/banana.jpg",
+    "jclic.js/bird.jpg",
+    "jclic.js/boat.jpg",
+    "jclic.js/car.jpg",
+    "jclic.js/cat.jpg",
+    "jclic.js/color_blue.jpg",
+    "jclic.js/color_green.jpg",
+    "jclic.js/color_orange.jpg",
+    "jclic.js/color_pink.jpg",
+    "jclic.js/color_red.jpg",
+    "jclic.js/color_yellow.jpg",
+    "jclic.js/dinasor.jpg",
+    "jclic.js/doll.jpg",
+    "jclic.js/ear.jpg",
+    "jclic.js/elephant.jpg",
+    "jclic.js/fish.jpg",
+    "jclic.js/flower.jpg",
+    "jclic.js/hair.jpg",
+    "jclic.js/hand.jpg",
+    "jclic.js/hat.jpg",
+    "jclic.js/head.jpg",
+    "jclic.js/leg.jpg",
+    "jclic.js/monkey.jpg",
+    "jclic.js/mouth.jpg",
+    "jclic.js/nose.jpg",
+    "jclic.js/soft_toy.jpg",
+    "jclic.js/teeth.jpg",
+    "jclic.js/voc_ang1.jclic",
+    "jclic.js/voc_ang1.jclic.js",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

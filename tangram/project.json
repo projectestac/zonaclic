@@ -1,0 +1,91 @@
+{
+  "id": 2556,
+  "title": "Tangram infantil 1",
+  "author": "Marta Padullés Roig",
+  "school": "Vedruna-Àngels",
+  "date": "19/03/09",
+  "langCodes": [
+    "ca"
+  ],
+  "languages": {
+    "ca": "català",
+    "es": "catalán",
+    "en": "Catalan"
+  },
+  "areaCodes": [
+    "mat",
+    "vip"
+  ],
+  "areas": {
+    "ca": "Matemàtiques, Visual i plàstica",
+    "es": "Matemáticas, Plástica y visual",
+    "en": "Mathematics, Art & design"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "levels": {
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)",
+    "en": "Kindergarten (3-6), Primary school (6-12)"
+  },
+  "description": {
+    "ca": "Conjunt de pantalles de tipus \"tangram\" per treballar l'orientació en l'espai.",
+    "es": "Conjunto de pantallas tipo \"tangram\" para trabajar la orientación espacial.",
+    "en": "Tangram activities for working on spatial orientation."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "cover": "tangram.png",
+  "coverWebp": "tangram.webp",
+  "thumbnail": "tangram100.png",
+  "mainFile": "jclic.js/tangram.jclic",
+  "activities": 11,
+  "mediaFiles": 26,
+  "totalSize": 339765,
+  "instFile": "jclic/tangram.jclic.inst",
+  "zipFile": "jclic/tangram.jclic.zip",
+  "files": [
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/quadrat_blau.gif",
+    "jclic.js/quadrat_gris.gif",
+    "jclic.js/quadrat_groc.gif",
+    "jclic.js/quadrat_marro.gif",
+    "jclic.js/quadrat_verd.gif",
+    "jclic.js/quadrat_vermell.gif",
+    "jclic.js/smilyalegre.gif",
+    "jclic.js/tangram.jclic",
+    "jclic.js/tangram.jclic.js",
+    "jclic.js/tangram.jpg",
+    "jclic.js/triangle_dreta.gif",
+    "jclic.js/triangle_dreta_rosa.gif",
+    "jclic.js/triangle_dreta_taronja.gif",
+    "jclic.js/triangle_dreta_verd_clar.gif",
+    "jclic.js/triangle_dreta_verd_clar_vertical.gif",
+    "jclic.js/triangle_dreta_vertical_v_ermell.gif",
+    "jclic.js/triangle_esquerra.gif",
+    "jclic.js/triangle_esquerra_rosa.gif",
+    "jclic.js/triangle_esquerra_verd_clar.gif",
+    "jclic.js/triangle_esquerra_verd_clar_vertical.gif",
+    "jclic.js/triangle_esquerra_vermell_clar.gif",
+    "jclic.js/triangle_esquerra_vermell_r.gif",
+    "jclic.js/triangle_esquerra_vermellr_vertical.gif",
+    "project.json",
+    "tangram.png",
+    "tangram100.png",
+    "tangram.webp"
+  ]
+}

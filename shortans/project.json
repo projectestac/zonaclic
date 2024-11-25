@@ -1,0 +1,94 @@
+{
+  "id": 2086,
+  "title": "Short answers",
+  "author": "Mª Jesús Bernabeu",
+  "school": "CP Eliseu Vidal Valencia (Horta)",
+  "date": "23/11/10",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa",
+    "es": "lengua inglesa",
+    "en": "English language"
+  },
+  "descCodes": [
+    667
+  ],
+  "description": {
+    "en": "Project of activities addressed to primary and secondary education about short answers in English: \n<ul> \n <li>Yes, he is </li>\n <li>No, she can't </li>\n <li>Yes, he has </li>\n <li>... </li>\n</ul>",
+    "ca": "Projecte d'activitats adreçat cicle superior d'educació primària i 1r curs d'educació secundària sobre les respostes curtes en llengua anglesa: \n<ul> \n <li>Yes, he is </li>\n <li>No, she can't </li>\n <li>Yes, he has </li>\n <li>... </li>\n</ul>",
+    "es": "Proyecto de actividades dirigido a ciclo superior de educación primaria y 1º curso de educación secundaria sobre las respuestas cortas en lengua inglesa: \n<ul> \n <li>Yes, he is </li>\n <li>No, she can't </li>\n <li>Yes, he has </li>\n <li>... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/shortans.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/shortans.jclic.zip",
+  "instFile": "jclic/shortans.jclic.inst",
+  "clicZoneId": 3648,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3648",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/shortans/jclic/shortans.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 8,
+  "mediaFiles": 15,
+  "totalSize": 626646,
+  "files": [
+    "cover.gif",
+    "jclic.js/baby.mp3",
+    "jclic.js/fantastic.mp3",
+    "jclic.js/good.mp3",
+    "jclic.js/great.mp3",
+    "jclic.js/nohehasnt.mp3",
+    "jclic.js/noshecant.mp3",
+    "jclic.js/nosheisnt.mp3",
+    "jclic.js/shortans.jclic",
+    "jclic.js/yeshecan.mp3",
+    "jclic.js/yeshedoes.mp3",
+    "jclic.js/yesheis.mp3",
+    "jclic.js/yesiam.mp3",
+    "jclic.js/yesican.mp3",
+    "jclic.js/yesido.mp3",
+    "jclic.js/yesihave.mp3",
+    "jclic.js/yesshehas.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/shortans.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

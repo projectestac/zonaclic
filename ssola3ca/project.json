@@ -1,0 +1,104 @@
+{
+  "id": 1571,
+  "title": "El sistema solar (català)",
+  "author": "Francisco Sancho Bautista i José Gallardo Vigil",
+  "school": "CEIP López Mayor Villanueva del Trabuco - Málaga (Andalucía)",
+  "date": "12/02/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "sistema solar",
+    "es": "sistema solar",
+    "en": "Solar System"
+  },
+  "descCodes": [
+    104
+  ],
+  "description": {
+    "en": "Project of activities about the solar system and its planets and satellites. The project is addressed to primary education.",
+    "ca": "Projecte d'activitats sobre el sistema solar i les estrelles, planetes i satèl·lits que hi trobem. Està adreçat a cicle mitjà d'educació primària.",
+    "es": "Proyecto de actividades sobre el sistema solar y las estrellas, planetas y satélites que encontramos. Está dirigido a ciclo medio de educación primaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "ssolar3"
+  ],
+  "mainFile": "jclic.js/ssola3ca.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ssola3ca.jclic.zip",
+  "instFile": "jclic/ssola3ca.jclic.inst",
+  "clicZoneId": 3290,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3290",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ssola3ca/jclic/ssola3ca.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 16,
+  "mediaFiles": 22,
+  "totalSize": 339966,
+  "files": [
+    "cover.gif",
+    "jclic.js/_sissolar.jpg",
+    "jclic.js/contenido_ss.html_txt_planetsolarsystem_cmp.gif",
+    "jclic.js/fandango.mid",
+    "jclic.js/halley01p.gif",
+    "jclic.js/jota.mid",
+    "jclic.js/jupiter0.gif",
+    "jclic.js/luna.jpg",
+    "jclic.js/lunap.jpg",
+    "jclic.js/mart0.gif",
+    "jclic.js/martep.jpg",
+    "jclic.js/mercuri0.gif",
+    "jclic.js/minueto.mid",
+    "jclic.js/neptu0.gif",
+    "jclic.js/pluto0.gif",
+    "jclic.js/satelite01p.jpg",
+    "jclic.js/saturn0.gif",
+    "jclic.js/solp.jpg",
+    "jclic.js/ssola3ca.jclic",
+    "jclic.js/terra0.gif",
+    "jclic.js/tierra2.jpg",
+    "jclic.js/traviata.mid",
+    "jclic.js/ura0.gif",
+    "jclic.js/venus0.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ssola3ca.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

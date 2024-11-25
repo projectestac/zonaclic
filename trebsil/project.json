@@ -1,0 +1,96 @@
+{
+  "id": 454,
+  "title": "Separar i comptar síl·labes",
+  "author": "Enric Peiris Poch",
+  "school": "Escola Mn. Baldiri Rexach Banyoles (Pla de l'Estany)",
+  "date": "23/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengua catalana",
+    "es": "lengua catalana",
+    "en": "Catalan language"
+  },
+  "descCodes": [
+    133
+  ],
+  "description": {
+    "en": "Clic activities about Catalan language. The package has three levels destined to Primary and Secondary school. \n<ul> \n <li>1st Level: Syllables </li>\n <li>2nd Level: Digraphs </li>\n <li>3rd Level: Syllables, diphthongise and hiatuses </li>\n</ul>",
+    "ca": "<i>Separar i comptar síl·labes</i> treballa la separació de les síl·labes, dígrafs, hiatus.\n<br> El paquet es divideix en tres nivells de treball que van des de Cicle Mitjà a Cicle Superior, en alguns casos també es podria utilitzar a ESO. \n<ul> \n <li>1r Nivell: Síl·labes </li>\n <li>2n Nivell: Dígrafs </li>\n <li>3r Nivell: Síl·labes, diftongs i hiatus </li>\n</ul>",
+    "es": "<i>Separar y contar sílabas</i> trabaja la separación de las sílabas, dígrafos e hiatos en Lengua Catalana.\n<br> El paquete se divide en tres niveles que van desde Ciclo Medio a Ciclo Superior, en algunos casos también podría ser utilizado en ESO. \n<ul> \n <li>1r Nivel: Sílabas </li>\n <li>2º Nivel: Dígrafos </li>\n <li>3r Nivel: Sílabas, diptongos e hiatos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/trebsil.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/trebsil.jclic.zip",
+  "instFile": "jclic/trebsil.jclic.inst",
+  "clicZoneId": 1277,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1277",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/trebsil/jclic/trebsil.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 88,
+  "mediaFiles": 16,
+  "totalSize": 1011193,
+  "files": [
+    "cover.gif",
+    "jclic.js/1antz.jpg",
+    "jclic.js/1bee.jpg",
+    "jclic.js/barques.jpg",
+    "jclic.js/bodego.jpg",
+    "jclic.js/capgrs_2.jpg",
+    "jclic.js/ciutat.gif",
+    "jclic.js/cocacola.jpg",
+    "jclic.js/gotzilla.jpg",
+    "jclic.js/granota.jpg",
+    "jclic.js/llagar_1.jpg",
+    "jclic.js/marieta2.jpg",
+    "jclic.js/ocellota.jpg",
+    "jclic.js/ous.jpg",
+    "jclic.js/paisatge.jpg",
+    "jclic.js/platans.jpg",
+    "jclic.js/ratolina.jpg",
+    "jclic.js/trebsil.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/trebsil.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

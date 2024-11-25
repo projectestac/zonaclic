@@ -1,0 +1,141 @@
+{
+  "id": 407,
+  "title": "April fool's day",
+  "author": "Ascensión Tello Garcia, Eulàlia Margarit Noguera i M. Pilar Méndez Fernández",
+  "school": "Escola Pilarín Bayés Sant Quirze del Vallès (Les Fonts) (Vallès Occidental)",
+  "date": "22/07/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de les llengües estrangeres, llengua escrita, vocabulari",
+    "es": "aprendizaje de las lenguas extranjeras, lengua escrita, vocabulario",
+    "en": "learning of the foreign languages, written language, vocabulary"
+  },
+  "descCodes": [
+    660,
+    668,
+    673
+  ],
+  "description": {
+    "en": "Package of activities about April fool's day with vocabulary, riddles and readings.",
+    "ca": "Paquet d'activitats de llengua anglesa sobre el dia dels \"sants innocents\" a Anglaterra, l'1 d'abril. Amb aquesta activitat aprenem vocabulari i es treballa també la comprensió lectora donat que en algunes activitats cal entendre la frase escrita en anglès per tal de realitzar-les correctament.",
+    "es": "Paquete de actividades de lengua inglesa dónde se trabaja el día de los \"santos inocentes\" en Inglaterra, el 1 de Abril. Con estas actividades aprendemos vocabulario y también se trabaja la comprensión lectora ya que en algunas actividades es necesario comprender la frase escrita en inglés para realizarlas correctamente."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/aprifool.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/aprifool.jclic.zip",
+  "instFile": "jclic/aprifool.jclic.inst",
+  "clicZoneId": 1234,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1234",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/aprifool/jclic/aprifool.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 30,
+  "mediaFiles": 59,
+  "totalSize": 2264487,
+  "files": [
+    "cover.gif",
+    "jclic.js/aprfoobo.wav",
+    "jclic.js/aprifool.jclic",
+    "jclic.js/aprilf_1.jpg",
+    "jclic.js/bcat.jpg",
+    "jclic.js/bicycle.jpg",
+    "jclic.js/book.jpg",
+    "jclic.js/bottle.jpg",
+    "jclic.js/box1.jpg",
+    "jclic.js/bword.wav",
+    "jclic.js/calen.jpg",
+    "jclic.js/calendar.wav",
+    "jclic.js/capsa0.jpg",
+    "jclic.js/capsa2.jpg",
+    "jclic.js/card.jpg",
+    "jclic.js/cascade.jpg",
+    "jclic.js/cln.wav",
+    "jclic.js/computer.jpg",
+    "jclic.js/crl.wav",
+    "jclic.js/cupidp.jpg",
+    "jclic.js/dialo10.wav",
+    "jclic.js/dialo11.wav",
+    "jclic.js/dialo13.wav",
+    "jclic.js/dialo20.wav",
+    "jclic.js/dialo23.wav",
+    "jclic.js/dialo25.wav",
+    "jclic.js/dialo31.wav",
+    "jclic.js/f8words.wav",
+    "jclic.js/fantasti.wav",
+    "jclic.js/floragua.jpg",
+    "jclic.js/flowtric.wav",
+    "jclic.js/fool.mid",
+    "jclic.js/great.wav",
+    "jclic.js/happy.jpg",
+    "jclic.js/happy.wav",
+    "jclic.js/joke.jpg",
+    "jclic.js/jumper.jpg",
+    "jclic.js/ll.wav",
+    "jclic.js/llln.wav",
+    "jclic.js/memory.wav",
+    "jclic.js/mshake.jpg",
+    "jclic.js/n.gif",
+    "jclic.js/no.wav",
+    "jclic.js/pantapfo.jpg",
+    "jclic.js/paperman.jpg",
+    "jclic.js/paperman.wav",
+    "jclic.js/riddles.gif",
+    "jclic.js/sad.jpg",
+    "jclic.js/sad.wav",
+    "jclic.js/skateboa.jpg",
+    "jclic.js/smallear.gif",
+    "jclic.js/spider.jpg",
+    "jclic.js/super.wav",
+    "jclic.js/table.jpg",
+    "jclic.js/trick.jpg",
+    "jclic.js/tshirt.jpg",
+    "jclic.js/umbrella.jpg",
+    "jclic.js/verygood.wav",
+    "jclic.js/welldone.wav",
+    "jclic.js/witch1.jpg",
+    "jclic.js/write.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/aprifool.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

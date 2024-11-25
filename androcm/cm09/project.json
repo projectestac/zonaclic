@@ -1,0 +1,115 @@
+{
+  "id": 1012,
+  "title": "Andròmeda - Cicle mitjà (09 - Jo i els que m'envolten)",
+  "author": "Josep Planas i Gamundi",
+  "school": "Escola Silvestre Santaló Salt (Gironès)",
+  "date": "16/01/04",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "description": {
+    "en": "Andromeda is a large collection of Clic activity packages designed as a complementary material for the items of the Catalan curriculum of social sciences for primary school.\n<p> For a complete reference of their objectives and contents, visit the <a href=\"http://www.xtec.cat/~jplanas3/socials/index.htm\" target=\"_BLANK\">Andromeda's web </a>.</p>\n<p> The distribution of the activity packages is divided in two groups. In this page are the items corresponding to the intermediate level. The packages for the upper level are in the <a href=\"act112.htm\">next page</a>. </p>",
+    "ca": "Andròmeda és un extens conjunt de paquets d'activitats Clic dissenyats com a material complementari dels temes del currículum de l'àrea coneixement del medi social i cultural dels cicles mitjà i superior de primària.\n<p> A la <a href=\"http://www.xtec.cat/~jplanas3/socials/index.htm\" target=\"_BLANK\">web d'Andròmeda</a> hi trobareu una referència completa dels seus objectius i continguts.</p>\n<p> La distribució dels paquets d'activitats es fa en dos grups. En aquesta pàgina es troben els corresponents al cicle mitjà, i en la <a href=\"act112.htm\">pàgina següent</a> els del cicle superior. </p>",
+    "es": "Andrómeda es un extenso conjunto de paquetes de actividades Clic diseñados como material complementario de los temas del currículum catalán del área de conocimiento del medio social y cultural de los ciclos medio y superior de primaria.\n<p> En la <a href=\"http://www.xtec.cat/~jplanas3/socials/index.htm\" target=\"_BLANK\">web de Andrómeda</a> encontraréis una referencia completa de sus objetivos y contenidos.</p>\n<p> La distribución de los paquetes de actividades se realiza en dos grupos. En esta página se encuentran los correspondientes al ciclo medio, y en la <a href=\"act112.htm\">página siguiente</a> los del ciclo superior. </p>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "androcm/cm01",
+    "androcm/cm02",
+    "androcm/cm03",
+    "androcm/cm04",
+    "androcm/cm05",
+    "androcm/cm06",
+    "androcm/cm07",
+    "androcm/cm08",
+    "androcm/cm10",
+    "androcm/cm11",
+    "androcm/cm12"
+  ],
+  "mainFile": "jclic.js/cm09.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cm09.jclic.zip",
+  "instFile": "jclic/cm09.jclic.inst",
+  "clicZoneId": 2128,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2128",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/androcm/jclic/cm09.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 39,
+  "mediaFiles": 27,
+  "totalSize": 1088417,
+  "files": [
+    "cover.jpg",
+    "jclic.js/cm09.jclic",
+    "jclic.js/menu01.jpg",
+    "jclic.js/pac1/apat.jpg",
+    "jclic.js/pac1/arbregen.jpg",
+    "jclic.js/pac1/diari.jpg",
+    "jclic.js/pac1/infancia.jpg",
+    "jclic.js/pac1/joventut.jpg",
+    "jclic.js/pac1/maduresa.jpg",
+    "jclic.js/pac1/maduresp.jpg",
+    "jclic.js/pac1/nena.jpg",
+    "jclic.js/pac1/pac1.jclic",
+    "jclic.js/pac1/stjoan.jpg",
+    "jclic.js/pac1/vellesa.jpg",
+    "jclic.js/pac2/asemblea.jpg",
+    "jclic.js/pac2/bruegel.jpg",
+    "jclic.js/pac2/der10p.gif",
+    "jclic.js/pac2/der1p.jpg",
+    "jclic.js/pac2/der2p.gif",
+    "jclic.js/pac2/der3p.gif",
+    "jclic.js/pac2/der4p.jpg",
+    "jclic.js/pac2/der6p.gif",
+    "jclic.js/pac2/der8p.gif",
+    "jclic.js/pac2/der9p.gif",
+    "jclic.js/pac2/diferent.jpg",
+    "jclic.js/pac2/dretnens.gif",
+    "jclic.js/pac2/drets1.gif",
+    "jclic.js/pac2/joc.jpg",
+    "jclic.js/pac2/menjar.jpg",
+    "jclic.js/pac2/pac2.jclic",
+    "jclic.js/pati.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cm09.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/pac1/pac1.jclic.js",
+    "jclic.js/pac2/pac2.jclic.js",
+    "cover.webp"
+  ]
+}

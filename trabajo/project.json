@@ -1,0 +1,116 @@
+{
+  "id": 807,
+  "title": "Trabajamos",
+  "author": "Juan José Mateo Molina",
+  "school": "CP El Olivar Rivas - Vaciamadrid (Madrid)",
+  "date": "31/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "producció, professions",
+    "es": "producción, profesiones",
+    "en": "production, professions"
+  },
+  "descCodes": [
+    316,
+    317
+  ],
+  "description": {
+    "en": "Activities based on the textbook Conocimiento del Medio de 3º de E. Primaria, \"El libro de las preguntas\", de la editorial Santillana.\n<br> There are three units to the application:\n<br> \n<ul><li>In the field<br> </li>\n<li>In the industry<br> </li>\n<li>In the sea<br> You'll find more information in the pages <b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">\"Aplicaciones educativas\"</a></b>. </li></ul>",
+    "ca": "Aquesta aplicació es va dissenyar a partir del llibre de text de Coneixement del Medi de 3er de primària, \"El libro de las preguntas\", de l'editorial Santillana.\n<br> L'aplicació consta de tres unitats:\n<br> \n<ul><li>Al camp<br> </li>\n<li>A la indústria<br> </li>\n<li>Al mar<br> Trobareu més informació a la web d'<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo. </li></ul>",
+    "es": "Esta aplicación se diseñó a partir del libro de texto de Conocimiento del Medio de 3º de E. Primaria, \"El libro de las preguntas\", de la editorial Santillana.\n<br> La aplicación consta de tres unidades:\n<br> \n<ul><li>En el campo.<br> </li>\n<li>En la industria.<br> </li>\n<li>En el mar.<br> Encontraréis más información en la web de <b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo. </li></ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "lan"
+  ],
+  "mainFile": "jclic.js/trabajo.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/trabajo.jclic.zip",
+  "instFile": "jclic/trabajo.jclic.inst",
+  "clicZoneId": 1446,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1446",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/trabajo/jclic/trabajo.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 45,
+  "mediaFiles": 32,
+  "totalSize": 831470,
+  "files": [
+    "cover.gif",
+    "jclic.js/acanti.jpg",
+    "jclic.js/autor.gif",
+    "jclic.js/barraca.jpg",
+    "jclic.js/ca7.txt",
+    "jclic.js/campo.jpg",
+    "jclic.js/caserio.jpg",
+    "jclic.js/cobre.jpg",
+    "jclic.js/cortijo.jpg",
+    "jclic.js/costas.jpg",
+    "jclic.js/cuero.jpg",
+    "jclic.js/eight.mid",
+    "jclic.js/eolica.jpg",
+    "jclic.js/espa_a.jpg",
+    "jclic.js/hidro.jpg",
+    "jclic.js/hierro.jpg",
+    "jclic.js/indus.jpg",
+    "jclic.js/informa.wav",
+    "jclic.js/lana.jpg",
+    "jclic.js/leche.jpg",
+    "jclic.js/madera.jpg",
+    "jclic.js/mar.jpg",
+    "jclic.js/masia.jpg",
+    "jclic.js/mundo.jpg",
+    "jclic.js/nuclear.jpg",
+    "jclic.js/paisajes.jpg",
+    "jclic.js/playa.jpg",
+    "jclic.js/puerto.jpg",
+    "jclic.js/sal.gif",
+    "jclic.js/solar.jpg",
+    "jclic.js/termica.jpg",
+    "jclic.js/titulo.jpg",
+    "jclic.js/tomate.jpg",
+    "jclic.js/trabajo.jclic",
+    "jclic.js/trigo.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/trabajo.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

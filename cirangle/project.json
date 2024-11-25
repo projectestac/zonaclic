@@ -1,0 +1,110 @@
+{
+  "id": 580,
+  "title": "Cirangle",
+  "author": "Germán Arbiol Oliver",
+  "date": "25/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "geometria",
+    "es": "geometría",
+    "en": "geometry"
+  },
+  "descCodes": [
+    708
+  ],
+  "description": {
+    "en": "Geometry activity pack that focuses on the circle. What are the different type of angles found inside a circle.",
+    "ca": "Activitats Clic de geometria aplicada específicament als angles i els cercles. S'hi fan pràctiques amb els diferents tipus d'angles que poden existir dins d'una circumferència. Conté activitats d'associació, definicions, elegir la resposta correcta... i acaba amb uns mots encreuats on es repassen els noms d'algunes de les construccions apreses en les activitats.",
+    "es": "Actividades de clic sobre geometría aplicada específicamente a los círculos. En esta se hacen prácticas con los diferentes tipos de ángulos que pueden existir dentro de una circunferencia. Contiene actividades de asociación, definición, escoger la mejor respuesta y termina con un crucigrama donde se repasan los nombres de algunas de las construcciones aprendidas durante las actividades."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/cirangle.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cirangle.jclic.zip",
+  "instFile": "jclic/cirangle.jclic.inst",
+  "clicZoneId": 1320,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1320",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cirangle/jclic/cirangle.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 32,
+  "totalSize": 240341,
+  "files": [
+    "cover.gif",
+    "jclic.js/an1ori.gif",
+    "jclic.js/an401.gif",
+    "jclic.js/an402.gif",
+    "jclic.js/an403.gif",
+    "jclic.js/an404.gif",
+    "jclic.js/an405.gif",
+    "jclic.js/an701c.gif",
+    "jclic.js/an702c.gif",
+    "jclic.js/an801.gif",
+    "jclic.js/an802.gif",
+    "jclic.js/an803.gif",
+    "jclic.js/an8ori.gif",
+    "jclic.js/an901.gif",
+    "jclic.js/an902.gif",
+    "jclic.js/an903.gif",
+    "jclic.js/an9ori.gif",
+    "jclic.js/angcen.gif",
+    "jclic.js/angext.gif",
+    "jclic.js/angins.gif",
+    "jclic.js/angint.gif",
+    "jclic.js/angles0.gif",
+    "jclic.js/angles3.gif",
+    "jclic.js/angles4.gif",
+    "jclic.js/angles6.gif",
+    "jclic.js/angles7.gif",
+    "jclic.js/angles8.gif",
+    "jclic.js/anglesb.gif",
+    "jclic.js/angsi.gif",
+    "jclic.js/cirangle.jclic",
+    "jclic.js/finalsop.gif",
+    "jclic.js/fons1.gif",
+    "jclic.js/fons2.gif",
+    "jclic.js/prepuz2.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cirangle.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": 1939,
+  "title": "El tiempo",
+  "author": "María del Carmen Sánchez Nicolás",
+  "school": "CEIP Erytheia San Fernando - Cádiz (Andalucía)",
+  "date": "29/07/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "temps",
+    "es": "tiempo",
+    "en": "time"
+  },
+  "descCodes": [
+    1368
+  ],
+  "description": {
+    "en": "Set of activities about the about the measurement of the time: \n<ul> \n <li>the hours </li>\n <li>the week days </li>\n <li>the moths </li>\n <li>the clocks </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre les unitats de mesura del temps adreçat a 3r d'educació primària: \n<ul> \n <li>les hores </li>\n <li>els dies de la setmana </li>\n <li>els mesos de l'any </li>\n <li>els rellotges analògics </li>\n</ul>",
+    "es": "Proyecto de actividades sobre las unidades de mesura del el tiempo dirigido a 3º de educación primaria: \n<ul> \n <li>las horas </li>\n <li>los días de la semana </li>\n <li>los meses del año </li>\n <li>los relojes analógicos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/eltiempo.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/eltiempo.jclic.zip",
+  "instFile": "jclic/eltiempo.jclic.inst",
+  "clicZoneId": 3565,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3565",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/eltiempo/jclic/eltiempo.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 17,
+  "mediaFiles": 14,
+  "totalSize": 744968,
+  "files": [
+    "cover.gif",
+    "jclic.js/10_30.jpg",
+    "jclic.js/12_30.jpg",
+    "jclic.js/16_45.jpg",
+    "jclic.js/3.00.jpg",
+    "jclic.js/4.30.jpg",
+    "jclic.js/5_15.jpg",
+    "jclic.js/autobus.gif",
+    "jclic.js/clock_10.jpg",
+    "jclic.js/comida.jpg",
+    "jclic.js/edufisica.jpg",
+    "jclic.js/eltiempo.jclic",
+    "jclic.js/reloj.jpg",
+    "jclic.js/relojarena.jpg",
+    "jclic.js/relojdigital.jpg",
+    "jclic.js/reojsol.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/eltiempo.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

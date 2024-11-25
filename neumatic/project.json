@@ -1,0 +1,105 @@
+{
+  "id": 166,
+  "title": "Actividades de neumática",
+  "author": "Félix Manuel Redondo Templado",
+  "school": "IES Complutense Alcalá de Henares (Madrid)",
+  "date": "10/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "física, mecànica",
+    "es": "física, mecánica",
+    "en": "physics, mechanics"
+  },
+  "descCodes": [
+    72,
+    86
+  ],
+  "description": {
+    "en": "Clic activity pack about electrical circuits.",
+    "ca": "Paquet d'activitats sobre circuits neumàtics i els seus components: compressors, dipòsits, vàlvules, filtres, reguladors de cabdal...",
+    "es": "Paquete de actividades sobre circuitos neumáticos y sus componentes: compresores, depósitos, válvulas, filtros, reguladores de caudal..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "neumagal"
+  ],
+  "mainFile": "jclic.js/neumatic.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/neumatic.jclic.zip",
+  "instFile": "jclic/neumatic.jclic.inst",
+  "clicZoneId": 1085,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1085",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/neumatic/jclic/neumatic.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 22,
+  "totalSize": 126276,
+  "files": [
+    "cover.gif",
+    "jclic.js/2_2.gif",
+    "jclic.js/aestable.gif",
+    "jclic.js/compreso.gif",
+    "jclic.js/dib_pro.gif",
+    "jclic.js/dib_sol.gif",
+    "jclic.js/efecto2.gif",
+    "jclic.js/escudo.gif",
+    "jclic.js/filtro.gif",
+    "jclic.js/lubrica.gif",
+    "jclic.js/melectro.gif",
+    "jclic.js/mmanual.gif",
+    "jclic.js/mpal.gif",
+    "jclic.js/mpalenc.gif",
+    "jclic.js/mpedal.gif",
+    "jclic.js/mrodillo.gif",
+    "jclic.js/muelle.gif",
+    "jclic.js/neumatic.jclic",
+    "jclic.js/refriger.gif",
+    "jclic.js/regcaud.gif",
+    "jclic.js/regpres.gif",
+    "jclic.js/simb_ord.gif",
+    "jclic.js/simbol.gif",
+    "jclic.js/vdobleef.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/neumatic.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

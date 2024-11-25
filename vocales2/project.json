@@ -1,0 +1,102 @@
+{
+  "id": 2201,
+  "title": "Conociendo letras con animales y objetos",
+  "author": "Carlos Toro",
+  "school": "U.E.E. Prisco Pérez Monasterio (Centro Bolivariano de Informática y Telemática \"Roxana M. de Hernández\") Villa de Cura, Estado Aragua (Venezuela)",
+  "date": "30/11/11",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua castellana, vocals, consonants",
+    "es": "lengua castellana, vocales, cosonantes",
+    "en": "Spanish language, vowels, consonants"
+  },
+  "descCodes": [
+    132,
+    901,
+    1428
+  ],
+  "description": {
+    "en": "Two projects of activities where students have to identify and write letters through the name of animals and objects. Throughout the project we find written response exercises, associations, exploring, writing text and puzzles.",
+    "ca": "Dos projectes d'activitats on els alumnes identifiquen i escriuen les lletres a través d'animals i objectes. Al projecte trobem exercicis de resposta escrita, associacions, exploracions, activitats d'escriure text i trencaclosques.",
+    "es": "Dos proyectos de actividades donde los alumnos identifican y escriben las letras a través de animales y objetos. A lo largo del proyecto encontramos ejercicios de respuesta escrita, asociaciones, exploraciones, escribir texto y rompecabezas."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "letras2"
+  ],
+  "mainFile": "jclic.js/vocales2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/vocales2.jclic.zip",
+  "instFile": "jclic/vocales2.jclic.inst",
+  "clicZoneId": 3735,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3735",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/vocales2/jclic/vocales2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 18,
+  "totalSize": 770295,
+  "files": [
+    "cover.gif",
+    "jclic.js/ara.png",
+    "jclic.js/araguaney.gif",
+    "jclic.js/arbol2.png",
+    "jclic.js/ardilla.png",
+    "jclic.js/arepa.jpg",
+    "jclic.js/elephant_128.png",
+    "jclic.js/escuela2.gif",
+    "jclic.js/estudiantes2.gif",
+    "jclic.js/feliz.png",
+    "jclic.js/grape123d.png",
+    "jclic.js/iguana.jpg",
+    "jclic.js/impresora.jpg",
+    "jclic.js/ninios19.gif",
+    "jclic.js/oso.jpg",
+    "jclic.js/perro.jpg",
+    "jclic.js/uva.png",
+    "jclic.js/vocales.png",
+    "jclic.js/vocales2.jclic",
+    "jclic.js/vocales3.png",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/vocales2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

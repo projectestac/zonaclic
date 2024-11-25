@@ -1,0 +1,126 @@
+{
+  "id": 2342,
+  "title": "La carta de la terra",
+  "author": "Anna Fontelles Terrés - Dibuixos: Montse Remacha i Rita Sañé",
+  "school": "CREDA Lleida Lleida",
+  "date": "15/01/15",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences, Languages, Miscellaneous",
+    "ca": "Ciències socials, Llengües, Diversos",
+    "es": "Ciencias sociales, Lenguas, Diversos"
+  },
+  "areaCodes": [
+    "soc",
+    "lleng",
+    "div"
+  ],
+  "levels": {
+    "en": "Primary school (6-12), Secondary school (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "es": "Primaria (6-12), Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "llengües, valors",
+    "es": "lenguas, valores",
+    "en": "languages, values"
+  },
+  "descCodes": [
+    143,
+    1443
+  ],
+  "description": {
+    "en": "The purpose of this is JClic is to know the Earth Charter. This JClic is a part of the \n<i>Projecte Implica't</i> coordinated by Mª Mar Lluelles.",
+    "ca": "L'objectiu d'aquest JClic és conèixer els principis de la \n<b>Carta de la Terra</b>. Aquest JClic forma part del \n<i>Projecte Implica't</i> coordinat per la Mª Mar Lluelles.",
+    "es": "El objetivo de este JClic es conocer los principios de la \n<b>Carta de la Tierra</b>. Este JClic forma parte del \n<i>Projecte Implica't</i> coordinado por Mª Mar Lluelles."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "carta_es"
+  ],
+  "mainFile": "jclic.js/cartater.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/cartater.jclic.zip",
+  "instFile": "jclic/cartater.jclic.inst",
+  "clicZoneId": 3851,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3851",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/cartater/jclic/cartater.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 21,
+  "mediaFiles": 40,
+  "totalSize": 2721344,
+  "files": [
+    "cover.png",
+    "jclic.js/1.mp3",
+    "jclic.js/2.mp3",
+    "jclic.js/2integr_resized.jpg",
+    "jclic.js/3.mp3",
+    "jclic.js/3just_resized.jpg",
+    "jclic.js/4.mp3",
+    "jclic.js/cartater.jclic",
+    "jclic.js/cuidadors1.jpg",
+    "jclic.js/cura1.jpg",
+    "jclic.js/cura_i_respecte_de_la_comunitat_de_vida_resized1.jpg",
+    "jclic.js/demo.jpg",
+    "jclic.js/democracia__no_violencia_i_pau_resized.jpg",
+    "jclic.js/fantastic.mp3",
+    "jclic.js/fons1.jpg",
+    "jclic.js/gent_resized.jpg",
+    "jclic.js/hhmoltbe.mp3",
+    "jclic.js/implicat.mp3",
+    "jclic.js/implicat_resized.jpg",
+    "jclic.js/index.mp3",
+    "jclic.js/inf.mp3",
+    "jclic.js/infermera1.jpg",
+    "jclic.js/infermera2.jpg",
+    "jclic.js/jardiner3.jpg",
+    "jclic.js/la_carta_de_la_terra2.jpg",
+    "jclic.js/moltbe.mp3",
+    "jclic.js/nois_nens_resized.jpg",
+    "jclic.js/ordll.mp3",
+    "jclic.js/pallassa1.jpg",
+    "jclic.js/paraules1c_resized.jpg",
+    "jclic.js/parelles.mp3",
+    "jclic.js/posterpetit1.jpg",
+    "jclic.js/princip.mp3",
+    "jclic.js/protectora1.jpg",
+    "jclic.js/proverbiaf_resized.jpg",
+    "jclic.js/puzzle.mp3",
+    "jclic.js/relaciona.mp3",
+    "jclic.js/sang1.jpg",
+    "jclic.js/sopa.mp3",
+    "jclic.js/terrar.jpg",
+    "jclic.js/trobat.mp3",
+    "jclic.js/web_resized.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/cartater.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

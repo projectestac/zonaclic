@@ -1,0 +1,134 @@
+{
+  "id": 1020,
+  "title": "Grups consonàntics PL, BL, FL, GL, CL",
+  "author": "Sònia Sanchis Bofarull",
+  "school": "C Cardenal Vidal i Barraquer Cambrils (Baix Camp)",
+  "date": "02/06/03",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua oral",
+    "es": "aprendizaje de la lengua, lengua oral",
+    "en": "learning of the language, oral language"
+  },
+  "descCodes": [
+    110,
+    142
+  ],
+  "description": {
+    "en": "This package of activities is addressed to Infantile or Primary school (pupils who have difficulties with the pronunciation, writing or discriminating those words which contain the following consonantal groups: pl, bl, fl, gl, cl).\n<br> The package is made of gradual activities with words containing these consonantal groups located at the beginning and in the middle of the words. According to the activity, auditory help is also provided.",
+    "ca": "Aquest paquet d'activitats està adreçat a Educació Infantil o Primària (per a alumnes amb dificultats en la discriminació, en la pronúncia i/o en l'escriptura de paraules que contenen els grups consonàntics: pl, bl, fl, gl, cl).\n<br> El paquet està format per activitats progressives on es treballen paraules que tenen aquests grups consonàntics. Es treballen els sínfons a l'inici i al mig de les paraules, i amb reforç auditiu o sense depenent de l'activitat.",
+    "es": "Este paquete de actividades está dirigido a Educación Infantil o Primaria (alumnos con dificultades en la discriminación, en la pronunciación y/o en la escritura de palabras que contienen los grupos consonánticos: pl, bl, fl, gl, cl).\n<br> El paquete está formado por actividades progresivas dónde se trabajan palabras que contienen estos grupos consonánticos tanto al principio como en medio de las palabras, y con refuerzo auditivo o sin dependiendo de la actividad."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/projecl.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/projecl.jclic.zip",
+  "instFile": "jclic/projecl.jclic.inst",
+  "clicZoneId": 2145,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=2145",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/projecl/jclic/projecl.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 54,
+  "totalSize": 1589194,
+  "files": [
+    "cover.gif",
+    "jclic.js/aplaudir.jpg",
+    "jclic.js/aplaudir.wav",
+    "jclic.js/bicicl_1.jpg",
+    "jclic.js/bicicleta.wav",
+    "jclic.js/blanc.jpg",
+    "jclic.js/blau.jpg",
+    "jclic.js/cantim.jpg",
+    "jclic.js/cantim.wav",
+    "jclic.js/clau.jpg",
+    "jclic.js/clau.wav",
+    "jclic.js/clauer.jpg",
+    "jclic.js/clauer.wav",
+    "jclic.js/claup.jpg",
+    "jclic.js/clip.jpg",
+    "jclic.js/closca.jpg",
+    "jclic.js/fantastic.wav",
+    "jclic.js/fi.gif",
+    "jclic.js/flam.jpg",
+    "jclic.js/flam.wav",
+    "jclic.js/flauta.jpg",
+    "jclic.js/flautap.jpg",
+    "jclic.js/fletxa.jpg",
+    "jclic.js/flor.jpg",
+    "jclic.js/flor.wav",
+    "jclic.js/globus.jpg",
+    "jclic.js/globus.wav",
+    "jclic.js/moble.jpg",
+    "jclic.js/moble.wav",
+    "jclic.js/moltbe.gif",
+    "jclic.js/moltbe.wav",
+    "jclic.js/perfecte.wav",
+    "jclic.js/planta.jpg",
+    "jclic.js/planxa.jpg",
+    "jclic.js/planxap.jpg",
+    "jclic.js/plastili.jpg",
+    "jclic.js/plat.jpg",
+    "jclic.js/plat.wav",
+    "jclic.js/platan.jpg",
+    "jclic.js/platan.wav",
+    "jclic.js/ploma.jpg",
+    "jclic.js/ploma.wav",
+    "jclic.js/plora1.jpg",
+    "jclic.js/plorar.wav",
+    "jclic.js/portad_1.jpg",
+    "jclic.js/projecl.jclic",
+    "jclic.js/rectan.jpg",
+    "jclic.js/rectan.wav",
+    "jclic.js/regle.jpg",
+    "jclic.js/regle.wav",
+    "jclic.js/teclat.jpg",
+    "jclic.js/teclat.wav",
+    "jclic.js/ungla.jpg",
+    "jclic.js/ungla.wav",
+    "jclic.js/xiclet.jpg",
+    "jclic.js/xiclet.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/projecl.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": 1999,
+  "title": "Animals 2",
+  "author": "Montserrat Clemente Sales",
+  "date": "30/10/09",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa, animals",
+    "es": "lengua inglesa, animales",
+    "en": "English language, animales"
+  },
+  "descCodes": [
+    130,
+    1160
+  ],
+  "description": {
+    "en": "JClic activities addressed to primary education about animals in English. The project has four different parts.",
+    "ca": "Projecte d'activitats per a nens i nenes de cicle inicial de primària sobre els noms d'alguns animals en anglès. El projecte té quatre parts: \n<ul> \n <li>Associacions </li>\n <li>Puzzles </li>\n <li>Jocs de memòria </li>\n <li>Activitats de text </li>\n</ul>",
+    "es": "Proyecto de actividades para niños y niñas de ciclo inicial de primaria sobre los nombres de algunos animales en inglés. El proyecto tiene cuatro partes: \n<ul> \n <li>Asociaciones </li>\n <li>Puzzles </li>\n <li>Juegos de memoria </li>\n <li>Actividades de texto </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/anim2en.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/anim2en.jclic.zip",
+  "instFile": "jclic/anim2en.jclic.inst",
+  "clicZoneId": 3579,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3579",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/anim2en/jclic/anim2en.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 36,
+  "totalSize": 5270716,
+  "files": [
+    "cover.jpg",
+    "jclic.js/anim2en.jclic",
+    "jclic.js/asian_elephant_baby.jpg",
+    "jclic.js/bear.jpg",
+    "jclic.js/bengal_tiger_cubs_playing.jpg",
+    "jclic.js/bird.jpg",
+    "jclic.js/cat.jpg",
+    "jclic.js/cavall.jpg",
+    "jclic.js/cavall.wav",
+    "jclic.js/chicken.jpg",
+    "jclic.js/crocodile.jpg",
+    "jclic.js/dog.jpg",
+    "jclic.js/domesticos_36.jpg",
+    "jclic.js/emperor_penguin_baby.jpg",
+    "jclic.js/fish.jpg",
+    "jclic.js/frog.jpg",
+    "jclic.js/giraffe.jpg",
+    "jclic.js/gos.wav",
+    "jclic.js/harp_seal_baby.jpg",
+    "jclic.js/hen.jpg",
+    "jclic.js/lion.jpg",
+    "jclic.js/lleo.wav",
+    "jclic.js/mico.wav",
+    "jclic.js/monkey.jpg",
+    "jclic.js/panda.jpg",
+    "jclic.js/parrot.jpg",
+    "jclic.js/peix.png",
+    "jclic.js/peix_pallasso.jpg",
+    "jclic.js/peixos.jpg",
+    "jclic.js/peixos_2.jpg",
+    "jclic.js/porc.wav",
+    "jclic.js/pregunta.gif",
+    "jclic.js/rabbit.jpg",
+    "jclic.js/sheep.jpg",
+    "jclic.js/snake.jpg",
+    "jclic.js/turtle.jpg",
+    "jclic.js/vaca.jpg",
+    "jclic.js/vaca.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/anim2en.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

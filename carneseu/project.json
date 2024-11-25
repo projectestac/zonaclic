@@ -1,0 +1,140 @@
+{
+  "id": 870,
+  "title": "Inauteriak",
+  "author": "Antoni Climent, Encarna Balaguer, M. Carmen Querol, M. de las Mercedes Sañudo, M. Dolores Domingo, M. Esperanza Baticón, M. Teresa Solera, Mar Aparisi i Óscar Guiral",
+  "school": "CP Ausiàs March Mislata (Horta Oest)",
+  "date": "10/11/03",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "ca": "Diversos",
+    "es": "Diversos",
+    "en": "Miscellaneous"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)",
+    "en": "Kindergarten (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "vocabulari, vocabulari, orientació espacial, carnaval",
+    "es": "vocabulario, vocabulario, orientación espacial, carnaval",
+    "en": "vocabulary, vocabulary, orientation in the space, carnival"
+  },
+  "descCodes": [
+    150,
+    673,
+    924,
+    927
+  ],
+  "description": {
+    "en": "Clic activities destined to Infantile education about Carnival day. There are activities about colours, measurement, orientation...",
+    "ca": "Paquet d'activitats per a Educació Infantil entorn al dia de Carnestoltes on es treballen els colors, les mides, la orientació...",
+    "es": "Paquete de actividades para educación infantil entrono al día de Carnaval donde se trabajan los colores, las medidas y la orientación."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "carnesto"
+  ],
+  "mainFile": "jclic.js/carneseu.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/carneseu.jclic.zip",
+  "instFile": "jclic/carneseu.jclic.inst",
+  "clicZoneId": 2004,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2004",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/carneseu/jclic/carneseu.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 49,
+  "totalSize": 368029,
+  "files": [
+    "cover.gif",
+    "jclic.js/300carnv.gif",
+    "jclic.js/3p3carnv.gif",
+    "jclic.js/3p4carnv.gif",
+    "jclic.js/3p5carnv.gif",
+    "jclic.js/carneseu.jclic",
+    "jclic.js/carnval3/404a.gif",
+    "jclic.js/carnval3/407a.gif",
+    "jclic.js/carnval3/410a.gif",
+    "jclic.js/carnval3/410b.gif",
+    "jclic.js/carnval3/410c.gif",
+    "jclic.js/carnval3/501barr3.gif",
+    "jclic.js/carnval3/501barr9.gif",
+    "jclic.js/carnval3/501missa.gif",
+    "jclic.js/carnval3/6023masc.gif",
+    "jclic.js/carnval3/6033fant.gif",
+    "jclic.js/carnval3/6033nume.gif",
+    "jclic.js/carnval3/6043acce.gif",
+    "jclic.js/carnval3/801barre.gif",
+    "jclic.js/carnval3/801mf.gif",
+    "jclic.js/carnval3/801mi.gif",
+    "jclic.js/carnval3/802mi.gif",
+    "jclic.js/carnval3/804fanta.gif",
+    "jclic.js/carnval3/carnval3.jclic",
+    "jclic.js/carnval4/3pallass.gif",
+    "jclic.js/carnval4/405a.gif",
+    "jclic.js/carnval4/408a.gif",
+    "jclic.js/carnval4/502caret.gif",
+    "jclic.js/carnval4/502missa.gif",
+    "jclic.js/carnval4/502numer.gif",
+    "jclic.js/carnval4/503caret.gif",
+    "jclic.js/carnval4/503missa.gif",
+    "jclic.js/carnval4/801mf.gif",
+    "jclic.js/carnval4/802mi.gif",
+    "jclic.js/carnval4/807bruix.gif",
+    "jclic.js/carnval4/807fanta.gif",
+    "jclic.js/carnval4/807palla.gif",
+    "jclic.js/carnval4/807pirat.gif",
+    "jclic.js/carnval4/808carne.gif",
+    "jclic.js/carnval4/809indi.gif",
+    "jclic.js/carnval4/809objec.gif",
+    "jclic.js/carnval4/carnval4.jclic",
+    "jclic.js/carnval5/403a.gif",
+    "jclic.js/carnval5/406a.gif",
+    "jclic.js/carnval5/6015brui.gif",
+    "jclic.js/carnval5/6015nume.gif",
+    "jclic.js/carnval5/801mf.gif",
+    "jclic.js/carnval5/802mi.gif",
+    "jclic.js/carnval5/803dibui.gif",
+    "jclic.js/carnval5/805pirat.gif",
+    "jclic.js/carnval5/806bruix.gif",
+    "jclic.js/carnval5/810fanta.gif",
+    "jclic.js/carnval5/811pirat.gif",
+    "jclic.js/carnval5/carnval5.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/carneseu.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/carnval3/carnval3.jclic.js",
+    "jclic.js/carnval4/carnval4.jclic.js",
+    "jclic.js/carnval5/carnval5.jclic.js",
+    "cover.webp"
+  ]
+}

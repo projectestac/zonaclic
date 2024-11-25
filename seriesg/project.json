@@ -1,0 +1,97 @@
+{
+  "id": 2035,
+  "title": "Sèries geomètriques",
+  "author": "Fran Cantó",
+  "school": "C Sant Jaume de la FEP L'Hospitalet de Llobregat (Barcelonès)",
+  "date": "04/03/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "sèries",
+    "es": "series",
+    "en": "series"
+  },
+  "descCodes": [
+    944
+  ],
+  "description": {
+    "en": "JClic project addressed to kindergarden about seriation and ordering elements. The project has three parts: \n<ul> \n <li>Two elements </li>\n <li>Three elements </li>\n <li>Four elements </li>\n</ul>",
+    "ca": "Projecte d'activitats JClic pensat per treballar diversos aspectes de l'ordenació i la seriació d'elements. El projecte consta de tres parts: \n<ul> \n <li>P3: sèries de dos elements </li>\n <li>P4: sèries de tres elements </li>\n <li>P5: sèries de quatre elements </li>\n</ul>",
+    "es": "Proyecto de actividades JClic pensado para trabajar diversos aspectos de la ordenación y la seriación de elementos. El proyecto consta de tres partes: \n<ul> \n <li>P3: series de dos elementos </li>\n <li>P4: series de tres elementos </li>\n <li>P5: series de cuatro elementos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/seriesg.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/seriesg.jclic.zip",
+  "instFile": "jclic/seriesg.jclic.inst",
+  "clicZoneId": 3605,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3605",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/seriesg/jclic/seriesg.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 48,
+  "mediaFiles": 18,
+  "totalSize": 489210,
+  "files": [
+    "cover.gif",
+    "jclic.js/cercle_blau.jpg",
+    "jclic.js/cercle_groc.jpg",
+    "jclic.js/cercle_verd.jpg",
+    "jclic.js/cercle_vermell.jpg",
+    "jclic.js/final.gif",
+    "jclic.js/portada.jpg",
+    "jclic.js/quadrat_blau.jpg",
+    "jclic.js/quadrat_groc.jpg",
+    "jclic.js/quadrat_verd.jpg",
+    "jclic.js/quadrat_vermell.jpg",
+    "jclic.js/rectangle_blau.jpg",
+    "jclic.js/rectangle_groc.jpg",
+    "jclic.js/rectangle_verd.jpg",
+    "jclic.js/rectangle_vermell.jpg",
+    "jclic.js/seriesg.jclic",
+    "jclic.js/triangle_blau.jpg",
+    "jclic.js/triangle_groc.jpg",
+    "jclic.js/triangle_verd.jpg",
+    "jclic.js/triangle_vermell.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/seriesg.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

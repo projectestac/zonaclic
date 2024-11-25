@@ -1,0 +1,102 @@
+{
+  "id": 1639,
+  "title": "Ortografia: h-dun hitzak",
+  "author": "Roberto Suberbiola",
+  "school": "CP Pello Errota - Herri Ikastetxea Asteasu - Gupuzkoa (Euzkadi)",
+  "date": "15/01/07",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua basca",
+    "es": "lengua vasca",
+    "en": "Basque language"
+  },
+  "descCodes": [
+    922
+  ],
+  "description": {
+    "en": "Project of activities focused in working with frequently used words with \n<b>h</b> in Basque. It's addressed to second cycle of primary school pupils.",
+    "ca": "Projecte d'activitats a través de les quals es pretén treballar algunes paraules d'ús molt freqüent que s'escriuen amb h en llengua basca. Està adreçat a alumnat de segon cicle d'educació primària.",
+    "es": "Proyecto de actividades a través de las cuales se pretende trabajar algunas palabras de uso muy frecuente que se escriben con h en lengua vasca. Está dirigido a alumnado de segundo ciclo de Primaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/h.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/h.jclic.zip",
+  "instFile": "jclic/h.jclic.inst",
+  "clicZoneId": 3347,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=3347",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/h/jclic/h.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 23,
+  "totalSize": 411116,
+  "files": [
+    "cover.jpg",
+    "jclic.js/ahatea.gif",
+    "jclic.js/ahizpak.gif",
+    "jclic.js/behia.gif",
+    "jclic.js/behin.gif",
+    "jclic.js/bihar.gif",
+    "jclic.js/elefantea.gif",
+    "jclic.js/eskola_h.jpg",
+    "jclic.js/h.gif",
+    "jclic.js/h.jclic",
+    "jclic.js/haizea.gif",
+    "jclic.js/hamar.gif",
+    "jclic.js/handia.jpg",
+    "jclic.js/harria.gif",
+    "jclic.js/hartu.gif",
+    "jclic.js/hartza.gif",
+    "jclic.js/hau.gif",
+    "jclic.js/hegazkina.gif",
+    "jclic.js/hilabeteak.gif",
+    "jclic.js/hostoa.gif",
+    "jclic.js/mafalda.gif",
+    "jclic.js/mahaia.gif",
+    "jclic.js/mmj03368850000_1_.gif",
+    "jclic.js/mmj03368870000_1_.gif",
+    "jclic.js/ohea.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/h.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

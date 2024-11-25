@@ -1,0 +1,123 @@
+{
+  "id": 644,
+  "title": "Las operaciones - 2",
+  "author": "Juan José Mateo Molina",
+  "school": "CP El Olivar Rivas - Vaciamadrid (Madrid)",
+  "date": "29/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aritmètica, fonaments de les matemàtiques",
+    "es": "aritmética, fundamentos de las matemáticas",
+    "en": "Arithmetic, foundations of the mathematics"
+  },
+  "descCodes": [
+    701,
+    707
+  ],
+  "description": {
+    "en": "Basic math operation activity pack. There are two units in this application: \n<ul><li>Multiplications </li>\n<li>Divisions</li></ul><br> You'll find more information in the pages <b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">\"Aplicaciones educativas\"</a></b>.",
+    "ca": "Aquesta petita aplicació es va dissenyar per a reforçar l'aprenentatge de les operacions bàsiques a 4t de primària.\n<br> El paquet consta de dos unitats: \n<ul><li>Multiplicacions.</li>\n<li>Divisions.</li></ul>\nTrobareu més informació a la web d'<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo.",
+    "es": "Esta pequeña aplicación se diseñó para reforzar el aprendizaje de las operaciones básicas en 4º de Primaria.\n<br> La aplicación consta de dos breves unidades: \n<ul><li>Multiplicaciones. </li>\n<li>Divisiones.</li></ul>\nEncontraréis más información en la web de <b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/opera2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/opera2.jclic.zip",
+  "instFile": "jclic/opera2.jclic.inst",
+  "clicZoneId": 1344,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1344",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/opera2/jclic/opera2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 39,
+  "totalSize": 399981,
+  "files": [
+    "cover.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/autor.gif",
+    "jclic.js/div/d1.gif",
+    "jclic.js/div/d2.gif",
+    "jclic.js/div/d3.gif",
+    "jclic.js/div/d4.gif",
+    "jclic.js/div/d5.gif",
+    "jclic.js/div/d6.gif",
+    "jclic.js/div/d7.gif",
+    "jclic.js/div/d8.gif",
+    "jclic.js/div/div.jclic",
+    "jclic.js/div/div.jclic.js",
+    "jclic.js/div/olivos.gif",
+    "jclic.js/div/s1.gif",
+    "jclic.js/div/s2.gif",
+    "jclic.js/div/s3.gif",
+    "jclic.js/div/s4.gif",
+    "jclic.js/div/s5.gif",
+    "jclic.js/div/s6.gif",
+    "jclic.js/div/s7.gif",
+    "jclic.js/div/s8.gif",
+    "jclic.js/indice.gif",
+    "jclic.js/mul/m1.gif",
+    "jclic.js/mul/m2.gif",
+    "jclic.js/mul/m3.gif",
+    "jclic.js/mul/m4.gif",
+    "jclic.js/mul/m5.gif",
+    "jclic.js/mul/m6.gif",
+    "jclic.js/mul/m7.gif",
+    "jclic.js/mul/m8.gif",
+    "jclic.js/mul/mul.jclic",
+    "jclic.js/mul/mul.jclic.js",
+    "jclic.js/mul/olivos.gif",
+    "jclic.js/mul/p1.gif",
+    "jclic.js/mul/p2.gif",
+    "jclic.js/mul/p3.gif",
+    "jclic.js/mul/p4.gif",
+    "jclic.js/mul/p5.gif",
+    "jclic.js/mul/p6.gif",
+    "jclic.js/mul/p7.gif",
+    "jclic.js/mul/p8.gif",
+    "jclic.js/olivos.gif",
+    "jclic.js/opera2.jclic",
+    "jclic.js/revol.mid",
+    "jclic.js/titulo.gif",
+    "jclic.js/index.html",
+    "jclic.js/opera2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

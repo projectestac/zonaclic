@@ -1,0 +1,131 @@
+{
+  "id": 2112,
+  "title": "Quin temps fa?",
+  "author": "Ruth Serra Molins",
+  "school": "Escola El Tormo - Zer Ribera d'Ebre Nord La Torre de l'Espanyol (Ribera d'Ebre)",
+  "date": "16/03/11",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages",
+    "ca": "Ciències experimentals, Llengües",
+    "es": "Ciencias experimentales, Lenguas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "meteorologia, aprenentatge de la llengua",
+    "es": "meteorología, aprendizaje de la lengua",
+    "en": "meteorology, learning of the language"
+  },
+  "descCodes": [
+    89,
+    110
+  ],
+  "description": {
+    "en": "Project of activities addressd to kindergarden about the wheather observation. The project has two parts: \n<ul> \n <li>games </li>\n <li>proberbs </li>\n</ul>",
+    "ca": "Activitat adreçada als alumnes d'Educació Infantil, per a treballar la rutina diària de l'observació del temps. Consta de dos apartats: \n<ul> \n <li>jocs </li>\n <li>dites </li>\n</ul>",
+    "es": "Actividad dirigida a alumnos de Educación infantil para trabajar la rutina diaria de la observación del tiempo. Consta de dos apartados: \n<ul> \n <li>juegos </li>\n <li>refranes </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "temps_eu"
+  ],
+  "mainFile": "jclic.js/q_temps.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/q_temps.jclic.zip",
+  "instFile": "jclic/q_temps.jclic.inst",
+  "clicZoneId": 3670,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3670",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/q_temps/jclic/q_temps.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 47,
+  "totalSize": 2941093,
+  "files": [
+    "cover.jpg",
+    "jclic.js/abric.jpg",
+    "jclic.js/aconseguit.mp3",
+    "jclic.js/barret.jpg",
+    "jclic.js/boiraisol.mp3",
+    "jclic.js/botes.jpg",
+    "jclic.js/ensposem.mp3",
+    "jclic.js/escolta.mp3",
+    "jclic.js/escullactivitat.mp3",
+    "jclic.js/estiu.gif",
+    "jclic.js/fasol.mp3",
+    "jclic.js/fotoboira_resized.jpg",
+    "jclic.js/genial.mp3",
+    "jclic.js/guants.jpg",
+    "jclic.js/moltbe.mp3",
+    "jclic.js/neu.gif",
+    "jclic.js/nevada.gif",
+    "jclic.js/ninot.jpg",
+    "jclic.js/nuvol.mp3",
+    "jclic.js/orella.jpg",
+    "jclic.js/pantalocurt.jpg",
+    "jclic.js/paraigues.jpg",
+    "jclic.js/paraulasol.mp3",
+    "jclic.js/paraulesneufred.mp3",
+    "jclic.js/parelles.mp3",
+    "jclic.js/perfecte.mp3",
+    "jclic.js/plousolicargol.mp3",
+    "jclic.js/pluja.jpg",
+    "jclic.js/primaverallac.gif",
+    "jclic.js/q_temps.jclic",
+    "jclic.js/queensposem.mp3",
+    "jclic.js/quefemestiu.mp3",
+    "jclic.js/quintemps.mp3",
+    "jclic.js/ratoli1.gif",
+    "jclic.js/ratoli2.gif",
+    "jclic.js/robaabric.jpg",
+    "jclic.js/so_pluja.mp3",
+    "jclic.js/so_tro.mp3",
+    "jclic.js/so_vent.mp3",
+    "jclic.js/sol.jpg",
+    "jclic.js/sol1_resized.jpg",
+    "jclic.js/solinuvol.jpg",
+    "jclic.js/tapis2.jpg",
+    "jclic.js/trencaclosques.mp3",
+    "jclic.js/trons.jpg",
+    "jclic.js/vent.jpg",
+    "jclic.js/ventdiada.mp3",
+    "jclic.js/ventot.jpg",
+    "jclic.js/xancles.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/q_temps.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

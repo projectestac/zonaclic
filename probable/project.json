@@ -1,0 +1,87 @@
+{
+  "id": 2589,
+  "title": "Probabilidad",
+  "author": "Carmen Santander",
+  "school": "Colegio La Anunciata (Zaragoza)",
+  "date": "01/12/12",
+  "langCodes": [
+    "es"
+  ],
+  "languages": {
+    "es": "español",
+    "ca": "espanyol",
+    "en": "Spanish"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "areas": {
+    "es": "Matemáticas",
+    "ca": "Matemàtiques",
+    "en": "Mathematics"
+  },
+  "levelCodes": [
+    "PRI",
+    "SEC"
+  ],
+  "levels": {
+    "es": "Primaria (6-12), Secundaria (12-16)",
+    "ca": "Primària (6-12), Secundària (12-16)",
+    "en": "Primary school (6-12), Secondary school (12-16)"
+  },
+  "description": {
+    "es": "Probabilidad simple: Con estas actividades distinguirás cuando algo es aleatorio o determinista, sabrás a qué llamamos probabilidad y cómo calcularla.",
+    "ca": "Probabilitat simple: Amb aquestes activitats distingiràs quan alguna cosa és aleatòria o determinista, sabràs a què diem probabilitat i com calcular-la.",
+    "en": "Simple probability: With these activities you would be able to distinguish when something is random or deterministic, you will know what we call probability and how to calculate it."
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "es",
+    "ca",
+    "en"
+  ],
+  "cover": "probable.jpg",
+  "coverWebp": "probable.webp",
+  "thumbnail": "probable100.jpg",
+  "mainFile": "jclic.js/probable.jclic",
+  "activities": 18,
+  "mediaFiles": 23,
+  "totalSize": 2228391,
+  "instFile": "jclic/probable.jclic.inst",
+  "zipFile": "jclic/probable.jclic.zip",
+  "files": [
+    "jclic.js/1euro.jpg",
+    "jclic.js/2euros.jpg",
+    "jclic.js/aleajactaest.jpg",
+    "jclic.js/baraja_espanola.jpg",
+    "jclic.js/bolas4colores.jpg",
+    "jclic.js/capturas_de_pantalla35-resized.jpg",
+    "jclic.js/dado-1.gif",
+    "jclic.js/dado.gif",
+    "jclic.js/dardos.gif",
+    "jclic.js/diana-03.gif",
+    "jclic.js/domino.jpg",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/laplace-resized.jpg",
+    "jclic.js/loteria_navidad_2010.jpg",
+    "jclic.js/portadada5.jpg",
+    "jclic.js/probable.jclic",
+    "jclic.js/probable.jclic.js",
+    "jclic.js/raealeatorio-resized.jpg",
+    "jclic.js/ruleta-03.gif",
+    "jclic.js/ruletacoloresflechal.jpg",
+    "jclic.js/tablaalumnos.jpg",
+    "probable.jpg",
+    "probable100.jpg",
+    "project.json",
+    "probable.webp"
+  ]
+}

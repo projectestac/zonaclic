@@ -1,0 +1,86 @@
+{
+  "id": 1926,
+  "title": "Análisis sintáctico",
+  "author": "Miriam Castillo Castillo",
+  "school": "Escuela Cardenal José María Caro Coquimbo (Xile)",
+  "date": "19/06/09",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aprenentatge de la llengua, llengua castellana, sintaxi",
+    "es": "aprendizaje de la lengua, lengua castellana, sintaxis",
+    "en": "learning of the language, Spanish language, syntax"
+  },
+  "descCodes": [
+    110,
+    132,
+    148
+  ],
+  "description": {
+    "en": "Project of activities related to the syntactic analysis of sentences: \n<ul> \n <li>The subject </li>\n <li>The predicate </li>\n <li>... </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre l'anàlisi sintàctic de les frases: \n<ul> \n <li>Classes de subjectes </li>\n <li>Nuclis de subjectes </li>\n <li>Modificadors del subjecte </li>\n <li>Predicat </li>\n <li>Modificadors del predicat </li>\n</ul>",
+    "es": "Proyecto de actividades sobre el análisis sintáctico de las frases: \n<ul> \n <li>Clases de sujetos </li>\n <li>Núcleos de sujetos </li>\n <li>Modificadores del sujeto </li>\n <li>Predicat </li>\n <li>Modificadores del predicado </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/sintaxis.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/sintaxis.jclic.zip",
+  "instFile": "jclic/sintaxis.jclic.inst",
+  "clicZoneId": 3552,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3552",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/sintaxis/jclic/sintaxis.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 48,
+  "mediaFiles": 5,
+  "totalSize": 869433,
+  "files": [
+    "cover.gif",
+    "jclic.js/genial.wav",
+    "jclic.js/grande.wav",
+    "jclic.js/muybien.wav",
+    "jclic.js/perfec.wav",
+    "jclic.js/sintaxis.jclic",
+    "jclic.js/tepasas.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/sintaxis.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

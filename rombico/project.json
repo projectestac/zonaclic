@@ -1,0 +1,111 @@
+{
+  "id": 1475,
+  "title": "Matemanía 5",
+  "author": "John Ferney Segura, John Fredy Manrique, Luis Alejandro Sánchez i María de los Ángeles Segura",
+  "date": "11/10/05",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "geometria",
+    "es": "geometría",
+    "en": "geometry"
+  },
+  "descCodes": [
+    708
+  ],
+  "description": {
+    "en": "Math activities about polygons: \n<ul> \n <li>what are them? </li>\n <li>types </li>\n <li>characteristics </li>\n <li>parts </li>\n <li>... </li>\n</ul>",
+    "ca": "Paquet d'activitats que serveix com a complement del llibre de text \n<i>Matemanía 5&lt;</i> de Migema Ediciones, sobre els polígons: \n<ul> \n <li>què són? </li>\n <li>tipus </li>\n <li>característiques </li>\n <li>parts </li>\n <li>... </li>\n</ul>",
+    "es": "Paquete de actividades que sirve como complemento al libro de texto \n<i>Matemanía 5&lt;</i> de Migema Ediciones, sobre los polígonos: \n<ul> \n <li>¿qué son? </li>\n <li>tipos </li>\n <li>características </li>\n <li>partes </li>\n <li>... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/rombico.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/rombico.jclic.zip",
+  "instFile": "jclic/rombico.jclic.inst",
+  "clicZoneId": 3187,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3187",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/rombico/jclic/rombico.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 28,
+  "mediaFiles": 33,
+  "totalSize": 273274,
+  "files": [
+    "cover.gif",
+    "jclic.js/adios.gif",
+    "jclic.js/asocia3.gif",
+    "jclic.js/asocia4.gif",
+    "jclic.js/cocavo.gif",
+    "jclic.js/eje1.gif",
+    "jclic.js/eje2.gif",
+    "jclic.js/hexairr.gif",
+    "jclic.js/jardin.gif",
+    "jclic.js/matem.gif",
+    "jclic.js/nonairr.gif",
+    "jclic.js/octagir1.gif",
+    "jclic.js/octagirr.gif",
+    "jclic.js/pentairr.gif",
+    "jclic.js/quadirr.gif",
+    "jclic.js/rama.gif",
+    "jclic.js/rama1.gif",
+    "jclic.js/rombico.jclic",
+    "jclic.js/rombo1.gif",
+    "jclic.js/rombo10.gif",
+    "jclic.js/rombo11.gif",
+    "jclic.js/rombo2.gif",
+    "jclic.js/rombo22.gif",
+    "jclic.js/rombo23.gif",
+    "jclic.js/rombo24.gif",
+    "jclic.js/rombo25.gif",
+    "jclic.js/rombo26.gif",
+    "jclic.js/rombo3.gif",
+    "jclic.js/rombo4.gif",
+    "jclic.js/rombo5.gif",
+    "jclic.js/rombo6.gif",
+    "jclic.js/rombo7.gif",
+    "jclic.js/rombo8.gif",
+    "jclic.js/trapezi0.gif",
+    "jclic.js/triang7.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/rombico.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

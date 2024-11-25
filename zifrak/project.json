@@ -1,0 +1,88 @@
+{
+  "id": 694,
+  "title": "Zenbaketa - 4",
+  "author": "Juan José Mateo Molina",
+  "school": "CP El Olivar Rivas - Vaciamadrid (Madrid)",
+  "date": "29/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "anàlisi numèrica",
+    "es": "análisis numérico",
+    "en": "numerical analysis"
+  },
+  "descCodes": [
+    699
+  ],
+  "description": {
+    "en": "Clic activities about numbers in Spanish.",
+    "ca": "Paquet d'activitats de numeració amb 2, 3, 4 i 5 xifres. Dins el paquet trobem activitats de: \n<ul> \n <li>escriptura de nombres </li>\n <li>lectura de nombres </li>\n <li>nombres ordinals </li>\n <li>descomposició de nombres </li>\n</ul>",
+    "es": "Paquete de actividades de numeración con 2, 3, 4 y 5 cifras. Dentro del paquete encontramos actividades de: \n<ul> \n <li>escritura de números </li>\n <li>lectura de números </li>\n <li>números ordinales </li>\n <li>descomposición de números </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "numeros4"
+  ],
+  "mainFile": "jclic.js/zifrak.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/zifrak.jclic.zip",
+  "instFile": "jclic/zifrak.jclic.inst",
+  "clicZoneId": 1363,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1363",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/zifrak/jclic/zifrak.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 26,
+  "mediaFiles": 6,
+  "totalSize": 283151,
+  "files": [
+    "cover.gif",
+    "jclic.js/angie.mid",
+    "jclic.js/autor.gif",
+    "jclic.js/clic3.gif",
+    "jclic.js/indice.gif",
+    "jclic.js/num.gif",
+    "jclic.js/olivos.gif",
+    "jclic.js/zifrak.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/zifrak.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

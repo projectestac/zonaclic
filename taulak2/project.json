@@ -1,0 +1,99 @@
+{
+  "id": 620,
+  "title": "Biderkatzeko taulak - 1",
+  "author": "Juan José Mateo Molina",
+  "school": "CP El Olivar Rivas - Vaciamadrid (Madrid)",
+  "date": "26/07/02",
+  "languages": {
+    "en": "Basque",
+    "ca": "basc",
+    "es": "euskara"
+  },
+  "langCodes": [
+    "eu"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "aritmètica, càlcul, fonaments de les matemàtiques",
+    "es": "aritmética, cálculo, fundamentos de las matemáticas",
+    "en": "Arithmetic, calculation, foundations of the mathematics"
+  },
+  "descCodes": [
+    701,
+    702,
+    707
+  ],
+  "description": {
+    "en": "Math activities about multiplication tables. There are activities with each multiplication table from one to nine and then one last pack with all the tables.\n<br> You'll find more information in the pages \n<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">\"Aplicaciones educativas\"</a></b>.",
+    "ca": "Paquet d'activitats Clic sobre les taules de multiplicar. Les activitats estan dividides en deu paquets que contenen les taules de l'1 al 9 més un paquet addicional on apareixen totes les taules.\n<br> Trobareu més informació a la web d'\n<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo.",
+    "es": "Paquete de actividades de Clic sobre las tablas de multiplicar. Las actividades están divididas en diez paquetes que contienen las tablas de multiplicar del 1 al 9 mas un paquete en el que se incluyen todas las tablas.\n<br> Encontraréis más información en la web de \n<b><a href=\"http://club.telepolis.com/jjmateo/aula_inf.htm\" target=\"_blank\">Aplicaciones educativas</a></b> de Juan José Mateo."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "tablas"
+  ],
+  "mainFile": "jclic.js/taulak2.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/taulak2.jclic.zip",
+  "instFile": "jclic/taulak2.jclic.inst",
+  "clicZoneId": 1335,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=1335",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/taulak2/jclic/taulak2.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 30,
+  "mediaFiles": 15,
+  "totalSize": 290023,
+  "files": [
+    "cover.gif",
+    "jclic.js/autor.gif",
+    "jclic.js/boys.mid",
+    "jclic.js/tabla1.gif",
+    "jclic.js/tabla2.gif",
+    "jclic.js/tabla3.gif",
+    "jclic.js/tabla4.gif",
+    "jclic.js/tabla5.gif",
+    "jclic.js/tabla6.gif",
+    "jclic.js/tabla7.gif",
+    "jclic.js/tabla8.gif",
+    "jclic.js/tabla9.gif",
+    "jclic.js/taulak2.jclic",
+    "jclic.js/titulo.gif",
+    "jclic.js/todas1.gif",
+    "jclic.js/todas2.gif",
+    "jclic.js/todas3.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/taulak2.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": 2478,
+  "title": "El ruc",
+  "author": "Francisco Moreno Soriano",
+  "date": "25/01/17",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences, Languages",
+    "ca": "Ciències experimentals, Llengües",
+    "es": "Ciencias experimentales, Lenguas"
+  },
+  "areaCodes": [
+    "exp",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "zoologia, llengua catalana, vocabulari, animals",
+    "es": "zoología, lengua catalana, vocabulario, animals",
+    "en": "zoology, Catalan language, vocabulary, animales"
+  },
+  "descCodes": [
+    108,
+    133,
+    150,
+    1456
+  ],
+  "description": {
+    "en": "Set of activities about the donkey: \n<ul> \n <li>How is it? </li>\n <li>What eats? </li>\n <li>Descriptions </li>\n <li>Games </li>\n</ul>",
+    "ca": "Activitats dirigides a alumnes d'infantil per treballar els animals, en concret, el ruc: \n<ul> \n <li>Com és? </li>\n <li>Què menja? </li>\n <li>Descripcions </li>\n <li>Jocs </li>\n</ul>",
+    "es": "Actividades dirigidas a alumnos de infantil para trabajar el tema de los animales, en concreto, el burro: \n<ul> \n <li>¿Cómo es? </li>\n <li>¿Qué come? </li>\n <li>Descripciones </li>\n <li>Juegos </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ruc.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ruc.jclic.zip",
+  "instFile": "jclic/ruc.jclic.inst",
+  "clicZoneId": 3987,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3987",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ruc/jclic/ruc.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 10,
+  "mediaFiles": 16,
+  "totalSize": 337600,
+  "files": [
+    "cover.png",
+    "jclic.js/0cua.jpg",
+    "jclic.js/0morro.jpg",
+    "jclic.js/0orelles.jpg",
+    "jclic.js/0potes.jpg",
+    "jclic.js/220px_donkey_catalan_race.jpg",
+    "jclic.js/conill_resized.jpg",
+    "jclic.js/cua.jpg",
+    "jclic.js/gallina.jpg",
+    "jclic.js/gallina_2.jpg",
+    "jclic.js/herba.jpg",
+    "jclic.js/llet.jpg",
+    "jclic.js/morro.jpg",
+    "jclic.js/orelles.jpg",
+    "jclic.js/porc.jpg",
+    "jclic.js/potes.jpg",
+    "jclic.js/ruc.jclic",
+    "jclic.js/ruc.jclic.js",
+    "jclic.js/ruc_petit.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

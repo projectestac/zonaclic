@@ -1,0 +1,114 @@
+{
+  "id": 684,
+  "title": "Arrodoniment i estimació",
+  "author": "Ramon Ministral Fita",
+  "school": "Escola Doctor Sobrequés Bescanó (Gironès)",
+  "date": "29/07/02",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Mathematics",
+    "ca": "Matemàtiques",
+    "es": "Matemáticas"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "arrodoniment, estimació",
+    "es": "redondeo, estimación",
+    "en": "rounding, estimate"
+  },
+  "descCodes": [
+    938,
+    939
+  ],
+  "description": {
+    "en": "Package of activities about mathematical rounding and estimation of capacity, mass, length and time measurements.\n<br> This package is thought to be used by students in the latest courses of Primary school but it can also be used in another courses.",
+    "ca": "Paquet d'activitats on es treballa l'arrodoniment i estimació de: \n<ul><li>quantitats (unitats, desenes, centenes, milers,... ) </li>\n<li>operacions (sumes, restes, multiplicacions, divisions,...) </li>\n<li>mesures de capacitat </li>\n<li>mesures de massa </li>\n<li>mesures de longitud </li>\n<li>mesures de temps <p> El paquet va dirigit a alumnes de cicle superior de primària, tot i que es pot utilitzar també al cicle inicial de la ESO. </p></li></ul>",
+    "es": "Paquete de actividades en las que se trabaja el redondeo y estimación de: \n<ul><li>cantidades (unidades, decenas, centenas, millares,... ) </li>\n<li>operaciones (sumas, restas, multiplicaciones, divisiones,...) </li>\n<li>medidas de capacidad </li>\n<li>medidas de masa </li>\n<li>medidas de longitud </li>\n<li>medidas de tiempo <p> El paquete va dirigido a alumnos de Ciclo Superior de Primaria, aunque también puede ser utilizado en cursos superiores. </p></li></ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/estima.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/estima.jclic.zip",
+  "instFile": "jclic/estima.jclic.inst",
+  "clicZoneId": 1358,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=1358",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/estima/jclic/estima.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 198,
+  "mediaFiles": 34,
+  "totalSize": 1461756,
+  "files": [
+    "cover.gif",
+    "jclic.js/capaci0.gif",
+    "jclic.js/capaci1.gif",
+    "jclic.js/capaci2.gif",
+    "jclic.js/capaci3.gif",
+    "jclic.js/estima.jclic",
+    "jclic.js/longit0.gif",
+    "jclic.js/longit1.gif",
+    "jclic.js/longit2.gif",
+    "jclic.js/longit3.gif",
+    "jclic.js/massa0.gif",
+    "jclic.js/massa1.gif",
+    "jclic.js/massa2.gif",
+    "jclic.js/massa3.gif",
+    "jclic.js/operac0.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/quanti0.gif",
+    "jclic.js/quanti01.gif",
+    "jclic.js/quanti02.gif",
+    "jclic.js/temp15r2.gif",
+    "jclic.js/temps0.gif",
+    "jclic.js/temps14.gif",
+    "jclic.js/temps14r.gif",
+    "jclic.js/temps15.gif",
+    "jclic.js/temps15r.gif",
+    "jclic.js/temps2.gif",
+    "jclic.js/temps23p.gif",
+    "jclic.js/temps23r.gif",
+    "jclic.js/temps24p.gif",
+    "jclic.js/temps24r.gif",
+    "jclic.js/temps25p.gif",
+    "jclic.js/temps25r.gif",
+    "jclic.js/temps26p.gif",
+    "jclic.js/temps26r.gif",
+    "jclic.js/temps3.gif",
+    "jclic.js/triaacti.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/estima.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

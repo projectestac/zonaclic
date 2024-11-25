@@ -1,0 +1,121 @@
+{
+  "id": 1723,
+  "title": "Barcino, la ciutat romana",
+  "author": "Caridad Terrado Terrado i Joana Puig Mir",
+  "school": "Escola Baixeras Barcelona",
+  "date": "07/12/07",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "Barcino",
+    "es": "Barcino",
+    "en": "Barcino"
+  },
+  "descCodes": [
+    1384
+  ],
+  "description": {
+    "en": "Project of activities about Barcino, Barcelona at the roman age. The city elements that were present at that time are shown across the activities. \n<ul> \n <li>Templum </li>\n <li>Domus </li>\n <li>Forum </li>\n <li>City wall </li>\n <li>... </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre Barcino, la Barcelona de l'època romana. Al llarg que les activitats es veuen els elements que formaven la ciutat en aquella època: \n<ul> \n <li>templum </li>\n <li> domus </li>\n <li>forum </li>\n <li>muralla </li>\n <li>... </li>\n</ul>",
+    "es": "Proyecto de actividades sobre Barcino, la Barcelona de la época romana. A lo largo de las actividades se ven los diferentes elementos que formaban la ciudad en aquella época: \n<ul> \n <li>templum </li>\n <li>domus </li>\n <li>forum </li>\n <li>muralla </li>\n <li>... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/barcino.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/barcino.jclic.zip",
+  "instFile": "jclic/barcino.jclic.inst",
+  "clicZoneId": 3429,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3429",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/barcino/jclic/barcino.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 12,
+  "mediaFiles": 42,
+  "totalSize": 5051177,
+  "files": [
+    "cover.jpg",
+    "jclic.js/800px_barcino87.jpg",
+    "jclic.js/adeu.wav",
+    "jclic.js/aspasia.jpg",
+    "jclic.js/aspasia.wav",
+    "jclic.js/aspasia_muralla.jpg",
+    "jclic.js/atrium.jpg",
+    "jclic.js/atrium.wav",
+    "jclic.js/barcelona_templo1.jpg",
+    "jclic.js/barcino.jclic",
+    "jclic.js/barcino.wav",
+    "jclic.js/barcino1.wav",
+    "jclic.js/buscalesparaulesrelacionadesambbarcino.wav",
+    "jclic.js/camp_nou.jpg",
+    "jclic.js/domus.gif",
+    "jclic.js/domus.wav",
+    "jclic.js/donaocell.jpg",
+    "jclic.js/escoltaillegeix.wav",
+    "jclic.js/escriulaparaula.wav",
+    "jclic.js/forum.wav",
+    "jclic.js/forum1.jpg",
+    "jclic.js/llegeixlesdefinicionsiescriulesparaules.wav",
+    "jclic.js/moltbe.wav",
+    "jclic.js/moltbe1.wav",
+    "jclic.js/moltbe3.wav",
+    "jclic.js/mosaic.jpg",
+    "jclic.js/mosaic.wav",
+    "jclic.js/muralla.jpg",
+    "jclic.js/muralla.wav",
+    "jclic.js/necrobar.jpg",
+    "jclic.js/necropolis.wav",
+    "jclic.js/ordenalespeces.wav",
+    "jclic.js/pedrera.jpg",
+    "jclic.js/perfecte.wav",
+    "jclic.js/portada.jpg",
+    "jclic.js/posacadaparaulaalseulloc.wav",
+    "jclic.js/relacionalaparaulaambelseudibuixcorresponent.wav",
+    "jclic.js/sagrada_familia.jpg",
+    "jclic.js/santa_caterina.jpg",
+    "jclic.js/templum.wav",
+    "jclic.js/termes.jpg",
+    "jclic.js/termes.wav",
+    "jclic.js/torre_agbar.jpg",
+    "jclic.js/trobalesparelles.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/barcino.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

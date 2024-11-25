@@ -1,0 +1,124 @@
+{
+  "id": 939,
+  "title": "Colours",
+  "author": "Silvia Díez de Rivera",
+  "school": "Colegio Orvalle Las Rozas (Madrid)",
+  "date": "12/12/02",
+  "languages": {
+    "en": "English",
+    "ca": "anglès",
+    "es": "inglés"
+  },
+  "langCodes": [
+    "en"
+  ],
+  "areas": {
+    "ca": "Llengües",
+    "es": "Lenguas",
+    "en": "Languages"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "ca": "Infantil (3-6), Primària (6-12)",
+    "es": "Infantil (3-6), Primaria (6-12)",
+    "en": "Kindergarten (3-6), Primary school (6-12)"
+  },
+  "levelCodes": [
+    "INF",
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "llengua anglesa",
+    "es": "lengua inglesa",
+    "en": "English language"
+  },
+  "descCodes": [
+    130
+  ],
+  "description": {
+    "en": "Package about the primary colours in English with several activities and sounds to improve the pronunciation.",
+    "ca": "Aquest paquet treballa els colors primaris en anglès amb activitats variades i suport de so per millorar la pronúncia.",
+    "es": "Este paquete trabaja los colores primarios en inglés con actividades variadas y apoyo de sonido para mejorar la pronunciación"
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "eukolor"
+  ],
+  "mainFile": "jclic.js/colours.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/colours.jclic.zip",
+  "instFile": "jclic/colours.jclic.inst",
+  "clicZoneId": 2047,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_en.jsp?id=2047",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/colours/jclic/colours.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 11,
+  "mediaFiles": 41,
+  "totalSize": 7409456,
+  "files": [
+    "cover.gif",
+    "jclic.js/amarillo.gif",
+    "jclic.js/azul.gif",
+    "jclic.js/blue.gif",
+    "jclic.js/blue.wav",
+    "jclic.js/bombero.gif",
+    "jclic.js/c_w.wav",
+    "jclic.js/col_pic.wav",
+    "jclic.js/col_word.wav",
+    "jclic.js/colours.jclic",
+    "jclic.js/colours.wav",
+    "jclic.js/excellent.wav",
+    "jclic.js/fireman.gif",
+    "jclic.js/fireman.wav",
+    "jclic.js/gardener.gif",
+    "jclic.js/gardener.wav",
+    "jclic.js/girasol.gif",
+    "jclic.js/green.gif",
+    "jclic.js/green.wav",
+    "jclic.js/jardi.gif",
+    "jclic.js/marinero.gif",
+    "jclic.js/picture.wav",
+    "jclic.js/pink.gif",
+    "jclic.js/pink.wav",
+    "jclic.js/princesa.gif",
+    "jclic.js/princess.gif",
+    "jclic.js/princess.wav",
+    "jclic.js/rainbow.gif",
+    "jclic.js/rainbow.wav",
+    "jclic.js/red.gif",
+    "jclic.js/red.wav",
+    "jclic.js/rojo.gif",
+    "jclic.js/rosa.gif",
+    "jclic.js/sailor.gif",
+    "jclic.js/sailor.wav",
+    "jclic.js/sunflow.gif",
+    "jclic.js/sunflow.wav",
+    "jclic.js/verde.gif",
+    "jclic.js/vgood.wav",
+    "jclic.js/word_pic.wav",
+    "jclic.js/yellow.gif",
+    "jclic.js/yellow.wav",
+    "jclic.js/yes.wav",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/colours.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

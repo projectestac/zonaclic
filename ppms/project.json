@@ -1,0 +1,120 @@
+{
+  "id": 1048,
+  "title": "Papá perrito Motas",
+  "author": "Edith Johana Barón, Flor Alba Olaya i Pablo Amaya",
+  "school": "Unidad de educación básica \"Las Américas\" Bogotá DC (Colombia)",
+  "date": "13/06/03",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Languages",
+    "ca": "Llengües",
+    "es": "Lenguas"
+  },
+  "areaCodes": [
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "conte",
+    "es": "cuento",
+    "en": "story"
+  },
+  "descCodes": [
+    614
+  ],
+  "description": {
+    "en": "Fairytale with reading comprehesion activities in Spanish: puzzles, writing, associations; there are versions for the first and second level of primary school.",
+    "ca": "Conte amb activitats de comprensió lectora en castellà. Trencaclosques, sopes de lletres, escriptura, associacions; en dues versions per a primer i segon de primària.",
+    "es": "Cuento con actividades de comprensión lectora. Rompecabezas, sopas de letras, escritura, asociaciones; en dos versiones para primero y segundo de primaria."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/ppms.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/ppms.jclic.zip",
+  "instFile": "jclic/ppms.jclic.inst",
+  "clicZoneId": 2220,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=2220",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/ppms/jclic/ppms.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 35,
+  "mediaFiles": 37,
+  "totalSize": 520820,
+  "files": [
+    "cover.gif",
+    "jclic.js/cppm/cppm.jclic",
+    "jclic.js/cppm/lugar.gif",
+    "jclic.js/cppm/motas.gif",
+    "jclic.js/cppm/pcandi.gif",
+    "jclic.js/cppm/pcoli.gif",
+    "jclic.js/cppm/pcoqui.gif",
+    "jclic.js/cppm/pjuan.gif",
+    "jclic.js/cppm/plucas.gif",
+    "jclic.js/cppm/plula.gif",
+    "jclic.js/cppm/pmanch.gif",
+    "jclic.js/cppm/pmotas.gif",
+    "jclic.js/portada.gif",
+    "jclic.js/ppm/arco.gif",
+    "jclic.js/ppm/camino.gif",
+    "jclic.js/ppm/casa.gif",
+    "jclic.js/ppm/casa1.gif",
+    "jclic.js/ppm/casa2.gif",
+    "jclic.js/ppm/escuela.gif",
+    "jclic.js/ppm/fam.gif",
+    "jclic.js/ppm/flucas.gif",
+    "jclic.js/ppm/fmanch.gif",
+    "jclic.js/ppm/jardin.gif",
+    "jclic.js/ppm/juego.gif",
+    "jclic.js/ppm/lugar.gif",
+    "jclic.js/ppm/monte.gif",
+    "jclic.js/ppm/monte1.gif",
+    "jclic.js/ppm/motas.gif",
+    "jclic.js/ppm/pcandi.gif",
+    "jclic.js/ppm/pcoli.gif",
+    "jclic.js/ppm/pcoqui.gif",
+    "jclic.js/ppm/pjuan.gif",
+    "jclic.js/ppm/plobo.gif",
+    "jclic.js/ppm/plucas.gif",
+    "jclic.js/ppm/plula.gif",
+    "jclic.js/ppm/pmanch.gif",
+    "jclic.js/ppm/pmotas.gif",
+    "jclic.js/ppm/portalm.gif",
+    "jclic.js/ppm/ppm.jclic",
+    "jclic.js/ppm/sunset.gif",
+    "jclic.js/ppms.jclic",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/ppms.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/cppm/cppm.jclic.js",
+    "jclic.js/ppm/ppm.jclic.js",
+    "cover.webp"
+  ]
+}

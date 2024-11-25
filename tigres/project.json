@@ -1,0 +1,134 @@
+{
+  "id": 1910,
+  "title": "Els tigres",
+  "author": "Sira Navarro Santiago",
+  "school": "Escola La Tordera Santa Maria de Palautordera (Vallès Oriental)",
+  "date": "20/04/09",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Miscellaneous",
+    "ca": "Diversos",
+    "es": "Diversos"
+  },
+  "areaCodes": [
+    "div"
+  ],
+  "levels": {
+    "en": "Kindergarten (3-6)",
+    "ca": "Infantil (3-6)",
+    "es": "Infantil (3-6)"
+  },
+  "levelCodes": [
+    "INF"
+  ],
+  "descriptors": {
+    "ca": "animals",
+    "es": "animales",
+    "en": "animales"
+  },
+  "descCodes": [
+    1160
+  ],
+  "description": {
+    "en": "Project activities addressed to kindergarten students about the tigers. These activities are designed to do after work in the classroom on these mammals.",
+    "ca": "Projecte d'activitats adreçat a alumnat d'educació infantil sobre els tigres. Aquestes activitats estan pensades per a fer després de la realització del treball a l'aula sobre aquests mamífers.",
+    "es": "Proyecto de actividades dirigido a alumnos de educación infantil sobre los tigres. Estas actividades están pensadas para realizar después del trabajo en el aula sobre estos mamíferos."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/tigres.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/tigres.jclic.zip",
+  "instFile": "jclic/tigres.jclic.inst",
+  "clicZoneId": 3536,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3536",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/tigres/jclic/tigres.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 15,
+  "mediaFiles": 55,
+  "totalSize": 5775028,
+  "files": [
+    "cover.jpg",
+    "jclic.js/1.jpg",
+    "jclic.js/10.jpg",
+    "jclic.js/3tigres.jpg",
+    "jclic.js/4.jpg",
+    "jclic.js/698223_poised_tiger.jpg",
+    "jclic.js/assenyala_tigres.wav",
+    "jclic.js/benvinguts.wav",
+    "jclic.js/busca_tigre.wav",
+    "jclic.js/caballo.jpg",
+    "jclic.js/canguros.jpg",
+    "jclic.js/cap_a_on_miren_tigres.wav",
+    "jclic.js/ciervos.jpg",
+    "jclic.js/com_es_diuen_animals.wav",
+    "jclic.js/dibujo.gif",
+    "jclic.js/dibujoderecha.gif",
+    "jclic.js/dibujoizquierda.gif",
+    "jclic.js/dibujotigres.gif",
+    "jclic.js/fes_el_puzzle.wav",
+    "jclic.js/flor_de_loto.jpg",
+    "jclic.js/fons.bmp",
+    "jclic.js/fotos_gatos.jpg",
+    "jclic.js/galletas.jpg",
+    "jclic.js/girafa.jpg",
+    "jclic.js/lagartija.jpg",
+    "jclic.js/lleo.jpg",
+    "jclic.js/lleo_pantera_gat.wav",
+    "jclic.js/manzana.jpg",
+    "jclic.js/molt_be.wav",
+    "jclic.js/musica_fi.wav",
+    "jclic.js/numero1.gif",
+    "jclic.js/numero2.gif",
+    "jclic.js/numero3.gif",
+    "jclic.js/numero4.gif",
+    "jclic.js/observa_parts_tigre.wav",
+    "jclic.js/ordena_paraula_tigre.wav",
+    "jclic.js/pantera.jpg",
+    "jclic.js/parts_blanc.gif",
+    "jclic.js/parts_tigre_bo.gif",
+    "jclic.js/pell_girafa.jpg",
+    "jclic.js/pell_taronja_y_negra.wav",
+    "jclic.js/perfecte.wav",
+    "jclic.js/posa_nom_parts_tigre.wav",
+    "jclic.js/quants_tigres_hi_ha.wav",
+    "jclic.js/que_mengen_tigres.wav",
+    "jclic.js/quins_no_son_tigres.wav",
+    "jclic.js/ratlles_tigre.jpg",
+    "jclic.js/ratlles_zebra.jpg",
+    "jclic.js/relaciona_tigre_pell.wav",
+    "jclic.js/rugidotigre.mp3",
+    "jclic.js/tigre.gif",
+    "jclic.js/tigres.jclic",
+    "jclic.js/tigres_161.jpg",
+    "jclic.js/tigresenseratlles.gif",
+    "jclic.js/troba_les_parelles.wav",
+    "jclic.js/vaca.jpg",
+    "jclic.js/vaca_pell.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/tigres.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": 1590,
+  "title": "Geomorfología",
+  "author": "Miren Felisa Mateo Ciluaga",
+  "school": "IES Dolmen de Soto Trigueros - Huelva (Andalucía)",
+  "date": "23/05/06",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16), High school (16-18)",
+    "ca": "Secundària (12-16), Batxillerat (16-18)",
+    "es": "Secundaria (12-16), Bachillerato (16-18)"
+  },
+  "levelCodes": [
+    "SEC",
+    "BTX"
+  ],
+  "description": {
+    "en": "Project of activities about the most important aspects about the relief: volcanoes, earthquakes...",
+    "ca": "Projecte d'activitats per repassar els principals elements del relleu així com els seus processos de formació: volcans, terratrèmols...",
+    "es": "Proyecto de actividades para repasar los principales elementos del relieve así como los procesos de formación del mismo: volcanes, terremotos..."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/geomorfo.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/geomorfo.jclic.zip",
+  "instFile": "jclic/geomorfo.jclic.inst",
+  "clicZoneId": 3306,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=3306",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/geomorfo/jclic/geomorfo.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 27,
+  "mediaFiles": 48,
+  "totalSize": 2074362,
+  "files": [
+    "cover.gif",
+    "jclic.js/0002n002.jpg",
+    "jclic.js/0002n009.jpg",
+    "jclic.js/146607_150x500.jpg",
+    "jclic.js/1copy.gif",
+    "jclic.js/265.gif",
+    "jclic.js/_destructivo_a.jpg",
+    "jclic.js/_destructivo_b.jpg",
+    "jclic.js/_placas.jpg",
+    "jclic.js/_relieve.jpg",
+    "jclic.js/bonne.jpg",
+    "jclic.js/bordes1.jpg",
+    "jclic.js/bordes2.jpg",
+    "jclic.js/canarias_origen.gif",
+    "jclic.js/cluseb.gif",
+    "jclic.js/combeb.gif",
+    "jclic.js/conten2.jpg",
+    "jclic.js/deriva.gif",
+    "jclic.js/earth_cutbkb.gif",
+    "jclic.js/erupcion.jpg",
+    "jclic.js/erupcion1_nt.jpg",
+    "jclic.js/erupcion_p.jpg",
+    "jclic.js/erupciones.gif",
+    "jclic.js/geol_geodinint_partesvolcanb.gif",
+    "jclic.js/geomorf.jpg",
+    "jclic.js/geomorfo.jclic",
+    "jclic.js/horst.gif",
+    "jclic.js/horstb.gif",
+    "jclic.js/image220_1.jpg",
+    "jclic.js/j0385783.jpg",
+    "jclic.js/manto.gif",
+    "jclic.js/mantob.gif",
+    "jclic.js/mapa.jpg",
+    "jclic.js/partefalla.gif",
+    "jclic.js/partefallab.gif",
+    "jclic.js/plegamientos.jpg",
+    "jclic.js/pliegue22.gif",
+    "jclic.js/pliegue2b.gif",
+    "jclic.js/plitip.gif",
+    "jclic.js/plitipb.gif",
+    "jclic.js/popo.jpg",
+    "jclic.js/psdiag.jpg",
+    "jclic.js/reliev3.jpg",
+    "jclic.js/reliev4.jpg",
+    "jclic.js/ruzb.gif",
+    "jclic.js/sandsheet.jpg",
+    "jclic.js/terremoto.gif",
+    "jclic.js/terremotos.gif",
+    "jclic.js/tiposfalla.gif",
+    "jclic.js/tiposfallab.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/geomorfo.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

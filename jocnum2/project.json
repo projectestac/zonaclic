@@ -1,0 +1,106 @@
+{
+  "id": 2584,
+  "title": "Jocs amb nombres",
+  "author": "Núria Tortajada Viñes",
+  "school": "Escola Europa (Salou)",
+  "date": "16/10/18",
+  "langCodes": [
+    "ca"
+  ],
+  "languages": {
+    "ca": "català",
+    "es": "catalán",
+    "en": "Catalan"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "levels": {
+    "ca": "Primària (6-12), CM",
+    "es": "Primaria (6-12), CM",
+    "en": "Primary school (6-12), CM"
+  },
+  "description": {
+    "ca": "Activitats per treballar la numeració i el càlcul, i també les relacions i canvis dels nombres.\r\n\r\nHi ha 4 blocs on trobareu activitats i jocs sobre càlcul mental, sèries, ordenacions, comparacions, aproximacions, càlculs senzills, esbrinar nombres tenint en compte certes característiques com parells / senars/ dobles / capicua...\r\n\r\nPer a les activitats dels nombres capicua es requereix micròfon i auriculars.",
+    "es": "Actividades para trabajar la numeración y el cálculo, y también las relaciones y cambios de los números.\n\nHay 4 bloques donde encontraréis actividades y juegos sobre cálculo mental, series, ordenaciones, comparaciones, aproximaciones, cálculos sencillos, averiguar números teniendo en cuenta ciertas características como pares / impares / dobles / capicúa...\n\nPara las actividades de los números capicúa se requiere micrófono y auriculares.",
+    "en": "Activities to work numbering and calculation, and also the relationships and changes of numbers.\n\nThere are 4 blocks where you will find activities and games about mental calculation, series, orderings, comparisons, approximations, simple calculations, find out numbers taking into account certain characteristics such as even / odd / double / palindrome ...\n\nFor the activities of numbers and palindrome microphone and headphones are required."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "cover": "portada.jpg",
+  "coverWebp": "portada.webp",
+  "thumbnail": "portada100.jpg",
+  "mainFile": "jclic.js/jocnum2.jclic",
+  "activities": 151,
+  "mediaFiles": 43,
+  "totalSize": 16252765,
+  "instFile": "jclic/jocnum2.jclic.inst",
+  "zipFile": "jclic/jocnum2.jclic.zip",
+  "files": [
+    "jclic.js/17_resized.jpg",
+    "jclic.js/18.png",
+    "jclic.js/24.jpg",
+    "jclic.js/249.jpg",
+    "jclic.js/353.jpg",
+    "jclic.js/3536.jpg",
+    "jclic.js/75.jpg",
+    "jclic.js/81.jpg",
+    "jclic.js/84.jpg",
+    "jclic.js/auriculars.png",
+    "jclic.js/background_2703579_1280_resized.jpg",
+    "jclic.js/bravo_10.gif",
+    "jclic.js/bravo_11.gif",
+    "jclic.js/bravo_12.gif",
+    "jclic.js/bravo_13.gif",
+    "jclic.js/bravo_14.gif",
+    "jclic.js/bravo_2.gif",
+    "jclic.js/bravo_4.gif",
+    "jclic.js/bravo_5.gif",
+    "jclic.js/bravo_7.gif",
+    "jclic.js/bravo_8.gif",
+    "jclic.js/chevron_2730107_1280_resized.jpg",
+    "jclic.js/cube_background_2484131_1280_resized.jpg",
+    "jclic.js/dark_green_2790337_1280_resized.jpg",
+    "jclic.js/egg_3506052_1280_resized.jpg",
+    "jclic.js/eggs_3216877_1280_resized.jpg",
+    "jclic.js/favicon.ico",
+    "jclic.js/forest_2325934_1280_resized.jpg",
+    "jclic.js/fruit_3048001_1280_resized.jpg",
+    "jclic.js/giphy_downsized.gif",
+    "jclic.js/i01_mih01204.mp3",
+    "jclic.js/icon-192.png",
+    "jclic.js/icon-72.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/index.html",
+    "jclic.js/jocnum2.jclic",
+    "jclic.js/jocnum2.jclic.js",
+    "jclic.js/micro.png",
+    "jclic.js/mih01204.mp3",
+    "jclic.js/par_resized.jpg",
+    "jclic.js/pattern_854010_1280_resized.jpg",
+    "jclic.js/pay_2446667_640.png",
+    "jclic.js/sim751.mp3",
+    "jclic.js/tapa_resized.jpg",
+    "jclic.js/wave_2822633_1280_resized.jpg",
+    "portada.jpg",
+    "portada100.jpg",
+    "project.json",
+    "portada.webp"
+  ]
+}

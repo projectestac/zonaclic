@@ -1,0 +1,96 @@
+{
+  "id": 467,
+  "title": "Actividades de cálculo mental para primaria",
+  "author": "Josep Roura Bussó i Montserrat Ferrer Iglesias Traducció: Luis Rodero Garduño",
+  "school": "Escola Montfalgars Girona (Santa Eugènia de Ter) (Gironès)",
+  "date": "24/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "ca": "Matemàtiques",
+    "es": "Matemáticas",
+    "en": "Mathematics"
+  },
+  "areaCodes": [
+    "mat"
+  ],
+  "levels": {
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)",
+    "en": "Primary school (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "càlcul, fonaments de les matemàtiques, problemes matemàtics",
+    "es": "cálculo, fundamentos de las matemáticas, problemas matemáticos",
+    "en": "calculation, foundations of the mathematics, mathematic problems"
+  },
+  "descCodes": [
+    702,
+    707,
+    926
+  ],
+  "description": {
+    "en": "Math activities with Clic.",
+    "ca": "Consisteix en tres blocs de paquets d'activitats, adreçats als cicles inicial, mitjà i superior, amb una graduació de continguts i nivells de dificultat. Les activitats que utilitzen el mòdul Arith2 del Clic per a generar exercicis sempre diferents, i conté una guia didàctica molt completa.",
+    "es": "Consiste en tres bloques de paquetes de actividades dirigidas a los ciclos inicial, medio y superior, con una graduación de contenidos y niveles de dificultad. Las actividades utilizan el módulo Arith2 de Clic para generar ejercicios siempre distintos, y contiene una guía didáctica muy completa."
+  },
+  "license": {
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "relatedTo": [
+    "calcul"
+  ],
+  "mainFile": "jclic.js/calculom.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/calculom.jclic.zip",
+  "instFile": "jclic/calculom.jclic.inst",
+  "clicZoneId": 1285,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1285",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/calculom/jclic/calculom.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 2087,
+  "mediaFiles": 6,
+  "totalSize": 10349104,
+  "files": [
+    "cover.gif",
+    "jclic.js/calculom.jclic",
+    "jclic.js/ci/ci.jclic",
+    "jclic.js/ci/fipac.gif",
+    "jclic.js/ci/portada.gif",
+    "jclic.js/cm/cm.jclic",
+    "jclic.js/cm/fipac.gif",
+    "jclic.js/cm/portada.gif",
+    "jclic.js/cs/cs.jclic",
+    "jclic.js/cs/fipac.gif",
+    "jclic.js/cs/portada.gif",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/calculom.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "jclic.js/ci/ci.jclic.js",
+    "jclic.js/cm/cm.jclic.js",
+    "jclic.js/cs/cs.jclic.js",
+    "cover.webp"
+  ]
+}

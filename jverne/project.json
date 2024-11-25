@@ -1,0 +1,122 @@
+{
+  "id": 2259,
+  "title": "Coneixes Jules Verne?",
+  "author": "Mireia Suñer Garriga",
+  "school": "Escola Alexandre Galí Barcelona",
+  "date": "15/06/12",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Social sciences, Languages",
+    "ca": "Ciències socials, Llengües",
+    "es": "Ciencias sociales, Lenguas"
+  },
+  "areaCodes": [
+    "soc",
+    "lleng"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "mitjans de transport, Jules Verne",
+    "es": "medios de transporte, Jules Verne",
+    "en": "ways of transport, Jules Verne"
+  },
+  "descCodes": [
+    904,
+    1436
+  ],
+  "description": {
+    "en": "Project of activities about Jules Verne: \n<ul> \n <li>Jules Verne biography </li>\n <li>His works </li>\n <li>Transports in his works </li>\n</ul>",
+    "ca": "El projecte \n<i>Coneixes Jules Verne?</i> està format per un conjunt d'activitats variades i motivadores que treballen aspectes sobre Jules Verne: \n<ul> \n <li>biografia de Jules Verne </li>\n <li>obres destacades </li>\n <li>mitjans de transport de les seves obres </li>\n</ul>",
+    "es": "El proyecto \n<i>Coneixes Jules Verne?</i> está formado por un conjunto de actividades variadas y motivadoras que trabajan aspectos sobre Jules Verne: \n<ul> \n <li>biografía de Jules Verne </li>\n <li>obras destacadas </li>\n <li>medios de transporte de sus obras </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/jverne.jclic",
+  "cover": "cover.png",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/jverne.jclic.zip",
+  "instFile": "jclic/jverne.jclic.inst",
+  "clicZoneId": 3777,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3777",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/jverne/jclic/jverne.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 19,
+  "mediaFiles": 41,
+  "totalSize": 2902945,
+  "files": [
+    "cover.png",
+    "jclic.js/20000_leguas.jpg",
+    "jclic.js/acierto1.mp3",
+    "jclic.js/aplauso1.mp3",
+    "jclic.js/bateria2.wav",
+    "jclic.js/cames_resized.jpg",
+    "jclic.js/centre_terra_resized.jpg",
+    "jclic.js/cohete_resized.jpg",
+    "jclic.js/de_la_terra_ala_lluna_resized.jpg",
+    "jclic.js/error1.mp3",
+    "jclic.js/error2.mp3",
+    "jclic.js/globo_resized.jpg",
+    "jclic.js/i01_centre_terra_resized.jpg",
+    "jclic.js/i01_cohete_resized.jpg",
+    "jclic.js/i01_de_la_terra_ala_lluna_resized.jpg",
+    "jclic.js/i01_globo_resized.jpg",
+    "jclic.js/i01_i01_20000_leguas.jpg",
+    "jclic.js/i01_isla_resized.jpg",
+    "jclic.js/i01_mapa1.jpg",
+    "jclic.js/i02_acierto1.mp3",
+    "jclic.js/i02_cohet.mp3",
+    "jclic.js/i02_error1.mp3",
+    "jclic.js/i02_globo.mp3",
+    "jclic.js/i02_i01_20000_leguas.jpg",
+    "jclic.js/i02_i01_acierto1.mp3",
+    "jclic.js/i02_i01_trompetilla.mp3",
+    "jclic.js/i02_i01_yuhuuuu.mp3",
+    "jclic.js/i02_i02_matasuegras.mp3",
+    "jclic.js/i02_jules_verne_veu.mp3",
+    "jclic.js/i02_tren.mp3",
+    "jclic.js/i02_vaixell.mp3",
+    "jclic.js/i04_aplauso1.mp3",
+    "jclic.js/jules_vern5.jpg",
+    "jclic.js/jverne.jclic",
+    "jclic.js/mapa1.jpg",
+    "jclic.js/matasuegras.mp3",
+    "jclic.js/mire_resized.jpg",
+    "jclic.js/sin_titulo.png",
+    "jclic.js/submari.jpg",
+    "jclic.js/tren.gif",
+    "jclic.js/trompetilla.mp3",
+    "jclic.js/vaixell.gif",
+    "jclic.js/yuhuuuu.mp3",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/jverne.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

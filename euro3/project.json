@@ -1,0 +1,115 @@
+{
+  "id": 793,
+  "title": "El Euro - 3",
+  "author": "Frutos Ballesteros Gonzalez",
+  "school": "CRA Jorge Manrique La Alberca de Záncara (Castilla - La Mancha)",
+  "date": "30/07/02",
+  "languages": {
+    "en": "Spanish",
+    "ca": "espanyol",
+    "es": "español"
+  },
+  "langCodes": [
+    "es"
+  ],
+  "areas": {
+    "en": "Social sciences",
+    "ca": "Ciències socials",
+    "es": "Ciencias sociales"
+  },
+  "areaCodes": [
+    "soc"
+  ],
+  "levels": {
+    "en": "Secondary school (12-16)",
+    "ca": "Secundària (12-16)",
+    "es": "Secundaria (12-16)"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "descriptors": {
+    "ca": "economia, UE",
+    "es": "economía, UE",
+    "en": "economy, EU"
+  },
+  "descCodes": [
+    211,
+    356
+  ],
+  "description": {
+    "en": "Designed for 1º and 2º of ESO. In it are developed activities to become acquainted with the euro. For example the exchange rate, its aspect,etc. There are sounds, graphics, puzzles, etc.",
+    "ca": "Paquet adreçat a 1er i 2on d'ESO on es plantegen diferents activitats relacionades amb l'Euro: equivalències amb la pesseta, monedes i bitllets, països de la unió monetària, etc.",
+    "es": "Paquete diseñado para estudiantes de 1º y 2º de ESO en el que se desarrollan diferentes actividades relacionadas con el euro: intercambio con la peseta, monedas y billetes, países de la unión monetaria, etc."
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/euro3.jclic",
+  "cover": "cover.gif",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/euro3.jclic.zip",
+  "instFile": "jclic/euro3.jclic.inst",
+  "clicZoneId": 1435,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_es.jsp?id=1435",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/euro3/jclic/euro3.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 43,
+  "mediaFiles": 35,
+  "totalSize": 983275,
+  "files": [
+    "cover.gif",
+    "jclic.js/10000pt1.jpg",
+    "jclic.js/1000pts1.jpg",
+    "jclic.js/100euro1.jpg",
+    "jclic.js/10centeu.jpg",
+    "jclic.js/10euros1.jpg",
+    "jclic.js/1centeur.jpg",
+    "jclic.js/1euro.jpg",
+    "jclic.js/1pts.jpg",
+    "jclic.js/2000pts1.jpg",
+    "jclic.js/200euro1.jpg",
+    "jclic.js/200euros.jpg",
+    "jclic.js/20centeu.jpg",
+    "jclic.js/2centeur.jpg",
+    "jclic.js/5000pts1.jpg",
+    "jclic.js/500euro1.jpg",
+    "jclic.js/50centeu.jpg",
+    "jclic.js/50euros.jpg",
+    "jclic.js/5centeur.jpg",
+    "jclic.js/5euros.jpg",
+    "jclic.js/5euros1.jpg",
+    "jclic.js/alhambra.mid",
+    "jclic.js/bandera.jpg",
+    "jclic.js/e_euro.jpg",
+    "jclic.js/euro3.jclic",
+    "jclic.js/euros12.jpg",
+    "jclic.js/euros22.jpg",
+    "jclic.js/euros33.jpg",
+    "jclic.js/granada.mid",
+    "jclic.js/letitbe.mid",
+    "jclic.js/paises1.jpg",
+    "jclic.js/paises2.jpg",
+    "jclic.js/peseta11.jpg",
+    "jclic.js/peseta22.jpg",
+    "jclic.js/peseta33.jpg",
+    "jclic.js/romance.mid",
+    "jclic.js/sintonia.mid",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/euro3.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}

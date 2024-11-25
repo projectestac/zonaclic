@@ -1,0 +1,101 @@
+{
+  "id": 2051,
+  "title": "Les formigues",
+  "author": "M. Rosa Vilaró Morato i Maria Bassagaña Faja",
+  "school": "C. Casals Gràcia Manlleu (Osona)",
+  "date": "14/05/10",
+  "languages": {
+    "en": "Catalan",
+    "ca": "català",
+    "es": "catalán"
+  },
+  "langCodes": [
+    "ca"
+  ],
+  "areas": {
+    "en": "Experimental sciences",
+    "ca": "Ciències experimentals",
+    "es": "Ciencias experimentales"
+  },
+  "areaCodes": [
+    "exp"
+  ],
+  "levels": {
+    "en": "Primary school (6-12)",
+    "ca": "Primària (6-12)",
+    "es": "Primaria (6-12)"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "descriptors": {
+    "ca": "invertebrats, formiga",
+    "es": "invertebrados, hormiga",
+    "en": "invertebrates, ant"
+  },
+  "descCodes": [
+    82,
+    1360
+  ],
+  "description": {
+    "en": "Project of activities about ants addressed to primary school. Several features about these invertebrates are shown throughout the project: \n<ul> \n <li>How the ants live</li> \n  <li>Anatomy </li>\n  <li>Ant colonies </li>\n  <li>Metamorphosis </li>\n  <li>... </li>\n</ul>",
+    "ca": "Projecte d'activitats sobre les formigues adreçat a cicle mitjà d'educació primària. Al llarg del projecte es treballen els següents aspectes sobre aquests petits animals invertebrats: \n<ul> \n <li>Com viuen les formigues </li>\n <li>Anatomia </li>\n <li>Els formiguers </li>\n <li>La metamorfosi </li>\n <li>... </li>\n</ul>",
+    "es": "Proyecto de actividades sobre las hormigas dirigido a ciclo medio de educación primaria. A lo largo del proyecto se trabajan los siguientes aspectos de estos pequeños animales invertebrados: \n<ul> \n <li>Cómo viven las hormigas </li>\n <li>Anatomía </li>\n <li>Los hormigueros </li>\n <li>La metamorfosis </li>\n <li>... </li>\n</ul>"
+  },
+  "license": {
+    "en": "Licensed under a Creative Commons license <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "ca": "Aquesta obra està sota una llicència de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>",
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA</a>"
+  },
+  "mainFile": "jclic.js/formigue.jclic",
+  "cover": "cover.jpg",
+  "coverWebp": "cover.webp",
+  "thumbnail": "thumb.png",
+  "zipFile": "jclic/formigue.jclic.zip",
+  "instFile": "jclic/formigue.jclic.inst",
+  "clicZoneId": 3620,
+  "clicZoneURL": "http://clic.xtec.cat/db/act_ca.jsp?id=3620",
+  "clicZoneAppletURL": "http://clic.xtec.cat/db/jclicApplet.jsp?project=http://clic.xtec.cat/projects/formigue/jclic/formigue.jclic.zip",
+  "meta_langs": [
+    "ca",
+    "es",
+    "en"
+  ],
+  "activities": 18,
+  "mediaFiles": 21,
+  "totalSize": 2429160,
+  "files": [
+    "cover.jpg",
+    "jclic.js/4084formigues.jpg",
+    "jclic.js/acoblament.jpg",
+    "jclic.js/adult1.jpg",
+    "jclic.js/capoll.jpg",
+    "jclic.js/cuidant_la_reina.jpg",
+    "jclic.js/formiga_perfecta.jpg",
+    "jclic.js/formiga_retolada.jpg",
+    "jclic.js/formigue.jclic",
+    "jclic.js/formiguer1.jpg",
+    "jclic.js/formigues_alades.jpg",
+    "jclic.js/gran_soldat.jpg",
+    "jclic.js/huevos1.jpg",
+    "jclic.js/huevos_2.jpg",
+    "jclic.js/larves1.jpg",
+    "jclic.js/mascle.jpg",
+    "jclic.js/obrera1.jpg",
+    "jclic.js/portada1.jpg",
+    "jclic.js/pupas_desnudas2.jpg",
+    "jclic.js/reina.jpg",
+    "jclic.js/reina2.jpg",
+    "jclic.js/reina_treu_ales.jpg",
+    "jclic.js/sortint_del_formiguer.jpg",
+    "project.json",
+    "thumb.png",
+    "jclic.js/index.html",
+    "jclic.js/formigue.jclic.js",
+    "jclic.js/favicon.ico",
+    "jclic.js/icon-72.png",
+    "jclic.js/icon-192.png",
+    "jclic.js/imsmanifest.xml",
+    "cover.webp"
+  ]
+}
