@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test the new JClic repo - User's library</title>
+  <script type="text/javascript" src="/dist/repo/jclic-repo.min.js"></script>
+</head>
+
+<body>
+  <jclic-user-lib 
+    style="padding:1rem" 
+    data-lang="ca" 
+    data-users-path="/repo_new/users/" 
+    data-users-base="/users"
+    data-user-lib-api="/db" 
+    data-repo-path="/repo_new/repo/" 
+    data-repo-base="/projects"
+    data-repo-list="/projects/projects.json" 
+    data-jclic-search-service="/db/repo-search/" 
+    data-display-title="true"
+    data-display-back-to-top="false"
+  />
+</body>
